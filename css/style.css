@@ -329,93 +329,67 @@ blockquote p:last-child {
   font-size: var(--text-sm);
 }
 
-/* ---- Project / Writing List Items ---- */
+/* ---- Entry List (shared pattern) ---- */
 
-.item-list {
+.entry-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
-.item-list li {
-  margin-bottom: 1.5rem;
+.entry {
+  padding: 1.25rem 0;
+  border-bottom: 1.5px solid var(--border);
 }
 
-.item-list a {
-  text-decoration: none;
-  display: block;
+.entry:first-child {
+  padding-top: 0;
 }
 
-.item-list a:hover .item-title {
-  text-decoration: underline;
-  text-underline-offset: 2px;
+.entry:last-child {
+  border-bottom: none;
 }
 
-.item-title {
-  font-weight: 600;
-  font-family: var(--font-ui);
-}
-
-.item-meta {
-  font-size: var(--text-sm);
-  color: var(--text-muted);
-  font-family: var(--font-ui);
-}
-
-.item-summary {
-  color: var(--text-muted);
-  font-size: var(--text-sm);
-  margin-top: 0.2rem;
-}
-
-/* ---- Project Cards ---- */
-
-.projects {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-}
-
-.project-card {
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 1.25rem;
-  background: var(--code-bg);
-}
-
-.project-title {
+.entry-title {
   font-family: inherit;
-  font-size: var(--text-base);
   font-weight: 600;
-  margin: 0 0 0.35rem;
-  line-height: 1.3;
+  margin: 0 0 0.2rem;
 }
 
-.project-desc {
+.entry-meta {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  margin-bottom: 0.15rem;
+}
+
+.entry-desc {
   color: var(--text-muted);
   font-size: var(--text-sm);
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.5rem;
+  line-height: 1.4;
 }
 
-.project-links {
+.entry-links {
   font-family: var(--font-ui);
   font-size: var(--text-sm);
   margin: 0;
 }
 
-.project-links a {
+.entry-links a {
   text-decoration: none;
 }
 
-.project-links a:hover {
+.entry-links a:hover {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
-.project-live {
+.entry-link-primary {
   font-weight: 600;
 }
 
-.project-sep {
+.entry-sep {
   color: var(--text-muted);
   margin: 0 0.4rem;
 }
@@ -436,7 +410,7 @@ article .post-date {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
   font-family: var(--font-ui);
 }
 
@@ -460,25 +434,10 @@ article .post-date {
   color: var(--tag-active-text);
 }
 
-.quote-list {
-  list-style: none;
-  padding: 0;
-}
-
-.quote-list li {
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.quote-list li:last-child {
-  border-bottom: none;
-}
-
 .quote-text {
-  font-size: var(--text-lg);
-  line-height: 1.6;
-  margin-bottom: 0.5rem;
+  font-size: var(--text-base);
+  line-height: 1.5;
+  margin-bottom: 0.35rem;
 }
 
 .quote-attr {
@@ -490,7 +449,7 @@ article .post-date {
 .quote-note {
   font-size: var(--text-sm);
   color: var(--text-muted);
-  margin-top: 0.5rem;
+  margin-top: 0.35rem;
   font-style: italic;
 }
 
