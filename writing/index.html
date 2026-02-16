@@ -15,14 +15,25 @@
   <div class="container">
     <header>
       <nav>
-        <a href="/" class="site-name">Brett Davey</a>
+        <div class="site-title">
+          <a href="/" class="site-name">Brett Davey</a>
+          <div class="site-status">Building in San Diego 🌊☀️</div>
+        </div>
         <div class="nav-links">
           <a href="/projects/">Projects</a>
           <a href="/writing/" aria-current="page">Writing</a>
           <a href="/quotes.html">Quotes</a>
+        </div>
+        <div class="nav-actions">
+          <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
           <button class="theme-toggle" aria-label="Toggle dark mode">☽</button>
         </div>
       </nav>
+      <div id="mobile-nav" class="mobile-nav" hidden>
+        <a href="/projects/">Projects</a>
+        <a href="/writing/" aria-current="page">Writing</a>
+        <a href="/quotes.html">Quotes</a>
+      </div>
     </header>
 
     <main>

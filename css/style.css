@@ -139,18 +139,22 @@ nav a[aria-current="page"] {
   color: var(--text);
 }
 
+/* ---- Nav Actions (toggle + menu) ---- */
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
 /* ---- Dark Mode Toggle ---- */
 
 .theme-toggle {
-  position: fixed;
-  top: 14px;
-  right: 14px;
-  z-index: 1000;
   background: none;
   border: none;
   cursor: pointer;
   font-size: 1rem;
-  padding: 0.5rem;
+  padding: 0.25rem;
   color: var(--text-muted);
   font-family: var(--font-ui);
   line-height: 1;
@@ -204,7 +208,7 @@ nav a[aria-current="page"] {
 /* ---- Main Content ---- */
 
 main {
-  padding: 2rem 0 4rem;
+  padding: 1.5rem 0 2.5rem;
 }
 
 h1 {
@@ -262,7 +266,7 @@ li {
 hr {
   border: none;
   border-top: 1px solid var(--border);
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 /* ---- Code ---- */
@@ -304,7 +308,7 @@ blockquote p:last-child {
 /* ---- Section Helpers ---- */
 
 .section {
-  margin-bottom: 2.5rem;
+  margin-bottom: 0;
 }
 
 .section-label {
@@ -536,11 +540,15 @@ article .post-date {
 /* ---- Footer ---- */
 
 footer {
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-top: 1px solid var(--border);
   font-family: var(--font-ui);
   font-size: var(--text-sm);
   color: var(--text-muted);
+}
+
+footer p {
+  margin: 0;
 }
 
 /* ---- Responsive ---- */
@@ -548,17 +556,25 @@ footer {
 @media (max-width: 600px) {
   :root {
     --text-base: 1rem;
-    --text-2xl: 1.625rem;
-    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-xl: 1.15rem;
     --gutter: 1.25rem;
   }
 
   header {
-    padding: 1.5rem 0 0.75rem;
+    padding: 1.25rem 0 0.5rem;
   }
 
   main {
-    padding: 1.5rem 0 3rem;
+    padding: 1rem 0 2rem;
+  }
+
+  h1 {
+    margin: 0 0 0.75rem;
+  }
+
+  h2 {
+    margin: 1.5rem 0 0.75rem;
   }
 
   .nav-links {
@@ -567,11 +583,18 @@ footer {
 
   .menu-toggle {
     display: block;
-    margin-right: 52px;
+  }
+
+  hr {
+    margin: 1.25rem 0;
   }
 
   .build-item {
     margin-bottom: 0.7rem;
+  }
+
+  footer {
+    padding: 0.75rem 0;
   }
 }
 
