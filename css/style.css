@@ -208,7 +208,11 @@ nav a[aria-current="page"] {
 /* ---- Main Content ---- */
 
 main {
-  padding: 1.5rem 0 2.5rem;
+  padding: 1rem 0 2.5rem;
+}
+
+main > .section:first-child {
+  margin-top: -0.25rem;
 }
 
 h1 {
@@ -463,6 +467,22 @@ article .post-date {
   line-height: 1.3;
 }
 
+/* ---- Shipped List ---- */
+
+.shipped-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.shipped-list li {
+  margin-bottom: 0.9rem;
+}
+
+.shipped-list li:last-child {
+  margin-bottom: 0;
+}
+
 /* ---- Build List ---- */
 
 .build-list {
@@ -477,7 +497,7 @@ article .post-date {
 
 .build-title {
   font-family: inherit;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .build-note {
@@ -508,6 +528,12 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+.footer-status {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
 }
 
 /* ---- Responsive ---- */
