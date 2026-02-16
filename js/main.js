@@ -29,6 +29,26 @@
     });
   }
 
+  // ---- Mobile Menu ----
+  const menuToggle = document.querySelector('.menu-toggle');
+  const mobileNav = document.getElementById('mobile-nav');
+  if (menuToggle && mobileNav) {
+    menuToggle.addEventListener('click', () => {
+      const open = mobileNav.hidden;
+      mobileNav.hidden = !open;
+      menuToggle.setAttribute('aria-expanded', open);
+      menuToggle.textContent = open ? 'Close' : 'Menu';
+    });
+
+    mobileNav.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        mobileNav.hidden = true;
+        menuToggle.setAttribute('aria-expanded', 'false');
+        menuToggle.textContent = 'Menu';
+      });
+    });
+  }
+
   // ---- Quote Tag Filtering ----
   const tagContainer = document.querySelector('.quote-tags');
   if (tagContainer) {
