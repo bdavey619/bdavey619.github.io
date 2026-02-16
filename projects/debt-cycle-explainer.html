@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Debt Cycle Explainer — Brett Davey</title>
+  <meta name="description" content="An interactive visual guide to how government debt, money printing, and loss of foreign confidence form a self-reinforcing cycle that erodes currency value.">
+  <meta property="og:title" content="Debt Cycle Explainer — Brett Davey">
+  <meta property="og:description" content="An interactive visual guide to how government debt, money printing, and loss of foreign confidence form a self-reinforcing cycle that erodes currency value.">
+  <meta property="og:type" content="article">
+  <link rel="canonical" href="https://bdavey619.github.io/projects/debt-cycle-explainer.html">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <a href="/" class="site-name">Brett Davey</a>
+        <div class="nav-links">
+          <a href="/projects/" aria-current="page">Projects</a>
+          <a href="/writing/">Writing</a>
+          <a href="/quotes.html">Quotes</a>
+          <button class="theme-toggle" aria-label="Toggle dark mode">☽</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h1>Debt Cycle Explainer</h1>
+        <p class="muted">An interactive visual guide to how government debt, money printing, and loss of foreign confidence form a self-reinforcing cycle that erodes currency value.</p>
+
+        <h2>Why I built it</h2>
+        <p>I was listening to Ray Dalio's conversation on the Tucker Carlson podcast and appreciated how clearly he broke down complex macroeconomic mechanics. I started sketching a flowchart in a notebook to map the logic — how overspending leads to a supply/demand imbalance in Treasuries, which splits into two parallel consequences: domestic rate pressure and foreign confidence erosion. Both paths converge at currency depreciation, which feeds back into the cycle.</p>
+        <p>I wanted to turn those handwritten notes into something shareable and grounded in real data — not just theory, but a picture of where the U.S. actually stands right now.</p>
+
+        <h2>What it does</h2>
+        <p>The page walks through the debt cycle step by step, with an expandable flowchart that branches into two parallel streams (domestic mechanics and foreign response) before converging at currency depreciation and the political dilemma. Each step has a summary and a detailed explanation you can expand.</p>
+        <p>Above the flowchart, a data dashboard grounds the framework in current U.S. numbers — debt levels, interest payments, foreign holdings trends, and gold prices — so you can see the cycle playing out in real time, not just in theory.</p>
+
+        <h2>The data</h2>
+        <ul>
+          <li>$36.2T gross national debt (~120% of GDP)</li>
+          <li>$952B in interest payments in FY2024 — now exceeding defense spending</li>
+          <li>Foreign share of U.S. debt declining from 43% (2014) to 30% (2024)</li>
+          <li>China's Treasury holdings down 47% from their 2013 peak</li>
+          <li>Gold surpassing $3,100/oz in 2025, up 40%+ over the prior year</li>
+          <li>1,045 tonnes of central bank gold purchases in 2024</li>
+        </ul>
+        <p>Sourced from the U.S. Treasury, Congressional Budget Office, Congressional Research Service, World Gold Council, and other public sources.</p>
+
+        <h2>Features</h2>
+        <ul>
+          <li>Branching flowchart with parallel domestic and foreign response streams</li>
+          <li>Expandable detail on each step with real data points</li>
+          <li>Data dashboard with federal spending breakdown and China holdings trend</li>
+          <li>Historical precedents sidebar (FDR 1933, 1970s stagflation, sanctions)</li>
+          <li>Political dilemma visualization (austerity vs. print)</li>
+          <li>Responsive design — works on mobile and desktop</li>
+          <li>Self-contained single HTML file — no dependencies, no build step</li>
+        </ul>
+
+        <h3>Built with</h3>
+        <p class="muted">HTML, CSS, vanilla JS, Claude Code. Data from U.S. Treasury, CBO, World Gold Council, and other public sources.</p>
+
+        <p><a href="https://github.com/bdavey619/debt-cycle-explainer" target="_blank" rel="noopener">View on GitHub →</a></p>
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Brett Davey</p>
+    </footer>
+  </div>
+  <script src="../js/main.js"></script>
+</body>
+</html>
