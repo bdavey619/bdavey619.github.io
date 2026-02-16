@@ -100,8 +100,9 @@ header {
 
 .site-name {
   font-family: var(--font-ui);
-  font-size: var(--text-base);
+  font-size: var(--text-xl);
   font-weight: 600;
+  letter-spacing: -0.01em;
   text-decoration: none;
   color: var(--text);
 }
@@ -475,12 +476,18 @@ article .post-date {
   margin: 0;
 }
 
-.shipped-list li {
-  margin-bottom: 0.9rem;
+.shipped-item {
+  margin-bottom: 0.75rem;
 }
 
-.shipped-list li:last-child {
+.shipped-item:last-child {
   margin-bottom: 0;
+}
+
+.shipped-link {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* ---- Build List ---- */
