@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dockside Market — Brett Davey</title>
+  <meta name="description" content="An interactive dashboard tracking fish prices and availability from San Diego's Tuna Harbor dockside market.">
+  <meta property="og:title" content="Dockside Market — Brett Davey">
+  <meta property="og:description" content="An interactive dashboard tracking fish prices and availability from San Diego's Tuna Harbor dockside market.">
+  <meta property="og:type" content="article">
+  <link rel="canonical" href="https://bdavey619.github.io/projects/dockside-market.html">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <a href="/" class="site-name">Brett Davey</a>
+        <div class="nav-links">
+          <a href="/projects/" aria-current="page">Projects</a>
+          <a href="/writing/">Writing</a>
+          <a href="/quotes.html">Quotes</a>
+          <button class="theme-toggle" aria-label="Toggle dark mode">☽</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h1>Dockside Market</h1>
+        <p class="muted">An interactive dashboard for San Diego's Tuna Harbor fish market.</p>
+
+        <h2>Why I built it</h2>
+        <p>I go to the Tuna Harbor Dockside Market most Saturdays. Every week, the market sends out an email with what's available — species, prices, which boats are selling. But a single email doesn't tell you much. Is $18/lb for yellowtail a good deal? What's in season right now? What was that white fish I liked three months ago?</p>
+        <p>I wanted to make smarter buying decisions, so I built a tool that parses years of those email newsletters and surfaces the answers.</p>
+
+        <h2>What it does</h2>
+        <p>The dashboard shows this week's offerings alongside historical context. You can see current prices grouped by boat, compare against past pricing, and check seasonality patterns across nearly three years of data.</p>
+        <p>Each species gets a detailed card with flavor profile, cooking instructions, nutritional info, and a value rating based on how the current price compares to its historical range. The dashboard flags deals automatically — if yellowtail is cheaper than usual, it tells you.</p>
+
+        <h2>The data</h2>
+        <ul>
+          <li>73 weeks of market data (April 2023 – February 2026)</li>
+          <li>2,021 individual price entries</li>
+          <li>66 unique species tracked</li>
+          <li>30+ species with detailed cards — cooking tips, flavor profiles, macros</li>
+        </ul>
+        <p>All sourced from the market's weekly email newsletters. I wrote a parser to extract structured pricing data from the email archives, converting unstructured market updates into a clean dataset with standardized names, prices, and bulk options.</p>
+
+        <h2>Features</h2>
+        <ul>
+          <li>Current week's offerings grouped by boat, with price and availability</li>
+          <li>Deal detection — flags when a species is priced below its historical average</li>
+          <li>Price history charts with time range filters</li>
+          <li>Seasonality heatmap showing when species tend to appear</li>
+          <li>Species cards with flavor profiles, cooking difficulty, nutritional macros, and value ratings</li>
+          <li>Sortable statistics table across all tracked species</li>
+        </ul>
+
+        <h3>Built with</h3>
+        <p class="muted">HTML, CSS, vanilla JS, Chart.js, Claude Code. Data from Tuna Harbor Dockside Market email newsletters.</p>
+
+        <p><a href="https://github.com/bdavey619/dockside-market" target="_blank" rel="noopener">View on GitHub →</a></p>
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Brett Davey</p>
+    </footer>
+  </div>
+  <script src="../js/main.js"></script>
+</body>
+</html>
