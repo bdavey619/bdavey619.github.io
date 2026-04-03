@@ -39,7 +39,10 @@
     </header>
 
     <div id="lightbox" class="lightbox" hidden>
+      <button class="lightbox-close" aria-label="Close">&times;</button>
+      <button class="lightbox-prev" aria-label="Previous">&#8249;</button>
       <img src="" alt="">
+      <button class="lightbox-next" aria-label="Next">&#8250;</button>
     </div>
 
     <main>
@@ -68,25 +71,45 @@
   <script>
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = lightbox.querySelector('img');
+    const imgs = Array.from(document.querySelectorAll('.photo-grid img'));
+    let current = 0;
 
-    document.querySelector('.photo-grid').addEventListener('click', function(e) {
-      if (e.target.tagName === 'IMG') {
-        lightboxImg.src = e.target.src;
-        lightboxImg.alt = e.target.alt;
-        lightbox.removeAttribute('hidden');
-      }
-    });
+    function open(index) {
+      current = index;
+      lightboxImg.src = imgs[current].src;
+      lightbox.removeAttribute('hidden');
+    }
 
-    lightbox.addEventListener('click', function() {
+    function close() {
       lightbox.setAttribute('hidden', '');
       lightboxImg.src = '';
+    }
+
+    function prev() {
+      open((current - 1 + imgs.length) % imgs.length);
+    }
+
+    function next() {
+      open((current + 1) % imgs.length);
+    }
+
+    imgs.forEach(function(img, i) {
+      img.addEventListener('click', function() { open(i); });
+    });
+
+    lightbox.querySelector('.lightbox-close').addEventListener('click', close);
+    lightbox.querySelector('.lightbox-prev').addEventListener('click', function(e) { e.stopPropagation(); prev(); });
+    lightbox.querySelector('.lightbox-next').addEventListener('click', function(e) { e.stopPropagation(); next(); });
+
+    lightbox.addEventListener('click', function(e) {
+      if (e.target === lightbox || e.target === lightboxImg) close();
     });
 
     document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') {
-        lightbox.setAttribute('hidden', '');
-        lightboxImg.src = '';
-      }
+      if (lightbox.hasAttribute('hidden')) return;
+      if (e.key === 'Escape') close();
+      if (e.key === 'ArrowLeft') prev();
+      if (e.key === 'ArrowRight') next();
     });
   </script>
 </body>
