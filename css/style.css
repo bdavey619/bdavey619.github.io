@@ -570,6 +570,38 @@ footer p {
   }
 }
 
+/* ---- Photo Grid ---- */
+
+.container--wide {
+  max-width: 960px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+.photo-grid img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ---- Print ---- */
 
 @media print {
