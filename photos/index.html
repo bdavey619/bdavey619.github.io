@@ -38,6 +38,10 @@
       </div>
     </header>
 
+    <div id="lightbox" class="lightbox" hidden>
+      <img src="" alt="">
+    </div>
+
     <main>
       <div class="photo-grid">
         <img src="images/DSC03434.JPG" alt="">
@@ -61,5 +65,29 @@
     </footer>
   </div>
   <script src="../js/main.js"></script>
+  <script>
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = lightbox.querySelector('img');
+
+    document.querySelector('.photo-grid').addEventListener('click', function(e) {
+      if (e.target.tagName === 'IMG') {
+        lightboxImg.src = e.target.src;
+        lightboxImg.alt = e.target.alt;
+        lightbox.removeAttribute('hidden');
+      }
+    });
+
+    lightbox.addEventListener('click', function() {
+      lightbox.setAttribute('hidden', '');
+      lightboxImg.src = '';
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        lightbox.setAttribute('hidden', '');
+        lightboxImg.src = '';
+      }
+    });
+  </script>
 </body>
 </html>
