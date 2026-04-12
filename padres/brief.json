@@ -1,0 +1,255 @@
+{
+  "generated_at": "2026-04-12T16:55:25+00:00",
+  "season": 2026,
+  "team": {
+    "record": "9-6",
+    "streak": "W4",
+    "run_diff": "+9",
+    "last10": "8-2",
+    "division_rank": 2,
+    "games_back": "2.5",
+    "avg": ".219",
+    "ops": ".663",
+    "era": "3.51"
+  },
+  "last_game": {
+    "status": "final",
+    "gamePk": 823316,
+    "date": "2026-04-11",
+    "opponent": "COL",
+    "home": true,
+    "result": "W",
+    "score": {
+      "sd": 9,
+      "opp": 5
+    },
+    "linescore": [
+      [
+        0,
+        0,
+        3,
+        3,
+        0,
+        3,
+        0,
+        0,
+        ""
+      ],
+      [
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "decisions": {
+      "win": "Germ\u00e1n M\u00e1rquez",
+      "win_team": "sd",
+      "loss": "Ryan Feltner",
+      "loss_team": "opp",
+      "save": "Jason Adam",
+      "save_team": "sd"
+    },
+    "key_hitters": [
+      {
+        "name": "Fernando Tatis Jr.",
+        "line": "3-4, 1 RBI"
+      },
+      {
+        "name": "Ram\u00f3n Laureano",
+        "line": "2-3, 1 HR, 3 RBI"
+      }
+    ],
+    "key_pitcher": {
+      "name": "Germ\u00e1n M\u00e1rquez",
+      "line": "5.0 IP, 4 H, 4 ER, 5 K"
+    },
+    "context_line": "Home \u00b7 Petco Park \u00b7 Night game",
+    "game_note": "Laureano's home run was part of a 3-run third that put the Padres in front for good.",
+    "full_box": {
+      "batting": [
+        {
+          "name": "Ram\u00f3n Laureano",
+          "ab": 3,
+          "r": 3,
+          "h": 2,
+          "rbi": 3,
+          "bb": 2,
+          "so": 0
+        },
+        {
+          "name": "Fernando Tatis Jr.",
+          "ab": 4,
+          "r": 0,
+          "h": 3,
+          "rbi": 1,
+          "bb": 1,
+          "so": 1
+        },
+        {
+          "name": "Jackson Merrill",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 3,
+          "bb": 1,
+          "so": 1
+        },
+        {
+          "name": "Manny Machado",
+          "ab": 5,
+          "r": 1,
+          "h": 1,
+          "rbi": 2,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Nick Castellanos",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "so": 0
+        },
+        {
+          "name": "Gavin Sheets",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 2
+        },
+        {
+          "name": "Miguel Andujar",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Freddy Fermin",
+          "ab": 2,
+          "r": 2,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "so": 0
+        },
+        {
+          "name": "Jake Cronenworth",
+          "ab": 3,
+          "r": 1,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "so": 1
+        }
+      ],
+      "pitching": [
+        {
+          "name": "Germ\u00e1n M\u00e1rquez",
+          "ip": "5.0",
+          "h": 4,
+          "er": 4,
+          "k": 5,
+          "bb": 2
+        },
+        {
+          "name": "Wandy Peralta",
+          "ip": "1.1",
+          "h": 1,
+          "er": 0,
+          "k": 2,
+          "bb": 1
+        },
+        {
+          "name": "Ron Marinaccio",
+          "ip": "1.2",
+          "h": 2,
+          "er": 1,
+          "k": 2,
+          "bb": 0
+        },
+        {
+          "name": "Bradgley Rodriguez",
+          "ip": "0.2",
+          "h": 2,
+          "er": 0,
+          "k": 1,
+          "bb": 1
+        },
+        {
+          "name": "Jason Adam",
+          "ip": "0.1",
+          "h": 0,
+          "er": 0,
+          "k": 0,
+          "bb": 0
+        }
+      ]
+    }
+  },
+  "next_game": {
+    "gamePk": 823317,
+    "date": "2026-04-12",
+    "opponent": "COL",
+    "home": true,
+    "time_local": "1:10 PM PT",
+    "probable": {
+      "sd": "Nick Pivetta",
+      "opp": "Kyle Freeland"
+    }
+  },
+  "standings": [
+    {
+      "team": "Dodgers",
+      "w": 11,
+      "l": 3,
+      "gb": "-"
+    },
+    {
+      "team": "Padres",
+      "w": 9,
+      "l": 6,
+      "gb": "2.5"
+    },
+    {
+      "team": "D-backs",
+      "w": 8,
+      "l": 7,
+      "gb": "3.5"
+    },
+    {
+      "team": "Giants",
+      "w": 6,
+      "l": 9,
+      "gb": "5.5"
+    },
+    {
+      "team": "Rockies",
+      "w": 6,
+      "l": 9,
+      "gb": "5.5"
+    }
+  ],
+  "hot_players": {
+    "hitters": [],
+    "pitchers": []
+  },
+  "subhead": "Padres win their fourth straight, Laureano leading the way \u2014 2.5 back in the West.",
+  "insight": {
+    "headline": "The pitching staff is carrying this run.",
+    "detail": "San Diego has won eight of their last ten despite a .663 OPS \u2014 the staff ERA of 3.51 has been doing the heavy lifting while the lineup finds its footing. They're 2.5 back in the NL West. If the offense wakes up, this team gets dangerous fast.",
+    "why": "staff carrying (3.51 ERA) \u00b7 quiet bats (.663 OPS) \u00b7 8\u20132 in the last ten"
+  }
+}

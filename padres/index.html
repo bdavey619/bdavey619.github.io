@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Padres Morning Brief</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="brief">
+    <!-- Masthead -->
+    <header class="masthead">
+      <div class="masthead-meta">
+        <span id="brief-date">—</span>
+        <span class="updated">Updated this morning</span>
+      </div>
+      <h1 class="masthead-title">Padres Morning Brief</h1>
+      <div class="masthead-rule"></div>
+      <p id="masthead-subhead" class="masthead-subhead" hidden></p>
+    </header>
+
+    <!-- Top Summary Bar -->
+    <section id="summary-bar" class="summary-bar" hidden>
+      <div><span class="label">Record</span><span class="value" id="sb-record">—</span></div>
+      <div><span class="label">NL West</span><span class="value" id="sb-rank">—</span></div>
+      <div><span class="label">Streak</span><span class="value" id="sb-streak">—</span></div>
+      <div><span class="label">Last 10</span><span class="value" id="sb-last10">—</span></div>
+      <div><span class="label">Result</span><span class="value" id="sb-last">—</span></div>
+      <div><span class="label">Next</span><span class="value" id="sb-next">—</span></div>
+    </section>
+
+    <!-- Yesterday's Game -->
+    <section id="last-game" class="card" hidden>
+      <h2 class="section-title">Yesterday's Game</h2>
+      <div id="last-game-body"></div>
+    </section>
+
+    <!-- Who's Hot -->
+    <section id="hot" class="card" hidden>
+      <h2 class="section-title">Who's Hot</h2>
+      <div id="hot-body"></div>
+    </section>
+
+    <!-- Team Snapshot -->
+    <section id="snapshot" class="card" hidden>
+      <h2 class="section-title">Team Snapshot</h2>
+      <div id="snapshot-body" class="snapshot-grid"></div>
+    </section>
+
+    <!-- Looking Ahead -->
+    <section id="ahead" class="card" hidden>
+      <h2 class="section-title">Looking Ahead</h2>
+      <div id="ahead-body"></div>
+    </section>
+
+    <!-- One Thing to Notice -->
+    <section id="insight" class="insight" hidden>
+      <h2 class="section-title">One Thing to Notice</h2>
+      <p id="insight-headline" class="insight-headline"></p>
+      <p id="insight-detail" class="insight-detail"></p>
+      <p id="insight-why" class="insight-why" hidden></p>
+    </section>
+
+    <footer class="footer">
+      <span id="generated-at">—</span>
+    </footer>
+  </main>
+
+  <div id="error" class="error" hidden>
+    Couldn't load today's brief. Try refreshing.
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
