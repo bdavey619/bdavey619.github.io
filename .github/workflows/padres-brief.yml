@@ -1,0 +1,42 @@
+name: Padres Morning Brief
+
+on:
+  schedule:
+    # 5:15 AM Pacific Time (PT) — GitHub Actions schedules use UTC,
+    # so this is 12:15 UTC (UTC-7 during PDT, UTC-8 during PST)
+    - cron: "15 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-brief:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate brief.json
+        run: python padres/build_brief.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add padres/brief.json
+          if git diff --cached --quiet; then
+            echo "No changes to brief.json — skipping commit."
+          else
+            git commit -m "chore: update Padres morning brief [skip ci]"
+            git push
+          fi
