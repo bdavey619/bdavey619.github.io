@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T03:09:01+00:00",
+  "generated_at": "2026-04-13T11:48:09+00:00",
   "season": 2026,
   "team": {
     "record": "10-6",
@@ -232,7 +232,8 @@
     "probable": {
       "sd": "Michael King"
     },
-    "insight": "Seattle ranks 29th in MLB batting average (.193) and 29th in slugging (.323)."
+    "insight": "SEA's .198 average gives King a favorable matchup tonight.",
+    "hook_type": "opponent_weakness"
   },
   "standings": [
     {
@@ -261,7 +262,7 @@
       "w": 6,
       "l": 10,
       "gb": "5.5",
-      "last10": "3-7"
+      "last10": "4-6"
     },
     {
       "team": "Rockies",
