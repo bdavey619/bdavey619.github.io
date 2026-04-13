@@ -56,16 +56,22 @@
     "key_hitters": [
       {
         "name": "Ty France",
-        "line": "3-3, 1 HR, 1 RBI"
+        "line": "3-3, 1 HR, 1 RBI",
+        "pos": "1B",
+        "season_avg": ".286"
       },
       {
         "name": "Jackson Merrill",
-        "line": "2-3, 1 HR, 1 RBI"
+        "line": "2-3, 1 HR, 1 RBI",
+        "pos": "CF",
+        "season_avg": ".217"
       }
     ],
     "key_pitcher": {
       "name": "Nick Pivetta",
-      "line": "3.0 IP, 0 H, 0 ER, 4 K"
+      "line": "3.0 IP, 0 H, 0 ER, 4 K",
+      "role": "SP",
+      "season_era": "4.50"
     },
     "context_line": "Home \u00b7 Petco Park \u00b7 Day game",
     "game_note": "France's home run powered a comfortable Padres win.",
