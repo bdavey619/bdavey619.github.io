@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T00:55:02+00:00",
+  "generated_at": "2026-04-13T03:09:01+00:00",
   "season": 2026,
   "team": {
     "record": "10-6",
@@ -73,6 +73,8 @@
       "batting": [
         {
           "name": "Ram\u00f3n Laureano",
+          "pos": "LF",
+          "avg": ".268",
           "ab": 4,
           "r": 2,
           "h": 1,
@@ -82,6 +84,8 @@
         },
         {
           "name": "Fernando Tatis Jr.",
+          "pos": "2B",
+          "avg": ".242",
           "ab": 5,
           "r": 0,
           "h": 2,
@@ -91,6 +95,8 @@
         },
         {
           "name": "Jackson Merrill",
+          "pos": "CF",
+          "avg": ".217",
           "ab": 3,
           "r": 2,
           "h": 2,
@@ -100,6 +106,8 @@
         },
         {
           "name": "Manny Machado",
+          "pos": "3B",
+          "avg": ".213",
           "ab": 1,
           "r": 0,
           "h": 1,
@@ -109,6 +117,8 @@
         },
         {
           "name": "Xander Bogaerts",
+          "pos": "SS",
+          "avg": ".237",
           "ab": 1,
           "r": 0,
           "h": 1,
@@ -118,6 +128,8 @@
         },
         {
           "name": "Nick Castellanos",
+          "pos": "DH",
+          "avg": ".200",
           "ab": 4,
           "r": 0,
           "h": 0,
@@ -127,6 +139,8 @@
         },
         {
           "name": "Ty France",
+          "pos": "1B",
+          "avg": ".286",
           "ab": 3,
           "r": 3,
           "h": 3,
@@ -136,6 +150,8 @@
         },
         {
           "name": "Bryce Johnson",
+          "pos": "RF",
+          "avg": ".091",
           "ab": 3,
           "r": 0,
           "h": 0,
@@ -145,6 +161,8 @@
         },
         {
           "name": "Freddy Fermin",
+          "pos": "C",
+          "avg": ".161",
           "ab": 2,
           "r": 0,
           "h": 0,
