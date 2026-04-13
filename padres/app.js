@@ -148,14 +148,19 @@ function renderLastGame(lg) {
   if (lg.key_hitters?.length) {
     html += `<div class="performer-label">Key hitters</div><div class="performers">`;
     for (const h of lg.key_hitters) {
-      html += `<div class="performer"><span class="name">${h.name}</span><span class="line">${h.line}</span></div>`;
+      const meta = [h.pos, h.season_avg].filter(Boolean).join(' · ');
+      const label = meta ? `${h.name} (${meta})` : h.name;
+      html += `<div class="performer"><span class="name">${label}</span><span class="line">${h.line}</span></div>`;
     }
     html += `</div>`;
   }
 
   if (lg.key_pitcher) {
+    const kp = lg.key_pitcher;
+    const meta = [kp.role, kp.season_era].filter(Boolean).join(' · ');
+    const label = meta ? `${kp.name} (${meta})` : kp.name;
     html += `<div class="performer-label">Key pitcher</div><div class="performers">
-      <div class="performer"><span class="name">${lg.key_pitcher.name}</span><span class="line">${lg.key_pitcher.line}</span></div>
+      <div class="performer"><span class="name">${label}</span><span class="line">${kp.line}</span></div>
     </div>`;
   }
 

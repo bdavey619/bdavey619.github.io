@@ -333,15 +333,27 @@ def _extract_key_performers(box, sd_side):
         line = f"{hits}-{ab}"
         if hr: line += f", {hr} HR"
         if rbi: line += f", {rbi} RBI"
-        hitters.append({"name": name, "_hits": hits, "_hr": hr, "_rbi": rbi, "line": line})
+        pos = p.get("position", {}).get("abbreviation", "")
+        season_avg = p.get("seasonStats", {}).get("batting", {}).get("avg", "")
+        hitters.append({
+            "name": name, "_hits": hits, "_hr": hr, "_rbi": rbi,
+            "line": line, "pos": pos, "season_avg": season_avg,
+        })
     hitters.sort(key=lambda h: (h["_hits"], h["_hr"], h["_rbi"]), reverse=True)
-    top_hitters = [{"name": h["name"], "line": h["line"]} for h in hitters[:2]]
+    top_hitters = []
+    for h in hitters[:2]:
+        entry = {"name": h["name"], "line": h["line"]}
+        if h.get("pos"):
+            entry["pos"] = h["pos"]
+        if h.get("season_avg"):
+            entry["season_avg"] = h["season_avg"]
+        top_hitters.append(entry)
 
     # ---- Key pitcher: actual starter from ordered pitchers array ----
     pitcher_ids = sd_team.get("pitchers", [])  # ordered, [0] is the starter
     key_pitcher = None
 
-    def _format_pitcher(pid):
+    def _format_pitcher(pid, role="SP"):
         key = f"ID{pid}"
         p = players.get(key)
         if not p:
@@ -354,10 +366,14 @@ def _extract_key_performers(box, sd_side):
         er = pit.get("earnedRuns", 0)
         k = pit.get("strikeOuts", 0)
         h = pit.get("hits", 0)
-        return {"name": name, "line": f"{ip} IP, {h} H, {er} ER, {k} K"}
+        season_era = p.get("seasonStats", {}).get("pitching", {}).get("era", "")
+        entry = {"name": name, "line": f"{ip} IP, {h} H, {er} ER, {k} K", "role": role}
+        if season_era:
+            entry["season_era"] = season_era
+        return entry
 
     if pitcher_ids:
-        key_pitcher = _format_pitcher(pitcher_ids[0])
+        key_pitcher = _format_pitcher(pitcher_ids[0], role="SP")
 
     # Fallback: most IP among Padres pitchers if starter lookup failed
     if not key_pitcher:
@@ -371,6 +387,7 @@ def _extract_key_performers(box, sd_side):
             except (TypeError, ValueError):
                 continue
             if best is None or ip_val > best["_ip"]:
+                season_era = p.get("seasonStats", {}).get("pitching", {}).get("era", "")
                 best = {
                     "_ip": ip_val,
                     "name": p.get("person", {}).get("fullName", ""),
@@ -378,9 +395,14 @@ def _extract_key_performers(box, sd_side):
                             f"{pit.get('hits', 0)} H, "
                             f"{pit.get('earnedRuns', 0)} ER, "
                             f"{pit.get('strikeOuts', 0)} K",
+                    "role": "SP",
+                    "season_era": season_era,
                 }
         if best:
-            key_pitcher = {"name": best["name"], "line": best["line"]}
+            entry = {"name": best["name"], "line": best["line"], "role": best["role"]}
+            if best.get("season_era"):
+                entry["season_era"] = best["season_era"]
+            key_pitcher = entry
 
     return top_hitters, key_pitcher
 
