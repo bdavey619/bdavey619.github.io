@@ -2,9 +2,9 @@ name: Padres Morning Brief
 
 on:
   schedule:
-    # 5:15 AM Pacific Time (PT) — GitHub Actions schedules use UTC,
-    # so this is 12:15 UTC (UTC-7 during PDT, UTC-8 during PST)
-    - cron: "15 12 * * *"
+    # 6:25 AM Eastern Time / 10:25 UTC (UTC-4 during EDT)
+    # Shifted from 6:15 to give email a 6:25–6:30 AM ET landing window.
+    - cron: "25 10 * * *"
   workflow_dispatch:
 
 jobs:
@@ -28,6 +28,16 @@ jobs:
 
       - name: Generate brief.json
         run: python padres/build_brief.py
+
+      - name: Render email HTML
+        run: python padres/render_email.py
+
+      - name: Send email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+        run: python padres/send_email.py
 
       - name: Commit and push if changed
         run: |
