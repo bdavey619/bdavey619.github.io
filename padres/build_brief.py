@@ -9,6 +9,7 @@ import json
 import re
 import sys
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from urllib.parse import urlencode
 
 import requests
@@ -845,6 +846,7 @@ def build():
 if __name__ == "__main__":
     brief = build()
     print(json.dumps(brief, indent=2, default=str))
-    with open("brief.json", "w") as f:
+    out_path = Path(__file__).with_name("brief.json")
+    with open(out_path, "w") as f:
         json.dump(brief, f, indent=2, default=str)
-    print("\nWrote brief.json", file=sys.stderr)
+    print(f"\nWrote {out_path}", file=sys.stderr)
