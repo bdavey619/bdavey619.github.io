@@ -99,6 +99,7 @@ def send_email(api_key, to_addr, from_addr, subject, html_content):
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
+            "User-Agent": "padres-morning-brief/1.0",
         },
         method="POST",
     )
