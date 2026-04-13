@@ -85,10 +85,10 @@ def build_subject(brief):
     return f"Padres Morning Brief \u2014 {date_label}"
 
 
-def send_email(api_key, to_addr, from_addr, subject, html_content):
+def send_email(api_key, to_addrs, from_addr, subject, html_content):
     payload = json.dumps({
         "from": from_addr,
-        "to": [to_addr],
+        "to": to_addrs,
         "subject": subject,
         "html": html_content,
     }).encode("utf-8")
@@ -112,17 +112,18 @@ def send_email(api_key, to_addr, from_addr, subject, html_content):
 def main():
     # Validate required env vars before doing any file I/O
     api_key = os.environ.get("RESEND_API_KEY", "").strip()
-    to_addr = os.environ.get("EMAIL_TO", "").strip()
+    emails = [e.strip() for e in os.environ.get("EMAIL_TO", "").split(",") if e.strip()]
     from_addr = os.environ.get("EMAIL_FROM", "").strip()
 
     missing = [
         name for name, val in [
             ("RESEND_API_KEY", api_key),
-            ("EMAIL_TO", to_addr),
             ("EMAIL_FROM", from_addr),
         ]
         if not val
     ]
+    if not emails:
+        missing.append("EMAIL_TO")
     if missing:
         print(f"ERROR: Missing required env vars: {', '.join(missing)}", file=sys.stderr)
         sys.exit(1)
@@ -145,11 +146,11 @@ def main():
     subject = build_subject(brief)
 
     print(f"Sending: {subject}")
-    print(f"  To:   {to_addr}")
+    print("Sending to:", emails)
     print(f"  From: {from_addr}")
 
     try:
-        status, body = send_email(api_key, to_addr, from_addr, subject, html_content)
+        status, body = send_email(api_key, emails, from_addr, subject, html_content)
         print(f"Resend API response {status}: {body}")
         print("Email sent.")
     except urllib.error.HTTPError as e:
