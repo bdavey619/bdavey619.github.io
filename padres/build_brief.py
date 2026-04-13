@@ -401,8 +401,12 @@ def _extract_full_box_score(box, sd_side):
                 + bat.get("sacBunts", 0))
 
     def _batter_row(p, bat):
+        pos = p.get("position", {}).get("abbreviation", "")
+        avg = p.get("seasonStats", {}).get("batting", {}).get("avg", "")
         return {
             "name": p.get("person", {}).get("fullName", ""),
+            "pos":  pos,
+            "avg":  avg,
             "ab":  bat.get("atBats", 0),
             "r":   bat.get("runs", 0),
             "h":   bat.get("hits", 0),

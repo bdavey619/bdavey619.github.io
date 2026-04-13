@@ -393,6 +393,14 @@ main {
 .box-score-table th.player { text-align: left; }
 .box-score-table tr.standout td { font-weight: 600; }
 .box-score-table tr.standout td.player { font-weight: 700; }
+.box-score-table .player-meta {
+  margin-left: 6px;
+  font-size: 11px;
+  font-family: var(--mono);
+  color: var(--ink-faint);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
 
 /* ---------- Footer ---------- */
 .footer {

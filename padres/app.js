@@ -314,8 +314,10 @@ function renderFullBoxScore(box) {
         <tbody>`;
     box.batting.forEach((r, i) => {
       const cls = (i === topIdx && topScore > 0) ? ' class="standout"' : '';
+      const meta = [r.pos, r.avg].filter(Boolean).join(' · ');
+      const metaHtml = meta ? ` <span class="player-meta">${meta}</span>` : '';
       inner += `<tr${cls}>
-        <td class="player">${r.name}</td>
+        <td class="player">${r.name}${metaHtml}</td>
         <td>${r.ab}</td><td>${r.r}</td><td>${r.h}</td>
         <td>${r.rbi}</td><td>${r.bb}</td><td>${r.so}</td>
       </tr>`;
