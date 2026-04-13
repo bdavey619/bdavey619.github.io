@@ -274,6 +274,9 @@ function renderAhead(ng, standings) {
       const opp = ng.probable.opp || 'TBD';
       html += `<div class="probables">${sd} vs. ${opp}</div>`;
     }
+    if (ng.insight) {
+      html += `<div class="next-insight">${ng.insight}</div>`;
+    }
     html += `</div>`;
   }
 

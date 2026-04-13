@@ -94,6 +94,18 @@ def main():
     ng_home_away = "vs" if ng.get("home") else "@"
     ng_prob = ng.get("probable", {})
     next_probables = f"{ng_prob.get('sd', 'TBD')} vs {ng_prob.get('opp', 'TBD')}" if ng_prob else "TBD"
+    ng_insight = ng.get("insight", "")
+    if ng_insight:
+        next_insight_row = (
+            '<tr><td style="padding-bottom:20px;" align="center">'
+            '<p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,\'Helvetica Neue\',Arial,sans-serif;'
+            'font-size:12px;font-style:italic;color:#8a8278;">'
+            f'{ng_insight}</p></td></tr>'
+        )
+        next_insight_pb = "6px"
+    else:
+        next_insight_row = ""
+        next_insight_pb = "20px"
 
     # Insight
     insight = brief.get("insight", {})
@@ -116,6 +128,8 @@ def main():
         "next_opponent":     f"{ng_home_away} {ng.get('opponent', '')}",
         "next_time":         ng.get("time_local", ""),
         "next_probables":    next_probables,
+        "next_insight_row":  next_insight_row,
+        "next_insight_pb":   next_insight_pb,
         "site_url":          SITE_URL,
         "generated_at":      fmt_generated_at(brief.get("generated_at", "")),
     }
