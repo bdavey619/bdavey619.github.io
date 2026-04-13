@@ -294,6 +294,7 @@ main {
 }
 .standings-table td.team, .standings-table th.team { text-align: left; font-weight: 500; }
 .standings-table tr.padres td { font-weight: 700; background: rgba(244, 211, 94, 0.18); }
+.division-context { font-size: 13px; color: var(--ink-soft); margin: 6px 0 0; }
 
 /* ---------- Insight ---------- */
 .insight {

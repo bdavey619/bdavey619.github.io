@@ -279,7 +279,7 @@ function renderAhead(ng, standings) {
 
   if (standings?.length) {
     html += `<table class="standings-table">
-      <thead><tr><th class="team">NL West</th><th>W</th><th>L</th><th>GB</th></tr></thead>
+      <thead><tr><th class="team">NL West</th><th>W</th><th>L</th><th>GB</th><th>L10</th></tr></thead>
       <tbody>`;
     for (const row of standings) {
       const isPadres = /padres|^sd$/i.test(row.team);
@@ -288,9 +288,17 @@ function renderAhead(ng, standings) {
         <td>${row.w}</td>
         <td>${row.l}</td>
         <td>${row.gb}</td>
+        <td>${row.last10 || '—'}</td>
       </tr>`;
     }
     html += `</tbody></table>`;
+
+    // Division context: compare Padres vs leader last-10
+    const padresRow = standings.find(r => /padres|^sd$/i.test(r.team));
+    const leaderRow = standings[0];
+    if (padresRow?.last10 && leaderRow?.last10 && leaderRow !== padresRow) {
+      html += `<p class="division-context">Padres ${padresRow.last10} in last 10, ${leaderRow.team} ${leaderRow.last10}.</p>`;
+    }
   }
 
   if (!html) return;

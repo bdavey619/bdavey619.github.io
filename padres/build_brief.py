@@ -526,11 +526,16 @@ def get_standings():
         if record.get("division", {}).get("id") != NL_WEST_DIVISION_ID:
             continue
         for tr in record.get("teamRecords", []):
+            last10 = next(
+                (r for r in tr.get("records", {}).get("splitRecords", []) if r["type"] == "lastTen"),
+                None,
+            )
             rows.append({
                 "team": tr["team"]["abbreviation"] if "abbreviation" in tr["team"] else tr["team"]["name"],
                 "w": tr.get("wins", 0),
                 "l": tr.get("losses", 0),
                 "gb": tr.get("gamesBack", "-"),
+                "last10": f"{last10['wins']}-{last10['losses']}" if last10 else "-",
             })
     return rows
 
