@@ -49,8 +49,10 @@
     ],
     "decisions": {
       "win": "David Morgan",
+      "win_role": "RP",
       "win_team": "sd",
       "loss": "Jimmy Herget",
+      "loss_role": "RP",
       "loss_team": "opp"
     },
     "key_hitters": [

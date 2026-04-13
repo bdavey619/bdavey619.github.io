@@ -285,15 +285,21 @@ def _format_decisions(dec, box, sd_side):
     if not dec:
         return out
 
-    # Build a name -> side lookup from the boxscore
+    # Build name -> side and name -> role lookups from the boxscore
     name_to_side = {}
+    name_to_role = {}
     if box:
         opp_side = "away" if sd_side == "home" else "home"
         for side in (sd_side, opp_side):
-            for p in box.get("teams", {}).get(side, {}).get("players", {}).values():
+            team = box.get("teams", {}).get(side, {})
+            starter_id = (team.get("pitchers") or [None])[0]
+            for key, p in team.get("players", {}).items():
                 name = p.get("person", {}).get("fullName")
-                if name:
-                    name_to_side[name] = side
+                if not name:
+                    continue
+                name_to_side[name] = side
+                pid = p.get("person", {}).get("id")
+                name_to_role[name] = "SP" if pid and pid == starter_id else "RP"
 
     for api_key, label in (("winner", "win"), ("loser", "loss"), ("save", "save")):
         person = dec.get(api_key)
@@ -301,6 +307,9 @@ def _format_decisions(dec, box, sd_side):
             continue
         name = person.get("fullName")
         out[label] = name
+        role = name_to_role.get(name)
+        if role:
+            out[f"{label}_role"] = role
         # Annotate with team side when we can verify
         side = name_to_side.get(name)
         if side and side != sd_side:

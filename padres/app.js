@@ -208,8 +208,9 @@ function renderLinescore(lg) {
 function renderDecisions(d) {
   if (!d || (!d.win && !d.loss && !d.save)) return '';
   const parts = [];
-  if (d.win) parts.push(`<span><strong>W:</strong> ${d.win}</span>`);
-  if (d.loss) parts.push(`<span><strong>L:</strong> ${d.loss}</span>`);
+  const fmtDecision = (name, role) => role ? `${name} (${role})` : name;
+  if (d.win) parts.push(`<span><strong>W:</strong> ${fmtDecision(d.win, d.win_role)}</span>`);
+  if (d.loss) parts.push(`<span><strong>L:</strong> ${fmtDecision(d.loss, d.loss_role)}</span>`);
   if (d.save) parts.push(`<span><strong>SV:</strong> ${d.save}</span>`);
   return `<div class="decisions">${parts.join('')}</div>`;
 }
