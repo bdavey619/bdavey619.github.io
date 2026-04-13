@@ -76,7 +76,7 @@ def get_last_game():
 
 
 def get_next_game():
-    """Next scheduled (not yet final) game."""
+    """Next scheduled (not yet final) game. Returns (formatted_dict, raw_game) or (None, None)."""
     start = datetime.now().date()
     end = start + timedelta(days=14)
     games = _fetch_schedule(start, end)
@@ -86,11 +86,11 @@ def get_next_game():
         if g.get("status", {}).get("abstractGameState") in ("Preview", "Live")
     ]
     if not upcoming:
-        return None
+        return None, None
 
     upcoming.sort(key=lambda g: g["gameDate"])
     g = upcoming[0]
-    return _format_next_game(g)
+    return _format_next_game(g), g
 
 
 # ---------------------------------------------------------------------------
@@ -850,6 +850,424 @@ def get_insight(team, last_game=None):
 
 
 # ---------------------------------------------------------------------------
+# Looking Ahead hook — scored candidate system
+# ---------------------------------------------------------------------------
+
+HOOK_HISTORY_PATH = Path(__file__).with_name("hook_history.json")
+
+# Score weights — tune these to shift emphasis between dimensions
+_HOOK_WEIGHTS = {
+    "game_relevance": 0.35,  # how tied is this to tonight's specific game
+    "fact_strength":  0.30,  # how strong/unusual is the underlying signal
+    "specificity":    0.20,  # how concrete/recent is the framing
+    "stakes":         0.15,  # does this raise the importance of tonight
+}
+
+# Novelty penalties applied to hook score when the same type appeared recently
+_NOVELTY_PENALTY_YESTERDAY = 0.10   # same type used in yesterday's brief
+_NOVELTY_PENALTY_RECENT    = 0.05   # same type appeared 2–3 briefs ago
+
+# Hook is omitted entirely if best score falls below this threshold
+_MIN_HOOK_SCORE = 0.45
+
+
+def load_hook_history():
+    """Return list of recent hook types (most recent first, max 3)."""
+    try:
+        if HOOK_HISTORY_PATH.exists():
+            data = json.loads(HOOK_HISTORY_PATH.read_text())
+            return data.get("recent_types", [])[:3]
+    except Exception:
+        pass
+    return []
+
+
+def save_hook_history(hook_type, current_history):
+    """Prepend hook_type to history and persist, keeping last 3 entries."""
+    updated = ([hook_type] + current_history)[:3]
+    try:
+        HOOK_HISTORY_PATH.write_text(json.dumps({"recent_types": updated}, indent=2))
+    except Exception as e:
+        print(f"  warn: could not write hook_history.json: {e}", file=sys.stderr)
+
+
+def _get_team_hitting_stats(team_id):
+    """Fetch a team's season hitting stats. Returns stat dict or {}."""
+    try:
+        data = get(f"teams/{team_id}/stats", stats="season", group="hitting", season=SEASON)
+        for s in data.get("stats", []):
+            if s.get("group", {}).get("displayName") == "hitting":
+                splits = s.get("splits", [])
+                if splits:
+                    return splits[0].get("stat", {})
+    except Exception:
+        pass
+    return {}
+
+
+def _get_pitcher_recent_starts(pitcher_id, n=4):
+    """Fetch pitcher's last N starts from game log. Returns list of stat dicts."""
+    try:
+        data = get(f"people/{pitcher_id}/stats", stats="gameLog", group="pitching", season=SEASON)
+        for s in data.get("stats", []):
+            if s.get("group", {}).get("displayName") == "pitching":
+                starts = [
+                    sp.get("stat", {})
+                    for sp in s.get("splits", [])
+                    if int(sp.get("stat", {}).get("gamesStarted", 0) or 0) > 0
+                ]
+                return starts[-n:] if len(starts) >= n else starts
+    except Exception:
+        pass
+    return []
+
+
+def _era_from_stats(stat_list):
+    """Compute ERA from a list of pitching stat dicts. Returns float or None."""
+    try:
+        total_er = sum(int(s.get("earnedRuns", 0) or 0) for s in stat_list)
+        total_ip = sum(float(s.get("inningsPitched", "0") or "0") for s in stat_list)
+        return round((total_er * 9) / total_ip, 2) if total_ip > 0 else None
+    except (ValueError, TypeError):
+        return None
+
+
+def build_looking_ahead_hook_candidates(raw_game, team, standings):
+    """
+    Build all eligible hook candidates for the Looking Ahead section.
+    Returns a list of dicts: {type, text, fact_strength, game_relevance, specificity, stakes, _meta}.
+
+    Hook types: pitcher_form, opponent_weakness, opponent_cold_streak,
+                race_context, padres_momentum.
+    """
+    if not raw_game:
+        return []
+
+    home = _is_home(raw_game)
+    sd_side = "home" if home else "away"
+    opp_side = "away" if home else "home"
+    opponent_abbr = _opponent_abbr(raw_game)
+    opp_team_id = raw_game["teams"][opp_side]["team"]["id"]
+
+    sd_pp = raw_game["teams"][sd_side].get("probablePitcher", {})
+    pitcher_id = sd_pp.get("id")
+    pitcher_name = sd_pp.get("fullName", "")
+    pitcher_last = pitcher_name.split()[-1] if pitcher_name else ""
+
+    candidates = []
+
+    # ---- 1. Pitcher form ----
+    if pitcher_id and pitcher_last:
+        recent = _get_pitcher_recent_starts(pitcher_id, n=4)
+        if len(recent) >= 3:
+            n_starts = len(recent)
+            era = _era_from_stats(recent)
+            wins = sum(1 for s in recent if int(s.get("wins", 0) or 0) > 0)
+
+            if era is not None and era < 3.50:
+                # Fact strength scales with how low the ERA is
+                if era < 1.80:
+                    fact_str = 1.00
+                elif era < 2.20:
+                    fact_str = 0.90
+                elif era < 2.60:
+                    fact_str = 0.78
+                elif era < 3.00:
+                    fact_str = 0.65
+                else:
+                    fact_str = 0.50
+
+                text = (
+                    f"{pitcher_last} has a {era:.2f} ERA over his last {n_starts} starts"
+                    f" — he takes the mound tonight."
+                )
+                candidates.append({
+                    "type": "pitcher_form",
+                    "text": text,
+                    "fact_strength": fact_str,
+                    "game_relevance": 0.90,  # directly about tonight's named starter
+                    "specificity":    0.85,  # named pitcher + specific recent window
+                    "stakes":         0.55,
+                    "_meta": {"era": era, "n_starts": n_starts, "pitcher": pitcher_last},
+                })
+
+            if wins >= 3 and (era is None or era >= 3.50):
+                # Wins-based fallback when ERA alone doesn't clear the bar
+                fact_str = 0.85 if wins == n_starts else 0.68
+                text = (
+                    f"{pitcher_last} has won {wins} of his last {n_starts} starts"
+                    f" — he gets the ball tonight."
+                )
+                candidates.append({
+                    "type": "pitcher_form",
+                    "text": text,
+                    "fact_strength": fact_str,
+                    "game_relevance": 0.88,
+                    "specificity":    0.78,
+                    "stakes":         0.50,
+                    "_meta": {"wins": wins, "n_starts": n_starts, "pitcher": pitcher_last},
+                })
+
+    # ---- 2. Opponent offensive weakness ----
+    opp_hit = _get_team_hitting_stats(opp_team_id)
+    if opp_hit:
+        avg_str = opp_hit.get("avg", "")
+        ops_str = opp_hit.get("ops", "")
+        try:
+            avg_val = float(avg_str)
+        except (ValueError, TypeError):
+            avg_val = None
+        try:
+            ops_val = float(ops_str)
+        except (ValueError, TypeError):
+            ops_val = None
+
+        if avg_val and avg_val < 0.235:
+            if avg_val < 0.205:
+                fact_str = 0.95
+            elif avg_val < 0.215:
+                fact_str = 0.82
+            elif avg_val < 0.225:
+                fact_str = 0.68
+            else:
+                fact_str = 0.52
+
+            if pitcher_last:
+                text = (
+                    f"{opponent_abbr}'s {avg_str} average gives {pitcher_last}"
+                    f" a favorable matchup tonight."
+                )
+                spec = 0.78
+            else:
+                text = (
+                    f"{opponent_abbr} is batting {avg_str} as a team"
+                    f" — a favorable matchup for San Diego tonight."
+                )
+                spec = 0.62
+
+            candidates.append({
+                "type": "opponent_weakness",
+                "text": text,
+                "fact_strength": fact_str,
+                "game_relevance": 0.75,
+                "specificity":    spec,
+                "stakes":         0.48,
+                "_meta": {"avg": avg_val, "avg_str": avg_str, "opponent": opponent_abbr},
+            })
+
+        elif ops_val and ops_val < 0.690:
+            # OPS hook only when avg didn't already fire
+            if ops_val < 0.640:
+                fact_str = 0.90
+            elif ops_val < 0.660:
+                fact_str = 0.75
+            else:
+                fact_str = 0.58
+
+            if pitcher_last:
+                text = (
+                    f"{opponent_abbr} ranks among the weakest offenses in baseball"
+                    f" — {pitcher_last} draws a favorable matchup tonight."
+                )
+                spec = 0.70
+            else:
+                text = (
+                    f"{opponent_abbr} has a {ops_str} OPS"
+                    f" — the Padres have a favorable matchup tonight."
+                )
+                spec = 0.55
+
+            candidates.append({
+                "type": "opponent_weakness",
+                "text": text,
+                "fact_strength": fact_str,
+                "game_relevance": 0.72,
+                "specificity":    spec,
+                "stakes":         0.45,
+                "_meta": {"ops": ops_val, "ops_str": ops_str, "opponent": opponent_abbr},
+            })
+
+    # ---- 3. Opponent cold streak (NL West only) ----
+    opp_row = next(
+        (r for r in standings if r["team"].upper() == opponent_abbr.upper()),
+        None,
+    )
+    if opp_row and opp_row.get("last10") and "-" in opp_row["last10"]:
+        opp_l10 = opp_row["last10"]
+        try:
+            opp_l10_wins = int(opp_l10.split("-")[0])
+            if opp_l10_wins <= 4:
+                if opp_l10_wins <= 2:
+                    fact_str = 0.90
+                elif opp_l10_wins == 3:
+                    fact_str = 0.70
+                else:
+                    fact_str = 0.52
+
+                text = (
+                    f"{opponent_abbr} has gone just {opp_l10} in their last ten"
+                    f" — the Padres catch them at the right time."
+                )
+                candidates.append({
+                    "type": "opponent_cold_streak",
+                    "text": text,
+                    "fact_strength": fact_str,
+                    "game_relevance": 0.68,
+                    "specificity":    0.65,
+                    "stakes":         0.58,
+                    "_meta": {"opp_l10": opp_l10, "opp_l10_wins": opp_l10_wins},
+                })
+        except ValueError:
+            pass
+
+    # ---- 4. Race context ----
+    games_back = team.get("games_back", "-")
+    streak = team.get("streak", "")
+    m_streak = re.match(r'^W(\d+)$', streak)
+    streak_n = int(m_streak.group(1)) if m_streak else 0
+
+    try:
+        gb_val = float(str(games_back))
+        if 0 < gb_val <= 3.5:
+            if gb_val <= 1.0:
+                stakes = 0.95
+            elif gb_val <= 2.0:
+                stakes = 0.82
+            elif gb_val <= 2.5:
+                stakes = 0.70
+            else:
+                stakes = 0.58
+
+            if streak_n >= 2:
+                text = (
+                    f"San Diego is {games_back} back in the NL West on a {streak_n}-game"
+                    f" win streak — tonight matters."
+                )
+                fact_str = min(0.65 + (streak_n - 2) * 0.06, 0.90)
+                spec = 0.72
+            else:
+                text = (
+                    f"San Diego sits just {games_back} back in the NL West"
+                    f" — every game in this stretch counts."
+                )
+                fact_str = 0.52
+                spec = 0.52
+
+            candidates.append({
+                "type": "race_context",
+                "text": text,
+                "fact_strength": fact_str,
+                "game_relevance": 0.62,
+                "specificity":    spec,
+                "stakes":         stakes,
+                "_meta": {"gb": gb_val, "streak_n": streak_n},
+            })
+    except (ValueError, TypeError):
+        # First place — only worth a hook on a meaningful win streak
+        if games_back == "-" and streak_n >= 3:
+            text = (
+                f"San Diego leads the NL West on a {streak_n}-game win streak"
+                f" — tonight is a chance to extend it."
+            )
+            candidates.append({
+                "type": "race_context",
+                "text": text,
+                "fact_strength": min(0.62 + streak_n * 0.04, 0.90),
+                "game_relevance": 0.62,
+                "specificity":    0.68,
+                "stakes":         0.75,
+                "_meta": {"leading": True, "streak_n": streak_n},
+            })
+
+    # ---- 5. Padres momentum ----
+    last10 = team.get("last10", "-")
+    if last10 and "-" in last10:
+        try:
+            l10_wins = int(last10.split("-")[0])
+            if l10_wins >= 7:
+                if l10_wins >= 9:
+                    fact_str = 0.88
+                elif l10_wins == 8:
+                    fact_str = 0.68
+                else:
+                    fact_str = 0.52
+
+                text = (
+                    f"Padres have won {l10_wins} of their last ten"
+                    f" — they carry that form into tonight's game."
+                )
+                candidates.append({
+                    "type": "padres_momentum",
+                    "text": text,
+                    "fact_strength": fact_str,
+                    "game_relevance": 0.58,  # general form, not tonight-specific
+                    "specificity":    0.52,
+                    "stakes":         0.50,
+                    "_meta": {"l10_wins": l10_wins},
+                })
+        except ValueError:
+            pass
+
+    return candidates
+
+
+def score_looking_ahead_hook(candidate, recent_hook_types=None):
+    """
+    Weighted score for a hook candidate with soft novelty penalty.
+    Returns a float roughly in [0.0, 1.0].
+    """
+    base = (
+        candidate["game_relevance"] * _HOOK_WEIGHTS["game_relevance"]
+        + candidate["fact_strength"] * _HOOK_WEIGHTS["fact_strength"]
+        + candidate["specificity"]   * _HOOK_WEIGHTS["specificity"]
+        + candidate["stakes"]        * _HOOK_WEIGHTS["stakes"]
+    )
+
+    penalty = 0.0
+    if recent_hook_types:
+        hook_type = candidate["type"]
+        # Yesterday = most recent entry
+        if recent_hook_types and recent_hook_types[0] == hook_type:
+            penalty += _NOVELTY_PENALTY_YESTERDAY
+        # 2–3 days ago
+        if len(recent_hook_types) >= 2 and hook_type in recent_hook_types[1:3]:
+            penalty += _NOVELTY_PENALTY_RECENT
+
+    return round(base - penalty, 4)
+
+
+def pick_best_looking_ahead_hook(candidates, recent_hook_types=None):
+    """
+    Score all candidates and return (text, type) for the best one.
+    Returns (None, None) if the best score is below _MIN_HOOK_SCORE.
+    """
+    if not candidates:
+        return None, None
+
+    scored = sorted(
+        ((score_looking_ahead_hook(c, recent_hook_types), c) for c in candidates),
+        key=lambda t: t[0],
+        reverse=True,
+    )
+
+    best_score, best = scored[0]
+    if best_score < _MIN_HOOK_SCORE:
+        return None, None
+
+    return best["text"], best["type"]
+
+
+def build_looking_ahead_hook(raw_game, team, standings):
+    """
+    Return (hook_text, hook_type) for the Looking Ahead section.
+    Returns (None, None) when no candidate clears the minimum score threshold.
+    """
+    recent_hook_types = load_hook_history()
+    candidates = build_looking_ahead_hook_candidates(raw_game, team, standings)
+    return pick_best_looking_ahead_hook(candidates, recent_hook_types)
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -861,7 +1279,7 @@ def build():
     last_game = get_last_game()
 
     print("Fetching next game...", file=sys.stderr)
-    next_game = get_next_game()
+    next_game, next_game_raw = get_next_game()
 
     print("Fetching NL West standings...", file=sys.stderr)
     standings = get_standings()
@@ -869,6 +1287,13 @@ def build():
     print("Building editorial layer...", file=sys.stderr)
     subhead = build_subhead(last_game, team)
     insight = get_insight(team, last_game)
+
+    print("Building Looking Ahead hook...", file=sys.stderr)
+    ahead_hook, ahead_hook_type = build_looking_ahead_hook(next_game_raw, team, standings)
+    if ahead_hook and next_game:
+        next_game["insight"] = ahead_hook
+        next_game["hook_type"] = ahead_hook_type
+        save_hook_history(ahead_hook_type, load_hook_history())
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
