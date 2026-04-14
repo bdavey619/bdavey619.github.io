@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T11:48:09+00:00",
+  "generated_at": "2026-04-14T11:35:18+00:00",
   "season": 2026,
   "team": {
     "record": "10-6",
@@ -7,7 +7,7 @@
     "run_diff": "+14",
     "last10": "8-2",
     "division_rank": 2,
-    "games_back": "1.5",
+    "games_back": "2.0",
     "avg": ".227",
     "ops": ".694",
     "era": "3.41"
@@ -230,45 +230,46 @@
     "home": true,
     "time_local": "6:40 PM PT",
     "probable": {
-      "sd": "Michael King"
+      "sd": "Michael King",
+      "opp": "Bryan Woo"
     },
-    "insight": "SEA's .198 average gives King a favorable matchup tonight.",
+    "insight": "SEA's .208 average gives King a favorable matchup tonight.",
     "hook_type": "opponent_weakness"
   },
   "standings": [
     {
       "team": "Dodgers",
-      "w": 11,
+      "w": 12,
       "l": 4,
       "gb": "-",
-      "last10": "7-3"
+      "last10": "8-2"
     },
     {
       "team": "Padres",
       "w": 10,
       "l": 6,
-      "gb": "1.5",
+      "gb": "2.0",
       "last10": "8-2"
     },
     {
       "team": "D-backs",
       "w": 9,
-      "l": 7,
-      "gb": "2.5",
+      "l": 8,
+      "gb": "3.5",
       "last10": "6-4"
     },
     {
       "team": "Giants",
       "w": 6,
       "l": 10,
-      "gb": "5.5",
+      "gb": "6.0",
       "last10": "4-6"
     },
     {
       "team": "Rockies",
       "w": 6,
       "l": 10,
-      "gb": "5.5",
+      "gb": "6.0",
       "last10": "4-6"
     }
   ],
@@ -276,10 +277,10 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "Padres win their fifth straight, France leading the way \u2014 1.5 back in the West.",
+  "subhead": "Padres win their fifth straight, France leading the way \u2014 2.0 back in the West.",
   "insight": {
     "headline": "The pitching staff is carrying this run.",
-    "detail": "San Diego has won eight of their last ten despite a .694 OPS \u2014 the staff ERA of 3.41 has been doing the heavy lifting while the lineup finds its footing. They're 1.5 back in the NL West. If the offense wakes up, this team gets dangerous fast.",
+    "detail": "San Diego has won eight of their last ten despite a .694 OPS \u2014 the staff ERA of 3.41 has been doing the heavy lifting while the lineup finds its footing. They're 2.0 back in the NL West. If the offense wakes up, this team gets dangerous fast.",
     "why": "staff carrying (3.41 ERA) \u00b7 quiet bats (.694 OPS) \u00b7 8\u20132 in the last ten"
   }
 }
