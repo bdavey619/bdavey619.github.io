@@ -777,13 +777,13 @@ def get_insight(team, last_game=None):
         )
         if in_race:
             detail += (
-                f" They're {games_back} back in the NL West. "
-                f"If the offense wakes up, this team gets dangerous fast."
+                f" They're {games_back} back in the NL West — "
+                f"the staff has kept them in the race while the bats have gone quiet."
             )
         elif leading:
             detail += (
-                " Holding down first place while the bats are still warming up "
-                "is an encouraging sign for what's ahead."
+                f" Sitting in first place on a {era} ERA while the offense has been quiet "
+                f"means the pitching is carrying more than its share."
             )
 
     elif hot_streak and offense_strong:
@@ -810,7 +810,7 @@ def get_insight(team, last_game=None):
         headline = f"A {last10} stretch over the last ten is a real concern."
         detail = (
             f"The Padres are batting {avg} as a team ({ops} OPS) "
-            f"with a {era} staff ERA. The schedule won't wait — they need to find a rhythm."
+            f"with a {era} staff ERA. Neither side of the ball is carrying the other right now."
         )
 
     else:
@@ -818,7 +818,7 @@ def get_insight(team, last_game=None):
         headline = f"Padres hovering at {last10} over the last ten."
         detail = (
             f"Team line: {avg} average, {ops} OPS, {era} ERA. "
-            f"The next stretch of games will define the shape of their season."
+            f"No side of the ball has separated itself as the clear driver."
         )
 
     # Build compact "why" line — 2–3 editorial signals, not raw labels
@@ -846,7 +846,41 @@ def get_insight(team, last_game=None):
     result = {"headline": headline, "detail": detail.strip()}
     if why:
         result["why"] = why
+
+    _check_insight_language(headline + " " + detail)
     return result
+
+
+# ---------------------------------------------------------------------------
+# Anti-speculation guardrail
+# ---------------------------------------------------------------------------
+
+_BANNED_SPECULATIVE_PHRASES = [
+    "if the offense",
+    "if they",
+    "if the bats",
+    "could be",
+    "might be",
+    "watch out",
+    "gets dangerous",
+    "when it clicks",
+    "when they click",
+    "what's ahead",
+    "hard to see",
+    "slowing down",
+    "this team gets",
+]
+
+
+def _check_insight_language(text):
+    """Log a warning if speculative language appears in insight text."""
+    lower = text.lower()
+    for phrase in _BANNED_SPECULATIVE_PHRASES:
+        if phrase in lower:
+            print(
+                f"  warn [insight guardrail]: speculative phrase detected — {phrase!r}",
+                file=sys.stderr,
+            )
 
 
 # ---------------------------------------------------------------------------
@@ -867,8 +901,71 @@ _HOOK_WEIGHTS = {
 _NOVELTY_PENALTY_YESTERDAY = 0.10   # same type used in yesterday's brief
 _NOVELTY_PENALTY_RECENT    = 0.05   # same type appeared 2–3 briefs ago
 
+# Distinctiveness penalty — applied when the hook's primary theme is already
+# covered by the subhead or the main insight on the same page.
+# Soft nudge: a repeated-theme hook can still win if its signal is clearly stronger.
+_DISTINCTIVENESS_PENALTY_DIRECT = 0.10   # hook theme directly mirrors page content
+
 # Hook is omitted entirely if best score falls below this threshold
 _MIN_HOOK_SCORE = 0.45
+
+# Primary editorial theme each hook type addresses.
+# Used by _detect_page_themes() + score_looking_ahead_hook() to penalise themes
+# the reader already encountered in the subhead / main insight.
+# None = hook covers a fresh angle with no direct page-level counterpart.
+_HOOK_TYPE_THEMES = {
+    "race_context":         "race",      # division standings / games-back context
+    "padres_momentum":      "momentum",  # Padres recent-form / win-streak context
+    "pitcher_form":         "pitching",  # tonight's SP performance angle
+    "opponent_weakness":    None,        # matchup edge — distinct from general pitching narrative
+    "opponent_cold_streak": None,        # opponent's form — not covered by subhead/insight
+}
+
+
+def _detect_page_themes(subhead, insight):
+    """
+    Infer which editorial themes are already present in the subhead and main insight.
+    Returns a frozenset of theme strings used to penalise redundant hook candidates.
+
+    Themes detected
+    ---------------
+    "race"     — standings position / division race is the lead angle
+    "momentum" — Padres win streak or recent-form hot-take is the focus
+    "pitching" — Padres pitching staff is explicitly called the run driver
+
+    Detection is keyword-based: fast, transparent, and easy to tune by editing
+    the keyword lists below.
+    """
+    parts = [subhead or ""]
+    if isinstance(insight, dict):
+        parts.append(insight.get("headline") or "")
+        parts.append(insight.get("detail") or "")
+    text = " ".join(parts).lower()
+
+    themes = set()
+
+    # Race / standings angle (subhead gb_tail, insight race mention)
+    if any(kw in text for kw in [
+        "back in the", "nl west race", "division race", "games back",
+        "back in the west", "back in the nl west",
+    ]):
+        themes.add("race")
+
+    # Padres momentum / streak angle (subhead win-streak lead, insight hot_streak)
+    if any(kw in text for kw in [
+        "straight", "win streak", "last ten", "last 10",
+        "hot streak", "won their",
+    ]):
+        themes.add("momentum")
+
+    # Pitching-carries-the-team angle (insight pitching_strong + offense_weak branch)
+    if any(kw in text for kw in [
+        "pitching staff", "staff is carrying", "carrying this run",
+        "staff era", "era has been doing", "doing the heavy",
+    ]):
+        themes.add("pitching")
+
+    return frozenset(themes)
 
 
 def load_hook_history():
@@ -1211,10 +1308,14 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
     return candidates
 
 
-def score_looking_ahead_hook(candidate, recent_hook_types=None):
+def score_looking_ahead_hook(candidate, recent_hook_types=None, page_themes=None):
     """
-    Weighted score for a hook candidate with soft novelty penalty.
+    Weighted score for a hook candidate with soft novelty and distinctiveness penalties.
     Returns a float roughly in [0.0, 1.0].
+
+    Penalties (all soft — a penalised hook can still win if its signal is strongest):
+      novelty_pen   — same hook type used in a recent brief (day-over-day repetition)
+      distinct_pen  — hook's primary theme already covered by subhead / main insight
     """
     base = (
         candidate["game_relevance"] * _HOOK_WEIGHTS["game_relevance"]
@@ -1223,20 +1324,28 @@ def score_looking_ahead_hook(candidate, recent_hook_types=None):
         + candidate["stakes"]        * _HOOK_WEIGHTS["stakes"]
     )
 
-    penalty = 0.0
+    novelty_pen = 0.0
     if recent_hook_types:
         hook_type = candidate["type"]
         # Yesterday = most recent entry
-        if recent_hook_types and recent_hook_types[0] == hook_type:
-            penalty += _NOVELTY_PENALTY_YESTERDAY
+        if recent_hook_types[0] == hook_type:
+            novelty_pen += _NOVELTY_PENALTY_YESTERDAY
         # 2–3 days ago
         if len(recent_hook_types) >= 2 and hook_type in recent_hook_types[1:3]:
-            penalty += _NOVELTY_PENALTY_RECENT
+            novelty_pen += _NOVELTY_PENALTY_RECENT
 
-    return round(base - penalty, 4)
+    # Distinctiveness penalty — nudge away from themes already on the page
+    # Tune by adjusting _DISTINCTIVENESS_PENALTY_DIRECT or _HOOK_TYPE_THEMES
+    distinct_pen = 0.0
+    if page_themes:
+        hook_theme = _HOOK_TYPE_THEMES.get(candidate["type"])
+        if hook_theme and hook_theme in page_themes:
+            distinct_pen += _DISTINCTIVENESS_PENALTY_DIRECT
+
+    return round(base - novelty_pen - distinct_pen, 4)
 
 
-def pick_best_looking_ahead_hook(candidates, recent_hook_types=None):
+def pick_best_looking_ahead_hook(candidates, recent_hook_types=None, page_themes=None):
     """
     Score all candidates and return (text, type) for the best one.
     Returns (None, None) if the best score is below _MIN_HOOK_SCORE.
@@ -1245,26 +1354,61 @@ def pick_best_looking_ahead_hook(candidates, recent_hook_types=None):
         return None, None
 
     scored = sorted(
-        ((score_looking_ahead_hook(c, recent_hook_types), c) for c in candidates),
+        ((score_looking_ahead_hook(c, recent_hook_types, page_themes), c) for c in candidates),
         key=lambda t: t[0],
         reverse=True,
     )
 
+    # Debug: log per-candidate breakdown (base, novelty, distinctiveness, final)
+    print("  hook scoring breakdown:", file=sys.stderr)
+    for final_score, c in scored:
+        base = round(
+            c["game_relevance"] * _HOOK_WEIGHTS["game_relevance"]
+            + c["fact_strength"] * _HOOK_WEIGHTS["fact_strength"]
+            + c["specificity"]   * _HOOK_WEIGHTS["specificity"]
+            + c["stakes"]        * _HOOK_WEIGHTS["stakes"],
+            4,
+        )
+        n_pen = 0.0
+        if recent_hook_types:
+            if recent_hook_types[0] == c["type"]:
+                n_pen += _NOVELTY_PENALTY_YESTERDAY
+            if len(recent_hook_types) >= 2 and c["type"] in recent_hook_types[1:3]:
+                n_pen += _NOVELTY_PENALTY_RECENT
+        hook_theme = _HOOK_TYPE_THEMES.get(c["type"])
+        d_pen = (
+            _DISTINCTIVENESS_PENALTY_DIRECT
+            if (page_themes and hook_theme and hook_theme in page_themes)
+            else 0.0
+        )
+        print(
+            f"    {c['type']:25s}  base={base:.4f}"
+            f"  novelty=-{n_pen:.4f}  distinct=-{d_pen:.4f}  final={final_score:.4f}",
+            file=sys.stderr,
+        )
+
     best_score, best = scored[0]
     if best_score < _MIN_HOOK_SCORE:
+        print(f"  no hook: best score {best_score:.4f} below threshold {_MIN_HOOK_SCORE}", file=sys.stderr)
         return None, None
 
     return best["text"], best["type"]
 
 
-def build_looking_ahead_hook(raw_game, team, standings):
+def build_looking_ahead_hook(raw_game, team, standings, subhead=None, insight=None):
     """
     Return (hook_text, hook_type) for the Looking Ahead section.
     Returns (None, None) when no candidate clears the minimum score threshold.
+
+    Pass subhead and insight so the scorer can apply a distinctiveness penalty
+    against themes already covered on the same page.
     """
     recent_hook_types = load_hook_history()
     candidates = build_looking_ahead_hook_candidates(raw_game, team, standings)
-    return pick_best_looking_ahead_hook(candidates, recent_hook_types)
+    page_themes = _detect_page_themes(subhead, insight)
+    if page_themes:
+        print(f"  page themes detected: {sorted(page_themes)}", file=sys.stderr)
+    return pick_best_looking_ahead_hook(candidates, recent_hook_types, page_themes)
 
 
 # ---------------------------------------------------------------------------
@@ -1289,7 +1433,9 @@ def build():
     insight = get_insight(team, last_game)
 
     print("Building Looking Ahead hook...", file=sys.stderr)
-    ahead_hook, ahead_hook_type = build_looking_ahead_hook(next_game_raw, team, standings)
+    ahead_hook, ahead_hook_type = build_looking_ahead_hook(
+        next_game_raw, team, standings, subhead=subhead, insight=insight
+    )
     if ahead_hook and next_game:
         next_game["insight"] = ahead_hook
         next_game["hook_type"] = ahead_hook_type

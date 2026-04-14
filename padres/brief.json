@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T11:35:18+00:00",
+  "generated_at": "2026-04-14T16:03:40+00:00",
   "season": 2026,
   "team": {
     "record": "10-6",
@@ -280,7 +280,11 @@
   "subhead": "Padres win their fifth straight, France leading the way \u2014 2.0 back in the West.",
   "insight": {
     "headline": "The pitching staff is carrying this run.",
+<<<<<<< HEAD
     "detail": "San Diego has won eight of their last ten despite a .694 OPS \u2014 the staff ERA of 3.41 has been doing the heavy lifting while the lineup finds its footing. They're 2.0 back in the NL West. If the offense wakes up, this team gets dangerous fast.",
+=======
+    "detail": "San Diego has won eight of their last ten despite a .694 OPS \u2014 the staff ERA of 3.41 has been doing the heavy lifting while the lineup finds its footing. They're 2.0 back in the NL West \u2014 the staff has kept them in the race while the bats have gone quiet.",
+>>>>>>> e47fa03 (Tighten insight language and add anti-speculation guardrail)
     "why": "staff carrying (3.41 ERA) \u00b7 quiet bats (.694 OPS) \u00b7 8\u20132 in the last ten"
   }
 }
