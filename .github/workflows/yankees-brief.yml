@@ -1,10 +1,10 @@
-name: Padres Morning Brief
+name: Yankees Morning Brief
 
 on:
   schedule:
-    # 6:25 AM Eastern Time / 10:25 UTC (UTC-4 during EDT)
-    # Shifted from 6:15 to give email a 6:25–6:30 AM ET landing window.
-    - cron: "25 10 * * *"
+    # 7:00 AM Eastern Time / 11:00 UTC (UTC-4 during EDT)
+    # Staggered 35 minutes after Padres to avoid resource contention.
+    - cron: "0 11 * * *"
   workflow_dispatch:
 
 jobs:
@@ -27,26 +27,26 @@ jobs:
         run: pip install requests
 
       - name: Generate brief.json
-        run: python padres/build_brief.py
+        run: python yankees/build_brief.py
 
       - name: Render email HTML
-        run: python render_email.py --team padres
+        run: python render_email.py --team yankees
 
       - name: Send email
         env:
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-        run: python send_email.py --team padres
+          RESEND_API_KEY: ${{ secrets.YANKEES_RESEND_API_KEY }}
+          EMAIL_TO: ${{ secrets.YANKEES_EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.YANKEES_EMAIL_FROM }}
+        run: python send_email.py --team yankees
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add padres/brief.json
+          git add yankees/brief.json
           if git diff --cached --quiet; then
             echo "No changes to brief.json — skipping commit."
           else
-            git commit -m "chore: update Padres morning brief [skip ci]"
+            git commit -m "chore: update Yankees morning brief [skip ci]"
             git push
           fi

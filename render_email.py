@@ -1,28 +1,39 @@
 #!/usr/bin/env python3
 """
-render_email.py — Render Padres Morning Brief as an HTML email.
+render_email.py — Render a Morning Brief as an HTML email.
 
 Usage:
-    python3 render_email.py
+    python3 render_email.py --team padres
+    python3 render_email.py --team yankees
 
-Reads brief.json, renders email_template.html, writes email_preview.html.
-No external dependencies required.
+Reads {team}/brief.json, renders {team}/email_template.html,
+writes {team}/email_preview.html. No external dependencies required.
 """
 
+import argparse
 import json
+import sys
 from datetime import datetime
 from pathlib import Path
 
-HERE = Path(__file__).parent
-BRIEF_PATH = HERE / "brief.json"
-TEMPLATE_PATH = HERE / "email_template.html"
-OUTPUT_PATH = HERE / "email_preview.html"
+ROOT = Path(__file__).parent
 
-SITE_URL = "https://bdavey619.github.io/padres/"
+# Load the team config for SITE_URL
+sys.path.insert(0, str(ROOT))
+from engine.team_config import PADRES, YANKEES  # noqa: E402
+
+_TEAM_CONFIGS = {
+    "padres":  PADRES,
+    "yankees": YANKEES,
+}
 
 
-def load_brief():
-    with open(BRIEF_PATH) as f:
+def get_team_dir(team_slug):
+    return ROOT / team_slug
+
+
+def load_brief(team_dir):
+    with open(team_dir / "brief.json") as f:
         return json.load(f)
 
 
@@ -71,19 +82,39 @@ def build_hitter_rows(hitters):
 
 
 def main():
-    brief = load_brief()
+    parser = argparse.ArgumentParser(description="Render a Morning Brief email.")
+    parser.add_argument("--team", required=True, choices=list(_TEAM_CONFIGS.keys()),
+                        help="Team slug (e.g. padres, yankees)")
+    args = parser.parse_args()
+
+    team_slug = args.team
+    cfg = _TEAM_CONFIGS[team_slug]
+    team_dir = get_team_dir(team_slug)
+
+    brief_path    = team_dir / "brief.json"
+    template_path = team_dir / "email_template.html"
+    output_path   = team_dir / "email_preview.html"
+
+    if not brief_path.exists():
+        print(f"ERROR: {brief_path} not found", file=sys.stderr)
+        sys.exit(1)
+    if not template_path.exists():
+        print(f"ERROR: {template_path} not found", file=sys.stderr)
+        sys.exit(1)
+
+    brief = load_brief(team_dir)
     lg = brief["last_game"]
 
     # Game identity
-    sd_score = lg["score"]["team"]
-    opp_score = lg["score"]["opp"]
-    home_away = "vs" if lg["home"] else "@"
-    score_display = f"{sd_score}\u2013{opp_score}"
+    team_score = lg["score"]["team"]
+    opp_score  = lg["score"]["opp"]
+    home_away  = "vs" if lg["home"] else "@"
+    score_display = f"{team_score}\u2013{opp_score}"
     vs_line = f"{home_away} {lg['opponent']}"
 
     result = lg["result"]
     result_label = "WIN" if result == "W" else "LOSS"
-    result_color = "#2f241d" if result == "W" else "#5a534c"
+    result_color = cfg.accent_color if result == "W" else "#5a534c"
 
     # Performers
     key_hitters_rows = build_hitter_rows(lg.get("key_hitters", []))
@@ -130,13 +161,13 @@ def main():
         "next_probables":    next_probables,
         "next_insight_row":  next_insight_row,
         "next_insight_pb":   next_insight_pb,
-        "site_url":          SITE_URL,
+        "site_url":          cfg.site_url,
         "generated_at":      fmt_generated_at(brief.get("generated_at", "")),
     }
 
-    html = render(TEMPLATE_PATH, context)
-    OUTPUT_PATH.write_text(html)
-    print(f"✓  Written to {OUTPUT_PATH}")
+    html = render(template_path, context)
+    output_path.write_text(html)
+    print(f"✓  Written to {output_path}")
 
 
 if __name__ == "__main__":

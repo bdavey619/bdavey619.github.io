@@ -1,22 +1,24 @@
 #!/usr/bin/env python3
 """
-send_email.py — Send the Padres Morning Brief via Resend.
+send_email.py — Send a Morning Brief via Resend.
 
-Reads brief.json for safety checks, reads email_preview.html for content,
-sends via the Resend HTTP API. No external dependencies required.
+Usage:
+    python3 send_email.py --team padres
+    python3 send_email.py --team yankees
+
+Reads {team}/brief.json for safety checks, reads {team}/email_preview.html
+for content, sends via the Resend HTTP API. No external dependencies required.
 
 Required environment variables:
     RESEND_API_KEY  — Resend API key (re_...)
-    EMAIL_TO        — recipient address
+    EMAIL_TO        — recipient address(es), comma-separated
     EMAIL_FROM      — verified sender address (e.g. brief@yourdomain.com)
 
 Optional:
     EMAIL_SUBJECT   — override the default subject line
-
-Usage:
-    python3 padres/send_email.py
 """
 
+import argparse
 import json
 import os
 import sys
@@ -25,15 +27,21 @@ import urllib.request
 from datetime import datetime
 from pathlib import Path
 
-HERE = Path(__file__).parent
-BRIEF_PATH = HERE / "brief.json"
-HTML_PATH = HERE / "email_preview.html"
+ROOT = Path(__file__).parent
+
+sys.path.insert(0, str(ROOT))
+from engine.team_config import PADRES, YANKEES  # noqa: E402
+
+_TEAM_CONFIGS = {
+    "padres":  PADRES,
+    "yankees": YANKEES,
+}
 
 RESEND_API_URL = "https://api.resend.com/emails"
 
 
-def load_brief():
-    with open(BRIEF_PATH) as f:
+def load_brief(team_dir):
+    with open(team_dir / "brief.json") as f:
         return json.load(f)
 
 
@@ -47,29 +55,25 @@ def safety_check(brief):
     """
     last_game = brief.get("last_game", {})
 
-    # Game must be fully completed
     status = last_game.get("status")
     if status != "final":
         return False, f"last_game.status is '{status}' — game may not be complete, skipping send"
 
-    # Score must have both sides
     score = last_game.get("score", {})
     if "team" not in score or "opp" not in score:
         return False, "last_game.score is missing team/opp fields — skipping send"
 
-    # Result must be a clean W or L
     result = last_game.get("result")
     if result not in ("W", "L"):
         return False, f"last_game.result is '{result}' — skipping send"
 
-    # Opponent must be present (sanity check for completely empty data)
     if not last_game.get("opponent"):
         return False, "last_game.opponent is missing — skipping send"
 
     return True, "ok"
 
 
-def build_subject(brief):
+def build_subject(brief, cfg):
     override = os.environ.get("EMAIL_SUBJECT", "").strip()
     if override:
         return override
@@ -82,10 +86,10 @@ def build_subject(brief):
     except Exception:
         date_label = date_str
 
-    return f"Padres Morning Brief \u2014 {date_label}"
+    return f"{cfg.team_name} Morning Brief \u2014 {date_label}"
 
 
-def send_email(api_key, to_addrs, from_addr, subject, html_content):
+def send_email(api_key, to_addrs, from_addr, subject, html_content, team_name):
     payload = json.dumps({
         "from": from_addr,
         "to": to_addrs,
@@ -99,7 +103,7 @@ def send_email(api_key, to_addrs, from_addr, subject, html_content):
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
-            "User-Agent": "padres-morning-brief/1.0",
+            "User-Agent": f"{team_name.lower()}-morning-brief/1.0",
         },
         method="POST",
     )
@@ -110,9 +114,18 @@ def send_email(api_key, to_addrs, from_addr, subject, html_content):
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Send a Morning Brief email.")
+    parser.add_argument("--team", required=True, choices=list(_TEAM_CONFIGS.keys()),
+                        help="Team slug (e.g. padres, yankees)")
+    args = parser.parse_args()
+
+    team_slug = args.team
+    cfg = _TEAM_CONFIGS[team_slug]
+    team_dir = ROOT / team_slug
+
     # Validate required env vars before doing any file I/O
-    api_key = os.environ.get("RESEND_API_KEY", "").strip()
-    emails = [e.strip() for e in os.environ.get("EMAIL_TO", "").split(",") if e.strip()]
+    api_key   = os.environ.get("RESEND_API_KEY", "").strip()
+    emails    = [e.strip() for e in os.environ.get("EMAIL_TO", "").split(",") if e.strip()]
     from_addr = os.environ.get("EMAIL_FROM", "").strip()
 
     missing = [
@@ -129,28 +142,29 @@ def main():
         sys.exit(1)
 
     # Load brief and run safety check
-    brief = load_brief()
+    brief = load_brief(team_dir)
     ok, reason = safety_check(brief)
     if not ok:
-        # Exit 0 so the workflow step doesn't fail — skipping is expected behaviour
         print(f"Safety guard: {reason}")
         print("No email sent.")
         sys.exit(0)
 
     # Load rendered HTML
-    if not HTML_PATH.exists():
-        print(f"ERROR: {HTML_PATH} not found — run render_email.py first", file=sys.stderr)
+    html_path = team_dir / "email_preview.html"
+    if not html_path.exists():
+        print(f"ERROR: {html_path} not found — run render_email.py --team {team_slug} first",
+              file=sys.stderr)
         sys.exit(1)
 
-    html_content = HTML_PATH.read_text()
-    subject = build_subject(brief)
+    html_content = html_path.read_text()
+    subject = build_subject(brief, cfg)
 
     print(f"Sending: {subject}")
     print("Sending to:", emails)
     print(f"  From: {from_addr}")
 
     try:
-        status, body = send_email(api_key, emails, from_addr, subject, html_content)
+        status, body = send_email(api_key, emails, from_addr, subject, html_content, cfg.team_name)
         print(f"Resend API response {status}: {body}")
         print("Email sent.")
     except urllib.error.HTTPError as e:

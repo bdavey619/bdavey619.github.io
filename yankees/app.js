@@ -1,4 +1,4 @@
-// Padres Morning Brief — frontend renderer
+// Yankees Morning Brief — frontend renderer
 // Reads brief.json and populates the page. Sections hide gracefully if empty.
 
 (async function () {
@@ -60,11 +60,11 @@ function buildSubhead(b) {
   const parts = [];
   const streakMatch = t?.streak?.match(/^W(\d+)/);
   if (streakMatch && parseInt(streakMatch[1]) >= 2) {
-    parts.push(`Padres extend win streak to ${streakMatch[1]}`);
+    parts.push(`Yankees extend win streak to ${streakMatch[1]}`);
   } else if (lg.result === 'W') {
-    parts.push('Padres win');
+    parts.push('Yankees win');
   } else {
-    parts.push('Padres fall');
+    parts.push('Yankees fall');
   }
 
   const pitcher = lg.key_pitcher?.name;
@@ -93,7 +93,6 @@ function renderSummaryBar(b) {
   $('sb-last10').textContent = t.last10 || '—';
 
   if (lg.status === 'final' && lg.score) {
-    const vs = lg.home ? 'vs' : '@';
     $('sb-last').textContent = `${lg.result} ${lg.score.team}-${lg.score.opp}`;
   } else {
     $('sb-last').textContent = '—';
@@ -115,7 +114,7 @@ function renderLastGame(lg) {
   const body = $('last-game-body');
 
   if (lg.status !== 'final') {
-    body.innerHTML = `<p class="off-day">No game yesterday — Padres were off.</p>`;
+    body.innerHTML = `<p class="off-day">No game yesterday — Yankees were off.</p>`;
     show('last-game');
     return;
   }
@@ -123,7 +122,7 @@ function renderLastGame(lg) {
   const vs = lg.home ? 'vs' : '@';
   const resultClass = lg.result === 'W' ? 'win' : 'loss';
   const contextLine = lg.context_line || (() => {
-    const venue = lg.home ? 'Petco Park' : null;
+    const venue = lg.home ? 'Yankee Stadium' : null;
     const parts = [lg.home ? 'Home' : 'Away'];
     if (venue) parts.push(venue);
     return parts.join(' · ');
@@ -172,26 +171,26 @@ function renderLastGame(lg) {
 
 function renderLinescore(lg) {
   if (!lg.linescore || !lg.linescore[0]?.length) return '';
-  const [sdRow, oppRow] = lg.linescore;
-  const innings = Math.max(sdRow.length, oppRow.length);
+  const [teamRow, oppRow] = lg.linescore;
+  const innings = Math.max(teamRow.length, oppRow.length);
 
   let head = '<th></th>';
   for (let i = 1; i <= innings; i++) head += `<th>${i}</th>`;
   head += '<th class="total">R</th>';
 
-  const buildRow = (name, row, isPadres) => {
+  const buildRow = (name, row, isTeam) => {
     let cells = `<td class="team">${name}</td>`;
     for (let i = 0; i < innings; i++) {
       const v = row[i];
       cells += `<td>${v === '' || v == null ? '' : v}</td>`;
     }
-    cells += `<td class="total">${isPadres ? lg.score.team : lg.score.opp}</td>`;
+    cells += `<td class="total">${isTeam ? lg.score.team : lg.score.opp}</td>`;
     return `<tr>${cells}</tr>`;
   };
 
   // Baseball convention: away team on top, home team on bottom
-  const topRow    = lg.home ? buildRow(lg.opponent, oppRow, false) : buildRow('SD', sdRow, true);
-  const bottomRow = lg.home ? buildRow('SD', sdRow, true)         : buildRow(lg.opponent, oppRow, false);
+  const topRow    = lg.home ? buildRow(lg.opponent, oppRow, false) : buildRow('NYY', teamRow, true);
+  const bottomRow = lg.home ? buildRow('NYY', teamRow, true)       : buildRow(lg.opponent, oppRow, false);
   return `
     <div class="linescore">
       <table>
@@ -270,9 +269,9 @@ function renderAhead(ng, standings) {
       <div class="matchup">${vs} ${ng.opponent}</div>
       <div class="meta">${fmtDate(ng.date)} · ${ng.time_local || ''}</div>`;
     if (ng.probable && (ng.probable.team || ng.probable.opp)) {
-      const sd = ng.probable.team || 'TBD';
+      const team = ng.probable.team || 'TBD';
       const opp = ng.probable.opp || 'TBD';
-      html += `<div class="probables">${sd} vs. ${opp}</div>`;
+      html += `<div class="probables">${team} vs. ${opp}</div>`;
     }
     if (ng.insight) {
       html += `<div class="next-insight">${ng.insight}</div>`;
@@ -282,11 +281,11 @@ function renderAhead(ng, standings) {
 
   if (standings?.length) {
     html += `<table class="standings-table">
-      <thead><tr><th class="team">NL West</th><th>W</th><th>L</th><th>GB</th><th>L10</th></tr></thead>
+      <thead><tr><th class="team">AL East</th><th>W</th><th>L</th><th>GB</th><th>L10</th></tr></thead>
       <tbody>`;
     for (const row of standings) {
-      const isPadres = /padres|^sd$/i.test(row.team);
-      html += `<tr class="${isPadres ? 'padres' : ''}">
+      const isYankees = /yankees|^nyy$/i.test(row.team);
+      html += `<tr class="${isYankees ? 'yankees' : ''}">
         <td class="team">${row.team}</td>
         <td>${row.w}</td>
         <td>${row.l}</td>
@@ -296,11 +295,11 @@ function renderAhead(ng, standings) {
     }
     html += `</tbody></table>`;
 
-    // Division context: compare Padres vs leader last-10
-    const padresRow = standings.find(r => /padres|^sd$/i.test(r.team));
+    // Division context: compare Yankees vs leader last-10
+    const yankeesRow = standings.find(r => /yankees|^nyy$/i.test(r.team));
     const leaderRow = standings[0];
-    if (padresRow?.last10 && leaderRow?.last10 && leaderRow !== padresRow) {
-      html += `<p class="division-context">Padres ${padresRow.last10} in last 10, ${leaderRow.team} ${leaderRow.last10}.</p>`;
+    if (yankeesRow?.last10 && leaderRow?.last10 && leaderRow !== yankeesRow) {
+      html += `<p class="division-context">Yankees ${yankeesRow.last10} in last 10, ${leaderRow.team} ${leaderRow.last10}.</p>`;
     }
   }
 

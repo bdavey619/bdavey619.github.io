@@ -1,7 +1,7 @@
 """
-build_brief.py — Padres Morning Brief data fetcher
+build_brief.py — Yankees Morning Brief data fetcher
 
-Pulls Padres data from the MLB Stats API and writes brief.json
+Pulls Yankees data from the MLB Stats API and writes brief.json
 matching the agreed schema. No API key required.
 """
 
@@ -19,9 +19,9 @@ import requests
 # ---------------------------------------------------------------------------
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from engine.team_config import PADRES  # noqa: E402
+from engine.team_config import YANKEES  # noqa: E402
 
-CFG = PADRES
+CFG = YANKEES
 
 # ---------------------------------------------------------------------------
 # Constants
