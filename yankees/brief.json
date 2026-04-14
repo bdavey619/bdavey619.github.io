@@ -1,0 +1,327 @@
+{
+  "generated_at": "2026-04-14T21:54:07+00:00",
+  "season": 2026,
+  "team": {
+    "record": "9-7",
+    "streak": "W1",
+    "run_diff": "+22",
+    "last10": "4-6",
+    "division_rank": 1,
+    "games_back": "-",
+    "avg": ".214",
+    "ops": ".699",
+    "era": "2.99"
+  },
+  "last_game": {
+    "status": "final",
+    "gamePk": 823563,
+    "date": "2026-04-13",
+    "opponent": "LAA",
+    "home": true,
+    "result": "W",
+    "score": {
+      "team": 11,
+      "opp": 10
+    },
+    "linescore": [
+      [
+        2,
+        2,
+        0,
+        0,
+        3,
+        1,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        0,
+        3,
+        1,
+        2,
+        0
+      ]
+    ],
+    "decisions": {
+      "win": "Paul Blackburn",
+      "win_role": "RP",
+      "win_team": "team",
+      "loss": "Jordan Romano",
+      "loss_role": "RP",
+      "loss_team": "opp"
+    },
+    "key_hitters": [
+      {
+        "name": "Trent Grisham",
+        "line": "2-3, 2 HR, 5 RBI",
+        "pos": "CF",
+        "season_avg": ".167"
+      },
+      {
+        "name": "Aaron Judge",
+        "line": "2-5, 2 HR, 3 RBI",
+        "pos": "RF",
+        "season_avg": ".233"
+      }
+    ],
+    "key_pitcher": {
+      "name": "Will Warren",
+      "line": "3.2 IP, 3 H, 0 ER, 6 K",
+      "role": "SP",
+      "season_era": "2.45"
+    },
+    "context_line": "Home \u00b7 Yankee Stadium \u00b7 Night game",
+    "game_note": "Grisham's home run was part of a 3-run fifth that put the Yankees in front for good.",
+    "full_box": {
+      "batting": [
+        {
+          "name": "Paul Goldschmidt",
+          "pos": "1B",
+          "avg": ".250",
+          "ab": 2,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "so": 1
+        },
+        {
+          "name": "Ryan McMahon",
+          "pos": "3B",
+          "avg": ".108",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "so": 0
+        },
+        {
+          "name": "Aaron Judge",
+          "pos": "RF",
+          "avg": ".233",
+          "ab": 5,
+          "r": 2,
+          "h": 2,
+          "rbi": 3,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Cody Bellinger",
+          "pos": "LF",
+          "avg": ".237",
+          "ab": 5,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Giancarlo Stanton",
+          "pos": "DH",
+          "avg": ".315",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 0,
+          "bb": 1,
+          "so": 2
+        },
+        {
+          "name": "Amed Rosario",
+          "pos": "3B",
+          "avg": ".308",
+          "ab": 2,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Ben Rice",
+          "pos": "1B",
+          "avg": ".362",
+          "ab": 2,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "so": 1
+        },
+        {
+          "name": "Jazz Chisholm Jr.",
+          "pos": "2B",
+          "avg": ".180",
+          "ab": 5,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 2
+        },
+        {
+          "name": "Randal Grichuk",
+          "pos": "LF",
+          "avg": ".000",
+          "ab": 1,
+          "r": 1,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "so": 0
+        },
+        {
+          "name": "Trent Grisham",
+          "pos": "CF",
+          "avg": ".167",
+          "ab": 3,
+          "r": 2,
+          "h": 2,
+          "rbi": 5,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Jos\u00e9 Caballero",
+          "pos": "SS",
+          "avg": ".170",
+          "ab": 5,
+          "r": 2,
+          "h": 2,
+          "rbi": 2,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Austin Wells",
+          "pos": "C",
+          "avg": ".167",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 2,
+          "so": 0
+        }
+      ],
+      "pitching": [
+        {
+          "name": "Will Warren",
+          "ip": "3.2",
+          "h": 3,
+          "er": 0,
+          "k": 6,
+          "bb": 1
+        },
+        {
+          "name": "Fernando Cruz",
+          "ip": "0.1",
+          "h": 0,
+          "er": 0,
+          "k": 0,
+          "bb": 2
+        },
+        {
+          "name": "Tim Hill",
+          "ip": "1.2",
+          "h": 3,
+          "er": 1,
+          "k": 0,
+          "bb": 0
+        },
+        {
+          "name": "Jake Bird",
+          "ip": "1.0",
+          "h": 4,
+          "er": 3,
+          "k": 1,
+          "bb": 0
+        },
+        {
+          "name": "Camilo Doval",
+          "ip": "1.1",
+          "h": 2,
+          "er": 2,
+          "k": 1,
+          "bb": 0
+        },
+        {
+          "name": "Paul Blackburn",
+          "ip": "1.0",
+          "h": 0,
+          "er": 0,
+          "k": 0,
+          "bb": 0
+        }
+      ]
+    }
+  },
+  "next_game": {
+    "gamePk": 823562,
+    "date": "2026-04-14",
+    "opponent": "LAA",
+    "home": true,
+    "time_local": "7:05 PM ET",
+    "probable": {
+      "team": "Ryan Weathers",
+      "opp": "Reid Detmers"
+    },
+    "insight": "LAA's .217 average gives Weathers a favorable matchup tonight.",
+    "hook_type": "opponent_weakness"
+  },
+  "standings": [
+    {
+      "team": "Yankees",
+      "w": 9,
+      "l": 7,
+      "gb": "-",
+      "last10": "4-6"
+    },
+    {
+      "team": "Orioles",
+      "w": 9,
+      "l": 7,
+      "gb": "-",
+      "last10": "6-4"
+    },
+    {
+      "team": "Rays",
+      "w": 8,
+      "l": 7,
+      "gb": "0.5",
+      "last10": "6-4"
+    },
+    {
+      "team": "Blue Jays",
+      "w": 6,
+      "l": 9,
+      "gb": "2.5",
+      "last10": "2-8"
+    },
+    {
+      "team": "Red Sox",
+      "w": 6,
+      "l": 10,
+      "gb": "3.0",
+      "last10": "5-5"
+    }
+  ],
+  "hot_players": {
+    "hitters": [],
+    "pitchers": []
+  },
+  "subhead": "Yankees take it at the Stadium, Grisham leading the way.",
+  "insight": {
+    "headline": "Yankees hovering at 4-6 over the last ten.",
+    "detail": "Team line: .214 average, .699 OPS, 2.99 ERA. No side of the ball has separated itself as the clear driver.",
+    "why": "staff carrying (2.99 ERA) \u00b7 quiet bats (.699 OPS) \u00b7 4\u20136 in the last ten"
+  }
+}

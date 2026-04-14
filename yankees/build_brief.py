@@ -50,7 +50,7 @@ def get(path, **params):
 # ---------------------------------------------------------------------------
 
 def _fetch_schedule(start, end):
-    """Fetch Padres schedule between two dates (inclusive)."""
+    """Fetch Yankees schedule between two dates (inclusive)."""
     data = get(
         "schedule",
         sportId=1,
@@ -153,7 +153,7 @@ def _generate_game_note(sd_row, opp_row, score, opponent, key_hitters, result):
     opp_big = _biggest(opp_ints)
 
     if result == "W":
-        # Large SD inning (4+ runs)
+        # Large team inning (4+ runs)
         if sd_big[1] >= 4:
             inn = _ordinal_word(sd_big[0] + 1)
             if hitter_last and "HR" in hitter_line:
@@ -268,7 +268,7 @@ def _format_last_game(game):
 
 
 def _format_linescore(ls, sd_is_home):
-    """Return [[sd_innings...], [opp_innings...]]. Padres always row 0."""
+    """Return [[team_innings...], [opp_innings...]]. Team always row 0."""
     innings = ls.get("innings", [])
     sd_row, opp_row = [], []
     for inn in innings:
@@ -328,7 +328,7 @@ def _format_decisions(dec, box, sd_side):
 def _extract_key_performers(box, sd_side):
     """
     Top 2 hitters by hits/HR.
-    Key pitcher = the actual Padres starter (boxscore.pitchers[0]),
+    Key pitcher = the actual Yankees starter (boxscore.pitchers[0]),
     falling back to most-IP if the pitchers array is missing.
     """
     sd_team = box["teams"][sd_side]
@@ -390,7 +390,7 @@ def _extract_key_performers(box, sd_side):
     if pitcher_ids:
         key_pitcher = _format_pitcher(pitcher_ids[0], role="SP")
 
-    # Fallback: most IP among Padres pitchers if starter lookup failed
+    # Fallback: most IP among Yankees pitchers if starter lookup failed
     if not key_pitcher:
         best = None
         for p in players.values():
@@ -424,7 +424,7 @@ def _extract_key_performers(box, sd_side):
 
 def _extract_full_box_score(box, sd_side):
     """
-    Full batting + pitching table for the Padres in this game.
+    Full batting + pitching table for the Yankees in this game.
     Returns None if no data is usable.
     """
     sd_team = box["teams"][sd_side]
@@ -935,8 +935,8 @@ def _detect_page_themes(subhead, insight):
     Themes detected
     ---------------
     "race"     — standings position / division race is the lead angle
-    "momentum" — Padres win streak or recent-form hot-take is the focus
-    "pitching" — Padres pitching staff is explicitly called the run driver
+    "momentum" — Yankees win streak or recent-form hot-take is the focus
+    "pitching" — Yankees pitching staff is explicitly called the run driver
 
     Detection is keyword-based: fast, transparent, and easy to tune by editing
     the keyword lists below.
@@ -951,12 +951,12 @@ def _detect_page_themes(subhead, insight):
 
     # Race / standings angle (subhead gb_tail, insight race mention)
     if any(kw in text for kw in [
-        "back in the", "nl west race", "division race", "games back",
-        "back in the west", "back in the nl west",
+        "back in the", "al east race", "division race", "games back",
+        "back in the east", "back in the al east",
     ]):
         themes.add("race")
 
-    # Padres momentum / streak angle (subhead win-streak lead, insight hot_streak)
+    # Yankees momentum / streak angle (subhead win-streak lead, insight hot_streak)
     if any(kw in text for kw in [
         "straight", "win streak", "last ten", "last 10",
         "hot streak", "won their",
@@ -1040,7 +1040,7 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
     Returns a list of dicts: {type, text, fact_strength, game_relevance, specificity, stakes, _meta}.
 
     Hook types: pitcher_form, opponent_weakness, opponent_cold_streak,
-                race_context, padres_momentum.
+                race_context, yankees_momentum.
     """
     if not raw_game:
         return []
@@ -1189,7 +1189,7 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
                 "_meta": {"ops": ops_val, "ops_str": ops_str, "opponent": opponent_abbr},
             })
 
-    # ---- 3. Opponent cold streak (NL West only) ----
+    # ---- 3. Opponent cold streak (AL East only) ----
     opp_row = next(
         (r for r in standings if r["team"].upper() == opponent_abbr.upper()),
         None,
@@ -1281,7 +1281,7 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
                 "_meta": {"leading": True, "streak_n": streak_n},
             })
 
-    # ---- 5. Padres momentum ----
+    # ---- 5. Yankees momentum ----
     last10 = team.get("last10", "-")
     if last10 and "-" in last10:
         try:

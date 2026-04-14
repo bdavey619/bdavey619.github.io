@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T16:03:40+00:00",
+  "generated_at": "2026-04-14T21:50:33+00:00",
   "season": 2026,
   "team": {
     "record": "10-6",
@@ -20,7 +20,7 @@
     "home": true,
     "result": "W",
     "score": {
-      "sd": 7,
+      "team": 7,
       "opp": 2
     },
     "linescore": [
@@ -50,7 +50,7 @@
     "decisions": {
       "win": "David Morgan",
       "win_role": "RP",
-      "win_team": "sd",
+      "win_team": "team",
       "loss": "Jimmy Herget",
       "loss_role": "RP",
       "loss_team": "opp"
@@ -230,11 +230,11 @@
     "home": true,
     "time_local": "6:40 PM PT",
     "probable": {
-      "sd": "Michael King",
+      "team": "Michael King",
       "opp": "Bryan Woo"
     },
-    "insight": "SEA's .208 average gives King a favorable matchup tonight.",
-    "hook_type": "opponent_weakness"
+    "insight": "San Diego is 2.0 back in the NL West on a 5-game win streak \u2014 tonight matters.",
+    "hook_type": "race_context"
   },
   "standings": [
     {
