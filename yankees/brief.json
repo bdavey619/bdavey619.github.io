@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T21:54:07+00:00",
+  "generated_at": "2026-04-14T23:35:15+00:00",
   "season": 2026,
   "team": {
     "record": "9-7",
@@ -8,9 +8,9 @@
     "last10": "4-6",
     "division_rank": 1,
     "games_back": "-",
-    "avg": ".214",
-    "ops": ".699",
-    "era": "2.99"
+    "avg": ".213",
+    "ops": ".696",
+    "era": "3.14"
   },
   "last_game": {
     "status": "final",
@@ -274,7 +274,7 @@
       "team": "Ryan Weathers",
       "opp": "Reid Detmers"
     },
-    "insight": "LAA's .217 average gives Weathers a favorable matchup tonight.",
+    "insight": "LAA's .220 average gives Weathers a favorable matchup tonight.",
     "hook_type": "opponent_weakness"
   },
   "standings": [
@@ -321,7 +321,7 @@
   "subhead": "Yankees take it at the Stadium, Grisham leading the way.",
   "insight": {
     "headline": "Yankees hovering at 4-6 over the last ten.",
-    "detail": "Team line: .214 average, .699 OPS, 2.99 ERA. No side of the ball has separated itself as the clear driver.",
-    "why": "staff carrying (2.99 ERA) \u00b7 quiet bats (.699 OPS) \u00b7 4\u20136 in the last ten"
+    "detail": "Team line: .213 average, .696 OPS, 3.14 ERA. No side of the ball has separated itself as the clear driver.",
+    "why": "staff carrying (3.14 ERA) \u00b7 quiet bats (.696 OPS) \u00b7 4\u20136 in the last ten"
   }
 }
