@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T21:50:33+00:00",
+  "generated_at": "2026-04-14T23:34:43+00:00",
   "season": 2026,
   "team": {
     "record": "10-6",
@@ -233,8 +233,8 @@
       "team": "Michael King",
       "opp": "Bryan Woo"
     },
-    "insight": "San Diego is 2.0 back in the NL West on a 5-game win streak \u2014 tonight matters.",
-    "hook_type": "race_context"
+    "insight": "SEA's .208 average gives King a favorable matchup tonight.",
+    "hook_type": "opponent_weakness"
   },
   "standings": [
     {
