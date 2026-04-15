@@ -20,6 +20,7 @@ from enrich import enrich_events
 from score import score_event
 from rank import rank_events
 from models import ScoredEvent, TeamContext
+from editorial import editorial_review, print_override_summary, print_final_five
 
 
 # ---------------------------------------------------------------------------
@@ -170,10 +171,6 @@ def main() -> None:
                         help="Override generation date YYYY-MM-DD (default: today ET)")
     args = parser.parse_args()
 
-    if not args.dry_run:
-        print("Pass --dry-run to see ranked output.")
-        sys.exit(0)
-
     now = datetime.now(timezone.utc)
 
     if args.date:
@@ -213,9 +210,17 @@ def main() -> None:
     # --- Rank ---
     ranked = rank_events(scored_events)
 
-    # --- Print ---
+    # --- Output ---
     print("", file=sys.stderr)
-    print_dry_run(week_start, week_end, now, total_fetched, excluded, ranked)
+
+    if args.dry_run:
+        # Full diagnostic view — unchanged from Milestone 1
+        print_dry_run(week_start, week_end, now, total_fetched, excluded, ranked)
+    else:
+        # Interactive editorial path
+        final, override_info = editorial_review(ranked)
+        print_override_summary(override_info)
+        print_final_five(final)
 
 
 if __name__ == "__main__":
