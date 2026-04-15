@@ -21,6 +21,7 @@ from score import score_event
 from rank import rank_events
 from models import ScoredEvent, TeamContext
 from editorial import editorial_review, print_override_summary, print_final_five
+from explain import generate_explanations
 
 
 # ---------------------------------------------------------------------------
@@ -219,8 +220,12 @@ def main() -> None:
     else:
         # Interactive editorial path
         final, override_info = editorial_review(ranked)
+
+        print("\nGenerating explanations...", file=sys.stderr)
+        explanations = generate_explanations(final)
+
         print_override_summary(override_info)
-        print_final_five(final)
+        print_final_five(final, explanations)
 
 
 if __name__ == "__main__":
