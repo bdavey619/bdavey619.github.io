@@ -21,8 +21,9 @@ from models import ScoredEvent
 # Model to use — Opus for editorial quality on the product voice
 _MODEL = "claude-opus-4-6"
 
-# How many sentences per explanation
-_SENTENCES = "2–3"
+# Target sentence count — 2 is the default; 3 only when a third carries a
+# genuinely distinct fact that the first two cannot hold.
+_TARGET_SENTENCES = 2
 
 
 # ---------------------------------------------------------------------------
@@ -134,33 +135,73 @@ def _build_event_block(i: int, se: ScoredEvent) -> str:
 # ---------------------------------------------------------------------------
 
 _SYSTEM_PROMPT = """\
-You write editorial explanations for a weekly "Must Watch" sports column.
+You write event explanations for a weekly sports "Must Watch" column.
 
-Rules — follow these exactly:
-1. Write exactly {sentences} sentences per event.
-2. Reference only the facts provided in the event block. Do not recall or invent statistics, scores, or season history beyond what is given.
-3. Lead with the story setup — the stakes, narrative context, or rivalry — not a prediction of game quality or outcome.
-4. Be specific: name teams by name (not generic terms), cite standings positions, win streaks, or rivalry context when present in the data.
-5. No generic sports media language. Forbidden phrases include: "must-see matchup", "clash of titans", "electric atmosphere", "fun to watch", "showcase", "exciting", "blockbuster", "thrilling", "epic", and similar hype words.
-6. No predictions about who will win or how the game will play out.
-7. No filler sentences. Every sentence must carry a distinct piece of information from the event data.
-8. Write in a direct, confident editorial voice — like a knowledgeable editor telling a reader which game matters and why.
+Length: 2 sentences. Use a third only when it carries a genuinely distinct \
+fact the first two cannot hold — not to elaborate, qualify, or transition.
 
-Output format: respond with exactly 5 blocks in this format:
+Each explanation must answer three things inside those 2 sentences:
+  — Why does this game rank here? (the structural reason: standings, stakes, elimination)
+  — What is the single most concrete fact that makes it compelling?
+  — Why should a neutral fan care?
+
+Voice and mechanics:
+  Use strong, direct verbs: leads, trails, needs, holds, faces, enters, forces.
+  State the story. Do not introduce it.
+  Use factual contrast: "Team A is 8-2 in their last 10; Team B has lost four \
+straight" — not "while Team A has been hot, Team B has struggled recently."
+  Every sentence must contain at least one specific fact from the event data.
+
+Second sentence rule:
+  The second sentence must introduce tension, contrast, or asymmetry — not \
+describe or elaborate on sentence one.
+  It should feel like a conclusion: the variable, the edge, or the asymmetry \
+that the first sentence sets up but does not resolve.
+  Patterns that work:
+    "[X] decides this."
+    "There's no edge here except [specific fact]."
+    "The structure is clear; the variable is [Z]."
+    "Both teams are [equal fact] — the difference is [specific asymmetry]."
+    "That said, [contrasting fact that complicates or sharpens the picture]."
+  Patterns that fail:
+    Neutral description: "They are also divisional rivals." (no tension added)
+    Restatement: "That makes this game significant for both sides." (says nothing new)
+    Elaboration: "A win here would go a long way toward securing their position." \
+(weaker version of what sentence one already established)
+
+Forbidden constructions — do not use these or close variants:
+  "adds texture"
+  "what makes this matter" / "what makes this matter now"
+  "turning this into"
+  "square off in"
+  "the stakes are high"
+  "on the line"
+  "adds to the intrigue"
+  Any sentence that restates what the previous sentence already said
+  Any prediction about game quality, outcome, or atmosphere
+  Any generic sports hype language (epic, blockbuster, electric, must-see, \
+thrilling, exciting, showcase)
+
+Constraint: use only the facts in the event data provided. Do not recall or \
+invent statistics, scores, injury reports, or season context beyond what is given.
+
+Output: exactly 5 blocks. Format each as:
 EVENT 1:
 [explanation]
 
 EVENT 2:
 [explanation]
 
-...and so on through EVENT 5. No other text.""".replace("{sentences}", _SENTENCES)
+...through EVENT 5. No other text."""
 
 
 def _build_user_prompt(final: list[ScoredEvent]) -> str:
     blocks = [_build_event_block(i, se) for i, se in enumerate(final, start=1)]
     joined = "\n\n".join(blocks)
     return (
-        f"Write a {_SENTENCES}-sentence explanation for each of the 5 events below.\n\n"
+        f"Write a {_TARGET_SENTENCES}-sentence explanation for each of the "
+        f"5 events below. Use a third sentence only if a distinct fact cannot "
+        f"fit in two.\n\n"
         f"{joined}"
     )
 
