@@ -67,6 +67,19 @@ def fmt_generated_at(ts_str):
         return ts_str
 
 
+def build_highlights_link(url):
+    """Return an inline HTML highlights CTA, or empty string if no URL."""
+    if not url:
+        return ""
+    return (
+        '<p style="margin:8px 0 0;">'
+        f'<a href="{url}" style="font-family:-apple-system,BlinkMacSystemFont,\'Helvetica Neue\',Arial,sans-serif;'
+        'font-size:11px;letter-spacing:0.08em;text-transform:uppercase;'
+        'color:#003087;font-weight:600;text-decoration:none;">'
+        "Watch highlights &#8594;</a></p>"
+    )
+
+
 def build_hitter_rows(hitters):
     rows = []
     for i, h in enumerate(hitters):
@@ -161,6 +174,7 @@ def main():
         "vs_line":           vs_line,
         "context_line":      context_line_with_date,
         "game_note":         lg.get("game_note", ""),
+        "highlights_link":   build_highlights_link(lg.get("highlights_url")),
         "key_hitters_rows":  key_hitters_rows,
         "pitcher_name":      pitcher.get("name", ""),
         "pitcher_line":      pitcher.get("line", ""),

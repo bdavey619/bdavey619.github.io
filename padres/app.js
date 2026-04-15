@@ -148,6 +148,10 @@ function renderLastGame(lg) {
     html += `<p class="lg-game-note">${lg.game_note}</p>`;
   }
 
+  if (lg.highlights_url) {
+    html += `<a class="highlights-link" href="${lg.highlights_url}" target="_blank" rel="noopener noreferrer">Watch highlights &#8594;</a>`;
+  }
+
   html += renderLinescore(lg);
   html += renderDecisions(lg.decisions);
 

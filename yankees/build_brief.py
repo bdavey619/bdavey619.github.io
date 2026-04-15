@@ -10,7 +10,7 @@ import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import urlencode
+from urllib.parse import urlencode, quote_plus
 
 import requests
 
@@ -206,6 +206,24 @@ def _generate_game_note(sd_row, opp_row, score, opponent, key_hitters, result):
         return f"The {CFG.team_name} couldn't find enough offense to keep pace with {opponent}."
 
 
+def _highlights_url(home: bool, opponent: str, game_date: str) -> str:
+    """Return a YouTube search URL for the game highlight video.
+
+    Uses away vs home team convention and the full game date so the
+    official MLB YouTube clip typically surfaces as the first result.
+    No API key required.
+    """
+    try:
+        dt = datetime.strptime(game_date, "%Y-%m-%d")
+        date_label = dt.strftime("%B %-d %Y")
+    except Exception:
+        date_label = game_date
+    away_abbr = opponent if home else CFG.team_abbr
+    home_abbr = CFG.team_abbr if home else opponent
+    query = f"{away_abbr} vs {home_abbr} highlights {date_label} MLB"
+    return f"https://www.youtube.com/results?search_query={quote_plus(query)}"
+
+
 def _format_last_game(game):
     home = _is_home(game)
     sd_side = "home" if home else "away"
@@ -246,10 +264,11 @@ def _format_last_game(game):
         linescore[0], linescore[1], score, _opponent_abbr(game), key_hitters, result
     )
 
+    game_date = game.get("officialDate") or game["gameDate"][:10]
     out = {
         "status": "final",
         "gamePk": game["gamePk"],
-        "date": game.get("officialDate") or game["gameDate"][:10],
+        "date": game_date,
         "opponent": _opponent_abbr(game),
         "home": home,
         "result": result,
@@ -259,6 +278,7 @@ def _format_last_game(game):
         "key_hitters": key_hitters,
         "key_pitcher": key_pitcher,
         "context_line": context_line,
+        "highlights_url": _highlights_url(home, _opponent_abbr(game), game_date),
     }
     if game_note:
         out["game_note"] = game_note

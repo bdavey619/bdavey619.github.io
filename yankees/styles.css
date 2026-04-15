@@ -172,8 +172,20 @@ main {
   color: var(--ink-soft);
   font-style: italic;
   line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.highlights-link {
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
   margin-bottom: 14px;
 }
+.highlights-link:hover { text-decoration: underline; }
 
 .linescore {
   font-family: var(--mono);
