@@ -41,8 +41,10 @@ function render(b) {
 
 // ---------- masthead ----------
 function renderMasthead(b) {
-  const date = b.last_game?.date || new Date().toISOString().slice(0, 10);
-  $('brief-date').textContent = fmtDate(date);
+  // Publication date = today, not the last game date
+  $('brief-date').textContent = new Date().toLocaleDateString('en-US', {
+    weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'
+  });
 
   // Prefer server-generated subhead (has full data context); fall back to client-side
   const subhead = b.subhead || buildSubhead(b);
@@ -121,12 +123,16 @@ function renderLastGame(lg) {
 
   const vs = lg.home ? 'vs' : '@';
   const resultClass = lg.result === 'W' ? 'win' : 'loss';
-  const contextLine = lg.context_line || (() => {
+  const gameContext = lg.context_line || (() => {
     const venue = lg.home ? 'Yankee Stadium' : null;
     const parts = [lg.home ? 'Home' : 'Away'];
     if (venue) parts.push(venue);
     return parts.join(' · ');
   })();
+  // Prepend the actual game date so it's unambiguous (brief date ≠ game date on off days)
+  const gameDateLabel = lg.date ? new Date(...lg.date.split('-').map((v, i) => i === 1 ? v - 1 : +v))
+    .toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }) : '';
+  const contextLine = [gameDateLabel, gameContext].filter(Boolean).join(' · ');
 
   let html = `
     <div class="lg-headline">

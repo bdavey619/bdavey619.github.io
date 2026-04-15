@@ -45,10 +45,16 @@ def render(template_path, context):
     return html
 
 
-def fmt_game_date(date_str):
+def fmt_brief_date():
+    """Today's date — the publication date of this brief."""
+    return datetime.now().strftime("%A, %B %-d, %Y")
+
+
+def fmt_game_date_short(date_str):
+    """Short game date for the context line: e.g. 'Sat, Apr 12'."""
     try:
         d = datetime.strptime(date_str, "%Y-%m-%d")
-        return d.strftime("%A, %B %-d, %Y")
+        return d.strftime("%a, %b %-d")
     except Exception:
         return date_str
 
@@ -141,14 +147,19 @@ def main():
     # Insight
     insight = brief.get("insight", {})
 
+    # Game date label prepended to context line for clarity (brief date ≠ game date on off days)
+    game_date_short = fmt_game_date_short(lg["date"])
+    existing_context = lg.get("context_line", "")
+    context_line_with_date = f"{game_date_short} · {existing_context}" if existing_context else game_date_short
+
     context = {
-        "brief_date":        fmt_game_date(lg["date"]),
+        "brief_date":        fmt_brief_date(),
         "subhead":           brief.get("subhead", ""),
         "score_display":     score_display,
         "result_label":      result_label,
         "result_color":      result_color,
         "vs_line":           vs_line,
-        "context_line":      lg.get("context_line", ""),
+        "context_line":      context_line_with_date,
         "game_note":         lg.get("game_note", ""),
         "key_hitters_rows":  key_hitters_rows,
         "pitcher_name":      pitcher.get("name", ""),

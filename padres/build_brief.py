@@ -805,7 +805,7 @@ def get_insight(team, last_game=None):
     elif hot_streak:
         headline = f"Balanced ball — {CFG.team_name} are {last10} over their last ten."
         detail = (
-            f"No single weak spot: {avg} average, {ops} OPS at the plate, "
+            f"Both sides have contributed: {avg} average, {ops} OPS at the plate, "
             f"{era} ERA from the staff. "
         )
         if in_race:
@@ -813,18 +813,67 @@ def get_insight(team, last_game=None):
 
     elif last10_wins <= 3:
         headline = f"A {last10} stretch over the last ten is a real concern."
-        detail = (
-            f"The {CFG.team_name} are batting {avg} as a team ({ops} OPS) "
-            f"with a {era} staff ERA. Neither side of the ball is carrying the other right now."
-        )
+        if era_val > 4.30 and ops_val >= 0.700:
+            # Rotation is the primary drag
+            detail = (
+                f"The {CFG.team_name} are batting {avg} ({ops} OPS) — "
+                f"well enough to compete — but a {era} ERA from the staff has cost them. "
+                f"The pitching is where this run has come apart."
+            )
+        elif ops_val < 0.700 and era_val <= 4.30:
+            # Offense is the primary drag
+            detail = (
+                f"A {ops} OPS over this stretch has made it hard to win. "
+                f"The staff ERA sits at {era} — the runs just haven't been there."
+            )
+        else:
+            # Both sides struggling
+            detail = (
+                f"The {CFG.team_name} are batting {avg} ({ops} OPS) "
+                f"with a {era} staff ERA — neither side has been able to stop the slide."
+            )
+        if in_race:
+            detail += f" They're {games_back} back in the {CFG.division_name}."
+        elif leading:
+            detail += f" Sitting in first despite the slide."
 
     else:
-        # Middle-of-the-road, no strong angle
-        headline = f"{CFG.team_name} hovering at {last10} over the last ten."
-        detail = (
-            f"Team line: {avg} average, {ops} OPS, {era} ERA. "
-            f"No side of the ball has separated itself as the clear driver."
-        )
+        # Middle-of-the-road — surface the most relevant tension or mismatch
+        if pitching_strong:
+            # Good pitching, but the results haven't followed
+            headline = f"A {era} ERA should be winning more games."
+            detail = (
+                f"The staff has held up its end — {era} ERA — but {CFG.team_city} "
+                f"has gone just {last10} over their last ten. "
+                f"A {ops} OPS at the plate hasn't been enough to turn good pitching into wins."
+            )
+        elif era_val > 4.30:
+            # Weak rotation is the drag on results
+            headline = f"The rotation is what's held them back."
+            detail = (
+                f"The {CFG.team_name} are putting up {ops} OPS at the plate, "
+                f"but a {era} ERA from the staff has cancelled it out. "
+                f"That gap explains the {last10} stretch."
+            )
+        elif offense_weak:
+            # Average pitching, offense is the bottleneck
+            headline = f"The offense hasn't matched the pitching."
+            detail = (
+                f"The staff is holding at {era} ERA, but a {ops} OPS at the plate "
+                f"has made it difficult. {CFG.team_city} sits at {last10} over their last ten "
+                f"with neither side pulling ahead."
+            )
+        else:
+            # True middle — everything average, no dominant signal
+            headline = f"Neither side has clicked — {last10} in the last ten."
+            detail = (
+                f"{avg} average, {ops} OPS, {era} ERA. "
+                f"When no side takes control, the results end up in the middle."
+            )
+        if in_race:
+            detail += f" They're {games_back} back in the {CFG.division_name}."
+        elif leading:
+            detail += f" Still in first, but the inconsistency is real."
 
     # Build compact "why" line — 2–3 editorial signals, not raw labels
     why_signals = []
