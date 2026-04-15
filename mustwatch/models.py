@@ -46,7 +46,8 @@ class RawEvent:
     game_time_utc: datetime
     game_date: date         # Local date in ET
     venue: str
-    is_postseason: bool     = False
+    is_postseason: bool = False   # playoffs OR play-in
+    is_playin: bool     = False   # explicit NBA play-in (ESPN season.type == 5)
 
 
 @dataclass

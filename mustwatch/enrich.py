@@ -65,13 +65,17 @@ def detect_flags(
 
     # --- Tier 1: elimination_game ---
     if ev.is_postseason and sport == "NBA":
-        home_rank = home_ctx.conference_rank or 99
-        away_rank = away_ctx.conference_rank or 99
-        # Play-In: BOTH teams must be seeds 7–10 (actual play-in tournament).
-        # 2 vs 7 or 1 vs 8 are first-round playoff series — not play-in.
-        if (NBA_PLAYOFF_RANK_CUTOFF < home_rank <= NBA_PLAYIN_RANK_CUTOFF and
-                NBA_PLAYOFF_RANK_CUTOFF < away_rank <= NBA_PLAYIN_RANK_CUTOFF):
+        # Explicit play-in flag (ESPN season.type == 5) is the primary signal.
+        if ev.is_playin:
             flags.append("elimination_game")
+        else:
+            # Fallback: infer from seed range if explicit flag is absent.
+            # BOTH teams must be seeds 7–10 — a 2v7 playoff series is not play-in.
+            home_rank = home_ctx.conference_rank or 99
+            away_rank = away_ctx.conference_rank or 99
+            if (NBA_PLAYOFF_RANK_CUTOFF < home_rank <= NBA_PLAYIN_RANK_CUTOFF and
+                    NBA_PLAYOFF_RANK_CUTOFF < away_rank <= NBA_PLAYIN_RANK_CUTOFF):
+                flags.append("elimination_game")
 
     # --- Tier 2 (only if Tier 1 not set) ---
     if "elimination_game" not in flags:

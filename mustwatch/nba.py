@@ -90,15 +90,27 @@ def _normalize_event(ev: dict) -> RawEvent | None:
         local_dt  = game_time.astimezone(et)
         game_date = local_dt.date()
 
-        # season.type: 1=pre, 2=regular, 3=postseason (includes play-in)
-        season_type   = ev.get("season", {}).get("type", 2)
-        is_postseason = (season_type == 3)
-
-        venue = comp.get("venue", {}).get("fullName", "")
-
-        # Normalize abbreviations to match config.py
+        # Normalize abbreviations to match config.py keys
         h_abbr = ESPN_ABBR_MAP.get(home_team.get("abbreviation", ""), home_team.get("abbreviation", ""))
         a_abbr = ESPN_ABBR_MAP.get(away_team.get("abbreviation", ""), away_team.get("abbreviation", ""))
+
+        # Skip placeholder events — ESPN creates TBD / composite entries (e.g. "76ers/Magic",
+        # "Clippers/Warriors") before play-in results are known. Nothing to score here.
+        if _is_placeholder_abbr(h_abbr) or _is_placeholder_abbr(a_abbr):
+            slug = ev.get("season", {}).get("slug", "")
+            name = ev.get("name", f"{a_abbr} @ {h_abbr}")
+            print(f"  [NBA] skip placeholder: {name!r}  ({slug})", file=sys.stderr)
+            return None
+
+        # ESPN season types:
+        #   2 = regular season
+        #   3 = postseason (NBA Playoffs, rounds 1–4)
+        #   5 = play-in tournament  (slug: play-in-season)
+        season_type   = ev.get("season", {}).get("type", 2)
+        is_postseason = season_type in (3, 5)
+        is_playin     = (season_type == 5)   # explicit — preferred over seed-range inference
+
+        venue = comp.get("venue", {}).get("fullName", "")
 
         return RawEvent(
             game_id=str(ev.get("id", "")),
@@ -111,10 +123,19 @@ def _normalize_event(ev: dict) -> RawEvent | None:
             game_date=game_date,
             venue=venue,
             is_postseason=is_postseason,
+            is_playin=is_playin,
         )
     except Exception as e:
         print(f"  [NBA] warn: could not normalize event {ev.get('id')}: {e}", file=sys.stderr)
         return None
+
+
+def _is_placeholder_abbr(abbr: str) -> bool:
+    """Return True for ESPN composite/TBD team placeholders."""
+    if not abbr:
+        return True
+    abbr = abbr.strip()
+    return abbr.upper() == "TBD" or "/" in abbr
 
 
 def _fetch_standings() -> dict[str, TeamContext]:

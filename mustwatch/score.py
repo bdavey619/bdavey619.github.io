@@ -50,17 +50,26 @@ def season_phase_multiplier(games_played: int, total_games: int) -> float:
 # Stakes (0–30)
 # ---------------------------------------------------------------------------
 
-def score_stakes(home: TeamContext, away: TeamContext, is_postseason: bool) -> tuple[float, str]:
+def score_stakes(
+    home: TeamContext,
+    away: TeamContext,
+    is_postseason: bool,
+    is_playin: bool = False,
+) -> tuple[float, str]:
     """Returns (score, detail_string)."""
     if is_postseason:
+        # Prefer the explicit play-in flag (ESPN season.type == 5).
+        # Keep seed-range inference as fallback in case the type field is absent.
+        if is_playin:
+            return 25.0, "play-in game"
+
         if home.sport == "NBA":
             home_rank = home.conference_rank or 99
             away_rank = away.conference_rank or 99
-            # Play-In: BOTH teams must be seeds 7–10 (7v8, 9v10 matchups).
-            # A 2 vs 7 matchup is a first-round playoff series — not play-in.
             if (NBA_PLAYOFF_RANK_CUTOFF < home_rank <= NBA_PLAYIN_RANK_CUTOFF and
                     NBA_PLAYOFF_RANK_CUTOFF < away_rank <= NBA_PLAYIN_RANK_CUTOFF):
-                return 25.0, "play-in game"
+                return 25.0, "play-in game (inferred)"
+
         return 29.0, "postseason"
 
     if home.sport == "MLB":
@@ -269,7 +278,7 @@ def score_event(se: ScoredEvent) -> ScoredEvent:
     home = se.home_ctx
     away = se.away_ctx
 
-    stakes, stakes_detail        = score_stakes(home, away, se.raw.is_postseason)
+    stakes, stakes_detail        = score_stakes(home, away, se.raw.is_postseason, se.raw.is_playin)
     comp_balance                  = score_competitive_balance(home, away)
     momentum                      = score_momentum(home, away)
     star_power, star_power_detail = score_star_power(home, away)
