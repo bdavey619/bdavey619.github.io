@@ -84,6 +84,16 @@ Chronological record of key product and implementation decisions.
 
 ---
 
+## 2026-04-16 — Scheduled automation via mustwatch-auto branch + PR review gate
+
+**Decision:** Weekly generation runs automatically via GitHub Actions. Output is committed to a machine-owned branch (`mustwatch-auto`) and a PR is opened against `main` for review. Publishing requires a deliberate merge — automation never writes directly to `main`.
+
+**Rationale:** Blind publishing to `main` would remove the editorial gate that is designed into Phase 1. A PR-based approach preserves review without requiring a manual run every Monday. If the output is fine, merge takes seconds. If it needs adjustment, the branch can be replaced by running the workflow again after a local tweak or by doing a full manual run. The `--auto` flag accepts the default top 5; a custom order still requires the interactive local workflow.
+
+**Pattern:** `workflow_dispatch` is also wired in, so the workflow can be triggered manually at any time (e.g. mid-week if a major storyline emerges or if Monday's run needs a redo).
+
+---
+
 ## 2026-04-14 — Static marquee player list in config.py, manually maintained
 
 **Decision:** `MARQUEE_PLAYERS` is a dict in `config.py` rather than a dynamically fetched roster list.

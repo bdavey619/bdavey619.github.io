@@ -329,6 +329,9 @@ def main() -> None:
                         help="Fetch data, score events, print full ranked output")
     parser.add_argument("--diag", action="store_true",
                         help="Compact diagnostics view: table + sport leaders + MLB analysis")
+    parser.add_argument("--auto", action="store_true",
+                        help="Non-interactive mode: accept default top 5, generate explanations, "
+                             "render HTML — safe for GitHub Actions")
     parser.add_argument("--date",
                         help="Override generation date YYYY-MM-DD (default: today ET)")
     args = parser.parse_args()
@@ -381,6 +384,23 @@ def main() -> None:
     elif args.diag:
         # Compact diagnostics table — sport leaders + MLB analysis
         print_diagnostics(week_start, week_end, now, ranked)
+    elif args.auto:
+        # Non-interactive mode: accept default top 5 without a prompt.
+        # Safe for GitHub Actions — no stdin required.
+        final = ranked[:5]
+        override_info = {
+            "mode":           "accepted",
+            "selected_ranks": list(range(1, len(final) + 1)),
+        }
+
+        print("\nGenerating explanations...", file=sys.stderr)
+        explanations = generate_explanations(final)
+
+        print_override_summary(override_info)
+        print_final_five(final, explanations)
+
+        output_path = render_weekly(final, explanations, week_start, week_end, now, candidates=ranked)
+        print(f"\n✓  HTML written to {output_path}", file=sys.stderr)
     else:
         # Interactive editorial path
         final, override_info = editorial_review(ranked)
