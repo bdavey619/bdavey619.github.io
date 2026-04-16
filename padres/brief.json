@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-04-15T11:32:20+00:00",
+  "generated_at": "2026-04-16T11:35:46+00:00",
   "season": 2026,
   "team": {
-    "record": "11-6",
-    "streak": "W6",
-    "run_diff": "+17",
+    "record": "12-6",
+    "streak": "W7",
+    "run_diff": "+18",
     "last10": "9-1",
     "division_rank": 2,
     "games_back": "2.0",
-    "avg": ".233",
-    "ops": ".698",
-    "era": "3.27"
+    "avg": ".236",
+    "ops": ".704",
+    "era": "3.42"
   },
   "last_game": {
     "status": "final",
-    "gamePk": 823315,
-    "date": "2026-04-14",
+    "gamePk": 823314,
+    "date": "2026-04-15",
     "opponent": "SEA",
     "home": true,
     "result": "W",
     "score": {
-      "team": 4,
-      "opp": 1
+      "team": 7,
+      "opp": 6
     },
     "linescore": [
       [
         0,
         0,
-        3,
         0,
         0,
         0,
+        2,
         0,
-        1,
-        ""
+        0,
+        5
       ],
       [
         0,
-        1,
+        2,
         0,
-        0,
-        0,
+        2,
+        2,
         0,
         0,
         0,
@@ -48,59 +48,45 @@
       ]
     ],
     "decisions": {
-      "win": "Michael King",
-      "win_role": "SP",
+      "win": "Alek Jacob",
+      "win_role": "RP",
       "win_team": "team",
-      "loss": "Bryan Woo",
-      "loss_role": "SP",
-      "loss_team": "opp",
-      "save": "Mason Miller",
-      "save_role": "RP",
-      "save_team": "team"
+      "loss": "Andr\u00e9s Mu\u00f1oz",
+      "loss_role": "RP",
+      "loss_team": "opp"
     },
     "key_hitters": [
       {
         "name": "Xander Bogaerts",
-        "line": "3-4, 3 RBI",
+        "line": "2-4, 1 HR, 2 RBI",
         "pos": "SS",
-        "season_avg": ".270"
+        "season_avg": ".284"
       },
       {
         "name": "Jackson Merrill",
-        "line": "3-4",
+        "line": "2-5, 2 RBI",
         "pos": "CF",
-        "season_avg": ".250"
+        "season_avg": ".261"
       }
     ],
     "key_pitcher": {
-      "name": "Michael King",
-      "line": "6.0 IP, 4 H, 1 ER, 5 K",
+      "name": "Randy V\u00e1squez",
+      "line": "4.0 IP, 5 H, 4 ER, 6 K",
       "role": "SP",
-      "season_era": "2.78"
+      "season_era": "2.49"
     },
     "context_line": "Home \u00b7 Petco Park \u00b7 Night game",
-    "highlights_url": "https://www.youtube.com/results?search_query=SEA+vs+SD+highlights+April+14+2026+MLB",
-    "game_note": "A 3-run third put San Diego in control and they never looked back.",
+    "highlights_url": "https://www.youtube.com/results?search_query=SEA+vs+SD+highlights+April+15+2026+MLB",
+    "game_note": "A 5-run ninth \u2014 highlighted by a Bogaerts home run \u2014 gave San Diego the cushion it needed.",
     "full_box": {
       "batting": [
         {
           "name": "Ram\u00f3n Laureano",
           "pos": "LF",
-          "avg": ".283",
-          "ab": 4,
+          "avg": ".292",
+          "ab": 5,
           "r": 1,
           "h": 2,
-          "rbi": 0,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Fernando Tatis Jr.",
-          "pos": "RF",
-          "avg": ".242",
-          "ab": 4,
-          "r": 1,
-          "h": 1,
           "rbi": 1,
           "bb": 0,
           "so": 1
@@ -108,64 +94,64 @@
         {
           "name": "Jackson Merrill",
           "pos": "CF",
-          "avg": ".250",
+          "avg": ".261",
+          "ab": 5,
+          "r": 1,
+          "h": 2,
+          "rbi": 2,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Xander Bogaerts",
+          "pos": "SS",
+          "avg": ".284",
           "ab": 4,
-          "r": 2,
-          "h": 3,
-          "rbi": 0,
+          "r": 1,
+          "h": 2,
+          "rbi": 2,
           "bb": 0,
           "so": 0
         },
         {
           "name": "Manny Machado",
           "pos": "3B",
-          "avg": ".196",
-          "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 0
-        },
-        {
-          "name": "Xander Bogaerts",
-          "pos": "SS",
-          "avg": ".270",
-          "ab": 4,
-          "r": 0,
-          "h": 3,
-          "rbi": 3,
-          "bb": 0,
-          "so": 0
-        },
-        {
-          "name": "Gavin Sheets",
-          "pos": "DH",
-          "avg": ".220",
+          "avg": ".185",
           "ab": 3,
-          "r": 0,
+          "r": 1,
           "h": 0,
           "rbi": 0,
           "bb": 1,
           "so": 1
         },
         {
-          "name": "Ty France",
-          "pos": "1B",
-          "avg": ".278",
+          "name": "Gavin Sheets",
+          "pos": "DH",
+          "avg": ".241",
           "ab": 4,
-          "r": 0,
-          "h": 1,
+          "r": 1,
+          "h": 2,
           "rbi": 0,
           "bb": 0,
           "so": 0
         },
         {
-          "name": "Luis Campusano",
-          "pos": "C",
-          "avg": ".333",
+          "name": "Nick Castellanos",
+          "pos": "RF",
+          "avg": ".179",
           "ab": 4,
           "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 2
+        },
+        {
+          "name": "Ty France",
+          "pos": "1B",
+          "avg": ".273",
+          "ab": 4,
+          "r": 1,
           "h": 1,
           "rbi": 0,
           "bb": 0,
@@ -174,82 +160,104 @@
         {
           "name": "Jake Cronenworth",
           "pos": "2B",
-          "avg": ".145",
-          "ab": 3,
+          "avg": ".140",
+          "ab": 2,
           "r": 0,
           "h": 0,
           "rbi": 0,
+          "bb": 1,
+          "so": 1
+        },
+        {
+          "name": "Fernando Tatis Jr.",
+          "pos": "PH",
+          "avg": ".242",
+          "ab": 0,
+          "r": 0,
+          "h": 0,
+          "rbi": 1,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Luis Campusano",
+          "pos": "C",
+          "avg": ".320",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
           "bb": 0,
           "so": 0
         }
       ],
       "pitching": [
         {
-          "name": "Michael King",
-          "ip": "6.0",
-          "h": 4,
-          "er": 1,
-          "k": 5,
-          "bb": 2
+          "name": "Randy V\u00e1squez",
+          "ip": "4.0",
+          "h": 5,
+          "er": 4,
+          "k": 6,
+          "bb": 4
         },
         {
-          "name": "Adrian Morejon",
-          "ip": "1.0",
-          "h": 0,
-          "er": 0,
-          "k": 1,
-          "bb": 0
-        },
-        {
-          "name": "Jason Adam",
-          "ip": "1.0",
-          "h": 0,
-          "er": 0,
-          "k": 0,
+          "name": "Ron Marinaccio",
+          "ip": "2.0",
+          "h": 3,
+          "er": 2,
+          "k": 2,
           "bb": 1
         },
         {
-          "name": "Mason Miller",
+          "name": "Wandy Peralta",
           "ip": "1.0",
-          "h": 0,
+          "h": 1,
           "er": 0,
           "k": 1,
-          "bb": 0
+          "bb": 1
+        },
+        {
+          "name": "Alek Jacob",
+          "ip": "2.0",
+          "h": 1,
+          "er": 0,
+          "k": 3,
+          "bb": 1
         }
       ]
     }
   },
   "next_game": {
-    "gamePk": 823314,
-    "date": "2026-04-15",
+    "gamePk": 823313,
+    "date": "2026-04-16",
     "opponent": "SEA",
     "home": true,
-    "time_local": "6:40 PM PT",
+    "time_local": "5:40 PM PT",
     "probable": {
-      "team": "Randy V\u00e1squez",
-      "opp": "Emerson Hancock"
+      "team": "Walker Buehler",
+      "opp": "Luis Castillo"
     },
-    "insight": "V\u00e1squez has a 1.05 ERA over his last 3 starts \u2014 he takes the mound tonight.",
-    "hook_type": "pitcher_form"
+    "insight": "San Diego is 2.0 back in the NL West on a 7-game win streak \u2014 tonight matters.",
+    "hook_type": "race_context"
   },
   "standings": [
     {
       "team": "Dodgers",
-      "w": 13,
+      "w": 14,
       "l": 4,
       "gb": "-",
       "last10": "8-2"
     },
     {
       "team": "Padres",
-      "w": 11,
+      "w": 12,
       "l": 6,
       "gb": "2.0",
       "last10": "9-1"
     },
     {
       "team": "D-backs",
-      "w": 10,
+      "w": 11,
       "l": 8,
       "gb": "3.5",
       "last10": "7-3"
@@ -257,15 +265,15 @@
     {
       "team": "Giants",
       "w": 6,
-      "l": 11,
-      "gb": "7.0",
+      "l": 12,
+      "gb": "8.0",
       "last10": "3-7"
     },
     {
       "team": "Rockies",
       "w": 6,
-      "l": 11,
-      "gb": "7.0",
+      "l": 12,
+      "gb": "8.0",
       "last10": "4-6"
     }
   ],
@@ -273,10 +281,10 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "Padres win their sixth straight behind King and Bogaerts \u2014 2.0 back in the West.",
+  "subhead": "Padres win their seventh straight, Bogaerts leading the way \u2014 2.0 back in the West.",
   "insight": {
-    "headline": "The pitching staff is carrying this run.",
-    "detail": "San Diego has won nine of their last ten despite a .698 OPS \u2014 the staff ERA of 3.27 has been doing the heavy lifting while the lineup finds its footing. They're 2.0 back in the NL West \u2014 the staff has kept them in the race while the bats have gone quiet.",
-    "why": "staff carrying (3.27 ERA) \u00b7 quiet bats (.698 OPS) \u00b7 9\u20131 in the last ten"
+    "headline": "Balanced ball \u2014 Padres are 9-1 over their last ten.",
+    "detail": "Both sides have contributed: .236 average, .704 OPS at the plate, 3.42 ERA from the staff. At 2.0 back in the West, they're squarely in the race.",
+    "why": "staff carrying (3.42 ERA) \u00b7 OPS at .704 \u00b7 9\u20131 in the last ten"
   }
 }
