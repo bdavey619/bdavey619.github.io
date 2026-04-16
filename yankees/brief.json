@@ -1,191 +1,103 @@
 {
-  "generated_at": "2026-04-15T11:58:42+00:00",
+  "generated_at": "2026-04-16T12:01:13+00:00",
   "season": 2026,
   "team": {
-    "record": "9-8",
-    "streak": "L1",
-    "run_diff": "+16",
+    "record": "10-8",
+    "streak": "W1",
+    "run_diff": "+17",
     "last10": "3-7",
     "division_rank": 2,
     "games_back": "0.5",
-    "avg": ".213",
-    "ops": ".687",
-    "era": "3.23"
+    "avg": ".212",
+    "ops": ".686",
+    "era": "3.27"
   },
   "last_game": {
     "status": "final",
-    "gamePk": 823562,
-    "date": "2026-04-14",
+    "gamePk": 823561,
+    "date": "2026-04-15",
     "opponent": "LAA",
     "home": true,
-    "result": "L",
+    "result": "W",
     "score": {
-      "team": 1,
-      "opp": 7
+      "team": 5,
+      "opp": 4
     },
     "linescore": [
       [
+        1,
+        2,
         0,
         0,
         0,
         0,
         0,
+        0,
+        2
+      ],
+      [
         0,
         0,
         1,
-        0
-      ],
-      [
+        0,
         3,
         0,
         0,
-        1,
         0,
-        2,
-        0,
-        1,
         0
       ]
     ],
     "decisions": {
-      "win": "Reid Detmers",
-      "win_role": "SP",
-      "win_team": "opp",
-      "loss": "Ryan Weathers",
-      "loss_role": "SP",
-      "loss_team": "team"
+      "win": "David Bednar",
+      "win_role": "RP",
+      "win_team": "team",
+      "loss": "Jordan Romano",
+      "loss_role": "RP",
+      "loss_team": "opp"
     },
     "key_hitters": [
       {
-        "name": "Amed Rosario",
-        "line": "1-4",
-        "pos": "3B",
-        "season_avg": ".300"
+        "name": "Aaron Judge",
+        "line": "1-4, 1 HR, 1 RBI",
+        "pos": "RF",
+        "season_avg": ".235"
       },
       {
-        "name": "Randal Grichuk",
-        "line": "1-3",
-        "pos": "LF",
-        "season_avg": ".063"
+        "name": "Jos\u00e9 Caballero",
+        "line": "1-3, 2 RBI",
+        "pos": "SS",
+        "season_avg": ".186"
       }
     ],
     "key_pitcher": {
-      "name": "Ryan Weathers",
-      "line": "5.0 IP, 5 H, 5 ER, 10 K",
+      "name": "Luis Gil",
+      "line": "5.0 IP, 5 H, 4 ER, 5 K",
       "role": "SP",
-      "season_era": "4.29"
+      "season_era": "7.00"
     },
     "context_line": "Home \u00b7 Yankee Stadium \u00b7 Night game",
-    "highlights_url": "https://www.youtube.com/results?search_query=LAA+vs+NYY+highlights+April+14+2026+MLB",
-    "game_note": "A 3-run first by LAA was more than the Yankees could answer.",
+    "highlights_url": "https://www.youtube.com/results?search_query=LAA+vs+NYY+highlights+April+15+2026+MLB",
+    "game_note": "Judge's bat helped the Yankees hold off LAA.",
     "full_box": {
       "batting": [
         {
-          "name": "Paul Goldschmidt",
-          "pos": "1B",
-          "avg": ".200",
+          "name": "Trent Grisham",
+          "pos": "CF",
+          "avg": ".164",
           "ab": 3,
           "r": 0,
-          "h": 0,
-          "rbi": 0,
+          "h": 1,
+          "rbi": 2,
           "bb": 0,
-          "so": 1
+          "so": 0
         },
         {
-          "name": "Jazz Chisholm Jr.",
-          "pos": "2B",
-          "avg": ".177",
+          "name": "Paul Goldschmidt",
+          "pos": "PH",
+          "avg": ".188",
           "ab": 1,
           "r": 0,
           "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Aaron Judge",
-          "pos": "RF",
-          "avg": ".234",
-          "ab": 4,
-          "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "so": 2
-        },
-        {
-          "name": "Amed Rosario",
-          "pos": "3B",
-          "avg": ".300",
-          "ab": 4,
-          "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "so": 0
-        },
-        {
-          "name": "Giancarlo Stanton",
-          "pos": "DH",
-          "avg": ".293",
-          "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 3
-        },
-        {
-          "name": "Trent Grisham",
-          "pos": "CF",
-          "avg": ".154",
-          "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 3
-        },
-        {
-          "name": "Randal Grichuk",
-          "pos": "LF",
-          "avg": ".063",
-          "ab": 3,
-          "r": 1,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Austin Wells",
-          "pos": "C",
-          "avg": ".178",
-          "ab": 3,
-          "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "so": 0
-        },
-        {
-          "name": "Jos\u00e9 Caballero",
-          "pos": "SS",
-          "avg": ".179",
-          "ab": 3,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Ryan McMahon",
-          "pos": "3B",
-          "avg": ".128",
-          "ab": 2,
-          "r": 0,
-          "h": 1,
           "rbi": 0,
           "bb": 0,
           "so": 0
@@ -193,39 +105,116 @@
         {
           "name": "Ben Rice",
           "pos": "1B",
-          "avg": ".362",
-          "ab": 0,
+          "avg": ".333",
+          "ab": 4,
           "r": 0,
           "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Aaron Judge",
+          "pos": "RF",
+          "avg": ".235",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
           "rbi": 1,
           "bb": 0,
           "so": 0
+        },
+        {
+          "name": "Cody Bellinger",
+          "pos": "CF",
+          "avg": ".242",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "so": 0
+        },
+        {
+          "name": "Giancarlo Stanton",
+          "pos": "DH",
+          "avg": ".274",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 3
+        },
+        {
+          "name": "Jazz Chisholm Jr.",
+          "pos": "2B",
+          "avg": ".185",
+          "ab": 3,
+          "r": 2,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "so": 2
+        },
+        {
+          "name": "Austin Wells",
+          "pos": "C",
+          "avg": ".191",
+          "ab": 2,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 2,
+          "so": 0
+        },
+        {
+          "name": "Jos\u00e9 Caballero",
+          "pos": "SS",
+          "avg": ".186",
+          "ab": 3,
+          "r": 1,
+          "h": 1,
+          "rbi": 2,
+          "bb": 1,
+          "so": 0
+        },
+        {
+          "name": "Ryan McMahon",
+          "pos": "3B",
+          "avg": ".119",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
         }
       ],
       "pitching": [
         {
-          "name": "Ryan Weathers",
+          "name": "Luis Gil",
           "ip": "5.0",
           "h": 5,
-          "er": 5,
-          "k": 10,
+          "er": 4,
+          "k": 5,
           "bb": 2
         },
         {
-          "name": "Paul Blackburn",
+          "name": "Tim Hill",
           "ip": "1.0",
-          "h": 3,
-          "er": 1,
-          "k": 1,
-          "bb": 1
+          "h": 0,
+          "er": 0,
+          "k": 0,
+          "bb": 0
         },
         {
-          "name": "Yerry De los Santos",
-          "ip": "2.0",
-          "h": 3,
-          "er": 1,
-          "k": 1,
-          "bb": 2
+          "name": "Fernando Cruz",
+          "ip": "1.0",
+          "h": 1,
+          "er": 0,
+          "k": 0,
+          "bb": 0
         },
         {
           "name": "Brent Headrick",
@@ -233,35 +222,42 @@
           "h": 1,
           "er": 0,
           "k": 0,
-          "bb": 1
+          "bb": 0
+        },
+        {
+          "name": "David Bednar",
+          "ip": "1.0",
+          "h": 0,
+          "er": 0,
+          "k": 2,
+          "bb": 0
         }
       ]
     }
   },
   "next_game": {
-    "gamePk": 823561,
-    "date": "2026-04-15",
+    "gamePk": 823560,
+    "date": "2026-04-16",
     "opponent": "LAA",
     "home": true,
-    "time_local": "7:05 PM ET",
+    "time_local": "1:35 PM ET",
     "probable": {
-      "team": "Luis Gil",
-      "opp": "Jack Kochanowicz"
+      "team": "Max Fried"
     },
-    "insight": "LAA's .224 average gives Gil a favorable matchup tonight.",
-    "hook_type": "opponent_weakness"
+    "insight": "Fried has a 1.98 ERA over his last 4 starts \u2014 he takes the mound tonight.",
+    "hook_type": "pitcher_form"
   },
   "standings": [
     {
       "team": "Rays",
-      "w": 9,
+      "w": 10,
       "l": 7,
       "gb": "-",
-      "last10": "7-3"
+      "last10": "8-2"
     },
     {
       "team": "Yankees",
-      "w": 9,
+      "w": 10,
       "l": 8,
       "gb": "0.5",
       "last10": "3-7"
@@ -269,33 +265,33 @@
     {
       "team": "Orioles",
       "w": 9,
-      "l": 8,
-      "gb": "0.5",
+      "l": 9,
+      "gb": "1.5",
       "last10": "6-4"
     },
     {
       "team": "Blue Jays",
       "w": 7,
-      "l": 9,
-      "gb": "2.0",
+      "l": 10,
+      "gb": "3.0",
       "last10": "3-7"
     },
     {
       "team": "Red Sox",
-      "w": 6,
+      "w": 7,
       "l": 11,
       "gb": "3.5",
-      "last10": "4-6"
+      "last10": "5-5"
     }
   ],
   "hot_players": {
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "New York falls to LAA \u2014 0.5 back in the East.",
+  "subhead": "Yankees take it at the Stadium, Judge leading the way \u2014 0.5 back in the East.",
   "insight": {
     "headline": "A 3-7 stretch over the last ten is a real concern.",
-    "detail": "A .687 OPS over this stretch has made it hard to win. The staff ERA sits at 3.23 \u2014 the runs just haven't been there. They're 0.5 back in the AL East.",
-    "why": "staff carrying (3.23 ERA) \u00b7 quiet bats (.687 OPS) \u00b7 3\u20137 in the last ten"
+    "detail": "A .686 OPS over this stretch has made it hard to win. The staff ERA sits at 3.27 \u2014 the runs just haven't been there. They're 0.5 back in the AL East.",
+    "why": "staff carrying (3.27 ERA) \u00b7 quiet bats (.686 OPS) \u00b7 3\u20137 in the last ten"
   }
 }
