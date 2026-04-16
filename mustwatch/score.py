@@ -254,7 +254,7 @@ def score_star_power(home: TeamContext, away: TeamContext) -> tuple[float, str]:
 def score_narrative_flags(flags: list[str]) -> float:
     """
     Tier 1: elimination_game = 20, no stacking.
-    Tier 2: rivalry=8, playoff_rematch=6, first_place_clash=5. Capped at 12.
+    Tier 2: rivalry=8, playoff_rematch=6, first_place_clash=5, ace_duel=6. Capped at 12.
     """
     if "elimination_game" in flags:
         return 20.0
@@ -263,6 +263,7 @@ def score_narrative_flags(flags: list[str]) -> float:
     if "rivalry"           in flags: tier2 += 8.0
     if "playoff_rematch"   in flags: tier2 += 6.0
     if "first_place_clash" in flags: tier2 += 5.0
+    if "ace_duel"          in flags: tier2 += 6.0
 
     return min(tier2, 12.0)
 

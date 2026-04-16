@@ -6,7 +6,7 @@ import sys
 from datetime import datetime, date
 
 from config import (
-    RIVALRIES, PLAYOFF_REMATCHES,
+    RIVALRIES, PLAYOFF_REMATCHES, MARQUEE_PITCHERS,
     TIMING_FILTER_SECONDS,
     NBA_PLAYOFF_RANK_CUTOFF, NBA_PLAYIN_RANK_CUTOFF,
 )
@@ -87,6 +87,13 @@ def detect_flags(
 
         if _is_first_place_clash(home_ctx, away_ctx):
             flags.append("first_place_clash")
+
+        # ace_duel — MLB only; fires when both probable starters are in MARQUEE_PITCHERS
+        if ev.sport == "MLB":
+            home_p = ev.home_probable_pitcher
+            away_p = ev.away_probable_pitcher
+            if home_p and away_p and MARQUEE_PITCHERS.get(home_p) and MARQUEE_PITCHERS.get(away_p):
+                flags.append("ace_duel")
 
     return flags
 

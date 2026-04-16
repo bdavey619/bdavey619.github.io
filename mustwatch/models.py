@@ -49,6 +49,10 @@ class RawEvent:
     is_postseason: bool = False   # playoffs OR play-in
     is_playin: bool     = False   # explicit NBA play-in (ESPN season.type == 5)
 
+    # MLB probable starters (name only; populated when available from schedule API)
+    home_probable_pitcher: str | None = None
+    away_probable_pitcher: str | None = None
+
 
 @dataclass
 class ScoredEvent:

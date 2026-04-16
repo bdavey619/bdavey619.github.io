@@ -193,6 +193,39 @@ MARQUEE_PLAYERS: dict[str, list[dict]] = {
 }
 
 # ---------------------------------------------------------------------------
+# Marquee pitchers — name → tier
+# Used to detect ace_duel narrative flag when both probable starters qualify.
+# Keep small and review quarterly alongside MARQUEE_PLAYERS.
+# "elite" = clearly frontline ace; "star" = reliable top-of-rotation starter
+# ---------------------------------------------------------------------------
+MARQUEE_PITCHERS: dict[str, str] = {
+    # Elite — ace-tier starters
+    "Shohei Ohtani":       "elite",   # confirmed pitching in 2026
+    "Yoshinobu Yamamoto":  "elite",
+    "Paul Skenes":         "elite",
+    "Tarik Skubal":        "elite",
+    "Zack Wheeler":        "elite",
+    "Gerrit Cole":         "elite",
+    "Spencer Strider":     "elite",
+    "Corbin Burnes":       "elite",
+    "Chris Sale":          "elite",
+    # Star — top-of-rotation starters
+    "Logan Webb":          "star",
+    "Framber Valdez":      "star",
+    "Shane Bieber":        "star",
+    "Kevin Gausman":       "star",
+    "Hunter Greene":       "star",
+    "Freddy Peralta":      "star",
+    "Blake Snell":         "star",
+    "Tyler Glasnow":       "star",
+    "Dylan Cease":         "star",
+    "George Kirby":        "star",
+    "Sandy Alcantara":     "star",
+    "Kodai Senga":         "star",
+    "Luis Castillo":       "star",
+}
+
+# ---------------------------------------------------------------------------
 # Rivalries — frozenset pairs using "{SPORT}:{ABBR}" keys
 # ---------------------------------------------------------------------------
 RIVALRIES: set[frozenset] = {

@@ -56,7 +56,7 @@ def _fetch_schedule(start: date, end: date) -> list[dict]:
         sportId=1,
         startDate=start.strftime("%Y-%m-%d"),
         endDate=end.strftime("%Y-%m-%d"),
-        hydrate="team,venue",
+        hydrate="team,venue,probablePitcher",
     )
     games = []
     for day in data.get("dates", []):
@@ -79,6 +79,10 @@ def _normalize_game(g: dict) -> RawEvent | None:
         game_type    = g.get("gameType", "R")
         is_postseason = game_type in ("P", "D", "L", "W", "F", "C")
 
+        # Probable pitchers — fullName only; not available for all games or all dates
+        home_pitcher = g["teams"]["home"].get("probablePitcher", {}).get("fullName")
+        away_pitcher = g["teams"]["away"].get("probablePitcher", {}).get("fullName")
+
         return RawEvent(
             game_id=str(g["gamePk"]),
             sport="MLB",
@@ -90,6 +94,8 @@ def _normalize_game(g: dict) -> RawEvent | None:
             game_date=game_date,
             venue=g.get("venue", {}).get("name", ""),
             is_postseason=is_postseason,
+            home_probable_pitcher=home_pitcher or None,
+            away_probable_pitcher=away_pitcher or None,
         )
     except Exception as e:
         print(f"  [MLB] warn: could not normalize game {g.get('gamePk')}: {e}", file=sys.stderr)

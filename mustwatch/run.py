@@ -144,6 +144,13 @@ def print_dry_run(
             print(f"       {label}  {ctx.name:<26s}  {rec:<7s}  L10: {l10_str}  Streak: {stk}{extra_s}")
         print()
 
+        # Probable pitchers (MLB only)
+        if ev.sport == "MLB" and (ev.away_probable_pitcher or ev.home_probable_pitcher):
+            ap = ev.away_probable_pitcher or "TBD"
+            hp = ev.home_probable_pitcher or "TBD"
+            print(f"       Pitchers: {ap} (away) vs {hp} (home)")
+            print()
+
         # Score breakdown
         print(f"       SCORE BREAKDOWN  (total: {se.total_score:.1f} / 100)")
         print(f"         Stakes         : {se.stakes_score:5.1f} / 30   {se.stakes_detail}")

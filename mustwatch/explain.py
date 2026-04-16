@@ -79,10 +79,11 @@ def _clean_stakes_detail(detail: str) -> str:
 
 def _flag_labels(flags: list[str]) -> str:
     label_map = {
-        "rivalry":          "rivalry game",
-        "playoff_rematch":  "playoff rematch",
+        "rivalry":           "rivalry game",
+        "playoff_rematch":   "playoff rematch",
         "first_place_clash": "first-place clash",
-        "elimination_game": "elimination/play-in game",
+        "elimination_game":  "elimination/play-in game",
+        "ace_duel":          "ace duel",
     }
     return ", ".join(label_map.get(f, f) for f in flags) if flags else "none"
 
@@ -108,6 +109,13 @@ def _build_event_block(i: int, se: ScoredEvent) -> str:
     if se.star_power_detail and se.star_power_detail != "no marquee players":
         star_line = f"\n  Star players: {se.star_power_detail}"
 
+    pitcher_line = ""
+    if ev.sport == "MLB" and (ev.away_probable_pitcher or ev.home_probable_pitcher):
+        ap = ev.away_probable_pitcher or "TBD"
+        hp = ev.home_probable_pitcher or "TBD"
+        ace_tag = " [ace duel]" if "ace_duel" in se.flags else ""
+        pitcher_line = f"\n  Probable pitchers: {ap} (away) vs {hp} (home){ace_tag}"
+
     context_type = ""
     if ev.is_playin:
         context_type = "play-in game"
@@ -126,6 +134,8 @@ def _build_event_block(i: int, se: ScoredEvent) -> str:
     ]
     if star_line:
         lines.append(star_line)
+    if pitcher_line:
+        lines.append(pitcher_line)
 
     return "\n".join(lines)
 
