@@ -329,6 +329,9 @@ def main() -> None:
                         help="Fetch data, score events, print full ranked output")
     parser.add_argument("--diag", action="store_true",
                         help="Compact diagnostics view: table + sport leaders + MLB analysis")
+    parser.add_argument("--auto", action="store_true",
+                        help="Non-interactive: accept default top 5, generate explanations, "
+                             "render HTML. Used by GitHub Actions — no stdin required.")
     parser.add_argument("--date",
                         help="Override generation date YYYY-MM-DD (default: today ET)")
     args = parser.parse_args()
@@ -381,6 +384,22 @@ def main() -> None:
     elif args.diag:
         # Compact diagnostics table — sport leaders + MLB analysis
         print_diagnostics(week_start, week_end, now, ranked)
+    elif args.auto:
+        # Non-interactive path: accept default top 5 without prompting.
+        # Intended for GitHub Actions — stdin is not available.
+        from editorial import TOP_N_FINAL
+        final = ranked[:TOP_N_FINAL]
+
+        print(f"\n[--auto] Accepted default top {TOP_N_FINAL}:", file=sys.stderr)
+        for i, se in enumerate(final, start=1):
+            print(f"  #{i}  {se.raw.away_name} @ {se.raw.home_name}  "
+                  f"({se.raw.sport}, score {se.total_score:.1f})", file=sys.stderr)
+
+        print("\nGenerating explanations...", file=sys.stderr)
+        explanations = generate_explanations(final)
+
+        output_path = render_weekly(final, explanations, week_start, week_end, now, candidates=ranked)
+        print(f"\n✓  HTML written to {output_path}", file=sys.stderr)
     else:
         # Interactive editorial path
         final, override_info = editorial_review(ranked)

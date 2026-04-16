@@ -89,3 +89,19 @@ Chronological record of key product and implementation decisions.
 **Decision:** `MARQUEE_PLAYERS` is a dict in `config.py` rather than a dynamically fetched roster list.
 
 **Rationale:** Dynamic roster APIs add complexity and fragility for minimal gain in Phase 1. The set of truly marquee players (superstars and stars worth surfacing in rankings) is small and slow-changing. A curated static list is more reliable and more editorially intentional. Review quarterly and after major trades/injuries.
+
+---
+
+## 2026-04-16 — Automation via mustwatch-auto branch + PR review gate
+
+**Decision:** GitHub Actions generates `mustwatch/index.html` on a Monday schedule and pushes it to a dedicated `mustwatch-auto` branch, then opens (or updates) a PR against `main`. Nothing publishes live until the PR is manually merged.
+
+**Pattern chosen:** Option A (auto-generate to branch + PR review), not artifact-only (Option B) or manual-trigger-only (Option C).
+
+**Rationale:** Preserves editorial control — merge = publish, no accidental live updates. The PR interface is familiar, low-friction, and provides a natural review surface. GitHub sends a notification for new PRs. The diff is always just `mustwatch/index.html` because `mustwatch-auto` is reset from `main` on each run, keeping the PR diff clean. Option B (artifacts) adds download friction. Option C alone doesn't eliminate the repetitive generation step.
+
+**Non-interactive mode:** `run.py --auto` flag accepts the default top 5 without stdin. This is the only change to the pipeline — the interactive local workflow is unchanged.
+
+**Editorial posture in CI:** Default top 5, no override. The scoring engine's best guess goes into the PR. The editor reviews and either merges as-is, edits `mustwatch/index.html` on the branch before merging, or closes the PR entirely.
+
+**Secrets required:** `ANTHROPIC_API_KEY` (GitHub repo secret). `GITHUB_TOKEN` is provided automatically by Actions.
