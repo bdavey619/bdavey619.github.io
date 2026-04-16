@@ -6,7 +6,7 @@ import sys
 from datetime import datetime, date
 
 from config import (
-    RIVALRIES, PLAYOFF_REMATCHES, MARQUEE_PITCHERS,
+    RIVALRIES, PLAYOFF_REMATCHES, MARQUEE_PITCHERS, MARQUEE_PLAYERS,
     TIMING_FILTER_SECONDS,
     NBA_PLAYOFF_RANK_CUTOFF, NBA_PLAYIN_RANK_CUTOFF,
 )
@@ -104,6 +104,26 @@ def detect_flags(
             away_is_marquee = bool(away_p and MARQUEE_PITCHERS.get(away_p))
             if home_is_marquee or away_is_marquee:
                 flags.append("marquee_starter")
+
+        # NBA-only narrative flags
+        if ev.sport == "NBA":
+            # superstar_matchup — both teams have at least one active superstar
+            home_supers = [p for p in MARQUEE_PLAYERS.get(home_key, []) if p["tier"] == "superstar"]
+            away_supers = [p for p in MARQUEE_PLAYERS.get(away_key, []) if p["tier"] == "superstar"]
+            if home_supers and away_supers:
+                flags.append("superstar_matchup")
+
+            # momentum_mismatch — one team on a hot streak (L10 ≥ 8W), other struggling (L10 ≤ 5W)
+            h_l10 = home_ctx.l10_wins
+            a_l10 = away_ctx.l10_wins
+            if (h_l10 >= 8 and a_l10 <= 5) or (a_l10 >= 8 and h_l10 <= 5):
+                flags.append("momentum_mismatch")
+
+            # seed_pressure — significant seeding gap (≥ 3 spots apart in conference)
+            h_rank = home_ctx.conference_rank or 99
+            a_rank = away_ctx.conference_rank or 99
+            if abs(h_rank - a_rank) >= 3:
+                flags.append("seed_pressure")
 
     return flags
 
