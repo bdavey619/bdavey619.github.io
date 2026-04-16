@@ -391,7 +391,7 @@ def main() -> None:
         print_override_summary(override_info)
         print_final_five(final, explanations)
 
-        output_path = render_weekly(final, explanations, week_start, week_end, now)
+        output_path = render_weekly(final, explanations, week_start, week_end, now, candidates=ranked)
         print(f"\n✓  HTML written to {output_path}", file=sys.stderr)
 
 

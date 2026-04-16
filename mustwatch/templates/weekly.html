@@ -201,6 +201,210 @@
       color: #aaa;
       letter-spacing: 0.03em;
     }
+
+    /* ---- Diagnostics ---- */
+
+    .diag-section {
+      margin-top: 44px;
+      border-top: 1px dashed #d8d8d6;
+      padding-top: 14px;
+    }
+
+    .diag-summary {
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #bbb;
+      cursor: pointer;
+      user-select: none;
+      list-style: none;
+    }
+
+    .diag-summary::-webkit-details-marker { display: none; }
+    .diag-summary::before { content: "▶  "; font-size: 9px; }
+    details[open] .diag-summary::before { content: "▼  "; }
+    .diag-summary:hover { color: #888; }
+
+    .diag-body { margin-top: 14px; }
+
+    .diag-filters {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 14px;
+    }
+
+    .diag-filter-btn {
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border: 1px solid #d0d0ce;
+      background: none;
+      color: #888;
+      padding: 3px 10px;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+
+    .diag-filter-btn.active {
+      background: #333;
+      color: #fff;
+      border-color: #333;
+    }
+
+    .diag-tbl-wrap { overflow-x: auto; }
+
+    .diag-tbl {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 11px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .diag-tbl th {
+      text-align: left;
+      font-size: 9px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #c0c0be;
+      padding: 4px 10px 4px 0;
+      border-bottom: 1px solid #e8e8e6;
+      white-space: nowrap;
+    }
+
+    .diag-tbl td {
+      padding: 5px 10px 5px 0;
+      border-bottom: 1px solid #f0f0ee;
+      vertical-align: middle;
+    }
+
+    .diag-above td { color: #333; }
+    .diag-below td { color: #aaa; }
+
+    .diag-rk { font-weight: 600; white-space: nowrap; min-width: 28px; }
+
+    .diag-sport {
+      font-size: 9px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #bbb;
+      white-space: nowrap;
+    }
+
+    .diag-matchup {
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 11px;
+      white-space: nowrap;
+    }
+
+    .dn {
+      text-align: right;
+      white-space: nowrap;
+      padding-right: 14px !important;
+    }
+
+    .diag-near {
+      font-size: 9px;
+      color: #c07050;
+      margin-left: 4px;
+    }
+
+    .diag-flag {
+      font-size: 9px;
+      letter-spacing: 0.03em;
+      border: 1px solid #e0e0de;
+      color: #999;
+      padding: 1px 4px;
+      border-radius: 2px;
+      margin-right: 3px;
+      white-space: nowrap;
+      display: inline-block;
+    }
+
+    .diag-pitchers {
+      font-size: 10px;
+      color: #888;
+      white-space: nowrap;
+    }
+
+    .diag-cut-row td {
+      font-size: 9px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #ccc;
+      text-align: center;
+      padding: 6px 0;
+    }
+
+    .diag-lbl {
+      font-size: 9px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #c0c0be;
+      margin-bottom: 8px;
+      margin-top: 20px;
+    }
+
+    .diag-leaders { margin-top: 4px; }
+
+    .diag-leader {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      font-size: 11px;
+      padding: 5px 0;
+      border-bottom: 1px solid #f0f0ee;
+    }
+
+    .diag-leader-spt {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 9px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #bbb;
+      min-width: 28px;
+    }
+
+    .diag-leader-game {
+      flex: 1;
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      color: #555;
+    }
+
+    .diag-leader-score {
+      font-family: 'Courier New', Courier, monospace;
+      color: #555;
+    }
+
+    .diag-in  { font-size: 10px; color: #6a9a6a; }
+    .diag-out { font-size: 10px; color: #bbb; }
+
+    .diag-mlb { margin-top: 4px; }
+
+    .diag-mlb-row {
+      display: flex;
+      gap: 10px;
+      font-size: 11px;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 4px 0;
+      border-bottom: 1px solid #f0f0ee;
+      color: #666;
+    }
+
+    .diag-mlb-lbl {
+      font-size: 9px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #c0c0be;
+      min-width: 130px;
+      flex-shrink: 0;
+    }
+
+    .diag-mlb-note {
+      font-size: 11px;
+      color: #c0c0be;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 4px 0;
+    }
   </style>
 </head>
 <body>
@@ -218,6 +422,8 @@
     <footer class="footer">
       Generated {{generated_at}}&nbsp;&nbsp;·&nbsp;&nbsp;Scores reflect narrative setup going into each game, not predicted game quality.
     </footer>
+
+    {{diagnostics_html}}
 
   </div>
 </body>
