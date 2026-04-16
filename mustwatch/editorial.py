@@ -181,13 +181,13 @@ def print_override_summary(override_info: dict) -> None:
 
 def print_final_five(
     final: list[ScoredEvent],
-    explanations: list[str] | None = None,
+    explanations: dict[str, str] | None = None,
 ) -> None:
     """
     Print the approved top-5 list.
 
-    If `explanations` is provided it must be the same length as `final`;
-    each explanation is printed beneath its event header.
+    If `explanations` is provided it must be a dict mapping game_id →
+    explanation string. Lookup is by game_id, not list position.
     """
     print()
     print(SEP)
@@ -205,9 +205,8 @@ def print_final_five(
         print(f"       {day}  •  score: {se.total_score:.1f}{flags_str}")
         if ev.venue:
             print(f"       {ev.venue}")
-        if explanations and i - 1 < len(explanations):
-            # Indent each sentence of the explanation for readability
-            for line in explanations[i - 1].splitlines():
+        if explanations and ev.game_id in explanations:
+            for line in explanations[ev.game_id].splitlines():
                 print(f"       {line}")
         print()
     print(LINE)

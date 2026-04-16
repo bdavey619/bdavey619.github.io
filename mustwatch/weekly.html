@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Must Watch This Week</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      background: #fafaf8;
+      color: #1a1a1a;
+      line-height: 1.5;
+    }
+
+    .page {
+      max-width: 680px;
+      margin: 48px auto;
+      padding: 0 24px 64px;
+    }
+
+    /* ---- Header ---- */
+
+    .header {
+      border-bottom: 2px solid #1a1a1a;
+      padding-bottom: 14px;
+      margin-bottom: 40px;
+    }
+
+    .header-title {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+    }
+
+    .header-week {
+      font-size: 12px;
+      color: #777;
+      margin-top: 5px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /* ---- Event card ---- */
+
+    .event {
+      border-top: 1px solid #e2e2e0;
+      padding: 28px 0 24px;
+    }
+
+    .event:last-of-type {
+      border-bottom: 1px solid #e2e2e0;
+    }
+
+    .event-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+    }
+
+    .rank {
+      font-size: 38px;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      color: #1a1a1a;
+      min-width: 44px;
+      padding-top: 2px;
+    }
+
+    .event-identity {
+      flex: 1;
+    }
+
+    .matchup {
+      font-size: 19px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      line-height: 1.25;
+    }
+
+    .event-detail {
+      font-size: 12px;
+      color: #777;
+      margin-top: 4px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .sport-tag {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border: 1px solid #bbb;
+      color: #666;
+      padding: 2px 5px;
+      border-radius: 2px;
+      white-space: nowrap;
+    }
+
+    .detail-sep {
+      color: #ccc;
+    }
+
+    .score-badge {
+      font-size: 13px;
+      font-weight: 600;
+      color: #444;
+      white-space: nowrap;
+      padding-top: 3px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ---- Flags ---- */
+
+    .flags {
+      margin-top: 10px;
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .flag {
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #888;
+      border: 1px solid #d0d0d0;
+      padding: 2px 6px;
+      border-radius: 2px;
+    }
+
+    /* ---- Explanation ---- */
+
+    .explanation {
+      font-size: 14px;
+      line-height: 1.65;
+      color: #2e2e2e;
+      margin-top: 14px;
+    }
+
+    /* ---- Score breakdown ---- */
+
+    .breakdown {
+      display: flex;
+      margin-top: 16px;
+      border: 1px solid #e8e8e6;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .breakdown-item {
+      flex: 1;
+      text-align: center;
+      padding: 8px 4px;
+      border-right: 1px solid #e8e8e6;
+    }
+
+    .breakdown-item:last-child {
+      border-right: none;
+    }
+
+    .breakdown-label {
+      display: block;
+      font-size: 8px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #aaa;
+      margin-bottom: 3px;
+    }
+
+    .breakdown-value {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: #333;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .breakdown-max {
+      display: block;
+      font-size: 9px;
+      color: #bbb;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    /* ---- Footer ---- */
+
+    .footer {
+      margin-top: 44px;
+      padding-top: 14px;
+      border-top: 1px solid #e2e2e0;
+      font-size: 11px;
+      color: #aaa;
+      letter-spacing: 0.03em;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <header class="header">
+      <div class="header-title">Must Watch This Week</div>
+      <div class="header-week">Week of April 14–20, 2026</div>
+    </header>
+
+    <main>
+      <div class="event">
+  <div class="event-top">
+    <div class="rank">#1</div>
+    <div class="event-identity">
+      <div class="matchup">Milwaukee Bucks @ Boston Celtics</div>
+      <div class="event-detail"><span class="sport-tag">NBA</span><span>TONIGHT</span><span class="detail-sep">·</span><span>TD Garden</span></div>
+    </div>
+    <div class="score-badge">68/100</div>
+  </div>
+  <div class="flags"><span class="flag">Rivalry</span></div>
+  <p class="explanation">Boston has won 7 straight and holds the East&#x27;s best record at 51-18; Milwaukee is 5-5 in their last 10 and trails by 9 games in the conference standings. Giannis averages 31 points against the Celtics over the past two seasons — the one variable that keeps this from being a walkover.</p>
+  <div class="breakdown"><div class="breakdown-item"><span class="breakdown-label">Stakes</span><span class="breakdown-value">16</span><span class="breakdown-max">/30</span></div><div class="breakdown-item"><span class="breakdown-label">Balance</span><span class="breakdown-value">17</span><span class="breakdown-max">/20</span></div><div class="breakdown-item"><span class="breakdown-label">Momentum</span><span class="breakdown-value">12</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Stars</span><span class="breakdown-value">15</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Narrative</span><span class="breakdown-value">8</span><span class="breakdown-max">/20</span></div></div>
+</div>
+
+<div class="event">
+  <div class="event-top">
+    <div class="rank">#2</div>
+    <div class="event-identity">
+      <div class="matchup">San Diego Padres @ Los Angeles Dodgers</div>
+      <div class="event-detail"><span class="sport-tag">MLB</span><span>Friday, April 17</span><span class="detail-sep">·</span><span>Dodger Stadium</span></div>
+    </div>
+    <div class="score-badge">65/100</div>
+  </div>
+  <div class="flags"><span class="flag">Rivalry</span><span class="flag">First Place</span></div>
+  <p class="explanation">The Dodgers enter this series holding a 3-game divisional lead over the Padres, who have dropped 2 straight and need a split to stay within striking distance. Ohtani is 11-for-28 against San Diego pitching this season; Tatis Jr. is 1-for-10 in his last three games.</p>
+  <div class="breakdown"><div class="breakdown-item"><span class="breakdown-label">Stakes</span><span class="breakdown-value">19</span><span class="breakdown-max">/30</span></div><div class="breakdown-item"><span class="breakdown-label">Balance</span><span class="breakdown-value">16</span><span class="breakdown-max">/20</span></div><div class="breakdown-item"><span class="breakdown-label">Momentum</span><span class="breakdown-value">10</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Stars</span><span class="breakdown-value">12</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Narrative</span><span class="breakdown-value">8</span><span class="breakdown-max">/20</span></div></div>
+</div>
+
+    </main>
+
+    <footer class="footer">
+      Generated April 14, 2026&nbsp;&nbsp;·&nbsp;&nbsp;Scores reflect narrative setup going into each game, not predicted game quality.
+    </footer>
+
+  </div>
+</body>
+</html>

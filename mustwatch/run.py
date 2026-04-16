@@ -22,6 +22,7 @@ from rank import rank_events
 from models import ScoredEvent, TeamContext
 from editorial import editorial_review, print_override_summary, print_final_five
 from explain import generate_explanations
+from render import render_weekly
 
 
 # ---------------------------------------------------------------------------
@@ -226,6 +227,9 @@ def main() -> None:
 
         print_override_summary(override_info)
         print_final_five(final, explanations)
+
+        output_path = render_weekly(final, explanations, week_start, week_end, now)
+        print(f"\n✓  HTML written to {output_path}", file=sys.stderr)
 
 
 if __name__ == "__main__":

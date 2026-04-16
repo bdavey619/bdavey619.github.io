@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Must Watch This Week</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      background: #fafaf8;
+      color: #1a1a1a;
+      line-height: 1.5;
+    }
+
+    .page {
+      max-width: 680px;
+      margin: 48px auto;
+      padding: 0 24px 64px;
+    }
+
+    /* ---- Header ---- */
+
+    .header {
+      border-bottom: 2px solid #1a1a1a;
+      padding-bottom: 14px;
+      margin-bottom: 40px;
+    }
+
+    .header-title {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+    }
+
+    .header-week {
+      font-size: 12px;
+      color: #777;
+      margin-top: 5px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /* ---- Event card ---- */
+
+    .event {
+      border-top: 1px solid #e2e2e0;
+      padding: 28px 0 24px;
+    }
+
+    .event:last-of-type {
+      border-bottom: 1px solid #e2e2e0;
+    }
+
+    .event-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+    }
+
+    .rank {
+      font-size: 38px;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      color: #1a1a1a;
+      min-width: 44px;
+      padding-top: 2px;
+    }
+
+    .event-identity {
+      flex: 1;
+    }
+
+    .matchup {
+      font-size: 19px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      line-height: 1.25;
+    }
+
+    .event-detail {
+      font-size: 12px;
+      color: #777;
+      margin-top: 4px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .sport-tag {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border: 1px solid #bbb;
+      color: #666;
+      padding: 2px 5px;
+      border-radius: 2px;
+      white-space: nowrap;
+    }
+
+    .detail-sep {
+      color: #ccc;
+    }
+
+    .score-badge {
+      font-size: 13px;
+      font-weight: 600;
+      color: #444;
+      white-space: nowrap;
+      padding-top: 3px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ---- Flags ---- */
+
+    .flags {
+      margin-top: 10px;
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .flag {
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #888;
+      border: 1px solid #d0d0d0;
+      padding: 2px 6px;
+      border-radius: 2px;
+    }
+
+    /* ---- Explanation ---- */
+
+    .explanation {
+      font-size: 14px;
+      line-height: 1.65;
+      color: #2e2e2e;
+      margin-top: 14px;
+    }
+
+    /* ---- Score breakdown ---- */
+
+    .breakdown {
+      display: flex;
+      margin-top: 16px;
+      border: 1px solid #e8e8e6;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .breakdown-item {
+      flex: 1;
+      text-align: center;
+      padding: 8px 4px;
+      border-right: 1px solid #e8e8e6;
+    }
+
+    .breakdown-item:last-child {
+      border-right: none;
+    }
+
+    .breakdown-label {
+      display: block;
+      font-size: 8px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #aaa;
+      margin-bottom: 3px;
+    }
+
+    .breakdown-value {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: #333;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .breakdown-max {
+      display: block;
+      font-size: 9px;
+      color: #bbb;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    /* ---- Footer ---- */
+
+    .footer {
+      margin-top: 44px;
+      padding-top: 14px;
+      border-top: 1px solid #e2e2e0;
+      font-size: 11px;
+      color: #aaa;
+      letter-spacing: 0.03em;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <header class="header">
+      <div class="header-title">Must Watch This Week</div>
+      <div class="header-week">{{week_label}}</div>
+    </header>
+
+    <main>
+      {{events_html}}
+    </main>
+
+    <footer class="footer">
+      Generated {{generated_at}}&nbsp;&nbsp;·&nbsp;&nbsp;Scores reflect narrative setup going into each game, not predicted game quality.
+    </footer>
+
+  </div>
+</body>
+</html>

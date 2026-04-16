@@ -226,31 +226,40 @@ def _parse_response(text: str, n: int) -> list[str]:
     return explanations[:n]
 
 
-def generate_explanations(final: list[ScoredEvent]) -> list[str]:
+def generate_explanations(final: list[ScoredEvent]) -> dict[str, str]:
     """
     Generate one 2–3 sentence explanation per event in `final`.
 
     Uses a single Claude API call with all events in context.
     Prompt caching is applied to the system message.
 
-    Returns a list of explanation strings in the same order as `final`.
+    Returns a dict mapping game_id → explanation string.
+    Binding is by game_id, not list position, so reordering `final`
+    after this call cannot cause an explanation to appear under the
+    wrong event card.
+
     Falls back gracefully if the API call fails.
     """
     if not final:
-        return []
+        return {}
+
+    game_ids = [se.raw.game_id for se in final]
+
+    def _fallback(msg: str) -> dict[str, str]:
+        return {gid: msg for gid in game_ids}
 
     try:
         import anthropic
     except ImportError:
         print("Warning: anthropic package not installed — skipping explanations.",
               file=sys.stderr)
-        return ["[anthropic package not installed]"] * len(final)
+        return _fallback("[anthropic package not installed]")
 
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         print("Warning: ANTHROPIC_API_KEY not set — skipping explanations.",
               file=sys.stderr)
-        return ["[ANTHROPIC_API_KEY not set]"] * len(final)
+        return _fallback("[ANTHROPIC_API_KEY not set]")
 
     client = anthropic.Anthropic(api_key=api_key)
 
@@ -271,7 +280,8 @@ def generate_explanations(final: list[ScoredEvent]) -> list[str]:
         )
     except Exception as exc:
         print(f"Warning: explanation API call failed — {exc}", file=sys.stderr)
-        return [f"[explanation unavailable]"] * len(final)
+        return _fallback("[explanation unavailable]")
 
-    raw_text = response.content[0].text
-    return _parse_response(raw_text, len(final))
+    raw_text  = response.content[0].text
+    texts     = _parse_response(raw_text, len(final))
+    return dict(zip(game_ids, texts))
