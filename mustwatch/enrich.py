@@ -88,12 +88,22 @@ def detect_flags(
         if _is_first_place_clash(home_ctx, away_ctx):
             flags.append("first_place_clash")
 
-        # ace_duel — MLB only; fires when both probable starters are in MARQUEE_PITCHERS
+        # ace_duel — MLB only; fires when BOTH probable starters are in MARQUEE_PITCHERS
         if ev.sport == "MLB":
             home_p = ev.home_probable_pitcher
             away_p = ev.away_probable_pitcher
             if home_p and away_p and MARQUEE_PITCHERS.get(home_p) and MARQUEE_PITCHERS.get(away_p):
                 flags.append("ace_duel")
+
+        # marquee_starter — MLB only; fires when exactly one starter is marquee
+        # (ace_duel already handles the both-marquee case)
+        if ev.sport == "MLB" and "ace_duel" not in flags:
+            home_p = ev.home_probable_pitcher
+            away_p = ev.away_probable_pitcher
+            home_is_marquee = bool(home_p and MARQUEE_PITCHERS.get(home_p))
+            away_is_marquee = bool(away_p and MARQUEE_PITCHERS.get(away_p))
+            if home_is_marquee or away_is_marquee:
+                flags.append("marquee_starter")
 
     return flags
 

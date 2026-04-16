@@ -105,14 +105,19 @@ Based on a manually maintained `MARQUEE_PLAYERS` list in `config.py`. Tiers: `su
 - No marquee players on either side: 3
 
 ### Narrative Flags (0–20 pts)
-Rules-based bonuses for specific detectable conditions. **Phase 1 supports exactly four flags:**
+Rules-based bonuses for specific detectable conditions. **Phase 1 supports six flags:**
 
-| Flag | Tier | Points |
-|---|---|---|
-| `elimination_game` | 1 | 20 (no stacking) |
-| `rivalry` | 2 | 8 |
-| `playoff_rematch` | 2 | 6 |
-| `first_place_clash` | 2 | 5 |
+| Flag | Sport | Tier | Points |
+|---|---|---|---|
+| `elimination_game` | NBA | 1 | 20 (no stacking) |
+| `rivalry` | MLB/NBA | 2 | 8 |
+| `playoff_rematch` | MLB/NBA | 2 | 6 |
+| `ace_duel` | MLB | 2 | 6 |
+| `first_place_clash` | MLB/NBA | 2 | 5 |
+| `marquee_starter` | MLB | 2 | 3 |
+
+`ace_duel` fires when both probable starters are in `MARQUEE_PITCHERS`.
+`marquee_starter` fires when exactly one starter is in `MARQUEE_PITCHERS` (mutually exclusive with `ace_duel`).
 
 Tier 1 flags do not stack — `elimination_game` alone = 20.
 Tier 2 flags stack but are **capped at 12** (rivalry + playoff_rematch = 14 → capped at 12).
