@@ -1,123 +1,159 @@
 {
-  "generated_at": "2026-04-17T11:55:14+00:00",
+  "generated_at": "2026-04-18T11:39:14+00:00",
   "season": 2026,
   "team": {
-    "record": "10-9",
-    "streak": "L1",
-    "run_diff": "+10",
+    "record": "11-9",
+    "streak": "W1",
+    "run_diff": "+12",
     "last10": "3-7",
     "division_rank": 2,
-    "games_back": "1.5",
-    "avg": ".214",
-    "ops": ".695",
-    "era": "3.68"
+    "games_back": "0.5",
+    "avg": ".212",
+    "ops": ".696",
+    "era": "3.55"
   },
   "last_game": {
     "status": "final",
-    "gamePk": 823560,
-    "date": "2026-04-16",
-    "opponent": "LAA",
+    "gamePk": 823559,
+    "date": "2026-04-17",
+    "opponent": "KC",
     "home": true,
-    "result": "L",
+    "result": "W",
     "score": {
       "team": 4,
-      "opp": 11
+      "opp": 2
     },
     "linescore": [
       [
-        1,
+        0,
+        0,
         0,
         2,
         0,
         0,
-        1,
         0,
-        0,
-        0
+        2,
+        ""
       ],
       [
-        2,
         0,
         0,
         0,
         0,
-        4,
+        0,
         1,
-        4,
+        0,
+        1,
         0
       ]
     ],
     "decisions": {
-      "win": "Sam Aldegheri",
+      "win": "Camilo Doval",
       "win_role": "RP",
-      "win_team": "opp",
-      "loss": "Max Fried",
-      "loss_role": "SP",
-      "loss_team": "team"
+      "win_team": "team",
+      "loss": "Alex Lange",
+      "loss_role": "RP",
+      "loss_team": "opp",
+      "save": "David Bednar",
+      "save_role": "RP",
+      "save_team": "team"
     },
     "key_hitters": [
       {
-        "name": "Jos\u00e9 Caballero",
-        "line": "3-4",
-        "pos": "SS",
-        "season_avg": ".222"
+        "name": "Ben Rice",
+        "line": "2-4, 1 HR, 2 RBI",
+        "pos": "1B",
+        "season_avg": ".339"
       },
       {
-        "name": "Giancarlo Stanton",
-        "line": "1-4, 1 HR, 2 RBI",
-        "pos": "DH",
-        "season_avg": ".273"
+        "name": "Ryan McMahon",
+        "line": "1-1, 1 HR, 2 RBI",
+        "pos": "3B",
+        "season_avg": ".140"
       }
     ],
     "key_pitcher": {
-      "name": "Max Fried",
-      "line": "5.1 IP, 3 H, 5 ER, 3 K",
+      "name": "Cam Schlittler",
+      "line": "6.0 IP, 3 H, 0 ER, 6 K",
       "role": "SP",
-      "season_era": "2.97"
+      "season_era": "1.95"
     },
-    "context_line": "Home \u00b7 Yankee Stadium \u00b7 Day game",
-    "highlights_url": "https://www.youtube.com/results?search_query=LAA+vs+NYY+highlights+April+16+2026+MLB",
-    "game_note": "LAA's 4-run sixth proved to be the difference.",
+    "context_line": "Home \u00b7 Yankee Stadium \u00b7 Night game",
+    "highlights_url": "https://www.youtube.com/results?search_query=KC+vs+NYY+highlights+April+17+2026+MLB",
+    "game_note": "Rice's bat helped the Yankees hold off KC.",
     "full_box": {
       "batting": [
         {
           "name": "Trent Grisham",
           "pos": "CF",
-          "avg": ".155",
-          "ab": 3,
+          "avg": ".145",
+          "ab": 4,
           "r": 0,
           "h": 0,
           "rbi": 0,
-          "bb": 1,
+          "bb": 0,
           "so": 0
         },
         {
           "name": "Aaron Judge",
           "pos": "RF",
-          "avg": ".236",
-          "ab": 4,
-          "r": 1,
+          "avg": ".240",
+          "ab": 3,
+          "r": 0,
           "h": 1,
-          "rbi": 1,
-          "bb": 0,
+          "rbi": 0,
+          "bb": 1,
           "so": 1
         },
         {
           "name": "Cody Bellinger",
           "pos": "LF",
           "avg": ".246",
-          "ab": 3,
+          "ab": 4,
           "r": 1,
           "h": 1,
           "rbi": 0,
-          "bb": 1,
+          "bb": 0,
           "so": 1
         },
         {
           "name": "Giancarlo Stanton",
           "pos": "DH",
-          "avg": ".273",
+          "avg": ".257",
           "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 3
+        },
+        {
+          "name": "Ben Rice",
+          "pos": "1B",
+          "avg": ".339",
+          "ab": 4,
+          "r": 2,
+          "h": 2,
+          "rbi": 2,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Amed Rosario",
+          "pos": "3B",
+          "avg": ".243",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Ryan McMahon",
+          "pos": "3B",
+          "avg": ".140",
+          "ab": 1,
           "r": 1,
           "h": 1,
           "rbi": 2,
@@ -125,155 +161,133 @@
           "so": 0
         },
         {
-          "name": "Ben Rice",
-          "pos": "1B",
-          "avg": ".327",
-          "ab": 4,
-          "r": 1,
-          "h": 1,
-          "rbi": 1,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Amed Rosario",
-          "pos": "3B",
-          "avg": ".265",
-          "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 1
-        },
-        {
           "name": "Jazz Chisholm Jr.",
           "pos": "2B",
-          "avg": ".179",
+          "avg": ".174",
           "ab": 2,
           "r": 0,
           "h": 0,
           "rbi": 0,
           "bb": 2,
-          "so": 0
+          "so": 1
         },
         {
           "name": "Jos\u00e9 Caballero",
           "pos": "SS",
-          "avg": ".222",
-          "ab": 4,
+          "avg": ".215",
+          "ab": 2,
           "r": 0,
-          "h": 3,
+          "h": 0,
           "rbi": 0,
-          "bb": 0,
+          "bb": 1,
           "so": 1
         },
         {
-          "name": "J.C. Escarra",
+          "name": "Austin Wells",
           "pos": "C",
-          "avg": ".067",
-          "ab": 4,
+          "avg": ".184",
+          "ab": 2,
           "r": 0,
-          "h": 1,
+          "h": 0,
           "rbi": 0,
-          "bb": 0,
-          "so": 3
+          "bb": 1,
+          "so": 0
         }
       ],
       "pitching": [
         {
-          "name": "Max Fried",
-          "ip": "5.1",
+          "name": "Cam Schlittler",
+          "ip": "6.0",
           "h": 3,
-          "er": 5,
-          "k": 3,
-          "bb": 3
-        },
-        {
-          "name": "Fernando Cruz",
-          "ip": "0.2",
-          "h": 2,
-          "er": 1,
-          "k": 2,
-          "bb": 1
-        },
-        {
-          "name": "Angel Chivilli",
-          "ip": "0.2",
-          "h": 1,
-          "er": 1,
-          "k": 2,
+          "er": 0,
+          "k": 6,
           "bb": 2
         },
         {
-          "name": "Ryan Yarbrough",
-          "ip": "2.1",
-          "h": 3,
-          "er": 4,
-          "k": 0,
+          "name": "Brent Headrick",
+          "ip": "1.0",
+          "h": 0,
+          "er": 0,
+          "k": 1,
+          "bb": 0
+        },
+        {
+          "name": "Camilo Doval",
+          "ip": "1.0",
+          "h": 1,
+          "er": 1,
+          "k": 1,
+          "bb": 0
+        },
+        {
+          "name": "David Bednar",
+          "ip": "1.0",
+          "h": 0,
+          "er": 0,
+          "k": 2,
           "bb": 1
         }
       ]
     }
   },
   "next_game": {
-    "gamePk": 823559,
-    "date": "2026-04-17",
+    "gamePk": 823558,
+    "date": "2026-04-18",
     "opponent": "KC",
     "home": true,
-    "time_local": "7:05 PM ET",
+    "time_local": "1:35 PM ET",
     "probable": {
-      "team": "Cam Schlittler",
-      "opp": "Michael Wacha"
+      "team": "Will Warren",
+      "opp": "Noah Cameron"
     },
-    "insight": "Schlittler has a 2.55 ERA over his last 4 starts \u2014 he takes the mound tonight.",
+    "insight": "Warren has a 2.69 ERA over his last 4 starts \u2014 he takes the mound tonight.",
     "hook_type": "pitcher_form"
   },
   "standings": [
     {
       "team": "Rays",
       "w": 11,
-      "l": 7,
+      "l": 8,
       "gb": "-",
-      "last10": "8-2"
+      "last10": "7-3"
     },
     {
       "team": "Yankees",
-      "w": 10,
+      "w": 11,
       "l": 9,
-      "gb": "1.5",
+      "gb": "0.5",
       "last10": "3-7"
     },
     {
       "team": "Orioles",
-      "w": 9,
+      "w": 10,
       "l": 10,
-      "gb": "2.5",
+      "gb": "1.5",
+      "last10": "6-4"
+    },
+    {
+      "team": "Red Sox",
+      "w": 8,
+      "l": 11,
+      "gb": "3.0",
       "last10": "6-4"
     },
     {
       "team": "Blue Jays",
       "w": 7,
-      "l": 11,
+      "l": 12,
       "gb": "4.0",
       "last10": "3-7"
-    },
-    {
-      "team": "Red Sox",
-      "w": 7,
-      "l": 11,
-      "gb": "4.0",
-      "last10": "5-5"
     }
   ],
   "hot_players": {
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "New York falls to LAA \u2014 1.5 back in the East.",
+  "subhead": "Yankees take it at the Stadium behind Schlittler and Rice \u2014 0.5 back in the East.",
   "insight": {
     "headline": "A 3-7 stretch over the last ten is a real concern.",
-    "detail": "A .695 OPS over this stretch has made it hard to win. The staff ERA sits at 3.68 \u2014 the runs just haven't been there. They're 1.5 back in the AL East.",
-    "why": "staff carrying (3.68 ERA) \u00b7 quiet bats (.695 OPS) \u00b7 3\u20137 in the last ten"
+    "detail": "A .696 OPS over this stretch has made it hard to win. The staff ERA sits at 3.55 \u2014 the runs just haven't been there. They're 0.5 back in the AL East.",
+    "why": "staff carrying (3.55 ERA) \u00b7 quiet bats (.696 OPS) \u00b7 3\u20137 in the last ten"
   }
 }
