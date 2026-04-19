@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-04-18T11:05:23+00:00",
+  "generated_at": "2026-04-19T11:05:01+00:00",
   "season": 2026,
   "team": {
-    "record": "13-7",
-    "streak": "L1",
-    "run_diff": "+13",
-    "last10": "8-2",
+    "record": "14-7",
+    "streak": "W1",
+    "run_diff": "+16",
+    "last10": "9-1",
     "division_rank": 2,
-    "games_back": "2.5",
-    "avg": ".233",
-    "ops": ".689",
-    "era": "3.60"
+    "games_back": "1.5",
+    "avg": ".236",
+    "ops": ".690",
+    "era": "3.48"
   },
   "last_game": {
     "status": "final",
-    "gamePk": 824048,
-    "date": "2026-04-17",
+    "gamePk": 824049,
+    "date": "2026-04-18",
     "opponent": "LAA",
     "home": false,
-    "result": "L",
+    "result": "W",
     "score": {
-      "team": 0,
-      "opp": 8
+      "team": 4,
+      "opp": 1
     },
     "linescore": [
       [
@@ -32,114 +32,139 @@
         0,
         0,
         0,
-        0,
-        0
+        2,
+        2
       ],
       [
         0,
-        3,
-        0,
-        3,
-        2,
         0,
         0,
         0,
-        ""
+        0,
+        0,
+        0,
+        1,
+        0
       ]
     ],
     "decisions": {
-      "win": "Jos\u00e9 Soriano",
-      "win_role": "SP",
-      "win_team": "opp",
-      "loss": "Matt Waldron",
-      "loss_role": "SP",
-      "loss_team": "team"
+      "win": "Adrian Morejon",
+      "win_role": "RP",
+      "win_team": "team",
+      "loss": "Ryan Zeferjahn",
+      "loss_role": "RP",
+      "loss_team": "opp",
+      "save": "Mason Miller",
+      "save_role": "RP",
+      "save_team": "team"
     },
     "key_hitters": [
       {
-        "name": "Gavin Sheets",
-        "line": "1-4",
-        "pos": "LF",
-        "season_avg": ".246"
+        "name": "Fernando Tatis Jr.",
+        "line": "2-4, 2 RBI",
+        "pos": "RF",
+        "season_avg": ".253"
       },
       {
-        "name": "Manny Machado",
-        "line": "1-4",
-        "pos": "3B",
-        "season_avg": ".210"
+        "name": "Miguel Andujar",
+        "line": "2-3",
+        "pos": "DH",
+        "season_avg": ".341"
       }
     ],
     "key_pitcher": {
-      "name": "Matt Waldron",
-      "line": "3.2 IP, 8 H, 6 ER, 4 K",
+      "name": "Germ\u00e1n M\u00e1rquez",
+      "line": "5.2 IP, 2 H, 0 ER, 5 K",
       "role": "SP",
-      "season_era": "14.73"
+      "season_era": "3.86"
     },
     "context_line": "Away \u00b7 Angel Stadium \u00b7 Night game",
-    "highlights_url": "https://www.youtube.com/results?search_query=SD+vs+LAA+highlights+April+17+2026+MLB",
-    "game_note": "A 3-run second by LAA was more than the Padres could answer.",
+    "highlights_url": "https://www.youtube.com/results?search_query=SD+vs+LAA+highlights+April+18+2026+MLB",
+    "game_note": "The Padres answered in the late innings, outscoring LAA 4\u20131 in the final frames.",
     "full_box": {
       "batting": [
         {
-          "name": "Jake Cronenworth",
-          "pos": "2B",
-          "avg": ".138",
+          "name": "Ram\u00f3n Laureano",
+          "pos": "LF",
+          "avg": ".288",
           "ab": 4,
           "r": 0,
-          "h": 0,
-          "rbi": 0,
+          "h": 1,
+          "rbi": 2,
           "bb": 0,
           "so": 2
         },
         {
           "name": "Fernando Tatis Jr.",
           "pos": "RF",
-          "avg": ".239",
-          "ab": 3,
+          "avg": ".253",
+          "ab": 4,
           "r": 0,
-          "h": 0,
-          "rbi": 0,
+          "h": 2,
+          "rbi": 2,
           "bb": 1,
           "so": 1
         },
         {
           "name": "Jackson Merrill",
           "pos": "CF",
-          "avg": ".247",
+          "avg": ".232",
+          "ab": 5,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 3
+        },
+        {
+          "name": "Manny Machado",
+          "pos": "3B",
+          "avg": ".197",
           "ab": 4,
           "r": 0,
           "h": 0,
           "rbi": 0,
           "bb": 0,
-          "so": 2
-        },
-        {
-          "name": "Manny Machado",
-          "pos": "3B",
-          "avg": ".210",
-          "ab": 4,
-          "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "so": 2
+          "so": 1
         },
         {
           "name": "Xander Bogaerts",
           "pos": "SS",
           "avg": ".260",
-          "ab": 2,
+          "ab": 4,
           "r": 0,
-          "h": 0,
+          "h": 1,
           "rbi": 0,
-          "bb": 1,
+          "bb": 0,
           "so": 0
         },
         {
+          "name": "Miguel Andujar",
+          "pos": "DH",
+          "avg": ".341",
+          "ab": 3,
+          "r": 0,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
           "name": "Bryce Johnson",
-          "pos": "PH",
-          "avg": ".083",
+          "pos": "DH",
+          "avg": ".154",
           "ab": 1,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Ty France",
+          "pos": "1B",
+          "avg": ".259",
+          "ab": 2,
           "r": 0,
           "h": 0,
           "rbi": 0,
@@ -148,44 +173,33 @@
         },
         {
           "name": "Gavin Sheets",
-          "pos": "LF",
-          "avg": ".246",
-          "ab": 4,
-          "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Nick Castellanos",
-          "pos": "DH",
-          "avg": ".163",
-          "ab": 4,
+          "pos": "1B",
+          "avg": ".238",
+          "ab": 2,
           "r": 0,
           "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 4
-        },
-        {
-          "name": "Ty France",
-          "pos": "1B",
-          "avg": ".280",
-          "ab": 3,
-          "r": 0,
-          "h": 1,
           "rbi": 0,
           "bb": 0,
           "so": 0
         },
         {
-          "name": "Luis Campusano",
+          "name": "Freddy Fermin",
           "pos": "C",
-          "avg": ".300",
+          "avg": ".182",
+          "ab": 2,
+          "r": 2,
+          "h": 1,
+          "rbi": 0,
+          "bb": 2,
+          "so": 1
+        },
+        {
+          "name": "Jake Cronenworth",
+          "pos": "2B",
+          "avg": ".152",
           "ab": 1,
-          "r": 0,
-          "h": 0,
+          "r": 1,
+          "h": 1,
           "rbi": 0,
           "bb": 2,
           "so": 0
@@ -193,95 +207,87 @@
       ],
       "pitching": [
         {
-          "name": "Matt Waldron",
-          "ip": "3.2",
-          "h": 8,
-          "er": 6,
-          "k": 4,
-          "bb": 1
-        },
-        {
-          "name": "David Morgan",
-          "ip": "0.2",
-          "h": 3,
-          "er": 2,
-          "k": 1,
+          "name": "Germ\u00e1n M\u00e1rquez",
+          "ip": "5.2",
+          "h": 2,
+          "er": 0,
+          "k": 5,
           "bb": 2
         },
         {
-          "name": "Wandy Peralta",
-          "ip": "1.2",
-          "h": 2,
-          "er": 0,
-          "k": 3,
-          "bb": 0
-        },
-        {
-          "name": "Bradgley Rodriguez",
-          "ip": "1.0",
+          "name": "Adrian Morejon",
+          "ip": "1.1",
           "h": 0,
           "er": 0,
-          "k": 0,
-          "bb": 0
+          "k": 2,
+          "bb": 1
         },
         {
-          "name": "Kyle Hart",
+          "name": "Jason Adam",
           "ip": "1.0",
-          "h": 0,
-          "er": 0,
+          "h": 3,
+          "er": 1,
           "k": 1,
           "bb": 0
+        },
+        {
+          "name": "Mason Miller",
+          "ip": "1.0",
+          "h": 1,
+          "er": 0,
+          "k": 2,
+          "bb": 1
         }
       ]
     }
   },
   "next_game": {
-    "gamePk": 824049,
-    "date": "2026-04-18",
+    "gamePk": 824047,
+    "date": "2026-04-19",
     "opponent": "LAA",
     "home": false,
-    "time_local": "6:38 PM PT",
+    "time_local": "1:07 PM PT",
     "probable": {
-      "team": "Germ\u00e1n M\u00e1rquez",
-      "opp": "Yusei Kikuchi"
+      "team": "Michael King",
+      "opp": "Reid Detmers"
     },
-    "insight": "LAA's .231 average gives M\u00e1rquez a favorable matchup tonight.",
-    "hook_type": "opponent_weakness"
+    "insight": "King has a 2.84 ERA over his last 4 starts \u2014 he takes the mound tonight.",
+    "hook_type": "pitcher_form"
   },
   "standings": [
     {
       "team": "Dodgers",
       "w": 15,
-      "l": 4,
+      "l": 5,
       "gb": "-",
-      "last10": "8-2"
+      "last10": "7-3"
     },
     {
       "team": "Padres",
-      "w": 13,
+      "w": 14,
       "l": 7,
+      "gb": "1.5",
+      "last10": "9-1"
+    },
+    {
+      "team": "D-backs",
+      "w": 13,
+      "l": 8,
       "gb": "2.5",
       "last10": "8-2"
     },
     {
-      "team": "D-backs",
-      "w": 12,
-      "l": 8,
-      "gb": "3.5",
-      "last10": "7-3"
-    },
-    {
       "team": "Giants",
-      "w": 8,
+      "w": 9,
       "l": 12,
-      "gb": "7.5",
-      "last10": "5-5"
+      "gb": "6.5",
+      "last10": "6-4"
     },
     {
       "team": "Rockies",
-      "w": 7,
+      "w": 8,
       "l": 13,
-      "gb": "8.5",
+      "gb": "7.5",
       "last10": "3-7"
     }
   ],
@@ -289,10 +295,10 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "San Diego falls to LAA \u2014 2.5 back in the West.",
+  "subhead": "San Diego stays hot \u2014 9-1 over the last ten, Tatis Jr. leading the way \u2014 1.5 back in the West.",
   "insight": {
     "headline": "The pitching staff is carrying this run.",
-    "detail": "San Diego has won eight of their last ten despite a .689 OPS \u2014 the staff ERA of 3.60 has been doing the heavy lifting while the lineup finds its footing. They're 2.5 back in the NL West \u2014 the staff has kept them in the race while the bats have gone quiet.",
-    "why": "staff carrying (3.60 ERA) \u00b7 quiet bats (.689 OPS) \u00b7 8\u20132 in the last ten"
+    "detail": "San Diego has won nine of their last ten despite a .690 OPS \u2014 the staff ERA of 3.48 has been doing the heavy lifting while the lineup finds its footing. They're 1.5 back in the NL West \u2014 the staff has kept them in the race while the bats have gone quiet.",
+    "why": "staff carrying (3.48 ERA) \u00b7 quiet bats (.690 OPS) \u00b7 9\u20131 in the last ten"
   }
 }
