@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T12:02:10+00:00",
+  "generated_at": "2026-04-21T17:04:36+00:00",
   "season": 2026,
   "team": {
     "record": "13-9",
@@ -259,5 +259,38 @@
     "headline": "A 3.40 ERA should be winning more games.",
     "detail": "The staff has held up its end \u2014 3.40 ERA \u2014 but New York has gone just 5-5 over their last ten. A .733 OPS at the plate hasn't been enough to turn good pitching into wins. Still in first, but the inconsistency is real.",
     "why": "staff carrying (3.40 ERA) \u00b7 OPS at .733 \u00b7 5\u20135 in the last ten"
+  },
+  "narrative": {
+    "top_frame": "A dominant pitching performance and timely power\u2014from Judge and Grisham\u2014give the Yankees a shutout win, but the fragility beneath remains: they're hitting .218 as a team.",
+    "what_this_means": "Ryan Weathers delivered what this rotation has promised\u20147.1 scoreless innings on five hits\u2014and the offense answered with just enough: two home runs, seven total hits, nine strikeouts. This is the narrow path the Yankees have been walking all season: winning when pitching executes and the lineup finds one or two moments instead of sustained at-bats. Yesterday's win didn't solve the batting problem. It confirmed it still exists while showing the team can win anyway, at least when Kansas City doesn't threaten and the rotation deals. The question is whether this 5-5 stretch over the last ten games holds as the baseline or whether yesterday was an outlier in a team that remains fundamentally imbalanced.",
+    "what_to_watch": "Luis Gil takes the mound tomorrow night against Boston in a matchup that will test whether yesterday's formula\u2014dominant pitching, minimal but sufficient hitting\u2014survives contact with a division rival. The Red Sox offense has sharper teeth than Kansas City's, and a .218 average will not hide against better velocity recognition. Watch whether Judge and the middle of the order adjust or fall back into the strikeout patterns that have defined this season. That game will reveal whether this team is fragile in a sustainable way or fragile in a dangerous one.",
+    "story_state": {
+      "trend": "fragile",
+      "driver": "balanced",
+      "confidence": "medium",
+      "pressure": "high",
+      "record_w": 13,
+      "record_l": 9,
+      "streak": "W3",
+      "last10_w": 5,
+      "era": 3.4,
+      "ops": 0.733,
+      "gb": 0.0,
+      "division_rank": 1,
+      "last_result": "W",
+      "date": "2026-04-19",
+      "game_emotion_level": "high"
+    },
+    "story_delta": {
+      "has_prev": false,
+      "trend_changed": false,
+      "trend_direction": "unknown",
+      "conf_changed": false,
+      "pressure_changed": false,
+      "driver_changed": false,
+      "signals": [
+        "First tracked game \u2014 establishing baseline narrative."
+      ]
+    }
   }
 }
