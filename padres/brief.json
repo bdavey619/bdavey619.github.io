@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T03:23:52+00:00",
+  "generated_at": "2026-04-21T03:37:34+00:00",
   "season": 2026,
   "team": {
     "record": "15-7",
@@ -7,7 +7,7 @@
     "run_diff": "+17",
     "last10": "9-1",
     "division_rank": 2,
-    "games_back": "0.5",
+    "games_back": "1.0",
     "avg": ".232",
     "ops": ".679",
     "era": "3.36"
@@ -253,37 +253,37 @@
   "standings": [
     {
       "team": "Dodgers",
-      "w": 15,
+      "w": 16,
       "l": 6,
       "gb": "-",
-      "last10": "6-4"
+      "last10": "7-3"
     },
     {
       "team": "Padres",
       "w": 15,
       "l": 7,
-      "gb": "0.5",
+      "gb": "1.0",
       "last10": "9-1"
     },
     {
       "team": "D-backs",
       "w": 13,
       "l": 9,
-      "gb": "2.5",
+      "gb": "3.0",
       "last10": "7-3"
     },
     {
       "team": "Giants",
       "w": 9,
       "l": 13,
-      "gb": "6.5",
+      "gb": "7.0",
       "last10": "5-5"
     },
     {
       "team": "Rockies",
       "w": 9,
-      "l": 13,
-      "gb": "6.5",
+      "l": 14,
+      "gb": "7.5",
       "last10": "3-7"
     }
   ],
@@ -291,10 +291,42 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "San Diego stays hot \u2014 9-1 over the last ten, Johnson leading the way \u2014 0.5 back in the West.",
+  "subhead": "San Diego stays hot \u2014 9-1 over the last ten, Johnson leading the way \u2014 1.0 back in the West.",
   "insight": {
     "headline": "The pitching staff is carrying this run.",
-    "detail": "San Diego has won nine of their last ten despite a .679 OPS \u2014 the staff ERA of 3.36 has been doing the heavy lifting while the lineup finds its footing. They're 0.5 back in the NL West \u2014 the staff has kept them in the race while the bats have gone quiet.",
+    "detail": "San Diego has won nine of their last ten despite a .679 OPS \u2014 the staff ERA of 3.36 has been doing the heavy lifting while the lineup finds its footing. They're 1.0 back in the NL West \u2014 the staff has kept them in the race while the bats have gone quiet.",
     "why": "staff carrying (3.36 ERA) \u00b7 quiet bats (.679 OPS) \u00b7 9\u20131 in the last ten"
+  },
+  "narrative": {
+    "top_frame": "Michael King just rewrote the script\u2014the Padres' pitching is not carrying a weak lineup; it's *masking* a crisis that won't stay hidden forever.",
+    "what_this_means": "This win over the Angels confirms what the last ten games have been screaming: San Diego's surge is real, but it lives entirely on the mound. King's 2.28 ERA anchors a 3.36 team staff that is operating at an elite level. That matters. That's sustainable. What isn't sustainable is a .232 batting average and a .679 OPS that ranks among the worst in baseball. The Padres are winning 9 of 10 games despite offensive anemia\u2014not because their lineup suddenly learned to hit. Bogaerts and Johnson scraped together two runs yesterday from five hits and eleven strikeouts. That's not a blueprint; that's a warning. They sit second in the division, one game back, but they are one pitcher injury away from discovering whether this team can actually score runs without walking a tightrope.",
+    "what_to_watch": "Randy V\u00e1squez takes the ball tomorrow at Coors Field, where the Rockies will test whether the Padres' pitching dominance travels to elevation. Watch whether the offense breaks through in that hitter's park or whether another strong start gets wasted. The pattern will either break or deepen.",
+    "story_state": {
+      "trend": "surging",
+      "driver": "pitching",
+      "confidence": "high",
+      "pressure": "building",
+      "record_w": 15,
+      "record_l": 7,
+      "streak": "W2",
+      "last10_w": 9,
+      "era": 3.36,
+      "ops": 0.679,
+      "gb": 1.0,
+      "division_rank": 2,
+      "last_result": "W",
+      "date": "2026-04-19"
+    },
+    "story_delta": {
+      "has_prev": false,
+      "trend_changed": false,
+      "trend_direction": "unknown",
+      "conf_changed": false,
+      "pressure_changed": false,
+      "driver_changed": false,
+      "signals": [
+        "First tracked game \u2014 establishing baseline narrative."
+      ]
+    }
   }
 }
