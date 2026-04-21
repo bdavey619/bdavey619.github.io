@@ -22,6 +22,7 @@ from rank import rank_events
 from models import ScoredEvent, TeamContext
 from editorial import editorial_review, print_override_summary, print_final_five
 from explain import generate_explanations
+from review import generate_review
 from render import render_weekly
 
 
@@ -396,10 +397,16 @@ def main() -> None:
         print("\nGenerating explanations...", file=sys.stderr)
         explanations = generate_explanations(final)
 
+        print("\nGenerating AI editorial review...", file=sys.stderr)
+        review = generate_review(ranked, final, explanations)
+
         print_override_summary(override_info)
         print_final_five(final, explanations)
 
-        output_path = render_weekly(final, explanations, week_start, week_end, now, candidates=ranked)
+        output_path = render_weekly(
+            final, explanations, week_start, week_end, now,
+            candidates=ranked, review=review,
+        )
         print(f"\n✓  HTML written to {output_path}", file=sys.stderr)
     else:
         # Interactive editorial path
@@ -408,10 +415,16 @@ def main() -> None:
         print("\nGenerating explanations...", file=sys.stderr)
         explanations = generate_explanations(final)
 
+        print("\nGenerating AI editorial review...", file=sys.stderr)
+        review = generate_review(ranked, final, explanations)
+
         print_override_summary(override_info)
         print_final_five(final, explanations)
 
-        output_path = render_weekly(final, explanations, week_start, week_end, now, candidates=ranked)
+        output_path = render_weekly(
+            final, explanations, week_start, week_end, now,
+            candidates=ranked, review=review,
+        )
         print(f"\n✓  HTML written to {output_path}", file=sys.stderr)
 
 

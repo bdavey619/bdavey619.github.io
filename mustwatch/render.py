@@ -295,6 +295,87 @@ def _diag_mlb_analysis(candidates: list[ScoredEvent]) -> str:
     )
 
 
+def render_review(review: dict) -> str:
+    """
+    Build the AI Editor's Note <details> block from a review dict.
+    Returns an empty string if the review is in a fallback/unavailable state.
+    """
+    summary = review.get("summary", "")
+    if not summary or summary.startswith("["):
+        return ""
+
+    def lbl(text: str) -> str:
+        return f'<div class="review-lbl">{_esc(text)}</div>'
+
+    def note(text: str, cls: str = "review-note") -> str:
+        return f'<div class="{cls}">{_esc(text)}</div>'
+
+    parts: list[str] = []
+
+    # Confidence badge + summary
+    confidence = review.get("editor_confidence", "").upper()
+    conf_cls = {"HIGH": "review-conf-high", "MEDIUM": "review-conf-med"}.get(
+        confidence, "review-conf-low"
+    )
+    parts.append(
+        f'<div class="review-header">'
+        f'<span class="review-conf {conf_cls}">{_esc(confidence or "?")}</span>'
+        f'<span class="review-summary-text">{_esc(summary)}</span>'
+        f'</div>'
+    )
+
+    # What looks right
+    for item in review.get("what_looks_right", [])[:2]:
+        parts.append(note(f"✓  {item}", "review-note review-note-ok"))
+
+    # Possibly overrated
+    overrated = review.get("possible_overrated", [])[:2]
+    if overrated:
+        parts.append(lbl("Possibly overrated"))
+        for entry in overrated:
+            rank = entry.get("rank")
+            matchup = entry.get("matchup", "")
+            reason = entry.get("reason", "")
+            rank_str = f"#{rank} · " if rank else ""
+            parts.append(note(f"{rank_str}{matchup} — {reason}", "review-note review-note-warn"))
+
+    # Possibly underrated / missing
+    underrated = review.get("possible_underrated", [])[:2]
+    if underrated:
+        parts.append(lbl("Possibly underrated / missing"))
+        for entry in underrated:
+            rank = entry.get("rank")
+            matchup = entry.get("matchup", "")
+            reason = entry.get("reason", "")
+            rank_str = f"#{rank} · " if rank else "outside pool · "
+            parts.append(note(f"{rank_str}{matchup} — {reason}"))
+
+    # Missed storylines
+    for item in review.get("missed_storylines", [])[:2]:
+        parts.append(lbl("Missed storyline"))
+        parts.append(note(item))
+
+    # Scoring suggestion
+    scoring = review.get("scoring_suggestions", [])
+    if scoring:
+        parts.append(lbl("Scoring suggestion"))
+        parts.append(note(scoring[0]))
+
+    # Explanation suggestion
+    expl_sugg = review.get("explanation_suggestions", [])
+    if expl_sugg:
+        parts.append(lbl("Explanation suggestion"))
+        parts.append(note(expl_sugg[0]))
+
+    body = "\n".join(parts)
+    return (
+        f'<details class="review-section">'
+        f'<summary class="review-summary">AI Editor\'s Note</summary>'
+        f'<div class="review-body">{body}</div>'
+        f'</details>'
+    )
+
+
 def render_diagnostics(candidates: list[ScoredEvent]) -> str:
     """Build the full diagnostics HTML block — a collapsed <details> section."""
     n = len(candidates)
@@ -363,6 +444,7 @@ def render_weekly(
     week_end:     date,
     generated_at: datetime,
     candidates:   list[ScoredEvent] | None = None,
+    review:       dict | None = None,
 ) -> Path:
     """
     Render the final top-5 list to mustwatch/weekly.html.
@@ -390,13 +472,15 @@ def render_weekly(
     )
     generated_str = generated_at.strftime("%B %-d, %Y")
 
-    diag_html = render_diagnostics(candidates) if candidates is not None else ""
+    diag_html   = render_diagnostics(candidates) if candidates is not None else ""
+    review_html = render_review(review) if review is not None else ""
 
     context = {
         "week_label":       week_label,
         "events_html":      events_html,
         "generated_at":     generated_str,
         "diagnostics_html": diag_html,
+        "review_html":      review_html,
     }
 
     html_out = _render(_TEMPLATE, context)
