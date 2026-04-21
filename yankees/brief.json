@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T17:04:36+00:00",
+  "generated_at": "2026-04-21T17:28:13+00:00",
   "season": 2026,
   "team": {
     "record": "13-9",
@@ -261,9 +261,9 @@
     "why": "staff carrying (3.40 ERA) \u00b7 OPS at .733 \u00b7 5\u20135 in the last ten"
   },
   "narrative": {
-    "top_frame": "A dominant pitching performance and timely power\u2014from Judge and Grisham\u2014give the Yankees a shutout win, but the fragility beneath remains: they're hitting .218 as a team.",
-    "what_this_means": "Ryan Weathers delivered what this rotation has promised\u20147.1 scoreless innings on five hits\u2014and the offense answered with just enough: two home runs, seven total hits, nine strikeouts. This is the narrow path the Yankees have been walking all season: winning when pitching executes and the lineup finds one or two moments instead of sustained at-bats. Yesterday's win didn't solve the batting problem. It confirmed it still exists while showing the team can win anyway, at least when Kansas City doesn't threaten and the rotation deals. The question is whether this 5-5 stretch over the last ten games holds as the baseline or whether yesterday was an outlier in a team that remains fundamentally imbalanced.",
-    "what_to_watch": "Luis Gil takes the mound tomorrow night against Boston in a matchup that will test whether yesterday's formula\u2014dominant pitching, minimal but sufficient hitting\u2014survives contact with a division rival. The Red Sox offense has sharper teeth than Kansas City's, and a .218 average will not hide against better velocity recognition. Watch whether Judge and the middle of the order adjust or fall back into the strikeout patterns that have defined this season. That game will reveal whether this team is fragile in a sustainable way or fragile in a dangerous one.",
+    "top_frame": "Yesterday's shutout rewarded the one thing this team can actually control right now: pitching depth and execution when it matters. Ryan Weathers carved up Kansas City, and that mattered far more than the opposition's weakness.",
+    "what_this_means": "What we learned is narrow but crucial. The Yankees' pitching staff (3.40 ERA) is doing its job, and when the lineup finds even modest contact\u2014Grisham and Judge each delivered power in a 7-hit performance\u2014the math works. The fragility isn't in that equation. The fragility is in the batting order's baseline competence: a .218 average doesn't win divisions on pitching alone, and a 5-5 last ten games confirms this isn't a team built to run away from anyone. Yesterday worked because both sides showed up. The risk is clear: if the offense regresses to form against better arms, even 3.40 ERA pitching gets overextended by August.",
+    "what_to_watch": "Luis Gil takes the ball tomorrow night at Yankee Stadium against Boston, and that's the real test. The Red Sox will probe whether yesterday's offensive display was a reprieve or a reset. Watch whether Judge and the middle of the order can carry the momentum into a division matchup where every pitch is sharper and every mistake costs more than it did against Kansas City.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
@@ -282,14 +282,14 @@
       "game_emotion_level": "high"
     },
     "story_delta": {
-      "has_prev": false,
+      "has_prev": true,
       "trend_changed": false,
-      "trend_direction": "unknown",
+      "trend_direction": "unchanged",
       "conf_changed": false,
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "First tracked game \u2014 establishing baseline narrative."
+        "won last game"
       ]
     }
   }
