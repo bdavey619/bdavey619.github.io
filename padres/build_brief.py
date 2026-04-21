@@ -11,7 +11,6 @@ import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.request import urlopen, Request
 from urllib.parse import urlencode, quote_plus
 
 import requests
@@ -22,6 +21,15 @@ import requests
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from engine.team_config import PADRES  # noqa: E402
+from engine.narrative import (  # noqa: E402
+    check_insight_language,
+    classify_game_emotion,
+    build_story_state,
+    load_story_state,
+    save_story_state,
+    compute_story_delta,
+    generate_narrative_copy,
+)
 
 CFG = PADRES
 
@@ -928,35 +936,11 @@ def get_insight(team, last_game=None):
 
 
 # ---------------------------------------------------------------------------
-# Anti-speculation guardrail
+# Anti-speculation guardrail (shared — imported from engine.narrative)
 # ---------------------------------------------------------------------------
 
-_BANNED_SPECULATIVE_PHRASES = [
-    "if the offense",
-    "if they",
-    "if the bats",
-    "could be",
-    "might be",
-    "watch out",
-    "gets dangerous",
-    "when it clicks",
-    "when they click",
-    "what's ahead",
-    "hard to see",
-    "slowing down",
-    "this team gets",
-]
-
-
 def _check_insight_language(text):
-    """Log a warning if speculative language appears in insight text."""
-    lower = text.lower()
-    for phrase in _BANNED_SPECULATIVE_PHRASES:
-        if phrase in lower:
-            print(
-                f"  warn [insight guardrail]: speculative phrase detected — {phrase!r}",
-                file=sys.stderr,
-            )
+    check_insight_language(text)
 
 
 # ---------------------------------------------------------------------------
@@ -1489,395 +1473,11 @@ def build_looking_ahead_hook(raw_game, team, standings, subhead=None, insight=No
 
 
 # ---------------------------------------------------------------------------
-# Story State — structured signal extraction
+# Story State + Delta + Narrative (shared — imported from engine.narrative)
 # ---------------------------------------------------------------------------
 
-def build_story_state(team, last_game):
-    """
-    Compute a lightweight story-state object from available structured data.
-
-    trend:      surging | stabilizing | fragile | slipping
-    driver:     pitching | offense | balanced | unclear
-    confidence: high | medium | low
-    pressure:   low | building | high
-    """
-    def _f(val, default=0.0):
-        try:
-            return float(str(val).replace("+", ""))
-        except (ValueError, TypeError):
-            return default
-
-    era_val = _f(team.get("era"), 4.00)
-    ops_val = _f(team.get("ops"), 0.720)
-
-    last10 = team.get("last10", "5-5")
-    last10_w = int(last10.split("-")[0]) if last10 and "-" in last10 else 5
-
-    streak = team.get("streak", "")
-    streak_m = re.match(r'^([WL])(\d+)$', streak)
-    streak_type = streak_m.group(1) if streak_m else ""
-    streak_num  = int(streak_m.group(2)) if streak_m else 0
-
-    # games_back: "-" means first place → 0.0
-    gb_raw = team.get("games_back", "5")
-    try:
-        gb = float(str(gb_raw))
-    except (ValueError, TypeError):
-        gb = 0.0
-
-    division_rank = team.get("division_rank", 3)
-
-    record = team.get("record", "0-0")
-    try:
-        rec_w, rec_l = map(int, record.split("-"))
-    except (ValueError, AttributeError):
-        rec_w, rec_l = 0, 0
-
-    # --- trend ---
-    if last10_w >= 8 or (last10_w >= 7 and streak_type == "W" and streak_num >= 3):
-        trend = "surging"
-    elif last10_w >= 6 and streak_type != "L":
-        trend = "stabilizing"
-    elif last10_w <= 3 or (streak_type == "L" and streak_num >= 3):
-        trend = "slipping"
-    else:
-        trend = "fragile"
-
-    # --- driver ---
-    if era_val < 3.80 and ops_val < 0.700:
-        driver = "pitching"
-    elif ops_val > 0.750 and era_val >= 3.80:
-        driver = "offense"
-    elif era_val < 3.80 and ops_val >= 0.700:
-        driver = "balanced"
-    elif era_val >= 4.30 and ops_val < 0.700:
-        driver = "unclear"
-    else:
-        driver = "balanced"
-
-    # --- confidence ---
-    total_g = rec_w + rec_l
-    win_pct = rec_w / total_g if total_g > 0 else 0.5
-    if trend == "surging" and win_pct >= 0.550:
-        confidence = "high"
-    elif trend == "slipping" or (trend == "fragile" and gb > 3.0):
-        confidence = "low"
-    else:
-        confidence = "medium"
-
-    # --- pressure ---
-    if gb <= 1.5 and trend in ("fragile", "slipping"):
-        pressure = "high"
-    elif gb <= 3.0 or (trend in ("fragile", "slipping") and gb <= 5.0):
-        pressure = "building"
-    else:
-        pressure = "low"
-
-    last_result = (last_game or {}).get("result", "")
-    game_date   = (last_game or {}).get("date", "")
-
-    return {
-        "trend":        trend,
-        "driver":       driver,
-        "confidence":   confidence,
-        "pressure":     pressure,
-        "record_w":     rec_w,
-        "record_l":     rec_l,
-        "streak":       streak,
-        "last10_w":     last10_w,
-        "era":          round(era_val, 2),
-        "ops":          round(ops_val, 3),
-        "gb":           gb,
-        "division_rank": division_rank,
-        "last_result":  last_result,
-        "date":         game_date,
-    }
-
-
-def load_story_state():
-    """Load previous story state from disk, or return None."""
-    if not STORY_STATE_PATH.exists():
-        return None
-    try:
-        return json.loads(STORY_STATE_PATH.read_text())
-    except (json.JSONDecodeError, OSError):
-        return None
-
-
-def save_story_state(state):
-    STORY_STATE_PATH.write_text(json.dumps(state, indent=2))
-
-
-# ---------------------------------------------------------------------------
-# Story Delta — what changed between yesterday and today
-# ---------------------------------------------------------------------------
-
-_TREND_ORDER    = {"surging": 4, "stabilizing": 3, "fragile": 2, "slipping": 1}
-_CONF_ORDER     = {"high": 3, "medium": 2, "low": 1}
-_PRESSURE_ORDER = {"low": 1, "building": 2, "high": 3}
-
-
-def compute_story_delta(prev, curr):
-    """
-    Compare previous and current story states.
-    Returns a delta dict with human-readable signals list.
-    """
-    if not prev:
-        return {
-            "has_prev":         False,
-            "trend_changed":    False,
-            "trend_direction":  "unknown",
-            "conf_changed":     False,
-            "pressure_changed": False,
-            "driver_changed":   False,
-            "signals":          ["First tracked game — establishing baseline narrative."],
-        }
-
-    signals = []
-
-    # --- trend ---
-    trend_changed = prev.get("trend") != curr.get("trend")
-    trend_direction = "unchanged"
-    if trend_changed:
-        pv = _TREND_ORDER.get(prev["trend"], 2)
-        cv = _TREND_ORDER.get(curr["trend"], 2)
-        trend_direction = "improved" if cv > pv else "declined"
-        signals.append(
-            f"trend {trend_direction}: {prev['trend']} → {curr['trend']}"
-        )
-
-    # --- confidence ---
-    conf_changed = prev.get("confidence") != curr.get("confidence")
-    if conf_changed:
-        direction = "up" if _CONF_ORDER.get(curr["confidence"], 2) > _CONF_ORDER.get(prev["confidence"], 2) else "down"
-        signals.append(f"confidence {direction}: {prev['confidence']} → {curr['confidence']}")
-
-    # --- pressure ---
-    pressure_changed = prev.get("pressure") != curr.get("pressure")
-    if pressure_changed:
-        direction = "increased" if _PRESSURE_ORDER.get(curr["pressure"], 2) > _PRESSURE_ORDER.get(prev["pressure"], 2) else "decreased"
-        signals.append(f"pressure {direction}: {prev['pressure']} → {curr['pressure']}")
-
-    # --- driver ---
-    driver_changed = prev.get("driver") != curr.get("driver")
-    if driver_changed:
-        signals.append(f"driver shifted: {prev['driver']} → {curr['driver']}")
-
-    # --- last game result ---
-    last_result = curr.get("last_result", "")
-    if last_result == "W":
-        signals.append("won last game")
-    elif last_result == "L":
-        signals.append("lost last game")
-
-    # --- streak flip ---
-    prev_streak = prev.get("streak", "")
-    curr_streak = curr.get("streak", "")
-    if prev_streak != curr_streak:
-        pm = re.match(r'^([WL])(\d+)$', prev_streak)
-        cm = re.match(r'^([WL])(\d+)$', curr_streak)
-        if pm and cm:
-            if pm.group(1) != cm.group(1):
-                signals.append(f"streak flipped: {prev_streak} → {curr_streak}")
-            elif cm.group(1) == "W" and int(cm.group(2)) > int(pm.group(2)):
-                signals.append(f"win streak extended to {curr_streak}")
-
-    # --- ERA / OPS movement ---
-    era_delta = round(curr.get("era", 4.0) - prev.get("era", 4.0), 2)
-    ops_delta = round(curr.get("ops", 0.7) - prev.get("ops", 0.7), 3)
-    if abs(era_delta) >= 0.05:
-        direction = "improved" if era_delta < 0 else "worsened"
-        signals.append(
-            f"ERA {direction}: {prev['era']:.2f} → {curr['era']:.2f}"
-        )
-    if abs(ops_delta) >= 0.010:
-        direction = "up" if ops_delta > 0 else "down"
-        signals.append(f"OPS {direction}: {prev['ops']:.3f} → {curr['ops']:.3f}")
-
-    # --- division gap ---
-    gb_delta = round(curr.get("gb", 0.0) - prev.get("gb", 0.0), 1)
-    if abs(gb_delta) >= 0.5:
-        direction = "gained" if gb_delta < 0 else "fell back"
-        signals.append(
-            f"division gap: {direction} {abs(gb_delta):.1f} game(s) ({curr['gb']} back)"
-        )
-
-    if not signals:
-        signals.append("narrative unchanged — same trend, driver, and pressure as yesterday")
-
-    return {
-        "has_prev":         True,
-        "trend_changed":    trend_changed,
-        "trend_direction":  trend_direction,
-        "conf_changed":     conf_changed,
-        "pressure_changed": pressure_changed,
-        "driver_changed":   driver_changed,
-        "signals":          signals,
-    }
-
-
-# ---------------------------------------------------------------------------
-# Narrative generation — Claude writes from structured context
-# ---------------------------------------------------------------------------
-
-_NARRATIVE_SYSTEM = """You are the editorial voice of the Padres Morning Brief — a daily dispatch that answers: "What changed about the Padres' story today?"
-
-You take editorial stances. You explain *why* something matters, not just *what* happened. You write for a fan who already knows the score and wants to understand what it means."""
-
-
-def _build_narrative_prompt(brief_data, story_state, delta):
-    team      = brief_data["team"]
-    last_game = brief_data.get("last_game") or {}
-    next_game = brief_data.get("next_game") or {}
-
-    delta_lines = "\n".join(f"  - {s}" for s in delta.get("signals", []))
-
-    kp = last_game.get("key_pitcher") or {}
-    kh = last_game.get("key_hitters") or []
-    pitcher_text = (
-        f"{kp.get('name')} — {kp.get('line')} (season ERA: {kp.get('season_era', '?')})"
-        if kp else "N/A"
-    )
-    hitters_text = (
-        "; ".join(f"{h['name']} {h['line']}" for h in kh)
-        if kh else "N/A"
-    )
-
-    ng_prob = next_game.get("probable") or {}
-    next_text = (
-        f"vs {next_game.get('opponent')} on {next_game.get('date')} at "
-        f"{next_game.get('time_local', 'TBD')}. SP: {ng_prob.get('team', 'TBD')}"
-        if next_game else "N/A"
-    )
-
-    score = last_game.get("score") or {}
-    result_line = (
-        f"{last_game.get('result', '?')} "
-        f"{score.get('team', '?')}–{score.get('opp', '?')} "
-        f"vs {last_game.get('opponent', '?')} · {last_game.get('context_line', '')}"
-    )
-
-    # Compute total team hits and K from box score for richer context
-    batting = (last_game.get("full_box") or {}).get("batting") or []
-    team_hits = sum(b.get("h", 0) for b in batting)
-    team_ks   = sum(b.get("so", 0) for b in batting)
-    offense_note = f"{team_hits} hits, {team_ks} strikeouts" if batting else ""
-
-    return f"""Write the editorial core of today's Padres Morning Brief.
-
---- STRUCTURED CONTEXT ---
-
-STORY STATE (today):
-  Trend:      {story_state['trend']}
-  Driver:     {story_state['driver']}
-  Confidence: {story_state['confidence']}
-  Pressure:   {story_state['pressure']}
-
-STORY DELTA (what changed vs. yesterday):
-{delta_lines}
-
-LAST GAME:
-  Result:      {result_line}
-  Key pitcher: {pitcher_text}
-  Key hitters: {hitters_text}
-  Offense:     {offense_note}
-
-TEAM CONTEXT:
-  Record: {team.get('record')} · Streak: {team.get('streak')} · Last 10: {team.get('last10')}
-  ERA: {team.get('era')} · OPS: {team.get('ops')} · Avg: {team.get('avg')}
-  Division: Rank {team.get('division_rank')} · {team.get('games_back')} back
-
-NEXT GAME:
-  {next_text}
-
---- OUTPUT INSTRUCTIONS ---
-
-Write exactly three sections. No headers. No labels. No bullet points. Just clean prose.
-
-1. TOP FRAME (1 sentence, max 25 words)
-A sharp editorial judgment on what today's result means in the context of the season. Not a score recap. A stance.
-
-2. WHAT THIS GAME MEANS (2–3 sentences)
-What does this game confirm, challenge, or reveal about the current narrative? If the story changed, say exactly how. If it held, say what held and why that matters.
-
-3. WHAT TO WATCH (1–2 sentences)
-Specific and forward-looking. Name the next game, pitcher, matchup, or pressure point the reader should track. Tie it to what just happened.
-
-HARD RULES:
-- Do NOT summarize the game. The reader already knows the score.
-- Do NOT repeat yesterday's framing unless the delta shows nothing changed — if so, say that directly.
-- Do NOT use: "bats need to wake up", "must-win", "firing on all cylinders", "big time", "impressive", "heading into", "looking to".
-- Do NOT speculate with "could" or "might". Extrapolate from what IS happening.
-- Use specific stats from the context above. Do not invent numbers.
-- Take a clear editorial stance. Use active voice.
-- If trend is "surging": the question is how long can this hold?
-- If trend is "fragile" or "slipping": be honest about the problem. Do not soften it.
-- If driver is "pitching" and OPS < 0.700: do not frame the offense as fine.
-- If delta signals show no change: acknowledge the story did not move today and say what that means.
-
-Output format: three paragraphs separated by a blank line. Nothing else."""
-
-
-def _narrative_fallback(reason):
-    print(f"  [narrative] Falling back to deterministic insight because: {reason}", file=sys.stderr)
-    return None
-
-
-def generate_narrative_copy(brief_data, story_state, delta):
-    """
-    Call the Anthropic API to generate AI-written narrative copy.
-    Returns a dict with top_frame, what_this_means, what_to_watch — or None on failure.
-    Logs a clear reason on every fallback path.
-    """
-    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
-    if not api_key:
-        return _narrative_fallback("ANTHROPIC_API_KEY is not set")
-
-    prompt = _build_narrative_prompt(brief_data, story_state, delta)
-
-    payload = json.dumps({
-        "model":      "claude-haiku-4-5-20251001",
-        "max_tokens": 700,
-        "system":     _NARRATIVE_SYSTEM,
-        "messages":   [{"role": "user", "content": prompt}],
-    }).encode()
-
-    req = Request(
-        "https://api.anthropic.com/v1/messages",
-        data=payload,
-        headers={
-            "x-api-key":         api_key,
-            "anthropic-version": "2023-06-01",
-            "content-type":      "application/json",
-        },
-        method="POST",
-    )
-
-    try:
-        with urlopen(req, timeout=30) as resp:
-            status = resp.status
-            body = json.loads(resp.read())
-    except Exception as exc:
-        return _narrative_fallback(f"API request failed — {exc}")
-
-    if body.get("type") == "error":
-        err = body.get("error", {})
-        return _narrative_fallback(f"API error {err.get('type')}: {err.get('message')}")
-
-    raw = (body.get("content") or [{}])[0].get("text", "").strip()
-    if not raw:
-        return _narrative_fallback(f"empty response body (HTTP {status})")
-
-    paragraphs = [p.strip() for p in raw.split("\n\n") if p.strip()]
-    if len(paragraphs) < 2:
-        return _narrative_fallback(f"response had fewer than 2 paragraphs (got {len(paragraphs)})")
-
-    print("  [narrative] AI narrative generated successfully", file=sys.stderr)
-    return {
-        "top_frame":       paragraphs[0],
-        "what_this_means": paragraphs[1],
-        "what_to_watch":   paragraphs[2] if len(paragraphs) >= 3 else "",
-    }
+# load_story_state, save_story_state, build_story_state, classify_game_emotion,
+# compute_story_delta, generate_narrative_copy are all imported at the top.
 
 
 # ---------------------------------------------------------------------------
@@ -1911,9 +1511,10 @@ def build():
         save_hook_history(ahead_hook_type, load_hook_history())
 
     print("Computing story state and delta...", file=sys.stderr)
-    prev_state   = load_story_state()
+    prev_state   = load_story_state(STORY_STATE_PATH)
     story_state  = build_story_state(team, last_game)
     story_delta  = compute_story_delta(prev_state, story_state)
+    print(f"  [emotion] game_emotion_level: {story_state.get('game_emotion_level', 'normal')}", file=sys.stderr)
 
     brief_data = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -1928,8 +1529,8 @@ def build():
     }
 
     print("Generating narrative copy...", file=sys.stderr)
-    narrative_copy = generate_narrative_copy(brief_data, story_state, story_delta)
-    save_story_state(story_state)  # always persist so delta works next run
+    narrative_copy = generate_narrative_copy(brief_data, story_state, story_delta, CFG.team_name)
+    save_story_state(story_state, STORY_STATE_PATH)  # always persist so delta works next run
     if narrative_copy:
         brief_data["narrative"] = {
             **narrative_copy,

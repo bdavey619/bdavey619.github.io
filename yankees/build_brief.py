@@ -6,6 +6,7 @@ matching the agreed schema. No API key required.
 """
 
 import json
+import os
 import re
 import sys
 from datetime import datetime, timedelta, timezone
@@ -20,6 +21,15 @@ import requests
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from engine.team_config import YANKEES  # noqa: E402
+from engine.narrative import (  # noqa: E402
+    check_insight_language,
+    classify_game_emotion,
+    build_story_state,
+    load_story_state,
+    save_story_state,
+    compute_story_delta,
+    generate_narrative_copy,
+)
 
 CFG = YANKEES
 
@@ -926,35 +936,11 @@ def get_insight(team, last_game=None):
 
 
 # ---------------------------------------------------------------------------
-# Anti-speculation guardrail
+# Anti-speculation guardrail (shared — imported from engine.narrative)
 # ---------------------------------------------------------------------------
 
-_BANNED_SPECULATIVE_PHRASES = [
-    "if the offense",
-    "if they",
-    "if the bats",
-    "could be",
-    "might be",
-    "watch out",
-    "gets dangerous",
-    "when it clicks",
-    "when they click",
-    "what's ahead",
-    "hard to see",
-    "slowing down",
-    "this team gets",
-]
-
-
 def _check_insight_language(text):
-    """Log a warning if speculative language appears in insight text."""
-    lower = text.lower()
-    for phrase in _BANNED_SPECULATIVE_PHRASES:
-        if phrase in lower:
-            print(
-                f"  warn [insight guardrail]: speculative phrase detected — {phrase!r}",
-                file=sys.stderr,
-            )
+    check_insight_language(text)
 
 
 # ---------------------------------------------------------------------------
@@ -962,6 +948,7 @@ def _check_insight_language(text):
 # ---------------------------------------------------------------------------
 
 HOOK_HISTORY_PATH = Path(__file__).with_name("hook_history.json")
+STORY_STATE_PATH  = Path(__file__).with_name("story_state.json")
 
 # Score weights — tune these to shift emphasis between dimensions
 _HOOK_WEIGHTS = {
@@ -1486,6 +1473,14 @@ def build_looking_ahead_hook(raw_game, team, standings, subhead=None, insight=No
 
 
 # ---------------------------------------------------------------------------
+# Story State + Delta + Narrative (shared — imported from engine.narrative)
+# ---------------------------------------------------------------------------
+
+# load_story_state, save_story_state, build_story_state, classify_game_emotion,
+# compute_story_delta, generate_narrative_copy are all imported at the top.
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -1515,7 +1510,13 @@ def build():
         next_game["hook_type"] = ahead_hook_type
         save_hook_history(ahead_hook_type, load_hook_history())
 
-    return {
+    print("Computing story state and delta...", file=sys.stderr)
+    prev_state  = load_story_state(STORY_STATE_PATH)
+    story_state = build_story_state(team, last_game)
+    story_delta = compute_story_delta(prev_state, story_state)
+    print(f"  [emotion] game_emotion_level: {story_state.get('game_emotion_level', 'normal')}", file=sys.stderr)
+
+    brief_data = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "season": SEASON,
         "team": team,
@@ -1526,6 +1527,18 @@ def build():
         "subhead": subhead,
         "insight": insight,
     }
+
+    print("Generating narrative copy...", file=sys.stderr)
+    narrative_copy = generate_narrative_copy(brief_data, story_state, story_delta, CFG.team_name)
+    save_story_state(story_state, STORY_STATE_PATH)  # always persist so delta works next run
+    if narrative_copy:
+        brief_data["narrative"] = {
+            **narrative_copy,
+            "story_state": story_state,
+            "story_delta": story_delta,
+        }
+
+    return brief_data
 
 
 if __name__ == "__main__":
