@@ -1818,15 +1818,20 @@ HARD RULES:
 Output format: three paragraphs separated by a blank line. Nothing else."""
 
 
+def _narrative_fallback(reason):
+    print(f"  [narrative] Falling back to deterministic insight because: {reason}", file=sys.stderr)
+    return None
+
+
 def generate_narrative_copy(brief_data, story_state, delta):
     """
     Call the Anthropic API to generate AI-written narrative copy.
     Returns a dict with top_frame, what_this_means, what_to_watch — or None on failure.
+    Logs a clear reason on every fallback path.
     """
     api_key = os.environ.get("ANTHROPIC_API_KEY", "")
     if not api_key:
-        print("  warn [narrative]: ANTHROPIC_API_KEY not set — skipping narrative generation", file=sys.stderr)
-        return None
+        return _narrative_fallback("ANTHROPIC_API_KEY is not set")
 
     prompt = _build_narrative_prompt(brief_data, story_state, delta)
 
@@ -1850,22 +1855,27 @@ def generate_narrative_copy(brief_data, story_state, delta):
 
     try:
         with urlopen(req, timeout=30) as resp:
+            status = resp.status
             body = json.loads(resp.read())
     except Exception as exc:
-        print(f"  warn [narrative]: API call failed — {exc}", file=sys.stderr)
-        return None
+        return _narrative_fallback(f"API request failed — {exc}")
+
+    if body.get("type") == "error":
+        err = body.get("error", {})
+        return _narrative_fallback(f"API error {err.get('type')}: {err.get('message')}")
 
     raw = (body.get("content") or [{}])[0].get("text", "").strip()
     if not raw:
-        return None
+        return _narrative_fallback(f"empty response body (HTTP {status})")
 
     paragraphs = [p.strip() for p in raw.split("\n\n") if p.strip()]
     if len(paragraphs) < 2:
-        return None
+        return _narrative_fallback(f"response had fewer than 2 paragraphs (got {len(paragraphs)})")
 
+    print("  [narrative] AI narrative generated successfully", file=sys.stderr)
     return {
-        "top_frame":       paragraphs[0] if len(paragraphs) >= 1 else "",
-        "what_this_means": paragraphs[1] if len(paragraphs) >= 2 else "",
+        "top_frame":       paragraphs[0],
+        "what_this_means": paragraphs[1],
         "what_to_watch":   paragraphs[2] if len(paragraphs) >= 3 else "",
     }
 
@@ -1919,16 +1929,13 @@ def build():
 
     print("Generating narrative copy...", file=sys.stderr)
     narrative_copy = generate_narrative_copy(brief_data, story_state, story_delta)
+    save_story_state(story_state)  # always persist so delta works next run
     if narrative_copy:
         brief_data["narrative"] = {
             **narrative_copy,
             "story_state": story_state,
             "story_delta": story_delta,
         }
-        save_story_state(story_state)
-    else:
-        # Still persist state so delta is available next run even without narrative
-        save_story_state(story_state)
 
     return brief_data
 
