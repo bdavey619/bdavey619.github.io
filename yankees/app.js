@@ -389,7 +389,7 @@ function renderInsight(ins, isNarrative) {
     $('insight-headline').textContent = ins.top_frame;
     $('insight-detail').textContent   = ins.what_this_means || '';
 
-    // "What to Watch" block — inject after detail if not already present
+    // "What to Watch" block — inject before the hidden why element
     if (ins.what_to_watch) {
       let watchEl = document.getElementById('insight-watch');
       if (!watchEl) {
@@ -401,29 +401,11 @@ function renderInsight(ins, isNarrative) {
       watchEl.textContent = ins.what_to_watch;
       watchEl.hidden = false;
     }
-
-    // Signals "why" line from story state — compact audit trail
-    const state = ins.story_state;
-    if (state) {
-      const whyEl = $('insight-why');
-      whyEl.textContent = [
-        `trend: ${state.trend}`,
-        `driver: ${state.driver}`,
-        `confidence: ${state.confidence}`,
-        `pressure: ${state.pressure}`,
-      ].join(' · ');
-      whyEl.hidden = false;
-    }
   } else {
     // Legacy deterministic insight
     if (!ins.headline) return;
     $('insight-headline').textContent = ins.headline;
     $('insight-detail').textContent   = ins.detail || '';
-    if (ins.why) {
-      const el = $('insight-why');
-      el.textContent = ins.why;
-      el.hidden = false;
-    }
   }
 
   show('insight');
