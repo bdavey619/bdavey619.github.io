@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T03:37:34+00:00",
+  "generated_at": "2026-04-21T11:36:33+00:00",
   "season": 2026,
   "team": {
     "record": "15-7",
@@ -298,9 +298,9 @@
     "why": "staff carrying (3.36 ERA) \u00b7 quiet bats (.679 OPS) \u00b7 9\u20131 in the last ten"
   },
   "narrative": {
-    "top_frame": "Michael King just rewrote the script\u2014the Padres' pitching is not carrying a weak lineup; it's *masking* a crisis that won't stay hidden forever.",
-    "what_this_means": "This win over the Angels confirms what the last ten games have been screaming: San Diego's surge is real, but it lives entirely on the mound. King's 2.28 ERA anchors a 3.36 team staff that is operating at an elite level. That matters. That's sustainable. What isn't sustainable is a .232 batting average and a .679 OPS that ranks among the worst in baseball. The Padres are winning 9 of 10 games despite offensive anemia\u2014not because their lineup suddenly learned to hit. Bogaerts and Johnson scraped together two runs yesterday from five hits and eleven strikeouts. That's not a blueprint; that's a warning. They sit second in the division, one game back, but they are one pitcher injury away from discovering whether this team can actually score runs without walking a tightrope.",
-    "what_to_watch": "Randy V\u00e1squez takes the ball tomorrow at Coors Field, where the Rockies will test whether the Padres' pitching dominance travels to elevation. Watch whether the offense breaks through in that hitter's park or whether another strong start gets wasted. The pattern will either break or deepen.",
+    "top_frame": "Michael King's masterclass\u20141 hit, 6 strikeouts through five innings\u2014proved the Padres' pitching surge is genuine, not a mirage born from weak competition.",
+    "what_this_means": "This win deepens the most important storyline of the season: the Padres are winning with their arms, not their bats, and they're winning anyway. The offense struck out 11 times and scraped together five hits at Angel Stadium, yet the pitching held so tight that two runs felt sufficient. King's 2.28 ERA anchors a staff that has become the engine of a 9-1 last-ten streak. The question is no longer whether the pitching is real\u2014it's whether a .232 batting average and .679 OPS can sustain a division race long enough for the lineup to find itself. At 15-7 and one game back in the NL West, the Padres are building a foundation that defies conventional baseball math: they're winning despite being one of the quietest offenses in baseball.",
+    "what_to_watch": "Randy V\u00e1squez takes the ball tomorrow against Colorado with the stakes already rising. The Rockies are a winnable opponent, but every game now carries pressure\u2014not because the Padres are fragile, but because they're proving they don't need to hit their way through October. A second straight dominant pitching performance would signal that this surge has teeth.",
     "story_state": {
       "trend": "surging",
       "driver": "pitching",
@@ -318,14 +318,14 @@
       "date": "2026-04-19"
     },
     "story_delta": {
-      "has_prev": false,
+      "has_prev": true,
       "trend_changed": false,
-      "trend_direction": "unknown",
+      "trend_direction": "unchanged",
       "conf_changed": false,
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "First tracked game \u2014 establishing baseline narrative."
+        "won last game"
       ]
     }
   }
