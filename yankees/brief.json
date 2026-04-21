@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T12:08:19+00:00",
+  "generated_at": "2026-04-21T04:28:35+00:00",
   "season": 2026,
   "team": {
     "record": "13-9",
@@ -207,7 +207,8 @@
     "home": false,
     "time_local": "6:45 PM ET",
     "probable": {
-      "team": "Luis Gil"
+      "team": "Luis Gil",
+      "opp": "Connelly Early"
     },
     "insight": "New York leads the AL East on a 3-game win streak \u2014 tonight is a chance to extend it.",
     "hook_type": "race_context"
@@ -223,16 +224,23 @@
     {
       "team": "Rays",
       "w": 12,
-      "l": 9,
-      "gb": "0.5",
+      "l": 10,
+      "gb": "1.0",
       "last10": "7-3"
     },
     {
       "team": "Orioles",
-      "w": 10,
+      "w": 11,
       "l": 12,
-      "gb": "3.0",
-      "last10": "4-6"
+      "gb": "2.5",
+      "last10": "5-5"
+    },
+    {
+      "team": "Red Sox",
+      "w": 9,
+      "l": 13,
+      "gb": "4.0",
+      "last10": "5-5"
     },
     {
       "team": "Blue Jays",
@@ -240,13 +248,6 @@
       "l": 13,
       "gb": "4.5",
       "last10": "4-6"
-    },
-    {
-      "team": "Red Sox",
-      "w": 8,
-      "l": 13,
-      "gb": "4.5",
-      "last10": "5-5"
     }
   ],
   "hot_players": {
