@@ -100,6 +100,19 @@ def build_hitter_rows(hitters):
     return "\n".join(rows)
 
 
+def _build_what_to_watch_row(text):
+    if not text:
+        return ""
+    return (
+        '<tr><td style="padding-top:6px;padding-bottom:4px;">'
+        '<p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,\'Helvetica Neue\',Arial,sans-serif;'
+        'font-size:13px;font-style:italic;color:#5a534c;line-height:1.5;'
+        'border-top:1px solid rgba(0,0,0,0.10);padding-top:8px;">'
+        '<strong style="font-style:normal;font-size:10px;text-transform:uppercase;letter-spacing:0.08em;color:#8a8278;">What to Watch &middot;</strong> '
+        f'{text}</p></td></tr>'
+    )
+
+
 def main():
     parser = argparse.ArgumentParser(description="Render a Morning Brief email.")
     parser.add_argument("--team", required=True, choices=list(_TEAM_CONFIGS.keys()),
@@ -157,8 +170,26 @@ def main():
         next_insight_row = ""
         next_insight_pb = "20px"
 
-    # Insight
-    insight = brief.get("insight", {})
+    # Insight — prefer AI narrative when available
+    narrative = brief.get("narrative", {})
+    insight   = brief.get("insight", {})
+    if narrative.get("top_frame"):
+        insight_headline = narrative["top_frame"]
+        insight_detail   = narrative.get("what_this_means", "")
+        state = narrative.get("story_state", {})
+        if state:
+            insight_why = (
+                f"trend: {state.get('trend','')} · "
+                f"driver: {state.get('driver','')} · "
+                f"confidence: {state.get('confidence','')} · "
+                f"pressure: {state.get('pressure','')}"
+            )
+        else:
+            insight_why = insight.get("why", "")
+    else:
+        insight_headline = insight.get("headline", "")
+        insight_detail   = insight.get("detail", "")
+        insight_why      = insight.get("why", "")
 
     # Game date label prepended to context line for clarity (brief date ≠ game date on off days)
     game_date_short = fmt_game_date_short(lg["date"])
@@ -178,9 +209,10 @@ def main():
         "key_hitters_rows":  key_hitters_rows,
         "pitcher_name":      pitcher.get("name", ""),
         "pitcher_line":      pitcher.get("line", ""),
-        "insight_headline":  insight.get("headline", ""),
-        "insight_detail":    insight.get("detail", ""),
-        "insight_why":       insight.get("why", ""),
+        "insight_headline":  insight_headline,
+        "insight_detail":    insight_detail,
+        "insight_why":       insight_why,
+        "what_to_watch_row": _build_what_to_watch_row(narrative.get("what_to_watch", "")),
         "next_opponent":     f"{ng_home_away} {ng.get('opponent', '')}",
         "next_time":         ng.get("time_local", ""),
         "next_probables":    next_probables,

@@ -35,7 +35,7 @@ function render(b) {
   renderHot(b.hot_players);
   renderSnapshot(b.team);
   renderAhead(b.next_game, b.standings);
-  renderInsight(b.insight);
+  renderInsight(b.narrative || b.insight, !!b.narrative);
   renderFooter(b.generated_at);
 }
 
@@ -380,16 +380,53 @@ function renderFullBoxScore(box) {
     </details>`;
 }
 
-// ---------- insight ----------
-function renderInsight(ins) {
-  if (!ins || !ins.headline) return;
-  $('insight-headline').textContent = ins.headline;
-  $('insight-detail').textContent = ins.detail || '';
-  if (ins.why) {
-    const el = $('insight-why');
-    el.textContent = ins.why;
-    el.hidden = false;
+// ---------- insight / narrative ----------
+function renderInsight(ins, isNarrative) {
+  if (!ins) return;
+
+  if (isNarrative) {
+    // AI-written narrative: top_frame → headline, what_this_means → detail
+    if (!ins.top_frame) return;
+    $('insight-headline').textContent = ins.top_frame;
+    $('insight-detail').textContent   = ins.what_this_means || '';
+
+    // "What to Watch" block — inject after detail if not already present
+    if (ins.what_to_watch) {
+      let watchEl = document.getElementById('insight-watch');
+      if (!watchEl) {
+        watchEl = document.createElement('p');
+        watchEl.id        = 'insight-watch';
+        watchEl.className = 'insight-watch';
+        $('insight-why').parentNode.insertBefore(watchEl, $('insight-why'));
+      }
+      watchEl.textContent = ins.what_to_watch;
+      watchEl.hidden = false;
+    }
+
+    // Signals "why" line from story state — compact audit trail
+    const state = ins.story_state;
+    if (state) {
+      const whyEl = $('insight-why');
+      whyEl.textContent = [
+        `trend: ${state.trend}`,
+        `driver: ${state.driver}`,
+        `confidence: ${state.confidence}`,
+        `pressure: ${state.pressure}`,
+      ].join(' · ');
+      whyEl.hidden = false;
+    }
+  } else {
+    // Legacy deterministic insight
+    if (!ins.headline) return;
+    $('insight-headline').textContent = ins.headline;
+    $('insight-detail').textContent   = ins.detail || '';
+    if (ins.why) {
+      const el = $('insight-why');
+      el.textContent = ins.why;
+      el.hidden = false;
+    }
   }
+
   show('insight');
 }
 
