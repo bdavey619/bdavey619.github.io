@@ -405,6 +405,83 @@
       font-family: 'Courier New', Courier, monospace;
       padding: 4px 0;
     }
+
+    /* ---- AI Editor's Note ---- */
+
+    .review-section {
+      margin-top: 20px;
+      border-top: 1px dashed #d8d8d6;
+      padding-top: 14px;
+    }
+
+    .review-summary {
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #bbb;
+      cursor: pointer;
+      user-select: none;
+      list-style: none;
+    }
+
+    .review-summary::-webkit-details-marker { display: none; }
+    .review-summary::before { content: "▶  "; font-size: 9px; }
+    details[open] .review-summary::before { content: "▼  "; }
+    .review-summary:hover { color: #888; }
+
+    .review-body {
+      margin-top: 14px;
+      font-size: 11px;
+      font-family: 'Courier New', Courier, monospace;
+      color: #666;
+    }
+
+    .review-header {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .review-conf {
+      font-size: 9px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 2px 6px;
+      border-radius: 2px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .review-conf-high   { background: #e8f0e8; color: #4a7a4a; border: 1px solid #b8d8b8; }
+    .review-conf-med    { background: #f5f0e0; color: #7a6a30; border: 1px solid #d8c870; }
+    .review-conf-low    { background: #f5eded; color: #8a4a4a; border: 1px solid #d8b8b8; }
+
+    .review-summary-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 12px;
+      color: #444;
+      line-height: 1.5;
+    }
+
+    .review-lbl {
+      font-size: 9px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #c0c0be;
+      margin: 12px 0 4px;
+    }
+
+    .review-note {
+      font-size: 11px;
+      color: #666;
+      padding: 4px 0;
+      border-bottom: 1px solid #f0f0ee;
+      line-height: 1.5;
+    }
+
+    .review-note-ok   { color: #5a8a5a; }
+    .review-note-warn { color: #8a5a30; }
   </style>
 </head>
 <body>
@@ -420,13 +497,13 @@
   <div class="event-top">
     <div class="rank">#1</div>
     <div class="event-identity">
-      <div class="matchup">Minnesota Timberwolves @ Denver Nuggets</div>
-      <div class="event-detail"><span class="sport-tag">NBA</span><span>TONIGHT</span><span class="detail-sep">·</span><span>Ball Arena</span></div>
+      <div class="matchup">Denver Nuggets @ Minnesota Timberwolves</div>
+      <div class="event-detail"><span class="sport-tag">NBA</span><span>Thursday, April 23</span><span class="detail-sep">·</span><span>Target Center</span></div>
     </div>
     <div class="score-badge">83/100</div>
   </div>
   <div class="flags"><span class="flag">superstar_matchup</span><span class="flag">momentum_mismatch</span><span class="flag">seed_pressure</span></div>
-  <p class="explanation">Denver, winners of 12 straight and 10-0 in their last 10, holds home court in a postseason matchup against a Minnesota team that went 5-5 over the same stretch. Nikola Jokic against Anthony Edwards is the defining variable — the momentum gap is stark, but one superstar collision can override it.</p>
+  <p class="explanation">Denver enters this postseason matchup on a 12-game winning streak and a perfect 10-0 in its last 10, holding the #3 seed against a #6 Minnesota team that has gone 5-5 over the same stretch. Anthony Edwards faces Nikola Jokic with that momentum gap as the defining variable — the Timberwolves need to reverse a trajectory Denver has shown no sign of breaking.</p>
   <div class="breakdown"><div class="breakdown-item"><span class="breakdown-label">Stakes</span><span class="breakdown-value">29</span><span class="breakdown-max">/30</span></div><div class="breakdown-item"><span class="breakdown-label">Balance</span><span class="breakdown-value">16</span><span class="breakdown-max">/20</span></div><div class="breakdown-item"><span class="breakdown-label">Momentum</span><span class="breakdown-value">12</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Stars</span><span class="breakdown-value">15</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Narrative</span><span class="breakdown-value">11</span><span class="breakdown-max">/20</span></div></div>
 </div>
 
@@ -440,7 +517,7 @@
     <div class="score-badge">80/100</div>
   </div>
   <div class="flags"><span class="flag">Rivalry</span><span class="flag">superstar_matchup</span><span class="flag">seed_pressure</span></div>
-  <p class="explanation">Boston enters this postseason rivalry game at 8-2 in their last 10 and holds the #2 seed; Philadelphia, the #7 seed at 45-37, needs Embiid to neutralize that home-court gap at TD Garden. Tatum faces Embiid in a matchup where the 11-win regular-season separation between these teams either holds or collapses on a single series.</p>
+  <p class="explanation">Boston, the #2 seed at 56-26 and 8-2 in its last 10, hosts a #7 Philadelphia team that finished 11 games back in the standings but carries a 6-4 stretch and a two-game winning streak into TD Garden. Jayson Tatum against Joel Embiid in a rivalry postseason game forces the question of whether Embiid&#x27;s presence closes that 11-game regular-season gap or confirms it.</p>
   <div class="breakdown"><div class="breakdown-item"><span class="breakdown-label">Stakes</span><span class="breakdown-value">29</span><span class="breakdown-max">/30</span></div><div class="breakdown-item"><span class="breakdown-label">Balance</span><span class="breakdown-value">14</span><span class="breakdown-max">/20</span></div><div class="breakdown-item"><span class="breakdown-label">Momentum</span><span class="breakdown-value">10</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Stars</span><span class="breakdown-value">15</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Narrative</span><span class="breakdown-value">12</span><span class="breakdown-max">/20</span></div></div>
 </div>
 
@@ -454,7 +531,7 @@
     <div class="score-badge">73/100</div>
   </div>
   <div class="flags"><span class="flag">superstar_matchup</span><span class="flag">seed_pressure</span></div>
-  <p class="explanation">Oklahoma City posted the league&#x27;s best record at 64-18 but enters on a two-game losing streak, hosting an eighth-seeded Phoenix squad that went 5-5 in its last 10. Shai Gilgeous-Alexander against Kevin Durant decides whether the Thunder&#x27;s slip is a blip or a crack the Suns can exploit.</p>
+  <p class="explanation">Oklahoma City posted the league&#x27;s best record at 64-18 but enters on a two-game losing streak, opening a postseason series against a Phoenix team that went 5-5 in its last 10 and scraped into the #8 seed. Shai Gilgeous-Alexander against Kevin Durant gives the Suns exactly the kind of individual equalizer a 19-game deficit in the standings demands.</p>
   <div class="breakdown"><div class="breakdown-item"><span class="breakdown-label">Stakes</span><span class="breakdown-value">29</span><span class="breakdown-max">/30</span></div><div class="breakdown-item"><span class="breakdown-label">Balance</span><span class="breakdown-value">14</span><span class="breakdown-max">/20</span></div><div class="breakdown-item"><span class="breakdown-label">Momentum</span><span class="breakdown-value">8</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Stars</span><span class="breakdown-value">15</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Narrative</span><span class="breakdown-value">7</span><span class="breakdown-max">/20</span></div></div>
 </div>
 
@@ -468,7 +545,7 @@
     <div class="score-badge">70/100</div>
   </div>
   
-  <p class="explanation">Los Angeles holds the #4 seed at 53-29 and a three-game winning streak; Houston trails by one game in the standings but owns the sharper recent form at 9-1 in their last 10. LeBron James against a Rockets team playing at that clip forces the Lakers to match an intensity their seed alone won&#x27;t guarantee.</p>
+  <p class="explanation">The #4 Lakers and #5 Rockets finished one game apart in the standings — Los Angeles at 53-29, Houston at 52-30 — making this the tightest seed matchup in the West postseason. Houston went 9-1 in its last 10 to the Lakers&#x27; 7-3, a late-season surge that narrows what LeBron James&#x27;s home-court edge is actually worth against Jalen Green and a team playing at that pace.</p>
   <div class="breakdown"><div class="breakdown-item"><span class="breakdown-label">Stakes</span><span class="breakdown-value">29</span><span class="breakdown-max">/30</span></div><div class="breakdown-item"><span class="breakdown-label">Balance</span><span class="breakdown-value">18</span><span class="breakdown-max">/20</span></div><div class="breakdown-item"><span class="breakdown-label">Momentum</span><span class="breakdown-value">11</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Stars</span><span class="breakdown-value">12</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Narrative</span><span class="breakdown-value">0</span><span class="breakdown-max">/20</span></div></div>
 </div>
 
@@ -476,23 +553,25 @@
   <div class="event-top">
     <div class="rank">#5</div>
     <div class="event-identity">
-      <div class="matchup">Toronto Raptors @ Cleveland Cavaliers</div>
-      <div class="event-detail"><span class="sport-tag">NBA</span><span>TONIGHT</span><span class="detail-sep">·</span><span>Rocket Arena</span></div>
+      <div class="matchup">New York Knicks @ Atlanta Hawks</div>
+      <div class="event-detail"><span class="sport-tag">NBA</span><span>Thursday, April 23</span><span class="detail-sep">·</span><span>State Farm Arena</span></div>
     </div>
     <div class="score-badge">64/100</div>
   </div>
-  
-  <p class="explanation">Cleveland holds home court as the #4 seed with a 52-30 record against a Toronto team six games back in the standings. Donovan Mitchell against Scottie Barnes is the individual contrast — Mitchell on a roster built for postseason depth, Barnes carrying a heavier burden for a thinner Raptors team.</p>
-  <div class="breakdown"><div class="breakdown-item"><span class="breakdown-label">Stakes</span><span class="breakdown-value">29</span><span class="breakdown-max">/30</span></div><div class="breakdown-item"><span class="breakdown-label">Balance</span><span class="breakdown-value">14</span><span class="breakdown-max">/20</span></div><div class="breakdown-item"><span class="breakdown-label">Momentum</span><span class="breakdown-value">9</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Stars</span><span class="breakdown-value">12</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Narrative</span><span class="breakdown-value">0</span><span class="breakdown-max">/20</span></div></div>
+  <div class="flags"><span class="flag">seed_pressure</span></div>
+  <p class="explanation">The #3 Knicks at 53-29 travel to a #6 Atlanta team that matched them at 6-4 over the last 10, with both sides entering on a loss. Jalen Brunson against Trae Young in a postseason game where neither team holds recent-form advantage leaves seeding — and the seven-game gap in the standings — as New York&#x27;s only structural edge.</p>
+  <div class="breakdown"><div class="breakdown-item"><span class="breakdown-label">Stakes</span><span class="breakdown-value">29</span><span class="breakdown-max">/30</span></div><div class="breakdown-item"><span class="breakdown-label">Balance</span><span class="breakdown-value">14</span><span class="breakdown-max">/20</span></div><div class="breakdown-item"><span class="breakdown-label">Momentum</span><span class="breakdown-value">8</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Stars</span><span class="breakdown-value">10</span><span class="breakdown-max">/15</span></div><div class="breakdown-item"><span class="breakdown-label">Narrative</span><span class="breakdown-value">3</span><span class="breakdown-max">/20</span></div></div>
 </div>
 
     </main>
 
     <footer class="footer">
-      Generated April 20, 2026&nbsp;&nbsp;·&nbsp;&nbsp;Scores reflect narrative setup going into each game, not predicted game quality.
+      Generated April 21, 2026&nbsp;&nbsp;·&nbsp;&nbsp;Scores reflect narrative setup going into each game, not predicted game quality.
     </footer>
 
-    <details class="diag-section"><summary class="diag-summary">Diagnostics &middot; 10 candidates</summary><div class="diag-body"><div class="diag-filters"><button class="diag-filter-btn active" onclick="diagFilter(this,'all')">All</button><button class="diag-filter-btn" onclick="diagFilter(this,'NBA')">NBA</button><button class="diag-filter-btn" onclick="diagFilter(this,'MLB')">MLB</button></div><div class="diag-tbl-wrap"><table class="diag-tbl"><thead><tr><th>RK</th><th>SPT</th><th>Matchup</th><th>Tot</th><th>Stk</th><th>Bal</th><th>Mom</th><th>Str</th><th>Nar</th><th>Flags / Pitchers</th></tr></thead><tbody><tr class="diag-row diag-above" data-sport="NBA"><td class="diag-rk">#1</td><td class="diag-sport">NBA</td><td class="diag-matchup">Minnesota Timberwolves @ Denver Nuggets</td><td class="dn">83</td><td class="dn">29</td><td class="dn">16</td><td class="dn">12</td><td class="dn">15</td><td class="dn">11</td><td class="diag-flags-cell"><span class="diag-flag">superstar_matchup</span> <span class="diag-flag">momentum_mismatch</span> <span class="diag-flag">seed_pressure</span></td></tr><tr class="diag-row diag-above" data-sport="NBA"><td class="diag-rk">#2</td><td class="diag-sport">NBA</td><td class="diag-matchup">Philadelphia 76ers @ Boston Celtics</td><td class="dn">80</td><td class="dn">29</td><td class="dn">14</td><td class="dn">10</td><td class="dn">15</td><td class="dn">12</td><td class="diag-flags-cell"><span class="diag-flag">rivalry</span> <span class="diag-flag">superstar_matchup</span> <span class="diag-flag">seed_pressure</span></td></tr><tr class="diag-row diag-above" data-sport="NBA"><td class="diag-rk">#3</td><td class="diag-sport">NBA</td><td class="diag-matchup">Phoenix Suns @ Oklahoma City Thunder</td><td class="dn">73</td><td class="dn">29</td><td class="dn">14</td><td class="dn">8</td><td class="dn">15</td><td class="dn">7</td><td class="diag-flags-cell"><span class="diag-flag">superstar_matchup</span> <span class="diag-flag">seed_pressure</span></td></tr><tr class="diag-row diag-above" data-sport="NBA"><td class="diag-rk">#4</td><td class="diag-sport">NBA</td><td class="diag-matchup">Houston Rockets @ Los Angeles Lakers</td><td class="dn">70</td><td class="dn">29</td><td class="dn">18</td><td class="dn">11</td><td class="dn">12</td><td class="dn">0</td><td class="diag-flags-cell"></td></tr><tr class="diag-row diag-above" data-sport="NBA"><td class="diag-rk">#5</td><td class="diag-sport">NBA</td><td class="diag-matchup">Toronto Raptors @ Cleveland Cavaliers</td><td class="dn">64</td><td class="dn">29</td><td class="dn">14</td><td class="dn">9</td><td class="dn">12</td><td class="dn">0</td><td class="diag-flags-cell"></td></tr><tr class="diag-cut-row"><td colspan="10">&#9660; below top 5</td></tr><tr class="diag-row diag-below" data-sport="NBA"><td class="diag-rk">#6</td><td class="diag-sport">NBA</td><td class="diag-matchup">Atlanta Hawks @ New York Knicks</td><td class="dn">64<span class="diag-near">&#9650;0.0</span></td><td class="dn">29</td><td class="dn">14</td><td class="dn">8</td><td class="dn">10</td><td class="dn">3</td><td class="diag-flags-cell"><span class="diag-flag">seed_pressure</span></td></tr><tr class="diag-row diag-below" data-sport="NBA"><td class="diag-rk">#7</td><td class="diag-sport">NBA</td><td class="diag-matchup">Orlando Magic @ Detroit Pistons</td><td class="dn">63<span class="diag-near">&#9650;1.0</span></td><td class="dn">29</td><td class="dn">14</td><td class="dn">11</td><td class="dn">6</td><td class="dn">3</td><td class="diag-flags-cell"><span class="diag-flag">seed_pressure</span></td></tr><tr class="diag-row diag-below" data-sport="NBA"><td class="diag-rk">#8</td><td class="diag-sport">NBA</td><td class="diag-matchup">Portland Trail Blazers @ San Antonio Spurs</td><td class="dn">59</td><td class="dn">29</td><td class="dn">10</td><td class="dn">11</td><td class="dn">6</td><td class="dn">3</td><td class="diag-flags-cell"><span class="diag-flag">seed_pressure</span></td></tr><tr class="diag-row diag-below" data-sport="MLB"><td class="diag-rk">#9</td><td class="diag-sport">MLB</td><td class="diag-matchup">Cubs @ Dodgers</td><td class="dn">48</td><td class="dn">13</td><td class="dn">14</td><td class="dn">9</td><td class="dn">12</td><td class="dn">0</td><td class="diag-flags-cell"></td></tr><tr class="diag-row diag-below" data-sport="MLB"><td class="diag-rk">#10</td><td class="diag-sport">MLB</td><td class="diag-matchup">Dodgers @ Giants</td><td class="dn">47</td><td class="dn">13</td><td class="dn">4</td><td class="dn">7</td><td class="dn">12</td><td class="dn">11</td><td class="diag-flags-cell"><span class="diag-flag">rivalry</span> <span class="diag-flag">mq-starter</span> <span class="diag-pitchers">TBD vs Logan Webb</span></td></tr></tbody></table></div><div class="diag-leaders"><div class="diag-lbl">Highest by sport</div><div class="diag-leader"><span class="diag-leader-spt">MLB</span><span class="diag-leader-game">Cubs @ Dodgers</span><span class="diag-leader-score">48/100</span><span class="diag-out">#9 · outside top 5</span></div><div class="diag-leader"><span class="diag-leader-spt">NBA</span><span class="diag-leader-game">Minnesota Timberwolves @ Denver Nuggets</span><span class="diag-leader-score">83/100</span><span class="diag-in">#1 · in top 5</span></div></div><div class="diag-mlb"><div class="diag-lbl">MLB absent from top 5</div><div class="diag-mlb-row"><span class="diag-mlb-lbl">Top MLB</span>#9 · Cubs @ Dodgers · 48/100</div><div class="diag-mlb-row"><span class="diag-mlb-lbl">Gap from #5</span>+15.8 pts · well outside — thin MLB week</div><div class="diag-mlb-row"><span class="diag-mlb-lbl">Stakes detail</span>both in race (strong) ×0.60</div><div class="diag-mlb-row"><span class="diag-mlb-lbl">Star detail</span>Shohei Ohtani vs Dansby Swanson</div><div class="diag-mlb-row"><span class="diag-mlb-lbl">Avg MLB stakes</span>13.2 / 30 (2 events)</div><div class="diag-mlb-row"><span class="diag-mlb-lbl">Avg top-5 NBA stakes</span>29.0 / 30</div></div></div><script>function diagFilter(btn,sport){document.querySelectorAll(".diag-filter-btn").forEach(function(b){b.classList.remove("active");});btn.classList.add("active");document.querySelectorAll(".diag-row").forEach(function(r){r.style.display=(sport==="all"||r.dataset.sport===sport)?"":"none";});var sep=document.querySelector(".diag-cut-row");if(sep){sep.style.display=sport==="all"?"":"none";}}</script></details>
+    <details class="diag-section"><summary class="diag-summary">Diagnostics &middot; 10 candidates</summary><div class="diag-body"><div class="diag-filters"><button class="diag-filter-btn active" onclick="diagFilter(this,'all')">All</button><button class="diag-filter-btn" onclick="diagFilter(this,'NBA')">NBA</button><button class="diag-filter-btn" onclick="diagFilter(this,'MLB')">MLB</button></div><div class="diag-tbl-wrap"><table class="diag-tbl"><thead><tr><th>RK</th><th>SPT</th><th>Matchup</th><th>Tot</th><th>Stk</th><th>Bal</th><th>Mom</th><th>Str</th><th>Nar</th><th>Flags / Pitchers</th></tr></thead><tbody><tr class="diag-row diag-above" data-sport="NBA"><td class="diag-rk">#1</td><td class="diag-sport">NBA</td><td class="diag-matchup">Denver Nuggets @ Minnesota Timberwolves</td><td class="dn">83</td><td class="dn">29</td><td class="dn">16</td><td class="dn">12</td><td class="dn">15</td><td class="dn">11</td><td class="diag-flags-cell"><span class="diag-flag">superstar_matchup</span> <span class="diag-flag">momentum_mismatch</span> <span class="diag-flag">seed_pressure</span></td></tr><tr class="diag-row diag-above" data-sport="NBA"><td class="diag-rk">#2</td><td class="diag-sport">NBA</td><td class="diag-matchup">Philadelphia 76ers @ Boston Celtics</td><td class="dn">80</td><td class="dn">29</td><td class="dn">14</td><td class="dn">10</td><td class="dn">15</td><td class="dn">12</td><td class="diag-flags-cell"><span class="diag-flag">rivalry</span> <span class="diag-flag">superstar_matchup</span> <span class="diag-flag">seed_pressure</span></td></tr><tr class="diag-row diag-above" data-sport="NBA"><td class="diag-rk">#3</td><td class="diag-sport">NBA</td><td class="diag-matchup">Phoenix Suns @ Oklahoma City Thunder</td><td class="dn">73</td><td class="dn">29</td><td class="dn">14</td><td class="dn">8</td><td class="dn">15</td><td class="dn">7</td><td class="diag-flags-cell"><span class="diag-flag">superstar_matchup</span> <span class="diag-flag">seed_pressure</span></td></tr><tr class="diag-row diag-above" data-sport="NBA"><td class="diag-rk">#4</td><td class="diag-sport">NBA</td><td class="diag-matchup">Houston Rockets @ Los Angeles Lakers</td><td class="dn">70</td><td class="dn">29</td><td class="dn">18</td><td class="dn">11</td><td class="dn">12</td><td class="dn">0</td><td class="diag-flags-cell"></td></tr><tr class="diag-row diag-above" data-sport="NBA"><td class="diag-rk">#5</td><td class="diag-sport">NBA</td><td class="diag-matchup">New York Knicks @ Atlanta Hawks</td><td class="dn">64</td><td class="dn">29</td><td class="dn">14</td><td class="dn">8</td><td class="dn">10</td><td class="dn">3</td><td class="diag-flags-cell"><span class="diag-flag">seed_pressure</span></td></tr><tr class="diag-cut-row"><td colspan="10">&#9660; below top 5</td></tr><tr class="diag-row diag-below" data-sport="NBA"><td class="diag-rk">#6</td><td class="diag-sport">NBA</td><td class="diag-matchup">Cleveland Cavaliers @ Toronto Raptors</td><td class="dn">64<span class="diag-near">&#9650;0.0</span></td><td class="dn">29</td><td class="dn">14</td><td class="dn">9</td><td class="dn">12</td><td class="dn">0</td><td class="diag-flags-cell"></td></tr><tr class="diag-row diag-below" data-sport="NBA"><td class="diag-rk">#7</td><td class="diag-sport">NBA</td><td class="diag-matchup">Orlando Magic @ Detroit Pistons</td><td class="dn">63<span class="diag-near">&#9650;1.0</span></td><td class="dn">29</td><td class="dn">14</td><td class="dn">11</td><td class="dn">6</td><td class="dn">3</td><td class="diag-flags-cell"><span class="diag-flag">seed_pressure</span></td></tr><tr class="diag-row diag-below" data-sport="NBA"><td class="diag-rk">#8</td><td class="diag-sport">NBA</td><td class="diag-matchup">Portland Trail Blazers @ San Antonio Spurs</td><td class="dn">59</td><td class="dn">29</td><td class="dn">10</td><td class="dn">11</td><td class="dn">6</td><td class="dn">3</td><td class="diag-flags-cell"><span class="diag-flag">seed_pressure</span></td></tr><tr class="diag-row diag-below" data-sport="MLB"><td class="diag-rk">#9</td><td class="diag-sport">MLB</td><td class="diag-matchup">Cubs @ Dodgers</td><td class="dn">50</td><td class="dn">13</td><td class="dn">16</td><td class="dn">9</td><td class="dn">12</td><td class="dn">0</td><td class="diag-flags-cell"></td></tr><tr class="diag-row diag-below" data-sport="MLB"><td class="diag-rk">#10</td><td class="diag-sport">MLB</td><td class="diag-matchup">Dodgers @ Giants</td><td class="dn">48</td><td class="dn">13</td><td class="dn">4</td><td class="dn">7</td><td class="dn">12</td><td class="dn">12</td><td class="diag-flags-cell"><span class="diag-flag">rivalry</span> <span class="diag-flag">ace-duel</span> <span class="diag-pitchers">Tyler Glasnow vs Logan Webb</span></td></tr></tbody></table></div><div class="diag-leaders"><div class="diag-lbl">Highest by sport</div><div class="diag-leader"><span class="diag-leader-spt">MLB</span><span class="diag-leader-game">Cubs @ Dodgers</span><span class="diag-leader-score">50/100</span><span class="diag-out">#9 · outside top 5</span></div><div class="diag-leader"><span class="diag-leader-spt">NBA</span><span class="diag-leader-game">Denver Nuggets @ Minnesota Timberwolves</span><span class="diag-leader-score">83/100</span><span class="diag-in">#1 · in top 5</span></div></div><div class="diag-mlb"><div class="diag-lbl">MLB absent from top 5</div><div class="diag-mlb-row"><span class="diag-mlb-lbl">Top MLB</span>#9 · Cubs @ Dodgers · 50/100</div><div class="diag-mlb-row"><span class="diag-mlb-lbl">Gap from #5</span>+13.8 pts · well outside — thin MLB week</div><div class="diag-mlb-row"><span class="diag-mlb-lbl">Stakes detail</span>both in race (strong) ×0.60</div><div class="diag-mlb-row"><span class="diag-mlb-lbl">Star detail</span>Shohei Ohtani vs Dansby Swanson</div><div class="diag-mlb-row"><span class="diag-mlb-lbl">Avg MLB stakes</span>13.2 / 30 (2 events)</div><div class="diag-mlb-row"><span class="diag-mlb-lbl">Avg top-5 NBA stakes</span>29.0 / 30</div></div></div><script>function diagFilter(btn,sport){document.querySelectorAll(".diag-filter-btn").forEach(function(b){b.classList.remove("active");});btn.classList.add("active");document.querySelectorAll(".diag-row").forEach(function(r){r.style.display=(sport==="all"||r.dataset.sport===sport)?"":"none";});var sep=document.querySelector(".diag-cut-row");if(sep){sep.style.display=sport==="all"?"":"none";}}</script></details>
+
+    
 
   </div>
 </body>
