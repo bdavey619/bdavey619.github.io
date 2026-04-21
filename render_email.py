@@ -100,16 +100,38 @@ def build_hitter_rows(hitters):
     return "\n".join(rows)
 
 
-def _build_what_to_watch_row(text):
+def _strip_markdown(text):
+    """Remove bold/italic markdown markers that render as literal chars in email."""
+    import re
+    text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)  # **bold**
+    text = re.sub(r'\*(.+?)\*',     r'\1', text)  # *italic*
+    text = re.sub(r'__(.+?)__',     r'\1', text)  # __bold__
+    text = re.sub(r'_(.+?)_',       r'\1', text)  # _italic_
+    return text
+
+
+def _build_what_to_watch_block(text):
+    """Return a self-contained <table> block for the What to Watch section.
+    Returns empty string when no text — the {{what_to_watch_block}} placeholder
+    collapses cleanly without leaving stray markup.
+    """
     if not text:
         return ""
+    safe = _strip_markdown(text)
     return (
-        '<tr><td style="padding-top:6px;padding-bottom:4px;">'
-        '<p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,\'Helvetica Neue\',Arial,sans-serif;'
-        'font-size:13px;font-style:italic;color:#5a534c;line-height:1.5;'
-        'border-top:1px solid rgba(0,0,0,0.10);padding-top:8px;">'
-        '<strong style="font-style:normal;font-size:10px;text-transform:uppercase;letter-spacing:0.08em;color:#8a8278;">What to Watch &middot;</strong> '
-        f'{text}</p></td></tr>'
+        '<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"'
+        ' style="border-top:1px solid rgba(47,36,29,0.20);margin-top:12px;">'
+        '<tr>'
+        '<td style="padding-top:10px;">'
+        '<p style="margin:0 0 4px;font-family:-apple-system,BlinkMacSystemFont,\'Helvetica Neue\',Arial,sans-serif;'
+        'font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#5a534c;font-weight:600;">'
+        'What to Watch</p>'
+        '<p style="margin:0;font-family:Georgia,\'Times New Roman\',serif;'
+        'font-size:13px;font-style:italic;color:#2f241d;line-height:1.6;">'
+        f'{safe}</p>'
+        '</td>'
+        '</tr>'
+        '</table>'
     )
 
 
@@ -170,26 +192,17 @@ def main():
         next_insight_row = ""
         next_insight_pb = "20px"
 
-    # Insight — prefer AI narrative when available
+    # State of Play — prefer AI narrative when available, fall back to deterministic insight
     narrative = brief.get("narrative", {})
     insight   = brief.get("insight", {})
     if narrative.get("top_frame"):
-        insight_headline = narrative["top_frame"]
-        insight_detail   = narrative.get("what_this_means", "")
-        state = narrative.get("story_state", {})
-        if state:
-            insight_why = (
-                f"trend: {state.get('trend','')} · "
-                f"driver: {state.get('driver','')} · "
-                f"confidence: {state.get('confidence','')} · "
-                f"pressure: {state.get('pressure','')}"
-            )
-        else:
-            insight_why = insight.get("why", "")
+        insight_headline    = _strip_markdown(narrative["top_frame"])
+        insight_detail      = _strip_markdown(narrative.get("what_this_means", ""))
+        what_to_watch_text  = narrative.get("what_to_watch", "")
     else:
-        insight_headline = insight.get("headline", "")
-        insight_detail   = insight.get("detail", "")
-        insight_why      = insight.get("why", "")
+        insight_headline    = insight.get("headline", "")
+        insight_detail      = insight.get("detail", "")
+        what_to_watch_text  = ""
 
     # Game date label prepended to context line for clarity (brief date ≠ game date on off days)
     game_date_short = fmt_game_date_short(lg["date"])
@@ -209,10 +222,9 @@ def main():
         "key_hitters_rows":  key_hitters_rows,
         "pitcher_name":      pitcher.get("name", ""),
         "pitcher_line":      pitcher.get("line", ""),
-        "insight_headline":  insight_headline,
-        "insight_detail":    insight_detail,
-        "insight_why":       insight_why,
-        "what_to_watch_row": _build_what_to_watch_row(narrative.get("what_to_watch", "")),
+        "insight_headline":    insight_headline,
+        "insight_detail":      insight_detail,
+        "what_to_watch_block": _build_what_to_watch_block(what_to_watch_text),
         "next_opponent":     f"{ng_home_away} {ng.get('opponent', '')}",
         "next_time":         ng.get("time_local", ""),
         "next_probables":    next_probables,
