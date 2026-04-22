@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-04-21T17:28:13+00:00",
+  "generated_at": "2026-04-22T12:01:43+00:00",
   "season": 2026,
   "team": {
-    "record": "13-9",
-    "streak": "W3",
-    "run_diff": "+28",
-    "last10": "5-5",
+    "record": "14-9",
+    "streak": "W4",
+    "run_diff": "+32",
+    "last10": "6-4",
     "division_rank": 1,
     "games_back": "-",
-    "avg": ".218",
-    "ops": ".733",
-    "era": "3.40"
+    "avg": ".222",
+    "ops": ".737",
+    "era": "3.25"
   },
   "last_game": {
     "status": "final",
-    "gamePk": 823556,
-    "date": "2026-04-19",
-    "opponent": "KC",
-    "home": true,
+    "gamePk": 824773,
+    "date": "2026-04-21",
+    "opponent": "BOS",
+    "home": false,
     "result": "W",
     "score": {
-      "team": 7,
+      "team": 4,
       "opp": 0
     },
     "linescore": [
       [
-        3,
+        0,
         1,
         0,
         0,
-        3,
         0,
+        2,
         0,
-        0,
-        ""
+        1,
+        0
       ],
       [
         0,
@@ -48,196 +48,223 @@
       ]
     ],
     "decisions": {
-      "win": "Ryan Weathers",
+      "win": "Luis Gil",
       "win_role": "SP",
       "win_team": "team",
-      "loss": "Cole Ragans",
+      "loss": "Connelly Early",
       "loss_role": "SP",
       "loss_team": "opp"
     },
     "key_hitters": [
       {
-        "name": "Trent Grisham",
+        "name": "Giancarlo Stanton",
         "line": "2-4, 1 HR, 3 RBI",
-        "pos": "CF",
-        "season_avg": ".167"
+        "pos": "DH",
+        "season_avg": ".253"
       },
       {
-        "name": "Aaron Judge",
-        "line": "1-5, 1 HR, 2 RBI",
-        "pos": "RF",
-        "season_avg": ".232"
+        "name": "Randal Grichuk",
+        "line": "2-4, 1 RBI",
+        "pos": "LF",
+        "season_avg": ".167"
       }
     ],
     "key_pitcher": {
-      "name": "Ryan Weathers",
-      "line": "7.1 IP, 5 H, 0 ER, 8 K",
+      "name": "Luis Gil",
+      "line": "6.1 IP, 2 H, 0 ER, 2 K",
       "role": "SP",
-      "season_era": "3.18"
+      "season_era": "4.11"
     },
-    "context_line": "Home \u00b7 Yankee Stadium \u00b7 Day game",
-    "highlights_url": "https://www.youtube.com/results?search_query=KC+vs+NYY+highlights+April+19+2026+MLB",
-    "game_note": "Grisham's home run was part of a 3-run first that put the Yankees in front for good.",
+    "context_line": "Away \u00b7 Fenway Park \u00b7 Night game",
+    "highlights_url": "https://www.youtube.com/results?search_query=NYY+vs+BOS+highlights+April+21+2026+MLB",
+    "game_note": "Stanton's home run powered a comfortable Yankees win.",
     "full_box": {
       "batting": [
         {
-          "name": "Ben Rice",
-          "pos": "DH",
-          "avg": ".338",
-          "ab": 3,
-          "r": 2,
-          "h": 1,
-          "rbi": 1,
-          "bb": 2,
-          "so": 1
-        },
-        {
-          "name": "Aaron Judge",
-          "pos": "RF",
-          "avg": ".232",
-          "ab": 5,
-          "r": 1,
-          "h": 1,
-          "rbi": 2,
-          "bb": 0,
-          "so": 3
-        },
-        {
-          "name": "Cody Bellinger",
-          "pos": "LF",
-          "avg": ".276",
-          "ab": 3,
-          "r": 2,
-          "h": 1,
-          "rbi": 0,
-          "bb": 2,
-          "so": 0
-        },
-        {
-          "name": "Paul Goldschmidt",
-          "pos": "1B",
-          "avg": ".150",
-          "ab": 4,
-          "r": 1,
-          "h": 0,
-          "rbi": 0,
-          "bb": 1,
-          "so": 1
-        },
-        {
-          "name": "Trent Grisham",
-          "pos": "CF",
-          "avg": ".167",
-          "ab": 4,
-          "r": 1,
-          "h": 2,
-          "rbi": 3,
-          "bb": 1,
-          "so": 1
-        },
-        {
           "name": "Amed Rosario",
-          "pos": "2B",
-          "avg": ".267",
+          "pos": "3B",
+          "avg": ".250",
           "ab": 3,
-          "r": 0,
-          "h": 1,
+          "r": 1,
+          "h": 0,
           "rbi": 0,
           "bb": 1,
-          "so": 1
-        },
-        {
-          "name": "Austin Wells",
-          "pos": "C",
-          "avg": ".180",
-          "ab": 1,
-          "r": 0,
-          "h": 0,
-          "rbi": 1,
-          "bb": 2,
-          "so": 0
-        },
-        {
-          "name": "Jos\u00e9 Caballero",
-          "pos": "SS",
-          "avg": ".233",
-          "ab": 4,
-          "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
           "so": 0
         },
         {
           "name": "Ryan McMahon",
           "pos": "3B",
-          "avg": ".130",
-          "ab": 3,
+          "avg": ".128",
+          "ab": 1,
           "r": 0,
           "h": 0,
           "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Aaron Judge",
+          "pos": "RF",
+          "avg": ".235",
+          "ab": 3,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 2,
+          "so": 0
+        },
+        {
+          "name": "Ben Rice",
+          "pos": "1B",
+          "avg": ".319",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 4
+        },
+        {
+          "name": "Giancarlo Stanton",
+          "pos": "DH",
+          "avg": ".253",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 3,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Cody Bellinger",
+          "pos": "LF",
+          "avg": ".278",
+          "ab": 3,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
           "bb": 1,
+          "so": 0
+        },
+        {
+          "name": "Randal Grichuk",
+          "pos": "LF",
+          "avg": ".167",
+          "ab": 4,
+          "r": 0,
+          "h": 2,
+          "rbi": 1,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Jazz Chisholm Jr.",
+          "pos": "2B",
+          "avg": ".182",
+          "ab": 4,
+          "r": 0,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Jos\u00e9 Caballero",
+          "pos": "SS",
+          "avg": ".234",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
           "so": 2
+        },
+        {
+          "name": "Austin Wells",
+          "pos": "C",
+          "avg": ".185",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
         }
       ],
       "pitching": [
         {
-          "name": "Ryan Weathers",
-          "ip": "7.1",
-          "h": 5,
+          "name": "Luis Gil",
+          "ip": "6.1",
+          "h": 2,
           "er": 0,
-          "k": 8,
-          "bb": 1
+          "k": 2,
+          "bb": 3
         },
         {
-          "name": "Angel Chivilli",
-          "ip": "1.2",
+          "name": "Brent Headrick",
+          "ip": "0.2",
           "h": 1,
           "er": 0,
           "k": 1,
-          "bb": 1
+          "bb": 0
+        },
+        {
+          "name": "Tim Hill",
+          "ip": "1.0",
+          "h": 0,
+          "er": 0,
+          "k": 0,
+          "bb": 0
+        },
+        {
+          "name": "David Bednar",
+          "ip": "1.0",
+          "h": 1,
+          "er": 0,
+          "k": 1,
+          "bb": 0
         }
       ]
     }
   },
   "next_game": {
-    "gamePk": 824773,
-    "date": "2026-04-21",
+    "gamePk": 824774,
+    "date": "2026-04-22",
     "opponent": "BOS",
     "home": false,
     "time_local": "6:45 PM ET",
     "probable": {
-      "team": "Luis Gil",
-      "opp": "Connelly Early"
+      "team": "Max Fried",
+      "opp": "Ranger Suarez"
     },
-    "insight": "New York leads the AL East on a 3-game win streak \u2014 tonight is a chance to extend it.",
+    "insight": "New York leads the AL East on a 4-game win streak \u2014 tonight is a chance to extend it.",
     "hook_type": "race_context"
   },
   "standings": [
     {
       "team": "Yankees",
-      "w": 13,
+      "w": 14,
       "l": 9,
       "gb": "-",
-      "last10": "5-5"
+      "last10": "6-4"
     },
     {
       "team": "Rays",
       "w": 12,
-      "l": 10,
-      "gb": "1.0",
-      "last10": "7-3"
+      "l": 11,
+      "gb": "2.0",
+      "last10": "6-4"
     },
     {
       "team": "Orioles",
       "w": 11,
-      "l": 12,
-      "gb": "2.5",
-      "last10": "5-5"
+      "l": 13,
+      "gb": "3.5",
+      "last10": "4-6"
     },
     {
       "team": "Blue Jays",
-      "w": 9,
+      "w": 10,
       "l": 13,
       "gb": "4.0",
       "last10": "4-6"
@@ -245,8 +272,8 @@
     {
       "team": "Red Sox",
       "w": 9,
-      "l": 13,
-      "gb": "4.0",
+      "l": 14,
+      "gb": "5.0",
       "last10": "5-5"
     }
   ],
@@ -254,42 +281,46 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "Yankees win their third straight behind Weathers and Grisham.",
+  "subhead": "Yankees win their fourth straight behind Gil and Stanton.",
   "insight": {
-    "headline": "A 3.40 ERA should be winning more games.",
-    "detail": "The staff has held up its end \u2014 3.40 ERA \u2014 but New York has gone just 5-5 over their last ten. A .733 OPS at the plate hasn't been enough to turn good pitching into wins. Still in first, but the inconsistency is real.",
-    "why": "staff carrying (3.40 ERA) \u00b7 OPS at .733 \u00b7 5\u20135 in the last ten"
+    "headline": "A 3.25 ERA should be winning more games.",
+    "detail": "The staff has held up its end \u2014 3.25 ERA \u2014 but New York has gone just 6-4 over their last ten. A .737 OPS at the plate hasn't been enough to turn good pitching into wins. Still in first, but the inconsistency is real.",
+    "why": "staff carrying (3.25 ERA) \u00b7 OPS at .737 \u00b7 6\u20134 in the last ten"
   },
   "narrative": {
-    "top_frame": "Yesterday's shutout rewarded the one thing this team can actually control right now: pitching depth and execution when it matters. Ryan Weathers carved up Kansas City, and that mattered far more than the opposition's weakness.",
-    "what_this_means": "What we learned is narrow but crucial. The Yankees' pitching staff (3.40 ERA) is doing its job, and when the lineup finds even modest contact\u2014Grisham and Judge each delivered power in a 7-hit performance\u2014the math works. The fragility isn't in that equation. The fragility is in the batting order's baseline competence: a .218 average doesn't win divisions on pitching alone, and a 5-5 last ten games confirms this isn't a team built to run away from anyone. Yesterday worked because both sides showed up. The risk is clear: if the offense regresses to form against better arms, even 3.40 ERA pitching gets overextended by August.",
-    "what_to_watch": "Luis Gil takes the ball tomorrow night at Yankee Stadium against Boston, and that's the real test. The Red Sox will probe whether yesterday's offensive display was a reprieve or a reset. Watch whether Judge and the middle of the order can carry the momentum into a division matchup where every pitch is sharper and every mistake costs more than it did against Kansas City.",
+    "top_frame": "Luis Gil handed Boston a shutout, but Stanton did something more important: he reminded the Yankees that four straight wins are built on something real, not luck. The trend has shifted from fragile to stabilizing, and that matters.",
+    "what_this_means": "Yesterday's fragility\u2014the sense that any loss would unravel the thread\u2014evaporated in a 4-0 victory that distributed the work: Gil's clean 6.1 innings, Stanton's power (2-for-4, homer, three RBIs), Grichuk's timely contact. The pitching staff's ERA now sits at 3.25, a meaningful compression from 3.40 yesterday, and the offense generated 10 hits despite striking out nine times. This is the equation the Yankees have been searching for: competent starting pitching plus opportunistic hitting. The W4 streak and 14-9 record place them atop the AL East, but the real signal is the composition of these wins\u2014they're not built on one dominant performance or mercy-rule margins. They're balanced.",
+    "what_to_watch": "Max Fried takes the ball tomorrow night at Fenway in another immediate test of whether this stabilization holds. The Red Sox are the specific opponent that matters least here; the test is whether the Yankees can string five consecutive wins with a different pitcher, against the same division rival that just got shut out. This is where fragility becomes resilience.",
     "story_state": {
-      "trend": "fragile",
+      "trend": "stabilizing",
       "driver": "balanced",
       "confidence": "medium",
-      "pressure": "high",
-      "record_w": 13,
+      "pressure": "building",
+      "record_w": 14,
       "record_l": 9,
-      "streak": "W3",
-      "last10_w": 5,
-      "era": 3.4,
-      "ops": 0.733,
+      "streak": "W4",
+      "last10_w": 6,
+      "era": 3.25,
+      "ops": 0.737,
       "gb": 0.0,
       "division_rank": 1,
       "last_result": "W",
-      "date": "2026-04-19",
+      "date": "2026-04-21",
       "game_emotion_level": "high"
     },
     "story_delta": {
       "has_prev": true,
-      "trend_changed": false,
-      "trend_direction": "unchanged",
+      "trend_changed": true,
+      "trend_direction": "improved",
       "conf_changed": false,
-      "pressure_changed": false,
+      "pressure_changed": true,
       "driver_changed": false,
       "signals": [
-        "won last game"
+        "trend improved: fragile \u2192 stabilizing",
+        "pressure decreased: high \u2192 building",
+        "won last game",
+        "win streak extended to W4",
+        "ERA improved: 3.40 \u2192 3.25"
       ]
     }
   }
