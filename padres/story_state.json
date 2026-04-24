@@ -3,15 +3,15 @@
   "driver": "pitching",
   "confidence": "high",
   "pressure": "building",
-  "record_w": 16,
+  "record_w": 17,
   "record_l": 8,
-  "streak": "L1",
+  "streak": "W1",
   "last10_w": 8,
-  "era": 3.43,
-  "ops": 0.669,
+  "era": 3.62,
+  "ops": 0.682,
   "gb": 0.0,
   "division_rank": 1,
-  "last_result": "L",
-  "date": "2026-04-22",
-  "game_emotion_level": "normal"
+  "last_result": "W",
+  "date": "2026-04-23",
+  "game_emotion_level": "extreme"
 }

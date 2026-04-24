@@ -1,89 +1,180 @@
 {
-  "generated_at": "2026-04-23T11:36:46+00:00",
+  "generated_at": "2026-04-24T11:38:48+00:00",
   "season": 2026,
   "team": {
-    "record": "16-8",
-    "streak": "L1",
-    "run_diff": "+13",
+    "record": "17-8",
+    "streak": "W1",
+    "run_diff": "+15",
     "last10": "8-2",
     "division_rank": 1,
     "games_back": "-",
-    "avg": ".229",
-    "ops": ".669",
-    "era": "3.43"
+    "avg": ".234",
+    "ops": ".682",
+    "era": "3.62"
   },
   "last_game": {
     "status": "final",
-    "gamePk": 824367,
-    "date": "2026-04-22",
+    "gamePk": 824368,
+    "date": "2026-04-23",
     "opponent": "COL",
     "home": false,
-    "result": "L",
+    "result": "W",
     "score": {
-      "team": 3,
+      "team": 10,
       "opp": 8
     },
     "linescore": [
       [
+        0,
+        2,
+        0,
+        1,
         1,
         0,
         0,
-        0,
-        0,
-        0,
         1,
-        0,
-        1
+        5
       ],
       [
-        0,
+        1,
         4,
         0,
         1,
         0,
         1,
         1,
-        1,
-        ""
+        0,
+        0
       ]
     ],
     "decisions": {
-      "win": "Tomoyuki Sugano",
-      "win_role": "SP",
-      "win_team": "opp",
-      "loss": "Walker Buehler",
-      "loss_role": "SP",
-      "loss_team": "team"
+      "win": "Ron Marinaccio",
+      "win_role": "RP",
+      "win_team": "team",
+      "loss": "Victor Vodnik",
+      "loss_role": "RP",
+      "loss_team": "opp",
+      "save": "Mason Miller",
+      "save_role": "RP",
+      "save_team": "team"
     },
     "key_hitters": [
       {
-        "name": "Luis Campusano",
-        "line": "3-4, 1 HR, 1 RBI",
-        "pos": "C",
-        "season_avg": ".333"
+        "name": "Ram\u00f3n Laureano",
+        "line": "3-6, 2 RBI",
+        "pos": "LF",
+        "season_avg": ".264"
       },
       {
         "name": "Xander Bogaerts",
-        "line": "2-4",
+        "line": "2-3, 1 HR, 2 RBI",
         "pos": "SS",
-        "season_avg": ".276"
+        "season_avg": ".289"
       }
     ],
     "key_pitcher": {
-      "name": "Walker Buehler",
-      "line": "2.2 IP, 8 H, 4 ER, 2 K",
+      "name": "Matt Waldron",
+      "line": "5.0 IP, 8 H, 6 ER, 3 K",
       "role": "SP",
-      "season_era": "5.75"
+      "season_era": "12.46"
     },
-    "context_line": "Away \u00b7 Coors Field \u00b7 Night game",
-    "highlights_url": "https://www.youtube.com/results?search_query=SD+vs+COL+highlights+April+22+2026+MLB",
-    "game_note": "COL's 4-run second proved to be the difference.",
+    "context_line": "Away \u00b7 Coors Field \u00b7 Day game",
+    "highlights_url": "https://www.youtube.com/results?search_query=SD+vs+COL+highlights+April+23+2026+MLB",
+    "game_note": "A 5-run ninth \u2014 highlighted by a Bogaerts home run \u2014 gave San Diego the cushion it needed.",
     "full_box": {
       "batting": [
         {
           "name": "Ram\u00f3n Laureano",
           "pos": "LF",
-          "avg": ".247",
+          "avg": ".264",
+          "ab": 6,
+          "r": 0,
+          "h": 3,
+          "rbi": 2,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Fernando Tatis Jr.",
+          "pos": "RF",
+          "avg": ".250",
+          "ab": 5,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 3
+        },
+        {
+          "name": "Jackson Merrill",
+          "pos": "CF",
+          "avg": ".211",
+          "ab": 3,
+          "r": 1,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "so": 3
+        },
+        {
+          "name": "Manny Machado",
+          "pos": "3B",
+          "avg": ".195",
+          "ab": 5,
+          "r": 2,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Xander Bogaerts",
+          "pos": "SS",
+          "avg": ".289",
+          "ab": 3,
+          "r": 3,
+          "h": 2,
+          "rbi": 2,
+          "bb": 2,
+          "so": 0
+        },
+        {
+          "name": "Miguel Andujar",
+          "pos": "DH",
+          "avg": ".316",
+          "ab": 5,
+          "r": 0,
+          "h": 2,
+          "rbi": 3,
+          "bb": 0,
+          "so": 2
+        },
+        {
+          "name": "Ty France",
+          "pos": "1B",
+          "avg": ".233",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Gavin Sheets",
+          "pos": "1B",
+          "avg": ".227",
+          "ab": 2,
+          "r": 1,
+          "h": 1,
+          "rbi": 3,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Freddy Fermin",
+          "pos": "C",
+          "avg": ".175",
           "ab": 4,
           "r": 1,
           "h": 0,
@@ -92,139 +183,62 @@
           "so": 2
         },
         {
-          "name": "Fernando Tatis Jr.",
-          "pos": "RF",
-          "avg": ".253",
-          "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 2
-        },
-        {
-          "name": "Jackson Merrill",
-          "pos": "CF",
-          "avg": ".217",
-          "ab": 3,
-          "r": 0,
-          "h": 1,
-          "rbi": 1,
-          "bb": 1,
-          "so": 0
-        },
-        {
-          "name": "Manny Machado",
-          "pos": "3B",
-          "avg": ".182",
-          "ab": 4,
-          "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Xander Bogaerts",
-          "pos": "SS",
-          "avg": ".276",
-          "ab": 4,
-          "r": 0,
-          "h": 2,
-          "rbi": 0,
-          "bb": 0,
-          "so": 0
-        },
-        {
-          "name": "Gavin Sheets",
-          "pos": "DH",
-          "avg": ".219",
-          "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Nick Castellanos",
-          "pos": "1B",
-          "avg": ".146",
-          "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Luis Campusano",
-          "pos": "C",
-          "avg": ".333",
-          "ab": 4,
-          "r": 2,
-          "h": 3,
-          "rbi": 1,
-          "bb": 0,
-          "so": 0
-        },
-        {
           "name": "Jake Cronenworth",
           "pos": "2B",
-          "avg": ".149",
-          "ab": 3,
-          "r": 0,
-          "h": 0,
-          "rbi": 1,
+          "avg": ".167",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 0,
           "bb": 1,
-          "so": 0
+          "so": 1
         }
       ],
       "pitching": [
         {
-          "name": "Walker Buehler",
-          "ip": "2.2",
+          "name": "Matt Waldron",
+          "ip": "5.0",
           "h": 8,
-          "er": 4,
-          "k": 2,
+          "er": 6,
+          "k": 3,
           "bb": 3
         },
         {
-          "name": "Kyle Hart",
-          "ip": "2.1",
-          "h": 2,
+          "name": "Adrian Morejon",
+          "ip": "1.0",
+          "h": 1,
+          "er": 1,
+          "k": 1,
+          "bb": 0
+        },
+        {
+          "name": "Ron Marinaccio",
+          "ip": "2.0",
+          "h": 4,
           "er": 1,
           "k": 0,
           "bb": 0
         },
         {
-          "name": "David Morgan",
-          "ip": "1.1",
-          "h": 4,
-          "er": 2,
-          "k": 3,
-          "bb": 1
-        },
-        {
-          "name": "Wandy Peralta",
-          "ip": "1.2",
+          "name": "Mason Miller",
+          "ip": "1.0",
           "h": 1,
-          "er": 1,
-          "k": 1,
+          "er": 0,
+          "k": 0,
           "bb": 0
         }
       ]
     }
   },
   "next_game": {
-    "gamePk": 824368,
-    "date": "2026-04-23",
-    "opponent": "COL",
+    "gamePk": 825093,
+    "date": "2026-04-25",
+    "opponent": "AZ",
     "home": false,
-    "time_local": "12:10 PM PT",
+    "time_local": "3:05 PM PT",
     "probable": {
-      "team": "Matt Waldron",
-      "opp": "Ryan Feltner"
+      "team": "Germ\u00e1n M\u00e1rquez",
+      "opp": "Zac Gallen"
     },
     "insight": "Padres have won 8 of their last ten \u2014 they carry that form into tonight's game.",
     "hook_type": "team_momentum"
@@ -232,37 +246,37 @@
   "standings": [
     {
       "team": "Padres",
-      "w": 16,
+      "w": 17,
       "l": 8,
       "gb": "-",
       "last10": "8-2"
     },
     {
       "team": "Dodgers",
-      "w": 16,
+      "w": 17,
       "l": 8,
       "gb": "-",
-      "last10": "5-5"
+      "last10": "6-4"
     },
     {
       "team": "D-backs",
       "w": 14,
-      "l": 10,
-      "gb": "2.0",
+      "l": 11,
+      "gb": "3.0",
       "last10": "6-4"
     },
     {
       "team": "Giants",
       "w": 11,
-      "l": 13,
-      "gb": "5.0",
+      "l": 14,
+      "gb": "6.0",
       "last10": "5-5"
     },
     {
       "team": "Rockies",
       "w": 10,
-      "l": 15,
-      "gb": "6.5",
+      "l": 16,
+      "gb": "7.5",
       "last10": "4-6"
     }
   ],
@@ -270,32 +284,32 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "San Diego falls to COL.",
+  "subhead": "San Diego stays hot \u2014 8-2 over the last ten, Bogaerts leading the way.",
   "insight": {
     "headline": "The pitching staff is carrying this run.",
-    "detail": "San Diego has won eight of their last ten despite a .669 OPS \u2014 the staff ERA of 3.43 has been doing the heavy lifting while the lineup finds its footing. Sitting in first place on a 3.43 ERA while the offense has been quiet means the pitching is carrying more than its share.",
-    "why": "staff carrying (3.43 ERA) \u00b7 quiet bats (.669 OPS) \u00b7 8\u20132 in the last ten"
+    "detail": "San Diego has won eight of their last ten despite a .682 OPS \u2014 the staff ERA of 3.62 has been doing the heavy lifting while the lineup finds its footing. Sitting in first place on a 3.62 ERA while the offense has been quiet means the pitching is carrying more than its share.",
+    "why": "staff carrying (3.62 ERA) \u00b7 quiet bats (.682 OPS) \u00b7 8\u20132 in the last ten"
   },
   "narrative": {
-    "top_frame": "The three-game win streak masked what Coors Field exposed yesterday: this pitching surge remains vulnerable to hard contact, and Walker Buehler is not yet part of the solution.",
-    "what_this_means": "The loss itself doesn't undo the Padres' 8-2 run over their last ten games or their division lead\u2014those remain real. But yesterday revealed a critical fragility in the narrative. Buehler lasted 2.2 innings and allowed four runs on eight hits, extending his season ERA to 5.75. This wasn't a close game decided by one bad pitch; Colorado's offense dismantled a pitcher the Padres are counting on to anchor a postseason rotation. Simultaneously, the team's collective ERA ticked upward to 3.43, a reminder that the pitching surge has been built on depth and consistency, not dominant arms. A .229 batting average and seven strikeouts mean the offense cannot be the insurance policy here. The Padres are winning games through quality starts and situational baseball. Yesterday neither showed up.",
-    "what_to_watch": "Watch Matt Waldron today against the same Colorado lineup. Waldron has been part of the pitching trend that's kept this team ahead\u2014he's been efficient and reliable. The matchup matters because it will tell us whether yesterday was a one-start deterioration by Buehler or the beginning of a pattern where Denver's thin air and aggressive hitters expose the real limits of this rotation's health and depth.",
+    "top_frame": "Waldron's worst numbers could not stop a lineup that refuses to fold\u2014the Padres' margin for error is shrinking even as they keep winning, and that math has an expiration date.",
+    "what_this_means": "What yesterday showed is that this team can absorb disaster and still push across ten runs. Waldron's 12.46 ERA is not a rounding error; it is a structural problem in the rotation, one that says the pitching surge masking the offense's struggles (.234 average, .682 OPS) is thinner than the record suggests. The win is real and matters\u20148-2 in the last ten games keeps them atop the division\u2014but it was not won by pitching. It was won by Laureano and Bogaerts refusing to disappear, by a lineup that scraped together 13 hits and turned them into runs at Coors Field, a place where mediocre offenses go to get worse. The 3.62 ERA jumped from 3.43 in a single game because Waldron was vulnerable and needed bailing out. That is the opposite of sustainable.",
+    "what_to_watch": "The Marlins test arrives tomorrow with Germ\u00e1n M\u00e1rquez on the mound for Arizona\u2014a right-hander who will face a Padres lineup hitting .234 and relying on clutch moments to survive. The pitching staff is not yet healthy enough to win tight games consistently, and the offense is not yet evolved enough to win blowouts. Something in this formula must improve before the pressure of October starts squeezing harder than it is now.",
     "story_state": {
       "trend": "surging",
       "driver": "pitching",
       "confidence": "high",
       "pressure": "building",
-      "record_w": 16,
+      "record_w": 17,
       "record_l": 8,
-      "streak": "L1",
+      "streak": "W1",
       "last10_w": 8,
-      "era": 3.43,
-      "ops": 0.669,
+      "era": 3.62,
+      "ops": 0.682,
       "gb": 0.0,
       "division_rank": 1,
-      "last_result": "L",
-      "date": "2026-04-22",
-      "game_emotion_level": "normal"
+      "last_result": "W",
+      "date": "2026-04-23",
+      "game_emotion_level": "extreme"
     },
     "story_delta": {
       "has_prev": true,
@@ -305,9 +319,10 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "lost last game",
-        "streak flipped: W3 \u2192 L1",
-        "ERA worsened: 3.22 \u2192 3.43"
+        "won last game",
+        "streak flipped: L1 \u2192 W1",
+        "ERA worsened: 3.43 \u2192 3.62",
+        "OPS up: 0.669 \u2192 0.682"
       ]
     }
   }
