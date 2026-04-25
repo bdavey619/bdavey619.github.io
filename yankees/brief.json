@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-04-24T12:00:47+00:00",
+  "generated_at": "2026-04-25T11:41:58+00:00",
   "season": 2026,
   "team": {
-    "record": "16-9",
-    "streak": "W6",
-    "run_diff": "+37",
+    "record": "17-9",
+    "streak": "W7",
+    "run_diff": "+45",
     "last10": "8-2",
     "division_rank": 1,
     "games_back": "-",
-    "avg": ".223",
-    "ops": ".730",
-    "era": "3.07"
+    "avg": ".229",
+    "ops": ".749",
+    "era": "3.11"
   },
   "last_game": {
     "status": "final",
-    "gamePk": 824770,
-    "date": "2026-04-23",
-    "opponent": "BOS",
+    "gamePk": 824204,
+    "date": "2026-04-24",
+    "opponent": "HOU",
     "home": false,
     "result": "W",
     "score": {
-      "team": 4,
-      "opp": 2
+      "team": 12,
+      "opp": 4
     },
     "linescore": [
       [
-        0,
-        0,
-        0,
+        3,
+        1,
         0,
         1,
         0,
         3,
+        4,
         0,
         0
       ],
@@ -39,223 +39,217 @@
         0,
         1,
         0,
-        0,
         1,
         0,
         0,
+        2,
         0,
         0
       ]
     ],
     "decisions": {
-      "win": "Cam Schlittler",
+      "win": "Will Warren",
       "win_role": "SP",
       "win_team": "team",
-      "loss": "Danny Coulombe",
-      "loss_role": "RP",
-      "loss_team": "opp",
-      "save": "David Bednar",
-      "save_role": "RP",
-      "save_team": "team"
+      "loss": "Lance McCullers Jr.",
+      "loss_role": "SP",
+      "loss_team": "opp"
     },
     "key_hitters": [
       {
         "name": "Jazz Chisholm Jr.",
-        "line": "2-4, 1 HR, 1 RBI",
+        "line": "3-4, 1 HR, 4 RBI",
         "pos": "2B",
-        "season_avg": ".188"
+        "season_avg": ".213"
       },
       {
         "name": "Jos\u00e9 Caballero",
-        "line": "2-4",
+        "line": "2-4, 1 HR, 2 RBI",
         "pos": "SS",
-        "season_avg": ".250"
+        "season_avg": ".261"
       }
     ],
     "key_pitcher": {
-      "name": "Cam Schlittler",
-      "line": "8.0 IP, 4 H, 1 ER, 5 K",
+      "name": "Will Warren",
+      "line": "6.0 IP, 7 H, 2 ER, 6 K",
       "role": "SP",
-      "season_era": "1.77"
+      "season_era": "2.59"
     },
-    "context_line": "Away \u00b7 Fenway Park \u00b7 Night game",
-    "highlights_url": "https://www.youtube.com/results?search_query=NYY+vs+BOS+highlights+April+23+2026+MLB",
-    "game_note": "Chisholm Jr.'s home run was part of a 3-run seventh that put the Yankees in front for good.",
+    "context_line": "Away \u00b7 Daikin Park \u00b7 Night game",
+    "highlights_url": "https://www.youtube.com/results?search_query=NYY+vs+HOU+highlights+April+24+2026+MLB",
+    "game_note": "A 4-run seventh \u2014 highlighted by a Chisholm Jr. home run \u2014 gave New York the cushion it needed.",
     "full_box": {
       "batting": [
         {
-          "name": "Amed Rosario",
-          "pos": "3B",
-          "avg": ".269",
-          "ab": 3,
-          "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Cody Bellinger",
-          "pos": "LF",
-          "avg": ".271",
+          "name": "Trent Grisham",
+          "pos": "CF",
+          "avg": ".162",
           "ab": 2,
-          "r": 0,
-          "h": 1,
-          "rbi": 2,
-          "bb": 0,
+          "r": 1,
+          "h": 0,
+          "rbi": 1,
+          "bb": 2,
           "so": 0
         },
         {
           "name": "Aaron Judge",
           "pos": "RF",
-          "avg": ".242",
-          "ab": 4,
+          "avg": ".237",
+          "ab": 2,
           "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 3,
+          "so": 0
+        },
+        {
+          "name": "Cody Bellinger",
+          "pos": "RF",
+          "avg": ".267",
+          "ab": 5,
+          "r": 1,
           "h": 1,
-          "rbi": 1,
-          "bb": 1,
-          "so": 3
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
         },
         {
           "name": "Ben Rice",
           "pos": "1B",
-          "avg": ".311",
-          "ab": 4,
-          "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 1,
-          "so": 2
+          "avg": ".316",
+          "ab": 5,
+          "r": 3,
+          "h": 2,
+          "rbi": 2,
+          "bb": 0,
+          "so": 1
         },
         {
           "name": "Giancarlo Stanton",
           "pos": "DH",
-          "avg": ".253",
-          "ab": 4,
+          "avg": ".256",
+          "ab": 3,
           "r": 0,
-          "h": 0,
-          "rbi": 0,
+          "h": 1,
+          "rbi": 1,
           "bb": 0,
-          "so": 4
+          "so": 0
         },
         {
           "name": "Randal Grichuk",
-          "pos": "LF",
-          "avg": ".172",
-          "ab": 3,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 2
-        },
-        {
-          "name": "Ryan McMahon",
-          "pos": "3B",
-          "avg": ".143",
-          "ab": 1,
-          "r": 0,
+          "pos": "DH",
+          "avg": ".194",
+          "ab": 2,
+          "r": 2,
           "h": 1,
           "rbi": 0,
           "bb": 0,
           "so": 0
         },
         {
-          "name": "Trent Grisham",
-          "pos": "CF",
-          "avg": ".167",
+          "name": "Jazz Chisholm Jr.",
+          "pos": "2B",
+          "avg": ".213",
+          "ab": 4,
+          "r": 3,
+          "h": 3,
+          "rbi": 4,
+          "bb": 1,
+          "so": 1
+        },
+        {
+          "name": "J.C. Escarra",
+          "pos": "C",
+          "avg": ".208",
+          "ab": 5,
+          "r": 0,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Ryan McMahon",
+          "pos": "3B",
+          "avg": ".151",
           "ab": 4,
           "r": 1,
           "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "so": 2
-        },
-        {
-          "name": "Jazz Chisholm Jr.",
-          "pos": "2B",
-          "avg": ".188",
-          "ab": 4,
-          "r": 2,
-          "h": 2,
           "rbi": 1,
           "bb": 0,
-          "so": 1
+          "so": 0
         },
         {
           "name": "Jos\u00e9 Caballero",
           "pos": "SS",
-          "avg": ".250",
+          "avg": ".261",
           "ab": 4,
           "r": 1,
           "h": 2,
-          "rbi": 0,
+          "rbi": 2,
           "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Austin Wells",
-          "pos": "C",
-          "avg": ".164",
-          "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 1
+          "so": 0
         }
       ],
       "pitching": [
         {
-          "name": "Cam Schlittler",
-          "ip": "8.0",
-          "h": 4,
-          "er": 1,
-          "k": 5,
+          "name": "Will Warren",
+          "ip": "6.0",
+          "h": 7,
+          "er": 2,
+          "k": 6,
           "bb": 1
         },
         {
-          "name": "David Bednar",
+          "name": "Fernando Cruz",
           "ip": "1.0",
-          "h": 0,
-          "er": 0,
-          "k": 0,
+          "h": 3,
+          "er": 2,
+          "k": 3,
           "bb": 0
+        },
+        {
+          "name": "Ryan Yarbrough",
+          "ip": "2.0",
+          "h": 1,
+          "er": 0,
+          "k": 2,
+          "bb": 1
         }
       ]
     }
   },
   "next_game": {
-    "gamePk": 824204,
-    "date": "2026-04-24",
+    "gamePk": 824203,
+    "date": "2026-04-25",
     "opponent": "HOU",
     "home": false,
-    "time_local": "8:10 PM ET",
+    "time_local": "7:10 PM ET",
     "probable": {
-      "team": "Will Warren",
-      "opp": "Lance McCullers Jr."
+      "team": "Ryan Weathers",
+      "opp": "Mike Burrows"
     },
-    "insight": "New York leads the AL East on a 6-game win streak \u2014 tonight is a chance to extend it.",
+    "insight": "New York leads the AL East on a 7-game win streak \u2014 tonight is a chance to extend it.",
     "hook_type": "race_context"
   },
   "standings": [
     {
       "team": "Yankees",
-      "w": 16,
+      "w": 17,
       "l": 9,
       "gb": "-",
       "last10": "8-2"
     },
     {
       "team": "Rays",
-      "w": 13,
+      "w": 14,
       "l": 11,
       "gb": "2.5",
       "last10": "6-4"
     },
     {
       "team": "Orioles",
-      "w": 12,
+      "w": 13,
       "l": 13,
       "gb": "4.0",
       "last10": "4-6"
@@ -263,15 +257,15 @@
     {
       "team": "Blue Jays",
       "w": 10,
-      "l": 14,
-      "gb": "5.5",
+      "l": 15,
+      "gb": "6.5",
       "last10": "4-6"
     },
     {
       "team": "Red Sox",
       "w": 9,
-      "l": 16,
-      "gb": "7.0",
+      "l": 17,
+      "gb": "8.0",
       "last10": "3-7"
     }
   ],
@@ -279,31 +273,31 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "Yankees win their sixth straight behind Schlittler and Chisholm Jr..",
+  "subhead": "Yankees win their seventh straight behind Warren and Chisholm Jr..",
   "insight": {
     "headline": "Balanced ball \u2014 Yankees are 8-2 over their last ten.",
-    "detail": "Both sides have contributed: .223 average, .730 OPS at the plate, 3.07 ERA from the staff.",
-    "why": "staff carrying (3.07 ERA) \u00b7 OPS at .730 \u00b7 8\u20132 in the last ten"
+    "detail": "Both sides have contributed: .229 average, .749 OPS at the plate, 3.11 ERA from the staff.",
+    "why": "staff carrying (3.11 ERA) \u00b7 OPS at .749 \u00b7 8\u20132 in the last ten"
   },
   "narrative": {
-    "top_frame": "The sixth straight win on Boston's field\u2014fueled by Cam Schlittler's complete-game brilliance\u2014confirms the Yankees are now built to sustain excellence, not just sample it.",
-    "what_this_means": "Schlittler's 1.77 season ERA is no longer a curiosity; it is the foundation of a pitching staff that has dropped from 3.16 to 3.07 in a single game, and the rotation's ability to suppress runs while the lineup rediscovers consistency represents the shape of this team's actual ceiling. Last night Boston scored twice in eight innings. That margin of victory matters less than what it reflects: a staff disciplined enough to win without needing the offense to erupt. Jazz Chisholm Jr.'s home run and the ten-hit night were appetizers, not requirements. The Yankees are no longer waiting for their bats to solve problems\u2014they're letting their pitchers manage the game and asking for singles. That is a fundamentally different team than the one that started this stretch, and six wins in a row against a division rival proves the shift is real, not rhetorical.",
-    "what_to_watch": "Watch Will Warren against Houston tomorrow night. Warren owns a 1.77 ERA himself\u2014matching Schlittler's pace. If this rotation is truly elite, Warren's next start becomes the evidence of whether Schlittler was a breakthrough or an outlier. The Astros will test whether the Yankees have genuinely redefined what their pitching staff can deliver.",
+    "top_frame": "Seven straight wins built on balance, not desperation\u2014and that changes everything about how we should read this team right now.",
+    "what_this_means": "Last night's 12\u20134 demolition of Houston proved this isn't a one-dimensional streak held together by pitching luck or a hot week from one hitter. Jazz Chisholm Jr. and Jos\u00e9 Caballero both cleared the fence, the lineup scattered 13 hits across nine opposing arms, and Will Warren\u2014with his 2.59 ERA and 6 strikeouts in six innings\u2014executed with the precision of a team that knows what it's doing. The offense broke through from 0.730 OPS to 0.749 without needing heroics; it was methodical, layered, multiplied. This win didn't just extend the streak; it confirmed that the Yankees' April narrative has shifted from \"surviving\" to \"demonstrating.\"",
+    "what_to_watch": "The test arrives tonight in game two of this series: Ryan Weathers on the mound for Houston at 7:10 PM ET, and the pressure is now inverted. A seventh-straight loss would snap momentum and reset the conversation. But a seventh-straight win\u2014against a division rival in a back-to-back\u2014establishes this surge as something durable, something a contending team does rather than something that happens to one. The Yankees are leading the division. They are outpacing their own season trajectory. The question is no longer whether they can streak; it is whether they have the discipline to continue it.",
     "story_state": {
       "trend": "surging",
       "driver": "balanced",
       "confidence": "high",
       "pressure": "building",
-      "record_w": 16,
+      "record_w": 17,
       "record_l": 9,
-      "streak": "W6",
+      "streak": "W7",
       "last10_w": 8,
-      "era": 3.07,
-      "ops": 0.73,
+      "era": 3.11,
+      "ops": 0.749,
       "gb": 0.0,
       "division_rank": 1,
       "last_result": "W",
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "game_emotion_level": "high"
     },
     "story_delta": {
@@ -315,8 +309,8 @@
       "driver_changed": false,
       "signals": [
         "won last game",
-        "win streak extended to W6",
-        "ERA improved: 3.16 \u2192 3.07"
+        "win streak extended to W7",
+        "OPS up: 0.730 \u2192 0.749"
       ]
     }
   }
