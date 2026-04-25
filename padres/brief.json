@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T11:38:48+00:00",
+  "generated_at": "2026-04-25T11:09:14+00:00",
   "season": 2026,
   "team": {
     "record": "17-8",
@@ -254,9 +254,9 @@
     {
       "team": "Dodgers",
       "w": 17,
-      "l": 8,
-      "gb": "-",
-      "last10": "6-4"
+      "l": 9,
+      "gb": "0.5",
+      "last10": "5-5"
     },
     {
       "team": "D-backs",
@@ -268,16 +268,16 @@
     {
       "team": "Giants",
       "w": 11,
-      "l": 14,
-      "gb": "6.0",
+      "l": 15,
+      "gb": "6.5",
       "last10": "5-5"
     },
     {
       "team": "Rockies",
-      "w": 10,
+      "w": 11,
       "l": 16,
-      "gb": "7.5",
-      "last10": "4-6"
+      "gb": "7.0",
+      "last10": "5-5"
     }
   ],
   "hot_players": {
@@ -291,9 +291,9 @@
     "why": "staff carrying (3.62 ERA) \u00b7 quiet bats (.682 OPS) \u00b7 8\u20132 in the last ten"
   },
   "narrative": {
-    "top_frame": "Waldron's worst numbers could not stop a lineup that refuses to fold\u2014the Padres' margin for error is shrinking even as they keep winning, and that math has an expiration date.",
-    "what_this_means": "What yesterday showed is that this team can absorb disaster and still push across ten runs. Waldron's 12.46 ERA is not a rounding error; it is a structural problem in the rotation, one that says the pitching surge masking the offense's struggles (.234 average, .682 OPS) is thinner than the record suggests. The win is real and matters\u20148-2 in the last ten games keeps them atop the division\u2014but it was not won by pitching. It was won by Laureano and Bogaerts refusing to disappear, by a lineup that scraped together 13 hits and turned them into runs at Coors Field, a place where mediocre offenses go to get worse. The 3.62 ERA jumped from 3.43 in a single game because Waldron was vulnerable and needed bailing out. That is the opposite of sustainable.",
-    "what_to_watch": "The Marlins test arrives tomorrow with Germ\u00e1n M\u00e1rquez on the mound for Arizona\u2014a right-hander who will face a Padres lineup hitting .234 and relying on clutch moments to survive. The pitching staff is not yet healthy enough to win tight games consistently, and the offense is not yet evolved enough to win blowouts. Something in this formula must improve before the pressure of October starts squeezing harder than it is now.",
+    "top_frame": "Waldron's disaster at Coors became a secondary subplot to what mattered most: the Padres won the game they were supposed to lose.",
+    "what_this_means": "A pitcher posting a 12.46 ERA does not typically author victories, and yet Waldron's five innings of damage control\u2014surrendering six runs but nothing catastrophic\u2014became the story's minor note. What moved the needle was the simple fact that this offense, batting .234 on the season and striking out 13 times in a single game, refused to capitulate. Laureano and Bogaerts delivered when the moment required it. The Padres are now 8-2 over their last ten games and sitting atop the division, not because their pitching has suddenly solved the problem of inconsistency, but because they have stopped accepting defeats in venues and circumstances designed to produce them. That is a difference in character.",
+    "what_to_watch": "The surging trend holds\u2014and that is the real headline\u2014but the foundation remains precarious. The ERA sits at 3.62, respectable, yet the offense operates at .682 OPS, the limp of a team asking runs to come from narrow windows rather than sustained pressure. This win did not solve that tension. It exposed something harder: the Padres are winning games they have no statistical right to win, which is exactly what separates contenders from the rest. But that edge dulls quickly without reinforcement. Germ\u00e1n M\u00e1rquez and Arizona arrive tomorrow as the next test of whether this moment is momentum or mirage. The Padres' confidence has built. So has the pressure to prove it is earned.",
     "story_state": {
       "trend": "surging",
       "driver": "pitching",
@@ -319,10 +319,7 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "won last game",
-        "streak flipped: L1 \u2192 W1",
-        "ERA worsened: 3.43 \u2192 3.62",
-        "OPS up: 0.669 \u2192 0.682"
+        "won last game"
       ]
     }
   }
