@@ -860,6 +860,21 @@ Continuity language (use when natural, not as filler):
 
 Do not restate the same thread in identical language across days. If a thread recurs, vary the framing, wording, or angle — use a different PRIMARY LENS if needed. Repetition without progression is drift, not continuity.
 
+Not every game must advance a thread. If the game does not materially change the narrative, allow the thread to hold — do not force progression, escalation, or conclusion.
+
+Only advance a thread if the game meaningfully shifts at least one of:
+  - margin         → the win/loss was closer or wider than the pattern suggests
+  - dependency     → one player carried vs. balanced contribution (or vice versa)
+  - repeatability  → pattern held under a new or harder condition
+  - pressure       → division stakes, late-inning situation, or opponent quality added weight
+
+If none of these shift, prefer holding. Valid hold outcomes:
+  hold               → "nothing new, pattern unchanged"
+  light reinforcement → "this looked similar, but didn't add new information"
+
+Holding language (use when appropriate, not reflexively):
+  "nothing new here" / "this looked familiar" / "the same pattern, no stronger" / "no new signal yet"
+
 NARRATIVE LENS:
 WHAT THIS GAME MEANS should be driven by one dominant lens. Do not cover multiple — pick the one that best fits the game and argue it.
 
