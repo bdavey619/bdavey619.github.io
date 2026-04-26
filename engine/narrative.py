@@ -419,6 +419,35 @@ def build_story_threads(story_state, last_game):
 
 
 # ---------------------------------------------------------------------------
+# Shared helpers
+# ---------------------------------------------------------------------------
+
+_DEFICIT_WORDS = {2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven"}
+
+
+def _compute_max_deficit(last_game):
+    """Return the largest run deficit the team faced during the game (0 if never trailing)."""
+    if not last_game:
+        return 0
+    linescore = last_game.get("linescore") or [[], []]
+
+    def _to_int(v):
+        try:
+            return int(v)
+        except (TypeError, ValueError):
+            return 0
+
+    sd_inn  = [_to_int(v) for v in (linescore[0] if linescore else [])]
+    opp_inn = [_to_int(v) for v in (linescore[1] if len(linescore) > 1 else [])]
+    n = min(len(sd_inn), len(opp_inn))
+    if n == 0:
+        return 0
+    sd_cum  = [sum(sd_inn[:i + 1]) for i in range(n)]
+    opp_cum = [sum(opp_inn[:i + 1]) for i in range(n)]
+    return max((opp_cum[i] - sd_cum[i] for i in range(n)), default=0)
+
+
+# ---------------------------------------------------------------------------
 # Story Hook — one-sentence emotional framing for the masthead
 # ---------------------------------------------------------------------------
 
@@ -452,18 +481,13 @@ def build_story_hook(story_state, last_game, story_threads=None, game_driver=Non
         except (TypeError, ValueError):
             return 0
 
-    linescore = last_game.get("linescore") or [[], []]
-    sd_inn    = [_to_int(v) for v in (linescore[0] if linescore else [])]
-    opp_inn   = [_to_int(v) for v in (linescore[1] if len(linescore) > 1 else [])]
-    n = min(len(sd_inn), len(opp_inn))
-
-    sd_cum  = [sum(sd_inn[:i + 1]) for i in range(n)]
-    opp_cum = [sum(opp_inn[:i + 1]) for i in range(n)]
-    max_deficit = max((opp_cum[i] - sd_cum[i] for i in range(n)), default=0)
-
+    linescore   = last_game.get("linescore") or [[], []]
+    sd_inn      = [_to_int(v) for v in (linescore[0] if linescore else [])]
+    opp_inn     = [_to_int(v) for v in (linescore[1] if len(linescore) > 1 else [])]
     is_home     = last_game.get("home", False)
     num_innings = len(sd_inn)
     late_runs   = sum(sd_inn[8:]) if len(sd_inn) > 8 else 0
+    max_deficit = _compute_max_deficit(last_game)
 
     is_walkoff = (
         result == "W" and is_home and num_innings >= 9
@@ -510,15 +534,16 @@ def build_story_hook(story_state, last_game, story_threads=None, game_driver=Non
             return "One swing rewrote the scoreboard. This team is learning when to bide its time."
 
         if max_deficit >= 4:
+            _n = _DEFICIT_WORDS.get(max_deficit, str(max_deficit))
             if has_dual and driver_hr >= 2:
-                return (f"Two {driver_last} homers kept them alive; "
-                        f"{clutch_last}'s {clutch_event_lower} finished the climb.")
+                return (f"Down {_n} — {driver_last} kept them alive, "
+                        f"{clutch_last} finished the climb.")
             if has_dual:
-                return (f"Down four and still standing — {driver_last} supplied the power, "
+                return (f"Down {_n} — {driver_last} supplied the power, "
                         f"{clutch_last} delivered the turn.")
             if clutch_last:
-                return f"Down four and still standing — {clutch_last}'s {clutch_event_lower} was the turn."
-            return "A four-run hole doesn't close itself. This one closed in a hurry."
+                return f"Down {_n} — {clutch_last}'s {clutch_event_lower} was the turn."
+            return f"Down {_n} and still standing — this team found a way back."
 
         if late_runs >= 5:
             if has_dual:
@@ -530,12 +555,13 @@ def build_story_hook(story_state, last_game, story_threads=None, game_driver=Non
             return "The box score says win; the inning chart says escape."
 
         if max_deficit >= 2:
+            _n = _DEFICIT_WORDS.get(max_deficit, str(max_deficit))
             if has_dual:
-                return (f"They trailed, {driver_last} powered them back, "
-                        f"and {clutch_last} finished the job.")
+                return (f"Down {_n} — {driver_last} powered them back, "
+                        f"{clutch_last} finished the job.")
             if clutch_last:
-                return f"They trailed, adjusted, and {clutch_last} delivered the play that mattered."
-            return "Another late rally, another reminder this team has learned to survive ugly games."
+                return f"Down {_n} — {clutch_last} delivered the play that mattered."
+            return "They trailed and found a way — this team has learned to survive ugly games."
 
         if "pitching carrying quiet offense" in threads:
             if has_dual:
@@ -629,12 +655,24 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
         clutch_block = "\nTURNING POINT: none detected"
 
     # Game driver context (deterministic, from box score)
+    # Enhance description to be role-based and game-aware when context allows
     gd = game_driver or last_game.get("game_driver")
     if gd and gd.get("confidence") in ("high", "medium"):
+        gd_desc = gd.get("description", "")
+        max_def = _compute_max_deficit(last_game)
+        if (gd.get("type") == "hitter"
+                and "HR" in gd.get("reason", "")
+                and last_game.get("result") == "W"):
+            hr_m = re.search(r'(\d+)-HR', gd["reason"])
+            hr_n = int(hr_m.group(1)) if hr_m else 2
+            if max_def >= 3:
+                gd_desc = f"kept the offense alive with {hr_n} home runs."
+            else:
+                gd_desc = f"supplied the lineup's power with {hr_n} home runs."
         game_driver_block = (
             f"\nGAME DRIVER (overall performance that most shaped the game, {gd['confidence'].upper()} CONFIDENCE):\n"
             f"  {gd['name']} — {gd['reason']}\n"
-            f"  {gd['name']} {gd['description']}"
+            f"  {gd['name']} {gd_desc}"
         )
     else:
         game_driver_block = "\nGAME DRIVER: none detected"
@@ -715,30 +753,33 @@ Write exactly three sections. No headers. No labels. No bullet points. Just clea
 1. TOP FRAME (1 sentence, max 25 words)
 A sharp editorial judgment on what today's result means in the context of the season. Not a score recap. A stance.
 
-2. WHAT THIS GAME MEANS (90–130 words max)
-What does this game confirm, challenge, or reveal about the current narrative? Name what changed from the prior state — use the STORY DELTA signals to say so concisely. If nothing changed materially, say the pattern held and why that matters. Connect the game to the team's current trend. Be precise.
+2. WHAT THIS GAME MEANS (90–120 words max)
+Do NOT restate the story_hook, game_note, Game Driver, or Turning Point — those facts are displayed separately and the reader already has them. Instead, answer: What is different about this team today because of this game? Use the STORY DELTA to identify one clear thing that changed — the pattern got louder, the margin for error shifted, a weakness became harder to ignore, a strength carried into a new kind of win, or the formula held in a new situation. Reference the Game Driver or Turning Point briefly if it supports the "what changed" answer — but do not retell the sequence. Connect the game to the team's current trend. Be precise.
 
-3. WHAT TO WATCH (1 sentence, 35–60 words max)
-Continue the thread from today into tonight. Connect the current story to tonight's specific tension: the pitcher, the matchup, the pressure point, the open question. Do NOT write a schedule preview. Write like the story continues.
+Make a clear claim about the team's identity. The section must include at least one sentence that could stand alone as an editorial take — something that answers "what is this team becoming?" or "what does this game reveal about how they win?" Frame it as a pattern, not a moment. Acceptable forms: "This is a team that...", "The pattern has become...", "They are now...", "This works because...", "This breaks if...". Weave at least one STORY THREAD naturally into the section — do not list it or name it explicitly; let it shape the argument.
+
+3. WHAT TO WATCH (1 sentence, 35–55 words max)
+Answer: what tension from today's story continues into tonight? Name the open question that tonight's game will test. Use TONIGHT'S HOOK as context — do NOT quote its stat or restate it. Translate it into narrative tension. Write like the story is still moving, not like a preview.
 
 {voice_block}
 
 HARD RULES:
 - Do NOT summarize the game. The reader already knows the score.
 - Do NOT repeat yesterday's framing unless the delta shows nothing changed — if so, say that directly.
-- Do NOT use: "bats need to wake up", "must-win", "firing on all cylinders", "big time", "impressive", "heading into", "looking to".
+- Do NOT use: "bats need to wake up", "must-win", "firing on all cylinders", "big time", "impressive", "heading into", "looking to", "resilience", "found a way".
 - Do NOT speculate with "could" or "might". Extrapolate from what IS happening.
 - Use specific stats from the context above. Do not invent numbers.
 - Take a clear editorial stance. Use active voice.
-- WHAT THIS GAME MEANS must be 90–130 words. Tight. Name what changed.
-- WHAT TO WATCH must be 1 sentence, 35–60 words. Connect the day's story to tonight's specific tension.
+- WHAT THIS GAME MEANS must be 90–120 words. Tight. Name what changed. Do NOT exceed 120 words.
+- WHAT THIS GAME MEANS must NOT simply restate the story_hook, game_note, Game Driver, or Turning Point. These sections are already displayed separately. Build on them — do not repeat them.
+- WHAT TO WATCH must be 1 sentence, 35–55 words. Answer what tension continues into tonight. Do NOT quote or restate the TONIGHT'S HOOK stat — translate it into narrative tension.
 - If trend is "surging": the question is how long can this hold?
 - If trend is "fragile" or "slipping": be honest about the problem. Do not soften it.
 - If driver is "pitching" and OPS < 0.700: do not frame the offense as fine.
 - If delta signals show no change: acknowledge the story did not move today and say what that means.
-- GAME DRIVER vs TURNING POINT: These are different and both matter. The Game Driver explains who shaped the game overall; the Turning Point explains when the game flipped. When both exist and are different players, use both — name the Game Driver in WHAT THIS GAME MEANS and explain their contribution. Do not let the Turning Point crowd out the Game Driver.
+- GAME DRIVER vs TURNING POINT: These are different and both matter. The Game Driver explains who shaped the game overall; the Turning Point explains when the game flipped. When both exist and are different players, use both — name the Game Driver in WHAT THIS GAME MEANS and explain their role. Do not let the Turning Point crowd out the Game Driver.
 - When a hitter had a 2+ HR game (Game Driver, high confidence), they MUST be mentioned by name in WHAT THIS GAME MEANS, even if someone else had the Turning Point. A go-ahead sac fly does not overshadow a 2-HR game.
-- Dual-player framing: "France powered it; Laureano finished it." Use this structure when Game Driver and Turning Point are different. Name who shaped the game, then name who flipped it.
+- Dual-player framing when Game Driver ≠ Turning Point: briefly name the Game Driver's role first, then the Turning Point's moment. One sentence each. This is context, not recap.
 - TURNING POINT: If confidence is HIGH, mention that player's moment in context — but after establishing the Game Driver's contribution if one exists. If no Game Driver, anchor the narrative on the Turning Point player. If confidence is LOW or none detected, do not force a clutch reference.
 
 Output format: three paragraphs separated by a blank line. Nothing else."""
