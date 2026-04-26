@@ -840,6 +840,26 @@ Avoid always using the same verb frame ("France delivered", "Laureano finished")
 Allow: "France gave them a chance", "Laureano was the swing that mattered", "France was the only reason they were still in it", "that was Laureano's moment".
 Vary phrasing across sections. Do not repeat the same verb for the same player.
 
+STORY THREAD CONTINUITY:
+WHAT THIS GAME MEANS should reinforce or evolve at least one active STORY THREAD when the game supports it. Do not introduce a new storyline unless today's game clearly creates one.
+
+Prefer these thread movements:
+  continuation   → the pattern held again
+  escalation     → this is becoming more pronounced
+  challenge      → this is where the pattern breaks
+  confirmation   → this wasn't a one-off
+
+When a thread recurs across days, move it along its natural arc:
+  early stage    → observation ("this might be a pattern")
+  middle stage   → reinforcement ("this is holding")
+  later stage    → conclusion ("this is who they are now")
+The thread's stage should feel earned from context — do not force advancement.
+
+Continuity language (use when natural, not as filler):
+  "again" / "still" / "once more" / "this continues" / "this is becoming" / "this is starting to look like"
+
+Do not restate the same thread in identical language across days. If a thread recurs, vary the framing, wording, or angle — use a different PRIMARY LENS if needed. Repetition without progression is drift, not continuity.
+
 NARRATIVE LENS:
 WHAT THIS GAME MEANS should be driven by one dominant lens. Do not cover multiple — pick the one that best fits the game and argue it.
 
