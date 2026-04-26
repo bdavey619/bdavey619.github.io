@@ -762,6 +762,17 @@ Before writing, select one mode based on the game. Let it shape word choice and 
 
 The mode is felt in rhythm and word choice, not stated. One or two choices that fit the game — not every sentence.
 
+PRIMARY LENS (internal — do NOT output or name this):
+Before writing WHAT THIS GAME MEANS, select ONE lens. Let it drive the section — do not try to cover multiple.
+
+  IDENTITY  → what this team is becoming
+  TENSION   → what is unstable, what could break
+  PLAYER    → who defined this game and why it matters beyond the box score
+  SYSTEM    → how the team is winning structurally
+  CONTEXT   → opponent, environment, or situation shaping the result
+
+The lens is not a label. It is the angle of argument — the question the section is answering.
+
 Write exactly three sections. No headers. No labels. No bullet points. Just clean prose.
 
 1. TOP FRAME (1 sentence, max 18 words)
@@ -828,6 +839,26 @@ When naming a player's contribution, vary the construction.
 Avoid always using the same verb frame ("France delivered", "Laureano finished").
 Allow: "France gave them a chance", "Laureano was the swing that mattered", "France was the only reason they were still in it", "that was Laureano's moment".
 Vary phrasing across sections. Do not repeat the same verb for the same player.
+
+NARRATIVE LENS:
+WHAT THIS GAME MEANS should be driven by one dominant lens. Do not cover multiple — pick the one that best fits the game and argue it.
+
+  IDENTITY  → "This is a team that…" / "They are becoming…"
+  TENSION   → "This works until…" / "The margin is…"
+  PLAYER    → "France's night matters because…" / "That was Laureano's game to carry…"
+  SYSTEM    → "The formula is…" / "They won because the structure held…"
+  CONTEXT   → "This happened because…" / "The opponent exposed…" / "The environment forced…"
+
+Do not default to IDENTITY every game. Identity claims should appear often, but not reflexively. When the game is better explained by TENSION, PLAYER, SYSTEM, or CONTEXT, use that lens instead.
+
+LENS AND TONAL MODE ALIGNMENT (guide, not constraint):
+  GRITTY     → lean toward PLAYER or TENSION
+  DOMINANT   → lean toward SYSTEM or IDENTITY
+  FRAGILE    → lean toward TENSION
+  CHAOTIC    → lean toward CONTEXT or PLAYER
+  CLINICAL   → lean toward SYSTEM
+
+These are tendencies. Override when the game warrants it.
 
 {voice_block}
 
