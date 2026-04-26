@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T06:07:08+00:00",
+  "generated_at": "2026-04-26T11:09:15+00:00",
   "season": 2026,
   "team": {
     "record": "18-8",
@@ -302,9 +302,9 @@
     "clutch role players"
   ],
   "narrative": {
-    "top_frame": "This team doesn't fold when the deficit looks permanent.",
-    "what_this_means": "What changed is the formula's resilience. Down four in the seventh, the Padres didn't try to manufacture hope\u2014they got it. Ty France's two-homer game gave them the at-bats they needed; Ram\u00f3n Laureano's go-ahead sac fly delivered the actual turn. But the real shift is subtler: this team's pitching (3.63 ERA, strongest asset) has become so reliable that the offense no longer needs to explode to win. A .233 average and 10 strikeouts yesterday would normally spell doom. Instead, it was enough. This is a team that trusts one big bat and one timely moment more than it trusts a lineup built for depth. That works until a Ty France game doesn't come. Until a single sac fly ends the rally. They're riding a wire\u2014and the wire is holding.",
-    "what_to_watch": "King's last four starts have been clean (2.84 ERA), but tonight's test is whether that pitching margin stays wide enough to let another quiet offense steal a win, or whether Arizona finally forces the Padres to actually hit their way through a game.",
+    "top_frame": "They didn't fold down four.",
+    "what_this_means": "This is a team that wins on pitches\u2014the ones that land and the ones that don't. Germ\u00e1n M\u00e1rquez held Arizona to four runs across six innings, which sounds routine until you remember the Padres have scored .683 OPS worth of production all season. That's not a pitching team carrying an offense anymore. That's a pitching team that has become the entire equation. France's two home runs kept them alive when the bats could have gone silent. Laureano's sac fly in the seventh won the game. But the architecture is clear now: the rotation is holding games on a margin thin enough that one swing matters, and late-inning role players are no longer a luxury\u2014they're the team's second heartbeat. This is who they are at 18-8. This works until one of those layers fails.",
+    "what_to_watch": "Now the question is whether King's run of dominance holds the line again. Arizona is still the test.",
     "story_state": {
       "trend": "surging",
       "driver": "pitching",
