@@ -754,8 +754,12 @@ TONIGHT'S HOOK (for WHAT TO WATCH — connect to this specific tension):
 Write exactly three sections. No headers. No labels. No bullet points. Just clean prose.
 
 1. TOP FRAME (1 sentence, max 18 words)
-Job: the editorial stance — not emotional compression (the story hook did that), not recap, not preview. One clear idea about what this game means at the highest level.
-One idea. Emotionally clear. Prefer outcome or feeling over explanation. Do NOT include both Game Driver and Turning Point in the same sentence. Not a score recap. A stance.
+Job: the editorial stance — not emotional compression (the story hook did that), not recap, not preview. ONE idea only. Choose exactly one of:
+  - the situation ("Down four…")
+  - the outcome ("They didn't fold.")
+  - the identity claim ("This team doesn't fold.")
+Do NOT include both players and conclusion. Do NOT list multiple events. If more than one clause appears, simplify to one.
+Emotionally clear. Do NOT include both Game Driver and Turning Point in the same sentence. Not a score recap. A stance.
 Do NOT repeat or rephrase the story hook in different words — that section already handled the compressed emotional beat.
 
 Good: "Down four—and they didn't blink." / "This team doesn't fold." / "They had no business winning this game."
@@ -770,14 +774,16 @@ Prefer one strong thesis over several smaller observations. One claim argued wel
 
 Make a clear claim about the team's identity. The section must include at least one sentence that could stand alone as an editorial take — something that answers "what is this team becoming?" or "what does this game reveal about how they win?" Frame it as a pattern, not a moment. Acceptable forms: "This is a team that...", "The pattern has become...", "They are now...", "This works because...", "This breaks if...". Weave at least one STORY THREAD naturally into the section — do not list it or name it explicitly; let it shape the argument.
 
-The section must also include at least one short, memorable sentence under 12 words that captures the core takeaway. Examples: "They needed a swing — France gave them two." / "This only works until it doesn't." / "They're winning on margins that don't last."
+The section must also include at least one short, memorable sentence under 12 words that captures the core takeaway. It must stand alone as its own sentence — do not bury it mid-paragraph. Place it as either the first sentence of this section OR the final sentence. Examples: "They needed a swing — France gave them two." / "This only works until it doesn't." / "They're winning on margins that don't last."
 
 Use plain, direct fan language. Replace analytical constructions ("this represents", "this illustrates") with concrete statements ("they needed it", "he delivered", "that was the game"). Avoid academic tone, over-qualification, and unnecessary metaphors.
 
 SENTENCE RHYTHM: Vary sentence length. Mix short punchy lines with medium explanatory sentences. Do not stack multiple one-liners in a row — short sentences land as emphasis, not as a style unto themselves.
 
-3. WHAT TO WATCH (1 sentence, 35–55 words max)
+3. WHAT TO WATCH (1–2 sentences max, under 45 words)
 Job: carry one unresolved tension forward — not a schedule preview, not a generic pregame note. The tension must grow directly out of WHAT THIS GAME MEANS, not introduce a new topic. Make tonight feel like the next chapter of the same story.
+Express one clear tension. Avoid multi-clause sentences and abstract phrasing.
+Preferred openers: "Now the question is…" / "Tonight will show…" / "The next test is…"
 Answer: what tension from today's story continues into tonight? Name the open question that tonight's game will test. Use TONIGHT'S HOOK as context — do NOT quote its stat or restate it. Translate it into narrative tension. Write like the story is still moving, not like a preview.
 Avoid broadcast-preview phrasing ("can they keep it going?", "looking to build on", "they'll need"). Frame it as an unresolved question from the argument you just made in WHAT THIS GAME MEANS.
 
@@ -786,6 +792,9 @@ Write like someone who watched the game and understands this team's ongoing stor
 
 Personality allowed: dry understatement, mild edge, concise judgment, fan-aware phrasing.
 Personality to avoid: sports-radio clichés, exaggerated doom, fake hype, academic phrasing, generic motivational language.
+
+LANGUAGE TIGHTENING:
+Prefer shorter phrasing over clever phrasing. Fewer clauses, fewer metaphors, no semicolon constructions that explain themselves ("not a breakout; it was a necessity meeting opportunity"). Write the direct version instead.
 
 {voice_block}
 
@@ -801,7 +810,7 @@ HARD RULES:
 - Take a clear editorial stance. Use active voice.
 - WHAT THIS GAME MEANS must be 90–120 words. Tight. Name what changed. Do NOT exceed 120 words.
 - WHAT THIS GAME MEANS must NOT simply restate the story_hook, game_note, Game Driver, or Turning Point. These sections are already displayed separately. Build on them — do not repeat them.
-- WHAT TO WATCH must be 1 sentence, 35–55 words. Answer what tension continues into tonight. Do NOT quote or restate the TONIGHT'S HOOK stat — translate it into narrative tension.
+- WHAT TO WATCH must be 1–2 sentences, under 45 words. Express one tension. Do NOT quote or restate the TONIGHT'S HOOK stat — translate it into narrative tension.
 - If trend is "surging": the question is how long can this hold?
 - If trend is "fragile" or "slipping": be honest about the problem. Do not soften it.
 - If driver is "pitching" and OPS < 0.700: do not frame the offense as fine.
