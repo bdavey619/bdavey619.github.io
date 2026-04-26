@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T05:16:35+00:00",
+  "generated_at": "2026-04-26T05:20:24+00:00",
   "season": 2026,
   "team": {
     "record": "18-8",
@@ -300,5 +300,38 @@
     "late-inning rallies",
     "division pressure",
     "clutch role players"
-  ]
+  ],
+  "narrative": {
+    "top_frame": "Ty France kept them alive when the offense had no pulse; Ram\u00f3n Laureano finished the climb in the seventh.",
+    "what_this_means": "The pitching remains the spine of this team\u2014Germ\u00e1n M\u00e1rquez held Arizona to four runs over six innings despite a .233 batting average that would sink most rosters\u2014but today revealed something the Padres cannot ignore anymore. France's two-home-run game powered a six-hit offense that struck out ten times and still won because one hitter refused to let the game slip away. Then Laureano's go-ahead sacrifice fly in the seventh proved that clutch role players are carrying real weight here. The Padres are now 8-2 in their last ten games and sitting atop the division, but they're doing it on fumes offensively. The pattern is holding: pitching wins the game, isolated moments of power keep them in it. This works until it doesn't. The question is no longer whether this team can win\u2014it's whether 6.83 hits per game and this thin margin for error can sustain a run.",
+    "what_to_watch": "Michael King takes the mound tonight with a 2.84 ERA over his last four starts, and Arizona knows the Padres' weakness as well as anyone\u2014press the bats, trust the zone, wait for the quiet night when France or Sheets don't go deep.",
+    "story_state": {
+      "trend": "surging",
+      "driver": "pitching",
+      "confidence": "high",
+      "pressure": "building",
+      "record_w": 18,
+      "record_l": 8,
+      "streak": "W2",
+      "last10_w": 8,
+      "era": 3.63,
+      "ops": 0.683,
+      "gb": 0.0,
+      "division_rank": 1,
+      "last_result": "W",
+      "date": "2026-04-25",
+      "game_emotion_level": "extreme"
+    },
+    "story_delta": {
+      "has_prev": true,
+      "trend_changed": false,
+      "trend_direction": "unchanged",
+      "conf_changed": false,
+      "pressure_changed": false,
+      "driver_changed": false,
+      "signals": [
+        "won last game"
+      ]
+    }
+  }
 }
