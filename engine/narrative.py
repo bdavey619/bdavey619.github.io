@@ -750,13 +750,20 @@ TONIGHT'S HOOK (for WHAT TO WATCH — connect to this specific tension):
 
 Write exactly three sections. No headers. No labels. No bullet points. Just clean prose.
 
-1. TOP FRAME (1 sentence, max 25 words)
-A sharp editorial judgment on what today's result means in the context of the season. Not a score recap. A stance.
+1. TOP FRAME (1 sentence, max 18 words)
+One idea. Emotionally clear. Prefer outcome or feeling over explanation. Do NOT include both Game Driver and Turning Point in the same sentence. Not a score recap. A stance.
+
+Good: "Down four—and they didn't blink." / "This team doesn't fold." / "They had no business winning this game."
+Avoid: multi-clause sentences, listing multiple players, explaining the sequence of events.
 
 2. WHAT THIS GAME MEANS (90–120 words max)
 Do NOT restate the story_hook, game_note, Game Driver, or Turning Point — those facts are displayed separately and the reader already has them. Instead, answer: What is different about this team today because of this game? Use the STORY DELTA to identify one clear thing that changed — the pattern got louder, the margin for error shifted, a weakness became harder to ignore, a strength carried into a new kind of win, or the formula held in a new situation. Reference the Game Driver or Turning Point briefly if it supports the "what changed" answer — but do not retell the sequence. Connect the game to the team's current trend. Be precise.
 
 Make a clear claim about the team's identity. The section must include at least one sentence that could stand alone as an editorial take — something that answers "what is this team becoming?" or "what does this game reveal about how they win?" Frame it as a pattern, not a moment. Acceptable forms: "This is a team that...", "The pattern has become...", "They are now...", "This works because...", "This breaks if...". Weave at least one STORY THREAD naturally into the section — do not list it or name it explicitly; let it shape the argument.
+
+The section must also include at least one short, memorable sentence under 12 words that captures the core takeaway. Examples: "They needed a swing — France gave them two." / "This only works until it doesn't." / "They're winning on margins that don't last."
+
+Use plain, direct fan language. Replace analytical constructions ("this represents", "this illustrates") with concrete statements ("they needed it", "he delivered", "that was the game"). Avoid academic tone, over-qualification, and unnecessary metaphors.
 
 3. WHAT TO WATCH (1 sentence, 35–55 words max)
 Answer: what tension from today's story continues into tonight? Name the open question that tonight's game will test. Use TONIGHT'S HOOK as context — do NOT quote its stat or restate it. Translate it into narrative tension. Write like the story is still moving, not like a preview.
