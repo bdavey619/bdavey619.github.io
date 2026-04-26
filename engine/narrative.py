@@ -751,6 +751,17 @@ TONIGHT'S HOOK (for WHAT TO WATCH — connect to this specific tension):
 
 --- OUTPUT INSTRUCTIONS ---
 
+TONAL MODE (internal — do NOT output or name this):
+Before writing, select one mode based on the game. Let it shape word choice and sentence feel — do not announce it.
+
+  CLINICAL   → routine win or loss, no strong swing either way
+  GRITTY     → close game, comeback, ugly win, survival
+  DOMINANT   → blowout or an overpowering individual performance
+  FRAGILE    → win or loss that exposes a real weakness
+  CHAOTIC    → wild swings, high-scoring, genuinely weird game
+
+The mode is felt in rhythm and word choice, not stated. One or two choices that fit the game — not every sentence.
+
 Write exactly three sections. No headers. No labels. No bullet points. Just clean prose.
 
 1. TOP FRAME (1 sentence, max 18 words)
@@ -795,6 +806,28 @@ Personality to avoid: sports-radio clichés, exaggerated doom, fake hype, academ
 
 LANGUAGE TIGHTENING:
 Prefer shorter phrasing over clever phrasing. Fewer clauses, fewer metaphors, no semicolon constructions that explain themselves ("not a breakout; it was a necessity meeting opportunity"). Write the direct version instead.
+
+TONAL VARIATION:
+Let the game type shape the writing — subtly, not conspicuously.
+  GRITTY     → shorter sentences, physical verbs ("held on", "scratched out", "didn't break", "survived")
+  DOMINANT   → confident, declarative ("they controlled this game", "this wasn't close")
+  FRAGILE    → tension, skepticism in reserve ("this works until it doesn't", "the margin is real")
+  CHAOTIC    → slightly more energy, irregular rhythm, comma-sparse sentences
+  CLINICAL   → plain, even, no added heat — let the facts do the work
+Do not overdo this. The shift should be felt across 2–3 word choices, not performed as a style.
+
+SENTENCE VARIATION:
+Avoid the same opening structure day after day.
+- Do not always start TOP FRAME with "This team…"
+- Do not always anchor WHAT THIS GAME MEANS with "The pattern is…"
+- Vary sentence length, clause order, and paragraph shape.
+Natural variation only — do not force novelty. Clarity first, variety second.
+
+PLAYER LANGUAGE VARIATION:
+When naming a player's contribution, vary the construction.
+Avoid always using the same verb frame ("France delivered", "Laureano finished").
+Allow: "France gave them a chance", "Laureano was the swing that mattered", "France was the only reason they were still in it", "that was Laureano's moment".
+Vary phrasing across sections. Do not repeat the same verb for the same player.
 
 {voice_block}
 
