@@ -726,8 +726,9 @@ STORY DELTA (what changed vs. yesterday):
 STORY THREADS (recurring themes — stay consistent with what the season is about):
 {threads_text}
 
-STORY HOOK (opening emotional frame for this brief — let it inform your TOP FRAME tone):
+STORY HOOK (emotional compression — already rendered above the brief; do NOT repeat or paraphrase it):
   {story_hook_line}
+  This hook already handled: situation + turn, compressed to one line. Your TOP FRAME picks up from that emotional beat — it does not retread it.
 
 LAST GAME:
   Result:      {result_line}
@@ -753,13 +754,19 @@ TONIGHT'S HOOK (for WHAT TO WATCH — connect to this specific tension):
 Write exactly three sections. No headers. No labels. No bullet points. Just clean prose.
 
 1. TOP FRAME (1 sentence, max 18 words)
+Job: the editorial stance — not emotional compression (the story hook did that), not recap, not preview. One clear idea about what this game means at the highest level.
 One idea. Emotionally clear. Prefer outcome or feeling over explanation. Do NOT include both Game Driver and Turning Point in the same sentence. Not a score recap. A stance.
+Do NOT repeat or rephrase the story hook in different words — that section already handled the compressed emotional beat.
 
 Good: "Down four—and they didn't blink." / "This team doesn't fold." / "They had no business winning this game."
-Avoid: multi-clause sentences, listing multiple players, explaining the sequence of events.
+Avoid: multi-clause sentences, listing multiple players, explaining the sequence of events, restating the story hook.
 
 2. WHAT THIS GAME MEANS (90–120 words max)
+Job: interpretation and identity claim — not factual recap, not sequence retelling. The game_note already handled the vivid factual summary. The Game Driver and Turning Point are already shown as memory anchors. Your job is to answer: What does this game reveal about who this team is?
+
 Do NOT restate the story_hook, game_note, Game Driver, or Turning Point — those facts are displayed separately and the reader already has them. Instead, answer: What is different about this team today because of this game? Use the STORY DELTA to identify one clear thing that changed — the pattern got louder, the margin for error shifted, a weakness became harder to ignore, a strength carried into a new kind of win, or the formula held in a new situation. Reference the Game Driver or Turning Point briefly if it supports the "what changed" answer — but do not retell the sequence. Connect the game to the team's current trend. Be precise.
+
+Prefer one strong thesis over several smaller observations. One claim argued well is more memorable than three things that happened. Build to your identity sentence — do not spread the argument thin.
 
 Make a clear claim about the team's identity. The section must include at least one sentence that could stand alone as an editorial take — something that answers "what is this team becoming?" or "what does this game reveal about how they win?" Frame it as a pattern, not a moment. Acceptable forms: "This is a team that...", "The pattern has become...", "They are now...", "This works because...", "This breaks if...". Weave at least one STORY THREAD naturally into the section — do not list it or name it explicitly; let it shape the argument.
 
@@ -770,7 +777,9 @@ Use plain, direct fan language. Replace analytical constructions ("this represen
 SENTENCE RHYTHM: Vary sentence length. Mix short punchy lines with medium explanatory sentences. Do not stack multiple one-liners in a row — short sentences land as emphasis, not as a style unto themselves.
 
 3. WHAT TO WATCH (1 sentence, 35–55 words max)
+Job: carry one unresolved tension forward — not a schedule preview, not a generic pregame note. The tension must grow directly out of WHAT THIS GAME MEANS, not introduce a new topic. Make tonight feel like the next chapter of the same story.
 Answer: what tension from today's story continues into tonight? Name the open question that tonight's game will test. Use TONIGHT'S HOOK as context — do NOT quote its stat or restate it. Translate it into narrative tension. Write like the story is still moving, not like a preview.
+Avoid broadcast-preview phrasing ("can they keep it going?", "looking to build on", "they'll need"). Frame it as an unresolved question from the argument you just made in WHAT THIS GAME MEANS.
 
 SMART-FAN VOICE:
 Write like someone who watched the game and understands this team's ongoing story. Favor concrete baseball language over generic analysis. Use phrases that feel lived-in and specific, not polished and empty.
@@ -781,6 +790,9 @@ Personality to avoid: sports-radio clichés, exaggerated doom, fake hype, academ
 {voice_block}
 
 HARD RULES:
+- LAYERING: Each section must add a new layer. Do not let the same sentence idea appear across story_hook, TOP FRAME, WHAT THIS GAME MEANS, and WHAT TO WATCH. If you find yourself writing the same point in different words, cut it from all but the section where it belongs.
+- PLAYER MENTIONS ACROSS SECTIONS: If the same player appears in multiple sections, each mention must serve a different purpose — hook = emotional shorthand; TOP FRAME = stance; WHAT THIS GAME MEANS = meaning or pattern; WHAT TO WATCH = continuation or tension. Do not use the same framing twice for the same player.
+- GAME DRIVER and TURNING POINT are memory anchors already displayed to the reader. Player name + role + moment is enough when you reference them. Do not over-write them in WHAT THIS GAME MEANS — your thesis is the editorial layer, not a retelling of the play.
 - Do NOT summarize the game. The reader already knows the score.
 - Do NOT repeat yesterday's framing unless the delta shows nothing changed — if so, say that directly.
 - Do NOT use: "bats need to wake up", "must-win", "firing on all cylinders", "big time", "impressive", "heading into", "looking to", "resilience", "found a way".
