@@ -51,7 +51,7 @@ def _detect_hitter_driver(key_hitters, full_box):
                 "name":        name,
                 "type":        "hitter",
                 "reason":      f"{hr}-HR game",
-                "description": f"powered the offense with {hr} home runs.",
+                "description": f"kept the offense alive with {hr} home runs.",
                 "confidence":  "high",
             }
 
@@ -60,7 +60,7 @@ def _detect_hitter_driver(key_hitters, full_box):
                 "name":        name,
                 "type":        "hitter",
                 "reason":      f"{rbi}-RBI game",
-                "description": f"drove in {rbi} runs to fuel the offense.",
+                "description": f"drove in {rbi} runs, providing the offense's primary punch.",
                 "confidence":  "high",
             }
 
@@ -76,7 +76,7 @@ def _detect_hitter_driver(key_hitters, full_box):
                 "name":        name,
                 "type":        "hitter",
                 "reason":      f"{rbi}-RBI game",
-                "description": f"drove in {rbi} runs to fuel the offense.",
+                "description": f"drove in {rbi} runs to keep the lineup relevant.",
                 "confidence":  "medium",
             }
 
