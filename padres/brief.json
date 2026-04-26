@@ -1,57 +1,57 @@
 {
-  "generated_at": "2026-04-25T11:09:14+00:00",
+  "generated_at": "2026-04-26T04:07:36+00:00",
   "season": 2026,
   "team": {
-    "record": "17-8",
-    "streak": "W1",
-    "run_diff": "+15",
+    "record": "18-8",
+    "streak": "W2",
+    "run_diff": "+17",
     "last10": "8-2",
     "division_rank": 1,
     "games_back": "-",
-    "avg": ".234",
-    "ops": ".682",
-    "era": "3.62"
+    "avg": ".233",
+    "ops": ".683",
+    "era": "3.63"
   },
   "last_game": {
     "status": "final",
-    "gamePk": 824368,
-    "date": "2026-04-23",
-    "opponent": "COL",
+    "gamePk": 825093,
+    "date": "2026-04-25",
+    "opponent": "AZ",
     "home": false,
     "result": "W",
     "score": {
-      "team": 10,
-      "opp": 8
+      "team": 6,
+      "opp": 4
     },
     "linescore": [
       [
         0,
-        2,
         0,
-        1,
-        1,
         0,
         0,
         1,
-        5
-      ],
-      [
-        1,
+        0,
         4,
         0,
-        1,
+        1
+      ],
+      [
         0,
-        1,
-        1,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0
       ]
     ],
     "decisions": {
-      "win": "Ron Marinaccio",
-      "win_role": "RP",
+      "win": "Germ\u00e1n M\u00e1rquez",
+      "win_role": "SP",
       "win_team": "team",
-      "loss": "Victor Vodnik",
+      "loss": "Taylor Clarke",
       "loss_role": "RP",
       "loss_team": "opp",
       "save": "Mason Miller",
@@ -60,55 +60,77 @@
     },
     "key_hitters": [
       {
-        "name": "Ram\u00f3n Laureano",
-        "line": "3-6, 2 RBI",
-        "pos": "LF",
-        "season_avg": ".264"
+        "name": "Ty France",
+        "line": "2-4, 2 HR, 2 RBI",
+        "pos": "1B",
+        "season_avg": ".265"
       },
       {
-        "name": "Xander Bogaerts",
-        "line": "2-3, 1 HR, 2 RBI",
-        "pos": "SS",
-        "season_avg": ".289"
+        "name": "Gavin Sheets",
+        "line": "1-4, 2 RBI",
+        "pos": "DH",
+        "season_avg": ".228"
       }
     ],
     "key_pitcher": {
-      "name": "Matt Waldron",
-      "line": "5.0 IP, 8 H, 6 ER, 3 K",
+      "name": "Germ\u00e1n M\u00e1rquez",
+      "line": "6.0 IP, 6 H, 4 ER, 2 K",
       "role": "SP",
-      "season_era": "12.46"
+      "season_era": "4.38"
     },
-    "context_line": "Away \u00b7 Coors Field \u00b7 Day game",
-    "highlights_url": "https://www.youtube.com/results?search_query=SD+vs+COL+highlights+April+23+2026+MLB",
-    "game_note": "A 5-run ninth \u2014 highlighted by a Bogaerts home run \u2014 gave San Diego the cushion it needed.",
+    "context_line": "Away \u00b7 Estadio Alfredo Harp Helu \u00b7 Day game",
+    "highlights_url": "https://www.youtube.com/results?search_query=SD+vs+AZ+highlights+April+25+2026+MLB",
+    "game_note": "A 4-run seventh \u2014 highlighted by a France home run \u2014 gave San Diego the cushion it needed.",
     "full_box": {
       "batting": [
         {
           "name": "Ram\u00f3n Laureano",
           "pos": "LF",
-          "avg": ".264",
-          "ab": 6,
+          "avg": ".255",
+          "ab": 3,
           "r": 0,
-          "h": 3,
-          "rbi": 2,
-          "bb": 0,
-          "so": 1
+          "h": 0,
+          "rbi": 1,
+          "bb": 1,
+          "so": 2
         },
         {
           "name": "Fernando Tatis Jr.",
           "pos": "RF",
           "avg": ".250",
-          "ab": 5,
+          "ab": 4,
           "r": 0,
           "h": 1,
           "rbi": 0,
-          "bb": 0,
-          "so": 3
+          "bb": 1,
+          "so": 1
         },
         {
           "name": "Jackson Merrill",
           "pos": "CF",
-          "avg": ".211",
+          "avg": ".204",
+          "ab": 3,
+          "r": 1,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "so": 1
+        },
+        {
+          "name": "Manny Machado",
+          "pos": "3B",
+          "avg": ".198",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Xander Bogaerts",
+          "pos": "SS",
+          "avg": ".280",
           "ab": 3,
           "r": 1,
           "h": 0,
@@ -117,78 +139,45 @@
           "so": 3
         },
         {
-          "name": "Manny Machado",
-          "pos": "3B",
-          "avg": ".195",
-          "ab": 5,
-          "r": 2,
-          "h": 2,
-          "rbi": 0,
+          "name": "Gavin Sheets",
+          "pos": "DH",
+          "avg": ".228",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 2,
           "bb": 0,
           "so": 1
         },
         {
-          "name": "Xander Bogaerts",
-          "pos": "SS",
-          "avg": ".289",
-          "ab": 3,
-          "r": 3,
-          "h": 2,
-          "rbi": 2,
-          "bb": 2,
-          "so": 0
-        },
-        {
-          "name": "Miguel Andujar",
-          "pos": "DH",
-          "avg": ".316",
-          "ab": 5,
-          "r": 0,
-          "h": 2,
-          "rbi": 3,
-          "bb": 0,
-          "so": 2
-        },
-        {
           "name": "Ty France",
           "pos": "1B",
-          "avg": ".233",
-          "ab": 3,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 0
-        },
-        {
-          "name": "Gavin Sheets",
-          "pos": "1B",
-          "avg": ".227",
-          "ab": 2,
-          "r": 1,
-          "h": 1,
-          "rbi": 3,
+          "avg": ".265",
+          "ab": 4,
+          "r": 2,
+          "h": 2,
+          "rbi": 2,
           "bb": 0,
           "so": 0
         },
         {
           "name": "Freddy Fermin",
           "pos": "C",
-          "avg": ".175",
-          "ab": 4,
-          "r": 1,
-          "h": 0,
-          "rbi": 0,
-          "bb": 1,
-          "so": 2
+          "avg": ".186",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "so": 1
         },
         {
           "name": "Jake Cronenworth",
           "pos": "2B",
-          "avg": ".167",
-          "ab": 4,
-          "r": 1,
-          "h": 2,
+          "avg": ".163",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
           "rbi": 0,
           "bb": 1,
           "so": 1
@@ -196,64 +185,72 @@
       ],
       "pitching": [
         {
-          "name": "Matt Waldron",
-          "ip": "5.0",
-          "h": 8,
-          "er": 6,
-          "k": 3,
-          "bb": 3
+          "name": "Germ\u00e1n M\u00e1rquez",
+          "ip": "6.0",
+          "h": 6,
+          "er": 4,
+          "k": 2,
+          "bb": 1
         },
         {
           "name": "Adrian Morejon",
           "ip": "1.0",
           "h": 1,
-          "er": 1,
-          "k": 1,
-          "bb": 0
+          "er": 0,
+          "k": 2,
+          "bb": 1
         },
         {
-          "name": "Ron Marinaccio",
-          "ip": "2.0",
-          "h": 4,
-          "er": 1,
+          "name": "Jason Adam",
+          "ip": "1.0",
+          "h": 0,
+          "er": 0,
           "k": 0,
           "bb": 0
         },
         {
           "name": "Mason Miller",
           "ip": "1.0",
-          "h": 1,
+          "h": 0,
           "er": 0,
           "k": 0,
           "bb": 0
         }
       ]
+    },
+    "clutch_player": {
+      "name": "Ram\u00f3n Laureano",
+      "event": "Sac Fly",
+      "inning": 7,
+      "description": "hit the go-ahead sac fly in the seventh (5\u20134).",
+      "reason": "go-ahead play in the seventh",
+      "confidence": "high"
     }
   },
   "next_game": {
-    "gamePk": 825093,
-    "date": "2026-04-25",
+    "gamePk": 825094,
+    "date": "2026-04-26",
     "opponent": "AZ",
     "home": false,
-    "time_local": "3:05 PM PT",
+    "time_local": "1:05 PM PT",
     "probable": {
-      "team": "Germ\u00e1n M\u00e1rquez",
-      "opp": "Zac Gallen"
+      "team": "Michael King",
+      "opp": "Ryne Nelson"
     },
-    "insight": "Padres have won 8 of their last ten \u2014 they carry that form into tonight's game.",
-    "hook_type": "team_momentum"
+    "insight": "King has a 2.84 ERA over his last 4 starts \u2014 he takes the mound tonight.",
+    "hook_type": "pitcher_form"
   },
   "standings": [
     {
       "team": "Padres",
-      "w": 17,
+      "w": 18,
       "l": 8,
       "gb": "-",
       "last10": "8-2"
     },
     {
       "team": "Dodgers",
-      "w": 17,
+      "w": 18,
       "l": 9,
       "gb": "0.5",
       "last10": "5-5"
@@ -261,22 +258,22 @@
     {
       "team": "D-backs",
       "w": 14,
-      "l": 11,
-      "gb": "3.0",
-      "last10": "6-4"
+      "l": 12,
+      "gb": "4.0",
+      "last10": "5-5"
     },
     {
       "team": "Giants",
-      "w": 11,
+      "w": 12,
       "l": 15,
       "gb": "6.5",
-      "last10": "5-5"
+      "last10": "6-4"
     },
     {
       "team": "Rockies",
       "w": 11,
       "l": 16,
-      "gb": "7.0",
+      "gb": "7.5",
       "last10": "5-5"
     }
   ],
@@ -284,31 +281,31 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "San Diego stays hot \u2014 8-2 over the last ten, Bogaerts leading the way.",
+  "subhead": "San Diego stays hot \u2014 8-2 over the last ten, France leading the way.",
   "insight": {
     "headline": "The pitching staff is carrying this run.",
-    "detail": "San Diego has won eight of their last ten despite a .682 OPS \u2014 the staff ERA of 3.62 has been doing the heavy lifting while the lineup finds its footing. Sitting in first place on a 3.62 ERA while the offense has been quiet means the pitching is carrying more than its share.",
-    "why": "staff carrying (3.62 ERA) \u00b7 quiet bats (.682 OPS) \u00b7 8\u20132 in the last ten"
+    "detail": "San Diego has won eight of their last ten despite a .683 OPS \u2014 the staff ERA of 3.63 has been doing the heavy lifting while the lineup finds its footing. Sitting in first place on a 3.63 ERA while the offense has been quiet means the pitching is carrying more than its share.",
+    "why": "staff carrying (3.63 ERA) \u00b7 quiet bats (.683 OPS) \u00b7 8\u20132 in the last ten"
   },
   "narrative": {
-    "top_frame": "Waldron's disaster at Coors became a secondary subplot to what mattered most: the Padres won the game they were supposed to lose.",
-    "what_this_means": "A pitcher posting a 12.46 ERA does not typically author victories, and yet Waldron's five innings of damage control\u2014surrendering six runs but nothing catastrophic\u2014became the story's minor note. What moved the needle was the simple fact that this offense, batting .234 on the season and striking out 13 times in a single game, refused to capitulate. Laureano and Bogaerts delivered when the moment required it. The Padres are now 8-2 over their last ten games and sitting atop the division, not because their pitching has suddenly solved the problem of inconsistency, but because they have stopped accepting defeats in venues and circumstances designed to produce them. That is a difference in character.",
-    "what_to_watch": "The surging trend holds\u2014and that is the real headline\u2014but the foundation remains precarious. The ERA sits at 3.62, respectable, yet the offense operates at .682 OPS, the limp of a team asking runs to come from narrow windows rather than sustained pressure. This win did not solve that tension. It exposed something harder: the Padres are winning games they have no statistical right to win, which is exactly what separates contenders from the rest. But that edge dulls quickly without reinforcement. Germ\u00e1n M\u00e1rquez and Arizona arrive tomorrow as the next test of whether this moment is momentum or mirage. The Padres' confidence has built. So has the pressure to prove it is earned.",
+    "top_frame": "Ram\u00f3n Laureano's seventh-inning sac fly broke open a grinding ballgame and extended the Padres' win streak to two\u2014proof that their pitching can carry games when the lineup remains stuck at .233.",
+    "what_this_means": "This game confirmed what the last five days have whispered: the Padres are winning because their arms are working. Germ\u00e1n M\u00e1rquez held Arizona to four runs across six innings on a day when the offense mustered only six hits and struck out ten times. Ty France's two home runs felt significant not because they were flashy but because they were necessary\u2014the Padres scored just six runs and needed every one of them. Laureano's moment in the seventh, a selfless swing that moved the runner and brought home what became the go-ahead run, encapsulates how this team is winning right now: not through lineup explosions but through the marriage of competent pitching and clutch small baseball. The offense is not carrying this club. The pitching staff is. And that's a precarious foundation when your team batting average sits at .233 and your OPS is .683.",
+    "what_to_watch": "Michael King takes the ball tomorrow afternoon against Arizona in what amounts to a test of whether this pitching-dependent surge can sustain itself. The Padres are 18-8 and leading the division\u2014records that demand this streak hold. Watch whether King's start reveals a rotation hitting its ceiling or one still climbing.",
     "story_state": {
       "trend": "surging",
       "driver": "pitching",
       "confidence": "high",
       "pressure": "building",
-      "record_w": 17,
+      "record_w": 18,
       "record_l": 8,
-      "streak": "W1",
+      "streak": "W2",
       "last10_w": 8,
-      "era": 3.62,
-      "ops": 0.682,
+      "era": 3.63,
+      "ops": 0.683,
       "gb": 0.0,
       "division_rank": 1,
       "last_result": "W",
-      "date": "2026-04-23",
+      "date": "2026-04-25",
       "game_emotion_level": "extreme"
     },
     "story_delta": {
@@ -319,7 +316,8 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "won last game"
+        "won last game",
+        "win streak extended to W2"
       ]
     }
   }
