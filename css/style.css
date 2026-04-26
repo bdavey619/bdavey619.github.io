@@ -468,6 +468,73 @@ article .post-date {
   line-height: 1.3;
 }
 
+/* ---- Season Meta ---- */
+
+.season-meta {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  margin: -0.25rem 0 0.5rem;
+}
+
+
+/* ---- Season Photo Strip ---- */
+
+.season-photo-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+.season-photo-slot {
+  aspect-ratio: 3 / 2;
+  background: var(--tag-bg);
+  border-radius: 2px;
+}
+
+@media (max-width: 600px) {
+  .season-photo-strip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ---- Monthly Lead / Archive ---- */
+
+.monthly-title {
+  font-size: var(--text-lg);
+  font-family: var(--font-body);
+  font-weight: 400;
+  margin: 0.15rem 0 0.4rem;
+  line-height: 1.3;
+}
+
+.monthly-body {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  margin: 0 0 0.5rem;
+}
+
+.monthly-link {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  margin: 0;
+}
+
+.monthly-link a {
+  text-decoration: none;
+}
+
+.monthly-link a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ---- Photos intro ---- */
+
+.photos-intro {
+  margin-bottom: 0;
+}
+
 /* ---- Shipped Link ---- */
 
 .shipped-link {
