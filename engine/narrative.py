@@ -875,6 +875,15 @@ If none of these shift, prefer holding. Valid hold outcomes:
 Holding language (use when appropriate, not reflexively):
   "nothing new here" / "this looked familiar" / "the same pattern, no stronger" / "no new signal yet"
 
+HOLD / ADVANCE BALANCE:
+Across a 3–5 game window, avoid all HOLD or all ADVANCE outcomes.
+- If the last 2 games held, prefer advancing when a signal is even mildly present.
+- If the last 2 games advanced, require a clearer signal to advance again.
+This is a bias, not a rule. Game truth still overrides.
+
+HOLD DAY MICRO-UPDATE:
+On HOLD days, include one small new detail that did not appear yesterday — a different reliever used, a lineup spot producing, a defensive play, a matchup nuance, or a different player carrying the same thread. One clause only. Do not escalate the main thread unless a real signal changed.
+
 NARRATIVE LENS:
 WHAT THIS GAME MEANS should be driven by one dominant lens. Do not cover multiple — pick the one that best fits the game and argue it.
 
