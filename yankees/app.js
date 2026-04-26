@@ -52,6 +52,16 @@ function renderMasthead(b) {
     $('masthead-subhead').textContent = subhead;
     $('masthead-subhead').hidden = false;
   }
+
+  // Story hook — one-sentence emotional frame below the subhead
+  if (b.story_hook) {
+    const hookEl = document.createElement('p');
+    hookEl.id = 'masthead-hook';
+    hookEl.className = 'masthead-hook';
+    hookEl.textContent = b.story_hook;
+    const subheadEl = $('masthead-subhead');
+    subheadEl.parentNode.insertBefore(hookEl, subheadEl.nextSibling);
+  }
 }
 
 function buildSubhead(b) {
@@ -155,8 +165,8 @@ function renderLastGame(lg) {
     const cp = lg.clutch_player;
     html += `
     <div class="clutch-moment">
-      <span class="clutch-label">Clutch Moment</span>
-      <p class="clutch-text">${cp.name} ${cp.description}</p>
+      <span class="clutch-label">Turning Point</span>
+      <p class="clutch-text"><strong class="clutch-player-name">${cp.name}</strong> ${cp.description}</p>
     </div>`;
   }
 

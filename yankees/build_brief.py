@@ -29,6 +29,8 @@ from engine.narrative import (  # noqa: E402
     save_story_state,
     compute_story_delta,
     generate_narrative_copy,
+    build_story_threads,
+    build_story_hook,
 )
 from engine.clutch import identify_clutch_player  # noqa: E402
 
@@ -124,10 +126,11 @@ def _opponent_abbr(game):
         or game["teams"][side]["team"]["name"]
 
 
-def _generate_game_note(sd_row, opp_row, score, opponent, key_hitters, result):
+def _generate_game_note(sd_row, opp_row, score, opponent, key_hitters, result,
+                        clutch=None, emotion="normal"):
     """
-    One-sentence editorial game note derived from line score patterns.
-    Keeps logic simple: biggest inning, standout hitter, margin shape.
+    One-sentence editorial game note derived from line score and clutch context.
+    When emotion is high/extreme and a clutch player exists, leads with their moment.
     """
     def _int(v):
         try:
@@ -152,6 +155,19 @@ def _generate_game_note(sd_row, opp_row, score, opponent, key_hitters, result):
             hitter_last = best.get("name", "")
         hitter_line = best.get("line", "")
 
+    # Clutch player context
+    clutch_last        = ""
+    clutch_event_lower = ""
+    clutch_inning      = None
+    clutch_reason      = ""
+    if clutch and isinstance(clutch, dict) and clutch.get("confidence") == "high":
+        name  = clutch.get("name", "")
+        parts = name.split()
+        clutch_last       = parts[-1] if (len(parts) >= 2 and parts[-1] != "Jr.") else name
+        clutch_event_lower = (clutch.get("event") or "").lower()
+        clutch_inning      = clutch.get("inning")
+        clutch_reason      = (clutch.get("reason") or "").lower()
+
     # Biggest inning for each team: returns (inning_index, runs)
     def _biggest(ints):
         best = (-1, 0)
@@ -160,10 +176,43 @@ def _generate_game_note(sd_row, opp_row, score, opponent, key_hitters, result):
                 best = (i, v)
         return best
 
-    sd_big = _biggest(sd_ints)
+    sd_big  = _biggest(sd_ints)
     opp_big = _biggest(opp_ints)
 
     if result == "W":
+        # --- Clutch-aware note for high/extreme emotion games ---
+        if emotion in ("high", "extreme") and clutch_last:
+            ci_word = _ordinal_word(clutch_inning or 9)
+            is_walkoff  = "walk-off" in clutch_reason
+            is_go_ahead = "go-ahead" in clutch_reason
+            is_rally    = "rally" in clutch_reason
+            is_tying    = "tying" in clutch_reason
+
+            if is_walkoff:
+                return (f"{clutch_last} walked it off in the {ci_word}"
+                        f" — {CFG.team_city} needed all nine.")
+
+            if is_go_ahead and sd_big[1] >= 3:
+                big_inn = _ordinal_word(sd_big[0] + 1)
+                inning_clause = "" if big_inn == ci_word else f" in the {ci_word}"
+                return (f"A {sd_big[1]}-run {big_inn} flipped the game"
+                        f" — {clutch_last}'s go-ahead {clutch_event_lower}"
+                        f"{inning_clause} was the turn that mattered.")
+
+            if is_go_ahead:
+                return (f"{clutch_last} hit the go-ahead {clutch_event_lower}"
+                        f" in the {ci_word}"
+                        f" to give {CFG.team_city} a lead they didn't surrender.")
+
+            if is_rally and sd_big[1] >= 3:
+                big_inn = _ordinal_word(sd_big[0] + 1)
+                return (f"{clutch_last} triggered the {big_inn}-inning rally"
+                        f" that {CFG.team_city} needed to close the game.")
+
+            if is_tying:
+                return (f"{clutch_last} tied it in the {ci_word}"
+                        f" — {CFG.team_city} finished the comeback from there.")
+
         # Large team inning (4+ runs)
         if sd_big[1] >= 4:
             inn = _ordinal_word(sd_big[0] + 1)
@@ -1536,6 +1585,28 @@ def build():
     story_delta = compute_story_delta(prev_state, story_state)
     print(f"  [emotion] game_emotion_level: {story_state.get('game_emotion_level', 'normal')}", file=sys.stderr)
 
+    # Regenerate game_note with clutch + emotion context now that both are available
+    if last_game.get("status") == "final":
+        ls = last_game.get("linescore") or [[], []]
+        last_game["game_note"] = _generate_game_note(
+            ls[0] if ls else [],
+            ls[1] if len(ls) > 1 else [],
+            last_game.get("score", {}),
+            last_game.get("opponent", ""),
+            last_game.get("key_hitters") or [],
+            last_game.get("result", ""),
+            clutch=last_game.get("clutch_player"),
+            emotion=story_state.get("game_emotion_level", "normal"),
+        )
+
+    # Build story threads + emotional hook
+    story_threads = build_story_threads(story_state, last_game)
+    story_hook    = build_story_hook(story_state, last_game, story_threads)
+    if story_threads:
+        print(f"  [story_threads] {story_threads}", file=sys.stderr)
+    if story_hook:
+        print(f"  [story_hook] {story_hook!r}", file=sys.stderr)
+
     brief_data = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "season": SEASON,
@@ -1546,10 +1617,17 @@ def build():
         "hot_players": {"hitters": [], "pitchers": []},  # placeholder for V1.1
         "subhead": subhead,
         "insight": insight,
+        "story_hook": story_hook,
+        "story_threads_debug": story_threads,
     }
 
     print("Generating narrative copy...", file=sys.stderr)
-    narrative_copy = generate_narrative_copy(brief_data, story_state, story_delta, CFG.team_name)
+    narrative_copy = generate_narrative_copy(
+        brief_data, story_state, story_delta, CFG.team_name,
+        story_threads=story_threads,
+        story_hook=story_hook,
+        looking_ahead_hook=(next_game or {}).get("insight"),
+    )
     save_story_state(story_state, STORY_STATE_PATH)  # always persist so delta works next run
     if narrative_copy:
         brief_data["narrative"] = {

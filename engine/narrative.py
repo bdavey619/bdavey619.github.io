@@ -365,6 +365,158 @@ def compute_story_delta(prev, curr):
 
 
 # ---------------------------------------------------------------------------
+# Story Threads — lightweight recurring narrative tags (internal, not rendered)
+# ---------------------------------------------------------------------------
+
+def build_story_threads(story_state, last_game):
+    """
+    Derive lightweight recurring story threads from current state and game.
+    Returns a list of short thread labels used internally by the narrative engine.
+    Not rendered on page. Capped at 4 threads.
+    """
+    threads = []
+
+    driver   = story_state.get("driver", "")
+    ops      = story_state.get("ops", 0.720)
+    emotion  = story_state.get("game_emotion_level", "normal")
+    trend    = story_state.get("trend", "")
+    pressure = story_state.get("pressure", "low")
+    streak   = story_state.get("streak", "")
+
+    if driver == "pitching" and ops < 0.710:
+        threads.append("pitching carrying quiet offense")
+
+    if driver == "balanced" and trend == "surging":
+        threads.append("both sides clicking")
+
+    if emotion in ("high", "extreme"):
+        lg = last_game or {}
+        clutch = lg.get("clutch_player")
+        if clutch and clutch.get("confidence") == "high":
+            inn = clutch.get("inning") or 0
+            if inn >= 7:
+                threads.append("late-inning rallies")
+
+    if pressure in ("building", "high"):
+        threads.append("division pressure")
+
+    if emotion in ("high", "extreme"):
+        lg = last_game or {}
+        clutch = lg.get("clutch_player")
+        key_hitters = lg.get("key_hitters") or []
+        if (clutch and clutch.get("confidence") == "high" and key_hitters
+                and clutch.get("name") != key_hitters[0].get("name")):
+            threads.append("clutch role players")
+
+    m = re.match(r'^W(\d+)$', streak)
+    if m and int(m.group(1)) >= 3:
+        threads.append("win streak momentum")
+
+    if trend in ("slipping", "fragile"):
+        threads.append("inconsistency")
+
+    return threads[:4]
+
+
+# ---------------------------------------------------------------------------
+# Story Hook — one-sentence emotional framing for the masthead
+# ---------------------------------------------------------------------------
+
+def build_story_hook(story_state, last_game, story_threads=None):
+    """
+    Generate a one-sentence emotional story hook for placement below the subhead.
+
+    Returns empty string when game_emotion_level is 'normal' or no strong hook
+    is warranted. All hooks are grounded in actual game data.
+
+    Rules:
+    - Specific and textured — no generic lines ("Big win", "They found a way")
+    - One sentence max
+    - Should preview the tension explored later in State of Play
+    """
+    emotion = story_state.get("game_emotion_level", "normal")
+    if emotion == "normal":
+        return ""
+
+    if not last_game:
+        return ""
+
+    result  = last_game.get("result", "")
+    clutch  = last_game.get("clutch_player")
+    threads = story_threads or []
+
+    def _to_int(v):
+        try:
+            return int(v)
+        except (TypeError, ValueError):
+            return 0
+
+    linescore = last_game.get("linescore") or [[], []]
+    sd_inn    = [_to_int(v) for v in (linescore[0] if linescore else [])]
+    opp_inn   = [_to_int(v) for v in (linescore[1] if len(linescore) > 1 else [])]
+    n = min(len(sd_inn), len(opp_inn))
+
+    sd_cum  = [sum(sd_inn[:i + 1]) for i in range(n)]
+    opp_cum = [sum(opp_inn[:i + 1]) for i in range(n)]
+    max_deficit = max((opp_cum[i] - sd_cum[i] for i in range(n)), default=0)
+
+    is_home     = last_game.get("home", False)
+    num_innings = len(sd_inn)
+    late_runs   = sum(sd_inn[8:]) if len(sd_inn) > 8 else 0
+
+    is_walkoff = (
+        result == "W" and is_home and num_innings >= 9
+        and len(sd_inn) == len(opp_inn)
+        and sd_inn[-1] > 0
+    )
+
+    clutch_last        = ""
+    clutch_event_lower = ""
+    clutch_reason      = ""
+    if clutch and clutch.get("confidence") == "high":
+        name = clutch.get("name", "")
+        parts = name.split()
+        clutch_last       = parts[-1] if (len(parts) >= 2 and parts[-1] != "Jr.") else name
+        clutch_event_lower = (clutch.get("event") or "").lower()
+        clutch_reason      = (clutch.get("reason") or "").lower()
+
+    if result == "W":
+        if is_walkoff and clutch_last:
+            return f"The box score changed in one swing — {clutch_last} ended the debate."
+        if is_walkoff:
+            return "One swing rewrote the scoreboard. This team is learning when to bide its time."
+
+        if max_deficit >= 4 and clutch_last:
+            return f"Down four and still standing — {clutch_last}'s {clutch_event_lower} was the turn."
+        if max_deficit >= 4:
+            return "A four-run hole doesn't close itself. This one closed in a hurry."
+
+        if late_runs >= 5 and clutch_last:
+            return (f"A quiet game until it wasn't — {clutch_last}'s {clutch_event_lower}"
+                    f" was the inning everyone will remember.")
+        if late_runs >= 4:
+            return "The box score says win; the inning chart says escape."
+
+        if max_deficit >= 2 and clutch_last:
+            return f"They trailed, adjusted, and {clutch_last} delivered the play that mattered."
+        if max_deficit >= 2:
+            return "Another late rally, another reminder this team has learned to survive ugly games."
+
+        if "pitching carrying quiet offense" in threads and clutch_last:
+            return f"The pitching held the door open; {clutch_last} walked through it."
+        if emotion == "high" and clutch_last:
+            return f"{clutch_last} delivered the swing that changed the game's shape."
+
+    elif result == "L":
+        if emotion == "extreme":
+            return "The loss stings more for how close it came — a game that revealed as much as it cost."
+        if emotion == "high":
+            return "They had the moments. They didn't have the finish."
+
+    return ""
+
+
+# ---------------------------------------------------------------------------
 # Narrative generation — Claude writes from structured context
 # ---------------------------------------------------------------------------
 
@@ -377,7 +529,8 @@ def _build_narrative_system(team_name):
     )
 
 
-def _build_narrative_prompt(brief_data, story_state, delta, team_name):
+def _build_narrative_prompt(brief_data, story_state, delta, team_name,
+                            story_threads=None, story_hook=None, looking_ahead_hook=None):
     team      = brief_data["team"]
     last_game = brief_data.get("last_game") or {}
     next_game = brief_data.get("next_game") or {}
@@ -449,6 +602,19 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name):
 - Lead with pattern and meaning, not game events. The editorial stance is the value.
 - Stay calm, analytical, and grounded. Do not manufacture drama from a routine result."""
 
+    # Story threads + hook context
+    threads_text = (
+        "  " + "\n  ".join(story_threads)
+        if story_threads else "  none detected"
+    )
+    story_hook_line = story_hook or "none"
+
+    # Looking ahead hook — from brief_data if not passed explicitly
+    if not looking_ahead_hook:
+        ng = brief_data.get("next_game") or {}
+        looking_ahead_hook = ng.get("insight", "")
+    looking_ahead_line = looking_ahead_hook or "see next game context above"
+
     return f"""Write the editorial core of today's {team_name} Morning Brief.
 
 --- STRUCTURED CONTEXT ---
@@ -462,6 +628,12 @@ STORY STATE (today):
 
 STORY DELTA (what changed vs. yesterday):
 {delta_lines}
+
+STORY THREADS (recurring themes — stay consistent with what the season is about):
+{threads_text}
+
+STORY HOOK (opening emotional frame for this brief — let it inform your TOP FRAME tone):
+  {story_hook_line}
 
 LAST GAME:
   Result:      {result_line}
@@ -478,6 +650,9 @@ TEAM CONTEXT:
 NEXT GAME:
   {next_text}
 
+TONIGHT'S HOOK (for WHAT TO WATCH — connect to this specific tension):
+  {looking_ahead_line}
+
 --- OUTPUT INSTRUCTIONS ---
 
 Write exactly three sections. No headers. No labels. No bullet points. Just clean prose.
@@ -485,11 +660,11 @@ Write exactly three sections. No headers. No labels. No bullet points. Just clea
 1. TOP FRAME (1 sentence, max 25 words)
 A sharp editorial judgment on what today's result means in the context of the season. Not a score recap. A stance.
 
-2. WHAT THIS GAME MEANS (2–3 sentences)
-What does this game confirm, challenge, or reveal about the current narrative? If the story changed, say exactly how. If it held, say what held and why that matters.
+2. WHAT THIS GAME MEANS (90–130 words max)
+What does this game confirm, challenge, or reveal about the current narrative? Name what changed from the prior state — use the STORY DELTA signals to say so concisely. If nothing changed materially, say the pattern held and why that matters. Connect the game to the team's current trend. Be precise.
 
-3. WHAT TO WATCH (1–2 sentences)
-Specific and forward-looking. Name the next game, pitcher, matchup, or pressure point the reader should track. Tie it to what just happened.
+3. WHAT TO WATCH (1 sentence, 35–60 words max)
+Continue the thread from today into tonight. Connect the current story to tonight's specific tension: the pitcher, the matchup, the pressure point, the open question. Do NOT write a schedule preview. Write like the story continues.
 
 {voice_block}
 
@@ -500,6 +675,8 @@ HARD RULES:
 - Do NOT speculate with "could" or "might". Extrapolate from what IS happening.
 - Use specific stats from the context above. Do not invent numbers.
 - Take a clear editorial stance. Use active voice.
+- WHAT THIS GAME MEANS must be 90–130 words. Tight. Name what changed.
+- WHAT TO WATCH must be 1 sentence, 35–60 words. Connect the day's story to tonight's specific tension.
 - If trend is "surging": the question is how long can this hold?
 - If trend is "fragile" or "slipping": be honest about the problem. Do not soften it.
 - If driver is "pitching" and OPS < 0.700: do not frame the offense as fine.
@@ -515,7 +692,8 @@ def _narrative_fallback(reason):
     return None
 
 
-def generate_narrative_copy(brief_data, story_state, delta, team_name):
+def generate_narrative_copy(brief_data, story_state, delta, team_name,
+                            story_threads=None, story_hook=None, looking_ahead_hook=None):
     """
     Call the Anthropic API to generate AI-written narrative copy.
     Returns a dict with top_frame, what_this_means, what_to_watch — or None on failure.
@@ -525,7 +703,12 @@ def generate_narrative_copy(brief_data, story_state, delta, team_name):
     if not api_key:
         return _narrative_fallback("ANTHROPIC_API_KEY is not set")
 
-    prompt = _build_narrative_prompt(brief_data, story_state, delta, team_name)
+    prompt = _build_narrative_prompt(
+        brief_data, story_state, delta, team_name,
+        story_threads=story_threads,
+        story_hook=story_hook,
+        looking_ahead_hook=looking_ahead_hook,
+    )
     system = _build_narrative_system(team_name)
 
     try:

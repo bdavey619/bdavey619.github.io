@@ -111,22 +111,37 @@ def _strip_markdown(text):
 
 
 def _build_clutch_block(clutch):
-    """Return a <tr> block for the clutch moment callout, or empty string."""
+    """Return a <tr> block for the Turning Point callout, or empty string."""
     if not clutch or clutch.get("confidence") != "high":
         return ""
     name = clutch.get("name", "")
     description = clutch.get("description", "")
     if not name or not description:
         return ""
-    display = f"{name} {description}"
     return (
         '<tr>'
         '<td style="padding-top:14px;padding-bottom:16px;border-bottom:1px solid #d8d2c4;">'
-        '<p style="margin:0 0 3px;font-family:-apple-system,BlinkMacSystemFont,\'Helvetica Neue\',Arial,sans-serif;'
-        'font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#8a8278;font-weight:600;">'
-        'Clutch Moment</p>'
+        '<p style="margin:0 0 4px;font-family:-apple-system,BlinkMacSystemFont,\'Helvetica Neue\',Arial,sans-serif;'
+        'font-size:10px;text-transform:uppercase;letter-spacing:0.12em;color:#5a534c;font-weight:700;">'
+        'Turning Point</p>'
         '<p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,\'Helvetica Neue\',Arial,sans-serif;'
-        f'font-size:14px;font-style:italic;color:#1a1613;line-height:1.5;">{display}</p>'
+        f'font-size:15px;font-style:italic;color:#1a1613;line-height:1.5;">'
+        f'<strong style="font-style:normal;font-weight:700;">{name}</strong> {description}</p>'
+        '</td>'
+        '</tr>'
+    )
+
+
+def _build_story_hook_block(story_hook):
+    """Return a <tr> block for the story hook below the subhead, or empty string."""
+    if not story_hook:
+        return ""
+    return (
+        '<tr>'
+        '<td align="center" style="padding:0 0 18px;">'
+        '<p style="margin:0;font-family:Georgia,\'Times New Roman\',serif;'
+        'font-size:14px;font-style:italic;font-weight:400;color:#8a8278;line-height:1.45;">'
+        f'{story_hook}</p>'
         '</td>'
         '</tr>'
     )
@@ -234,6 +249,7 @@ def main():
     context = {
         "brief_date":        fmt_brief_date(),
         "subhead":           brief.get("subhead", ""),
+        "story_hook_block":  _build_story_hook_block(brief.get("story_hook", "")),
         "score_display":     score_display,
         "result_label":      result_label,
         "result_color":      result_color,

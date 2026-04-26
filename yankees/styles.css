@@ -44,6 +44,18 @@ main {
   line-height: 1.4;
 }
 
+.masthead-hook {
+  font-family: var(--serif);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--ink-faint);
+  text-align: center;
+  margin-top: 6px;
+  letter-spacing: 0.005em;
+  line-height: 1.45;
+}
+
 .masthead-meta {
   display: flex;
   justify-content: space-between;
@@ -188,25 +200,29 @@ main {
 .highlights-link:hover { text-decoration: underline; }
 
 .clutch-moment {
-  margin: 12px 0 16px;
-  padding: 10px 0 2px;
-  border-top: 1px solid var(--rule-soft);
+  margin: 14px 0 18px;
+  padding: 12px 0 4px;
+  border-top: 2px solid var(--rule-soft);
 }
 .clutch-label {
   display: block;
   font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--ink-faint);
-  font-weight: 600;
-  margin-bottom: 4px;
+  letter-spacing: 0.12em;
+  color: var(--ink-soft);
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 .clutch-text {
-  font-size: 14px;
+  font-size: 15px;
   font-style: italic;
   color: var(--ink);
   line-height: 1.5;
   margin: 0;
+}
+.clutch-player-name {
+  font-style: normal;
+  font-weight: 700;
 }
 
 .linescore {

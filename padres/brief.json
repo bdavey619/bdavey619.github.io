@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T04:07:36+00:00",
+  "generated_at": "2026-04-26T04:39:44+00:00",
   "season": 2026,
   "team": {
     "record": "18-8",
@@ -80,7 +80,7 @@
     },
     "context_line": "Away \u00b7 Estadio Alfredo Harp Helu \u00b7 Day game",
     "highlights_url": "https://www.youtube.com/results?search_query=SD+vs+AZ+highlights+April+25+2026+MLB",
-    "game_note": "A 4-run seventh \u2014 highlighted by a France home run \u2014 gave San Diego the cushion it needed.",
+    "game_note": "A 4-run seventh flipped the game \u2014 Laureano's go-ahead sac fly was the turn that mattered.",
     "full_box": {
       "batting": [
         {
@@ -287,38 +287,11 @@
     "detail": "San Diego has won eight of their last ten despite a .683 OPS \u2014 the staff ERA of 3.63 has been doing the heavy lifting while the lineup finds its footing. Sitting in first place on a 3.63 ERA while the offense has been quiet means the pitching is carrying more than its share.",
     "why": "staff carrying (3.63 ERA) \u00b7 quiet bats (.683 OPS) \u00b7 8\u20132 in the last ten"
   },
-  "narrative": {
-    "top_frame": "Ram\u00f3n Laureano's seventh-inning sac fly broke open a grinding ballgame and extended the Padres' win streak to two\u2014proof that their pitching can carry games when the lineup remains stuck at .233.",
-    "what_this_means": "This game confirmed what the last five days have whispered: the Padres are winning because their arms are working. Germ\u00e1n M\u00e1rquez held Arizona to four runs across six innings on a day when the offense mustered only six hits and struck out ten times. Ty France's two home runs felt significant not because they were flashy but because they were necessary\u2014the Padres scored just six runs and needed every one of them. Laureano's moment in the seventh, a selfless swing that moved the runner and brought home what became the go-ahead run, encapsulates how this team is winning right now: not through lineup explosions but through the marriage of competent pitching and clutch small baseball. The offense is not carrying this club. The pitching staff is. And that's a precarious foundation when your team batting average sits at .233 and your OPS is .683.",
-    "what_to_watch": "Michael King takes the ball tomorrow afternoon against Arizona in what amounts to a test of whether this pitching-dependent surge can sustain itself. The Padres are 18-8 and leading the division\u2014records that demand this streak hold. Watch whether King's start reveals a rotation hitting its ceiling or one still climbing.",
-    "story_state": {
-      "trend": "surging",
-      "driver": "pitching",
-      "confidence": "high",
-      "pressure": "building",
-      "record_w": 18,
-      "record_l": 8,
-      "streak": "W2",
-      "last10_w": 8,
-      "era": 3.63,
-      "ops": 0.683,
-      "gb": 0.0,
-      "division_rank": 1,
-      "last_result": "W",
-      "date": "2026-04-25",
-      "game_emotion_level": "extreme"
-    },
-    "story_delta": {
-      "has_prev": true,
-      "trend_changed": false,
-      "trend_direction": "unchanged",
-      "conf_changed": false,
-      "pressure_changed": false,
-      "driver_changed": false,
-      "signals": [
-        "won last game",
-        "win streak extended to W2"
-      ]
-    }
-  }
+  "story_hook": "Down four and still standing \u2014 Laureano's sac fly was the turn.",
+  "story_threads_debug": [
+    "pitching carrying quiet offense",
+    "late-inning rallies",
+    "division pressure",
+    "clutch role players"
+  ]
 }
