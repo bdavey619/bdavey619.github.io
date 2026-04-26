@@ -225,6 +225,32 @@ main {
   font-weight: 700;
 }
 
+.game-driver {
+  margin: 14px 0 4px;
+  padding: 12px 0 4px;
+  border-top: 1px solid var(--rule-soft);
+}
+.game-driver-label {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-soft);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.game-driver-text {
+  font-size: 15px;
+  font-style: italic;
+  color: var(--ink);
+  line-height: 1.5;
+  margin: 0;
+}
+.game-driver-name {
+  font-style: normal;
+  font-weight: 700;
+}
+
 .linescore {
   font-family: var(--mono);
   font-size: 13px;

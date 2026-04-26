@@ -422,7 +422,7 @@ def build_story_threads(story_state, last_game):
 # Story Hook — one-sentence emotional framing for the masthead
 # ---------------------------------------------------------------------------
 
-def build_story_hook(story_state, last_game, story_threads=None):
+def build_story_hook(story_state, last_game, story_threads=None, game_driver=None):
     """
     Generate a one-sentence emotional story hook for placement below the subhead.
 
@@ -432,6 +432,7 @@ def build_story_hook(story_state, last_game, story_threads=None):
     Rules:
     - Specific and textured — no generic lines ("Big win", "They found a way")
     - One sentence max
+    - When game_driver and clutch_player are different, name both
     - Should preview the tension explored later in State of Play
     """
     emotion = story_state.get("game_emotion_level", "normal")
@@ -480,32 +481,73 @@ def build_story_hook(story_state, last_game, story_threads=None):
         clutch_event_lower = (clutch.get("event") or "").lower()
         clutch_reason      = (clutch.get("reason") or "").lower()
 
+    # Game driver context — only use when high/medium confidence
+    driver_last  = ""
+    driver_hr    = 0
+    driver_conf  = ""
+    driver_name  = ""
+    if game_driver and game_driver.get("confidence") in ("high", "medium"):
+        driver_name = game_driver.get("name", "")
+        driver_conf = game_driver.get("confidence", "")
+        dparts = driver_name.split()
+        driver_last = dparts[-1] if (len(dparts) >= 2 and dparts[-1] not in ("Jr.", "Sr.")) else driver_name
+        m = re.search(r'(\d+)-HR', game_driver.get("reason") or "")
+        driver_hr = int(m.group(1)) if m else 0
+
+    # Determine if we have two distinct players to name
+    has_dual = (
+        driver_last
+        and clutch_last
+        and driver_name != (clutch or {}).get("name", "")
+    )
+
     if result == "W":
-        if is_walkoff and clutch_last:
-            return f"The box score changed in one swing — {clutch_last} ended the debate."
         if is_walkoff:
+            if has_dual:
+                return (f"{driver_last} powered the offense; {clutch_last} ended it.")
+            if clutch_last:
+                return f"The box score changed in one swing — {clutch_last} ended the debate."
             return "One swing rewrote the scoreboard. This team is learning when to bide its time."
 
-        if max_deficit >= 4 and clutch_last:
-            return f"Down four and still standing — {clutch_last}'s {clutch_event_lower} was the turn."
         if max_deficit >= 4:
+            if has_dual and driver_hr >= 2:
+                return (f"Two {driver_last} homers kept them alive; "
+                        f"{clutch_last}'s {clutch_event_lower} finished the climb.")
+            if has_dual:
+                return (f"Down four and still standing — {driver_last} supplied the power, "
+                        f"{clutch_last} delivered the turn.")
+            if clutch_last:
+                return f"Down four and still standing — {clutch_last}'s {clutch_event_lower} was the turn."
             return "A four-run hole doesn't close itself. This one closed in a hurry."
 
-        if late_runs >= 5 and clutch_last:
-            return (f"A quiet game until it wasn't — {clutch_last}'s {clutch_event_lower}"
-                    f" was the inning everyone will remember.")
-        if late_runs >= 4:
+        if late_runs >= 5:
+            if has_dual:
+                return (f"A quiet game until it wasn't — {driver_last} did the damage, "
+                        f"{clutch_last}'s {clutch_event_lower} sealed it.")
+            if clutch_last:
+                return (f"A quiet game until it wasn't — {clutch_last}'s {clutch_event_lower}"
+                        f" was the inning everyone will remember.")
             return "The box score says win; the inning chart says escape."
 
-        if max_deficit >= 2 and clutch_last:
-            return f"They trailed, adjusted, and {clutch_last} delivered the play that mattered."
         if max_deficit >= 2:
+            if has_dual:
+                return (f"They trailed, {driver_last} powered them back, "
+                        f"and {clutch_last} finished the job.")
+            if clutch_last:
+                return f"They trailed, adjusted, and {clutch_last} delivered the play that mattered."
             return "Another late rally, another reminder this team has learned to survive ugly games."
 
-        if "pitching carrying quiet offense" in threads and clutch_last:
-            return f"The pitching held the door open; {clutch_last} walked through it."
-        if emotion == "high" and clutch_last:
-            return f"{clutch_last} delivered the swing that changed the game's shape."
+        if "pitching carrying quiet offense" in threads:
+            if has_dual:
+                return f"The pitching held the door open; {driver_last} and {clutch_last} walked through it."
+            if clutch_last:
+                return f"The pitching held the door open; {clutch_last} walked through it."
+
+        if emotion == "high":
+            if has_dual:
+                return f"{driver_last} powered it; {clutch_last} finished it."
+            if clutch_last:
+                return f"{clutch_last} delivered the swing that changed the game's shape."
 
     elif result == "L":
         if emotion == "extreme":
@@ -530,7 +572,8 @@ def _build_narrative_system(team_name):
 
 
 def _build_narrative_prompt(brief_data, story_state, delta, team_name,
-                            story_threads=None, story_hook=None, looking_ahead_hook=None):
+                            story_threads=None, story_hook=None, looking_ahead_hook=None,
+                            game_driver=None):
     team      = brief_data["team"]
     last_game = brief_data.get("last_game") or {}
     next_game = brief_data.get("next_game") or {}
@@ -571,19 +614,30 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
     clutch = last_game.get("clutch_player")
     if clutch and clutch.get("confidence") == "high":
         clutch_block = (
-            f"\nCLUTCH MOMENT (play-by-play, HIGH CONFIDENCE):\n"
+            f"\nTURNING POINT (play-by-play, HIGH CONFIDENCE):\n"
             f"  {clutch['name']} — {clutch['event']}, inning {clutch['inning']}\n"
             f"  {clutch['name']} {clutch['description']}\n"
             f"  Reason: {clutch['reason']}"
         )
     elif clutch and clutch.get("confidence") == "low":
         clutch_block = (
-            f"\nCLUTCH MOMENT (fallback — box score only, LOW CONFIDENCE):\n"
+            f"\nTURNING POINT (fallback — box score only, LOW CONFIDENCE):\n"
             f"  {clutch['name']}: {clutch['event']}\n"
             f"  Do NOT anchor the narrative on this player."
         )
     else:
-        clutch_block = "\nCLUTCH MOMENT: none detected"
+        clutch_block = "\nTURNING POINT: none detected"
+
+    # Game driver context (deterministic, from box score)
+    gd = game_driver or last_game.get("game_driver")
+    if gd and gd.get("confidence") in ("high", "medium"):
+        game_driver_block = (
+            f"\nGAME DRIVER (overall performance that most shaped the game, {gd['confidence'].upper()} CONFIDENCE):\n"
+            f"  {gd['name']} — {gd['reason']}\n"
+            f"  {gd['name']} {gd['description']}"
+        )
+    else:
+        game_driver_block = "\nGAME DRIVER: none detected"
 
     emotion = story_state.get("game_emotion_level", "normal")
     if emotion == "extreme":
@@ -640,6 +694,7 @@ LAST GAME:
   Key pitcher: {pitcher_text}
   Key hitters: {hitters_text}
   Offense:     {offense_note}
+{game_driver_block}
 {clutch_block}
 
 TEAM CONTEXT:
@@ -681,7 +736,10 @@ HARD RULES:
 - If trend is "fragile" or "slipping": be honest about the problem. Do not soften it.
 - If driver is "pitching" and OPS < 0.700: do not frame the offense as fine.
 - If delta signals show no change: acknowledge the story did not move today and say what that means.
-- CLUTCH MOMENT: If confidence is HIGH, anchor the narrative on that player's moment when writing WHAT THIS GAME MEANS. Name the player and what they did. Use it to explain what fans will remember — not just the outcome, but who made it happen. If confidence is LOW or none detected, do not force a clutch reference.
+- GAME DRIVER vs TURNING POINT: These are different and both matter. The Game Driver explains who shaped the game overall; the Turning Point explains when the game flipped. When both exist and are different players, use both — name the Game Driver in WHAT THIS GAME MEANS and explain their contribution. Do not let the Turning Point crowd out the Game Driver.
+- When a hitter had a 2+ HR game (Game Driver, high confidence), they MUST be mentioned by name in WHAT THIS GAME MEANS, even if someone else had the Turning Point. A go-ahead sac fly does not overshadow a 2-HR game.
+- Dual-player framing: "France powered it; Laureano finished it." Use this structure when Game Driver and Turning Point are different. Name who shaped the game, then name who flipped it.
+- TURNING POINT: If confidence is HIGH, mention that player's moment in context — but after establishing the Game Driver's contribution if one exists. If no Game Driver, anchor the narrative on the Turning Point player. If confidence is LOW or none detected, do not force a clutch reference.
 
 Output format: three paragraphs separated by a blank line. Nothing else."""
 
@@ -693,7 +751,8 @@ def _narrative_fallback(reason):
 
 
 def generate_narrative_copy(brief_data, story_state, delta, team_name,
-                            story_threads=None, story_hook=None, looking_ahead_hook=None):
+                            story_threads=None, story_hook=None, looking_ahead_hook=None,
+                            game_driver=None):
     """
     Call the Anthropic API to generate AI-written narrative copy.
     Returns a dict with top_frame, what_this_means, what_to_watch — or None on failure.
@@ -708,6 +767,7 @@ def generate_narrative_copy(brief_data, story_state, delta, team_name,
         story_threads=story_threads,
         story_hook=story_hook,
         looking_ahead_hook=looking_ahead_hook,
+        game_driver=game_driver,
     )
     system = _build_narrative_system(team_name)
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T04:49:11+00:00",
+  "generated_at": "2026-04-26T05:16:35+00:00",
   "season": 2026,
   "team": {
     "record": "18-8",
@@ -225,6 +225,13 @@
       "description": "hit the go-ahead sac fly in the seventh (5\u20134).",
       "reason": "go-ahead play in the seventh",
       "confidence": "high"
+    },
+    "game_driver": {
+      "name": "Ty France",
+      "type": "hitter",
+      "reason": "2-HR game",
+      "description": "powered the offense with 2 home runs.",
+      "confidence": "high"
     }
   },
   "next_game": {
@@ -287,44 +294,11 @@
     "detail": "San Diego has won eight of their last ten despite a .683 OPS \u2014 the staff ERA of 3.63 has been doing the heavy lifting while the lineup finds its footing. Sitting in first place on a 3.63 ERA while the offense has been quiet means the pitching is carrying more than its share.",
     "why": "staff carrying (3.63 ERA) \u00b7 quiet bats (.683 OPS) \u00b7 8\u20132 in the last ten"
   },
-  "story_hook": "Down four and still standing \u2014 Laureano's sac fly was the turn.",
+  "story_hook": "Two France homers kept them alive; Laureano's sac fly finished the climb.",
   "story_threads_debug": [
     "pitching carrying quiet offense",
     "late-inning rallies",
     "division pressure",
     "clutch role players"
-  ],
-  "narrative": {
-    "top_frame": "Ram\u00f3n Laureano's sac fly in the seventh inning turned a fourth-down deficit into the winning play, proving this pitching-led surge has teeth.",
-    "what_this_means": "Down four runs into the seventh inning of a road game, most teams fold. The Padres didn't. Laureano's sacrifice fly\u2014a moment of discipline and purpose in a game where San Diego scattered just six hits against Arizona\u2014became the defining play of a 6-4 victory that extended the winning streak to two and locked the team at 8-2 over its last ten games. This is the texture of the current surge: Germ\u00e1n M\u00e1rquez holding damage to four runs across six innings, Ty France delivering the two-run power (2-4, two home runs), and then role players like Sheets and Laureano delivering the clutch execution when it mattered most. The offense remains historically quiet at .233 average and 0.683 OPS, struck out ten times yesterday, but it no longer needs to carry the team. The pitching is doing that. What changed is the margin of victory shifted from desperate late rallies to controlled, earned comebacks. Division-leading record (18-8) now feels less fragile.",
-    "what_to_watch": "Michael King's 2.84 ERA over his last four starts meets Arizona again tonight, and the question isn't whether the Padres can keep winning\u2014it's whether King can replicate the bullpen depth that made yesterday's comeback possible when the pressure is this high.",
-    "story_state": {
-      "trend": "surging",
-      "driver": "pitching",
-      "confidence": "high",
-      "pressure": "building",
-      "record_w": 18,
-      "record_l": 8,
-      "streak": "W2",
-      "last10_w": 8,
-      "era": 3.63,
-      "ops": 0.683,
-      "gb": 0.0,
-      "division_rank": 1,
-      "last_result": "W",
-      "date": "2026-04-25",
-      "game_emotion_level": "extreme"
-    },
-    "story_delta": {
-      "has_prev": true,
-      "trend_changed": false,
-      "trend_direction": "unchanged",
-      "conf_changed": false,
-      "pressure_changed": false,
-      "driver_changed": false,
-      "signals": [
-        "won last game"
-      ]
-    }
-  }
+  ]
 }

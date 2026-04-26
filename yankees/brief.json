@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T04:40:03+00:00",
+  "generated_at": "2026-04-26T05:16:59+00:00",
   "season": 2026,
   "team": {
     "record": "18-9",
@@ -230,7 +230,8 @@
       "description": "hit the go-ahead home run in the seventh (3\u20132).",
       "reason": "go-ahead play in the seventh",
       "confidence": "high"
-    }
+    },
+    "game_driver": null
   },
   "next_game": {
     "gamePk": 824202,

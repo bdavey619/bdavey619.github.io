@@ -110,6 +110,34 @@ def _strip_markdown(text):
     return text
 
 
+def _build_game_driver_block(game_driver, clutch_name=None):
+    """Return a <tr> block for the Game Driver callout, or empty string.
+
+    Only rendered when confidence is high or medium and the driver is a
+    different player than the clutch player (Turning Point).
+    """
+    if not game_driver or game_driver.get("confidence") not in ("high", "medium"):
+        return ""
+    name = game_driver.get("name", "")
+    description = game_driver.get("description", "")
+    if not name or not description:
+        return ""
+    if clutch_name and name == clutch_name:
+        return ""
+    return (
+        '<tr>'
+        '<td style="padding-top:14px;padding-bottom:8px;">'
+        '<p style="margin:0 0 4px;font-family:-apple-system,BlinkMacSystemFont,\'Helvetica Neue\',Arial,sans-serif;'
+        'font-size:10px;text-transform:uppercase;letter-spacing:0.12em;color:#5a534c;font-weight:700;">'
+        'Game Driver</p>'
+        '<p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,\'Helvetica Neue\',Arial,sans-serif;'
+        f'font-size:15px;font-style:italic;color:#1a1613;line-height:1.5;">'
+        f'<strong style="font-style:normal;font-weight:700;">{name}</strong> {description}</p>'
+        '</td>'
+        '</tr>'
+    )
+
+
 def _build_clutch_block(clutch):
     """Return a <tr> block for the Turning Point callout, or empty string."""
     if not clutch or clutch.get("confidence") != "high":
@@ -246,18 +274,22 @@ def main():
     existing_context = lg.get("context_line", "")
     context_line_with_date = f"{game_date_short} · {existing_context}" if existing_context else game_date_short
 
+    clutch = lg.get("clutch_player") or {}
+    clutch_name = clutch.get("name", "") if clutch else ""
+
     context = {
-        "brief_date":        fmt_brief_date(),
-        "subhead":           brief.get("subhead", ""),
-        "story_hook_block":  _build_story_hook_block(brief.get("story_hook", "")),
-        "score_display":     score_display,
-        "result_label":      result_label,
-        "result_color":      result_color,
-        "vs_line":           vs_line,
-        "context_line":      context_line_with_date,
-        "game_note":         lg.get("game_note", ""),
-        "highlights_link":   build_highlights_link(lg.get("highlights_url")),
-        "clutch_block":      _build_clutch_block(lg.get("clutch_player")),
+        "brief_date":           fmt_brief_date(),
+        "subhead":              brief.get("subhead", ""),
+        "story_hook_block":     _build_story_hook_block(brief.get("story_hook", "")),
+        "score_display":        score_display,
+        "result_label":         result_label,
+        "result_color":         result_color,
+        "vs_line":              vs_line,
+        "context_line":         context_line_with_date,
+        "game_note":            lg.get("game_note", ""),
+        "highlights_link":      build_highlights_link(lg.get("highlights_url")),
+        "game_driver_block":    _build_game_driver_block(lg.get("game_driver"), clutch_name),
+        "clutch_block":         _build_clutch_block(lg.get("clutch_player")),
         "key_hitters_rows":  key_hitters_rows,
         "pitcher_name":      pitcher.get("name", ""),
         "pitcher_line":      pitcher.get("line", ""),

@@ -33,6 +33,7 @@ from engine.narrative import (  # noqa: E402
     build_story_hook,
 )
 from engine.clutch import identify_clutch_player  # noqa: E402
+from engine.story_signals import identify_game_driver  # noqa: E402
 
 CFG = PADRES
 
@@ -1560,6 +1561,25 @@ def build():
     else:
         last_game["clutch_player"] = None
 
+    print("Detecting game driver...", file=sys.stderr)
+    if last_game.get("status") == "final":
+        game_driver = identify_game_driver(
+            last_game.get("full_box"),
+            last_game.get("key_hitters") or [],
+            last_game.get("key_pitcher"),
+        )
+        last_game["game_driver"] = game_driver
+        if game_driver:
+            print(
+                f"  game_driver: {game_driver['name']} — {game_driver['reason']}"
+                f" ({game_driver['confidence']})",
+                file=sys.stderr,
+            )
+        else:
+            print("  game_driver: none detected", file=sys.stderr)
+    else:
+        last_game["game_driver"] = None
+
     print("Fetching next game...", file=sys.stderr)
     next_game, next_game_raw = get_next_game()
 
@@ -1601,7 +1621,8 @@ def build():
 
     # Build story threads + emotional hook
     story_threads = build_story_threads(story_state, last_game)
-    story_hook    = build_story_hook(story_state, last_game, story_threads)
+    story_hook    = build_story_hook(story_state, last_game, story_threads,
+                                     game_driver=last_game.get("game_driver"))
     if story_threads:
         print(f"  [story_threads] {story_threads}", file=sys.stderr)
     if story_hook:
@@ -1627,6 +1648,7 @@ def build():
         story_threads=story_threads,
         story_hook=story_hook,
         looking_ahead_hook=(next_game or {}).get("insight"),
+        game_driver=last_game.get("game_driver"),
     )
     save_story_state(story_state, STORY_STATE_PATH)  # always persist so delta works next run
     if narrative_copy:

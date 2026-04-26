@@ -161,6 +161,19 @@ function renderLastGame(lg) {
     html += `<a class="highlights-link" href="${lg.highlights_url}" target="_blank" rel="noopener noreferrer">Watch highlights &#8594;</a>`;
   }
 
+  // Game Driver — overall performance that shaped the game (shown before Turning Point)
+  if (lg.game_driver && (lg.game_driver.confidence === 'high' || lg.game_driver.confidence === 'medium')) {
+    const gd = lg.game_driver;
+    const clutchName = lg.clutch_player?.name;
+    if (!clutchName || gd.name !== clutchName) {
+      html += `
+    <div class="game-driver">
+      <span class="game-driver-label">Game Driver</span>
+      <p class="game-driver-text"><strong class="game-driver-name">${gd.name}</strong> ${gd.description}</p>
+    </div>`;
+    }
+  }
+
   if (lg.clutch_player && lg.clutch_player.confidence === 'high') {
     const cp = lg.clutch_player;
     html += `

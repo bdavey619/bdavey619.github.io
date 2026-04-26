@@ -93,7 +93,10 @@
             </td>
           </tr>
 
-          <!-- Clutch Moment (injected when clutch_player exists with high confidence) -->
+          <!-- Game Driver (injected when game_driver differs from clutch_player) -->
+          {{game_driver_block}}
+
+          <!-- Turning Point (injected when clutch_player exists with high confidence) -->
           {{clutch_block}}
 
           <!-- Insight block -->
