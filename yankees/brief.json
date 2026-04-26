@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T05:16:59+00:00",
+  "generated_at": "2026-04-26T11:43:33+00:00",
   "season": 2026,
   "team": {
     "record": "18-9",
@@ -299,5 +299,38 @@
     "late-inning rallies",
     "division pressure",
     "clutch role players"
-  ]
+  ],
+  "narrative": {
+    "top_frame": "They needed a swing\u2014Wells delivered in the seventh, and this team didn't fold.",
+    "what_this_means": "The pattern is holding: balanced contributions, late-inning execution, and role players delivering when it matters. Jos\u00e9 Caballero went 3-for-5 with a homer; Ben Rice and Austin Wells added hits when the moment came. Weathers (5.1 IP, 4 K, 3.21 ERA) did his job cleanly, kept the damage contained. Nothing spectacular. But on an eight-game win streak with the best record in the division, this is what winning looks like\u2014not dominant, not fragile, just complete. The formula works because no single player has to carry it. Every piece had a moment last night. That is the strength of this run right now.",
+    "what_to_watch": "Now the question is whether Gil can extend this streak. Houston again\u2014and the margin for a ninth straight win is measured in single moments.",
+    "story_state": {
+      "trend": "surging",
+      "driver": "balanced",
+      "confidence": "high",
+      "pressure": "building",
+      "record_w": 18,
+      "record_l": 9,
+      "streak": "W8",
+      "last10_w": 9,
+      "era": 3.1,
+      "ops": 0.765,
+      "gb": 0.0,
+      "division_rank": 1,
+      "last_result": "W",
+      "date": "2026-04-25",
+      "game_emotion_level": "high"
+    },
+    "story_delta": {
+      "has_prev": true,
+      "trend_changed": false,
+      "trend_direction": "unchanged",
+      "conf_changed": false,
+      "pressure_changed": false,
+      "driver_changed": false,
+      "signals": [
+        "won last game"
+      ]
+    }
+  }
 }
