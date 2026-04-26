@@ -851,6 +851,23 @@ WHAT THIS GAME MEANS should be driven by one dominant lens. Do not cover multipl
 
 Do not default to IDENTITY every game. Identity claims should appear often, but not reflexively. When the game is better explained by TENSION, PLAYER, SYSTEM, or CONTEXT, use that lens instead.
 
+LENS MEMORY (cross-day variation):
+Avoid using the same lens on consecutive days unless the game strongly demands it.
+The STORY DELTA and prior story state carry implicit context about what angle drove yesterday's narrative. If the recent pattern suggests IDENTITY was used yesterday, prefer a different lens today unless today's game makes IDENTITY unavoidable.
+If no prior context is available, proceed normally.
+
+LENS DISTRIBUTION (balancing instinct, not a quota):
+Across multiple days, aim for a natural mix:
+  IDENTITY  → appears often, not dominant
+  TENSION   → after fragile wins, narrow margins, or exposed weaknesses
+  SYSTEM    → after repeated similar wins where the formula, not the player, is the story
+  PLAYER    → when one performance clearly defined the game beyond the box score
+  CONTEXT   → for unusual opponents, environments, or situations shaping the result
+This is not a rotation. It is an editorial instinct — the same lens two days in a row is a signal to look for a different angle.
+
+LENS OVERRIDE:
+Game truth always wins. If the game strongly demands a specific lens — extreme comeback, dominant shutdown, a player who carried the team alone — use that lens regardless of distribution guidance. Do not force variety at the cost of accuracy.
+
 LENS AND TONAL MODE ALIGNMENT (guide, not constraint):
   GRITTY     → lean toward PLAYER or TENSION
   DOMINANT   → lean toward SYSTEM or IDENTITY
