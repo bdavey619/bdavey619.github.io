@@ -110,6 +110,28 @@ def _strip_markdown(text):
     return text
 
 
+def _build_clutch_block(clutch):
+    """Return a <tr> block for the clutch moment callout, or empty string."""
+    if not clutch or clutch.get("confidence") != "high":
+        return ""
+    name = clutch.get("name", "")
+    description = clutch.get("description", "")
+    if not name or not description:
+        return ""
+    display = f"{name} {description}"
+    return (
+        '<tr>'
+        '<td style="padding-top:14px;padding-bottom:16px;border-bottom:1px solid #d8d2c4;">'
+        '<p style="margin:0 0 3px;font-family:-apple-system,BlinkMacSystemFont,\'Helvetica Neue\',Arial,sans-serif;'
+        'font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#8a8278;font-weight:600;">'
+        'Clutch Moment</p>'
+        '<p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,\'Helvetica Neue\',Arial,sans-serif;'
+        f'font-size:14px;font-style:italic;color:#1a1613;line-height:1.5;">{display}</p>'
+        '</td>'
+        '</tr>'
+    )
+
+
 def _build_what_to_watch_block(text):
     """Return a self-contained <table> block for the What to Watch section.
     Returns empty string when no text — the {{what_to_watch_block}} placeholder
@@ -219,6 +241,7 @@ def main():
         "context_line":      context_line_with_date,
         "game_note":         lg.get("game_note", ""),
         "highlights_link":   build_highlights_link(lg.get("highlights_url")),
+        "clutch_block":      _build_clutch_block(lg.get("clutch_player")),
         "key_hitters_rows":  key_hitters_rows,
         "pitcher_name":      pitcher.get("name", ""),
         "pitcher_line":      pitcher.get("line", ""),

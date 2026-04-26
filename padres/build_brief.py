@@ -30,6 +30,7 @@ from engine.narrative import (  # noqa: E402
     compute_story_delta,
     generate_narrative_copy,
 )
+from engine.clutch import identify_clutch_player  # noqa: E402
 
 CFG = PADRES
 
@@ -1490,6 +1491,25 @@ def build():
 
     print("Fetching last game...", file=sys.stderr)
     last_game = get_last_game()
+
+    print("Detecting clutch moment...", file=sys.stderr)
+    if last_game.get("status") == "final":
+        clutch = identify_clutch_player(
+            last_game["gamePk"],
+            last_game["home"],
+            fallback_hitters=last_game.get("key_hitters"),
+        )
+        last_game["clutch_player"] = clutch
+        if clutch:
+            print(
+                f"  clutch: {clutch['name']} — {clutch['event']}"
+                f" (inn {clutch['inning']}, {clutch['confidence']})",
+                file=sys.stderr,
+            )
+        else:
+            print("  clutch: none detected", file=sys.stderr)
+    else:
+        last_game["clutch_player"] = None
 
     print("Fetching next game...", file=sys.stderr)
     next_game, next_game_raw = get_next_game()

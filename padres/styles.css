@@ -187,6 +187,28 @@ main {
 }
 .highlights-link:hover { text-decoration: underline; }
 
+.clutch-moment {
+  margin: 12px 0 16px;
+  padding: 10px 0 2px;
+  border-top: 1px solid var(--rule-soft);
+}
+.clutch-label {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-faint);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.clutch-text {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--ink);
+  line-height: 1.5;
+  margin: 0;
+}
+
 .linescore {
   font-family: var(--mono);
   font-size: 13px;

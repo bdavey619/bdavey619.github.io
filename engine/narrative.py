@@ -414,6 +414,24 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name):
     team_ks   = sum(b.get("so", 0) for b in batting)
     offense_note = f"{team_hits} hits, {team_ks} strikeouts" if batting else ""
 
+    # Clutch moment context (deterministic, from play-by-play)
+    clutch = last_game.get("clutch_player")
+    if clutch and clutch.get("confidence") == "high":
+        clutch_block = (
+            f"\nCLUTCH MOMENT (play-by-play, HIGH CONFIDENCE):\n"
+            f"  {clutch['name']} — {clutch['event']}, inning {clutch['inning']}\n"
+            f"  {clutch['name']} {clutch['description']}\n"
+            f"  Reason: {clutch['reason']}"
+        )
+    elif clutch and clutch.get("confidence") == "low":
+        clutch_block = (
+            f"\nCLUTCH MOMENT (fallback — box score only, LOW CONFIDENCE):\n"
+            f"  {clutch['name']}: {clutch['event']}\n"
+            f"  Do NOT anchor the narrative on this player."
+        )
+    else:
+        clutch_block = "\nCLUTCH MOMENT: none detected"
+
     emotion = story_state.get("game_emotion_level", "normal")
     if emotion == "extreme":
         voice_block = """VOICE — EXTREME EMOTION (game_emotion_level: extreme):
@@ -450,6 +468,7 @@ LAST GAME:
   Key pitcher: {pitcher_text}
   Key hitters: {hitters_text}
   Offense:     {offense_note}
+{clutch_block}
 
 TEAM CONTEXT:
   Record: {team.get('record')} · Streak: {team.get('streak')} · Last 10: {team.get('last10')}
@@ -485,6 +504,7 @@ HARD RULES:
 - If trend is "fragile" or "slipping": be honest about the problem. Do not soften it.
 - If driver is "pitching" and OPS < 0.700: do not frame the offense as fine.
 - If delta signals show no change: acknowledge the story did not move today and say what that means.
+- CLUTCH MOMENT: If confidence is HIGH, anchor the narrative on that player's moment when writing WHAT THIS GAME MEANS. Name the player and what they did. Use it to explain what fans will remember — not just the outcome, but who made it happen. If confidence is LOW or none detected, do not force a clutch reference.
 
 Output format: three paragraphs separated by a blank line. Nothing else."""
 

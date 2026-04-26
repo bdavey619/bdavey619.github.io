@@ -151,6 +151,15 @@ function renderLastGame(lg) {
     html += `<a class="highlights-link" href="${lg.highlights_url}" target="_blank" rel="noopener noreferrer">Watch highlights &#8594;</a>`;
   }
 
+  if (lg.clutch_player && lg.clutch_player.confidence === 'high') {
+    const cp = lg.clutch_player;
+    html += `
+    <div class="clutch-moment">
+      <span class="clutch-label">Clutch Moment</span>
+      <p class="clutch-text">${cp.name} ${cp.description}</p>
+    </div>`;
+  }
+
   html += renderLinescore(lg);
   html += renderDecisions(lg.decisions);
 
