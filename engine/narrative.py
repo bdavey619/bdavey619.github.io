@@ -683,11 +683,13 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
 - TOP FRAME must open with the dramatic event. Make the moment feel real and earned — not hyped.
 - WHAT THIS GAME MEANS: be vivid. Lead with the emotional core of what happened, then connect it back to the larger team narrative.
 - Genuine energy is appropriate. But stay editorial. No all-caps, no exclamation marks, no manufactured urgency.
+- Earned emotion comes from the game situation itself — late rally, blown lead, walk-off, big comeback, dominant pitching, gutty escape. Let the situation carry the weight. Do not narrate the feeling; show it through the facts.
 - Forbidden phrases: "for the ages", "absolute madness", "unbelievable scenes", "one they'll never forget", "chaos", "mayhem"."""
     elif emotion == "high":
         voice_block = """VOICE — HIGH EMOTION (game_emotion_level: high):
 - TOP FRAME should acknowledge the key game event — the go-ahead run, the comeback, the dominant individual performance.
 - WHAT THIS GAME MEANS: open with what happened, then zoom out to what it signals about this team right now.
+- Show more feeling where the game earns it — late rally, comeback, dominant pitching, gutty escape. Do not manufacture drama where the game does not warrant it.
 - Some energy is appropriate but stay controlled. Analytical precision should still come through."""
     else:
         voice_block = """VOICE — NORMAL (game_emotion_level: normal):
@@ -765,8 +767,16 @@ The section must also include at least one short, memorable sentence under 12 wo
 
 Use plain, direct fan language. Replace analytical constructions ("this represents", "this illustrates") with concrete statements ("they needed it", "he delivered", "that was the game"). Avoid academic tone, over-qualification, and unnecessary metaphors.
 
+SENTENCE RHYTHM: Vary sentence length. Mix short punchy lines with medium explanatory sentences. Do not stack multiple one-liners in a row — short sentences land as emphasis, not as a style unto themselves.
+
 3. WHAT TO WATCH (1 sentence, 35–55 words max)
 Answer: what tension from today's story continues into tonight? Name the open question that tonight's game will test. Use TONIGHT'S HOOK as context — do NOT quote its stat or restate it. Translate it into narrative tension. Write like the story is still moving, not like a preview.
+
+SMART-FAN VOICE:
+Write like someone who watched the game and understands this team's ongoing story. Favor concrete baseball language over generic analysis. Use phrases that feel lived-in and specific, not polished and empty.
+
+Personality allowed: dry understatement, mild edge, concise judgment, fan-aware phrasing.
+Personality to avoid: sports-radio clichés, exaggerated doom, fake hype, academic phrasing, generic motivational language.
 
 {voice_block}
 
