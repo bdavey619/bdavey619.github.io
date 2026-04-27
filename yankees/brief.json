@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T12:21:35+00:00",
+  "generated_at": "2026-04-27T21:47:27+00:00",
   "season": 2026,
   "team": {
     "record": "18-10",
@@ -283,9 +283,9 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "The surge stops when the pitching breaks.",
-    "what_this_means": "Luis Gil could not survive the second inning\u2014six earned runs on four innings of work\u2014and Houston seized what should have been a winnable day game. This is the cost of balance when one side crumbles. The Yankees are 18\u201310 and still lead the division, but the 3.26 ERA is climbing and that matters more than the record right now. Pitching carried them through the win streak. Now it is the vulnerability. They needed depth and depth failed. Jazz Chisholm Jr. started a ninth-inning rally that made the final score respectable, but respectability does not erase the structural problem: when the starter exits early, the margin vanishes. They are still winning because the lineup is real and the arms behind Gil are holding. But this game revealed the exact threshold\u2014this is the thing that breaks the formula.",
-    "what_to_watch": "Now the question is whether tonight's start from Max Fried steadies the narrative or confirms that the pitching slide is the story, not a blip.",
+    "top_frame": "The formula broke when it mattered most.",
+    "what_this_means": "Luis Gil couldn't hold the line. Four innings, six runs\u2014that's not a bridging start, that's a collapse. Houston was chasing from the first inning, and the Yankees were always a step behind after that. They clawed back late with the offense showing signs in the eighth and ninth, but a four-run deficit is a margin that doesn't forgive early damage. Goldschmidt and Chisholm each found hits, and the ninth-inning rally started with Chisholm's single\u2014but starting a fight in the ninth is not the same as winning it. This is a team built on balanced contribution, on both sides doing their job. Today, the pitching side didn't hold its half. The loss breaks the eight-wins-in-ten run and costs them in a division where every game carries weight. They had the game within reach late. They didn't finish it.",
+    "what_to_watch": "Now the question is whether this was a Gil blip or a sign that the pitching edge\u2014the thing that's kept them at the top of the division\u2014can collapse on any given day.",
     "story_state": {
       "trend": "surging",
       "driver": "balanced",
@@ -311,9 +311,7 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "lost last game",
-        "streak flipped: W8 \u2192 L1",
-        "ERA worsened: 3.10 \u2192 3.26"
+        "lost last game"
       ]
     }
   }
