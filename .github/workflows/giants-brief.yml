@@ -1,0 +1,56 @@
+name: Giants Morning Brief
+
+on:
+  schedule:
+    # 5:00 AM Pacific Time / 8:00 AM Eastern / 12:00 UTC (UTC-7 during PDT)
+    # Staggered 60 minutes after Yankees (0 11) to avoid resource contention.
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-brief:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate brief.json
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python giants/build_brief.py
+
+      - name: Render email HTML
+        run: python render_email.py --team giants
+
+      - name: Send email
+        env:
+          RESEND_API_KEY: ${{ secrets.GIANTS_RESEND_API_KEY }}
+          EMAIL_TO: ${{ secrets.GIANTS_EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.GIANTS_EMAIL_FROM }}
+        run: python send_email.py --team giants
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add giants/brief.json giants/story_state.json
+          if git diff --cached --quiet; then
+            echo "No changes to brief.json — skipping commit."
+          else
+            git commit -m "chore: update Giants morning brief [skip ci]"
+            git restore .
+            git pull --rebase origin main
+            git push
+          fi

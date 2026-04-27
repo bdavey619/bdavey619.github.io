@@ -735,6 +735,26 @@ Application rules:
 - 1–2 word choices or sentence rhythm shifts only. Not an entire costume.
 - Do not announce or name the voice.
 - Game truth still wins over voice consistency."""
+    elif team_name == "Giants":
+        team_voice_block = """TEAM VOICE PROFILE — GIANTS (apply subtly, do NOT announce):
+Identity: streaky, weathered, experienced. Wins feel managed, not dominant. Nothing is ever easy.
+
+Language to lean into (1–2 uses per brief, not every sentence):
+  "ground out" / "worked through" / "just enough again" / "never comfortable" / "they made it hold"
+
+Editorial bias:
+- Expect uneven performance — this team runs hot and cold
+- See wins as managed outcomes, not dominant statements
+- Lean into veteran/crafty tone over power or flash
+- NL West division rivals are Dodgers, Padres, Rockies, Diamondbacks — not AL East
+
+Sentence feel: dry, understated, slightly world-weary. More craft than power. Grounded in process.
+Reference vibe: "They didn't blow anyone out. They didn't need to."
+
+Application rules:
+- 1–2 word choices or sentence rhythm shifts only. Not an entire costume.
+- Do not announce or name the voice.
+- Game truth still wins over voice consistency."""
     else:
         team_voice_block = ""
 

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Giants Morning Brief</title>
+  <style>
+    @media only screen and (max-width: 620px) {
+      .wrapper { width: 100% !important; padding: 0 16px !important; }
+      .masthead-title { font-size: 28px !important; }
+      .score-text { font-size: 32px !important; }
+    }
+  </style>
+</head>
+<body style="margin:0;padding:0;background-color:#faf8f3;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color:#faf8f3;">
+    <tr>
+      <td align="center" style="padding:36px 16px 52px;">
+
+        <!-- Outer wrapper -->
+        <table class="wrapper" width="580" cellpadding="0" cellspacing="0" border="0" role="presentation" style="max-width:580px;width:100%;">
+
+          <!-- Meta row: date + label -->
+          <tr>
+            <td style="padding-bottom:10px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                <tr>
+                  <td style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#5a534c;font-weight:600;">{{brief_date}}</td>
+                  <td align="right" style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#8a8278;font-weight:500;">Morning Brief</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Title -->
+          <tr>
+            <td align="center" style="padding-bottom:0;">
+              <h1 class="masthead-title" style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:46px;font-weight:900;line-height:1;letter-spacing:-0.02em;color:#FD5A1E;">Giants Morning Brief</h1>
+            </td>
+          </tr>
+
+          <!-- Double rule -->
+          <tr>
+            <td style="padding:14px 0 0;">
+              <div style="height:4px;background-color:#1a1613;font-size:0;line-height:0;">&nbsp;</div>
+              <div style="height:1px;background-color:#1a1613;margin-top:2px;font-size:0;line-height:0;">&nbsp;</div>
+            </td>
+          </tr>
+
+          <!-- Subhead -->
+          <tr>
+            <td align="center" style="padding:14px 0 10px;">
+              <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:15px;font-style:italic;font-weight:700;color:#5a534c;line-height:1.45;letter-spacing:0.01em;">{{subhead}}</p>
+            </td>
+          </tr>
+
+          <!-- Story hook (emotional one-liner below subhead, omitted when empty) -->
+          {{story_hook_block}}
+
+          <!-- Score line -->
+          <tr>
+            <td style="padding-top:14px;">
+              <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                <tr>
+                  <td style="padding-right:10px;vertical-align:middle;">
+                    <span class="score-text" style="font-family:Georgia,'Times New Roman',serif;font-size:42px;font-weight:900;line-height:1;letter-spacing:-0.02em;color:#1a1613;">{{score_display}}</span>
+                  </td>
+                  <td style="padding-right:10px;vertical-align:middle;">
+                    <span style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:3px 7px;border:1px solid {{result_color}};color:{{result_color}};">{{result_label}}</span>
+                  </td>
+                  <td style="vertical-align:middle;">
+                    <span style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:13px;color:#5a534c;text-transform:uppercase;letter-spacing:0.08em;">{{vs_line}}</span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Context line -->
+          <tr>
+            <td style="padding-top:6px;padding-bottom:8px;">
+              <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#8a8278;font-weight:500;">{{context_line}}</p>
+            </td>
+          </tr>
+
+          <!-- Game note -->
+          <tr>
+            <td style="padding-bottom:18px;border-bottom:1px solid #d8d2c4;">
+              <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:14px;color:#5a534c;font-style:italic;line-height:1.55;">{{game_note}}</p>
+              {{highlights_link}}
+            </td>
+          </tr>
+
+          <!-- Game Driver (injected when game_driver differs from clutch_player) -->
+          {{game_driver_block}}
+
+          <!-- Turning Point (injected when clutch_player exists with high confidence) -->
+          {{clutch_block}}
+
+          <!-- Insight block -->
+          <tr>
+            <td style="padding-top:18px;padding-bottom:20px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color:#fff0e8;border-left:4px solid #FD5A1E;">
+                <tr>
+                  <td style="padding:15px 18px;">
+
+                    <!-- Insight section header -->
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                      <tr>
+                        <td style="border-bottom:2px solid #FD5A1E;padding-bottom:7px;">
+                          <span style="font-family:Georgia,'Times New Roman',serif;font-size:19px;font-weight:700;letter-spacing:-0.01em;color:#1a1613;">State of Play</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding-top:9px;padding-bottom:5px;">
+                          <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:17px;font-weight:700;line-height:1.35;color:#1a1613;">{{insight_headline}}</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding-bottom:8px;">
+                          <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:14px;color:#5a534c;line-height:1.55;">{{insight_detail}}</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- What to Watch (injected when narrative present) -->
+                    {{what_to_watch_block}}
+
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Divider before hitters -->
+          <tr>
+            <td style="padding-bottom:10px;">
+              <div style="height:1px;background-color:#d8d2c4;font-size:0;line-height:0;">&nbsp;</div>
+            </td>
+          </tr>
+
+          <!-- At the plate label -->
+          <tr>
+            <td style="padding-top:4px;padding-bottom:4px;">
+              <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#8a8278;font-weight:600;">At the Plate</p>
+            </td>
+          </tr>
+
+          <!-- Key hitters (rows injected here) -->
+          {{key_hitters_rows}}
+
+          <!-- On the mound label -->
+          <tr>
+            <td style="padding-top:10px;padding-bottom:4px;">
+              <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#8a8278;font-weight:600;">On the Mound</p>
+            </td>
+          </tr>
+
+          <!-- Key pitcher -->
+          <tr>
+            <td style="padding-bottom:20px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                <tr>
+                  <td style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;color:#1a1613;padding:4px 0;">{{pitcher_name}}</td>
+                  <td align="right" style="font-family:'Courier New',Courier,monospace;font-size:13px;color:#5a534c;padding:4px 0;">{{pitcher_line}}</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Today teaser -->
+          <tr>
+            <td style="padding-bottom:{{next_insight_pb}};" align="center">
+              <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#5a534c;font-weight:600;">Today &middot; {{next_opponent}} &middot; {{next_time}} &middot; {{next_probables}}</p>
+            </td>
+          </tr>
+          {{next_insight_row}}
+
+          <!-- Footer -->
+          <tr>
+            <td style="border-top:1px solid #d8d2c4;padding-top:20px;" align="center">
+              <p style="margin:0 0 6px;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:13px;color:#5a534c;line-height:1.5;"><a href="{{site_url}}" style="color:#FD5A1E;font-weight:600;text-decoration:underline;">View the full brief &#8594;</a></p>
+              <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:#8a8278;">{{generated_at}}</p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

@@ -43,6 +43,23 @@ PADRES = TeamConfig(
     accent_color="#2f241d",
 )
 
+GIANTS = TeamConfig(
+    team_id=137,
+    team_abbr="SF",
+    team_name="Giants",
+    team_city="San Francisco",
+    home_venue="Oracle Park",
+    home_venue_short="Oracle",
+    league_id=104,
+    division_id=203,
+    division_name="NL West",
+    division_short="West",
+    tz_offset=-7,
+    tz_label="PT",
+    site_url="https://bdavey619.github.io/giants/",
+    accent_color="#FD5A1E",
+)
+
 YANKEES = TeamConfig(
     team_id=147,
     team_abbr="NYY",

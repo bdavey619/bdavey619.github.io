@@ -1,0 +1,17 @@
+{
+  "trend": "stabilizing",
+  "driver": "balanced",
+  "confidence": "medium",
+  "pressure": "low",
+  "record_w": 13,
+  "record_l": 15,
+  "streak": "W2",
+  "last10_w": 7,
+  "era": 3.83,
+  "ops": 0.667,
+  "gb": 6.0,
+  "division_rank": 4,
+  "last_result": "W",
+  "date": "2026-04-26",
+  "game_emotion_level": "high"
+}

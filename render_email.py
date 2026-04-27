@@ -20,11 +20,12 @@ ROOT = Path(__file__).parent
 
 # Load the team config for SITE_URL
 sys.path.insert(0, str(ROOT))
-from engine.team_config import PADRES, YANKEES  # noqa: E402
+from engine.team_config import PADRES, YANKEES, GIANTS  # noqa: E402
 
 _TEAM_CONFIGS = {
     "padres":  PADRES,
     "yankees": YANKEES,
+    "giants":  GIANTS,
 }
 
 
