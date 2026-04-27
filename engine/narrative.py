@@ -908,6 +908,30 @@ Write:
 LANGUAGE TIGHTENING:
 Prefer shorter phrasing over clever phrasing. Fewer clauses, fewer metaphors, no semicolon constructions that explain themselves ("not a breakout; it was a necessity meeting opportunity"). Write the direct version instead.
 
+ANTI-GENERIC LANGUAGE:
+Avoid phrases that summarize broadly without adding a specific angle or judgment.
+
+Do NOT write:
+- "the inconsistency that has defined the season"
+- "this team has struggled with..."
+- "they have shown flashes but..."
+- "the season has been up and down"
+
+Force specificity tied to THIS game instead:
+  ❌ "the inconsistency that's defined the season got louder"
+  ✅ "they needed one clean inning — they didn't get it"
+  ✅ "the same problem showed up again, just louder"
+
+  ❌ "this team has struggled to finish games"
+  ✅ "they had the game — they didn't finish it"
+
+Every sentence must do at least one of:
+  1. Make a claim about TODAY'S game
+  2. Extend a CURRENT thread
+  3. Make a specific judgment
+
+If it does none of the above → rewrite or cut.
+
 TONAL VARIATION:
 Let the game type shape the writing — subtly, not conspicuously.
   GRITTY     → shorter sentences, physical verbs ("held on", "scratched out", "didn't break", "survived")
