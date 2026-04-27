@@ -802,6 +802,12 @@ Use plain, direct fan language. Replace analytical constructions ("this represen
 
 SENTENCE RHYTHM: Vary sentence length. Mix short punchy lines with medium explanatory sentences. Do not stack multiple one-liners in a row — short sentences land as emphasis, not as a style unto themselves.
 
+Do not over-explain the thesis.
+State the idea once, clearly, then support it with one concrete example.
+
+Avoid repeating the same concept in multiple forms.
+Trust the reader to carry the idea forward.
+
 3. WHAT TO WATCH (1–2 sentences max, under 45 words)
 Job: carry one unresolved tension forward — not a schedule preview, not a generic pregame note. The tension must grow directly out of WHAT THIS GAME MEANS, not introduce a new topic. Make tonight feel like the next chapter of the same story.
 Express one clear tension. Avoid multi-clause sentences and abstract phrasing.
@@ -809,11 +815,51 @@ Preferred openers: "Now the question is…" / "Tonight will show…" / "The next
 Answer: what tension from today's story continues into tonight? Name the open question that tonight's game will test. Use TONIGHT'S HOOK as context — do NOT quote its stat or restate it. Translate it into narrative tension. Write like the story is still moving, not like a preview.
 Avoid broadcast-preview phrasing ("can they keep it going?", "looking to build on", "they'll need"). Frame it as an unresolved question from the argument you just made in WHAT THIS GAME MEANS.
 
+GAME FLOW REALISM:
+Write as if you watched the game unfold — not as if you're summarizing a box score.
+
+Anchor the narrative in how the game moved:
+* When did it break?
+* When did it feel over?
+* When did it shift?
+* Was it tight late or decided early?
+
+Prefer:
+* "They were chasing after the second."
+* "The game got away in one inning."
+* "They never recovered from that stretch."
+
+Avoid:
+* Abstract sequencing ("over the course of the game…")
+* Full inning-by-inning recounting
+
+Pattern to follow:
+Moment → Meaning → Implication
+
+Not:
+Summary → Explanation → Restatement
+
 SMART-FAN VOICE:
 Write like someone who watched the game and understands this team's ongoing story. Favor concrete baseball language over generic analysis. Use phrases that feel lived-in and specific, not polished and empty.
 
 Personality allowed: dry understatement, mild edge, concise judgment, fan-aware phrasing.
 Personality to avoid: sports-radio clichés, exaggerated doom, fake hype, academic phrasing, generic motivational language.
+
+CLAUSE CONTROL:
+Avoid stacking multiple clauses in a single sentence.
+
+Prefer:
+* One idea per sentence
+* Occasional short sentences for emphasis
+
+Break sentences instead of extending them.
+
+Example:
+Instead of:
+"Gil struggled early and Houston took advantage and the Yankees never recovered"
+
+Write:
+"Gil struggled early. Houston took advantage. They never recovered."
 
 LANGUAGE TIGHTENING:
 Prefer shorter phrasing over clever phrasing. Fewer clauses, fewer metaphors, no semicolon constructions that explain themselves ("not a breakout; it was a necessity meeting opportunity"). Write the direct version instead.
@@ -839,6 +885,34 @@ When naming a player's contribution, vary the construction.
 Avoid always using the same verb frame ("France delivered", "Laureano finished").
 Allow: "France gave them a chance", "Laureano was the swing that mattered", "France was the only reason they were still in it", "that was Laureano's moment".
 Vary phrasing across sections. Do not repeat the same verb for the same player.
+
+BULLPEN AWARENESS:
+The bullpen is part of the story — not optional context.
+
+When relevant, include how the game was finished:
+
+Look for:
+* Shutdown relief (clean innings, preserved lead)
+* Collapse (blew lead, gave game away)
+* Bridge moments (middle relief holding a fragile game)
+* Closer leverage (tight 9th, pressure outs)
+
+Examples:
+* "The bullpen held the line from there."
+* "They handed it to the bullpen and it stuck."
+* "The lead didn't survive the middle innings."
+* "That game was over once it reached the back end."
+
+Do NOT force bullpen mention if irrelevant.
+
+But if:
+* Starter exits early
+* Game is close late
+* Lead changes hands after the 6th
+
+→ bullpen should be part of the explanation.
+
+Closers and high-leverage relievers (e.g. dominant arms) should be named when they define the outcome.
 
 STORY THREAD CONTINUITY:
 WHAT THIS GAME MEANS should reinforce or evolve at least one active STORY THREAD when the game supports it. Do not introduce a new storyline unless today's game clearly creates one.
@@ -940,6 +1014,7 @@ HARD RULES:
 - If trend is "fragile" or "slipping": be honest about the problem. Do not soften it.
 - If driver is "pitching" and OPS < 0.700: do not frame the offense as fine.
 - If delta signals show no change: acknowledge the story did not move today and say what that means.
+- LATE-INNING WEIGHT: Late innings (6th–9th) carry more narrative importance than early innings. If the game turned late, anchor the story there. Early-game events should only matter if they defined the outcome.
 - GAME DRIVER vs TURNING POINT: These are different and both matter. The Game Driver explains who shaped the game overall; the Turning Point explains when the game flipped. When both exist and are different players, use both — name the Game Driver in WHAT THIS GAME MEANS and explain their role. Do not let the Turning Point crowd out the Game Driver.
 - When a hitter had a 2+ HR game (Game Driver, high confidence), they MUST be mentioned by name in WHAT THIS GAME MEANS, even if someone else had the Turning Point. A go-ahead sac fly does not overshadow a 2-HR game.
 - Dual-player framing when Game Driver ≠ Turning Point: briefly name the Game Driver's role first, then the Turning Point's moment. One sentence each. This is context, not recap.
