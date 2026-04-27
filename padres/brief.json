@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T12:05:03+00:00",
+  "generated_at": "2026-04-27T20:44:22+00:00",
   "season": 2026,
   "team": {
     "record": "18-9",
@@ -305,9 +305,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "The margin is real now, and yesterday exposed it.",
-    "what_this_means": "This is where inconsistency stops looking like variance and starts looking like a pattern. Manny Machado kept them alive with two home runs\u20145 RBIs, the offense's only real answer to Arizona's attack\u2014but it wasn't enough. They scored 6 runs and lost by 5. The ERA ballooned from 3.63 to 3.96. The division gap widened to half a game. Michael King pitched cleanly for six innings and it didn't matter. This is the fragile part: they can generate offense, they can get solid pitching, and they can still get beaten soundly. The balance they've built isn't balance yet\u2014it's dependency masked as depth. Down 0.5 games in the division with an unforgiving schedule ahead, the Padres no longer have room for games where both sides show up. One component has to dominate. Yesterday, nothing did.",
-    "what_to_watch": "Now the question is whether Randy V\u00e1squez, sitting on a 2.43 ERA over his last four starts, can be that dominating piece tonight against Chicago\u2014or whether the formula breaks again before it can set.",
+    "top_frame": "The formula collapsed when it mattered most\u2014and Machado's power wasn't enough.",
+    "what_this_means": "Arizona got ahead early and stayed there. The Padres chased from the second inning on, scratched out eleven hits, but couldn't finish. Machado kept them alive with two home runs and five RBIs\u2014he did his job. Michael King was sharp, holding them to just two earned runs over six innings. The numbers looked respectable. The result didn't. This is the fragility that haunts this team: they had the moments, just not the finish. King exited before the game was truly decided, and whatever came after didn't hold. A loss in Mexico City, a half-game from first place, and the inconsistency that's defined the season got louder.",
+    "what_to_watch": "The pattern is becoming harder to ignore. This team has Machado driving runs when the game is on the line\u2014that's real, that's repeatable. But one player's power doesn't move you out of second place when the rest of the offense sits at .235. The pitching is holding up (3.96 ERA in a division that can hit). The problem is margin: they're winning on thin ones, and losing the same way. Machado's night proved the bats can show up. It didn't prove they can finish together. You need the whole thing to click in the same inning, not in relay. This loss wasn't about Arizona being better. It was about the Padres not being complete enough.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
@@ -327,21 +327,13 @@
     },
     "story_delta": {
       "has_prev": true,
-      "trend_changed": true,
-      "trend_direction": "declined",
-      "conf_changed": true,
-      "pressure_changed": true,
-      "driver_changed": true,
+      "trend_changed": false,
+      "trend_direction": "unchanged",
+      "conf_changed": false,
+      "pressure_changed": false,
+      "driver_changed": false,
       "signals": [
-        "trend declined: surging \u2192 fragile",
-        "confidence down: high \u2192 medium",
-        "pressure increased: building \u2192 high",
-        "driver shifted: pitching \u2192 balanced",
-        "lost last game",
-        "streak flipped: W2 \u2192 L1",
-        "ERA worsened: 3.63 \u2192 3.96",
-        "OPS up: 0.683 \u2192 0.693",
-        "division gap: fell back 0.5 game(s) (0.5 back)"
+        "lost last game"
       ]
     }
   }
