@@ -50,6 +50,7 @@ jobs:
             echo "No changes to brief.json — skipping commit."
           else
             git commit -m "chore: update Padres morning brief [skip ci]"
+            git restore .
             git pull --rebase origin main
             git push
           fi
