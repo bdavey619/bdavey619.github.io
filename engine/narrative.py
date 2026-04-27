@@ -948,6 +948,26 @@ Avoid the same opening structure day after day.
 - Vary sentence length, clause order, and paragraph shape.
 Natural variation only — do not force novelty. Clarity first, variety second.
 
+PHRASE VARIATION — IDENTITY CLAIMS:
+Avoid reusing the same sentence structure or phrasing for identity claims across outputs.
+
+If a sentence feels like a "perfect summary line" (e.g. "the formula broke when it mattered most"), treat it as one valid expression — not the default.
+
+Do NOT recycle these constructions:
+- "the formula broke"
+- "this is the cost of..."
+- "this works until it doesn't"
+
+Vary the angle instead:
+  outcome   → "they had the game — they didn't finish it"
+  cause     → "it unraveled in the second inning"
+  threshold → "this is where the margin disappears"
+  structure → "this kind of game doesn't survive early damage"
+  judgment  → "this isn't good enough to win in this division"
+
+Each identity claim should feel like a fresh angle on the same truth — not the same sentence reused.
+Clarity over novelty. Do not force cleverness — just avoid duplication.
+
 PLAYER LANGUAGE VARIATION:
 When naming a player's contribution, vary the construction.
 Avoid always using the same verb frame ("France delivered", "Laureano finished").
