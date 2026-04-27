@@ -696,6 +696,48 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
 - Lead with pattern and meaning, not game events. The editorial stance is the value.
 - Stay calm, analytical, and grounded. Do not manufacture drama from a routine result."""
 
+    # Team voice profile — team-specific editorial filter applied on top of general voice rules
+    if team_name == "Padres":
+        team_voice_block = """TEAM VOICE PROFILE — PADRES (apply subtly, do NOT announce):
+Identity: gritty, resourceful, slightly suspicious of their own success. Wins feel earned, not assumed.
+
+Language to lean into (1–2 uses per brief, not every sentence):
+  "scratched out" / "just enough" / "held up" / "didn't break" / "thin margin"
+
+Editorial bias:
+- Trust the pitching more than the offense
+- Stay skeptical of whether the bats can sustain what the staff sets up
+- Treat close wins as earned, but fragile — not as confirmation of excellence
+
+Sentence feel: slightly physical, grounded, a little scrappy. Understated rather than grand.
+Reference vibe: "They didn't have much. They had enough."
+
+Application rules:
+- 1–2 word choices or sentence rhythm shifts only. Not an entire costume.
+- Do not announce or name the voice.
+- Game truth still wins over voice consistency."""
+    elif team_name == "Yankees":
+        team_voice_block = """TEAM VOICE PROFILE — YANKEES (apply subtly, do NOT announce):
+Identity: expectation-heavy, analytical, impatient with avoidable failure. Wins are expected; losses demand explanation.
+
+Language to lean into (1–2 uses per brief, not every sentence):
+  "should have" / "margin" / "cost" / "threshold" / "exposed" / "standard"
+
+Editorial bias:
+- Hold the team to a higher baseline expectation
+- Be less forgiving of sloppy, avoidable losses
+- When something fails, name what failed to meet the standard
+
+Sentence feel: cleaner, sharper, slightly colder, more evaluative than warm.
+Reference vibe: "They had the game. They didn't finish it."
+
+Application rules:
+- 1–2 word choices or sentence rhythm shifts only. Not an entire costume.
+- Do not announce or name the voice.
+- Game truth still wins over voice consistency."""
+    else:
+        team_voice_block = ""
+
     # Story threads + hook context
     threads_text = (
         "  " + "\n  ".join(story_threads)
@@ -861,6 +903,8 @@ Instead of:
 Write:
 "Gil struggled early. Houston took advantage. They never recovered."
 
+{team_voice_block}
+
 LANGUAGE TIGHTENING:
 Prefer shorter phrasing over clever phrasing. Fewer clauses, fewer metaphors, no semicolon constructions that explain themselves ("not a breakout; it was a necessity meeting opportunity"). Write the direct version instead.
 
@@ -913,6 +957,41 @@ But if:
 → bullpen should be part of the explanation.
 
 Closers and high-leverage relievers (e.g. dominant arms) should be named when they define the outcome.
+
+If a reliever or closer has repeatedly protected narrow leads, locked down late innings, or appeared in high-leverage spots across recent games, treat that as a possible player arc — not just a today observation.
+Examples:
+* "The back end of the bullpen is becoming where games are decided."
+* "The bridge to the ninth is starting to look like the real separator."
+* "The bullpen didn't just survive the game; it defined the finish."
+
+PLAYER ARC AWARENESS (internal — do NOT output arc labels):
+When a player appears repeatedly in meaningful moments, treat them as an evolving story — not a one-off stat line.
+
+Use available context to detect arc potential:
+- Same player named as both GAME DRIVER and TURNING POINT today → strongest single-game signal
+- A player appearing in STORY THREADS as a recurring presence (e.g. "clutch role players", "pitching carrying quiet offense")
+- STORY DELTA showing a performance pattern that is shifting the team's trend
+
+Arc types (internal framing only — never output the label):
+  ASCENDING    → player becoming more important; recent impact is increasing
+  CARRYING     → team depending on them heavily; repeated high production or high-leverage usage
+  FRAGILE      → current success looks hard to sustain — volatile or thin margin
+  SLIPPING     → trend moving the wrong direction; repeated missed chances or failed outings
+  STABILIZING  → player bringing order to chaos; fits bullpen arms, veteran bats, defensive anchors
+
+How to write arc language (only when evidence supports it):
+  "is becoming…" / "is starting to look like…" / "keeps showing up…"
+  "is carrying…" / "is stabilizing…" / "is slipping…"
+
+Constraints:
+- Do NOT pretend one good game is a trend
+- Do NOT force arc language every day
+- Do NOT turn every key hitter into a storyline
+- Only use arc language when the pattern is visible or strongly suggested by available context
+- STORY THREADS are the primary arc memory available — read them as arc signals
+- When a thread recurs (e.g. "clutch role players"), the player associated with it is a candidate for arc framing
+
+DATA NOTE: No multi-game player arc history is passed in this prompt. Use STORY THREADS and STORY DELTA as proxies. Future versions may include a player arc history object for stronger arc memory across 5–7 games.
 
 STORY THREAD CONTINUITY:
 WHAT THIS GAME MEANS should reinforce or evolve at least one active STORY THREAD when the game supports it. Do not introduce a new storyline unless today's game clearly creates one.
