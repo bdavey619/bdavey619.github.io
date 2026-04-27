@@ -67,7 +67,7 @@ def fmt_generated_at(ts_str):
         return ts_str
 
 
-def build_highlights_link(url):
+def build_highlights_link(url, accent_color):
     """Return an inline HTML highlights CTA, or empty string if no URL."""
     if not url:
         return ""
@@ -75,7 +75,7 @@ def build_highlights_link(url):
         '<p style="margin:8px 0 0;">'
         f'<a href="{url}" style="font-family:-apple-system,BlinkMacSystemFont,\'Helvetica Neue\',Arial,sans-serif;'
         'font-size:11px;letter-spacing:0.08em;text-transform:uppercase;'
-        'color:#003087;font-weight:600;text-decoration:none;">'
+        f'color:{accent_color};font-weight:600;text-decoration:none;">'
         "Watch highlights &#8594;</a></p>"
     )
 
@@ -287,7 +287,7 @@ def main():
         "vs_line":              vs_line,
         "context_line":         context_line_with_date,
         "game_note":            lg.get("game_note", ""),
-        "highlights_link":      build_highlights_link(lg.get("highlights_url")),
+        "highlights_link":      build_highlights_link(lg.get("highlights_url"), cfg.accent_color),
         "game_driver_block":    _build_game_driver_block(lg.get("game_driver"), clutch_name),
         "clutch_block":         _build_clutch_block(lg.get("clutch_player")),
         "key_hitters_rows":  key_hitters_rows,
