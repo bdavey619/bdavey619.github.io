@@ -1,0 +1,309 @@
+{
+  "generated_at": "2026-04-28T16:51:41+00:00",
+  "season": 2026,
+  "team": {
+    "record": "15-13",
+    "streak": "W1",
+    "run_diff": "-8",
+    "last10": "5-5",
+    "division_rank": 1,
+    "games_back": "-",
+    "avg": ".241",
+    "ops": ".709",
+    "era": "4.42"
+  },
+  "last_game": {
+    "status": "final",
+    "gamePk": 822911,
+    "date": "2026-04-26",
+    "opponent": "TEX",
+    "home": false,
+    "result": "W",
+    "score": {
+      "team": 2,
+      "opp": 1
+    },
+    "linescore": [
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "decisions": {
+      "win": "Justin Sterner",
+      "win_role": "RP",
+      "win_team": "team",
+      "loss": "Kumar Rocker",
+      "loss_role": "SP",
+      "loss_team": "opp",
+      "save": "Jack Perkins",
+      "save_role": "RP",
+      "save_team": "team"
+    },
+    "key_hitters": [
+      {
+        "name": "Carlos Cortes",
+        "line": "3-4, 2 RBI",
+        "pos": "RF",
+        "season_avg": ".377"
+      },
+      {
+        "name": "Shea Langeliers",
+        "line": "2-5",
+        "pos": "C",
+        "season_avg": ".304"
+      }
+    ],
+    "key_pitcher": {
+      "name": "J.T. Ginn",
+      "line": "3.1 IP, 3 H, 0 ER, 2 K",
+      "role": "SP",
+      "season_era": "3.24"
+    },
+    "context_line": "Away \u00b7 Globe Life Field \u00b7 Day game",
+    "highlights_url": "https://www.youtube.com/results?search_query=ATH+vs+TEX+highlights+April+26+2026+MLB",
+    "game_note": "Cortes's bat helped the Athletics hold off TEX.",
+    "full_box": {
+      "batting": [
+        {
+          "name": "Nick Kurtz",
+          "pos": "1B",
+          "avg": ".242",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "so": 2
+        },
+        {
+          "name": "Shea Langeliers",
+          "pos": "C",
+          "avg": ".304",
+          "ab": 5,
+          "r": 0,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Tyler Soderstrom",
+          "pos": "LF",
+          "avg": ".215",
+          "ab": 3,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 2,
+          "so": 1
+        },
+        {
+          "name": "Brent Rooker",
+          "pos": "DH",
+          "avg": ".133",
+          "ab": 4,
+          "r": 1,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "so": 2
+        },
+        {
+          "name": "Carlos Cortes",
+          "pos": "RF",
+          "avg": ".377",
+          "ab": 4,
+          "r": 0,
+          "h": 3,
+          "rbi": 2,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Jacob Wilson",
+          "pos": "SS",
+          "avg": ".278",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Jeff McNeil",
+          "pos": "2B",
+          "avg": ".286",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Lawrence Butler",
+          "pos": "RF",
+          "avg": ".186",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Darell Hernaiz",
+          "pos": "3B",
+          "avg": ".222",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        }
+      ],
+      "pitching": [
+        {
+          "name": "J.T. Ginn",
+          "ip": "3.1",
+          "h": 3,
+          "er": 0,
+          "k": 2,
+          "bb": 1
+        },
+        {
+          "name": "Joel Kuhnel",
+          "ip": "0.2",
+          "h": 0,
+          "er": 0,
+          "k": 1,
+          "bb": 1
+        },
+        {
+          "name": "Jacob Lopez",
+          "ip": "1.0",
+          "h": 1,
+          "er": 1,
+          "k": 1,
+          "bb": 2
+        },
+        {
+          "name": "Justin Sterner",
+          "ip": "1.0",
+          "h": 1,
+          "er": 0,
+          "k": 2,
+          "bb": 0
+        },
+        {
+          "name": "Hogan Harris",
+          "ip": "1.0",
+          "h": 0,
+          "er": 0,
+          "k": 1,
+          "bb": 1
+        },
+        {
+          "name": "Jack Perkins",
+          "ip": "2.0",
+          "h": 1,
+          "er": 0,
+          "k": 3,
+          "bb": 0
+        }
+      ]
+    },
+    "clutch_player": {
+      "name": "Carlos Cortes",
+      "event": "3-4, 2 RBI",
+      "inning": null,
+      "description": "led the offense with 3-4, 2 RBI.",
+      "reason": "top hitter by box score (no play-by-play clutch moment detected)",
+      "confidence": "low"
+    },
+    "game_driver": null
+  },
+  "next_game": {
+    "gamePk": 825017,
+    "date": "2026-04-28",
+    "opponent": "KC",
+    "home": true,
+    "time_local": "6:40 PM PT",
+    "probable": {
+      "opp": "Kris Bubic"
+    }
+  },
+  "standings": [
+    {
+      "team": "Athletics",
+      "w": 15,
+      "l": 13,
+      "gb": "-",
+      "last10": "5-5"
+    },
+    {
+      "team": "Rangers",
+      "w": 14,
+      "l": 15,
+      "gb": "1.5",
+      "last10": "4-6"
+    },
+    {
+      "team": "Mariners",
+      "w": 14,
+      "l": 16,
+      "gb": "2.0",
+      "last10": "6-4"
+    },
+    {
+      "team": "Angels",
+      "w": 12,
+      "l": 18,
+      "gb": "4.0",
+      "last10": "2-8"
+    },
+    {
+      "team": "Astros",
+      "w": 11,
+      "l": 18,
+      "gb": "4.5",
+      "last10": "3-7"
+    }
+  ],
+  "hot_players": {
+    "hitters": [],
+    "pitchers": []
+  },
+  "subhead": "Athletics win on the road vs. TEX, Cortes leading the way.",
+  "insight": {
+    "headline": "The rotation is what's held them back.",
+    "detail": "The Athletics are putting up .709 OPS at the plate, but a 4.42 ERA from the staff has cancelled it out. That gap explains the 5-5 stretch. Still in first, but the inconsistency is real.",
+    "why": "rotation a concern (4.42 ERA) \u00b7 OPS at .709 \u00b7 5\u20135 in the last ten"
+  },
+  "story_hook": "",
+  "story_threads_debug": [
+    "division pressure",
+    "inconsistency"
+  ]
+}

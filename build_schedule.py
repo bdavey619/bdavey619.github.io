@@ -38,6 +38,13 @@ TEAMS = {
         "tz_name": "PT",
         "tz_offset": -7,
     },
+    "athletics": {
+        "id": 133,
+        "name": "Athletics",
+        "division": "AL West",
+        "tz_name": "PT",
+        "tz_offset": -7,
+    },
 }
 
 TEAM_ABBRS = {

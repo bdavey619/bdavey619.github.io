@@ -30,12 +30,13 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 
 sys.path.insert(0, str(ROOT))
-from engine.team_config import PADRES, YANKEES, GIANTS  # noqa: E402
+from engine.team_config import PADRES, YANKEES, GIANTS, ATHLETICS  # noqa: E402
 
 _TEAM_CONFIGS = {
-    "padres":  PADRES,
-    "yankees": YANKEES,
-    "giants":  GIANTS,
+    "padres":    PADRES,
+    "yankees":   YANKEES,
+    "giants":    GIANTS,
+    "athletics": ATHLETICS,
 }
 
 RESEND_API_URL = "https://api.resend.com/emails"

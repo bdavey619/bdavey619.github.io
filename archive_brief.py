@@ -17,9 +17,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 TEAM_NAMES = {
-    "padres": "Padres",
-    "yankees": "Yankees",
-    "giants": "Giants",
+    "padres":    "Padres",
+    "yankees":   "Yankees",
+    "giants":    "Giants",
+    "athletics": "Athletics",
 }
 
 

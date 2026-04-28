@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Athletics Morning Brief — Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .back-link {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #5a534c;
+      text-decoration: none;
+      letter-spacing: 0.03em;
+    }
+    .back-link:hover { color: #1a1613; }
+
+    /* Archive list */
+    .archive-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.875rem;
+      margin-top: 0.5rem;
+    }
+    .archive-table thead th {
+      text-align: left;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #8a8278;
+      border-bottom: 1px solid #d8d2c4;
+      padding: 0 8px 8px 0;
+    }
+    .archive-row {
+      cursor: pointer;
+      border-bottom: 1px solid #e8e2da;
+    }
+    .archive-row:hover { background: #f0ece4; }
+    .archive-row td {
+      padding: 10px 8px 10px 0;
+      vertical-align: top;
+    }
+    .archive-col-date { white-space: nowrap; color: #5a534c; min-width: 120px; }
+    .archive-col-result { white-space: nowrap; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; min-width: 60px; }
+    .archive-col-opp { white-space: nowrap; color: #8a8278; min-width: 40px; }
+    .archive-col-subhead { color: #1a1613; line-height: 1.4; }
+    .result-win  { color: #2a7a3b; font-weight: 600; }
+    .result-loss { color: #b03030; font-weight: 600; }
+    .archive-empty, .archive-error { color: #8a8278; font-style: italic; padding: 1rem 0; }
+    .archive-subtitle {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #8a8278;
+      margin: 0 0 1.25rem;
+    }
+  </style>
+</head>
+<body>
+  <main id="brief">
+    <!-- Masthead -->
+    <header class="masthead">
+      <div class="masthead-meta">
+        <span id="brief-date">Archive</span>
+        <a href="index.html" id="nav-link" class="back-link">← Current Brief</a>
+      </div>
+      <h1 class="masthead-title">Athletics Morning Brief</h1>
+      <div class="masthead-rule"></div>
+      <p id="masthead-subhead" class="masthead-subhead" hidden></p>
+    </header>
+
+    <!-- Archive list (shown when no ?date param) -->
+    <section id="archive-list" class="card" hidden>
+      <p class="archive-subtitle">Season Archive</p>
+      <div id="archive-list-body"></div>
+    </section>
+
+    <!-- Brief detail sections (shown when ?date param present) -->
+    <div id="brief-sections" hidden>
+      <section id="summary-bar" class="summary-bar" hidden>
+        <div><span class="label">Record</span><span class="value" id="sb-record">—</span></div>
+        <div><span class="label" id="sb-division-label">AL West</span><span class="value" id="sb-rank">—</span></div>
+        <div><span class="label">Streak</span><span class="value" id="sb-streak">—</span></div>
+        <div><span class="label">Last 10</span><span class="value" id="sb-last10">—</span></div>
+        <div><span class="label">Result</span><span class="value" id="sb-last">—</span></div>
+        <div><span class="label">Next</span><span class="value" id="sb-next">—</span></div>
+      </section>
+
+      <section id="last-game" class="card" hidden>
+        <h2 class="section-title">Yesterday's Game</h2>
+        <div id="last-game-body"></div>
+      </section>
+
+      <section id="insight" class="insight" hidden>
+        <h2 class="section-title">State of Play</h2>
+        <p id="insight-headline" class="insight-headline"></p>
+        <p id="insight-detail"   class="insight-detail"></p>
+        <p id="insight-why"      class="insight-why" hidden></p>
+      </section>
+
+      <section id="hot" class="card" hidden>
+        <h2 class="section-title">Who's Hot</h2>
+        <div id="hot-body"></div>
+      </section>
+
+      <section id="snapshot" class="card" hidden>
+        <h2 class="section-title">Team Snapshot</h2>
+        <div id="snapshot-body" class="snapshot-grid"></div>
+      </section>
+
+      <section id="ahead" class="card" hidden>
+        <h2 class="section-title">Looking Ahead</h2>
+        <div id="ahead-body"></div>
+      </section>
+
+      <footer class="footer">
+        <span id="generated-at">—</span>
+      </footer>
+    </div>
+  </main>
+
+  <div id="error" class="error" hidden>
+    Couldn't load this brief. <a href="archive.html">Back to archive.</a>
+  </div>
+
+  <script>
+    window.ARCHIVE_CONFIG = {
+      team:     'athletics',
+      teamName: 'Athletics',
+    };
+  </script>
+  <script src="../js/archive.js"></script>
+</body>
+</html>

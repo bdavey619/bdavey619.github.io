@@ -1,0 +1,17 @@
+{
+  "trend": "fragile",
+  "driver": "balanced",
+  "confidence": "medium",
+  "pressure": "high",
+  "record_w": 15,
+  "record_l": 13,
+  "streak": "W1",
+  "last10_w": 5,
+  "era": 4.42,
+  "ops": 0.709,
+  "gb": 0.0,
+  "division_rank": 1,
+  "last_result": "W",
+  "date": "2026-04-26",
+  "game_emotion_level": "normal"
+}

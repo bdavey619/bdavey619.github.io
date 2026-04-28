@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Athletics Morning Brief — Schedule</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .back-link {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #5a534c;
+      text-decoration: none;
+      letter-spacing: 0.03em;
+    }
+    .back-link:hover { color: #1a1613; }
+
+    /* 4-column summary override */
+    #schedule-summary { grid-template-columns: repeat(4, 1fr); }
+    @media (max-width: 480px) {
+      #schedule-summary { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    /* ── Calendar grid ─────────────────────────────── */
+    .cal-header-row {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      margin-bottom: 1px;
+    }
+    .cal-header-cell {
+      text-align: center;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #8a8278;
+      padding: 6px 2px;
+    }
+    .cal-row {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 1px;
+      background: #d8d2c4;
+      margin-bottom: 1px;
+    }
+    .cal-cell {
+      background: #faf8f3;
+      min-height: 90px;
+      padding: 5px 4px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .cal-empty { background: #f4f0e8; }
+    /* Series cells — very subtle shared tint groups consecutive games visually */
+    .cal-series-cell { background: #f5f2ea; }
+    /* Today: team-specific warm tint + accented day number (overrides series) */
+    .cal-today { background: #edf4f0; }
+
+    .cal-day-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: #8a8278;
+      font-weight: 500;
+      line-height: 1;
+      margin-bottom: 2px;
+    }
+    .cal-today .cal-day-num { color: #003831; font-weight: 700; }
+
+
+    /* ── Game card ────────────────────────────────── */
+    .cal-game {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      border-radius: 2px;
+      padding: 3px 4px 3px 6px;
+      font-size: 11px;
+      line-height: 1.3;
+      background: rgba(0,0,0,0.03);
+      border-left: 3px solid transparent;
+    }
+    .cal-linked { cursor: pointer; }
+    .cal-linked:hover { background: rgba(0,0,0,0.07); }
+
+    /* Win/Loss left-border + tint — neutral green/red, no team color dependency */
+    .cal-win  { border-left-color: #4a7c59; background: rgba(74,124,89,0.07); }
+    .cal-loss { border-left-color: #b03030; background: rgba(176,48,48,0.05); }
+
+    /* Upcoming: transparent, dashed border signals "pending" */
+    .cal-game-upcoming {
+      background: transparent;
+      border-left-color: #d8d2c4;
+      border-left-style: dashed;
+    }
+
+    /* ── Opponent line ────────────────────────────── */
+    .cal-opp {
+      display: flex;
+      align-items: baseline;
+      gap: 3px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    /* Home/away prefix — muted, smaller, visually distinct from team abbr */
+    .cal-ha {
+      color: #8a8278;
+      font-weight: 500;
+      font-size: 9px;
+      letter-spacing: 0.08em;
+    }
+    .cal-away .cal-ha { font-style: italic; }
+    .cal-opp-name { color: #1a1613; }
+
+    /* ── Result line ─────────────────────────────── */
+    .cal-result {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .cal-badge {
+      display: inline-block;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      padding: 1px 3px;
+      border-radius: 2px;
+      line-height: 1.4;
+    }
+    .cal-win  .cal-badge { color: #4a7c59; background: rgba(74,124,89,0.15); }
+    .cal-loss .cal-badge { color: #b03030; background: rgba(176,48,48,0.12); }
+    .cal-score { color: #3a3530; }
+
+    /* ── Time / probables ────────────────────────── */
+    .cal-time {
+      font-size: 10px;
+      color: #5a534c;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .cal-live { color: #003831; font-weight: 700; }
+
+    .cal-probable {
+      font-size: 9px;
+      color: #8a8278;
+      font-style: italic;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    @media (max-width: 600px) {
+      .cal-cell { min-height: 64px; padding: 4px 3px; }
+      .cal-game { padding: 2px 3px 2px 5px; }
+      .cal-opp { font-size: 10px; }
+      .cal-result { font-size: 10px; }
+      .cal-probable { display: none; }
+      .cal-time { font-size: 9px; }
+      .cal-header-cell { font-size: 9px; padding: 4px 1px; }
+    }
+  </style>
+</head>
+<body>
+  <main id="brief">
+    <header class="masthead">
+      <div class="masthead-meta">
+        <span id="brief-date">Schedule</span>
+        <a href="index.html" class="back-link">← Current Brief</a>
+      </div>
+      <h1 class="masthead-title">Athletics Morning Brief</h1>
+      <div class="masthead-rule"></div>
+    </header>
+
+    <section id="schedule-summary" class="summary-bar" hidden>
+      <div><span class="label">Month</span><span class="value" id="sc-month-record">—</span></div>
+      <div><span class="label">Streak</span><span class="value" id="sc-streak">—</span></div>
+      <div><span class="label">Last 10</span><span class="value" id="sc-last10">—</span></div>
+      <div><span class="label">Up Next</span><span class="value" id="sc-next">—</span></div>
+    </section>
+
+    <section id="schedule-cal" class="card" hidden>
+      <h2 class="section-title" id="cal-month-title">—</h2>
+      <div id="calendar-grid"></div>
+    </section>
+
+    <div id="cal-error" class="error" hidden>
+      Schedule not yet available for this team.
+    </div>
+  </main>
+
+  <script>
+    window.SCHEDULE_CONFIG = {
+      team:      'athletics',
+      teamName:  'Athletics',
+      teamAbbr:  'ATH',
+      division:  'AL West',
+      homeVenue: 'Sutter Health Park',
+      teamClass: 'athletics',
+    };
+  </script>
+  <script src="../js/schedule.js"></script>
+</body>
+</html>

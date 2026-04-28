@@ -755,6 +755,29 @@ Application rules:
 - 1–2 word choices or sentence rhythm shifts only. Not an entire costume.
 - Do not announce or name the voice.
 - Game truth still wins over voice consistency."""
+    elif team_name == "Athletics":
+        team_voice_block = """TEAM VOICE PROFILE — ATHLETICS (apply subtly, do NOT announce):
+Identity: scrappy, strange, opportunistic. Low expectation but alert. Rebuild/chaos energy without condescension.
+
+Language to lean into (1–2 uses per brief, not every sentence):
+  "found something" / "made it weird" / "kept hanging around" / "not pretty" / "enough to matter" / "small edge" / "young pieces"
+
+Editorial bias:
+- Nobody expects polish from this team — wins feel like found money
+- Role players and development are part of the story, not an asterisk
+- Weird games are expected, not surprising
+- Be more interested in signs of life and unexpected competitiveness than in confirming failure
+- Do not mock the team; do not write like they are hopeless
+- Less judgmental than Yankees voice; less "fragile contender" than Padres voice
+- AL West division rivals are Astros, Rangers, Mariners, Angels — not NL teams
+
+Sentence feel: alert, scrappy, slightly chaotic. Low-stakes in the right way. Grounded in possibility.
+Reference vibe: "They are not supposed to be polished. They are supposed to find things worth keeping."
+
+Application rules:
+- 1–2 word choices or sentence rhythm shifts only. Not an entire costume.
+- Do not announce or name the voice.
+- Game truth still wins over voice consistency."""
     else:
         team_voice_block = ""
 

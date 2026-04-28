@@ -1,0 +1,63 @@
+name: Athletics Morning Brief
+
+on:
+  schedule:
+    # 5:35 AM Pacific Time / 8:35 AM Eastern / 12:35 UTC (UTC-7 during PDT)
+    # Staggered 35 minutes after Giants (0 12) to avoid resource contention.
+    - cron: "35 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-brief:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate brief.json
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python athletics/build_brief.py
+
+      - name: Build schedule
+        run: python build_schedule.py --team athletics
+
+      - name: Archive brief
+        run: python archive_brief.py --team athletics
+
+      - name: Render email HTML
+        run: python render_email.py --team athletics
+
+      - name: Send email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_TO: ${{ secrets.ATHLETICS_EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.ATHLETICS_EMAIL_FROM }}
+        run: python send_email.py --team athletics
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add athletics/brief.json athletics/story_state.json athletics/hook_history.json \
+                  athletics/email_preview.html athletics/schedule.json athletics/archive/
+          if git diff --cached --quiet; then
+            echo "No changes — skipping commit."
+          else
+            git commit -m "chore: update Athletics morning brief [skip ci]"
+            git restore .
+            git pull --rebase origin main
+            git push || (git pull --rebase origin main && git push)
+          fi

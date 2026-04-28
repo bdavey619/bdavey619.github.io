@@ -76,3 +76,20 @@ YANKEES = TeamConfig(
     site_url="https://bdavey619.github.io/yankees/",
     accent_color="#003087",
 )
+
+ATHLETICS = TeamConfig(
+    team_id=133,
+    team_abbr="ATH",
+    team_name="Athletics",
+    team_city="Sacramento",
+    home_venue="Sutter Health Park",
+    home_venue_short="Sutter Health",
+    league_id=103,
+    division_id=200,
+    division_name="AL West",
+    division_short="West",
+    tz_offset=-7,
+    tz_label="PT",
+    site_url="https://bdavey619.github.io/athletics/",
+    accent_color="#003831",
+)
