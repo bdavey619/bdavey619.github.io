@@ -129,13 +129,6 @@
     const wrap = el('div', 'cal-game');
     wrap.classList.add(g.home ? 'cal-home' : 'cal-away');
 
-    // On the first game of a multi-game series, show a compact series label
-    if (series && series.pos === 1 && series.len > 1) {
-      const tag = el('div', 'cal-series-tag');
-      tag.textContent = `· ${series.len} games`;
-      wrap.appendChild(tag);
-    }
-
     // Opponent line — split prefix from team abbr for independent styling
     const oppRow = el('div', 'cal-opp');
     const haSpan = el('span', 'cal-ha');
