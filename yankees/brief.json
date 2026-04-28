@@ -1,30 +1,42 @@
 {
-  "generated_at": "2026-04-27T21:47:27+00:00",
+  "generated_at": "2026-04-28T17:29:50+00:00",
   "season": 2026,
   "team": {
-    "record": "18-10",
-    "streak": "L1",
-    "run_diff": "+47",
-    "last10": "8-2",
+    "record": "19-10",
+    "streak": "W1",
+    "run_diff": "+49",
+    "last10": "9-1",
     "division_rank": 1,
     "games_back": "-",
-    "avg": ".233",
-    "ops": ".760",
-    "era": "3.26"
+    "avg": ".234",
+    "ops": ".768",
+    "era": "3.18"
   },
   "last_game": {
     "status": "final",
-    "gamePk": 824202,
-    "date": "2026-04-26",
-    "opponent": "HOU",
+    "gamePk": 822906,
+    "date": "2026-04-27",
+    "opponent": "TEX",
     "home": false,
-    "result": "L",
+    "result": "W",
     "score": {
       "team": 4,
-      "opp": 7
+      "opp": 2
     },
     "linescore": [
       [
+        0,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
         0,
         0,
         0,
@@ -32,83 +44,74 @@
         0,
         1,
         0,
-        0,
-        3
-      ],
-      [
-        2,
-        0,
-        2,
-        0,
-        3,
-        0,
-        0,
-        0,
-        ""
+        1
       ]
     ],
     "decisions": {
-      "win": "Spencer Arrighetti",
+      "win": "Max Fried",
       "win_role": "SP",
-      "win_team": "opp",
-      "loss": "Luis Gil",
+      "win_team": "team",
+      "loss": "Jack Leiter",
       "loss_role": "SP",
-      "loss_team": "team"
+      "loss_team": "opp",
+      "save": "David Bednar",
+      "save_role": "RP",
+      "save_team": "team"
     },
     "key_hitters": [
       {
-        "name": "Paul Goldschmidt",
-        "line": "2-4, 1 RBI",
-        "pos": "1B",
-        "season_avg": ".179"
+        "name": "Aaron Judge",
+        "line": "3-3, 1 HR, 1 RBI",
+        "pos": "RF",
+        "season_avg": ".252"
       },
       {
-        "name": "Jazz Chisholm Jr.",
-        "line": "2-4",
-        "pos": "2B",
-        "season_avg": ".216"
+        "name": "Ben Rice",
+        "line": "1-4, 1 HR, 2 RBI",
+        "pos": "1B",
+        "season_avg": ".322"
       }
     ],
     "key_pitcher": {
-      "name": "Luis Gil",
-      "line": "4.0 IP, 5 H, 6 ER, 0 K",
+      "name": "Max Fried",
+      "line": "6.0 IP, 4 H, 0 ER, 5 K",
       "role": "SP",
-      "season_era": "6.05"
+      "season_era": "2.09"
     },
-    "context_line": "Away \u00b7 Daikin Park \u00b7 Day game",
-    "highlights_url": "https://www.youtube.com/results?search_query=NYY+vs+HOU+highlights+April+26+2026+MLB",
-    "game_note": "A 3-run fifth by HOU was more than the Yankees could answer.",
+    "context_line": "Away \u00b7 Globe Life Field \u00b7 Night game",
+    "highlights_url": "https://www.youtube.com/results?search_query=NYY+vs+TEX+highlights+April+27+2026+MLB",
+    "game_note": "Judge's home run was part of a 3-run third that put the Yankees in front for good.",
     "full_box": {
       "batting": [
         {
           "name": "Trent Grisham",
           "pos": "CF",
-          "avg": ".160",
+          "avg": ".165",
           "ab": 4,
-          "r": 0,
-          "h": 0,
+          "r": 1,
+          "h": 1,
           "rbi": 0,
-          "bb": 0,
-          "so": 2
+          "bb": 1,
+          "so": 0
         },
         {
           "name": "Ben Rice",
-          "pos": "DH",
-          "avg": ".326",
-          "ab": 3,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
+          "pos": "1B",
+          "avg": ".322",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 2,
           "bb": 1,
           "so": 0
         },
         {
           "name": "Aaron Judge",
           "pos": "RF",
-          "avg": ".230",
-          "ab": 4,
+          "avg": ".252",
+          "ab": 3,
           "r": 1,
-          "h": 1,
+          "h": 3,
           "rbi": 1,
           "bb": 0,
           "so": 0
@@ -116,7 +119,7 @@
         {
           "name": "Cody Bellinger",
           "pos": "LF",
-          "avg": ".250",
+          "avg": ".240",
           "ab": 4,
           "r": 0,
           "h": 0,
@@ -127,120 +130,134 @@
         {
           "name": "Jazz Chisholm Jr.",
           "pos": "2B",
-          "avg": ".216",
+          "avg": ".218",
           "ab": 4,
           "r": 1,
-          "h": 2,
-          "rbi": 0,
-          "bb": 0,
-          "so": 2
-        },
-        {
-          "name": "Paul Goldschmidt",
-          "pos": "1B",
-          "avg": ".179",
-          "ab": 4,
-          "r": 1,
-          "h": 2,
+          "h": 1,
           "rbi": 1,
           "bb": 0,
           "so": 0
         },
         {
-          "name": "J.C. Escarra",
-          "pos": "C",
-          "avg": ".214",
-          "ab": 4,
-          "r": 1,
-          "h": 1,
-          "rbi": 1,
-          "bb": 0,
-          "so": 2
-        },
-        {
-          "name": "Ryan McMahon",
-          "pos": "3B",
-          "avg": ".177",
+          "name": "Jasson Dom\u00ednguez",
+          "pos": "DH",
+          "avg": ".250",
           "ab": 4,
           "r": 0,
           "h": 1,
-          "rbi": 1,
+          "rbi": 0,
           "bb": 0,
           "so": 1
         },
         {
-          "name": "Jos\u00e9 Caballero",
-          "pos": "SS",
-          "avg": ".271",
+          "name": "Austin Wells",
+          "pos": "C",
+          "avg": ".179",
           "ab": 3,
           "r": 0,
           "h": 0,
           "rbi": 0,
-          "bb": 0,
+          "bb": 1,
           "so": 1
+        },
+        {
+          "name": "Ryan McMahon",
+          "pos": "3B",
+          "avg": ".182",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 2
+        },
+        {
+          "name": "Jos\u00e9 Caballero",
+          "pos": "SS",
+          "avg": ".273",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
         }
       ],
       "pitching": [
         {
-          "name": "Luis Gil",
-          "ip": "4.0",
-          "h": 5,
-          "er": 6,
-          "k": 0,
-          "bb": 3
+          "name": "Max Fried",
+          "ip": "6.0",
+          "h": 4,
+          "er": 0,
+          "k": 5,
+          "bb": 2
         },
         {
-          "name": "Paul Blackburn",
-          "ip": "3.0",
-          "h": 2,
+          "name": "Camilo Doval",
+          "ip": "1.0",
+          "h": 1,
           "er": 1,
           "k": 2,
           "bb": 0
         },
         {
-          "name": "Ryan Yarbrough",
+          "name": "Tim Hill",
           "ip": "1.0",
           "h": 0,
           "er": 0,
-          "k": 2,
+          "k": 0,
+          "bb": 2
+        },
+        {
+          "name": "David Bednar",
+          "ip": "1.0",
+          "h": 2,
+          "er": 0,
+          "k": 1,
           "bb": 0
         }
       ]
     },
     "clutch_player": {
-      "name": "Jazz Chisholm Jr.",
-      "event": "Single",
-      "inning": 9,
-      "description": "started the ninth-inning rally (3 runs scored) with a single.",
-      "reason": "started the ninth-inning rally (3 runs scored)",
-      "confidence": "high"
+      "name": "Aaron Judge",
+      "event": "3-3, 1 HR, 1 RBI",
+      "inning": null,
+      "description": "led the offense with 3-3, 1 HR, 1 RBI.",
+      "reason": "top hitter by box score (no play-by-play clutch moment detected)",
+      "confidence": "low"
     },
-    "game_driver": null
+    "game_driver": {
+      "name": "Max Fried",
+      "type": "pitcher",
+      "reason": "6.0 IP, shutout",
+      "description": "shut down the opposition over 6.0 scoreless innings.",
+      "confidence": "high"
+    }
   },
   "next_game": {
-    "gamePk": 822906,
-    "date": "2026-04-27",
+    "gamePk": 822908,
+    "date": "2026-04-28",
     "opponent": "TEX",
     "home": false,
     "time_local": "8:05 PM ET",
     "probable": {
-      "team": "Max Fried",
-      "opp": "Jack Leiter"
+      "team": "Cam Schlittler",
+      "opp": "Jacob deGrom"
     },
-    "insight": "Yankees have won 8 of their last ten \u2014 they carry that form into tonight's game.",
-    "hook_type": "team_momentum"
+    "insight": "Schlittler has a 2.62 ERA over his last 4 starts \u2014 he takes the mound tonight.",
+    "hook_type": "pitcher_form"
   },
   "standings": [
     {
       "team": "Yankees",
-      "w": 18,
+      "w": 19,
       "l": 10,
       "gb": "-",
-      "last10": "8-2"
+      "last10": "9-1"
     },
     {
       "team": "Rays",
-      "w": 16,
+      "w": 17,
       "l": 11,
       "gb": "1.5",
       "last10": "6-4"
@@ -249,19 +266,19 @@
       "team": "Orioles",
       "w": 13,
       "l": 15,
-      "gb": "5.0",
+      "gb": "5.5",
       "last10": "4-6"
     },
     {
       "team": "Blue Jays",
       "w": 12,
-      "l": 15,
-      "gb": "5.5",
+      "l": 16,
+      "gb": "6.5",
       "last10": "5-5"
     },
     {
       "team": "Red Sox",
-      "w": 11,
+      "w": 12,
       "l": 17,
       "gb": "7.0",
       "last10": "4-6"
@@ -271,11 +288,11 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "New York falls to HOU.",
+  "subhead": "New York stays hot \u2014 9-1 over the last ten behind Fried and Judge.",
   "insight": {
     "headline": "The lineup is the engine right now.",
-    "detail": "A .760 OPS over the season, with the bats showing real pop. The staff ERA sits at 3.26. New York is setting the pace in the division.",
-    "why": "staff carrying (3.26 ERA) \u00b7 offense clicking (.760 OPS) \u00b7 8\u20132 in the last ten"
+    "detail": "A .768 OPS over the season, with the bats showing real pop. The staff ERA sits at 3.18. New York is setting the pace in the division.",
+    "why": "staff carrying (3.18 ERA) \u00b7 offense clicking (.768 OPS) \u00b7 9\u20131 in the last ten"
   },
   "story_hook": "",
   "story_threads_debug": [
@@ -283,25 +300,25 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "The formula broke when it mattered most.",
-    "what_this_means": "Luis Gil couldn't hold the line. Four innings, six runs\u2014that's not a bridging start, that's a collapse. Houston was chasing from the first inning, and the Yankees were always a step behind after that. They clawed back late with the offense showing signs in the eighth and ninth, but a four-run deficit is a margin that doesn't forgive early damage. Goldschmidt and Chisholm each found hits, and the ninth-inning rally started with Chisholm's single\u2014but starting a fight in the ninth is not the same as winning it. This is a team built on balanced contribution, on both sides doing their job. Today, the pitching side didn't hold its half. The loss breaks the eight-wins-in-ten run and costs them in a division where every game carries weight. They had the game within reach late. They didn't finish it.",
-    "what_to_watch": "Now the question is whether this was a Gil blip or a sign that the pitching edge\u2014the thing that's kept them at the top of the division\u2014can collapse on any given day.",
+    "top_frame": "Max Fried didn't let Texas breathe\u2014six scoreless innings, nothing given away.",
+    "what_this_means": "Both sides are clicking now, and that's exactly what this team needed to prove. Fried's shutdown performance came without margin for error; the Yankees created just enough traffic to matter. Aaron Judge went 3-for-3 with a homer, Ben Rice added two runs\u2014the lineup didn't carry the game, but it finished the one that mattered. This is the formula working at full throttle: dominant pitching, balanced contribution, everyone touching the game. The wins pile up when the pitching holds because the offense doesn't have to be perfect, just present. They're 19-10 and surging because both sides are now meeting a higher standard. This works until the pitching slips or the bats go quiet for a week\u2014but right now, there's no sign of either.",
+    "what_to_watch": "Now the question is whether this rhythm survives the return trip to the same ballpark tonight. Schlittler has been sharp lately (2.62 ERA over four starts), and Texas will not roll over twice in a row. The Yankees have to answer whether yesterday's balance was the new standard or a one-game statement.",
     "story_state": {
       "trend": "surging",
       "driver": "balanced",
       "confidence": "high",
       "pressure": "building",
-      "record_w": 18,
+      "record_w": 19,
       "record_l": 10,
-      "streak": "L1",
-      "last10_w": 8,
-      "era": 3.26,
-      "ops": 0.76,
+      "streak": "W1",
+      "last10_w": 9,
+      "era": 3.18,
+      "ops": 0.768,
       "gb": 0.0,
       "division_rank": 1,
-      "last_result": "L",
-      "date": "2026-04-26",
-      "game_emotion_level": "normal"
+      "last_result": "W",
+      "date": "2026-04-27",
+      "game_emotion_level": "high"
     },
     "story_delta": {
       "has_prev": true,
@@ -311,7 +328,9 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "lost last game"
+        "won last game",
+        "streak flipped: L1 \u2192 W1",
+        "ERA improved: 3.26 \u2192 3.18"
       ]
     }
   }
