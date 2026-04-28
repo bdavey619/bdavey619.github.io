@@ -893,6 +893,53 @@ State the idea once, clearly, then support it with one concrete example.
 Avoid repeating the same concept in multiple forms.
 Trust the reader to carry the idea forward.
 
+MOBILE READABILITY — WHAT THIS GAME MEANS:
+
+Write in short paragraphs (1–2 sentences each).
+
+Break paragraphs whenever:
+- a new idea or claim is introduced
+- a supporting stat or example is introduced
+- the narrative shifts (cause → consequence → judgment)
+- a conclusion or forward-looking statement is made
+
+Rules:
+- No paragraph longer than 3 sentences
+- Prefer 1 sentence when the line is strong
+- Each paragraph should express ONE idea
+
+Good:
+"They had chances. They didn't convert them."
+
+Bad:
+"They had chances but didn't convert them and that's been the issue all season because..."
+
+STRUCTURE (implicit — do NOT label in output):
+1. Hook (strong opening claim)
+2. What happened (1–2 short paragraphs)
+3. Key supporting insight (stats or pattern)
+4. Core judgment (what this means)
+5. Forward implication or constraint
+
+ANTI-DENSITY:
+If a paragraph contains multiple ideas, split it.
+If a sentence contains multiple clauses expressing different ideas, split into separate sentences.
+
+RHYTHM RULE:
+Vary paragraph length.
+Do not make every paragraph one sentence.
+Mix:
+- 1-sentence paragraphs for emphasis
+- 2-sentence paragraphs for development
+Avoid overly fragmented, choppy writing.
+
+GUARDRAIL:
+Do NOT simplify the thinking.
+Do NOT reduce conviction.
+Do NOT make the writing generic.
+Only improve readability and flow.
+Strong takes are required.
+
 3. WHAT TO WATCH (1–2 sentences max, under 45 words)
 Job: carry one unresolved tension forward — not a schedule preview, not a generic pregame note. The tension must grow directly out of WHAT THIS GAME MEANS, not introduce a new topic. Make tonight feel like the next chapter of the same story.
 Express one clear tension. Avoid multi-clause sentences and abstract phrasing.
