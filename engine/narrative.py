@@ -933,6 +933,21 @@ Mix:
 - 2-sentence paragraphs for development
 Avoid overly fragmented, choppy writing.
 
+OPENING LINE RULE:
+The first sentence must be specific to THIS game and non-transferable.
+
+Avoid:
+- "they survived"
+- "they found a way"
+- "they didn't fold"
+
+Force:
+- what decided the game
+- when it was decided
+- how it was held
+
+Test: if you can swap team names and it still works → rewrite it.
+
 CONVICTION RULE:
 Do not soften the core claim to improve readability.
 The opening sentence and final judgment must still carry a strong, specific take about THIS game.
