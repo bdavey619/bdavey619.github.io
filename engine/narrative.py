@@ -933,6 +933,21 @@ Mix:
 - 2-sentence paragraphs for development
 Avoid overly fragmented, choppy writing.
 
+CONVICTION RULE:
+Do not soften the core claim to improve readability.
+The opening sentence and final judgment must still carry a strong, specific take about THIS game.
+
+Avoid safe summaries like:
+- "the lineup worked"
+- "execution under pressure won the game"
+
+Prefer:
+- what actually decided the game
+- what did NOT matter
+- what this reveals about the team
+
+Readability improves structure — not by weakening the take.
+
 GUARDRAIL:
 Do NOT simplify the thinking.
 Do NOT reduce conviction.
