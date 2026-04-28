@@ -952,6 +952,38 @@ Every sentence must do at least one of:
 
 If it does none of the above → rewrite or cut.
 
+BOX SCORE HONESTY — GAME DRIVER ≠ ONLY OFFENSE:
+Do not frame a Game Driver as the only source of offense if the team box score shows broad production.
+
+If the team has:
+- 10+ hits, OR
+- 6+ runs, OR
+- 5+ players with hits, OR
+- multiple players with RBI
+
+Then avoid phrases like:
+- "only real firepower"
+- "only reason they were in it"
+- "carried the offense alone"
+- "no one else showed up"
+
+Instead frame the Game Driver as:
+- the separator
+- the finisher
+- the swing that mattered
+- the player who turned traffic into runs
+- the player who made broad production count
+
+Good examples:
+  ✅ "The lineup created traffic. [Player] turned it into runs."
+  ✅ "This was a team offense with one clear separator."
+  ✅ "Everyone touched the game; [Player] changed it."
+  ✅ "The bats showed up. [Player] made it matter."
+
+Strong takes are still allowed. The rule is not "be softer."
+The rule is: make the strong take match the box score.
+If production is broad, the take should distinguish impact from exclusivity.
+
 TONAL VARIATION:
 Let the game type shape the writing — subtly, not conspicuously.
   GRITTY     → shorter sentences, physical verbs ("held on", "scratched out", "didn't break", "survived")
