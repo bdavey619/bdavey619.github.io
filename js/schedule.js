@@ -98,18 +98,29 @@
 
   function buildGame(g) {
     const wrap = el('div', 'cal-game');
-    const ha = g.home ? 'vs' : '@';
+    wrap.classList.add(g.home ? 'cal-home' : 'cal-away');
+
+    // Opponent line — split prefix from team abbr for independent styling
+    const oppRow = el('div', 'cal-opp');
+    const haSpan = el('span', 'cal-ha');
+    haSpan.textContent = g.home ? 'VS' : '@';
+    const nameSpan = el('span', 'cal-opp-name');
+    nameSpan.textContent = g.opponent;
+    oppRow.appendChild(haSpan);
+    oppRow.appendChild(nameSpan);
+    wrap.appendChild(oppRow);
 
     if (g.status === 'final') {
       wrap.classList.add('cal-game-final');
       wrap.classList.add(g.result === 'W' ? 'cal-win' : 'cal-loss');
 
-      const opp = el('span', 'cal-opp');
-      opp.textContent = `${ha} ${g.opponent}`;
-      wrap.appendChild(opp);
-
-      const res = el('span', 'cal-result');
-      res.textContent = `${g.result} ${g.score}`;
+      const res = el('div', 'cal-result');
+      const badge = el('span', 'cal-badge');
+      badge.textContent = g.result;
+      const score = el('span', 'cal-score');
+      score.textContent = g.score;
+      res.appendChild(badge);
+      res.appendChild(score);
       wrap.appendChild(res);
 
       if (g.archive_url) {
@@ -125,26 +136,27 @@
     } else {
       wrap.classList.add('cal-game-upcoming');
 
-      const opp = el('span', 'cal-opp');
-      opp.textContent = `${ha} ${g.opponent}`;
-      wrap.appendChild(opp);
-
-      const time = el('span', 'cal-time');
+      const time = el('div', 'cal-time');
       time.textContent = g.status === 'live' ? 'Live' : (g.time_local || 'TBD');
       if (g.status === 'live') time.classList.add('cal-live');
       wrap.appendChild(time);
 
       if (g.probable && (g.probable.team || g.probable.opp)) {
-        const prob = el('span', 'cal-probable');
+        const prob = el('div', 'cal-probable');
         const parts = [];
-        if (g.probable.team) parts.push(g.probable.team);
-        if (g.probable.opp) parts.push(g.probable.opp);
-        prob.textContent = parts.join(' vs ');
+        if (g.probable.team) parts.push(lastName(g.probable.team));
+        if (g.probable.opp) parts.push(lastName(g.probable.opp));
+        prob.textContent = parts.join(' / ');
         wrap.appendChild(prob);
       }
     }
 
     return wrap;
+  }
+
+  function lastName(name) {
+    const parts = name.trim().split(/\s+/);
+    return parts[parts.length - 1];
   }
 
   // ── Helpers ───────────────────────────────────────────────────────────────
