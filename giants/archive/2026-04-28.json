@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T14:19:35+00:00",
+  "generated_at": "2026-04-28T17:29:25+00:00",
   "season": 2026,
   "team": {
     "record": "13-15",
@@ -278,9 +278,9 @@
     "clutch role players"
   ],
   "narrative": {
-    "top_frame": "This team doesn't fold when it matters.",
-    "what_this_means": "They were chasing after the second inning, Miami up early and the Giants playing catch-up ball in a day game that could have slipped away quietly. But late-inning baseball is where this team has learned to live. Schmitt's go-ahead home run in the seventh wasn't a breakout moment\u2014it was a role player doing exactly what he's supposed to do when the game tightens. Roupp held the line from the mound, giving them a platform to climb back. The offense was quiet, scattered; .250 average and six strikeouts tell you this wasn't about overpowering anyone. It was about not breaking. The pattern is clear now: this team doesn't need to dominate. It needs to stay intact long enough for one swing to matter. That's happening with consistency. They're 7-3 in their last ten because they understand the math of close games\u2014one run late beats being down early if you don't panic. Down 6.5 in the division, they can't afford to lose the games where one swing decides the outcome. Today, they got that swing. Tomorrow matters because they need to keep getting them.",
-    "what_to_watch": "Now the question is whether this holds against better offenses. Philadelphia's hitters are struggling worse than San Francisco's\u2014but the Phillies' pitching is not. Mahle gets a matchup that should favor him, which means the Giants can't rely on scoring first. They'll need to do this again: stay close, find a moment late, and make one swing land.",
+    "top_frame": "They managed one more swing when it mattered most.",
+    "what_this_means": "This is becoming the formula: Roupp works deep into games with an ERA that says he's been the most reliable arm on the roster, and the lineup scratches enough to stay within striking distance. The bats didn't carry today\u2014.250 average, six strikeouts, only eight hits\u2014but they didn't need to. Lee stayed hot (4-for-5), Gilbert scraped a pair of hits, and the traffic built just enough traffic for Schmitt to turn into a go-ahead run in the seventh. That's the pattern now. They're not blowing out opponents. They're grinding through games and winning on the swing that arrives at the exact moment the other team has no response left. Two wins in a row, 7-3 over the last ten, and the margin between collapse and momentum feels as thin as a single fastball at the right count.",
+    "what_to_watch": "Now the question is whether that formula holds against a Phillies lineup that can't hit (.219 average) but hasn't yet faced an offense as patient as this one. Mahle on the mound tonight\u2014low-velocity weather, afternoon heat at Oracle, and Philadelphia's struggles at the plate. The Giants' strength is their ability to work an at-bat and create late leverage. That's where they beat teams in this division. Tonight will show if that skill translates to their next opponent.",
     "story_state": {
       "trend": "stabilizing",
       "driver": "balanced",
@@ -306,8 +306,7 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "won last game",
-        "division gap: fell back 0.5 game(s) (6.5 back)"
+        "won last game"
       ]
     }
   }
