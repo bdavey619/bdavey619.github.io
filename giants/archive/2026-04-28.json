@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T17:29:25+00:00",
+  "generated_at": "2026-04-28T17:42:44+00:00",
   "season": 2026,
   "team": {
     "record": "13-15",
@@ -278,9 +278,9 @@
     "clutch role players"
   ],
   "narrative": {
-    "top_frame": "They managed one more swing when it mattered most.",
-    "what_this_means": "This is becoming the formula: Roupp works deep into games with an ERA that says he's been the most reliable arm on the roster, and the lineup scratches enough to stay within striking distance. The bats didn't carry today\u2014.250 average, six strikeouts, only eight hits\u2014but they didn't need to. Lee stayed hot (4-for-5), Gilbert scraped a pair of hits, and the traffic built just enough traffic for Schmitt to turn into a go-ahead run in the seventh. That's the pattern now. They're not blowing out opponents. They're grinding through games and winning on the swing that arrives at the exact moment the other team has no response left. Two wins in a row, 7-3 over the last ten, and the margin between collapse and momentum feels as thin as a single fastball at the right count.",
-    "what_to_watch": "Now the question is whether that formula holds against a Phillies lineup that can't hit (.219 average) but hasn't yet faced an offense as patient as this one. Mahle on the mound tonight\u2014low-velocity weather, afternoon heat at Oracle, and Philadelphia's struggles at the plate. The Giants' strength is their ability to work an at-bat and create late leverage. That's where they beat teams in this division. Tonight will show if that skill translates to their next opponent.",
+    "top_frame": "They managed the lead they earned in the seventh \u2014 and that was the game.",
+    "what_this_means": "Schmitt's go-ahead home run turned a ballpark full of traffic into actual runs, and the Giants spent the rest of the evening defending that margin. Roupp worked through 7.2 clean innings, allowing just two hits and the three earned runs that came before Schmitt's swing mattered. Lee went 4-for-5 at the top of the order. Gilbert found his moment with a two-out RBI. The offense was broad enough to make something stick.",
+    "what_to_watch": "This is a team that doesn't waste the chances it creates. That's the difference between yesterday and today \u2014 not the quality of the pitching or the lineup, but the conversion. Down three entering the seventh, they needed one swing to matter. Schmitt delivered it, and the rest held. Late-inning rallies are becoming what they do, and they're starting to win games on those terms. This only works until it doesn't, but right now it's working.",
     "story_state": {
       "trend": "stabilizing",
       "driver": "balanced",
