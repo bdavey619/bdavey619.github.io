@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T03:53:38+00:00",
+  "generated_at": "2026-04-28T14:19:35+00:00",
   "season": 2026,
   "team": {
     "record": "13-15",
@@ -7,7 +7,7 @@
     "run_diff": "-17",
     "last10": "7-3",
     "division_rank": 4,
-    "games_back": "6.0",
+    "games_back": "6.5",
     "avg": ".250",
     "ops": ".667",
     "era": "3.83"
@@ -228,14 +228,14 @@
   "standings": [
     {
       "team": "Dodgers",
-      "w": 19,
+      "w": 20,
       "l": 9,
       "gb": "-",
       "last10": "5-5"
     },
     {
       "team": "Padres",
-      "w": 18,
+      "w": 19,
       "l": 9,
       "gb": "0.5",
       "last10": "7-3"
@@ -244,21 +244,21 @@
       "team": "D-backs",
       "w": 15,
       "l": 12,
-      "gb": "3.5",
+      "gb": "4.0",
       "last10": "6-4"
     },
     {
       "team": "Giants",
       "w": 13,
       "l": 15,
-      "gb": "6.0",
+      "gb": "6.5",
       "last10": "7-3"
     },
     {
       "team": "Rockies",
       "w": 13,
       "l": 16,
-      "gb": "6.5",
+      "gb": "7.0",
       "last10": "6-4"
     }
   ],
@@ -278,9 +278,9 @@
     "clutch role players"
   ],
   "narrative": {
-    "top_frame": "They didn't blink when it mattered most.",
-    "what_this_means": "The pattern has become clear: this team doesn't fold when a moment arrives in the late innings. Schmitt's go-ahead shot in the seventh was the game's essential swing\u2014not because it was spectacular, but because it came when the Giants needed one clean answer and got it. Roupp had worked through seven and a third, holding Miami to two hits while the offense scraped together just enough contact to stay in range. Lee was a force at the plate, going 4-for-5, but the game belonged to the moment\u2014down three, a role player delivered. This is becoming the formula: the bullpen holds the line, and someone in the middle of the order finds the pitch that matters. Nothing here feels inevitable. But it keeps happening.",
-    "what_to_watch": "Now the question is whether Mahle can impose early order against a Phillies team that's flailing at the plate. If the pattern holds, the Giants will make it a game deep into the eighth or ninth\u2014and that's where tonight decides itself.",
+    "top_frame": "This team doesn't fold when it matters.",
+    "what_this_means": "They were chasing after the second inning, Miami up early and the Giants playing catch-up ball in a day game that could have slipped away quietly. But late-inning baseball is where this team has learned to live. Schmitt's go-ahead home run in the seventh wasn't a breakout moment\u2014it was a role player doing exactly what he's supposed to do when the game tightens. Roupp held the line from the mound, giving them a platform to climb back. The offense was quiet, scattered; .250 average and six strikeouts tell you this wasn't about overpowering anyone. It was about not breaking. The pattern is clear now: this team doesn't need to dominate. It needs to stay intact long enough for one swing to matter. That's happening with consistency. They're 7-3 in their last ten because they understand the math of close games\u2014one run late beats being down early if you don't panic. Down 6.5 in the division, they can't afford to lose the games where one swing decides the outcome. Today, they got that swing. Tomorrow matters because they need to keep getting them.",
+    "what_to_watch": "Now the question is whether this holds against better offenses. Philadelphia's hitters are struggling worse than San Francisco's\u2014but the Phillies' pitching is not. Mahle gets a matchup that should favor him, which means the Giants can't rely on scoring first. They'll need to do this again: stay close, find a moment late, and make one swing land.",
     "story_state": {
       "trend": "stabilizing",
       "driver": "balanced",
@@ -292,7 +292,7 @@
       "last10_w": 7,
       "era": 3.83,
       "ops": 0.667,
-      "gb": 6.0,
+      "gb": 6.5,
       "division_rank": 4,
       "last_result": "W",
       "date": "2026-04-26",
@@ -306,7 +306,8 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "won last game"
+        "won last game",
+        "division gap: fell back 0.5 game(s) (6.5 back)"
       ]
     }
   }
