@@ -31,6 +31,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python padres/build_brief.py
 
+      - name: Archive brief
+        run: python archive_brief.py --team padres
+
       - name: Render email HTML
         run: python render_email.py --team padres
 
@@ -45,7 +48,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add padres/brief.json padres/story_state.json
+          git add padres/brief.json padres/story_state.json padres/archive/
           if git diff --cached --quiet; then
             echo "No changes to brief.json — skipping commit."
           else

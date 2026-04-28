@@ -1,0 +1,307 @@
+{
+  "generated_at": "2026-04-28T04:30:05+00:00",
+  "season": 2026,
+  "team": {
+    "record": "18-9",
+    "streak": "L1",
+    "run_diff": "+12",
+    "last10": "7-3",
+    "division_rank": 2,
+    "games_back": "0.5",
+    "avg": ".240",
+    "ops": ".702",
+    "era": "4.01"
+  },
+  "last_game": {
+    "status": "final",
+    "gamePk": 825094,
+    "date": "2026-04-26",
+    "opponent": "AZ",
+    "home": false,
+    "result": "L",
+    "score": {
+      "team": 7,
+      "opp": 12
+    },
+    "linescore": [
+      [
+        0,
+        1,
+        2,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        6,
+        4,
+        ""
+      ]
+    ],
+    "decisions": {
+      "win": "Ryan Thompson",
+      "win_role": "RP",
+      "win_team": "opp",
+      "loss": "Bradgley Rodriguez",
+      "loss_role": "RP",
+      "loss_team": "team"
+    },
+    "key_hitters": [
+      {
+        "name": "Manny Machado",
+        "line": "2-5, 2 HR, 5 RBI",
+        "pos": "3B",
+        "season_avg": ".209"
+      },
+      {
+        "name": "Luis Campusano",
+        "line": "2-4, 1 HR, 2 RBI",
+        "pos": "C",
+        "season_avg": ".350"
+      }
+    ],
+    "key_pitcher": {
+      "name": "Michael King",
+      "line": "6.0 IP, 3 H, 2 ER, 8 K",
+      "role": "SP",
+      "season_era": "2.41"
+    },
+    "context_line": "Away \u00b7 Estadio Alfredo Harp Helu \u00b7 Day game",
+    "highlights_url": "https://www.youtube.com/results?search_query=SD+vs+AZ+highlights+April+26+2026+MLB",
+    "game_note": "AZ's 6-run seventh proved to be the difference.",
+    "full_box": {
+      "batting": [
+        {
+          "name": "Ram\u00f3n Laureano",
+          "pos": "LF",
+          "avg": ".255",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "so": 2
+        },
+        {
+          "name": "Fernando Tatis Jr.",
+          "pos": "RF",
+          "avg": ".250",
+          "ab": 4,
+          "r": 2,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "so": 0
+        },
+        {
+          "name": "Jackson Merrill",
+          "pos": "CF",
+          "avg": ".214",
+          "ab": 5,
+          "r": 1,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Manny Machado",
+          "pos": "3B",
+          "avg": ".209",
+          "ab": 5,
+          "r": 2,
+          "h": 2,
+          "rbi": 5,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Xander Bogaerts",
+          "pos": "SS",
+          "avg": ".278",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Gavin Sheets",
+          "pos": "1B",
+          "avg": ".229",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Miguel Andujar",
+          "pos": "DH",
+          "avg": ".311",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Luis Campusano",
+          "pos": "C",
+          "avg": ".350",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 2,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Jake Cronenworth",
+          "pos": "2B",
+          "avg": ".155",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        }
+      ],
+      "pitching": [
+        {
+          "name": "Michael King",
+          "ip": "6.0",
+          "h": 3,
+          "er": 2,
+          "k": 8,
+          "bb": 1
+        },
+        {
+          "name": "David Morgan",
+          "ip": "0.1",
+          "h": 4,
+          "er": 4,
+          "k": 0,
+          "bb": 0
+        },
+        {
+          "name": "Bradgley Rodriguez",
+          "ip": "0.2",
+          "h": 2,
+          "er": 2,
+          "k": 0,
+          "bb": 1
+        },
+        {
+          "name": "Ron Marinaccio",
+          "ip": "0.1",
+          "h": 5,
+          "er": 4,
+          "k": 0,
+          "bb": 0
+        },
+        {
+          "name": "Wandy Peralta",
+          "ip": "0.2",
+          "h": 1,
+          "er": 0,
+          "k": 0,
+          "bb": 1
+        }
+      ]
+    },
+    "clutch_player": {
+      "name": "Manny Machado",
+      "event": "2-5, 2 HR, 5 RBI",
+      "inning": null,
+      "description": "led the offense with 2-5, 2 HR, 5 RBI.",
+      "reason": "top hitter by box score (no play-by-play clutch moment detected)",
+      "confidence": "low"
+    },
+    "game_driver": {
+      "name": "Manny Machado",
+      "type": "hitter",
+      "reason": "2-HR game",
+      "description": "kept the offense alive with 2 home runs.",
+      "confidence": "high"
+    }
+  },
+  "next_game": {
+    "gamePk": 823311,
+    "date": "2026-04-27",
+    "opponent": "CHC",
+    "home": true,
+    "time_local": "6:40 PM PT",
+    "probable": {
+      "team": "Randy V\u00e1squez",
+      "opp": "Matthew Boyd"
+    },
+    "insight": "San Diego sits just 0.5 back in the NL West \u2014 every game in this stretch counts.",
+    "hook_type": "race_context"
+  },
+  "standings": [
+    {
+      "team": "Dodgers",
+      "w": 19,
+      "l": 9,
+      "gb": "-",
+      "last10": "5-5"
+    },
+    {
+      "team": "Padres",
+      "w": 18,
+      "l": 9,
+      "gb": "0.5",
+      "last10": "7-3"
+    },
+    {
+      "team": "D-backs",
+      "w": 15,
+      "l": 12,
+      "gb": "3.5",
+      "last10": "6-4"
+    },
+    {
+      "team": "Giants",
+      "w": 13,
+      "l": 15,
+      "gb": "6.0",
+      "last10": "7-3"
+    },
+    {
+      "team": "Rockies",
+      "w": 13,
+      "l": 16,
+      "gb": "6.5",
+      "last10": "6-4"
+    }
+  ],
+  "hot_players": {
+    "hitters": [],
+    "pitchers": []
+  },
+  "subhead": "San Diego falls to AZ \u2014 0.5 back in the West.",
+  "insight": {
+    "headline": "Balanced ball \u2014 Padres are 7-3 over their last ten.",
+    "detail": "Both sides have contributed: .240 average, .702 OPS at the plate, 4.01 ERA from the staff. At 0.5 back in the West, they're squarely in the race.",
+    "why": "ERA at 4.01 \u00b7 OPS at .702 \u00b7 7\u20133 in the last ten"
+  },
+  "story_hook": "They had the moments. They didn't have the finish.",
+  "story_threads_debug": [
+    "division pressure",
+    "inconsistency"
+  ]
+}
