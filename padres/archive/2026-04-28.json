@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T17:33:32+00:00",
+  "generated_at": "2026-04-28T17:38:12+00:00",
   "season": 2026,
   "team": {
     "record": "19-9",
@@ -307,9 +307,9 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "They scraped out enough in the ninth when it mattered most.",
-    "what_this_means": "France delivered the swing that separated this game\u2014a 4-RBI night that turned traffic on the basepaths into actual runs. The lineup worked, touching the ball on fourteen hits, but execution under pressure is what won this game. V\u00e1squez gave them what they needed early (five strong innings, no disasters), and the bullpen didn't break in the moments it couldn't afford to.",
-    "what_to_watch": "This is what division baseball looks like right now: a team that doesn't have much margin but knows how to use what it has. The Padres are 19-9 because they've stopped losing the close ones\u2014they're winning them. They're still batting .240, still tied up by a pitching-first identity that leaves no room for rough nights at the plate. But when the situation requires a clean inning or a timely hit, they're answering. That's fragile. That's also become their formula.",
+    "top_frame": "Ty France turned traffic into runs\u2014and that was the only separation that mattered.",
+    "what_this_means": "The lineup created chances. Fourteen hits across the lineup meant everyone touched the game. But the Cubs matched San Diego's run production through five innings, and a starter leaking 5 earned runs in 5 innings left no margin for sloppiness. France's 4 RBI didn't carry a broken offense; it separated a broad effort from a loss. The win came from converting opportunities when they arrived, not from dominating them. In a division where 0.5 games is the distance between first and second, conversions are the only currency that counts.",
+    "what_to_watch": "This is the formula holding so far\u2014disciplined enough to generate traffic, clutch enough to cash it. The pattern worked again, but notice the terms: the margin is real, and it depends on not squandering the chances the lineup builds. Nothing here suggests this team is ascending. It suggests they're executing at the edge of what they have. The bats remain thin (.240 average, .705 OPS), and when those numbers are keeping you afloat, you're not safe in October\u2014or in a division that tight.",
     "story_state": {
       "trend": "stabilizing",
       "driver": "balanced",
