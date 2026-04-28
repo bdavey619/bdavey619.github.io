@@ -58,5 +58,5 @@ jobs:
             git commit -m "chore: update Yankees morning brief [skip ci]"
             git restore .
             git pull --rebase origin main
-            git push
+            git push || (git pull --rebase origin main && git push)
           fi
