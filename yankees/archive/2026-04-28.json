@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T17:29:50+00:00",
+  "generated_at": "2026-04-28T17:42:52+00:00",
   "season": 2026,
   "team": {
     "record": "19-10",
@@ -300,9 +300,9 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "Max Fried didn't let Texas breathe\u2014six scoreless innings, nothing given away.",
-    "what_this_means": "Both sides are clicking now, and that's exactly what this team needed to prove. Fried's shutdown performance came without margin for error; the Yankees created just enough traffic to matter. Aaron Judge went 3-for-3 with a homer, Ben Rice added two runs\u2014the lineup didn't carry the game, but it finished the one that mattered. This is the formula working at full throttle: dominant pitching, balanced contribution, everyone touching the game. The wins pile up when the pitching holds because the offense doesn't have to be perfect, just present. They're 19-10 and surging because both sides are now meeting a higher standard. This works until the pitching slips or the bats go quiet for a week\u2014but right now, there's no sign of either.",
-    "what_to_watch": "Now the question is whether this rhythm survives the return trip to the same ballpark tonight. Schlittler has been sharp lately (2.62 ERA over four starts), and Texas will not roll over twice in a row. The Yankees have to answer whether yesterday's balance was the new standard or a one-game statement.",
+    "top_frame": "This team doesn't fold when it matters.",
+    "what_this_means": "Max Fried shut down Texas over six scoreless innings\u2014the kind of dominant starting performance that shifts the entire calculus of a close game. Aaron Judge went 3-for-3 with a home run, but the real story was how clean the pitching was. Fried didn't just limit damage; he erased the possibility of it. Ben Rice added a two-run homer off a thin bench, the kind of depth production that separates surging teams from ones that catch fire and burn out. The offense was fine\u20149 hits, no offensive crisis. But the game was decided on the mound, and that matters now because Fried's 2.09 ERA is becoming the spine of this team's recent run. They're 9-1 in their last ten because their starters are pitching like their jobs depend on it, and the margins that looked fragile last week are starting to feel real.",
+    "what_to_watch": "Now the test is whether Cam Schlittler can keep that edge going tonight. The formula works\u2014dominant starting pitching, timely hitting, no catastrophic mistakes. The question is whether Schlittler can be the next proof.",
     "story_state": {
       "trend": "surging",
       "driver": "balanced",
@@ -328,9 +328,7 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "won last game",
-        "streak flipped: L1 \u2192 W1",
-        "ERA improved: 3.26 \u2192 3.18"
+        "won last game"
       ]
     }
   }

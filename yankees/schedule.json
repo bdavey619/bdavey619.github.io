@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-04",
   "division_name": "AL East",
-  "generated_at": "2026-04-28T17:11:31.024092+00:00",
+  "generated_at": "2026-04-28T17:42:56.674605+00:00",
   "games": [
     {
       "date": "2026-04-01",
@@ -249,7 +249,7 @@
   ],
   "summary": {
     "month_record": "15\u20139",
-    "current_streak": "L1",
-    "last_10": "8\u20132"
+    "current_streak": "W1",
+    "last_10": "9\u20131"
   }
 }
