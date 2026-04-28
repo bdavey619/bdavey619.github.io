@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T17:09:10+00:00",
+  "generated_at": "2026-04-28T17:29:18+00:00",
   "season": 2026,
   "team": {
     "record": "15-13",
@@ -307,9 +307,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "They scratched out enough to matter.",
-    "what_this_means": "This is a team that wins on margins. Ginn kept Texas off the board through three-plus innings while the lineup manufactured traffic\u2014ten hits, five strikeouts, the kind of scattered assault that doesn't look like much until someone turns it into runs. Cortes was that someone, stringing together three hits with authority. The offense was collaborative. Cortes made it count. This matters because the pattern is holding: they are not dominant, they are not polished, but they are finding ways to win games they had no right to finish. Against division rivals with better lineups and deeper bullpens, that margin\u2014one run, efficient pitching, a bat that connects when traffic exists\u2014is the only thing keeping them close in the West. If this continues, they stay in range. If it doesn't, the 15-13 record will look like an outlier.",
-    "what_to_watch": "Now the question is whether this formula survives when Kansas City brings better depth and a sharper lineup tonight. One win against Texas doesn't erase the inconsistency\u2014it just proves it's not total. The next test is whether they can string consecutive games together without the margin shrinking.",
+    "top_frame": "A clean win on the road, and the question has shifted from whether they can compete to whether they can stay consistent.",
+    "what_this_means": "They got exactly what they needed: a tight game where the pitching held and the bats found enough traffic to matter. Ginn's three-plus scoreless innings set the tone\u2014this is a staff still learning its shape, but moments like that are starting to feel less like exceptions. Cortes turned the lineup's contact into runs, which is what separates a decent game from a win in a park like Globe Life. This is not a team that is dominant. But they are becoming a team that can win games they do not control. That matters in the division. The fragility has not disappeared\u2014.241 average, .709 OPS\u2014but they kept hanging around and made it count. That is a formula that works until one of its pieces fails. Tonight will show if it holds again.",
+    "what_to_watch": "Now the question is whether they can repeat it: tight margins and pitching that does not crack. Kansas City will test both tonight, and the Athletics have no room for the inconsistency that has already cost them two games they should have won.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
