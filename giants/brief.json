@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T22:23:11+00:00",
+  "generated_at": "2026-04-28T03:53:38+00:00",
   "season": 2026,
   "team": {
     "record": "13-15",
@@ -276,5 +276,38 @@
   "story_threads_debug": [
     "late-inning rallies",
     "clutch role players"
-  ]
+  ],
+  "narrative": {
+    "top_frame": "They didn't blink when it mattered most.",
+    "what_this_means": "The pattern has become clear: this team doesn't fold when a moment arrives in the late innings. Schmitt's go-ahead shot in the seventh was the game's essential swing\u2014not because it was spectacular, but because it came when the Giants needed one clean answer and got it. Roupp had worked through seven and a third, holding Miami to two hits while the offense scraped together just enough contact to stay in range. Lee was a force at the plate, going 4-for-5, but the game belonged to the moment\u2014down three, a role player delivered. This is becoming the formula: the bullpen holds the line, and someone in the middle of the order finds the pitch that matters. Nothing here feels inevitable. But it keeps happening.",
+    "what_to_watch": "Now the question is whether Mahle can impose early order against a Phillies team that's flailing at the plate. If the pattern holds, the Giants will make it a game deep into the eighth or ninth\u2014and that's where tonight decides itself.",
+    "story_state": {
+      "trend": "stabilizing",
+      "driver": "balanced",
+      "confidence": "medium",
+      "pressure": "low",
+      "record_w": 13,
+      "record_l": 15,
+      "streak": "W2",
+      "last10_w": 7,
+      "era": 3.83,
+      "ops": 0.667,
+      "gb": 6.0,
+      "division_rank": 4,
+      "last_result": "W",
+      "date": "2026-04-26",
+      "game_emotion_level": "high"
+    },
+    "story_delta": {
+      "has_prev": true,
+      "trend_changed": false,
+      "trend_direction": "unchanged",
+      "conf_changed": false,
+      "pressure_changed": false,
+      "driver_changed": false,
+      "signals": [
+        "won last game"
+      ]
+    }
+  }
 }
