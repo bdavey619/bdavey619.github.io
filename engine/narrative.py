@@ -1005,22 +1005,28 @@ Look for:
 * Bridge moments (middle relief holding a fragile game)
 * Closer leverage (tight 9th, pressure outs)
 
+SPECIFICITY RULE — prefer naming the pitcher over generic phrases:
+When a reliever or closer appears in the box score or in high-leverage moments (7th inning onward, close game, save situation), name them directly.
 Examples:
-* "The bullpen held the line from there."
-* "They handed it to the bullpen and it stuck."
-* "The lead didn't survive the middle innings."
-* "That game was over once it reached the back end."
+* "Doval closed it out."
+* "Rogers bridged the gap into the ninth."
+* "Hader got the call and it wasn't close."
 
-Do NOT force bullpen mention if irrelevant.
+Avoid generic phrasing:
+* DO NOT write "the bullpen held" or "the bullpen did its job" or "the back end delivered" when a specific pitcher drove the outcome.
+
+Keep any bullpen reference to ONE clause max — do not expand into a full bullpen recap.
+
+Do NOT force bullpen mention if:
+* Starter went deep and dominated
+* Game was not close late
 
 But if:
 * Starter exits early
 * Game is close late
 * Lead changes hands after the 6th
 
-→ bullpen should be part of the explanation.
-
-Closers and high-leverage relievers (e.g. dominant arms) should be named when they define the outcome.
+→ bullpen should be part of the explanation, with the relevant pitcher named if identifiable.
 
 If a reliever or closer has repeatedly protected narrow leads, locked down late innings, or appeared in high-leverage spots across recent games, treat that as a possible player arc — not just a today observation.
 Examples:
