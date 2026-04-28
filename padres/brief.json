@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-04-27T20:44:22+00:00",
+  "generated_at": "2026-04-28T16:21:08+00:00",
   "season": 2026,
   "team": {
-    "record": "18-9",
-    "streak": "L1",
-    "run_diff": "+12",
+    "record": "19-9",
+    "streak": "W1",
+    "run_diff": "+14",
     "last10": "7-3",
     "division_rank": 2,
     "games_back": "0.5",
-    "avg": ".235",
-    "ops": ".693",
-    "era": "3.96"
+    "avg": ".240",
+    "ops": ".705",
+    "era": "4.07"
   },
   "last_game": {
     "status": "final",
-    "gamePk": 825094,
-    "date": "2026-04-26",
-    "opponent": "AZ",
-    "home": false,
-    "result": "L",
+    "gamePk": 823311,
+    "date": "2026-04-27",
+    "opponent": "CHC",
+    "home": true,
+    "result": "W",
     "score": {
-      "team": 7,
-      "opp": 12
+      "team": 9,
+      "opp": 7
     },
     "linescore": [
       [
+        3,
         0,
         1,
+        0,
         2,
         0,
-        3,
+        2,
         1,
-        0,
-        0,
-        0
+        ""
       ],
       [
         0,
-        0,
-        0,
-        0,
         1,
-        1,
-        6,
         4,
-        ""
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
       ]
     ],
     "decisions": {
-      "win": "Ryan Thompson",
-      "win_role": "RP",
-      "win_team": "opp",
-      "loss": "Bradgley Rodriguez",
+      "win": "Randy V\u00e1squez",
+      "win_role": "SP",
+      "win_team": "team",
+      "loss": "Ben Brown",
       "loss_role": "RP",
-      "loss_team": "team"
+      "loss_team": "opp"
     },
     "key_hitters": [
       {
         "name": "Manny Machado",
-        "line": "2-5, 2 HR, 5 RBI",
+        "line": "3-4",
         "pos": "3B",
-        "season_avg": ".209"
+        "season_avg": ".232"
       },
       {
-        "name": "Luis Campusano",
-        "line": "2-4, 1 HR, 2 RBI",
-        "pos": "C",
-        "season_avg": ".350"
+        "name": "Ty France",
+        "line": "2-3, 4 RBI",
+        "pos": "3B",
+        "season_avg": ".297"
       }
     ],
     "key_pitcher": {
-      "name": "Michael King",
-      "line": "6.0 IP, 3 H, 2 ER, 8 K",
+      "name": "Randy V\u00e1squez",
+      "line": "5.0 IP, 5 H, 5 ER, 4 K",
       "role": "SP",
-      "season_era": "2.41"
+      "season_era": "2.94"
     },
-    "context_line": "Away \u00b7 Estadio Alfredo Harp Helu \u00b7 Day game",
-    "highlights_url": "https://www.youtube.com/results?search_query=SD+vs+AZ+highlights+April+26+2026+MLB",
-    "game_note": "AZ's 6-run seventh proved to be the difference.",
+    "context_line": "Home \u00b7 Petco Park \u00b7 Night game",
+    "highlights_url": "https://www.youtube.com/results?search_query=CHC+vs+SD+highlights+April+27+2026+MLB",
+    "game_note": "A 3-run first put San Diego in control and they never looked back.",
     "full_box": {
       "batting": [
         {
@@ -85,184 +85,187 @@
           "pos": "LF",
           "avg": ".255",
           "ab": 4,
-          "r": 0,
+          "r": 1,
           "h": 1,
           "rbi": 0,
           "bb": 1,
-          "so": 2
+          "so": 1
         },
         {
           "name": "Fernando Tatis Jr.",
           "pos": "RF",
-          "avg": ".250",
-          "ab": 4,
-          "r": 2,
-          "h": 1,
+          "avg": ".257",
+          "ab": 5,
+          "r": 0,
+          "h": 2,
           "rbi": 0,
-          "bb": 1,
-          "so": 0
+          "bb": 0,
+          "so": 1
         },
         {
           "name": "Jackson Merrill",
           "pos": "CF",
-          "avg": ".214",
+          "avg": ".213",
           "ab": 5,
           "r": 1,
-          "h": 2,
-          "rbi": 0,
+          "h": 1,
+          "rbi": 1,
           "bb": 0,
-          "so": 0
+          "so": 3
         },
         {
           "name": "Manny Machado",
           "pos": "3B",
-          "avg": ".209",
-          "ab": 5,
-          "r": 2,
-          "h": 2,
-          "rbi": 5,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Xander Bogaerts",
-          "pos": "SS",
-          "avg": ".278",
+          "avg": ".232",
           "ab": 4,
-          "r": 1,
-          "h": 1,
+          "r": 3,
+          "h": 3,
           "rbi": 0,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Gavin Sheets",
-          "pos": "1B",
-          "avg": ".229",
-          "ab": 4,
-          "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Miguel Andujar",
-          "pos": "DH",
-          "avg": ".311",
-          "ab": 4,
-          "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Luis Campusano",
-          "pos": "C",
-          "avg": ".350",
-          "ab": 4,
-          "r": 1,
-          "h": 2,
-          "rbi": 2,
           "bb": 0,
           "so": 0
         },
         {
-          "name": "Jake Cronenworth",
-          "pos": "2B",
-          "avg": ".155",
+          "name": "Gavin Sheets",
+          "pos": "1B",
+          "avg": ".238",
+          "ab": 1,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Xander Bogaerts",
+          "pos": "SS",
+          "avg": ".284",
+          "ab": 5,
+          "r": 1,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Miguel Andujar",
+          "pos": "DH",
+          "avg": ".313",
+          "ab": 3,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 1,
+          "so": 0
+        },
+        {
+          "name": "Ty France",
+          "pos": "3B",
+          "avg": ".297",
+          "ab": 3,
+          "r": 1,
+          "h": 2,
+          "rbi": 4,
+          "bb": 1,
+          "so": 0
+        },
+        {
+          "name": "Nick Castellanos",
+          "pos": "RF",
+          "avg": ".154",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 2,
+          "bb": 0,
+          "so": 2
+        },
+        {
+          "name": "Freddy Fermin",
+          "pos": "C",
+          "avg": ".170",
           "ab": 4,
           "r": 0,
           "h": 0,
           "rbi": 0,
           "bb": 0,
-          "so": 0
+          "so": 1
         }
       ],
       "pitching": [
         {
-          "name": "Michael King",
-          "ip": "6.0",
+          "name": "Randy V\u00e1squez",
+          "ip": "5.0",
+          "h": 5,
+          "er": 5,
+          "k": 4,
+          "bb": 3
+        },
+        {
+          "name": "Adrian Morejon",
+          "ip": "1.2",
+          "h": 0,
+          "er": 0,
+          "k": 2,
+          "bb": 1
+        },
+        {
+          "name": "Jason Adam",
+          "ip": "1.1",
+          "h": 0,
+          "er": 0,
+          "k": 1,
+          "bb": 0
+        },
+        {
+          "name": "Mason Miller",
+          "ip": "1.0",
           "h": 3,
           "er": 2,
-          "k": 8,
-          "bb": 1
-        },
-        {
-          "name": "David Morgan",
-          "ip": "0.1",
-          "h": 4,
-          "er": 4,
-          "k": 0,
+          "k": 1,
           "bb": 0
-        },
-        {
-          "name": "Bradgley Rodriguez",
-          "ip": "0.2",
-          "h": 2,
-          "er": 2,
-          "k": 0,
-          "bb": 1
-        },
-        {
-          "name": "Ron Marinaccio",
-          "ip": "0.1",
-          "h": 5,
-          "er": 4,
-          "k": 0,
-          "bb": 0
-        },
-        {
-          "name": "Wandy Peralta",
-          "ip": "0.2",
-          "h": 1,
-          "er": 0,
-          "k": 0,
-          "bb": 1
         }
       ]
     },
     "clutch_player": {
       "name": "Manny Machado",
-      "event": "2-5, 2 HR, 5 RBI",
+      "event": "3-4",
       "inning": null,
-      "description": "led the offense with 2-5, 2 HR, 5 RBI.",
+      "description": "led the offense with 3-4.",
       "reason": "top hitter by box score (no play-by-play clutch moment detected)",
       "confidence": "low"
     },
     "game_driver": {
-      "name": "Manny Machado",
+      "name": "Ty France",
       "type": "hitter",
-      "reason": "2-HR game",
-      "description": "kept the offense alive with 2 home runs.",
+      "reason": "4-RBI game",
+      "description": "drove in 4 runs, providing the offense's primary punch.",
       "confidence": "high"
     }
   },
   "next_game": {
-    "gamePk": 823311,
-    "date": "2026-04-27",
+    "gamePk": 823310,
+    "date": "2026-04-28",
     "opponent": "CHC",
     "home": true,
     "time_local": "6:40 PM PT",
     "probable": {
-      "team": "Randy V\u00e1squez",
-      "opp": "Matthew Boyd"
+      "team": "Walker Buehler",
+      "opp": "Edward Cabrera"
     },
-    "insight": "V\u00e1squez has a 2.43 ERA over his last 4 starts \u2014 he takes the mound tonight.",
-    "hook_type": "pitcher_form"
+    "insight": "San Diego sits just 0.5 back in the NL West \u2014 every game in this stretch counts.",
+    "hook_type": "race_context"
   },
   "standings": [
     {
       "team": "Dodgers",
-      "w": 19,
+      "w": 20,
       "l": 9,
       "gb": "-",
       "last10": "5-5"
     },
     {
       "team": "Padres",
-      "w": 18,
+      "w": 19,
       "l": 9,
       "gb": "0.5",
       "last10": "7-3"
@@ -271,21 +274,21 @@
       "team": "D-backs",
       "w": 15,
       "l": 12,
-      "gb": "3.5",
+      "gb": "4.0",
       "last10": "6-4"
     },
     {
       "team": "Giants",
       "w": 13,
       "l": 15,
-      "gb": "6.0",
+      "gb": "6.5",
       "last10": "7-3"
     },
     {
       "team": "Rockies",
       "w": 13,
       "l": 16,
-      "gb": "6.5",
+      "gb": "7.0",
       "last10": "6-4"
     }
   ],
@@ -293,47 +296,51 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "San Diego falls to AZ \u2014 0.5 back in the West.",
+  "subhead": "San Diego stays hot \u2014 7-3 over the last ten, Machado leading the way \u2014 0.5 back in the West.",
   "insight": {
     "headline": "Balanced ball \u2014 Padres are 7-3 over their last ten.",
-    "detail": "Both sides have contributed: .235 average, .693 OPS at the plate, 3.96 ERA from the staff. At 0.5 back in the West, they're squarely in the race.",
-    "why": "ERA at 3.96 \u00b7 quiet bats (.693 OPS) \u00b7 7\u20133 in the last ten"
+    "detail": "Both sides have contributed: .240 average, .705 OPS at the plate, 4.07 ERA from the staff. At 0.5 back in the West, they're squarely in the race.",
+    "why": "ERA at 4.07 \u00b7 OPS at .705 \u00b7 7\u20133 in the last ten"
   },
-  "story_hook": "They had the moments. They didn't have the finish.",
+  "story_hook": "",
   "story_threads_debug": [
-    "division pressure",
-    "inconsistency"
+    "division pressure"
   ],
   "narrative": {
-    "top_frame": "The formula collapsed when it mattered most\u2014and Machado's power wasn't enough.",
-    "what_this_means": "Arizona got ahead early and stayed there. The Padres chased from the second inning on, scratched out eleven hits, but couldn't finish. Machado kept them alive with two home runs and five RBIs\u2014he did his job. Michael King was sharp, holding them to just two earned runs over six innings. The numbers looked respectable. The result didn't. This is the fragility that haunts this team: they had the moments, just not the finish. King exited before the game was truly decided, and whatever came after didn't hold. A loss in Mexico City, a half-game from first place, and the inconsistency that's defined the season got louder.",
-    "what_to_watch": "The pattern is becoming harder to ignore. This team has Machado driving runs when the game is on the line\u2014that's real, that's repeatable. But one player's power doesn't move you out of second place when the rest of the offense sits at .235. The pitching is holding up (3.96 ERA in a division that can hit). The problem is margin: they're winning on thin ones, and losing the same way. Machado's night proved the bats can show up. It didn't prove they can finish together. You need the whole thing to click in the same inning, not in relay. This loss wasn't about Arizona being better. It was about the Padres not being complete enough.",
+    "top_frame": "Ty France gave them just enough when they needed everything.",
+    "what_this_means": "France's four-RBI night was the only real firepower the Padres could muster against Chicago\u2014a team that gifted them chances but refused to hand them a win. The offense managed 14 hits but also 8 strikeouts, the kind of at-bat profile that doesn't hold up in tight division races. What matters is that one hitter carried the load. In a game where the pitching allowed five runs before the fifth inning even closed, France's bat was the only reason San Diego stayed in it at all. This is the pattern emerging: the staff sets a narrow margin, the lineup has to be sharp, and one player has to show up. Today France did. The formula held because he didn't miss his moment. But this only works if it keeps working\u2014and one hitter in a 9-7 game isn't a structure, it's a rescue.",
+    "what_to_watch": "Now the question is whether that margin survives what's coming. Tonight will test whether a bullpen and a one-man offense can carry them deeper into a division fight they're already trailing in.",
     "story_state": {
-      "trend": "fragile",
+      "trend": "stabilizing",
       "driver": "balanced",
       "confidence": "medium",
-      "pressure": "high",
-      "record_w": 18,
+      "pressure": "building",
+      "record_w": 19,
       "record_l": 9,
-      "streak": "L1",
+      "streak": "W1",
       "last10_w": 7,
-      "era": 3.96,
-      "ops": 0.693,
+      "era": 4.07,
+      "ops": 0.705,
       "gb": 0.5,
       "division_rank": 2,
-      "last_result": "L",
-      "date": "2026-04-26",
-      "game_emotion_level": "high"
+      "last_result": "W",
+      "date": "2026-04-27",
+      "game_emotion_level": "normal"
     },
     "story_delta": {
       "has_prev": true,
-      "trend_changed": false,
-      "trend_direction": "unchanged",
+      "trend_changed": true,
+      "trend_direction": "improved",
       "conf_changed": false,
-      "pressure_changed": false,
+      "pressure_changed": true,
       "driver_changed": false,
       "signals": [
-        "lost last game"
+        "trend improved: fragile \u2192 stabilizing",
+        "pressure decreased: high \u2192 building",
+        "won last game",
+        "streak flipped: L1 \u2192 W1",
+        "ERA worsened: 3.96 \u2192 4.07",
+        "OPS up: 0.693 \u2192 0.705"
       ]
     }
   }
