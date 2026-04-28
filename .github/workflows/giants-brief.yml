@@ -36,7 +36,7 @@ jobs:
 
       - name: Send email
         env:
-          RESEND_API_KEY: ${{ secrets.GIANTS_RESEND_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_TO: ${{ secrets.GIANTS_EMAIL_TO }}
           EMAIL_FROM: ${{ secrets.GIANTS_EMAIL_FROM }}
         run: python send_email.py --team giants
