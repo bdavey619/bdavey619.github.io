@@ -56,7 +56,9 @@
       gap: 3px;
     }
     .cal-empty { background: #f4f0e8; }
-    /* Today: team-specific cool tint + accented day number */
+    /* Series cells — very subtle shared tint groups consecutive games visually */
+    .cal-series-cell { background: #f5f2ea; }
+    /* Today: team-specific cool tint + accented day number (overrides series) */
     .cal-today { background: #eef2f9; }
 
     .cal-day-num {
@@ -68,6 +70,17 @@
       margin-bottom: 2px;
     }
     .cal-today .cal-day-num { color: #003087; font-weight: 700; }
+
+    /* Series start label — "· 3 games" above the opp line, first game only */
+    .cal-series-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 8px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      color: #a09888;
+      line-height: 1.2;
+      margin-bottom: 1px;
+    }
 
     /* ── Game card ────────────────────────────────── */
     .cal-game {

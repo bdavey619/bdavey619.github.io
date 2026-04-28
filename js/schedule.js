@@ -39,6 +39,27 @@
 
   // ── Calendar grid ─────────────────────────────────────────────────────────
 
+  // Detect consecutive same-opponent+home runs as series.
+  // Returns Map<gamePk, {len, pos}> (pos is 1-indexed within the series).
+  function buildSeriesMeta(games) {
+    const meta = new Map();
+    let i = 0;
+    while (i < games.length) {
+      let j = i + 1;
+      while (
+        j < games.length &&
+        games[j].opponent === games[i].opponent &&
+        games[j].home === games[i].home
+      ) { j++; }
+      const len = j - i;
+      for (let k = i; k < j; k++) {
+        meta.set(games[k].gamePk, { len, pos: k - i + 1 });
+      }
+      i = j;
+    }
+    return meta;
+  }
+
   function renderCalendar(data) {
     const [year, month] = data.month.split('-').map(Number);
     const monthLabel = new Date(year, month - 1, 1)
@@ -51,6 +72,8 @@
       if (!byDate[g.date]) byDate[g.date] = [];
       byDate[g.date].push(g);
     }
+
+    const seriesMeta = buildSeriesMeta(data.games);
 
     const grid = document.getElementById('calendar-grid');
     const firstDow = new Date(year, month - 1, 1).getDay();
@@ -83,12 +106,18 @@
         const dateStr = isoDate(year, month, dayNum);
         if (dateStr === today) cell.classList.add('cal-today');
 
+        const dateGames = byDate[dateStr] || [];
+        // Mark cells that belong to a multi-game series for subtle grouping
+        if (dateGames.some(g => { const s = seriesMeta.get(g.gamePk); return s && s.len > 1; })) {
+          cell.classList.add('cal-series-cell');
+        }
+
         const num = el('span', 'cal-day-num');
         num.textContent = dayNum;
         cell.appendChild(num);
 
-        for (const g of (byDate[dateStr] || [])) {
-          cell.appendChild(buildGame(g));
+        for (const g of dateGames) {
+          cell.appendChild(buildGame(g, seriesMeta.get(g.gamePk)));
         }
       }
 
@@ -96,9 +125,16 @@
     }
   }
 
-  function buildGame(g) {
+  function buildGame(g, series) {
     const wrap = el('div', 'cal-game');
     wrap.classList.add(g.home ? 'cal-home' : 'cal-away');
+
+    // On the first game of a multi-game series, show a compact series label
+    if (series && series.pos === 1 && series.len > 1) {
+      const tag = el('div', 'cal-series-tag');
+      tag.textContent = `· ${series.len} games`;
+      wrap.appendChild(tag);
+    }
 
     // Opponent line — split prefix from team abbr for independent styling
     const oppRow = el('div', 'cal-opp');
