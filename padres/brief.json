@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T16:21:08+00:00",
+  "generated_at": "2026-04-28T17:29:38+00:00",
   "season": 2026,
   "team": {
     "record": "19-9",
@@ -307,9 +307,9 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "Ty France gave them just enough when they needed everything.",
-    "what_this_means": "France's four-RBI night was the only real firepower the Padres could muster against Chicago\u2014a team that gifted them chances but refused to hand them a win. The offense managed 14 hits but also 8 strikeouts, the kind of at-bat profile that doesn't hold up in tight division races. What matters is that one hitter carried the load. In a game where the pitching allowed five runs before the fifth inning even closed, France's bat was the only reason San Diego stayed in it at all. This is the pattern emerging: the staff sets a narrow margin, the lineup has to be sharp, and one player has to show up. Today France did. The formula held because he didn't miss his moment. But this only works if it keeps working\u2014and one hitter in a 9-7 game isn't a structure, it's a rescue.",
-    "what_to_watch": "Now the question is whether that margin survives what's coming. Tonight will test whether a bullpen and a one-man offense can carry them deeper into a division fight they're already trailing in.",
+    "top_frame": "Ty France did what the lineup needed\u2014he turned traffic into runs.",
+    "what_this_means": "The Padres scratched out a 9-7 win over Chicago, nothing clean, nothing comfortable. They were chasing after the second inning but never broke. France went 2-for-3 with four RBIs, the separator in a game where everyone touched the ball but only one hitter changed the math. Machado stayed sharp at the plate. The lineup put together 14 hits\u2014broad production, real at-bats. But this is a team sitting 0.5 back in the NL West, and every win in this stretch has to feel earned, not assumed. The pattern that's holding is simple: pitching sets the tone, and the bats have to do just enough. Today the bats did enough. V\u00e1squez gave up five runs in five innings and the game never got away, which meant the offense didn't need perfection\u2014just France's moment when it mattered.",
+    "what_to_watch": "Now the question is whether that formula holds when the Cubs come back tonight. San Diego's margin in this division is real. Buehler takes the mound. Another night where the pitching has to stay clean and one hitter has to answer the call. The game will tell.",
     "story_state": {
       "trend": "stabilizing",
       "driver": "balanced",
@@ -329,18 +329,13 @@
     },
     "story_delta": {
       "has_prev": true,
-      "trend_changed": true,
-      "trend_direction": "improved",
+      "trend_changed": false,
+      "trend_direction": "unchanged",
       "conf_changed": false,
-      "pressure_changed": true,
+      "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "trend improved: fragile \u2192 stabilizing",
-        "pressure decreased: high \u2192 building",
-        "won last game",
-        "streak flipped: L1 \u2192 W1",
-        "ERA worsened: 3.96 \u2192 4.07",
-        "OPS up: 0.693 \u2192 0.705"
+        "won last game"
       ]
     }
   }
