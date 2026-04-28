@@ -1,0 +1,246 @@
+{
+  "team": "Padres",
+  "team_slug": "padres",
+  "month": "2026-04",
+  "division_name": "NL West",
+  "generated_at": "2026-04-28T04:54:35.932883+00:00",
+  "games": [
+    {
+      "date": "2026-04-01",
+      "opponent": "SF",
+      "home": true,
+      "gamePk": 823321,
+      "status": "final",
+      "result": "W",
+      "score": "7\u20131"
+    },
+    {
+      "date": "2026-04-03",
+      "opponent": "BOS",
+      "home": false,
+      "gamePk": 824786,
+      "status": "final",
+      "result": "L",
+      "score": "2\u20135"
+    },
+    {
+      "date": "2026-04-04",
+      "opponent": "BOS",
+      "home": false,
+      "gamePk": 824782,
+      "status": "final",
+      "result": "W",
+      "score": "3\u20132"
+    },
+    {
+      "date": "2026-04-05",
+      "opponent": "BOS",
+      "home": false,
+      "gamePk": 824781,
+      "status": "final",
+      "result": "W",
+      "score": "8\u20136"
+    },
+    {
+      "date": "2026-04-06",
+      "opponent": "PIT",
+      "home": false,
+      "gamePk": 823401,
+      "status": "final",
+      "result": "W",
+      "score": "5\u20130"
+    },
+    {
+      "date": "2026-04-07",
+      "opponent": "PIT",
+      "home": false,
+      "gamePk": 823402,
+      "status": "final",
+      "result": "L",
+      "score": "1\u20137"
+    },
+    {
+      "date": "2026-04-08",
+      "opponent": "PIT",
+      "home": false,
+      "gamePk": 823403,
+      "status": "final",
+      "result": "W",
+      "score": "8\u20132"
+    },
+    {
+      "date": "2026-04-09",
+      "opponent": "COL",
+      "home": true,
+      "gamePk": 823319,
+      "status": "final",
+      "result": "W",
+      "score": "7\u20133"
+    },
+    {
+      "date": "2026-04-10",
+      "opponent": "COL",
+      "home": true,
+      "gamePk": 823318,
+      "status": "final",
+      "result": "W",
+      "score": "5\u20132"
+    },
+    {
+      "date": "2026-04-11",
+      "opponent": "COL",
+      "home": true,
+      "gamePk": 823316,
+      "status": "final",
+      "result": "W",
+      "score": "9\u20135"
+    },
+    {
+      "date": "2026-04-12",
+      "opponent": "COL",
+      "home": true,
+      "gamePk": 823317,
+      "status": "final",
+      "result": "W",
+      "score": "7\u20132"
+    },
+    {
+      "date": "2026-04-14",
+      "opponent": "SEA",
+      "home": true,
+      "gamePk": 823315,
+      "status": "final",
+      "result": "W",
+      "score": "4\u20131"
+    },
+    {
+      "date": "2026-04-15",
+      "opponent": "SEA",
+      "home": true,
+      "gamePk": 823314,
+      "status": "final",
+      "result": "W",
+      "score": "7\u20136"
+    },
+    {
+      "date": "2026-04-16",
+      "opponent": "SEA",
+      "home": true,
+      "gamePk": 823313,
+      "status": "final",
+      "result": "W",
+      "score": "5\u20132"
+    },
+    {
+      "date": "2026-04-17",
+      "opponent": "LAA",
+      "home": false,
+      "gamePk": 824048,
+      "status": "final",
+      "result": "L",
+      "score": "0\u20138"
+    },
+    {
+      "date": "2026-04-18",
+      "opponent": "LAA",
+      "home": false,
+      "gamePk": 824049,
+      "status": "final",
+      "result": "W",
+      "score": "4\u20131"
+    },
+    {
+      "date": "2026-04-19",
+      "opponent": "LAA",
+      "home": false,
+      "gamePk": 824047,
+      "status": "final",
+      "result": "W",
+      "score": "2\u20131"
+    },
+    {
+      "date": "2026-04-21",
+      "opponent": "COL",
+      "home": false,
+      "gamePk": 824369,
+      "status": "final",
+      "result": "W",
+      "score": "1\u20130"
+    },
+    {
+      "date": "2026-04-22",
+      "opponent": "COL",
+      "home": false,
+      "gamePk": 824367,
+      "status": "final",
+      "result": "L",
+      "score": "3\u20138"
+    },
+    {
+      "date": "2026-04-23",
+      "opponent": "COL",
+      "home": false,
+      "gamePk": 824368,
+      "status": "final",
+      "result": "W",
+      "score": "10\u20138"
+    },
+    {
+      "date": "2026-04-25",
+      "opponent": "ARI",
+      "home": false,
+      "gamePk": 825093,
+      "status": "final",
+      "result": "W",
+      "score": "6\u20134"
+    },
+    {
+      "date": "2026-04-26",
+      "opponent": "ARI",
+      "home": false,
+      "gamePk": 825094,
+      "status": "final",
+      "result": "L",
+      "score": "7\u201312",
+      "archive_url": "archive.html?date=2026-04-28"
+    },
+    {
+      "date": "2026-04-27",
+      "opponent": "CHC",
+      "home": true,
+      "gamePk": 823311,
+      "status": "final",
+      "result": "W",
+      "score": "9\u20137"
+    },
+    {
+      "date": "2026-04-28",
+      "opponent": "CHC",
+      "home": true,
+      "gamePk": 823310,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Walker Buehler",
+        "opp": "Edward Cabrera"
+      }
+    },
+    {
+      "date": "2026-04-29",
+      "opponent": "CHC",
+      "home": true,
+      "gamePk": 823312,
+      "status": "scheduled",
+      "time_local": "1:10 PM PT",
+      "probable": {
+        "team": "Matt Waldron",
+        "opp": "Jameson Taillon"
+      }
+    }
+  ],
+  "summary": {
+    "month_record": "18\u20135",
+    "current_streak": "L1",
+    "last_10": "7\u20133"
+  }
+}

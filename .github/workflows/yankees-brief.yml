@@ -31,6 +31,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python yankees/build_brief.py
 
+      - name: Build schedule
+        run: python build_schedule.py --team yankees
+
       - name: Archive brief
         run: python archive_brief.py --team yankees
 
@@ -48,7 +51,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add yankees/brief.json yankees/story_state.json yankees/archive/
+          git add yankees/brief.json yankees/story_state.json yankees/archive/ yankees/schedule.json
           if git diff --cached --quiet; then
             echo "No changes to brief.json — skipping commit."
           else
