@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T17:29:18+00:00",
+  "generated_at": "2026-04-28T17:42:39+00:00",
   "season": 2026,
   "team": {
     "record": "15-13",
@@ -307,9 +307,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "A clean win on the road, and the question has shifted from whether they can compete to whether they can stay consistent.",
-    "what_this_means": "They got exactly what they needed: a tight game where the pitching held and the bats found enough traffic to matter. Ginn's three-plus scoreless innings set the tone\u2014this is a staff still learning its shape, but moments like that are starting to feel less like exceptions. Cortes turned the lineup's contact into runs, which is what separates a decent game from a win in a park like Globe Life. This is not a team that is dominant. But they are becoming a team that can win games they do not control. That matters in the division. The fragility has not disappeared\u2014.241 average, .709 OPS\u2014but they kept hanging around and made it count. That is a formula that works until one of its pieces fails. Tonight will show if it holds again.",
-    "what_to_watch": "Now the question is whether they can repeat it: tight margins and pitching that does not crack. Kansas City will test both tonight, and the Athletics have no room for the inconsistency that has already cost them two games they should have won.",
+    "top_frame": "They survived one close game when they needed to.",
+    "what_this_means": "A 2\u20131 win is not about dominance. It is about not folding. Ginn held Rangers' bats quiet for just over three innings\u2014not a statement performance, but enough. The lineup built something with ten hits and found Carlos Cortes turning traffic into runs when it mattered. This was a team offense with one clear separator, and the separator worked. The division is tight. Games like this\u2014narrow, unclean, decided by one hitter making contact\u2014are exactly what fragile teams cannot afford to lose. Winning this game matters less than how they won it: without polish, without a dominant arm, without the offense firing as a unit. This is who they are right now. The pattern is clear. They are winning on margins that don't last.",
+    "what_to_watch": "Now the question is whether that 5\u20135 stretch across ten games was the real story, or whether this win is the aberration. Kansas City arrives tonight\u2014another division fight, another chance to prove the narrow wins are sustainable.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
