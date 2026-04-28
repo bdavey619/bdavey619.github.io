@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T16:51:41+00:00",
+  "generated_at": "2026-04-28T17:09:10+00:00",
   "season": 2026,
   "team": {
     "record": "15-13",
@@ -305,5 +305,38 @@
   "story_threads_debug": [
     "division pressure",
     "inconsistency"
-  ]
+  ],
+  "narrative": {
+    "top_frame": "They scratched out enough to matter.",
+    "what_this_means": "This is a team that wins on margins. Ginn kept Texas off the board through three-plus innings while the lineup manufactured traffic\u2014ten hits, five strikeouts, the kind of scattered assault that doesn't look like much until someone turns it into runs. Cortes was that someone, stringing together three hits with authority. The offense was collaborative. Cortes made it count. This matters because the pattern is holding: they are not dominant, they are not polished, but they are finding ways to win games they had no right to finish. Against division rivals with better lineups and deeper bullpens, that margin\u2014one run, efficient pitching, a bat that connects when traffic exists\u2014is the only thing keeping them close in the West. If this continues, they stay in range. If it doesn't, the 15-13 record will look like an outlier.",
+    "what_to_watch": "Now the question is whether this formula survives when Kansas City brings better depth and a sharper lineup tonight. One win against Texas doesn't erase the inconsistency\u2014it just proves it's not total. The next test is whether they can string consecutive games together without the margin shrinking.",
+    "story_state": {
+      "trend": "fragile",
+      "driver": "balanced",
+      "confidence": "medium",
+      "pressure": "high",
+      "record_w": 15,
+      "record_l": 13,
+      "streak": "W1",
+      "last10_w": 5,
+      "era": 4.42,
+      "ops": 0.709,
+      "gb": 0.0,
+      "division_rank": 1,
+      "last_result": "W",
+      "date": "2026-04-26",
+      "game_emotion_level": "normal"
+    },
+    "story_delta": {
+      "has_prev": true,
+      "trend_changed": false,
+      "trend_direction": "unchanged",
+      "conf_changed": false,
+      "pressure_changed": false,
+      "driver_changed": false,
+      "signals": [
+        "won last game"
+      ]
+    }
+  }
 }

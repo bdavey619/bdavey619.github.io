@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-04",
   "division_name": "AL West",
-  "generated_at": "2026-04-28T16:53:53.753809+00:00",
+  "generated_at": "2026-04-28T17:09:15.391675+00:00",
   "games": [
     {
       "date": "2026-04-01",
@@ -210,7 +210,8 @@
       "gamePk": 822911,
       "status": "final",
       "result": "W",
-      "score": "2\u20131"
+      "score": "2\u20131",
+      "archive_url": "archive.html?date=2026-04-28"
     },
     {
       "date": "2026-04-28",
