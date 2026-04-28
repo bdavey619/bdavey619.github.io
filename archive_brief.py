@@ -16,17 +16,12 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-TEAM_NAMES = {
-    "padres":    "Padres",
-    "yankees":   "Yankees",
-    "giants":    "Giants",
-    "athletics": "Athletics",
-}
+from engine.team_config import TEAM_CONFIGS, get_team_config
 
 
 def main():
     parser = argparse.ArgumentParser(description="Archive a team morning brief")
-    parser.add_argument("--team", required=True, choices=list(TEAM_NAMES))
+    parser.add_argument("--team", required=True, choices=list(TEAM_CONFIGS))
     args = parser.parse_args()
 
     team = args.team
@@ -58,7 +53,7 @@ def main():
     print(f"Saved {snapshot_path}")
 
     # Rebuild index from all archive files
-    team_name = TEAM_NAMES[team]
+    team_name = get_team_config(team).team_name
     entries = []
 
     for p in sorted(archive_dir.glob("*.json")):

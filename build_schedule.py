@@ -16,36 +16,7 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-TEAMS = {
-    "padres": {
-        "id": 135,
-        "name": "Padres",
-        "division": "NL West",
-        "tz_name": "PT",
-        "tz_offset": -7,
-    },
-    "yankees": {
-        "id": 147,
-        "name": "Yankees",
-        "division": "AL East",
-        "tz_name": "ET",
-        "tz_offset": -4,
-    },
-    "giants": {
-        "id": 137,
-        "name": "Giants",
-        "division": "NL West",
-        "tz_name": "PT",
-        "tz_offset": -7,
-    },
-    "athletics": {
-        "id": 133,
-        "name": "Athletics",
-        "division": "AL West",
-        "tz_name": "PT",
-        "tz_offset": -7,
-    },
-}
+from engine.team_config import TEAM_CONFIGS, get_team_config
 
 TEAM_ABBRS = {
     108: "LAA", 109: "ARI", 110: "BAL", 111: "BOS", 112: "CHC",
@@ -172,19 +143,19 @@ def compute_summary(games, brief_path):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--team", required=True, choices=list(TEAMS.keys()))
+    parser.add_argument("--team", required=True, choices=list(TEAM_CONFIGS))
     args = parser.parse_args()
 
-    cfg = TEAMS[args.team]
+    cfg = get_team_config(args.team)
     now = datetime.now(timezone.utc)
     year, month = now.year, now.month
     last_day = calendar.monthrange(year, month)[1]
     start = f"{year}-{month:02d}-01"
     end = f"{year}-{month:02d}-{last_day}"
 
-    print(f"Fetching {cfg['name']} schedule {start} to {end}...")
+    print(f"Fetching {cfg.team_name} schedule {start} to {end}...")
     params = (
-        f"sportId=1&teamId={cfg['id']}"
+        f"sportId=1&teamId={cfg.team_id}"
         f"&startDate={start}&endDate={end}"
         f"&hydrate=probablePitcher,decisions,linescore,teams"
     )
@@ -200,15 +171,15 @@ def main():
     for date_entry in data.get("dates", []):
         date_str = date_entry["date"]
         for game in date_entry.get("games", []):
-            games.append(build_entry(date_str, game, cfg["id"], cfg["tz_name"], cfg["tz_offset"], archive_map))
+            games.append(build_entry(date_str, game, cfg.team_id, cfg.tz_label, cfg.tz_offset, archive_map))
 
     games.sort(key=lambda g: (g["date"], g.get("gamePk", 0)))
 
     output = {
-        "team": cfg["name"],
+        "team": cfg.team_name,
         "team_slug": args.team,
         "month": f"{year}-{month:02d}",
-        "division_name": cfg["division"],
+        "division_name": cfg.division_name,
         "generated_at": now.isoformat(),
         "games": games,
         "summary": compute_summary(games, brief_path),

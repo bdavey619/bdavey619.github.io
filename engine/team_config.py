@@ -93,3 +93,18 @@ ATHLETICS = TeamConfig(
     site_url="https://bdavey619.github.io/athletics/",
     accent_color="#003831",
 )
+
+TEAM_CONFIGS: dict[str, TeamConfig] = {
+    "padres":    PADRES,
+    "yankees":   YANKEES,
+    "giants":    GIANTS,
+    "athletics": ATHLETICS,
+}
+
+
+def get_team_config(team_slug: str) -> TeamConfig:
+    key = team_slug.lower()
+    if key not in TEAM_CONFIGS:
+        supported = ", ".join(sorted(TEAM_CONFIGS))
+        raise ValueError(f"Unknown team slug {team_slug!r}. Supported: {supported}")
+    return TEAM_CONFIGS[key]
