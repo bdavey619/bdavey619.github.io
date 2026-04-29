@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T11:57:33+00:00",
+  "generated_at": "2026-04-29T20:30:13+00:00",
   "season": 2026,
   "team": {
     "record": "19-10",
@@ -9,8 +9,8 @@
     "division_rank": 2,
     "games_back": "0.5",
     "avg": ".238",
-    "ops": ".698",
-    "era": "4.20"
+    "ops": ".696",
+    "era": "4.19"
   },
   "last_game": {
     "status": "final",
@@ -301,8 +301,8 @@
   "subhead": "San Diego falls to CHC \u2014 0.5 back in the West.",
   "insight": {
     "headline": "The offense hasn't matched the pitching.",
-    "detail": "The staff is holding at 4.20 ERA, but a .698 OPS at the plate has made it difficult. San Diego sits at 6-4 over their last ten with neither side pulling ahead. They're 0.5 back in the NL West.",
-    "why": "ERA at 4.20 \u00b7 quiet bats (.698 OPS) \u00b7 6\u20134 in the last ten"
+    "detail": "The staff is holding at 4.19 ERA, but a .696 OPS at the plate has made it difficult. San Diego sits at 6-4 over their last ten with neither side pulling ahead. They're 0.5 back in the NL West.",
+    "why": "ERA at 4.19 \u00b7 quiet bats (.696 OPS) \u00b7 6\u20134 in the last ten"
   },
   "story_hook": "",
   "story_threads_debug": [
@@ -310,9 +310,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "The Cubs blew this game open early\u2014and San Diego never recovered from the damage.",
-    "what_this_means": "This is the cost of inconsistency in a division race. The Padres' pitching frayed when it had to hold: Buehler lasted 4.2 innings, giving up runs that stacked a deficit the bats could not claw back. Ten strikeouts and six hits. That gap\u2014between putting the ball in play and striking out\u2014is becoming the rhythm of this team's losses. France went 2-for-4 with an RBI and Bogaerts added a solo shot, so the lineup showed up. But two runs on four hits is not enough to chase Chicago. The pattern is clear now: when the starter stumbles early, this team lacks the offensive depth to compensate. They're winning on margins that don't last. A 4.20 ERA that got worse today, an OPS stuck at .698\u2014these numbers don't hold in the NL West for long.",
-    "what_to_watch": "Now the question is whether Waldron can arrest the pitching slide. San Diego sits 0.5 back with every game weighted the same\u2014tonight will show if this offense can turn rounds into runs when the pitcher gives it a chance.",
+    "top_frame": "The Cubs' second inning buried them\u201410 strikeouts and a 3-0 hole they could not climb out of.",
+    "what_this_means": "This is a team built to pitch through thin margins. When the margin disappears early, nothing else holds. Buehler lasted only 4.2 innings, and the offense never generated enough traffic to matter\u2014six hits and ten strikeouts is a recipe for chasing, not competing. France and Bogaerts did their work\u2014one RBI each\u2014but that was the sum of the production. The game got away before San Diego could settle in. In a division where every half-game counts, getting buried in the second inning against a team you'll see again tonight is the kind of loss that stacks. This team doesn't survive if the early innings stay soft and the bats stay cold. The pattern that has defined this season\u2014flashes of production against stretches of inconsistency\u2014showed up exactly as it has before. Nothing new. Just louder.",
+    "what_to_watch": "The next test is whether they can actually execute against a team that already knows how to hurt them. Same opponent, same ballpark, same division pressure. Tonight will show if last night was a one-off collapse or the beginning of a stretch.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
@@ -322,8 +322,8 @@
       "record_l": 10,
       "streak": "L1",
       "last10_w": 6,
-      "era": 4.2,
-      "ops": 0.698,
+      "era": 4.19,
+      "ops": 0.696,
       "gb": 0.5,
       "division_rank": 2,
       "last_result": "L",
@@ -332,17 +332,13 @@
     },
     "story_delta": {
       "has_prev": true,
-      "trend_changed": true,
-      "trend_direction": "declined",
+      "trend_changed": false,
+      "trend_direction": "unchanged",
       "conf_changed": false,
-      "pressure_changed": true,
+      "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "trend declined: stabilizing \u2192 fragile",
-        "pressure increased: building \u2192 high",
-        "lost last game",
-        "streak flipped: W1 \u2192 L1",
-        "ERA worsened: 4.07 \u2192 4.20"
+        "lost last game"
       ]
     }
   }

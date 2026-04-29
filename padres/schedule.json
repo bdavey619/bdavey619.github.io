@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-04",
   "division_name": "NL West",
-  "generated_at": "2026-04-29T11:57:38.372830+00:00",
+  "generated_at": "2026-04-29T20:30:18.561165+00:00",
   "games": [
     {
       "date": "2026-04-01",
@@ -220,19 +220,16 @@
       "gamePk": 823310,
       "status": "final",
       "result": "L",
-      "score": "3\u20138"
+      "score": "3\u20138",
+      "archive_url": "archive.html?date=2026-04-29"
     },
     {
       "date": "2026-04-29",
       "opponent": "CHC",
       "home": true,
       "gamePk": 823312,
-      "status": "scheduled",
-      "time_local": "1:10 PM PT",
-      "probable": {
-        "team": "Matt Waldron",
-        "opp": "Jameson Taillon"
-      }
+      "status": "live",
+      "time_local": "Live"
     }
   ],
   "summary": {
