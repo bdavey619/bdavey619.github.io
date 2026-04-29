@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T20:30:13+00:00",
+  "generated_at": "2026-04-29T20:31:58+00:00",
   "season": 2026,
   "team": {
     "record": "19-10",
@@ -10,7 +10,7 @@
     "games_back": "0.5",
     "avg": ".238",
     "ops": ".696",
-    "era": "4.19"
+    "era": "4.18"
   },
   "last_game": {
     "status": "final",
@@ -301,8 +301,8 @@
   "subhead": "San Diego falls to CHC \u2014 0.5 back in the West.",
   "insight": {
     "headline": "The offense hasn't matched the pitching.",
-    "detail": "The staff is holding at 4.19 ERA, but a .696 OPS at the plate has made it difficult. San Diego sits at 6-4 over their last ten with neither side pulling ahead. They're 0.5 back in the NL West.",
-    "why": "ERA at 4.19 \u00b7 quiet bats (.696 OPS) \u00b7 6\u20134 in the last ten"
+    "detail": "The staff is holding at 4.18 ERA, but a .696 OPS at the plate has made it difficult. San Diego sits at 6-4 over their last ten with neither side pulling ahead. They're 0.5 back in the NL West.",
+    "why": "ERA at 4.18 \u00b7 quiet bats (.696 OPS) \u00b7 6\u20134 in the last ten"
   },
   "story_hook": "",
   "story_threads_debug": [
@@ -310,9 +310,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "The Cubs' second inning buried them\u201410 strikeouts and a 3-0 hole they could not climb out of.",
-    "what_this_means": "This is a team built to pitch through thin margins. When the margin disappears early, nothing else holds. Buehler lasted only 4.2 innings, and the offense never generated enough traffic to matter\u2014six hits and ten strikeouts is a recipe for chasing, not competing. France and Bogaerts did their work\u2014one RBI each\u2014but that was the sum of the production. The game got away before San Diego could settle in. In a division where every half-game counts, getting buried in the second inning against a team you'll see again tonight is the kind of loss that stacks. This team doesn't survive if the early innings stay soft and the bats stay cold. The pattern that has defined this season\u2014flashes of production against stretches of inconsistency\u2014showed up exactly as it has before. Nothing new. Just louder.",
-    "what_to_watch": "The next test is whether they can actually execute against a team that already knows how to hurt them. Same opponent, same ballpark, same division pressure. Tonight will show if last night was a one-off collapse or the beginning of a stretch.",
+    "top_frame": "The offense managed just six hits and ten strikeouts\u2014not enough to overcome early damage against Chicago.",
+    "what_this_means": "Buehler's game unraveled in the second inning. He gave up two runs before recording an out, and the Padres never recovered from that hole. A five-run gap after four innings told the real story: this wasn't a close game that slipped away. It was decided early, and the bats couldn't manufacture enough to get back in. France went 2-for-4 with a run batted in, and Bogaerts added a solo shot\u2014solid individual moments that didn't add up to a coherent offense. The team that sits 0.5 back in a division race needs more than two runs of its own when the pitcher is compromised from the start. This is where inconsistency gets expensive: one bad inning upstairs, one quiet night down below, and suddenly you're chasing five.",
+    "what_to_watch": "Now the question isn't whether they'll bounce back tonight\u2014it's whether Waldron can give them a clean start and whether the lineup can execute against a Chicago team they just played. San Diego doesn't have margin for errors in this stretch.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
@@ -322,7 +322,7 @@
       "record_l": 10,
       "streak": "L1",
       "last10_w": 6,
-      "era": 4.19,
+      "era": 4.18,
       "ops": 0.696,
       "gb": 0.5,
       "division_rank": 2,
