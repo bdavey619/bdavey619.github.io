@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-04",
   "division_name": "AL West",
-  "generated_at": "2026-04-28T17:42:44.154430+00:00",
+  "generated_at": "2026-04-29T14:40:41.016563+00:00",
   "games": [
     {
       "date": "2026-04-01",
@@ -218,11 +218,9 @@
       "opponent": "KC",
       "home": true,
       "gamePk": 825017,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "opp": "Kris Bubic"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20134"
     },
     {
       "date": "2026-04-29",
@@ -232,6 +230,7 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
+        "team": "Luis Severino",
         "opp": "Michael Wacha"
       }
     },
@@ -243,13 +242,14 @@
       "status": "scheduled",
       "time_local": "12:05 PM PT",
       "probable": {
+        "team": "Jeffrey Springs",
         "opp": "Noah Cameron"
       }
     }
   ],
   "summary": {
-    "month_record": "14\u20139",
-    "current_streak": "W1",
+    "month_record": "14\u201310",
+    "current_streak": "L1",
     "last_10": "5\u20135"
   }
 }
