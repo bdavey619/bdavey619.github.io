@@ -43,8 +43,8 @@ jobs:
       - name: Send email
         env:
           RESEND_API_KEY: ${{ secrets.YANKEES_RESEND_API_KEY }}
-          EMAIL_TO: ${{ secrets.YANKEES_EMAIL_TO }}
-          EMAIL_FROM: ${{ secrets.YANKEES_EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO_YANKEES }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
         run: python send_email.py --team yankees
 
       - name: Commit and push if changed
