@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T20:31:58+00:00",
+  "generated_at": "2026-04-29T20:36:50+00:00",
   "season": 2026,
   "team": {
     "record": "19-10",
@@ -310,9 +310,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "The offense managed just six hits and ten strikeouts\u2014not enough to overcome early damage against Chicago.",
-    "what_this_means": "Buehler's game unraveled in the second inning. He gave up two runs before recording an out, and the Padres never recovered from that hole. A five-run gap after four innings told the real story: this wasn't a close game that slipped away. It was decided early, and the bats couldn't manufacture enough to get back in. France went 2-for-4 with a run batted in, and Bogaerts added a solo shot\u2014solid individual moments that didn't add up to a coherent offense. The team that sits 0.5 back in a division race needs more than two runs of its own when the pitcher is compromised from the start. This is where inconsistency gets expensive: one bad inning upstairs, one quiet night down below, and suddenly you're chasing five.",
-    "what_to_watch": "Now the question isn't whether they'll bounce back tonight\u2014it's whether Waldron can give them a clean start and whether the lineup can execute against a Chicago team they just played. San Diego doesn't have margin for errors in this stretch.",
+    "top_frame": "The Cubs' early barrage \u2014 two runs in the second, two more in the fourth \u2014 never let San Diego catch its breath at home.",
+    "what_this_means": "Eight hits aren't enough when ten strikeouts hollow them out. The Padres chased from the second inning forward, and Buehler's early exit (4.2 IP) meant the bullpen carried a deficit it couldn't close. Ty France went 2-for-4 with an RBI, Bogaerts added a solo shot in the seventh \u2014 late noise in a game already decided. The bats created nothing before the damage was done.",
+    "what_to_watch": "This is what inconsistency looks like when it costs: they had production on the card but no timing to go with it. The lineup touched the game. They didn't shape it. And with division margin this thin \u2014 0.5 back in a division where every series counts \u2014 a home loss to a team San Diego should be beating exposes what fragile really means. They have enough pitching to keep pace. They don't yet have the timing or the command of the middle innings to finish games that slip away early.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
