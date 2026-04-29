@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-04",
   "division_name": "NL West",
-  "generated_at": "2026-04-28T17:38:18.946903+00:00",
+  "generated_at": "2026-04-29T11:57:38.372830+00:00",
   "games": [
     {
       "date": "2026-04-01",
@@ -218,12 +218,9 @@
       "opponent": "CHC",
       "home": true,
       "gamePk": 823310,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Walker Buehler",
-        "opp": "Edward Cabrera"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20138"
     },
     {
       "date": "2026-04-29",
@@ -239,8 +236,8 @@
     }
   ],
   "summary": {
-    "month_record": "18\u20135",
-    "current_streak": "W1",
-    "last_10": "7\u20133"
+    "month_record": "18\u20136",
+    "current_streak": "L1",
+    "last_10": "6\u20134"
   }
 }
