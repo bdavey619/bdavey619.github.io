@@ -82,11 +82,18 @@ def build_subject(brief, cfg):
 
     last_game = brief.get("last_game", {})
     date_str = last_game.get("date", "")
+    result = last_game.get("result", "")
+    score = last_game.get("score", {})
+
     try:
         d = datetime.strptime(date_str, "%Y-%m-%d")
-        date_label = d.strftime("%B %-d")
+        date_label = d.strftime("%b %-d")
     except Exception:
         date_label = date_str
+
+    if result in ("W", "L") and isinstance(score, dict) and "team" in score and "opp" in score:
+        verb = "win" if result == "W" else "lose"
+        return f"{cfg.team_name} {verb} {score['team']}\u2013{score['opp']} \u2014 Morning Brief ({date_label})"
 
     return f"{cfg.team_name} Morning Brief \u2014 {date_label}"
 

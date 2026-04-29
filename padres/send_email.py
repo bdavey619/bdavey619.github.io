@@ -1,20 +1,9 @@
 #!/usr/bin/env python3
 """
-send_email.py — Send the Padres Morning Brief via Resend.
+DEPRECATED — This per-team script is no longer used by CI.
+All teams are handled by the top-level send_email.py via --team flag.
 
-Reads brief.json for safety checks, reads email_preview.html for content,
-sends via the Resend HTTP API. No external dependencies required.
-
-Required environment variables:
-    RESEND_API_KEY  — Resend API key (re_...)
-    EMAIL_TO        — recipient address
-    EMAIL_FROM      — verified sender address (e.g. brief@yourdomain.com)
-
-Optional:
-    EMAIL_SUBJECT   — override the default subject line
-
-Usage:
-    python3 padres/send_email.py
+    python3 send_email.py --team padres
 """
 
 import json
