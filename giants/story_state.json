@@ -1,17 +1,17 @@
 {
-  "trend": "stabilizing",
+  "trend": "fragile",
   "driver": "balanced",
-  "confidence": "medium",
+  "confidence": "low",
   "pressure": "low",
   "record_w": 13,
-  "record_l": 15,
-  "streak": "W2",
-  "last10_w": 7,
-  "era": 3.83,
-  "ops": 0.667,
+  "record_l": 16,
+  "streak": "L1",
+  "last10_w": 6,
+  "era": 3.96,
+  "ops": 0.654,
   "gb": 6.5,
   "division_rank": 4,
-  "last_result": "W",
-  "date": "2026-04-26",
-  "game_emotion_level": "high"
+  "last_result": "L",
+  "date": "2026-04-28",
+  "game_emotion_level": "normal"
 }
