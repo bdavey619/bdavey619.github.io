@@ -546,6 +546,10 @@ article .post-date {
   margin: 0 0 0.5rem;
 }
 
+.monthly-body + .monthly-body {
+  margin-top: 1.25rem;
+}
+
 .monthly-link {
   font-family: var(--font-ui);
   font-size: var(--text-sm);
