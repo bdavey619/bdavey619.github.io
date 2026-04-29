@@ -113,12 +113,11 @@ def main():
     # Validate required env vars before doing any file I/O
     api_key = os.environ.get("RESEND_API_KEY", "").strip()
     emails = [e.strip() for e in os.environ.get("EMAIL_TO", "").split(",") if e.strip()]
-    from_addr = os.environ.get("EMAIL_FROM", "").strip()
+    from_addr = "Brett Davey — Padres Brief <brief@mail.bdavey.co>"
 
     missing = [
         name for name, val in [
             ("RESEND_API_KEY", api_key),
-            ("EMAIL_FROM", from_addr),
         ]
         if not val
     ]
