@@ -186,13 +186,13 @@ def _generate_game_note(sd_row, opp_row, score, opponent, key_hitters, result,
 
             if is_walkoff:
                 return (f"{clutch_last} walked it off in the {ci_word}"
-                        f" — {CFG.team_city} needed all nine.")
+                        f". {CFG.team_city} needed all nine.")
 
             if is_go_ahead and sd_big[1] >= 3:
                 big_inn = _ordinal_word(sd_big[0] + 1)
                 inning_clause = "" if big_inn == ci_word else f" in the {ci_word}"
                 return (f"A {sd_big[1]}-run {big_inn} flipped the game"
-                        f" — {clutch_last}'s go-ahead {clutch_event_lower}"
+                        f". {clutch_last}'s go-ahead {clutch_event_lower}"
                         f"{inning_clause} was the turn that mattered.")
 
             if is_go_ahead:
@@ -207,13 +207,13 @@ def _generate_game_note(sd_row, opp_row, score, opponent, key_hitters, result,
 
             if is_tying:
                 return (f"{clutch_last} tied it in the {ci_word}"
-                        f" — {CFG.team_city} finished the comeback from there.")
+                        f". {CFG.team_city} finished the comeback from there.")
 
         if sd_big[1] >= 4:
             inn = _ordinal_word(sd_big[0] + 1)
             if hitter_last and "HR" in hitter_line:
-                return (f"A {sd_big[1]}-run {inn} — highlighted by a {hitter_last} "
-                        f"home run — gave {CFG.team_city} the cushion it needed.")
+                return (f"A {sd_big[1]}-run {inn}. {hitter_last}'s home run "
+                        f"gave {CFG.team_city} the cushion it needed.")
             return f"A {sd_big[1]}-run {inn} inning gave {CFG.team_city} the separation it needed."
 
         if sd_big[1] == 3:
@@ -703,7 +703,7 @@ def build_subhead(last_game, team):
     try:
         gb_val = float(str(games_back))
         if gb_val <= 3.0:
-            gb_tail = f" — {games_back} back in the {CFG.division_short}"
+            gb_tail = f" | {games_back} back in the {CFG.division_short}"
         elif gb_val <= 5.5:
             gb_tail = f", staying in the {CFG.division_name} hunt"
     except (ValueError, TypeError):
@@ -733,7 +733,7 @@ def build_subhead(last_game, team):
             n = _ordinal_word(streak_num)
             lead = f"{CFG.team_name} win their {n} straight"
         elif last10_wins >= 7:
-            lead = f"{CFG.team_city} stays hot — {last10} over the last ten"
+            lead = f"{CFG.team_city} stays hot. {last10} in the last ten"
         elif home:
             lead = f"{CFG.team_name} take it at {CFG.home_venue_short}"
         else:
@@ -751,7 +751,7 @@ def build_subhead(last_game, team):
     else:
         if streak_type == "L" and streak_num >= 3:
             n = _ordinal_word(streak_num)
-            return f"{CFG.team_name} drop their {n} straight — time to stop the slide{gb_tail}."
+            return f"{CFG.team_name} drop their {n} straight. Time to stop the slide{gb_tail}."
         return f"{CFG.team_city} falls to {opponent}{gb_tail}."
 
 
@@ -802,13 +802,13 @@ def get_insight(team, last_game=None):
         headline = f"The pitching staff is carrying this run."
         detail = (
             f"{CFG.team_city} has won {_cardinal_word(last10_wins)} of their last ten "
-            f"despite a {ops} OPS — the staff ERA of {era} has been doing the "
-            f"heavy lifting while the lineup finds its footing."
+            f"despite a {ops} OPS. Staff ERA of {era} has done the "
+            f"heavy lifting."
         )
         if in_race:
             detail += (
-                f" They're {games_back} back in the {CFG.division_name} — "
-                f"the staff has kept them in the race while the bats have gone quiet."
+                f" {games_back} back in the {CFG.division_name}. "
+                f"Staff has kept them in it."
             )
         elif leading:
             detail += (
@@ -828,7 +828,7 @@ def get_insight(team, last_game=None):
             detail += f"{CFG.team_city} is setting the pace in the division."
 
     elif hot_streak:
-        headline = f"Balanced ball — {CFG.team_name} are {last10} over their last ten."
+        headline = f"Balanced ball. {CFG.team_name} are {last10} in the last ten."
         detail = (
             f"Both sides have contributed: {avg} average, {ops} OPS at the plate, "
             f"{era} ERA from the staff. "
@@ -840,19 +840,19 @@ def get_insight(team, last_game=None):
         headline = f"A {last10} stretch over the last ten is a real concern."
         if era_val > 4.30 and ops_val >= 0.700:
             detail = (
-                f"The {CFG.team_name} are batting {avg} ({ops} OPS) — "
-                f"well enough to compete — but a {era} ERA from the staff has cost them. "
-                f"The pitching is where this run has come apart."
+                f"The {CFG.team_name} are batting {avg} ({ops} OPS). "
+                f"Good enough to compete. But a {era} ERA has cost them. "
+                f"The pitching is the problem."
             )
         elif ops_val < 0.700 and era_val <= 4.30:
             detail = (
                 f"A {ops} OPS over this stretch has made it hard to win. "
-                f"The staff ERA sits at {era} — the runs just haven't been there."
+                f"Staff ERA is {era}. The runs haven't been there."
             )
         else:
             detail = (
                 f"The {CFG.team_name} are batting {avg} ({ops} OPS) "
-                f"with a {era} staff ERA — neither side has been able to stop the slide."
+                f"with a {era} ERA. Neither side has stopped the slide."
             )
         if in_race:
             detail += f" They're {games_back} back in the {CFG.division_name}."
@@ -863,9 +863,9 @@ def get_insight(team, last_game=None):
         if pitching_strong:
             headline = f"A {era} ERA should be winning more games."
             detail = (
-                f"The staff has held up its end — {era} ERA — but {CFG.team_city} "
-                f"has gone just {last10} over their last ten. "
-                f"A {ops} OPS at the plate hasn't been enough to turn good pitching into wins."
+                f"Staff ERA is {era}. That's held up. But {CFG.team_city} "
+                f"is just {last10} in the last ten. "
+                f"A {ops} OPS hasn't turned good pitching into wins."
             )
         elif era_val > 4.30:
             headline = f"The rotation is what's held them back."
@@ -882,7 +882,7 @@ def get_insight(team, last_game=None):
                 f"with neither side pulling ahead."
             )
         else:
-            headline = f"Neither side has clicked — {last10} in the last ten."
+            headline = f"Neither side has clicked. {last10} in the last ten."
             detail = (
                 f"{avg} average, {ops} OPS, {era} ERA. "
                 f"When no side takes control, the results end up in the middle."
@@ -1082,7 +1082,7 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
 
                 text = (
                     f"{pitcher_last} has a {era:.2f} ERA over his last {n_starts} starts"
-                    f" — he takes the mound tonight."
+                    f". He takes the mound tonight."
                 )
                 candidates.append({
                     "type": "pitcher_form",
@@ -1098,7 +1098,7 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
                 fact_str = 0.85 if wins == n_starts else 0.68
                 text = (
                     f"{pitcher_last} has won {wins} of his last {n_starts} starts"
-                    f" — he gets the ball tonight."
+                    f". He gets the ball tonight."
                 )
                 candidates.append({
                     "type": "pitcher_form",
@@ -1142,7 +1142,7 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
             else:
                 text = (
                     f"{opponent_abbr} is batting {avg_str} as a team"
-                    f" — a favorable matchup for {CFG.team_city} tonight."
+                    f". Favorable matchup for {CFG.team_city} tonight."
                 )
                 spec = 0.62
 
@@ -1167,13 +1167,13 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
             if pitcher_last:
                 text = (
                     f"{opponent_abbr} ranks among the weakest offenses in baseball"
-                    f" — {pitcher_last} draws a favorable matchup tonight."
+                    f". {pitcher_last} draws a favorable matchup tonight."
                 )
                 spec = 0.70
             else:
                 text = (
                     f"{opponent_abbr} has a {ops_str} OPS"
-                    f" — the {CFG.team_name} have a favorable matchup tonight."
+                    f". The {CFG.team_name} have a favorable matchup tonight."
                 )
                 spec = 0.55
 
@@ -1205,7 +1205,7 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
 
                 text = (
                     f"{opponent_abbr} has gone just {opp_l10} in their last ten"
-                    f" — the {CFG.team_name} catch them at the right time."
+                    f". The {CFG.team_name} catch them at the right time."
                 )
                 candidates.append({
                     "type": "opponent_cold_streak",
@@ -1239,14 +1239,14 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
             if streak_n >= 2:
                 text = (
                     f"{CFG.team_city} is {games_back} back in the {CFG.division_name} on a {streak_n}-game"
-                    f" win streak — tonight matters."
+                    f" win streak. Tonight matters."
                 )
                 fact_str = min(0.65 + (streak_n - 2) * 0.06, 0.90)
                 spec = 0.72
             else:
                 text = (
                     f"{CFG.team_city} sits just {games_back} back in the {CFG.division_name}"
-                    f" — every game in this stretch counts."
+                    f". Every game in this stretch counts."
                 )
                 fact_str = 0.52
                 spec = 0.52
@@ -1264,7 +1264,7 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
         if games_back == "-" and streak_n >= 3:
             text = (
                 f"{CFG.team_city} leads the {CFG.division_name} on a {streak_n}-game win streak"
-                f" — tonight is a chance to extend it."
+                f". Tonight is a chance to extend it."
             )
             candidates.append({
                 "type": "race_context",
@@ -1290,7 +1290,7 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
 
                 text = (
                     f"{CFG.team_name} have won {l10_wins} of their last ten"
-                    f" — they carry that form into tonight's game."
+                    f". They carry that form into tonight."
                 )
                 candidates.append({
                     "type": "team_momentum",

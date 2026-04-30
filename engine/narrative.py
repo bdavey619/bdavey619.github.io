@@ -530,38 +530,38 @@ def build_story_hook(story_state, last_game, story_threads=None, game_driver=Non
             if has_dual:
                 return (f"{driver_last} powered the offense; {clutch_last} ended it.")
             if clutch_last:
-                return f"The box score changed in one swing — {clutch_last} ended the debate."
+                return f"The box score changed in one swing. {clutch_last} ended the debate."
             return "One swing rewrote the scoreboard. This team is learning when to bide its time."
 
         if max_deficit >= 4:
             _n = _DEFICIT_WORDS.get(max_deficit, str(max_deficit))
             if has_dual and driver_hr >= 2:
-                return (f"Down {_n} — {driver_last} kept them alive, "
+                return (f"Down {_n}. {driver_last} kept them alive. "
                         f"{clutch_last} finished the climb.")
             if has_dual:
-                return (f"Down {_n} — {driver_last} supplied the power, "
+                return (f"Down {_n}. {driver_last} supplied the power. "
                         f"{clutch_last} delivered the turn.")
             if clutch_last:
-                return f"Down {_n} — {clutch_last}'s {clutch_event_lower} was the turn."
-            return f"Down {_n} and still standing — this team found a way back."
+                return f"Down {_n}. {clutch_last}'s {clutch_event_lower} was the turn."
+            return f"Down {_n} and still standing. This team found a way back."
 
         if late_runs >= 5:
             if has_dual:
-                return (f"A quiet game until it wasn't — {driver_last} did the damage, "
+                return (f"A quiet game until it wasn't. {driver_last} did the damage. "
                         f"{clutch_last}'s {clutch_event_lower} sealed it.")
             if clutch_last:
-                return (f"A quiet game until it wasn't — {clutch_last}'s {clutch_event_lower}"
+                return (f"A quiet game until it wasn't. {clutch_last}'s {clutch_event_lower}"
                         f" was the inning everyone will remember.")
             return "The box score says win; the inning chart says escape."
 
         if max_deficit >= 2:
             _n = _DEFICIT_WORDS.get(max_deficit, str(max_deficit))
             if has_dual:
-                return (f"Down {_n} — {driver_last} powered them back, "
+                return (f"Down {_n}. {driver_last} powered them back. "
                         f"{clutch_last} finished the job.")
             if clutch_last:
-                return f"Down {_n} — {clutch_last} delivered the play that mattered."
-            return "They trailed and found a way — this team has learned to survive ugly games."
+                return f"Down {_n}. {clutch_last} delivered the play that mattered."
+            return "They trailed and found a way. This team survives ugly games."
 
         if "pitching carrying quiet offense" in threads:
             if has_dual:
@@ -577,7 +577,7 @@ def build_story_hook(story_state, last_game, story_threads=None, game_driver=Non
 
     elif result == "L":
         if emotion == "extreme":
-            return "The loss stings more for how close it came — a game that revealed as much as it cost."
+            return "The loss stings. A game that revealed as much as it cost."
         if emotion == "high":
             return "They had the moments. They didn't have the finish."
 
@@ -593,7 +593,7 @@ def _build_narrative_system(team_name):
         f"You are the editorial voice of the {team_name} Morning Brief — "
         "a daily dispatch that answers: \"What changed about the team's story today?\"\n\n"
         "You take editorial stances. You explain *why* something matters, not just *what* happened. "
-        "You write for a fan who already knows the score and wants to understand what it means."
+        "You write for a fan who already knows the score and wants to understand what it means. Use short sentences. Avoid em dashes. Prefer periods over clause joiners."
     )
 
 
