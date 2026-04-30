@@ -1,4 +1,4 @@
-// Giants Morning Brief — frontend renderer
+// Giants Morning Brief – frontend renderer
 // Reads brief.json and populates the page. Sections hide gracefully if empty.
 
 (async function () {
@@ -46,7 +46,7 @@ function renderMasthead(b) {
     weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'
   });
 
-  // Story hook — one-sentence emotional frame below the rule
+  // Story hook – one-sentence emotional frame below the rule
   if (b.story_hook) {
     const hookEl = document.createElement('p');
     hookEl.id = 'masthead-hook';
@@ -92,22 +92,22 @@ function renderSummaryBar(b) {
   const ng = b.next_game;
   if (!t.record && !lg.result && !ng) return;
 
-  $('sb-record').textContent = t.record || '—';
-  $('sb-rank').textContent = t.division_rank ? `#${t.division_rank}` : '—';
-  $('sb-streak').textContent = t.streak || '—';
-  $('sb-last10').textContent = t.last10 || '—';
+  $('sb-record').textContent = t.record || '–';
+  $('sb-rank').textContent = t.division_rank ? `#${t.division_rank}` : '–';
+  $('sb-streak').textContent = t.streak || '–';
+  $('sb-last10').textContent = t.last10 || '–';
 
   if (lg.status === 'final' && lg.score) {
     $('sb-last').textContent = `${lg.result} ${lg.score.team}-${lg.score.opp}`;
   } else {
-    $('sb-last').textContent = '—';
+    $('sb-last').textContent = '–';
   }
 
   if (ng) {
     const vs = ng.home ? 'vs' : '@';
     $('sb-next').textContent = `${vs} ${ng.opponent}`;
   } else {
-    $('sb-next').textContent = '—';
+    $('sb-next').textContent = '–';
   }
 
   show('summary-bar');
@@ -119,7 +119,7 @@ function renderLastGame(lg) {
   const body = $('last-game-body');
 
   if (lg.status !== 'final') {
-    body.innerHTML = `<p class="off-day">No game yesterday — Giants were off.</p>`;
+    body.innerHTML = `<p class="off-day">No game yesterday. Giants were off.</p>`;
     show('last-game');
     return;
   }
@@ -154,7 +154,7 @@ function renderLastGame(lg) {
     html += `<a class="highlights-link" href="${lg.highlights_url}" target="_blank" rel="noopener noreferrer">Watch highlights &#8594;</a>`;
   }
 
-  // Game Driver — overall performance that shaped the game (shown before Turning Point)
+  // Game Driver – overall performance that shaped the game (shown before Turning Point)
   if (lg.game_driver && (lg.game_driver.confidence === 'high' || lg.game_driver.confidence === 'medium')) {
     const gd = lg.game_driver;
     const clutchName = lg.clutch_player?.name;
@@ -325,7 +325,7 @@ function renderAhead(ng, standings) {
         <td>${row.w}</td>
         <td>${row.l}</td>
         <td>${row.gb}</td>
-        <td>${row.last10 || '—'}</td>
+        <td>${row.last10 || '–'}</td>
       </tr>`;
     }
     html += `</tbody></table>`;
@@ -414,7 +414,7 @@ function renderInsight(ins, isNarrative) {
     $('insight-headline').textContent = ins.top_frame;
     $('insight-detail').textContent   = ins.what_this_means || '';
 
-    // "What to Watch" block — inject before the hidden why element
+    // "What to Watch" block – inject before the hidden why element
     if (ins.what_to_watch) {
       let watchEl = document.getElementById('insight-watch');
       if (!watchEl) {

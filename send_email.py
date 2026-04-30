@@ -111,9 +111,9 @@ def build_subject(brief, cfg):
     score  = last_game.get("score", {})
     if result in ("W", "L") and isinstance(score, dict) and "team" in score and "opp" in score:
         verb = "win" if result == "W" else "lose"
-        return f"{cfg.team_name} {verb} {score['team']}\u2013{score['opp']} \u2014 Morning Brief ({date_label})"
+        return f"{cfg.team_name} {verb} {score['team']}\u2013{score['opp']} | Morning Brief ({date_label})"
 
-    return f"{cfg.team_name} Morning Brief \u2014 {date_label}"
+    return f"{cfg.team_name} Morning Brief | {date_label}"
 
 
 def send_email(api_key, to_addrs, from_addr, subject, html_content, team_name):
