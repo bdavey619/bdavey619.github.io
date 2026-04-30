@@ -239,12 +239,12 @@ def main():
 
     # Performers
     key_hitters_rows = build_hitter_rows(lg.get("key_hitters", []))
-    pitcher = lg.get("key_pitcher", {})
+    pitcher = lg.get("key_pitcher") or {}
 
     # Next game teaser
     ng = brief.get("next_game", {})
     ng_home_away = "vs" if ng.get("home") else "@"
-    ng_prob = ng.get("probable", {})
+    ng_prob = ng.get("probable") or {}
     next_probables = f"{ng_prob.get('team', 'TBD')} vs {ng_prob.get('opp', 'TBD')}" if ng_prob else "TBD"
     ng_insight = ng.get("insight", "")
     if ng_insight:
