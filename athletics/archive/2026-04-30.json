@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T05:17:33+00:00",
+  "generated_at": "2026-04-30T05:29:52+00:00",
   "season": 2026,
   "team": {
     "record": "16-14",
@@ -289,9 +289,9 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "Severino didn't just pitch seven scoreless innings. He made Kansas City irrelevant before the game was decided.",
-    "what_this_means": "This was a team offense creating traffic and a starter turning traffic into runway. Ten hits, four strikeouts looking, and an ERA that dropped from 4.35 to 4.27. That's not noise. That's the formula resetting itself after a fragile stretch. The division is tight enough that a pitcher who gives you one earned run over seven innings is not a luxury. He's the ceiling. And when the lineup actually showed up to support him, the game was never going anywhere.",
-    "what_to_watch": "The pattern has become clear. They're not dominant. They're stable. Severino held down the middle of the order when it mattered. McNeil and Cortes touched the game, but this was decided by competence stacked on competence, not a single moment or carry job. That's the difference between a win that lingers and one that feels like found money. Good teams don't need fireworks to beat Kansas City at home.",
+    "top_frame": "Severino went seven innings on a single earned run and they closed it out clean, and division pressure stays exactly where it's been.",
+    "what_this_means": "The lineup had traffic all night. Ten hits, McNeil and Cortes both on base twice. But Severino's night was the thing that mattered. One earned run over seven innings is not a gift. It is a statement. The offense created chances; the pitching made sure Kansas City never had an answer. That's the formula when it works. They had movement early, kept it simple, and closed it without drama. This win holds because nothing broke late. The back end did its job and the lead held.",
+    "what_to_watch": "Division play doesn't care about pretty. They're still one up and they're still hanging around, and this is exactly the kind of game that either becomes a pattern or becomes the outlier that makes you wonder what could've been. Severino gave them a night where pitching decided the whole thing.",
     "story_state": {
       "trend": "stabilizing",
       "driver": "balanced",
@@ -311,17 +311,13 @@
     },
     "story_delta": {
       "has_prev": true,
-      "trend_changed": true,
-      "trend_direction": "improved",
+      "trend_changed": false,
+      "trend_direction": "unchanged",
       "conf_changed": false,
-      "pressure_changed": true,
+      "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "trend improved: fragile \u2192 stabilizing",
-        "pressure decreased: high \u2192 building",
-        "won last game",
-        "streak flipped: L1 \u2192 W1",
-        "ERA improved: 4.35 \u2192 4.27"
+        "won last game"
       ]
     }
   }
