@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T05:03:45+00:00",
+  "generated_at": "2026-04-30T05:17:37+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -319,9 +319,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Waldron's early damage never got fixed, and eight strikeouts don't beat one home run.",
-    "what_this_means": "The problem isn't that they lost. It's what the loss reveals about the margin they're working with right now. Castellanos went deep and delivered two runs. That's the kind of individual at-bat that usually wins close games at home, especially against a division rival. But in a day game at Petco, with the staff holding Chicago to three runs through five, one home run wasn't enough to overcome the silence everywhere else. Eight strikeouts and just three hits tells you the lineup is still swinging blind most of the time. The same inconsistency that's haunted the season showed up again, just when they needed lineup depth the most. They're down half a game in the division now, and that's not accident. That's what happens when you need your best hitter to beat you and he almost does alone.",
-    "what_to_watch": "Now the question is whether M\u00e1rquez can carry a thinner offense against a team equally desperate to hit. CWS is batting .225 for a reason. They're floundering too.",
+    "top_frame": "Waldron let the game slip away in five innings, and the bats never recovered.",
+    "what_this_means": "Eight strikeouts and just three hits left them chasing from the early innings onward. Castellanos and Andujar both went deep. That was the offense's answer. But one go-ahead run in the ninth wasn't going to undo an entire afternoon of nothing. The Cubs held the lead after the second and never lost it. This team had the moments. They didn't have the finish. The pattern is becoming clear: they can't afford games where the pitcher leaves early and the lineup goes quiet. At 19-11, they're still in second, still close enough to chase. But fragile wins and fragile losses look the same in the standings. This kind of game doesn't stay rare in a tight division.",
+    "what_to_watch": "Tonight M\u00e1rquez faces a White Sox lineup hitting .225. The kind of matchup the Padres' pitching has been built to exploit. The real test is whether the bats wake up before the depth of the starting rotation becomes the only thing holding this thing together.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
