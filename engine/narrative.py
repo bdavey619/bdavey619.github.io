@@ -1083,6 +1083,21 @@ Good: "they left two on in the sixth and never got another chance"
 
 If a sentence could describe any game by any team, rewrite it until it could only describe this one.
 
+SPECIFICITY TRIGGER:
+WHAT THIS GAME MEANS must contain at least one concrete, game-specific detail that anchors the narrative to this actual game.
+
+Acceptable forms (pick one — do not stack):
+- An inning: "they didn't score until the seventh"
+- A moment: "after the leadoff double, nothing came of it"
+- A stat used as a scene: "ten strikeouts and it still felt close"
+- A sequence: "three straight empty at-bats with the tying run on second"
+
+Rules:
+- Use exactly one. Not zero, not two.
+- Integrate it into a sentence naturally — not as a parenthetical, not as a standalone stat.
+- Draw only from data already in LAST GAME context. Do not invent.
+- The detail should make the reader feel like they watched the game, not like they read a box score.
+
 ANTI-GENERIC LANGUAGE:
 Avoid phrases that summarize broadly without adding a specific angle or judgment.
 
