@@ -1,196 +1,139 @@
 {
-  "generated_at": "2026-04-30T00:48:55+00:00",
+  "generated_at": "2026-04-30T05:17:33+00:00",
   "season": 2026,
   "team": {
-    "record": "15-14",
-    "streak": "L1",
-    "run_diff": "-11",
-    "last10": "5-5",
+    "record": "16-14",
+    "streak": "W1",
+    "run_diff": "-8",
+    "last10": "6-4",
     "division_rank": 1,
     "games_back": "-",
-    "avg": ".240",
-    "ops": ".704",
-    "era": "4.35"
+    "avg": ".242",
+    "ops": ".711",
+    "era": "4.27"
   },
   "last_game": {
     "status": "final",
-    "gamePk": 825017,
-    "date": "2026-04-28",
+    "gamePk": 825015,
+    "date": "2026-04-29",
     "opponent": "KC",
     "home": true,
-    "result": "L",
+    "result": "W",
     "score": {
-      "team": 1,
-      "opp": 4
+      "team": 5,
+      "opp": 2
     },
     "linescore": [
       [
         0,
         1,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
+        3,
         0,
         1,
         0,
         0,
+        ""
+      ],
+      [
+        1,
         0,
-        3
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
       ]
     ],
     "decisions": {
-      "win": "Nick Mears",
-      "win_role": "RP",
-      "win_team": "opp",
-      "loss": "Justin Sterner",
-      "loss_role": "RP",
-      "loss_team": "team",
-      "save": "Lucas Erceg",
+      "win": "Luis Severino",
+      "win_role": "SP",
+      "win_team": "team",
+      "loss": "Michael Wacha",
+      "loss_role": "SP",
+      "loss_team": "opp",
+      "save": "Mark Leiter Jr.",
       "save_role": "RP",
-      "save_team": "opp"
+      "save_team": "team"
     },
     "key_hitters": [
       {
-        "name": "Shea Langeliers",
-        "line": "3-5",
-        "pos": "C",
-        "season_avg": ".316"
+        "name": "Jeff McNeil",
+        "line": "2-3, 1 RBI",
+        "pos": "2B",
+        "season_avg": ".289"
       },
       {
-        "name": "Zack Gelof",
-        "line": "2-4",
-        "pos": "CF",
-        "season_avg": ".250"
+        "name": "Carlos Cortes",
+        "line": "2-3",
+        "pos": "LF",
+        "season_avg": ".400"
       }
     ],
     "key_pitcher": {
-      "name": "Aaron Civale",
-      "line": "5.0 IP, 5 H, 0 ER, 3 K",
+      "name": "Luis Severino",
+      "line": "7.0 IP, 4 H, 1 ER, 8 K",
       "role": "SP",
-      "season_era": "3.23"
+      "season_era": "4.46"
     },
     "context_line": "Home \u00b7 Sutter Health Park \u00b7 Night game",
-    "highlights_url": "https://www.youtube.com/results?search_query=KC+vs+ATH+highlights+April+28+2026+MLB",
-    "game_note": "A 3-run tenth by KC was more than the Athletics could answer.",
+    "highlights_url": "https://www.youtube.com/results?search_query=KC+vs+ATH+highlights+April+29+2026+MLB",
+    "game_note": "A 3-run fourth put Sacramento in control and they never looked back.",
     "full_box": {
       "batting": [
         {
-          "name": "Jacob Wilson",
-          "pos": "SS",
-          "avg": ".275",
-          "ab": 5,
+          "name": "Nick Kurtz",
+          "pos": "1B",
+          "avg": ".233",
+          "ab": 4,
           "r": 0,
           "h": 1,
           "rbi": 1,
-          "bb": 0,
+          "bb": 1,
           "so": 2
         },
         {
           "name": "Shea Langeliers",
           "pos": "C",
-          "avg": ".316",
-          "ab": 5,
-          "r": 0,
-          "h": 3,
-          "rbi": 0,
-          "bb": 0,
-          "so": 0
-        },
-        {
-          "name": "Nick Kurtz",
-          "pos": "1B",
-          "avg": ".232",
+          "avg": ".314",
           "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 1,
-          "so": 2
-        },
-        {
-          "name": "Brent Rooker",
-          "pos": "DH",
-          "avg": ".120",
-          "ab": 5,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 2
-        },
-        {
-          "name": "Colby Thomas",
-          "pos": "RF",
-          "avg": ".286",
-          "ab": 3,
           "r": 0,
           "h": 1,
           "rbi": 0,
           "bb": 1,
-          "so": 1
-        },
-        {
-          "name": "Lawrence Butler",
-          "pos": "PH",
-          "avg": ".184",
-          "ab": 1,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 1
-        },
-        {
-          "name": "Tyler Soderstrom",
-          "pos": "LF",
-          "avg": ".211",
-          "ab": 2,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "so": 2
+          "so": 0
         },
         {
           "name": "Carlos Cortes",
           "pos": "LF",
-          "avg": ".387",
-          "ab": 1,
+          "avg": ".400",
+          "ab": 3,
           "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 1,
-          "so": 0
-        },
-        {
-          "name": "Zack Gelof",
-          "pos": "CF",
-          "avg": ".250",
-          "ab": 4,
-          "r": 1,
           "h": 2,
           "rbi": 0,
           "bb": 1,
           "so": 1
         },
         {
-          "name": "Darell Hernaiz",
-          "pos": "3B",
-          "avg": ".194",
+          "name": "Brent Rooker",
+          "pos": "DH",
+          "avg": ".111",
           "ab": 4,
           "r": 0,
           "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Jacob Wilson",
+          "pos": "SS",
+          "avg": ".285",
+          "ab": 3,
+          "r": 2,
+          "h": 2,
           "rbi": 0,
           "bb": 1,
           "so": 0
@@ -198,75 +141,90 @@
         {
           "name": "Jeff McNeil",
           "pos": "2B",
-          "avg": ".276",
+          "avg": ".289",
+          "ab": 3,
+          "r": 1,
+          "h": 2,
+          "rbi": 1,
+          "bb": 1,
+          "so": 0
+        },
+        {
+          "name": "Zack Gelof",
+          "pos": "CF",
+          "avg": ".226",
           "ab": 3,
           "r": 0,
           "h": 0,
           "rbi": 0,
-          "bb": 1,
-          "so": 0
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Lawrence Butler",
+          "pos": "RF",
+          "avg": ".187",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 3,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Darell Hernaiz",
+          "pos": "3B",
+          "avg": ".200",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
         }
       ],
       "pitching": [
         {
-          "name": "Aaron Civale",
-          "ip": "5.0",
-          "h": 5,
-          "er": 0,
-          "k": 3,
-          "bb": 1
-        },
-        {
-          "name": "Hogan Harris",
-          "ip": "0.2",
-          "h": 1,
+          "name": "Luis Severino",
+          "ip": "7.0",
+          "h": 4,
           "er": 1,
-          "k": 1,
+          "k": 8,
           "bb": 2
         },
         {
-          "name": "Scott Barlow",
-          "ip": "1.1",
-          "h": 0,
-          "er": 0,
-          "k": 1,
-          "bb": 0
+          "name": "Joel Kuhnel",
+          "ip": "1.2",
+          "h": 2,
+          "er": 1,
+          "k": 0,
+          "bb": 1
         },
         {
           "name": "Mark Leiter Jr.",
-          "ip": "1.0",
+          "ip": "0.1",
           "h": 0,
           "er": 0,
           "k": 1,
-          "bb": 0
-        },
-        {
-          "name": "Jack Perkins",
-          "ip": "1.0",
-          "h": 0,
-          "er": 0,
-          "k": 1,
-          "bb": 0
-        },
-        {
-          "name": "Justin Sterner",
-          "ip": "1.0",
-          "h": 2,
-          "er": 2,
-          "k": 0,
-          "bb": 0
+          "bb": 1
         }
       ]
     },
     "clutch_player": {
-      "name": "Shea Langeliers",
-      "event": "3-5",
+      "name": "Jeff McNeil",
+      "event": "2-3, 1 RBI",
       "inning": null,
-      "description": "led the offense with 3-5.",
+      "description": "led the offense with 2-3, 1 RBI.",
       "reason": "top hitter by box score (no play-by-play clutch moment detected)",
       "confidence": "low"
     },
-    "game_driver": null
+    "game_driver": {
+      "name": "Luis Severino",
+      "type": "pitcher",
+      "reason": "7.0 IP, 1 ER",
+      "description": "went 7.0 innings and allowed just 1 earned run.",
+      "confidence": "high"
+    }
   },
   "next_game": {
     "gamePk": 825016,
@@ -282,37 +240,37 @@
   "standings": [
     {
       "team": "Athletics",
-      "w": 15,
+      "w": 16,
       "l": 14,
       "gb": "-",
-      "last10": "5-5"
+      "last10": "6-4"
     },
     {
       "team": "Mariners",
       "w": 16,
       "l": 16,
-      "gb": "0.5",
+      "gb": "1.0",
       "last10": "7-3"
     },
     {
       "team": "Rangers",
       "w": 15,
       "l": 16,
-      "gb": "1.0",
+      "gb": "1.5",
       "last10": "4-6"
     },
     {
       "team": "Angels",
       "w": 12,
       "l": 20,
-      "gb": "4.5",
+      "gb": "5.0",
       "last10": "1-9"
     },
     {
       "team": "Astros",
       "w": 11,
       "l": 19,
-      "gb": "4.5",
+      "gb": "5.0",
       "last10": "3-7"
     }
   ],
@@ -320,47 +278,50 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "Sacramento falls to KC.",
+  "subhead": "Athletics take it at Sutter Health behind Severino and McNeil.",
   "insight": {
-    "headline": "The rotation is what's held them back.",
-    "detail": "The Athletics are putting up .704 OPS at the plate, but a 4.35 ERA from the staff has cancelled it out. That gap explains the 5-5 stretch. Still in first, but the inconsistency is real.",
-    "why": "rotation a concern (4.35 ERA) \u00b7 OPS at .704 \u00b7 5\u20135 in the last ten"
+    "headline": "Neither side has clicked. 6-4 in the last ten.",
+    "detail": ".242 average, .711 OPS, 4.27 ERA. When no side takes control, the results end up in the middle. Still in first, but the inconsistency is real.",
+    "why": "ERA at 4.27 \u00b7 OPS at .711 \u00b7 6\u20134 in the last ten"
   },
   "story_hook": "",
   "story_threads_debug": [
-    "division pressure",
-    "inconsistency"
+    "division pressure"
   ],
   "narrative": {
-    "top_frame": "The bullpen couldn't hold a four-run lead through five innings.",
-    "what_this_means": "They got little from the lineup \u2014 11 strikeouts on eight hits, a .240 average that keeps shrinking \u2014 and when KC added runs late, there was no recovery. Civale pitched clean ball through five, which should have been enough in a home game. It wasn't. This team needed offensive traffic to become runs. Instead they made outs. The margin between staying in a division race and falling further behind is thin, and they just watched it get thinner. Shea Langeliers went 3-for-5, which is good work in isolation. It mattered zero against the final score. That's the shape of this inconsistency \u2014 flashes that don't compound into pressure on the opponent. You can't beat KC by hitting in spots. They needed the whole lineup to show up, or they needed the one player who did to carry them across the line. Neither happened.",
-    "what_to_watch": "Now the question is whether Springs can arrest the pattern. Kansas City again, same division, same ballpark pressure \u2014 if the bats stay silent and the bullpen finds reasons to sweat, this becomes a two-game slide that feels like a statement about who wins in this division. Tonight will show if yesterday was a stall or the start of something worse.",
+    "top_frame": "Severino didn't just pitch seven scoreless innings. He made Kansas City irrelevant before the game was decided.",
+    "what_this_means": "This was a team offense creating traffic and a starter turning traffic into runway. Ten hits, four strikeouts looking, and an ERA that dropped from 4.35 to 4.27. That's not noise. That's the formula resetting itself after a fragile stretch. The division is tight enough that a pitcher who gives you one earned run over seven innings is not a luxury. He's the ceiling. And when the lineup actually showed up to support him, the game was never going anywhere.",
+    "what_to_watch": "The pattern has become clear. They're not dominant. They're stable. Severino held down the middle of the order when it mattered. McNeil and Cortes touched the game, but this was decided by competence stacked on competence, not a single moment or carry job. That's the difference between a win that lingers and one that feels like found money. Good teams don't need fireworks to beat Kansas City at home.",
     "story_state": {
-      "trend": "fragile",
+      "trend": "stabilizing",
       "driver": "balanced",
       "confidence": "medium",
-      "pressure": "high",
-      "record_w": 15,
+      "pressure": "building",
+      "record_w": 16,
       "record_l": 14,
-      "streak": "L1",
-      "last10_w": 5,
-      "era": 4.35,
-      "ops": 0.704,
+      "streak": "W1",
+      "last10_w": 6,
+      "era": 4.27,
+      "ops": 0.711,
       "gb": 0.0,
       "division_rank": 1,
-      "last_result": "L",
-      "date": "2026-04-28",
+      "last_result": "W",
+      "date": "2026-04-29",
       "game_emotion_level": "normal"
     },
     "story_delta": {
       "has_prev": true,
-      "trend_changed": false,
-      "trend_direction": "unchanged",
+      "trend_changed": true,
+      "trend_direction": "improved",
       "conf_changed": false,
-      "pressure_changed": false,
+      "pressure_changed": true,
       "driver_changed": false,
       "signals": [
-        "lost last game"
+        "trend improved: fragile \u2192 stabilizing",
+        "pressure decreased: high \u2192 building",
+        "won last game",
+        "streak flipped: L1 \u2192 W1",
+        "ERA improved: 4.35 \u2192 4.27"
       ]
     }
   }
