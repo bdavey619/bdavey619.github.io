@@ -1107,6 +1107,21 @@ SENTENCE SEPARATION — HARD RULE:
 - If a sentence contains multiple clauses, split it
 Short sentences are preferred over dense ones.
 
+IDEA PURITY — HARD RULE:
+One sentence must express exactly one baseball idea. Do not combine multiple subjects in a single sentence.
+
+Disallowed combinations:
+- pitching + hitting in the same sentence
+- player performance + team outcome in the same sentence
+- multiple moments in one sentence
+
+If a sentence contains more than one idea, split it.
+
+Bad: "Rodríguez struggled and the offense didn't respond."
+Good: "Rodríguez struggled." / "The offense didn't respond."
+
+Clarity is more important than flow.
+
 BODY LIMIT — ENFORCED:
 Maximum 5 sentences in the body of WHAT THIS GAME MEANS.
 If more than 5:
@@ -1132,16 +1147,43 @@ The final sentence must be stronger than the sentence before it.
 It should feel like a verdict, a closing argument, something a fan would repeat.
 Never end on a descriptive sentence.
 
+PUNCHLINE — SPECIFICITY UPGRADE:
+The final sentence is mandatory and must meet ALL conditions:
+- ≤ 12 words
+- No commas
+- No conjunctions (and, but, so, because, etc.)
+- Must reference something specific from THIS game (stat, situation, or failure)
+- Must NOT be reusable for another team or game
+- Must feel like a verdict, not a summary
+
+Bad (too generic): "That's the cost of losing games like this."
+Good (specific + grounded): "Eight left on base. Nothing to show for it."
+
+PUNCHLINE — FORCE GROUNDING:
+If the punchline does not contain:
+- a number (strikeouts, hits, runners, innings), OR
+- a clear game situation (runners left, shutout, late chances, etc.)
+→ rewrite it.
+The reader should be able to recall the game from the punchline alone.
+
 CUT THE LAST SENTENCE TEST (silent):
 After writing the paragraph, remove the final sentence mentally.
 If the paragraph still feels complete → the punchline is weak.
 Rewrite until removing the final sentence makes the paragraph feel unfinished.
+
+ANTI-COMPRESSION CHECK (silent — run before returning):
+- No sentence contains two separate ideas
+- No sentence uses "and" to merge unrelated concepts
+- Each sentence stands on its own
+If violated → split the sentence.
 
 INTERNAL AUDIT (silent — run before returning):
 - Did explanation mode stop after sentence 3?
 - Is the body ≤ 5 sentences?
 - Does every sentence reference THIS game?
 - Is the final sentence a punchline (≤12 words, no commas, no conjunctions)?
+- Is the final sentence grounded in a specific stat or game situation?
+- Is the final sentence NOT reusable for another game?
 - Is the final sentence stronger than the rest?
 If any fail → rewrite.
 
