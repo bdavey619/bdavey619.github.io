@@ -89,6 +89,32 @@ def _build_what_to_watch_row(text):
     )
 
 
+def _build_signals_block(signals):
+    if not signals:
+        return ""
+    STYLE_ROW = (
+        "font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;"
+        "font-size:12px;color:#5a534c;padding:2px 0;line-height:1.5;"
+    )
+    rows = "".join(
+        f'<tr><td style="{STYLE_ROW}">&#8226;&nbsp;'
+        f'{s["label"] if isinstance(s, dict) else s}'
+        f': {s["value"] if isinstance(s, dict) else ""}'
+        f'</td></tr>'
+        for s in signals
+    )
+    return (
+        '<tr><td style="padding-top:14px;padding-bottom:2px;border-top:1px solid #d8d2c4;">'
+        '<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">'
+        '<tr><td style="padding-bottom:4px;">'
+        '<span style="font-family:-apple-system,BlinkMacSystemFont,\'Helvetica Neue\',Arial,sans-serif;'
+        'font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:#8a8278;">'
+        'Signals</span></td></tr>'
+        f'{rows}'
+        '</table></td></tr>'
+    )
+
+
 def main():
     brief = load_brief()
     lg = brief["last_game"]
@@ -169,6 +195,7 @@ def main():
         "insight_detail":    insight_detail,
         "insight_why":       insight_why,
         "what_to_watch_row": _build_what_to_watch_row(narrative.get("what_to_watch", "")),
+        "signals_block":     _build_signals_block(brief.get("signals", [])),
         "next_opponent":     f"{ng_home_away} {ng.get('opponent', '')}",
         "next_time":         ng.get("time_local", ""),
         "next_probables":    next_probables,

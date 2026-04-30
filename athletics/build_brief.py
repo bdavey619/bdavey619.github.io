@@ -34,6 +34,7 @@ from engine.narrative import (  # noqa: E402
 )
 from engine.clutch import identify_clutch_player  # noqa: E402
 from engine.story_signals import identify_game_driver  # noqa: E402
+from engine.signals import build_signals  # noqa: E402
 
 CFG = ATHLETICS
 
@@ -1481,6 +1482,11 @@ def build():
     if story_hook:
         print(f"  [story_hook] {story_hook!r}", file=sys.stderr)
 
+    print("Building signals...", file=sys.stderr)
+    signals = build_signals(last_game, SEASON, CFG.team_id)
+    if signals:
+        print(f"  [signals] {signals}", file=sys.stderr)
+
     brief_data = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "season": SEASON,
@@ -1489,6 +1495,7 @@ def build():
         "next_game": next_game,
         "standings": standings,
         "hot_players": {"hitters": [], "pitchers": []},
+        "signals": signals,
         "subhead": subhead,
         "insight": insight,
         "story_hook": story_hook,
