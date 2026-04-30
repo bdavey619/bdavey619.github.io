@@ -168,7 +168,7 @@ def _build_story_hook_block(story_hook):
         return ""
     return (
         '<tr>'
-        '<td align="center" style="padding:0 0 18px;">'
+        '<td align="center" style="padding:14px 0 18px;">'
         '<p style="margin:0;font-family:Georgia,\'Times New Roman\',serif;'
         'font-size:14px;font-style:italic;font-weight:400;color:#8a8278;line-height:1.45;">'
         f'{story_hook}</p>'
@@ -308,7 +308,6 @@ def main():
 
     context = {
         "brief_date":           fmt_brief_date(),
-        "subhead":              brief.get("subhead", ""),
         "story_hook_block":     _build_story_hook_block(brief.get("story_hook", "")),
         "score_display":        score_display,
         "result_label":         result_label,

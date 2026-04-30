@@ -46,21 +46,14 @@ function renderMasthead(b) {
     weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'
   });
 
-  // Prefer server-generated subhead (has full data context); fall back to client-side
-  const subhead = b.subhead || buildSubhead(b);
-  if (subhead) {
-    $('masthead-subhead').textContent = subhead;
-    $('masthead-subhead').hidden = false;
-  }
-
-  // Story hook — one-sentence emotional frame below the subhead
+  // Story hook — one-sentence emotional frame below the rule
   if (b.story_hook) {
     const hookEl = document.createElement('p');
     hookEl.id = 'masthead-hook';
     hookEl.className = 'masthead-hook';
     hookEl.textContent = b.story_hook;
-    const subheadEl = $('masthead-subhead');
-    subheadEl.parentNode.insertBefore(hookEl, subheadEl.nextSibling);
+    const ruleEl = document.querySelector('.masthead-rule');
+    ruleEl.parentNode.insertBefore(hookEl, ruleEl.nextSibling);
   }
 }
 
