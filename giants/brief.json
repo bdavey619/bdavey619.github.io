@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T05:45:33+00:00",
+  "generated_at": "2026-04-30T13:59:18+00:00",
   "season": 2026,
   "team": {
     "record": "13-16",
@@ -14,12 +14,12 @@
   },
   "last_game": {
     "status": "postponed",
-    "gamePk": 823471,
+    "gamePk": 823472,
     "date": "2026-04-30",
     "opponent": "PHI",
     "home": false,
     "venue": "Citizens Bank Park",
-    "postponed_reason": "Rain",
+    "postponed_reason": "",
     "makeup_date": null,
     "clutch_player": null,
     "game_driver": null
@@ -78,7 +78,7 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "POSTPONED @ PHI \u2014 rain",
+  "subhead": "POSTPONED @ PHI",
   "insight": {
     "headline": "The offense hasn't matched the pitching.",
     "detail": "The staff is holding at 3.96 ERA, but a .654 OPS at the plate has made it difficult. San Francisco sits at 6-4 over their last ten with neither side pulling ahead.",
@@ -89,7 +89,7 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "No game last night. Rain got it.",
+    "top_frame": "No game last night. Postponed.",
     "what_this_means": "",
     "what_to_watch": "Makeup date TBD. Next up: @ PHI on Thursday, April 30.",
     "story_state": {
