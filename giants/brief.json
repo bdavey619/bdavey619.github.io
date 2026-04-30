@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T04:50:32+00:00",
+  "generated_at": "2026-04-30T04:59:50+00:00",
   "season": 2026,
   "team": {
     "record": "13-16",
@@ -101,9 +101,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "A shutout feels like a reset until you realize they couldn't score at all.",
-    "what_this_means": "The Giants and Phillies played scoreless baseball on a night when the Phillies couldn't hit anything. That should have been the story. Instead, it became proof that this team's offense is not just streaky anymore. It is fragile. Down 6.0 games in the division, they cannot afford nights where nobody finds a gap, nobody works into traffic, nobody delivers one swing that opens a door. The pattern used to be inconsistency. Now it looks like a team running on fumes. A 0-0 game decided by nothing means nothing was there to begin with. This isn't a slump anymore. This is how stretches collapse.",
-    "what_to_watch": "Now the question is whether Webb can force the Phillies to produce against a team that just watched both offenses go silent. A weak .223 average is only favorable if the Giants' bats show up to punish it.",
+    "top_frame": "A 0-0 loss to Philadelphia is the sound of a team that can't find itself.",
+    "what_this_means": "This team is fragile because it can't produce in moments that demand it. They showed up at Citizens Bank Park and left with nothing. The offense managed just one hit. The pitching was clean but irrelevant. It doesn't matter how many zeros you throw up when your own lineup won't answer. This is inconsistency with a new face: they can pitch well and still have nothing to show for it. The margin for error doesn't exist in a division six games back. One shutout loss becomes two becomes a losing streak that looks intentional. They've beaten this problem before. Not with an offense sitting at .245.",
+    "what_to_watch": "Now the question is whether Webb's favorable matchup against Philly's .223 average actually produces something, or if the Giants keep leaving scoreless games on the board. The opportunity is there. Whether they take it will tell you if last night was an outlier or the pattern getting louder.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
