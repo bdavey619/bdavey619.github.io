@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T05:57:40+00:00",
+  "generated_at": "2026-04-30T05:59:15+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -319,9 +319,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Waldron couldn't hold it, and eight strikeouts meant the bats never got there either.",
-    "what_this_means": "They had moments. They didn't have the finish. The pattern has become familiar: create something, then watch it evaporate. Castellanos delivered with a two-run shot that looked like the separator, but two runs was all the offense could scrape together against a Cubs lineup that wasn't exactly overpowering. Waldron departed after five innings with the damage already done. Three runs allowed before anyone got warm in the bullpen. The real problem wasn't what happened in isolation; it was what didn't: they left it too narrow, too dependent on one swing to carry them, and when you're chasing in a two-run game late, that's the margin that kills you. This is how stretches break. Not in one catastrophic collapse, but in the slow accumulation of games where you had enough to win and chose not to finish. Down 0.5 in the division with two losses in a row, the cost of fragile baseball is starting to show.",
-    "what_to_watch": "The question now is whether tonight's matchup against a White Sox team hitting .225 gives the arms the control they need to survive without the bats having to find perfection again.",
+    "top_frame": "Eight strikeouts and eight hits. And the Padres still couldn't finish.",
+    "what_this_means": "Castellanos delivered the moment that mattered, going 1 for 2 with a homer and two RBI. But two runs weren't enough when the offense kept swinging through air. The Cubs scored one in the first, one more in the third, and by then the damage was set. Waldron worked five innings, gave up three earned runs, and left the game with the score already slipping away. This wasn't about what happened. It was about what didn't. The Padres had their chances. They just never made one count late enough. Division races don't care about moments you almost have.",
+    "what_to_watch": "Now the question is whether the bats can carry an actual lead into the ninth against a White Sox team hitting .225.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
