@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T06:07:22+00:00",
+  "generated_at": "2026-04-30T11:56:24+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -319,9 +319,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "The offense had its chances and couldn't finish them.",
-    "what_this_means": "That's what cost the Padres in this one. Castellanos went deep with runners in scoring position, Andujar added another to reach the board, but eight strikeouts told the real story. A day game at Petco against a Cubs team that wasn't particularly sharp still required clean execution down the stretch, and the lineup never got there. One more swing that mattered. That's all it would have taken. Instead, they left traffic on the bases and walked out of a winnable game. The pattern is tightening: pitching creates chances, the bats fail to convert them, and the margin for error against a division closing in erases the slack. This works until it doesn't.",
-    "what_to_watch": "Germ\u00e1n M\u00e1rquez faces a Chicago White Sox team hitting .225. The kind of matchup where dominant stuff should separate. The question is whether the lineup can stay in a game long enough for pitching to matter. That's the pressure now.",
+    "top_frame": "The offense scored only once but Castellanos made it count, turning traffic into two runs when it mattered most, yet the Padres still couldn't finish. Leaving eight on base in a one-run loss to Chicago that exposed how thin the margin really is.",
+    "what_this_means": "Eight strikeouts told the story of a lineup that couldn't stay sharp late, and that's the problem right now. Waldron held them close through five innings, the kind of start that keeps you alive in tight games, but the bats never got a real sequence going after his exit. Castellanos delivered when the game was still there. One swing that made the early pressure mean something. But one swing wasn't enough. This team is inconsistent when it counts most, and today proved it again. They had the moments. They didn't have the finish.",
+    "what_to_watch": "Tonight will test whether the pitching can set up what the bats finally capitalize on. M\u00e1rquez against a White Sox lineup that can't hit (.225) gives the arm every advantage the offense didn't have yesterday.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
