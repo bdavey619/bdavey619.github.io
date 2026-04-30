@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T02:26:50+00:00",
+  "generated_at": "2026-04-30T04:50:33+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -283,9 +283,9 @@
     },
     {
       "team": "D-backs",
-      "w": 15,
+      "w": 16,
       "l": 13,
-      "gb": "3.5",
+      "gb": "3.0",
       "last10": "5-5"
     },
     {
@@ -319,9 +319,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Waldron couldn't hold what little the Padres gave him.",
-    "what_this_means": "The offense found moments. Eight strikeouts and three hits told the real story. Castellanos delivered what traffic there was\u2014a two-run shot that should have held. But Waldron's ERA sits at 9.88 for a reason. He couldn't get out of the fifth without bleeding three runs. A close game demanded a clean start. He didn't provide one. In a division where margins are already thin and the standings say 0.5 back, this is how losses pile up. The pitching sets the floor. The offense scraped together just enough to stay in it. That wasn't enough.",
-    "what_to_watch": "Now the question is whether the lineup can produce consistently against a Chicago team batting .225, or if nights like this\u2014where they have the moments but not the finish\u2014start to look like a pattern instead of a game.",
+    "top_frame": "Waldron couldn't hold the lead, and eight strikeouts meant no one else was ready to finish.",
+    "what_this_means": "The Padres created moments. Castellanos muscled two runs in the early innings. Andujar added another. But the offense struck out eight times total and managed just three hits. That's the split that kills you at home against a middling team. Waldron's ERA sits at 9.88 for a reason. Five innings, three runs, one strikeout. That's not a quality start. It's a question mark disguised as a line. This team is built on pitching carrying a lean offense. Today the pitching got lean too. Eight strikeouts and two home runs should have been enough to beat Chicago. They weren't. That's not inconsistency anymore.",
+    "what_to_watch": "Now the test is whether the lineup can produce against a White Sox team hitting .225. M\u00e1rquez is favored, but Padres bats have to do something they haven't yet. Punish poor pitching when the pitcher can't help them.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
