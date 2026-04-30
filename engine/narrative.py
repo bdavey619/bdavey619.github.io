@@ -1100,6 +1100,13 @@ Each sentence in WHAT THIS GAME MEANS must do exactly one of:
 3. Push toward the conclusion
 If a sentence does not clearly fit one of these, delete it.
 
+SENTENCE SEPARATION — HARD RULE:
+- One sentence = one idea
+- Do not combine stat + conclusion in the same sentence
+- Do not join ideas with "and" unless tightly identical
+- If a sentence contains multiple clauses, split it
+Short sentences are preferred over dense ones.
+
 BODY LIMIT — ENFORCED:
 Maximum 5 sentences in the body of WHAT THIS GAME MEANS.
 If more than 5:
