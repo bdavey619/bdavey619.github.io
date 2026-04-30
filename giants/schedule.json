@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-04",
   "division_name": "NL West",
-  "generated_at": "2026-04-29T14:00:46.730423+00:00",
+  "generated_at": "2026-04-30T01:27:50.910863+00:00",
   "games": [
     {
       "date": "2026-04-01",
@@ -220,19 +220,25 @@
       "gamePk": 823473,
       "status": "final",
       "result": "L",
-      "score": "0\u20137"
+      "score": "0\u20137",
+      "archive_url": "archive.html?date=2026-04-29"
     },
     {
       "date": "2026-04-29",
       "opponent": "PHI",
       "home": false,
       "gamePk": 823471,
+      "status": "final",
+      "result": "L",
+      "score": "0\u20130"
+    },
+    {
+      "date": "2026-04-30",
+      "opponent": "PHI",
+      "home": false,
+      "gamePk": 823471,
       "status": "scheduled",
-      "time_local": "3:40 PM PT",
-      "probable": {
-        "team": "Logan Webb",
-        "opp": "Cristopher S\u00e1nchez"
-      }
+      "time_local": "2:35 PM PT"
     },
     {
       "date": "2026-04-30",
@@ -240,15 +246,15 @@
       "home": false,
       "gamePk": 823472,
       "status": "scheduled",
-      "time_local": "10:05 AM PT",
+      "time_local": "9:35 AM PT",
       "probable": {
-        "team": "Adrian Houser",
-        "opp": "Andrew Painter"
+        "team": "Logan Webb",
+        "opp": "Cristopher S\u00e1nchez"
       }
     }
   ],
   "summary": {
-    "month_record": "11\u201313",
+    "month_record": "11\u201314",
     "current_streak": "L1",
     "last_10": "6\u20134"
   }
