@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T06:06:42+00:00",
+  "generated_at": "2026-04-30T12:17:38+00:00",
   "season": 2026,
   "team": {
     "record": "20-11",
@@ -312,9 +312,9 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "The offense evaporated when it mattered most.",
-    "what_this_means": "Eight strikeouts. Five hits total. Texas shut down a lineup that had looked balanced just twenty-four hours earlier, and Rodr\u00edguez had nothing left after four innings. This is the margin that decides division races. Not the blowouts, but the games where the other team's starter finds command and your lineup never adjusts. Ben Rice went 3-for-4 and it meant nothing. That's the cost of scoring zero.",
-    "what_to_watch": "The pattern has inverted. Two nights ago, balance and depth looked like the answer. Tonight, that same lineup looked brittle against competent pitching and early damage. They're 20-11 and leading the division, but they just lost to an inferior team in daylight baseball. This isn't a slump yet. It's a warning.",
+    "top_frame": "The offense couldn't get anything going against Texas and it cost them the division margin.",
+    "what_this_means": "Eight strikeouts in a shutout loss is the kind of game that sticks with you late in a tight race. Rodr\u00edguez lasted only four innings but that wasn't the story. The Yankees had five hits and nothing to show for it. Ben Rice went 3-for-4 and it didn't matter because no one else created traffic behind him. This is what happens when one player produces in isolation. The division doesn't wait for lineups to catch up. They needed balance and got a good performance swallowed by silence.",
+    "what_to_watch": "That's the tax of losing games like this.",
     "story_state": {
       "trend": "surging",
       "driver": "balanced",
