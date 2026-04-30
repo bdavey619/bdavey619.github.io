@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T01:27:47+00:00",
+  "generated_at": "2026-04-30T04:50:32+00:00",
   "season": 2026,
   "team": {
     "record": "13-16",
@@ -66,9 +66,9 @@
     },
     {
       "team": "D-backs",
-      "w": 15,
+      "w": 16,
       "l": 13,
-      "gb": "3.5",
+      "gb": "3.0",
       "last10": "5-5"
     },
     {
@@ -90,7 +90,6 @@
     "hitters": [],
     "pitchers": []
   },
-  "signals": [],
   "subhead": "San Francisco falls to PHI.",
   "insight": {
     "headline": "The offense hasn't matched the pitching.",
@@ -102,9 +101,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Down six with one out left, they didn't find it.",
-    "what_this_means": "A 0-0 scoreboard is not an excuse. It's a verdict. They had chances\u2014Webb was sharp, but so was Philadelphia's rotation. The real problem: they couldn't generate anything when it mattered. No rallies. No traffic with runners in scoring position. Just empty swings in the moments that decided the game. This is what inconsistency looks like when the margin disappears. They beat themselves before the other team beat them. A .245 average doesn't win tight games, and this team keeps finding tight games. The pattern has become unavoidable.",
-    "what_to_watch": "Now the question is whether Webb's favorable matchup against Philadelphia's struggling lineup (.223) lets them reset the formula, or whether the damage from last night\u2014a night they should have stolen\u2014starts to compound.",
+    "top_frame": "A shutout feels like a reset until you realize they couldn't score at all.",
+    "what_this_means": "The Giants and Phillies played scoreless baseball on a night when the Phillies couldn't hit anything. That should have been the story. Instead, it became proof that this team's offense is not just streaky anymore. It is fragile. Down 6.0 games in the division, they cannot afford nights where nobody finds a gap, nobody works into traffic, nobody delivers one swing that opens a door. The pattern used to be inconsistency. Now it looks like a team running on fumes. A 0-0 game decided by nothing means nothing was there to begin with. This isn't a slump anymore. This is how stretches collapse.",
+    "what_to_watch": "Now the question is whether Webb can force the Phillies to produce against a team that just watched both offenses go silent. A weak .223 average is only favorable if the Giants' bats show up to punish it.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
@@ -130,8 +129,7 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "lost last game",
-        "division gap: gained 0.5 game(s) (6.0 back)"
+        "lost last game"
       ]
     }
   }
