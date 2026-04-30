@@ -1432,6 +1432,68 @@ HARD RULES:
 Output format: three paragraphs separated by a blank line. Nothing else."""
 
 
+def generate_postponed_narrative(last_game: dict, next_game: dict | None = None) -> dict:
+    """
+    Deterministic narrative for a postponed game — no Claude call.
+    Returns the same shape as generate_narrative_copy() so callers need no branching.
+    """
+    reason = last_game.get("postponed_reason", "").strip()
+    makeup = last_game.get("makeup_date")
+
+    # State of Play: one sharp acknowledgment. Reason stated once, briefly.
+    if reason:
+        top_frame = f"No game last night. {reason.capitalize()} got it."
+    else:
+        top_frame = "No game last night. Postponed."
+
+    # What to Watch: makeup status + next game. No restatement of the cause.
+    what_to_watch_parts = []
+
+    if makeup:
+        what_to_watch_parts.append(f"Makeup date: {makeup}.")
+    else:
+        what_to_watch_parts.append("Makeup date TBD.")
+
+    if next_game:
+        ng_ha   = "vs" if next_game.get("home") else "@"
+        ng_opp  = next_game.get("opponent", "")
+        ng_date = next_game.get("date", "")
+        if ng_opp and ng_date:
+            try:
+                from datetime import datetime as _dt
+                d = _dt.strptime(ng_date, "%Y-%m-%d")
+                ng_date_label = d.strftime("%A, %B %-d")
+            except Exception:
+                ng_date_label = ng_date
+            what_to_watch_parts.append(f"Next up: {ng_ha} {ng_opp} on {ng_date_label}.")
+
+    return {
+        "top_frame":       top_frame,
+        "what_this_means": "",
+        "what_to_watch":   " ".join(what_to_watch_parts),
+    }
+
+
+def clean_narrative_text(text: str) -> str:
+    """
+    Post-processing guardrail: replace all em dashes with '. ' and fix capitalization.
+    Prevents em dashes from reaching final HTML output regardless of model behavior.
+    """
+    if not text or "—" not in text:
+        return text
+
+    def _replace(m):
+        after = m.group(1)
+        if after:
+            return ". " + after[0].upper() + after[1:]
+        return ". "
+
+    result = re.sub(r"\s*—\s*(\S?)", _replace, text)
+    result = re.sub(r"\.\.+", ".", result)   # collapse double periods
+    result = re.sub(r"  +", " ", result)     # collapse double spaces
+    return result.strip()
+
+
 def _narrative_fallback(reason):
     import sys
     print(f"  [narrative] Falling back to deterministic insight because: {reason}", file=sys.stderr)
@@ -1495,7 +1557,7 @@ def generate_narrative_copy(brief_data, story_state, delta, team_name,
     import sys
     print("  [narrative] AI narrative generated successfully", file=sys.stderr)
     return {
-        "top_frame":       paragraphs[0],
-        "what_this_means": paragraphs[1],
-        "what_to_watch":   paragraphs[2] if len(paragraphs) >= 3 else "",
+        "top_frame":       clean_narrative_text(paragraphs[0]),
+        "what_this_means": clean_narrative_text(paragraphs[1]),
+        "what_to_watch":   clean_narrative_text(paragraphs[2]) if len(paragraphs) >= 3 else "",
     }

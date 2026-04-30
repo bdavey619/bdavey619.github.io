@@ -63,8 +63,13 @@ def safety_check(brief):
     the send rather than allowing a broken email through.
     """
     last_game = brief.get("last_game", {})
+    status    = last_game.get("status")
 
-    status = last_game.get("status")
+    if status == "postponed":
+        if not last_game.get("opponent"):
+            return False, "last_game.opponent is missing in postponed brief — skipping send"
+        return True, "ok"
+
     if status != "final":
         return False, f"last_game.status is '{status}' — game may not be complete, skipping send"
 
@@ -87,10 +92,9 @@ def build_subject(brief, cfg):
     if override:
         return override
 
-    last_game = brief.get("last_game", {})
-    date_str = last_game.get("date", "")
-    result = last_game.get("result", "")
-    score = last_game.get("score", {})
+    last_game  = brief.get("last_game", {})
+    status     = last_game.get("status", "")
+    date_str   = last_game.get("date", "")
 
     try:
         d = datetime.strptime(date_str, "%Y-%m-%d")
@@ -98,6 +102,13 @@ def build_subject(brief, cfg):
     except Exception:
         date_label = date_str
 
+    if status == "postponed":
+        ha  = "vs" if last_game.get("home") else "@"
+        opp = last_game.get("opponent", "")
+        return f"{cfg.team_name} postponed {ha} {opp} | Morning Brief ({date_label})"
+
+    result = last_game.get("result", "")
+    score  = last_game.get("score", {})
     if result in ("W", "L") and isinstance(score, dict) and "team" in score and "opp" in score:
         verb = "win" if result == "W" else "lose"
         return f"{cfg.team_name} {verb} {score['team']}\u2013{score['opp']} \u2014 Morning Brief ({date_label})"

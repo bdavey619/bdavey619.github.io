@@ -29,6 +29,7 @@ from engine.narrative import (  # noqa: E402
     save_story_state,
     compute_story_delta,
     generate_narrative_copy,
+    generate_postponed_narrative,
     build_story_threads,
     build_story_hook,
 )
@@ -79,20 +80,61 @@ def _fetch_schedule(start, end):
     return games
 
 
+def _is_postponed(game):
+    """Return True if the game was postponed per any MLB status field."""
+    s = game.get("status", {})
+    return (
+        s.get("detailedState") == "Postponed"
+        or s.get("statusCode") == "P"
+        or s.get("codedGameState") == "P"
+    )
+
+
+def _format_postponed_game(game):
+    """Return a minimal last_game dict for a postponed game — no score, no box score."""
+    home      = _is_home(game)
+    opp       = _opponent_abbr(game)
+    game_date = game.get("officialDate") or game["gameDate"][:10]
+    venue     = game.get("venue", {}).get("name", "")
+    reason    = game.get("status", {}).get("reason", "")
+    print(
+        f"  [postponed] {opp} on {game_date}"
+        + (f" — {reason}" if reason else ""),
+        file=sys.stderr,
+    )
+    return {
+        "status":           "postponed",
+        "gamePk":           game["gamePk"],
+        "date":             game_date,
+        "opponent":         opp,
+        "home":             home,
+        "venue":            venue,
+        "postponed_reason": reason,
+        "makeup_date":      None,
+    }
+
+
 def get_last_game():
-    """Most recent completed game (ignores in-progress, walks back if needed)."""
-    end = datetime.now().date()
+    """
+    Return the most recent relevant game: the newest Final or Postponed game
+    in the last 14 days. A postponed game that is newer than the last Final
+    is returned as status='postponed' so the brief can acknowledge it.
+    """
+    end   = datetime.now().date()
     start = end - timedelta(days=14)
     games = _fetch_schedule(start, end)
 
-    finals = [g for g in games if g.get("status", {}).get("abstractGameState") == "Final"]
-    if not finals:
-        return {"status": "off_day"}
+    # Walk newest-first: first Final or Postponed encountered is the answer.
+    # Preview / Live / Scheduled are skipped — they haven't been played yet.
+    games_sorted = sorted(games, key=lambda g: (g["gameDate"], g["gamePk"]), reverse=True)
+    for g in games_sorted:
+        abstract = g.get("status", {}).get("abstractGameState", "")
+        if abstract == "Final":
+            return _format_last_game(g)
+        if _is_postponed(g):
+            return _format_postponed_game(g)
 
-    # Most recent: sort by gameDate, then gamePk as doubleheader tiebreaker
-    finals.sort(key=lambda g: (g["gameDate"], g["gamePk"]), reverse=True)
-    g = finals[0]
-    return _format_last_game(g)
+    return {"status": "off_day"}
 
 
 def get_next_game():
@@ -714,8 +756,15 @@ def _parse_pitcher_line(line):
 
 def build_subhead(last_game, team):
     """Return a concise editorial deck line — one tight sentence."""
-    if not last_game or last_game.get("status") != "final":
+    status = last_game.get("status") if last_game else None
+    if status not in ("final", "postponed"):
         return ""
+    if status == "postponed":
+        ha     = "vs" if last_game.get("home") else "@"
+        opp    = last_game.get("opponent", "")
+        reason = last_game.get("postponed_reason", "")
+        suffix = f" — {reason.lower()}" if reason else ""
+        return f"POSTPONED {ha} {opp}{suffix}"
 
     result = last_game.get("result")
     streak = team.get("streak", "")
@@ -1643,13 +1692,17 @@ def build():
     }
 
     print("Generating narrative copy...", file=sys.stderr)
-    narrative_copy = generate_narrative_copy(
-        brief_data, story_state, story_delta, CFG.team_name,
-        story_threads=story_threads,
-        story_hook=story_hook,
-        looking_ahead_hook=(next_game or {}).get("insight"),
-        game_driver=last_game.get("game_driver"),
-    )
+    if last_game.get("status") == "postponed":
+        print("  [narrative] postponed — using deterministic narrative", file=sys.stderr)
+        narrative_copy = generate_postponed_narrative(last_game, next_game)
+    else:
+        narrative_copy = generate_narrative_copy(
+            brief_data, story_state, story_delta, CFG.team_name,
+            story_threads=story_threads,
+            story_hook=story_hook,
+            looking_ahead_hook=(next_game or {}).get("insight"),
+            game_driver=last_game.get("game_driver"),
+        )
     save_story_state(story_state, STORY_STATE_PATH)  # always persist so delta works next run
     if narrative_copy:
         brief_data["narrative"] = {

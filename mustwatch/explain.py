@@ -30,6 +30,23 @@ _TARGET_SENTENCES = 2
 # Structured event block builder
 # ---------------------------------------------------------------------------
 
+def clean_narrative_text(text: str) -> str:
+    """Replace em dashes with '. ' and fix capitalization — enforced at output layer."""
+    if not text or "—" not in text:
+        return text
+
+    def _replace(m):
+        after = m.group(1)
+        if after:
+            return ". " + after[0].upper() + after[1:]
+        return ". "
+
+    result = re.sub(r"\s*—\s*(\S?)", _replace, text)
+    result = re.sub(r"\.\.+", ".", result)
+    result = re.sub(r"  +", " ", result)
+    return result.strip()
+
+
 def _record(ctx) -> str:
     return f"{ctx.wins}-{ctx.losses} ({ctx.win_pct:.3f})"
 
@@ -293,5 +310,5 @@ def generate_explanations(final: list[ScoredEvent]) -> dict[str, str]:
         return _fallback("[explanation unavailable]")
 
     raw_text  = response.content[0].text
-    texts     = _parse_response(raw_text, len(final))
+    texts     = [clean_narrative_text(t) for t in _parse_response(raw_text, len(final))]
     return dict(zip(game_ids, texts))

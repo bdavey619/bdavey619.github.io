@@ -92,21 +92,33 @@ def _build_what_to_watch_row(text):
 def main():
     brief = load_brief()
     lg = brief["last_game"]
+    is_postponed = lg.get("status") == "postponed"
 
-    # Game identity
-    sd_score = lg["score"]["team"]
-    opp_score = lg["score"]["opp"]
-    home_away = "vs" if lg["home"] else "@"
-    score_display = f"{sd_score}\u2013{opp_score}"
-    vs_line = f"{home_away} {lg['opponent']}"
-
-    result = lg["result"]
-    result_label = "WIN" if result == "W" else "LOSS"
-    result_color = "#2f241d" if result == "W" else "#5a534c"
-
-    # Performers
-    key_hitters_rows = build_hitter_rows(lg.get("key_hitters", []))
-    pitcher = lg.get("key_pitcher", {})
+    # Game identity \u2014 diverges for postponed games
+    if is_postponed:
+        home_away        = "vs" if lg.get("home") else "@"
+        score_display    = "PPD"
+        vs_line          = f"{home_away} {lg.get('opponent', '')}"
+        result_label     = "POSTPONED"
+        result_color     = "#8a8278"
+        key_hitters_rows = (
+            '<tr><td colspan="2" style="padding:10px 0;'
+            "font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;"
+            'font-size:13px;font-style:italic;color:#8a8278;">'
+            "Game not played.</td></tr>"
+        )
+        pitcher = {}
+    else:
+        sd_score         = lg["score"]["team"]
+        opp_score        = lg["score"]["opp"]
+        home_away        = "vs" if lg["home"] else "@"
+        score_display    = f"{sd_score}\u2013{opp_score}"
+        vs_line          = f"{home_away} {lg['opponent']}"
+        result           = lg["result"]
+        result_label     = "WIN" if result == "W" else "LOSS"
+        result_color     = "#2f241d" if result == "W" else "#5a534c"
+        key_hitters_rows = build_hitter_rows(lg.get("key_hitters", []))
+        pitcher          = lg.get("key_pitcher", {})
 
     # Next game teaser
     ng = brief.get("next_game", {})
@@ -148,10 +160,25 @@ def main():
         insight_detail   = insight.get("detail", "")
         insight_why      = insight.get("why", "")
 
-    # Game date label prepended to context line for clarity (brief date ≠ game date on off days)
-    game_date_short = fmt_game_date_short(lg["date"])
-    existing_context = lg.get("context_line", "")
-    context_line_with_date = f"{game_date_short} · {existing_context}" if existing_context else game_date_short
+    # Context line — enriched for postponed games
+    game_date_short = fmt_game_date_short(lg.get("date", ""))
+    if is_postponed:
+        ctx_parts = [game_date_short]
+        if lg.get("venue"):
+            ctx_parts.append(lg["venue"])
+        reason = lg.get("postponed_reason", "")
+        if reason:
+            ctx_parts.append(f"PPD: {reason}")
+        context_line_with_date = " · ".join(ctx_parts)
+        game_note_text = (
+            f"Postponed due to {reason.lower()}." if reason else "Game was postponed."
+        )
+    else:
+        existing_context = lg.get("context_line", "")
+        context_line_with_date = (
+            f"{game_date_short} · {existing_context}" if existing_context else game_date_short
+        )
+        game_note_text = lg.get("game_note", "")
 
     context = {
         "brief_date":        fmt_brief_date(),
@@ -161,7 +188,7 @@ def main():
         "result_color":      result_color,
         "vs_line":           vs_line,
         "context_line":      context_line_with_date,
-        "game_note":         lg.get("game_note", ""),
+        "game_note":         game_note_text,
         "key_hitters_rows":  key_hitters_rows,
         "pitcher_name":      pitcher.get("name", ""),
         "pitcher_line":      pitcher.get("line", ""),
