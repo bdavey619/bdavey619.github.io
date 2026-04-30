@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T04:50:33+00:00",
+  "generated_at": "2026-04-30T05:03:45+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -319,9 +319,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Waldron couldn't hold the lead, and eight strikeouts meant no one else was ready to finish.",
-    "what_this_means": "The Padres created moments. Castellanos muscled two runs in the early innings. Andujar added another. But the offense struck out eight times total and managed just three hits. That's the split that kills you at home against a middling team. Waldron's ERA sits at 9.88 for a reason. Five innings, three runs, one strikeout. That's not a quality start. It's a question mark disguised as a line. This team is built on pitching carrying a lean offense. Today the pitching got lean too. Eight strikeouts and two home runs should have been enough to beat Chicago. They weren't. That's not inconsistency anymore.",
-    "what_to_watch": "Now the test is whether the lineup can produce against a White Sox team hitting .225. M\u00e1rquez is favored, but Padres bats have to do something they haven't yet. Punish poor pitching when the pitcher can't help them.",
+    "top_frame": "Waldron's early damage never got fixed, and eight strikeouts don't beat one home run.",
+    "what_this_means": "The problem isn't that they lost. It's what the loss reveals about the margin they're working with right now. Castellanos went deep and delivered two runs. That's the kind of individual at-bat that usually wins close games at home, especially against a division rival. But in a day game at Petco, with the staff holding Chicago to three runs through five, one home run wasn't enough to overcome the silence everywhere else. Eight strikeouts and just three hits tells you the lineup is still swinging blind most of the time. The same inconsistency that's haunted the season showed up again, just when they needed lineup depth the most. They're down half a game in the division now, and that's not accident. That's what happens when you need your best hitter to beat you and he almost does alone.",
+    "what_to_watch": "Now the question is whether M\u00e1rquez can carry a thinner offense against a team equally desperate to hit. CWS is batting .225 for a reason. They're floundering too.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
