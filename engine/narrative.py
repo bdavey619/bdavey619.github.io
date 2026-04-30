@@ -938,6 +938,29 @@ Mix:
 - 2-sentence paragraphs for development
 Avoid overly fragmented, choppy writing.
 
+PATTERN BREAK RULE:
+Once per brief — and only once — break the rhythm deliberately inside WHAT THIS GAME MEANS.
+
+Choose one of:
+- A one-line paragraph (very short sentence standing alone)
+- A rhetorical question
+- A contrast flip (what it looked like vs. what it was)
+- A blunt, almost conversational aside
+
+Examples:
+- "And then it was over."
+- "That's the game."
+- "You knew it early."
+- "This one was decided before it felt like it."
+- "Not a comeback. A correction."
+- "The box score said close. The game didn't."
+
+Rules:
+- Use it once. Not twice.
+- Place it where the argument pivots — not at the start, not as the punchline (the punchline is reserved for the final sentence).
+- It should feel like a breath, not a gimmick.
+- If no natural break exists, skip it. Do not force it.
+
 OPENING LINE RULE:
 The first sentence must be specific to THIS game and non-transferable.
 
