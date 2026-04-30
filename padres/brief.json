@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T05:45:47+00:00",
+  "generated_at": "2026-04-30T05:57:40+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -319,9 +319,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Waldron couldn't hold the lead, and eight strikeouts meant the bats never woke up to push back.",
-    "what_this_means": "The pattern is tightening around a single vulnerability. With a .235 average and a .693 OPS, this lineup generates just enough traffic to matter but not enough to finish what it starts. Castellanos delivered two runs and a home run. The only real separation the offense found. Yet it was never enough to hold. Waldron lasted five innings and gave up three earned runs, which should have felt manageable. It didn't. The strikeouts stacked up like a warning that the offense was swinging through pitches it couldn't catch, and by the time they actually made contact that mattered, the game was already decided. Down two runs in a home day game against a division team is exactly where the margin disappears for a team built on pitching. The inconsistency keeps showing up in the same shape: moments without finishes, traffic that clears, and one player left trying to carry the rest. They had the game. They didn't finish it.",
-    "what_to_watch": "Tonight the question is whether M\u00e1rquez can do what the lineup cannot. Hold a thin lead into the ninth against a White Sox team hitting .225.",
+    "top_frame": "Waldron couldn't hold it, and eight strikeouts meant the bats never got there either.",
+    "what_this_means": "They had moments. They didn't have the finish. The pattern has become familiar: create something, then watch it evaporate. Castellanos delivered with a two-run shot that looked like the separator, but two runs was all the offense could scrape together against a Cubs lineup that wasn't exactly overpowering. Waldron departed after five innings with the damage already done. Three runs allowed before anyone got warm in the bullpen. The real problem wasn't what happened in isolation; it was what didn't: they left it too narrow, too dependent on one swing to carry them, and when you're chasing in a two-run game late, that's the margin that kills you. This is how stretches break. Not in one catastrophic collapse, but in the slow accumulation of games where you had enough to win and chose not to finish. Down 0.5 in the division with two losses in a row, the cost of fragile baseball is starting to show.",
+    "what_to_watch": "The question now is whether tonight's matchup against a White Sox team hitting .225 gives the arms the control they need to survive without the bats having to find perfection again.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
