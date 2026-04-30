@@ -39,6 +39,13 @@ _TEAM_CONFIGS = {
     "athletics": ATHLETICS,
 }
 
+_TEAM_DISPLAY = {
+    "padres":    "Padres",
+    "yankees":   "Yankees",
+    "giants":    "Giants",
+    "athletics": "A's",
+}
+
 RESEND_API_URL = "https://api.resend.com/emails"
 
 
@@ -136,8 +143,10 @@ def main():
     team_key  = os.environ.get(f"{team_slug.upper()}_RESEND_API_KEY", "").strip()
     global_key = os.environ.get("RESEND_API_KEY", "").strip()
     api_key   = team_key or global_key
-    emails    = [e.strip() for e in os.environ.get("EMAIL_TO", "").split(",") if e.strip()]
-    from_addr = os.environ.get("EMAIL_FROM", "").strip()
+    emails       = [e.strip() for e in os.environ.get("EMAIL_TO", "").split(",") if e.strip()]
+    from_email   = os.environ.get("EMAIL_FROM", "").strip()
+    team_display = _TEAM_DISPLAY.get(team_slug, "Morning Brief")
+    from_addr    = f"{team_display} — Morning Brief <{from_email}>" if from_email else ""
 
     missing = [
         name for name, val in [
