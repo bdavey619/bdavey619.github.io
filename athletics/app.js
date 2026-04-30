@@ -32,7 +32,6 @@ function render(b) {
   renderMasthead(b);
   renderSummaryBar(b);
   renderLastGame(b.last_game);
-  renderSignals(b.signals);
   renderHot(b.hot_players);
   renderSnapshot(b.team);
   renderAhead(b.next_game, b.standings);
@@ -255,17 +254,6 @@ function renderDecisions(d) {
   if (d.loss) parts.push(`<span><strong>L:</strong> ${fmtDecision(d.loss, d.loss_role)}</span>`);
   if (d.save) parts.push(`<span><strong>SV:</strong> ${d.save}</span>`);
   return `<div class="decisions">${parts.join('')}</div>`;
-}
-
-// ---------- signals ----------
-function renderSignals(signals) {
-  if (!signals || !signals.length) return;
-  const list = $('signals-list');
-  list.innerHTML = signals.map(s => {
-    const text = s && typeof s === 'object' ? `${s.label}: ${s.value}` : String(s);
-    return `<li>${text}</li>`;
-  }).join('');
-  show('signals');
 }
 
 // ---------- hot players ----------

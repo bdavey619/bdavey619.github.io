@@ -500,37 +500,6 @@ main {
   letter-spacing: 0.02em;
 }
 
-/* ---------- Signals ---------- */
-.signals {
-  margin-bottom: 24px;
-  padding: 8px 0 0;
-  border-top: 1px solid var(--rule-soft);
-}
-.signals-title {
-  font-size: 10px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--ink-faint);
-  margin-bottom: 4px;
-  font-family: var(--sans);
-}
-.signals-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.signals-list li {
-  font-size: 12px;
-  color: var(--ink-soft);
-  line-height: 1.5;
-  padding: 1px 0;
-}
-.signals-list li::before {
-  content: '•';
-  margin-right: 5px;
-  color: var(--ink-faint);
-}
 
 /* ---------- Footer ---------- */
 .footer {
