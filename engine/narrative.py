@@ -1005,6 +1005,29 @@ Preferred openers: "Now the question is…" / "Tonight will show…" / "The next
 Answer: what tension from today's story continues into tonight? Name the open question that tonight's game will test. Use TONIGHT'S HOOK as context — do NOT quote its stat or restate it. Translate it into narrative tension. Write like the story is still moving, not like a preview.
 Avoid broadcast-preview phrasing ("can they keep it going?", "looking to build on", "they'll need"). Frame it as an unresolved question from the argument you just made in WHAT THIS GAME MEANS.
 
+REWRITE LOOP:
+After drafting WHAT THIS GAME MEANS, run a second pass if ANY of the following are true:
+- a banned phrase appears (see CLARITY OVER POETRY and ANTI-GENERIC LANGUAGE)
+- a sentence could describe any game by any team
+- a sentence contains no observable detail (no inning, moment, player action, or sequence)
+
+On the second pass:
+- rewrite only the failing sentences
+- keep the structure and punchline intact
+- do not add length — shorter is better if in doubt
+
+Maximum 2 passes. If still failing after 2, prefer shorter and blunter over longer and vague.
+
+INTERNAL AUDIT (do not include in output — run silently before returning):
+Check each item. If any required item is "N", fix before returning.
+
+  [ ] Specific moment included? (inning / sequence / stat-as-scene)
+  [ ] Final sentence is a standalone punchline?
+  [ ] No banned phrases present?
+  [ ] No sentence that could describe any game?
+
+Pattern break is optional — skip if no natural pivot exists.
+
 GAME FLOW REALISM:
 Write as if you watched the game unfold — not as if you're summarizing a box score.
 
