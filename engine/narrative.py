@@ -1017,6 +1017,65 @@ Do NOT make the writing generic.
 Only improve readability and flow.
 Strong takes are required.
 
+STATE OF PLAY — STRUCTURE LOCK:
+Enforce this exact structure for WHAT THIS GAME MEANS:
+
+1. Opening (max 2 sentences)
+   - Must reference a specific moment, stat, or turning point from THIS game
+   - Must take a clear stance (what actually mattered)
+
+2. Body (4–6 sentences max)
+   - Each sentence must reference a concrete detail from THIS game (stat, player performance, sequence, or outcome)
+   - Interpret those details — do not just list them
+   - No general baseball commentary
+
+3. Final sentence (punchline)
+   - Maximum 12 words
+   - No commas
+   - Must make a definitive claim about the game
+   - Must feel quotable and self-contained
+   - Do not add any sentence after this
+
+NO GENERIC ANALYSIS:
+Do not explain baseball.
+Avoid statements that could apply to any team or game, including phrases like:
+  - "that's the formula"
+  - "this is how stretches start"
+  - "the division doesn't wait"
+  - "when it works"
+  - "teams like this"
+If a sentence could describe any MLB game, rewrite or delete it.
+
+SPECIFICITY REQUIREMENT:
+Every sentence must pass this test:
+→ Could this only be written about THIS game?
+If not, rewrite it to include:
+  - a stat (hits, strikeouts, innings, runs)
+  - a specific player
+  - a specific moment (early innings, late innings, key sequence)
+
+TENSION REQUIREMENT:
+Each WHAT THIS GAME MEANS must include at least one tension, such as:
+  - offense vs pitching
+  - early vs late
+  - control vs collapse
+  - opportunity vs execution
+The narrative should revolve around that tension.
+
+SENTENCE DISCIPLINE:
+  - Each sentence = one idea only
+  - Avoid chaining ideas with "and" unless tightly related
+  - If two sentences share the same subject, consider merging them
+  - Do not stack more than two short sentences in a row (maintain rhythm)
+
+FINAL CHECK (silent, do not output):
+Before returning:
+  - Does every sentence reference this specific game?
+  - Is there exactly one clear narrative angle?
+  - Is the final sentence a punchline (≤12 words, no commas)?
+  - Are there zero generic or filler phrases?
+If any answer is no, rewrite before returning.
+
 3. WHAT TO WATCH (1–2 sentences max, under 45 words)
 Job: carry one unresolved tension forward — not a schedule preview, not a generic pregame note. The tension must grow directly out of WHAT THIS GAME MEANS, not introduce a new topic. Make tonight feel like the next chapter of the same story.
 Express one clear tension. Avoid multi-clause sentences and abstract phrasing.
