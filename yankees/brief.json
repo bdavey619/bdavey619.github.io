@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T00:49:17+00:00",
+  "generated_at": "2026-04-30T05:30:02+00:00",
   "season": 2026,
   "team": {
     "record": "20-11",
@@ -256,7 +256,7 @@
     "probable": {
       "team": "Will Warren"
     },
-    "insight": "Warren has a 2.65 ERA over his last 4 starts \u2014 he takes the mound tonight.",
+    "insight": "Warren has a 2.65 ERA over his last 4 starts. He takes the mound tonight.",
     "hook_type": "pitcher_form"
   },
   "standings": [
@@ -302,7 +302,7 @@
   },
   "subhead": "New York falls to TEX.",
   "insight": {
-    "headline": "Balanced ball \u2014 Yankees are 8-2 over their last ten.",
+    "headline": "Balanced ball. Yankees are 8-2 in the last ten.",
     "detail": "Both sides have contributed: .229 average, .748 OPS at the plate, 3.11 ERA from the staff.",
     "why": "staff carrying (3.11 ERA) \u00b7 OPS at .748 \u00b7 8\u20132 in the last ten"
   },
@@ -312,9 +312,9 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "The offense went silent when it needed to hit\u2014Texas ran away early, and Rodriguez couldn't hold.",
-    "what_this_means": "The formula broke when it mattered most. They've been surging because both sides are clicking together, but this was the day nothing aligned. The lineup struck out eight times and managed just five hits; Rodriguez gave up two runs on four hits in four innings. Ben Rice went 3-for-4\u2014a bright spot that proved nothing in a 3-0 loss. This is the cost of imbalance: when the pitching falters, even scrappy at-bats don't carry the load. One team has to fail for the result to feel like failure, and today both did. The pattern of balanced contribution that's defined this surge means there's no margin for error on either side. Lose the pitcher and the hitter has to be exceptional. Lose both and you're done before the fourth inning ends. That's not sustainable.",
-    "what_to_watch": "Now the question is whether Warren can steady the ship before this loss becomes a pattern. Tonight will show if the top-heavy pitching\u2014his 2.65 ERA over the last month\u2014can anchor them back to what's been working.",
+    "top_frame": "Shutdown early. The bats never showed up.",
+    "what_this_means": "Texas silenced the Yankees for three innings straight, and once Rodriguez surrendered two in the fourth, any path back disappeared. Eight strikeouts in five hits is not an offensive line that competes in May. The division doesn't wait for lineups to find themselves. Every team in this race is built to punish dead swings and empty at-bats. Rice went 3-for-4 and it didn't matter because he was one voice in a silent room. This is how stretches start.",
+    "what_to_watch": "The concern isn't that they lost a day game on the road. It's that they looked flat doing it. One win in the last two games, eight strikeouts at a ballpark where contact matters more than power. This isn't a variance problem yet, but it's the edge of one. Balanced offense doesn't survive when half the lineup goes quiet and the pitcher can't extend past four innings. The formula only holds when both sides click. They stopped today.",
     "story_state": {
       "trend": "surging",
       "driver": "balanced",
@@ -340,9 +340,7 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "lost last game",
-        "streak flipped: W2 \u2192 L1",
-        "OPS down: 0.760 \u2192 0.748"
+        "lost last game"
       ]
     }
   }
