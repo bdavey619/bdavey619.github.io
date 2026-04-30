@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T05:59:15+00:00",
+  "generated_at": "2026-04-30T06:07:22+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -319,9 +319,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Eight strikeouts and eight hits. And the Padres still couldn't finish.",
-    "what_this_means": "Castellanos delivered the moment that mattered, going 1 for 2 with a homer and two RBI. But two runs weren't enough when the offense kept swinging through air. The Cubs scored one in the first, one more in the third, and by then the damage was set. Waldron worked five innings, gave up three earned runs, and left the game with the score already slipping away. This wasn't about what happened. It was about what didn't. The Padres had their chances. They just never made one count late enough. Division races don't care about moments you almost have.",
-    "what_to_watch": "Now the question is whether the bats can carry an actual lead into the ninth against a White Sox team hitting .225.",
+    "top_frame": "The offense had its chances and couldn't finish them.",
+    "what_this_means": "That's what cost the Padres in this one. Castellanos went deep with runners in scoring position, Andujar added another to reach the board, but eight strikeouts told the real story. A day game at Petco against a Cubs team that wasn't particularly sharp still required clean execution down the stretch, and the lineup never got there. One more swing that mattered. That's all it would have taken. Instead, they left traffic on the bases and walked out of a winnable game. The pattern is tightening: pitching creates chances, the bats fail to convert them, and the margin for error against a division closing in erases the slack. This works until it doesn't.",
+    "what_to_watch": "Germ\u00e1n M\u00e1rquez faces a Chicago White Sox team hitting .225. The kind of matchup where dominant stuff should separate. The question is whether the lineup can stay in a game long enough for pitching to matter. That's the pressure now.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
