@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T05:29:38+00:00",
+  "generated_at": "2026-04-30T05:45:47+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -319,9 +319,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Waldron couldn't hold it together, and neither could the offense when it mattered most.",
-    "what_this_means": "Eight strikeouts and three hits tells the whole story. They weren't close to breaking through until Castellanos arrived. Two runs batted in, a solo shot, a moment of real consequence. But one player carrying a lineup against a divisional opponent at home doesn't win baseball games, not consistently. The second inning unraveled and the Padres never caught up. They had traffic in a few spots late, chances to cut into a one-run deficit, and came up empty. That's the pattern that keeps costing them: pitching gives them a window, the bats wait too long to climb through it, and suddenly it's the ninth inning and there's no margin left.",
-    "what_to_watch": "This team is one reliable bat away from turning close games into wins. Right now they're hoping one player gets hot instead of building depth. The inconsistency isn't new. It's just louder now, half a game back in the division.",
+    "top_frame": "Waldron couldn't hold the lead, and eight strikeouts meant the bats never woke up to push back.",
+    "what_this_means": "The pattern is tightening around a single vulnerability. With a .235 average and a .693 OPS, this lineup generates just enough traffic to matter but not enough to finish what it starts. Castellanos delivered two runs and a home run. The only real separation the offense found. Yet it was never enough to hold. Waldron lasted five innings and gave up three earned runs, which should have felt manageable. It didn't. The strikeouts stacked up like a warning that the offense was swinging through pitches it couldn't catch, and by the time they actually made contact that mattered, the game was already decided. Down two runs in a home day game against a division team is exactly where the margin disappears for a team built on pitching. The inconsistency keeps showing up in the same shape: moments without finishes, traffic that clears, and one player left trying to carry the rest. They had the game. They didn't finish it.",
+    "what_to_watch": "Tonight the question is whether M\u00e1rquez can do what the lineup cannot. Hold a thin lead into the ninth against a White Sox team hitting .225.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
