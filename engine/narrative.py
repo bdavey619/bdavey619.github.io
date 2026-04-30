@@ -594,7 +594,10 @@ def _build_narrative_system(team_name):
         "You watched this game. You have opinions about it.\n\n"
         "You write like a friend who knows baseball deeply and is texting after the game. "
         "Sharp. Slightly unhinged. Always controlled. You take a side and defend it.\n\n"
-        "Short sentences. No em dashes. Periods over clause joiners. "
+        "No em dashes. Vary sentence length: mix short (3–6 words), medium (8–14 words), "
+        "and occasional longer sentences for buildup and flow. "
+        "Do not stack more than two short sentences in a row. "
+        "Combine related ideas into one sentence when it improves flow. "
         "Avoid hedge words: 'somewhat', 'kind of', 'may', 'could', 'appears'. "
         "Say what happened. Say what it means. End with something that lingers.\n\n"
         "You explain *why* something matters, not just *what* happened. "
@@ -890,7 +893,23 @@ The section must end with a short, memorable punchline under 12 words that captu
 
 Use plain, direct fan language. Replace analytical constructions ("this represents", "this illustrates") with concrete statements ("they needed it", "he delivered", "that was the game"). Avoid academic tone, over-qualification, and unnecessary metaphors.
 
-SENTENCE RHYTHM: Vary sentence length. Mix short punchy lines with medium explanatory sentences. Do not stack multiple one-liners in a row — short sentences land as emphasis, not as a style unto themselves.
+RHYTHM CONTROL:
+No em dashes. No run-on sentences.
+
+Use a mix of sentence lengths:
+- Short (3–6 words): for punch and emphasis only
+- Medium (8–14 words): for development and cause-effect
+- Longer (15+ words): occasionally, for buildup before a short payoff
+
+Rules:
+- Never stack more than 2 short sentences in a row
+- If two sentences share the same subject, consider merging them
+- Combine related ideas into one sentence when it improves flow
+- Use conjunctions naturally (and, but) instead of fragmenting into separate sentences
+- Preserve punchlines as standalone final sentences — do not merge them
+
+Bad: "They had chances. They didn't convert. The offense stalled. It cost them."
+Good: "They had chances but didn't convert. The offense stalled. That's what cost them."
 
 Do not over-explain the thesis.
 State the idea once, clearly, then support it with one concrete example.

@@ -126,11 +126,29 @@ def get_last_game():
 
     games_sorted = sorted(games, key=lambda g: (g["gameDate"], g["gamePk"]), reverse=True)
     for g in games_sorted:
-        abstract = g.get("status", {}).get("abstractGameState", "")
-        if abstract == "Final":
-            return _format_last_game(g)
+        s = g.get("status", {})
+        # Postponed check BEFORE abstractGameState=="Final": the MLB API sometimes
+        # returns abstractGameState="Final" for postponed games, making detailedState /
+        # statusCode / codedGameState the only reliable signal.
         if _is_postponed(g):
+            print(
+                f"  [game_select] build_path=postponed"
+                f"  detailedState={s.get('detailedState')!r}"
+                f"  statusCode={s.get('statusCode')!r}"
+                f"  codedGameState={s.get('codedGameState')!r}"
+                f"  abstractGameState={s.get('abstractGameState')!r}",
+                file=sys.stderr,
+            )
             return _format_postponed_game(g)
+        if s.get("abstractGameState") == "Final":
+            print(
+                f"  [game_select] build_path=final"
+                f"  detailedState={s.get('detailedState')!r}"
+                f"  statusCode={s.get('statusCode')!r}"
+                f"  codedGameState={s.get('codedGameState')!r}",
+                file=sys.stderr,
+            )
+            return _format_last_game(g)
 
     return {"status": "off_day"}
 
