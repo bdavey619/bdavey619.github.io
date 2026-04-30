@@ -1076,6 +1076,68 @@ Before returning:
   - Are there zero generic or filler phrases?
 If any answer is no, rewrite before returning.
 
+EXPLANATION MODE — HARD STOP:
+After the third sentence in WHAT THIS GAME MEANS, stop explaining and start concluding.
+- Do not introduce new concepts after sentence three
+- Do not generalize to "how baseball works"
+- Do not explain patterns of the sport
+- From sentence four onward, drive toward a conclusion
+If a sentence sounds like analysis or commentary, cut it.
+
+NO ANALYST VOICE:
+Disallow explanatory framing entirely. Do NOT write:
+- "This is about…"
+- "The real problem is…"
+- "This shows that…"
+- "That's the formula…"
+- "This is how…"
+Replace with direct observations and conclusions. Write like someone who watched the game, not someone explaining it after.
+
+SENTENCE PURPOSE RULE:
+Each sentence in WHAT THIS GAME MEANS must do exactly one of:
+1. State what happened (specific moment or stat)
+2. Interpret what that meant in THIS game
+3. Push toward the conclusion
+If a sentence does not clearly fit one of these, delete it.
+
+BODY LIMIT — ENFORCED:
+Maximum 5 sentences in the body of WHAT THIS GAME MEANS.
+If more than 5:
+- Cut the weakest sentence
+- Prefer cutting explanation over cutting observation
+Shorter is better than complete.
+
+PUNCHLINE — NON-NEGOTIABLE:
+The final sentence is mandatory and must meet ALL of the following:
+- ≤ 12 words
+- No commas
+- No conjunctions ("and", "but", "because")
+- No explanation
+- Must make a definitive claim about the game
+
+Bad: "The offense didn't show up and that's why they lost"
+Good: "They never made it matter."
+
+If the final sentence does not feel quotable, rewrite it.
+
+PUNCHLINE ESCALATION:
+The final sentence must be stronger than the sentence before it.
+It should feel like a verdict, a closing argument, something a fan would repeat.
+Never end on a descriptive sentence.
+
+CUT THE LAST SENTENCE TEST (silent):
+After writing the paragraph, remove the final sentence mentally.
+If the paragraph still feels complete → the punchline is weak.
+Rewrite until removing the final sentence makes the paragraph feel unfinished.
+
+INTERNAL AUDIT (silent — run before returning):
+- Did explanation mode stop after sentence 3?
+- Is the body ≤ 5 sentences?
+- Does every sentence reference THIS game?
+- Is the final sentence a punchline (≤12 words, no commas, no conjunctions)?
+- Is the final sentence stronger than the rest?
+If any fail → rewrite.
+
 3. WHAT TO WATCH (1–2 sentences max, under 45 words)
 Job: carry one unresolved tension forward — not a schedule preview, not a generic pregame note. The tension must grow directly out of WHAT THIS GAME MEANS, not introduce a new topic. Make tonight feel like the next chapter of the same story.
 Express one clear tension. Avoid multi-clause sentences and abstract phrasing.
