@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T05:21:45+00:00",
+  "generated_at": "2026-04-30T05:29:38+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -319,9 +319,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Waldron couldn't hold it, and neither could anyone else when it mattered most.",
-    "what_this_means": "The problem isn't that the Padres lost to the Cubs. It's what the loss looks like in context. They brought eight strikeouts and three hits into a game where runs were always going to be scarce, then watched Castellanos drag the lineup into the fight with a home run and two RBI. The offense had its moment. It just wasn't enough. A day game at Petco where you're trading strikeouts for a single spark is not a formula that survives close division races. Waldron labored through five innings with a 9.88 ERA hanging over his head. The math was always going to be tight, and the Cubs made them prove they could win anyway. They couldn't. This is what happens when the pitching gives you a fair chance and the lineup answers with eight whiffs. You don't beat good teams, you just lose closer than you should have.",
-    "what_to_watch": "Now the question is whether tonight's matchup against a White Sox team hitting .225 is a chance to reset or confirmation that the margin for error has shrunk below survival level.",
+    "top_frame": "Waldron couldn't hold it together, and neither could the offense when it mattered most.",
+    "what_this_means": "Eight strikeouts and three hits tells the whole story. They weren't close to breaking through until Castellanos arrived. Two runs batted in, a solo shot, a moment of real consequence. But one player carrying a lineup against a divisional opponent at home doesn't win baseball games, not consistently. The second inning unraveled and the Padres never caught up. They had traffic in a few spots late, chances to cut into a one-run deficit, and came up empty. That's the pattern that keeps costing them: pitching gives them a window, the bats wait too long to climb through it, and suddenly it's the ninth inning and there's no margin left.",
+    "what_to_watch": "This team is one reliable bat away from turning close games into wins. Right now they're hoping one player gets hot instead of building depth. The inconsistency isn't new. It's just louder now, half a game back in the division.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
