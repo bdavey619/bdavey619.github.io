@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T00:49:06+00:00",
+  "generated_at": "2026-04-30T02:26:50+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -289,17 +289,17 @@
       "last10": "5-5"
     },
     {
-      "team": "Giants",
-      "w": 13,
-      "l": 16,
+      "team": "Rockies",
+      "w": 14,
+      "l": 17,
       "gb": "6.0",
       "last10": "6-4"
     },
     {
-      "team": "Rockies",
+      "team": "Giants",
       "w": 13,
-      "l": 17,
-      "gb": "6.5",
+      "l": 16,
+      "gb": "6.0",
       "last10": "6-4"
     }
   ],
@@ -307,7 +307,7 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "San Diego falls to CHC \u2014 0.5 back in the West.",
+  "subhead": "San Diego falls to CHC | 0.5 back in the West.",
   "insight": {
     "headline": "The offense hasn't matched the pitching.",
     "detail": "The staff is holding at 4.23 ERA, but a .693 OPS at the plate has made it difficult. San Diego sits at 6-4 over their last ten with neither side pulling ahead. They're 0.5 back in the NL West.",
@@ -319,9 +319,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "The bullpen let Matt Waldron's decent start unravel in the middle innings.",
-    "what_this_means": "Waldron didn't beat himself\u2014he handed a 3\u20132 lead to the ninth inning. The problem was everything that came after. The Cubs scored two more runs off relievers who couldn't hold the game in its tightest moment, and suddenly a winnable day game had slipped into a loss the Padres didn't deserve to absorb. Castellanos had given them exactly what they needed: two runs on two swings. That should have been enough. It wasn't.",
-    "what_to_watch": "This is where the fragility shows. The offense scratched together just enough\u2014Castellanos and Andujar both connected, the lineup found two runs against a mediocre Cubs pitcher\u2014but when your ERA climbs to 4.23 and your strikeouts pile up, you're living on the narrowest margin. They had the game in hand. The bullpen couldn't hold it. This is a team that wins when its pitching stays clean, and loses exactly like this when it doesn't. That's not a formula, it's a vulnerability. With the offense hitting .235 and striking out 8 times, there is no room for the back end to fold. They cannot afford another game where relief pitching wastes a serviceable start.",
+    "top_frame": "Waldron couldn't hold what little the Padres gave him.",
+    "what_this_means": "The offense found moments. Eight strikeouts and three hits told the real story. Castellanos delivered what traffic there was\u2014a two-run shot that should have held. But Waldron's ERA sits at 9.88 for a reason. He couldn't get out of the fifth without bleeding three runs. A close game demanded a clean start. He didn't provide one. In a division where margins are already thin and the standings say 0.5 back, this is how losses pile up. The pitching sets the floor. The offense scraped together just enough to stay in it. That wasn't enough.",
+    "what_to_watch": "Now the question is whether the lineup can produce consistently against a Chicago team batting .225, or if nights like this\u2014where they have the moments but not the finish\u2014start to look like a pattern instead of a game.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
@@ -347,8 +347,7 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "lost last game",
-        "ERA worsened: 4.18 \u2192 4.23"
+        "lost last game"
       ]
     }
   }
