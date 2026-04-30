@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T05:59:48+00:00",
+  "generated_at": "2026-04-30T06:06:42+00:00",
   "season": 2026,
   "team": {
     "record": "20-11",
@@ -312,9 +312,9 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "They left eight men on base and never scored, and that's a problem a surging team cannot afford in May.",
-    "what_this_means": "The offense created nothing from Elmer Rodr\u00edguez's early mistakes. Two hits through four innings became the entire night. Ben Rice went 3-for-4 but it didn't matter because nobody else made anything count. Texas threw three runs at them in daylight baseball and they didn't answer once. The strikeouts kept coming (8 total) and when they had traffic on the basepaths, they erased it themselves. This is the cost of balanced failure: when no single player carries weight, the game gets away quietly.",
-    "what_to_watch": "The pattern is becoming clear now. This team wins when both sides click. Today both sides broke, and there's no margin for that anymore. Good teams in a tight division don't lose to division rivals on the road in the daytime by forgetting how to hit. Eight left on base is not a random number. That's a game they had and didn't finish.",
+    "top_frame": "The offense evaporated when it mattered most.",
+    "what_this_means": "Eight strikeouts. Five hits total. Texas shut down a lineup that had looked balanced just twenty-four hours earlier, and Rodr\u00edguez had nothing left after four innings. This is the margin that decides division races. Not the blowouts, but the games where the other team's starter finds command and your lineup never adjusts. Ben Rice went 3-for-4 and it meant nothing. That's the cost of scoring zero.",
+    "what_to_watch": "The pattern has inverted. Two nights ago, balance and depth looked like the answer. Tonight, that same lineup looked brittle against competent pitching and early damage. They're 20-11 and leading the division, but they just lost to an inferior team in daylight baseball. This isn't a slump yet. It's a warning.",
     "story_state": {
       "trend": "surging",
       "driver": "balanced",
