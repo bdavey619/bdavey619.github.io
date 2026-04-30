@@ -144,9 +144,14 @@ def main():
     global_key = os.environ.get("RESEND_API_KEY", "").strip()
     api_key   = team_key or global_key
     emails       = [e.strip() for e in os.environ.get("EMAIL_TO", "").split(",") if e.strip()]
-    from_email   = os.environ.get("EMAIL_FROM", "").strip()
+    from_email_raw = os.environ.get("EMAIL_FROM", "").strip()
+    # Extract bare address if the secret accidentally contains a full display name.
+    # e.g. "Giants - Morning Brief <brief@mail.bdavey.co>" becomes "brief@mail.bdavey.co"
+    import re as _re
+    _addr_match = _re.search(r'<([^>]+)>', from_email_raw)
+    from_email   = _addr_match.group(1) if _addr_match else from_email_raw
     team_display = _TEAM_DISPLAY.get(team_slug, "Morning Brief")
-    from_addr    = f"{team_display} - Morning Brief <{from_email}>" if from_email else ""
+    from_addr    = f"{team_display} | Morning Brief <{from_email}>" if from_email else ""
 
     missing = [
         name for name, val in [
