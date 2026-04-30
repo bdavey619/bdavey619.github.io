@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T05:17:37+00:00",
+  "generated_at": "2026-04-30T05:21:45+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -319,9 +319,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Waldron let the game slip away in five innings, and the bats never recovered.",
-    "what_this_means": "Eight strikeouts and just three hits left them chasing from the early innings onward. Castellanos and Andujar both went deep. That was the offense's answer. But one go-ahead run in the ninth wasn't going to undo an entire afternoon of nothing. The Cubs held the lead after the second and never lost it. This team had the moments. They didn't have the finish. The pattern is becoming clear: they can't afford games where the pitcher leaves early and the lineup goes quiet. At 19-11, they're still in second, still close enough to chase. But fragile wins and fragile losses look the same in the standings. This kind of game doesn't stay rare in a tight division.",
-    "what_to_watch": "Tonight M\u00e1rquez faces a White Sox lineup hitting .225. The kind of matchup the Padres' pitching has been built to exploit. The real test is whether the bats wake up before the depth of the starting rotation becomes the only thing holding this thing together.",
+    "top_frame": "Waldron couldn't hold it, and neither could anyone else when it mattered most.",
+    "what_this_means": "The problem isn't that the Padres lost to the Cubs. It's what the loss looks like in context. They brought eight strikeouts and three hits into a game where runs were always going to be scarce, then watched Castellanos drag the lineup into the fight with a home run and two RBI. The offense had its moment. It just wasn't enough. A day game at Petco where you're trading strikeouts for a single spark is not a formula that survives close division races. Waldron labored through five innings with a 9.88 ERA hanging over his head. The math was always going to be tight, and the Cubs made them prove they could win anyway. They couldn't. This is what happens when the pitching gives you a fair chance and the lineup answers with eight whiffs. You don't beat good teams, you just lose closer than you should have.",
+    "what_to_watch": "Now the question is whether tonight's matchup against a White Sox team hitting .225 is a chance to reset or confirmation that the margin for error has shrunk below survival level.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
