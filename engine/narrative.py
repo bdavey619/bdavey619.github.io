@@ -1069,6 +1069,20 @@ Write:
 LANGUAGE TIGHTENING:
 Prefer shorter phrasing over clever phrasing. Fewer clauses, fewer metaphors, no semicolon constructions that explain themselves ("not a breakout; it was a necessity meeting opportunity"). Write the direct version instead.
 
+CONCRETE OVER ABSTRACT:
+Avoid abstract phrasing. Prefer concrete moments — when something happened, who did it, what the game looked like at that point.
+
+Bad:  "the lineup struggled to produce"
+Good: "they didn't do anything until the fifth"
+
+Bad:  "the bullpen had a difficult outing"
+Good: "two runs scored before anyone got warm"
+
+Bad:  "they failed to capitalize on opportunities"
+Good: "they left two on in the sixth and never got another chance"
+
+If a sentence could describe any game by any team, rewrite it until it could only describe this one.
+
 ANTI-GENERIC LANGUAGE:
 Avoid phrases that summarize broadly without adding a specific angle or judgment.
 
