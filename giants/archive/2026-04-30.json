@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T04:59:50+00:00",
+  "generated_at": "2026-04-30T05:03:33+00:00",
   "season": 2026,
   "team": {
     "record": "13-16",
@@ -13,26 +13,14 @@
     "era": "3.96"
   },
   "last_game": {
-    "status": "final",
+    "status": "postponed",
     "gamePk": 823471,
     "date": "2026-04-30",
     "opponent": "PHI",
     "home": false,
-    "result": "L",
-    "score": {
-      "team": 0,
-      "opp": 0
-    },
-    "linescore": [
-      [],
-      []
-    ],
-    "decisions": {},
-    "key_hitters": [],
-    "key_pitcher": null,
-    "context_line": "Away \u00b7 Citizens Bank Park \u00b7 Night game",
-    "highlights_url": "https://www.youtube.com/results?search_query=SF+vs+PHI+highlights+April+30+2026+MLB",
-    "game_note": "The Giants couldn't find enough offense to keep pace with PHI.",
+    "venue": "Citizens Bank Park",
+    "postponed_reason": "Rain",
+    "makeup_date": null,
     "clutch_player": null,
     "game_driver": null
   },
@@ -90,7 +78,7 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "San Francisco falls to PHI.",
+  "subhead": "POSTPONED @ PHI \u2014 rain",
   "insight": {
     "headline": "The offense hasn't matched the pitching.",
     "detail": "The staff is holding at 3.96 ERA, but a .654 OPS at the plate has made it difficult. San Francisco sits at 6-4 over their last ten with neither side pulling ahead.",
@@ -101,9 +89,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "A 0-0 loss to Philadelphia is the sound of a team that can't find itself.",
-    "what_this_means": "This team is fragile because it can't produce in moments that demand it. They showed up at Citizens Bank Park and left with nothing. The offense managed just one hit. The pitching was clean but irrelevant. It doesn't matter how many zeros you throw up when your own lineup won't answer. This is inconsistency with a new face: they can pitch well and still have nothing to show for it. The margin for error doesn't exist in a division six games back. One shutout loss becomes two becomes a losing streak that looks intentional. They've beaten this problem before. Not with an offense sitting at .245.",
-    "what_to_watch": "Now the question is whether Webb's favorable matchup against Philly's .223 average actually produces something, or if the Giants keep leaving scoreless games on the board. The opportunity is there. Whether they take it will tell you if last night was an outlier or the pattern getting louder.",
+    "top_frame": "No game last night. Rain got it.",
+    "what_this_means": "",
+    "what_to_watch": "Makeup date TBD. Next up: @ PHI on Thursday, April 30.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
@@ -117,7 +105,7 @@
       "ops": 0.654,
       "gb": 6.0,
       "division_rank": 5,
-      "last_result": "L",
+      "last_result": "",
       "date": "2026-04-30",
       "game_emotion_level": "normal"
     },
@@ -129,7 +117,7 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "lost last game"
+        "narrative unchanged \u2014 same trend, driver, and pressure as yesterday"
       ]
     }
   }
