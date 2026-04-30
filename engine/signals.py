@@ -87,19 +87,23 @@ def fetch_league_leaders(season, team_id):
 
     for cat_block in data.get("leagueLeaders", []):
         category = cat_block.get("leaderCategory", "")
-        leaders = cat_block.get("leaders", [])
-        if not leaders:
-            continue
-        top = leaders[0]
-        team = top.get("team") or {}
-        if int(team.get("id", -1)) != int(team_id):
-            continue
-        name = (top.get("person") or {}).get("fullName", "")
-        if not name:
-            continue
-        value = str(top.get("value", ""))
-        fmt = _LEADER_VALUE.get(category, "MLB {cat} leader, {v}").format(v=value, cat=category)
-        return {"label": name, "value": fmt}
+        for entry in cat_block.get("leaders", []):
+            rank = int(entry.get("rank", 0) or 0)
+            team = entry.get("team") or {}
+            name = (entry.get("person") or {}).get("fullName", "")
+            value = str(entry.get("value", ""))
+            if rank != 1:
+                continue
+            if int(team.get("id", -1)) != int(team_id):
+                continue
+            if not name:
+                continue
+            fmt = _LEADER_VALUE.get(category, "MLB {cat} leader, {v}").format(v=value, cat=category)
+            print(
+                f"  [signals] leader: category={category} name={name!r} rank={rank} value={value}",
+                file=__import__("sys").stderr,
+            )
+            return {"label": name, "value": fmt}
 
     return None
 
