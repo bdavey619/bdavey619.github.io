@@ -1069,6 +1069,25 @@ Write:
 LANGUAGE TIGHTENING:
 Prefer shorter phrasing over clever phrasing. Fewer clauses, fewer metaphors, no semicolon constructions that explain themselves ("not a breakout; it was a necessity meeting opportunity"). Write the direct version instead.
 
+CLARITY OVER POETRY:
+When a sentence becomes abstract or vague, rewrite it into something literal and observable.
+
+Do NOT write:
+- "never found the moment"
+- "couldn't get it going"
+- "failed to capitalize"
+- "didn't do enough"
+- "couldn't put it together"
+- "wasn't able to answer"
+
+Write what didn't happen, when it didn't happen, and what it looked like:
+- "They didn't do anything until the fifth."
+- "They had two on in the eighth and got nothing."
+- "Three straight empty at-bats ended it."
+- "They left six on base and scored once."
+
+Prefer blunt clarity over poetic phrasing. If it sounds elegant but says nothing specific, cut it.
+
 CONCRETE OVER ABSTRACT:
 Avoid abstract phrasing. Prefer concrete moments — when something happened, who did it, what the game looked like at that point.
 
