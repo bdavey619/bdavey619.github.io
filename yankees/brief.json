@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T05:45:54+00:00",
+  "generated_at": "2026-04-30T05:59:48+00:00",
   "season": 2026,
   "team": {
     "record": "20-11",
@@ -312,9 +312,9 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "The offense couldn't manufacture anything in Arlington, and that's the loss.",
-    "what_this_means": "Eight strikeouts and five hits against a Texas team that isn't overpowering at the moment. The Yankees had the game available and simply didn't take it. This wasn't about being outmatched. It was about failing to do the minimum required to compete in a division that doesn't forgive nights like this. Elmer Rodr\u00edguez gave them a chance with four innings of two-run ball, a performance that holds up fine, but the lineup produced nothing behind it. Ben Rice went 3-for-4 and it meant nothing. Individual at-bats don't matter when the team scores zero runs.",
-    "what_to_watch": "This is the cost of silence in the batter's box. The offense has been carrying a .229 average all season, and now they're paying for it. When you hit that poorly, you're dependent on timing and luck. And both evaporated in a day game where the ball didn't move and the exits didn't land. The streak stays at 8-2 over ten, which matters. The loss today matters more. The division is one game back, and the Yankees just gave away an opportunity they should have won.",
+    "top_frame": "They left eight men on base and never scored, and that's a problem a surging team cannot afford in May.",
+    "what_this_means": "The offense created nothing from Elmer Rodr\u00edguez's early mistakes. Two hits through four innings became the entire night. Ben Rice went 3-for-4 but it didn't matter because nobody else made anything count. Texas threw three runs at them in daylight baseball and they didn't answer once. The strikeouts kept coming (8 total) and when they had traffic on the basepaths, they erased it themselves. This is the cost of balanced failure: when no single player carries weight, the game gets away quietly.",
+    "what_to_watch": "The pattern is becoming clear now. This team wins when both sides click. Today both sides broke, and there's no margin for that anymore. Good teams in a tight division don't lose to division rivals on the road in the daytime by forgetting how to hit. Eight left on base is not a random number. That's a game they had and didn't finish.",
     "story_state": {
       "trend": "surging",
       "driver": "balanced",
