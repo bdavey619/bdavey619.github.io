@@ -146,7 +146,7 @@ def main():
     emails       = [e.strip() for e in os.environ.get("EMAIL_TO", "").split(",") if e.strip()]
     from_email   = os.environ.get("EMAIL_FROM", "").strip()
     team_display = _TEAM_DISPLAY.get(team_slug, "Morning Brief")
-    from_addr    = f"{team_display} — Morning Brief <{from_email}>" if from_email else ""
+    from_addr    = f"{team_display} - Morning Brief <{from_email}>" if from_email else ""
 
     missing = [
         name for name, val in [
