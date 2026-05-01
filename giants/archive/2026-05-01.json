@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T05:42:55+00:00",
+  "generated_at": "2026-05-01T05:47:35+00:00",
   "season": 2026,
   "team": {
     "record": "13-18",
@@ -248,38 +248,45 @@
       ]
     },
     "is_doubleheader": true,
-    "doubleheader_note": "Game 1: L 5\u20136, extras. Game 2: L 5\u20136.",
+    "doubleheader_note": "Game 1: L 2\u20133, walk-off after 2-run 9th. Game 2: L 5\u20136, walk-off in extras.",
     "doubleheader_games": [
       {
         "game_num": 1,
-        "gamePk": 823471,
-        "result": "L",
-        "score": {
-          "team": 5,
-          "opp": 6
-        },
+        "gamePk": 823472,
+        "date": "2026-04-30",
         "opponent": "PHI",
         "home": false,
-        "key_moment": "extras",
-        "clutch_player": {
-          "name": "Jung Hoo Lee",
-          "event": "Single",
-          "inning": 9,
-          "description": "hit the go-ahead single in the ninth (5\u20134).",
-          "reason": "go-ahead play in the ninth",
-          "confidence": "high"
-        }
+        "venue": "Citizens Bank Park",
+        "result": "L",
+        "team_score": 2,
+        "opponent_score": 3,
+        "score": {
+          "team": 2,
+          "opp": 3
+        },
+        "final_inning": 9,
+        "went_extras": false,
+        "walkoff": true,
+        "key_moment": "walk-off after 2-run 9th"
       },
       {
         "game_num": 2,
         "gamePk": 823471,
+        "date": "2026-04-30",
+        "opponent": "PHI",
+        "home": false,
+        "venue": "Citizens Bank Park",
         "result": "L",
+        "team_score": 5,
+        "opponent_score": 6,
         "score": {
           "team": 5,
           "opp": 6
         },
-        "opponent": "PHI",
-        "home": false
+        "final_inning": 10,
+        "went_extras": true,
+        "walkoff": true,
+        "key_moment": "walk-off in extras"
       }
     ],
     "clutch_player": {
@@ -356,9 +363,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Two losses in a day exposed the same problem: they had chances and couldn't finish them.",
-    "what_this_means": "Jung Hoo Lee delivered in the ninth yesterday, a go-ahead single that made it 5\u20134. The bats managed thirteen hits across both games. None of it held. Philadelphia scored the final run each time, and now the Giants sit at 13\u201318, three straight losses, four wins in the last ten. This is a team that creates traffic and stalls before it matters. Drew Gilbert went 3-for-5 in the doubleheader, Luis Arraez drove in two runs. Production existed. But Houser couldn't hold a lead past the fourth inning, and the late-inning chances evaporated. Twelve strikeouts yesterday. Eight left on base across both games.",
-    "what_to_watch": "The pattern has teeth now. They're not struggling to score. They're failing to score when it counts. One clean finish is all they need. They haven't gotten it in three days.",
+    "top_frame": "Jung Hoo Lee's go-ahead single in the ninth wasn't enough. Neither game was.",
+    "what_this_means": "Two walk-offs in one day. That's not a bad stretch anymore. That's a pattern that's starting to feel like the formula: get into position late, just close enough to hurt, then lose anyway. Game 1 they trailed 3\u20132 after clawing back from early deficit. Game 2 they led 5\u20134 with Lee's ninth-inning single making it matter. Neither held. The Phillies walked off both times. Ten runs combined in losses this brutal isn't about single moments. It's about a team that can manufacture chances but can't survive the finish. Drew Gilbert went 3-for-5 and Luis Arraez drove in two runs. The lineup generated 13 hits across the doubleheader. None of it mattered because the moment that counts. The one that ends games. Keeps slipping away. This team can make it close. They keep proving they can't keep it close. They had the games. They didn't finish them.",
+    "what_to_watch": "Ray's ERA sits at 2.43 over his last four starts. He's been the reliable arm this rotation has lacked. The question tonight isn't whether Ray can pitch. It's whether the offense can sustain anything it builds. If they push a run across early, do they add to it, or does that single run become the whole night again? That's the real test. The Rays will make them work for everything. The Giants need to prove those 13 hits yesterday weren't noise.",
     "story_state": {
       "trend": "slipping",
       "driver": "balanced",
