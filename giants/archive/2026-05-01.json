@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T05:23:07+00:00",
+  "generated_at": "2026-05-01T05:41:15+00:00",
   "season": 2026,
   "team": {
     "record": "13-18",
@@ -356,9 +356,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Jung Hoo Lee's go-ahead ninth-inning single gave them a chance. And they let it slip away.",
-    "what_this_means": "They played a doubleheader yesterday. Lost both. The first went to extras, the second was a straight 5-6 defeat in Philadelphia. Twelve strikeouts, thirteen hits, and a team that created exactly enough traffic to feel competitive right up until it didn't. Lee's at-bat in the ninth felt like the moment where execution could save them. It didn't. The Phillies answered, and that was the game.",
-    "what_to_watch": "This is inconsistency with a cost. The Giants are 13-18, three straight losses, and they've reached the part of May where baseball decides who you actually are. The lineup touched the game repeatedly yesterday. Arraez with two RBIs, Gilbert going 3-for-5. But no one finished it. Lee had his moment and made it matter, and it still wasn't enough. That's not variance. That's a team that creates chances without converting them, then watches the margin disappear. They've lost four of their last six. This is how stretches turn permanent.",
+    "top_frame": "Jung Hoo Lee's go-ahead single in the ninth was the only moment that mattered in a day the Giants couldn't hold.",
+    "what_this_means": "Doubled down on a doubleheader loss yesterday. Two straight 5-6 defeats to Philadelphia. The pattern isn't getting cleaner. It's getting louder. The bats produced: thirteen hits across the day, two runs by Arraez, Gilbert going 3-for-5 in Game 2. But production that doesn't finish is just traffic. Lee's ninth-inning single made one brief run at the finish line. The Phillies erased it. This is the cost when you can't separate a good night from a complete one.",
+    "what_to_watch": "Inconsistency has a name now. It's not the lineup's fault. It's not one reliever's fault. It's the team's inability to turn a competitive game into a closed one. They're leaving runners on base and finding reasons to come up short. Twelve strikeouts in one game signals the margin for error is already paper-thin. A team at 13-18 doesn't survive nights where it has chances but can't finish.",
     "story_state": {
       "trend": "slipping",
       "driver": "balanced",
