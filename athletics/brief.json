@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T01:34:14+00:00",
+  "generated_at": "2026-05-01T01:39:33+00:00",
   "season": 2026,
   "team": {
     "record": "17-14",
@@ -257,8 +257,8 @@
       "team": "J.T. Ginn",
       "opp": "Joey Cantillo"
     },
-    "insight": "Ginn has a 2.60 ERA over his last 4 starts. He takes the mound tonight.",
-    "hook_type": "pitcher_form"
+    "insight": "CLE's .228 average gives Ginn a favorable matchup tonight.",
+    "hook_type": "opponent_weakness"
   },
   "standings": [
     {
@@ -312,9 +312,9 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "This team doesn't waste wins when it has them.",
-    "what_this_means": "Jeffrey Springs went three innings and let the game stay close enough to matter. That was the whole thing. The bats. 11 hits, five strikeouts. Never exploded, but Hernaiz turned traffic into runs when it counted, and Langeliers did too. This was a team offense with one clear separator, not a carry job, just a team that knew what it needed and did it. KC didn't beat itself. The Athletics beat KC by doing small things right, late enough to hold. The pattern has become: offense does not have to arrive early, just on time.",
-    "what_to_watch": "Now the question is whether Ginn can stack another quality start into what should become a winning streak. The last four starts matter only if the next one holds the line.",
+    "top_frame": "Balanced pitching and contact hitting turned a tight game into breathing room.",
+    "what_this_means": "Springs gave them three clean innings to work with. The offense stacked eleven hits and didn't waste the foundation. Hernaiz went 3-for-4 with two RBI, Langeliers matched him at 3-for-4, and they turned traffic into six runs without needing to blow anyone away. This is a team that doesn't polish wins. They find just enough separation and then hold it.",
+    "what_to_watch": "The real pattern here is simpler than it looks. They created consistent contact. Five strikeouts across the whole lineup against a Kansas City starter is restraint, not weakness. And converted it into runs at the moments that mattered. Not flashy. Not dominant. Just enough to matter. They're now 6-4 over their last ten games because they've stopped leaving runners to rot. Hernaiz and Langeliers both finished what they started.",
     "story_state": {
       "trend": "stabilizing",
       "driver": "balanced",
