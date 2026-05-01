@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T01:39:33+00:00",
+  "generated_at": "2026-05-01T01:42:52+00:00",
   "season": 2026,
   "team": {
     "record": "17-14",
@@ -257,8 +257,8 @@
       "team": "J.T. Ginn",
       "opp": "Joey Cantillo"
     },
-    "insight": "CLE's .228 average gives Ginn a favorable matchup tonight.",
-    "hook_type": "opponent_weakness"
+    "insight": "Ginn has a 2.60 ERA over his last 4 starts. He takes the mound tonight.",
+    "hook_type": "pitcher_form"
   },
   "standings": [
     {
@@ -312,9 +312,9 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "Balanced pitching and contact hitting turned a tight game into breathing room.",
-    "what_this_means": "Springs gave them three clean innings to work with. The offense stacked eleven hits and didn't waste the foundation. Hernaiz went 3-for-4 with two RBI, Langeliers matched him at 3-for-4, and they turned traffic into six runs without needing to blow anyone away. This is a team that doesn't polish wins. They find just enough separation and then hold it.",
-    "what_to_watch": "The real pattern here is simpler than it looks. They created consistent contact. Five strikeouts across the whole lineup against a Kansas City starter is restraint, not weakness. And converted it into runs at the moments that mattered. Not flashy. Not dominant. Just enough to matter. They're now 6-4 over their last ten games because they've stopped leaving runners to rot. Hernaiz and Langeliers both finished what they started.",
+    "top_frame": "Down four with no margin for error, they scratched out a win anyway.",
+    "what_this_means": "This team doesn't fold when it gets tight. The offense produced. 11 hits, five strikeouts, two different players driving in runs. But the real win was the pitching. Springs gave them three clean innings off the bench, stabilizing a game that could have spiraled. Hernaiz went 3-for-4 with two RBI, which matters because he converted traffic into actual runs instead of leaving it stranded. That's the separator in games like this. The margin between winning and losing looks thin until one player turns opportunity into separation. They're becoming a team that trusts the next at-bat instead of panicking when the scoreboard tightens.",
+    "what_to_watch": "Now the question is whether Ginn can carry that same control into tonight. He's been sharp over his last four starts (2.60 ERA), which is exactly the setup this team needs. Reliable pitching buying time for the offense to find itself.",
     "story_state": {
       "trend": "stabilizing",
       "driver": "balanced",
