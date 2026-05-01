@@ -49,19 +49,16 @@
             </td>
           </tr>
 
-          <!-- Story hook (emotional one-liner, omitted when empty) -->
-          
-
           <!-- Score line -->
           <tr>
             <td style="padding-top:14px;">
               <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                 <tr>
                   <td style="padding-right:10px;vertical-align:middle;">
-                    <span class="score-text" style="font-family:Georgia,'Times New Roman',serif;font-size:42px;font-weight:900;line-height:1;letter-spacing:-0.02em;color:#1a1613;">PPD</span>
+                    <span class="score-text" style="font-family:Georgia,'Times New Roman',serif;font-size:42px;font-weight:900;line-height:1;letter-spacing:-0.02em;color:#1a1613;">5–6</span>
                   </td>
                   <td style="padding-right:10px;vertical-align:middle;">
-                    <span style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:3px 7px;border:1px solid #8a8278;color:#8a8278;">POSTPONED</span>
+                    <span style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:3px 7px;border:1px solid #5a534c;color:#5a534c;">LOSS</span>
                   </td>
                   <td style="vertical-align:middle;">
                     <span style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:13px;color:#5a534c;text-transform:uppercase;letter-spacing:0.08em;">@ PHI</span>
@@ -71,18 +68,21 @@
             </td>
           </tr>
 
+          <!-- Doubleheader summary (renders when is_doubleheader; empty string otherwise) -->
+          
+
           <!-- Context line -->
           <tr>
             <td style="padding-top:6px;padding-bottom:8px;">
-              <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#8a8278;font-weight:500;">Thu, Apr 30 · Citizens Bank Park · PPD: Rain</p>
+              <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#8a8278;font-weight:500;">Thu, Apr 30 · Away · Citizens Bank Park · Night game</p>
             </td>
           </tr>
 
           <!-- Game note -->
           <tr>
             <td style="padding-bottom:18px;border-bottom:1px solid #d8d2c4;">
-              <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:14px;color:#5a534c;font-style:italic;line-height:1.55;">Postponed due to rain.</p>
-              
+              <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:14px;color:#5a534c;font-style:italic;line-height:1.55;">San Francisco couldn't manufacture the run they needed in a tight one.</p>
+              <p style="margin:8px 0 0;"><a href="https://www.youtube.com/results?search_query=SF+vs+PHI+highlights+April+30+2026+MLB" style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#FD5A1E;font-weight:600;text-decoration:none;">Watch highlights &#8594;</a></p>
             </td>
           </tr>
 
@@ -90,7 +90,7 @@
           
 
           <!-- Turning Point (injected when clutch_player exists with high confidence) -->
-          
+          <tr><td style="padding-top:14px;padding-bottom:16px;border-bottom:1px solid #d8d2c4;"><p style="margin:0 0 4px;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:0.12em;color:#5a534c;font-weight:700;">Turning Point</p><p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:15px;font-style:italic;color:#1a1613;line-height:1.5;"><strong style="font-style:normal;font-weight:700;">Jung Hoo Lee</strong> hit the go-ahead single in the ninth (5–4).</p></td></tr>
 
           <!-- Insight block -->
           <tr>
@@ -108,17 +108,17 @@
                       </tr>
                       <tr>
                         <td style="padding-top:9px;padding-bottom:5px;">
-                          <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:17px;font-weight:700;line-height:1.35;color:#1a1613;">No game last night. Rain got it.</p>
+                          <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:17px;font-weight:700;line-height:1.35;color:#1a1613;">Jung Hoo Lee hit the go-ahead single in the ninth and it still wasn't enough.</p>
                         </td>
                       </tr>
                       <tr>
                         <td style="padding-bottom:8px;">
-                          <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:14px;color:#5a534c;line-height:1.55;"></p>
+                          <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:14px;color:#5a534c;line-height:1.55;">They needed one more swing to finish it. That's the game. They didn't get it. Nine hits, 13 strikeouts. The offense created traffic and Lee turned some of it into runs, but the margin wasn't real. Houser gave them four innings and three earned runs before leaving, and Philadelphia answered. This is what inconsistency looks like when the division is seven games away: you have nights where you manufacture just enough to lead late, then you can't close it. The pattern isn't new. It's just getting louder. They had their chance in the ninth and couldn't make it hold.</p>
                         </td>
                       </tr>
                     </table>
                     <!-- What to Watch (injected when narrative present) -->
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-top:1px solid rgba(47,36,29,0.20);margin-top:12px;"><tr><td style="padding-top:10px;"><p style="margin:0 0 4px;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#5a534c;font-weight:600;">What to Watch</p><p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:13px;font-style:italic;color:#2f241d;line-height:1.6;">Makeup date TBD. Next up: @ PHI on Thursday, April 30.</p></td></tr></table>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-top:1px solid rgba(47,36,29,0.20);margin-top:12px;"><tr><td style="padding-top:10px;"><p style="margin:0 0 4px;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:#5a534c;font-weight:600;">What to Watch</p><p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:13px;font-style:italic;color:#2f241d;line-height:1.6;">Now the question is whether Ray's steadiness in recent starts (2.43 ERA over his last four) can arrest the losing streak, or if this team will treat a solid start as permission to scrape by again.</p></td></tr></table>
 
                   </td>
                 </tr>
@@ -141,7 +141,26 @@
           </tr>
 
           <!-- Key hitters (rows injected here) -->
-          <tr><td colspan="2" style="padding:10px 0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:13px;font-style:italic;color:#8a8278;">Game not played.</td></tr>
+                    <tr>
+            <td>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-bottom:1px dotted #d8d2c4;">
+                <tr>
+                  <td style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;color:#1a1613;padding:4px 0;">Drew Gilbert</td>
+                  <td align="right" style="font-family:'Courier New',Courier,monospace;font-size:13px;color:#5a534c;padding:4px 0;">3-5</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-bottom:none;">
+                <tr>
+                  <td style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;color:#1a1613;padding:4px 0;">Luis Arraez</td>
+                  <td align="right" style="font-family:'Courier New',Courier,monospace;font-size:13px;color:#5a534c;padding:4px 0;">2-6, 2 RBI</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
 
           <!-- On the mound label -->
           <tr>
@@ -155,8 +174,8 @@
             <td style="padding-bottom:20px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
                 <tr>
-                  <td style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;color:#1a1613;padding:4px 0;"></td>
-                  <td align="right" style="font-family:'Courier New',Courier,monospace;font-size:13px;color:#5a534c;padding:4px 0;"></td>
+                  <td style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;color:#1a1613;padding:4px 0;">Adrian Houser</td>
+                  <td align="right" style="font-family:'Courier New',Courier,monospace;font-size:13px;color:#5a534c;padding:4px 0;">4.2 IP, 4 H, 3 ER, 2 K</td>
                 </tr>
               </table>
             </td>
@@ -165,10 +184,10 @@
           <!-- Today teaser -->
           <tr>
             <td style="padding-bottom:6px;" align="center">
-              <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#5a534c;font-weight:600;">Today &middot; @ PHI &middot; 9:35 AM PT &middot; Logan Webb vs Cristopher Sánchez</p>
+              <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#5a534c;font-weight:600;">Tomorrow &middot; @ TB &middot; 4:10 PM PT &middot; Robbie Ray vs Shane McClanahan</p>
             </td>
           </tr>
-          <tr><td style="padding-bottom:20px;" align="center"><p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:12px;font-style:italic;color:#8a8278;">PHI's .223 average gives Webb a favorable matchup tonight.</p></td></tr>
+          <tr><td style="padding-bottom:20px;" align="center"><p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:12px;font-style:italic;color:#8a8278;">Ray has a 2.43 ERA over his last 4 starts. He takes the mound tonight.</p></td></tr>
 
           <!-- Footer -->
           <tr>
@@ -176,7 +195,7 @@
               <p style="margin:0 0 6px;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:13px;color:#5a534c;line-height:1.5;"><a href="https://bdavey619.github.io/giants/" style="color:#FD5A1E;font-weight:600;text-decoration:underline;">View the full brief &#8594;</a></p>
               <p style="margin:8px 0 6px;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:11px;color:#8a8278;">Was this one useful?&nbsp; <a href="https://bdavey.co/feedback/?team=giants&date=2026-04-30&vote=hit" style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:11px;color:#FD5A1E;font-weight:600;text-decoration:none;border:1px solid #FD5A1E;padding:2px 9px;">Hit</a>&nbsp;&nbsp;<a href="https://bdavey.co/feedback/?team=giants&date=2026-04-30&vote=miss" style="font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:11px;color:#8a8278;font-weight:600;text-decoration:none;border:1px solid #d8d2c4;padding:2px 9px;">Miss</a></p>
               <p style="margin:0 0 6px;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:11px;color:#8a8278;">Reply if you want this every morning.</p>
-              <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:#8a8278;">Updated April 30, 2026</p>
+              <p style="margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:#8a8278;">Updated May 1, 2026</p>
             </td>
           </tr>
 

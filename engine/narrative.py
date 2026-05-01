@@ -8,6 +8,7 @@ All team-specific strings (team_name, story_state_path) are passed as parameters
 import json
 import os
 import re
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import requests
@@ -632,6 +633,23 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
         if next_game else "N/A"
     )
 
+    # Day label for the next game (Tonight / Tomorrow / Friday / etc.)
+    def _day_label(date_str):
+        if not date_str:
+            return "next game"
+        try:
+            gd = datetime.strptime(date_str, "%Y-%m-%d").date()
+            today = datetime.now().date()
+            if gd == today:
+                return "tonight"
+            elif gd == today + timedelta(days=1):
+                return "tomorrow"
+            return gd.strftime("%A").lower()
+        except (ValueError, TypeError):
+            return "next game"
+
+    next_day_label = _day_label((next_game or {}).get("date", ""))
+
     score = last_game.get("score") or {}
     result_line = (
         f"{last_game.get('result', '?')} "
@@ -802,6 +820,44 @@ Application rules:
         looking_ahead_hook = ng.get("insight", "")
     looking_ahead_line = looking_ahead_hook or "see next game context above"
 
+    # Doubleheader context — build a full two-game brief for the prompt
+    if last_game.get("is_doubleheader"):
+        dh_games = last_game.get("doubleheader_games") or []
+        if len(dh_games) >= 2:
+            g1 = dh_games[0]
+            g2 = dh_games[1]
+            g1_sc = g1.get("score") or {}
+            g2_sc = g2.get("score") or {}
+            g1_moment = f" ({g1['key_moment']})" if g1.get("key_moment") else ""
+            g1_line = (
+                f"Game 1: {g1['result']} {g1_sc.get('team', '?')}–{g1_sc.get('opp', '?')}"
+                f"{g1_moment}"
+            )
+            g2_line = (
+                f"Game 2 (primary box score): {g2['result']} "
+                f"{g2_sc.get('team', '?')}–{g2_sc.get('opp', '?')}"
+            )
+        else:
+            dh_note = last_game.get("doubleheader_note", "")
+            g2_sc   = last_game.get("score") or {}
+            g2_res  = last_game.get("result", "?")
+            g1_line = dh_note
+            g2_line = f"Game 2 (primary): {g2_res} {g2_sc.get('team', '?')}–{g2_sc.get('opp', '?')}"
+
+        doubleheader_hint = (
+            f"\n\nDOUBLEHEADER — TWO GAMES YESTERDAY:\n"
+            f"  {g1_line}\n"
+            f"  {g2_line}\n"
+            f"\n"
+            f"  INSTRUCTION: State of Play MUST account for both games. Do not write as if only\n"
+            f"  Game 2 happened. Open by framing the full day — both outcomes matter.\n"
+            f"  If Game 1 had the most memorable finish (walkoff, extras, go-ahead late), name it.\n"
+            f"  Game 2 detail is in the box score above and can anchor the analysis,\n"
+            f"  but the story must contain both results."
+        )
+    else:
+        doubleheader_hint = ""
+
     return f"""Write the editorial core of today's {team_name} Morning Brief.
 
 --- STRUCTURED CONTEXT ---
@@ -827,7 +883,7 @@ LAST GAME:
   Result:      {result_line}
   Key pitcher: {pitcher_text}
   Key hitters: {hitters_text}
-  Offense:     {offense_note}
+  Offense:     {offense_note}{doubleheader_hint}
 {game_driver_block}
 {clutch_block}
 
@@ -839,7 +895,7 @@ TEAM CONTEXT:
 NEXT GAME:
   {next_text}
 
-TONIGHT'S HOOK (for WHAT TO WATCH — connect to this specific tension):
+NEXT GAME HOOK ({next_day_label} — use to ground the forward-looking WHAT TO WATCH section):
   {looking_ahead_line}
 
 --- OUTPUT INSTRUCTIONS ---
@@ -1187,12 +1243,20 @@ INTERNAL AUDIT (silent — run before returning):
 - Is the final sentence stronger than the rest?
 If any fail → rewrite.
 
-3. WHAT TO WATCH (1–2 sentences max, under 45 words)
-Job: carry one unresolved tension forward — not a schedule preview, not a generic pregame note. The tension must grow directly out of WHAT THIS GAME MEANS, not introduce a new topic. Make tonight feel like the next chapter of the same story.
-Express one clear tension. Avoid multi-clause sentences and abstract phrasing.
-Preferred openers: "Now the question is…" / "Tonight will show…" / "The next test is…"
-Answer: what tension from today's story continues into tonight? Name the open question that tonight's game will test. Use TONIGHT'S HOOK as context — do NOT quote its stat or restate it. Translate it into narrative tension. Write like the story is still moving, not like a preview.
-Avoid broadcast-preview phrasing ("can they keep it going?", "looking to build on", "they'll need"). Frame it as an unresolved question from the argument you just made in WHAT THIS GAME MEANS.
+3. WHAT TO WATCH (2–3 sentences)
+FUNCTION OVERRIDE — this section must look forward to the next game.
+
+It must:
+- Reference the upcoming opponent, pitcher, or matchup from NEXT GAME context above
+- Answer: what matters next? What is the key question going into this game?
+- Be grounded in real context (not abstract conclusions or punchlines)
+
+Avoid:
+- Punchlines or one-line verdicts (this is not a summary of what just happened)
+- Repeating anything already said in State of Play
+- Broadcast-preview clichés ("can they keep it going?", "looking to build on", "they'll need")
+
+Length: 2–3 sentences. Not a 1-line punchline. Not a recap.
 
 REWRITE LOOP:
 After drafting WHAT THIS GAME MEANS, run a second pass if ANY of the following are true:
@@ -1607,7 +1671,7 @@ HARD RULES:
 - Take a clear editorial stance. Use active voice.
 - WHAT THIS GAME MEANS must be 90–120 words. Tight. Name what changed. Do NOT exceed 120 words.
 - WHAT THIS GAME MEANS must NOT simply restate the story_hook, game_note, Game Driver, or Turning Point. These sections are already displayed separately. Build on them — do not repeat them.
-- WHAT TO WATCH must be 1–2 sentences, under 45 words. Express one tension. Do NOT quote or restate the TONIGHT'S HOOK stat — translate it into narrative tension.
+- WHAT TO WATCH must be 2–3 sentences. Look forward to the next game — reference opponent, pitcher, or matchup. Do NOT quote or restate the NEXT GAME HOOK stat. Do NOT write a punchline or one-liner here.
 - If trend is "surging": the question is how long can this hold?
 - If trend is "fragile" or "slipping": be honest about the problem. Do not soften it.
 - If driver is "pitching" and OPS < 0.700: do not frame the offense as fine.

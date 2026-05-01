@@ -198,6 +198,50 @@ def _build_clutch_block(clutch):
     )
 
 
+def _build_doubleheader_summary_block(lg, accent_color):
+    """Return a <tr> block showing both doubleheader game results, or empty string."""
+    if not lg.get("is_doubleheader"):
+        return ""
+
+    dh_games = lg.get("doubleheader_games") or []
+    font = "font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;"
+
+    def _game_row(g, label):
+        sc     = g.get("score") or {}
+        result = g.get("result", "?")
+        t_sc   = sc.get("team", "?")
+        o_sc   = sc.get("opp", "?")
+        km     = g.get("key_moment", "")
+        km_str = f'<span style="{font}font-size:11px;color:#8a8278;"> &middot; {km}</span>' if km else ""
+        color  = accent_color if result == "W" else "#5a534c"
+        return (
+            f'<span style="{font}font-size:14px;font-weight:700;color:{color};">'
+            f'{label}: {result} {t_sc}–{o_sc}</span>{km_str}'
+        )
+
+    if len(dh_games) >= 2:
+        g1_html = _game_row(dh_games[0], "Game 1")
+        g2_html = _game_row(dh_games[1], "Game 2")
+    else:
+        # Fallback: render doubleheader_note as plain text
+        note = lg.get("doubleheader_note", "")
+        if not note:
+            return ""
+        g1_html = f'<span style="{font}font-size:14px;color:#1a1613;">{note}</span>'
+        g2_html = ""
+
+    g2_block = f"<br>{g2_html}" if g2_html else ""
+    return (
+        '<tr>'
+        '<td style="padding:8px 0 10px;">'
+        f'<p style="margin:0 0 4px;{font}font-size:10px;text-transform:uppercase;'
+        'letter-spacing:0.12em;color:#5a534c;font-weight:700;">Doubleheader</p>'
+        f'<p style="margin:0;line-height:1.8;">{g1_html}{g2_block}</p>'
+        '</td>'
+        '</tr>'
+    )
+
+
 def _build_story_hook_block(story_hook):
     """Return a <tr> block for the story hook below the subhead, or empty string."""
     if not story_hook:
@@ -343,9 +387,10 @@ def main():
     clutch_name = clutch.get("name", "") if clutch else ""
 
     context = {
-        "brief_date":           fmt_brief_date(),
-        "story_hook_block":     _build_story_hook_block(brief.get("story_hook", "")),
-        "score_display":        score_display,
+        "brief_date":                fmt_brief_date(),
+        "story_hook_block":          _build_story_hook_block(brief.get("story_hook", "")),
+        "doubleheader_summary_block": _build_doubleheader_summary_block(lg, cfg.accent_color),
+        "score_display":             score_display,
         "result_label":         result_label,
         "result_color":         result_color,
         "vs_line":              vs_line,

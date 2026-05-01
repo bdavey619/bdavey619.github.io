@@ -114,17 +114,72 @@ def _format_postponed_game(game):
     }
 
 
+def _detect_dh_key_moment(linescore_raw, sd_is_home, result):
+    """
+    Detect a notable key moment from a game's linescore for doubleheader note.
+    Returns a short description string or None.
+    Uses only linescore data — no play-by-play API call required.
+    """
+    innings = linescore_raw.get("innings", [])
+    if not innings:
+        return None
+
+    sd_key  = "home" if sd_is_home else "away"
+    opp_key = "away" if sd_is_home else "home"
+
+    def _r(inn, side):
+        try:
+            return int(inn.get(side, {}).get("runs", 0) or 0)
+        except (TypeError, ValueError):
+            return 0
+
+    sd_by_inning  = [_r(inn, sd_key)  for inn in innings]
+    opp_by_inning = [_r(inn, opp_key) for inn in innings]
+    n = len(sd_by_inning)
+
+    if n == 0:
+        return None
+
+    sd_cum  = [sum(sd_by_inning[:i + 1])  for i in range(n)]
+    opp_cum = [sum(opp_by_inning[:i + 1]) for i in range(n)]
+
+    # Walkoff: home team wins, bottom of final inning has runs
+    if result == "W" and sd_is_home and n >= 9:
+        if sd_by_inning[-1] > 0 and len(sd_by_inning) == len(opp_by_inning):
+            return "walkoff"
+
+    # Extra innings
+    if n > 9:
+        return "extras"
+
+    # Go-ahead in 7th or later (wins only)
+    if result == "W":
+        for i in range(6, n):
+            prev_sd  = sd_cum[i - 1] if i > 0 else 0
+            prev_opp = opp_cum[i - 1] if i > 0 else 0
+            if prev_sd <= prev_opp and sd_cum[i] > opp_cum[i]:
+                return f"go-ahead in {_ordinal_word(i + 1)}"
+
+    return None
+
+
 def get_last_game():
     """
     Return the most recent relevant game: the newest Final or Postponed game
     in the last 14 days. A postponed game that is newer than the last Final
     is returned as status='postponed' so the brief can acknowledge it.
+    Doubleheaders: if two Final games share the same date, Game 2 (latest
+    gamePk) is the primary. Game 1 result and key moment stored in
+    doubleheader_note; both game summaries in doubleheader_games.
     """
     end   = datetime.now().date()
     start = end - timedelta(days=14)
     games = _fetch_schedule(start, end)
 
     games_sorted = sorted(games, key=lambda g: (g["gameDate"], g["gamePk"]), reverse=True)
+
+    # Find the primary game (most recent Final or Postponed)
+    primary_raw = None
     for g in games_sorted:
         s = g.get("status", {})
         # Postponed check BEFORE abstractGameState=="Final": the MLB API sometimes
@@ -148,9 +203,78 @@ def get_last_game():
                 f"  codedGameState={s.get('codedGameState')!r}",
                 file=sys.stderr,
             )
-            return _format_last_game(g)
+            primary_raw = g
+            break
 
-    return {"status": "off_day"}
+    if primary_raw is None:
+        return {"status": "off_day"}
+
+    # Doubleheader check: look for a second Final game on the same date
+    primary_date = primary_raw.get("officialDate") or primary_raw["gameDate"][:10]
+    final_same_day = [
+        g for g in games
+        if (g.get("officialDate") or g["gameDate"][:10]) == primary_date
+        and g.get("status", {}).get("abstractGameState") == "Final"
+        and not _is_postponed(g)
+    ]
+
+    if len(final_same_day) == 2:
+        final_same_day.sort(key=lambda g: g["gamePk"])
+        game1_raw = final_same_day[0]
+        g1_home  = _is_home(game1_raw)
+        g1_sd    = "home" if g1_home else "away"
+        g1_opp   = "away" if g1_home else "home"
+        g1_ls    = game1_raw.get("linescore", {})
+        g1_ls_teams = g1_ls.get("teams", {})
+        g1_sd_r  = g1_ls_teams.get(g1_sd, {}).get("runs", game1_raw["teams"][g1_sd].get("score", 0))
+        g1_opp_r = g1_ls_teams.get(g1_opp, {}).get("runs", game1_raw["teams"][g1_opp].get("score", 0))
+        g1_result = "W" if g1_sd_r > g1_opp_r else "L"
+
+        # Detect key moment from Game 1 linescore (no extra API call)
+        g1_key_moment = _detect_dh_key_moment(g1_ls, g1_home, g1_result)
+
+        print(
+            f"  [doubleheader] detected — Game 1: {g1_result} {g1_sd_r}–{g1_opp_r}"
+            + (f" ({g1_key_moment})" if g1_key_moment else ""),
+            file=sys.stderr,
+        )
+
+        # Format primary game (Game 2) and build both summaries
+        formatted = _format_last_game(primary_raw)
+        g2_result = formatted["result"]
+        g2_score  = formatted["score"]
+
+        g1_note = f"Game 1: {g1_result} {g1_sd_r}–{g1_opp_r}"
+        if g1_key_moment:
+            g1_note += f", {g1_key_moment}"
+        g2_note = f"Game 2: {g2_result} {g2_score['team']}–{g2_score['opp']}"
+
+        g1_summary = {
+            "game_num": 1,
+            "gamePk":   game1_raw["gamePk"],
+            "result":   g1_result,
+            "score":    {"team": g1_sd_r, "opp": g1_opp_r},
+            "opponent": _opponent_abbr(game1_raw),
+            "home":     g1_home,
+        }
+        if g1_key_moment:
+            g1_summary["key_moment"] = g1_key_moment
+
+        g2_summary = {
+            "game_num": 2,
+            "gamePk":   formatted["gamePk"],
+            "result":   g2_result,
+            "score":    g2_score,
+            "opponent": formatted["opponent"],
+            "home":     formatted["home"],
+        }
+
+        formatted["is_doubleheader"]    = True
+        formatted["doubleheader_note"]  = f"{g1_note}. {g2_note}."
+        formatted["doubleheader_games"] = [g1_summary, g2_summary]
+        return formatted
+
+    return _format_last_game(primary_raw)
 
 
 def get_next_game():
@@ -755,6 +879,20 @@ def _cardinal_word(n):
     return words.get(n, str(n))
 
 
+def get_time_label(game_date_str):
+    """Return 'Tonight', 'Tomorrow', or weekday name based on the game date."""
+    try:
+        game_date = datetime.fromisoformat(game_date_str).date()
+    except (ValueError, TypeError):
+        return "Tonight"
+    today = datetime.now().date()
+    if game_date == today:
+        return "Tonight"
+    elif game_date == today + timedelta(days=1):
+        return "Tomorrow"
+    return game_date.strftime("%A")
+
+
 def _parse_pitcher_line(line):
     """Return (ip_float, er_int) or (None, None) if unparseable."""
     try:
@@ -1217,6 +1355,8 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
     if not raw_game:
         return []
 
+    _label = get_time_label(raw_game.get("officialDate") or raw_game["gameDate"][:10])
+
     home = _is_home(raw_game)
     sd_side = "home" if home else "away"
     opp_side = "away" if home else "home"
@@ -1253,7 +1393,7 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
 
                 text = (
                     f"{pitcher_last} has a {era:.2f} ERA over his last {n_starts} starts"
-                    f". He takes the mound tonight."
+                    f". He takes the mound {_label.lower()}."
                 )
                 candidates.append({
                     "type": "pitcher_form",
@@ -1270,7 +1410,7 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
                 fact_str = 0.85 if wins == n_starts else 0.68
                 text = (
                     f"{pitcher_last} has won {wins} of his last {n_starts} starts"
-                    f". He gets the ball tonight."
+                    f". He gets the ball {_label.lower()}."
                 )
                 candidates.append({
                     "type": "pitcher_form",
@@ -1309,13 +1449,13 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
             if pitcher_last:
                 text = (
                     f"{opponent_abbr}'s {avg_str} average gives {pitcher_last}"
-                    f" a favorable matchup tonight."
+                    f" a favorable matchup {_label.lower()}."
                 )
                 spec = 0.78
             else:
                 text = (
                     f"{opponent_abbr} is batting {avg_str} as a team"
-                    f". Favorable matchup for {CFG.team_city} tonight."
+                    f". Favorable matchup for {CFG.team_city} {_label.lower()}."
                 )
                 spec = 0.62
 
@@ -1341,13 +1481,13 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
             if pitcher_last:
                 text = (
                     f"{opponent_abbr} ranks among the weakest offenses in baseball"
-                    f". {pitcher_last} draws a favorable matchup tonight."
+                    f". {pitcher_last} draws a favorable matchup {_label.lower()}."
                 )
                 spec = 0.70
             else:
                 text = (
                     f"{opponent_abbr} has a {ops_str} OPS"
-                    f". The {CFG.team_name} have a favorable matchup tonight."
+                    f". The {CFG.team_name} have a favorable matchup {_label.lower()}."
                 )
                 spec = 0.55
 
@@ -1415,7 +1555,7 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
             if streak_n >= 2:
                 text = (
                     f"{CFG.team_city} is {games_back} back in the {CFG.division_name} on a {streak_n}-game"
-                    f" win streak. Tonight matters."
+                    f" win streak. {_label} matters."
                 )
                 fact_str = min(0.65 + (streak_n - 2) * 0.06, 0.90)
                 spec = 0.72
@@ -1441,7 +1581,7 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
         if games_back == "-" and streak_n >= 3:
             text = (
                 f"{CFG.team_city} leads the {CFG.division_name} on a {streak_n}-game win streak"
-                f". Tonight is a chance to extend it."
+                f". {_label} is a chance to extend it."
             )
             candidates.append({
                 "type": "race_context",
@@ -1468,7 +1608,7 @@ def build_looking_ahead_hook_candidates(raw_game, team, standings):
 
                 text = (
                     f"{CFG.team_name} have won {l10_wins} of their last ten"
-                    f". They carry that form into tonight."
+                    f". They carry that form into {_label.lower()}."
                 )
                 candidates.append({
                     "type": "team_momentum",
@@ -1623,6 +1763,32 @@ def build():
             )
         else:
             print("  clutch: none detected", file=sys.stderr)
+
+        # Doubleheader: also detect Game 1 clutch and refine its key_moment
+        if last_game.get("is_doubleheader"):
+            dh_games = last_game.get("doubleheader_games") or []
+            if dh_games and dh_games[0].get("gamePk"):
+                g1_clutch = identify_clutch_player(
+                    dh_games[0]["gamePk"],
+                    dh_games[0].get("home", True),
+                    fallback_hitters=None,
+                )
+                if g1_clutch:
+                    dh_games[0]["clutch_player"] = g1_clutch
+                    print(
+                        f"  clutch (Game 1): {g1_clutch['name']} — {g1_clutch['event']}"
+                        f" (inn {g1_clutch['inning']}, {g1_clutch['confidence']})",
+                        file=sys.stderr,
+                    )
+                    # Upgrade key_moment when clutch gives more detail than linescore alone
+                    if g1_clutch.get("confidence") == "high" and not dh_games[0].get("key_moment"):
+                        reason = (g1_clutch.get("reason") or "").lower()
+                        if "walk-off" in reason:
+                            dh_games[0]["key_moment"] = "walkoff"
+                        elif "go-ahead" in reason:
+                            inn = g1_clutch.get("inning")
+                            if isinstance(inn, int):
+                                dh_games[0]["key_moment"] = f"go-ahead in {_ordinal_word(inn)}"
     else:
         last_game["clutch_player"] = None
 
@@ -1652,12 +1818,11 @@ def build():
     standings = get_standings()
 
     print("Building editorial layer...", file=sys.stderr)
-    subhead = build_subhead(last_game, team)
     insight = get_insight(team, last_game)
 
     print("Building Looking Ahead hook...", file=sys.stderr)
     ahead_hook, ahead_hook_type = build_looking_ahead_hook(
-        next_game_raw, team, standings, subhead=subhead, insight=insight
+        next_game_raw, team, standings, insight=insight
     )
     if ahead_hook and next_game:
         next_game["insight"] = ahead_hook
@@ -1701,7 +1866,6 @@ def build():
         "next_game": next_game,
         "standings": standings,
         "hot_players": {"hitters": [], "pitchers": []},  # placeholder for V1.1
-        "subhead": subhead,
         "insight": insight,
         "story_hook": story_hook,
         "story_threads_debug": story_threads,
