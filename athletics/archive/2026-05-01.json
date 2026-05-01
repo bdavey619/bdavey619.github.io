@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T01:29:52+00:00",
+  "generated_at": "2026-05-01T01:34:14+00:00",
   "season": 2026,
   "team": {
     "record": "17-14",
@@ -312,9 +312,9 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "This team doesn't fold when the margin disappears.",
-    "what_this_means": "Hernandez gave them two swings when they needed one. The lineup created enough traffic that his 3-for-4 night actually mattered. Not because he carried them alone, but because Springs didn't have to be perfect. A day game at home, a Kansas City team with nothing to prove, an offense that struck out five times but refused to stall. The win streak is now real.",
-    "what_to_watch": "Two straight wins in a division that doesn't wait is not a blip. This is the pattern starting to lock.",
+    "top_frame": "This team doesn't waste wins when it has them.",
+    "what_this_means": "Jeffrey Springs went three innings and let the game stay close enough to matter. That was the whole thing. The bats. 11 hits, five strikeouts. Never exploded, but Hernaiz turned traffic into runs when it counted, and Langeliers did too. This was a team offense with one clear separator, not a carry job, just a team that knew what it needed and did it. KC didn't beat itself. The Athletics beat KC by doing small things right, late enough to hold. The pattern has become: offense does not have to arrive early, just on time.",
+    "what_to_watch": "Now the question is whether Ginn can stack another quality start into what should become a winning streak. The last four starts matter only if the next one holds the line.",
     "story_state": {
       "trend": "stabilizing",
       "driver": "balanced",
@@ -340,8 +340,7 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "won last game",
-        "win streak extended to W2"
+        "won last game"
       ]
     }
   }
