@@ -44,18 +44,6 @@ main {
   line-height: 1.4;
 }
 
-.masthead-hook {
-  font-family: var(--serif);
-  font-size: 14px;
-  font-style: italic;
-  font-weight: 400;
-  color: var(--ink-faint);
-  text-align: center;
-  margin-top: 6px;
-  letter-spacing: 0.005em;
-  line-height: 1.45;
-}
-
 .masthead-meta {
   display: flex;
   justify-content: space-between;

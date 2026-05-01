@@ -46,44 +46,8 @@ function renderMasthead(b) {
     weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'
   });
 
-  // Story hook – one-sentence emotional frame below the rule
-  if (b.story_hook) {
-    const hookEl = document.createElement('p');
-    hookEl.id = 'masthead-hook';
-    hookEl.className = 'masthead-hook';
-    hookEl.textContent = b.story_hook;
-    const ruleEl = document.querySelector('.masthead-rule');
-    ruleEl.parentNode.insertBefore(hookEl, ruleEl.nextSibling);
-  }
 }
 
-function buildSubhead(b) {
-  const lg = b.last_game;
-  const t = b.team;
-  if (!lg || lg.status !== 'final') return '';
-
-  const parts = [];
-  const streakMatch = t?.streak?.match(/^W(\d+)/);
-  if (streakMatch && parseInt(streakMatch[1]) >= 2) {
-    parts.push(`Giants extend win streak to ${streakMatch[1]}`);
-  } else if (lg.result === 'W') {
-    parts.push('Giants win');
-  } else {
-    parts.push('Giants fall');
-  }
-
-  const pitcher = lg.key_pitcher?.name;
-  const hitter = lg.key_hitters?.[0]?.name;
-  if (pitcher && hitter) {
-    parts.push(`behind ${pitcher} and ${hitter}`);
-  } else if (pitcher) {
-    parts.push(`behind ${pitcher}`);
-  } else if (hitter) {
-    parts.push(`behind ${hitter}`);
-  }
-
-  return parts.join(' ') + '.';
-}
 
 // ---------- summary bar ----------
 function renderSummaryBar(b) {
@@ -137,7 +101,18 @@ function renderLastGame(lg) {
     .toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }) : '';
   const contextLine = [gameDateLabel, gameContext].filter(Boolean).join(' · ');
 
-  let html = `
+  let html = '';
+  if (lg.is_doubleheader && lg.doubleheader_note) {
+    const g2Score = `${lg.score.team}–${lg.score.opp}`;
+    html += `<div class="doubleheader-results">
+      <span class="dh-label">Doubleheader</span>
+      <div class="dh-games">
+        <span>${lg.doubleheader_note}</span>
+        <span>Game 2: ${lg.result} ${g2Score}</span>
+      </div>
+    </div>`;
+  }
+  html += `
     <div class="lg-headline">
       <span class="lg-score">${lg.score.team}–${lg.score.opp}</span>
       <span class="lg-result ${resultClass}">${lg.result}</span>

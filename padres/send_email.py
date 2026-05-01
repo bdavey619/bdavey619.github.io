@@ -11,7 +11,7 @@ import os
 import sys
 import urllib.error
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 HERE = Path(__file__).parent
@@ -24,6 +24,27 @@ RESEND_API_URL = "https://api.resend.com/emails"
 def load_brief():
     with open(BRIEF_PATH) as f:
         return json.load(f)
+
+
+def is_stale_recap(brief):
+    """See send_email.py:is_stale_recap — same logic, hardcoded for padres."""
+    last_game = brief.get("last_game", {})
+    if last_game.get("status") not in ("final", "postponed"):
+        return False
+    ng_date   = brief.get("next_game", {}).get("date", "")
+    today     = datetime.now().date()
+    today_str = today.strftime("%Y-%m-%d")
+    if ng_date == today_str:
+        return False
+    lg_date_str = last_game.get("date", "")
+    try:
+        lg_date = datetime.strptime(lg_date_str, "%Y-%m-%d").date()
+    except (ValueError, TypeError):
+        return False
+    expected_send_date = (lg_date + timedelta(days=1)).strftime("%Y-%m-%d")
+    if expected_send_date == today_str:
+        return False
+    return (HERE / "archive" / f"{expected_send_date}.json").exists()
 
 
 def is_off_day(brief):
@@ -148,6 +169,9 @@ def main():
     brief = load_brief()
     if is_off_day(brief):
         print("[email] skipped: off day for padres")
+        sys.exit(0)
+    if is_stale_recap(brief):
+        print("[email] skipped: no game today and last game already recapped for padres")
         sys.exit(0)
     ok, reason = safety_check(brief)
     if not ok:
