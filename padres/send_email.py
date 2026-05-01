@@ -81,13 +81,16 @@ def build_subject(brief):
     return f"Padres Morning Brief | {date_label}"
 
 
-def send_email(api_key, to_addrs, from_addr, subject, html_content):
-    payload = json.dumps({
+def send_email(api_key, bcc_addrs, from_addr, subject, html_content):
+    payload_dict = {
         "from": from_addr,
-        "to": to_addrs,
+        "to": [from_addr],
         "subject": subject,
         "html": html_content,
-    }).encode("utf-8")
+    }
+    if bcc_addrs:
+        payload_dict["bcc"] = bcc_addrs
+    payload = json.dumps(payload_dict).encode("utf-8")
 
     req = urllib.request.Request(
         RESEND_API_URL,
@@ -108,7 +111,8 @@ def send_email(api_key, to_addrs, from_addr, subject, html_content):
 def main():
     # Validate required env vars before doing any file I/O
     api_key = os.environ.get("RESEND_API_KEY", "").strip()
-    emails = [e.strip() for e in os.environ.get("EMAIL_TO", "").split(",") if e.strip()]
+    bcc_raw = os.environ.get("EMAIL_BCC_PADRES", "")
+    bcc_addrs = [r.strip() for r in bcc_raw.split(",") if r.strip()]
     from_addr = os.environ.get("EMAIL_FROM", "").strip()
 
     missing = [
@@ -118,8 +122,6 @@ def main():
         ]
         if not val
     ]
-    if not emails:
-        missing.append("EMAIL_TO")
     if missing:
         print(f"ERROR: Missing required env vars: {', '.join(missing)}", file=sys.stderr)
         sys.exit(1)
@@ -141,12 +143,16 @@ def main():
     html_content = HTML_PATH.read_text()
     subject = build_subject(brief)
 
+    if not bcc_addrs:
+        print("[email] No BCC recipients found for team: padres")
+
     print(f"Sending: {subject}")
-    print("Sending to:", emails)
-    print(f"  From: {from_addr}")
+    print(f"  From/To: {from_addr}")
+    if bcc_addrs:
+        print(f"  Bcc: {', '.join(bcc_addrs)}")
 
     try:
-        status, body = send_email(api_key, emails, from_addr, subject, html_content)
+        status, body = send_email(api_key, bcc_addrs, from_addr, subject, html_content)
         print(f"Resend API response {status}: {body}")
         print("Email sent.")
     except urllib.error.HTTPError as e:

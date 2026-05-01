@@ -11,8 +11,8 @@ for content, sends via the Resend HTTP API. No external dependencies required.
 
 Required environment variables:
     RESEND_API_KEY  — Resend API key (re_...)
-    EMAIL_TO        — recipient address(es), comma-separated
-    EMAIL_FROM      — verified sender address (e.g. brief@yourdomain.com)
+    EMAIL_BCC_[TEAM] — BCC recipient(s), comma-separated (e.g. EMAIL_BCC_PADRES)
+    EMAIL_FROM       — verified sender address; also used as the visible To (e.g. brief@yourdomain.com)
 
 Optional:
     EMAIL_SUBJECT   — override the default subject line
@@ -116,13 +116,16 @@ def build_subject(brief, cfg):
     return f"{cfg.team_name} Morning Brief | {date_label}"
 
 
-def send_email(api_key, to_addrs, from_addr, subject, html_content, team_name):
-    payload = json.dumps({
+def send_email(api_key, bcc_addrs, from_addr, subject, html_content, team_name):
+    payload_dict = {
         "from": from_addr,
-        "to": to_addrs,
+        "to": [from_addr],
         "subject": subject,
         "html": html_content,
-    }).encode("utf-8")
+    }
+    if bcc_addrs:
+        payload_dict["bcc"] = bcc_addrs
+    payload = json.dumps(payload_dict).encode("utf-8")
 
     req = urllib.request.Request(
         RESEND_API_URL,
@@ -154,7 +157,8 @@ def main():
     team_key  = os.environ.get(f"{team_slug.upper()}_RESEND_API_KEY", "").strip()
     global_key = os.environ.get("RESEND_API_KEY", "").strip()
     api_key   = team_key or global_key
-    emails       = [e.strip() for e in os.environ.get("EMAIL_TO", "").split(",") if e.strip()]
+    bcc_raw   = os.environ.get(f"EMAIL_BCC_{team_slug.upper()}", "")
+    bcc_addrs = [r.strip() for r in bcc_raw.split(",") if r.strip()]
     from_email_raw = os.environ.get("EMAIL_FROM", "").strip()
     # Extract bare address if the secret accidentally contains a full display name.
     # e.g. "Giants - Morning Brief <brief@mail.bdavey.co>" becomes "brief@mail.bdavey.co"
@@ -171,8 +175,6 @@ def main():
         ]
         if not val
     ]
-    if not emails:
-        missing.append("EMAIL_TO")
     if missing:
         print(f"ERROR: Missing required env vars: {', '.join(missing)}", file=sys.stderr)
         sys.exit(1)
@@ -195,12 +197,16 @@ def main():
     html_content = html_path.read_text()
     subject = build_subject(brief, cfg)
 
+    if not bcc_addrs:
+        print(f"[email] No BCC recipients found for team: {team_slug}")
+
     print(f"Sending: {subject}")
-    print("Sending to:", emails)
-    print(f"  From: {from_addr}")
+    print(f"  From/To: {from_addr}")
+    if bcc_addrs:
+        print(f"  Bcc: {', '.join(bcc_addrs)}")
 
     try:
-        status, body = send_email(api_key, emails, from_addr, subject, html_content, cfg.team_name)
+        status, body = send_email(api_key, bcc_addrs, from_addr, subject, html_content, cfg.team_name)
         print(f"Resend API response {status}: {body}")
         print("Email sent.")
     except urllib.error.HTTPError as e:
