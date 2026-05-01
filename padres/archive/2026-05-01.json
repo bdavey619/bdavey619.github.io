@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T05:21:09+00:00",
+  "generated_at": "2026-05-01T05:23:54+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -307,7 +307,6 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "San Diego falls to CHC | 0.5 back in the West.",
   "insight": {
     "headline": "The offense hasn't matched the pitching.",
     "detail": "The staff is holding at 4.23 ERA, but a .693 OPS at the plate has made it difficult. San Diego sits at 6-4 over their last ten with neither side pulling ahead. They're 0.5 back in the NL West.",
@@ -319,9 +318,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Waldron couldn't hold the lead, and three strikeouts in the eighth ended any comeback.",
-    "what_this_means": "The Padres had this game. They didn't finish it. Castellanos delivered two runs early. A home run that gave them a lead they needed to protect. But Waldron's ERA sits at 9.88 for a reason: he can't consistently get outs when it matters. Five innings, three earned runs, a walk, barely a strikeout. Against a Cubs team that's beatable, that's not enough rope. The offense scratched together three hits and eight strikeouts. Offensive numbers that don't win close games. A day game at Petco against a division rival became a referendum on whether this team can execute when the margin is real. They couldn't. Eight strikeouts and Castellanos's early heroics evaporated into nothing.",
-    "what_to_watch": "This is the fragile part of the Padres' story getting louder. They can generate moments. A solo shot here, a clutch hit there. But converting those into wins requires the pitching to hold and the rest of the lineup to pile on. Neither happened. Waldron's inability to pitch clean innings is becoming a liability the team can't afford against this division. Castellanos gave them a chance. The game needed more than one player, and nobody else answered.",
+    "top_frame": "The offense met only one deadline. Castellanos cleared the bases early, and then the lineup went silent for six innings.",
+    "what_this_means": "This is the cost of inconsistency at the top of a crowded division. The Padres had the game in hand after two innings, then let Chicago back in through sheer inertia. Eight strikeouts and just three hits after the second inning is not a slump. It's a pattern that keeps reasserting itself when the margin tightens. Waldron held them close enough to stay dangerous, which meant the game came down to whether the bats could show up again late. They didn't. This is how thin margins disappear.",
+    "what_to_watch": "Watch how M\u00e1rquez navigates the White Sox's **.225 average** tonight. If the Padres want to stop bleeding close games, the pitching has to punish bad contact. That's not negotiable in this division right now. Not when your offense keeps leaving games on the table.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
