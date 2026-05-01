@@ -1,261 +1,249 @@
 {
   "team": "Giants",
   "team_slug": "giants",
-  "month": "2026-04",
+  "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-04-30T13:59:18.901839+00:00",
+  "generated_at": "2026-05-01T04:52:35.074853+00:00",
   "games": [
     {
-      "date": "2026-04-01",
-      "opponent": "SD",
+      "date": "2026-05-01",
+      "opponent": "TB",
       "home": false,
-      "gamePk": 823321,
-      "status": "final",
-      "result": "L",
-      "score": "1\u20137"
-    },
-    {
-      "date": "2026-04-02",
-      "opponent": "NYM",
-      "home": true,
-      "gamePk": 823242,
-      "status": "final",
-      "result": "W",
-      "score": "7\u20132"
-    },
-    {
-      "date": "2026-04-03",
-      "opponent": "NYM",
-      "home": true,
-      "gamePk": 823240,
-      "status": "final",
-      "result": "L",
-      "score": "3\u201310"
-    },
-    {
-      "date": "2026-04-04",
-      "opponent": "NYM",
-      "home": true,
-      "gamePk": 823239,
-      "status": "final",
-      "result": "L",
-      "score": "0\u20139"
-    },
-    {
-      "date": "2026-04-05",
-      "opponent": "NYM",
-      "home": true,
-      "gamePk": 823238,
-      "status": "final",
-      "result": "L",
-      "score": "2\u20135"
-    },
-    {
-      "date": "2026-04-06",
-      "opponent": "PHI",
-      "home": true,
-      "gamePk": 823237,
-      "status": "final",
-      "result": "L",
-      "score": "4\u20136"
-    },
-    {
-      "date": "2026-04-07",
-      "opponent": "PHI",
-      "home": true,
-      "gamePk": 823235,
-      "status": "final",
-      "result": "W",
-      "score": "6\u20130"
-    },
-    {
-      "date": "2026-04-08",
-      "opponent": "PHI",
-      "home": true,
-      "gamePk": 823234,
-      "status": "final",
-      "result": "W",
-      "score": "5\u20130"
-    },
-    {
-      "date": "2026-04-10",
-      "opponent": "BAL",
-      "home": false,
-      "gamePk": 824858,
-      "status": "final",
-      "result": "W",
-      "score": "6\u20133"
-    },
-    {
-      "date": "2026-04-11",
-      "opponent": "BAL",
-      "home": false,
-      "gamePk": 824857,
-      "status": "final",
-      "result": "L",
-      "score": "2\u20136"
-    },
-    {
-      "date": "2026-04-12",
-      "opponent": "BAL",
-      "home": false,
-      "gamePk": 824859,
-      "status": "final",
-      "result": "L",
-      "score": "2\u20136"
-    },
-    {
-      "date": "2026-04-14",
-      "opponent": "CIN",
-      "home": false,
-      "gamePk": 824531,
-      "status": "final",
-      "result": "L",
-      "score": "1\u20132"
-    },
-    {
-      "date": "2026-04-15",
-      "opponent": "CIN",
-      "home": false,
-      "gamePk": 824532,
-      "status": "final",
-      "result": "L",
-      "score": "3\u20138"
-    },
-    {
-      "date": "2026-04-16",
-      "opponent": "CIN",
-      "home": false,
-      "gamePk": 824530,
-      "status": "final",
-      "result": "W",
-      "score": "3\u20130"
-    },
-    {
-      "date": "2026-04-17",
-      "opponent": "WSH",
-      "home": false,
-      "gamePk": 822752,
-      "status": "final",
-      "result": "W",
-      "score": "10\u20135"
-    },
-    {
-      "date": "2026-04-18",
-      "opponent": "WSH",
-      "home": false,
-      "gamePk": 822751,
-      "status": "final",
-      "result": "W",
-      "score": "7\u20136"
-    },
-    {
-      "date": "2026-04-19",
-      "opponent": "WSH",
-      "home": false,
-      "gamePk": 822750,
-      "status": "final",
-      "result": "L",
-      "score": "0\u20133"
-    },
-    {
-      "date": "2026-04-21",
-      "opponent": "LAD",
-      "home": true,
-      "gamePk": 823236,
-      "status": "final",
-      "result": "W",
-      "score": "3\u20131"
-    },
-    {
-      "date": "2026-04-22",
-      "opponent": "LAD",
-      "home": true,
-      "gamePk": 823231,
-      "status": "final",
-      "result": "W",
-      "score": "3\u20130"
-    },
-    {
-      "date": "2026-04-23",
-      "opponent": "LAD",
-      "home": true,
-      "gamePk": 823233,
-      "status": "final",
-      "result": "L",
-      "score": "0\u20133"
-    },
-    {
-      "date": "2026-04-24",
-      "opponent": "MIA",
-      "home": true,
-      "gamePk": 823232,
-      "status": "final",
-      "result": "L",
-      "score": "4\u20139"
-    },
-    {
-      "date": "2026-04-25",
-      "opponent": "MIA",
-      "home": true,
-      "gamePk": 823229,
-      "status": "final",
-      "result": "W",
-      "score": "6\u20132"
-    },
-    {
-      "date": "2026-04-26",
-      "opponent": "MIA",
-      "home": true,
-      "gamePk": 823230,
-      "status": "final",
-      "result": "W",
-      "score": "6\u20133",
-      "archive_url": "archive.html?date=2026-04-28"
-    },
-    {
-      "date": "2026-04-28",
-      "opponent": "PHI",
-      "home": false,
-      "gamePk": 823473,
-      "status": "final",
-      "result": "L",
-      "score": "0\u20137",
-      "archive_url": "archive.html?date=2026-04-29"
-    },
-    {
-      "date": "2026-04-29",
-      "opponent": "PHI",
-      "home": false,
-      "gamePk": 823471,
-      "status": "final",
-      "result": "L",
-      "score": "0\u20130"
-    },
-    {
-      "date": "2026-04-30",
-      "opponent": "PHI",
-      "home": false,
-      "gamePk": 823471,
+      "gamePk": 822990,
       "status": "scheduled",
-      "time_local": "2:35 PM PT"
-    },
-    {
-      "date": "2026-04-30",
-      "opponent": "PHI",
-      "home": false,
-      "gamePk": 823472,
-      "status": "scheduled",
-      "time_local": "9:35 AM PT",
+      "time_local": "4:10 PM PT",
       "probable": {
-        "team": "Logan Webb",
-        "opp": "Cristopher S\u00e1nchez"
+        "team": "Robbie Ray",
+        "opp": "Shane McClanahan"
       }
+    },
+    {
+      "date": "2026-05-02",
+      "opponent": "TB",
+      "home": false,
+      "gamePk": 822988,
+      "status": "scheduled",
+      "time_local": "3:10 PM PT",
+      "probable": {
+        "team": "Landen Roupp"
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "opponent": "TB",
+      "home": false,
+      "gamePk": 822987,
+      "status": "scheduled",
+      "time_local": "10:40 AM PT",
+      "probable": {
+        "team": "Tyler Mahle",
+        "opp": "Steven Matz"
+      }
+    },
+    {
+      "date": "2026-05-04",
+      "opponent": "SD",
+      "home": true,
+      "gamePk": 823228,
+      "status": "scheduled",
+      "time_local": "6:45 PM PT"
+    },
+    {
+      "date": "2026-05-05",
+      "opponent": "SD",
+      "home": true,
+      "gamePk": 823227,
+      "status": "scheduled",
+      "time_local": "6:45 PM PT"
+    },
+    {
+      "date": "2026-05-06",
+      "opponent": "SD",
+      "home": true,
+      "gamePk": 823226,
+      "status": "scheduled",
+      "time_local": "12:45 PM PT"
+    },
+    {
+      "date": "2026-05-08",
+      "opponent": "PIT",
+      "home": true,
+      "gamePk": 823225,
+      "status": "scheduled",
+      "time_local": "7:15 PM PT"
+    },
+    {
+      "date": "2026-05-09",
+      "opponent": "PIT",
+      "home": true,
+      "gamePk": 823224,
+      "status": "scheduled",
+      "time_local": "6:05 PM PT"
+    },
+    {
+      "date": "2026-05-10",
+      "opponent": "PIT",
+      "home": true,
+      "gamePk": 823221,
+      "status": "scheduled",
+      "time_local": "1:05 PM PT"
+    },
+    {
+      "date": "2026-05-11",
+      "opponent": "LAD",
+      "home": false,
+      "gamePk": 823953,
+      "status": "scheduled",
+      "time_local": "7:10 PM PT"
+    },
+    {
+      "date": "2026-05-12",
+      "opponent": "LAD",
+      "home": false,
+      "gamePk": 823951,
+      "status": "scheduled",
+      "time_local": "7:10 PM PT"
+    },
+    {
+      "date": "2026-05-13",
+      "opponent": "LAD",
+      "home": false,
+      "gamePk": 823952,
+      "status": "scheduled",
+      "time_local": "7:10 PM PT"
+    },
+    {
+      "date": "2026-05-14",
+      "opponent": "LAD",
+      "home": false,
+      "gamePk": 823950,
+      "status": "scheduled",
+      "time_local": "7:10 PM PT"
+    },
+    {
+      "date": "2026-05-15",
+      "opponent": "OAK",
+      "home": false,
+      "gamePk": 825009,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-05-16",
+      "opponent": "OAK",
+      "home": false,
+      "gamePk": 825007,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-05-17",
+      "opponent": "OAK",
+      "home": false,
+      "gamePk": 825006,
+      "status": "scheduled",
+      "time_local": "1:05 PM PT"
+    },
+    {
+      "date": "2026-05-18",
+      "opponent": "ARI",
+      "home": false,
+      "gamePk": 825087,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-05-19",
+      "opponent": "ARI",
+      "home": false,
+      "gamePk": 825086,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-05-20",
+      "opponent": "ARI",
+      "home": false,
+      "gamePk": 825084,
+      "status": "scheduled",
+      "time_local": "12:40 PM PT"
+    },
+    {
+      "date": "2026-05-22",
+      "opponent": "CWS",
+      "home": true,
+      "gamePk": 823223,
+      "status": "scheduled",
+      "time_local": "7:15 PM PT"
+    },
+    {
+      "date": "2026-05-23",
+      "opponent": "CWS",
+      "home": true,
+      "gamePk": 823222,
+      "status": "scheduled",
+      "time_local": "1:05 PM PT"
+    },
+    {
+      "date": "2026-05-24",
+      "opponent": "CWS",
+      "home": true,
+      "gamePk": 823220,
+      "status": "scheduled",
+      "time_local": "1:05 PM PT"
+    },
+    {
+      "date": "2026-05-25",
+      "opponent": "ARI",
+      "home": true,
+      "gamePk": 823219,
+      "status": "scheduled",
+      "time_local": "2:05 PM PT"
+    },
+    {
+      "date": "2026-05-26",
+      "opponent": "ARI",
+      "home": true,
+      "gamePk": 823216,
+      "status": "scheduled",
+      "time_local": "6:45 PM PT"
+    },
+    {
+      "date": "2026-05-27",
+      "opponent": "ARI",
+      "home": true,
+      "gamePk": 823217,
+      "status": "scheduled",
+      "time_local": "12:45 PM PT"
+    },
+    {
+      "date": "2026-05-29",
+      "opponent": "COL",
+      "home": false,
+      "gamePk": 824353,
+      "status": "scheduled",
+      "time_local": "5:40 PM PT"
+    },
+    {
+      "date": "2026-05-30",
+      "opponent": "COL",
+      "home": false,
+      "gamePk": 824352,
+      "status": "scheduled",
+      "time_local": "6:10 PM PT"
+    },
+    {
+      "date": "2026-05-31",
+      "opponent": "COL",
+      "home": false,
+      "gamePk": 824354,
+      "status": "scheduled",
+      "time_local": "12:10 PM PT"
     }
   ],
   "summary": {
-    "month_record": "11\u201314",
-    "current_streak": "L1",
-    "last_10": "6\u20134"
+    "month_record": "0\u20130",
+    "current_streak": "L3",
+    "last_10": "4\u20136"
   }
 }
