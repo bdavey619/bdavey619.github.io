@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T05:20:22+00:00",
+  "generated_at": "2026-05-01T05:23:07+00:00",
   "season": 2026,
   "team": {
     "record": "13-18",
@@ -247,6 +247,41 @@
         }
       ]
     },
+    "is_doubleheader": true,
+    "doubleheader_note": "Game 1: L 5\u20136, extras. Game 2: L 5\u20136.",
+    "doubleheader_games": [
+      {
+        "game_num": 1,
+        "gamePk": 823471,
+        "result": "L",
+        "score": {
+          "team": 5,
+          "opp": 6
+        },
+        "opponent": "PHI",
+        "home": false,
+        "key_moment": "extras",
+        "clutch_player": {
+          "name": "Jung Hoo Lee",
+          "event": "Single",
+          "inning": 9,
+          "description": "hit the go-ahead single in the ninth (5\u20134).",
+          "reason": "go-ahead play in the ninth",
+          "confidence": "high"
+        }
+      },
+      {
+        "game_num": 2,
+        "gamePk": 823471,
+        "result": "L",
+        "score": {
+          "team": 5,
+          "opp": 6
+        },
+        "opponent": "PHI",
+        "home": false
+      }
+    ],
     "clutch_player": {
       "name": "Jung Hoo Lee",
       "event": "Single",
@@ -311,7 +346,6 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "Giants drop their third straight. Time to stop the slide.",
   "insight": {
     "headline": "The offense hasn't matched the pitching.",
     "detail": "The staff is holding at 3.96 ERA, but a .657 OPS at the plate has made it difficult. San Francisco sits at 4-6 over their last ten with neither side pulling ahead.",
@@ -322,9 +356,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Jung Hoo Lee's go-ahead single in the ninth should have been enough, but the Phillies had one more swing.",
-    "what_this_means": "They had the game. The bats produced. 13 hits, two RBIs from Arraez, Drew Gilbert going 3-for-5. It looked like the kind of night where noise becomes runs. But Adrian Houser's early damage (three runs in 4.2 innings) made it a chase, and chases don't forgive. Lee's ninth-inning hit felt like the exhale, the moment it locks in. Then it didn't. The game stayed in Philadelphia.",
-    "what_to_watch": "This is inconsistency wearing a specific face now. The lineup created traffic but couldn't multiply it into separation. Thirteen hits and one run in the ninth inning. That's not a margin, that's a warning. Teams that score five runs are not supposed to feel fragile, but this one does. The pattern isn't new. It's just getting louder each time.",
+    "top_frame": "Jung Hoo Lee's go-ahead ninth-inning single gave them a chance. And they let it slip away.",
+    "what_this_means": "They played a doubleheader yesterday. Lost both. The first went to extras, the second was a straight 5-6 defeat in Philadelphia. Twelve strikeouts, thirteen hits, and a team that created exactly enough traffic to feel competitive right up until it didn't. Lee's at-bat in the ninth felt like the moment where execution could save them. It didn't. The Phillies answered, and that was the game.",
+    "what_to_watch": "This is inconsistency with a cost. The Giants are 13-18, three straight losses, and they've reached the part of May where baseball decides who you actually are. The lineup touched the game repeatedly yesterday. Arraez with two RBIs, Gilbert going 3-for-5. But no one finished it. Lee had his moment and made it matter, and it still wasn't enough. That's not variance. That's a team that creates chances without converting them, then watches the margin disappear. They've lost four of their last six. This is how stretches turn permanent.",
     "story_state": {
       "trend": "slipping",
       "driver": "balanced",
