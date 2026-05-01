@@ -143,12 +143,22 @@ def _detect_dh_key_moment(linescore_raw, sd_is_home, result):
     sd_cum  = [sum(sd_by_inning[:i + 1])  for i in range(n)]
     opp_cum = [sum(opp_by_inning[:i + 1]) for i in range(n)]
 
-    # Walkoff: home team wins, bottom of final inning has runs
+    # Opponent walk-off: team is away, lost, opponent (home) scored in final inning
+    if result == "L" and not sd_is_home and opp_by_inning and opp_by_inning[-1] > 0:
+        if n > 9:
+            return "walk-off in extras"
+        if n >= 9:
+            runs = opp_by_inning[-1]
+            if runs >= 2:
+                return f"walk-off after {runs}-run 9th"
+            return "walk-off in 9th"
+
+    # Team walk-off: team is home, won, scored in bottom of final inning
     if result == "W" and sd_is_home and n >= 9:
         if sd_by_inning[-1] > 0 and len(sd_by_inning) == len(opp_by_inning):
             return "walkoff"
 
-    # Extra innings
+    # Extra innings (no walk-off detected above)
     if n > 9:
         return "extras"
 
@@ -221,55 +231,86 @@ def get_last_game():
     ]
 
     if len(final_same_day) == 2:
-        final_same_day.sort(key=lambda g: g["gamePk"])
+        # Sort by MLB gameNumber (authoritative for doubleheaders), then gameDate, then gamePk.
+        def _dh_sort_key(g):
+            gn = g.get("gameNumber")
+            if gn in (1, 2):
+                return (0, gn, g["gamePk"])
+            return (1, g.get("gameDate", ""), g["gamePk"])
+
+        final_same_day.sort(key=_dh_sort_key)
         game1_raw = final_same_day[0]
-        g1_home  = _is_home(game1_raw)
-        g1_sd    = "home" if g1_home else "away"
-        g1_opp   = "away" if g1_home else "home"
-        g1_ls    = game1_raw.get("linescore", {})
-        g1_ls_teams = g1_ls.get("teams", {})
-        g1_sd_r  = g1_ls_teams.get(g1_sd, {}).get("runs", game1_raw["teams"][g1_sd].get("score", 0))
-        g1_opp_r = g1_ls_teams.get(g1_opp, {}).get("runs", game1_raw["teams"][g1_opp].get("score", 0))
-        g1_result = "W" if g1_sd_r > g1_opp_r else "L"
+        game2_raw = final_same_day[1]
 
-        # Detect key moment from Game 1 linescore (no extra API call)
-        g1_key_moment = _detect_dh_key_moment(g1_ls, g1_home, g1_result)
+        # Override primary_raw to be the canonical Game 2 after proper sort
+        primary_raw = game2_raw
 
-        print(
-            f"  [doubleheader] detected — Game 1: {g1_result} {g1_sd_r}–{g1_opp_r}"
-            + (f" ({g1_key_moment})" if g1_key_moment else ""),
-            file=sys.stderr,
-        )
+        def _build_dh_summary(raw_game, game_num):
+            """Build a rich per-game summary dict from the raw schedule game object."""
+            home    = _is_home(raw_game)
+            sd_side = "home" if home else "away"
+            opp_side = "away" if home else "home"
+            ls      = raw_game.get("linescore", {})
+            ls_teams = ls.get("teams", {})
+            sd_r  = ls_teams.get(sd_side, {}).get(
+                "runs", raw_game["teams"][sd_side].get("score", 0)
+            )
+            opp_r = ls_teams.get(opp_side, {}).get(
+                "runs", raw_game["teams"][opp_side].get("score", 0)
+            )
+            result = "W" if sd_r > opp_r else "L"
+            innings = ls.get("innings", [])
+            final_inning = len(innings) if innings else 9
+            went_extras  = final_inning > 9
+            key_moment   = _detect_dh_key_moment(ls, home, result)
+            walkoff      = key_moment is not None and "walk-off" in key_moment
 
-        # Format primary game (Game 2) and build both summaries
+            game_date = raw_game.get("officialDate") or raw_game["gameDate"][:10]
+            venue     = raw_game.get("venue", {}).get("name", "")
+
+            summary = {
+                "game_num":    game_num,
+                "gamePk":      raw_game["gamePk"],
+                "date":        game_date,
+                "opponent":    _opponent_abbr(raw_game),
+                "home":        home,
+                "venue":       venue,
+                "result":      result,
+                "team_score":  sd_r,
+                "opponent_score": opp_r,
+                "score":       {"team": sd_r, "opp": opp_r},
+                "final_inning": final_inning,
+                "went_extras": went_extras,
+                "walkoff":     walkoff,
+            }
+            if key_moment:
+                summary["key_moment"] = key_moment
+            return summary
+
+        g1_summary = _build_dh_summary(game1_raw, 1)
+        g2_summary = _build_dh_summary(game2_raw, 2)
+
+        # Debug logging
+        for gs in (g1_summary, g2_summary):
+            print(
+                f"  [doubleheader] game_num={gs['game_num']}"
+                f" gamePk={gs['gamePk']}"
+                f" result={gs['result']}"
+                f" score={gs['team_score']}-{gs['opponent_score']}"
+                f" walkoff={gs['walkoff']}"
+                f" key_moment={gs.get('key_moment', 'none')}",
+                file=sys.stderr,
+            )
+
+        # Format Game 2 as the primary (full box score, narrative anchor)
         formatted = _format_last_game(primary_raw)
-        g2_result = formatted["result"]
-        g2_score  = formatted["score"]
 
-        g1_note = f"Game 1: {g1_result} {g1_sd_r}–{g1_opp_r}"
-        if g1_key_moment:
-            g1_note += f", {g1_key_moment}"
-        g2_note = f"Game 2: {g2_result} {g2_score['team']}–{g2_score['opp']}"
-
-        g1_summary = {
-            "game_num": 1,
-            "gamePk":   game1_raw["gamePk"],
-            "result":   g1_result,
-            "score":    {"team": g1_sd_r, "opp": g1_opp_r},
-            "opponent": _opponent_abbr(game1_raw),
-            "home":     g1_home,
-        }
-        if g1_key_moment:
-            g1_summary["key_moment"] = g1_key_moment
-
-        g2_summary = {
-            "game_num": 2,
-            "gamePk":   formatted["gamePk"],
-            "result":   g2_result,
-            "score":    g2_score,
-            "opponent": formatted["opponent"],
-            "home":     formatted["home"],
-        }
+        g1_note = f"Game 1: {g1_summary['result']} {g1_summary['team_score']}–{g1_summary['opponent_score']}"
+        if g1_summary.get("key_moment"):
+            g1_note += f", {g1_summary['key_moment']}"
+        g2_note = f"Game 2: {g2_summary['result']} {g2_summary['team_score']}–{g2_summary['opponent_score']}"
+        if g2_summary.get("key_moment"):
+            g2_note += f", {g2_summary['key_moment']}"
 
         formatted["is_doubleheader"]    = True
         formatted["doubleheader_note"]  = f"{g1_note}. {g2_note}."

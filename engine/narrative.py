@@ -829,6 +829,7 @@ Application rules:
             g1_sc = g1.get("score") or {}
             g2_sc = g2.get("score") or {}
             g1_moment = f" ({g1['key_moment']})" if g1.get("key_moment") else ""
+            g2_moment = f" ({g2['key_moment']})" if g2.get("key_moment") else ""
             g1_line = (
                 f"Game 1: {g1['result']} {g1_sc.get('team', '?')}–{g1_sc.get('opp', '?')}"
                 f"{g1_moment}"
@@ -836,22 +837,53 @@ Application rules:
             g2_line = (
                 f"Game 2 (primary box score): {g2['result']} "
                 f"{g2_sc.get('team', '?')}–{g2_sc.get('opp', '?')}"
+                f"{g2_moment}"
             )
+            # Build explicit walk-off loss framing when both games ended that way
+            g1_walkoff = g1.get("walkoff", False)
+            g2_walkoff = g2.get("walkoff", False)
+            g1_t = g1_sc.get('team', '?')
+            g1_o = g1_sc.get('opp', '?')
+            g2_t = g2_sc.get('team', '?')
+            g2_o = g2_sc.get('opp', '?')
+            g1_km = g1.get("key_moment", "")
+            g2_km = g2.get("key_moment", "")
+            if g1_walkoff and g2_walkoff:
+                walkoff_block = (
+                    f"\n  WALK-OFF CONTEXT (critical — use these exact facts):\n"
+                    f"  Both games were walk-off losses.\n"
+                    f"  Game 1: lost {g1_t}–{g1_o} — {g1_km}.\n"
+                    f"  Game 2: lost {g2_t}–{g2_o} — {g2_km}.\n"
+                    f"  The narrative must frame the full day: two games, two late losses, both walk-offs.\n"
+                    f"  Do NOT focus only on one player moment from one game."
+                )
+            elif g1_walkoff:
+                walkoff_block = (
+                    f"\n  WALK-OFF CONTEXT: Game 1 ended on an opponent walk-off{g1_moment}."
+                )
+            elif g2_walkoff:
+                walkoff_block = (
+                    f"\n  WALK-OFF CONTEXT: Game 2 ended on an opponent walk-off{g2_moment}."
+                )
+            else:
+                walkoff_block = ""
         else:
             dh_note = last_game.get("doubleheader_note", "")
             g2_sc   = last_game.get("score") or {}
             g2_res  = last_game.get("result", "?")
             g1_line = dh_note
             g2_line = f"Game 2 (primary): {g2_res} {g2_sc.get('team', '?')}–{g2_sc.get('opp', '?')}"
+            walkoff_block = ""
 
+        walkoff_sep = f"\n{walkoff_block}" if walkoff_block else ""
         doubleheader_hint = (
             f"\n\nDOUBLEHEADER — TWO GAMES YESTERDAY:\n"
             f"  {g1_line}\n"
-            f"  {g2_line}\n"
+            f"  {g2_line}"
+            f"{walkoff_sep}\n"
             f"\n"
             f"  INSTRUCTION: State of Play MUST account for both games. Do not write as if only\n"
             f"  Game 2 happened. Open by framing the full day — both outcomes matter.\n"
-            f"  If Game 1 had the most memorable finish (walkoff, extras, go-ahead late), name it.\n"
             f"  Game 2 detail is in the box score above and can anchor the analysis,\n"
             f"  but the story must contain both results."
         )
