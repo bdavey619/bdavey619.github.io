@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T04:51:36+00:00",
+  "generated_at": "2026-05-01T05:21:09+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -319,9 +319,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Waldron couldn't hold early damage and Castellanos couldn't finish it.",
-    "what_this_means": "Eight strikeouts in five innings. That was the Padres' offensive summary. Waldron's ERA sits at 9.88 for a reason. The Cubs scored three runs before the second inning ended, which meant any comeback had to erase a deficit from the jump. Castellanos delivered with a two-run homer and another RBI, the lineup's only real firepower, but two runs on three hits doesn't beat a team in a one-run game. This is where the division margin lives. In games they had chances to win and simply didn't. The offense showed up once. It wasn't enough.",
-    "what_to_watch": "This team doesn't get better in close games by accident. They need stretches where pitching holds and hitting converts what pitching creates. Yesterday showed the reverse: pitching broke early and hitting didn't have enough to answer. That's a pattern that doesn't survive.",
+    "top_frame": "Waldron couldn't hold the lead, and three strikeouts in the eighth ended any comeback.",
+    "what_this_means": "The Padres had this game. They didn't finish it. Castellanos delivered two runs early. A home run that gave them a lead they needed to protect. But Waldron's ERA sits at 9.88 for a reason: he can't consistently get outs when it matters. Five innings, three earned runs, a walk, barely a strikeout. Against a Cubs team that's beatable, that's not enough rope. The offense scratched together three hits and eight strikeouts. Offensive numbers that don't win close games. A day game at Petco against a division rival became a referendum on whether this team can execute when the margin is real. They couldn't. Eight strikeouts and Castellanos's early heroics evaporated into nothing.",
+    "what_to_watch": "This is the fragile part of the Padres' story getting louder. They can generate moments. A solo shot here, a clutch hit there. But converting those into wins requires the pitching to hold and the rest of the lineup to pile on. Neither happened. Waldron's inability to pitch clean innings is becoming a liability the team can't afford against this division. Castellanos gave them a chance. The game needed more than one player, and nobody else answered.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
