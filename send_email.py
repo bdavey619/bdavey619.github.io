@@ -54,53 +54,56 @@ def load_brief(team_dir):
         return json.load(f)
 
 
-def is_stale_recap(brief, team_dir):
-    """
-    Return True when the last game's morning-after brief was already archived
-    (meaning it was already sent) and there is no game scheduled today.
+def _recap_date():
+    """Yesterday's date — the game date we expect to recap this morning."""
+    return datetime.now().date() - timedelta(days=1)
 
-    Logic: the morning-after brief is archived under last_game.date + 1 day.
-    If that archive file exists and today is after that date, the recap is stale.
-    Same-day reruns (expected_send_date == today) are never suppressed.
+
+def should_send(brief, team_slug):
+    """
+    Primary send gate: only send when last_game.date == yesterday AND
+    status is final or postponed (including doubleheaders).
+
+    Returns (ok: bool, reason: str).
+
+    next_game.date == today is explicitly NOT a send trigger — preview-only
+    emails (stale recap + game today) are suppressed here.
     """
     last_game = brief.get("last_game", {})
-    if last_game.get("status") not in ("final", "postponed"):
-        return False
+    status    = last_game.get("status")
 
-    ng_date   = brief.get("next_game", {}).get("date", "")
-    today     = datetime.now().date()
-    today_str = today.strftime("%Y-%m-%d")
-
-    if ng_date == today_str:
-        return False
+    if status not in ("final", "postponed"):
+        return False, f"no recap-worthy game yesterday for {team_slug} (status={status!r})"
 
     lg_date_str = last_game.get("date", "")
     try:
         lg_date = datetime.strptime(lg_date_str, "%Y-%m-%d").date()
     except (ValueError, TypeError):
-        return False
+        return False, f"last_game.date unparseable ({lg_date_str!r}) — skipping"
 
-    expected_send_date = (lg_date + timedelta(days=1)).strftime("%Y-%m-%d")
+    recap_date = _recap_date()
+    if lg_date != recap_date:
+        return False, (
+            f"no recap-worthy game yesterday for {team_slug} "
+            f"(last_game.date={lg_date_str}, recap_date={recap_date})"
+        )
 
-    # First send: today is the expected morning-after date — proceed
-    if expected_send_date == today_str:
-        return False
-
-    # Stale if the morning-after archive already exists
-    return (team_dir / "archive" / f"{expected_send_date}.json").exists()
+    return True, "ok"
 
 
-def is_off_day(brief):
+def is_already_archived(brief, team_dir):
     """
-    Return True when there is nothing worth sending: no recent game to recap
-    AND no game scheduled today. If today has a game, the brief still goes out
-    as a preview-only send.
+    Duplicate-run guard: return True if the archive file for this brief's
+    send date already exists, meaning the email was already sent today.
     """
-    if brief.get("last_game", {}).get("status") != "off_day":
+    last_game   = brief.get("last_game", {})
+    lg_date_str = last_game.get("date", "")
+    try:
+        lg_date = datetime.strptime(lg_date_str, "%Y-%m-%d").date()
+    except (ValueError, TypeError):
         return False
-    ng_date = brief.get("next_game", {}).get("date", "")
-    today   = datetime.now().strftime("%Y-%m-%d")
-    return ng_date != today
+    send_date = (lg_date + timedelta(days=1)).strftime("%Y-%m-%d")
+    return (team_dir / "archive" / f"{send_date}.json").exists()
 
 
 def safety_check(brief):
@@ -108,8 +111,8 @@ def safety_check(brief):
     Return (ok: bool, reason: str).
 
     Guards against sending a brief that is incomplete or based on a game
-    that hasn't finished. Fails safe: any missing or unexpected value blocks
-    the send rather than allowing a broken email through.
+    that hasn't finished. Only reached after should_send() passes, so
+    status is guaranteed to be 'final' or 'postponed'.
     """
     last_game = brief.get("last_game", {})
     status    = last_game.get("status")
@@ -117,11 +120,6 @@ def safety_check(brief):
     if status == "postponed":
         if not last_game.get("opponent"):
             return False, "last_game.opponent is missing in postponed brief — skipping send"
-        return True, "ok"
-
-    # off_day with a game today: is_off_day() already decided not to skip;
-    # data checks don't apply since there's no completed game to validate.
-    if status == "off_day":
         return True, "ok"
 
     if status != "final":
@@ -235,13 +233,14 @@ def main():
         print(f"ERROR: Missing required env vars: {', '.join(missing)}", file=sys.stderr)
         sys.exit(1)
 
-    # Load brief and run off-day + safety checks
+    # Load brief and run send-gate + safety checks
     brief = load_brief(team_dir)
-    if is_off_day(brief):
-        print(f"[email] skipped: off day for {team_slug}")
+    send, reason = should_send(brief, team_slug)
+    if not send:
+        print(f"[email] skipped: {reason}")
         sys.exit(0)
-    if is_stale_recap(brief, team_dir):
-        print(f"[email] skipped: no game today and last game already recapped for {team_slug}")
+    if is_already_archived(brief, team_dir):
+        print(f"[email] skipped: {team_slug} brief already archived (duplicate run guard)")
         sys.exit(0)
     ok, reason = safety_check(brief)
     if not ok:
