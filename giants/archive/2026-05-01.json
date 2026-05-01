@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T05:41:15+00:00",
+  "generated_at": "2026-05-01T05:42:55+00:00",
   "season": 2026,
   "team": {
     "record": "13-18",
@@ -356,9 +356,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Jung Hoo Lee's go-ahead single in the ninth was the only moment that mattered in a day the Giants couldn't hold.",
-    "what_this_means": "Doubled down on a doubleheader loss yesterday. Two straight 5-6 defeats to Philadelphia. The pattern isn't getting cleaner. It's getting louder. The bats produced: thirteen hits across the day, two runs by Arraez, Gilbert going 3-for-5 in Game 2. But production that doesn't finish is just traffic. Lee's ninth-inning single made one brief run at the finish line. The Phillies erased it. This is the cost when you can't separate a good night from a complete one.",
-    "what_to_watch": "Inconsistency has a name now. It's not the lineup's fault. It's not one reliever's fault. It's the team's inability to turn a competitive game into a closed one. They're leaving runners on base and finding reasons to come up short. Twelve strikeouts in one game signals the margin for error is already paper-thin. A team at 13-18 doesn't survive nights where it has chances but can't finish.",
+    "top_frame": "Two losses in a day exposed the same problem: they had chances and couldn't finish them.",
+    "what_this_means": "Jung Hoo Lee delivered in the ninth yesterday, a go-ahead single that made it 5\u20134. The bats managed thirteen hits across both games. None of it held. Philadelphia scored the final run each time, and now the Giants sit at 13\u201318, three straight losses, four wins in the last ten. This is a team that creates traffic and stalls before it matters. Drew Gilbert went 3-for-5 in the doubleheader, Luis Arraez drove in two runs. Production existed. But Houser couldn't hold a lead past the fourth inning, and the late-inning chances evaporated. Twelve strikeouts yesterday. Eight left on base across both games.",
+    "what_to_watch": "The pattern has teeth now. They're not struggling to score. They're failing to score when it counts. One clean finish is all they need. They haven't gotten it in three days.",
     "story_state": {
       "trend": "slipping",
       "driver": "balanced",
