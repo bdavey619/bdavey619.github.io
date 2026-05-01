@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T14:03:01+00:00",
+  "generated_at": "2026-05-01T14:50:53+00:00",
   "season": 2026,
   "team": {
     "record": "17-14",
@@ -8,8 +8,8 @@
     "last10": "6-4",
     "division_rank": 1,
     "games_back": "-",
-    "avg": ".245",
-    "ops": ".714",
+    "avg": ".246",
+    "ops": ".716",
     "era": "4.23"
   },
   "last_game": {
@@ -303,17 +303,17 @@
   },
   "insight": {
     "headline": "Neither side has clicked. 6-4 in the last ten.",
-    "detail": ".245 average, .714 OPS, 4.23 ERA. When no side takes control, the results end up in the middle. Still in first, but the inconsistency is real.",
-    "why": "ERA at 4.23 \u00b7 OPS at .714 \u00b7 6\u20134 in the last ten"
+    "detail": ".246 average, .716 OPS, 4.23 ERA. When no side takes control, the results end up in the middle. Still in first, but the inconsistency is real.",
+    "why": "ERA at 4.23 \u00b7 OPS at .716 \u00b7 6\u20134 in the last ten"
   },
   "story_hook": "",
   "story_threads_debug": [
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "They put together hits across the lineup and didn't let one close game become two.",
-    "what_this_means": "The win over Kansas City came the way the Athletics have learned to survive lately: multiple contributors, no one doing too much. Hernaiz finished 3-for-4 with two runs driven in. Langeliers matched him with three hits. Eleven total hits meant the offense showed up in the daylight game with a format that made it stick. Springs gave them three solid innings before the bullpen took over, holding a 6-3 lead that never felt comfortable but never actually broke. This is not dominance. This is the formula working because everyone took a piece of it. The pattern held again when it mattered.",
-    "what_to_watch": "Two straight wins now, and the division knows you're still here.",
+    "top_frame": "They scraped out enough on a day when they barely had to.",
+    "what_this_means": "Jeffrey Springs gave them three innings of two-run ball, the kind of short outing that works when the offense actually produces. Darell Hernaiz went 3-for-4 with two RBI, and the rest of the lineup found ways to matter. Eleven hits total meant the workload was shared. This wasn't reliance on one player carrying a bad night. This was a team putting basic pressure on Kansas City and collecting the result.",
+    "what_to_watch": "That matters less because it looked dominant than because it looked sustainable. They've won two straight. The division is still theirs. But the pattern that's emerging isn't about talent breaking through. It's about consistency just barely holding. A .246 batting average and a .716 OPS don't sustain playoff teams, even in May. Wins on margins this thin expose the question underneath: how long until the formula cracks when the opponent is better? This one felt like it proved something. It didn't.",
     "story_state": {
       "trend": "stabilizing",
       "driver": "balanced",
@@ -324,7 +324,7 @@
       "streak": "W2",
       "last10_w": 6,
       "era": 4.23,
-      "ops": 0.714,
+      "ops": 0.716,
       "gb": 0.0,
       "division_rank": 1,
       "last_result": "W",
