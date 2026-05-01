@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      background: #faf8f3;
+      color: #1a1613;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 24px;
+    }
+    .card {
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+    .label {
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #8a8278;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .message {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+    .sub {
+      font-size: 13px;
+      color: #8a8278;
+      margin-bottom: 28px;
+    }
+    .back-link {
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 600;
+      text-decoration: none;
+      color: #5a534c;
+      border-bottom: 1px solid #d8d2c4;
+      padding-bottom: 1px;
+    }
+    .back-link:hover { color: #1a1613; border-color: #1a1613; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <p class="label" id="team-label">Morning Brief</p>
+    <p class="message">Got it. Thanks.</p>
+    <p class="sub" id="vote-sub"></p>
+    <a class="back-link" id="back-link" href="/">Back to brief &rarr;</a>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const team = params.get('team') || '';
+    const vote = params.get('vote') || '';
+    const date = params.get('date') || '';
+
+    const teamNames = {
+      yankees:   'Yankees Morning Brief',
+      giants:    'Giants Morning Brief',
+      padres:    'Padres Morning Brief',
+      athletics: 'Athletics Morning Brief',
+    };
+    const teamUrls = {
+      yankees:   'https://bdavey619.github.io/yankees/',
+      giants:    'https://bdavey619.github.io/giants/',
+      padres:    'https://bdavey619.github.io/padres/',
+      athletics: 'https://bdavey619.github.io/athletics/',
+    };
+
+    if (team && teamNames[team]) {
+      document.getElementById('team-label').textContent = teamNames[team];
+    }
+
+    const voteLabels = { hit: 'Hit logged.', miss: 'Miss logged.' };
+    if (vote && voteLabels[vote]) {
+      document.getElementById('vote-sub').textContent = voteLabels[vote];
+    }
+
+    const backLink = document.getElementById('back-link');
+    if (team && teamUrls[team]) {
+      backLink.href = teamUrls[team];
+      backLink.textContent = '← Back to brief';
+    } else {
+      backLink.href = 'https://bdavey619.github.io/';
+      backLink.textContent = '← Back to home';
+    }
+  </script>
+</body>
+</html>

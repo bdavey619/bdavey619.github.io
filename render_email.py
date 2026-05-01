@@ -52,6 +52,23 @@ def fmt_brief_date():
     return datetime.now().strftime("%A, %B %-d, %Y")
 
 
+def next_day_label(date_str):
+    """Return 'Today', 'Tomorrow', or weekday name for the next game date."""
+    if not date_str:
+        return "Today"
+    try:
+        from datetime import timedelta
+        game_date = datetime.strptime(date_str, "%Y-%m-%d").date()
+        today = datetime.now().date()
+        if game_date == today:
+            return "Today"
+        elif game_date == today + timedelta(days=1):
+            return "Tomorrow"
+        return game_date.strftime("%A")
+    except (ValueError, TypeError):
+        return "Today"
+
+
 def fmt_game_date_short(date_str):
     """Short game date for the context line: e.g. 'Sat, Apr 12'."""
     try:
@@ -67,6 +84,25 @@ def fmt_generated_at(ts_str):
         return dt.strftime("Updated %B %-d, %Y")
     except Exception:
         return ts_str
+
+
+def build_feedback_block(team_slug, accent_color):
+    """Compact Was this useful? / Hit / Miss block for the email footer."""
+    today = datetime.now().strftime("%Y-%m-%d")
+    base = "https://bdavey.co/feedback/"
+    hit_url  = f"{base}?team={team_slug}&date={today}&vote=hit"
+    miss_url = f"{base}?team={team_slug}&date={today}&vote=miss"
+    font = "font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;"
+    return (
+        f'<p style="margin:8px 0 6px;{font}font-size:11px;color:#8a8278;">'
+        f'Was this one useful?&nbsp; '
+        f'<a href="{hit_url}" style="{font}font-size:11px;color:{accent_color};font-weight:600;'
+        f'text-decoration:none;border:1px solid {accent_color};padding:2px 9px;">Hit</a>'
+        f'&nbsp;&nbsp;'
+        f'<a href="{miss_url}" style="{font}font-size:11px;color:#8a8278;font-weight:600;'
+        f'text-decoration:none;border:1px solid #d8d2c4;padding:2px 9px;">Miss</a>'
+        f'</p>'
+    )
 
 
 def build_highlights_link(url, accent_color):
@@ -324,12 +360,14 @@ def main():
         "insight_headline":    insight_headline,
         "insight_detail":      insight_detail,
         "what_to_watch_block": _build_what_to_watch_block(what_to_watch_text),
+        "next_day_label":    next_day_label(ng.get("date", "")),
         "next_opponent":     f"{ng_home_away} {ng.get('opponent', '')}",
         "next_time":         ng.get("time_local", ""),
         "next_probables":    next_probables,
         "next_insight_row":  next_insight_row,
         "next_insight_pb":   next_insight_pb,
         "site_url":          cfg.site_url,
+        "feedback_block":    build_feedback_block(team_slug, cfg.accent_color),
         "generated_at":      fmt_generated_at(brief.get("generated_at", "")),
     }
 

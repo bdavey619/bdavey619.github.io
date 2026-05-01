@@ -56,6 +56,29 @@ def fmt_generated_at(ts_str):
         return ts_str
 
 
+ACCENT_COLOR = "#2f241d"
+TEAM_SLUG = "padres"
+
+
+def build_feedback_block():
+    """Compact Was this useful? / Hit / Miss block for the email footer."""
+    today = datetime.now().strftime("%Y-%m-%d")
+    base = "https://bdavey.co/feedback/"
+    hit_url  = f"{base}?team={TEAM_SLUG}&date={today}&vote=hit"
+    miss_url = f"{base}?team={TEAM_SLUG}&date={today}&vote=miss"
+    font = "font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;"
+    return (
+        f'<p style="margin:8px 0 6px;{font}font-size:11px;color:#8a8278;">'
+        f'Was this one useful?&nbsp; '
+        f'<a href="{hit_url}" style="{font}font-size:11px;color:{ACCENT_COLOR};font-weight:600;'
+        f'text-decoration:none;border:1px solid {ACCENT_COLOR};padding:2px 9px;">Hit</a>'
+        f'&nbsp;&nbsp;'
+        f'<a href="{miss_url}" style="{font}font-size:11px;color:#8a8278;font-weight:600;'
+        f'text-decoration:none;border:1px solid #d8d2c4;padding:2px 9px;">Miss</a>'
+        f'</p>'
+    )
+
+
 def build_hitter_rows(hitters):
     rows = []
     for i, h in enumerate(hitters):
@@ -202,6 +225,7 @@ def main():
         "next_insight_row":  next_insight_row,
         "next_insight_pb":   next_insight_pb,
         "site_url":          SITE_URL,
+        "feedback_block":    build_feedback_block(),
         "generated_at":      fmt_generated_at(brief.get("generated_at", "")),
     }
 
