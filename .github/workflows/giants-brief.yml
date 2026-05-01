@@ -6,6 +6,11 @@ on:
     # Staggered 60 minutes after Yankees (0 11) to avoid resource contention.
     - cron: "0 12 * * *"
   workflow_dispatch:
+    inputs:
+      force_send:
+        description: "Force send email even if already archived"
+        required: false
+        default: "false"
 
 jobs:
   build-brief:
@@ -45,6 +50,7 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_BCC_GIANTS: ${{ secrets.EMAIL_BCC_GIANTS }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          FORCE_SEND: ${{ github.event.inputs.force_send }}
         run: python send_email.py --team giants
 
       - name: Commit and push if changed

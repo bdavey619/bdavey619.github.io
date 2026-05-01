@@ -6,6 +6,11 @@ on:
     # Shifted from 6:15 to give email a 6:25–6:30 AM ET landing window.
     - cron: "25 10 * * *"
   workflow_dispatch:
+    inputs:
+      force_send:
+        description: "Force send email even if already archived"
+        required: false
+        default: "false"
 
 jobs:
   build-brief:
@@ -45,6 +50,7 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_BCC_PADRES: ${{ secrets.EMAIL_BCC_PADRES }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          FORCE_SEND: ${{ github.event.inputs.force_send }}
         run: python send_email.py --team padres
 
       - name: Commit and push if changed

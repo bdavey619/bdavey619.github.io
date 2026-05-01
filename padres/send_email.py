@@ -180,15 +180,20 @@ def main():
         print(f"ERROR: Missing required env vars: {', '.join(missing)}", file=sys.stderr)
         sys.exit(1)
 
+    force_send = os.getenv("FORCE_SEND", "").lower() == "true"
+    print(f"[email] env FORCE_SEND: {str(force_send).lower()}")
+
     # Load brief and run send-gate + safety checks
     brief = load_brief()
     send, reason = should_send(brief)
     if not send:
         print(f"[email] skipped: {reason}")
         sys.exit(0)
-    if is_already_archived(brief):
+    if is_already_archived(brief) and not force_send:
         print("[email] skipped: padres brief already archived (duplicate run guard)")
         sys.exit(0)
+    if force_send:
+        print("[email] FORCE_SEND enabled — bypassing duplicate guard")
     ok, reason = safety_check(brief)
     if not ok:
         # Exit 0 so the workflow step doesn't fail — skipping is expected behaviour

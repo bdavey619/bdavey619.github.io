@@ -233,15 +233,20 @@ def main():
         print(f"ERROR: Missing required env vars: {', '.join(missing)}", file=sys.stderr)
         sys.exit(1)
 
+    force_send = os.getenv("FORCE_SEND", "").lower() == "true"
+    print(f"[email] env FORCE_SEND: {str(force_send).lower()}")
+
     # Load brief and run send-gate + safety checks
     brief = load_brief(team_dir)
     send, reason = should_send(brief, team_slug)
     if not send:
         print(f"[email] skipped: {reason}")
         sys.exit(0)
-    if is_already_archived(brief, team_dir):
+    if is_already_archived(brief, team_dir) and not force_send:
         print(f"[email] skipped: {team_slug} brief already archived (duplicate run guard)")
         sys.exit(0)
+    if force_send:
+        print("[email] FORCE_SEND enabled — bypassing duplicate guard")
     ok, reason = safety_check(brief)
     if not ok:
         print(f"Safety guard: {reason}")
