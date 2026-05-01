@@ -26,6 +26,18 @@ def load_brief():
         return json.load(f)
 
 
+def is_off_day(brief):
+    """
+    Return True when there is nothing worth sending: no recent game to recap
+    AND no game scheduled today. If today has a game, the brief still goes out.
+    """
+    if brief.get("last_game", {}).get("status") != "off_day":
+        return False
+    ng_date = brief.get("next_game", {}).get("date", "")
+    today   = datetime.now().strftime("%Y-%m-%d")
+    return ng_date != today
+
+
 def safety_check(brief):
     """
     Return (ok: bool, reason: str).
@@ -38,6 +50,11 @@ def safety_check(brief):
 
     # Game must be fully completed
     status = last_game.get("status")
+
+    # off_day with a game today: is_off_day() already decided not to skip.
+    if status == "off_day":
+        return True, "ok"
+
     if status != "final":
         return False, f"last_game.status is '{status}' — game may not be complete, skipping send"
 
@@ -127,8 +144,11 @@ def main():
         print(f"ERROR: Missing required env vars: {', '.join(missing)}", file=sys.stderr)
         sys.exit(1)
 
-    # Load brief and run safety check
+    # Load brief and run off-day + safety checks
     brief = load_brief()
+    if is_off_day(brief):
+        print("[email] skipped: off day for padres")
+        sys.exit(0)
     ok, reason = safety_check(brief)
     if not ok:
         # Exit 0 so the workflow step doesn't fail — skipping is expected behaviour

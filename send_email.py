@@ -54,6 +54,19 @@ def load_brief(team_dir):
         return json.load(f)
 
 
+def is_off_day(brief):
+    """
+    Return True when there is nothing worth sending: no recent game to recap
+    AND no game scheduled today. If today has a game, the brief still goes out
+    as a preview-only send.
+    """
+    if brief.get("last_game", {}).get("status") != "off_day":
+        return False
+    ng_date = brief.get("next_game", {}).get("date", "")
+    today   = datetime.now().strftime("%Y-%m-%d")
+    return ng_date != today
+
+
 def safety_check(brief):
     """
     Return (ok: bool, reason: str).
@@ -68,6 +81,11 @@ def safety_check(brief):
     if status == "postponed":
         if not last_game.get("opponent"):
             return False, "last_game.opponent is missing in postponed brief — skipping send"
+        return True, "ok"
+
+    # off_day with a game today: is_off_day() already decided not to skip;
+    # data checks don't apply since there's no completed game to validate.
+    if status == "off_day":
         return True, "ok"
 
     if status != "final":
@@ -181,8 +199,11 @@ def main():
         print(f"ERROR: Missing required env vars: {', '.join(missing)}", file=sys.stderr)
         sys.exit(1)
 
-    # Load brief and run safety check
+    # Load brief and run off-day + safety checks
     brief = load_brief(team_dir)
+    if is_off_day(brief):
+        print(f"[email] skipped: off day for {team_slug}")
+        sys.exit(0)
     ok, reason = safety_check(brief)
     if not ok:
         print(f"Safety guard: {reason}")
