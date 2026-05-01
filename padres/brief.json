@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T05:40:40+00:00",
+  "generated_at": "2026-05-01T11:36:14+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -318,9 +318,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Waldron left the game trailing, and the lineup couldn't climb out.",
-    "what_this_means": "The Padres had their moments. Castellanos delivered a two-run shot early, Andujar added another. But eight strikeouts and three hits told the real story. They created nothing after the second inning, and Chicago's relievers did the rest. This is a team that's supposed to survive on pitching and timely contact. Instead they're swinging through fastballs and leaving runners stranded. Eight left on base. Nothing to show for it.",
-    "what_to_watch": "Germ\u00e1n M\u00e1rquez faces a White Sox team hitting .225 tonight, which should feel like a reprieve for a rotation already carrying the offense. The question is whether the bats can do anything with it. One game above .500 in the division, a two-game skid, and the margin is real. Chicago's struggling. That's when a team like this needs to grab it.",
+    "top_frame": "Waldron couldn't hold a one-run game, and the bats never made him regret it.",
+    "what_this_means": "Matt Waldron gave the Padres a chance. Five innings, three runs, the kind of line that doesn't lose games on its own. Nick Castellanos answered back with two runs on a solo shot, keeping them in a fight they controlled until the moment they didn't. The Cubs scraped together one more run late, and that was the game.",
+    "what_to_watch": "This is what fragile looks like. The pattern hasn't changed; it's just gotten louder. The offense created moments. Castellanos found one, Miguel Andujar found another. But moments don't matter if they don't compound. Eight strikeouts in the box score, three hits that looked promising before they became yesterday. A one-run loss at home to a team below .500 is the cost of not finishing what you start. They had the moments. They didn't have the finish.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
