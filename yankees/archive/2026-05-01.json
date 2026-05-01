@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T04:54:57+00:00",
+  "generated_at": "2026-05-01T12:01:47+00:00",
   "season": 2026,
   "team": {
     "record": "20-11",
@@ -300,7 +300,6 @@
     "hitters": [],
     "pitchers": []
   },
-  "subhead": "New York falls to TEX.",
   "insight": {
     "headline": "Balanced ball. Yankees are 8-2 in the last ten.",
     "detail": "Both sides have contributed: .229 average, .748 OPS at the plate, 3.11 ERA from the staff.",
@@ -312,9 +311,9 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "The offense went silent when it had to, and that's a loss the Yankees shouldn't carry into Baltimore.",
-    "what_this_means": "They had their chances against Texas. Ben Rice went 3-for-4, finding hits consistently, but the lineup as a whole managed just five hits and eight strikeouts. That strikeout rate is the real problem here. Elmer Rodr\u00edguez lasted only four innings, allowing two runs, which means the Yankees were chasing from early. The game was decided by what didn't happen: production with runners in position. This isn't about one bad night. This is about margin. A surging team lives on consistent execution. A team that loses games like this. Games where the pitching falters early and the offense can't answer. Is announcing a vulnerability.",
-    "what_to_watch": "The division doesn't wait for hot stretches to cool. Tonight will show whether that's momentum stalling or just noise.",
+    "top_frame": "Offense cratered when it mattered most. Eight strikeouts and five hits in Arlington.",
+    "what_this_means": "---",
+    "what_to_watch": "They had nothing. A shutout loss to Texas in daylight means the pitching held fine, the execution didn't. Rodr\u00edguez managed four innings and two runs. That's survivable. But striking out eight times against a team that needed you to chase isn't an excuse. It's the game. Ben Rice went 3-for-4 and it didn't matter. One bat working doesn't move the needle when the rest of the lineup is a desert. This is where the 20-11 record and division lead start to feel fragile. Good teams don't get shut out at home.",
     "story_state": {
       "trend": "surging",
       "driver": "balanced",
