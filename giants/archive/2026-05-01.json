@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T04:52:30+00:00",
+  "generated_at": "2026-05-01T05:20:22+00:00",
   "season": 2026,
   "team": {
     "record": "13-18",
@@ -322,9 +322,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Jung Hoo Lee hit the go-ahead single in the ninth and it still wasn't enough.",
-    "what_this_means": "They needed one more swing to finish it. That's the game. They didn't get it. Nine hits, 13 strikeouts. The offense created traffic and Lee turned some of it into runs, but the margin wasn't real. Houser gave them four innings and three earned runs before leaving, and Philadelphia answered. This is what inconsistency looks like when the division is seven games away: you have nights where you manufacture just enough to lead late, then you can't close it. The pattern isn't new. It's just getting louder. They had their chance in the ninth and couldn't make it hold.",
-    "what_to_watch": "Now the question is whether Ray's steadiness in recent starts (2.43 ERA over his last four) can arrest the losing streak, or if this team will treat a solid start as permission to scrape by again.",
+    "top_frame": "Jung Hoo Lee's go-ahead single in the ninth should have been enough, but the Phillies had one more swing.",
+    "what_this_means": "They had the game. The bats produced. 13 hits, two RBIs from Arraez, Drew Gilbert going 3-for-5. It looked like the kind of night where noise becomes runs. But Adrian Houser's early damage (three runs in 4.2 innings) made it a chase, and chases don't forgive. Lee's ninth-inning hit felt like the exhale, the moment it locks in. Then it didn't. The game stayed in Philadelphia.",
+    "what_to_watch": "This is inconsistency wearing a specific face now. The lineup created traffic but couldn't multiply it into separation. Thirteen hits and one run in the ninth inning. That's not a margin, that's a warning. Teams that score five runs are not supposed to feel fragile, but this one does. The pattern isn't new. It's just getting louder each time.",
     "story_state": {
       "trend": "slipping",
       "driver": "balanced",
@@ -344,15 +344,13 @@
     },
     "story_delta": {
       "has_prev": true,
-      "trend_changed": true,
-      "trend_direction": "declined",
+      "trend_changed": false,
+      "trend_direction": "unchanged",
       "conf_changed": false,
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "trend declined: fragile \u2192 slipping",
-        "lost last game",
-        "division gap: fell back 1.0 game(s) (7.0 back)"
+        "lost last game"
       ]
     }
   }
