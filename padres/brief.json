@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T05:23:54+00:00",
+  "generated_at": "2026-05-01T05:40:40+00:00",
   "season": 2026,
   "team": {
     "record": "19-11",
@@ -318,9 +318,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "The offense met only one deadline. Castellanos cleared the bases early, and then the lineup went silent for six innings.",
-    "what_this_means": "This is the cost of inconsistency at the top of a crowded division. The Padres had the game in hand after two innings, then let Chicago back in through sheer inertia. Eight strikeouts and just three hits after the second inning is not a slump. It's a pattern that keeps reasserting itself when the margin tightens. Waldron held them close enough to stay dangerous, which meant the game came down to whether the bats could show up again late. They didn't. This is how thin margins disappear.",
-    "what_to_watch": "Watch how M\u00e1rquez navigates the White Sox's **.225 average** tonight. If the Padres want to stop bleeding close games, the pitching has to punish bad contact. That's not negotiable in this division right now. Not when your offense keeps leaving games on the table.",
+    "top_frame": "Waldron left the game trailing, and the lineup couldn't climb out.",
+    "what_this_means": "The Padres had their moments. Castellanos delivered a two-run shot early, Andujar added another. But eight strikeouts and three hits told the real story. They created nothing after the second inning, and Chicago's relievers did the rest. This is a team that's supposed to survive on pitching and timely contact. Instead they're swinging through fastballs and leaving runners stranded. Eight left on base. Nothing to show for it.",
+    "what_to_watch": "Germ\u00e1n M\u00e1rquez faces a White Sox team hitting .225 tonight, which should feel like a reprieve for a rotation already carrying the offense. The question is whether the bats can do anything with it. One game above .500 in the division, a two-game skid, and the margin is real. Chicago's struggling. That's when a team like this needs to grab it.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
