@@ -157,7 +157,9 @@ def main():
     team_key  = os.environ.get(f"{team_slug.upper()}_RESEND_API_KEY", "").strip()
     global_key = os.environ.get("RESEND_API_KEY", "").strip()
     api_key   = team_key or global_key
-    bcc_raw   = os.environ.get(f"EMAIL_BCC_{team_slug.upper()}", "")
+    bcc_env_key = f"EMAIL_BCC_{team_slug.upper()}"
+    print(f"[email] env {bcc_env_key} present: {bcc_env_key in os.environ}")
+    bcc_raw   = os.environ.get(bcc_env_key, "")
     bcc_addrs = [r.strip() for r in bcc_raw.split(",") if r.strip()]
     from_email_raw = os.environ.get("EMAIL_FROM", "").strip()
     # Extract bare address if the secret accidentally contains a full display name.
@@ -197,6 +199,7 @@ def main():
     html_content = html_path.read_text()
     subject = build_subject(brief, cfg)
 
+    print(f"[email] sending to {len(bcc_addrs)} BCC recipients for team: {team_slug}")
     if not bcc_addrs:
         print(f"[email] No BCC recipients found for team: {team_slug}")
 

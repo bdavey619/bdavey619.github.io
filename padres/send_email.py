@@ -111,6 +111,7 @@ def send_email(api_key, bcc_addrs, from_addr, subject, html_content):
 def main():
     # Validate required env vars before doing any file I/O
     api_key = os.environ.get("RESEND_API_KEY", "").strip()
+    print(f"[email] env EMAIL_BCC_PADRES present: {'EMAIL_BCC_PADRES' in os.environ}")
     bcc_raw = os.environ.get("EMAIL_BCC_PADRES", "")
     bcc_addrs = [r.strip() for r in bcc_raw.split(",") if r.strip()]
     from_addr = os.environ.get("EMAIL_FROM", "").strip()
@@ -143,6 +144,7 @@ def main():
     html_content = HTML_PATH.read_text()
     subject = build_subject(brief)
 
+    print(f"[email] sending to {len(bcc_addrs)} BCC recipients for team: padres")
     if not bcc_addrs:
         print("[email] No BCC recipients found for team: padres")
 
