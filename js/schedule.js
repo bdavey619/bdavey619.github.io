@@ -150,6 +150,7 @@
         const wins   = s.games.filter(g => g.result === 'W').length;
         const losses = s.games.filter(g => g.result === 'L').length;
         seriesResult = wins > losses ? 'won' : losses > wins ? 'lost' : 'split';
+        console.log('Series:', s.opp, seriesResult, s.games.map(g => g.date));
       }
 
       s.games.forEach((g, i) => {
@@ -221,7 +222,7 @@
           }
           return null;
         })();
-        if (cellSeriesResult && cellSeriesResult !== 'split') {
+        if (cellSeriesResult) {
           cell.dataset.seriesResult = cellSeriesResult;
           cell.title = `Series ${cellSeriesResult}`;
         }
