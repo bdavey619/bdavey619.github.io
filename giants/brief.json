@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T13:15:15+00:00",
+  "generated_at": "2026-05-02T14:20:33+00:00",
   "season": 2026,
   "team": {
     "record": "13-19",
@@ -298,9 +298,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "The offense never recovered from getting shut out through five innings, and seven strikeouts killed any rhythm they could have built.",
-    "what_this_means": "Seven strikeouts define this loss more than the 0-3 scoreline. The Giants got six hits but couldn't string them together, and Robbie Ray's control. Four hits in 6.1 innings. Meant they never had traffic to work with. This is inconsistency hardening into a pattern. They've now lost four straight. Against Tampa Bay, a team that doesn't blow anyone out, they still couldn't generate enough baserunners to create pressure. The margin for error shrinks every time this happens. Good teams don't lose games to teams playing this small.",
-    "what_to_watch": "Landen Roupp takes the ball tonight with a 1.86 ERA over his last four starts. He's found something that's working, and the Giants offense will need to do the same thing against a pitcher pitching backward through a slump. This is the kind of matchup that tests whether they can find their swing again or whether the losing streak owns them.",
+    "top_frame": "Robbie Ray held them to three hits and one run through 6.1, and they still lost by two.",
+    "what_this_means": "The offense struck out seven times against a pitcher who is pitching like a 2.95 ERA guy. That's not a neutral outcome. They had six hits total. They manufactured nothing. Ray was good, yes, but they were worse. That gap is the game. When the lineup goes quiet this thoroughly, it doesn't matter if the other team's pitcher is working efficiently. You needed to make him sweat. You needed to turn contact into something. Seven strikeouts tells you what happened: they didn't really try to hit today, or they tried and looked different doing it. The pattern that's been defining this season just got louder again. Six hits and a shutout is not unlucky. It's the baseline now.",
+    "what_to_watch": "Seven strikeouts against a starter in one game isn't an aberration. It's the new normal. This team is slipping.",
     "story_state": {
       "trend": "slipping",
       "driver": "balanced",
