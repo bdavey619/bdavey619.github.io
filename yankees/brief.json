@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T11:50:47+00:00",
+  "generated_at": "2026-05-02T14:19:31+00:00",
   "season": 2026,
   "team": {
     "record": "21-11",
@@ -296,9 +296,9 @@
     "division pressure"
   ],
   "narrative": {
-    "top_frame": "This team doesn't fold when the bats are aligned.",
-    "what_this_means": "Will Warren struck out nine and gave up one run over six-plus innings. Ben Rice drove in three. The offense delivered 11 hits and built a lead early enough that Baltimore couldn't threaten it. The formula worked cleanly: pitching contained, lineup created traffic, production followed. This wasn't a survival or a scramble.",
-    "what_to_watch": "The pattern here is becoming clearer. When both sides click. The starter dominant and the lineup balanced. The Yankees control the entire game. Rice finished the opportunities the order generated. Warren gave them margin all night. That's not luck. That's a team where the components are starting to fit.",
+    "top_frame": "Will Warren was dominant and the lineup backed him up when it mattered most.",
+    "what_this_means": "The formula clicked tonight. Warren carved through six innings with nine strikeouts and gave up nothing. Ben Rice's three-run homer turned early traffic into actual runs. The difference between an okay night and a statement win. The offense compiled eleven hits, found the zone when it needed to, and didn't waste the pitching performance. This is a team that wins when both sides show up at the same time.",
+    "what_to_watch": "Eight wins in ten games. The margin keeps shrinking in the division. That won't reverse itself.",
     "story_state": {
       "trend": "surging",
       "driver": "balanced",
@@ -324,10 +324,7 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "won last game",
-        "streak flipped: L1 \u2192 W1",
-        "ERA improved: 3.11 \u2192 3.05",
-        "OPS up: 0.748 \u2192 0.758"
+        "won last game"
       ]
     }
   }
