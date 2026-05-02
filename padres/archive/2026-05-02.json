@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T11:12:28+00:00",
+  "generated_at": "2026-05-02T14:18:34+00:00",
   "season": 2026,
   "team": {
     "record": "19-12",
@@ -282,9 +282,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "M\u00e1rquez gave up seven runs in five innings, and they never recovered.",
-    "what_this_means": "The pitching collapsed in real time. Seven earned runs is an unrecoverable deficit when your offense managed six hits and five strikeouts. The White Sox made every mistake count early, and the Padres chased from the second inning onward. Tatis went 3-for-3. A sharp night for one hitter in a game that got away before anyone else showed up. This was a team that needed depth and got none. The pattern has become clearer: when the pitcher fails this badly this early, the offense doesn't have the runway to catch up, and depth production doesn't materialize to bridge the gap. Down three games in a week, the margin for error is gone.",
-    "what_to_watch": "King takes the mound tonight with a 1.96 ERA over his last four starts. He comes into a team that is 5-5 in its last ten and has given up more than four runs in back-to-back losses. If the Padres want to stop the slide, they need him to be sharp from the start. No early damage, no chasing. The White Sox will be looking to repeat what they did to M\u00e1rquez.",
+    "top_frame": "The White Sox broke this game open early and Germ\u00e1n M\u00e1rquez never recovered.",
+    "what_this_means": "Seven runs in five innings is a summit you don't come back from, especially when your own lineup manages six hits and five strikeouts against Chicago's staff. Fernando Tatis Jr. went 3-for-3. Perfect at the plate, worthless in the outcome. The bats created nothing from it. They needed one clean inning from the starter; they got the opposite in the second. That's where the margin disappears. You don't erase a deficit that deep with this kind of offensive production, and the Padres didn't try. This is what slipping looks like when it gets loud: pitching fails early, offense has no answer, and suddenly you're 5-5 over your last ten with first place half a game away.",
+    "what_to_watch": "Michael King takes the mound tonight with a 1.96 ERA over his last four starts. The Padres need to prove yesterday was an outlier, not a deepening pattern. This time facing a White Sox staff that just showed exactly what exposed M\u00e1rquez. King's command will define whether they can answer back or drift further into the noise.",
     "story_state": {
       "trend": "slipping",
       "driver": "unclear",
@@ -304,17 +304,13 @@
     },
     "story_delta": {
       "has_prev": true,
-      "trend_changed": true,
-      "trend_direction": "declined",
-      "conf_changed": true,
+      "trend_changed": false,
+      "trend_direction": "unchanged",
+      "conf_changed": false,
       "pressure_changed": false,
-      "driver_changed": true,
+      "driver_changed": false,
       "signals": [
-        "trend declined: fragile \u2192 slipping",
-        "confidence down: medium \u2192 low",
-        "driver shifted: balanced \u2192 unclear",
-        "lost last game",
-        "ERA worsened: 4.23 \u2192 4.35"
+        "lost last game"
       ]
     }
   }
