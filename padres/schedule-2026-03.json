@@ -1,0 +1,266 @@
+{
+  "team": "Padres",
+  "team_slug": "padres",
+  "month": "2026-03",
+  "division_name": "NL West",
+  "generated_at": "2026-05-02T15:01:00.317611+00:00",
+  "games": [
+    {
+      "date": "2026-03-01",
+      "opponent": "SF",
+      "home": false,
+      "gamePk": 831768,
+      "status": "final",
+      "result": "L",
+      "score": "1\u20139"
+    },
+    {
+      "date": "2026-03-02",
+      "opponent": "OAK",
+      "home": true,
+      "gamePk": 831934,
+      "status": "final",
+      "result": "L",
+      "score": "2\u20137"
+    },
+    {
+      "date": "2026-03-03",
+      "opponent": "CWS",
+      "home": false,
+      "gamePk": 831772,
+      "status": "final",
+      "result": "W",
+      "score": "4\u20133"
+    },
+    {
+      "date": "2026-03-04",
+      "opponent": "???",
+      "home": true,
+      "gamePk": 831854,
+      "status": "final",
+      "result": "L",
+      "score": "2\u20132"
+    },
+    {
+      "date": "2026-03-05",
+      "opponent": "SEA",
+      "home": false,
+      "gamePk": 831765,
+      "status": "final",
+      "result": "W",
+      "score": "27\u20136"
+    },
+    {
+      "date": "2026-03-06",
+      "opponent": "CHC",
+      "home": true,
+      "gamePk": 831921,
+      "status": "final",
+      "result": "W",
+      "score": "3\u20130"
+    },
+    {
+      "date": "2026-03-07",
+      "opponent": "CLE",
+      "home": false,
+      "gamePk": 831774,
+      "status": "final",
+      "result": "L",
+      "score": "1\u20137"
+    },
+    {
+      "date": "2026-03-08",
+      "opponent": "CIN",
+      "home": true,
+      "gamePk": 831892,
+      "status": "final",
+      "result": "W",
+      "score": "14\u20133"
+    },
+    {
+      "date": "2026-03-09",
+      "opponent": "TEX",
+      "home": true,
+      "gamePk": 831725,
+      "status": "final",
+      "result": "L",
+      "score": "1\u20134"
+    },
+    {
+      "date": "2026-03-10",
+      "opponent": "LAA",
+      "home": false,
+      "gamePk": 831771,
+      "status": "final",
+      "result": "W",
+      "score": "10\u20132"
+    },
+    {
+      "date": "2026-03-12",
+      "opponent": "KC",
+      "home": true,
+      "gamePk": 831839,
+      "status": "final",
+      "result": "L",
+      "score": "1\u201310"
+    },
+    {
+      "date": "2026-03-13",
+      "opponent": "OAK",
+      "home": false,
+      "gamePk": 831778,
+      "status": "final",
+      "result": "W",
+      "score": "13\u20139"
+    },
+    {
+      "date": "2026-03-14",
+      "opponent": "TEX",
+      "home": false,
+      "gamePk": 831770,
+      "status": "final",
+      "result": "L",
+      "score": "2\u201322"
+    },
+    {
+      "date": "2026-03-14",
+      "opponent": "CLE",
+      "home": true,
+      "gamePk": 831877,
+      "status": "final",
+      "result": "W",
+      "score": "8\u20135"
+    },
+    {
+      "date": "2026-03-15",
+      "opponent": "ARI",
+      "home": false,
+      "gamePk": 831777,
+      "status": "final",
+      "result": "L",
+      "score": "4\u20134"
+    },
+    {
+      "date": "2026-03-16",
+      "opponent": "SF",
+      "home": true,
+      "gamePk": 831751,
+      "status": "final",
+      "result": "W",
+      "score": "3\u20131"
+    },
+    {
+      "date": "2026-03-17",
+      "opponent": "SEA",
+      "home": false,
+      "gamePk": 831769,
+      "status": "final",
+      "result": "W",
+      "score": "9\u20136"
+    },
+    {
+      "date": "2026-03-19",
+      "opponent": "CWS",
+      "home": true,
+      "gamePk": 831907,
+      "status": "final",
+      "result": "W",
+      "score": "13\u20136"
+    },
+    {
+      "date": "2026-03-20",
+      "opponent": "LAD",
+      "home": false,
+      "gamePk": 831766,
+      "status": "final",
+      "result": "L",
+      "score": "3\u20134"
+    },
+    {
+      "date": "2026-03-20",
+      "opponent": "COL",
+      "home": true,
+      "gamePk": 831864,
+      "status": "final",
+      "result": "L",
+      "score": "3\u20139"
+    },
+    {
+      "date": "2026-03-21",
+      "opponent": "MIL",
+      "home": false,
+      "gamePk": 831767,
+      "status": "final",
+      "result": "L",
+      "score": "1\u20136"
+    },
+    {
+      "date": "2026-03-22",
+      "opponent": "ARI",
+      "home": true,
+      "gamePk": 831947,
+      "status": "final",
+      "result": "L",
+      "score": "1\u201311"
+    },
+    {
+      "date": "2026-03-23",
+      "opponent": "SEA",
+      "home": true,
+      "gamePk": 831735,
+      "status": "final",
+      "result": "W",
+      "score": "10\u20133"
+    },
+    {
+      "date": "2026-03-26",
+      "opponent": "DET",
+      "home": true,
+      "gamePk": 823325,
+      "status": "final",
+      "result": "L",
+      "score": "2\u20138"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "DET",
+      "home": true,
+      "gamePk": 823324,
+      "status": "final",
+      "result": "L",
+      "score": "2\u20135"
+    },
+    {
+      "date": "2026-03-28",
+      "opponent": "DET",
+      "home": true,
+      "gamePk": 823323,
+      "status": "final",
+      "result": "W",
+      "score": "3\u20130"
+    },
+    {
+      "date": "2026-03-30",
+      "opponent": "SF",
+      "home": true,
+      "gamePk": 823320,
+      "status": "final",
+      "result": "L",
+      "score": "2\u20133"
+    },
+    {
+      "date": "2026-03-31",
+      "opponent": "SF",
+      "home": true,
+      "gamePk": 823322,
+      "status": "final",
+      "result": "L",
+      "score": "3\u20139"
+    }
+  ],
+  "summary": {
+    "month_record": "12\u201316",
+    "current_streak": "",
+    "last_10": ""
+  }
+}

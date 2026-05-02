@@ -1,0 +1,214 @@
+{
+  "team": "Yankees",
+  "team_slug": "yankees",
+  "month": "2026-07",
+  "division_name": "AL East",
+  "generated_at": "2026-05-02T15:01:02.412681+00:00",
+  "games": [
+    {
+      "date": "2026-07-01",
+      "opponent": "DET",
+      "home": true,
+      "gamePk": 823530,
+      "status": "scheduled",
+      "time_local": "1:35 PM ET"
+    },
+    {
+      "date": "2026-07-03",
+      "opponent": "MIN",
+      "home": true,
+      "gamePk": 823527,
+      "status": "scheduled",
+      "time_local": "7:05 PM ET"
+    },
+    {
+      "date": "2026-07-04",
+      "opponent": "MIN",
+      "home": true,
+      "gamePk": 823526,
+      "status": "scheduled",
+      "time_local": "1:35 PM ET"
+    },
+    {
+      "date": "2026-07-05",
+      "opponent": "MIN",
+      "home": true,
+      "gamePk": 823525,
+      "status": "scheduled",
+      "time_local": "1:35 PM ET"
+    },
+    {
+      "date": "2026-07-06",
+      "opponent": "TB",
+      "home": false,
+      "gamePk": 822958,
+      "status": "scheduled",
+      "time_local": "6:40 PM ET"
+    },
+    {
+      "date": "2026-07-07",
+      "opponent": "TB",
+      "home": false,
+      "gamePk": 822956,
+      "status": "scheduled",
+      "time_local": "6:40 PM ET"
+    },
+    {
+      "date": "2026-07-08",
+      "opponent": "TB",
+      "home": false,
+      "gamePk": 822957,
+      "status": "scheduled",
+      "time_local": "6:40 PM ET"
+    },
+    {
+      "date": "2026-07-09",
+      "opponent": "TB",
+      "home": false,
+      "gamePk": 822954,
+      "status": "scheduled",
+      "time_local": "1:10 PM ET"
+    },
+    {
+      "date": "2026-07-10",
+      "opponent": "WSH",
+      "home": false,
+      "gamePk": 822709,
+      "status": "scheduled",
+      "time_local": "6:45 PM ET"
+    },
+    {
+      "date": "2026-07-11",
+      "opponent": "WSH",
+      "home": false,
+      "gamePk": 822711,
+      "status": "scheduled",
+      "time_local": "4:05 PM ET"
+    },
+    {
+      "date": "2026-07-12",
+      "opponent": "WSH",
+      "home": false,
+      "gamePk": 822708,
+      "status": "scheduled",
+      "time_local": "1:35 PM ET"
+    },
+    {
+      "date": "2026-07-17",
+      "opponent": "LAD",
+      "home": true,
+      "gamePk": 823524,
+      "status": "scheduled",
+      "time_local": "7:05 PM ET"
+    },
+    {
+      "date": "2026-07-18",
+      "opponent": "LAD",
+      "home": true,
+      "gamePk": 823523,
+      "status": "scheduled",
+      "time_local": "8:08 PM ET"
+    },
+    {
+      "date": "2026-07-19",
+      "opponent": "LAD",
+      "home": true,
+      "gamePk": 823521,
+      "status": "scheduled",
+      "time_local": "7:20 PM ET"
+    },
+    {
+      "date": "2026-07-20",
+      "opponent": "PIT",
+      "home": true,
+      "gamePk": 823522,
+      "status": "scheduled",
+      "time_local": "7:05 PM ET"
+    },
+    {
+      "date": "2026-07-21",
+      "opponent": "PIT",
+      "home": true,
+      "gamePk": 823519,
+      "status": "scheduled",
+      "time_local": "7:05 PM ET"
+    },
+    {
+      "date": "2026-07-22",
+      "opponent": "PIT",
+      "home": true,
+      "gamePk": 823518,
+      "status": "scheduled",
+      "time_local": "1:35 PM ET"
+    },
+    {
+      "date": "2026-07-24",
+      "opponent": "PHI",
+      "home": false,
+      "gamePk": 823434,
+      "status": "scheduled",
+      "time_local": "6:40 PM ET"
+    },
+    {
+      "date": "2026-07-25",
+      "opponent": "PHI",
+      "home": false,
+      "gamePk": 823435,
+      "status": "scheduled",
+      "time_local": "6:05 PM ET"
+    },
+    {
+      "date": "2026-07-26",
+      "opponent": "PHI",
+      "home": false,
+      "gamePk": 823433,
+      "status": "scheduled",
+      "time_local": "7:20 PM ET"
+    },
+    {
+      "date": "2026-07-27",
+      "opponent": "CWS",
+      "home": false,
+      "gamePk": 824570,
+      "status": "scheduled",
+      "time_local": "7:40 PM ET"
+    },
+    {
+      "date": "2026-07-28",
+      "opponent": "CWS",
+      "home": false,
+      "gamePk": 824569,
+      "status": "scheduled",
+      "time_local": "7:40 PM ET"
+    },
+    {
+      "date": "2026-07-29",
+      "opponent": "CWS",
+      "home": false,
+      "gamePk": 824567,
+      "status": "scheduled",
+      "time_local": "7:40 PM ET"
+    },
+    {
+      "date": "2026-07-30",
+      "opponent": "CWS",
+      "home": false,
+      "gamePk": 824568,
+      "status": "scheduled",
+      "time_local": "2:10 PM ET"
+    },
+    {
+      "date": "2026-07-31",
+      "opponent": "CHC",
+      "home": false,
+      "gamePk": 824651,
+      "status": "scheduled",
+      "time_local": "2:20 PM ET"
+    }
+  ],
+  "summary": {
+    "month_record": "0\u20130",
+    "current_streak": "",
+    "last_10": ""
+  }
+}

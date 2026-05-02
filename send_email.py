@@ -91,19 +91,43 @@ def should_send(brief, team_slug):
     return True, "ok"
 
 
-def is_already_archived(brief, team_dir):
-    """
-    Duplicate-run guard: return True if the archive file for this brief's
-    send date already exists, meaning the email was already sent today.
-    """
+def _sent_marker_path(brief, team_dir):
+    """Return the path to the sent marker for this brief's send date."""
     last_game   = brief.get("last_game", {})
     lg_date_str = last_game.get("date", "")
     try:
         lg_date = datetime.strptime(lg_date_str, "%Y-%m-%d").date()
     except (ValueError, TypeError):
-        return False
+        return None
     send_date = (lg_date + timedelta(days=1)).strftime("%Y-%m-%d")
-    return (team_dir / "archive" / f"{send_date}.json").exists()
+    return team_dir / "archive" / "sent" / f"{send_date}.json"
+
+
+def is_already_sent(brief, team_dir):
+    """
+    Duplicate-run guard: return True if the sent marker for this brief's
+    send date exists, meaning the email was already delivered today.
+
+    Checks archive/sent/{send_date}.json — written only after a successful
+    Resend API call. The brief archive file (archive/{send_date}.json) is
+    intentionally NOT used here because it is written before email send.
+    """
+    path = _sent_marker_path(brief, team_dir)
+    return path is not None and path.exists()
+
+
+def write_sent_marker(brief, team_dir, team_slug):
+    """Write archive/sent/{send_date}.json after a successful email send."""
+    path = _sent_marker_path(brief, team_dir)
+    if path is None:
+        return
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w") as f:
+        json.dump({
+            "sent_at": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "team": team_slug,
+        }, f, indent=2)
+    print(f"[email] wrote sent marker: {path}")
 
 
 def safety_check(brief):
@@ -242,8 +266,8 @@ def main():
     if not send:
         print(f"[email] skipped: {reason}")
         sys.exit(0)
-    if is_already_archived(brief, team_dir) and not force_send:
-        print(f"[email] skipped: {team_slug} brief already archived (duplicate run guard)")
+    if is_already_sent(brief, team_dir) and not force_send:
+        print(f"[email] skipped: {team_slug} email already sent today (duplicate run guard)")
         sys.exit(0)
     if force_send:
         print("[email] FORCE_SEND enabled — bypassing duplicate guard")
@@ -276,6 +300,7 @@ def main():
         status, body = send_email(api_key, bcc_addrs, from_addr, subject, html_content, cfg.team_name)
         print(f"Resend API response {status}: {body}")
         print("Email sent.")
+        write_sent_marker(brief, team_dir, team_slug)
     except urllib.error.HTTPError as e:
         error_body = e.read().decode("utf-8")
         print(f"ERROR: Resend returned {e.code}: {error_body}", file=sys.stderr)

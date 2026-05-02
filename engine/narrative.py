@@ -1275,20 +1275,19 @@ INTERNAL AUDIT (silent — run before returning):
 - Is the final sentence stronger than the rest?
 If any fail → rewrite.
 
-3. WHAT TO WATCH (2–3 sentences)
-FUNCTION OVERRIDE — this section must look forward to the next game.
+3. WHAT TO WATCH (2 sentences max)
+FUNCTION OVERRIDE — this section previews the next game only. It does not reference yesterday.
 
 It must:
-- Reference the upcoming opponent, pitcher, or matchup from NEXT GAME context above
-- Answer: what matters next? What is the key question going into this game?
-- Be grounded in real context (not abstract conclusions or punchlines)
+- Name the next opponent and/or the probable pitcher from NEXT GAME context above
+- Contain one specific, concrete detail about that matchup (pitcher ERA, lineup edge, series context, etc.)
 
 Avoid:
-- Punchlines or one-line verdicts (this is not a summary of what just happened)
-- Repeating anything already said in State of Play
-- Broadcast-preview clichés ("can they keep it going?", "looking to build on", "they'll need")
+- Any mention of yesterday's game, result, or players
+- Pattern language: "can they build on", "looking to continue", "momentum", "keep it going", "bounce back"
+- Abstract stakes or broad team verdicts — name the matchup, not the narrative arc
 
-Length: 2–3 sentences. Not a 1-line punchline. Not a recap.
+Length: 2 sentences max. One sentence is acceptable if it is specific. Not a recap.
 
 REWRITE LOOP:
 After drafting WHAT THIS GAME MEANS, run a second pass if ANY of the following are true:
@@ -1533,6 +1532,75 @@ Vary the angle instead:
 Each identity claim should feel like a fresh angle on the same truth — not the same sentence reused.
 Clarity over novelty. Do not force cleverness — just avoid duplication.
 
+VOICE VARIATION — CONTROLLED UNHINGED:
+The brief should read like a sharp human observer, not a template. Keep it accurate and grounded — but allow slightly more edge, surprise, and personality.
+
+1. DO NOT reuse abstract framing across briefs.
+   These phrases are banned because they have become reflexive fills rather than earned observations:
+   - "this is the pattern"
+   - "that's the margin"
+   - "this is the formula"
+   - "this is the cost"
+   - "this is what happens when"
+   - "the story is"
+   - "the problem is"
+   When you reach for one of these, replace it with a concrete observation from the actual game.
+
+2. Replace abstract framing with something sharper and game-specific.
+   Bad:  "This is the pattern getting louder."
+   Good: "Six hits and no runs is not a slump. It's a locked door."
+
+   Bad:  "That's the margin they're working with."
+   Good: "They won by one run for the third time in five games. That math gets harder."
+
+3. Allow up to one controlled unhinged line per State of Play section.
+   Use it only if it naturally fits the game. Do not force it into low-event or straightforward games.
+   Requirements for that line:
+   - Grounded in something that actually happened in the game
+   - Short — the effect comes from brevity
+   - Memorable — a reader should still be thinking about it 10 seconds later
+   - Not random, not meme-like, not mean-spirited toward an individual player
+   Examples of the register:
+   - "The bats didn't go cold. They left the building."
+   - "That was not traffic. That was loitering."
+   - "A one-run lead is not a plan."
+   - "Five hits is not offense. It's attendance."
+   - "They brought a pocketknife to a bullpen game."
+   If no line of this quality can be written from the actual game, skip it. Do not force the register.
+
+4. Vary sentence openings.
+   Do not start multiple sentences in the same section with the same word or phrase.
+   Avoid opening consecutive sentences with:
+   - "They"
+   - "This"
+   - "That"
+   - "The offense"
+   - "The lineup"
+   If you notice two sentences opening the same way, rewrite the second.
+
+5. Vary punchline structure.
+   The final sentence of WHAT THIS GAME MEANS must not always follow the same form.
+   Use different modes — pick the one that fits the game:
+   - verdict:  "They wasted the window."
+   - image:    "The door was open. Nobody walked through."
+   - contrast: "The pitching gave them air. The bats gave it back."
+   - blunt fact: "Eight left on base. Zero reward."
+   Do not default to the same mode two days running.
+   The punchline must connect directly to something mentioned earlier in the paragraph.
+   Do not introduce a new abstract idea in the final sentence.
+
+6. Do not stack metaphors.
+   Use at most one metaphor or image per paragraph.
+   If a metaphor is used, the next sentence must return to concrete baseball detail.
+
+7. Do not be clever for the sake of being clever.
+   If a line feels decorative instead of observational — something that would read the same regardless of what happened in the game — remove or rewrite it.
+
+8. Accuracy is non-negotiable.
+   Do not invent emotion, drama, streaks, injuries, quotes, broadcast narratives, or league context not present in the data. The edge must come from a real game observation stated more sharply — not from fabricated stakes.
+
+9. If you can swap team names and the paragraph still works, rewrite it.
+
 PLAYER LANGUAGE VARIATION:
 When naming a player's contribution, vary the construction.
 Avoid always using the same verb frame ("France delivered", "Laureano finished").
@@ -1691,6 +1759,31 @@ These are tendencies. Override when the game warrants it.
 
 {voice_block}
 
+FINAL VOICE AUDIT (silent — do NOT include in output, run before returning):
+Answer each question internally. If any answer fails, rewrite before returning.
+
+  [ ] Can team names be swapped and the paragraph still work?
+        If yes → rewrite. At least one sentence must be anchored to a detail only this game produced.
+  [ ] Does any sentence use banned abstract framing ("this is the pattern", "that's the margin",
+        "this is the formula", "this is the cost", "this is what happens when", "the story is", "the problem is")?
+        If yes → replace with a concrete observation from the actual game.
+  [ ] Is there one concrete, memorable line in State of Play that a reader would recall?
+        If no → find the sharpest moment in the game and write it more directly.
+  [ ] Is any edge or sharpness grounded in the actual game — not invented drama?
+        If no → soften or rewrite. Accuracy is not optional.
+  [ ] Does WHAT TO WATCH name the next opponent or probable pitcher with at least one specific detail?
+        If no → rewrite using NEXT GAME context.
+  [ ] Do multiple sentences in the same section start with the same word?
+        If yes → rewrite the second sentence's opening.
+  [ ] Was a metaphor or image used? If yes — is it limited to one per paragraph, and is it followed by concrete baseball detail?
+        If no → remove the second metaphor or add the grounding sentence.
+  [ ] Does the punchline connect directly to something mentioned earlier in the paragraph?
+        If no → rewrite the punchline so it lands on prior content, not a new abstraction.
+  [ ] Does any line feel decorative — clever-sounding but not observational?
+        If yes → remove or rewrite it.
+  [ ] If the game was low-scoring or uneventful, does the writing still read naturally rather than forced?
+        If no → remove any strained edge and let the plain facts carry it.
+
 HARD RULES:
 - LAYERING: Each section must add a new layer. Do not let the same sentence idea appear across story_hook, TOP FRAME, WHAT THIS GAME MEANS, and WHAT TO WATCH. If you find yourself writing the same point in different words, cut it from all but the section where it belongs.
 - PLAYER MENTIONS ACROSS SECTIONS: If the same player appears in multiple sections, each mention must serve a different purpose — hook = emotional shorthand; TOP FRAME = stance; WHAT THIS GAME MEANS = meaning or pattern; WHAT TO WATCH = continuation or tension. Do not use the same framing twice for the same player.
@@ -1703,7 +1796,7 @@ HARD RULES:
 - Take a clear editorial stance. Use active voice.
 - WHAT THIS GAME MEANS must be 90–120 words. Tight. Name what changed. Do NOT exceed 120 words.
 - WHAT THIS GAME MEANS must NOT simply restate the story_hook, game_note, Game Driver, or Turning Point. These sections are already displayed separately. Build on them — do not repeat them.
-- WHAT TO WATCH must be 2–3 sentences. Look forward to the next game — reference opponent, pitcher, or matchup. Do NOT quote or restate the NEXT GAME HOOK stat. Do NOT write a punchline or one-liner here.
+- WHAT TO WATCH must be 2 sentences max. It previews the next game only — name the opponent and/or probable pitcher. Do NOT reference yesterday's game, result, or players. Do NOT use pattern language ("build on", "momentum", "bounce back"). Do NOT quote or restate the NEXT GAME HOOK stat verbatim.
 - If trend is "surging": the question is how long can this hold?
 - If trend is "fragile" or "slipping": be honest about the problem. Do not soften it.
 - If driver is "pitching" and OPS < 0.700: do not frame the offense as fine.

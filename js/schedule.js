@@ -2,20 +2,65 @@
   'use strict';
 
   const cfg = window.SCHEDULE_CONFIG;
+  let _index = null; // { season, months: ["2026-03", ...] }
 
   async function init() {
+    // Load month index — nav degrades gracefully if missing
     try {
-      const r = await fetch('./schedule.json');
+      const r = await fetch('./schedule-index.json');
+      if (r.ok) _index = await r.json();
+    } catch (_) {}
+
+    const active = resolveActiveMonth();
+    await loadAndRender(active);
+
+    window.addEventListener('popstate', () => {
+      loadAndRender(resolveActiveMonth());
+    });
+  }
+
+  function availableMonths() {
+    return (_index && _index.months && _index.months.length) ? _index.months : null;
+  }
+
+  function resolveActiveMonth() {
+    const param = new URLSearchParams(window.location.search).get('month');
+    const months = availableMonths();
+    const today = todayStr().slice(0, 7); // YYYY-MM
+
+    if (param) {
+      // Accept param if index is absent (file may still exist) or param is in index
+      if (!months || months.includes(param)) return param;
+    }
+    if (!months) return today;
+    if (months.includes(today)) return today;
+    // Outside season — clamp to first or last available month
+    if (today < months[0]) return months[0];
+    return months[months.length - 1];
+  }
+
+  async function loadAndRender(monthKey) {
+    try {
+      const r = await fetch(`./schedule-${monthKey}.json`);
       if (!r.ok) throw new Error(r.status);
       const data = await r.json();
-      render(data);
+      renderAll(data, monthKey);
     } catch (_) {
-      document.getElementById('cal-error').removeAttribute('hidden');
+      // Fall back to legacy schedule.json if per-month file is missing
+      try {
+        const r2 = await fetch('./schedule.json');
+        if (!r2.ok) throw new Error(r2.status);
+        const data = await r2.json();
+        renderAll(data, data.month || monthKey);
+      } catch (_2) {
+        document.getElementById('cal-error').removeAttribute('hidden');
+      }
     }
   }
 
-  function render(data) {
+  function renderAll(data, monthKey) {
     renderSummary(data);
+    renderNav(monthKey);
     renderCalendar(data);
     document.getElementById('schedule-cal').removeAttribute('hidden');
   }
@@ -29,12 +74,36 @@
     set('sc-month-record', data.summary.month_record || '—');
     set('sc-streak', data.summary.current_streak || '—');
     set('sc-last10', data.summary.last_10 || '—');
-    if (next) {
-      set('sc-next', (next.home ? 'vs ' : '@ ') + next.opponent);
-    } else {
-      set('sc-next', '—');
-    }
+    set('sc-next', next ? (next.home ? 'vs ' : '@ ') + next.opponent : '—');
     document.getElementById('schedule-summary').removeAttribute('hidden');
+  }
+
+  // ── Month navigation ──────────────────────────────────────────────────────
+
+  function renderNav(monthKey) {
+    const months = availableMonths();
+    const idx = months ? months.indexOf(monthKey) : -1;
+
+    const prevBtn = document.getElementById('cal-prev-month');
+    const nextBtn = document.getElementById('cal-next-month');
+
+    if (prevBtn) {
+      const hasPrev = idx > 0;
+      prevBtn.disabled = !hasPrev;
+      prevBtn.onclick = hasPrev ? () => navigate(months[idx - 1]) : null;
+    }
+    if (nextBtn) {
+      const hasNext = months && idx >= 0 && idx < months.length - 1;
+      nextBtn.disabled = !hasNext;
+      nextBtn.onclick = hasNext ? () => navigate(months[idx + 1]) : null;
+    }
+  }
+
+  function navigate(monthKey) {
+    const url = new URL(window.location.href);
+    url.searchParams.set('month', monthKey);
+    history.pushState({ month: monthKey }, '', url.toString());
+    loadAndRender(monthKey);
   }
 
   // ── Calendar grid ─────────────────────────────────────────────────────────
@@ -76,6 +145,8 @@
     const seriesMeta = buildSeriesMeta(data.games);
 
     const grid = document.getElementById('calendar-grid');
+    grid.innerHTML = ''; // clear on re-render
+
     const firstDow = new Date(year, month - 1, 1).getDay();
     const daysInMonth = new Date(year, month, 0).getDate();
     const today = todayStr();

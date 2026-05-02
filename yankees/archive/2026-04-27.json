@@ -1,0 +1,318 @@
+{
+  "generated_at": "2026-04-27T21:47:27+00:00",
+  "season": 2026,
+  "team": {
+    "record": "18-10",
+    "streak": "L1",
+    "run_diff": "+47",
+    "last10": "8-2",
+    "division_rank": 1,
+    "games_back": "-",
+    "avg": ".233",
+    "ops": ".760",
+    "era": "3.26"
+  },
+  "last_game": {
+    "status": "final",
+    "gamePk": 824202,
+    "date": "2026-04-26",
+    "opponent": "HOU",
+    "home": false,
+    "result": "L",
+    "score": {
+      "team": 4,
+      "opp": 7
+    },
+    "linescore": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        3
+      ],
+      [
+        2,
+        0,
+        2,
+        0,
+        3,
+        0,
+        0,
+        0,
+        ""
+      ]
+    ],
+    "decisions": {
+      "win": "Spencer Arrighetti",
+      "win_role": "SP",
+      "win_team": "opp",
+      "loss": "Luis Gil",
+      "loss_role": "SP",
+      "loss_team": "team"
+    },
+    "key_hitters": [
+      {
+        "name": "Paul Goldschmidt",
+        "line": "2-4, 1 RBI",
+        "pos": "1B",
+        "season_avg": ".179"
+      },
+      {
+        "name": "Jazz Chisholm Jr.",
+        "line": "2-4",
+        "pos": "2B",
+        "season_avg": ".216"
+      }
+    ],
+    "key_pitcher": {
+      "name": "Luis Gil",
+      "line": "4.0 IP, 5 H, 6 ER, 0 K",
+      "role": "SP",
+      "season_era": "6.05"
+    },
+    "context_line": "Away \u00b7 Daikin Park \u00b7 Day game",
+    "highlights_url": "https://www.youtube.com/results?search_query=NYY+vs+HOU+highlights+April+26+2026+MLB",
+    "game_note": "A 3-run fifth by HOU was more than the Yankees could answer.",
+    "full_box": {
+      "batting": [
+        {
+          "name": "Trent Grisham",
+          "pos": "CF",
+          "avg": ".160",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 2
+        },
+        {
+          "name": "Ben Rice",
+          "pos": "DH",
+          "avg": ".326",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "so": 0
+        },
+        {
+          "name": "Aaron Judge",
+          "pos": "RF",
+          "avg": ".230",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Cody Bellinger",
+          "pos": "LF",
+          "avg": ".250",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Jazz Chisholm Jr.",
+          "pos": "2B",
+          "avg": ".216",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "so": 2
+        },
+        {
+          "name": "Paul Goldschmidt",
+          "pos": "1B",
+          "avg": ".179",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 1,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "J.C. Escarra",
+          "pos": "C",
+          "avg": ".214",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "so": 2
+        },
+        {
+          "name": "Ryan McMahon",
+          "pos": "3B",
+          "avg": ".177",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Jos\u00e9 Caballero",
+          "pos": "SS",
+          "avg": ".271",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        }
+      ],
+      "pitching": [
+        {
+          "name": "Luis Gil",
+          "ip": "4.0",
+          "h": 5,
+          "er": 6,
+          "k": 0,
+          "bb": 3
+        },
+        {
+          "name": "Paul Blackburn",
+          "ip": "3.0",
+          "h": 2,
+          "er": 1,
+          "k": 2,
+          "bb": 0
+        },
+        {
+          "name": "Ryan Yarbrough",
+          "ip": "1.0",
+          "h": 0,
+          "er": 0,
+          "k": 2,
+          "bb": 0
+        }
+      ]
+    },
+    "clutch_player": {
+      "name": "Jazz Chisholm Jr.",
+      "event": "Single",
+      "inning": 9,
+      "description": "started the ninth-inning rally (3 runs scored) with a single.",
+      "reason": "started the ninth-inning rally (3 runs scored)",
+      "confidence": "high"
+    },
+    "game_driver": null
+  },
+  "next_game": {
+    "gamePk": 822906,
+    "date": "2026-04-27",
+    "opponent": "TEX",
+    "home": false,
+    "time_local": "8:05 PM ET",
+    "probable": {
+      "team": "Max Fried",
+      "opp": "Jack Leiter"
+    },
+    "insight": "Yankees have won 8 of their last ten \u2014 they carry that form into tonight's game.",
+    "hook_type": "team_momentum"
+  },
+  "standings": [
+    {
+      "team": "Yankees",
+      "w": 18,
+      "l": 10,
+      "gb": "-",
+      "last10": "8-2"
+    },
+    {
+      "team": "Rays",
+      "w": 16,
+      "l": 11,
+      "gb": "1.5",
+      "last10": "6-4"
+    },
+    {
+      "team": "Orioles",
+      "w": 13,
+      "l": 15,
+      "gb": "5.0",
+      "last10": "4-6"
+    },
+    {
+      "team": "Blue Jays",
+      "w": 12,
+      "l": 15,
+      "gb": "5.5",
+      "last10": "5-5"
+    },
+    {
+      "team": "Red Sox",
+      "w": 11,
+      "l": 17,
+      "gb": "7.0",
+      "last10": "4-6"
+    }
+  ],
+  "hot_players": {
+    "hitters": [],
+    "pitchers": []
+  },
+  "subhead": "New York falls to HOU.",
+  "insight": {
+    "headline": "The lineup is the engine right now.",
+    "detail": "A .760 OPS over the season, with the bats showing real pop. The staff ERA sits at 3.26. New York is setting the pace in the division.",
+    "why": "staff carrying (3.26 ERA) \u00b7 offense clicking (.760 OPS) \u00b7 8\u20132 in the last ten"
+  },
+  "story_hook": "",
+  "story_threads_debug": [
+    "both sides clicking",
+    "division pressure"
+  ],
+  "narrative": {
+    "top_frame": "The formula broke when it mattered most.",
+    "what_this_means": "Luis Gil couldn't hold the line. Four innings, six runs\u2014that's not a bridging start, that's a collapse. Houston was chasing from the first inning, and the Yankees were always a step behind after that. They clawed back late with the offense showing signs in the eighth and ninth, but a four-run deficit is a margin that doesn't forgive early damage. Goldschmidt and Chisholm each found hits, and the ninth-inning rally started with Chisholm's single\u2014but starting a fight in the ninth is not the same as winning it. This is a team built on balanced contribution, on both sides doing their job. Today, the pitching side didn't hold its half. The loss breaks the eight-wins-in-ten run and costs them in a division where every game carries weight. They had the game within reach late. They didn't finish it.",
+    "what_to_watch": "Now the question is whether this was a Gil blip or a sign that the pitching edge\u2014the thing that's kept them at the top of the division\u2014can collapse on any given day.",
+    "story_state": {
+      "trend": "surging",
+      "driver": "balanced",
+      "confidence": "high",
+      "pressure": "building",
+      "record_w": 18,
+      "record_l": 10,
+      "streak": "L1",
+      "last10_w": 8,
+      "era": 3.26,
+      "ops": 0.76,
+      "gb": 0.0,
+      "division_rank": 1,
+      "last_result": "L",
+      "date": "2026-04-26",
+      "game_emotion_level": "normal"
+    },
+    "story_delta": {
+      "has_prev": true,
+      "trend_changed": false,
+      "trend_direction": "unchanged",
+      "conf_changed": false,
+      "pressure_changed": false,
+      "driver_changed": false,
+      "signals": [
+        "lost last game"
+      ]
+    }
+  }
+}

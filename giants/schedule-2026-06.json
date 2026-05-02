@@ -1,0 +1,230 @@
+{
+  "team": "Giants",
+  "team_slug": "giants",
+  "month": "2026-06",
+  "division_name": "NL West",
+  "generated_at": "2026-05-02T15:00:01.100862+00:00",
+  "games": [
+    {
+      "date": "2026-06-01",
+      "opponent": "MIL",
+      "home": false,
+      "gamePk": 823781,
+      "status": "scheduled",
+      "time_local": "4:40 PM PT"
+    },
+    {
+      "date": "2026-06-02",
+      "opponent": "MIL",
+      "home": false,
+      "gamePk": 823782,
+      "status": "scheduled",
+      "time_local": "4:40 PM PT"
+    },
+    {
+      "date": "2026-06-03",
+      "opponent": "MIL",
+      "home": false,
+      "gamePk": 823780,
+      "status": "scheduled",
+      "time_local": "4:40 PM PT"
+    },
+    {
+      "date": "2026-06-04",
+      "opponent": "MIL",
+      "home": false,
+      "gamePk": 823779,
+      "status": "scheduled",
+      "time_local": "11:10 AM PT"
+    },
+    {
+      "date": "2026-06-05",
+      "opponent": "CHC",
+      "home": false,
+      "gamePk": 824673,
+      "status": "scheduled",
+      "time_local": "11:20 AM PT"
+    },
+    {
+      "date": "2026-06-06",
+      "opponent": "CHC",
+      "home": false,
+      "gamePk": 824669,
+      "status": "scheduled",
+      "time_local": "11:20 AM PT"
+    },
+    {
+      "date": "2026-06-07",
+      "opponent": "CHC",
+      "home": false,
+      "gamePk": 824670,
+      "status": "scheduled",
+      "time_local": "5:20 PM PT"
+    },
+    {
+      "date": "2026-06-08",
+      "opponent": "WSH",
+      "home": true,
+      "gamePk": 823218,
+      "status": "scheduled",
+      "time_local": "6:45 PM PT"
+    },
+    {
+      "date": "2026-06-09",
+      "opponent": "WSH",
+      "home": true,
+      "gamePk": 823214,
+      "status": "scheduled",
+      "time_local": "6:45 PM PT"
+    },
+    {
+      "date": "2026-06-10",
+      "opponent": "WSH",
+      "home": true,
+      "gamePk": 823215,
+      "status": "scheduled",
+      "time_local": "12:45 PM PT"
+    },
+    {
+      "date": "2026-06-12",
+      "opponent": "CHC",
+      "home": true,
+      "gamePk": 823211,
+      "status": "scheduled",
+      "time_local": "7:15 PM PT"
+    },
+    {
+      "date": "2026-06-13",
+      "opponent": "CHC",
+      "home": true,
+      "gamePk": 823213,
+      "status": "scheduled",
+      "time_local": "7:05 PM PT"
+    },
+    {
+      "date": "2026-06-14",
+      "opponent": "CHC",
+      "home": true,
+      "gamePk": 823212,
+      "status": "scheduled",
+      "time_local": "12:10 PM PT"
+    },
+    {
+      "date": "2026-06-16",
+      "opponent": "ATL",
+      "home": false,
+      "gamePk": 824912,
+      "status": "scheduled",
+      "time_local": "4:15 PM PT"
+    },
+    {
+      "date": "2026-06-17",
+      "opponent": "ATL",
+      "home": false,
+      "gamePk": 824913,
+      "status": "scheduled",
+      "time_local": "4:15 PM PT"
+    },
+    {
+      "date": "2026-06-18",
+      "opponent": "ATL",
+      "home": false,
+      "gamePk": 824911,
+      "status": "scheduled",
+      "time_local": "4:15 PM PT"
+    },
+    {
+      "date": "2026-06-19",
+      "opponent": "MIA",
+      "home": false,
+      "gamePk": 823853,
+      "status": "scheduled",
+      "time_local": "4:10 PM PT"
+    },
+    {
+      "date": "2026-06-20",
+      "opponent": "MIA",
+      "home": false,
+      "gamePk": 823854,
+      "status": "scheduled",
+      "time_local": "1:10 PM PT"
+    },
+    {
+      "date": "2026-06-21",
+      "opponent": "MIA",
+      "home": false,
+      "gamePk": 823852,
+      "status": "scheduled",
+      "time_local": "10:40 AM PT"
+    },
+    {
+      "date": "2026-06-23",
+      "opponent": "OAK",
+      "home": true,
+      "gamePk": 823210,
+      "status": "scheduled",
+      "time_local": "6:45 PM PT"
+    },
+    {
+      "date": "2026-06-24",
+      "opponent": "OAK",
+      "home": true,
+      "gamePk": 823208,
+      "status": "scheduled",
+      "time_local": "6:45 PM PT"
+    },
+    {
+      "date": "2026-06-25",
+      "opponent": "OAK",
+      "home": true,
+      "gamePk": 823209,
+      "status": "scheduled",
+      "time_local": "12:45 PM PT"
+    },
+    {
+      "date": "2026-06-26",
+      "opponent": "ATL",
+      "home": true,
+      "gamePk": 823206,
+      "status": "scheduled",
+      "time_local": "7:15 PM PT"
+    },
+    {
+      "date": "2026-06-27",
+      "opponent": "ATL",
+      "home": true,
+      "gamePk": 823207,
+      "status": "scheduled",
+      "time_local": "6:05 PM PT"
+    },
+    {
+      "date": "2026-06-28",
+      "opponent": "ATL",
+      "home": true,
+      "gamePk": 823204,
+      "status": "scheduled",
+      "time_local": "1:05 PM PT"
+    },
+    {
+      "date": "2026-06-29",
+      "opponent": "ARI",
+      "home": false,
+      "gamePk": 825065,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-06-30",
+      "opponent": "ARI",
+      "home": false,
+      "gamePk": 825066,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    }
+  ],
+  "summary": {
+    "month_record": "0\u20130",
+    "current_streak": "",
+    "last_10": ""
+  }
+}

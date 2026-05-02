@@ -1,0 +1,206 @@
+{
+  "team": "Athletics",
+  "team_slug": "athletics",
+  "month": "2026-09",
+  "division_name": "AL West",
+  "generated_at": "2026-05-02T15:01:04.548974+00:00",
+  "games": [
+    {
+      "date": "2026-09-01",
+      "opponent": "TEX",
+      "home": false,
+      "gamePk": 822854,
+      "status": "scheduled",
+      "time_local": "5:05 PM PT"
+    },
+    {
+      "date": "2026-09-02",
+      "opponent": "TEX",
+      "home": false,
+      "gamePk": 822851,
+      "status": "scheduled",
+      "time_local": "11:35 AM PT"
+    },
+    {
+      "date": "2026-09-03",
+      "opponent": "SEA",
+      "home": false,
+      "gamePk": 823095,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-09-04",
+      "opponent": "SEA",
+      "home": false,
+      "gamePk": 823093,
+      "status": "scheduled",
+      "time_local": "7:10 PM PT"
+    },
+    {
+      "date": "2026-09-05",
+      "opponent": "SEA",
+      "home": false,
+      "gamePk": 823094,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-09-06",
+      "opponent": "SEA",
+      "home": false,
+      "gamePk": 823091,
+      "status": "scheduled",
+      "time_local": "1:10 PM PT"
+    },
+    {
+      "date": "2026-09-07",
+      "opponent": "TOR",
+      "home": true,
+      "gamePk": 824958,
+      "status": "scheduled",
+      "time_local": "7:05 PM PT"
+    },
+    {
+      "date": "2026-09-08",
+      "opponent": "TOR",
+      "home": true,
+      "gamePk": 824957,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-09-09",
+      "opponent": "TOR",
+      "home": true,
+      "gamePk": 824956,
+      "status": "scheduled",
+      "time_local": "12:05 PM PT"
+    },
+    {
+      "date": "2026-09-11",
+      "opponent": "SEA",
+      "home": true,
+      "gamePk": 824954,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-09-12",
+      "opponent": "SEA",
+      "home": true,
+      "gamePk": 824955,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-09-13",
+      "opponent": "SEA",
+      "home": true,
+      "gamePk": 824952,
+      "status": "scheduled",
+      "time_local": "1:05 PM PT"
+    },
+    {
+      "date": "2026-09-15",
+      "opponent": "TB",
+      "home": false,
+      "gamePk": 822925,
+      "status": "scheduled",
+      "time_local": "3:40 PM PT"
+    },
+    {
+      "date": "2026-09-16",
+      "opponent": "TB",
+      "home": false,
+      "gamePk": 822926,
+      "status": "scheduled",
+      "time_local": "3:40 PM PT"
+    },
+    {
+      "date": "2026-09-17",
+      "opponent": "TB",
+      "home": false,
+      "gamePk": 822924,
+      "status": "scheduled",
+      "time_local": "10:10 AM PT"
+    },
+    {
+      "date": "2026-09-18",
+      "opponent": "CLE",
+      "home": false,
+      "gamePk": 824383,
+      "status": "scheduled",
+      "time_local": "4:10 PM PT"
+    },
+    {
+      "date": "2026-09-19",
+      "opponent": "CLE",
+      "home": false,
+      "gamePk": 824380,
+      "status": "scheduled",
+      "time_local": "3:10 PM PT"
+    },
+    {
+      "date": "2026-09-20",
+      "opponent": "CLE",
+      "home": false,
+      "gamePk": 824381,
+      "status": "scheduled",
+      "time_local": "10:40 AM PT"
+    },
+    {
+      "date": "2026-09-22",
+      "opponent": "LAA",
+      "home": true,
+      "gamePk": 824953,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-09-23",
+      "opponent": "LAA",
+      "home": true,
+      "gamePk": 824951,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-09-24",
+      "opponent": "HOU",
+      "home": true,
+      "gamePk": 824950,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-09-25",
+      "opponent": "HOU",
+      "home": true,
+      "gamePk": 824947,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-09-26",
+      "opponent": "HOU",
+      "home": true,
+      "gamePk": 824949,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-09-27",
+      "opponent": "HOU",
+      "home": true,
+      "gamePk": 824948,
+      "status": "scheduled",
+      "time_local": "12:05 PM PT"
+    }
+  ],
+  "summary": {
+    "month_record": "0\u20130",
+    "current_streak": "",
+    "last_10": ""
+  }
+}

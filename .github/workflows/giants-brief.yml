@@ -57,7 +57,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add giants/brief.json giants/story_state.json giants/archive/ giants/schedule.json
+          git add giants/brief.json giants/story_state.json giants/archive/ giants/schedule*.json
           if git diff --cached --quiet; then
             echo "No changes to brief.json — skipping commit."
           else

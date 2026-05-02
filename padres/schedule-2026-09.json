@@ -1,0 +1,206 @@
+{
+  "team": "Padres",
+  "team_slug": "padres",
+  "month": "2026-09",
+  "division_name": "NL West",
+  "generated_at": "2026-05-02T15:01:00.317611+00:00",
+  "games": [
+    {
+      "date": "2026-09-01",
+      "opponent": "CIN",
+      "home": false,
+      "gamePk": 824472,
+      "status": "scheduled",
+      "time_local": "3:40 PM PT"
+    },
+    {
+      "date": "2026-09-02",
+      "opponent": "CIN",
+      "home": false,
+      "gamePk": 824470,
+      "status": "scheduled",
+      "time_local": "9:40 AM PT"
+    },
+    {
+      "date": "2026-09-04",
+      "opponent": "NYY",
+      "home": true,
+      "gamePk": 823256,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-09-05",
+      "opponent": "NYY",
+      "home": true,
+      "gamePk": 823257,
+      "status": "scheduled",
+      "time_local": "5:40 PM PT"
+    },
+    {
+      "date": "2026-09-06",
+      "opponent": "NYY",
+      "home": true,
+      "gamePk": 823253,
+      "status": "scheduled",
+      "time_local": "1:10 PM PT"
+    },
+    {
+      "date": "2026-09-07",
+      "opponent": "WSH",
+      "home": true,
+      "gamePk": 823254,
+      "status": "scheduled",
+      "time_local": "2:10 PM PT"
+    },
+    {
+      "date": "2026-09-08",
+      "opponent": "WSH",
+      "home": true,
+      "gamePk": 823250,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-09-09",
+      "opponent": "WSH",
+      "home": true,
+      "gamePk": 823251,
+      "status": "scheduled",
+      "time_local": "1:10 PM PT"
+    },
+    {
+      "date": "2026-09-11",
+      "opponent": "SF",
+      "home": false,
+      "gamePk": 823173,
+      "status": "scheduled",
+      "time_local": "7:15 PM PT"
+    },
+    {
+      "date": "2026-09-12",
+      "opponent": "SF",
+      "home": false,
+      "gamePk": 823170,
+      "status": "scheduled",
+      "time_local": "1:05 PM PT"
+    },
+    {
+      "date": "2026-09-13",
+      "opponent": "SF",
+      "home": false,
+      "gamePk": 823171,
+      "status": "scheduled",
+      "time_local": "4:20 PM PT"
+    },
+    {
+      "date": "2026-09-14",
+      "opponent": "COL",
+      "home": false,
+      "gamePk": 824308,
+      "status": "scheduled",
+      "time_local": "5:40 PM PT"
+    },
+    {
+      "date": "2026-09-15",
+      "opponent": "COL",
+      "home": false,
+      "gamePk": 824307,
+      "status": "scheduled",
+      "time_local": "5:40 PM PT"
+    },
+    {
+      "date": "2026-09-16",
+      "opponent": "COL",
+      "home": false,
+      "gamePk": 824306,
+      "status": "scheduled",
+      "time_local": "5:40 PM PT"
+    },
+    {
+      "date": "2026-09-17",
+      "opponent": "COL",
+      "home": false,
+      "gamePk": 824305,
+      "status": "scheduled",
+      "time_local": "12:10 PM PT"
+    },
+    {
+      "date": "2026-09-18",
+      "opponent": "MIA",
+      "home": true,
+      "gamePk": 823252,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-09-19",
+      "opponent": "MIA",
+      "home": true,
+      "gamePk": 823249,
+      "status": "scheduled",
+      "time_local": "5:40 PM PT"
+    },
+    {
+      "date": "2026-09-20",
+      "opponent": "MIA",
+      "home": true,
+      "gamePk": 823247,
+      "status": "scheduled",
+      "time_local": "1:10 PM PT"
+    },
+    {
+      "date": "2026-09-22",
+      "opponent": "LAD",
+      "home": false,
+      "gamePk": 823897,
+      "status": "scheduled",
+      "time_local": "7:10 PM PT"
+    },
+    {
+      "date": "2026-09-23",
+      "opponent": "LAD",
+      "home": false,
+      "gamePk": 823894,
+      "status": "scheduled",
+      "time_local": "7:10 PM PT"
+    },
+    {
+      "date": "2026-09-24",
+      "opponent": "LAD",
+      "home": false,
+      "gamePk": 823895,
+      "status": "scheduled",
+      "time_local": "7:10 PM PT"
+    },
+    {
+      "date": "2026-09-25",
+      "opponent": "ARI",
+      "home": true,
+      "gamePk": 823248,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-09-26",
+      "opponent": "ARI",
+      "home": true,
+      "gamePk": 823245,
+      "status": "scheduled",
+      "time_local": "5:40 PM PT"
+    },
+    {
+      "date": "2026-09-27",
+      "opponent": "ARI",
+      "home": true,
+      "gamePk": 823246,
+      "status": "scheduled",
+      "time_local": "12:10 PM PT"
+    }
+  ],
+  "summary": {
+    "month_record": "0\u20130",
+    "current_streak": "",
+    "last_10": ""
+  }
+}
