@@ -3,224 +3,8 @@
   "team_slug": "yankees",
   "month": "2026-03",
   "division_name": "AL East",
-  "generated_at": "2026-05-02T15:01:02.412681+00:00",
+  "generated_at": "2026-05-02T15:23:25.103320+00:00",
   "games": [
-    {
-      "date": "2026-03-01",
-      "opponent": "PHI",
-      "home": false,
-      "gamePk": 831578,
-      "status": "final",
-      "result": "W",
-      "score": "5\u20133"
-    },
-    {
-      "date": "2026-03-03",
-      "opponent": "???",
-      "home": true,
-      "gamePk": 831444,
-      "status": "final",
-      "result": "W",
-      "score": "11\u20131"
-    },
-    {
-      "date": "2026-03-04",
-      "opponent": "BOS",
-      "home": false,
-      "gamePk": 831634,
-      "status": "final",
-      "result": "W",
-      "score": "4\u20130"
-    },
-    {
-      "date": "2026-03-05",
-      "opponent": "MIN",
-      "home": true,
-      "gamePk": 831632,
-      "status": "final",
-      "result": "L",
-      "score": "0\u201315"
-    },
-    {
-      "date": "2026-03-06",
-      "opponent": "TB",
-      "home": true,
-      "gamePk": 831624,
-      "status": "final",
-      "result": "W",
-      "score": "3\u20130"
-    },
-    {
-      "date": "2026-03-07",
-      "opponent": "WSH",
-      "home": false,
-      "gamePk": 831568,
-      "status": "final",
-      "result": "L",
-      "score": "0\u20133"
-    },
-    {
-      "date": "2026-03-08",
-      "opponent": "NYM",
-      "home": false,
-      "gamePk": 831575,
-      "status": "final",
-      "result": "L",
-      "score": "4\u201310"
-    },
-    {
-      "date": "2026-03-09",
-      "opponent": "PIT",
-      "home": true,
-      "gamePk": 831517,
-      "status": "final",
-      "result": "L",
-      "score": "3\u20135"
-    },
-    {
-      "date": "2026-03-10",
-      "opponent": "PHI",
-      "home": false,
-      "gamePk": 831573,
-      "status": "final",
-      "result": "W",
-      "score": "4\u20132"
-    },
-    {
-      "date": "2026-03-11",
-      "opponent": "TOR",
-      "home": true,
-      "gamePk": 831620,
-      "status": "final",
-      "result": "W",
-      "score": "8\u20131"
-    },
-    {
-      "date": "2026-03-12",
-      "opponent": "DET",
-      "home": false,
-      "gamePk": 831621,
-      "status": "final",
-      "result": "W",
-      "score": "4\u20133"
-    },
-    {
-      "date": "2026-03-13",
-      "opponent": "ATL",
-      "home": false,
-      "gamePk": 831563,
-      "status": "final",
-      "result": "L",
-      "score": "6\u20137"
-    },
-    {
-      "date": "2026-03-14",
-      "opponent": "PHI",
-      "home": true,
-      "gamePk": 831514,
-      "status": "final",
-      "result": "L",
-      "score": "4\u20136"
-    },
-    {
-      "date": "2026-03-15",
-      "opponent": "BAL",
-      "home": false,
-      "gamePk": 831608,
-      "status": "final",
-      "result": "L",
-      "score": "0\u20130"
-    },
-    {
-      "date": "2026-03-15",
-      "opponent": "DET",
-      "home": true,
-      "gamePk": 831611,
-      "status": "final",
-      "result": "L",
-      "score": "1\u201312"
-    },
-    {
-      "date": "2026-03-17",
-      "opponent": "TB",
-      "home": false,
-      "gamePk": 831609,
-      "status": "final",
-      "result": "W",
-      "score": "3\u20132"
-    },
-    {
-      "date": "2026-03-18",
-      "opponent": "BOS",
-      "home": true,
-      "gamePk": 831607,
-      "status": "final",
-      "result": "W",
-      "score": "1\u20130"
-    },
-    {
-      "date": "2026-03-19",
-      "opponent": "TOR",
-      "home": false,
-      "gamePk": 831605,
-      "status": "final",
-      "result": "L",
-      "score": "0\u201311"
-    },
-    {
-      "date": "2026-03-19",
-      "opponent": "BAL",
-      "home": true,
-      "gamePk": 832062,
-      "status": "final",
-      "result": "W",
-      "score": "5\u20134"
-    },
-    {
-      "date": "2026-03-20",
-      "opponent": "BAL",
-      "home": true,
-      "gamePk": 831603,
-      "status": "final",
-      "result": "W",
-      "score": "3\u20131"
-    },
-    {
-      "date": "2026-03-21",
-      "opponent": "DET",
-      "home": false,
-      "gamePk": 831601,
-      "status": "final",
-      "result": "L",
-      "score": "1\u20133"
-    },
-    {
-      "date": "2026-03-22",
-      "opponent": "PHI",
-      "home": true,
-      "gamePk": 831493,
-      "status": "final",
-      "result": "W",
-      "score": "6\u20132"
-    },
-    {
-      "date": "2026-03-23",
-      "opponent": "CHC",
-      "home": false,
-      "gamePk": 831780,
-      "status": "final",
-      "result": "L",
-      "score": "6\u201315"
-    },
-    {
-      "date": "2026-03-24",
-      "opponent": "CHC",
-      "home": false,
-      "gamePk": 831779,
-      "status": "final",
-      "result": "W",
-      "score": "8\u20133"
-    },
     {
       "date": "2026-03-25",
       "opponent": "SF",
@@ -228,7 +12,8 @@
       "gamePk": 823244,
       "status": "final",
       "result": "W",
-      "score": "7\u20130"
+      "score": "7\u20130",
+      "opening_day": true
     },
     {
       "date": "2026-03-27",
@@ -268,7 +53,7 @@
     }
   ],
   "summary": {
-    "month_record": "17\u201312",
+    "month_record": "4\u20131",
     "current_streak": "",
     "last_10": ""
   }

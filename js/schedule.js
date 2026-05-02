@@ -108,24 +108,55 @@
 
   // ── Calendar grid ─────────────────────────────────────────────────────────
 
-  // Detect consecutive same-opponent+home runs as series.
-  // Returns Map<gamePk, {len, pos}> (pos is 1-indexed within the series).
+  function daysBetween(d1, d2) {
+    return (new Date(d2) - new Date(d1)) / 86400000;
+  }
+
+  // Group games into series: same opponent + home/away, gap ≤ 2 calendar days
+  // (allows one off-day between consecutive games in the same series).
+  // Returns Map<gamePk, {len, pos, seriesResult}> where seriesResult is
+  // "won" | "lost" | "split" for fully completed multi-game series, else null.
   function buildSeriesMeta(games) {
-    const meta = new Map();
-    let i = 0;
-    while (i < games.length) {
-      let j = i + 1;
-      while (
-        j < games.length &&
-        games[j].opponent === games[i].opponent &&
-        games[j].home === games[i].home
-      ) { j++; }
-      const len = j - i;
-      for (let k = i; k < j; k++) {
-        meta.set(games[k].gamePk, { len, pos: k - i + 1 });
+    // Build series groups
+    const seriesList = [];
+    let curr = null;
+
+    for (const g of games) {
+      if (
+        curr &&
+        g.opponent === curr.opp &&
+        g.home === curr.home &&
+        daysBetween(curr.lastDate, g.date) <= 2
+      ) {
+        curr.games.push(g);
+        curr.lastDate = g.date;
+      } else {
+        if (curr) seriesList.push(curr);
+        curr = { opp: g.opponent, home: g.home, lastDate: g.date, games: [g] };
       }
-      i = j;
     }
+    if (curr) seriesList.push(curr);
+
+    // Compute result for each series and build lookup map
+    const meta = new Map();
+
+    for (const s of seriesList) {
+      const len = s.games.length;
+
+      // Only shade multi-game series where every game is final
+      const allFinal = len > 1 && s.games.every(g => g.status === 'final');
+      let seriesResult = null;
+      if (allFinal) {
+        const wins   = s.games.filter(g => g.result === 'W').length;
+        const losses = s.games.filter(g => g.result === 'L').length;
+        seriesResult = wins > losses ? 'won' : losses > wins ? 'lost' : 'split';
+      }
+
+      s.games.forEach((g, i) => {
+        meta.set(g.gamePk, { len, pos: i + 1, seriesResult });
+      });
+    }
+
     return meta;
   }
 
@@ -182,6 +213,18 @@
         if (dateGames.some(g => { const s = seriesMeta.get(g.gamePk); return s && s.len > 1; })) {
           cell.classList.add('cal-series-cell');
         }
+        // Apply completed-series result tint to the cell (behind game cards)
+        const cellSeriesResult = (() => {
+          for (const g of dateGames) {
+            const s = seriesMeta.get(g.gamePk);
+            if (s && s.seriesResult) return s.seriesResult;
+          }
+          return null;
+        })();
+        if (cellSeriesResult && cellSeriesResult !== 'split') {
+          cell.dataset.seriesResult = cellSeriesResult;
+          cell.title = `Series ${cellSeriesResult}`;
+        }
 
         const num = el('span', 'cal-day-num');
         num.textContent = dayNum;
@@ -199,6 +242,13 @@
   function buildGame(g, series) {
     const wrap = el('div', 'cal-game');
     wrap.classList.add(g.home ? 'cal-home' : 'cal-away');
+
+    // Opening Day label (before opponent line so it reads top-to-bottom)
+    if (g.opening_day) {
+      const od = el('div', 'cal-opening-day');
+      od.textContent = 'Opening Day';
+      wrap.appendChild(od);
+    }
 
     // Opponent line — split prefix from team abbr for independent styling
     const oppRow = el('div', 'cal-opp');

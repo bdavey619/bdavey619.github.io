@@ -31,8 +31,11 @@ TEAM_ABBRS = {
     144: "ATL", 145: "CWS", 146: "MIA", 147: "NYY", 158: "MIL",
 }
 
-# Regular season months — March through September
+# Calendar months to query — MLB regular season spans March–September
 SEASON_MONTHS = range(3, 10)
+
+# Only these gameType values are regular season
+REGULAR_SEASON_TYPES = {"R"}
 
 
 def mlb_fetch(path, params):
@@ -156,6 +159,7 @@ def build_month_output(year, month, team_slug, cfg, archive_map, brief_path, now
     params = (
         f"sportId=1&teamId={cfg.team_id}"
         f"&startDate={start}&endDate={end}"
+        f"&gameType=R"
         f"&hydrate=probablePitcher,decisions,linescore,teams"
     )
     print(f"  {cfg.team_name} {year}-{month:02d} ({start} → {end})...")
@@ -165,6 +169,9 @@ def build_month_output(year, month, team_slug, cfg, archive_map, brief_path, now
     for date_entry in data.get("dates", []):
         date_str = date_entry["date"]
         for game in date_entry.get("games", []):
+            # Secondary filter — skip spring training / exhibition even if API leaks them
+            if game.get("gameType") not in REGULAR_SEASON_TYPES:
+                continue
             games.append(build_entry(
                 date_str, game, cfg.team_id, cfg.tz_label, cfg.tz_offset, archive_map
             ))
@@ -183,34 +190,18 @@ def build_month_output(year, month, team_slug, cfg, archive_map, brief_path, now
     }
 
 
-def rebuild_index(team_dir, team_name, team_slug, season_year):
-    """Scan team_dir for schedule-YYYY-MM.json files and write schedule-index.json."""
-    months = []
-    for fname in sorted(os.listdir(team_dir)):
-        if not (fname.startswith("schedule-") and fname.endswith(".json")):
-            continue
-        if fname == "schedule-index.json":
-            continue
-        stem = fname[len("schedule-"):-len(".json")]
-        parts = stem.split("-")
-        if len(parts) == 2:
-            try:
-                y, m = int(parts[0]), int(parts[1])
-                if y == season_year:
-                    months.append(f"{y}-{m:02d}")
-            except ValueError:
-                pass
-
+def rebuild_index(team_dir, team_name, team_slug, season_year, months_with_games):
+    """Write schedule-index.json containing only months that have regular season games."""
     index = {
         "team": team_name,
         "team_slug": team_slug,
         "season": season_year,
-        "months": months,
+        "months": months_with_games,
     }
     index_path = os.path.join(team_dir, "schedule-index.json")
     with open(index_path, "w") as f:
         json.dump(index, f, indent=2)
-    print(f"  Index → {len(months)} months: {months}")
+    print(f"  Index → {len(months_with_games)} months: {months_with_games}")
 
 
 def main():
@@ -228,24 +219,37 @@ def main():
     brief_path = os.path.join(team_dir, "brief.json")
     archive_map = load_archive_map(archive_dir)
 
-    print(f"Building {cfg.team_name} schedule — {year} season ({SEASON_MONTHS.start}–{SEASON_MONTHS.stop - 1})")
+    print(f"Building {cfg.team_name} schedule — {year} regular season (Mar–Sep)")
 
+    # ── Phase 1: build all month outputs ────────────────────────────────────
+    month_outputs = {}  # "YYYY-MM" → output dict
     for month in SEASON_MONTHS:
         output = build_month_output(year, month, args.team, cfg, archive_map, brief_path, now)
+        if output["games"]:
+            month_outputs[f"{year}-{month:02d}"] = output
 
-        month_path = os.path.join(team_dir, f"schedule-{year}-{month:02d}.json")
+    # ── Phase 2: mark Opening Day on the first regular season game ───────────
+    if month_outputs:
+        first_key = min(month_outputs.keys())
+        month_outputs[first_key]["games"][0]["opening_day"] = True
+        print(f"  Opening Day: {month_outputs[first_key]['games'][0]['date']} ({first_key})")
+
+    # ── Phase 3: write files ─────────────────────────────────────────────────
+    for month_key, output in sorted(month_outputs.items()):
+        month_path = os.path.join(team_dir, f"schedule-{month_key}.json")
         with open(month_path, "w") as f:
             json.dump(output, f, indent=2)
         print(f"    → {os.path.basename(month_path)} ({len(output['games'])} games)")
 
         # Current month also written as schedule.json for backward compat
-        if month == now.month:
+        month_num = int(month_key.split("-")[1])
+        if month_num == now.month:
             sched_path = os.path.join(team_dir, "schedule.json")
             with open(sched_path, "w") as f:
                 json.dump(output, f, indent=2)
             print(f"    → schedule.json (current month alias)")
 
-    rebuild_index(team_dir, cfg.team_name, args.team, year)
+    rebuild_index(team_dir, cfg.team_name, args.team, year, sorted(month_outputs.keys()))
 
 
 if __name__ == "__main__":

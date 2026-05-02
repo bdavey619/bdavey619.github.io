@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-02T15:00:01.100862+00:00",
+  "generated_at": "2026-05-02T15:23:19.113275+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -12,7 +12,8 @@
       "gamePk": 822990,
       "status": "final",
       "result": "L",
-      "score": "0\u20133"
+      "score": "0\u20133",
+      "archive_url": "archive.html?date=2026-05-02"
     },
     {
       "date": "2026-05-02",
@@ -241,7 +242,7 @@
   ],
   "summary": {
     "month_record": "0\u20131",
-    "current_streak": "L3",
+    "current_streak": "L4",
     "last_10": "4\u20136"
   }
 }
