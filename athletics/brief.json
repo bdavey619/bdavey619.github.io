@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T13:55:06+00:00",
+  "generated_at": "2026-05-02T14:21:36+00:00",
   "season": 2026,
   "team": {
     "record": "17-15",
@@ -329,9 +329,9 @@
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "The offense crumbled exactly when it mattered most.",
-    "what_this_means": "Rooker's three-run night kept them tethered to this game, but five runs in 4.1 innings from Ginn meant they were always digging out of a hole that didn't get shallower. Nine hits and six strikeouts is the kind of production that screams close, except the game never actually was. Cleveland took what it needed early and the Athletics never made them sweat for it.",
-    "what_to_watch": "This is what fragility looks like in real time. The pitching remains soft. 4.35 ERA now, trending the wrong way. The offense shows up just enough to stay in conversation and not a shred more. Rooker delivered when traffic existed, but traffic alone doesn't win games. You need the traffic plus the pitcher holding ground, and Ginn gave away ground in bunches. They had chances to tighten it. They didn't.",
+    "top_frame": "The offense stayed relevant. That's not enough anymore.",
+    "what_this_means": "Rooker delivered again. A 3-RBI night that kept them hanging around. But that's become the story: one player making traffic matter while the rest of the lineup goes quiet. Nine hits generated five runs. The math doesn't work when you're chasing and need everything to land. They had chances. They didn't convert enough of them. Ginn gave up five runs in 4.1 innings and they couldn't overcome that gap, not against Cleveland at home. This is the pattern getting louder. Good teams win games where the pitcher struggles and the lineup does its part. This team lost one.",
+    "what_to_watch": "They left runners where it mattered and that's what cost them.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
@@ -351,17 +351,13 @@
     },
     "story_delta": {
       "has_prev": true,
-      "trend_changed": true,
-      "trend_direction": "declined",
+      "trend_changed": false,
+      "trend_direction": "unchanged",
       "conf_changed": false,
-      "pressure_changed": true,
+      "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "trend declined: stabilizing \u2192 fragile",
-        "pressure increased: building \u2192 high",
-        "lost last game",
-        "streak flipped: W2 \u2192 L1",
-        "ERA worsened: 4.23 \u2192 4.35"
+        "lost last game"
       ]
     }
   }
