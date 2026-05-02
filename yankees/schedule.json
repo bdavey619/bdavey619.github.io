@@ -3,18 +3,16 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-01T12:01:52.685612+00:00",
+  "generated_at": "2026-05-02T11:50:52.100707+00:00",
   "games": [
     {
       "date": "2026-05-01",
       "opponent": "BAL",
       "home": true,
       "gamePk": 823557,
-      "status": "scheduled",
-      "time_local": "7:05 PM ET",
-      "probable": {
-        "team": "Will Warren"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "7\u20132"
     },
     {
       "date": "2026-05-02",
@@ -24,7 +22,8 @@
       "status": "scheduled",
       "time_local": "1:35 PM ET",
       "probable": {
-        "team": "Ryan Weathers"
+        "team": "Ryan Weathers",
+        "opp": "Kyle Bradish"
       }
     },
     {
@@ -46,7 +45,8 @@
       "status": "scheduled",
       "time_local": "7:05 PM ET",
       "probable": {
-        "team": "Cam Schlittler"
+        "team": "Cam Schlittler",
+        "opp": "Shane Baz"
       }
     },
     {
@@ -251,8 +251,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20130",
-    "current_streak": "L1",
+    "month_record": "1\u20130",
+    "current_streak": "W1",
     "last_10": "8\u20132"
   }
 }
