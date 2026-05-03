@@ -3,15 +3,15 @@
   "driver": "balanced",
   "confidence": "high",
   "pressure": "building",
-  "record_w": 21,
+  "record_w": 22,
   "record_l": 11,
-  "streak": "W1",
+  "streak": "W2",
   "last10_w": 8,
-  "era": 3.05,
-  "ops": 0.758,
+  "era": 3.01,
+  "ops": 0.771,
   "gb": 0.0,
   "division_rank": 1,
   "last_result": "W",
-  "date": "2026-05-01",
-  "game_emotion_level": "normal"
+  "date": "2026-05-02",
+  "game_emotion_level": "high"
 }
