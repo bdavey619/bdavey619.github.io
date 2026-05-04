@@ -257,6 +257,110 @@ def _build_story_hook_block(story_hook):
     )
 
 
+def _build_team_snapshot_block(brief):
+    """Return a <tr> block for the 4-metric Team Snapshot row, or empty string."""
+    team = brief.get("team")
+    if not team:
+        return ""
+
+    record   = team.get("record", "")
+    last10   = team.get("last10", "")
+    run_diff = team.get("run_diff", "")
+    streak   = team.get("streak", "")
+
+    if not any([record, last10, run_diff, streak]):
+        return ""
+
+    UP, DOWN, NEUT = "&#9650;", "&#9660;", "&ndash;"
+    C_UP   = "#3a7f5a"
+    C_DOWN = "#a14b4b"
+    C_NEUT = "#8a8278"
+
+    # Last 10 direction — compare wins to prev_last10 if available
+    def _parse_wins(s):
+        try:
+            return int(str(s).split("-")[0])
+        except (ValueError, AttributeError):
+            return None
+
+    prev_last10 = team.get("prev_last10", "")
+    curr_w = _parse_wins(last10)
+    prev_w = _parse_wins(prev_last10) if prev_last10 else None
+    if curr_w is not None and prev_w is not None:
+        if curr_w > prev_w:
+            l10_dir, l10_col = UP, C_UP
+        elif curr_w < prev_w:
+            l10_dir, l10_col = DOWN, C_DOWN
+        else:
+            l10_dir, l10_col = NEUT, C_NEUT
+    else:
+        l10_dir, l10_col = None, None
+
+    # Run diff direction — compare to prev_run_diff if available
+    def _parse_rd(s):
+        try:
+            return int(s)
+        except (ValueError, TypeError):
+            return None
+
+    prev_run_diff = team.get("prev_run_diff", "")
+    curr_rd = _parse_rd(run_diff)
+    prev_rd = _parse_rd(prev_run_diff) if prev_run_diff else None
+    if curr_rd is not None and prev_rd is not None:
+        if curr_rd > prev_rd:
+            rd_dir, rd_col = UP, C_UP
+        elif curr_rd < prev_rd:
+            rd_dir, rd_col = DOWN, C_DOWN
+        else:
+            rd_dir, rd_col = NEUT, C_NEUT
+    else:
+        rd_dir, rd_col = None, None
+
+    # Format display values
+    def _fmt_record(r):
+        return r.replace("-", "–") if r else "—"
+
+    def _fmt_rd(rd):
+        try:
+            n = int(rd)
+            return f"+{n}" if n > 0 else str(n)
+        except (ValueError, TypeError):
+            return rd or "—"
+
+    font = "font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;"
+
+    def _cell(label, value, indicator=None, ind_col=C_NEUT):
+        ind_html = (
+            f'<span style="font-size:8px;color:{ind_col};margin-left:2px;">{indicator}</span>'
+            if indicator else ""
+        )
+        return (
+            f'<td width="25%" align="center" style="padding:0 4px;">'
+            f'<p style="margin:0 0 3px;{font}font-size:9px;text-transform:uppercase;'
+            f'letter-spacing:0.1em;color:#8a8278;font-weight:600;">{label}</p>'
+            f'<p style="margin:0;{font}font-size:15px;font-weight:700;color:#1a1613;line-height:1;">'
+            f'{value}{ind_html}</p>'
+            f'</td>'
+        )
+
+    cells = (
+        _cell("Record",   _fmt_record(record)) +
+        _cell("Last 10",  _fmt_record(last10),  l10_dir, l10_col) +
+        _cell("Run Diff", _fmt_rd(run_diff),     rd_dir,  rd_col) +
+        _cell("Streak",   streak or "—")
+    )
+
+    return (
+        '<tr>'
+        '<td style="padding:16px 0 18px;border-bottom:1px solid #d8d2c4;">'
+        '<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">'
+        '<tr>' + cells + '</tr>'
+        '</table>'
+        '</td>'
+        '</tr>'
+    )
+
+
 def _build_what_to_watch_block(text):
     """Return a self-contained <table> block for the What to Watch section.
     Returns empty string when no text — the {{what_to_watch_block}} placeholder
@@ -386,6 +490,8 @@ def main():
     clutch      = lg.get("clutch_player") or {}
     clutch_name = clutch.get("name", "") if clutch else ""
 
+    team_snapshot_block = _build_team_snapshot_block(brief)
+
     context = {
         "brief_date":                fmt_brief_date(),
         "story_hook_block":          _build_story_hook_block(brief.get("story_hook", "")),
@@ -404,6 +510,7 @@ def main():
         "pitcher_line":      pitcher.get("line", ""),
         "insight_headline":    insight_headline,
         "insight_detail":      insight_detail,
+        "team_snapshot_block": team_snapshot_block,
         "what_to_watch_block": _build_what_to_watch_block(what_to_watch_text),
         "next_day_label":    next_day_label(ng.get("date", "")),
         "next_opponent":     f"{ng_home_away} {ng.get('opponent', '')}",
