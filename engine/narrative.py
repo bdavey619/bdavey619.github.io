@@ -1280,12 +1280,15 @@ FUNCTION OVERRIDE — this section previews the next game only. It does not refe
 
 It must:
 - Name the next opponent and/or the probable pitcher from NEXT GAME context above
-- Contain one specific, concrete detail about that matchup (pitcher ERA, lineup edge, series context, etc.)
+- Introduce a tension that is NEW — not already stated in the subhead, TOP FRAME, or WHAT THIS GAME MEANS above
+- The new tension must be tied specifically to the next opponent or their pitching profile (e.g. a starter's recent form, an offense's weakness, a matchup asymmetry, a lineup edge)
+- Contain one specific, concrete detail about that matchup (pitcher ERA, opponent batting average, series context, lineup edge, etc.)
 
 Avoid:
 - Any mention of yesterday's game, result, or players
 - Pattern language: "can they build on", "looking to continue", "momentum", "keep it going", "bounce back"
 - Abstract stakes or broad team verdicts — name the matchup, not the narrative arc
+- Restating or echoing anything already established in the sections above
 
 Length: 2 sentences max. One sentence is acceptable if it is specific. Not a recap.
 
@@ -1773,6 +1776,8 @@ Answer each question internally. If any answer fails, rewrite before returning.
         If no → soften or rewrite. Accuracy is not optional.
   [ ] Does WHAT TO WATCH name the next opponent or probable pitcher with at least one specific detail?
         If no → rewrite using NEXT GAME context.
+  [ ] Does WHAT TO WATCH introduce a tension NOT already stated in TOP FRAME or WHAT THIS GAME MEANS?
+        If no → rewrite. The tension must be new and grounded in the next opponent or pitching matchup — not a restatement of what the brief already established.
   [ ] Do multiple sentences in the same section start with the same word?
         If yes → rewrite the second sentence's opening.
   [ ] Was a metaphor or image used? If yes — is it limited to one per paragraph, and is it followed by concrete baseball detail?
@@ -1796,7 +1801,7 @@ HARD RULES:
 - Take a clear editorial stance. Use active voice.
 - WHAT THIS GAME MEANS must be 90–120 words. Tight. Name what changed. Do NOT exceed 120 words.
 - WHAT THIS GAME MEANS must NOT simply restate the story_hook, game_note, Game Driver, or Turning Point. These sections are already displayed separately. Build on them — do not repeat them.
-- WHAT TO WATCH must be 2 sentences max. It previews the next game only — name the opponent and/or probable pitcher. Do NOT reference yesterday's game, result, or players. Do NOT use pattern language ("build on", "momentum", "bounce back"). Do NOT quote or restate the NEXT GAME HOOK stat verbatim.
+- WHAT TO WATCH must be 2 sentences max. It previews the next game only — name the opponent and/or probable pitcher. Do NOT reference yesterday's game, result, or players. Do NOT use pattern language ("build on", "momentum", "bounce back"). Do NOT quote or restate the NEXT GAME HOOK stat verbatim. The tension it introduces must be NEW — not already stated in TOP FRAME or WHAT THIS GAME MEANS. It must be grounded in the next opponent or their pitching matchup specifically.
 - If trend is "surging": the question is how long can this hold?
 - If trend is "fragile" or "slipping": be honest about the problem. Do not soften it.
 - If driver is "pitching" and OPS < 0.700: do not frame the offense as fine.
