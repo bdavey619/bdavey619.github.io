@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-03T13:14:03.172691+00:00",
+  "generated_at": "2026-05-04T14:04:38.130796+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -22,19 +22,17 @@
       "gamePk": 822988,
       "status": "final",
       "result": "L",
-      "score": "1\u20135"
+      "score": "1\u20135",
+      "archive_url": "archive.html?date=2026-05-03"
     },
     {
       "date": "2026-05-03",
       "opponent": "TB",
       "home": false,
       "gamePk": 822987,
-      "status": "scheduled",
-      "time_local": "10:40 AM PT",
-      "probable": {
-        "team": "Tyler Mahle",
-        "opp": "Steven Matz"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20132"
     },
     {
       "date": "2026-05-04",
@@ -42,7 +40,11 @@
       "home": true,
       "gamePk": 823228,
       "status": "scheduled",
-      "time_local": "6:45 PM PT"
+      "time_local": "6:45 PM PT",
+      "probable": {
+        "team": "Trevor McDonald",
+        "opp": "Randy V\u00e1squez"
+      }
     },
     {
       "date": "2026-05-05",
@@ -50,7 +52,10 @@
       "home": true,
       "gamePk": 823227,
       "status": "scheduled",
-      "time_local": "6:45 PM PT"
+      "time_local": "6:45 PM PT",
+      "probable": {
+        "opp": "Walker Buehler"
+      }
     },
     {
       "date": "2026-05-06",
@@ -58,7 +63,10 @@
       "home": true,
       "gamePk": 823226,
       "status": "scheduled",
-      "time_local": "12:45 PM PT"
+      "time_local": "12:45 PM PT",
+      "probable": {
+        "opp": "Matt Waldron"
+      }
     },
     {
       "date": "2026-05-08",
@@ -238,8 +246,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20132",
-    "current_streak": "L5",
-    "last_10": "3\u20137"
+    "month_record": "0\u20133",
+    "current_streak": "L6",
+    "last_10": "2\u20138"
   }
 }
