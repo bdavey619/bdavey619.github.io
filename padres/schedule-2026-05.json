@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-03T11:11:11.415117+00:00",
+  "generated_at": "2026-05-04T12:09:02.813307+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -22,19 +22,17 @@
       "gamePk": 823308,
       "status": "final",
       "result": "L",
-      "score": "0\u20134"
+      "score": "0\u20134",
+      "archive_url": "archive.html?date=2026-05-03"
     },
     {
       "date": "2026-05-03",
       "opponent": "CWS",
       "home": true,
       "gamePk": 823307,
-      "status": "scheduled",
-      "time_local": "1:10 PM PT",
-      "probable": {
-        "team": "Griffin Canning",
-        "opp": "Anthony Kay"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "4\u20133"
     },
     {
       "date": "2026-05-04",
@@ -42,7 +40,11 @@
       "home": false,
       "gamePk": 823228,
       "status": "scheduled",
-      "time_local": "6:45 PM PT"
+      "time_local": "6:45 PM PT",
+      "probable": {
+        "team": "Randy V\u00e1squez",
+        "opp": "Trevor McDonald"
+      }
     },
     {
       "date": "2026-05-05",
@@ -50,7 +52,10 @@
       "home": false,
       "gamePk": 823227,
       "status": "scheduled",
-      "time_local": "6:45 PM PT"
+      "time_local": "6:45 PM PT",
+      "probable": {
+        "team": "Walker Buehler"
+      }
     },
     {
       "date": "2026-05-06",
@@ -58,7 +63,10 @@
       "home": false,
       "gamePk": 823226,
       "status": "scheduled",
-      "time_local": "12:45 PM PT"
+      "time_local": "12:45 PM PT",
+      "probable": {
+        "team": "Matt Waldron"
+      }
     },
     {
       "date": "2026-05-07",
@@ -238,8 +246,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20132",
-    "current_streak": "L4",
+    "month_record": "1\u20132",
+    "current_streak": "W1",
     "last_10": "4\u20136"
   }
 }
