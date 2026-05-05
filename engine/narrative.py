@@ -449,6 +449,160 @@ def _compute_max_deficit(last_game):
 
 
 # ---------------------------------------------------------------------------
+# Turning Point helpers — deterministic derivation when clutch_player absent
+# ---------------------------------------------------------------------------
+
+def _ordinal(n: int) -> str:
+    """Convert integer to English ordinal word (1→first, 9→ninth, etc.)."""
+    _words = {
+        1: "first", 2: "second", 3: "third", 4: "fourth", 5: "fifth",
+        6: "sixth", 7: "seventh", 8: "eighth", 9: "ninth", 10: "tenth",
+        11: "eleventh", 12: "twelfth",
+    }
+    return _words.get(n, f"{n}th")
+
+
+def _derive_turning_point(last_game: dict) -> "dict | None":
+    """
+    Derive the best available turning point from structured game data.
+    Called when no high-confidence clutch_player is present.
+
+    Priority:
+    1. Go-ahead or tying scoring moment (from linescore)
+    2. HR that changes game state (from key_hitters)
+    3. Late-inning missed opportunity — high LOB on a loss
+    4. Starter's dominant stretch (pitching escape, W with low opp runs)
+    5. First significant multi-run inning
+    """
+    if not last_game:
+        return None
+
+    def _ti(v):
+        try:
+            return int(v)
+        except (TypeError, ValueError):
+            return 0
+
+    linescore = last_game.get("linescore") or [[], []]
+    sd_inn    = [_ti(v) for v in (linescore[0] if linescore else [])]
+    opp_inn   = [_ti(v) for v in (linescore[1] if len(linescore) > 1 else [])]
+    result    = last_game.get("result", "")
+    score     = last_game.get("score") or {}
+    n         = min(len(sd_inn), len(opp_inn))
+
+    if n == 0:
+        return None
+
+    sd_cum  = [sum(sd_inn[:i + 1]) for i in range(n)]
+    opp_cum = [sum(opp_inn[:i + 1]) for i in range(n)]
+
+    # PRIORITY 1: go-ahead or tying moment
+    for i in range(1, n):
+        prev_sd, prev_opp = sd_cum[i - 1], opp_cum[i - 1]
+        curr_sd, curr_opp = sd_cum[i],     opp_cum[i]
+        inning = i + 1
+        if prev_sd <= prev_opp and curr_sd > curr_opp:
+            return {"type": "go_ahead", "inning": inning, "runs": sd_inn[i]}
+        if prev_sd < prev_opp and curr_sd == curr_opp:
+            return {"type": "tying", "inning": inning, "runs": sd_inn[i]}
+
+    # PRIORITY 2: HR from key hitters
+    for h in (last_game.get("key_hitters") or []):
+        m = re.search(r'(\d+)\s*HR', h.get("line", ""))
+        if m:
+            return {"type": "hr", "name": h.get("name", ""), "hr": int(m.group(1))}
+
+    # PRIORITY 3: late-inning missed opportunity (high LOB, loss)
+    full_box = last_game.get("full_box") or {}
+    batting  = full_box.get("batting") or []
+    team_lob = sum(_ti(b.get("lob", 0)) for b in batting)
+    if result == "L" and team_lob >= 6:
+        return {"type": "lob", "lob": team_lob}
+
+    # PRIORITY 4: dominant start / pitching escape
+    if result == "W":
+        pitching = full_box.get("pitching") or []
+        if pitching:
+            try:
+                starter_ip = float(str(pitching[0].get("ip", "0")))
+            except (TypeError, ValueError):
+                starter_ip = 0.0
+            opp_runs = _ti(score.get("opp", 0))
+            if starter_ip >= 6.0 and opp_runs <= 2:
+                return {
+                    "type": "pitching_escape",
+                    "name": pitching[0].get("name", ""),
+                    "ip":   starter_ip,
+                    "opp_runs": opp_runs,
+                }
+
+    # PRIORITY 5: first significant multi-run inning
+    for i, r in enumerate(sd_inn):
+        if r >= 2:
+            return {"type": "first_multi_run", "inning": i + 1, "runs": r}
+
+    # Final fallback: first score
+    for i, r in enumerate(sd_inn):
+        if r >= 1:
+            return {"type": "first_score", "inning": i + 1, "runs": r}
+
+    return None
+
+
+def _format_turning_point(tp: dict, last_game: dict) -> str:
+    """Format a derived turning point into a one-sentence baseball-native string."""
+    if not tp:
+        return ""
+
+    tp_type = tp.get("type", "")
+
+    if tp_type == "go_ahead":
+        inning = tp.get("inning", 0)
+        runs   = tp.get("runs", 1)
+        ord_   = _ordinal(inning)
+        if runs == 1:
+            return f"The go-ahead run scored in the {ord_}."
+        return f"{runs} runs in the {ord_} flipped the lead."
+
+    if tp_type == "tying":
+        inning = tp.get("inning", 0)
+        ord_   = _ordinal(inning)
+        return f"They tied it in the {ord_} but couldn't push the lead run across."
+
+    if tp_type == "hr":
+        name      = tp.get("name", "")
+        hr_n      = tp.get("hr", 1)
+        last_name = name.split()[-1] if name else "the homer"
+        if hr_n == 1:
+            return f"{last_name}'s home run was the swing that mattered."
+        return f"{last_name}'s {hr_n} home runs were the lineup's separator."
+
+    if tp_type == "lob":
+        lob = tp.get("lob", 0)
+        return f"Left {lob} on base — the missed opportunity that cost them."
+
+    if tp_type == "pitching_escape":
+        name      = tp.get("name", "")
+        ip        = tp.get("ip", 0.0)
+        opp       = tp.get("opp_runs", 0)
+        last_name = name.split()[-1] if name else "the starter"
+        return f"{last_name} gave them {ip:.0f} innings and held it to {opp}."
+
+    if tp_type == "first_multi_run":
+        inning = tp.get("inning", 0)
+        runs   = tp.get("runs", 0)
+        ord_   = _ordinal(inning)
+        return f"The {ord_} inning gave them {runs} — the closest thing to a turn."
+
+    if tp_type == "first_score":
+        inning = tp.get("inning", 0)
+        ord_   = _ordinal(inning)
+        return f"First run came in the {ord_} in a game that never opened up."
+
+    return ""
+
+
+# ---------------------------------------------------------------------------
 # Story Hook — one-sentence emotional framing for the masthead
 # ---------------------------------------------------------------------------
 
@@ -663,6 +817,7 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
     offense_note = f"{team_hits} hits, {team_ks} strikeouts" if batting else ""
 
     # Clutch moment context (deterministic, from play-by-play)
+    # Every game must produce a Turning Point — derive one when none is detected.
     clutch = last_game.get("clutch_player")
     if clutch and clutch.get("confidence") == "high":
         clutch_block = (
@@ -672,13 +827,34 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
             f"  Reason: {clutch['reason']}"
         )
     elif clutch and clutch.get("confidence") == "low":
+        _derived = _derive_turning_point(last_game)
+        _derived_line = (
+            f"\n  Derived moment: {_format_turning_point(_derived, last_game)}"
+            if _derived else ""
+        )
         clutch_block = (
-            f"\nTURNING POINT (fallback — box score only, LOW CONFIDENCE):\n"
-            f"  {clutch['name']}: {clutch['event']}\n"
-            f"  Do NOT anchor the narrative on this player."
+            f"\nTURNING POINT (box score only — LOW CONFIDENCE on specific player):\n"
+            f"  {clutch['name']}: {clutch['event']}{_derived_line}\n"
+            f"  REQUIRED: Write a Turning Point sentence anchored on the derived moment or the "
+            f"scoring context above. Do NOT anchor by name on {clutch['name']}."
         )
     else:
-        clutch_block = "\nTURNING POINT: none detected"
+        _derived = _derive_turning_point(last_game)
+        if _derived:
+            _derived_text = _format_turning_point(_derived, last_game)
+            clutch_block = (
+                f"\nTURNING POINT (derived from game data — REQUIRED for every game):\n"
+                f"  Best available moment: {_derived_text}\n"
+                f"  Source: {_derived.get('type', 'linescore')}\n"
+                f"  REQUIRED: Use this as the Turning Point. One sentence. Inning + what changed."
+            )
+        else:
+            clutch_block = (
+                f"\nTURNING POINT (REQUIRED — derive from context):\n"
+                f"  No specific moment detected from data. Identify the closest thing to a decisive "
+                f"moment from the score and game context. Every game must have a Turning Point — "
+                f"use the first scoring swing, a pitching escape, or a missed opportunity."
+            )
 
     # Game driver context (deterministic, from box score)
     # Enhance description to be role-based and game-aware when context allows
@@ -702,6 +878,37 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
         )
     else:
         game_driver_block = "\nGAME DRIVER: none detected"
+
+    # Notable offensive event detection — used for State of Play alignment (Part 3)
+    def _ti_p(v):
+        try:
+            return int(v)
+        except (TypeError, ValueError):
+            return 0
+
+    _ls_raw  = last_game.get("linescore") or [[], []]
+    _sd_runs = [_ti_p(v) for v in (_ls_raw[0] if _ls_raw else [])]
+    _hr_hits = [
+        (h["name"], int(re.search(r'(\d+)\s*HR', h.get("line", "")).group(1)))
+        for h in kh
+        if re.search(r'\d+\s*HR', h.get("line", ""))
+    ]
+    _big_inn = max(_sd_runs, default=0)
+
+    if _hr_hits:
+        _hr_desc = ", ".join(f"{n} ({c} HR)" for n, c in _hr_hits)
+        notable_offense_block = (
+            f"\nNOTABLE OFFENSIVE EVENT (must appear in Turning Point OR opening of WHAT THIS GAME MEANS):\n"
+            f"  Home run(s): {_hr_desc}"
+        )
+    elif _big_inn >= 3:
+        _big_idx = _sd_runs.index(_big_inn) + 1
+        notable_offense_block = (
+            f"\nNOTABLE OFFENSIVE EVENT (must appear in Turning Point OR opening of WHAT THIS GAME MEANS):\n"
+            f"  Big inning: {_big_inn} runs in the {_ordinal(_big_idx)}"
+        )
+    else:
+        notable_offense_block = ""
 
     emotion = story_state.get("game_emotion_level", "normal")
     if emotion == "extreme":
@@ -918,7 +1125,7 @@ LAST GAME:
   Offense:     {offense_note}{doubleheader_hint}
 {game_driver_block}
 {clutch_block}
-
+{notable_offense_block}
 TEAM CONTEXT:
   Record: {team.get('record')} · Streak: {team.get('streak')} · Last 10: {team.get('last10')}
   ERA: {team.get('era')} · OPS: {team.get('ops')} · Avg: {team.get('avg')}
@@ -1123,6 +1330,16 @@ Enforce this exact structure for WHAT THIS GAME MEANS:
    - Must make a definitive claim about the game
    - Must feel quotable and self-contained
    - Do not add any sentence after this
+
+NOTABLE EVENT ALIGNMENT — HARD RULE:
+If NOTABLE OFFENSIVE EVENT appears in the context above (home run or 3+ run inning), that event MUST be
+referenced explicitly in either:
+  a) The Turning Point sentence (already provided or derived), OR
+  b) The opening 1–2 sentences of WHAT THIS GAME MEANS
+
+No important offensive moment should be buried mid-paragraph or omitted entirely.
+If the event is already captured in the Turning Point block, a brief reinforcing reference in WHAT THIS GAME MEANS
+is acceptable but not required — do not duplicate the same sentence.
 
 NO GENERIC ANALYSIS:
 Do not explain baseball.
@@ -1647,6 +1864,26 @@ Examples:
 * "The bridge to the ninth is starting to look like the real separator."
 * "The bullpen didn't just survive the game; it defined the finish."
 
+BASEBALL LANGUAGE — NATIVE TEXTURE (internal — do NOT announce or label):
+Allow 1–2 baseball-native phrases per brief. Each must be tied to a real, identifiable event from this game.
+
+Approved forms (use only when the game earns it):
+* "got one back with a two-run shot"
+* "left him at third with one out"
+* "couldn't push the tying run across"
+* "worked counts but didn't cash it"
+* "hung a slider and paid for it"
+* "scratched out the go-ahead run"
+* "stranded the lead runner in the seventh"
+* "put up a crooked number in the fifth"
+
+Rules:
+- Only use if a real game event supports the phrase
+- Prefer placement in the body of WHAT THIS GAME MEANS, not as the punchline
+- One phrase is enough — do not force two if only one fits naturally
+- If no game event supports a native phrase, skip it — do NOT use generically
+- Disallowed: "came up clutch", "didn't get it done", "big spot", metaphors not tied to a play
+
 PLAYER ARC AWARENESS (internal — do NOT output arc labels):
 When a player appears repeatedly in meaningful moments, treat them as an evolving story — not a one-off stat line.
 
@@ -1783,6 +2020,12 @@ Answer each question internally. If any answer fails, rewrite before returning.
         If yes → remove or rewrite it.
   [ ] If the game was low-scoring or uneventful, does the writing still read naturally rather than forced?
         If no → remove any strained edge and let the plain facts carry it.
+  [ ] Is there a clear, identifiable moment from this game that shapes the narrative?
+        If no → identify the closest thing (scoring play, missed opportunity, pitching escape) and reference it explicitly.
+  [ ] Would a baseball fan remember a specific play or sequence from this description?
+        If no → find the sharpest concrete moment and make it explicit. A named player, an inning, a count. Something real.
+  [ ] Is any baseball-native language used? If yes — is every instance tied to a real game event?
+        If used generically (not tied to a specific play) → rewrite or remove it.
 
 HARD RULES:
 - LAYERING: Each section must add a new layer. Do not let the same sentence idea appear across story_hook, TOP FRAME, WHAT THIS GAME MEANS, and WHAT TO WATCH. If you find yourself writing the same point in different words, cut it from all but the section where it belongs.
@@ -1849,6 +2092,7 @@ def generate_postponed_narrative(last_game: dict, next_game: dict | None = None)
         "top_frame":       top_frame,
         "what_this_means": "",
         "what_to_watch":   " ".join(what_to_watch_parts),
+        "turning_point":   "",
     }
 
 
@@ -1932,10 +2176,23 @@ def generate_narrative_copy(brief_data, story_state, delta, team_name,
     if len(paragraphs) < 2:
         return _narrative_fallback(f"response had fewer than 2 paragraphs (got {len(paragraphs)})")
 
+    # Build deterministic turning point (always present — independent of AI)
+    _last_g  = brief_data.get("last_game") or {}
+    _clutch  = _last_g.get("clutch_player")
+    if _clutch and _clutch.get("confidence") == "high":
+        _tp_text = (
+            f"{_clutch['name']} — {_clutch.get('event', '')}, "
+            f"inning {_clutch.get('inning', '?')}. {_clutch.get('description', '')}"
+        ).strip()
+    else:
+        _derived_tp = _derive_turning_point(_last_g)
+        _tp_text    = _format_turning_point(_derived_tp, _last_g) if _derived_tp else ""
+
     import sys
     print("  [narrative] AI narrative generated successfully", file=sys.stderr)
     return {
         "top_frame":       clean_narrative_text(paragraphs[0]),
         "what_this_means": clean_narrative_text(paragraphs[1]),
         "what_to_watch":   clean_narrative_text(paragraphs[2]) if len(paragraphs) >= 3 else "",
+        "turning_point":   _tp_text,
     }
