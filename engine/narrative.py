@@ -1409,6 +1409,34 @@ Good: "they left two on in the sixth and never got another chance"
 
 If a sentence could describe any game by any team, rewrite it until it could only describe this one.
 
+CONCRETE LANGUAGE ENFORCEMENT:
+Abstract nouns are banned when used alone. The following words may ONLY appear if immediately followed by a concrete, game-specific detail:
+  - traffic / margin / formula / pattern / execution / opportunity / momentum / pressure / process / approach
+
+BAD: "They couldn't capitalize on traffic."
+GOOD: "They went 1-for-9 with runners in scoring position."
+
+BAD: "The margin disappeared late."
+GOOD: "They had runners on second and third in the seventh and didn't score."
+
+BAD: "The formula didn't hold."
+GOOD: "They struck out ten times against a pitcher with a 5+ ERA."
+
+BAD: "Execution was the problem."
+GOOD: "They stranded seven runners and scored once."
+
+Test: if you remove the abstract noun and nothing concrete remains, rewrite the sentence.
+
+CONCRETE ANCHOR REQUIREMENT — ENFORCED PER PARAGRAPH:
+Every paragraph in WHAT THIS GAME MEANS must contain at least ONE of the following:
+  - a specific stat (hits, strikeouts, LOB, ERA, runs in a specific inning)
+  - a specific inning reference ("in the sixth", "after the third", "through seven")
+  - a specific game sequence ("bases loaded, one out", "leadoff double, no score")
+  - a pitching line ("six innings, two runs", "seven strikeouts through five")
+
+If a paragraph contains only interpretation with no concrete anchor → rewrite it.
+A paragraph that contains only claims about what a game "revealed" or "meant" without any grounding detail is not acceptable.
+
 SPECIFICITY TRIGGER:
 WHAT THIS GAME MEANS must contain at least one concrete, game-specific detail that anchors the narrative to this actual game.
 
@@ -1515,18 +1543,20 @@ Natural variation only — do not force novelty. Clarity first, variety second.
 PHRASE VARIATION — IDENTITY CLAIMS:
 Avoid reusing the same sentence structure or phrasing for identity claims across outputs.
 
-If a sentence feels like a "perfect summary line" (e.g. "the formula broke when it mattered most"), treat it as one valid expression — not the default.
+If a sentence feels like a "perfect summary line" (e.g. "the formula broke when it mattered most"), it is not a valid expression — it is a banned phrase. Replace it with what specifically broke, when, and by how much.
 
-Do NOT recycle these constructions:
-- "the formula broke"
+Do NOT use these constructions under any circumstances:
+- "the formula broke" / "the formula held" / "the formula"
 - "this is the cost of..."
-- "this works until it doesn't"
+- "this works until it doesn't" (only acceptable if immediately followed by a concrete game-specific consequence)
+- "margin for error"
+- "this is the pattern"
 
 Vary the angle instead:
   outcome   → "they had the game — they didn't finish it"
   cause     → "it unraveled in the second inning"
-  threshold → "this is where the margin disappears"
-  structure → "this kind of game doesn't survive early damage"
+  threshold → "they've won four straight by one run. The next bad start ends the streak."
+  structure → "six innings, two runs — that's enough until the lineup goes 1-for-8 with runners on"
   judgment  → "this isn't good enough to win in this division"
 
 Each identity claim should feel like a fresh angle on the same truth — not the same sentence reused.
@@ -1536,7 +1566,7 @@ VOICE VARIATION — CONTROLLED UNHINGED:
 The brief should read like a sharp human observer, not a template. Keep it accurate and grounded — but allow slightly more edge, surprise, and personality.
 
 1. DO NOT reuse abstract framing across briefs.
-   These phrases are banned because they have become reflexive fills rather than earned observations:
+   These phrases are HARD BANNED — delete them on sight, replace with a direct observation:
    - "this is the pattern"
    - "that's the margin"
    - "this is the formula"
@@ -1544,7 +1574,10 @@ The brief should read like a sharp human observer, not a template. Keep it accur
    - "this is what happens when"
    - "the story is"
    - "the problem is"
-   When you reach for one of these, replace it with a concrete observation from the actual game.
+   - "margin for error"
+   - "this is the formula"
+   - "this is how it works"
+   These are not style choices. They are template language that could describe any team in any game. Replace every instance with a concrete game fact.
 
 2. Replace abstract framing with something sharper and game-specific.
    Bad:  "This is the pattern getting louder."
@@ -1552,6 +1585,12 @@ The brief should read like a sharp human observer, not a template. Keep it accur
 
    Bad:  "That's the margin they're working with."
    Good: "They won by one run for the third time in five games. That math gets harder."
+
+   Bad:  "This is the formula holding."
+   Good: "Five innings, one run allowed — the starter did enough and the bullpen held it."
+
+   Bad:  "This is what happens when the offense goes cold."
+   Good: "They stranded eight runners and scored twice."
 
 3. Allow up to one controlled unhinged line per State of Play section.
    Use it only if it naturally fits the game. Do not force it into low-event or straightforward games.
@@ -1767,6 +1806,14 @@ Answer each question internally. If any answer fails, rewrite before returning.
   [ ] Does any sentence use banned abstract framing ("this is the pattern", "that's the margin",
         "this is the formula", "this is the cost", "this is what happens when", "the story is", "the problem is")?
         If yes → replace with a concrete observation from the actual game.
+  [ ] Does any sentence rely on an abstract noun (traffic, margin, formula, pattern, execution, opportunity)
+        WITHOUT an immediately following concrete, game-specific detail?
+        If yes → rewrite. The abstract word must be dropped or anchored with a stat, inning, or sequence.
+  [ ] Could this sentence apply to another random MLB game played today?
+        If yes → rewrite. Force a stat, inning reference, game sequence, or pitching line that locks it to this game.
+  [ ] Does every paragraph in WHAT THIS GAME MEANS contain at least one concrete anchor
+        (stat, inning reference, game sequence, or pitching line)?
+        If any paragraph contains only interpretation → rewrite it.
   [ ] Is there one concrete, memorable line in State of Play that a reader would recall?
         If no → find the sharpest moment in the game and write it more directly.
   [ ] Is any edge or sharpness grounded in the actual game — not invented drama?
