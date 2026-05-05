@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-05",
   "division_name": "AL West",
-  "generated_at": "2026-05-04T14:40:22.388030+00:00",
+  "generated_at": "2026-05-05T14:34:22.854508+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -32,7 +32,8 @@
       "gamePk": 825013,
       "status": "final",
       "result": "W",
-      "score": "7\u20131"
+      "score": "7\u20131",
+      "archive_url": "archive.html?date=2026-05-04"
     },
     {
       "date": "2026-05-05",
@@ -42,7 +43,8 @@
       "status": "scheduled",
       "time_local": "3:40 PM PT",
       "probable": {
-        "team": "Luis Severino"
+        "team": "Luis Severino",
+        "opp": "Cristopher S\u00e1nchez"
       }
     },
     {
@@ -53,7 +55,8 @@
       "status": "scheduled",
       "time_local": "3:40 PM PT",
       "probable": {
-        "team": "Jeffrey Springs"
+        "team": "Jeffrey Springs",
+        "opp": "Zack Wheeler"
       }
     },
     {
@@ -64,7 +67,8 @@
       "status": "scheduled",
       "time_local": "3:40 PM PT",
       "probable": {
-        "team": "J.T. Ginn"
+        "team": "J.T. Ginn",
+        "opp": "Andrew Painter"
       }
     },
     {
