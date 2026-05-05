@@ -464,15 +464,20 @@ def _ordinal(n: int) -> str:
 
 def _derive_turning_point(last_game: dict) -> "dict | None":
     """
-    Derive the best available turning point from structured game data.
+    Derive the most decisive turning point from structured game data.
     Called when no high-confidence clutch_player is present.
 
+    Selection principle: choose the moment that best explains HOW the game
+    was decided, not just the first qualifying event. Among multiple valid
+    candidates, prefer: (a) late innings over early, (b) the lead change
+    that persisted to the final out over one that was subsequently erased.
+
     Priority:
-    1. Go-ahead or tying scoring moment (from linescore)
-    2. HR that changes game state (from key_hitters)
+    1. Decisive lead change — last go-ahead or tying moment, late-inning weighted
+    2. HR that most changed game state (highest RBI impact among key_hitters)
     3. Late-inning missed opportunity — high LOB on a loss
     4. Starter's dominant stretch (pitching escape, W with low opp runs)
-    5. First significant multi-run inning
+    5. Largest single scoring inning (best explains how runs were produced)
     """
     if not last_game:
         return None
@@ -496,21 +501,49 @@ def _derive_turning_point(last_game: dict) -> "dict | None":
     sd_cum  = [sum(sd_inn[:i + 1]) for i in range(n)]
     opp_cum = [sum(opp_inn[:i + 1]) for i in range(n)]
 
-    # PRIORITY 1: go-ahead or tying moment
+    # PRIORITY 1: Decisive lead change
+    # Collect ALL lead-change events, then select the most decisive one.
+    # "Decisive" = the last go-ahead that persisted (produced the final outcome),
+    # with a preference for late innings (6+) over early ones.
+    go_ahead_events = []
+    tying_events    = []
     for i in range(1, n):
         prev_sd, prev_opp = sd_cum[i - 1], opp_cum[i - 1]
         curr_sd, curr_opp = sd_cum[i],     opp_cum[i]
         inning = i + 1
         if prev_sd <= prev_opp and curr_sd > curr_opp:
-            return {"type": "go_ahead", "inning": inning, "runs": sd_inn[i]}
-        if prev_sd < prev_opp and curr_sd == curr_opp:
-            return {"type": "tying", "inning": inning, "runs": sd_inn[i]}
+            go_ahead_events.append({"type": "go_ahead", "inning": inning, "runs": sd_inn[i]})
+        elif prev_sd < prev_opp and curr_sd == curr_opp:
+            tying_events.append({"type": "tying", "inning": inning, "runs": sd_inn[i]})
 
-    # PRIORITY 2: HR from key hitters
+    if go_ahead_events:
+        # Late innings carry more decisiveness weight; among those, take the last one.
+        # If none are late, take the final go-ahead (the one that held).
+        late = [e for e in go_ahead_events if e["inning"] >= 6]
+        return (late[-1] if late else go_ahead_events[-1])
+
+    if tying_events:
+        # For a loss: pick the tying moment closest to the end (last real chance).
+        # For a win where team was never behind: tying events shouldn't exist here,
+        # but if they do take the latest one.
+        late = [e for e in tying_events if e["inning"] >= 6]
+        return (late[-1] if late else tying_events[-1])
+
+    # PRIORITY 2: HR — pick the one with the highest RBI impact, not just first found.
+    # High RBI indicates a multi-run shot or a go-ahead hit; more decisive than a solo HR.
+    best_hr = None
+    best_hr_rbi = -1
     for h in (last_game.get("key_hitters") or []):
-        m = re.search(r'(\d+)\s*HR', h.get("line", ""))
-        if m:
-            return {"type": "hr", "name": h.get("name", ""), "hr": int(m.group(1))}
+        m_hr  = re.search(r'(\d+)\s*HR',  h.get("line", ""))
+        m_rbi = re.search(r'(\d+)\s*RBI', h.get("line", ""))
+        if m_hr:
+            hr_n = int(m_hr.group(1))
+            rbi  = int(m_rbi.group(1)) if m_rbi else hr_n
+            if rbi > best_hr_rbi:
+                best_hr     = {"type": "hr", "name": h.get("name", ""), "hr": hr_n, "rbi": rbi}
+                best_hr_rbi = rbi
+    if best_hr:
+        return best_hr
 
     # PRIORITY 3: late-inning missed opportunity (high LOB, loss)
     full_box = last_game.get("full_box") or {}
@@ -530,16 +563,18 @@ def _derive_turning_point(last_game: dict) -> "dict | None":
             opp_runs = _ti(score.get("opp", 0))
             if starter_ip >= 6.0 and opp_runs <= 2:
                 return {
-                    "type": "pitching_escape",
-                    "name": pitching[0].get("name", ""),
-                    "ip":   starter_ip,
+                    "type":     "pitching_escape",
+                    "name":     pitching[0].get("name", ""),
+                    "ip":       starter_ip,
                     "opp_runs": opp_runs,
                 }
 
-    # PRIORITY 5: first significant multi-run inning
-    for i, r in enumerate(sd_inn):
-        if r >= 2:
-            return {"type": "first_multi_run", "inning": i + 1, "runs": r}
+    # PRIORITY 5: largest single scoring inning (most explains run production)
+    if sd_inn:
+        max_runs = max(sd_inn)
+        if max_runs >= 2:
+            idx = sd_inn.index(max_runs)
+            return {"type": "first_multi_run", "inning": idx + 1, "runs": max_runs}
 
     # Final fallback: first score
     for i, r in enumerate(sd_inn):
