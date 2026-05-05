@@ -540,17 +540,29 @@ def _derive_turning_point(last_game: dict, game_type: str = "swing") -> "dict | 
             tying_events.append({"type": "tying", "inning": inning, "runs": sd_inn[i]})
 
     if go_ahead_events:
-        # Late innings carry more decisiveness weight; among those, take the last one.
-        # If none are late, take the final go-ahead (the one that held).
-        late = [e for e in go_ahead_events if e["inning"] >= 6]
-        return (late[-1] if late else go_ahead_events[-1])
+        # Score each event: late innings and multi-run swings are more decisive.
+        # Inning 7+ carries extra weight; a 3-run 7th outranks a 1-run 8th only slightly.
+        # This deprioritizes solo go-aheads in mid innings vs. multi-run late swings.
+        def _swing_score(e):
+            inning = e.get("inning", 1)
+            runs   = e.get("runs", 1)
+            return (
+                inning * 3                   # later innings = more decisive (primary)
+                + (5 if inning >= 7 else 0)  # extra bonus for 7th+
+                + min(runs - 1, 3) * 2       # multi-run bonus, capped at +6
+            )
+        return max(go_ahead_events, key=_swing_score)
 
     if tying_events:
-        # For a loss: pick the tying moment closest to the end (last real chance).
-        # For a win where team was never behind: tying events shouldn't exist here,
-        # but if they do take the latest one.
-        late = [e for e in tying_events if e["inning"] >= 6]
-        return (late[-1] if late else tying_events[-1])
+        def _tying_score(e):
+            inning = e.get("inning", 1)
+            runs   = e.get("runs", 1)
+            return (
+                inning * 3
+                + (5 if inning >= 7 else 0)
+                + min(runs - 1, 3) * 2
+            )
+        return max(tying_events, key=_tying_score)
 
     # PRIORITY 2: HR — pick the one with the highest RBI impact, not just first found.
     # High RBI indicates a multi-run shot or a go-ahead hit; more decisive than a solo HR.
@@ -785,44 +797,123 @@ def _derive_separation_summary(last_game: dict) -> dict:
                 })
         contributors.sort(key=lambda x: x["rbi"], reverse=True)
 
+    # Runs scored by the winning side in the breakout inning
+    breakout_runs = 0
+    if breakout_inning:
+        bi = breakout_inning - 1
+        breakout_runs = win_inn[bi] if bi < len(win_inn) else 0
+
     return {
         "type":            "separation",
         "breakout_inning": breakout_inning,
+        "breakout_runs":   breakout_runs,
         "contributors":    contributors[:2],
     }
 
 
 def _format_separation_summary(summary: dict) -> str:
-    """Format a separation game summary as 1–2 natural-language sentences."""
-    inning   = summary.get("breakout_inning")
-    contribs = summary.get("contributors") or []
+    """
+    Format a separation game summary. Rotates among 3 structural patterns based
+    on game characteristics so separation games don't all read the same.
 
-    opener = f"The {_ordinal(inning)} opened the gap" if inning else "The lead kept growing"
+    Pattern A — Direct (HR-powered): lead with inning + specific hit → verdict
+    Pattern B — Early cushion: lead with how the margin built early → held
+    Pattern C — Tight-then-broke: acknowledge it was close, name the break
+    """
+    inning        = summary.get("breakout_inning")
+    contribs      = summary.get("contributors") or []
+    breakout_runs = summary.get("breakout_runs", 0)
+    ord_          = _ordinal(inning) if inning else None
 
-    if not contribs:
-        return f"{opener}. It never came back."
+    has_hr   = any(c.get("hr", 0) >= 1 and c.get("rbi", 0) >= 2 for c in contribs)
+    is_early = inning is not None and inning <= 4
 
-    c1 = contribs[0]
-    if len(contribs) == 1:
-        if c1["hr"] >= 1 and c1["rbi"] >= 2:
-            detail = f"{c1['last_name']} homered and drove in {c1['rbi']}"
-        elif c1["rbi"] >= 2:
-            detail = f"{c1['last_name']} drove in {c1['rbi']}"
-        elif c1["hr"] >= 1:
-            detail = f"{c1['last_name']} went deep"
-        else:
-            detail = f"{c1['last_name']} kept the line moving"
-    else:
+    def _detail():
+        if not contribs:
+            return None
+        c1 = contribs[0]
+        if len(contribs) == 1:
+            if c1["hr"] >= 1 and c1["rbi"] >= 2:
+                return f"{c1['last_name']} went deep and drove in {c1['rbi']}"
+            if c1["rbi"] >= 3:
+                return f"{c1['last_name']} drove in {c1['rbi']}"
+            if c1["hr"] >= 1:
+                return f"{c1['last_name']} went deep"
+            return f"{c1['last_name']} kept the line moving"
         c2 = contribs[1]
         combined = c1["rbi"] + c2["rbi"]
         if c1["hr"] >= 1 and c2["rbi"] >= 1:
-            detail = f"{c1['last_name']} homered and {c2['last_name']} drove in {c2['rbi']}"
-        elif combined >= 3:
-            detail = f"{c1['last_name']} and {c2['last_name']} combined for {combined} RBI"
-        else:
-            detail = f"{c1['last_name']} and {c2['last_name']} kept the line moving"
+            return f"{c1['last_name']} homered and {c2['last_name']} added {c2['rbi']}"
+        if combined >= 3:
+            return f"{c1['last_name']} and {c2['last_name']} combined for {combined} RBI"
+        return f"{c1['last_name']} and {c2['last_name']} kept the line moving"
 
-    return f"{opener}. {detail}. It never came back."
+    detail = _detail()
+
+    # Pattern A — Direct: inning → hit → verdict
+    # Signals: HR contributor with 2+ RBI
+    if has_hr and ord_:
+        if detail:
+            return f"The {ord_} opened it. {detail}. That was it."
+        return f"The {ord_} opened it and the lead kept growing."
+
+    # Pattern B — Early cushion: built the margin early, made it hold
+    # Signals: breakout inning <= 4
+    if is_early:
+        if detail:
+            return (f"They built the cushion early — {detail}. "
+                    f"The lead never came back in reach.")
+        return "They built the cushion early and made it hold. Never really close after that."
+
+    # Pattern C — Tight-then-broke: close until the game changed
+    # Default for mid-to-late breakouts with no power contributor
+    prev_inning = _ordinal(inning - 1) if inning and inning > 1 else "early"
+    if ord_ and breakout_runs >= 2:
+        main = f"The {ord_} broke it — {breakout_runs} runs, and it kept growing from there."
+    elif ord_:
+        main = f"The {ord_} broke it open and the gap never closed."
+    else:
+        main = "The lead built across innings and never came back."
+
+    if detail:
+        return f"It was close through the {prev_inning}. {main} {detail}."
+    return f"It was close through the {prev_inning}. {main}"
+
+
+def _derive_grind_context(last_game: dict) -> dict:
+    """
+    For grind games: gather LOB total and the closest approach (any tying event).
+    Used to enrich the WHERE IT SLIPPED block with specific inning data.
+    """
+    def _ti(v):
+        try:
+            return int(v)
+        except (TypeError, ValueError):
+            return 0
+
+    linescore = last_game.get("linescore") or [[], []]
+    sd_inn    = [_ti(v) for v in (linescore[0] if linescore else [])]
+    opp_inn   = [_ti(v) for v in (linescore[1] if len(linescore) > 1 else [])]
+    n         = min(len(sd_inn), len(opp_inn))
+
+    tying_events = []
+    if n > 0:
+        sd_cum  = [sum(sd_inn[:i + 1]) for i in range(n)]
+        opp_cum = [sum(opp_inn[:i + 1]) for i in range(n)]
+        for i in range(1, n):
+            if sd_cum[i - 1] < opp_cum[i - 1] and sd_cum[i] == opp_cum[i]:
+                tying_events.append({"inning": i + 1, "runs": sd_inn[i]})
+
+    full_box = last_game.get("full_box") or {}
+    batting  = full_box.get("batting") or []
+    lob      = sum(_ti(b.get("lob", 0)) for b in batting)
+
+    latest_tie = tying_events[-1] if tying_events else None
+    return {
+        "lob":          lob,
+        "tying_inning": latest_tie["inning"] if latest_tie else None,
+        "tying_runs":   latest_tie["runs"]   if latest_tie else None,
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -1093,12 +1184,34 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
         _derived = _derive_turning_point(last_game, game_type)
         if _derived:
             _derived_text = _format_turning_point(_derived, last_game)
-            clutch_block = (
-                f"\n{_tp_label} (derived from game data):\n"
-                f"  Best available moment: {_derived_text}\n"
-                f"  Source: {_derived.get('type', 'linescore')}\n"
-                f"  REQUIRED: Use this as the {_tp_label}. One sentence. Inning + what changed."
-            )
+            if game_type == "grind":
+                # Grind games need both the closest moment AND LOB context so
+                # the AI can write a specific inning + situation sentence.
+                _gc       = _derive_grind_context(last_game)
+                _gc_parts = []
+                if _gc.get("lob", 0) >= 5:
+                    _gc_parts.append(f"Total LOB: {_gc['lob']}")
+                if (_gc.get("tying_inning")
+                        and _gc["tying_inning"] != _derived.get("inning")):
+                    _gc_parts.append(
+                        f"Also tied it in the {_ordinal(_gc['tying_inning'])}"
+                    )
+                _gc_str = ("  " + "\n  ".join(_gc_parts) + "\n") if _gc_parts else ""
+                clutch_block = (
+                    f"\n{_tp_label} (grind game — missed opportunity focus):\n"
+                    f"  Closest moment: {_derived_text}\n"
+                    f"{_gc_str}"
+                    f"  REQUIRED: Name the specific inning and situation. "
+                    f"Write what was stranded — inning, base state, outcome. "
+                    f"'They had chances' is not acceptable without naming one."
+                )
+            else:
+                clutch_block = (
+                    f"\n{_tp_label} (derived from game data):\n"
+                    f"  Best available moment: {_derived_text}\n"
+                    f"  Source: {_derived.get('type', 'linescore')}\n"
+                    f"  REQUIRED: Use this as the {_tp_label}. One sentence. Inning + what changed."
+                )
         else:
             clutch_block = (
                 f"\n{_tp_label} (REQUIRED — derive from context):\n"
@@ -1427,6 +1540,26 @@ Rules:
 - If the game was decided by failure to convert, describe the missed chance.
 - Always reflect how a fan would remember the game: as a moment, an avalanche, or a frustration.
 - Do not override the game shape with generic "they found a way" / "fell apart late" framing.
+
+UNIVERSAL MOMENT ANCHOR — HARD RULE:
+Every game type must include at least ONE identifiable moment — a specific play, sequence, or inning event.
+
+  separation → name the breakout inning and who drove in runs (already in HOW IT BROKE OPEN block)
+  swing      → name the inning and what flipped (already in TURNING POINT block)
+  grind      → name the specific missed moment: the inning, what was on base, what didn't happen
+               NOT acceptable: "they had chances" / "couldn't convert" / "fell short" without naming one
+
+GRIND SPECIFICITY — HARD RULE:
+For grind games, WHERE IT SLIPPED must name a specific failure moment.
+Required format: inning + base state + outcome.
+
+  Acceptable: "They got the tying run to second in the seventh and left him there."
+  Acceptable: "They had first and third with one out in the sixth and didn't score."
+  Acceptable: "They tied it in the fourth but went scoreless the rest of the way."
+  Not acceptable: "They had chances and didn't convert."
+  Not acceptable: "The offense left too many runners on base."
+
+Draw from the closest moment and LOB data in the WHERE IT SLIPPED block above.
 
 PRIMARY LENS (internal — do NOT output or name this):
 Before writing WHAT THIS GAME MEANS, select ONE lens. Let it drive the section — do not try to cover multiple.
@@ -2319,6 +2452,16 @@ Answer each question internally. If any answer fails, rewrite before returning.
   [ ] Would a fan describe this game as "the moment when..." (swing), "it just got away" (separation),
         or "we had chances and didn't cash" (grind)?
         If the writing doesn't match how the game felt → revise until it does.
+  [ ] Does the grind game brief name a specific missed moment (inning + base state + outcome)?
+        If not → rewrite the WHERE IT SLIPPED reference. "They had chances" is a failure.
+  [ ] Does this follow a reusable sentence pattern that could appear in another game?
+        Test: swap the team name and score — does the paragraph still work verbatim?
+        If YES → rewrite the opening sentence and the punchline with game-specific language.
+        Particular traps: "the formula held", "they didn't give it back", "the offense showed up",
+        "this team finds a way", "the pitching did its job". All generic. None pass.
+  [ ] Does every section (TOP FRAME, WHAT THIS GAME MEANS) contain at least one identifiable
+        moment — a specific play, sequence, or inning event?
+        If no → find the sharpest concrete detail and build around it.
 
 HARD RULES:
 - LAYERING: Each section must add a new layer. Do not let the same sentence idea appear across story_hook, TOP FRAME, WHAT THIS GAME MEANS, and WHAT TO WATCH. If you find yourself writing the same point in different words, cut it from all but the section where it belongs.
