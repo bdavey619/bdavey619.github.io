@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-05T11:46:02.677905+00:00",
+  "generated_at": "2026-05-06T12:14:39.051429+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -42,19 +42,17 @@
       "gamePk": 823228,
       "status": "final",
       "result": "L",
-      "score": "2\u20133"
+      "score": "2\u20133",
+      "archive_url": "archive.html?date=2026-05-05"
     },
     {
       "date": "2026-05-05",
       "opponent": "SF",
       "home": false,
       "gamePk": 823227,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "team": "Walker Buehler",
-        "opp": "Logan Webb"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "10\u20135"
     },
     {
       "date": "2026-05-06",
@@ -74,7 +72,11 @@
       "home": true,
       "gamePk": 823306,
       "status": "scheduled",
-      "time_local": "7:10 PM PT"
+      "time_local": "7:10 PM PT",
+      "probable": {
+        "team": "Michael King",
+        "opp": "Matthew Liberatore"
+      }
     },
     {
       "date": "2026-05-08",
@@ -82,7 +84,11 @@
       "home": true,
       "gamePk": 823303,
       "status": "scheduled",
-      "time_local": "6:45 PM PT"
+      "time_local": "6:45 PM PT",
+      "probable": {
+        "team": "Griffin Canning",
+        "opp": "Michael McGreevy"
+      }
     },
     {
       "date": "2026-05-09",
@@ -90,7 +96,11 @@
       "home": true,
       "gamePk": 823304,
       "status": "scheduled",
-      "time_local": "4:15 PM PT"
+      "time_local": "4:15 PM PT",
+      "probable": {
+        "team": "Randy V\u00e1squez",
+        "opp": "Dustin May"
+      }
     },
     {
       "date": "2026-05-10",
@@ -98,7 +108,10 @@
       "home": true,
       "gamePk": 823305,
       "status": "scheduled",
-      "time_local": "1:10 PM PT"
+      "time_local": "1:10 PM PT",
+      "probable": {
+        "opp": "Kyle Leahy"
+      }
     },
     {
       "date": "2026-05-12",
@@ -246,8 +259,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20133",
-    "current_streak": "L1",
+    "month_record": "2\u20133",
+    "current_streak": "W1",
     "last_10": "4\u20136"
   }
 }
