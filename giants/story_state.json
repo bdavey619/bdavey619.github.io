@@ -4,14 +4,14 @@
   "confidence": "low",
   "pressure": "low",
   "record_w": 14,
-  "record_l": 21,
-  "streak": "W1",
+  "record_l": 22,
+  "streak": "L1",
   "last10_w": 3,
-  "era": 3.81,
-  "ops": 0.65,
+  "era": 3.99,
+  "ops": 0.645,
   "gb": 8.0,
   "division_rank": 4,
-  "last_result": "W",
-  "date": "2026-05-04",
-  "game_emotion_level": "normal"
+  "last_result": "L",
+  "date": "2026-05-05",
+  "game_emotion_level": "high"
 }

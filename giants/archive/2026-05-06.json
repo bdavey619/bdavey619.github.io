@@ -1,30 +1,31 @@
 {
-  "generated_at": "2026-05-06T02:22:18+00:00",
+  "generated_at": "2026-05-06T14:15:44+00:00",
   "season": 2026,
   "team": {
-    "record": "14-21",
-    "streak": "W1",
-    "run_diff": "-33",
+    "record": "14-22",
+    "streak": "L1",
+    "run_diff": "-38",
     "last10": "3-7",
     "division_rank": 4,
     "games_back": "8.0",
-    "avg": ".244",
-    "ops": ".650",
-    "era": "3.81"
+    "avg": ".242",
+    "ops": ".645",
+    "era": "3.99"
   },
   "last_game": {
     "status": "final",
-    "gamePk": 823228,
-    "date": "2026-05-04",
+    "gamePk": 823227,
+    "date": "2026-05-05",
     "opponent": "SD",
     "home": true,
-    "result": "W",
+    "result": "L",
     "score": {
-      "team": 3,
-      "opp": 2
+      "team": 5,
+      "opp": 10
     },
     "linescore": [
       [
+        2,
         2,
         0,
         0,
@@ -32,119 +33,93 @@
         0,
         1,
         0,
-        0,
-        ""
+        0
       ],
       [
+        0,
         1,
         0,
+        5,
+        1,
+        1,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1
+        2,
+        0
       ]
     ],
     "decisions": {
-      "win": "Trevor McDonald",
+      "win": "Walker Buehler",
       "win_role": "SP",
-      "win_team": "team",
-      "loss": "Randy V\u00e1squez",
+      "win_team": "opp",
+      "loss": "Logan Webb",
       "loss_role": "SP",
-      "loss_team": "opp",
-      "save": "Caleb Kilian",
-      "save_role": "RP",
-      "save_team": "team"
+      "loss_team": "team"
     },
     "key_hitters": [
       {
-        "name": "Luis Arraez",
-        "line": "2-3",
-        "pos": "2B",
-        "season_avg": ".316"
+        "name": "Jesus Rodriguez",
+        "line": "2-3, 1 HR, 2 RBI",
+        "pos": "C",
+        "season_avg": ".333"
       },
       {
         "name": "Casey Schmitt",
-        "line": "1-3, 1 HR, 1 RBI",
-        "pos": "3B",
-        "season_avg": ".308"
+        "line": "1-4, 1 HR, 2 RBI",
+        "pos": "2B",
+        "season_avg": ".306"
       }
     ],
     "key_pitcher": {
-      "name": "Trevor McDonald",
-      "line": "7.0 IP, 2 H, 1 ER, 8 K",
+      "name": "Logan Webb",
+      "line": "4.0 IP, 7 H, 6 ER, 4 K",
       "role": "SP",
-      "season_era": "1.29"
+      "season_era": "5.06"
     },
     "context_line": "Home \u00b7 Oracle Park \u00b7 Night game",
-    "highlights_url": "https://www.youtube.com/results?search_query=SD+vs+SF+highlights+May+4+2026+MLB",
-    "game_note": "Schmitt's bat helped the Giants hold off SD.",
+    "highlights_url": "https://www.youtube.com/results?search_query=SD+vs+SF+highlights+May+5+2026+MLB",
+    "game_note": "SD's 5-run fourth proved to be the difference.",
     "full_box": {
       "batting": [
         {
           "name": "Jung Hoo Lee",
           "pos": "RF",
-          "avg": ".272",
+          "avg": ".271",
           "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
           "bb": 0,
           "so": 0
         },
         {
           "name": "Casey Schmitt",
-          "pos": "3B",
-          "avg": ".308",
-          "ab": 3,
+          "pos": "2B",
+          "avg": ".306",
+          "ab": 4,
           "r": 1,
           "h": 1,
-          "rbi": 1,
-          "bb": 1,
+          "rbi": 2,
+          "bb": 0,
           "so": 1
-        },
-        {
-          "name": "Luis Arraez",
-          "pos": "2B",
-          "avg": ".316",
-          "ab": 3,
-          "r": 2,
-          "h": 2,
-          "rbi": 0,
-          "bb": 0,
-          "so": 0
-        },
-        {
-          "name": "Heliot Ramos",
-          "pos": "LF",
-          "avg": ".270",
-          "ab": 4,
-          "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "so": 0
         },
         {
           "name": "Rafael Devers",
           "pos": "1B",
-          "avg": ".218",
-          "ab": 2,
-          "r": 0,
-          "h": 1,
-          "rbi": 2,
-          "bb": 1,
-          "so": 0
-        },
-        {
-          "name": "Willy Adames",
-          "pos": "SS",
-          "avg": ".197",
+          "avg": ".219",
           "ab": 4,
           "r": 0,
           "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Heliot Ramos",
+          "pos": "LF",
+          "avg": ".262",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
           "rbi": 0,
           "bb": 0,
           "so": 2
@@ -152,78 +127,127 @@
         {
           "name": "Bryce Eldridge",
           "pos": "DH",
-          "avg": ".000",
-          "ab": 2,
+          "avg": ".167",
+          "ab": 4,
           "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 1,
-          "so": 1
-        },
-        {
-          "name": "Jesus Rodriguez",
-          "pos": "C",
-          "avg": ".000",
-          "ab": 3,
-          "r": 0,
-          "h": 0,
+          "h": 1,
           "rbi": 0,
           "bb": 0,
           "so": 0
         },
         {
-          "name": "Drew Gilbert",
-          "pos": "CF",
-          "avg": ".255",
-          "ab": 3,
+          "name": "Matt Chapman",
+          "pos": "3B",
+          "avg": ".239",
+          "ab": 4,
           "r": 0,
           "h": 0,
           "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Willy Adames",
+          "pos": "SS",
+          "avg": ".199",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Drew Gilbert",
+          "pos": "CF",
+          "avg": ".259",
+          "ab": 3,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Christian Koss",
+          "pos": "PH",
+          "avg": ".077",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Jesus Rodriguez",
+          "pos": "C",
+          "avg": ".333",
+          "ab": 3,
+          "r": 1,
+          "h": 2,
+          "rbi": 2,
           "bb": 0,
           "so": 0
         }
       ],
       "pitching": [
         {
-          "name": "Trevor McDonald",
-          "ip": "7.0",
-          "h": 2,
-          "er": 1,
-          "k": 8,
+          "name": "Logan Webb",
+          "ip": "4.0",
+          "h": 7,
+          "er": 6,
+          "k": 4,
           "bb": 0
         },
         {
-          "name": "Keaton Winn",
+          "name": "JT Brubaker",
           "ip": "1.0",
-          "h": 0,
-          "er": 0,
+          "h": 2,
+          "er": 1,
+          "k": 1,
+          "bb": 2
+        },
+        {
+          "name": "Ryan Borucki",
+          "ip": "1.0",
+          "h": 2,
+          "er": 1,
           "k": 0,
           "bb": 0
         },
         {
-          "name": "Caleb Kilian",
+          "name": "Gregory Santos",
+          "ip": "2.0",
+          "h": 2,
+          "er": 2,
+          "k": 0,
+          "bb": 0
+        },
+        {
+          "name": "Joel Peguero",
           "ip": "1.0",
           "h": 1,
-          "er": 1,
-          "k": 2,
+          "er": 0,
+          "k": 0,
           "bb": 0
         }
       ]
     },
     "clutch_player": {
-      "name": "Luis Arraez",
-      "event": "2-3",
+      "name": "Jesus Rodriguez",
+      "event": "2-3, 1 HR, 2 RBI",
       "inning": null,
-      "description": "led the offense with 2-3.",
+      "description": "led the offense with 2-3, 1 HR, 2 RBI.",
       "reason": "top hitter by box score (no play-by-play clutch moment detected)",
       "confidence": "low"
     },
     "game_driver": {
-      "name": "Trevor McDonald",
-      "type": "pitcher",
-      "reason": "7.0 IP, 1 ER",
-      "description": "went 7.0 innings and allowed just 1 earned run.",
-      "confidence": "high"
+      "name": "Jesus Rodriguez",
+      "type": "hitter",
+      "reason": "1 HR, 2 RBI",
+      "description": "led the offense with a home run and 2 RBI.",
+      "confidence": "medium"
     }
   },
   "next_game": {
@@ -236,35 +260,35 @@
       "team": "Adrian Houser",
       "opp": "Matt Waldron"
     },
-    "insight": "SD's .230 average gives Houser a favorable matchup tonight.",
+    "insight": "SD's .234 average gives Houser a favorable matchup tonight.",
     "hook_type": "opponent_weakness"
   },
   "standings": [
     {
       "team": "Dodgers",
       "w": 22,
-      "l": 13,
+      "l": 14,
       "gb": "-",
       "last10": "5-5"
     },
     {
       "team": "Padres",
-      "w": 20,
+      "w": 21,
       "l": 14,
-      "gb": "1.5",
+      "gb": "0.5",
       "last10": "4-6"
     },
     {
       "team": "D-backs",
-      "w": 16,
+      "w": 17,
       "l": 17,
-      "gb": "5.0",
+      "gb": "4.0",
       "last10": "3-7"
     },
     {
       "team": "Giants",
       "w": 14,
-      "l": 21,
+      "l": 22,
       "gb": "8.0",
       "last10": "3-7"
     },
@@ -272,7 +296,7 @@
       "team": "Rockies",
       "w": 14,
       "l": 22,
-      "gb": "8.5",
+      "gb": "8.0",
       "last10": "4-6"
     }
   ],
@@ -282,33 +306,33 @@
   },
   "insight": {
     "headline": "A 3-7 stretch over the last ten is a real concern.",
-    "detail": "A .650 OPS over this stretch has made it hard to win. Staff ERA is 3.81. The runs haven't been there.",
-    "why": "ERA at 3.81 \u00b7 quiet bats (.650 OPS) \u00b7 3\u20137 in the last ten"
+    "detail": "A .645 OPS over this stretch has made it hard to win. Staff ERA is 3.99. The runs haven't been there.",
+    "why": "ERA at 3.99 \u00b7 quiet bats (.645 OPS) \u00b7 3\u20137 in the last ten"
   },
-  "story_hook": "",
+  "story_hook": "They had the moments. They didn't have the finish.",
   "story_threads_debug": [
     "inconsistency"
   ],
   "narrative": {
-    "top_frame": "Trevor McDonald turned one inning of trouble into a complete game statement.",
-    "what_this_means": "McDonald's seven innings and one earned run gave the Giants what they needed most: a pitcher who could absorb pressure and not crack. The defense behind him never had to sweat. Luis Arraez went 2-for-3, Casey Schmitt hit a solo shot. Both small contributions that felt enough because the bullpen didn't have to work. The Padres' offense never arrived. Six hits, four strikeouts, 3-2 final. This wasn't dominant baseball. It was controlled baseball, which for a 14-21 team in fourth place is a smaller margin than it looks. The real pattern here isn't the win. It's that the pitching had to carry a lineup batting .244. That works until the pitching doesn't.",
-    "what_to_watch": "Adrian Houser takes the ball tonight against a Padres team batting .230, which means the Giants get to pitch into a void instead of filling one themselves.",
+    "top_frame": "Logan Webb got shelled before the offense could catch up.",
+    "what_this_means": "Webb lasted four innings and gave up six runs. The Padres' lead looked permanent after the second. Rodriguez kept them alive with a two-run homer, Schmitt added another, but eight strikeouts and eight hits is a mismatch that doesn't resolve itself. This is what slipping looks like: chances that don't translate, firepower that doesn't compound, moments that feel close enough until they don't. The pitching collapse earlier in the week became impossible to chase. They had the moments. The moments had no finish.",
+    "what_to_watch": "Adrian Houser takes the mound against a Padres lineup hitting .234. San Diego's bats are struggling harder than San Francisco's. That's the matchup today.",
     "story_state": {
       "trend": "slipping",
       "driver": "balanced",
       "confidence": "low",
       "pressure": "low",
       "record_w": 14,
-      "record_l": 21,
-      "streak": "W1",
+      "record_l": 22,
+      "streak": "L1",
       "last10_w": 3,
-      "era": 3.81,
-      "ops": 0.65,
+      "era": 3.99,
+      "ops": 0.645,
       "gb": 8.0,
       "division_rank": 4,
-      "last_result": "W",
-      "date": "2026-05-04",
-      "game_emotion_level": "normal"
+      "last_result": "L",
+      "date": "2026-05-05",
+      "game_emotion_level": "high"
     },
     "story_delta": {
       "has_prev": true,
@@ -318,9 +342,9 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "won last game",
-        "streak flipped: L6 \u2192 W1",
-        "ERA improved: 3.87 \u2192 3.81"
+        "lost last game",
+        "streak flipped: W1 \u2192 L1",
+        "ERA worsened: 3.81 \u2192 3.99"
       ]
     }
   }
