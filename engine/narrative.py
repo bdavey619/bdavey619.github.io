@@ -147,6 +147,49 @@ def classify_game_emotion(last_game):
 
 
 # ---------------------------------------------------------------------------
+# Game Type Classification — structural framing category
+# ---------------------------------------------------------------------------
+
+def classify_game_type(last_game):
+    """
+    Classify the structural game type for narrative framing purposes.
+    Returns one of: 'separation' | 'blowout' | 'comeback' | 'close' | 'normal'
+
+    separation: win where target team scored 8+ AND won by 4+ — offense is the story,
+                not the starter quality. Overrides fragile/gritty framing.
+    blowout:    win by 6+ runs (any score total)
+    comeback:   won after trailing by 3+ runs at any point
+    close:      decided by 1–2 runs (either result)
+    normal:     everything else
+    """
+    if not last_game:
+        return "normal"
+
+    result     = last_game.get("result", "")
+    score      = last_game.get("score") or {}
+    team_score = int(score.get("team", 0) or 0)
+    opp_score  = int(score.get("opp", 0) or 0)
+    run_diff   = team_score - opp_score
+
+    if result == "W":
+        # Separation: high-scoring offense-driven win — check before blowout
+        if team_score >= 8 and run_diff >= 4:
+            return "separation"
+        if run_diff >= 6:
+            return "blowout"
+        max_deficit = _compute_max_deficit(last_game)
+        if max_deficit >= 3:
+            return "comeback"
+        if run_diff <= 2:
+            return "close"
+    elif result == "L":
+        if abs(run_diff) <= 2:
+            return "close"
+
+    return "normal"
+
+
+# ---------------------------------------------------------------------------
 # Story State
 # ---------------------------------------------------------------------------
 
@@ -846,7 +889,8 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
     else:
         game_driver_block = "\nGAME DRIVER: none detected"
 
-    emotion = story_state.get("game_emotion_level", "normal")
+    emotion    = story_state.get("game_emotion_level", "normal")
+    game_type  = classify_game_type(last_game)
     if emotion == "extreme":
         voice_block = """VOICE — EXTREME EMOTION (game_emotion_level: extreme):
 - TOP FRAME must open with the dramatic event. Make the moment feel real and earned — not hyped.
@@ -884,7 +928,13 @@ Reference vibe: "They didn't have much. They had enough."
 Application rules:
 - 1–2 word choices or sentence rhythm shifts only. Not an entire costume.
 - Do not announce or name the voice.
-- Game truth still wins over voice consistency."""
+- Game truth still wins over voice consistency.
+
+OVERRIDE — separation wins (Game Type: separation):
+When team_score >= 8 and win margin >= 4, the gritty/fragile voice does NOT apply.
+- Do NOT write "just enough", "scraped out", "thin margin", or "barely" for a 4+ run win.
+- The offense IS the story. Let it be the story.
+- "Scratched out" and "survival" framing is for 1–2 run wins. Not this game."""
     elif team_name == "Yankees":
         team_voice_block = """TEAM VOICE PROFILE — YANKEES (apply subtly, do NOT announce):
 Identity: expectation-heavy, analytical, impatient with avoidable failure. Wins are expected; losses demand explanation.
@@ -1043,6 +1093,7 @@ STORY STATE (today):
   Confidence:         {story_state['confidence']}
   Pressure:           {story_state['pressure']}
   Game Emotion Level: {emotion}
+  Game Type:          {game_type}
 
 STORY DELTA (what changed vs. yesterday):
 {delta_lines}
@@ -1081,11 +1132,38 @@ Before writing, select one mode based on the game. Let it shape word choice and 
 
   CLINICAL   → routine win or loss, no strong swing either way
   GRITTY     → close game, comeback, ugly win, survival
-  DOMINANT   → blowout or an overpowering individual performance
+  DOMINANT   → blowout, separation win (8+ runs, 4+ margin), or overpowering individual performance
   FRAGILE    → win or loss that exposes a real weakness
   CHAOTIC    → wild swings, high-scoring, genuinely weird game
 
 The mode is felt in rhythm and word choice, not stated. One or two choices that fit the game — not every sentence.
+
+SEPARATION WIN — FRAMING OVERRIDE (applies when Game Type: separation):
+A separation win is team_score >= 8 AND win margin >= 4. When this condition holds, the following rules OVERRIDE all general voice guidance, including team voice profiles.
+
+1. LEAD WITH THE OFFENSE. The offense building separation is the dominant story — not the starter's quality, not survival.
+2. Starter imperfection is CONTEXT, not the frame. One clause is enough. Then move on.
+3. Do NOT frame the win as fragile, survival, or "barely enough" when the margin is 4+ runs. It wasn't.
+4. Do NOT write as if the team scraped by. They didn't. The scoreboard ended the argument.
+5. Frame: the lineup made the starter's imperfections irrelevant.
+
+Correct framing for separation wins:
+  ✅ "Buehler made it messy. The lineup made it irrelevant."
+  ✅ "San Diego gave up the early edge, then buried the game with a five-run fourth."
+  ✅ "The offense didn't need a clean start. They built enough runway to absorb one."
+  ✅ "The starter wobbled. The lineup didn't notice."
+
+Wrong framing (BANNED when Game Type is separation):
+  ❌ "The offense created enough traffic to survive a mediocre start."
+  ❌ "They scratched out enough to cover for a shaky start."
+  ❌ "Just enough from the bats to make the imperfect outing survivable."
+
+BANNED WORDS in separation win narratives — do not use any of these:
+  - "traffic" (when used to describe offense output)
+  - "fragile" (as a win descriptor)
+  - "formula" (when describing how they won)
+  - "barely" / "just enough" / "scraped" / "survive" / "survived"
+  - "margin" (when the margin is 4+ runs — it is not thin)
 
 PRIMARY LENS (internal — do NOT output or name this):
 Before writing WHAT THIS GAME MEANS, select ONE lens. Let it drive the section — do not try to cover multiple.
@@ -1504,6 +1582,13 @@ FINAL FACTUAL AUDIT (silent — run before returning):
 - Check every sentence that mentions a lead, who had control, or when the game turned.
 - Verify each against the INNING-STATE SUMMARY.
 - If any claim does not match — rewrite that sentence before returning.
+
+NARRATIVE WEIGHTING AUDIT (silent — run before returning):
+When Game Type is "separation" (team_score >= 8, win margin >= 4):
+- Does the narrative acknowledge the offense as the dominant story? If not → rewrite.
+- Is the starter's struggle framed as context only, not as the lead or frame? If not → rewrite.
+- Do any of these banned words appear: "traffic", "fragile", "formula", "barely", "survive", "survived", "just enough", "scraped", "margin" (for a 4+ run win)? If yes → rewrite.
+- Does the writing feel like a survival narrative for a game the team won by 5 runs? If yes → rewrite.
 
 SMART-FAN VOICE:
 Write like someone who watched the game and understands this team's ongoing story. Favor concrete baseball language over generic analysis. Use phrases that feel lived-in and specific, not polished and empty.
