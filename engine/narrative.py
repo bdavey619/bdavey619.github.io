@@ -449,6 +449,135 @@ def _compute_max_deficit(last_game):
 
 
 # ---------------------------------------------------------------------------
+# Inning-state summary — compact factual anchor for lead/control claims
+# ---------------------------------------------------------------------------
+
+def build_inning_state_summary(linescore, team_name, opponent_name):
+    """
+    Build a compact inning-by-inning state summary from the linescore.
+
+    linescore: [[team_runs_per_inning...], [opp_runs_per_inning...]]
+    Returns a dict with:
+      score_by_inning:           list of {inning, team, opp} cumulative-score dicts
+      first_inning_team_led:     1-based inning when target team first led, or None
+      first_inning_opp_led:      1-based inning when opponent first led, or None
+      final_lead_change_inning:  inning where the final lead change occurred, or None
+      final_lead_holder:         name of team that took the final lead, or None
+      max_team_lead:             largest run lead held by the target team
+      max_opp_lead:              largest run lead held by the opponent
+      summary_text:              compact human-readable block for the narrative prompt
+    Returns None when linescore data is unavailable.
+    """
+    def _to_int(v):
+        try:
+            return int(v)
+        except (TypeError, ValueError):
+            return 0
+
+    if not linescore or len(linescore) < 2:
+        return None
+
+    sd_inn  = [_to_int(v) for v in linescore[0]]
+    opp_inn = [_to_int(v) for v in linescore[1]]
+    n = min(len(sd_inn), len(opp_inn))
+    if n == 0:
+        return None
+
+    sd_cum  = [sum(sd_inn[:i + 1]) for i in range(n)]
+    opp_cum = [sum(opp_inn[:i + 1]) for i in range(n)]
+
+    first_team_led           = None
+    first_opp_led            = None
+    final_lead_change_inning = None
+    final_lead_holder        = None
+    max_team_lead            = 0
+    max_opp_lead             = 0
+    prev_lead                = None
+
+    for i in range(n):
+        t, o   = sd_cum[i], opp_cum[i]
+        inning = i + 1
+
+        if t > o:
+            lead = "team"
+            max_team_lead = max(max_team_lead, t - o)
+            if first_team_led is None:
+                first_team_led = inning
+        elif o > t:
+            lead = "opp"
+            max_opp_lead = max(max_opp_lead, o - t)
+            if first_opp_led is None:
+                first_opp_led = inning
+        else:
+            lead = "tied"
+
+        if prev_lead is not None and lead != prev_lead and lead in ("team", "opp"):
+            final_lead_change_inning = inning
+            final_lead_holder = team_name if lead == "team" else opponent_name
+
+        prev_lead = lead
+
+    # Compact cumulative-score line (one entry per inning)
+    scores = "  ".join(
+        f"Inn{i + 1}: {sd_cum[i]}–{opp_cum[i]}" for i in range(n)
+    )
+
+    lines = [
+        f"Cumulative scores ({team_name} – {opponent_name}):",
+        f"  {scores}",
+    ]
+
+    if first_team_led is not None:
+        lines.append(
+            f"  {team_name} first led: after inning {first_team_led} "
+            f"({sd_cum[first_team_led - 1]}–{opp_cum[first_team_led - 1]})"
+        )
+    else:
+        lines.append(f"  {team_name} never led")
+
+    if first_opp_led is not None:
+        lines.append(
+            f"  {opponent_name} first led: after inning {first_opp_led} "
+            f"({sd_cum[first_opp_led - 1]}–{opp_cum[first_opp_led - 1]})"
+        )
+    else:
+        lines.append(f"  {opponent_name} never led")
+
+    if final_lead_change_inning is not None:
+        lines.append(
+            f"  Final lead change: inning {final_lead_change_inning} "
+            f"({final_lead_holder} took lead, "
+            f"{sd_cum[final_lead_change_inning - 1]}–{opp_cum[final_lead_change_inning - 1]})"
+        )
+    elif first_team_led is not None and first_opp_led is None:
+        lines.append(
+            f"  Lead never changed: {team_name} led from inning {first_team_led} to final out"
+        )
+    elif first_opp_led is not None and first_team_led is None:
+        lines.append(
+            f"  Lead never changed: {opponent_name} led from inning {first_opp_led} to final out"
+        )
+
+    lines.append(
+        f"  Largest {team_name} lead: +{max_team_lead} runs  |  "
+        f"Largest {opponent_name} lead: +{max_opp_lead} runs"
+    )
+
+    return {
+        "score_by_inning": [
+            {"inning": i + 1, "team": sd_cum[i], "opp": opp_cum[i]} for i in range(n)
+        ],
+        "first_inning_team_led":    first_team_led,
+        "first_inning_opp_led":     first_opp_led,
+        "final_lead_change_inning": final_lead_change_inning,
+        "final_lead_holder":        final_lead_holder,
+        "max_team_lead":            max_team_lead,
+        "max_opp_lead":             max_opp_lead,
+        "summary_text":             "\n".join(lines),
+    }
+
+
+# ---------------------------------------------------------------------------
 # Story Hook — one-sentence emotional framing for the masthead
 # ---------------------------------------------------------------------------
 
@@ -661,6 +790,20 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
     team_hits = sum(b.get("h", 0) for b in batting)
     team_ks   = sum(b.get("so", 0) for b in batting)
     offense_note = f"{team_hits} hits, {team_ks} strikeouts" if batting else ""
+
+    # Inning-state summary — factual anchor for all lead/control claims in the narrative
+    _inn_sum = build_inning_state_summary(
+        last_game.get("linescore") or [[], []],
+        team_name,
+        last_game.get("opponent", "OPP"),
+    )
+    if _inn_sum and _inn_sum.get("summary_text"):
+        inning_state_block = (
+            "\nINNING-STATE SUMMARY (authoritative — all lead/control claims must match this):\n"
+            + "\n".join(f"  {ln}" for ln in _inn_sum["summary_text"].splitlines())
+        )
+    else:
+        inning_state_block = ""
 
     # Clutch moment context (deterministic, from play-by-play)
     clutch = last_game.get("clutch_player")
@@ -916,6 +1059,7 @@ LAST GAME:
   Key pitcher: {pitcher_text}
   Key hitters: {hitters_text}
   Offense:     {offense_note}{doubleheader_hint}
+{inning_state_block}
 {game_driver_block}
 {clutch_block}
 
@@ -1335,6 +1479,31 @@ Moment → Meaning → Implication
 
 Not:
 Summary → Explanation → Restatement
+
+GAME-STATE FACTUALITY — HARD RULE:
+The INNING-STATE SUMMARY in the LAST GAME context is the authoritative record of who led, when, and by how much. Every claim about leads, game control, or momentum shifts must match it exactly.
+
+Hard stops — each is a HARD VIOLATION if broken:
+1. Do NOT write "[team]'s lead" or "[team] led" at any specific point in the game unless the inning-state summary confirms that team held a positive cumulative run margin at that inning.
+2. Do NOT infer "looked permanent", "held control", "had the game in hand", or "the game was theirs" from the final score alone — only from the inning-state data.
+3. Do NOT write "they were chasing from the start" if the inning-state summary shows the target team led at any inning.
+4. Do NOT say the opponent led early if the inning-state summary shows the target team led early.
+5. Any lead, control, or turning-point claim must be grounded in a specific inning number or score state taken from the inning-state summary.
+
+For games where the target team led early and lost (opponent broke it open later):
+- State clearly that the team led early and name the inning when control shifted.
+- Correct: "The Giants led 4–1 after two. San Diego's five-run fourth flipped the game."
+- Correct: "They led after five. A three-run seventh ended it."
+- Wrong: "The Padres' lead looked permanent after the second." (if Giants led then)
+
+For games where the opponent led early and the target team won:
+- State clearly who was chasing, and when the target team took the lead.
+- Correct: "They trailed after three. A four-run sixth put them in front for good."
+
+FINAL FACTUAL AUDIT (silent — run before returning):
+- Check every sentence that mentions a lead, who had control, or when the game turned.
+- Verify each against the INNING-STATE SUMMARY.
+- If any claim does not match — rewrite that sentence before returning.
 
 SMART-FAN VOICE:
 Write like someone who watched the game and understands this team's ongoing story. Favor concrete baseball language over generic analysis. Use phrases that feel lived-in and specific, not polished and empty.
