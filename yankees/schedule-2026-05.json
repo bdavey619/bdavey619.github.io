@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-05T12:06:29.047865+00:00",
+  "generated_at": "2026-05-06T12:57:47.879649+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -42,19 +42,17 @@
       "gamePk": 823552,
       "status": "final",
       "result": "W",
-      "score": "12\u20131"
+      "score": "12\u20131",
+      "archive_url": "archive.html?date=2026-05-05"
     },
     {
       "date": "2026-05-05",
       "opponent": "TEX",
       "home": true,
       "gamePk": 823553,
-      "status": "scheduled",
-      "time_local": "7:05 PM ET",
-      "probable": {
-        "team": "Elmer Rodr\u00edguez",
-        "opp": "Jacob deGrom"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "7\u20134"
     },
     {
       "date": "2026-05-06",
@@ -86,7 +84,10 @@
       "home": false,
       "gamePk": 823794,
       "status": "scheduled",
-      "time_local": "7:40 PM ET"
+      "time_local": "7:40 PM ET",
+      "probable": {
+        "opp": "Jacob Misiorowski"
+      }
     },
     {
       "date": "2026-05-09",
@@ -258,8 +259,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u20130",
-    "current_streak": "W4",
+    "month_record": "5\u20130",
+    "current_streak": "W5",
     "last_10": "8\u20132"
   }
 }
