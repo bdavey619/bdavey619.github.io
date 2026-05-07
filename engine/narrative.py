@@ -601,8 +601,9 @@ def _build_narrative_system(team_name):
         "Combine related ideas into one sentence when it improves flow. "
         "Avoid hedge words: 'somewhat', 'kind of', 'may', 'could', 'appears'. "
         "Say what happened. Say what it means. End with something that lingers.\n\n"
-        "You explain *why* something matters, not just *what* happened. "
-        "The reader already knows the score. Give them something to think about."
+        "Your job is to recreate what this game felt like and why it unfolded the way it did. "
+        "Interpretation emerges from the game itself — not from announcing what the team is. "
+        "The reader already knows the score. Show them what it felt like from inside it."
     )
 
 
@@ -719,7 +720,7 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
 - Some energy is appropriate but stay controlled. Analytical precision should still come through."""
     else:
         voice_block = """VOICE — NORMAL (game_emotion_level: normal):
-- Lead with pattern and meaning, not game events. The editorial stance is the value.
+- Lead with what actually decided this game — a sequence, a failed rally, an inning that shifted things. Let pattern and meaning emerge from those specifics, not from announcing them.
 - Stay calm, analytical, and grounded. Do not manufacture drama from a routine result."""
 
     # Team voice profile — team-specific editorial filter applied on top of general voice rules
@@ -954,6 +955,8 @@ Before writing WHAT THIS GAME MEANS, select ONE lens. Let it drive the section �
 
 The lens is not a label. It is the angle of argument — the question the section is answering.
 
+Regardless of lens: concrete baseball specifics come first. The lens shapes how you interpret the game — it does not replace the game. Even an IDENTITY take must be grounded in what happened today before making the identity claim. Describe the inning, the sequence, the rally — then state what it reveals.
+
 Write exactly three sections. No headers. No labels. No bullet points. Just clean prose.
 
 1. TOP FRAME (1 sentence, max 18 words)
@@ -969,13 +972,13 @@ Good: "Down four—and they didn't blink." / "This team doesn't fold." / "They h
 Avoid: multi-clause sentences, listing multiple players, explaining the sequence of events, restating the story hook.
 
 2. WHAT THIS GAME MEANS (90–120 words max)
-Job: interpretation and identity claim — not factual recap, not sequence retelling. The game_note already handled the vivid factual summary. The Game Driver and Turning Point are already shown as memory anchors. Your job is to answer: What does this game reveal about who this team is?
+Job: establish what the game felt like and why it unfolded the way it did. Concrete baseball texture comes first — specific innings, sequences, rallies, stranded runners, shutdown frames, pressure moments. Interpretation emerges from those details; it does not lead them.
 
-Do NOT restate the story_hook, game_note, Game Driver, or Turning Point — those facts are displayed separately and the reader already has them. Instead, answer: What is different about this team today because of this game? Use the STORY DELTA to identify one clear thing that changed — the pattern got louder, the margin for error shifted, a weakness became harder to ignore, a strength carried into a new kind of win, or the formula held in a new situation. Reference the Game Driver or Turning Point briefly if it supports the "what changed" answer — but do not retell the sequence. Connect the game to the team's current trend. Be precise.
+Do NOT restate the story_hook, game_note, Game Driver, or Turning Point — those facts are displayed separately and the reader already has them. Instead, anchor in: how the game moved, when it broke open or tightened, what failed or held, and what a fan watching would have felt at each stage. Use the STORY DELTA to identify one clear thing that changed — but state it through game events, not through announcing the pattern.
 
-Prefer one strong thesis over several smaller observations. One claim argued well is more memorable than three things that happened. Build to your identity sentence — do not spread the argument thin.
+Prefer one strong thesis over several smaller observations. Build toward an interpretive claim — but only after the concrete game texture has been established. The claim earns its weight from the specifics that preceded it.
 
-Make a clear claim about the team's identity. The section must include at least one sentence that could stand alone as an editorial take — something that answers "what is this team becoming?" or "what does this game reveal about how they win?" Frame it as a pattern, not a moment. Acceptable forms: "This is a team that...", "The pattern has become...", "They are now...", "This works because...", "This breaks if...". Weave at least one STORY THREAD naturally into the section — do not list it or name it explicitly; let it shape the argument.
+The section must include at least one sentence that stands as a clear editorial take. Let it emerge from what happened in the game — do not open the section with it. Weave at least one STORY THREAD naturally into the section — do not list it or name it explicitly; let it shape the argument.
 
 The section must end with a short, memorable punchline under 12 words that captures the core takeaway. It must stand alone as the FINAL sentence of this section — do not bury it mid-paragraph and do not follow it with anything. Examples: "France gave them two swings when they needed one." / "This only works until it doesn't." / "They're winning on margins that don't last." See PUNCHLINE RULE below for more examples and enforcement.
 
@@ -1097,6 +1100,14 @@ Prefer:
 - what this reveals about the team
 
 Readability improves structure — not by weakening the take.
+
+EARNED INTERPRETATION — HARD RULE:
+Interpretive conclusions are allowed only after concrete baseball details have been established. Do not open with an identity claim. Open with what happened in the game. Let the claim emerge from the specifics.
+
+Bad: "This team wins when the lineup creates traffic."
+Good: "They loaded the bases twice and scored once. The game stayed alive longer than it should have."
+
+If your opening sentence could describe any team's general approach — not what happened last night — rewrite it to anchor in a specific inning, sequence, or moment from this game.
 
 GUARDRAIL:
 Do NOT simplify the thinking.
@@ -1336,6 +1347,19 @@ Moment → Meaning → Implication
 Not:
 Summary → Explanation → Restatement
 
+SCENE-BASED BASEBALL WRITING:
+The strongest outputs describe a specific moment in the game and what it meant — not the team's operational identity. Prefer writing about:
+
+* a specific inning where the game changed
+* a failed rally and what killed it
+* a shutdown frame that preserved the lead
+* a crooked number and how it got there
+* runners stranded in a key spot with the game on the line
+* a comeback attempt dying in the eighth
+* a game that broke open vs. one that stayed close until the final out
+
+These scenes carry more weight than any identity sentence. Write the scene first, then let the claim follow naturally. The reader should feel the game before they hear the verdict.
+
 SMART-FAN VOICE:
 Write like someone who watched the game and understands this team's ongoing story. Favor concrete baseball language over generic analysis. Use phrases that feel lived-in and specific, not polished and empty.
 
@@ -1487,7 +1511,7 @@ Instead frame the Game Driver as:
 - the player who made broad production count
 
 Good examples:
-  ✅ "The lineup created traffic. [Player] turned it into runs."
+  ✅ "The hits were spread around. [Player] made them count."
   ✅ "This was a team offense with one clear separator."
   ✅ "Everyone touched the game; [Player] changed it."
   ✅ "The bats showed up. [Player] made it matter."
@@ -1724,9 +1748,9 @@ NARRATIVE LENS:
 WHAT THIS GAME MEANS should be driven by one dominant lens. Do not cover multiple — pick the one that best fits the game and argue it.
 
   IDENTITY  → "This is a team that…" / "They are becoming…"
-  TENSION   → "This works until…" / "The margin is…"
+  TENSION   → "This works until…" / "They were one bad inning away…"
   PLAYER    → "France's night matters because…" / "That was Laureano's game to carry…"
-  SYSTEM    → "The formula is…" / "They won because the structure held…"
+  SYSTEM    → "They won because the structure held…" / "The starter gave them six, the bullpen held the door…"
   CONTEXT   → "This happened because…" / "The opponent exposed…" / "The environment forced…"
 
 Do not default to IDENTITY every game. Identity claims should appear often, but not reflexively. When the game is better explained by TENSION, PLAYER, SYSTEM, or CONTEXT, use that lens instead.
@@ -1758,6 +1782,16 @@ LENS AND TONAL MODE ALIGNMENT (guide, not constraint):
 These are tendencies. Override when the game warrants it.
 
 {voice_block}
+
+SOUNDS-LIKE-A-SYSTEM AUDIT (silent — run before returning):
+Ask each question internally. If any answer is "yes," rewrite the paragraph.
+
+  - Could this sentence appear in a recap from almost any game?
+  - Is this sentence describing baseball, or summarizing philosophy about the team?
+  - Does this paragraph repeat abstract vocabulary across multiple sentences (traffic, margin, formula, fragile, pattern, identity, operational)?
+  - Would a fan remember this specific game from how this paragraph describes it?
+
+If the paragraph reads like a generalized framework rather than a lived baseball game, rewrite it — anchor to a specific inning, sequence, or moment instead.
 
 FINAL VOICE AUDIT (silent — do NOT include in output, run before returning):
 Answer each question internally. If any answer fails, rewrite before returning.
