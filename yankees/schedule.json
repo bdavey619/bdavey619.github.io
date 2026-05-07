@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-06T12:57:47.879649+00:00",
+  "generated_at": "2026-05-07T12:59:37.859577+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -52,19 +52,17 @@
       "gamePk": 823553,
       "status": "final",
       "result": "W",
-      "score": "7\u20134"
+      "score": "7\u20134",
+      "archive_url": "archive.html?date=2026-05-06"
     },
     {
       "date": "2026-05-06",
       "opponent": "TEX",
       "home": true,
       "gamePk": 823550,
-      "status": "scheduled",
-      "time_local": "7:05 PM ET",
-      "probable": {
-        "team": "Will Warren",
-        "opp": "Nathan Eovaldi"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20136"
     },
     {
       "date": "2026-05-07",
@@ -74,7 +72,7 @@
       "status": "scheduled",
       "time_local": "12:35 PM ET",
       "probable": {
-        "team": "Ryan Weathers",
+        "team": "Paul Blackburn",
         "opp": "MacKenzie Gore"
       }
     },
@@ -95,7 +93,10 @@
       "home": false,
       "gamePk": 823792,
       "status": "scheduled",
-      "time_local": "7:10 PM ET"
+      "time_local": "7:10 PM ET",
+      "probable": {
+        "opp": "Kyle Harrison"
+      }
     },
     {
       "date": "2026-05-10",
@@ -103,7 +104,11 @@
       "home": false,
       "gamePk": 823793,
       "status": "scheduled",
-      "time_local": "2:10 PM ET"
+      "time_local": "2:10 PM ET",
+      "probable": {
+        "team": "Carlos Rod\u00f3n",
+        "opp": "Logan Henderson"
+      }
     },
     {
       "date": "2026-05-11",
@@ -259,8 +264,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u20130",
-    "current_streak": "W5",
-    "last_10": "8\u20132"
+    "month_record": "5\u20131",
+    "current_streak": "L1",
+    "last_10": "7\u20133"
   }
 }
