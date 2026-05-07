@@ -968,14 +968,51 @@ Do NOT repeat or rephrase the story hook in different words — that section alr
 Good: "Down four—and they didn't blink." / "This team doesn't fold." / "They had no business winning this game."
 Avoid: multi-clause sentences, listing multiple players, explaining the sequence of events, restating the story hook.
 
+PRIORITY SHIFT — CONCRETE BASEBALL EVENTS FIRST:
+Concrete baseball events are more important than interpretation. Interpretation should emerge naturally FROM the play-by-play — not precede it. Do not rush toward identity claims.
+
+Look for:
+- innings where momentum shifted
+- scoring bursts and when the game broke open
+- rallies that stalled (runners stranded, bases-loaded failures, leadoff walks not punished)
+- shutdown innings after scoring
+- double plays killing innings
+- strikeout clusters
+- bullpen inheritance and key relief moments
+- when the crowd/game energy clearly changed
+
+These ARE the story. Do not summarize them philosophically afterward unless absolutely necessary.
+
+DO NOT STACK INTERPRETATION:
+One strong interpretation is enough.
+
+Bad: "This is what inconsistency looks like when the margin disappears. The pattern showed up again. The formula failed."
+Good: "They went 0-for-6 with runners in scoring position after the fourth inning."
+
+The second sentence already implies the first. Trust the reader.
+
+STOP EARLIER:
+Once the central baseball truth is clearly established, stop. Do not continue searching for deeper meaning. Do not add a second or third abstract takeaway after the point has already landed.
+
+SCENE OVER THESIS:
+The best endings are baseball scenes, not thematic conclusions.
+
+Weak: "The pattern returned."
+Strong: "They put two on in the seventh and never advanced either runner."
+
+Weak: "The margin disappeared."
+Strong: "After the fourth inning, they managed one runner past second base."
+
+The second version earns the interpretation without saying it.
+
 2. WHAT THIS GAME MEANS (90–120 words max)
-Job: interpretation and identity claim — not factual recap, not sequence retelling. The game_note already handled the vivid factual summary. The Game Driver and Turning Point are already shown as memory anchors. Your job is to answer: What does this game reveal about who this team is?
+Job: Let the play-by-play drive the narrative. Start with what actually happened in the game — an inning that shifted things, a rally that stalled, a shutdown frame, a key moment of leverage. Interpretation should emerge naturally from those baseball details. Do not lead with an identity claim and retrofit facts to support it.
 
-Do NOT restate the story_hook, game_note, Game Driver, or Turning Point — those facts are displayed separately and the reader already has them. Instead, answer: What is different about this team today because of this game? Use the STORY DELTA to identify one clear thing that changed — the pattern got louder, the margin for error shifted, a weakness became harder to ignore, a strength carried into a new kind of win, or the formula held in a new situation. Reference the Game Driver or Turning Point briefly if it supports the "what changed" answer — but do not retell the sequence. Connect the game to the team's current trend. Be precise.
+Do NOT restate the story_hook, game_note, Game Driver, or Turning Point — those are displayed separately. Build on them with concrete events from the game's flow. Reference the Game Driver or Turning Point briefly where they anchor the narrative, but the story is the game's shape — not a philosophical recap of it.
 
-Prefer one strong thesis over several smaller observations. One claim argued well is more memorable than three things that happened. Build to your identity sentence — do not spread the argument thin.
+Prefer one strong thesis over several smaller observations. If you have landed one clear baseball truth, stop there. Do not add a second interpretation after the point has landed.
 
-Make a clear claim about the team's identity. The section must include at least one sentence that could stand alone as an editorial take — something that answers "what is this team becoming?" or "what does this game reveal about how they win?" Frame it as a pattern, not a moment. Acceptable forms: "This is a team that...", "The pattern has become...", "They are now...", "This works because...", "This breaks if...". Weave at least one STORY THREAD naturally into the section — do not list it or name it explicitly; let it shape the argument.
+An identity claim is optional. Include one only when the play-by-play evidence clearly supports it and it has not already been implied by the concrete details. Weave at least one STORY THREAD naturally into the section — do not list it or name it explicitly; let it shape the argument.
 
 The section must end with a short, memorable punchline under 12 words that captures the core takeaway. It must stand alone as the FINAL sentence of this section — do not bury it mid-paragraph and do not follow it with anything. Examples: "France gave them two swings when they needed one." / "This only works until it doesn't." / "They're winning on margins that don't last." See PUNCHLINE RULE below for more examples and enforcement.
 
@@ -1027,11 +1064,10 @@ Bad:
 "They had chances but didn't convert them and that's been the issue all season because..."
 
 STRUCTURE (implicit — do NOT label in output):
-1. Hook (strong opening claim)
-2. What happened (1–2 short paragraphs)
-3. Key supporting insight (stats or pattern)
-4. Core judgment (what this means)
-5. Forward implication or constraint
+1. The baseball scene (what inning, what moment, what happened)
+2. What it meant in this game (cause, consequence, or leverage)
+3. The conclusion that emerges from the scene — stop here once it lands
+No more than one abstract takeaway. If you find yourself adding a second, cut it.
 
 ANTI-DENSITY:
 If a paragraph contains multiple ideas, split it.
@@ -1109,18 +1145,20 @@ STATE OF PLAY — STRUCTURE LOCK:
 Enforce this exact structure for WHAT THIS GAME MEANS:
 
 1. Opening (max 2 sentences)
-   - Must reference a specific moment, stat, or turning point from THIS game
+   - Must reference a specific moment, inning, or sequence from THIS game
+   - Ground it in what happened on the field — not an interpretation of team identity
    - Must take a clear stance (what actually mattered)
 
 2. Body (4–6 sentences max)
-   - Each sentence must reference a concrete detail from THIS game (stat, player performance, sequence, or outcome)
+   - Each sentence must reference a concrete detail: inning, sequence, player action, runners stranded, outs made, runs scored
    - Interpret those details — do not just list them
    - No general baseball commentary
+   - Once the central baseball truth is established, stop. Do not add a second layer of interpretation.
 
 3. Final sentence (punchline)
    - Maximum 12 words
    - No commas
-   - Must make a definitive claim about the game
+   - Must make a definitive claim about the game — grounded in a concrete baseball scene
    - Must feel quotable and self-contained
    - Do not add any sentence after this
 
@@ -1280,12 +1318,17 @@ FUNCTION OVERRIDE — this section previews the next game only. It does not refe
 
 It must:
 - Name the next opponent and/or the probable pitcher from NEXT GAME context above
-- Contain one specific, concrete detail about that matchup (pitcher ERA, lineup edge, series context, etc.)
+- Anchor to at least one concrete matchup detail — choose from:
+    probable pitcher ERA or recent form, bullpen usage/fatigue, lineup struggles, hitter streaks,
+    series leverage (rubber match, series lead), day-game-after-night-game effect, handedness splits,
+    matchup asymmetry, weather/wind if meaningful
+
+The reader should feel prepared for tonight's game — not told what story arc to watch for.
 
 Avoid:
 - Any mention of yesterday's game, result, or players
 - Pattern language: "can they build on", "looking to continue", "momentum", "keep it going", "bounce back"
-- Abstract stakes or broad team verdicts — name the matchup, not the narrative arc
+- Abstract stakes or broad team verdicts — name the matchup details, not the narrative arc
 
 Length: 2 sentences max. One sentence is acceptable if it is specific. Not a recap.
 
@@ -1309,6 +1352,15 @@ Check each item. If any required item is "N", fix before returning.
   [ ] Final sentence is a standalone punchline?
   [ ] No banned phrases present?
   [ ] No sentence that could describe any game?
+
+FINAL SELF-CHECK (silent — run before returning):
+1. Am I describing actual baseball events or summarizing philosophy?
+2. Did I use play-by-play details to drive the narrative?
+3. Did I stop once the point landed?
+4. Would a fan remember a specific inning or moment from this piece?
+5. Did I accidentally stack multiple abstract conclusions together?
+6. Could I delete the final 2 sentences and improve the piece?
+If yes to #6, cut them.
 
 Pattern break is optional — skip if no natural pivot exists.
 
@@ -1423,6 +1475,12 @@ Rules:
 - Integrate it into a sentence naturally — not as a parenthetical, not as a standalone stat.
 - Draw only from data already in LAST GAME context. Do not invent.
 - The detail should make the reader feel like they watched the game, not like they read a box score.
+
+ABSTRACT LANGUAGE — USE SPARINGLY:
+These words are overused and should appear rarely — only after concrete baseball evidence has already been established:
+- margin / formula / pattern / traffic / identity / fragility / execution / inconsistency / structure / variance
+
+If multiple abstract terms appear in one paragraph, rewrite that paragraph with concrete baseball details first.
 
 ANTI-GENERIC LANGUAGE:
 Avoid phrases that summarize broadly without adding a specific angle or judgment.
