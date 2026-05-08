@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T04:55:23+00:00",
+  "generated_at": "2026-05-08T05:21:33+00:00",
   "season": 2026,
   "team": {
     "record": "22-15",
@@ -348,6 +348,26 @@
     "rally_sequences": [],
     "momentum_swings": [],
     "bullpen_events": [],
+    "game_shape": {
+      "team_ever_trailed": true,
+      "max_deficit_faced": 1,
+      "team_ever_led": true,
+      "max_lead_held": 1,
+      "was_tied_late": true,
+      "innings_team_trailed": [
+        7,
+        8,
+        9
+      ],
+      "innings_team_led": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "game_decided_by_inning": null,
+      "blowout_by_5th": false
+    },
     "summary": {
       "total_risp_situations": 2,
       "missed_opportunity_innings": 0,
@@ -358,9 +378,9 @@
     }
   },
   "narrative": {
-    "top_frame": "Pitching held a 1-2 game they had no business losing.",
-    "what_this_means": "Michael King gave them everything. Six scoreless innings, one hit, six strikeouts. The problem was the other side. Nine strikeouts and four hits is not an offense. It is a surrender. They had two runners in scoring position. They got nothing. The formula does not survive that kind of silence, not when the margin is this thin and the division is one game away.",
-    "what_to_watch": "This continues the pattern. Strong pitching, quiet bats, close games that feel decided the moment the order turns over. King was clean. The lineup was locked. That is the Padres season in microcosm right now. One part of the team doing its job, the other part leaving it unfinished.",
+    "top_frame": "Michael King delivered six clean innings and they still lost. That's what nine strikeouts and four hits looks like from the inside. Starvation disguised as control.",
+    "what_this_means": "The game stayed tied through six, a tight rope neither team wanted to cut. But tightness works only if someone walks it. St. Louis scored once early, scratched out a single run that held up because the Padres couldn't answer it. Two runners in scoring position across the night. Nothing came of either one. That's the margin they're operating in. So thin that one wasted chance becomes the whole game. King held his end. The offense did not hold theirs. This team doesn't need much to win. Tonight, they needed something they didn't have.",
+    "what_to_watch": "STL brings the same arms back to Petco on Thursday. Griffin Canning gets the ball for San Diego with a 2.88 ERA over his last four starts and the division still one game away.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
@@ -386,10 +406,7 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "lost last game",
-        "streak flipped: W2 \u2192 L1",
-        "ERA improved: 4.21 \u2192 4.15",
-        "division gap: fell back 0.5 game(s) (1.0 back)"
+        "lost last game"
       ]
     }
   }
