@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T06:00:02+00:00",
+  "generated_at": "2026-05-08T11:50:17+00:00",
   "season": 2026,
   "team": {
     "record": "22-15",
@@ -370,13 +370,93 @@
       "first_team_lead_inning": 1,
       "first_team_trail_inning": 7,
       "last_tied_inning": 6,
-      "lead_changes_count": 1
+      "lead_changes_count": 1,
+      "end_inning_team_led": [
+        1,
+        2,
+        3
+      ],
+      "end_inning_team_trailed": [
+        7,
+        8,
+        9
+      ],
+      "end_inning_tied": [
+        4,
+        5,
+        6
+      ],
+      "end_inning_score_states": [
+        {
+          "inning": 1,
+          "team": 1,
+          "opp": 0,
+          "state": "led"
+        },
+        {
+          "inning": 2,
+          "team": 1,
+          "opp": 0,
+          "state": "led"
+        },
+        {
+          "inning": 3,
+          "team": 1,
+          "opp": 0,
+          "state": "led"
+        },
+        {
+          "inning": 4,
+          "team": 1,
+          "opp": 1,
+          "state": "tied"
+        },
+        {
+          "inning": 5,
+          "team": 1,
+          "opp": 1,
+          "state": "tied"
+        },
+        {
+          "inning": 6,
+          "team": 1,
+          "opp": 1,
+          "state": "tied"
+        },
+        {
+          "inning": 7,
+          "team": 1,
+          "opp": 2,
+          "state": "trailed"
+        },
+        {
+          "inning": 8,
+          "team": 1,
+          "opp": 2,
+          "state": "trailed"
+        },
+        {
+          "inning": 9,
+          "team": 1,
+          "opp": 2,
+          "state": "trailed"
+        }
+      ]
     },
     "game_texture": {
       "primary": "pitching_duel",
       "secondary": "offense_wasted_pitching",
       "reason": "combined 3 run(s) (1-2); tied through inning 6; starter: 1 ER in 6.0 IP; team scored 1 run(s) despite starter holding it tight",
       "tone_guidance": "compressed, restrained, pitcher-forward, offense-failure"
+    },
+    "risp_conversion": {
+      "total_risp_pa": 2,
+      "risp_pa_with_run_scored": 1,
+      "risp_pa_without_run_scored": 1,
+      "risp_converted_innings": [
+        1
+      ],
+      "risp_empty_innings": []
     },
     "summary": {
       "total_risp_situations": 2,
@@ -388,9 +468,9 @@
     }
   },
   "narrative": {
-    "top_frame": "Michael King delivered 6.0 innings of one-run ball and the offense scored once. That's what happened last night.",
-    "what_this_means": "King held St. Louis to one hit through six frames, struck out six, and gave the Padres every chance to build on an early lead they'd grabbed in the first inning. They never did. Four hits and nine strikeouts tells the full story. The opportunity existed; the execution didn't. They were tied after the sixth, trailing by one after the seventh, and out of outs by the ninth. A quality start from their right-hander meant nothing because the lineup couldn't manufacture a second run. This is the margin they're working with now: King gives them air, and they hand it back. One run is not a platform. One hit is not offense. The bats left the building.",
-    "what_to_watch": "This is what fragile looks like from the inside. The pitching has been steady enough to win games. King proved that again. But the offense is becoming a liability so consistent it's starting to feel structural. Nine strikeouts against one of St. Louis's starters is not a slump. It's a locked door. The pattern has not changed in five days; it's gotten sharper. They're 4-6 in their last ten, sitting one back in a division where one run is the difference between staying in it and falling out. The margin is real, and they're burning it on nights like this.",
+    "top_frame": "Michael King kept them in a game they couldn't finish.",
+    "what_this_means": "A pitching duel stripped down to one run on each side through six innings, then broke open in the seventh when St. Louis pulled ahead. The Padres scratched out their single run early. Bogaerts drove one in. But nine strikeouts silenced the rest of the lineup. King delivered six innings of control, one earned run, six strikeouts. That was enough to win most nights. Not this one. They had traffic in two RISP situations and converted once. The other chance died. This is the math they're working with: excellent pitching, nine strikeouts, one successful at-bat with runners in scoring position. That adds up to a loss when the other team scores two.",
+    "what_to_watch": "The fragility of this team is no longer theory. They sit one game back in the division, and every game now tests whether the formula. Sharp pitching, thin margins. Holds under pressure. Last night it didn't. Good pitching only matters if something else happens first. The bats have to answer. They didn't answer often enough, and King's night became a bridge to a game that got away. Nine strikeouts against one run on runners in scoring position is not a slump. It's a warning light.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
