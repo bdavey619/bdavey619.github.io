@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T06:00:14+00:00",
+  "generated_at": "2026-05-08T12:11:54+00:00",
   "season": 2026,
   "team": {
     "record": "26-12",
@@ -860,13 +860,99 @@
       "first_team_lead_inning": 1,
       "first_team_trail_inning": 5,
       "last_tied_inning": 4,
-      "lead_changes_count": 2
+      "lead_changes_count": 2,
+      "end_inning_team_led": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9
+      ],
+      "end_inning_team_trailed": [
+        5
+      ],
+      "end_inning_tied": [
+        3,
+        4
+      ],
+      "end_inning_score_states": [
+        {
+          "inning": 1,
+          "team": 1,
+          "opp": 0,
+          "state": "led"
+        },
+        {
+          "inning": 2,
+          "team": 1,
+          "opp": 0,
+          "state": "led"
+        },
+        {
+          "inning": 3,
+          "team": 1,
+          "opp": 1,
+          "state": "tied"
+        },
+        {
+          "inning": 4,
+          "team": 1,
+          "opp": 1,
+          "state": "tied"
+        },
+        {
+          "inning": 5,
+          "team": 1,
+          "opp": 2,
+          "state": "trailed"
+        },
+        {
+          "inning": 6,
+          "team": 7,
+          "opp": 2,
+          "state": "led"
+        },
+        {
+          "inning": 7,
+          "team": 8,
+          "opp": 2,
+          "state": "led"
+        },
+        {
+          "inning": 8,
+          "team": 9,
+          "opp": 2,
+          "state": "led"
+        },
+        {
+          "inning": 9,
+          "team": 9,
+          "opp": 2,
+          "state": "led"
+        }
+      ]
     },
     "game_texture": {
       "primary": "offensive_breakout",
       "secondary": null,
       "reason": "team scored 9 run(s) on 14 hits",
       "tone_guidance": "expansive, offense-forward, confident and declarative"
+    },
+    "risp_conversion": {
+      "total_risp_pa": 21,
+      "risp_pa_with_run_scored": 6,
+      "risp_pa_without_run_scored": 15,
+      "risp_converted_innings": [
+        1,
+        6,
+        8
+      ],
+      "risp_empty_innings": [
+        2,
+        4,
+        7
+      ]
     },
     "summary": {
       "total_risp_situations": 21,
@@ -878,9 +964,9 @@
     }
   },
   "narrative": {
-    "top_frame": "They came back from one down and closed it in one inning.",
-    "what_this_means": "The deficit lasted all of two innings. Texas took a one-run lead in the fifth, and the game tilted for exactly one hour. Then the sixth happened. Six runs in the sixth. That was not a comeback. That was a statement. Grisham went 3-for-5 with three RBI, and Bellinger added two more, and what looked like a game that could slip away instead became a 9-2 finish. The offense did not just respond to pressure. It answered it decisively. This team is learning how to play from ahead and how to reclaim the lead when it matters. The margin is narrowing because they are getting faster at closing games. They scored nine runs on fourteen hits. That precision matters.",
-    "what_to_watch": "Max Fried takes the mound tonight with a 2.98 ERA over his last four starts. The Brewers sit second in the division, and this is where the schedule starts to tighten.",
+    "top_frame": "The offense broke through in the sixth and never looked back, turning a one-run deficit into a seven-run lead that held.",
+    "what_this_means": "Grisham's 3-RBI night gave broad production real teeth. Fourteen hits and six runs across three innings of momentum reads like balance until you see the early innings wasted two critical chances with runners in scoring position. The lineup didn't fail; it stalled, then accelerated when it mattered. Texas brought a manageable arm, but the Yankees still needed one clear inning to separate themselves from a game that felt genuinely vulnerable through five. The sixth provided it. That execution under pressure is the pattern that matters: when the offense finally arrives, it arrives decisively. The margin between surging and fragile lives in games exactly like this one, where a one-run hole becomes a two-swing difference. Good teams don't leave those windows waiting.",
+    "what_to_watch": "Milwaukee brings Fried tonight, who has pitched to a 2.98 ERA over his last four starts and enters with clean control. The Yankees' bats found rhythm against manageable stuff yesterday. The matchup now tilts toward a sharper test.",
     "story_state": {
       "trend": "surging",
       "driver": "balanced",
