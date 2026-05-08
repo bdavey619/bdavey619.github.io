@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-05",
   "division_name": "AL West",
-  "generated_at": "2026-05-07T15:16:18.074987+00:00",
+  "generated_at": "2026-05-08T14:24:58.575517+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -52,19 +52,17 @@
       "gamePk": 823470,
       "status": "final",
       "result": "L",
-      "score": "3\u20136"
+      "score": "3\u20136",
+      "archive_url": "archive.html?date=2026-05-07"
     },
     {
       "date": "2026-05-07",
       "opponent": "PHI",
       "home": false,
       "gamePk": 823467,
-      "status": "scheduled",
-      "time_local": "3:40 PM PT",
-      "probable": {
-        "team": "J.T. Ginn",
-        "opp": "Andrew Painter"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "12\u20131"
     },
     {
       "date": "2026-05-08",
@@ -72,7 +70,11 @@
       "home": false,
       "gamePk": 824846,
       "status": "scheduled",
-      "time_local": "4:05 PM PT"
+      "time_local": "4:05 PM PT",
+      "probable": {
+        "team": "Jacob Lopez",
+        "opp": "Kyle Bradish"
+      }
     },
     {
       "date": "2026-05-09",
@@ -80,7 +82,11 @@
       "home": false,
       "gamePk": 824847,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "team": "Aaron Civale",
+        "opp": "Shane Baz"
+      }
     },
     {
       "date": "2026-05-10",
@@ -88,7 +94,11 @@
       "home": false,
       "gamePk": 824845,
       "status": "scheduled",
-      "time_local": "10:35 AM PT"
+      "time_local": "10:35 AM PT",
+      "probable": {
+        "team": "Luis Severino",
+        "opp": "Chris Bassitt"
+      }
     },
     {
       "date": "2026-05-12",
@@ -244,8 +254,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20134",
-    "current_streak": "L2",
-    "last_10": "4\u20136"
+    "month_record": "2\u20134",
+    "current_streak": "W1",
+    "last_10": "5\u20135"
   }
 }
