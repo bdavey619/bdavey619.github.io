@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T04:56:04+00:00",
+  "generated_at": "2026-05-08T05:21:35+00:00",
   "season": 2026,
   "team": {
     "record": "26-12",
@@ -836,6 +836,28 @@
       }
     ],
     "bullpen_events": [],
+    "game_shape": {
+      "team_ever_trailed": true,
+      "max_deficit_faced": 1,
+      "team_ever_led": true,
+      "max_lead_held": 7,
+      "was_tied_late": false,
+      "innings_team_trailed": [
+        5,
+        6
+      ],
+      "innings_team_led": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9
+      ],
+      "game_decided_by_inning": 6,
+      "blowout_by_5th": false
+    },
     "summary": {
       "total_risp_situations": 21,
       "missed_opportunity_innings": 2,
@@ -846,9 +868,9 @@
     }
   },
   "narrative": {
-    "top_frame": "This team doesn't fold when it has traffic.",
-    "what_this_means": "The sixth inning decided it. Down to their last real swing, they loaded the bases on soft contact and mistakes, then Grisham turned that traffic into three runs. Not a rally. A correction. Fourteen hits across the game meant the bats showed up early and stayed. Bellinger, Grisham, the whole order touched the game. But six runs in one inning is what separates a good night from a necessary one. Texas had no answer. The pitching held what mattered: Blackburn's clean inning, the bullpen's silence after. This was a team that created chances and executed when execution mattered. That's the formula when it works.",
-    "what_to_watch": "Max Fried takes the ball tonight against Milwaukee with a 2.98 ERA over his last four starts. The Brewers are not Texas. Sharper at-bats, no room for mistakes late.",
+    "top_frame": "# YANKEES MORNING BRIEF",
+    "what_this_means": "**TOP FRAME**",
+    "what_to_watch": "Down one after five innings, they broke the game open in the sixth and never looked back.",
     "story_state": {
       "trend": "surging",
       "driver": "balanced",
@@ -868,17 +890,13 @@
     },
     "story_delta": {
       "has_prev": true,
-      "trend_changed": true,
-      "trend_direction": "improved",
-      "conf_changed": true,
-      "pressure_changed": true,
+      "trend_changed": false,
+      "trend_direction": "unchanged",
+      "conf_changed": false,
+      "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "trend improved: fragile \u2192 surging",
-        "confidence up: medium \u2192 high",
-        "pressure decreased: high \u2192 building",
-        "won last game",
-        "streak flipped: L1 \u2192 W1"
+        "won last game"
       ]
     }
   }
