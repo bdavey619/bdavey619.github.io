@@ -6,6 +6,7 @@ dict is written into brief.json and will feed Phase 3 narrative generation.
 
 Phase 1 (this file): threat_events, missed_opportunities, rally_sequences,
                      momentum_swings, and a summary block.
+Phase 3.1: game_shape — factual lead/deficit timeline for narrative guardrails.
 Phase 2 (TODO): bullpen_events (inherited runner tracking), game_archetype,
                 emotional_core.
 
@@ -307,6 +308,128 @@ def detect_momentum_swings(all_annotated):
 
 
 # ---------------------------------------------------------------------------
+# Phase 3.1: Game-shape summary (factual lead/deficit timeline)
+# ---------------------------------------------------------------------------
+
+def _empty_game_shape():
+    return {
+        "team_ever_trailed":      False,
+        "max_deficit_faced":      0,
+        "team_ever_led":          False,
+        "max_lead_held":          0,
+        "was_tied_late":          False,
+        "innings_team_trailed":   [],
+        "innings_team_led":       [],
+        "game_decided_by_inning": None,
+        "blowout_by_5th":         False,
+    }
+
+
+def detect_game_shape(all_annotated):
+    """
+    Compute factual lead/deficit fields from annotated plays.
+
+    All fields are derived deterministically from play-by-play data and
+    are injected into the LLM prompt as hard guardrails to prevent the
+    model from inventing deficits or comebacks that did not occur.
+
+    Fields
+    ------
+    team_ever_trailed     bool   — team's score was behind at any play boundary
+    max_deficit_faced     int    — largest (opp - team) seen; 0 if never trailed
+    team_ever_led         bool   — team was ahead at any play boundary
+    max_lead_held         int    — largest (team - opp) seen; 0 if never led
+    was_tied_late         bool   — score tied (by inning end) in inning 6+
+    innings_team_trailed  list   — innings where team was behind at any point
+    innings_team_led      list   — innings where team was ahead at any point
+    game_decided_by_inning int|None — earliest inning with margin ≥ 5 that
+                                      held ≥ 3 for all remaining innings
+    blowout_by_5th        bool   — |margin| ≥ 5 at end of inning 5 (or last
+                                   inning if game < 5 innings)
+    """
+    if not all_annotated:
+        return _empty_game_shape()
+
+    max_deficit = 0
+    max_lead    = 0
+
+    innings_trailed: set = set()
+    innings_led:     set = set()
+
+    # inning_end_scores[n] = (team_score, opp_score) after inning n's last play
+    inning_end_scores: dict = {}
+
+    for p in all_annotated:
+        ts  = p["team_score_after"]
+        os_ = p["opp_score_after"]
+        inn = p["inning"]
+
+        diff = ts - os_   # positive: team leads; negative: team trails
+
+        if diff < 0:
+            innings_trailed.add(inn)
+            deficit = -diff
+            if deficit > max_deficit:
+                max_deficit = deficit
+        elif diff > 0:
+            innings_led.add(inn)
+            lead = diff
+            if lead > max_lead:
+                max_lead = lead
+
+        # Keep the last play's score for each inning (inning-end snapshot)
+        inning_end_scores[inn] = (ts, os_)
+
+    team_ever_trailed = max_deficit > 0
+    team_ever_led     = max_lead    > 0
+
+    # was_tied_late: score exactly tied at end of inning 6+
+    was_tied_late = any(
+        ts == os_
+        for inn, (ts, os_) in inning_end_scores.items()
+        if inn >= 6
+    )
+
+    # blowout_by_5th: |margin| ≥ 5 at end of the last inning ≤ 5
+    early = {inn: sc for inn, sc in inning_end_scores.items() if inn <= 5}
+    if early:
+        last_early = max(early)
+        ts5, os5 = early[last_early]
+        blowout_by_5th = abs(ts5 - os5) >= 5
+    else:
+        blowout_by_5th = False
+
+    # game_decided_by_inning: earliest inning where margin ≥ 5 AND
+    # margin stays ≥ 3 for every subsequent inning.
+    sorted_innings = sorted(inning_end_scores.keys())
+    game_decided_by_inning = None
+    for idx, inn in enumerate(sorted_innings):
+        ts, os_ = inning_end_scores[inn]
+        margin = abs(ts - os_)
+        if margin >= 5:
+            subsequent = sorted_innings[idx + 1:]
+            held = all(
+                abs(inning_end_scores[ni][0] - inning_end_scores[ni][1]) >= 3
+                for ni in subsequent
+            )
+            if held:
+                game_decided_by_inning = inn
+                break
+
+    return {
+        "team_ever_trailed":      team_ever_trailed,
+        "max_deficit_faced":      max_deficit,
+        "team_ever_led":          team_ever_led,
+        "max_lead_held":          max_lead,
+        "was_tied_late":          was_tied_late,
+        "innings_team_trailed":   sorted(innings_trailed),
+        "innings_team_led":       sorted(innings_led),
+        "game_decided_by_inning": game_decided_by_inning,
+        "blowout_by_5th":         blowout_by_5th,
+    }
+
+
+# ---------------------------------------------------------------------------
 # Main entry point
 # ---------------------------------------------------------------------------
 
@@ -358,6 +481,7 @@ def analyze_game_flow(all_plays, is_home, full_box=None):
         missed_opps   = detect_missed_opportunities(all_annotated)
         rally_seqs    = detect_rally_sequences(all_annotated)
         momentum      = detect_momentum_swings(all_annotated)
+        game_shape    = detect_game_shape(all_annotated)
 
         critical_misses    = sum(1 for m in missed_opps if m["severity"] == "critical")
         significant_misses = sum(1 for m in missed_opps if m["severity"] == "significant")
@@ -368,6 +492,7 @@ def analyze_game_flow(all_plays, is_home, full_box=None):
             "rally_sequences":      rally_seqs,
             "momentum_swings":      momentum,
             "bullpen_events":       [],  # TODO Phase 2: inherited runner tracking
+            "game_shape":           game_shape,
             "summary": {
                 "total_risp_situations":      len(threat_events),
                 "missed_opportunity_innings": len(missed_opps),

@@ -893,9 +893,10 @@ Application rules:
     # Game story signals block
     game_story = brief_data.get("game_story")
     if game_story:
-        s = game_story["summary"]
-        missed_opps    = game_story.get("missed_opportunities") or []
-        rally_seqs     = game_story.get("rally_sequences") or []
+        s          = game_story["summary"]
+        gs         = game_story.get("game_shape") or {}
+        missed_opps     = game_story.get("missed_opportunities") or []
+        rally_seqs      = game_story.get("rally_sequences") or []
         momentum_swings = game_story.get("momentum_swings") or []
 
         missed_lines = []
@@ -923,6 +924,28 @@ Application rules:
                 f"    inning {sw['inning']}: {dir_label} {sw['runs']} runs{extra}"
             )
 
+        # Game-shape lines (Phase 3.1 guardrail data)
+        _trailed      = gs.get("team_ever_trailed", False)
+        _max_def      = gs.get("max_deficit_faced", 0)
+        _led          = gs.get("team_ever_led", False)
+        _max_lead     = gs.get("max_lead_held", 0)
+        _tied_late    = gs.get("was_tied_late", False)
+        _decided      = gs.get("game_decided_by_inning")
+        _blowout      = gs.get("blowout_by_5th", False)
+        _inn_trailed  = gs.get("innings_team_trailed") or []
+        _inn_led      = gs.get("innings_team_led") or []
+
+        def _yn(v):
+            return "YES" if v else "NO"
+
+        _decided_str = str(_decided) if _decided is not None else "none"
+        _trailed_str = (
+            f"innings {_inn_trailed}" if _inn_trailed else "never"
+        )
+        _led_str = (
+            f"innings {_inn_led}" if _inn_led else "never"
+        )
+
         _gs_lines = [
             "\nGAME STORY SIGNALS (deterministic, from play-by-play):",
             f"  RISP situations: {s['total_risp_situations']}",
@@ -934,9 +957,75 @@ Application rules:
         _gs_lines.extend(rally_lines)
         _gs_lines.append(f"  Momentum swings (2+ runs): {s['momentum_swing_count']}")
         _gs_lines.extend(swing_lines)
+        _gs_lines += [
+            "",
+            "  GAME SHAPE (factual — hard guardrails for framing):",
+            f"    Team ever trailed:        {_yn(_trailed)} · Max deficit: {_max_def} runs · Innings trailing: {_trailed_str}",
+            f"    Team ever led:            {_yn(_led)} · Max lead held: {_max_lead} runs · Innings leading: {_led_str}",
+            f"    Score tied in inning 6+:  {_yn(_tied_late)}",
+            f"    Game decided by inning:   {_decided_str}",
+            f"    Blowout by 5th inning:    {_yn(_blowout)}",
+        ]
         game_story_block = "\n".join(_gs_lines)
     else:
+        gs = {}
         game_story_block = "\nGAME STORY SIGNALS: not available"
+
+    # ---------------------------------------------------------------------------
+    # Phase 3.1: Build factual guardrail block from game_shape fields.
+    # These are injected directly into the prompt as HARD RULES so the model
+    # cannot invent a deficit, comeback, or blowout tension that did not occur.
+    # ---------------------------------------------------------------------------
+    _gs_trailed    = gs.get("team_ever_trailed", False)
+    _gs_max_def    = gs.get("max_deficit_faced", 0)
+    _gs_blowout    = gs.get("blowout_by_5th", False)
+    _gs_decided    = gs.get("game_decided_by_inning")
+    _gs_tied_late  = gs.get("was_tied_late", False)
+
+    _guardrail_lines = []
+
+    if _gs_trailed is False and game_story:
+        # Team never trailed — ban all comeback/deficit language
+        _guardrail_lines.append(
+            "DEFICIT GUARDRAIL (HARD — team NEVER trailed in this game · max deficit: 0 runs):\n"
+            "  Do NOT use: comeback, fought back, rallied from behind, two runs down, dug out,\n"
+            "              deficit, climbed back, rescued, behind at any point, responded to.\n"
+            "  Late scoring is a BREAKTHROUGH from a tied or leading position — not a comeback.\n"
+            "  If the team was TIED going into the late innings, frame it as breaking a deadlock,\n"
+            "  not overcoming a deficit."
+        )
+
+    if _gs_blowout and game_story:
+        # Decided early — ban manufactured urgency
+        decided_clause = (
+            f"  The game was decided by inning {_gs_decided}."
+            if _gs_decided else ""
+        )
+        _guardrail_lines.append(
+            "BLOWOUT GUARDRAIL (HARD — game decided by 5th inning or earlier):\n"
+            "  Write FLAT and COMPRESSED. The outcome was not in doubt late.\n"
+            f"{decided_clause}\n"
+            "  Do NOT use: 'swallowed a team whole', 'put up a fight', 'season pressure',\n"
+            "              'division doesn't wait', 'couldn't recover', philosophical overreach.\n"
+            "  State what happened early and move on. Do not dramatize a resolved game."
+        )
+    elif _gs_decided is not None and _gs_decided <= 4 and game_story:
+        _guardrail_lines.append(
+            f"EARLY-DECISION GUARDRAIL (game decided by inning {_gs_decided}):\n"
+            "  Do NOT imply late drama. Do NOT say the offense 'put up a fight' unless they\n"
+            "  scored 3+ runs. The outcome was essentially determined before the middle innings.\n"
+            "  Frame as decided early — not as a missed late opportunity."
+        )
+
+    factual_guardrails = (
+        "\n\n".join(_guardrail_lines)
+        if _guardrail_lines else ""
+    )
+    _guardrail_block = (
+        f"\nFACTUAL GAME-SHAPE GUARDRAILS (violations = factual errors — fix before returning):\n"
+        f"{factual_guardrails}\n"
+        if factual_guardrails else ""
+    )
 
     return f"""Write the editorial core of today's {team_name} Morning Brief.
 
@@ -980,7 +1069,7 @@ NEXT GAME HOOK ({next_day_label} — use to ground the forward-looking WHAT TO W
   {looking_ahead_line}
 
 --- OUTPUT INSTRUCTIONS ---
-
+{_guardrail_block}
 GAME STORY PRIORITY (applies when GAME STORY SIGNALS are present above):
 When GAME STORY SIGNALS are available, your job is not to rediscover the story from the box score. Your job is to write the game story implied by these signals. Box score stats are supporting evidence only.
 
@@ -1017,13 +1106,21 @@ Job: the editorial stance — not emotional compression (the story hook did that
   - the identity claim ("This team doesn't fold.")
 Do NOT include both players and conclusion. Do NOT list multiple events. If more than one clause appears, simplify to one.
 Emotionally clear. Do NOT include both Game Driver and Turning Point in the same sentence. Not a score recap. A stance.
-Do NOT repeat or rephrase the story hook in different words — that section already handled the compressed emotional beat.
 
-Good: "Down four—and they didn't blink." / "This team doesn't fold." / "They had no business winning this game."
-Avoid: multi-clause sentences, listing multiple players, explaining the sequence of events, restating the story hook.
+STORY HOOK NON-REPEAT (HARD RULE):
+The story hook already rendered above is: "{story_hook_line}"
+Your TOP FRAME must NOT open with these words or any rearrangement of them.
+If your draft TOP FRAME begins with the story hook text, discard it and write from a different angle:
+  - the game shape ("Tied through six innings until France made it matter.")
+  - the pitching story ("Waldron bought them six innings — the offense cashed it late.")
+  - the outcome as identity ("This team doesn't need to lead early to win.")
+Do NOT name two players in one TOP FRAME sentence unless the two-player relationship IS the story and both roles are clearly distinct.
+
+Good: "They played six tied innings and then broke it open." / "Waldron held the door — the offense walked through." / "This is what 22-14 looks like from the inside."
+Avoid: opening with the story hook wording, multi-clause sentences, listing multiple players, explaining event sequences.
 
 GAME STORY LENS (when GAME STORY SIGNALS available):
-The TOP FRAME should usually reflect the game shape (e.g., missed chances, comeback, back-and-forth, wire-to-wire, defensive hold), the turning point, or the dominant pattern in the signals. Do not default to the best player's stat line unless that is clearly the story and no other angle is stronger.
+The TOP FRAME should usually reflect the game shape (e.g., tied game broken late, wire-to-wire hold, blowout controlled early), the turning point, or the dominant pattern in the signals. Do not default to the best player's stat line unless that is clearly the story and no other angle is stronger.
 
 2. WHAT THIS GAME MEANS (90–120 words max)
 Job: interpretation and identity claim — not factual recap, not sequence retelling. The game_note already handled the vivid factual summary. The Game Driver and Turning Point are already shown as memory anchors. Your job is to answer: What does this game reveal about who this team is?
@@ -1108,28 +1205,28 @@ Mix:
 - 2-sentence paragraphs for development
 Avoid overly fragmented, choppy writing.
 
-PATTERN BREAK RULE:
-Once per brief — and only once — break the rhythm deliberately inside WHAT THIS GAME MEANS.
+COMPLETE SENTENCES — HARD RULE:
+Every sentence must have a subject and a verb. No fragments.
 
-Choose one of:
-- A one-line paragraph (very short sentence standing alone)
-- A rhetorical question
-- A contrast flip (what it looked like vs. what it was)
-- A blunt, almost conversational aside
+Fragments are banned even when used for rhythmic effect. These are all violations:
+  ❌ "That alignment."
+  ❌ "Is becoming their identity."
+  ❌ "Bullpen holding, bats arriving late."
+  ❌ "Not a comeback. A correction."
+  ❌ "The box score said close. The game didn't."
 
-Examples:
-- "And then it was over."
-- "That's the game."
-- "You knew it early."
-- "This one was decided before it felt like it."
-- "Not a comeback. A correction."
-- "The box score said close. The game didn't."
+Rewrite every fragment into a complete sentence before returning:
+  ✅ "The alignment held — pitching and offense converging at the right moment."
+  ✅ "That is becoming their identity."
+  ✅ "The bullpen held, and the bats arrived late."
+  ✅ "This was not a comeback. It was a correction."
+  ✅ "The box score said it was close. The game did not feel that way."
 
-Rules:
-- Use it once. Not twice.
-- Place it where the argument pivots — not at the start, not as the punchline (the punchline is reserved for the final sentence).
-- It should feel like a breath, not a gimmick.
-- If no natural break exists, skip it. Do not force it.
+If a line is punchy and short, it can still be a complete sentence:
+  ✅ "They held on." / "Judge hit one for show." / "The rest found nothing."
+The requirement is not length — it is grammatical completeness.
+
+SILENT CHECK: Before returning, scan every sentence. If any sentence has no verb, rewrite it.
 
 OPENING LINE RULE:
 The first sentence must be specific to THIS game and non-transferable.
@@ -1339,18 +1436,25 @@ INTERNAL AUDIT (silent — run before returning):
 If any fail → rewrite.
 
 3. WHAT TO WATCH (2 sentences max)
-FUNCTION OVERRIDE — this section previews the next game only. It does not reference yesterday.
+FUNCTION OVERRIDE — this section previews the next game ONLY. It does not reference yesterday in any way.
+
+STRUCTURAL LOCK — HARD RULE:
+Your WHAT TO WATCH section MUST open with the next opponent's name or the probable pitcher's name.
+If your draft does not begin with the opponent name or pitcher name, it fails. Rewrite from scratch.
 
 It must:
-- Name the next opponent and/or the probable pitcher from NEXT GAME context above
-- Contain one specific, concrete detail about that matchup (pitcher ERA, lineup edge, series context, etc.)
+- Open with: next opponent name (e.g. "STL…") OR probable pitcher name (e.g. "King faces…")
+- Name one specific matchup detail (pitcher's recent ERA, the opponent's offensive weakness, series context, ballpark factor)
 
-Avoid:
-- Any mention of yesterday's game, result, or players
-- Pattern language: "can they build on", "looking to continue", "momentum", "keep it going", "bounce back"
-- Abstract stakes or broad team verdicts — name the matchup, not the narrative arc
+Banned from this section:
+- Any word that references yesterday's game, result, or players (no "after last night", no player names from yesterday's box score)
+- Pattern language: "build on", "looking to", "momentum", "bounce back", "keep it going", "carry that"
+- Abstract team identity claims — this section is a preview, not a verdict
+- "the division doesn't wait"
 
-Length: 2 sentences max. One sentence is acceptable if it is specific. Not a recap.
+Length: 1–2 sentences. One tight sentence is better than two vague ones. Not a recap.
+
+SILENT CHECK: Does your first word name the opponent or pitcher? If not, rewrite.
 
 REWRITE LOOP:
 After drafting WHAT THIS GAME MEANS, run a second pass if ANY of the following are true:
@@ -1567,6 +1671,26 @@ Let the game type shape the writing — subtly, not conspicuously.
   CHAOTIC    → slightly more energy, irregular rhythm, comma-sparse sentences
   CLINICAL   → plain, even, no added heat — let the facts do the work
 Do not overdo this. The shift should be felt across 2–3 word choices, not performed as a style.
+
+BLOWOUT TONE — HARD RULE (applies when blowout_by_5th = YES or game decided by inning ≤ 4):
+Write matter-of-factly. The game was decided early. There is no late tension to manufacture.
+
+Banned in blowout contexts:
+  "swallowed a team whole"
+  "put up a fight" (unless the team actually scored 3+ runs)
+  "couldn't recover"
+  "the season pressure"
+  "the division doesn't wait"
+  "exposed" (unless naming a specific structural weakness clearly caused by this game)
+  philosophical overreach about what this means for the division race
+
+Required in blowout contexts:
+  State what happened early and when — one clear sentence about when control was established.
+  Keep the WHAT THIS GAME MEANS tight (aim for 70–90 words, not 120).
+  The punchline should be simple and direct, not grand.
+
+Example: "Warren gave Texas six runs in four innings. The game was over by the time the lineup woke up. Judge hit one for show. The rest of the offense logged nine strikeouts and left early."
+Do not write a blowout like a drama. It was not.
 
 SENTENCE VARIATION:
 Avoid the same opening structure day after day.
