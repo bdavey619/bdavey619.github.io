@@ -52,28 +52,43 @@ _RALLY_STARTERS = {
 }
 
 
+_BASE_MAP = {"1B": 1, "2B": 2, "3B": 3}
+
+
 def _annotate_plays(all_plays, is_home):
     """
-    Walk through ALL plays in game order, tracking cumulative score.
-    For each team at-bat, record score_before / score_after / runs_scored.
+    Walk through ALL plays in game order, tracking cumulative score and base state.
+    For each team at-bat, record score_before / score_after / runs_scored plus
+    runners_before (occupied bases), outs_before, pitcher, description, and half.
 
+    Base state resets at each half-inning boundary (correct for both teams).
     Returns list of dicts for team batting plays only.
     """
     team_half = "bottom" if is_home else "top"
     prev_away = 0
     prev_home = 0
     annotated = []
+    base_state = set()   # occupied bases: subset of {1, 2, 3}
+    prev_half = None
 
     for p in all_plays:
         about = p.get("about", {})
         result = p.get("result", {})
         matchup = p.get("matchup", {})
+        runners = p.get("runners", [])
 
         # Scores AFTER this play (cumulative totals from the API)
         cur_away = result.get("awayScore", prev_away)
         cur_home = result.get("homeScore", prev_home)
 
-        if result.get("type") == "atBat" and about.get("halfInning") == team_half:
+        current_half = about.get("halfInning")
+
+        # Reset base state at every half-inning boundary
+        if current_half != prev_half and prev_half is not None:
+            base_state = set()
+        prev_half = current_half
+
+        if result.get("type") == "atBat" and current_half == team_half:
             if is_home:
                 tb, ob, ta, oa = prev_home, prev_away, cur_home, cur_away
             else:
@@ -81,10 +96,14 @@ def _annotate_plays(all_plays, is_home):
 
             annotated.append({
                 "inning":            about.get("inning", 0),
+                "half":              current_half,
                 "batter":            matchup.get("batter", {}).get("fullName", ""),
+                "pitcher":           matchup.get("pitcher", {}).get("fullName", ""),
                 "event":             result.get("event", ""),
-                "raw_description":   result.get("description", ""),
+                "description":       result.get("description", ""),
                 "rbi":               result.get("rbi", 0),
+                "outs_before":       about.get("outs", 0),
+                "runners_before":    sorted(base_state),
                 "team_score_before": tb,
                 "opp_score_before":  ob,
                 "team_score_after":  ta,
@@ -92,6 +111,24 @@ def _annotate_plays(all_plays, is_home):
                 "runs_scored":       ta - tb,
                 "is_scoring":        about.get("isScoringPlay", False),
             })
+
+        # Update base state from runner movements (two passes: remove origins, then add ends).
+        # This preserves stationary runners (not in runners array) automatically.
+        for r in runners:
+            mv = r.get("movement", {})
+            origin = mv.get("originBase") or mv.get("start")
+            if origin:
+                origin_num = _BASE_MAP.get(origin)
+                if origin_num:
+                    base_state.discard(origin_num)
+        for r in runners:
+            mv = r.get("movement", {})
+            end = mv.get("end")
+            is_out = mv.get("isOut", False)
+            if end and end.lower() != "score" and not is_out:
+                end_num = _BASE_MAP.get(end)
+                if end_num:
+                    base_state.add(end_num)
 
         # Always advance score tracker (covers opponent at-bats between team half-innings)
         prev_away = cur_away
@@ -101,20 +138,36 @@ def _annotate_plays(all_plays, is_home):
 
 
 def _build_description(event, inning, reason, team_after, opp_after, total_runs, rbi):
-    """Generate a short factual sentence (player name NOT included)."""
+    """Generate a short situational sentence (player name NOT included).
+
+    Prefers timing + game-state context over raw stats:
+    'broke a 3–3 tie in the eighth with a single' > 'hit the go-ahead single (4–3)'
+    """
     ordinal = _ordinal(inning) if inning else "late"
     ev = event.lower() if event else "play"
 
     if "walk-off" in reason:
         return f"walked it off in the {ordinal} with a {ev}."
+
     if "go-ahead" in reason:
-        return f"hit the go-ahead {ev} in the {ordinal} ({team_after}–{opp_after})."
+        runs = total_runs if total_runs else 1
+        team_before = (team_after or 0) - runs
+        opp_before = opp_after or 0
+        if team_before == opp_before:
+            return f"broke a {team_before}–{team_before} tie in the {ordinal} with a {ev}."
+        else:
+            return f"flipped a {opp_before}–{team_before} deficit in the {ordinal} with a {ev}."
+
     if "tying" in reason:
-        return f"tied it in the {ordinal} with a {ev}."
+        score = team_after or 0
+        return f"tied it at {score} in the {ordinal} with a {ev}."
+
     if "rally" in reason:
-        return f"started the {ordinal}-inning rally ({total_runs} runs scored) with a {ev}."
+        return f"sparked a {total_runs}-run {ordinal}-inning rally with a {ev}."
+
     if "RBI" in reason:
-        return f"drove in {rbi} in the {ordinal} with a {ev}."
+        return f"drove in {rbi} in the {ordinal} with a {ev}, making it {team_after}–{opp_after}."
+
     return f"came through in the {ordinal} with a {ev}."
 
 
