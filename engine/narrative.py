@@ -966,13 +966,55 @@ Application rules:
             f"    Game decided by inning:   {_decided_str}",
             f"    Blowout by 5th inning:    {_yn(_blowout)}",
         ]
+
+        # Phase 3.2: LEAD CHRONOLOGY block
+        _first_lead  = gs.get("first_team_lead_inning")
+        _first_trail = gs.get("first_team_trail_inning")
+        _last_tied   = gs.get("last_tied_inning")
+        _lc_count    = gs.get("lead_changes_count", 0)
+
+        _lead_lines = ["", "  LEAD CHRONOLOGY:"]
+        _lead_lines.append(
+            f"    - Team first led in inning {_first_lead}"
+            if _first_lead is not None else
+            "    - Team never led"
+        )
+        _lead_lines.append(
+            f"    - Team first trailed in inning {_first_trail}"
+            if _first_trail is not None else
+            "    - Team never trailed"
+        )
+        _lead_lines.append(
+            f"    - Game was last tied after inning {_last_tied}"
+            if _last_tied is not None else
+            "    - Game was never tied at inning end"
+        )
+        _lead_lines.append(f"    - Lead changes: {_lc_count}")
+        _gs_lines.extend(_lead_lines)
+
+        # Phase 3.2: GAME TEXTURE block
+        gt = game_story.get("game_texture") or {}
+        if gt:
+            _gt_primary   = gt.get("primary", "")
+            _gt_secondary = gt.get("secondary") or ""
+            _gt_reason    = gt.get("reason", "")
+            _gt_tone      = gt.get("tone_guidance", "")
+            _secondary_str = f" / {_gt_secondary}" if _gt_secondary else ""
+            _gs_lines += [
+                "",
+                "  GAME TEXTURE (classifier — calibrate tone and framing):",
+                f"    Primary:        {_gt_primary}{_secondary_str}",
+                f"    Reason:         {_gt_reason}",
+                f"    Tone guidance:  {_gt_tone}",
+            ]
+
         game_story_block = "\n".join(_gs_lines)
     else:
         gs = {}
         game_story_block = "\nGAME STORY SIGNALS: not available"
 
     # ---------------------------------------------------------------------------
-    # Phase 3.1: Build factual guardrail block from game_shape fields.
+    # Phase 3.1 + 3.2: Build factual guardrail block from game_shape fields.
     # These are injected directly into the prompt as HARD RULES so the model
     # cannot invent a deficit, comeback, or blowout tension that did not occur.
     # ---------------------------------------------------------------------------
@@ -981,6 +1023,12 @@ Application rules:
     _gs_blowout    = gs.get("blowout_by_5th", False)
     _gs_decided    = gs.get("game_decided_by_inning")
     _gs_tied_late  = gs.get("was_tied_late", False)
+    _gs_led        = gs.get("team_ever_led", False)
+    # Phase 3.2 chronology fields
+    _gs_first_lead  = gs.get("first_team_lead_inning")
+    _gs_first_trail = gs.get("first_team_trail_inning")
+    _gs_last_tied   = gs.get("last_tied_inning")
+    _gs_lc_count    = gs.get("lead_changes_count", 0)
 
     _guardrail_lines = []
 
@@ -1015,6 +1063,44 @@ Application rules:
             "  Do NOT imply late drama. Do NOT say the offense 'put up a fight' unless they\n"
             "  scored 3+ runs. The outcome was essentially determined before the middle innings.\n"
             "  Frame as decided early — not as a missed late opportunity."
+        )
+
+    # Phase 3.2: chronology guardrails
+    if (game_story
+            and _gs_first_lead is not None
+            and _gs_first_trail is not None
+            and _gs_first_trail > _gs_first_lead):
+        # Team held a lead before eventually falling behind — NOT an early comeback game
+        _guardrail_lines.append(
+            f"CHRONOLOGY GUARDRAIL (HARD — team led first, then fell behind):\n"
+            f"  Team first led in inning {_gs_first_lead}. Team first trailed in inning {_gs_first_trail}.\n"
+            f"  Do NOT describe this as an early comeback, 'chasing from the start', or a deficit game.\n"
+            f"  The team held the lead — this is a story of a lead LOST, not a hole CLIMBED OUT OF.\n"
+            f"  If the team lost: frame as 'lead lost in inning {_gs_first_trail}' or 'game turned late'.\n"
+            f"  If the team won: frame as a late rally that recaptured a lead they had already held."
+        )
+    elif (game_story
+          and _gs_led
+          and _gs_first_trail is not None
+          and _gs_first_trail >= 7):
+        # Team led, then fell behind late — frame as late-turn, not chasing
+        _guardrail_lines.append(
+            f"CHRONOLOGY GUARDRAIL — LATE TURN (team led, fell behind in inning {_gs_first_trail}):\n"
+            f"  The team held the lead through most of the game before losing it in inning {_gs_first_trail}.\n"
+            f"  Frame as 'lead lost late' or 'game turned in inning {_gs_first_trail}'.\n"
+            f"  Do NOT frame as 'chasing' or as a team that was in a deficit all game."
+        )
+
+    if (game_story
+            and _gs_last_tied is not None
+            and _gs_last_tied >= 6
+            and _gs_max_def <= 1):
+        # Game broke open late from a tie — not a comeback
+        _guardrail_lines.append(
+            f"CHRONOLOGY GUARDRAIL — LATE-BREAKING GAME (last tied after inning {_gs_last_tied}):\n"
+            f"  Max deficit was only {_gs_max_def} run(s). This is a late-breaking game, NOT a comeback.\n"
+            f"  Do NOT use comeback language. Frame as a tied game that broke open late.\n"
+            f"  The drama is in the breaking point — not in overcoming a deficit."
         )
 
     factual_guardrails = (
@@ -1085,6 +1171,27 @@ Before writing, select one mode based on the game. Let it shape word choice and 
   CHAOTIC    → wild swings, high-scoring, genuinely weird game
 
 The mode is felt in rhythm and word choice, not stated. One or two choices that fit the game — not every sentence.
+
+GAME TEXTURE TONE LOCK (when GAME TEXTURE is present in GAME STORY SIGNALS):
+Use GAME TEXTURE to override or sharpen your TONAL MODE selection. The texture_guidance field is a direct instruction about register — follow it.
+
+Texture-specific rules:
+  pitching_duel      → write compressed and pitcher-forward; do NOT inflate into a comeback story,
+                        identity claim, or philosophical meditation; keep it tight; one or two
+                        sentences max per paragraph; the pitcher's line belongs in the lead.
+  offensive_breakout → write expansively; name the runs; name who drove them; do not undersell.
+  blowout            → write flat; state what happened and when; no manufactured late drama.
+  dead_offense_loss  → write honest and direct; name what failed; do not reach for silver linings.
+  late_breakthrough  → build the section chronologically; the late scoring is the payoff not the premise.
+  bullpen_grind      → acknowledge the starter exited; name the relievers if identifiable; the grind IS the story.
+  back_and_forth     → do not anchor on one moment; the shape of the game is the story.
+  routine_win        → plain and measured; no forced energy.
+  routine_loss       → analytical; explain what fell short specifically.
+
+When secondary = offense_wasted_pitching:
+  The narrative must include both the starter's quality line AND the offensive failure.
+  Do NOT write as if pitching alone cost the game — the offense is the missing piece.
+  Do NOT write as if offense alone cost the game — the pitching was good enough to win.
 
 PRIMARY LENS (internal — do NOT output or name this):
 Before writing WHAT THIS GAME MEANS, select ONE lens. Let it drive the section — do not try to cover multiple.
@@ -2106,6 +2213,55 @@ def _narrative_fallback(reason):
     return None
 
 
+# ---------------------------------------------------------------------------
+# Phase 3.2: Validation helpers — fragment defense and WHAT TO WATCH lock
+# ---------------------------------------------------------------------------
+
+# Conservative fragment patterns: only known offenders, not generic heuristics
+_FRAGMENT_PATTERNS = [
+    # Sentence opens with "Is" or "Was" without a subject
+    re.compile(r'^(Is|Was)\s+\w', re.IGNORECASE),
+    # Prepositional phrase used as sentence: "Against St. Louis, at home..."
+    re.compile(r'^Against\s+[A-Z]'),
+    # Noun-phrase with location: "That margin in the sixth."
+    re.compile(r'^That\s+\w+\s+(in|at|of|through|during|by)\b.*\.$'),
+]
+
+
+def _detect_fragments(text):
+    """Return list of sentences matching known fragment patterns."""
+    if not text:
+        return []
+    sentences = re.split(r'(?<=[.!?])\s+', text.strip())
+    violations = []
+    for s in sentences:
+        s = s.strip()
+        if not s:
+            continue
+        for pat in _FRAGMENT_PATTERNS:
+            if pat.match(s):
+                violations.append(s)
+                break
+    return violations
+
+
+def _check_watch_preview(text, ng_opponent, ng_probable):
+    """
+    Return True if the first sentence of WHAT TO WATCH names the next opponent
+    or the probable pitcher. Comparison is case-insensitive, word-level.
+    """
+    if not text:
+        return False
+    first_sentence = re.split(r'(?<=[.!?])\s+', text.strip())[0].lower()
+    for name in (ng_opponent, ng_probable):
+        if not name:
+            continue
+        for word in name.lower().split():
+            if len(word) >= 3 and word in first_sentence:
+                return True
+    return False
+
+
 def generate_narrative_copy(brief_data, story_state, delta, team_name,
                             story_threads=None, story_hook=None, looking_ahead_hook=None,
                             game_driver=None):
@@ -2113,12 +2269,20 @@ def generate_narrative_copy(brief_data, story_state, delta, team_name,
     Call the Anthropic API to generate AI-written narrative copy.
     Returns a dict with top_frame, what_this_means, what_to_watch — or None on failure.
     Logs a clear reason on every fallback path.
+
+    Phase 3.2: validates fragments in what_this_means and opponent/pitcher in
+    what_to_watch.  On first-attempt violations, retries once with an explicit
+    RETRY VIOLATION NOTICE appended to the prompt.
     """
     api_key = os.environ.get("ANTHROPIC_API_KEY", "")
     if not api_key:
         return _narrative_fallback("ANTHROPIC_API_KEY is not set")
 
-    prompt = _build_narrative_prompt(
+    next_game   = brief_data.get("next_game") or {}
+    ng_opponent = (next_game.get("opponent") or "").strip()
+    ng_probable = ((next_game.get("probable") or {}).get("team") or "").strip()
+
+    base_prompt = _build_narrative_prompt(
         brief_data, story_state, delta, team_name,
         story_threads=story_threads,
         story_hook=story_hook,
@@ -2127,44 +2291,102 @@ def generate_narrative_copy(brief_data, story_state, delta, team_name,
     )
     system = _build_narrative_system(team_name)
 
-    try:
-        resp = requests.post(
-            "https://api.anthropic.com/v1/messages",
-            headers={
-                "x-api-key":         api_key,
-                "anthropic-version": "2023-06-01",
-                "content-type":      "application/json",
-            },
-            json={
-                "model":      "claude-haiku-4-5-20251001",
-                "max_tokens": 700,
-                "system":     system,
-                "messages":   [{"role": "user", "content": prompt}],
-            },
-            timeout=30,
-        )
-    except Exception as exc:
-        return _narrative_fallback(f"API request failed — {exc}")
+    last_result    = None
+    violation_note = ""
 
-    body = resp.json()
+    for attempt in range(2):
+        prompt = base_prompt + violation_note if violation_note else base_prompt
 
-    if body.get("type") == "error":
-        err = body.get("error", {})
-        return _narrative_fallback(f"API error {err.get('type')}: {err.get('message')}")
+        try:
+            resp = requests.post(
+                "https://api.anthropic.com/v1/messages",
+                headers={
+                    "x-api-key":         api_key,
+                    "anthropic-version": "2023-06-01",
+                    "content-type":      "application/json",
+                },
+                json={
+                    "model":      "claude-haiku-4-5-20251001",
+                    "max_tokens": 700,
+                    "system":     system,
+                    "messages":   [{"role": "user", "content": prompt}],
+                },
+                timeout=30,
+            )
+        except Exception as exc:
+            return _narrative_fallback(f"API request failed — {exc}")
 
-    raw = (body.get("content") or [{}])[0].get("text", "").strip()
-    if not raw:
-        return _narrative_fallback(f"empty response body (HTTP {resp.status_code})")
+        body = resp.json()
 
-    all_paras = [p.strip() for p in raw.split("\n\n") if p.strip()]
-    paragraphs = [p for p in all_paras if not _is_structural_label(p)]
-    if len(paragraphs) < 2:
-        return _narrative_fallback(f"response had fewer than 2 content paragraphs (got {len(paragraphs)} after stripping labels)")
+        if body.get("type") == "error":
+            err = body.get("error", {})
+            return _narrative_fallback(f"API error {err.get('type')}: {err.get('message')}")
 
-    import sys
-    print("  [narrative] AI narrative generated successfully", file=sys.stderr)
-    return {
-        "top_frame":       clean_narrative_text(paragraphs[0]),
-        "what_this_means": clean_narrative_text(paragraphs[1]),
-        "what_to_watch":   clean_narrative_text(paragraphs[2]) if len(paragraphs) >= 3 else "",
-    }
+        raw = (body.get("content") or [{}])[0].get("text", "").strip()
+        if not raw:
+            return _narrative_fallback(f"empty response body (HTTP {resp.status_code})")
+
+        all_paras  = [p.strip() for p in raw.split("\n\n") if p.strip()]
+        paragraphs = [p for p in all_paras if not _is_structural_label(p)]
+        if len(paragraphs) < 2:
+            return _narrative_fallback(
+                f"response had fewer than 2 content paragraphs "
+                f"(got {len(paragraphs)} after stripping labels)"
+            )
+
+        top_frame       = clean_narrative_text(paragraphs[0])
+        what_this_means = clean_narrative_text(paragraphs[1])
+        what_to_watch   = clean_narrative_text(paragraphs[2]) if len(paragraphs) >= 3 else ""
+
+        last_result = {
+            "top_frame":       top_frame,
+            "what_this_means": what_this_means,
+            "what_to_watch":   what_to_watch,
+        }
+
+        # --- Phase 3.2 validation ---
+        violations = []
+
+        frags = _detect_fragments(what_this_means)
+        if frags:
+            for f in frags:
+                print(f"  warn [fragment_violation]: {f!r}", file=sys.stderr)
+            violations.append(
+                "FRAGMENT VIOLATIONS detected in WHAT THIS GAME MEANS:\n"
+                + "\n".join(f"  - {f!r}" for f in frags)
+                + "\n  Every sentence must have a subject and a finite verb. "
+                "Rewrite each fragment into a complete sentence."
+            )
+
+        if not _check_watch_preview(what_to_watch, ng_opponent, ng_probable):
+            print(
+                f"  warn [watch_preview_violation]: WHAT TO WATCH did not open with "
+                f"opponent ({ng_opponent!r}) or pitcher ({ng_probable!r})",
+                file=sys.stderr,
+            )
+            violations.append(
+                "WHAT TO WATCH VIOLATION:\n"
+                f"  Your WHAT TO WATCH did not open with the next opponent name or probable pitcher.\n"
+                f"  Required: first sentence must begin with or clearly name '{ng_opponent}' "
+                f"or pitcher '{ng_probable}'.\n"
+                "  Rewrite WHAT TO WATCH from scratch. First word must be the opponent or pitcher name."
+            )
+
+        if not violations:
+            print("  [narrative] AI narrative generated successfully", file=sys.stderr)
+            return last_result
+
+        if attempt == 0:
+            violation_note = (
+                "\n\n--- RETRY VIOLATION NOTICE (fix ALL issues before returning) ---\n"
+                + "\n\n".join(violations)
+                + "\n--- END VIOLATION NOTICE ---"
+            )
+            print(
+                f"  [narrative] attempt 1 had {len(violations)} violation(s) — retrying",
+                file=sys.stderr,
+            )
+
+    # Return last attempt even if validation still fails on retry
+    print("  [narrative] AI narrative generated (with unresolved violations)", file=sys.stderr)
+    return last_result

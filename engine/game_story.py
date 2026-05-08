@@ -322,6 +322,11 @@ def _empty_game_shape():
         "innings_team_led":       [],
         "game_decided_by_inning": None,
         "blowout_by_5th":         False,
+        # Phase 3.2: lead chronology
+        "first_team_lead_inning":  None,
+        "first_team_trail_inning": None,
+        "last_tied_inning":        None,
+        "lead_changes_count":      0,
     }
 
 
@@ -383,6 +388,33 @@ def detect_game_shape(all_annotated):
     team_ever_trailed = max_deficit > 0
     team_ever_led     = max_lead    > 0
 
+    # Phase 3.2: lead chronology fields
+    first_team_lead_inning  = min(innings_led)      if innings_led      else None
+    first_team_trail_inning = min(innings_trailed)  if innings_trailed  else None
+
+    # last_tied_inning: last inning where score was exactly tied at inning end
+    last_tied_inning = None
+    for inn in sorted(inning_end_scores.keys(), reverse=True):
+        ts_e, os_e = inning_end_scores[inn]
+        if ts_e == os_e:
+            last_tied_inning = inn
+            break
+
+    # lead_changes_count: number of times the non-tied leader changed hands
+    last_non_tied_leader = None
+    lead_changes_count   = 0
+    for inn in sorted(inning_end_scores.keys()):
+        ts_e, os_e = inning_end_scores[inn]
+        if ts_e > os_e:
+            current_leader = "team"
+        elif os_e > ts_e:
+            current_leader = "opp"
+        else:
+            continue  # tied — no leader change at this inning end
+        if last_non_tied_leader is not None and current_leader != last_non_tied_leader:
+            lead_changes_count += 1
+        last_non_tied_leader = current_leader
+
     # was_tied_late: score exactly tied at end of inning 6+
     was_tied_late = any(
         ts == os_
@@ -426,7 +458,298 @@ def detect_game_shape(all_annotated):
         "innings_team_led":       sorted(innings_led),
         "game_decided_by_inning": game_decided_by_inning,
         "blowout_by_5th":         blowout_by_5th,
+        # Phase 3.2: lead chronology
+        "first_team_lead_inning":  first_team_lead_inning,
+        "first_team_trail_inning": first_team_trail_inning,
+        "last_tied_inning":        last_tied_inning,
+        "lead_changes_count":      lead_changes_count,
     }
+
+
+# ---------------------------------------------------------------------------
+# Game-texture classification
+# ---------------------------------------------------------------------------
+
+_TEXTURE_PRIMARIES = {
+    "pitching_duel",
+    "offensive_breakout",
+    "blowout",
+    "dead_offense_loss",
+    "bullpen_grind",
+    "late_breakthrough",
+    "back_and_forth",
+    "routine_win",
+    "routine_loss",
+}
+
+_TEXTURE_SECONDARIES = {
+    "offense_wasted_pitching",
+    "dead_offense_loss",
+    "late_collapse",
+    "bullpen_blown",
+}
+
+
+def _build_texture(primary, secondary, reason, tone_guidance):
+    return {
+        "primary":      primary,
+        "secondary":    secondary,
+        "reason":       reason,
+        "tone_guidance": tone_guidance,
+    }
+
+
+def detect_game_texture(all_annotated, game_shape, full_box=None):
+    """
+    Classify the game's dominant narrative texture from play-by-play signals,
+    game_shape fields, and (when available) full_box batting/pitching rows.
+
+    Returns a dict:
+      primary       — dominant texture label (see _TEXTURE_PRIMARIES)
+      secondary     — modifier label or None (see _TEXTURE_SECONDARIES)
+      reason        — human-readable explanation of why this label was chosen
+      tone_guidance — comma-joined tone words for the narrative prompt
+
+    Priority order (first match wins):
+      blowout → pitching_duel → late_breakthrough → dead_offense_loss
+      → offensive_breakout → bullpen_grind → back_and_forth → routine_*
+    """
+    if not all_annotated:
+        return _build_texture(
+            "routine_loss", None, "no play data", "neutral, analytical"
+        )
+
+    # ------------------------------------------------------------------
+    # Derive facts from annotated plays
+    # ------------------------------------------------------------------
+    last_play = all_annotated[-1]
+    team_runs = last_play["team_score_after"]
+    opp_runs  = last_play["opp_score_after"]
+    final_margin = abs(team_runs - opp_runs)
+    team_won  = team_runs > opp_runs
+    total_runs = team_runs + opp_runs
+
+    # Inning-end snapshot (last play's score per inning)
+    inning_end: dict = {}
+    for p in all_annotated:
+        inning_end[p["inning"]] = (p["team_score_after"], p["opp_score_after"])
+
+    # Tight through 6: every inning-end in 1-6 had margin ≤ 1
+    early_inns = [inn for inn in inning_end if inn <= 6]
+    tight_through_6 = bool(early_inns) and all(
+        abs(inning_end[inn][0] - inning_end[inn][1]) <= 1
+        for inn in early_inns
+    )
+
+    # Late big inning: team scored 2+ in inning 7+
+    team_by_inning: dict = {}
+    for p in all_annotated:
+        if p["side"] == "team":
+            team_by_inning.setdefault(p["inning"], []).append(p)
+
+    late_big_inning = any(
+        sum(p["runs_scored"] for p in plays) >= 2
+        for inn, plays in team_by_inning.items()
+        if inn >= 7
+    )
+
+    # ------------------------------------------------------------------
+    # Box-score stats (graceful if full_box absent)
+    # ------------------------------------------------------------------
+    batting  = (full_box or {}).get("batting")  or []
+    pitching = (full_box or {}).get("pitching") or []
+
+    team_hits = sum(b.get("h", 0)  for b in batting)
+    team_ks   = sum(b.get("so", 0) for b in batting)
+
+    def _to_float(v):
+        try:
+            return float(str(v).split()[0])
+        except (TypeError, ValueError):
+            return 0.0
+
+    starter_ip = _to_float(pitching[0].get("ip", 0)) if pitching else None
+    starter_er = int(pitching[0].get("er", 0))        if pitching else None
+
+    # ------------------------------------------------------------------
+    # Flags from game_shape
+    # ------------------------------------------------------------------
+    gs             = game_shape or {}
+    blowout_by_5th = gs.get("blowout_by_5th", False)
+    game_decided   = gs.get("game_decided_by_inning")
+    lead_changes   = gs.get("lead_changes_count", 0)
+    last_tied_inn  = gs.get("last_tied_inning")
+
+    is_blowout = blowout_by_5th or (
+        game_decided is not None and game_decided <= 5
+    )
+
+    # ------------------------------------------------------------------
+    # Reason fragments assembled per rule
+    # ------------------------------------------------------------------
+    def _run_note():
+        return f"combined {total_runs} run(s) ({team_runs}-{opp_runs})"
+
+    def _starter_note():
+        if starter_ip is not None:
+            return f"starter: {starter_er} ER in {starter_ip} IP"
+        return ""
+
+    def _tightness_note():
+        if last_tied_inn and last_tied_inn >= 6:
+            return f"tied through inning {last_tied_inn}"
+        return "within 1 run through 6 innings"
+
+    # ------------------------------------------------------------------
+    # Rule 1 — blowout (highest priority)
+    # ------------------------------------------------------------------
+    if is_blowout:
+        decided_note = (
+            f"game decided by inning {game_decided}"
+            if game_decided else "blowout by 5th inning"
+        )
+        return _build_texture(
+            "blowout", None,
+            f"{_run_note()}; {decided_note}; margin={final_margin}",
+            "flat, compressed, state-the-facts, no manufactured drama",
+        )
+
+    # ------------------------------------------------------------------
+    # Rule 2 — pitching_duel
+    # ------------------------------------------------------------------
+    starter_held = (
+        starter_er is not None and starter_er <= 2
+    ) or (starter_er is None) or (total_runs <= 2)
+
+    # Exclude the late_breakthrough case: if team won on a 2+ run late inning
+    # the game's story is the breakthrough, not the pitching quality.
+    is_pitching_duel = (
+        total_runs <= 4
+        and tight_through_6
+        and starter_held
+        and not (late_big_inning and team_won)
+    )
+
+    if is_pitching_duel:
+        parts = [_run_note(), _tightness_note()]
+        if starter_ip is not None:
+            parts.append(_starter_note())
+
+        secondary = None
+        tone = "compressed, restrained, pitcher-forward, low-scoring"
+
+        if not team_won:
+            # Starter held them — offense wasted it
+            if starter_er is not None and starter_er <= 2:
+                secondary = "offense_wasted_pitching"
+                parts.append(
+                    f"team scored {team_runs} run(s) despite starter holding it tight"
+                )
+                tone = "compressed, restrained, pitcher-forward, offense-failure"
+            # Offense silenced by opponent pitcher
+            elif batting and (team_hits <= 5 or team_ks >= 9):
+                secondary = "dead_offense_loss"
+                detail = []
+                if team_hits <= 5:
+                    detail.append(f"{team_hits} hits")
+                if team_ks >= 9:
+                    detail.append(f"{team_ks} strikeouts")
+                parts.append(f"offense suppressed ({', '.join(detail)})")
+                tone = "compressed, restrained, pitcher-forward, offense-suppressed"
+
+        return _build_texture("pitching_duel", secondary, "; ".join(parts), tone)
+
+    # ------------------------------------------------------------------
+    # Rule 3 — late_breakthrough (tight through 6, team scored big late)
+    # ------------------------------------------------------------------
+    if tight_through_6 and late_big_inning and team_won:
+        parts = [_tightness_note(), "team scored 2+ runs in inning 7+"]
+        if starter_ip is not None:
+            parts.append(_starter_note())
+        return _build_texture(
+            "late_breakthrough", None,
+            "; ".join(parts),
+            "building tension, restrained early, explosive payoff late",
+        )
+
+    # ------------------------------------------------------------------
+    # Rule 4 — dead_offense_loss
+    # ------------------------------------------------------------------
+    is_dead_offense = (
+        not team_won
+        and team_runs <= 2
+        and batting
+        and (team_hits <= 5 or team_ks >= 9)
+    )
+    if is_dead_offense:
+        detail = []
+        if team_hits <= 5:
+            detail.append(f"{team_hits} hits")
+        if team_ks >= 9:
+            detail.append(f"{team_ks} strikeouts")
+        parts = [f"team scored {team_runs} run(s)", f"offense silenced ({', '.join(detail)})"]
+        secondary = None
+        if starter_er is not None and starter_er <= 2:
+            secondary = "offense_wasted_pitching"
+            parts.append(_starter_note())
+        return _build_texture(
+            "dead_offense_loss", secondary,
+            "; ".join(parts),
+            "flat, offense-failure, suppressed energy",
+        )
+
+    # ------------------------------------------------------------------
+    # Rule 5 — offensive_breakout
+    # ------------------------------------------------------------------
+    is_breakout = team_runs >= 8 or (team_runs >= 6 and batting and team_hits >= 10)
+    if is_breakout:
+        hit_note = f"on {team_hits} hits" if batting else ""
+        parts = [f"team scored {team_runs} run(s) {hit_note}".strip()]
+        return _build_texture(
+            "offensive_breakout", None,
+            "; ".join(parts),
+            "expansive, offense-forward, confident and declarative",
+        )
+
+    # ------------------------------------------------------------------
+    # Rule 6 — bullpen_grind (starter exited early, game remained close)
+    # ------------------------------------------------------------------
+    is_bullpen_grind = (
+        starter_ip is not None
+        and starter_ip < 5.0
+        and final_margin <= 2
+    )
+    if is_bullpen_grind:
+        return _build_texture(
+            "bullpen_grind", None,
+            f"starter lasted {starter_ip} IP; game decided by {final_margin} run(s)",
+            "grind, uncertain, bullpen-forward, survival feel",
+        )
+
+    # ------------------------------------------------------------------
+    # Rule 7 — back_and_forth
+    # ------------------------------------------------------------------
+    if lead_changes >= 2:
+        return _build_texture(
+            "back_and_forth", None,
+            f"{lead_changes} lead changes; game shifted multiple times",
+            "energetic, multi-chapter, avoid anchoring on a single moment",
+        )
+
+    # ------------------------------------------------------------------
+    # Fallback — routine win / loss
+    # ------------------------------------------------------------------
+    if team_won:
+        return _build_texture(
+            "routine_win", None,
+            f"{_run_note()}; no dominant feature detected",
+            "steady, measured, let facts carry the story",
+        )
+    return _build_texture(
+        "routine_loss", None,
+        f"{_run_note()}; no dominant failure mode detected",
+        "honest, analytical, no manufactured drama",
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -482,6 +805,7 @@ def analyze_game_flow(all_plays, is_home, full_box=None):
         rally_seqs    = detect_rally_sequences(all_annotated)
         momentum      = detect_momentum_swings(all_annotated)
         game_shape    = detect_game_shape(all_annotated)
+        game_texture  = detect_game_texture(all_annotated, game_shape, full_box)
 
         critical_misses    = sum(1 for m in missed_opps if m["severity"] == "critical")
         significant_misses = sum(1 for m in missed_opps if m["severity"] == "significant")
@@ -493,6 +817,7 @@ def analyze_game_flow(all_plays, is_home, full_box=None):
             "momentum_swings":      momentum,
             "bullpen_events":       [],  # TODO Phase 2: inherited runner tracking
             "game_shape":           game_shape,
+            "game_texture":         game_texture,
             "summary": {
                 "total_risp_situations":      len(threat_events),
                 "missed_opportunity_innings": len(missed_opps),
