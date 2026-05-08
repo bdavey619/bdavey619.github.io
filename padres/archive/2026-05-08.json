@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T11:50:17+00:00",
+  "generated_at": "2026-05-08T14:08:25+00:00",
   "season": 2026,
   "team": {
     "record": "22-15",
@@ -328,7 +328,7 @@
         "batter": "Ram\u00f3n Laureano",
         "pitcher": "Matthew Liberatore",
         "event": "Pickoff 1B",
-        "description": "Padres challenged (tag play), call on the field was overturned: pitcher Matthew Liberatore picks off Xander Bogaerts at 1st on throw to first baseman Alec Burleson.",
+        "description": "Cardinals challenged (tag play), call on the field was overturned: pitcher Matthew Liberatore picks off Xander Bogaerts at 1st on throw to first baseman Alec Burleson.",
         "rbi": 0,
         "outs_before": 0,
         "runners_before": [
@@ -468,9 +468,9 @@
     }
   },
   "narrative": {
-    "top_frame": "Michael King kept them in a game they couldn't finish.",
-    "what_this_means": "A pitching duel stripped down to one run on each side through six innings, then broke open in the seventh when St. Louis pulled ahead. The Padres scratched out their single run early. Bogaerts drove one in. But nine strikeouts silenced the rest of the lineup. King delivered six innings of control, one earned run, six strikeouts. That was enough to win most nights. Not this one. They had traffic in two RISP situations and converted once. The other chance died. This is the math they're working with: excellent pitching, nine strikeouts, one successful at-bat with runners in scoring position. That adds up to a loss when the other team scores two.",
-    "what_to_watch": "The fragility of this team is no longer theory. They sit one game back in the division, and every game now tests whether the formula. Sharp pitching, thin margins. Holds under pressure. Last night it didn't. Good pitching only matters if something else happens first. The bats have to answer. They didn't answer often enough, and King's night became a bridge to a game that got away. Nine strikeouts against one run on runners in scoring position is not a slump. It's a warning light.",
+    "top_frame": "Michael King held them to one run across six innings, but nine strikeouts from the offense meant nothing.",
+    "what_this_means": "King was dominant enough to steal a game, delivering exactly what a team down a run in the division needs: six frames, one earned run, the kind of line that wins close games. The Padres got one chance to reward it. They didn't. Nine strikeouts, four hits, one run scored on two runners in scoring position. That math doesn't survive late in close games. Fernando Tatis Jr. went 2-for-3 and it still wasn't close to enough. The offense had the template it needed. The pitching gave it everything. The game turned in the seventh when St. Louis broke the tie, and San Diego never recovered what they held through six. This is a team with a starter elite enough to beat anyone. The lineup isn't yet.",
+    "what_to_watch": "Griffin Canning takes the ball tonight against St. Louis with a 2.76 ERA built on precision. The Cardinals' lineup struggles against right-handed fastball stuff. This is the matchup to find early damage.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
