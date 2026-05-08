@@ -1214,6 +1214,9 @@ Fragments are banned even when used for rhythmic effect. These are all violation
   ❌ "Bullpen holding, bats arriving late."
   ❌ "Not a comeback. A correction."
   ❌ "The box score said close. The game didn't."
+  ❌ "Starvation disguised as control."  ← noun + participial phrase, no finite verb — BANNED
+  ❌ "Precision without reward."          ← noun phrase with no verb — BANNED
+  ❌ "A team with answers, but no runs."  ← same structure — BANNED
 
 Rewrite every fragment into a complete sentence before returning:
   ✅ "The alignment held — pitching and offense converging at the right moment."
@@ -1221,6 +1224,7 @@ Rewrite every fragment into a complete sentence before returning:
   ✅ "The bullpen held, and the bats arrived late."
   ✅ "This was not a comeback. It was a correction."
   ✅ "The box score said it was close. The game did not feel that way."
+  ✅ "It looked like control and felt like starvation."  ← same idea, now a sentence
 
 If a line is punchy and short, it can still be a complete sentence:
   ✅ "They held on." / "Judge hit one for show." / "The rest found nothing."
@@ -2047,10 +2051,19 @@ def generate_postponed_narrative(last_game: dict, next_game: dict | None = None)
 
 def clean_narrative_text(text: str) -> str:
     """
-    Post-processing guardrail: replace all em dashes with '. ' and fix capitalization.
-    Prevents em dashes from reaching final HTML output regardless of model behavior.
+    Post-processing guardrail: strip markdown formatting and replace em dashes.
+    Prevents markdown headers, bold labels, and em dashes from reaching HTML output.
     """
-    if not text or "—" not in text:
+    if not text:
+        return text
+
+    # Strip markdown bold/italic and headers that the model occasionally emits
+    text = re.sub(r"^\s*#+\s*", "", text, flags=re.MULTILINE)  # ## headers
+    text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)             # **bold**
+    text = re.sub(r"\*([^*]+)\*", r"\1", text)                 # *italic*
+    text = text.strip()
+
+    if "—" not in text:
         return text
 
     def _replace(m):
@@ -2063,6 +2076,28 @@ def clean_narrative_text(text: str) -> str:
     result = re.sub(r"\.\.+", ".", result)   # collapse double periods
     result = re.sub(r"  +", " ", result)     # collapse double spaces
     return result.strip()
+
+
+def _is_structural_label(text: str) -> bool:
+    """
+    Returns True if a paragraph is a structural label the model emits despite
+    being told not to — e.g. '# YANKEES MORNING BRIEF', '**TOP FRAME**', '1. TOP FRAME'.
+    These are never valid narrative content and should be skipped by the parser.
+    """
+    t = text.strip()
+    # Markdown heading
+    if re.match(r"^#+\s", t):
+        return True
+    # Pure bold label: **SOME LABEL** (whole paragraph is just the bold span)
+    if re.match(r"^\*\*[A-Z0-9 ]+\*\*$", t):
+        return True
+    # Numbered section header: "1. TOP FRAME" or "3. WHAT TO WATCH"
+    if re.match(r"^\d+\.\s+[A-Z ]+$", t):
+        return True
+    # All-caps short label (≤ 8 words, no sentence punctuation)
+    if re.match(r"^[A-Z][A-Z0-9 ]{0,60}$", t) and "." not in t and "," not in t:
+        return True
+    return False
 
 
 def _narrative_fallback(reason):
@@ -2121,9 +2156,10 @@ def generate_narrative_copy(brief_data, story_state, delta, team_name,
     if not raw:
         return _narrative_fallback(f"empty response body (HTTP {resp.status_code})")
 
-    paragraphs = [p.strip() for p in raw.split("\n\n") if p.strip()]
+    all_paras = [p.strip() for p in raw.split("\n\n") if p.strip()]
+    paragraphs = [p for p in all_paras if not _is_structural_label(p)]
     if len(paragraphs) < 2:
-        return _narrative_fallback(f"response had fewer than 2 paragraphs (got {len(paragraphs)})")
+        return _narrative_fallback(f"response had fewer than 2 content paragraphs (got {len(paragraphs)} after stripping labels)")
 
     import sys
     print("  [narrative] AI narrative generated successfully", file=sys.stderr)
