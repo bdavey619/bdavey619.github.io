@@ -890,6 +890,54 @@ Application rules:
     else:
         doubleheader_hint = ""
 
+    # Game story signals block
+    game_story = brief_data.get("game_story")
+    if game_story:
+        s = game_story["summary"]
+        missed_opps    = game_story.get("missed_opportunities") or []
+        rally_seqs     = game_story.get("rally_sequences") or []
+        momentum_swings = game_story.get("momentum_swings") or []
+
+        missed_lines = []
+        for m in missed_opps:
+            missed_lines.append(
+                f"    inning {m['inning']}: {m['risp_at_bats']} RISP AB,"
+                f" ~{m['runners_left']} LOB, severity={m['severity']}"
+            )
+
+        rally_lines = []
+        for r in rally_seqs:
+            tags = []
+            if r.get("came_from_behind"):
+                tags.append("from behind")
+            if r.get("lead_change"):
+                tags.append("lead change")
+            tag_str = f" ({', '.join(tags)})" if tags else ""
+            rally_lines.append(f"    inning {r['inning']}: {r['runs']} runs{tag_str}")
+
+        swing_lines = []
+        for sw in momentum_swings:
+            dir_label = "team scored" if sw["direction"] == "for" else "opp scored"
+            extra = " [go-ahead]" if sw.get("go_ahead") else (" [lead change]" if sw.get("lead_change") else "")
+            swing_lines.append(
+                f"    inning {sw['inning']}: {dir_label} {sw['runs']} runs{extra}"
+            )
+
+        _gs_lines = [
+            "\nGAME STORY SIGNALS (deterministic, from play-by-play):",
+            f"  RISP situations: {s['total_risp_situations']}",
+            f"  Missed opportunity innings: {s['missed_opportunity_innings']}"
+            f" ({s['critical_misses']} critical, {s['significant_misses']} significant)",
+        ]
+        _gs_lines.extend(missed_lines)
+        _gs_lines.append(f"  Multi-run innings: {s['multi_run_innings']}")
+        _gs_lines.extend(rally_lines)
+        _gs_lines.append(f"  Momentum swings (2+ runs): {s['momentum_swing_count']}")
+        _gs_lines.extend(swing_lines)
+        game_story_block = "\n".join(_gs_lines)
+    else:
+        game_story_block = "\nGAME STORY SIGNALS: not available"
+
     return f"""Write the editorial core of today's {team_name} Morning Brief.
 
 --- STRUCTURED CONTEXT ---
@@ -918,6 +966,7 @@ LAST GAME:
   Offense:     {offense_note}{doubleheader_hint}
 {game_driver_block}
 {clutch_block}
+{game_story_block}
 
 TEAM CONTEXT:
   Record: {team.get('record')} · Streak: {team.get('streak')} · Last 10: {team.get('last10')}
@@ -931,6 +980,11 @@ NEXT GAME HOOK ({next_day_label} — use to ground the forward-looking WHAT TO W
   {looking_ahead_line}
 
 --- OUTPUT INSTRUCTIONS ---
+
+GAME STORY PRIORITY (applies when GAME STORY SIGNALS are present above):
+When GAME STORY SIGNALS are available, your job is not to rediscover the story from the box score. Your job is to write the game story implied by these signals. Box score stats are supporting evidence only.
+
+If GAME STORY SIGNALS are not available, fall back to TURNING POINT and GAME DRIVER as the primary spine.
 
 TONAL MODE (internal — do NOT output or name this):
 Before writing, select one mode based on the game. Let it shape word choice and sentence feel — do not announce it.
@@ -968,8 +1022,17 @@ Do NOT repeat or rephrase the story hook in different words — that section alr
 Good: "Down four—and they didn't blink." / "This team doesn't fold." / "They had no business winning this game."
 Avoid: multi-clause sentences, listing multiple players, explaining the sequence of events, restating the story hook.
 
+GAME STORY LENS (when GAME STORY SIGNALS available):
+The TOP FRAME should usually reflect the game shape (e.g., missed chances, comeback, back-and-forth, wire-to-wire, defensive hold), the turning point, or the dominant pattern in the signals. Do not default to the best player's stat line unless that is clearly the story and no other angle is stronger.
+
 2. WHAT THIS GAME MEANS (90–120 words max)
 Job: interpretation and identity claim — not factual recap, not sequence retelling. The game_note already handled the vivid factual summary. The Game Driver and Turning Point are already shown as memory anchors. Your job is to answer: What does this game reveal about who this team is?
+
+GAME SHAPE CONNECTION (when GAME STORY SIGNALS available):
+WHAT THIS GAME MEANS should connect the game shape to team identity, season pressure, or recent trend. It should not merely restate the final score, player lines, or standings.
+
+CHRONOLOGICAL TENSION (use when signals provide it):
+When missed opportunities, rally sequences, and momentum swings are available, build the section using chronological tension: setup → pressure or missed chance → turning point → payoff. Do not open with the conclusion and walk backwards.
 
 Do NOT restate the story_hook, game_note, Game Driver, or Turning Point — those facts are displayed separately and the reader already has them. Instead, answer: What is different about this team today because of this game? Use the STORY DELTA to identify one clear thing that changed — the pattern got louder, the margin for error shifted, a weakness became harder to ignore, a strength carried into a new kind of win, or the formula held in a new situation. Reference the Game Driver or Turning Point briefly if it supports the "what changed" answer — but do not retell the sequence. Connect the game to the team's current trend. Be precise.
 
@@ -1756,6 +1819,12 @@ LENS AND TONAL MODE ALIGNMENT (guide, not constraint):
   CLINICAL   → lean toward SYSTEM
 
 These are tendencies. Override when the game warrants it.
+
+GAME STORY GUARDRAILS (when GAME STORY SIGNALS are present):
+- Do not contradict GAME STORY SIGNALS. If signals show 0 missed opportunities, do not write about squandered chances. If no rally sequence is detected, do not describe a comeback.
+- Do not claim atmosphere, crowd reaction, broadcast tone, or ballpark energy unless explicitly provided in the context data.
+- Do not describe a player as dominant, clean, clutch, or the rescuer unless TURNING POINT or GAME DRIVER data with HIGH confidence supports it.
+- Do not print a game archetype or shape label directly in the output. Let it guide structure and word choice — do not announce it.
 
 {voice_block}
 
