@@ -327,6 +327,11 @@ def _empty_game_shape():
         "first_team_trail_inning": None,
         "last_tied_inning":        None,
         "lead_changes_count":      0,
+        # Phase 3.3: end-of-inning state (one authoritative snapshot per inning)
+        "end_inning_team_led":     [],
+        "end_inning_team_trailed": [],
+        "end_inning_tied":         [],
+        "end_inning_score_states": [],
     }
 
 
@@ -448,14 +453,39 @@ def detect_game_shape(all_annotated):
                 game_decided_by_inning = inn
                 break
 
+    # Phase 3.3: end-of-inning state — one score snapshot per inning.
+    # inning_end_scores is keyed to the last play in each inning, so these
+    # reflect the score AFTER both half-innings complete, not mid-inning events.
+    end_inning_led:     list = []
+    end_inning_trailed: list = []
+    end_inning_tied:    list = []
+    end_inning_states:  list = []
+    for _inn in sorted(inning_end_scores.keys()):
+        _ts_e, _os_e = inning_end_scores[_inn]
+        if _ts_e > _os_e:
+            _state = "led"
+            end_inning_led.append(_inn)
+        elif _os_e > _ts_e:
+            _state = "trailed"
+            end_inning_trailed.append(_inn)
+        else:
+            _state = "tied"
+            end_inning_tied.append(_inn)
+        end_inning_states.append({
+            "inning": _inn,
+            "team":   _ts_e,
+            "opp":    _os_e,
+            "state":  _state,
+        })
+
     return {
         "team_ever_trailed":      team_ever_trailed,
         "max_deficit_faced":      max_deficit,
         "team_ever_led":          team_ever_led,
         "max_lead_held":          max_lead,
         "was_tied_late":          was_tied_late,
-        "innings_team_trailed":   sorted(innings_trailed),
-        "innings_team_led":       sorted(innings_led),
+        "innings_team_trailed":   sorted(innings_trailed),   # in-inning event field
+        "innings_team_led":       sorted(innings_led),       # in-inning event field
         "game_decided_by_inning": game_decided_by_inning,
         "blowout_by_5th":         blowout_by_5th,
         # Phase 3.2: lead chronology
@@ -463,6 +493,11 @@ def detect_game_shape(all_annotated):
         "first_team_trail_inning": first_team_trail_inning,
         "last_tied_inning":        last_tied_inning,
         "lead_changes_count":      lead_changes_count,
+        # Phase 3.3: end-of-inning state
+        "end_inning_team_led":     end_inning_led,
+        "end_inning_team_trailed": end_inning_trailed,
+        "end_inning_tied":         end_inning_tied,
+        "end_inning_score_states": end_inning_states,
     }
 
 
@@ -753,6 +788,49 @@ def detect_game_texture(all_annotated, game_shape, full_box=None):
 
 
 # ---------------------------------------------------------------------------
+# Phase 3.3: RISP conversion summary
+# ---------------------------------------------------------------------------
+
+def _compute_risp_conversion(threat_events):
+    """
+    Summarize RISP plate appearance outcomes from threat_events.
+
+    Returns play-level conversion counts and per-inning breakdowns so the
+    narrative prompt can guard against false 'nothing to show for RISP' claims
+    when the team actually scored on at least one RISP plate appearance.
+    """
+    if not threat_events:
+        return {
+            "total_risp_pa":              0,
+            "risp_pa_with_run_scored":    0,
+            "risp_pa_without_run_scored": 0,
+            "risp_converted_innings":     [],
+            "risp_empty_innings":         [],
+        }
+
+    by_inning: dict = {}
+    for p in threat_events:
+        by_inning.setdefault(p["inning"], []).append(p)
+
+    risp_converted_innings = sorted(
+        inn for inn, plays in by_inning.items()
+        if any(p.get("is_scoring") for p in plays)
+    )
+    risp_empty_innings = sorted(
+        inn for inn, plays in by_inning.items()
+        if not any(p.get("is_scoring") for p in plays)
+    )
+
+    return {
+        "total_risp_pa":              len(threat_events),
+        "risp_pa_with_run_scored":    sum(1 for p in threat_events if p.get("is_scoring")),
+        "risp_pa_without_run_scored": sum(1 for p in threat_events if not p.get("is_scoring")),
+        "risp_converted_innings":     risp_converted_innings,
+        "risp_empty_innings":         risp_empty_innings,
+    }
+
+
+# ---------------------------------------------------------------------------
 # Main entry point
 # ---------------------------------------------------------------------------
 
@@ -800,12 +878,13 @@ def analyze_game_flow(all_plays, is_home, full_box=None):
         if not all_annotated:
             return None
 
-        threat_events = detect_threat_events(all_annotated)
-        missed_opps   = detect_missed_opportunities(all_annotated)
-        rally_seqs    = detect_rally_sequences(all_annotated)
-        momentum      = detect_momentum_swings(all_annotated)
-        game_shape    = detect_game_shape(all_annotated)
-        game_texture  = detect_game_texture(all_annotated, game_shape, full_box)
+        threat_events   = detect_threat_events(all_annotated)
+        missed_opps     = detect_missed_opportunities(all_annotated)
+        rally_seqs      = detect_rally_sequences(all_annotated)
+        momentum        = detect_momentum_swings(all_annotated)
+        game_shape      = detect_game_shape(all_annotated)
+        game_texture    = detect_game_texture(all_annotated, game_shape, full_box)
+        risp_conversion = _compute_risp_conversion(threat_events)
 
         critical_misses    = sum(1 for m in missed_opps if m["severity"] == "critical")
         significant_misses = sum(1 for m in missed_opps if m["severity"] == "significant")
@@ -818,6 +897,7 @@ def analyze_game_flow(all_plays, is_home, full_box=None):
             "bullpen_events":       [],  # TODO Phase 2: inherited runner tracking
             "game_shape":           game_shape,
             "game_texture":         game_texture,
+            "risp_conversion":      risp_conversion,
             "summary": {
                 "total_risp_situations":      len(threat_events),
                 "missed_opportunity_innings": len(missed_opps),

@@ -934,21 +934,52 @@ Application rules:
         _blowout      = gs.get("blowout_by_5th", False)
         _inn_trailed  = gs.get("innings_team_trailed") or []
         _inn_led      = gs.get("innings_team_led") or []
+        # Phase 3.3: end-of-inning state (correct per-inning snapshots)
+        _end_inn_led      = gs.get("end_inning_team_led") or []
+        _end_inn_trailed  = gs.get("end_inning_team_trailed") or []
+        _end_inn_tied     = gs.get("end_inning_tied") or []
+        _end_score_states = gs.get("end_inning_score_states") or []
 
         def _yn(v):
             return "YES" if v else "NO"
 
+        def _fmt_inn_ranges(innings):
+            """Format a sorted inning list as compact ranges: [1,2,3,7,8,9] → '1–3, 7–9'."""
+            if not innings:
+                return "none"
+            ranges = []
+            start = end = innings[0]
+            for i in innings[1:]:
+                if i == end + 1:
+                    end = i
+                else:
+                    ranges.append(str(start) if start == end else f"{start}–{end}")
+                    start = end = i
+            ranges.append(str(start) if start == end else f"{start}–{end}")
+            return ", ".join(ranges)
+
         _decided_str = str(_decided) if _decided is not None else "none"
-        _trailed_str = (
-            f"innings {_inn_trailed}" if _inn_trailed else "never"
-        )
-        _led_str = (
-            f"innings {_inn_led}" if _inn_led else "never"
+        # Use end-of-inning data for GAME SHAPE display (avoids mid-inning state confusion)
+        _trailed_str = _fmt_inn_ranges(_end_inn_trailed) if _end_inn_trailed else "never"
+        _led_str     = _fmt_inn_ranges(_end_inn_led)     if _end_inn_led     else "never"
+
+        # Phase 3.3: RISP conversion data
+        _risp_conv    = game_story.get("risp_conversion") or {}
+        _rc_total     = _risp_conv.get("total_risp_pa", 0)
+        _rc_scored    = _risp_conv.get("risp_pa_with_run_scored", 0)
+        _rc_conv_inn  = _risp_conv.get("risp_converted_innings") or []
+        _rc_empty_inn = _risp_conv.get("risp_empty_innings") or []
+
+        _risp_conv_suffix = (
+            f" · converted: {_rc_scored}/{_rc_total} PAs scored"
+            f" · innings with run: {_rc_conv_inn or 'none'}"
+            f" · empty innings: {_rc_empty_inn or 'none'}"
+            if _risp_conv else ""
         )
 
         _gs_lines = [
             "\nGAME STORY SIGNALS (deterministic, from play-by-play):",
-            f"  RISP situations: {s['total_risp_situations']}",
+            f"  RISP situations: {s['total_risp_situations']}{_risp_conv_suffix}",
             f"  Missed opportunity innings: {s['missed_opportunity_innings']}"
             f" ({s['critical_misses']} critical, {s['significant_misses']} significant)",
         ]
@@ -960,8 +991,8 @@ Application rules:
         _gs_lines += [
             "",
             "  GAME SHAPE (factual — hard guardrails for framing):",
-            f"    Team ever trailed:        {_yn(_trailed)} · Max deficit: {_max_def} runs · Innings trailing: {_trailed_str}",
-            f"    Team ever led:            {_yn(_led)} · Max lead held: {_max_lead} runs · Innings leading: {_led_str}",
+            f"    Team ever trailed:        {_yn(_trailed)} · Max deficit: {_max_def} runs · Trailed at end of inning(s): {_trailed_str}",
+            f"    Team ever led:            {_yn(_led)} · Max lead held: {_max_lead} runs · Led at end of inning(s): {_led_str}",
             f"    Score tied in inning 6+:  {_yn(_tied_late)}",
             f"    Game decided by inning:   {_decided_str}",
             f"    Blowout by 5th inning:    {_yn(_blowout)}",
@@ -991,6 +1022,23 @@ Application rules:
         )
         _lead_lines.append(f"    - Lead changes: {_lc_count}")
         _gs_lines.extend(_lead_lines)
+
+        # Phase 3.3: END-OF-INNING CHRONOLOGY
+        if _end_score_states:
+            _gs_lines.append("")
+            _gs_lines.append("  END-OF-INNING CHRONOLOGY (score state at end of each inning):")
+            if _end_inn_led:
+                _gs_lines.append(
+                    f"    - Led after innings:     {_fmt_inn_ranges(_end_inn_led)}"
+                )
+            if _end_inn_tied:
+                _gs_lines.append(
+                    f"    - Tied after innings:    {_fmt_inn_ranges(_end_inn_tied)}"
+                )
+            if _end_inn_trailed:
+                _gs_lines.append(
+                    f"    - Trailed after innings: {_fmt_inn_ranges(_end_inn_trailed)}"
+                )
 
         # Phase 3.2: GAME TEXTURE block
         gt = game_story.get("game_texture") or {}
@@ -1074,6 +1122,10 @@ Application rules:
         _guardrail_lines.append(
             f"CHRONOLOGY GUARDRAIL (HARD — team led first, then fell behind):\n"
             f"  Team first led in inning {_gs_first_lead}. Team first trailed in inning {_gs_first_trail}.\n"
+            f"  The team was NEVER behind until inning {_gs_first_trail}.\n"
+            f"  Do NOT write 'trailed after the second' or any early inning — factually wrong.\n"
+            f"  Do NOT write 'tied it up' — the team led, was caught, then fell behind; they never trailed first.\n"
+            f"  Do NOT write 'chasing', 'chased', or 'spent the night chasing'.\n"
             f"  Do NOT describe this as an early comeback, 'chasing from the start', or a deficit game.\n"
             f"  The team held the lead — this is a story of a lead LOST, not a hole CLIMBED OUT OF.\n"
             f"  If the team lost: frame as 'lead lost in inning {_gs_first_trail}' or 'game turned late'.\n"
@@ -1085,10 +1137,13 @@ Application rules:
           and _gs_first_trail >= 7):
         # Team led, then fell behind late — frame as late-turn, not chasing
         _guardrail_lines.append(
-            f"CHRONOLOGY GUARDRAIL — LATE TURN (team led, fell behind in inning {_gs_first_trail}):\n"
+            f"CHRONOLOGY GUARDRAIL — LATE TURN (HARD — team led, fell behind in inning {_gs_first_trail}):\n"
             f"  The team held the lead through most of the game before losing it in inning {_gs_first_trail}.\n"
-            f"  Frame as 'lead lost late' or 'game turned in inning {_gs_first_trail}'.\n"
-            f"  Do NOT frame as 'chasing' or as a team that was in a deficit all game."
+            f"  They were NOT trailing before inning {_gs_first_trail}.\n"
+            f"  Do NOT write 'trailed after the second/third/fourth/fifth' — factually wrong.\n"
+            f"  Do NOT write 'tied it up' — they led first; they did not trail and then equalize.\n"
+            f"  Do NOT write 'chasing', 'spent the night chasing', or any chasing language.\n"
+            f"  Frame as: 'lead lost late' or 'game turned in inning {_gs_first_trail}'."
         )
 
     if (game_story
@@ -1102,6 +1157,25 @@ Application rules:
             f"  Do NOT use comeback language. Frame as a tied game that broke open late.\n"
             f"  The drama is in the breaking point — not in overcoming a deficit."
         )
+
+    # Phase 3.3: RISP conversion guardrail
+    if game_story:
+        _risp_gs      = (game_story.get("risp_conversion") or {})
+        _rc_scored_gs = _risp_gs.get("risp_pa_with_run_scored", 0)
+        _rc_empty_gs  = _risp_gs.get("risp_empty_innings") or []
+        if _rc_scored_gs > 0:
+            _no_empty_clause = (
+                " There were no innings where RISP situations went completely unscored."
+                if not _rc_empty_gs else ""
+            )
+            _guardrail_lines.append(
+                f"RISP GUARDRAIL (HARD — team scored on {_rc_scored_gs} of their RISP"
+                f" plate appearance(s)):\n"
+                f"  Do NOT write: 'nothing to show for RISP chances', 'came up empty',\n"
+                f"  'couldn't convert', 'left runners stranded without producing', or any phrase\n"
+                f"  implying zero RISP production.{_no_empty_clause}\n"
+                f"  The team scored at least {_rc_scored_gs} run(s) in RISP situations — acknowledge it."
+            )
 
     factual_guardrails = (
         "\n\n".join(_guardrail_lines)
@@ -2371,6 +2445,64 @@ def generate_narrative_copy(brief_data, story_state, delta, team_name,
                 f"or pitcher '{ng_probable}'.\n"
                 "  Rewrite WHAT TO WATCH from scratch. First word must be the opponent or pitcher name."
             )
+
+        # Phase 3.3: chronology violation check
+        _gs_chron = (brief_data.get("game_story") or {}).get("game_shape") or {}
+        _ftt_val  = _gs_chron.get("first_team_trail_inning")
+        if _ftt_val is not None and _ftt_val >= 7:
+            _chron_text = f"{what_this_means} {what_to_watch}"
+            _chron_pats = [
+                (
+                    re.compile(
+                        r'\btrailed after the (first|second|third|fourth|fifth)\b',
+                        re.IGNORECASE,
+                    ),
+                    "false early-trail phrase",
+                ),
+                (
+                    re.compile(r'\btied it up\b', re.IGNORECASE),
+                    "'tied it up' implies the team trailed then equalized — they did not",
+                ),
+                (
+                    re.compile(r'\bspent.{0,20}chasing\b', re.IGNORECASE),
+                    "chasing language when team led early",
+                ),
+            ]
+            _chron_hits = [label for pat, label in _chron_pats if pat.search(_chron_text)]
+            if _chron_hits:
+                for _ch in _chron_hits:
+                    print(f"  warn [chronology_violation]: {_ch}", file=sys.stderr)
+                violations.append(
+                    f"CHRONOLOGY VIOLATION — team did NOT trail until inning {_ftt_val}:\n"
+                    + "\n".join(f"  - {h}" for h in _chron_hits)
+                    + f"\n  Do NOT write 'trailed after the second' (or any early inning),"
+                    f" 'tied it up', or 'spent the night chasing'.\n"
+                    f"  The team LED or was TIED until inning {_ftt_val}."
+                    f" Frame as: lead held, game tied, lead lost in inning {_ftt_val}."
+                )
+
+        # Phase 3.3: RISP production check
+        _risp_val  = (brief_data.get("game_story") or {}).get("risp_conversion") or {}
+        _rc_sc_val = _risp_val.get("risp_pa_with_run_scored", 0)
+        if _rc_sc_val > 0:
+            _risp_empty_pats = [
+                re.compile(r'\bnothing to show\b', re.IGNORECASE),
+                re.compile(r'\bcame up empty\b', re.IGNORECASE),
+            ]
+            for _rp in _risp_empty_pats:
+                if _rp.search(what_this_means):
+                    print(
+                        "  warn [risp_violation]: false RISP-empty claim in what_this_means",
+                        file=sys.stderr,
+                    )
+                    violations.append(
+                        f"RISP PRODUCTION VIOLATION:\n"
+                        f"  WHAT THIS GAME MEANS implies zero RISP production, but the team\n"
+                        f"  scored on {_rc_sc_val} RISP plate appearance(s).\n"
+                        f"  Do NOT write 'nothing to show', 'came up empty', or similar.\n"
+                        f"  Rewrite to acknowledge the {_rc_sc_val} run(s) scored in RISP situations."
+                    )
+                    break
 
         if not violations:
             print("  [narrative] AI narrative generated successfully", file=sys.stderr)
