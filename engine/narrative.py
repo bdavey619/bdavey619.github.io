@@ -8,6 +8,7 @@ All team-specific strings (team_name, story_state_path) are passed as parameters
 import json
 import os
 import re
+import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -40,7 +41,6 @@ def check_insight_language(text):
     lower = text.lower()
     for phrase in _BANNED_SPECULATIVE_PHRASES:
         if phrase in lower:
-            import sys
             print(
                 f"  warn [insight guardrail]: speculative phrase detected — {phrase!r}",
                 file=sys.stderr,
