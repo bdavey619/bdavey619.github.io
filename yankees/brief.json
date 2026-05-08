@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T05:29:31+00:00",
+  "generated_at": "2026-05-08T06:00:14+00:00",
   "season": 2026,
   "team": {
     "record": "26-12",
@@ -856,7 +856,17 @@
         9
       ],
       "game_decided_by_inning": 6,
-      "blowout_by_5th": false
+      "blowout_by_5th": false,
+      "first_team_lead_inning": 1,
+      "first_team_trail_inning": 5,
+      "last_tied_inning": 4,
+      "lead_changes_count": 2
+    },
+    "game_texture": {
+      "primary": "offensive_breakout",
+      "secondary": null,
+      "reason": "team scored 9 run(s) on 14 hits",
+      "tone_guidance": "expansive, offense-forward, confident and declarative"
     },
     "summary": {
       "total_risp_situations": 21,
@@ -868,9 +878,9 @@
     }
   },
   "narrative": {
-    "top_frame": "The lineup erupted in the sixth inning and Texas couldn't recover from it.",
-    "what_this_means": "Down one run after five innings, the Yankees scored six in the sixth to break open a game that felt manageable until it didn't. Trent Grisham went 3-for-5 with three RBI, turning traffic into actual runs. Cody Bellinger was 3-for-4 with two more RBI. Fourteen hits and only six strikeouts. This was a balanced offensive night, not a one-man show. The bullpen held after Paul Blackburn's brief exit, preserving what the lineup built. Texas got a run early. It didn't matter.",
-    "what_to_watch": "That inning told you everything about this team right now. When they execute late, when all five position players touch the game and one finishes it, they look like the team the division is supposed to fear. The offense didn't need to lead from the start. It needed to answer when it mattered, and it did. That margin in the sixth. The difference between one run down and five runs up. Is not luck. It's execution meeting the moment. This is a team that wins games cleanly when both sides click.",
+    "top_frame": "They came back from one down and closed it in one inning.",
+    "what_this_means": "The deficit lasted all of two innings. Texas took a one-run lead in the fifth, and the game tilted for exactly one hour. Then the sixth happened. Six runs in the sixth. That was not a comeback. That was a statement. Grisham went 3-for-5 with three RBI, and Bellinger added two more, and what looked like a game that could slip away instead became a 9-2 finish. The offense did not just respond to pressure. It answered it decisively. This team is learning how to play from ahead and how to reclaim the lead when it matters. The margin is narrowing because they are getting faster at closing games. They scored nine runs on fourteen hits. That precision matters.",
+    "what_to_watch": "Max Fried takes the mound tonight with a 2.98 ERA over his last four starts. The Brewers sit second in the division, and this is where the schedule starts to tighten.",
     "story_state": {
       "trend": "surging",
       "driver": "balanced",
