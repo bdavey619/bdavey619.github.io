@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T05:29:00+00:00",
+  "generated_at": "2026-05-08T06:00:02+00:00",
   "season": 2026,
   "team": {
     "record": "22-15",
@@ -366,7 +366,17 @@
         4
       ],
       "game_decided_by_inning": null,
-      "blowout_by_5th": false
+      "blowout_by_5th": false,
+      "first_team_lead_inning": 1,
+      "first_team_trail_inning": 7,
+      "last_tied_inning": 6,
+      "lead_changes_count": 1
+    },
+    "game_texture": {
+      "primary": "pitching_duel",
+      "secondary": "offense_wasted_pitching",
+      "reason": "combined 3 run(s) (1-2); tied through inning 6; starter: 1 ER in 6.0 IP; team scored 1 run(s) despite starter holding it tight",
+      "tone_guidance": "compressed, restrained, pitcher-forward, offense-failure"
     },
     "summary": {
       "total_risp_situations": 2,
@@ -378,9 +388,9 @@
     }
   },
   "narrative": {
-    "top_frame": "Struck out nine times and scored once. That's the Padres' reality right now.",
-    "what_this_means": "Michael King delivered six clean innings, allowed one run, and still the offense couldn't back him. They trailed after the second, tied it up, then spent the rest of the night chasing traffic that never turned into runs. Two runners in scoring position and nothing to show for it. This is not execution under pressure. This is execution failing when it matters most.",
-    "what_to_watch": "The formula doesn't work when the bats are this quiet. King did his job perfectly. The pitching has been reliable all season, sitting at 4.15 ERA with a staff that knows how to survive. But survival requires the lineup to convert something. Nine strikeouts tells you everything: they're swinging at bad things, missing good ones, and leaving the whole game to chance. Against St. Louis, at home, with a lead they couldn't keep. The margin between 22-15 and 22-16 is one swing they didn't take.",
+    "top_frame": "Michael King delivered 6.0 innings of one-run ball and the offense scored once. That's what happened last night.",
+    "what_this_means": "King held St. Louis to one hit through six frames, struck out six, and gave the Padres every chance to build on an early lead they'd grabbed in the first inning. They never did. Four hits and nine strikeouts tells the full story. The opportunity existed; the execution didn't. They were tied after the sixth, trailing by one after the seventh, and out of outs by the ninth. A quality start from their right-hander meant nothing because the lineup couldn't manufacture a second run. This is the margin they're working with now: King gives them air, and they hand it back. One run is not a platform. One hit is not offense. The bats left the building.",
+    "what_to_watch": "This is what fragile looks like from the inside. The pitching has been steady enough to win games. King proved that again. But the offense is becoming a liability so consistent it's starting to feel structural. Nine strikeouts against one of St. Louis's starters is not a slump. It's a locked door. The pattern has not changed in five days; it's gotten sharper. They're 4-6 in their last ten, sitting one back in a division where one run is the difference between staying in it and falling out. The margin is real, and they're burning it on nights like this.",
     "story_state": {
       "trend": "fragile",
       "driver": "balanced",
