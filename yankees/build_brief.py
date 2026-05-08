@@ -33,8 +33,9 @@ from engine.narrative import (  # noqa: E402
     build_story_threads,
     build_story_hook,
 )
-from engine.clutch import identify_clutch_player  # noqa: E402
+from engine.clutch import identify_clutch_player, fetch_play_by_play  # noqa: E402
 from engine.story_signals import identify_game_driver  # noqa: E402
+from engine.game_story import analyze_game_flow  # noqa: E402
 
 CFG = YANKEES
 
@@ -1747,12 +1748,17 @@ def build():
     print("Fetching last game...", file=sys.stderr)
     last_game = get_last_game()
 
-    print("Detecting clutch moment...", file=sys.stderr)
+    print("Detecting clutch moment + game story...", file=sys.stderr)
+    game_story = None
     if last_game.get("status") == "final":
+        # Fetch play-by-play once; pass to clutch detection and game story analysis.
+        all_plays = fetch_play_by_play(last_game["gamePk"])
+
         clutch = identify_clutch_player(
             last_game["gamePk"],
             last_game["home"],
             fallback_hitters=last_game.get("key_hitters"),
+            all_plays=all_plays,
         )
         last_game["clutch_player"] = clutch
         if clutch:
@@ -1789,6 +1795,20 @@ def build():
                             inn = g1_clutch.get("inning")
                             if isinstance(inn, int):
                                 dh_games[0]["key_moment"] = f"go-ahead in {_ordinal_word(inn)}"
+
+        # Game story: deterministic narrative signals from the same play-by-play fetch
+        game_story = analyze_game_flow(all_plays, last_game["home"], last_game.get("full_box"))
+        if game_story:
+            s = game_story["summary"]
+            print(
+                f"  game_story: {s['total_risp_situations']} RISP situations,"
+                f" {s['missed_opportunity_innings']} missed innings"
+                f" ({s['critical_misses']} critical),"
+                f" {s['multi_run_innings']} multi-run innings",
+                file=sys.stderr,
+            )
+        else:
+            print("  game_story: none (parse failed or no plays)", file=sys.stderr)
     else:
         last_game["clutch_player"] = None
 
@@ -1869,6 +1889,7 @@ def build():
         "insight": insight,
         "story_hook": story_hook,
         "story_threads_debug": story_threads,
+        "game_story": game_story,
     }
 
     print("Generating narrative copy...", file=sys.stderr)

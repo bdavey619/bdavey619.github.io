@@ -151,7 +151,7 @@ def _fallback(hitters):
     }
 
 
-def identify_clutch_player(game_pk, is_home, fallback_hitters=None):
+def identify_clutch_player(game_pk, is_home, fallback_hitters=None, all_plays=None):
     """
     Return the highest-leverage player/moment for the team, or None.
 
@@ -163,10 +163,14 @@ def identify_clutch_player(game_pk, is_home, fallback_hitters=None):
       5. Multi-RBI play (2+ RBI) in 8th+
       6. Fallback: top key hitter from box score (confidence: low)
 
+    Pass all_plays to reuse an already-fetched play-by-play list and avoid
+    a second API call. If None, fetches from the MLB Stats API automatically.
+
     Returns dict with name, event, inning, description, reason, confidence.
     Returns None only when there are no plays AND no fallback hitters.
     """
-    all_plays = fetch_play_by_play(game_pk)
+    if all_plays is None:
+        all_plays = fetch_play_by_play(game_pk)
     if not all_plays:
         return _fallback(fallback_hitters)
 
