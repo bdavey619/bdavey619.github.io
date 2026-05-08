@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T05:21:35+00:00",
+  "generated_at": "2026-05-08T05:29:31+00:00",
   "season": 2026,
   "team": {
     "record": "26-12",
@@ -868,9 +868,9 @@
     }
   },
   "narrative": {
-    "top_frame": "# YANKEES MORNING BRIEF",
-    "what_this_means": "**TOP FRAME**",
-    "what_to_watch": "Down one after five innings, they broke the game open in the sixth and never looked back.",
+    "top_frame": "The lineup erupted in the sixth inning and Texas couldn't recover from it.",
+    "what_this_means": "Down one run after five innings, the Yankees scored six in the sixth to break open a game that felt manageable until it didn't. Trent Grisham went 3-for-5 with three RBI, turning traffic into actual runs. Cody Bellinger was 3-for-4 with two more RBI. Fourteen hits and only six strikeouts. This was a balanced offensive night, not a one-man show. The bullpen held after Paul Blackburn's brief exit, preserving what the lineup built. Texas got a run early. It didn't matter.",
+    "what_to_watch": "That inning told you everything about this team right now. When they execute late, when all five position players touch the game and one finishes it, they look like the team the division is supposed to fear. The offense didn't need to lead from the start. It needed to answer when it mattered, and it did. That margin in the sixth. The difference between one run down and five runs up. Is not luck. It's execution meeting the moment. This is a team that wins games cleanly when both sides click.",
     "story_state": {
       "trend": "surging",
       "driver": "balanced",
