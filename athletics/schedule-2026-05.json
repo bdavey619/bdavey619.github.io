@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-05",
   "division_name": "AL West",
-  "generated_at": "2026-05-08T14:24:58.575517+00:00",
+  "generated_at": "2026-05-09T14:00:53.047327+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -62,19 +62,17 @@
       "gamePk": 823467,
       "status": "final",
       "result": "W",
-      "score": "12\u20131"
+      "score": "12\u20131",
+      "archive_url": "archive.html?date=2026-05-08"
     },
     {
       "date": "2026-05-08",
       "opponent": "BAL",
       "home": false,
       "gamePk": 824846,
-      "status": "scheduled",
-      "time_local": "4:05 PM PT",
-      "probable": {
-        "team": "Jacob Lopez",
-        "opp": "Kyle Bradish"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "4\u20133"
     },
     {
       "date": "2026-05-09",
@@ -254,8 +252,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20134",
-    "current_streak": "W1",
+    "month_record": "3\u20134",
+    "current_streak": "W2",
     "last_10": "5\u20135"
   }
 }
