@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-08T14:09:15.975178+00:00",
+  "generated_at": "2026-05-09T11:54:35.835638+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -80,12 +80,9 @@
       "opponent": "MIL",
       "home": false,
       "gamePk": 823794,
-      "status": "scheduled",
-      "time_local": "7:40 PM ET",
-      "probable": {
-        "team": "Max Fried",
-        "opp": "Jacob Misiorowski"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20136"
     },
     {
       "date": "2026-05-09",
@@ -265,8 +262,8 @@
     }
   ],
   "summary": {
-    "month_record": "6\u20131",
-    "current_streak": "W1",
-    "last_10": "8\u20132"
+    "month_record": "6\u20132",
+    "current_streak": "L1",
+    "last_10": "7\u20133"
   }
 }
