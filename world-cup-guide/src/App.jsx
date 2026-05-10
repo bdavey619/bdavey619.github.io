@@ -2,6 +2,8 @@ import { useState } from 'react'
 import TeamPageOne from './components/TeamPageOne'
 import TeamPageTwo from './components/TeamPageTwo'
 import Overview from './components/Overview'
+import Storylines from './components/Storylines'
+import DreamTeam from './components/DreamTeam'
 import './App.css'
 
 const teamModules = import.meta.glob('./data/teams/*.json', { eager: true })
@@ -58,14 +60,19 @@ export default function App() {
             2026 World Cup Guide
           </span>
           <div style={{ display: 'flex', gap: 6 }}>
-            {['guide', 'overview'].map(v => (
+            {[
+              { id: 'guide', label: 'Guide' },
+              { id: 'overview', label: 'Overview' },
+              { id: 'storylines', label: 'Storylines' },
+              { id: 'dreamteam', label: 'Dream Team' },
+            ].map(({ id, label }) => (
               <button
-                key={v}
-                onClick={() => setActiveView(v)}
+                key={id}
+                onClick={() => setActiveView(id)}
                 style={{
-                  background: activeView === v ? '#1a1a1a' : 'white',
-                  color: activeView === v ? 'white' : '#1a1a1a',
-                  border: activeView === v ? 'none' : '1px solid #d0d0d0',
+                  background: activeView === id ? '#1a1a1a' : 'white',
+                  color: activeView === id ? 'white' : '#1a1a1a',
+                  border: activeView === id ? 'none' : '1px solid #d0d0d0',
                   borderRadius: 20,
                   padding: '6px 16px',
                   fontSize: 13,
@@ -73,7 +80,7 @@ export default function App() {
                   fontFamily: 'inherit',
                 }}
               >
-                {v.charAt(0).toUpperCase() + v.slice(1)}
+                {label}
               </button>
             ))}
           </div>
@@ -197,8 +204,12 @@ export default function App() {
               <TeamPageTwo team={selectedTeam} />
             </div>
           </div>
-        ) : (
+        ) : activeView === 'overview' ? (
           <Overview teams={teams} groups={GROUPS} onSelectTeam={selectTeam} />
+        ) : activeView === 'storylines' ? (
+          <Storylines />
+        ) : (
+          <DreamTeam />
         )}
       </div>
     </div>
