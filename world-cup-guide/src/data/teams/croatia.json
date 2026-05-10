@@ -1,0 +1,125 @@
+{
+  "id": "croatia",
+  "name": "Croatia",
+  "nickname": "Vatreni",
+  "accentColor": "#FF0000",
+  "flagEmoji": "🇭🇷",
+  "meta": {
+    "fifaRanking": 10,
+    "group": "L",
+    "groupOpponents": ["England", "Ghana", "Panama"],
+    "oddsToWin": "+2200",
+    "impliedProbability": "~4.3%",
+    "lastWCResult": "SF '22",
+    "manager": "Zlatko Dalić",
+    "managerTenure": "2017–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "A nation of 3.9 million people has reached the World Cup final twice. Luka Modrić, at 40, plays his final World Cup as captain of the most improbably successful small-nation team in the sport's history — one last chapter in the most remarkable story in international football.",
+    "footballIdentity": "Croatian football was born in the aftermath of war. The nation's first World Cup in 1998 — just seven years after independence — produced a third-place finish that defied every expectation. What followed was two decades of producing extraordinary midfield talent from a country smaller than most European capitals. The red-and-white chequered shirt became a symbol of football punching impossibly above its weight.",
+    "theMoment": "Modrić at 40 leads a squad that represents two distinct generations: the aging greats who carried Croatia to a final in 2018 and a semifinal in 2022, and the emerging talents — Gvardiol, Kovačić — who will carry the torch forward. This is both a farewell and a transition. Watching Modrić one final time at a World Cup, orchestrating play with the same genius that won him the Ballon d'Or, is one of the great privileges of following football in 2026.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Luka Modrić",
+      "club": "Real Madrid",
+      "position": "Central Midfielder",
+      "badge": "Legend",
+      "note": "At 40, Modrić remains one of the most technically accomplished midfielders in world football — his touch, vision, passing range, and ability to control the tempo of a match are as refined as ever even if his legs have fewer miles left. Ballon d'Or 2018. Champions League winner multiple times. The greatest midfielder of his generation plays his final World Cup in 2026."
+    },
+    {
+      "name": "Mateo Kovačić",
+      "club": "Manchester City",
+      "position": "Central Midfielder",
+      "badge": null,
+      "note": "The Champions League winner with Manchester City represents the bridge between Croatia's golden generation and its future. Kovačić's driving runs from midfield, his close control in tight spaces, and his ability to press and recover the ball make him Croatia's engine in a way that complements Modrić's calmer, distribution-focused role."
+    },
+    {
+      "name": "Joško Gvardiol",
+      "club": "Manchester City",
+      "position": "Centre Back / Left Back",
+      "badge": null,
+      "note": "The best young central defender in world football by the time he was 22, Gvardiol's combination of pace, aerial ability, and composure on the ball makes him a modern centre back who can also operate as a left back. His development at Manchester City under Guardiola has turned him into a world-class defender who carries Croatia's defensive future on his shoulders."
+    },
+    {
+      "name": "Andrej Kramarić",
+      "club": "Hoffenheim",
+      "position": "Striker / Right Wing",
+      "badge": null,
+      "note": "Croatia's most consistent goalscorer at international level — a technically intelligent forward who holds up play, combines sharply with midfielders, and finds goalscoring positions with excellent movement. Kramarić has been central to Croatia's attack through multiple major tournaments and remains the go-to figure when goals are needed."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Midfield Control", "Organized", "Disciplined", "Technical", "Counter-Attack"],
+    "tacticalNote": "Dalić's Croatia is built around midfield dominance — Modrić, Kovačić, and Brozović (or successors) controlling possession and tempo while allowing Kramarić and the wide players to exploit the space created. Croatia defend in a compact 4-3-3 that transitions quickly into attack through the midfield's passing quality. Gvardiol brings out from the back calmly, enabling Croatia to maintain possession even under pressure. Against England in the opener, Croatia will look to control the midfield battle — if they win that area, they are dangerous against anyone.",
+    "strength": "Midfield quality that can control and dominate possession for long stretches — even with Modrić at 40, the Croatian midfield remains among the best in the tournament.",
+    "vulnerability": "The squad is aging at the top, and Croatia's attacking output is heavily dependent on the midfield creating opportunities — a dry spell for Modrić can leave the attack isolated."
+  },
+  "watchFor": [
+    "Modrić's passing sequences — he still plays balls that nobody else sees, and when he finds form Croatia can control any team in the world",
+    "Gvardiol marauding forward from left back — Dalić sometimes uses him as a hybrid wing-back to add a different dimension",
+    "How Croatia's aging legs hold up in the third match — their tournament history shows they tend to find their level by the knockout stages"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 17",
+      "time": "4PM ET",
+      "opponent": "England",
+      "venue": "AT&T Stadium",
+      "city": "Dallas",
+      "isAway": true
+    },
+    {
+      "date": "Jun 23",
+      "time": "7PM ET",
+      "opponent": "Panama",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "isAway": false
+    },
+    {
+      "date": "Jun 27",
+      "time": "5PM ET",
+      "opponent": "Ghana",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "isAway": false
+    }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "SF", "tier": "sf" },
+    { "year": 2018, "host": "Russia", "result": "Final", "tier": "final" },
+    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
+    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "R16", "tier": "deep" },
+    { "year": 1998, "host": "France", "result": "SF", "tier": "sf" }
+  ],
+  "allTimeRecord": {
+    "played": 35,
+    "won": 18,
+    "drawn": 5,
+    "lost": 12,
+    "scored": 60,
+    "conceded": 45,
+    "appearances": 8,
+    "titles": 0,
+    "finals": 1
+  },
+  "pitch": {
+    "players": [
+      { "name": "Dominik Livaković", "shortName": "Livaković", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Josip Stanišić", "shortName": "Stanišić", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Josip Šutalo", "shortName": "Šutalo", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Joško Gvardiol", "shortName": "Gvardiol", "position": "LCB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Borna Sosa", "shortName": "B. Sosa", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Marcelo Brozović", "shortName": "Brozović", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Luka Modrić", "shortName": "Modrić", "position": "CM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 236 },
+      { "name": "Mateo Kovačić", "shortName": "Kovačić", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Ivan Perišić", "shortName": "Perišić", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Andrej Kramarić", "shortName": "Kramarić", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Luka Ivanušec", "shortName": "Ivanušec", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

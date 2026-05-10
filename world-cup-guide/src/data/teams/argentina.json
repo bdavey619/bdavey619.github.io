@@ -1,0 +1,127 @@
+{
+  "id": "argentina",
+  "name": "Argentina",
+  "nickname": "La Albiceleste",
+  "accentColor": "#75AADB",
+  "flagEmoji": "🇦🇷",
+  "meta": {
+    "fifaRanking": 1,
+    "group": "J",
+    "groupOpponents": ["Algeria", "Austria", "Jordan"],
+    "oddsToWin": "+550",
+    "impliedProbability": "~15%",
+    "lastWCResult": "Won '22",
+    "manager": "Lionel Scaloni",
+    "managerTenure": "2018–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "The defending champions carry the weight of history and a 38-year-old genius playing his final tournament. Argentina arrives in 2026 not just to defend — but to say goodbye to the greatest player ever in the most fitting way possible.",
+    "footballIdentity": "Football is Argentina's religion. From the potrero — the dirt lots of Buenos Aires — to the Bombonera and the Monumental, the game runs in the blood of every Argentine. It produced Maradona, it produced Messi, and it has given the nation its most profound moments of collective joy and heartbreak.",
+    "theMoment": "Lionel Messi turns 39 during the 2026 tournament — born June 24, 1987, he enters this as his absolute final World Cup. The defending champion, the undisputed greatest player in history, completing a farewell that the entire footballing world will stop to watch. Argentina carries both the impossible pressure of defending and the bittersweet weight of an ending everyone can feel coming.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Lionel Messi",
+      "club": "Inter Miami",
+      "position": "Right Wing / Second Striker",
+      "badge": "Captain",
+      "note": "At 38, Messi defies logic — still capable of moments that no other player on earth can produce. His 2022 triumph finally silenced every 'but he hasn't won a World Cup' argument. In 2026 he plays for legacy, for his country, for one final curtain call that the sport will remember for generations."
+    },
+    {
+      "name": "Julián Álvarez",
+      "club": "Atlético Madrid",
+      "position": "Striker",
+      "badge": null,
+      "note": "The Spider is the engine Argentina never knew it needed. Tireless, clinical, and fearless, Álvarez scored four goals at Qatar 2022 despite sharing the attack with Messi. At Atlético Madrid he has continued his relentless ascent and arrives in 2026 as one of Europe's deadliest forwards."
+    },
+    {
+      "name": "Enzo Fernández",
+      "club": "Chelsea",
+      "position": "Central Midfielder",
+      "badge": null,
+      "note": "The 2022 World Cup Best Young Player award winner has matured into one of the premier box-to-box midfielders in world football. His range of passing, intensity, and ability to control tempo give Argentina's midfield a dynamism that complements Messi perfectly."
+    },
+    {
+      "name": "Rodrigo De Paul",
+      "club": "Atlético Madrid",
+      "position": "Central Midfielder",
+      "badge": null,
+      "note": "Messi's right-hand man off the ball, De Paul does the unglamorous work that lets Argentina's stars shine. His engine, aggression, and reading of the game are fundamental to Scaloni's system — when De Paul is at his best, Argentina controls games."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Technical", "Creative", "Counter-Press", "Flexible", "Set Pieces"],
+    "tacticalNote": "Scaloni's Argentina operates with deceptive flexibility — nominally a 4-3-3 that morphs into a 4-2-4 or 4-4-2 depending on the moment. Messi operates in a free role, drifting inside from the right to receive on his left foot in the half-spaces. Álvarez's movement pulls defenders, creating lanes for Messi's devastating late runs. The midfield trio of De Paul, Enzo, and Mac Allister provides extraordinary balance — aggressive pressing, technical quality, and late arrivals into the box. Defensively, Argentina's block is compact and disciplined, rarely exposed by their high press because of excellent positional discipline.",
+    "strength": "Individual genius meeting collective intelligence — Argentina has both in abundance, and they play for each other.",
+    "vulnerability": "Messi's age means reduced high-intensity press coverage; teams that can isolate Argentina's wide defenders in transition may find space."
+  },
+  "watchFor": [
+    "Messi's movement in the second half — he saves his best for when it matters most",
+    "Álvarez's runs in behind; he thrives when opponents push up to close Messi",
+    "Set pieces — Argentina are devastating from dead balls with Messi and De Paul delivering"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 16",
+      "time": "9PM ET",
+      "opponent": "Algeria",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "isAway": false
+    },
+    {
+      "date": "Jun 22",
+      "time": "1PM ET",
+      "opponent": "Austria",
+      "venue": "AT&T Stadium",
+      "city": "Dallas",
+      "isAway": false
+    },
+    {
+      "date": "Jun 27",
+      "time": "10PM ET",
+      "opponent": "Jordan",
+      "venue": "AT&T Stadium",
+      "city": "Dallas",
+      "isAway": true
+    }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "Won", "tier": "winner" },
+    { "year": 2018, "host": "Russia", "result": "R16", "tier": "deep" },
+    { "year": 2014, "host": "Brazil", "result": "Final", "tier": "final" },
+    { "year": 2010, "host": "South Africa", "result": "QF", "tier": "deep" },
+    { "year": 2006, "host": "Germany", "result": "QF", "tier": "deep" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "Groups", "tier": "early" },
+    { "year": 1998, "host": "France", "result": "QF", "tier": "deep" },
+    { "year": 1994, "host": "USA", "result": "R16", "tier": "deep" }
+  ],
+  "allTimeRecord": {
+    "played": 93,
+    "won": 47,
+    "drawn": 26,
+    "lost": 20,
+    "scored": 152,
+    "conceded": 89,
+    "appearances": 18,
+    "titles": 3,
+    "finals": 6
+  },
+  "pitch": {
+    "players": [
+      { "name": "Emiliano Martínez", "shortName": "E. Martínez", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Nahuel Molina", "shortName": "Molina", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Cristian Romero", "shortName": "Romero", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Lisandro Martínez", "shortName": "L. Martínez", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Nicolás Tagliafico", "shortName": "Tagliafico", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Rodrigo De Paul", "shortName": "De Paul", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Enzo Fernández", "shortName": "Enzo", "position": "CM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Alexis Mac Allister", "shortName": "Mac Allister", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Lionel Messi", "shortName": "Messi", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 389, "y": 362 },
+      { "name": "Julián Álvarez", "shortName": "J. Álvarez", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Ángel Di María", "shortName": "Di María", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

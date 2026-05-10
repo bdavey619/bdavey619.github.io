@@ -1,0 +1,127 @@
+{
+  "id": "germany",
+  "name": "Germany",
+  "nickname": "Die Mannschaft",
+  "accentColor": "#1a1a1a",
+  "flagEmoji": "🇩🇪",
+  "meta": {
+    "fifaRanking": 12,
+    "group": "E",
+    "groupOpponents": ["Ecuador", "Ivory Coast", "Curaçao"],
+    "oddsToWin": "+900",
+    "impliedProbability": "~10%",
+    "lastWCResult": "Groups '22",
+    "manager": "Julian Nagelsmann",
+    "managerTenure": "2023–present",
+    "formation": "4-2-3-1"
+  },
+  "narrative": {
+    "essence": "Germany suffered the most humiliating collapse in the history of a great footballing nation — back-to-back group stage exits in 2018 and 2022. Now, powered by the most talented generation since the 2014 champions, Die Mannschaft return to the World Cup with something to prove and the talent to prove it.",
+    "footballIdentity": "German football is synonymous with efficiency, organization, and an almost mechanical capacity for winning. Four World Cup titles, eight finals, and a domestic system that produces technically excellent players with industrial regularity. But the identity has evolved — the Beckenbauer-era sweeper system gave way to Klinsmann's pressing revolution, then Löw's technical possession football, and now Nagelsmann's high-energy, fluid gegenpressing. The machine never stops, it just updates its software.",
+    "theMoment": "The 2018 and 2022 group stage exits were genuine shocks that triggered a generational reset at the DFB. The answer has arrived in the form of Florian Wirtz and Jamal Musiala — two players in their early twenties who are already among the best in the world. Germany hosted Euro 2024, and while they lost in the quarterfinals to eventual champions Spain, the quality was undeniable. In 2026, the new generation gets its first full World Cup.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Florian Wirtz",
+      "club": "Bayer Leverkusen",
+      "position": "Attacking Midfielder",
+      "badge": "Captain",
+      "note": "The most technically gifted German player since Mesut Özil, Wirtz combines exceptional close control with elite vision and a lethal shot. His performances for Leverkusen — where he was central to their unbeaten Bundesliga title — established him as one of Europe's very best. Now Germany's captain and creative fulcrum."
+    },
+    {
+      "name": "Jamal Musiala",
+      "club": "Bayern Munich",
+      "position": "Attacking Midfielder / Left Wing",
+      "badge": null,
+      "note": "The player who chose Germany over England and immediately made them look wiser for it. Musiala's dribbling in tight spaces is genuinely world-class — he attracts multiple defenders and creates space for teammates through his ball-carrying. Alongside Wirtz, he gives Germany two elite creators in the same team, which is almost unfair."
+    },
+    {
+      "name": "Kai Havertz",
+      "club": "Arsenal",
+      "position": "Striker",
+      "badge": null,
+      "note": "After years of inconsistency, Havertz found his best form at Arsenal, becoming one of the Premier League's most complete forwards. His combination of height, technical quality, intelligent movement, and goal contribution finally match his potential. As the focal point of Germany's attack, he's the beneficiary of Wirtz and Musiala's creativity."
+    },
+    {
+      "name": "Joshua Kimmich",
+      "club": "Bayern Munich",
+      "position": "Right Back / Central Midfielder",
+      "badge": null,
+      "note": "One of the most versatile elite players of his generation, Kimmich provides the defensive intelligence and technical quality that underpins everything Germany do. Whether at right back or in midfield, his positioning, passing, and pressing intensity are the invisible framework behind the team's exciting attacking play."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Gegenpressing", "Technical", "High Line", "Tactical Flexibility", "Possession"],
+    "tacticalNote": "Nagelsmann's 4-2-3-1 gives Wirtz freedom as the ten behind Havertz, with Musiala operating from the left attacking midfield position. Two defensive midfielders protect the back four while fullbacks push aggressively, creating width that allows the three attacking midfielders to condense centrally. The press is coordinated and relentless — Germany want to win the ball high and attack in transition before defenses can reorganize.",
+    "strength": "The Wirtz-Musiala combination gives Germany an almost uncounterable technical superiority in central areas — when both are on form, few teams can live with them.",
+    "vulnerability": "The high defensive line can be exploited by teams with a pacey striker willing to run in behind — Germany's fullbacks are adventurous and leave space to be countered."
+  },
+  "watchFor": [
+    "Wirtz and Musiala interchanging positions in the attacking third — the fluidity of their movement makes them almost impossible to mark",
+    "Kimmich's positioning in both phases — his ability to be a third center back when needed and a creative midfielder when in possession is the tactical engine",
+    "Germany's gegenpressing triggers — how instantly they react to losing possession defines whether opponents can ever establish a foothold"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 14",
+      "time": "1PM ET",
+      "opponent": "Curaçao",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "isAway": false
+    },
+    {
+      "date": "Jun 20",
+      "time": "4PM ET",
+      "opponent": "Ivory Coast",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "isAway": false
+    },
+    {
+      "date": "Jun 25",
+      "time": "4PM ET",
+      "opponent": "Ecuador",
+      "venue": "MetLife Stadium",
+      "city": "New York/New Jersey",
+      "isAway": true
+    }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
+    { "year": 2018, "host": "Russia", "result": "Groups", "tier": "early" },
+    { "year": 2014, "host": "Brazil", "result": "Winner", "tier": "winner" },
+    { "year": 2010, "host": "South Africa", "result": "SF", "tier": "sf" },
+    { "year": 2006, "host": "Germany", "result": "SF", "tier": "sf" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "Final", "tier": "final" },
+    { "year": 1998, "host": "France", "result": "QF", "tier": "deep" },
+    { "year": 1994, "host": "USA", "result": "QF", "tier": "deep" }
+  ],
+  "allTimeRecord": {
+    "played": 109,
+    "won": 67,
+    "drawn": 21,
+    "lost": 21,
+    "scored": 227,
+    "conceded": 125,
+    "appearances": 20,
+    "titles": 4,
+    "finals": 8
+  },
+  "pitch": {
+    "players": [
+      { "name": "Manuel Neuer", "shortName": "Neuer", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Joshua Kimmich", "shortName": "Kimmich", "position": "RB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Antonio Rüdiger", "shortName": "Rüdiger", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Jonathan Tah", "shortName": "Tah", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Maximilian Mittelstädt", "shortName": "Mittelstädt", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Robert Andrich", "shortName": "Andrich", "position": "RDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 220 },
+      { "name": "Toni Kroos", "shortName": "Kroos", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
+      { "name": "Leroy Sané", "shortName": "Sané", "position": "RAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
+      { "name": "Florian Wirtz", "shortName": "Wirtz", "position": "CAM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 300 },
+      { "name": "Jamal Musiala", "shortName": "Musiala", "position": "LAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 310 },
+      { "name": "Kai Havertz", "shortName": "Havertz", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 390 }
+    ]
+  }
+}

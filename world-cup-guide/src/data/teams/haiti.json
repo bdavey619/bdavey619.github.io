@@ -1,0 +1,129 @@
+{
+  "id": "haiti",
+  "name": "Haiti",
+  "nickname": "Les Grenadiers",
+  "accentColor": "#00209F",
+  "flagEmoji": "🇭🇹",
+
+  "meta": {
+    "fifaRanking": 83,
+    "group": "C",
+    "groupOpponents": ["Brazil", "Morocco", "Scotland"],
+    "oddsToWin": "+10000",
+    "impliedProbability": "~1%",
+    "lastWCResult": "Groups '74",
+    "manager": "Marc Collat",
+    "managerTenure": "2023–present",
+    "formation": "4-4-2"
+  },
+
+  "narrative": {
+    "essence": "Haiti's appearance in 2026 is one of the tournament's most profound stories — a nation enduring political collapse, gang violence, and humanitarian crisis sending a football team to the world's biggest stage. Every match they play will carry impossible weight.",
+    "footballIdentity": "Football is Haiti's escape and its pride. In one of the Western Hemisphere's poorest countries, battered by earthquakes, hurricanes, political assassination, and gang warfare that controls large portions of the capital, football provides something nothing else can: collective hope. The 1974 World Cup appearance — their first and only until now — remains a national landmark. Half a century later, they're back.",
+    "theMoment": "Haiti qualified for the 2026 World Cup while the country was in effective collapse. Prime Minister Ariel Henry resigned in 2024 amid gang warfare that made Port-au-Prince one of the most dangerous cities on earth. A transitional council has struggled to establish order. The football team — many of whom play in leagues across the Americas and Europe — represents a Haiti that could be. Their presence in Group C is simultaneously absurd and deeply moving.",
+    "momentType": "historical"
+  },
+
+  "keyPlayers": [
+    {
+      "name": "Duckens Nazon",
+      "club": "CF Montréal",
+      "position": "Striker",
+      "badge": "Captain",
+      "note": "Haiti's most experienced goal threat. Physical forward with MLS quality who can hold up play and bring others into the game."
+    },
+    {
+      "name": "James Léandre",
+      "club": "unknown",
+      "position": "Midfield",
+      "badge": null,
+      "note": "One of Haiti's key midfielders who provides creativity and passing range that the squad relies on to maintain any attacking intent."
+    },
+    {
+      "name": "Derrick Etienne",
+      "club": "Columbus Crew",
+      "position": "Right wing",
+      "badge": null,
+      "note": "A creative spark on the right side. His directness and ability to create space makes him Haiti's most dangerous attacking outlet."
+    },
+    {
+      "name": "Herve Bazile",
+      "club": "unattached",
+      "position": "Attacking mid",
+      "badge": null,
+      "note": "Experienced campaigner who has been the creative center of Haiti's recent qualifying campaigns. Provides the quality needed to compete."
+    }
+  ],
+
+  "tactics": {
+    "styleTags": ["Organized", "Counter-attack", "Physical"],
+    "tacticalNote": "Haiti relies on defensive organization in a compact 4-4-2, limiting space centrally and looking to hit on the break. They lack individual quality to take on Brazil or Morocco through possession, so their approach is to frustrate, defend deep, and use the transition. They're capable of making any opponent work for their goals.",
+    "strength": "Collective spirit and defensive organization — this team will not lie down against anyone, and their emotional connection to representing Haiti creates an intensity that can compensate for technical gaps.",
+    "vulnerability": "Quality gap against elite opposition — Brazil and Morocco have the individual quality to unlock any organized defense given enough time on the ball."
+  },
+
+  "watchFor": [
+    "Haiti's defensive shape under pressure — how long they can hold a low block against Brazil and Morocco will tell you everything about their character.",
+    "Nazon's hold-up play — when Haiti has the ball, he's the target and the focal point for the rare counterattacking opportunity.",
+    "Haiti's set piece defending — given the aerial quality of Morocco and Scotland, their ability to defend corners and free kicks is their most likely first test."
+  ],
+
+  "schedule": [
+    {
+      "date": "Jun 13",
+      "time": "9PM ET",
+      "opponent": "Scotland",
+      "venue": "Gillette Stadium",
+      "city": "Boston",
+      "isAway": false
+    },
+    {
+      "date": "Jun 19",
+      "time": "9PM ET",
+      "opponent": "Brazil",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "isAway": true
+    },
+    {
+      "date": "Jun 24",
+      "time": "6PM ET",
+      "opponent": "Morocco",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "isAway": true
+    }
+  ],
+
+  "history": [
+    { "year": 1974, "host": "W. Germany", "result": "Groups", "tier": "early" }
+  ],
+
+  "allTimeRecord": {
+    "played": 3,
+    "won": 0,
+    "drawn": 0,
+    "lost": 3,
+    "scored": 2,
+    "conceded": 14,
+    "appearances": 1,
+    "titles": 0,
+    "finals": 0
+  },
+
+  "pitch": {
+    "players": [
+      { "name": "Josué Duverger", "shortName": "Duverger", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Frantzdy Pierrot", "shortName": "Pierrot", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Carlos Corentin Salomon", "shortName": "Salomon", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Mechack Jérôme", "shortName": "Jérôme", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Zachary Brault-Guillard", "shortName": "Brault-G.", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Léandre", "shortName": "Léandre", "position": "RM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 260 },
+      { "name": "Bazile", "shortName": "Bazile", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 244 },
+      { "name": "Etienne Jr.", "shortName": "Etienne", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 244 },
+      { "name": "D. Etienne", "shortName": "D. Etienne", "position": "LM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 260 },
+      { "name": "Nazon", "shortName": "Nazon", "position": "RS", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 372 },
+      { "name": "Florival", "shortName": "Florival", "position": "LS", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 372 }
+    ]
+  }
+}

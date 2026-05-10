@@ -1,0 +1,136 @@
+{
+  "id": "south-korea",
+  "name": "South Korea",
+  "nickname": "Taegeuk Warriors",
+  "accentColor": "#C60B1E",
+  "flagEmoji": "🇰🇷",
+
+  "meta": {
+    "fifaRanking": 22,
+    "group": "A",
+    "groupOpponents": ["Mexico", "South Africa", "Czechia"],
+    "oddsToWin": "+5000",
+    "impliedProbability": "~2%",
+    "lastWCResult": "R16 '22",
+    "manager": "Hong Myung-bo",
+    "managerTenure": "2023–present",
+    "formation": "4-2-3-1"
+  },
+
+  "narrative": {
+    "essence": "South Korea enters 2026 in transition — the Son Heung-min era is winding down and the next generation hasn't fully arrived. But this team has always been greater than the sum of its parts, and the K-League machine keeps producing technically gifted players who overachieve on the world stage.",
+    "footballIdentity": "South Korea's football identity is built on relentless pressing, organization, and collective sacrifice. The 2002 semi-final run on home soil remains the country's defining football moment — a tournament that unified a nation and launched Asian football into the global conversation. Since then, they've consistently punched above their weight at every World Cup.",
+    "theMoment": "Son Heung-min captains his country at what is likely his final World Cup at age 34. His 2002 World Cup parallel is not lost on Koreans — that squad, led by individual brilliance and collective determination, went further than anyone imagined. Son has spent the last decade carrying South Korean football's hopes. In 2026, this team needs to send him off properly.",
+    "momentType": "cultural"
+  },
+
+  "keyPlayers": [
+    {
+      "name": "Son Heung-min",
+      "club": "Tottenham Hotspur",
+      "position": "Left wing",
+      "badge": "Captain",
+      "note": "The greatest player in Korean history. At 34, this is his farewell World Cup. He can still unlock any defense with his movement and finish."
+    },
+    {
+      "name": "Lee Jae-sung",
+      "club": "Mainz",
+      "position": "Attacking mid",
+      "badge": null,
+      "note": "The creative engine. High work rate, smart positioning between lines, and a sharp eye for through balls. Underrated on the world stage."
+    },
+    {
+      "name": "Hwang Hee-chan",
+      "club": "Wolverhampton",
+      "position": "Striker",
+      "badge": null,
+      "note": "The goalscorer the squad needed. Has stepped up since his Premier League breakthrough to become the focal point of Korea's attack."
+    },
+    {
+      "name": "Kim Min-jae",
+      "club": "Bayern Munich",
+      "position": "Center-back",
+      "badge": null,
+      "note": "The Monster — elite center-back with Champions League experience. Organizes the defensive line and is almost impossible to beat in the air."
+    }
+  ],
+
+  "tactics": {
+    "styleTags": ["High press", "Organized", "Counter-attack", "Technical"],
+    "tacticalNote": "Hong Myung-bo deploys a compact 4-2-3-1 that presses aggressively from the front and transitions quickly. Son operates as a false left-winger who drifts centrally, while the double pivot provides stability. Korea exploits wide spaces in transition, particularly through Son's diagonal runs.",
+    "strength": "Defensive organization and work rate — this team runs more per game than almost any other team at the tournament.",
+    "vulnerability": "Creativity in build-up play: when the press is broken, they can struggle to unlock compact defenses through patient passing."
+  },
+
+  "watchFor": [
+    "Son's diagonal runs from wide left into the penalty area — this is South Korea's primary attacking pattern and it still creates chances.",
+    "The double-pivot's positioning when Korea attacks — they're the off switch, ready to deny counters the moment possession is lost.",
+    "Korea's set pieces — they've become increasingly dangerous at dead balls with Kim Min-jae as an aerial threat."
+  ],
+
+  "schedule": [
+    {
+      "date": "Jun 11",
+      "time": "10PM ET",
+      "opponent": "Czechia",
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "isAway": false
+    },
+    {
+      "date": "Jun 18",
+      "time": "9PM ET",
+      "opponent": "Mexico",
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "isAway": true
+    },
+    {
+      "date": "Jun 24",
+      "time": "9PM ET",
+      "opponent": "South Africa",
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
+      "isAway": true
+    }
+  ],
+
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "R16", "tier": "deep" },
+    { "year": 2018, "host": "Russia", "result": "Groups", "tier": "early" },
+    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
+    { "year": 2010, "host": "S. Africa", "result": "R16", "tier": "deep" },
+    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
+    { "year": 2002, "host": "Korea/Japan", "result": "SF", "tier": "sf" },
+    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
+    { "year": 1994, "host": "USA", "result": "Groups", "tier": "early" }
+  ],
+
+  "allTimeRecord": {
+    "played": 40,
+    "won": 10,
+    "drawn": 7,
+    "lost": 23,
+    "scored": 46,
+    "conceded": 83,
+    "appearances": 11,
+    "titles": 0,
+    "finals": 0
+  },
+
+  "pitch": {
+    "players": [
+      { "name": "Kim Seung-gyu", "shortName": "Kim S-g", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Kim Moon-hwan", "shortName": "Kim M-h", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Kim Min-jae", "shortName": "Kim M-j", "position": "CB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Jung Seung-hyun", "shortName": "Jung S-h", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Kim Jin-su", "shortName": "Kim J-s", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Jung Woo-young", "shortName": "Jung W-y", "position": "RDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 220 },
+      { "name": "Hwang In-beom", "shortName": "Hwang I-b", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
+      { "name": "Lee Kang-in", "shortName": "Lee K-i", "position": "RAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
+      { "name": "Lee Jae-sung", "shortName": "Lee J-s", "position": "CAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 300 },
+      { "name": "Son Heung-min", "shortName": "Son", "position": "LAM", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 104, "y": 310 },
+      { "name": "Hwang Hee-chan", "shortName": "Hwang H-c", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 390 }
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "canada",
+  "name": "Canada",
+  "nickname": "Les Rouges",
+  "accentColor": "#FF0000",
+  "flagEmoji": "🇨🇦",
+
+  "meta": {
+    "fifaRanking": 45,
+    "group": "B",
+    "groupOpponents": ["Switzerland", "Qatar", "Bosnia-Herzegovina"],
+    "oddsToWin": "+5000",
+    "impliedProbability": "~2%",
+    "lastWCResult": "Groups '22",
+    "manager": "Jesse Marsch",
+    "managerTenure": "2023–present",
+    "formation": "4-3-3"
+  },
+
+  "narrative": {
+    "essence": "Canada qualified for consecutive World Cups for the first time in history and is hosting this one alongside the USA and Mexico. After a disappointing exit in 2022, this squad — filled with stars from Europe's biggest leagues — returns hungry, on home soil, with something to prove.",
+    "footballIdentity": "Canada's football story is only just being written. For decades this was hockey country, full stop. But a generation of Canadians grew up playing in academies across Europe, and the talent pipeline finally produced a squad competitive enough to reach back-to-back World Cups. Alphonso Davies is the symbol: a refugee who became the best left-back in the world. Canada football is about becoming.",
+    "theMoment": "Canada co-hosts the 2026 World Cup, with games in Toronto and Vancouver. This is the sport arriving in Canada's own backyard — a country that has never had a men's team worth watching and now has one worth following. The pressure on Jesse Marsch after the 2022 group stage exit is real. The talent is undeniable. The question is whether the system and the moment align.",
+    "momentType": "footballing"
+  },
+
+  "keyPlayers": [
+    {
+      "name": "Alphonso Davies",
+      "club": "Bayern Munich",
+      "position": "Left wing",
+      "badge": "Captain",
+      "note": "The generational talent. World-class left-back who plays as a winger for Canada. His pace and directness terrify every defense in the world."
+    },
+    {
+      "name": "Jonathan David",
+      "club": "Newcastle United",
+      "position": "Striker",
+      "badge": null,
+      "note": "Clinical finisher who scored prolifically in Ligue 1 and moved to the Premier League. Canada's most reliable source of goals."
+    },
+    {
+      "name": "Tajon Buchanan",
+      "club": "Inter Milan",
+      "position": "Right wing",
+      "badge": null,
+      "note": "Electric winger who provides balance to Davies on the other side. Explosive, direct, and improving rapidly at elite club level."
+    },
+    {
+      "name": "Atiba Hutchinson",
+      "club": "Besiktas",
+      "position": "Midfield",
+      "badge": null,
+      "note": "The elder statesman who has given everything to Canadian football. At the end of his career, he's the glue in midfield and the voice in the dressing room."
+    }
+  ],
+
+  "tactics": {
+    "styleTags": ["High press", "Wing play", "Fast transitions", "Physical"],
+    "tacticalNote": "Marsch's Canada presses aggressively and relies on the pace of Davies and Buchanan to create chaos. David operates as a center-forward who finishes the attacks the wide players generate. The press is designed to win the ball high and attack immediately — Canada is at their best in transition.",
+    "strength": "Width and pace — Davies and Buchanan can exploit any team with high defensive lines, and David is lethal when through on goal.",
+    "vulnerability": "Defensive organization can break down under sustained pressure — the aggression of the press leaves space in behind the back four."
+  },
+
+  "watchFor": [
+    "Alphonso Davies in a one-on-one situation on the left side — he wins these almost every time and the cross that follows is dangerous.",
+    "Jonathan David's movement before the ball — he's almost never in an obvious position, making him hard to mark.",
+    "Canada's press trigger: when one player presses aggressively, the entire team shifts. Getting the ball out of pressure quickly is the key to beating them."
+  ],
+
+  "schedule": [
+    {
+      "date": "Jun 12",
+      "time": "3PM ET",
+      "opponent": "Bosnia and Herzegovina",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "isAway": false
+    },
+    {
+      "date": "Jun 18",
+      "time": "6PM ET",
+      "opponent": "Qatar",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "isAway": false
+    },
+    {
+      "date": "Jun 24",
+      "time": "3PM ET",
+      "opponent": "Switzerland",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "isAway": true
+    }
+  ],
+
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
+    { "year": 1986, "host": "Mexico", "result": "Groups", "tier": "early" }
+  ],
+
+  "allTimeRecord": {
+    "played": 6,
+    "won": 0,
+    "drawn": 1,
+    "lost": 5,
+    "scored": 2,
+    "conceded": 12,
+    "appearances": 2,
+    "titles": 0,
+    "finals": 0
+  },
+
+  "pitch": {
+    "players": [
+      { "name": "Crepeau", "shortName": "Crepeau", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Johnston", "shortName": "Johnston", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Miller", "shortName": "Miller", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Vitória", "shortName": "Vitória", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Davies", "shortName": "Davies", "position": "LB", "role": "def", "isKeyPlayer": true, "isCaptain": true, "x": 63, "y": 148 },
+      { "name": "Eustaquio", "shortName": "Eustaquio", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Hutchinson", "shortName": "Hutchinson", "position": "DM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Laryea", "shortName": "Laryea", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Buchanan", "shortName": "Buchanan", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "David", "shortName": "David", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Larin", "shortName": "Larin", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

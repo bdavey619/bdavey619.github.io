@@ -1,0 +1,127 @@
+{
+  "id": "portugal",
+  "name": "Portugal",
+  "nickname": "A Seleção das Quinas",
+  "accentColor": "#006600",
+  "flagEmoji": "🇵🇹",
+  "meta": {
+    "fifaRanking": 6,
+    "group": "K",
+    "groupOpponents": ["DR Congo", "Uzbekistan", "Colombia"],
+    "oddsToWin": "+1100",
+    "impliedProbability": "~8.3%",
+    "lastWCResult": "QF '22",
+    "manager": "Roberto Martínez",
+    "managerTenure": "2023–present",
+    "formation": "4-2-3-1"
+  },
+  "narrative": {
+    "essence": "Cristiano Ronaldo is 41. This is his last World Cup. For two decades, every World Cup has been filtered through the lens of Messi vs. Ronaldo — and in 2026, both play their final chapters simultaneously, in the same country, on the biggest stage either has ever known.",
+    "footballIdentity": "Portugal's football history stretches from the cobbled streets of Lisbon to the Golden Generation of the 1960s and the Era of Eusébio — a player who showed the world that Portuguese football had a unique flair, intensity, and creativity. The modern era, defined entirely by Ronaldo, has produced Champions League glory and a Euro 2016 triumph. Portugal has always had the talent; the World Cup title remains the one prize missing from their trophy cabinet.",
+    "theMoment": "Cristiano Ronaldo will be 41 at the 2026 World Cup — the final act of a career that has been in perpetual dialogue with Lionel Messi's. Both men play their last World Cups simultaneously in 2026, in the same North American host nation. The final chapter of football's greatest rivalry plays out one last time on the grandest stage, with both carrying their nations' dreams and their own legacies into the same tournament.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Cristiano Ronaldo",
+      "club": "Al-Nassr",
+      "position": "Striker",
+      "badge": "Captain",
+      "note": "At 41, Ronaldo defies biology as much as he defies footballing logic. His goal record — the most international goals in the history of the sport — is a monument to obsession, dedication, and relentless self-improvement. Whether he can still decide matches at the highest level is the great question of Portugal's 2026 campaign; that he's here at all is a story in itself."
+    },
+    {
+      "name": "Bruno Fernandes",
+      "club": "Manchester United",
+      "position": "Attacking Midfielder",
+      "badge": null,
+      "note": "The engine of Portugal's creativity, Fernandes brings a dynamism, range of passing, and goal threat that Ronaldo's presence alone cannot provide. His ability to arrive late into the penalty area and his quality from set pieces make him Portugal's most complete attacking threat in the modern era."
+    },
+    {
+      "name": "Rúben Dias",
+      "club": "Manchester City",
+      "position": "Centre Back",
+      "badge": null,
+      "note": "One of the world's best central defenders, Dias brings calmness, reading of the game, and leadership to Portugal's back line. His partnership at Manchester City has made him a title-winning defender accustomed to performing under the highest pressure — qualities Portugal desperately need at a World Cup."
+    },
+    {
+      "name": "Rafael Leão",
+      "club": "AC Milan",
+      "position": "Left Wing",
+      "badge": null,
+      "note": "Explosive, direct, and devastatingly quick, Leão is one of Europe's most dangerous wide players when at his best. His ability to beat defenders on the outside and cut inside creates a consistent left-side threat that gives Portugal genuine width and penetration beyond Ronaldo's individual moments."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Counter-Attack", "Individual Brilliance", "Organized Defense", "Width", "Set Pieces"],
+    "tacticalNote": "Martínez's 4-2-3-1 is designed to maximize both Ronaldo's goal-threat and the creativity of Bruno Fernandes behind him. The double pivot provides defensive cover for a team that transitions quickly from defense to attack, with Leão on the left and Cancelo/Pedro on the right providing width. Portugal's defensive block is disciplined and hard to break down — they defend with shape and discipline, then explode forward through Leão's pace, Fernandes's vision, and Ronaldo's positioning in the box. Set pieces are a significant weapon with Fernandes and João Cancelo delivering.",
+    "strength": "Individual quality across every line — Portugal can win moments through genius that no tactical scheme can fully neutralize.",
+    "vulnerability": "Ronaldo's reduced mobility at 41 means Portugal can't press effectively through him; teams that keep possession and make Portugal chase may expose the aging striker's defensive limitations."
+  },
+  "watchFor": [
+    "Ronaldo's positioning in the penalty area — at 41 his movement is calculated and precise; he still scores goals that younger players cannot",
+    "Leão vs. right backs in transition — when he has space to run at defenders, Portugal are at their most dangerous",
+    "Bruno Fernandes's late arrivals — he scores goals from midfield positions that defenders routinely fail to account for"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 17",
+      "time": "1PM ET",
+      "opponent": "DR Congo",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "isAway": false
+    },
+    {
+      "date": "Jun 23",
+      "time": "1PM ET",
+      "opponent": "Uzbekistan",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "isAway": false
+    },
+    {
+      "date": "Jun 27",
+      "time": "7:30PM ET",
+      "opponent": "Colombia",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami",
+      "isAway": true
+    }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "QF", "tier": "deep" },
+    { "year": 2018, "host": "Russia", "result": "R16", "tier": "deep" },
+    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
+    { "year": 2010, "host": "South Africa", "result": "R16", "tier": "deep" },
+    { "year": 2006, "host": "Germany", "result": "SF", "tier": "sf" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "Groups", "tier": "early" },
+    { "year": 1986, "host": "Mexico", "result": "R16", "tier": "deep" },
+    { "year": 1966, "host": "England", "result": "SF", "tier": "sf" }
+  ],
+  "allTimeRecord": {
+    "played": 40,
+    "won": 17,
+    "drawn": 10,
+    "lost": 13,
+    "scored": 72,
+    "conceded": 52,
+    "appearances": 9,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Rui Patrício", "shortName": "R. Patrício", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "João Cancelo", "shortName": "Cancelo", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Rúben Dias", "shortName": "R. Dias", "position": "RCB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Pepe", "shortName": "Pepe", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Nuno Mendes", "shortName": "N. Mendes", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Rúben Neves", "shortName": "R. Neves", "position": "RDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 220 },
+      { "name": "João Palhinha", "shortName": "Palhinha", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
+      { "name": "Bernardo Silva", "shortName": "B. Silva", "position": "RAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
+      { "name": "Bruno Fernandes", "shortName": "B. Fernandes", "position": "CAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 300 },
+      { "name": "Rafael Leão", "shortName": "Leão", "position": "LAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 310 },
+      { "name": "Cristiano Ronaldo", "shortName": "Ronaldo", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 390 }
+    ]
+  }
+}

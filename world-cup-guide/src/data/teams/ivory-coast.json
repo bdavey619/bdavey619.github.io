@@ -1,0 +1,122 @@
+{
+  "id": "ivory-coast",
+  "name": "Ivory Coast",
+  "nickname": "Les Éléphants",
+  "accentColor": "#FF8200",
+  "flagEmoji": "🇨🇮",
+  "meta": {
+    "fifaRanking": 49,
+    "group": "E",
+    "groupOpponents": ["Germany", "Ecuador", "Curaçao"],
+    "oddsToWin": "+5000",
+    "impliedProbability": "~2%",
+    "lastWCResult": "Groups '22",
+    "manager": "Emerse Faé",
+    "managerTenure": "2024–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "The Ivory Coast produced one of the great golden generations in African football history — the Drogba era teams qualified for three consecutive World Cups and fell in the group stage every time. Now, AFCON 2024 champions on home soil, a new generation is building its own identity with something to prove on the global stage.",
+    "footballIdentity": "Ivorian football is built on physicality, directness, and wide play — the country has consistently produced powerful, technically gifted forwards who thrive in European leagues. The shadow of Didier Drogba looms over everything, a footballer so dominant that any generation following him has been judged against an impossible standard. But AFCON 2024, won dramatically as hosts, proved this squad has its own identity and its own capacity for late drama.",
+    "theMoment": "Sébastien Haller's return to football after a testicular cancer diagnosis in 2022 — discovered when he joined Borussia Dortmund, just before he was due to make his debut — is one of sport's great comeback stories. Back on the pitch and back at the World Cup, his presence gives Les Éléphants a frontman of genuine Champions League pedigree. AFCON momentum and a favorable group beyond Germany gives the Ivory Coast real hope of advancing.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Sébastien Haller",
+      "club": "Borussia Dortmund",
+      "position": "Striker",
+      "badge": "Captain",
+      "note": "The captain's story transcends football — diagnosed with testicular cancer in 2022 just after joining Dortmund, Haller underwent treatment, returned to score regularly, and led the Ivory Coast to AFCON 2024 glory. A powerful, dominant centre-forward with excellent hold-up play and an aerial threat, he embodies everything Les Éléphants want to be."
+    },
+    {
+      "name": "Simon Adingra",
+      "club": "Brighton",
+      "position": "Right Wing",
+      "badge": null,
+      "note": "The brightest young talent in Ivorian football — Adingra's pace, dribbling, and directness on the right flank make him one of the most difficult wide players in the Premier League to contain. His willingness to take on defenders and his crossing quality give Haller a constant supply of dangerous deliveries from the right."
+    },
+    {
+      "name": "Franck Kessié",
+      "club": "Atalanta",
+      "position": "Central Midfielder",
+      "badge": null,
+      "note": "A physically imposing box-to-box midfielder with an engine that never stops. Kessié's intensity in midfield duels, his ability to carry the ball forward, and his goal threat from arriving late in the box make him the motor behind Ivory Coast's pressing game and one of the most complete African midfielders of his generation."
+    },
+    {
+      "name": "Wilfried Gnonto",
+      "club": "Leeds United",
+      "position": "Left Wing",
+      "badge": null,
+      "note": "The young Italian-born wide attacker who chose Ivory Coast and brings top-flight European experience and direct running to the left flank. Gnonto's ability to cut inside and combine with runners gives the Ivory Coast a different dimension from the left side, complementing Adingra's more direct approach on the right."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Physical", "Direct", "Wide Play", "Aggressive Pressing", "Counter-Attack"],
+    "tacticalNote": "Faé's 4-3-3 is designed around wide attacking play with Adingra and Gnonto providing the width and delivering for Haller centrally. Kessié anchors the midfield and provides the defensive work rate that allows the two wide forwards to work high up the pitch. Against Germany, the Ivory Coast will need to be defensively disciplined for the first hour before their pace and directness can punish a tired defense in transition.",
+    "strength": "The combination of Haller's physical presence and Adingra's pace gives the Ivory Coast an attack that can work at multiple speeds — slow buildup for Haller or fast transition through Adingra.",
+    "vulnerability": "Technical teams that play between Ivory Coast's midfield lines can exploit the spaces — when forced to track multiple runners in tight areas, the defensive shape can become stretched."
+  },
+  "watchFor": [
+    "Haller's aerial duels — his ability to win and lay off balls into dangerous areas is the foundation of Ivory Coast's entire attacking structure",
+    "Adingra's one-on-one situations on the right — when he's given space, he's unplayable",
+    "Kessié's positioning in midfield — when he wins second balls in the German half, the Ivory Coast become genuinely dangerous on the counter"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 14",
+      "time": "7PM ET",
+      "opponent": "Ecuador",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "isAway": false
+    },
+    {
+      "date": "Jun 20",
+      "time": "4PM ET",
+      "opponent": "Germany",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "isAway": true
+    },
+    {
+      "date": "Jun 25",
+      "time": "4PM ET",
+      "opponent": "Curaçao",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "isAway": true
+    }
+  ],
+  "history": [
+    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
+    { "year": 2010, "host": "South Africa", "result": "Groups", "tier": "early" },
+    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" }
+  ],
+  "allTimeRecord": {
+    "played": 9,
+    "won": 0,
+    "drawn": 3,
+    "lost": 6,
+    "scored": 7,
+    "conceded": 15,
+    "appearances": 3,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Yahia Fofana", "shortName": "Fofana", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Serge Aurier", "shortName": "Aurier", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Willy Boly", "shortName": "Boly", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Eric Bailly", "shortName": "Bailly", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Ghislain Konan", "shortName": "Konan", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Seko Fofana", "shortName": "S. Fofana", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Franck Kessié", "shortName": "Kessié", "position": "CM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Ibrahim Sangaré", "shortName": "Sangaré", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Simon Adingra", "shortName": "Adingra", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Sébastien Haller", "shortName": "Haller", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 372 },
+      { "name": "Wilfried Gnonto", "shortName": "Gnonto", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

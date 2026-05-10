@@ -1,0 +1,106 @@
+{
+  "id": "uruguay",
+  "name": "Uruguay",
+  "nickname": "La Celeste",
+  "accentColor": "#75AADB",
+  "flagEmoji": "🇺🇾",
+  "meta": {
+    "fifaRanking": 16,
+    "group": "H",
+    "groupOpponents": ["Spain", "Saudi Arabia", "Cape Verde"],
+    "oddsToWin": "+2500",
+    "impliedProbability": "~4%",
+    "lastWCResult": "Groups '22",
+    "manager": "Marcelo Bielsa",
+    "managerTenure": "2023–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "Two World Cup titles, garra charrúa, and now Marcelo Bielsa. Uruguay's tactical revolution under 'El Loco' meets a new generation of talent that could make La Celeste genuinely dangerous again after a disappointing 2022.",
+    "footballIdentity": "For a country of 3.5 million people, Uruguay's football legacy is staggering. Two World Cup titles, including the inaugural 1930 tournament on home soil, cement their place among the sport's founding powers. The concept of garra charrúa — the fighting spirit, the refusal to be beaten — is woven into the national identity. Football here isn't just a sport; it's how Uruguay competes with the world.",
+    "theMoment": "Marcelo Bielsa's appointment transformed Uruguayan football. His high-intensity pressing and positional principles are a radical departure from Uruguay's traditional pragmatism — and they fit perfectly with the new generation. Darwin Núñez has the raw power and pace to destroy defenses. Federico Valverde is quietly becoming one of the two or three best midfielders in the world. Ronald Araújo is among the best defenders on the planet. This is not the Uruguay that grinded through 2022 — this is a different animal.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Darwin Núñez",
+      "club": "Liverpool",
+      "position": "ST",
+      "badge": "Captain",
+      "note": "Explosive, powerful, and capable of moments of brilliance that no other striker in the tournament can match, Núñez brings a terrifying combination of pace, physicality, and finishing ability. His inconsistency at club level masks the fact that when Núñez is locked in, he's nearly impossible to contain. Bielsa's system is designed to channel that energy into devastating attacks."
+    },
+    {
+      "name": "Federico Valverde",
+      "club": "Real Madrid",
+      "position": "CM",
+      "badge": null,
+      "note": "Quietly becoming one of the best all-around midfielders in the world, Valverde's combination of athleticism, ball-winning ability, long-range shooting, and progressive passing makes him a constant threat. His Champions League performances have been extraordinary, and he's the engine that drives Uruguay's system from deep."
+    },
+    {
+      "name": "Rodrigo Bentancur",
+      "club": "Tottenham",
+      "position": "CM",
+      "badge": null,
+      "note": "The experienced central midfielder who provides the intelligence and composure to complement Valverde's dynamism. Bentancur's ability to control tempo and connect defense to attack is essential to Uruguay's build-up play under Bielsa's demanding system."
+    },
+    {
+      "name": "Ronald Araújo",
+      "club": "Barcelona",
+      "position": "CB",
+      "badge": null,
+      "note": "One of the best defenders in the world, Araújo's aerial dominance, pace, and ability to defend in one-on-one situations make him an almost unpassable wall at center-back. His distribution has also improved dramatically at Barcelona, adding to Uruguay's ability to build from the back."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["High Press", "Garra Charrúa", "Physical", "Positional"],
+    "tacticalNote": "Bielsa's Uruguay is a radical departure from the defensive pragmatism of previous eras. The high press is relentless — Uruguay looks to win the ball in advanced positions and transition quickly. Valverde and Bentancur provide the engine to sustain the press across 90 minutes, while Núñez leads the line with relentless running and direct threat. Araújo and the defense push high to compress the space, trusting their pace to deal with balls in behind. It's a brave setup that either suffocates opponents or leaves space to exploit.",
+    "strength": "The combination of Bielsa's intense pressing structure with Valverde's extraordinary box-to-box ability and Núñez's explosive finishing creates a team that can overpower opponents in sustained bursts.",
+    "vulnerability": "Playing a high defensive line with Uruguay's center-backs means quick attackers can expose them in behind — a calculated risk Bielsa accepts in exchange for territorial dominance."
+  },
+  "watchFor": [
+    "Federico Valverde's runs from deep — he times his late arrivals into the box with extraordinary precision and has a lethal long-range shot",
+    "Darwin Núñez's battles with opposing center-backs — pure physical contests that he wins more than he loses",
+    "Uruguay's press in the opening 15 minutes — Bielsa teams often overwhelm opponents before they're settled"
+  ],
+  "schedule": [
+    { "date": "Jun 15", "time": "6PM ET", "opponent": "Saudi Arabia", "venue": "Hard Rock Stadium", "city": "Miami", "isAway": false },
+    { "date": "Jun 21", "time": "6PM ET", "opponent": "Cape Verde", "venue": "Hard Rock Stadium", "city": "Miami", "isAway": false },
+    { "date": "Jun 26", "time": "8PM ET", "opponent": "Spain", "venue": "Estadio Akron", "city": "Guadalajara", "isAway": false }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
+    { "year": 2018, "host": "Russia", "result": "R16", "tier": "deep" },
+    { "year": 2014, "host": "Brazil", "result": "QF", "tier": "deep" },
+    { "year": 2010, "host": "South Africa", "result": "4th Place", "tier": "sf" },
+    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "Groups", "tier": "early" },
+    { "year": 1990, "host": "Italy", "result": "R16", "tier": "deep" },
+    { "year": 1986, "host": "Mexico", "result": "R16", "tier": "deep" }
+  ],
+  "allTimeRecord": {
+    "played": 57,
+    "won": 27,
+    "drawn": 9,
+    "lost": 21,
+    "scored": 93,
+    "conceded": 74,
+    "appearances": 14,
+    "titles": 2,
+    "finals": 3
+  },
+  "pitch": {
+    "players": [
+      { "name": "Sergio Rochet", "shortName": "Rochet", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Guillermo Varela", "shortName": "Varela", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Ronald Araújo", "shortName": "Araújo", "position": "RCB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "José María Giménez", "shortName": "Giménez", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Mathías Olivera", "shortName": "Olivera", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Federico Valverde", "shortName": "Valverde", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Rodrigo Bentancur", "shortName": "Bentancur", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Manuel Ugarte", "shortName": "Ugarte", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Facundo Pellistri", "shortName": "Pellistri", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Darwin Núñez", "shortName": "Núñez", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 372 },
+      { "name": "Maximiliano Araújo", "shortName": "M. Araújo", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "netherlands",
+  "name": "Netherlands",
+  "nickname": "Oranje",
+  "accentColor": "#FF4F00",
+  "flagEmoji": "🇳🇱",
+  "meta": {
+    "fifaRanking": 7,
+    "group": "F",
+    "groupOpponents": ["Japan", "Sweden", "Tunisia"],
+    "oddsToWin": "+1000",
+    "impliedProbability": "~9%",
+    "lastWCResult": "QF '22",
+    "manager": "Ronald Koeman",
+    "managerTenure": "2023–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "Three World Cup finals, zero trophies — the Netherlands carry the heaviest burden in world football. The greatest team never to win it. In 2026, with Van Dijk commanding the defense and a new generation of attackers bursting through, Oranje arrives with a genuine chance to finally end the curse.",
+    "footballIdentity": "Total Football. Two words that encapsulate not just a tactical system but a philosophy, a worldview, a cultural identity. Johan Cruyff's Netherlands of 1974 didn't just play football differently — they changed what football was. Every Dutch player since has been measured against that standard, shaped by the Ajax academy system that has industrialized the production of technically excellent, positionally sophisticated footballers. The Dutch don't just play football, they theorize it.",
+    "theMoment": "Van Dijk is 34 and at the summit of his powers, one of the best centre backs the game has seen. Frenkie de Jong, despite years of Barcelona turbulence, remains a midfielder of rare technical quality. And the next generation — Gakpo, Simons, Frimpong — are arriving. Koeman's challenge is to synthesize the old and new into something capable of not just reaching a final again, but winning one. The Dutch weight of footballing expectation is unique in world sport.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Virgil van Dijk",
+      "club": "Liverpool",
+      "position": "Centre Back",
+      "badge": "Captain",
+      "note": "Arguably the best centre back of his generation — dominant in the air, commanding with the ball, and a leader whose presence transforms the teams he plays in. At 34, Van Dijk remains at the peak of his defensive powers at Liverpool, and as Netherlands captain he provides the stable foundation from which everything else is built."
+    },
+    {
+      "name": "Frenkie de Jong",
+      "club": "Barcelona",
+      "position": "Central Midfielder",
+      "badge": null,
+      "note": "The natural heir to Dutch midfield royalty — de Jong's ability to receive the ball in tight spaces, turn under pressure, and play progressive passes into danger areas is elite. Despite turbulence at Barcelona, his quality is undimmed, and in a Netherlands shirt where the system is built for him, he operates at a level few midfielders in the world can match."
+    },
+    {
+      "name": "Cody Gakpo",
+      "club": "Liverpool",
+      "position": "Left Wing / Striker",
+      "badge": null,
+      "note": "The most dangerous forward in the Dutch squad — Gakpo's combination of height, pace, and technical quality makes him a nightmare for any defender to contain. His ability to play centrally or wide gives Koeman tactical flexibility, and his Champions League experience with Liverpool means the biggest stages bring out his best football."
+    },
+    {
+      "name": "Xavi Simons",
+      "club": "Paris Saint-Germain",
+      "position": "Attacking Midfielder / Central Midfielder",
+      "badge": null,
+      "note": "The electrifying young talent who is quickly becoming one of European football's most exciting players. Simons' dribbling, shooting from range, and ability to create from advanced midfield positions represent the future of Dutch football, and his emergence alongside the established stars gives the Netherlands a depth of quality that few groups can handle."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Total Football Legacy", "Pressing", "Technical", "Offensive", "Possession"],
+    "tacticalNote": "Koeman's 4-3-3 draws heavily on Dutch tradition — Van Dijk and the center backs build from the back, feeding de Jong who then orchestrates the tempo. The wide forwards in Gakpo and the right winger press high and provide the width, while Simons operates as a mobile eight who arrives in dangerous positions late. The Netherlands want to dominate possession but are equally dangerous in transition, with the pace of their forwards threatening to run in behind.",
+    "strength": "The defensive security of Van Dijk combined with the creative quality of de Jong and Simons gives Netherlands both solidity and attacking sophistication — a hard combination to match.",
+    "vulnerability": "When the ball is won high and the Netherlands are caught in transition, the fullbacks' attacking positions leave space behind — Japan's pace could exploit this."
+  },
+  "watchFor": [
+    "De Jong's positioning between midfield lines — when he receives in tight spaces and turns, the Netherlands move from patient to dangerous in an instant",
+    "Van Dijk's distribution from deep — his ability to play accurate long passes into wide areas is a key part of how the Netherlands bypass pressing teams",
+    "Gakpo vs opposing right backs — his physicality and pace in wide areas create the overloads from which most Dutch attacks are launched"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 14",
+      "time": "4PM ET",
+      "opponent": "Japan",
+      "venue": "AT&T Stadium",
+      "city": "Dallas",
+      "isAway": false
+    },
+    {
+      "date": "Jun 20",
+      "time": "1PM ET",
+      "opponent": "Sweden",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "isAway": false
+    },
+    {
+      "date": "Jun 25",
+      "time": "7PM ET",
+      "opponent": "Tunisia",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "isAway": true
+    }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "QF", "tier": "deep" },
+    { "year": 2018, "host": "Russia", "result": "DNQ", "tier": "dnq" },
+    { "year": 2014, "host": "Brazil", "result": "SF", "tier": "sf" },
+    { "year": 2010, "host": "South Africa", "result": "Final", "tier": "final" },
+    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "DNQ", "tier": "dnq" },
+    { "year": 1998, "host": "France", "result": "SF", "tier": "sf" },
+    { "year": 1994, "host": "USA", "result": "QF", "tier": "deep" }
+  ],
+  "allTimeRecord": {
+    "played": 59,
+    "won": 30,
+    "drawn": 14,
+    "lost": 15,
+    "scored": 101,
+    "conceded": 70,
+    "appearances": 11,
+    "titles": 0,
+    "finals": 3
+  },
+  "pitch": {
+    "players": [
+      { "name": "Bart Verbruggen", "shortName": "Verbruggen", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Denzel Dumfries", "shortName": "Dumfries", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Virgil van Dijk", "shortName": "Van Dijk", "position": "RCB", "role": "def", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 148 },
+      { "name": "Stefan de Vrij", "shortName": "De Vrij", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Nathan Aké", "shortName": "Aké", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Tijjani Reijnders", "shortName": "Reijnders", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Frenkie de Jong", "shortName": "De Jong", "position": "CM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Xavi Simons", "shortName": "Simons", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Donyell Malen", "shortName": "Malen", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Cody Gakpo", "shortName": "Gakpo", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Steven Bergwijn", "shortName": "Bergwijn", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

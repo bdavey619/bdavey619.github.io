@@ -1,0 +1,123 @@
+{
+  "id": "ghana",
+  "name": "Ghana",
+  "nickname": "Black Stars",
+  "accentColor": "#006B3F",
+  "flagEmoji": "🇬🇭",
+  "meta": {
+    "fifaRanking": 52,
+    "group": "L",
+    "groupOpponents": ["England", "Panama", "Croatia"],
+    "oddsToWin": "+7000",
+    "impliedProbability": "~1.4%",
+    "lastWCResult": "Groups '22",
+    "manager": "Otto Addo",
+    "managerTenure": "2022–present",
+    "formation": "4-2-3-1"
+  },
+  "narrative": {
+    "essence": "The 2010 quarter-final is burned into Ghanaian consciousness like nothing else in sport: Suaréz's deliberate handball on the goal line, Gyan's penalty to the bar, and an entire continent's dream extinguished. The Black Stars arrive in 2026 with the Premier League's brightest Ghanaian generation and sixteen years of pent-up desire to settle accounts.",
+    "footballIdentity": "Ghana has been West Africa's footballing flagship for decades — the first African nation to reach a World Cup quarter-final in the modern era, a country that consistently produces Premier League talent and plays the game with a physicality and joy that reflects its people. The Black Stars are not just a football team; they carry the hopes of the entire African continent every time they take the field at a World Cup.",
+    "theMoment": "Mohammed Kudus is one of the most exciting players in the Premier League. Thomas Partey anchors Arsenal's midfield at the highest level. Antoine Semenyo is one of the most sought-after wide players in the league. This is the strongest Premier League-based Ghanaian generation ever — and they arrive in 2026 with the memory of 2010, of Suaréz's hand, of Gyan's penalty, driving every training session. 'The universe owes Ghana one,' wrote a commentator after 2010. In 2026, Ghana comes to collect.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Thomas Partey",
+      "club": "Arsenal",
+      "position": "Defensive Midfielder",
+      "badge": "Captain",
+      "note": "One of the Premier League's best defensive midfielders when fit, Partey provides Ghana with the defensive solidity and ball-winning quality to compete against elite opposition. His ability to break up attacks and quickly transition Ghana into offense through his carrying and passing range makes him the lynchpin of everything they do in midfield."
+    },
+    {
+      "name": "Mohammed Kudus",
+      "club": "West Ham",
+      "position": "Attacking Midfielder / Right Wing",
+      "badge": null,
+      "note": "Kudus is Ghana's most explosive talent — a technically brilliant, fearless attacker who scored two goals against South Korea at the 2022 World Cup and has since established himself as one of the Premier League's most watchable players. His ability to beat defenders in tight spaces and arrive in the box from deep makes him genuinely unpredictable."
+    },
+    {
+      "name": "Antoine Semenyo",
+      "club": "Bournemouth",
+      "position": "Right Wing / Left Wing",
+      "badge": null,
+      "note": "One of the most exciting wide forwards in the Premier League, Semenyo's pace, directness, and finishing give Ghana a wide threat that can trouble any full back in the tournament. His development under Bournemouth has been rapid, and he arrives at the 2026 World Cup with the confidence of a player who knows he belongs at the highest level."
+    },
+    {
+      "name": "Jordan Ayew",
+      "club": "Leicester City",
+      "position": "Striker / Left Wing",
+      "badge": null,
+      "note": "The senior figure of Ghana's attack — experienced, hardworking, and capable of providing goals and assists in critical moments. Ayew's leadership within the squad and his experience across multiple major tournaments make him valuable both as a starter and as a voice in the dressing room when the pressure is highest."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Physical", "Direct", "Energetic", "Set Pieces", "Pressing"],
+    "tacticalNote": "Addo's 4-2-3-1 is built around Partey's defensive midfield authority and the creative license given to Kudus behind the striker. Ghana press with energy and aggression when they lose the ball, and their wide players — Semenyo and the left winger — are direct, taking defenders on one-vs-one rather than looking for intricate combinations. Set pieces from both sides are a weapon: Ghana are dangerous from corners and free kicks delivered into Ayew and the center-backs, and they are also vulnerable to them. The double pivot behind Kudus provides the platform for Ghana's attacking players to express themselves.",
+    "strength": "Wide attacking threat — Kudus and Semenyo are two of the most dangerous wide players in the tournament at their best, and both can hurt elite opponents.",
+    "vulnerability": "Fitness and consistency — Ghana's squad can be inconsistent over 90 minutes, and when Partey is not at his best, the defensive cover disappears."
+  },
+  "watchFor": [
+    "Kudus — whenever he has the ball in the final third, something is about to happen; he is Ghana's most dangerous player by a distance",
+    "Ghana's emotional intensity — against opponents who are technically superior, the Black Stars often elevate their game through sheer desire and collective energy",
+    "Set pieces in both boxes — Ghana score from them and concede from them regularly; dead ball situations define their matches"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 17",
+      "time": "7PM ET",
+      "opponent": "Panama",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "isAway": true
+    },
+    {
+      "date": "Jun 23",
+      "time": "4PM ET",
+      "opponent": "England",
+      "venue": "Gillette Stadium",
+      "city": "Boston",
+      "isAway": true
+    },
+    {
+      "date": "Jun 27",
+      "time": "5PM ET",
+      "opponent": "Croatia",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "isAway": true
+    }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
+    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
+    { "year": 2010, "host": "South Africa", "result": "QF", "tier": "deep" },
+    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" }
+  ],
+  "allTimeRecord": {
+    "played": 15,
+    "won": 4,
+    "drawn": 3,
+    "lost": 8,
+    "scored": 13,
+    "conceded": 22,
+    "appearances": 4,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Lawrence Ati-Zigi", "shortName": "Ati-Zigi", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Tariq Lamptey", "shortName": "Lamptey", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Daniel Amartey", "shortName": "Amartey", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Alexander Djiku", "shortName": "Djiku", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Gideon Mensah", "shortName": "G. Mensah", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Thomas Partey", "shortName": "Partey", "position": "RDM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 220 },
+      { "name": "Iddrisu Baba", "shortName": "I. Baba", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
+      { "name": "Antoine Semenyo", "shortName": "Semenyo", "position": "RAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 310 },
+      { "name": "Mohammed Kudus", "shortName": "Kudus", "position": "CAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 300 },
+      { "name": "Osman Bukari", "shortName": "Bukari", "position": "LAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 310 },
+      { "name": "Jordan Ayew", "shortName": "J. Ayew", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 390 }
+    ]
+  }
+}

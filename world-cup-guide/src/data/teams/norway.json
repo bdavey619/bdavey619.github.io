@@ -1,0 +1,101 @@
+{
+  "id": "norway",
+  "name": "Norway",
+  "nickname": "The Vikings",
+  "accentColor": "#EF2B2D",
+  "flagEmoji": "🇳🇴",
+  "meta": {
+    "fifaRanking": 33,
+    "group": "I",
+    "groupOpponents": ["France", "Senegal", "Iraq"],
+    "oddsToWin": "+3000",
+    "impliedProbability": "~3%",
+    "lastWCResult": "Groups '98",
+    "manager": "Ståle Solbakken",
+    "managerTenure": "2020–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "Erling Haaland has broken every club scoring record in existence. The entire football world wants to know if he can do it when it really matters — at a World Cup. Norway's 28-year absence from the tournament ends with the most anticipated striker debut in the history of the competition.",
+    "footballIdentity": "Norway is a winter sports nation — skiing, biathlon, and cross-country are in the national DNA. But football has produced its share of giants: Ole Gunnar Solskjær, Ronny Johnsen, and a surprisingly strong 1990s era that reached multiple World Cups. The game has grown under the current generation, and Haaland's rise has supercharged interest in the national team like nothing before. Norway qualifying for the first time in 28 years is itself a story — they failed to qualify while Haaland was scoring 40+ goals per season at Man City.",
+    "theMoment": "Haaland scored 60 goals in the 2022-23 Premier League season. He's broken UEFA Champions League records. He averages over a goal per international game. And yet Norway couldn't qualify for two consecutive World Cups while he played. Now they're here, with the planet's most prolific scorer finally on the biggest stage. Group I with France means Haaland vs. the world's best defense in the opening rounds. That matchup alone is worth the price of admission.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Erling Haaland",
+      "club": "Manchester City",
+      "position": "ST",
+      "badge": "Captain",
+      "note": "The most prolific goalscorer of his generation and potentially of any generation. Haaland's combination of pace, physicality, positioning, and finishing is unprecedented — he routinely scores goals that seem physically impossible. At 25 during this tournament, he's entering the absolute peak of his powers. The entire Norwegian gameplan is built around getting him the ball in positions where he can be devastating."
+    },
+    {
+      "name": "Martin Ødegaard",
+      "club": "Arsenal",
+      "position": "AM",
+      "badge": null,
+      "note": "The Arsenal captain and Norway's creative maestro, Ødegaard's ability to operate between the lines, receive under pressure, and deliver precise passes into dangerous areas makes him the perfect partner for Haaland. His technical quality and vision are among the best in the Premier League, and at a World Cup he has the platform to prove he's genuinely elite."
+    },
+    {
+      "name": "Alexander Sørloth",
+      "club": "Atlético Madrid",
+      "position": "ST",
+      "badge": null,
+      "note": "The La Liga goal-scorer who provides Norway with a dangerous alternative striker and depth in attack. Sørloth's physical presence and finishing ability mean Norway doesn't completely collapse in attack if Haaland is neutralized — though that's a significant 'if.'"
+    },
+    {
+      "name": "Sander Berge",
+      "club": "Fulham",
+      "position": "CM",
+      "badge": null,
+      "note": "The tall, combative central midfielder who brings physicality and Premier League experience to Norway's engine room. Berge's ball-winning ability and range of passing are crucial to the team's ability to win possession and then transition quickly to feed Haaland."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Direct", "Haaland-Centric", "Counter-Attack", "Physical"],
+    "tacticalNote": "Solbakken's Norway is built on a simple but devastatingly effective premise: get the ball to Haaland as quickly and as often as possible. Ødegaard links the midfield to the attack and provides the quality on the ball to unlock defenses. Berge and the midfield provide the defensive cover and winning of second balls. Norway is not a possession team — they are direct, physically intense, and rely on Haaland's extraordinary finishing to convert the chances they create. Against France, this becomes an interesting tactical battle between Haaland's directness and France's world-class defensive structure.",
+    "strength": "Erling Haaland is the most dangerous penalty-box threat in world football — one chance, one goal is Norway's constant threat, and creating chances is exactly what Ødegaard does best.",
+    "vulnerability": "Norway's attacking game is heavily centralized around Haaland; if opposing defenses commit to double-marking him and cutting his supply, Norway can struggle to create through other channels."
+  },
+  "watchFor": [
+    "Haaland's first World Cup goal — wherever and whenever it comes, it will be a landmark moment in football history",
+    "The Ødegaard-Haaland combination — Arsenal's captain threading balls through for Man City's striker is as good as it gets",
+    "Norway vs France in the final group game — a potential winner-takes-all clash between two teams with genuine knockout ambitions"
+  ],
+  "schedule": [
+    { "date": "Jun 16", "time": "6PM ET", "opponent": "Iraq", "venue": "Gillette Stadium", "city": "Foxborough, MA", "isAway": false },
+    { "date": "Jun 22", "time": "8PM ET", "opponent": "Senegal", "venue": "MetLife Stadium", "city": "East Rutherford, NJ", "isAway": false },
+    { "date": "Jun 26", "time": "3PM ET", "opponent": "France", "venue": "Gillette Stadium", "city": "Foxborough, MA", "isAway": false }
+  ],
+  "history": [
+    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
+    { "year": 1994, "host": "USA", "result": "Groups", "tier": "early" },
+    { "year": 1938, "host": "France", "result": "R16", "tier": "deep" }
+  ],
+  "allTimeRecord": {
+    "played": 9,
+    "won": 2,
+    "drawn": 3,
+    "lost": 4,
+    "scored": 9,
+    "conceded": 13,
+    "appearances": 3,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Ørjan Nyland", "shortName": "Nyland", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Kristoffer Ajer", "shortName": "Ajer", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Leo Østigård", "shortName": "Østigård", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Andreas Hanche-Olsen", "shortName": "Hanche-Olsen", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Birger Meling", "shortName": "Meling", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Martin Ødegaard", "shortName": "Ødegaard", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Sander Berge", "shortName": "Berge", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Fredrik Aursnes", "shortName": "Aursnes", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Antonio Nusa", "shortName": "Nusa", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Erling Haaland", "shortName": "Haaland", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 372 },
+      { "name": "Alexander Sørloth", "shortName": "Sørloth", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

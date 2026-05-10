@@ -1,0 +1,129 @@
+{
+  "id": "bosnia-herzegovina",
+  "name": "Bosnia-Herzegovina",
+  "nickname": "The Dragons",
+  "accentColor": "#002395",
+  "flagEmoji": "🇧🇦",
+
+  "meta": {
+    "fifaRanking": 62,
+    "group": "B",
+    "groupOpponents": ["Canada", "Switzerland", "Qatar"],
+    "oddsToWin": "+10000",
+    "impliedProbability": "~1%",
+    "lastWCResult": "Groups '14",
+    "manager": "Sergej Barbarez",
+    "managerTenure": "2024–present",
+    "formation": "4-3-3"
+  },
+
+  "narrative": {
+    "essence": "Bosnia-Herzegovina returns to the World Cup for only the second time — a nation that has existed for barely 30 years, born from one of Europe's most devastating conflicts. Their qualification is a sporting miracle wrapped in a story of resilience that goes far beyond football.",
+    "footballIdentity": "Football in Bosnia is identity made visible. Three main ethnic communities — Bosniaks, Serbs, and Croats — found something rare under the Zmajevi crest: a shared team to support. The 2014 World Cup qualification was a breakthrough; the team was filled with European league talent led by Edin Džeko. Now a new generation carries that tradition forward. For many Bosnians, national football is the only thing that crosses ethnic lines.",
+    "theMoment": "Bosnia qualifies with a squad built around Bundesliga and Serie A talent, a generation raised in the shadow of the 2014 breakthrough. The country's political structure — the Dayton Agreement that created separate governing entities — still makes governing football complicated. Manager Sergej Barbarez, a Bosnian legend who played in Germany, is trying to create something more unified than the country's political reality. The sport is ahead of the politics.",
+    "momentType": "historical"
+  },
+
+  "keyPlayers": [
+    {
+      "name": "Ermedin Demirović",
+      "club": "Augsburg",
+      "position": "Striker",
+      "badge": "Captain",
+      "note": "The clinical finishing machine who scored prolifically in the Bundesliga. Bosnia's most dangerous forward and the focal point of everything they build."
+    },
+    {
+      "name": "Sead Kolašinac",
+      "club": "Marseille",
+      "position": "Left-back",
+      "badge": null,
+      "note": "Physical, relentless fullback who provides width and energy. His attacking presence down the left is a consistent asset."
+    },
+    {
+      "name": "Miralem Pjanić",
+      "club": "Sharjah",
+      "position": "Midfield",
+      "badge": null,
+      "note": "The legend at the end of his career. Still technically exceptional, his vision and set-piece delivery give Bosnia a different dimension."
+    },
+    {
+      "name": "Amir Hadžiahmetović",
+      "club": "Köln",
+      "position": "Midfield",
+      "badge": null,
+      "note": "Engine of Bosnia's midfield. High work rate, good range of passing, and defensive discipline that holds the structure together."
+    }
+  ],
+
+  "tactics": {
+    "styleTags": ["Direct play", "Physical", "Counter-attack", "Set pieces"],
+    "tacticalNote": "Bosnia play a direct 4-3-3 that leverages physicality and set-piece quality. Demirović's movement pulls defenders while Kolašinac bombs forward from left-back. Pjanić's delivery from dead balls is their biggest weapon in any game situation. They're well-drilled, hard to bully, and capable of punishing the slightest defensive lapse.",
+    "strength": "Set pieces and physicality — Bosnia is dangerous at every dead ball and can bully teams who aren't prepared for their physicality.",
+    "vulnerability": "Against top teams, they concede too much space between midfield and defense — they're caught too high up the pitch when the press fails."
+  },
+
+  "watchFor": [
+    "Pjanić's set-piece deliveries — corner and free kick routines are carefully rehearsed and Demirović is an excellent aerial target.",
+    "Kolašinac overlapping on the left — when Bosnia wins the ball centrally, the first option is often to play wide left and let him run.",
+    "Bosnia's reaction to falling behind — their directness increases when chasing games, which can be a strength or create more space to counter."
+  ],
+
+  "schedule": [
+    {
+      "date": "Jun 12",
+      "time": "3PM ET",
+      "opponent": "Canada",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "isAway": true
+    },
+    {
+      "date": "Jun 18",
+      "time": "3PM ET",
+      "opponent": "Switzerland",
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles",
+      "isAway": true
+    },
+    {
+      "date": "Jun 24",
+      "time": "3PM ET",
+      "opponent": "Qatar",
+      "venue": "Lumen Field",
+      "city": "Seattle",
+      "isAway": false
+    }
+  ],
+
+  "history": [
+    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" }
+  ],
+
+  "allTimeRecord": {
+    "played": 3,
+    "won": 1,
+    "drawn": 0,
+    "lost": 2,
+    "scored": 4,
+    "conceded": 4,
+    "appearances": 1,
+    "titles": 0,
+    "finals": 0
+  },
+
+  "pitch": {
+    "players": [
+      { "name": "Pihler", "shortName": "Pihler", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Šunjić", "shortName": "Šunjić", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Čataković", "shortName": "Čataković", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Džidić", "shortName": "Džidić", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Kolašinac", "shortName": "Kolašinac", "position": "LB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Hadžiahmetović", "shortName": "Hadžiahmetović", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Pjanić", "shortName": "Pjanić", "position": "DM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Vrančić", "shortName": "Vrančić", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Huseinbašić", "shortName": "Huseinbašić", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Demirović", "shortName": "Demirović", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 372 },
+      { "name": "Tatar", "shortName": "Tatar", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

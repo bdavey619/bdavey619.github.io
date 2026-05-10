@@ -1,0 +1,118 @@
+{
+  "id": "jordan",
+  "name": "Jordan",
+  "nickname": "Al-Nashama",
+  "accentColor": "#007A3D",
+  "flagEmoji": "🇯🇴",
+  "meta": {
+    "fifaRanking": 68,
+    "group": "J",
+    "groupOpponents": ["Argentina", "Austria", "Algeria"],
+    "oddsToWin": "+10000",
+    "impliedProbability": "~1%",
+    "lastWCResult": "First WC",
+    "manager": "Hussein Ammouta",
+    "managerTenure": "2023–present",
+    "formation": "4-4-2"
+  },
+  "narrative": {
+    "essence": "Jordan arrives at their first-ever World Cup as a nation defined by resilience — a small, resource-constrained kingdom that reached the 2023 AFC Asian Cup final and now brings that same collective spirit to the biggest stage in sports.",
+    "footballIdentity": "Football in Jordan exists in a context unlike almost anywhere else on earth. The country hosts more refugees per capita than any nation on earth — roughly one in four people in Jordan is a refugee from Syria, Iraq, or Palestine. The national team has become a source of unifying joy in a country that carries extraordinary burdens. Jordan's journey to the World Cup is not just sporting — it is a story of a nation finding pride and collective identity through football.",
+    "theMoment": "Jordan qualifies for their first World Cup while the country absorbs millions of displaced people from neighboring conflicts. The AFC Asian Cup 2023 final run — where Jordan defeated South Korea, Iraq, and Tajikistan on their way to the final — showed a team that punches far above its weight through organization and belief. Playing Argentina, Austria, and Algeria at their first World Cup is a formidable test, but just being here is a triumph that means something profound to an entire region.",
+    "momentType": "historical"
+  },
+  "keyPlayers": [
+    {
+      "name": "Hussein Lewa",
+      "club": "Al-Wehdat",
+      "position": "Striker",
+      "badge": "Captain",
+      "note": "The captain and leader of Jordan's attack, Lewa is a physical, experienced striker who thrives on service into the box. His hold-up play and ability to bring teammates into the game is central to how Jordan build their attacks against organized defensive teams."
+    },
+    {
+      "name": "Musa Al-Tamari",
+      "club": "Montpellier",
+      "position": "Right Wing",
+      "badge": null,
+      "note": "The most recognizable Jordanian player in European football, Al-Tamari's pace and directness on the right flank give Jordan their most dangerous attacking outlet. His experience in Ligue 1 has sharpened his decision-making and makes him Jordan's primary threat in transition."
+    },
+    {
+      "name": "Yazan Al-Naimat",
+      "club": "Al-Sareeh",
+      "position": "Central Midfielder",
+      "badge": null,
+      "note": "Al-Naimat provides the engine in Jordan's midfield — industrious, disciplined, and capable of linking defense to attack with his passing range. His work rate and positional discipline are essential to the shape Ammouta wants to maintain throughout matches."
+    },
+    {
+      "name": "Baha' Faisal",
+      "club": "Al-Faisaly",
+      "position": "Left Wing",
+      "badge": null,
+      "note": "Faisal's creativity and direct running on the left flank give Jordan balance in their wide play. He combines well with the overlapping left back and has shown in Asian competition that he can beat defenders and deliver quality final balls in tight spaces."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Organized", "Defensive", "Direct", "Compact", "Disciplined"],
+    "tacticalNote": "Jordan under Ammouta sets up in a pragmatic 4-4-2 that prioritizes defensive organization and making themselves difficult to break down. The two banks of four are compact and disciplined, limiting the space between the lines. In transition, they look quickly to Al-Tamari's runs on the right flank and Lewa's hold-up play to relieve pressure. Against the group's big three, Jordan will need to defend excellently for long periods and take their chances clinically on the counter. Their Asian Cup campaign demonstrated they can execute a disciplined defensive plan and find moments of quality.",
+    "strength": "Collective defensive organization — Jordan's block is disciplined and hard to break down even for technically superior opponents.",
+    "vulnerability": "Limited depth of quality in the final third; if their defensive block is broken, they can struggle to recover quickly."
+  },
+  "watchFor": [
+    "Al-Tamari's transition runs — Jordan's best moments will come when he receives in space behind the opposition's high line",
+    "How long Jordan's defensive discipline holds — their Asian Cup resilience is their greatest weapon",
+    "Set pieces both ways — Jordan are dangerous on corners and free kicks, and vulnerable to the same"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 16",
+      "time": "Midnight ET",
+      "opponent": "Austria",
+      "venue": "Levi's Stadium",
+      "city": "San Francisco Bay Area",
+      "isAway": true
+    },
+    {
+      "date": "Jun 22",
+      "time": "11PM ET",
+      "opponent": "Algeria",
+      "venue": "Levi's Stadium",
+      "city": "San Francisco Bay Area",
+      "isAway": true
+    },
+    {
+      "date": "Jun 27",
+      "time": "10PM ET",
+      "opponent": "Argentina",
+      "venue": "AT&T Stadium",
+      "city": "Dallas",
+      "isAway": false
+    }
+  ],
+  "history": [],
+  "allTimeRecord": {
+    "played": 0,
+    "won": 0,
+    "drawn": 0,
+    "lost": 0,
+    "scored": 0,
+    "conceded": 0,
+    "appearances": 0,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Yazeed Abulaila", "shortName": "Abulaila", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Mohammad Al-Dmeiri", "shortName": "Al-Dmeiri", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Badr Nizar", "shortName": "B. Nizar", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Ahmad Saleh", "shortName": "A. Saleh", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Ehsan Haddad", "shortName": "Haddad", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Musa Al-Tamari", "shortName": "Al-Tamari", "position": "RM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 260 },
+      { "name": "Yazan Al-Naimat", "shortName": "Al-Naimat", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 244 },
+      { "name": "Nizar Al-Rashdan", "shortName": "Al-Rashdan", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 244 },
+      { "name": "Baha' Faisal", "shortName": "Faisal", "position": "LM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 260 },
+      { "name": "Hussein Lewa", "shortName": "Lewa", "position": "RS", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 372 },
+      { "name": "Ahmad Al-Rousan", "shortName": "Al-Rousan", "position": "LS", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 372 }
+    ]
+  }
+}

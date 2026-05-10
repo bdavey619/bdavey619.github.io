@@ -1,0 +1,136 @@
+{
+  "id": "czechia",
+  "name": "Czechia",
+  "nickname": "The Lions",
+  "accentColor": "#D7141A",
+  "flagEmoji": "🇨🇿",
+
+  "meta": {
+    "fifaRanking": 37,
+    "group": "A",
+    "groupOpponents": ["Mexico", "South Korea", "South Africa"],
+    "oddsToWin": "+10000",
+    "impliedProbability": "~1%",
+    "lastWCResult": "Groups '06",
+    "manager": "Ivan Hašek",
+    "managerTenure": "2024–present",
+    "formation": "4-2-3-1"
+  },
+
+  "narrative": {
+    "essence": "Czechia returns to the World Cup for the first time since 2006, rebuilt around a generation that grew up watching the Czech Republic punch above its weight in Europe. This squad is technically capable and tactically disciplined — not a glamour team, but one that can make life very difficult.",
+    "footballIdentity": "Czech football has an understated European soul — technically sound, tactically astute, and never overwhelmed by the moment. The golden generation of Nedvěd, Poborský, and Schmeichel in the 1990s and early 2000s set a high bar. The country doesn't produce superstars the way France or Germany does, but it consistently produces reliable, intelligent professionals who understand their role.",
+    "theMoment": "Czechia qualified having undergone a significant rebuild after missing the 2022 World Cup entirely. The Czech football federation, amid debates about investment in youth development and concerns about the domestic league quality, finally sees this squad as the product of better academy structures. Making the knockout rounds would vindicate a quiet revolution in Czech football infrastructure.",
+    "momentType": "footballing"
+  },
+
+  "keyPlayers": [
+    {
+      "name": "Tomáš Souček",
+      "club": "West Ham",
+      "position": "Central mid",
+      "badge": "Captain",
+      "note": "Box-to-box powerhouse who provides goals from midfield. His physicality, aerial ability, and late runs make him a genuine threat in attack."
+    },
+    {
+      "name": "Patrik Schick",
+      "club": "Bayer Leverkusen",
+      "position": "Striker",
+      "badge": null,
+      "note": "Clinical finisher with technical polish. Czech football's best chance-taker. Capable of goals from anywhere in the penalty area."
+    },
+    {
+      "name": "Vladimír Coufal",
+      "club": "West Ham",
+      "position": "Right-back",
+      "badge": null,
+      "note": "Attacking fullback who has been central to the Czech system for years. His overlapping runs and delivery provide consistent width."
+    },
+    {
+      "name": "Lukáš Hrádecký",
+      "club": "Bayer Leverkusen",
+      "position": "Goalkeeper",
+      "badge": null,
+      "note": "Champions League-level goalkeeper who won the Bundesliga with Leverkusen. His shot-stopping has bailed out the Czech defense in multiple qualifiers."
+    }
+  ],
+
+  "tactics": {
+    "styleTags": ["Organized", "Direct play", "Set pieces", "Physical"],
+    "tacticalNote": "Czechia presses from a 4-2-3-1 structure, using Souček's industry and physicality to dominate central areas. They're dangerous from set pieces — Souček and Schick are both aerial threats. Build-up is direct, using Schick's hold-up play to establish footholds, then overloading wide areas with Coufal's runs.",
+    "strength": "Set piece danger and midfield physicality — Souček's influence from dead balls consistently produces goals the Czech Republic shouldn't be getting.",
+    "vulnerability": "Susceptible in transitions when the double-pivot is caught high — quick teams can expose the space behind the midfield block."
+  },
+
+  "watchFor": [
+    "Souček arriving late into the penalty area from deep — he scores 8-10 goals a season for West Ham doing exactly this.",
+    "Schick's movement: he creates space for others as much as he finishes chances. Watch the runs that don't result in shots.",
+    "Czech corner and free kick routines — they're well-rehearsed and Hrádecký's distribution from the back can catch teams off guard."
+  ],
+
+  "schedule": [
+    {
+      "date": "Jun 11",
+      "time": "10PM ET",
+      "opponent": "South Korea",
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "isAway": true
+    },
+    {
+      "date": "Jun 18",
+      "time": "12PM ET",
+      "opponent": "South Africa",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "isAway": false
+    },
+    {
+      "date": "Jun 24",
+      "time": "9PM ET",
+      "opponent": "Mexico",
+      "venue": "Estadio Azteca",
+      "city": "Mexico City",
+      "isAway": true
+    }
+  ],
+
+  "history": [
+    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
+    { "year": 1990, "host": "Italy", "result": "QF", "tier": "deep" },
+    { "year": 1982, "host": "Spain", "result": "Groups", "tier": "early" },
+    { "year": 1970, "host": "Mexico", "result": "Groups", "tier": "early" },
+    { "year": 1962, "host": "Chile", "result": "Final", "tier": "final" },
+    { "year": 1958, "host": "Sweden", "result": "Groups", "tier": "early" },
+    { "year": 1954, "host": "Switzerland", "result": "Groups", "tier": "early" },
+    { "year": 1938, "host": "France", "result": "Final", "tier": "final" }
+  ],
+
+  "allTimeRecord": {
+    "played": 30,
+    "won": 11,
+    "drawn": 5,
+    "lost": 14,
+    "scored": 50,
+    "conceded": 49,
+    "appearances": 9,
+    "titles": 0,
+    "finals": 2
+  },
+
+  "pitch": {
+    "players": [
+      { "name": "Hrádecký", "shortName": "Hrádecký", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Coufal", "shortName": "Coufal", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Hranáč", "shortName": "Hranáč", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Vitík", "shortName": "Vitík", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Zelený", "shortName": "Zelený", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Souček", "shortName": "Souček", "position": "RDM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 220 },
+      { "name": "Sadílek", "shortName": "Sadílek", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
+      { "name": "Lingr", "shortName": "Lingr", "position": "RAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
+      { "name": "Hložek", "shortName": "Hložek", "position": "CAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 300 },
+      { "name": "Bárta", "shortName": "Bárta", "position": "LAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 310 },
+      { "name": "Schick", "shortName": "Schick", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 390 }
+    ]
+  }
+}

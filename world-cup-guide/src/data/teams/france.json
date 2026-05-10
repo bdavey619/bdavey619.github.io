@@ -1,0 +1,136 @@
+{
+  "id": "france",
+  "name": "France",
+  "nickname": "Les Bleus",
+  "accentColor": "#185FA5",
+  "flagEmoji": "🇫🇷",
+
+  "meta": {
+    "fifaRanking": 2,
+    "group": "I",
+    "groupOpponents": ["Senegal", "Iraq", "Norway"],
+    "oddsToWin": "+500",
+    "impliedProbability": "~17%",
+    "lastWCResult": "Final '22",
+    "manager": "Deschamps",
+    "managerTenure": "2012–present",
+    "formation": "4-3-3"
+  },
+
+  "narrative": {
+    "essence": "France enters 2026 as the co-favorite and arguably the most complete squad in the world — the rare team that can win ugly or win beautifully. The only question is whether Mbappé can finally carry his nation across the finish line at a tournament, not just to it.",
+    "footballIdentity": "France's football story is inseparable from its immigration story. Most of this squad grew up in the banlieues of Paris, Lyon, and Marseille — products of a system that funnels talent from the suburbs into elite academies. When France wins, the country celebrates. When they lose, it debates what it means to be French. That weight follows them everywhere.",
+    "theMoment": "France enters 2026 in a politically fractured moment. Macron's snap election gamble in 2024 left him weakened, with a hung parliament and no clear governing majority. Growth is sluggish, debt is elevated, and social cohesion is strained. A World Cup run would be more than sport — it would be a rare moment of national unity in a country that badly needs one. The 1998 win briefly transcended all of it. France is chasing that again.",
+    "momentType": "political"
+  },
+
+  "keyPlayers": [
+    {
+      "name": "Kylian Mbappé",
+      "club": "Real Madrid",
+      "position": "Striker",
+      "badge": "Captain",
+      "note": "The center of gravity. Drifts left, pulls defenders, creates lanes. Watch the runs in behind — that is when France is most dangerous."
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "club": "PSG",
+      "position": "Right wing",
+      "badge": "Ballon d'Or '24",
+      "note": "The co-star who became a star. Direct, unpredictable, thrives on the counter. Eats when Mbappé draws the double-team."
+    },
+    {
+      "name": "Aurélien Tchouaméni",
+      "club": "Real Madrid",
+      "position": "Defensive mid",
+      "badge": null,
+      "note": "The hidden engine. Elite interception positioning. Does the dirty work that lets everyone else express themselves."
+    },
+    {
+      "name": "Mike Maignan",
+      "club": "AC Milan",
+      "position": "Goalkeeper",
+      "badge": null,
+      "note": "A sweeper-keeper who reads danger early. His distribution starts France's transitions. Often the difference in tight games."
+    }
+  ],
+
+  "tactics": {
+    "styleTags": ["High press", "Fast transitions", "Wide rotations"],
+    "tacticalNote": "France doesn't possess and probe — they press, recover, and explode. Mbappé and Dembélé swap flanks to confuse fullbacks while a #10 drops centrally. The transition is the system. In 10 seconds from a turnover, they can be in your net.",
+    "strength": "Counter-attack speed is unmatched — overcommit forward and France punishes you in three passes.",
+    "vulnerability": "Slow to set their shape after losing the ball — direct teams with pace in behind can exploit the high line."
+  },
+
+  "watchFor": [
+    "Mbappé's movement off the ball — he drifts left and pulls center-backs, opening lanes for runners from deep.",
+    "Tchouaméni's cover shadow before the press triggers — his body angle tells you where the ball is going.",
+    "Deschamps' substitutions around the 65th minute — they telegraph exactly how France intends to close the game."
+  ],
+
+  "schedule": [
+    {
+      "date": "Jun 16",
+      "time": "3PM ET",
+      "opponent": "Senegal",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford, NJ",
+      "isAway": false
+    },
+    {
+      "date": "Jun 22",
+      "time": "5PM ET",
+      "opponent": "Iraq",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia, PA",
+      "isAway": false
+    },
+    {
+      "date": "Jun 26",
+      "time": "3PM ET",
+      "opponent": "Norway",
+      "venue": "Gillette Stadium",
+      "city": "Foxborough, MA",
+      "isAway": true
+    }
+  ],
+
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "Final", "tier": "final" },
+    { "year": 2018, "host": "Russia", "result": "Won", "tier": "winner" },
+    { "year": 2014, "host": "Brazil", "result": "QF", "tier": "deep" },
+    { "year": 2010, "host": "S. Africa", "result": "Groups", "tier": "early" },
+    { "year": 2006, "host": "Germany", "result": "Final", "tier": "final" },
+    { "year": 2002, "host": "Korea/Japan", "result": "Groups", "tier": "early" },
+    { "year": 1998, "host": "France", "result": "Won", "tier": "winner" },
+    { "year": 1994, "host": "USA", "result": "DNQ", "tier": "dnq" }
+  ],
+
+  "allTimeRecord": {
+    "played": 66,
+    "won": 34,
+    "drawn": 13,
+    "lost": 19,
+    "scored": 120,
+    "conceded": 77,
+    "appearances": 16,
+    "titles": 2,
+    "finals": 4
+  },
+
+  "pitch": {
+    "players": [
+      { "name": "Maignan", "shortName": "Maignan", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Koundé", "shortName": "Koundé", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Saliba", "shortName": "Saliba", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Upamecano", "shortName": "Upamecano", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "T. Hernández", "shortName": "T. Hernández", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Camavinga", "shortName": "Camavinga", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Tchouaméni", "shortName": "Tchouaméni", "position": "DM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Rabiot", "shortName": "Rabiot", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Dembélé", "shortName": "Dembélé", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Mbappé", "shortName": "Mbappé", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 372 },
+      { "name": "Griezmann", "shortName": "Griezmann", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

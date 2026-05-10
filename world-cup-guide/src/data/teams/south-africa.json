@@ -1,0 +1,131 @@
+{
+  "id": "south-africa",
+  "name": "South Africa",
+  "nickname": "Bafana Bafana",
+  "accentColor": "#007A4D",
+  "flagEmoji": "🇿🇦",
+
+  "meta": {
+    "fifaRanking": 57,
+    "group": "A",
+    "groupOpponents": ["Mexico", "South Korea", "Czechia"],
+    "oddsToWin": "+10000",
+    "impliedProbability": "~1%",
+    "lastWCResult": "Groups '10",
+    "manager": "Hugo Broos",
+    "managerTenure": "2021–present",
+    "formation": "4-3-3"
+  },
+
+  "narrative": {
+    "essence": "South Africa returns to the World Cup for the first time since they hosted it in 2010, ending a 16-year absence. Bafana Bafana arrive not as contenders but as a nation rediscovering its football identity — and in Group A, they have nothing to lose.",
+    "footballIdentity": "Football in South Africa carries the weight of democracy. The 2010 World Cup, when South Africa became the first African nation to host the tournament, was a transformative national moment. The vuvuzela, the spirit, the flag — Bafana Bafana are tied to a country's post-apartheid self-image. Their return to the global stage in 2026 is as much political redemption as it is sporting achievement.",
+    "theMoment": "South Africa qualified for their first World Cup since 2010 after years of underperformance that prompted serious questions about the state of South African football. Coach Hugo Broos, a Belgian with a reputation for rebuilding struggling programs, transformed a dispirited squad into AFCON contenders. The political symbolism of returning to football's biggest stage — especially with South Africa's socioeconomic tensions — makes this more than just sport.",
+    "momentType": "historical"
+  },
+
+  "keyPlayers": [
+    {
+      "name": "Percy Tau",
+      "club": "Al Ahly",
+      "position": "Left wing",
+      "badge": "Captain",
+      "note": "The creative heart of Bafana Bafana. Technically gifted, experienced, and carries the team's attacking ambition. Leads by example."
+    },
+    {
+      "name": "Themba Zwane",
+      "club": "Mamelodi Sundowns",
+      "position": "Attacking mid",
+      "badge": null,
+      "note": "The domestic star who has become a genuine international threat. Quick, inventive, and South Africa's most creative midfielder."
+    },
+    {
+      "name": "Bongani Zungu",
+      "club": "Mamelodi Sundowns",
+      "position": "Defensive mid",
+      "badge": null,
+      "note": "The engine room. Hard-working box-to-box midfielder who provides defensive cover and drives forward on the right moments."
+    },
+    {
+      "name": "Evidence Makgopa",
+      "club": "Orlando Pirates",
+      "position": "Striker",
+      "badge": null,
+      "note": "Powerful, physical striker with excellent hold-up play. Gave South Africa an aerial presence they previously lacked."
+    }
+  ],
+
+  "tactics": {
+    "styleTags": ["Organized", "Physical", "Counter-attack"],
+    "tacticalNote": "Broos organizes South Africa in a disciplined 4-3-3 that prioritizes shape and defensive solidity first. They press when it makes sense but are comfortable sitting in a mid-block and absorbing pressure. The attack relies on Tau's creativity and quick transitions through the wide areas.",
+    "strength": "Defensive organization and collective spirit — this team is well-drilled and will be difficult to break down despite individual quality gaps.",
+    "vulnerability": "Limited technical quality in midfield means they struggle to maintain possession and can be pinned back for long periods."
+  },
+
+  "watchFor": [
+    "Percy Tau's link-up play — he drops deep to receive, turns, and releases forwards. He's the connective tissue of everything they do.",
+    "South Africa's defensive shape — Broos has them in a tight mid-block that can frustrate possession teams significantly.",
+    "Set piece defending — given their height disadvantage against some opponents, dead-ball situations are where they're most exposed."
+  ],
+
+  "schedule": [
+    {
+      "date": "Jun 11",
+      "time": "3PM ET",
+      "opponent": "Mexico",
+      "venue": "Estadio Azteca",
+      "city": "Mexico City",
+      "isAway": true
+    },
+    {
+      "date": "Jun 18",
+      "time": "12PM ET",
+      "opponent": "Czechia",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "isAway": true
+    },
+    {
+      "date": "Jun 24",
+      "time": "9PM ET",
+      "opponent": "South Korea",
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
+      "isAway": false
+    }
+  ],
+
+  "history": [
+    { "year": 2010, "host": "S. Africa", "result": "Groups", "tier": "early" },
+    { "year": 2002, "host": "Korea/Japan", "result": "Groups", "tier": "early" },
+    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" }
+  ],
+
+  "allTimeRecord": {
+    "played": 9,
+    "won": 1,
+    "drawn": 3,
+    "lost": 5,
+    "scored": 10,
+    "conceded": 16,
+    "appearances": 3,
+    "titles": 0,
+    "finals": 0
+  },
+
+  "pitch": {
+    "players": [
+      { "name": "Williams", "shortName": "Williams", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Mudau", "shortName": "Mudau", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Xulu", "shortName": "Xulu", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Ndlovu", "shortName": "Ndlovu", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Sibisi", "shortName": "Sibisi", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Mokoena", "shortName": "Mokoena", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Zungu", "shortName": "Zungu", "position": "DM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Zwane", "shortName": "Zwane", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Hlongwane", "shortName": "Hlongwane", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Makgopa", "shortName": "Makgopa", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Tau", "shortName": "Tau", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 63, "y": 362 }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "spain",
+  "name": "Spain",
+  "nickname": "La Roja",
+  "accentColor": "#C60B1E",
+  "flagEmoji": "🇪🇸",
+  "meta": {
+    "fifaRanking": 1,
+    "group": "H",
+    "groupOpponents": ["Uruguay", "Saudi Arabia", "Cape Verde"],
+    "oddsToWin": "+600",
+    "impliedProbability": "~14%",
+    "lastWCResult": "QF '22",
+    "manager": "Luis de la Fuente",
+    "managerTenure": "2023–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "Euro 2024 champions, FIFA world number one, and home to the best young player on the planet. Spain enters 2026 not as the patient possession masters of 2010 but as something faster, more direct, and arguably more dangerous — the golden era has evolved into something new.",
+    "footballIdentity": "No country in the world has internalized football so completely at every level. Spain's La Liga produced the greatest club rivalry in sport, its academies at Barcelona and Real Madrid have been football finishing schools for generations of world-class talent, and the national team's period of dominance between 2008 and 2012 — two Euros and a World Cup — reset expectations for what a football country can achieve. The tiki-taka revolution changed how the world plays the game.",
+    "theMoment": "Lamine Yamal turned 17 during Euro 2024 and was the best player in the tournament. Rodri won the Ballon d'Or and anchors the midfield with rare intelligence. Pedri at Barcelona represents a generational talent in the mold of Iniesta. Spain's group — Uruguay, Saudi Arabia, Cape Verde — is genuinely winnable without breaking a sweat, setting up a potential deep run in an American continent where La Roja has enormous support. The question isn't whether Spain can win. It's whether they can finally convert their quality into a second World Cup title.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Rodri",
+      "club": "Manchester City",
+      "position": "DM",
+      "badge": "Ballon d'Or '24",
+      "note": "The Ballon d'Or winner and the best defensive midfielder in the world. Rodri's ability to control tempo, intercept threats before they develop, and distribute the ball to Spain's attacking players makes him the fulcrum around which everything else revolves. Spain are a different team without him — they lost Euro 2024's final with him injured."
+    },
+    {
+      "name": "Lamine Yamal",
+      "club": "Barcelona",
+      "position": "RW",
+      "badge": "Euro '24 Star",
+      "note": "The most electrifying teenager in world football, Yamal's pace, dribbling, and ability to cut inside from the right and deliver in the final third are extraordinary for any age. He scored one of the great goals in Euro 2024 history. By 2026 he'll be 18 — still barely an adult — and already one of the best players on the planet."
+    },
+    {
+      "name": "Pedri",
+      "club": "Barcelona",
+      "position": "CM",
+      "badge": null,
+      "note": "The natural heir to Xavi and Iniesta's creative tradition — Pedri's touch, movement between the lines, and ability to change the tempo of games make him one of the most complete midfielders in the world. At 23, he's entering his prime years and will be the engine of Spain's attacking build-up."
+    },
+    {
+      "name": "Dani Olmo",
+      "club": "Barcelona",
+      "position": "AM",
+      "badge": null,
+      "note": "The versatile attacker who proved his quality in the highest pressure moments at Euro 2024, Olmo's ability to operate in tight spaces and combine quickly makes him a constant threat. He can play centrally or wide, giving de la Fuente tactical flexibility in attack."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Positional Play", "High Press", "Technical", "Youth-Powered"],
+    "tacticalNote": "De la Fuente's Spain maintains the positional principles of the tiki-taka era but with considerably more directness and pace. Yamal's threat on the right creates constant width and one-on-one situations, while Pedri and Rodri control the midfield battle. The press is ferocious and well-organized — Spain aims to win the ball high and immediately transition into attacking positions. Against weaker opponents, Spain can control the ball for extended periods; against better teams, they have the individual quality to break defenses in transition.",
+    "strength": "The combination of Rodri's defensive control, Pedri's creativity, and Yamal's unpredictability creates a team that is exceptionally difficult to both press and defend against simultaneously.",
+    "vulnerability": "Spain can be vulnerable if Rodri is unavailable through injury or suspension — his presence is so foundational that the team's defensive balance deteriorates noticeably without him."
+  },
+  "watchFor": [
+    "Lamine Yamal in one-on-one situations — he's among the most unplayable dribblers in the world and creates havoc every time he receives the ball",
+    "Rodri's positioning and interceptions — he reads the game at a level that makes Spain seem to have an extra player",
+    "Spain's pressing triggers — they are one of the most coordinated pressing teams in the world and can suffocate opponents into mistakes in dangerous areas"
+  ],
+  "schedule": [
+    { "date": "Jun 15", "time": "12PM ET", "opponent": "Cape Verde", "venue": "Mercedes-Benz Stadium", "city": "Atlanta", "isAway": false },
+    { "date": "Jun 21", "time": "12PM ET", "opponent": "Saudi Arabia", "venue": "Mercedes-Benz Stadium", "city": "Atlanta", "isAway": false },
+    { "date": "Jun 26", "time": "8PM ET", "opponent": "Uruguay", "venue": "Estadio Akron", "city": "Guadalajara", "isAway": true }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "QF", "tier": "deep" },
+    { "year": 2018, "host": "Russia", "result": "R16", "tier": "deep" },
+    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
+    { "year": 2010, "host": "South Africa", "result": "Winner", "tier": "winner" },
+    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "QF", "tier": "deep" },
+    { "year": 1998, "host": "France", "result": "R16", "tier": "deep" },
+    { "year": 1994, "host": "USA", "result": "QF", "tier": "deep" }
+  ],
+  "allTimeRecord": {
+    "played": 71,
+    "won": 34,
+    "drawn": 23,
+    "lost": 14,
+    "scored": 107,
+    "conceded": 65,
+    "appearances": 16,
+    "titles": 1,
+    "finals": 2
+  },
+  "pitch": {
+    "players": [
+      { "name": "Unai Simón", "shortName": "U. Simón", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Dani Carvajal", "shortName": "Carvajal", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Aymeric Laporte", "shortName": "Laporte", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Robin Le Normand", "shortName": "Le Normand", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Marc Cucurella", "shortName": "Cucurella", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Rodri", "shortName": "Rodri", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 348, "y": 244 },
+      { "name": "Pedri", "shortName": "Pedri", "position": "CM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Dani Olmo", "shortName": "Olmo", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Lamine Yamal", "shortName": "Yamal", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Álvaro Morata", "shortName": "Morata", "position": "ST", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Nico Williams", "shortName": "N. Williams", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

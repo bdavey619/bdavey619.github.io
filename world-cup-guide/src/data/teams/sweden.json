@@ -1,0 +1,127 @@
+{
+  "id": "sweden",
+  "name": "Sweden",
+  "nickname": "Blågult",
+  "accentColor": "#006AA7",
+  "flagEmoji": "🇸🇪",
+  "meta": {
+    "fifaRanking": 27,
+    "group": "F",
+    "groupOpponents": ["Netherlands", "Japan", "Tunisia"],
+    "oddsToWin": "+4000",
+    "impliedProbability": "~2.4%",
+    "lastWCResult": "QF '18",
+    "manager": "Jon Dahl Tomasson",
+    "managerTenure": "2022–present",
+    "formation": "4-2-3-1"
+  },
+  "narrative": {
+    "essence": "Sweden ended a four-year qualifying drought to return to the World Cup with Alexander Isak — one of Europe's finest strikers — leading the attack. After the Zlatan era defined Swedish football for a decade, Blågult is building an identity around collective organization and an individual superstar of a completely different type.",
+    "footballIdentity": "Swedish football is defined by pragmatism, organization, and the occasional emergence of a player of extraordinary individual quality who carries the nation on their back. Gunnar Nordahl in the 1950s, Henrik Larsson in the 1990s and 2000s, Zlatan Ibrahimović for the entirety of the 2000s and 2010s. The system is built to support those individuals, and Blågult at their best combine tactical discipline with moments of individual brilliance that can beat anyone on a given day.",
+    "theMoment": "Isak at Newcastle is one of the Premier League's most complete strikers — technically excellent, physically imposing, and with a finishing quality that few English-based players can match. Kulusevski at Tottenham provides the creative spark. Sweden qualified for 2026 after missing 2022, and the hunger of a team that remembers what it felt like to be absent gives Tomasson's squad a sharpness that qualification campaigns alone rarely create.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Alexander Isak",
+      "club": "Newcastle United",
+      "position": "Striker",
+      "badge": "Captain",
+      "note": "One of the Premier League's most complete forwards — tall, technically excellent, quick, and a genuinely elite finisher on both feet. Isak's ability to hold the ball, create for teammates, and then finish clinical chances with both feet and his head makes him the most dangerous Swedish striker since Zlatan. Everything Sweden do in attack is oriented around unlocking his qualities."
+    },
+    {
+      "name": "Dejan Kulusevski",
+      "club": "Tottenham Hotspur",
+      "position": "Attacking Midfielder / Right Wing",
+      "badge": null,
+      "note": "The creative fulcrum of Sweden's attacking play — Kulusevski's ability to drive with the ball, play incisive passes in tight spaces, and arrive in the penalty area late gives Sweden a playmaker who operates in the most dangerous areas. His Premier League experience and chemistry with Isak from training camps and national duty gives their partnership a natural fluency."
+    },
+    {
+      "name": "Victor Nilsson Lindelöf",
+      "club": "Manchester United",
+      "position": "Centre Back",
+      "badge": null,
+      "note": "The defensive leader and organizer of Sweden's backline. Lindelöf's composure on the ball, aerial dominance, and experience in the Premier League's most pressurized environment makes him the bedrock of Tomasson's defensive structure. His ability to play out from the back is central to how Sweden build their attacks."
+    },
+    {
+      "name": "Mattias Svanberg",
+      "club": "Wolverhampton Wanderers",
+      "position": "Central Midfielder",
+      "badge": null,
+      "note": "A box-to-box midfielder of Premier League quality who provides the energy and discipline to allow Kulusevski's more advanced, creative role. Svanberg's pressing intensity, ball-winning, and ability to carry the ball forward make him the unglamorous but essential midfield link that holds Sweden's system together."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Organized", "Physical", "Direct", "Set Pieces", "Counter-Attack"],
+    "tacticalNote": "Tomasson's 4-2-3-1 is structured around protecting Isak with quality service and giving Kulusevski the freedom to create. Two holding midfielders provide the defensive foundation while fullbacks push to provide width, allowing Kulusevski to drift inside and combine with Isak centrally. Sweden are highly dangerous from set pieces — both Isak and Lindelöf are aerial threats — and transition play is organized to reach Isak quickly in space.",
+    "strength": "Isak's individual quality is a match-winner against any opponent — one moment of quality in the final third and Sweden can beat anyone in Group F.",
+    "vulnerability": "Over-reliance on the Isak-Kulusevski combination means that if either player is effectively nullified or injured, Sweden's attacking ideas become limited."
+  },
+  "watchFor": [
+    "Isak's movement to receive the ball with his back to goal — how he holds it up and turns against Lindelöf-class defenders will define Sweden's attacking effectiveness",
+    "Kulusevski's runs from the right — when he's allowed to cut inside from wide, his shooting and passing are among the most dangerous in the group",
+    "Sweden's set piece delivery and aerial threat — Tomasson's teams are exceptionally well-drilled from corners and free kicks"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 14",
+      "time": "10PM ET",
+      "opponent": "Tunisia",
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
+      "isAway": false
+    },
+    {
+      "date": "Jun 20",
+      "time": "1PM ET",
+      "opponent": "Netherlands",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "isAway": true
+    },
+    {
+      "date": "Jun 25",
+      "time": "7PM ET",
+      "opponent": "Japan",
+      "venue": "AT&T Stadium",
+      "city": "Dallas",
+      "isAway": true
+    }
+  ],
+  "history": [
+    { "year": 2018, "host": "Russia", "result": "QF", "tier": "deep" },
+    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "R16", "tier": "deep" },
+    { "year": 1994, "host": "USA", "result": "SF", "tier": "sf" },
+    { "year": 1990, "host": "Italy", "result": "R16", "tier": "deep" },
+    { "year": 1978, "host": "Argentina", "result": "Groups", "tier": "early" },
+    { "year": 1974, "host": "West Germany", "result": "Groups", "tier": "early" },
+    { "year": 1958, "host": "Sweden", "result": "Final", "tier": "final" }
+  ],
+  "allTimeRecord": {
+    "played": 51,
+    "won": 16,
+    "drawn": 15,
+    "lost": 20,
+    "scored": 75,
+    "conceded": 69,
+    "appearances": 12,
+    "titles": 0,
+    "finals": 1
+  },
+  "pitch": {
+    "players": [
+      { "name": "Robin Olsen", "shortName": "Olsen", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Emil Krafth", "shortName": "Krafth", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Victor Nilsson Lindelöf", "shortName": "Lindelöf", "position": "RCB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Carl Starfelt", "shortName": "Starfelt", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Ludwig Augustinsson", "shortName": "Augustinsson", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Mattias Svanberg", "shortName": "Svanberg", "position": "RDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 220 },
+      { "name": "Albin Ekdal", "shortName": "Ekdal", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
+      { "name": "Dejan Kulusevski", "shortName": "Kulusevski", "position": "RAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 310 },
+      { "name": "Jesper Karlsson", "shortName": "Karlsson", "position": "CAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 300 },
+      { "name": "Samuel Adingra", "shortName": "Adingra", "position": "LAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 310 },
+      { "name": "Alexander Isak", "shortName": "Isak", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 390 }
+    ]
+  }
+}

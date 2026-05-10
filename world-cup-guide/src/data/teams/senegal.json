@@ -1,0 +1,101 @@
+{
+  "id": "senegal",
+  "name": "Senegal",
+  "nickname": "The Lions of Teranga",
+  "accentColor": "#00853F",
+  "flagEmoji": "🇸🇳",
+  "meta": {
+    "fifaRanking": 20,
+    "group": "I",
+    "groupOpponents": ["France", "Norway", "Iraq"],
+    "oddsToWin": "+2000",
+    "impliedProbability": "~5%",
+    "lastWCResult": "R16 '22",
+    "manager": "Aliou Cissé",
+    "managerTenure": "2015–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "The reigning African champions are in the same group as France — the country that colonized them, the country many of their best players left to become stars. The Lions of Teranga carry a continent's weight and a complex history into every match against Les Bleus.",
+    "footballIdentity": "Senegal's football identity was forged in that extraordinary 2002 debut — a first World Cup appearance that ended in the quarter-finals, defeating defending champion France along the way. It announced West African football to the world in a way that couldn't be ignored. The country has since become Africa's most consistent international power, winning back-to-back AFCON titles in 2021 and 2022. Aliou Cissé has built a culture of defensive discipline married to explosive attacking quality.",
+    "theMoment": "Sadio Mané is entering the final chapter of a legendary career. The AFCON titles proved Senegal can win tournaments, but they've never reached the World Cup's final four. Pape Matar Sarr at Tottenham represents the future — a player who can be Senegal's answer to the next generation. France in the opener is the group's defining match: a result against the world's third-ranked team would change everything. Senegal has beaten France at a World Cup before.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Sadio Mané",
+      "club": "Al-Nassr",
+      "position": "LW",
+      "badge": "Captain",
+      "note": "The leader, the talisman, and the greatest player Senegal has ever produced. Mané's pace, directness, and ability to score and create in equal measure made him one of the best forwards in the world during his Liverpool years. At Al-Nassr his career has shifted, but in a Senegal shirt, with national pride on the line, Mané still elevates everything around him."
+    },
+    {
+      "name": "Edouard Mendy",
+      "club": "Al-Ahli",
+      "position": "GK",
+      "badge": null,
+      "note": "The Champions League winner and former Chelsea goalkeeper who brings elite experience to Senegal's backline. Mendy's shot-stopping and command of his area are extraordinary — he was crucial to both of Senegal's AFCON title runs and will be tested against France and Norway's attack."
+    },
+    {
+      "name": "Kalidou Koulibaly",
+      "club": "Al-Hilal",
+      "position": "CB",
+      "badge": null,
+      "note": "One of the most dominant center-backs of his generation, Koulibaly's physicality, aerial ability, and aggressive defending made him one of Serie A's best defenders across a decade at Napoli. The defensive anchor of Senegal's backline, his leadership keeps the team organized under pressure."
+    },
+    {
+      "name": "Pape Matar Sarr",
+      "club": "Tottenham",
+      "position": "CM",
+      "badge": null,
+      "note": "The next generation of Senegalese football, Sarr's energy, athleticism, and growing technical quality make him one of the most exciting young midfielders in Africa. At Tottenham he has developed rapidly, and at a World Cup he has the platform to announce himself to the world in the way Mané did in 2002."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Physical", "Direct", "Defensive Discipline", "Pace on Wings"],
+    "tacticalNote": "Aliou Cissé has built Senegal into a hard-to-beat unit that is organized defensively and dangerous on the counter. The 4-3-3 uses wide forwards — Mané and the right winger — to stretch defenses and provide rapid transition options. Koulibaly and the defensive line are physically dominant and difficult to break down. In the middle, Pape Matar Sarr's energy allows the team to press forward without leaving gaps. Against France, Cissé will likely park the bus and look to hit on the break — exactly the scenario that produced the 2002 upset.",
+    "strength": "Senegal's combination of elite defensive organization, pace in transition, and the individual quality of Mané means they can absorb pressure and strike decisively — a dangerous combination in knockout football.",
+    "vulnerability": "If Mané is kept quiet and Senegal are forced to create chances through other means, their attacking depth is less certain — they can become predictable in sustained possession play."
+  },
+  "watchFor": [
+    "Mané versus France's defense in the opening group game — a rematch 24 years after Senegal shocked the world by beating France",
+    "Pape Matar Sarr's midfield battles — this tournament could be his coronation as Africa's next great player",
+    "Edouard Mendy in high-pressure moments — he's one of the world's best big-game goalkeepers"
+  ],
+  "schedule": [
+    { "date": "Jun 16", "time": "3PM ET", "opponent": "France", "venue": "MetLife Stadium", "city": "East Rutherford, NJ", "isAway": true },
+    { "date": "Jun 22", "time": "8PM ET", "opponent": "Norway", "venue": "MetLife Stadium", "city": "East Rutherford, NJ", "isAway": true },
+    { "date": "Jun 26", "time": "3PM ET", "opponent": "Iraq", "venue": "BMO Field", "city": "Toronto", "isAway": false }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "R16", "tier": "deep" },
+    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "QF", "tier": "deep" }
+  ],
+  "allTimeRecord": {
+    "played": 13,
+    "won": 5,
+    "drawn": 2,
+    "lost": 6,
+    "scored": 14,
+    "conceded": 19,
+    "appearances": 4,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Edouard Mendy", "shortName": "Mendy", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Bouna Sarr", "shortName": "B. Sarr", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Kalidou Koulibaly", "shortName": "Koulibaly", "position": "RCB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Abdou Diallo", "shortName": "A. Diallo", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Ismail Jakobs", "shortName": "Jakobs", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Idrissa Gueye", "shortName": "Gueye", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Cheikhou Kouyaté", "shortName": "Kouyaté", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Pape Matar Sarr", "shortName": "P.M. Sarr", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Ismaïla Sarr", "shortName": "I. Sarr", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Habib Diallo", "shortName": "H. Diallo", "position": "ST", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Sadio Mané", "shortName": "Mané", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 63, "y": 362 }
+    ]
+  }
+}

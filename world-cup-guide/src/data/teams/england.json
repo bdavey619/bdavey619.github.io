@@ -1,0 +1,127 @@
+{
+  "id": "england",
+  "name": "England",
+  "nickname": "Three Lions",
+  "accentColor": "#1C3D7A",
+  "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "meta": {
+    "fifaRanking": 4,
+    "group": "L",
+    "groupOpponents": ["Croatia", "Ghana", "Panama"],
+    "oddsToWin": "+900",
+    "impliedProbability": "~10%",
+    "lastWCResult": "QF '22",
+    "manager": "Thomas Tuchel",
+    "managerTenure": "2024–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "Sixty years. One World Cup. England's golden generation — Bellingham, Kane, Saka, Foden — arrives at its peak, under a new manager, with the weight of 1966 pressing down on every performance and an entire nation refusing to believe it will finally happen this time.",
+    "footballIdentity": "England invented the game and gave it to the world, then spent most of the following century watching others win it back. The Three Lions carry a peculiar national burden — a country that pioneered football, won it once in 1966, and has been navigating the gap between expectation and reality ever since. The Premier League has made England the center of world club football; the national team has remained frustratingly short of the summit.",
+    "theMoment": "This is England's golden generation at its absolute peak. Jude Bellingham is 22 — a transcendent talent who has already won the Champions League with Real Madrid. Harry Kane is 32 and a Premier League and Bundesliga top scorer who has never won a major trophy. Bukayo Saka is 24, Phil Foden is 26. Thomas Tuchel brings tactical intelligence England's national team has rarely had. The generation is there. The moment is now. Sixty years of hurt ends — or the wait continues.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Jude Bellingham",
+      "club": "Real Madrid",
+      "position": "Attacking Midfielder",
+      "badge": "Captain",
+      "note": "At 22, Bellingham is already one of the three best players in world football. His Champions League winner's medal with Real Madrid, his goal-scoring from midfield, his leadership and composure under pressure — all of it marks him as a generational talent who was built for exactly this stage. England's tournament lives and dies with how high Bellingham can take it."
+    },
+    {
+      "name": "Harry Kane",
+      "club": "Bayern Munich",
+      "position": "Striker",
+      "badge": null,
+      "note": "England's all-time top scorer has the goals and the quality — but the World Cup has never delivered him a trophy, and at 32 this may be his last realistic chance. Kane's positioning, link play, and finishing remain world-class. His 2018 World Cup Golden Boot showed what he can do when England are firing. The nation is watching."
+    },
+    {
+      "name": "Bukayo Saka",
+      "club": "Arsenal",
+      "position": "Right Wing",
+      "badge": null,
+      "note": "England's most consistent performer over recent tournaments, Saka combines technical quality, directness, and an extraordinary work rate that makes him effective in both attacking and defensive phases. At 24 he is in his prime — a player who creates danger almost every time he gets the ball and who defends like a full back."
+    },
+    {
+      "name": "Phil Foden",
+      "club": "Manchester City",
+      "position": "Left Wing / Attacking Midfielder",
+      "badge": null,
+      "note": "A player of exceptional technical quality who sees space that others don't. Foden's dribbling in tight areas, his movement to find pockets between the lines, and his ability to produce decisive moments in big games mark him as England's most creative player when he is at his best."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Organized", "Technical", "Attacking Depth", "Set Pieces", "High Press"],
+    "tacticalNote": "Tuchel's England play a structured 4-3-3 that provides defensive solidity while giving creative freedom to Bellingham, Saka, and Foden. The full backs — particularly Trippier and Alexander-Arnold — are key to England's width and the delivery of set pieces, where Kane is a potent aerial threat. Bellingham operates as an advanced midfielder who arrives late into the penalty area, creating a goal threat that opponents struggle to account for. England's press is organized and triggered collectively, and Tuchel has sharpened the defensive shape that Southgate built while adding more attacking intensity.",
+    "strength": "Depth of attacking quality — England can hurt teams through multiple sources: Saka's dribbling, Foden's creativity, Bellingham's late runs, and Kane's finishing.",
+    "vulnerability": "Penalty shootouts — England's record from the spot has been historically traumatic, though recent tournaments have shown improvement."
+  },
+  "watchFor": [
+    "Bellingham's late runs from deep — he has a remarkable ability to arrive at the far post or arrive in the box unmarked to score",
+    "England's set piece delivery — with Alexander-Arnold, Trippier, and Saka delivering and Kane meeting balls, they are deadly from dead balls",
+    "Whether Tuchel unleashes a more aggressive pressing game than Southgate — the intensity under a new manager is the key variable"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 17",
+      "time": "4PM ET",
+      "opponent": "Croatia",
+      "venue": "AT&T Stadium",
+      "city": "Dallas",
+      "isAway": false
+    },
+    {
+      "date": "Jun 23",
+      "time": "4PM ET",
+      "opponent": "Ghana",
+      "venue": "Gillette Stadium",
+      "city": "Boston",
+      "isAway": false
+    },
+    {
+      "date": "Jun 27",
+      "time": "5PM ET",
+      "opponent": "Panama",
+      "venue": "MetLife Stadium",
+      "city": "New York/New Jersey",
+      "isAway": true
+    }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "QF", "tier": "deep" },
+    { "year": 2018, "host": "Russia", "result": "SF", "tier": "sf" },
+    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
+    { "year": 2010, "host": "South Africa", "result": "R16", "tier": "deep" },
+    { "year": 2006, "host": "Germany", "result": "QF", "tier": "deep" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "QF", "tier": "deep" },
+    { "year": 1998, "host": "France", "result": "R16", "tier": "deep" },
+    { "year": 1990, "host": "Italy", "result": "SF", "tier": "sf" }
+  ],
+  "allTimeRecord": {
+    "played": 72,
+    "won": 32,
+    "drawn": 24,
+    "lost": 16,
+    "scored": 101,
+    "conceded": 64,
+    "appearances": 16,
+    "titles": 1,
+    "finals": 2
+  },
+  "pitch": {
+    "players": [
+      { "name": "Jordan Pickford", "shortName": "Pickford", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Trent Alexander-Arnold", "shortName": "TAA", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "John Stones", "shortName": "Stones", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Harry Maguire", "shortName": "Maguire", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Kieran Trippier", "shortName": "Trippier", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Declan Rice", "shortName": "D. Rice", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Jude Bellingham", "shortName": "Bellingham", "position": "CM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 236 },
+      { "name": "Kobbie Mainoo", "shortName": "Mainoo", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Bukayo Saka", "shortName": "Saka", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Harry Kane", "shortName": "Kane", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Phil Foden", "shortName": "Foden", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

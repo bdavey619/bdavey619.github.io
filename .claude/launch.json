@@ -2,28 +2,12 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "site-preview",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "4320"],
-      "port": 4320
-    },
-    {
-      "name": "yankees-preview",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "4322", "--directory", "yankees"],
-      "port": 4322
-    },
-    {
-      "name": "padres-preview",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "4323", "--directory", "padres"],
-      "port": 4323
-    },
-    {
-      "name": "mustwatch-preview",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "4321", "--directory", "mustwatch"],
-      "port": 4321
+      "name": "world-cup-guide",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "world-cup-guide",
+      "port": 5175,
+      "autoPort": true
     }
   ]
 }

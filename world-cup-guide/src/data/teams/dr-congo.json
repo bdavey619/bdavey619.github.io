@@ -1,0 +1,120 @@
+{
+  "id": "dr-congo",
+  "name": "DR Congo",
+  "nickname": "Les Léopards",
+  "accentColor": "#007FFF",
+  "flagEmoji": "🇨🇩",
+  "meta": {
+    "fifaRanking": 61,
+    "group": "K",
+    "groupOpponents": ["Portugal", "Uzbekistan", "Colombia"],
+    "oddsToWin": "+8000",
+    "impliedProbability": "~1.2%",
+    "lastWCResult": "Groups '74 (as Zaire)",
+    "manager": "Sébastien Desabre",
+    "managerTenure": "2022–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "Fifty-two years after Zaire suffered one of the World Cup's most humiliating campaigns — including a 9-0 defeat to Yugoslavia — the Democratic Republic of Congo returns to the global stage as a nation with genuine quality, Premier League talent, and a point to prove to the world.",
+    "footballIdentity": "The DRC is one of Africa's great sleeping footballing giants — a country of over 100 million people with a football culture that runs deep across the Congo Basin. The 1974 Zaire campaign, remembered for Mwepu Ilunga's bizarre free-kick run against Brazil, happened in a political context of extraordinary pressure on players by the Mobutu regime. Modern Congolese football has shed that weight and produced players competing at the highest levels of European football across multiple generations.",
+    "theMoment": "The DRC reaches the World Cup 52 years after Zaire's painful 1974 appearance — in a country that has endured decades of civil conflict, displacement, and instability that makes Jordan's refugee context look comparable in weight. Yoane Wissa's goals for Brentford and his move into a bigger club spotlight have made the world pay attention to Congolese football again. Les Léopards arrive in 2026 not as a curiosity but as a genuine footballing nation finally back where they belong.",
+    "momentType": "historical"
+  },
+  "keyPlayers": [
+    {
+      "name": "Yoane Wissa",
+      "club": "Brentford",
+      "position": "Left Wing / Striker",
+      "badge": null,
+      "note": "Wissa is the DRC's most dynamic attacking threat — a forward with explosive pace, technical quality, and an instinct for goal that has made him one of the Premier League's most efficient strikers. His ability to play centrally or wide gives the DRC flexibility, and his confidence at the highest club level translates directly to international football."
+    },
+    {
+      "name": "Chancel Mbemba",
+      "club": "Olympique de Marseille",
+      "position": "Centre Back",
+      "badge": null,
+      "note": "An experienced, physically imposing centre back who has competed in Ligue 1 and European competition with Marseille. Mbemba's leadership and defensive authority give the DRC a reliable cornerstone at the back — someone who has handled pressure situations at a high level throughout his career."
+    },
+    {
+      "name": "Arthur Masuaku",
+      "club": "Beşiktaş",
+      "position": "Left Back",
+      "badge": null,
+      "note": "A dynamic, attack-minded left back whose crossing and overlapping runs provide the DRC with width and creativity down the left flank. His experience in the Premier League with West Ham has equipped him with the defensive discipline and attacking ambition that the DRC's system requires."
+    },
+    {
+      "name": "Théo Bongonda",
+      "club": "Genk",
+      "position": "Left Wing",
+      "badge": "Captain",
+      "note": "Bongonda's pace and direct running on the left flank have been a consistent threat throughout the DRC's qualification campaign. The Belgian Pro League veteran brings experience and quality that allows the DRC to threaten opponents on the counter-attack, particularly when paired with Wissa's movement through the middle."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Physical", "Technical", "Wide Play", "Pace", "Counter-Attack"],
+    "tacticalNote": "Desabre's 4-3-3 leverages the DRC's pace and physicality in wide areas — Wissa and Bongonda stretch defenses, creating space for the central striker and the midfield's late arrivals. The DRC press actively when they lose the ball, looking to win it high and transition quickly before opponents can reset. Against Portugal and Colombia they will need to defend their shape for long periods, but their counter-attacking threat is genuine enough to trouble any team. Mbemba and the defensive organization at the back is the foundation everything builds from.",
+    "strength": "Explosive wide threats with genuine pace — Wissa and Bongonda can trouble any defensive pairing when they have space to run at defenders.",
+    "vulnerability": "The step up from African qualification football to facing Portugal and Colombia is significant; sustained pressure from technically superior teams may expose gaps in midfield."
+  },
+  "watchFor": [
+    "Wissa's runs in behind — when he drops deep to receive and then turns and runs, he is nearly impossible to catch",
+    "How the DRC's defensive organization holds up under Portugal's sustained pressure in their opener",
+    "The Uzbekistan match — this is the DRC's best chance of a victory and it could define their group stage fate"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 17",
+      "time": "1PM ET",
+      "opponent": "Portugal",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "isAway": true
+    },
+    {
+      "date": "Jun 23",
+      "time": "10PM ET",
+      "opponent": "Colombia",
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "isAway": true
+    },
+    {
+      "date": "Jun 27",
+      "time": "7:30PM ET",
+      "opponent": "Uzbekistan",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "isAway": false
+    }
+  ],
+  "history": [
+    { "year": 1974, "host": "West Germany", "result": "Groups", "tier": "early" }
+  ],
+  "allTimeRecord": {
+    "played": 3,
+    "won": 0,
+    "drawn": 0,
+    "lost": 3,
+    "scored": 0,
+    "conceded": 14,
+    "appearances": 1,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Joël Kiassumbua", "shortName": "Kiassumbua", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Elia Meschack", "shortName": "Meschack", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Chancel Mbemba", "shortName": "Mbemba", "position": "RCB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Glody Likonza", "shortName": "Likonza", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Arthur Masuaku", "shortName": "Masuaku", "position": "LB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Gaël Kakuta", "shortName": "Kakuta", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Champagne Lukoki", "shortName": "Lukoki", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Samuel Bastien", "shortName": "Bastien", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Théo Bongonda", "shortName": "Bongonda", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 389, "y": 362 },
+      { "name": "Cédric Bakambu", "shortName": "Bakambu", "position": "ST", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Yoane Wissa", "shortName": "Wissa", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

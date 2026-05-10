@@ -1,0 +1,106 @@
+{
+  "id": "belgium",
+  "name": "Belgium",
+  "nickname": "The Red Devils",
+  "accentColor": "#EF3340",
+  "flagEmoji": "🇧🇪",
+  "meta": {
+    "fifaRanking": 3,
+    "group": "G",
+    "groupOpponents": ["Iran", "Egypt", "New Zealand"],
+    "oddsToWin": "+1400",
+    "impliedProbability": "~7%",
+    "lastWCResult": "QF '22",
+    "manager": "Domenico Tedesco",
+    "managerTenure": "2023–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "The golden generation that never won. Belgium assembled perhaps the most talented squad in their history — De Bruyne, Hazard, Lukaku, Courtois — and came away with nothing but a third-place finish in 2018. Now, with that era ending, 2026 is the farewell tour.",
+    "footballIdentity": "Belgium punches far above its weight for a country of 11 million. The nation's football infrastructure — club academies, the Pro League's connection to top European clubs — has produced a remarkable concentration of elite talent. Football here is intensely followed, divided along linguistic lines between Dutch-speaking Flanders and French-speaking Wallonia, yet united by the Red Devils.",
+    "theMoment": "Kevin De Bruyne turns 35 during this tournament. Romelu Lukaku has never delivered his best football on the World Cup stage. This is the last realistic opportunity for a generation that was ranked #1 in the world for a record 2,000+ days to prove it deserved all the hype. A group containing Iran, Egypt, and New Zealand offers the best possible platform — if Belgium don't emerge from this group convincingly, the post-mortem will be brutal.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Kevin De Bruyne",
+      "club": "Manchester City",
+      "position": "CM",
+      "badge": "Captain",
+      "note": "The heartbeat of the golden generation and arguably the best midfielder of his era. At 34, De Bruyne's passing range, vision, and ability to unlock defenses remain elite even as his legs slow. Every Belgian attack runs through him, and when he's on form, Belgium can beat anyone."
+    },
+    {
+      "name": "Romelu Lukaku",
+      "club": "Napoli",
+      "position": "ST",
+      "badge": null,
+      "note": "Belgium's all-time top scorer with over 80 international goals, Lukaku has always been a force of nature at club level but has puzzlingly underperformed at major tournaments. Physically imposing and technically capable of moments of brilliance, 2026 is his final chance to deliver when it matters most."
+    },
+    {
+      "name": "Jeremy Doku",
+      "club": "Manchester City",
+      "position": "RW",
+      "badge": null,
+      "note": "The most exciting young talent Belgium has produced in years, Doku's pace and dribbling ability at Man City have made him one of the most dangerous wide players in the Premier League. He represents the bridge between the golden generation and Belgium's future."
+    },
+    {
+      "name": "Leandro Trossard",
+      "club": "Arsenal",
+      "position": "LW",
+      "badge": null,
+      "note": "Intelligent, technical, and creative, Trossard has thrived under Mikel Arteta's system at Arsenal. His ability to operate in tight spaces and connect play makes him the ideal partner for De Bruyne in Belgium's attack."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Technical", "Individual Brilliance", "Transition", "Creative"],
+    "tacticalNote": "Tedesco has moved Belgium toward a more fluid 4-3-3 that allows De Bruyne to roam between the lines while Doku and Trossard provide width. The system relies heavily on individual quality — when players like De Bruyne and Lukaku are clicking, Belgium can dismantle any defense. The vulnerability has always been defensive organization and a tendency to struggle when opponents press them high and disrupt their rhythm.",
+    "strength": "The creative ceiling is extraordinary — De Bruyne orchestrating, Doku dribbling, Lukaku holding up play creates a combination very few defenses can handle for 90 minutes.",
+    "vulnerability": "Belgium's aging core means pressing intensity and defensive covering can break down in the second half of tight knockout matches, and they've historically struggled to control games emotionally."
+  },
+  "watchFor": [
+    "De Bruyne's passing range — when he's operating at his peak, every ball he plays is a potential assist",
+    "Doku's one-on-one situations on the right — he's one of the most unplayable dribblers in world football",
+    "Lukaku's movement in the box — if he's in the right headspace, he's nearly impossible to stop at this level"
+  ],
+  "schedule": [
+    { "date": "Jun 15", "time": "3PM ET", "opponent": "Egypt", "venue": "Lumen Field", "city": "Seattle", "isAway": false },
+    { "date": "Jun 21", "time": "3PM ET", "opponent": "Iran", "venue": "SoFi Stadium", "city": "Los Angeles", "isAway": false },
+    { "date": "Jun 26", "time": "11PM ET", "opponent": "New Zealand", "venue": "BC Place", "city": "Vancouver", "isAway": true }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "QF", "tier": "deep" },
+    { "year": 2018, "host": "Russia", "result": "3rd Place", "tier": "sf" },
+    { "year": 2014, "host": "Brazil", "result": "QF", "tier": "deep" },
+    { "year": 2010, "host": "South Africa", "result": "Groups", "tier": "early" },
+    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "R16", "tier": "deep" },
+    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
+    { "year": 1994, "host": "USA", "result": "R16", "tier": "deep" }
+  ],
+  "allTimeRecord": {
+    "played": 45,
+    "won": 14,
+    "drawn": 10,
+    "lost": 21,
+    "scored": 62,
+    "conceded": 69,
+    "appearances": 14,
+    "titles": 0,
+    "finals": 1
+  },
+  "pitch": {
+    "players": [
+      { "name": "Koen Casteels", "shortName": "Casteels", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Timothy Castagne", "shortName": "Castagne", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Wout Faes", "shortName": "Faes", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Jan Vertonghen", "shortName": "Vertonghen", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Arthur Theate", "shortName": "Theate", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Kevin De Bruyne", "shortName": "De Bruyne", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 348, "y": 244 },
+      { "name": "Youri Tielemans", "shortName": "Tielemans", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Leandro Trossard", "shortName": "Trossard", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Jeremy Doku", "shortName": "Doku", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Romelu Lukaku", "shortName": "Lukaku", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Lois Openda", "shortName": "Openda", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

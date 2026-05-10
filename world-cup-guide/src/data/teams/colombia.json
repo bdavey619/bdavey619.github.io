@@ -1,0 +1,125 @@
+{
+  "id": "colombia",
+  "name": "Colombia",
+  "nickname": "Los Cafeteros",
+  "accentColor": "#FCD116",
+  "flagEmoji": "🇨🇴",
+  "meta": {
+    "fifaRanking": 9,
+    "group": "K",
+    "groupOpponents": ["Portugal", "Uzbekistan", "DR Congo"],
+    "oddsToWin": "+1800",
+    "impliedProbability": "~5.3%",
+    "lastWCResult": "R16 '18",
+    "manager": "Néstor Lorenzo",
+    "managerTenure": "2022–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "Colombia arrive at 2026 as Copa América runners-up with Liverpool's heartbeat on the left wing, a 21-year-old goal machine up front, and a midfield that was built for exactly this moment. The pieces have finally aligned.",
+    "footballIdentity": "Colombian football has always blended flair with ferocity — the creative tradition of Valderrama, the goal-scoring of Falcao, and James's 2014 Golden Boot performance are chapters in a story of a nation that plays the game with irrepressible joy. Football in Colombia is woven into every social fabric, from the streets of Medellín and Cali to the coastal flair of Barranquilla. Los Cafeteros don't just play — they perform.",
+    "theMoment": "Colombia reached the 2024 Copa América final, going unbeaten throughout the tournament before a narrow loss to Argentina. Luis Díaz is Liverpool's most electric player. Jhon Durán is one of the most sought-after strikers in European football at just 21. Richard Ríos controls midfield with authority beyond his years. James Rodríguez, now 34, may still surprise one last time at a World Cup — the stage where he once claimed the Golden Boot. Everything points to this being Colombia's best squad since 2014.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Luis Díaz",
+      "club": "Liverpool",
+      "position": "Left Wing",
+      "badge": "Captain",
+      "note": "Díaz is Colombia's most complete footballer — explosive pace, technical quality on the ball, and an unquenchable desire to take defenders on and win. His performances for Liverpool, including crucial goals in Champions League campaigns, have made him one of the world's best wide forwards. When Díaz is flying, Colombia are a different team entirely."
+    },
+    {
+      "name": "Jhon Durán",
+      "club": "Chelsea",
+      "position": "Striker",
+      "badge": null,
+      "note": "At 21, Durán is one of the most exciting young strikers in European football — a powerful, direct forward with an eye for spectacular goals and the physical presence to bully centre-backs. His move from Aston Villa to Chelsea has accelerated his development. At a World Cup with Colombia's creative players around him, he could announce himself to the world."
+    },
+    {
+      "name": "Richard Ríos",
+      "club": "Palmeiras",
+      "position": "Central Midfielder",
+      "badge": null,
+      "note": "The beating heart of Colombia's midfield, Ríos combines tenacious ball-winning with intelligent distribution that shifts Colombia from defense to attack instantly. His Copa América 2024 performances established him as one of South America's premier midfielders. He is the engine that makes Lorenzo's system function."
+    },
+    {
+      "name": "James Rodríguez",
+      "club": "Rayo Vallecano",
+      "position": "Attacking Midfielder",
+      "badge": null,
+      "note": "The 2014 World Cup Golden Boot winner has had a career that never quite fulfilled its full promise, but James at a World Cup is a different beast entirely — the stage brings out his absolute best. At 34, he may be playing a squad role, but his ability to decide matches with moments of pure quality means his presence still matters enormously."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Technical", "Creative", "Fluid Attack", "High Energy", "Pressing"],
+    "tacticalNote": "Lorenzo's 4-3-3 is built on quick, vertical combinations and the ability to overload wide areas with Díaz's dynamic left-side threat complemented by the right winger's pace. Ríos anchors the midfield and distributes quickly, enabling Colombia to press high when they lose the ball and transition into attack at speed. Durán serves as the focal point — a physically imposing striker who can both hold up play and run in behind. Colombia's strength is that they can hurt teams in multiple ways: through Díaz's dribbling, Durán's movement, and James's creativity if he enters the game.",
+    "strength": "Attacking variety — Colombia can hurt teams through Luis Díaz's directness, Durán's physicality, and the midfield's late arrivals into the box.",
+    "vulnerability": "The transition from Copa América form to World Cup group stage pressure; Colombia can be inconsistent against teams who press high and disrupt their rhythm."
+  },
+  "watchFor": [
+    "Díaz vs. right backs — he will target them relentlessly and Colombia's attacking moments will flow through his side",
+    "Durán's link play and finishing — watch for his clever runs to create space before arriving with power in the box",
+    "Whether James starts — if Lorenzo uses him, Colombia's creativity increases exponentially in the final third"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 17",
+      "time": "10PM ET",
+      "opponent": "Uzbekistan",
+      "venue": "Estadio Azteca",
+      "city": "Mexico City",
+      "isAway": false
+    },
+    {
+      "date": "Jun 23",
+      "time": "10PM ET",
+      "opponent": "DR Congo",
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "isAway": false
+    },
+    {
+      "date": "Jun 27",
+      "time": "7:30PM ET",
+      "opponent": "Portugal",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami",
+      "isAway": false
+    }
+  ],
+  "history": [
+    { "year": 2018, "host": "Russia", "result": "R16", "tier": "deep" },
+    { "year": 2014, "host": "Brazil", "result": "QF", "tier": "deep" },
+    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
+    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
+    { "year": 1994, "host": "USA", "result": "R16", "tier": "deep" },
+    { "year": 1990, "host": "Italy", "result": "R16", "tier": "deep" }
+  ],
+  "allTimeRecord": {
+    "played": 24,
+    "won": 8,
+    "drawn": 3,
+    "lost": 13,
+    "scored": 32,
+    "conceded": 39,
+    "appearances": 6,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Camilo Vargas", "shortName": "C. Vargas", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Daniel Muñoz", "shortName": "Muñoz", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Davinson Sánchez", "shortName": "D. Sánchez", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Carlos Cuesta", "shortName": "Cuesta", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Jhon Arias", "shortName": "J. Arias", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Richard Ríos", "shortName": "Ríos", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Mateus Uribe", "shortName": "Uribe", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "James Rodríguez", "shortName": "James", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Cucho Hernández", "shortName": "Cucho", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Jhon Durán", "shortName": "Durán", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Luis Díaz", "shortName": "L. Díaz", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 63, "y": 362 }
+    ]
+  }
+}

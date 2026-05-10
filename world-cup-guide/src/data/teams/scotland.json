@@ -1,0 +1,136 @@
+{
+  "id": "scotland",
+  "name": "Scotland",
+  "nickname": "The Tartan Army",
+  "accentColor": "#003078",
+  "flagEmoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+
+  "meta": {
+    "fifaRanking": 40,
+    "group": "C",
+    "groupOpponents": ["Brazil", "Morocco", "Haiti"],
+    "oddsToWin": "+10000",
+    "impliedProbability": "~1%",
+    "lastWCResult": "Groups '98",
+    "manager": "Steve Clarke",
+    "managerTenure": "2019–present",
+    "formation": "3-5-2"
+  },
+
+  "narrative": {
+    "essence": "Scotland hasn't been to a World Cup since 1998 — nearly three decades of heartbreak, near-misses, and pub-bench philosophy about what might have been. They're back. And they're in the group of death. The Tartan Army doesn't care. This is what they live for.",
+    "footballIdentity": "Scottish football is suffering and love in equal measure. The country invented the passing game. They drew 0-0 with England at Wembley in 1967 and called themselves world champions. They've been eliminated from every World Cup at the group stage, usually in spectacular and emotionally devastating fashion. But Scotland's fans — the Tartan Army — are famous worldwide for their good-natured carnival spirit. They party because the football might make them cry.",
+    "theMoment": "Scotland qualified ending a 28-year World Cup absence and are drawn into one of the most difficult groups imaginable — Brazil and Morocco in the same group. But Steve Clarke has transformed this team: from perennial EURO qualifier squandering to a disciplined, organized unit that believes in itself. The independence referendum debate that consumed Scottish politics for a decade has settled into something quieter, but the national football team has become a unifying force regardless of constitutional preference.",
+    "momentType": "historical"
+  },
+
+  "keyPlayers": [
+    {
+      "name": "Andy Robertson",
+      "club": "Liverpool",
+      "position": "Left wing-back",
+      "badge": "Captain",
+      "note": "Champions League winner and one of the world's elite fullbacks. His attacking output and defensive intensity define how Scotland plays."
+    },
+    {
+      "name": "Scott McTominay",
+      "club": "Napoli",
+      "position": "Midfield",
+      "badge": null,
+      "note": "The unexpected hero — his late goals in qualifying were legendary. A physical, powerful midfielder who contributes enormously at both ends."
+    },
+    {
+      "name": "Kieran Tierney",
+      "club": "Real Sociedad",
+      "position": "Left center-back",
+      "badge": null,
+      "note": "Scotland's most complete defender and a player whose commitment to the national cause is total. Excellent in a back-three setup."
+    },
+    {
+      "name": "John McGinn",
+      "club": "Aston Villa",
+      "position": "Central mid",
+      "badge": null,
+      "note": "The heartbeat of the team. Relentless runner who covers every blade of grass and scores goals that shouldn't be possible for a central midfielder."
+    }
+  ],
+
+  "tactics": {
+    "styleTags": ["Organized", "Physical", "Set pieces", "Direct play"],
+    "tacticalNote": "Clarke's 3-5-2 gives Scotland defensive solidity with Robertson bombing down the left as an outlet. The wing-backs are critical — without them pushing high, Scotland lack width. McTominay and McGinn provide central energy while the front two work as a pressing pair. Scotland can make life very difficult for better teams through organization and intensity.",
+    "strength": "Defensive discipline and set piece danger — Scotland is organized, hard to score against, and generates threatening moments from dead balls.",
+    "vulnerability": "Technical quality against elite pressing teams — when Scotland can't establish the wing-backs, they get pinned back and have limited ways out."
+  },
+
+  "watchFor": [
+    "Robertson's output down the left flank — he essentially plays as a left winger and Scotland's attack runs through his overlapping runs.",
+    "McTominay's late arrivals into the penalty area — he's scored pivotal goals appearing from deep at the right moment.",
+    "How Scotland handles Brazil's press — this is the tactical puzzle of the group. Scotland must work the ball quickly to avoid being trapped."
+  ],
+
+  "schedule": [
+    {
+      "date": "Jun 13",
+      "time": "9PM ET",
+      "opponent": "Haiti",
+      "venue": "Gillette Stadium",
+      "city": "Boston",
+      "isAway": true
+    },
+    {
+      "date": "Jun 19",
+      "time": "6PM ET",
+      "opponent": "Morocco",
+      "venue": "Gillette Stadium",
+      "city": "Boston",
+      "isAway": false
+    },
+    {
+      "date": "Jun 24",
+      "time": "6PM ET",
+      "opponent": "Brazil",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami",
+      "isAway": false
+    }
+  ],
+
+  "history": [
+    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
+    { "year": 1990, "host": "Italy", "result": "Groups", "tier": "early" },
+    { "year": 1986, "host": "Mexico", "result": "Groups", "tier": "early" },
+    { "year": 1982, "host": "Spain", "result": "Groups", "tier": "early" },
+    { "year": 1978, "host": "Argentina", "result": "Groups", "tier": "early" },
+    { "year": 1974, "host": "W. Germany", "result": "Groups", "tier": "early" },
+    { "year": 1958, "host": "Sweden", "result": "Groups", "tier": "early" },
+    { "year": 1954, "host": "Switzerland", "result": "Groups", "tier": "early" }
+  ],
+
+  "allTimeRecord": {
+    "played": 23,
+    "won": 4,
+    "drawn": 7,
+    "lost": 12,
+    "scored": 25,
+    "conceded": 41,
+    "appearances": 8,
+    "titles": 0,
+    "finals": 0
+  },
+
+  "pitch": {
+    "players": [
+      { "name": "Gunn", "shortName": "Gunn", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Hendry", "shortName": "Hendry", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 148 },
+      { "name": "Hanley", "shortName": "Hanley", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 148 },
+      { "name": "Tierney", "shortName": "Tierney", "position": "LCB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 148 },
+      { "name": "Patterson", "shortName": "Patterson", "position": "RWB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 415, "y": 200 },
+      { "name": "McTominay", "shortName": "McTominay", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 339, "y": 260 },
+      { "name": "Gilmour", "shortName": "Gilmour", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 244 },
+      { "name": "McGinn", "shortName": "McGinn", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 111, "y": 260 },
+      { "name": "Robertson", "shortName": "Robertson", "position": "LWB", "role": "def", "isKeyPlayer": true, "isCaptain": true, "x": 37, "y": 200 },
+      { "name": "Adams", "shortName": "Adams", "position": "RS", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 372 },
+      { "name": "Dykes", "shortName": "Dykes", "position": "LS", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 372 }
+    ]
+  }
+}

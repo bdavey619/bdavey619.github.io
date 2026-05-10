@@ -1,0 +1,97 @@
+{
+  "id": "cape-verde",
+  "name": "Cape Verde",
+  "nickname": "The Blue Sharks",
+  "accentColor": "#003893",
+  "flagEmoji": "🇨🇻",
+  "meta": {
+    "fifaRanking": 76,
+    "group": "H",
+    "groupOpponents": ["Spain", "Uruguay", "Saudi Arabia"],
+    "oddsToWin": "+10000",
+    "impliedProbability": "~1%",
+    "lastWCResult": "First WC",
+    "manager": "Pedro Leitão",
+    "managerTenure": "2023–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "A nation of 500,000 people on Atlantic islands that most of the world couldn't place on a map — arriving at their first World Cup ever. The Blue Sharks' story is one of diaspora, identity, and the long journey of a football-loving people finally reaching the game's greatest stage.",
+    "footballIdentity": "Cape Verde's football identity is inseparable from its diaspora. The archipelago's population is dwarfed by the number of Cape Verdeans living in Portugal, France, the Netherlands, and the United States. The national team draws heavily on these emigrant communities — players born and raised in Lisbon, Amsterdam, and Paris who chose to represent the islands their families came from. It's a football story about belonging, roots, and pride in a small nation finding its voice.",
+    "theMoment": "This is the first World Cup in Cape Verde's history. Full stop. No previous appearance, no context — just the raw emotion of 500,000 people and a global diaspora watching their country compete against Spain and Uruguay for the first time. The Blue Sharks have been one of Africa's most impressive improvers over the past decade, reaching AFCON quarter-finals and winning admirers with their attacking, technical style. The group is brutal — but they earned the right to be here.",
+    "momentType": "historical"
+  },
+  "keyPlayers": [
+    {
+      "name": "Djaniny",
+      "club": "Al-Qadisiyah",
+      "position": "ST",
+      "badge": "Captain",
+      "note": "Cape Verde's most prolific international scorer and the focal point of their attack. Djaniny's physicality, movement, and finishing have made him a consistent threat for the Blue Sharks across many years of qualification campaigns. He carries the responsibility of being the senior figure in a historical moment for his nation."
+    },
+    {
+      "name": "Ryan Mendes",
+      "club": "Angers",
+      "position": "LW",
+      "badge": null,
+      "note": "The experienced winger who has been one of Cape Verde's most creative players for nearly a decade. Mendes's ability to take on defenders and deliver from wide positions is a key component of how Cape Verde creates chances in their attacking 4-3-3."
+    },
+    {
+      "name": "Stopira",
+      "club": "Vitória de Setúbal",
+      "position": "CB",
+      "badge": null,
+      "note": "The veteran center-back who provides the defensive experience and leadership Cape Verde need at the back. Against the attacking quality of Spain and Uruguay, Stopira's ability to organize the defense and stay composed under extreme pressure will be tested as never before."
+    },
+    {
+      "name": "Garry Rodrigues",
+      "club": "Olympiacos",
+      "position": "RW",
+      "badge": null,
+      "note": "The experienced wide forward with Greek football background, Rodrigues brings directness and the ability to carry the ball at defenders. His work rate and ability to press from the front are integral to Cape Verde's compact, high-energy style."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Technical", "Attacking", "Compact", "Diaspora-Powered"],
+    "tacticalNote": "Cape Verde play an attractive 4-3-3 that emphasizes technical quality and direct attacking play. Against Spain and Uruguay, they will need to be organized defensively and exploit counter-attacking opportunities — but Cape Verde's instinct is to play forward and take risks. The midfield three needs to work hard both to win the ball and to support the wide forwards. Against Saudi Arabia, Cape Verde will see their best opportunity to get points, and that game could define the entire tournament for them.",
+    "strength": "Cape Verde's wide play and direct attacking style can create problems for teams who underestimate them — their AFCON performances showed they can compete technically with quality opposition.",
+    "vulnerability": "Facing Spain and Uruguay's quality in midfield, Cape Verde will struggle to maintain possession for sustained periods, which will tire their players and expose their defense."
+  },
+  "watchFor": [
+    "Djaniny's aerial duels and link-up play — he's the focal point and any Cape Verde chance will likely flow through him",
+    "The emotion and atmosphere when Cape Verde first takes the field at a World Cup — a historic moment for a small nation",
+    "Cape Verde's defensive resilience against Spain — if they can limit the damage, the Saudi Arabia game becomes all-important"
+  ],
+  "schedule": [
+    { "date": "Jun 15", "time": "12PM ET", "opponent": "Spain", "venue": "Mercedes-Benz Stadium", "city": "Atlanta", "isAway": true },
+    { "date": "Jun 21", "time": "6PM ET", "opponent": "Uruguay", "venue": "Hard Rock Stadium", "city": "Miami", "isAway": true },
+    { "date": "Jun 26", "time": "8PM ET", "opponent": "Saudi Arabia", "venue": "NRG Stadium", "city": "Houston", "isAway": false }
+  ],
+  "history": [],
+  "allTimeRecord": {
+    "played": 0,
+    "won": 0,
+    "drawn": 0,
+    "lost": 0,
+    "scored": 0,
+    "conceded": 0,
+    "appearances": 0,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Vozinha", "shortName": "Vozinha", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Cruzy Duarte", "shortName": "Duarte", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Stopira", "shortName": "Stopira", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Roberto Lopes", "shortName": "R. Lopes", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Diney", "shortName": "Diney", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Garry Rodrigues", "shortName": "G. Rodrigues", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Jamiro Monteiro", "shortName": "Monteiro", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Kenny Rocha Santos", "shortName": "K. Rocha", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Ryan Mendes", "shortName": "R. Mendes", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Djaniny", "shortName": "Djaniny", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 372 },
+      { "name": "Julio Tavares", "shortName": "Tavares", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

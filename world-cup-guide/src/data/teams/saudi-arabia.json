@@ -1,0 +1,104 @@
+{
+  "id": "saudi-arabia",
+  "name": "Saudi Arabia",
+  "nickname": "The Green Falcons",
+  "accentColor": "#006C35",
+  "flagEmoji": "🇸🇦",
+  "meta": {
+    "fifaRanking": 56,
+    "group": "H",
+    "groupOpponents": ["Spain", "Uruguay", "Cape Verde"],
+    "oddsToWin": "+7000",
+    "impliedProbability": "~1%",
+    "lastWCResult": "Groups '22",
+    "manager": "Roberto Mancini",
+    "managerTenure": "2023–present",
+    "formation": "4-2-3-1"
+  },
+  "narrative": {
+    "essence": "The country that stunned Argentina in one of the greatest World Cup upsets ever. Saudi Arabia's 2022 performance proved they can compete against the world's best — now they must show it wasn't a one-off, all while the nation's Vision 2030 strategy reshapes global sport around them.",
+    "footballIdentity": "Football has always been the dominant sport in Saudi Arabia, but the kingdom's relationship with the game changed dramatically with the Saudi Pro League's explosive investment from 2023 onward. Cristiano Ronaldo, Neymar, Karim Benzema, and dozens of other global stars arrived, raising the domestic league's profile enormously. The national team draws from these improved domestic structures, and the Green Falcons are building toward what they hope is a genuine World Cup dark horse.",
+    "theMoment": "Roberto Mancini, the man who managed Italy to Euro 2020, was brought in specifically to professionalize and tactically evolve the Saudi national team. The 2022 Argentina result showed the potential — a perfectly executed high-line press, extraordinary finishing, and moments of individual brilliance. Now Mancini must build a consistent identity rather than relying on one transcendent performance. Group H with Spain is the ultimate test of whether Saudi Arabia have genuinely arrived.",
+    "momentType": "political"
+  },
+  "keyPlayers": [
+    {
+      "name": "Salem Al-Dawsari",
+      "club": "Al-Hilal",
+      "position": "LW",
+      "badge": "2022 Hero",
+      "note": "The man who scored the iconic winning goal against Argentina in 2022 — cutting inside from the left and curling it into the top corner. Al-Dawsari is the creative heartbeat of the Saudi attack and the player who can single-handedly turn games. His technical quality and directness make him the most dangerous Saudi attacker."
+    },
+    {
+      "name": "Mohammed Al-Owais",
+      "club": "Al-Hilal",
+      "position": "GK",
+      "badge": "Captain",
+      "note": "Saudi Arabia's first-choice goalkeeper and a dominant presence in Asian football. Al-Owais's shot-stopping and command of his area are crucial to a team that will inevitably face significant pressure against top opponents. His performance against Argentina in 2022 was exceptional."
+    },
+    {
+      "name": "Firas Al-Buraikan",
+      "club": "Al-Fateh",
+      "position": "ST",
+      "badge": null,
+      "note": "The young Saudi striker with pace and directness that can trouble defenders in transition. Al-Buraikan leads the line and provides the focal point for Saudi Arabia's counter-attacking system, using his speed to exploit any space left behind."
+    },
+    {
+      "name": "Sami Al-Najei",
+      "club": "Al-Hilal",
+      "position": "RB",
+      "badge": null,
+      "note": "The dynamic right-back who provides width and delivery in the attacking phase. Al-Najei's overlapping runs and crossing ability are a key part of how Saudi Arabia creates chances from wide positions."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["High Line", "Organized", "Counter-Attack", "Capable of Upset"],
+    "tacticalNote": "Mancini has implemented a structured 4-2-3-1 that uses a surprisingly high defensive line — brave against quality opposition but effective when the pressing triggers are coordinated. Against Argentina in 2022, the offside trap and high line worked perfectly, catching superior players repeatedly. Al-Dawsari operates as the creative force in the attacking midfield, with Al-Buraikan running in behind. Against Spain, Mancini will need to decide whether to maintain the high line or drop deeper — each choice carries different risks.",
+    "strength": "Saudi Arabia's high-pressing system combined with Al-Dawsari's technical brilliance means they are capable of destroying any team's rhythm when their gameplan works — as Argentina found in 2022.",
+    "vulnerability": "The high defensive line is a calculated gamble that can be catastrophically exposed by quick forwards or long balls over the top — against Yamal and Spain's pace, this is a significant tactical risk."
+  },
+  "watchFor": [
+    "Salem Al-Dawsari getting the ball in one-on-one situations — his 2022 goal against Argentina remains one of the great World Cup moments",
+    "Saudi Arabia's offside trap execution — when it works it's brilliant, when it fails it's devastating",
+    "Whether Mancini's tactical discipline can contain Spain and Uruguay while preserving enough energy to win the Cape Verde match"
+  ],
+  "schedule": [
+    { "date": "Jun 15", "time": "6PM ET", "opponent": "Uruguay", "venue": "Hard Rock Stadium", "city": "Miami", "isAway": true },
+    { "date": "Jun 21", "time": "12PM ET", "opponent": "Spain", "venue": "Mercedes-Benz Stadium", "city": "Atlanta", "isAway": true },
+    { "date": "Jun 26", "time": "8PM ET", "opponent": "Cape Verde", "venue": "NRG Stadium", "city": "Houston", "isAway": false }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
+    { "year": 2018, "host": "Russia", "result": "Groups", "tier": "early" },
+    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "Groups", "tier": "early" },
+    { "year": 1998, "host": "France", "result": "R16", "tier": "deep" },
+    { "year": 1994, "host": "USA", "result": "R16", "tier": "deep" }
+  ],
+  "allTimeRecord": {
+    "played": 19,
+    "won": 4,
+    "drawn": 2,
+    "lost": 13,
+    "scored": 18,
+    "conceded": 46,
+    "appearances": 6,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Mohammed Al-Owais", "shortName": "Al-Owais", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": true, "x": 226, "y": 56 },
+      { "name": "Sami Al-Najei", "shortName": "Al-Najei", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Ali Al-Bulaihi", "shortName": "Al-Bulaihi", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Abdulelah Al-Amri", "shortName": "Al-Amri", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Yasser Al-Shahrani", "shortName": "Al-Shahrani", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Mohammed Kanno", "shortName": "Kanno", "position": "RDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 220 },
+      { "name": "Ali Al-Hassan", "shortName": "Al-Hassan", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
+      { "name": "Saleh Al-Shehri", "shortName": "Al-Shehri", "position": "RAM", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
+      { "name": "Hattan Bahebri", "shortName": "Bahebri", "position": "CAM", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 300 },
+      { "name": "Salem Al-Dawsari", "shortName": "Al-Dawsari", "position": "LAM", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 310 },
+      { "name": "Firas Al-Buraikan", "shortName": "Al-Buraikan", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 390 }
+    ]
+  }
+}

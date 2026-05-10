@@ -1,0 +1,126 @@
+{
+  "id": "japan",
+  "name": "Japan",
+  "nickname": "Samurai Blue",
+  "accentColor": "#BC002D",
+  "flagEmoji": "🇯🇵",
+  "meta": {
+    "fifaRanking": 18,
+    "group": "F",
+    "groupOpponents": ["Netherlands", "Sweden", "Tunisia"],
+    "oddsToWin": "+3000",
+    "impliedProbability": "~3.2%",
+    "lastWCResult": "R16 '22",
+    "manager": "Hajime Moriyasu",
+    "managerTenure": "2018–present",
+    "formation": "4-2-3-1"
+  },
+  "narrative": {
+    "essence": "Japan stunned Germany and Spain at the 2022 World Cup and has now built a squad where the majority of starters play for elite European clubs. The ceiling for Samurai Blue has risen dramatically, and the entire country senses that a first World Cup quarterfinal is no longer a dream — it's an expectation.",
+    "footballIdentity": "Japanese football culture is meticulous, disciplined, and collectively oriented — values that map onto football's demands with unusual precision. The J-League launched in 1993 and within a decade Japan was co-hosting a World Cup. Now, a generation later, players like Takefusa Kubo, Ao Tanaka, and Ayase Ueda are starring in La Liga, the Bundesliga, and the Eredivisie. Japan's football trajectory is one of the most remarkable in the sport's modern history.",
+    "theMoment": "The 2022 World Cup was Japan's greatest — beating Germany and Spain, qualifying from the group, losing narrowly to Croatia. The players who delivered that ran home to their clubs with confidence transformed. Now those same players return, a year older and more experienced, knowing they can compete with anyone. Kubo at Real Sociedad is emerging as a potential Ballon d'Or contender. The moment Japan has been building toward since 1993 may finally be here.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Takefusa Kubo",
+      "club": "Real Sociedad",
+      "position": "Right Wing / Attacking Midfielder",
+      "badge": null,
+      "note": "The most technically gifted Japanese player of his generation — possibly ever. Kubo's dribbling, creativity, and goal threat in La Liga have established him as one of Europe's most exciting attacking players. His ability to beat defenders in one-on-one situations and deliver final-third product is the engine of Japan's attacking play."
+    },
+    {
+      "name": "Takumi Minamino",
+      "club": "Monaco",
+      "position": "Attacking Midfielder",
+      "badge": "Captain",
+      "note": "The captain and one of Japan's most experienced internationals, Minamino provides the tactical intelligence and pressing intensity that underpins Moriyasu's system. His ability to play in multiple positions and contribute both goals and assists makes him the connective tissue between Japan's midfield and attack."
+    },
+    {
+      "name": "Ayase Ueda",
+      "club": "Feyenoord",
+      "position": "Striker",
+      "badge": null,
+      "note": "The clinical goalscorer Japan has long needed at the apex of their system. Ueda's movement, finishing, and aerial threat at Feyenoord — where he has scored regularly in the Eredivisie and Champions League — give Japan a centre-forward capable of converting the chances that Kubo and Minamino create."
+    },
+    {
+      "name": "Ao Tanaka",
+      "club": "Düsseldorf",
+      "position": "Central Midfielder",
+      "badge": null,
+      "note": "The midfield organizer whose discipline and work rate allow the more creative players around him to function. Tanaka's positional awareness and ability to win the ball and distribute quickly under pressure is the unsexy but essential foundation of Japan's midfield compactness."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["High Press", "Technical", "Collective", "Disciplined", "Counter-Attack"],
+    "tacticalNote": "Moriyasu's 4-2-3-1 is built around collective pressing and rapid transitions. Japan sits in a mid-to-high block, hunting in coordinated packs and winning the ball in dangerous areas. Once possession is gained, the ball moves quickly to Kubo and the wide attackers, who drive at defenders in transition. Against the Netherlands, Japan will need to press aggressively and deny de Jong time on the ball — the same blueprint that worked against Germany and Spain in 2022.",
+    "strength": "Coordinated team pressing and rapid counter-attacks — Japan is one of the best teams in the world at winning the ball in dangerous areas and immediately transitioning into attacks.",
+    "vulnerability": "When deep-defending against sustained possession from technically superior sides, Japan can be stretched laterally and is vulnerable to patient overloads in wide areas."
+  },
+  "watchFor": [
+    "Kubo's one-on-one situations on the right — when he has space to run at full backs, he's among the most dangerous players in world football",
+    "Japan's pressing triggers — the coordinated moments when the entire team presses simultaneously are their most potent weapon",
+    "Ueda's movement in the penalty area — he is intelligent enough to find space that other strikers miss, and his aerial threat gives Japan a different attacking dimension"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 14",
+      "time": "4PM ET",
+      "opponent": "Netherlands",
+      "venue": "AT&T Stadium",
+      "city": "Dallas",
+      "isAway": true
+    },
+    {
+      "date": "Jun 20",
+      "time": "Midnight ET",
+      "opponent": "Tunisia",
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
+      "isAway": false
+    },
+    {
+      "date": "Jun 25",
+      "time": "7PM ET",
+      "opponent": "Sweden",
+      "venue": "AT&T Stadium",
+      "city": "Dallas",
+      "isAway": false
+    }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "R16", "tier": "deep" },
+    { "year": 2018, "host": "Russia", "result": "R16", "tier": "deep" },
+    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
+    { "year": 2010, "host": "South Africa", "result": "R16", "tier": "deep" },
+    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "R16", "tier": "deep" },
+    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" }
+  ],
+  "allTimeRecord": {
+    "played": 28,
+    "won": 8,
+    "drawn": 5,
+    "lost": 15,
+    "scored": 28,
+    "conceded": 41,
+    "appearances": 8,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Shuichi Gonda", "shortName": "Gonda", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Hiroki Sakai", "shortName": "Sakai", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Ko Itakura", "shortName": "Itakura", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Maya Yoshida", "shortName": "Yoshida", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Yuto Nagatomo", "shortName": "Nagatomo", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Wataru Endo", "shortName": "Endo", "position": "RDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 220 },
+      { "name": "Ao Tanaka", "shortName": "Tanaka", "position": "LDM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 161, "y": 220 },
+      { "name": "Takefusa Kubo", "shortName": "Kubo", "position": "RAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 310 },
+      { "name": "Takumi Minamino", "shortName": "Minamino", "position": "CAM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 300 },
+      { "name": "Ritsu Doan", "shortName": "Doan", "position": "LAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 310 },
+      { "name": "Ayase Ueda", "shortName": "Ueda", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 390 }
+    ]
+  }
+}

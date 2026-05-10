@@ -1,0 +1,100 @@
+{
+  "id": "new-zealand",
+  "name": "New Zealand",
+  "nickname": "The All Whites",
+  "accentColor": "#1a1a1a",
+  "flagEmoji": "🇳🇿",
+  "meta": {
+    "fifaRanking": 94,
+    "group": "G",
+    "groupOpponents": ["Belgium", "Iran", "Egypt"],
+    "oddsToWin": "+10000",
+    "impliedProbability": "~1%",
+    "lastWCResult": "Groups '10",
+    "manager": "Darren Bazeley",
+    "managerTenure": "2022–present",
+    "formation": "4-4-2"
+  },
+  "narrative": {
+    "essence": "A rugby nation that keeps showing up at the World Cup against all odds. New Zealand earned a famous unbeaten record in 2010 — drawing all three group games — and returns 16 years later with a group that looks far harder on paper. But the All Whites have a habit of defying expectations.",
+    "footballIdentity": "Rugby union and rugby league dominate New Zealand's sporting culture, with the All Blacks a national institution that casts a long shadow over every other sport. But football — called soccer locally — has been quietly growing, boosted by the Football Ferns' co-hosting of the 2023 Women's World Cup and Chris Wood's sustained Premier League career. The All Whites draw heavily on the Oceanian diaspora, with many players based in European leagues.",
+    "theMoment": "New Zealand's first World Cup in 16 years comes at a moment when the sport is genuinely gaining traction back home. The Women's World Cup in 2023 brought football fever to New Zealand for the first time. Chris Wood, at 34, brings Premier League experience as the focal point of the attack. Facing Belgium, Iran, and Egypt — all ranked far higher — the All Whites must recapture the spirit of 2010's remarkable unbeaten run if they want to cause an upset. Getting any points here would be a significant achievement.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Chris Wood",
+      "club": "Nottingham Forest",
+      "position": "ST",
+      "badge": "Captain",
+      "note": "New Zealand's greatest ever striker and a consistent Premier League performer across more than a decade at Burnley, Leeds, Newcastle, and Nottingham Forest. Wood's aerial ability, physical presence, and hold-up play give New Zealand a genuine focal point and a player capable of scoring against top-level opposition."
+    },
+    {
+      "name": "Clayton Lewis",
+      "club": "Real Oviedo",
+      "position": "AM",
+      "badge": null,
+      "note": "The most technically gifted midfielder New Zealand has produced in years, Lewis's creativity and ability to find pockets of space make him the creative engine behind the All Whites. His time in Spanish football has refined his technical qualities and improved his decision-making."
+    },
+    {
+      "name": "Marko Stamenic",
+      "club": "Charlotte FC",
+      "position": "CM",
+      "badge": null,
+      "note": "The MLS midfielder brings energy, athleticism, and an eye for goal from midfield. Stamenic's box-to-box qualities give New Zealand a combative presence that can help them compete physically against better-ranked opponents."
+    },
+    {
+      "name": "Joe Bell",
+      "club": "Middlesbrough",
+      "position": "CM",
+      "badge": null,
+      "note": "The Championship midfielder provides the defensive discipline and pressing intensity New Zealand needs in their engine room. Bell's ability to win the ball back quickly and transition from defense to attack suits the counter-attacking style New Zealand will need to employ."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Physical", "Organized", "Set Pieces", "Counter-Attack"],
+    "tacticalNote": "New Zealand will line up in a compact 4-4-2 designed to make them difficult to break down and get the ball to Wood quickly. The shape prioritizes defensive solidity — two banks of four — with Lewis operating in the space between the lines to provide the creative spark. Set pieces are a genuine weapon with Wood's aerial threat and players willing to compete for every ball. Against Belgium and Egypt, New Zealand will likely defend deep and look to exploit any spaces left on the counter.",
+    "strength": "Chris Wood's aerial ability and physicality gives New Zealand a genuine weapon from set pieces and long balls — any team can score from a corner, and New Zealand maximizes that threat.",
+    "vulnerability": "Against technically superior opponents who can circulate the ball patiently, New Zealand's pressing can tire and their limited possession quality means they can struggle to relieve pressure for long periods."
+  },
+  "watchFor": [
+    "Chris Wood in set-piece situations — he's one of the best headers of the ball in international football at his size",
+    "Whether New Zealand can reproduce the defensive resilience of 2010 and frustrate opponents with their organization",
+    "Clayton Lewis's creativity — if he can find time on the ball, New Zealand have a player who can create chances from nothing"
+  ],
+  "schedule": [
+    { "date": "Jun 15", "time": "9PM ET", "opponent": "Iran", "venue": "SoFi Stadium", "city": "Los Angeles", "isAway": true },
+    { "date": "Jun 21", "time": "9PM ET", "opponent": "Egypt", "venue": "BC Place", "city": "Vancouver", "isAway": false },
+    { "date": "Jun 26", "time": "11PM ET", "opponent": "Belgium", "venue": "BC Place", "city": "Vancouver", "isAway": false }
+  ],
+  "history": [
+    { "year": 2010, "host": "South Africa", "result": "Groups", "tier": "early" },
+    { "year": 1982, "host": "Spain", "result": "Groups", "tier": "early" }
+  ],
+  "allTimeRecord": {
+    "played": 6,
+    "won": 0,
+    "drawn": 2,
+    "lost": 4,
+    "scored": 5,
+    "conceded": 17,
+    "appearances": 3,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Oliver Sail", "shortName": "Sail", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Liberato Cacace", "shortName": "Cacace", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Nando de Waard", "shortName": "de Waard", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Michael Boxall", "shortName": "Boxall", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Tim Payne", "shortName": "Payne", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Marko Stamenic", "shortName": "Stamenic", "position": "RM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 260 },
+      { "name": "Joe Bell", "shortName": "Bell", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 244 },
+      { "name": "Clayton Lewis", "shortName": "Lewis", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 161, "y": 244 },
+      { "name": "Ben Waine", "shortName": "Waine", "position": "LM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 260 },
+      { "name": "Chris Wood", "shortName": "Wood", "position": "RS", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 372 },
+      { "name": "Callan Elliot", "shortName": "Elliot", "position": "LS", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 372 }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "austria",
+  "name": "Austria",
+  "nickname": "Das Team",
+  "accentColor": "#ED2939",
+  "flagEmoji": "🇦🇹",
+  "meta": {
+    "fifaRanking": 26,
+    "group": "J",
+    "groupOpponents": ["Argentina", "Algeria", "Jordan"],
+    "oddsToWin": "+4000",
+    "impliedProbability": "~2.4%",
+    "lastWCResult": "Groups '98",
+    "manager": "Ralf Rangnick",
+    "managerTenure": "2022–present",
+    "formation": "4-2-3-1"
+  },
+  "narrative": {
+    "essence": "Ralf Rangnick's high-intensity pressing machine returns Austria to the World Cup stage for the first time in 28 years — and they arrive not as tourists but as a team with a genuine tactical identity and the hunger to prove European football's most exciting coaching project belongs on the biggest stage.",
+    "footballIdentity": "Austria punches above its weight in football as it does in culture — a small nation that produced Matthias Sindelar, one of the 1930s' most celebrated footballers, and historically fielded a 'Wunderteam' that dazzled Europe. The modern renaissance under Rangnick has reconnected Austria with that tradition of intelligent, attractive football.",
+    "theMoment": "Rangnick's gegenpressing system — refined at RB Leipzig, Manchester United, and now internationally — has been built patiently into the Austrian national team since 2022. Qualifying for the 2026 World Cup after a 28-year absence is validation of the project. Dropped into a group with Argentina, Austria won't hide: they'll press, they'll run, and they'll make Group J dangerous.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Marcel Sabitzer",
+      "club": "Borussia Dortmund",
+      "position": "Central Midfielder",
+      "badge": "Captain",
+      "note": "Sabitzer is the heart of Austria's midfield — a player who embodies the Rangnick philosophy with his relentless pressing, late runs into the box, and quality on the ball. His Champions League pedigree with Dortmund brings big-game experience that Austria will need against Argentina."
+    },
+    {
+      "name": "Christoph Baumgartner",
+      "club": "RB Leipzig",
+      "position": "Attacking Midfielder",
+      "badge": null,
+      "note": "The Red Bull football system's finest Austrian export, Baumgartner combines technical quality with the high-energy pressing that Rangnick demands. His ability to find pockets of space between the lines makes him Austria's most creative threat in the final third."
+    },
+    {
+      "name": "Konrad Laimer",
+      "club": "Bayern Munich",
+      "position": "Central Midfielder",
+      "badge": null,
+      "note": "Laimer is one of the most relentless pressers in European football — a player whose engine seemingly never stops. His ability to win the ball back in dangerous areas and immediately transition to attack is central to how Austria want to play against bigger opponents."
+    },
+    {
+      "name": "Patrick Wimmer",
+      "club": "VfB Stuttgart",
+      "position": "Left Wing",
+      "badge": null,
+      "note": "Wimmer's pace and directness give Austria an attacking threat in transition that opponents cannot ignore. His development at Stuttgart — one of the Bundesliga's most dynamic clubs — has turned him into a reliable wide option who can beat defenders with pace and quality."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["High Press", "Gegenpressing", "Energetic", "Organized", "Vertical"],
+    "tacticalNote": "Rangnick's 4-2-3-1 is built on relentless collective pressing — Austria aims to win the ball high up the pitch and punish opponents before they can reorganize. The double pivot protects the back four while allowing the attacking three and wing-backs to flood forward. Austria's press is zonal and triggered by specific cues, making it difficult to play through with short combinations. Against bigger teams, they compress quickly and look to exploit transition moments with Baumgartner's movement and Wimmer's pace on the flanks.",
+    "strength": "Collective pressing intensity that can disrupt even technically superior teams and create scoring chances from turnovers in dangerous areas.",
+    "vulnerability": "The high defensive line can be exposed by quick vertical passes and pacey forwards who can run in behind before the press resets."
+  },
+  "watchFor": [
+    "How long Austria can sustain their press against Argentina — if they maintain it past 60 minutes, they're dangerous",
+    "Baumgartner's movement between the lines to receive and turn against deep blocks",
+    "Set pieces — Austria are effective from dead balls, and Sabitzer's delivery is excellent"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 16",
+      "time": "Midnight ET",
+      "opponent": "Jordan",
+      "venue": "Levi's Stadium",
+      "city": "San Francisco Bay Area",
+      "isAway": false
+    },
+    {
+      "date": "Jun 22",
+      "time": "1PM ET",
+      "opponent": "Argentina",
+      "venue": "AT&T Stadium",
+      "city": "Dallas",
+      "isAway": true
+    },
+    {
+      "date": "Jun 27",
+      "time": "10PM ET",
+      "opponent": "Algeria",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "isAway": false
+    }
+  ],
+  "history": [
+    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
+    { "year": 1990, "host": "Italy", "result": "Groups", "tier": "early" },
+    { "year": 1986, "host": "Mexico", "result": "R16", "tier": "deep" },
+    { "year": 1982, "host": "Spain", "result": "R16", "tier": "deep" },
+    { "year": 1978, "host": "Argentina", "result": "QF", "tier": "deep" },
+    { "year": 1958, "host": "Sweden", "result": "SF", "tier": "sf" },
+    { "year": 1954, "host": "Switzerland", "result": "SF", "tier": "sf" }
+  ],
+  "allTimeRecord": {
+    "played": 30,
+    "won": 12,
+    "drawn": 4,
+    "lost": 14,
+    "scored": 43,
+    "conceded": 47,
+    "appearances": 7,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Patrick Pentz", "shortName": "Pentz", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Stefan Posch", "shortName": "Posch", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Philipp Lienhart", "shortName": "Lienhart", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Kevin Danso", "shortName": "Danso", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Maximilian Wöber", "shortName": "Wöber", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Konrad Laimer", "shortName": "Laimer", "position": "RDM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 220 },
+      { "name": "Marcel Sabitzer", "shortName": "Sabitzer", "position": "LDM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 161, "y": 220 },
+      { "name": "Florian Grillitsch", "shortName": "Grillitsch", "position": "RAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
+      { "name": "Christoph Baumgartner", "shortName": "Baumgartner", "position": "CAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 300 },
+      { "name": "Patrick Wimmer", "shortName": "Wimmer", "position": "LAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 310 },
+      { "name": "Michael Gregoritsch", "shortName": "Gregoritsch", "position": "ST", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 390 }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "iran",
+  "name": "Iran",
+  "nickname": "Team Melli",
+  "accentColor": "#239F40",
+  "flagEmoji": "🇮🇷",
+  "meta": {
+    "fifaRanking": 21,
+    "group": "G",
+    "groupOpponents": ["Belgium", "Egypt", "New Zealand"],
+    "oddsToWin": "+6000",
+    "impliedProbability": "~2%",
+    "lastWCResult": "Groups '22",
+    "manager": "Amir Ghalenoei",
+    "managerTenure": "2023–present",
+    "formation": "4-2-3-1"
+  },
+  "narrative": {
+    "essence": "Team Melli carries the weight of a nation — and in 2022, that weight became almost unbearable. Iran's players stood at the intersection of sport and political protest, facing impossible choices as the Woman, Life, Freedom movement swept through their homeland. 2026 brings them back to football's biggest stage still under that shadow.",
+    "footballIdentity": "Football is Iran's most popular sport by a vast margin, with a passionate fanbase that fills the Azadi Stadium — one of the world's largest — for every home match. The Persian Gulf Pro League is competitive by regional standards, and Iran has been the dominant force in Asian football for decades, making six World Cup appearances. The national team is a source of enormous pride, even as the relationship between the state and football remains politically charged.",
+    "theMoment": "In 2022, some Iranian players refused to sing the national anthem in solidarity with protesters back home, while others sang — the split visible to the entire world. That moment hasn't been forgotten by anyone. In 2026, Iran must navigate those same tensions while trying to actually win football matches. Getting out of Group G — past Belgium — would be the greatest achievement in Iranian football history.",
+    "momentType": "political"
+  },
+  "keyPlayers": [
+    {
+      "name": "Mehdi Taremi",
+      "club": "Inter Milan",
+      "position": "ST",
+      "badge": "Captain",
+      "note": "Iran's most complete player and one of the best strikers in Serie A. Taremi's technical quality, aerial ability, and work rate make him dangerous against any defense. At Inter Milan he proved he can compete at the highest level in club football — now Iran needs him to translate that to the World Cup stage."
+    },
+    {
+      "name": "Sardar Azmoun",
+      "club": "Roma",
+      "position": "ST",
+      "badge": null,
+      "note": "Known as the 'Iranian Messi' by his supporters, Azmoun's technical quality and goal-scoring instinct make him one of the most talented players Asia has produced. When paired with Taremi, Iran has a genuinely dangerous attacking combination that can trouble any defense."
+    },
+    {
+      "name": "Alireza Jahanbakhsh",
+      "club": "Feyenoord",
+      "position": "RW",
+      "badge": null,
+      "note": "The experienced winger with Eredivisie pedigree brings creativity and directness to Iran's attack. His ability to take on defenders and deliver from wide positions gives Iran an outlet beyond the central striking threat."
+    },
+    {
+      "name": "Ali Gholizadeh",
+      "club": "Charlton Athletic",
+      "position": "LW",
+      "badge": null,
+      "note": "Quick and direct, Gholizadeh provides the balance on the left side and has the pace to exploit space on the counter-attack — exactly the situation Iran's setup is designed to create."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Organized", "Defensive", "Counter-Attack", "Disciplined"],
+    "tacticalNote": "Iran under Ghalenoei sets up in a disciplined 4-2-3-1 designed to absorb pressure and break quickly. The double pivot shields the defense and allows the wide players and Taremi to operate on the counter. Against the ball, Iran is compact and difficult to break down — they held South Wales scoreless in 2022 for long stretches. The attacking transition relies heavily on Taremi and Azmoun's quality in the final third.",
+    "strength": "Organized defensive structure makes Iran extremely difficult to break down, and Taremi's quality in transition means they're always a threat on the counter even when defending deep.",
+    "vulnerability": "When forced to chase games and play open football, Iran's limited depth and relatively narrow attacking options can be exposed by teams comfortable in possession."
+  },
+  "watchFor": [
+    "Taremi's link-up play with Azmoun — when both strikers are firing, Iran can trouble any defense in the world",
+    "The defensive organization — Iran's shape under pressure is one of the most disciplined in Asian football",
+    "Whether political tensions affect the team's cohesion and whether the anthem moment returns"
+  ],
+  "schedule": [
+    { "date": "Jun 15", "time": "9PM ET", "opponent": "New Zealand", "venue": "SoFi Stadium", "city": "Los Angeles", "isAway": false },
+    { "date": "Jun 21", "time": "3PM ET", "opponent": "Belgium", "venue": "SoFi Stadium", "city": "Los Angeles", "isAway": true },
+    { "date": "Jun 26", "time": "11PM ET", "opponent": "Egypt", "venue": "Lumen Field", "city": "Seattle", "isAway": true }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
+    { "year": 2018, "host": "Russia", "result": "Groups", "tier": "early" },
+    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
+    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
+    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
+    { "year": 1978, "host": "Argentina", "result": "Groups", "tier": "early" }
+  ],
+  "allTimeRecord": {
+    "played": 18,
+    "won": 2,
+    "drawn": 2,
+    "lost": 14,
+    "scored": 12,
+    "conceded": 44,
+    "appearances": 6,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Alireza Beiranvand", "shortName": "Beiranvand", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Sadegh Moharrami", "shortName": "Moharrami", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Shoja Khalilzadeh", "shortName": "Khalilzadeh", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Majid Hosseini", "shortName": "Hosseini", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Ehsan Hajsafi", "shortName": "Hajsafi", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Saeid Ezatolahi", "shortName": "Ezatolahi", "position": "RDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 220 },
+      { "name": "Ahmad Nourollahi", "shortName": "Nourollahi", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
+      { "name": "Alireza Jahanbakhsh", "shortName": "Jahanbakhsh", "position": "RAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
+      { "name": "Sardar Azmoun", "shortName": "Azmoun", "position": "CAM", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 300 },
+      { "name": "Ali Gholizadeh", "shortName": "Gholizadeh", "position": "LAM", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 310 },
+      { "name": "Mehdi Taremi", "shortName": "Taremi", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 390 }
+    ]
+  }
+}

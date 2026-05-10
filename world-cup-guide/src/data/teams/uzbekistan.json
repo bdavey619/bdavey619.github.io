@@ -1,0 +1,118 @@
+{
+  "id": "uzbekistan",
+  "name": "Uzbekistan",
+  "nickname": "White Wolves",
+  "accentColor": "#1EB53A",
+  "flagEmoji": "🇺🇿",
+  "meta": {
+    "fifaRanking": 72,
+    "group": "K",
+    "groupOpponents": ["Portugal", "Colombia", "DR Congo"],
+    "oddsToWin": "+10000",
+    "impliedProbability": "~1%",
+    "lastWCResult": "First WC",
+    "manager": "Srecko Katanec",
+    "managerTenure": "2021–present",
+    "formation": "4-2-3-1"
+  },
+  "narrative": {
+    "essence": "Central Asia's coming-out party on the world stage — Uzbekistan arrives at their first World Cup as a nation that has invested seriously in football infrastructure, produced players earning contracts in European leagues, and now gets to test all of it against Portugal, Colombia, and DR Congo.",
+    "footballIdentity": "Football arrived in Uzbekistan through the Soviet era, where clubs like Pakhtakor Tashkent competed at the highest level of Soviet football. After independence in 1991, Uzbekistan built its own footballing identity — rooted in technical skill and physical endurance shaped by a training culture that produces disciplined, organized teams. The country of 36 million has invested heavily in football academies, and the results are beginning to show in the quality of players reaching European clubs.",
+    "theMoment": "Uzbekistan's qualification for the 2026 World Cup is a landmark moment for Central Asian football — a region largely invisible on the global football map. Eldor Shomurodov's career in Serie A opened European clubs' eyes to what Uzbek talent looks like. Abbosbek Fayzullaev's move to Bayer Leverkusen — one of Europe's best clubs — is the next chapter. These players return home representing a nation that believes its football moment has arrived.",
+    "momentType": "historical"
+  },
+  "keyPlayers": [
+    {
+      "name": "Eldor Shomurodov",
+      "club": "Cagliari",
+      "position": "Striker",
+      "badge": "Captain",
+      "note": "Uzbekistan's most experienced European export, Shomurodov has carved out a career in Serie A that has proven Uzbek footballers can operate at the highest level. His physical strength, work rate, and eye for goal make him the focal point of Uzbekistan's attack — everything they build offensively runs through him."
+    },
+    {
+      "name": "Abbosbek Fayzullaev",
+      "club": "Bayer Leverkusen",
+      "position": "Left Wing",
+      "badge": null,
+      "note": "The jewel of Uzbek football's next generation, Fayzullaev's move to Bayer Leverkusen — the 2023-24 Bundesliga champions — represents a step-change in Central Asian football's European ambitions. His pace, directness, and quality in tight spaces give Uzbekistan a left-side threat that can trouble any defense."
+    },
+    {
+      "name": "Jaloliddin Masharipov",
+      "club": "Pakhtakor",
+      "position": "Attacking Midfielder",
+      "badge": null,
+      "note": "Uzbekistan's most creative domestic player, Masharipov is the link between midfield and attack — technically accomplished, intelligent in his positioning, and capable of unlocking defenses with his passing and dribbling. His experience leading Pakhtakor in AFC competition has prepared him for the intensity of World Cup football."
+    },
+    {
+      "name": "Otabek Shukurov",
+      "club": "Pakhtakor",
+      "position": "Central Midfielder",
+      "badge": null,
+      "note": "A disciplined, hard-working midfielder who provides the defensive foundation that allows Uzbekistan's more creative players to express themselves. His reading of the game and ability to break up opposition attacks makes him invaluable to Katanec's structure, particularly in the double pivot."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Organized", "Technical", "Compact", "Disciplined", "Improving"],
+    "tacticalNote": "Katanec's 4-2-3-1 sets up to be hard to break down — a compact shape with the double pivot providing a solid defensive platform and the attacking three working hard to create on the break. Fayzullaev's pace on the left is Uzbekistan's most direct threat in transition, while Masharipov's creativity in the 10 role creates opportunities for Shomurodov. Against Group K's opponents, Uzbekistan will need to defend intelligently for long periods and be clinical in the moments they create — a similar task to how Jordan approach Group J.",
+    "strength": "Collective organization and disciplined defensive shape — Uzbekistan are genuinely difficult to break down against when their block is set.",
+    "vulnerability": "Limited experience at the highest level of international football; the quality and intensity jump from AFC qualification to the World Cup group stage is significant."
+  },
+  "watchFor": [
+    "Fayzullaev's pace in transition — he is the quality that European clubs recognized and the one who can hurt teams in counter-attacking moments",
+    "Shomurodov's hold-up play — when he wins physical battles and brings others into play, Uzbekistan build dangerous attacks",
+    "How well Uzbekistan's defensive shape holds under sustained pressure from Portugal and Colombia"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 17",
+      "time": "10PM ET",
+      "opponent": "Colombia",
+      "venue": "Estadio Azteca",
+      "city": "Mexico City",
+      "isAway": true
+    },
+    {
+      "date": "Jun 23",
+      "time": "1PM ET",
+      "opponent": "Portugal",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "isAway": true
+    },
+    {
+      "date": "Jun 27",
+      "time": "7:30PM ET",
+      "opponent": "DR Congo",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "isAway": false
+    }
+  ],
+  "history": [],
+  "allTimeRecord": {
+    "played": 0,
+    "won": 0,
+    "drawn": 0,
+    "lost": 0,
+    "scored": 0,
+    "conceded": 0,
+    "appearances": 0,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Utkir Yusupov", "shortName": "Yusupov", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Sherzod Nasrullayev", "shortName": "Nasrullayev", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Sanjar Tursunov", "shortName": "Tursunov", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Rustam Ashurmatov", "shortName": "Ashurmatov", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Khurshid Makhkamov", "shortName": "Makhkamov", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Otabek Shukurov", "shortName": "Shukurov", "position": "RDM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 220 },
+      { "name": "Ikrom Alibaev", "shortName": "Alibaev", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
+      { "name": "Dostonbek Khamdamov", "shortName": "Khamdamov", "position": "RAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
+      { "name": "Jaloliddin Masharipov", "shortName": "Masharipov", "position": "CAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 300 },
+      { "name": "Abbosbek Fayzullaev", "shortName": "Fayzullaev", "position": "LAM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 310 },
+      { "name": "Eldor Shomurodov", "shortName": "Shomurodov", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 390 }
+    ]
+  }
+}

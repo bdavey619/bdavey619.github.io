@@ -1,0 +1,126 @@
+{
+  "id": "tunisia",
+  "name": "Tunisia",
+  "nickname": "The Eagles of Carthage",
+  "accentColor": "#E70013",
+  "flagEmoji": "🇹🇳",
+  "meta": {
+    "fifaRanking": 36,
+    "group": "F",
+    "groupOpponents": ["Netherlands", "Japan", "Sweden"],
+    "oddsToWin": "+8000",
+    "impliedProbability": "~1.2%",
+    "lastWCResult": "Groups '22",
+    "manager": "Jalel Kadri",
+    "managerTenure": "2021–present",
+    "formation": "4-4-2"
+  },
+  "narrative": {
+    "essence": "Tunisia has appeared at six World Cups and never advanced past the group stage — and yet every tournament they arrive with the organizational discipline and African pride to make themselves genuinely difficult to beat. In 1978, they became the first African team to win a World Cup match. The Eagles of Carthage always show up.",
+    "footballIdentity": "Tunisian football is built on defensive organization, collective effort, and an unshakeable belief that the group is greater than the individual. The country has a proud tradition of exporting players to the top European leagues — French football in particular has long been enriched by Tunisian talent — and the national team reflects this European-educated approach: structured, disciplined, and dangerous on the counter. Football is one of very few spaces where Tunisian politics is set aside and the nation unites.",
+    "theMoment": "Tunisia under President Saied has experienced significant democratic backsliding since 2021 — the country that led the Arab Spring in 2011 and inspired a region is now navigating political turbulence. In that context, the national football team carries an unusual cultural burden: it is perhaps the most unambiguous source of shared national pride remaining. Every point Tunisia earns in this World Cup resonates beyond the scoreline.",
+    "momentType": "cultural"
+  },
+  "keyPlayers": [
+    {
+      "name": "Ellyes Skhiri",
+      "club": "Eintracht Frankfurt",
+      "position": "Defensive Midfielder",
+      "badge": "Captain",
+      "note": "The captain and the heartbeat of Tunisia's midfield — Skhiri's combination of physical intensity, positional discipline, and technical quality makes him one of the best defensive midfielders in the Bundesliga. His ability to break up play, distribute efficiently, and set the defensive structure gives Tunisia a genuine anchor that allows the more creative players to function."
+    },
+    {
+      "name": "Hannibal Mejbri",
+      "club": "Sevilla",
+      "position": "Central Midfielder",
+      "badge": null,
+      "note": "The most talented young Tunisian footballer of his generation — raised in France and developed at Manchester United, Mejbri's technical sophistication, energy, and creative instincts give Tunisia a different dimension in midfield. His ability to arrive late in dangerous areas and his pressing intensity make him a perfect complement to Skhiri's more defensive role."
+    },
+    {
+      "name": "Aissa Laidouni",
+      "club": "FC Union Berlin",
+      "position": "Defensive Midfielder",
+      "badge": null,
+      "note": "A disciplined, industrious midfielder who provides the defensive cover and ball-winning ability to allow Skhiri to play slightly higher when Tunisia push forward. Laidouni's reading of danger and his ability to interrupt opposition build-up play early in the sequence makes Tunisia significantly harder to play through."
+    },
+    {
+      "name": "Youssef Msakni",
+      "club": "Al-Arabi",
+      "position": "Left Wing",
+      "badge": null,
+      "note": "The creative elder statesman of Tunisia's attack — now in the later stages of his career, Msakni's technical quality, dribbling, and ability to find space in wide areas remain valuable. His experience of World Cup and AFCON football makes him an important voice and a match-winning talent on his best days."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Defensive", "Organized", "Hard to Beat", "Counter-Attack", "Physical"],
+    "tacticalNote": "Kadri's 4-4-2 is organized primarily around defensive solidity — Tunisia defends in two compact banks of four, denying space in central areas and forcing opponents to go wide. The defensive midfield pairing of Skhiri and Laidouni screens the back four relentlessly. On the counter, Tunisia are direct — finding wide players quickly and delivering early crosses for the second striker arriving. In a group with the Netherlands, Japan, and Sweden, the goal is maximum defensive organization in games 1 and 2 before the decisive third match.",
+    "strength": "Tunisia's defensive compactness and Skhiri's midfield anchoring make them one of the most organized and difficult-to-break-down African sides — even better teams need time to find solutions.",
+    "vulnerability": "Tunisia's attacking options are limited when opponents sit deep and force them to create — without Msakni at his best, the creative output in the final third drops significantly."
+  },
+  "watchFor": [
+    "Skhiri's interception positioning — watch how early he reads passes and how far up the pitch he wins the ball to launch counters",
+    "Mejbri's energy in the middle of the park — when he's at his best, he covers enormous ground and presses like a player with something to prove",
+    "Tunisia's defensive shape in the final minutes — if they are leading or drawing, the organization and courage of their defending is remarkable to observe"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 14",
+      "time": "10PM ET",
+      "opponent": "Sweden",
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
+      "isAway": true
+    },
+    {
+      "date": "Jun 20",
+      "time": "Midnight ET",
+      "opponent": "Japan",
+      "venue": "Estadio BBVA",
+      "city": "Monterrey",
+      "isAway": true
+    },
+    {
+      "date": "Jun 25",
+      "time": "7PM ET",
+      "opponent": "Netherlands",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "isAway": false
+    }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
+    { "year": 2018, "host": "Russia", "result": "Groups", "tier": "early" },
+    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
+    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "Groups", "tier": "early" },
+    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
+    { "year": 1978, "host": "Argentina", "result": "Groups", "tier": "deep" }
+  ],
+  "allTimeRecord": {
+    "played": 18,
+    "won": 1,
+    "drawn": 6,
+    "lost": 11,
+    "scored": 13,
+    "conceded": 29,
+    "appearances": 6,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Aymen Dahmen", "shortName": "Dahmen", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Mohamed Drager", "shortName": "Drager", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Montassar Talbi", "shortName": "Talbi", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Yassine Meriah", "shortName": "Meriah", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Ali Abdi", "shortName": "Abdi", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Youssef Msakni", "shortName": "Msakni", "position": "RM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 260 },
+      { "name": "Ellyes Skhiri", "shortName": "Skhiri", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 244 },
+      { "name": "Aissa Laidouni", "shortName": "Laidouni", "position": "LCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 161, "y": 244 },
+      { "name": "Hannibal Mejbri", "shortName": "Hannibal", "position": "LM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 260 },
+      { "name": "Seifeddine Jaziri", "shortName": "Jaziri", "position": "RS", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 372 },
+      { "name": "Issam Jebali", "shortName": "Jebali", "position": "LS", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 372 }
+    ]
+  }
+}

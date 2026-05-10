@@ -1,0 +1,136 @@
+{
+  "id": "mexico",
+  "name": "Mexico",
+  "nickname": "El Tri",
+  "accentColor": "#006847",
+  "flagEmoji": "🇲🇽",
+
+  "meta": {
+    "fifaRanking": 13,
+    "group": "A",
+    "groupOpponents": ["South Korea", "South Africa", "Czechia"],
+    "oddsToWin": "+2500",
+    "impliedProbability": "~4%",
+    "lastWCResult": "R16 '22",
+    "manager": "Javier Aguirre",
+    "managerTenure": "2023–present",
+    "formation": "4-2-3-1"
+  },
+
+  "narrative": {
+    "essence": "Mexico is the host nation that can't quite escape its own ceiling — seven straight Round of 16 exits is a curse as much as a result. In 2026, playing on home soil with a nation watching, El Tri faces its defining moment: break the hex, or finally accept it.",
+    "footballIdentity": "Football is Mexico's civic religion. Matches against the USA are wars. The Azteca roar is one of football's most intimidating sounds. But the hexatlon — six straight group-stage eliminations at the Round of 16 — has become the national wound, debated on every radio show and dinner table. Mexicans demand entertainment and expect drama. Their team delivers both.",
+    "theMoment": "Mexico is co-hosting the World Cup for the third time — 1970, 1986, and now 2026. Estadio Azteca will host group stage matches, making it the only stadium to host three World Cups. The pressure is immense: a nation expects not just participation but redemption. After the R16 exits of 2018 and 2022, manager Javier Aguirre returned specifically to break the curse on the biggest stage Mexico has ever hosted.",
+    "momentType": "footballing"
+  },
+
+  "keyPlayers": [
+    {
+      "name": "Hirving Lozano",
+      "club": "PSV Eindhoven",
+      "position": "Right wing",
+      "badge": "Captain",
+      "note": "'Chucky' is the electric winger who defines El Tri's attack. Quick, direct, two-footed threat who has carried this team for a decade."
+    },
+    {
+      "name": "Santiago Giménez",
+      "club": "AC Milan",
+      "position": "Striker",
+      "badge": null,
+      "note": "The heir to Mexican strikers. Clinical finisher with Feyenoord pedigree turned Serie A starter. Has to be the man to finally end the R16 hex."
+    },
+    {
+      "name": "Edson Álvarez",
+      "club": "West Ham",
+      "position": "Defensive mid",
+      "badge": null,
+      "note": "The anchor and the enforcer. Elite defensive midfielder who protects the back four and dictates tempo. Mexico's most important player positionally."
+    },
+    {
+      "name": "Guillermo Ochoa",
+      "club": "UNAM",
+      "position": "Goalkeeper",
+      "badge": null,
+      "note": "The immortal. Five World Cups, iconic saves in 2014 and 2022. At 40, still the last line of Mexico's defense and its spiritual leader."
+    }
+  ],
+
+  "tactics": {
+    "styleTags": ["Counter-attack", "Wing play", "Organized defense"],
+    "tacticalNote": "Aguirre sets Mexico in a compact 4-3-3 that invites pressure then releases Lozano and Giménez on the break. Álvarez anchors the midfield, allowing the wide midfielders to press aggressively. Mexico looks to win the ball high on the left side and attack quickly through the right channel.",
+    "strength": "Transition pace — Lozano and Giménez can punish any team that overcommits, and Ochoa behind them buys time for the rest.",
+    "vulnerability": "The same patterns that cost them in recent R16 exits: slow buildup, predictable wide deliveries, and a tendency to sit too deep once they take a lead."
+  },
+
+  "watchFor": [
+    "Santiago Giménez's movement in the penalty area — he pulls center-backs wide and attacks the near post with runs from deep.",
+    "Álvarez's positioning when Mexico defends — he effectively plays as a third center-back and dictates the defensive shape.",
+    "How Mexico responds to falling behind — historically they struggle to chase games, relying too heavily on individual moments."
+  ],
+
+  "schedule": [
+    {
+      "date": "Jun 11",
+      "time": "3PM ET",
+      "opponent": "South Africa",
+      "venue": "Estadio Azteca",
+      "city": "Mexico City",
+      "isAway": false
+    },
+    {
+      "date": "Jun 18",
+      "time": "9PM ET",
+      "opponent": "South Korea",
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "isAway": false
+    },
+    {
+      "date": "Jun 24",
+      "time": "9PM ET",
+      "opponent": "Czechia",
+      "venue": "Estadio Azteca",
+      "city": "Mexico City",
+      "isAway": true
+    }
+  ],
+
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "R16", "tier": "deep" },
+    { "year": 2018, "host": "Russia", "result": "R16", "tier": "deep" },
+    { "year": 2014, "host": "Brazil", "result": "R16", "tier": "deep" },
+    { "year": 2010, "host": "S. Africa", "result": "R16", "tier": "deep" },
+    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
+    { "year": 2002, "host": "Korea/Japan", "result": "R16", "tier": "deep" },
+    { "year": 1998, "host": "France", "result": "QF", "tier": "deep" },
+    { "year": 1994, "host": "USA", "result": "R16", "tier": "deep" }
+  ],
+
+  "allTimeRecord": {
+    "played": 57,
+    "won": 16,
+    "drawn": 14,
+    "lost": 27,
+    "scored": 67,
+    "conceded": 98,
+    "appearances": 17,
+    "titles": 0,
+    "finals": 0
+  },
+
+  "pitch": {
+    "players": [
+      { "name": "Ochoa", "shortName": "Ochoa", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Sánchez", "shortName": "Sánchez", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Montes", "shortName": "Montes", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Moreno", "shortName": "Moreno", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Gallardo", "shortName": "Gallardo", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Flores", "shortName": "Flores", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Álvarez", "shortName": "Álvarez", "position": "DM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Rodríguez", "shortName": "Rodríguez", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Lozano", "shortName": "Lozano", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 389, "y": 362 },
+      { "name": "Giménez", "shortName": "Giménez", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Antuna", "shortName": "Antuna", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

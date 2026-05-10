@@ -1,0 +1,136 @@
+{
+  "id": "switzerland",
+  "name": "Switzerland",
+  "nickname": "Nati",
+  "accentColor": "#DA0001",
+  "flagEmoji": "🇨🇭",
+
+  "meta": {
+    "fifaRanking": 19,
+    "group": "B",
+    "groupOpponents": ["Canada", "Qatar", "Bosnia-Herzegovina"],
+    "oddsToWin": "+4000",
+    "impliedProbability": "~2%",
+    "lastWCResult": "QF '22",
+    "manager": "Murat Yakin",
+    "managerTenure": "2021–present",
+    "formation": "4-2-3-1"
+  },
+
+  "narrative": {
+    "essence": "Switzerland is the tournament's most reliable overperformer — they consistently reach knockout rounds despite ranking well below the elite nations. Don't sleep on them. They found their tactical ceiling at the 2022 quarter-final and believe they can go further.",
+    "footballIdentity": "Swiss football is a story of multicultural identity. Granit Xhaka, Xherdan Shaqiri, Breel Embolo — born in Kosovo, Nigeria, Cameroon respectively, but raised in Switzerland and fiercely committed to the red and white. The Nati reflects modern Switzerland: a country built on immigration that still debates what belonging means. Their football has become a source of unity in that debate.",
+    "theMoment": "Switzerland arrives in 2026 fresh off their deepest World Cup run in decades — a quarter-final in Qatar that proved this isn't just a solid team but a genuine threat. Granit Xhaka, now at Bayer Leverkusen's historic Bundesliga-winning side, is in the form of his life. The squad has depth, tactical maturity, and a manager who found a system that suits them. This is as good as Switzerland gets.",
+    "momentType": "footballing"
+  },
+
+  "keyPlayers": [
+    {
+      "name": "Granit Xhaka",
+      "club": "Bayer Leverkusen",
+      "position": "Midfield",
+      "badge": "Captain",
+      "note": "Transformed from villain to leader. His range of passing and defensive intelligence make him Switzerland's most important player by some distance."
+    },
+    {
+      "name": "Breel Embolo",
+      "club": "AS Monaco",
+      "position": "Striker",
+      "badge": null,
+      "note": "Physical, mobile, and a pest for defenders. Embolo's pressing and link-up play are as valuable as his goals — he makes the system function."
+    },
+    {
+      "name": "Remo Freuler",
+      "club": "Bologna",
+      "position": "Central mid",
+      "badge": null,
+      "note": "The underrated piece. Freuler's disciplined positioning and quick distribution keep Switzerland ticking when Xhaka is marked out."
+    },
+    {
+      "name": "Manuel Akanji",
+      "club": "Manchester City",
+      "position": "Center-back",
+      "badge": null,
+      "note": "Elite center-back with Champions League pedigree. Ball-playing, aerially strong, and the organizer of a Swiss backline that is very hard to break down."
+    }
+  ],
+
+  "tactics": {
+    "styleTags": ["Organized", "Counter-attack", "High press", "Technical"],
+    "tacticalNote": "Yakin's 4-2-3-1 is built around defensive solidity and sharp transitions. Xhaka orchestrates from deep, distributing to wide attackers who stretch the game. Switzerland doesn't invite pressure — they press actively and then use the turnover to attack quickly. Their defensive shape concedes very little when it's right.",
+    "strength": "Defensive resilience — Switzerland is extremely difficult to score against and has eliminated better teams than themselves through pure tactical discipline.",
+    "vulnerability": "Reliance on Xhaka: when he's effectively nullified or unfit, Switzerland's midfield can look pedestrian and their attacks stall."
+  },
+
+  "watchFor": [
+    "Xhaka's diagonal passes from left midfield — he switches the play with precision that consistently wrong-foots the opposition.",
+    "Switzerland's press after losing the ball — they re-engage immediately rather than retreating, which creates turnovers in dangerous areas.",
+    "Akanji's forward carrying from center-back — he is comfortable dribbling into midfield and draws defenders before releasing quick combinations."
+  ],
+
+  "schedule": [
+    {
+      "date": "Jun 13",
+      "time": "3PM ET",
+      "opponent": "Qatar",
+      "venue": "Levi's Stadium",
+      "city": "San Francisco Bay Area",
+      "isAway": true
+    },
+    {
+      "date": "Jun 18",
+      "time": "3PM ET",
+      "opponent": "Bosnia and Herzegovina",
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles",
+      "isAway": false
+    },
+    {
+      "date": "Jun 24",
+      "time": "3PM ET",
+      "opponent": "Canada",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "isAway": false
+    }
+  ],
+
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "QF", "tier": "deep" },
+    { "year": 2018, "host": "Russia", "result": "R16", "tier": "deep" },
+    { "year": 2014, "host": "Brazil", "result": "R16", "tier": "deep" },
+    { "year": 2010, "host": "S. Africa", "result": "Groups", "tier": "early" },
+    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
+    { "year": 1994, "host": "USA", "result": "R16", "tier": "deep" },
+    { "year": 1966, "host": "England", "result": "Groups", "tier": "early" },
+    { "year": 1962, "host": "Chile", "result": "Groups", "tier": "early" }
+  ],
+
+  "allTimeRecord": {
+    "played": 40,
+    "won": 13,
+    "drawn": 10,
+    "lost": 17,
+    "scored": 62,
+    "conceded": 68,
+    "appearances": 12,
+    "titles": 0,
+    "finals": 0
+  },
+
+  "pitch": {
+    "players": [
+      { "name": "Sommer", "shortName": "Sommer", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Widmer", "shortName": "Widmer", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Akanji", "shortName": "Akanji", "position": "CB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Elvedi", "shortName": "Elvedi", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Ricardo R.", "shortName": "Ricardo R.", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Xhaka", "shortName": "Xhaka", "position": "RDM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 220 },
+      { "name": "Freuler", "shortName": "Freuler", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
+      { "name": "Shaqiri", "shortName": "Shaqiri", "position": "RAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
+      { "name": "Vargas", "shortName": "Vargas", "position": "CAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 300 },
+      { "name": "Ruben V.", "shortName": "Ruben V.", "position": "LAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 310 },
+      { "name": "Embolo", "shortName": "Embolo", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 390 }
+    ]
+  }
+}

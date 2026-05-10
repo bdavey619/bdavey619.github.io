@@ -1,0 +1,129 @@
+{
+  "id": "qatar",
+  "name": "Qatar",
+  "nickname": "Al Annabi",
+  "accentColor": "#8D1B3D",
+  "flagEmoji": "🇶🇦",
+
+  "meta": {
+    "fifaRanking": 58,
+    "group": "B",
+    "groupOpponents": ["Canada", "Switzerland", "Bosnia-Herzegovina"],
+    "oddsToWin": "+10000",
+    "impliedProbability": "~1%",
+    "lastWCResult": "Groups '22",
+    "manager": "Marquez Lopez",
+    "managerTenure": "2023–present",
+    "formation": "4-3-3"
+  },
+
+  "narrative": {
+    "essence": "Qatar became the first host nation to be eliminated in the group stage of their own World Cup in 2022 — a result that stunned even their own federation. In 2026, having qualified on merit for the first time, they're trying to prove that was an aberration, not a verdict.",
+    "footballIdentity": "Qatar's football project is entirely constructed and intentional — a small Gulf state that used sovereign wealth to build a football culture from scratch, naturalizing foreign-born players, building world-class facilities, and hosting the sport's greatest tournament. Authenticity debates aside, the Aspire Academy has produced genuinely talented players. Whether that's enough to compete globally remains the question.",
+    "theMoment": "Having been gifted automatic host qualification in 2022, Qatar had to actually earn their place in 2026 — qualifying through the Asian pathway. That process, and the result, has given this squad something 2022 couldn't: genuine competitive experience against opponents who are also fighting for their place. The ghost of being thrashed 3-1 by Senegal in their home World Cup's opening game still haunts them.",
+    "momentType": "political"
+  },
+
+  "keyPlayers": [
+    {
+      "name": "Akram Afif",
+      "club": "Al Sadd",
+      "position": "Left wing",
+      "badge": "Captain",
+      "note": "The best player Qatar has ever produced. Creative, technically gifted winger who is genuinely elite by Asian football standards. Won the AFC Asian Cup Golden Ball."
+    },
+    {
+      "name": "Almoez Ali",
+      "club": "Al Duhail",
+      "position": "Striker",
+      "badge": null,
+      "note": "Qatar's record goalscorer. Fast, mobile striker who caused problems in Asian qualifying. His movement is the focal point of Qatar's attack."
+    },
+    {
+      "name": "Hassan Al-Haydos",
+      "club": "Al Sadd",
+      "position": "Right wing",
+      "badge": null,
+      "note": "Experienced veteran who provides technical quality and leadership. His passing and positional understanding guide Qatar's attacking patterns."
+    },
+    {
+      "name": "Boualem Khoukhi",
+      "club": "Al Sadd",
+      "position": "Center-back",
+      "badge": null,
+      "note": "The defensive anchor of Qatar's backline. Physical, experienced, and the leader of a defense that needs to keep clean sheets to give Qatar any chance."
+    }
+  ],
+
+  "tactics": {
+    "styleTags": ["Organized", "Technical", "Counter-attack"],
+    "tacticalNote": "Qatar plays a possession-based 4-3-3 influenced by their Spanish coaching connections. They're technically sound in tight spaces but lack the physical intensity to sustain a press against top opponents. Afif is the creative hub — everything goes through him. They rely on compact defending and quick breaks.",
+    "strength": "Technical quality in tight spaces and Afif's individual brilliance — against teams of similar quality, they're capable.",
+    "vulnerability": "Physical intensity and pace at the highest level — the gap in physicality when facing elite opponents becomes obvious quickly."
+  },
+
+  "watchFor": [
+    "Akram Afif's dribbling sequences from wide positions — he's genuinely world-class in 1v1 situations and creates dangerous moments.",
+    "Qatar's defensive compactness — their backline is well-organized and they're difficult to break down through the center.",
+    "Almoez Ali's movement beyond the last line — he's consistently a threat in behind and has pace that defenses must respect."
+  ],
+
+  "schedule": [
+    {
+      "date": "Jun 13",
+      "time": "3PM ET",
+      "opponent": "Switzerland",
+      "venue": "Levi's Stadium",
+      "city": "San Francisco Bay Area",
+      "isAway": false
+    },
+    {
+      "date": "Jun 18",
+      "time": "6PM ET",
+      "opponent": "Canada",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "isAway": true
+    },
+    {
+      "date": "Jun 24",
+      "time": "3PM ET",
+      "opponent": "Bosnia and Herzegovina",
+      "venue": "Lumen Field",
+      "city": "Seattle",
+      "isAway": true
+    }
+  ],
+
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" }
+  ],
+
+  "allTimeRecord": {
+    "played": 3,
+    "won": 0,
+    "drawn": 0,
+    "lost": 3,
+    "scored": 1,
+    "conceded": 9,
+    "appearances": 1,
+    "titles": 0,
+    "finals": 0
+  },
+
+  "pitch": {
+    "players": [
+      { "name": "Al Sheeb", "shortName": "Al Sheeb", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Pedro Miguel", "shortName": "Pedro M.", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Khoukhi", "shortName": "Khoukhi", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Al Rawi", "shortName": "Al Rawi", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Homam", "shortName": "Homam", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Al-Haydos", "shortName": "Al-Haydos", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Boudiaf", "shortName": "Boudiaf", "position": "DM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Al Haydos", "shortName": "Al Haydos", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Afif", "shortName": "Afif", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 389, "y": 362 },
+      { "name": "Almoez Ali", "shortName": "Almoez", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Ismail M.", "shortName": "Ismail M.", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

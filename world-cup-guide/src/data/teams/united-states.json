@@ -1,0 +1,136 @@
+{
+  "id": "united-states",
+  "name": "United States",
+  "nickname": "The Stars and Stripes",
+  "accentColor": "#002868",
+  "flagEmoji": "🇺🇸",
+
+  "meta": {
+    "fifaRanking": 13,
+    "group": "D",
+    "groupOpponents": ["Paraguay", "Australia", "Türkiye"],
+    "oddsToWin": "+800",
+    "impliedProbability": "~11%",
+    "lastWCResult": "R16 '22",
+    "manager": "Mauricio Pochettino",
+    "managerTenure": "2024–present",
+    "formation": "4-3-3"
+  },
+
+  "narrative": {
+    "essence": "The United States is hosting the World Cup and has a generation of talent playing at the highest level in Europe — this is the moment American soccer has been building toward for 30 years. The pressure is immense. The potential is real. This squad can make a run.",
+    "footballIdentity": "American football has always been haunted by the promise of what it could become. The country's size, athletic culture, and resources should produce elite footballers — and finally, they are. Pulisic, Weah, McKennie, Adams — raised watching Messi and Ronaldo, developed in European academies, determined to make football matter in a country that has always prioritized other sports. The 1994 World Cup planted a seed. 2026 is its most significant test.",
+    "theMoment": "The United States hosts its second World Cup, the first since 1994 when the tournament transformed American soccer consciousness. Pochettino arrived from PSG and Chelsea failures with something to prove as well. The country is deeply divided politically, and sport — especially the Super Bowl and March Madness variety — has always provided temporary unity. A World Cup run in American cities, before American crowds, could be the crystallizing moment for US soccer's generational transformation.",
+    "momentType": "cultural"
+  },
+
+  "keyPlayers": [
+    {
+      "name": "Christian Pulisic",
+      "club": "AC Milan",
+      "position": "Attacking mid",
+      "badge": "Captain",
+      "note": "The American captain and the face of this era. Technically excellent, direct, and a big-game performer. Everything the US does in attack runs through or around him."
+    },
+    {
+      "name": "Gio Reyna",
+      "club": "Nottingham Forest",
+      "position": "Attacking Midfielder",
+      "badge": null,
+      "note": "Son of USMNT legend Claudio Reyna, Gio has the highest ceiling of any American player — technically gifted and creative in tight spaces. After battling injuries that derailed his teenage promise, a fully fit Reyna at a World Cup on home soil is one of the tournament's most exciting prospects."
+    },
+    {
+      "name": "Folarin Balogun",
+      "club": "Monaco",
+      "position": "Striker",
+      "badge": null,
+      "note": "The clinical finisher the US has waited years for. Quick, intelligent movement and an excellent finish on either foot."
+    },
+    {
+      "name": "Tyler Adams",
+      "club": "Bournemouth",
+      "position": "Defensive mid",
+      "badge": null,
+      "note": "The defensive anchor. Exceptional positioning, relentless pressing, and leadership beyond his years. The player who holds the team's structure together."
+    }
+  ],
+
+  "tactics": {
+    "styleTags": ["High press", "Fast transitions", "Technical", "Physical"],
+    "tacticalNote": "Pochettino's US presses aggressively from a 4-3-3 with Adams providing the defensive pivot. Pulisic has freedom to find pockets centrally while the wide forwards provide width and pace. The US wants to win the ball high and attack quickly — their best football comes in transition, not in possession-building.",
+    "strength": "Athletic intensity and transition pace — this team can press for 90 minutes and has the individual quality in attack to punish any lapse.",
+    "vulnerability": "Defensive organization when the press is beaten — the back four can be exposed when the midfield's aggression leaves space in behind."
+  },
+
+  "watchFor": [
+    "Pulisic's movement between lines — he's most dangerous when he drops into the space between opposition midfield and defense, turns, and faces goal.",
+    "Adams's positioning without the ball — he constantly shuffles to put himself between the ball and the goal before the pass is even made.",
+    "How the US handles the unique pressure of playing in front of American crowds — in 2022 they were comfortable as underdogs. At home, expectations are different."
+  ],
+
+  "schedule": [
+    {
+      "date": "Jun 12",
+      "time": "9PM ET",
+      "opponent": "Paraguay",
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles",
+      "isAway": false
+    },
+    {
+      "date": "Jun 19",
+      "time": "3PM ET",
+      "opponent": "Australia",
+      "venue": "Lumen Field",
+      "city": "Seattle",
+      "isAway": false
+    },
+    {
+      "date": "Jun 25",
+      "time": "10PM ET",
+      "opponent": "Türkiye",
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles",
+      "isAway": true
+    }
+  ],
+
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "R16", "tier": "deep" },
+    { "year": 2018, "host": "Russia", "result": "DNQ", "tier": "dnq" },
+    { "year": 2014, "host": "Brazil", "result": "R16", "tier": "deep" },
+    { "year": 2010, "host": "S. Africa", "result": "R16", "tier": "deep" },
+    { "year": 2006, "host": "Germany", "result": "Groups", "tier": "early" },
+    { "year": 2002, "host": "Korea/Japan", "result": "QF", "tier": "deep" },
+    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
+    { "year": 1994, "host": "USA", "result": "R16", "tier": "deep" }
+  ],
+
+  "allTimeRecord": {
+    "played": 37,
+    "won": 12,
+    "drawn": 6,
+    "lost": 19,
+    "scored": 47,
+    "conceded": 67,
+    "appearances": 11,
+    "titles": 0,
+    "finals": 0
+  },
+
+  "pitch": {
+    "players": [
+      { "name": "Turner", "shortName": "Turner", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Dest", "shortName": "Dest", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Richards", "shortName": "Richards", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Ream", "shortName": "Ream", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Robinson", "shortName": "Robinson", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "McKennie", "shortName": "McKennie", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Adams", "shortName": "Adams", "position": "DM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Musah", "shortName": "Musah", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Weah", "shortName": "Weah", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Balogun", "shortName": "Balogun", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Pulisic", "shortName": "Pulisic", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 63, "y": 362 }
+    ]
+  }
+}

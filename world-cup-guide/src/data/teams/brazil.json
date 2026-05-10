@@ -1,0 +1,136 @@
+{
+  "id": "brazil",
+  "name": "Brazil",
+  "nickname": "Seleção",
+  "accentColor": "#009C3B",
+  "flagEmoji": "🇧🇷",
+
+  "meta": {
+    "fifaRanking": 5,
+    "group": "C",
+    "groupOpponents": ["Morocco", "Scotland", "Haiti"],
+    "oddsToWin": "+700",
+    "impliedProbability": "~13%",
+    "lastWCResult": "QF '22",
+    "manager": "Dorival Júnior",
+    "managerTenure": "2024–present",
+    "formation": "4-2-3-1"
+  },
+
+  "narrative": {
+    "essence": "Brazil hasn't won the World Cup since 2002 — their longest drought since they first appeared in the tournament. The ache is national, persistent, and politically charged. In 2026, with Vinícius Jr. at peak powers and a rebuilt squad, they believe the hexacampeonato is finally within reach.",
+    "footballIdentity": "Brazil and football are synonymous. Pelé, Ronaldo, Ronaldinho — the Seleção didn't just win World Cups, they defined what football could be at its most joyous. Jogo bonito isn't a tactic, it's a national value. But since 2002, that joy has curdled into anxiety. The 2014 humiliation — 7-1 to Germany at home — still echoes. Every Brazilian squad carries that ghost into every tournament.",
+    "theMoment": "Brazil enters 2026 in political and social turbulence. Lula's government faces deep polarization, and football has been dragged into the culture wars — Vinícius Jr., Brazil's biggest star, has been a lightning rod for racism in European leagues and a defender of progressive causes at home. Whether this squad can unite rather than divide a fractured country is as interesting as whether they can win. The hexacampeonato would be the binding agent Brazil's political class can't manufacture.",
+    "momentType": "footballing"
+  },
+
+  "keyPlayers": [
+    {
+      "name": "Vinícius Jr.",
+      "club": "Real Madrid",
+      "position": "Left wing",
+      "badge": "Ballon d'Or '24",
+      "note": "The most exciting attacker in the world right now. Explosive, creative, unstoppable in one-on-ones. This is his tournament to define his legacy."
+    },
+    {
+      "name": "Rodrygo",
+      "club": "Real Madrid",
+      "position": "Right wing",
+      "badge": null,
+      "note": "The big-game player. Scores in Champions League knockouts with regularity. Provides the technical complement to Vinícius' directness."
+    },
+    {
+      "name": "Bruno Guimarães",
+      "club": "Newcastle United",
+      "position": "Central mid",
+      "badge": "Captain",
+      "note": "The best midfielder in the Premier League. Combines defensive intelligence with creative distribution — the engine room of everything Brazil does."
+    },
+    {
+      "name": "Marquinhos",
+      "club": "PSG",
+      "position": "Center-back",
+      "badge": null,
+      "note": "Elite center-back with over a decade of top-level experience. Leads Brazil's defensive structure with intelligence and aerial dominance."
+    }
+  ],
+
+  "tactics": {
+    "styleTags": ["High press", "Wing play", "Technical", "Fast transitions"],
+    "tacticalNote": "Dorival's 4-2-3-1 gives Vinícius the freedom to run at defenders while Rodrygo provides technical quality on the opposite flank. Bruno Guimarães and a partner screen the defense while the number 10 connects midfield to attack. Brazil wants to control possession but can also explode in transition — the two modes are deliberately blended.",
+    "strength": "Individual quality at every position — Brazil has arguably more stars on the field at once than any other squad in the tournament.",
+    "vulnerability": "Defensive concentration in high-pressure moments — Brazil's backline can be disorganized when pressed by direct, fast opponents, as Qatar 2022 showed."
+  },
+
+  "watchFor": [
+    "Vinícius's acceleration on the left flank — one touch to set, one explosive burst to get to the byline. Defenders' hips must be perfect to stop him.",
+    "Bruno Guimarães pressing triggers — he leads Brazil's counterpresses with exceptional anticipation of where the ball will go.",
+    "Brazil's set piece threat — Marquinhos, Militão, and Gabriel Magalhães are all aerial dangers at corners and free kicks."
+  ],
+
+  "schedule": [
+    {
+      "date": "Jun 13",
+      "time": "6PM ET",
+      "opponent": "Morocco",
+      "venue": "MetLife Stadium",
+      "city": "New York/New Jersey",
+      "isAway": false
+    },
+    {
+      "date": "Jun 19",
+      "time": "9PM ET",
+      "opponent": "Haiti",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "isAway": false
+    },
+    {
+      "date": "Jun 24",
+      "time": "6PM ET",
+      "opponent": "Scotland",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami",
+      "isAway": true
+    }
+  ],
+
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "QF", "tier": "deep" },
+    { "year": 2018, "host": "Russia", "result": "QF", "tier": "deep" },
+    { "year": 2014, "host": "Brazil", "result": "QF", "tier": "deep" },
+    { "year": 2010, "host": "S. Africa", "result": "QF", "tier": "deep" },
+    { "year": 2006, "host": "Germany", "result": "QF", "tier": "deep" },
+    { "year": 2002, "host": "Korea/Japan", "result": "Won", "tier": "winner" },
+    { "year": 1998, "host": "France", "result": "Final", "tier": "final" },
+    { "year": 1994, "host": "USA", "result": "Won", "tier": "winner" }
+  ],
+
+  "allTimeRecord": {
+    "played": 114,
+    "won": 76,
+    "drawn": 19,
+    "lost": 19,
+    "scored": 237,
+    "conceded": 105,
+    "appearances": 22,
+    "titles": 5,
+    "finals": 8
+  },
+
+  "pitch": {
+    "players": [
+      { "name": "Alisson", "shortName": "Alisson", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Militão", "shortName": "Militão", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Marquinhos", "shortName": "Marquinhos", "position": "CB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "G. Magalhães", "shortName": "G. Magalhães", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Wendell", "shortName": "Wendell", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Bruno G.", "shortName": "Bruno G.", "position": "RDM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 293, "y": 220 },
+      { "name": "Paquetá", "shortName": "Paquetá", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
+      { "name": "Rodrygo", "shortName": "Rodrygo", "position": "RAM", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 310 },
+      { "name": "Raphinha", "shortName": "Raphinha", "position": "CAM", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 300 },
+      { "name": "Vinícius Jr.", "shortName": "Vinícius", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 104, "y": 310 },
+      { "name": "Endrick", "shortName": "Endrick", "position": "ST", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 390 }
+    ]
+  }
+}

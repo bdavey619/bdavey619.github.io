@@ -1,0 +1,120 @@
+{
+  "id": "panama",
+  "name": "Panama",
+  "nickname": "Los Canaleros",
+  "accentColor": "#DA121A",
+  "flagEmoji": "🇵🇦",
+  "meta": {
+    "fifaRanking": 73,
+    "group": "L",
+    "groupOpponents": ["England", "Ghana", "Croatia"],
+    "oddsToWin": "+10000",
+    "impliedProbability": "~1%",
+    "lastWCResult": "Groups '18",
+    "manager": "Thomas Christiansen",
+    "managerTenure": "2021–present",
+    "formation": "4-4-2"
+  },
+  "narrative": {
+    "essence": "Panama City will be the most festive place on Earth during the 2026 World Cup. This tiny nation of four million — straddling the Americas, home to the world's most famous canal, built on a crossroads culture — brings Caribbean joy and Central American grit to every World Cup they qualify for.",
+    "footballIdentity": "In Panama, football is part of the national fabric in a uniquely multicultural way — the country's Afro-Caribbean, Latin, and Indigenous communities all claim the game. The national team draws from the Canal Zone's tradition of hard-working, physical, organized football — a style built on collective effort more than individual brilliance. Panama punched above its weight to qualify for Russia 2018, their debut; making it a second time is validation of the country's football infrastructure.",
+    "theMoment": "Panama's joy at being at a World Cup is genuine and infectious — they know the group is brutal, they know England and Croatia are superior on paper, but that has never stopped Los Canaleros from organizing fiercely and fighting for every single point. At home, Panama is a country that will party the moment the squad is on the plane. They'll do it with joy, pride, and the knowledge that just qualifying — twice — is an achievement that no one would have predicted a generation ago.",
+    "momentType": "cultural"
+  },
+  "keyPlayers": [
+    {
+      "name": "Ismael Díaz",
+      "club": "Osasuna",
+      "position": "Striker / Left Wing",
+      "badge": "Captain",
+      "note": "Panama's most dynamic attacking threat and the player with the highest ceiling in the squad. Díaz's pace, directness, and ability to create from wide positions give Panama a genuine weapon going forward — and his experience in La Liga means he's equipped to handle the quality of Group L's defenses at their best."
+    },
+    {
+      "name": "Adalberto Carrasquilla",
+      "club": "Houston Dynamo",
+      "position": "Central Midfielder",
+      "badge": null,
+      "note": "The heartbeat of Panama's midfield — a technically capable, intelligent midfielder who gives the team a passing option and helps link defense to attack. His experience in MLS and his ability to keep the ball under pressure are central to how Panama build their shape and maintain composure against higher-ranked opponents."
+    },
+    {
+      "name": "Rolando Blackburn",
+      "club": "Al-Qadisiyah",
+      "position": "Striker",
+      "badge": null,
+      "note": "A powerful, experienced striker who gives Panama a physical presence up front. Blackburn's ability to hold up the ball, bring the second striker or wide players into play, and finish from close range makes him the focal point of Panama's direct attacking approach."
+    },
+    {
+      "name": "Cecilio Waterman",
+      "club": "Columbus Crew",
+      "position": "Left Wing",
+      "badge": null,
+      "note": "Waterman's pace and directness on the left provide Panama with width and a counter-attacking threat that can genuinely trouble opponents when he's given space to run into. His experience in MLS — one of the better leagues for developing physical, direct wide players — has sharpened his output at international level."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Physical", "Organized", "Hard-Working", "Set Pieces", "Compact"],
+    "tacticalNote": "Christiansen's Panama set up in a disciplined 4-4-2 that prioritizes defensive organization above all else — two tight banks of four that compress space and frustrate opponents who want to play through them. In transition, they are direct: find Blackburn's hold-up play or Díaz's runs in behind, and get into the penalty area as quickly as possible. Set pieces are a significant weapon — Panama are excellent on corners and free kicks because of their physical presence and delivery. Against England and Croatia, they need to stay organized for long periods and capitalize ruthlessly on the few chances they create.",
+    "strength": "Defensive resilience and set piece threat — Panama are remarkably hard to break down and dangerous from dead balls.",
+    "vulnerability": "Limited quality in sustained possession against teams who press; when Panama can't get the ball forward quickly, they can be pinned back for extended periods."
+  },
+  "watchFor": [
+    "Panama's defending at set pieces — they are organized and physical, and this is where upsets are born",
+    "Díaz's counter-attacking runs — Panama's best moments will come when they win the ball and release him with space ahead",
+    "The emotion of the Panama fans — they travel in numbers and are among the most passionate supporters at any tournament"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 17",
+      "time": "7PM ET",
+      "opponent": "Ghana",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "isAway": false
+    },
+    {
+      "date": "Jun 23",
+      "time": "7PM ET",
+      "opponent": "Croatia",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "isAway": true
+    },
+    {
+      "date": "Jun 27",
+      "time": "5PM ET",
+      "opponent": "England",
+      "venue": "MetLife Stadium",
+      "city": "New York/New Jersey",
+      "isAway": false
+    }
+  ],
+  "history": [
+    { "year": 2018, "host": "Russia", "result": "Groups", "tier": "early" }
+  ],
+  "allTimeRecord": {
+    "played": 3,
+    "won": 0,
+    "drawn": 0,
+    "lost": 3,
+    "scored": 2,
+    "conceded": 11,
+    "appearances": 1,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Luis Mejía", "shortName": "Mejía", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Fidel Escobar", "shortName": "F. Escobar", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Erick Davis", "shortName": "E. Davis", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Harold Cummings", "shortName": "Cummings", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Édgar Yoel Bárcenas", "shortName": "Bárcenas", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Cecilio Waterman", "shortName": "Waterman", "position": "RM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 260 },
+      { "name": "Adalberto Carrasquilla", "shortName": "Carrasquilla", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 244 },
+      { "name": "Aníbal Godoy", "shortName": "Godoy", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 244 },
+      { "name": "Ismael Díaz", "shortName": "I. Díaz", "position": "LM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 63, "y": 260 },
+      { "name": "Rolando Blackburn", "shortName": "Blackburn", "position": "RS", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 293, "y": 372 },
+      { "name": "Gabriel Torres", "shortName": "G. Torres", "position": "LS", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 372 }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "iraq",
+  "name": "Iraq",
+  "nickname": "The Lions of Mesopotamia",
+  "accentColor": "#007A3D",
+  "flagEmoji": "🇮🇶",
+  "meta": {
+    "fifaRanking": 66,
+    "group": "I",
+    "groupOpponents": ["France", "Norway", "Senegal"],
+    "oddsToWin": "+10000",
+    "impliedProbability": "~1%",
+    "lastWCResult": "Groups '86",
+    "manager": "Jesús Casas",
+    "managerTenure": "2023–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "Forty years between World Cup appearances. Iraq returns to football's greatest stage after an absence defined by wars, sanctions, and unimaginable national trauma — carrying a weight that no other team in the tournament can understand.",
+    "footballIdentity": "Football is the one constant in Iraq's fractured recent history. Through the Gulf War, the invasion, the sectarian violence, and the rise of ISIS, football continued — a connection between communities when everything else was broken. The national team operates under extraordinary circumstances, with the domestic league often played in dangerous conditions and players scattered across the Middle East. Qualifying for this World Cup — their second ever appearance — represents a triumph of spirit over circumstance.",
+    "theMoment": "Iraq's only previous World Cup was in 1986, when the country was in the middle of the Iran-Iraq War. Forty years later, in a country still rebuilding from a different kind of destruction, the national team has qualified again. Group I with France and Norway is brutal on paper — but football doesn't ask for forgiveness on the schedule. Jesús Casas, the Spanish manager, has brought tactical discipline to a team that plays with extraordinary passion. Every match is a gift for a football-loving nation that has endured so much.",
+    "momentType": "historical"
+  },
+  "keyPlayers": [
+    {
+      "name": "Aymen Hussein",
+      "club": "Al-Zawraa",
+      "position": "ST",
+      "badge": "Captain",
+      "note": "Iraq's most prolific scorer and the focal point of their attack. Hussein's ability to hold up play, link with midfielders, and find the net from relatively few chances makes him the constant attacking reference for a team that will need to be efficient in front of goal. His goal-scoring record in AFC competition has been crucial to Iraq's qualification."
+    },
+    {
+      "name": "Ali Adnan",
+      "club": "Fortuna Düsseldorf",
+      "position": "LB",
+      "badge": null,
+      "note": "Iraq's most recognizable player in European football, Ali Adnan spent several years in MLS and German football. The left-back's attacking quality and experience in Western football gives Iraq an outlet and a player comfortable competing at international standard against European opposition."
+    },
+    {
+      "name": "Amjad Attwan",
+      "club": "Al-Zawraa",
+      "position": "CM",
+      "badge": null,
+      "note": "The midfield engine of the Iraqi national team, Attwan's work rate and ability to cover ground give Iraq defensive compactness in the middle of the park. His domestic form for Al-Zawraa has been exceptional and he's the driving force behind Iraq's midfield press."
+    },
+    {
+      "name": "Ahmad Yasin",
+      "club": "Al-Quwa Al-Jawiya",
+      "position": "RW",
+      "badge": null,
+      "note": "The creative wide forward who provides Iraq's best chance of generating attacking play from wide areas. Yasin's pace and directness on the right wing give Iraq an outlet and an ability to stretch opposing defenses in transition."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Organized", "Physical", "Direct", "Passionate"],
+    "tacticalNote": "Jesús Casas has given Iraq a structured approach that prioritizes defensive organization while preserving enough attacking threat to make opponents work. The 4-3-3 is compact without the ball and direct when in possession — Iraq won't try to out-possess France or Norway, but they will be organized, physical, and capable of winning set-piece situations. The key to any Iraq progress is surviving the first two games without humiliation and then beating Senegal in the final match — the only realistic path to any points.",
+    "strength": "Iraq's defensive organization under Casas has improved dramatically, and their passion and fighting spirit creates an intensity that can disrupt the rhythm of better technical teams.",
+    "vulnerability": "Against France and Norway's quality in midfield and attack, Iraq will face sustained pressure they've rarely experienced in AFC qualification — the gap in technical quality across the team is significant."
+  },
+  "watchFor": [
+    "Aymen Hussein in any set-piece situation — Iraq's best chance of scoring comes from dead balls and physically winning aerial duels",
+    "Iraq's defensive structure in the first 15 minutes against France — whether they can maintain organization under the inevitable early pressure",
+    "The emotion of the occasion — Iraq players returning to a World Cup for the first time in 40 years will play with extraordinary motivation"
+  ],
+  "schedule": [
+    { "date": "Jun 16", "time": "6PM ET", "opponent": "Norway", "venue": "Gillette Stadium", "city": "Foxborough, MA", "isAway": false },
+    { "date": "Jun 22", "time": "5PM ET", "opponent": "France", "venue": "Lincoln Financial Field", "city": "Philadelphia", "isAway": true },
+    { "date": "Jun 26", "time": "3PM ET", "opponent": "Senegal", "venue": "BMO Field", "city": "Toronto", "isAway": true }
+  ],
+  "history": [
+    { "year": 1986, "host": "Mexico", "result": "Groups", "tier": "early" }
+  ],
+  "allTimeRecord": {
+    "played": 3,
+    "won": 0,
+    "drawn": 0,
+    "lost": 3,
+    "scored": 1,
+    "conceded": 4,
+    "appearances": 1,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Jalal Hassan", "shortName": "J. Hassan", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Samer Saeed", "shortName": "S. Saeed", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Alaa Abbas", "shortName": "A. Abbas", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Rebin Sulaka", "shortName": "Sulaka", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Ali Adnan", "shortName": "Ali Adnan", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Ahmad Yasin", "shortName": "Yasin", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Amjad Attwan", "shortName": "Attwan", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Saad Abdul Amir", "shortName": "Abdul Amir", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Mohanad Ali", "shortName": "M. Ali", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Aymen Hussein", "shortName": "Hussein", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 372 },
+      { "name": "Dhurgham Ismail", "shortName": "Ismail", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

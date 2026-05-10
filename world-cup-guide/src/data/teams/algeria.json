@@ -1,0 +1,123 @@
+{
+  "id": "algeria",
+  "name": "Algeria",
+  "nickname": "Les Fennecs",
+  "accentColor": "#006233",
+  "flagEmoji": "🇩🇿",
+  "meta": {
+    "fifaRanking": 35,
+    "group": "J",
+    "groupOpponents": ["Argentina", "Austria", "Jordan"],
+    "oddsToWin": "+5000",
+    "impliedProbability": "~2%",
+    "lastWCResult": "R16 '14",
+    "manager": "Vladimir Petkovic",
+    "managerTenure": "2023–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "Algeria's footballing identity is inseparable from the complex, charged history of a nation that fought for its existence — and the 2026 World Cup drops them back onto the global stage with one of Africa's most technically gifted squads and a chip on their shoulder the size of the Sahara.",
+    "footballIdentity": "Algerian football has long drawn from a unique dual identity — players born in France of Algerian descent choosing the green-and-white, creating a squad that bridges two football cultures. The 1982 'Disgrace of Gijón' — when Algeria were eliminated through a suspicious West Germany-Austria result — is still referenced as a foundational wound. The 2014 run to the last 16 and the 2019 AFCON title reminded the world that Les Fennecs belong at the top table.",
+    "theMoment": "Algeria's relationship with France remains one of football's most politically charged fault lines — a colonial legacy that shapes the biographies of nearly every player in this squad. In 2026, many of these players hold dual French-Algerian nationality and have navigated immense pressure over their international allegiances. Every green jersey worn in North America carries that history into the arena.",
+    "momentType": "political"
+  },
+  "keyPlayers": [
+    {
+      "name": "Riyad Mahrez",
+      "club": "Al-Ahli",
+      "position": "Right Wing",
+      "badge": "Captain",
+      "note": "The 2019 AFCON Player of the Tournament and Premier League title winner is Algeria's heartbeat — a dribbler of the highest quality whose capacity to create something from nothing in the final third is unmatched in African football. At 35, Mahrez brings experience and quality that elevates everyone around him."
+    },
+    {
+      "name": "Ismaël Bennacer",
+      "club": "AC Milan",
+      "position": "Defensive Midfielder",
+      "badge": null,
+      "note": "One of Serie A's best holding midfielders, Bennacer combines defensive intelligence with the ability to build play from deep. His partnership with AC Milan teammates has developed him into a composed, technically excellent pivot who gives Algeria's attack a solid platform to work from."
+    },
+    {
+      "name": "Youcef Atal",
+      "club": "OGC Nice",
+      "position": "Right Back",
+      "badge": null,
+      "note": "Atal is one of Africa's most dynamic right backs — capable of bombing forward to support attacks while remaining disciplined defensively. His overlapping runs create overloads on Algeria's right side and complement Mahrez's tendency to cut inside onto his left foot."
+    },
+    {
+      "name": "Andy Delort",
+      "club": "OGC Nice",
+      "position": "Striker",
+      "badge": null,
+      "note": "The powerful, experienced Delort gives Algeria a genuine target threat — a striker who can hold up play, bring others into the game, and finish with his head or either foot. His physicality and experience in Ligue 1 make him a handful for any central defensive pairing."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Counter-Attack", "Technical", "Wide Play", "Compact", "Transition"],
+    "tacticalNote": "Petkovic's Algeria set up to be difficult to break down — a compact 4-3-3 that defends in a mid-block and looks to exploit transitions through Mahrez's pace and dribbling from the right, with the left channel providing secondary outlet. Bennacer anchors the midfield and distributes efficiently, enabling Algeria to switch from defensive shape to attack quickly. Against stronger opponents they will be pragmatic and disciplined; against Jordan they will have the ball more and need to break down a defensive block.",
+    "strength": "Mahrez's ability to manufacture chances from almost nothing — give him half a yard and he creates danger every time.",
+    "vulnerability": "Heavily Mahrez-dependent in the final third; if opponents neutralize him, Algeria can struggle to create from other sources."
+  },
+  "watchFor": [
+    "Mahrez's movement to find space — he drifts centrally and into the left half-space to receive, not just wide right",
+    "Algeria's defensive block against Argentina — their 2014 side held Germany for 120 minutes; discipline is in the DNA",
+    "Bennacer's progressive carrying from deep — he drives forward when space opens and can set the tempo entirely"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 16",
+      "time": "9PM ET",
+      "opponent": "Argentina",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "isAway": true
+    },
+    {
+      "date": "Jun 22",
+      "time": "11PM ET",
+      "opponent": "Jordan",
+      "venue": "Levi's Stadium",
+      "city": "San Francisco Bay Area",
+      "isAway": false
+    },
+    {
+      "date": "Jun 27",
+      "time": "10PM ET",
+      "opponent": "Austria",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "isAway": true
+    }
+  ],
+  "history": [
+    { "year": 2014, "host": "Brazil", "result": "R16", "tier": "deep" },
+    { "year": 2010, "host": "South Africa", "result": "Groups", "tier": "early" },
+    { "year": 1986, "host": "Mexico", "result": "Groups", "tier": "early" },
+    { "year": 1982, "host": "Spain", "result": "Groups", "tier": "early" }
+  ],
+  "allTimeRecord": {
+    "played": 15,
+    "won": 4,
+    "drawn": 2,
+    "lost": 9,
+    "scored": 14,
+    "conceded": 29,
+    "appearances": 4,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Raïs M'Bolhi", "shortName": "M'Bolhi", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Youcef Atal", "shortName": "Atal", "position": "RB", "role": "def", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Djamel Benlamri", "shortName": "Benlamri", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Ramy Bensebaini", "shortName": "Bensebaini", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Aïssa Mandi", "shortName": "Mandi", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Ismaël Bennacer", "shortName": "Bennacer", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Samir Nasri", "shortName": "S. Zerrouki", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Sofiane Feghouli", "shortName": "Feghouli", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Riyad Mahrez", "shortName": "Mahrez", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 389, "y": 362 },
+      { "name": "Andy Delort", "shortName": "Delort", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Yacine Brahimi", "shortName": "Brahimi", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

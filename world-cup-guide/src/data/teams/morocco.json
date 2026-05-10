@@ -1,0 +1,136 @@
+{
+  "id": "morocco",
+  "name": "Morocco",
+  "nickname": "Atlas Lions",
+  "accentColor": "#C1272D",
+  "flagEmoji": "🇲🇦",
+
+  "meta": {
+    "fifaRanking": 14,
+    "group": "C",
+    "groupOpponents": ["Brazil", "Scotland", "Haiti"],
+    "oddsToWin": "+2000",
+    "impliedProbability": "~5%",
+    "lastWCResult": "SF '22",
+    "manager": "Walid Regragui",
+    "managerTenure": "2022–present",
+    "formation": "4-3-3"
+  },
+
+  "narrative": {
+    "essence": "Morocco's 2022 semi-final run wasn't a fluke — it was the arrival of African football as a genuine world power. Under Walid Regragui, the Atlas Lions built one of the most organized, tactically sophisticated teams in the world. In 2026, they're not here to surprise anyone. They're here to go further.",
+    "footballIdentity": "Morocco straddles two worlds — Arab and African, European-diaspora and home-grown. Many of their stars were born in France, Spain, or the Netherlands but chose to represent the kingdom. This trans-continental identity is their strength: they combine European tactical sophistication with North African grit and pride. When they beat Portugal in Qatar, the Arab world wept and celebrated together.",
+    "theMoment": "Morocco is simultaneously managing the aftermath of the devastating 2023 earthquake — reconstruction is ongoing, communities are still rebuilding — while also preparing to host the 2030 World Cup. The national team is the country's most visible symbol of resilience and ambition. A deep run in 2026 would accelerate Morocco's emergence as a global football power and a statement that the earthquake didn't break them.",
+    "momentType": "cultural"
+  },
+
+  "keyPlayers": [
+    {
+      "name": "Achraf Hakimi",
+      "club": "PSG",
+      "position": "Right wing-back",
+      "badge": "Captain",
+      "note": "The engine on the right side. One of the best fullbacks in the world — his combination of defensive positioning and attacking output is elite."
+    },
+    {
+      "name": "Hakim Ziyech",
+      "club": "Galatasaray",
+      "position": "Attacking mid",
+      "badge": null,
+      "note": "The magician. His left foot creates angles no one else sees. When he's on, Morocco can unlock any defense in the world."
+    },
+    {
+      "name": "Yassine Bounou",
+      "club": "Al-Hilal",
+      "position": "Goalkeeper",
+      "badge": null,
+      "note": "Bono — the penalty-saving hero of 2022. World-class shot-stopper who gives Morocco a consistent edge in close games and shootouts."
+    },
+    {
+      "name": "Sofyan Amrabat",
+      "club": "Fiorentina",
+      "position": "Defensive mid",
+      "badge": null,
+      "note": "One of the best defensive midfielders in the world. His ground coverage and aggression in the press transformed Morocco's defensive system."
+    }
+  ],
+
+  "tactics": {
+    "styleTags": ["Organized", "High press", "Counter-attack", "Physical"],
+    "tacticalNote": "Regragui's Morocco is a masterclass in defensive organization and transition. They sit in a compact structure, invite the opposition forward, then win the ball with aggressive pressing and explode into transition through Hakimi on the right and Ziyech cutting inside. The back four is disciplined. Set pieces are carefully rehearsed.",
+    "strength": "Defensive compactness and collective pressing intensity — Morocco held elite teams scoreless in 2022 with this approach, making them one of the hardest teams to break down.",
+    "vulnerability": "Reliance on Ziyech's creativity: when he's marked out or off-form, Morocco can look blunt in attack and the high press becomes predictable."
+  },
+
+  "watchFor": [
+    "Hakimi's overlapping runs — he bombs forward from right-back with the timing and directness of a winger, creating overloads repeatedly.",
+    "Morocco's press triggers — Regragui has specific patterns for when and how the collective press kicks in. One player presses, the whole shape shifts.",
+    "Bounou's distribution: he starts Morocco's attacks with quick throws and passes rather than long balls, enabling the press to stay high."
+  ],
+
+  "schedule": [
+    {
+      "date": "Jun 13",
+      "time": "6PM ET",
+      "opponent": "Brazil",
+      "venue": "MetLife Stadium",
+      "city": "New York/New Jersey",
+      "isAway": true
+    },
+    {
+      "date": "Jun 19",
+      "time": "6PM ET",
+      "opponent": "Scotland",
+      "venue": "Gillette Stadium",
+      "city": "Boston",
+      "isAway": true
+    },
+    {
+      "date": "Jun 24",
+      "time": "6PM ET",
+      "opponent": "Haiti",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "isAway": false
+    }
+  ],
+
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "SF", "tier": "sf" },
+    { "year": 2018, "host": "Russia", "result": "Groups", "tier": "early" },
+    { "year": 2014, "host": "Brazil", "result": "DNQ", "tier": "dnq" },
+    { "year": 2002, "host": "Korea/Japan", "result": "Groups", "tier": "early" },
+    { "year": 1998, "host": "France", "result": "Groups", "tier": "early" },
+    { "year": 1994, "host": "USA", "result": "Groups", "tier": "early" },
+    { "year": 1986, "host": "Mexico", "result": "R16", "tier": "deep" },
+    { "year": 1970, "host": "Mexico", "result": "Groups", "tier": "early" }
+  ],
+
+  "allTimeRecord": {
+    "played": 27,
+    "won": 9,
+    "drawn": 4,
+    "lost": 14,
+    "scored": 26,
+    "conceded": 35,
+    "appearances": 7,
+    "titles": 0,
+    "finals": 0
+  },
+
+  "pitch": {
+    "players": [
+      { "name": "Bounou", "shortName": "Bounou", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Hakimi", "shortName": "Hakimi", "position": "RB", "role": "def", "isKeyPlayer": true, "isCaptain": true, "x": 389, "y": 148 },
+      { "name": "Aguerd", "shortName": "Aguerd", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Saïss", "shortName": "Saïss", "position": "CB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Mazraoui", "shortName": "Mazraoui", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Amrabat", "shortName": "Amrabat", "position": "RCM", "role": "mid", "isKeyPlayer": true, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Ounahi", "shortName": "Ounahi", "position": "DM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Sabiri", "shortName": "Sabiri", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Ziyech", "shortName": "Ziyech", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "En-Nesyri", "shortName": "En-Nesyri", "position": "ST", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Boufal", "shortName": "Boufal", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

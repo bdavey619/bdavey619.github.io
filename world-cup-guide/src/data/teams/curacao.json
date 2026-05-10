@@ -1,0 +1,118 @@
+{
+  "id": "curacao",
+  "name": "Curaçao",
+  "nickname": "The Blue Arrows",
+  "accentColor": "#003DA5",
+  "flagEmoji": "🇨🇼",
+  "meta": {
+    "fifaRanking": 86,
+    "group": "E",
+    "groupOpponents": ["Germany", "Ecuador", "Ivory Coast"],
+    "oddsToWin": "+10000",
+    "impliedProbability": "~1%",
+    "lastWCResult": "First ever appearance",
+    "manager": "Remko Bicentini",
+    "managerTenure": "2016–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "A Caribbean island nation of 150,000 people has reached the FIFA World Cup for the first time in its history. Curaçao's qualification is not just a football story — it is a story about identity, belonging, and what is possible when a tiny place decides it belongs on the world stage.",
+    "footballIdentity": "Curaçao is a Dutch constituent country in the Caribbean, which means its players have long benefited from access to Dutch football development pathways. Many Curaçaoan players grew up in the Netherlands, played in the Dutch system, and carry dual identities onto the pitch. The Dutch football influence — technical training, tactical structure, positional discipline — combined with Caribbean flair and physicality creates a distinctive footballing identity that is neither purely European nor purely Caribbean.",
+    "theMoment": "This is the moment. Curaçao has never been here before — never played in a World Cup, never competed against Germany or faced a crowd at a 70,000-seat American stadium. The experience itself is the achievement. For the island's 150,000 residents watching back home, this is the proudest moment in their sporting history, a reminder that geography and population size are not destiny.",
+    "momentType": "historical"
+  },
+  "keyPlayers": [
+    {
+      "name": "Leandro Bacuna",
+      "club": "Club Brugge",
+      "position": "Right Back / Central Midfielder",
+      "badge": "Captain",
+      "note": "The experienced spine of Curaçao's squad and its captain. Bacuna has played for multiple clubs across Europe's top leagues and brings a level of experience that far exceeds what most of his international teammates have. His leadership in the dressing room and his technical quality on the ball are the foundations of Curaçao's play."
+    },
+    {
+      "name": "Jurien Gaari",
+      "club": "NEC Nijmegen",
+      "position": "Centre Back",
+      "badge": null,
+      "note": "A composed, technically capable centre back developed through the Dutch football system who provides the organizational backbone of Curaçao's defensive structure. His ability to read danger early and communicate with his defensive partners is critical for a team that will face sustained pressure in every group game."
+    },
+    {
+      "name": "Darryl Luchiano",
+      "club": "Jong AZ Alkmaar",
+      "position": "Forward",
+      "badge": null,
+      "note": "One of Curaçao's most dangerous attacking players — a young forward with quick feet, directness, and the technical confidence of a player developed in Dutch youth football. His pace and movement on the counter-attack represent Curaçao's most realistic route to causing an upset."
+    },
+    {
+      "name": "Jarchinio Antonia",
+      "club": "ADO Den Haag",
+      "position": "Left Wing",
+      "badge": null,
+      "note": "A creative wide player who brings unpredictability to Curaçao's attacking play. Antonia's ability to carry the ball at defenders and create in tight spaces gives the team a different dimension in attack and provides the moments of individual quality that can change a game when defending for long periods."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Organized", "Physical", "Disciplined", "Counter-Attack", "Dutch Influence"],
+    "tacticalNote": "Bicentini sets up Curaçao in a disciplined 4-3-3 that prioritizes defensive compactness above all else. The midfield three work in coordinated shifts to deny space centrally, while the forwards press selectively to force mistakes in wide areas. Against Germany, Ecuador, and Ivory Coast, Curaçao will defend deep and compact, looking for set pieces and counter-attacks as their primary avenues to goal. Staying organized for 90 minutes is the tactical goal — not conceding 5 or 6 would be a significant achievement.",
+    "strength": "Dutch footballing education gives Curaçao technical discipline that belies their ranking — they will not be passive victims, they will be organized and difficult to break down.",
+    "vulnerability": "Quality and depth — after the starting eleven, the drop-off in technical level is significant, and as games stretch out against top opposition, fatigue and quality gaps will show."
+  },
+  "watchFor": [
+    "Whether Curaçao can keep a clean sheet for any sustained period against Germany — discipline and organization will be tested from the first whistle",
+    "Counter-attack moments when Luchiano has space in behind — in any game that opens up, Curaçao's pace on the break can create danger",
+    "The atmosphere when Curaçao play their matches — the island nation's fans will be a rare, loud, colorful minority in American stadiums"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 14",
+      "time": "1PM ET",
+      "opponent": "Germany",
+      "venue": "NRG Stadium",
+      "city": "Houston",
+      "isAway": true
+    },
+    {
+      "date": "Jun 20",
+      "time": "8PM ET",
+      "opponent": "Ecuador",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "isAway": true
+    },
+    {
+      "date": "Jun 25",
+      "time": "4PM ET",
+      "opponent": "Ivory Coast",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "isAway": false
+    }
+  ],
+  "history": [],
+  "allTimeRecord": {
+    "played": 0,
+    "won": 0,
+    "drawn": 0,
+    "lost": 0,
+    "scored": 0,
+    "conceded": 0,
+    "appearances": 0,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Eloy Room", "shortName": "Room", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Leandro Bacuna", "shortName": "Bacuna", "position": "RB", "role": "def", "isKeyPlayer": true, "isCaptain": true, "x": 389, "y": 148 },
+      { "name": "Jurien Gaari", "shortName": "Gaari", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Vurnon Anita", "shortName": "Anita", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Rangelo Janga", "shortName": "Janga", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Gevero Markiet", "shortName": "Markiet", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Brandley Kuwas", "shortName": "Kuwas", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Cuco Martina", "shortName": "Martina", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Darryl Luchiano", "shortName": "Luchiano", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Quentin Bollen", "shortName": "Bollen", "position": "ST", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Jarchinio Antonia", "shortName": "Antonia", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

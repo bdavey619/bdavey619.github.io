@@ -1,0 +1,125 @@
+{
+  "id": "australia",
+  "name": "Australia",
+  "nickname": "The Socceroos",
+  "accentColor": "#FFD700",
+  "flagEmoji": "🇦🇺",
+  "meta": {
+    "fifaRanking": 23,
+    "group": "D",
+    "groupOpponents": ["United States", "Türkiye", "Paraguay"],
+    "oddsToWin": "+5000",
+    "impliedProbability": "~2%",
+    "lastWCResult": "R16 '22",
+    "manager": "Tony Popovic",
+    "managerTenure": "2024–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "Australia reached the round of 16 in 2022 by beating Denmark and pushing eventual champions Argentina to their limits — a result that crystallized something real about this new generation of Socceroos, more technically developed and tactically sophisticated than any before them.",
+    "footballIdentity": "Football has always occupied an awkward position in Australia's sporting culture, competing with AFL, rugby league, and cricket for attention. But the A-League's maturation, and the steady flow of young Australians into European academies and leagues, has quietly elevated the standard. The 2006 golden generation of Viduka, Kewell, and Cahill set a standard that this squad is now equipped to match.",
+    "theMoment": "After the emotional highs of 2022 — Maty Ryan's goalkeeping heroics against Denmark, Mathew Leckie's solo winner — Tony Popovic takes the reins with a remit to build on that momentum. Australia draws a brutal Group D with the hosts and a resurgent Türkiye, but the Socceroos have made a habit of defying expectations in American stadiums.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Mat Leckie",
+      "club": "Melbourne City",
+      "position": "Right Wing / Right Back",
+      "badge": "Captain",
+      "note": "The scorer of the iconic goal that beat Denmark in 2022, Leckie is Australia's talisman — a direct, powerful wide player whose willingness to carry the ball at defenders creates chaos. Now in the twilight of his career, this World Cup is likely his last chance to lead the Socceroos on the biggest stage."
+    },
+    {
+      "name": "Martin Boyle",
+      "club": "Al-Faisaly",
+      "position": "Left Wing",
+      "badge": null,
+      "note": "Electric on the left flank with pace that troubles any full back. Boyle's directness and ability to cut inside and shoot or cross gives Australia a genuine wide threat going forward, and his work rate off the ball makes him invaluable in Popovic's pressing system."
+    },
+    {
+      "name": "Mitchell Duke",
+      "club": "Fagiano Okayama",
+      "position": "Striker",
+      "badge": null,
+      "note": "A powerful, aerial centre-forward who is more about linking play and winning headers than clinical finishing. Duke's ability to win the ball in the air and bring teammates into play is critical when Australia needs to relieve pressure and play more directly."
+    },
+    {
+      "name": "Mathew Ryan",
+      "club": "Real Sociedad",
+      "position": "Goalkeeper",
+      "badge": null,
+      "note": "One of the best goalkeepers Australia has ever produced, Ryan's experience in La Liga and his extraordinary shot-stopping kept the Socceroos alive in multiple 2022 matches. At 33, he remains the last line of defence and the calm voice the team needs in high-pressure moments."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Counter-Attack", "Organized", "Direct", "Physical", "Set Pieces"],
+    "tacticalNote": "Popovic's 4-3-3 is built around defensive solidity and rapid transitions. Australia sits in a mid-block, denying space in the channels, and attacks primarily through wide players using pace on the counter. Leckie and Boyle provide width and the crossing threat for Duke, while the midfield trio works hard to both protect the back four and carry the ball into the final third through progressive passes.",
+    "strength": "Australia's counter-attacking pace is genuinely dangerous — when they win the ball and have space in front of them, Boyle and Leckie can exploit any back line.",
+    "vulnerability": "Sustained positional pressure from technically superior teams — when forced to defend for long periods, eventual individual errors creep in."
+  },
+  "watchFor": [
+    "Leckie on the overlap — his ability to burst into space from a wide right position and cut across goal is Australia's most rehearsed attacking pattern",
+    "Ryan's shot-stopping in critical moments — Australia's path through groups depends on keeping clean sheets against USA and Turkey",
+    "The battle for second place with Türkiye — the Jun 13 opener between these two sides could define who advances"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 13",
+      "time": "Midnight ET",
+      "opponent": "Türkiye",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "isAway": false
+    },
+    {
+      "date": "Jun 19",
+      "time": "3PM ET",
+      "opponent": "United States",
+      "venue": "Lumen Field",
+      "city": "Seattle",
+      "isAway": true
+    },
+    {
+      "date": "Jun 25",
+      "time": "10PM ET",
+      "opponent": "Paraguay",
+      "venue": "Levi's Stadium",
+      "city": "San Francisco Bay Area",
+      "isAway": true
+    }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "R16", "tier": "deep" },
+    { "year": 2018, "host": "Russia", "result": "Groups", "tier": "early" },
+    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
+    { "year": 2010, "host": "South Africa", "result": "Groups", "tier": "early" },
+    { "year": 2006, "host": "Germany", "result": "QF", "tier": "deep" },
+    { "year": 1974, "host": "West Germany", "result": "Groups", "tier": "early" }
+  ],
+  "allTimeRecord": {
+    "played": 18,
+    "won": 4,
+    "drawn": 3,
+    "lost": 11,
+    "scored": 18,
+    "conceded": 37,
+    "appearances": 6,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Mathew Ryan", "shortName": "Ryan", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Mat Leckie", "shortName": "Leckie", "position": "RB", "role": "def", "isKeyPlayer": true, "isCaptain": true, "x": 389, "y": 148 },
+      { "name": "Harry Souttar", "shortName": "Souttar", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Miloš Degenek", "shortName": "Degenek", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Aziz Behich", "shortName": "Behich", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Jackson Irvine", "shortName": "Irvine", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Riley McGree", "shortName": "McGree", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
+      { "name": "Aaron Mooy", "shortName": "Mooy", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Martin Boyle", "shortName": "Boyle", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Mitchell Duke", "shortName": "Duke", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Craig Goodwin", "shortName": "Goodwin", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

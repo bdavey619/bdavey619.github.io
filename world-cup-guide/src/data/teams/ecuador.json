@@ -1,0 +1,123 @@
+{
+  "id": "ecuador",
+  "name": "Ecuador",
+  "nickname": "La Tri",
+  "accentColor": "#FFD100",
+  "flagEmoji": "🇪🇨",
+  "meta": {
+    "fifaRanking": 44,
+    "group": "E",
+    "groupOpponents": ["Germany", "Ivory Coast", "Curaçao"],
+    "oddsToWin": "+5000",
+    "impliedProbability": "~2%",
+    "lastWCResult": "Groups '22",
+    "manager": "Sébastian Beccacece",
+    "managerTenure": "2023–present",
+    "formation": "4-3-3"
+  },
+  "narrative": {
+    "essence": "Ecuador has always qualified quietly and left quietly — four World Cups, one round of 16, and the persistent feeling that the talent is there but the moment never arrives. Moisés Caicedo's £115 million move to Chelsea changed the narrative. Now there is a player of genuine world-class quality to build around.",
+    "footballIdentity": "Football in Ecuador is deeply tied to the country's geography — the Andes-born players and the coastal city clubs of Guayaquil create two distinct footballing cultures that somehow combine into La Tri's national identity. The country has consistently produced industrious, hard-working players without the flair to match South American neighbours, but Caicedo's emergence represents something qualitatively new: an Ecuadorian midfielder good enough to anchor a Champions League contender.",
+    "theMoment": "Caicedo's move to Chelsea for £115M made him one of the most expensive transfers in football history and placed Ecuador at the centre of global attention. The question hanging over 2026 is whether that individual brilliance can finally translate to sustained World Cup success for a national team that has always underperformed its qualifying runs. Group E gives them a real path — Germany is the group favourite, but Ivory Coast and Curaçao are beatable.",
+    "momentType": "footballing"
+  },
+  "keyPlayers": [
+    {
+      "name": "Moisés Caicedo",
+      "club": "Chelsea",
+      "position": "Central Midfielder / Defensive Midfielder",
+      "badge": "Captain",
+      "note": "The most expensive Ecuadorian footballer of all time, Caicedo combines elite ball-winning with surprising technical quality and progressive passing. At Chelsea he has become one of the Premier League's best midfielders — his ability to win possession and immediately create from deep makes him Ecuador's most important player by a considerable margin."
+    },
+    {
+      "name": "Gonzalo Plata",
+      "club": "Real Valladolid",
+      "position": "Right Wing",
+      "badge": null,
+      "note": "The most dangerous wide player in Ecuador's squad — direct, pacey, and with an eye for the spectacular. Plata's ability to beat full backs in one-on-one situations creates the overloads from which Ecuador generate most of their best chances, and his crossing and cut-inside shooting give opponents two problems to solve."
+    },
+    {
+      "name": "Enner Valencia",
+      "club": "Fenerbahçe",
+      "position": "Striker",
+      "badge": null,
+      "note": "The 2022 World Cup's opening two goals — scored by Valencia against Qatar — announced Ecuador's arrival on the tournament stage. Now in the twilight of his career, he remains the national team's greatest goalscorer and emotional leader, even as younger forwards push for his starting place."
+    },
+    {
+      "name": "Jeremy Sarmiento",
+      "club": "Brighton",
+      "position": "Left Wing",
+      "badge": null,
+      "note": "The creative left-sided threat who plays the role of provider and goal threat in equal measure. Sarmiento's combination play and intelligent movement create the link between Ecuador's midfield and their forward line, and his Premier League experience gives him the tactical understanding to function in high-pressure environments."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Counter-Attack", "Physical Midfield", "Disciplined", "Wide Play"],
+    "tacticalNote": "Beccacece organizes Ecuador in a balanced 4-3-3 with Caicedo as the pivot and most influential figure. The wide forwards are given freedom to drive at defenders and create chances through individual play, while the back four defends deep and compact, inviting pressure before releasing quickly on the counter. Against Germany, discipline will be paramount — Ecuador's best result would come from keeping it tight for 60 minutes before the game opens up.",
+    "strength": "Caicedo's midfield dominance and the width provided by Plata and Sarmiento give Ecuador a genuine attacking threat on the counter that can trouble any team.",
+    "vulnerability": "Ecuador's central defense can be exposed by technical players who link quickly and play through the midfield block — against Wirtz and Musiala, they will be under constant pressure."
+  },
+  "watchFor": [
+    "Caicedo vs Germany's midfield — can he win enough second balls to give Ecuador a foothold in their opening match?",
+    "Plata's one-on-one situations on the right flank — his directness is Ecuador's most reliable creative outlet",
+    "Whether Enner Valencia starts or is used as an impact substitute — his experience and finishing could be decisive in tight games"
+  ],
+  "schedule": [
+    {
+      "date": "Jun 14",
+      "time": "7PM ET",
+      "opponent": "Ivory Coast",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "isAway": true
+    },
+    {
+      "date": "Jun 20",
+      "time": "8PM ET",
+      "opponent": "Curaçao",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "isAway": false
+    },
+    {
+      "date": "Jun 25",
+      "time": "4PM ET",
+      "opponent": "Germany",
+      "venue": "MetLife Stadium",
+      "city": "New York/New Jersey",
+      "isAway": false
+    }
+  ],
+  "history": [
+    { "year": 2022, "host": "Qatar", "result": "Groups", "tier": "early" },
+    { "year": 2014, "host": "Brazil", "result": "Groups", "tier": "early" },
+    { "year": 2006, "host": "Germany", "result": "R16", "tier": "deep" },
+    { "year": 2002, "host": "South Korea/Japan", "result": "Groups", "tier": "early" }
+  ],
+  "allTimeRecord": {
+    "played": 13,
+    "won": 2,
+    "drawn": 2,
+    "lost": 9,
+    "scored": 10,
+    "conceded": 26,
+    "appearances": 4,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Hernán Galíndez", "shortName": "Galíndez", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Ángelo Preciado", "shortName": "Preciado", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Piero Hincapié", "shortName": "Hincapié", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Robert Arboleda", "shortName": "Arboleda", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Pervis Estupiñán", "shortName": "Estupiñán", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Romario Ibarra", "shortName": "Ibarra", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
+      { "name": "Moisés Caicedo", "shortName": "Caicedo", "position": "CM", "role": "mid", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 236 },
+      { "name": "Carlos Gruezo", "shortName": "Gruezo", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
+      { "name": "Gonzalo Plata", "shortName": "Plata", "position": "RW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 389, "y": 362 },
+      { "name": "Enner Valencia", "shortName": "Valencia", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 372 },
+      { "name": "Jeremy Sarmiento", "shortName": "Sarmiento", "position": "LW", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 63, "y": 362 }
+    ]
+  }
+}

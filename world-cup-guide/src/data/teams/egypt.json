@@ -1,0 +1,100 @@
+{
+  "id": "egypt",
+  "name": "Egypt",
+  "nickname": "The Pharaohs",
+  "accentColor": "#CE1126",
+  "flagEmoji": "🇪🇬",
+  "meta": {
+    "fifaRanking": 31,
+    "group": "G",
+    "groupOpponents": ["Belgium", "Iran", "New Zealand"],
+    "oddsToWin": "+5000",
+    "impliedProbability": "~2%",
+    "lastWCResult": "Groups '90",
+    "manager": "Hossam Hassan",
+    "managerTenure": "2024–present",
+    "formation": "4-2-3-1"
+  },
+  "narrative": {
+    "essence": "Mohamed Salah is arguably the greatest player in the world right now — and he has never played at a World Cup. Egypt missed out in 2018 in heartbreaking fashion despite qualifying, and Salah's personal story with this tournament is one of football's most compelling unresolved narratives.",
+    "footballIdentity": "Egypt is the most successful nation in African football history with a record seven Africa Cup of Nations titles. Football is a national obsession, with the Cairo derby between Al-Ahly and Zamalek among the most intense club rivalries on the continent. But the national team's World Cup record is shockingly sparse — just two appearances before 2026 — making this return after 36 years enormously significant.",
+    "theMoment": "Salah was injured early in the 2018 final against Real Madrid, then carried Egypt through qualification only to watch them exit in the group stage in Russia. He's spent his peak years at Liverpool winning everything, yet has nothing with Egypt to show for it. At 33 in 2026, this is almost certainly his last realistic World Cup. A billion people across the Arab world and African continent will be watching. Omar Marmoush arriving from Manchester City adds firepower alongside him that Egypt has never had.",
+    "momentType": "cultural"
+  },
+  "keyPlayers": [
+    {
+      "name": "Mohamed Salah",
+      "club": "Liverpool",
+      "position": "LW",
+      "badge": "Captain",
+      "note": "The best player in the world in his best years, Salah has won Premier League titles, Champions Leagues, and individual awards — but never played at a World Cup finals. His pace, finishing, and ability to cut inside from the left make him virtually unplayable on his day. Everything Egypt does offensively is built around getting him the ball in dangerous positions."
+    },
+    {
+      "name": "Omar Marmoush",
+      "club": "Manchester City",
+      "position": "ST",
+      "badge": null,
+      "note": "The most exciting Egyptian striker to emerge in a generation, Marmoush's blistering 2024-25 season at Eintracht Frankfurt — before his move to City — announced him as a genuine top-level talent. His movement, directness, and finishing ability alongside Salah gives Egypt an attacking partnership that can threaten any defense."
+    },
+    {
+      "name": "Ahmed Hegazy",
+      "club": "Al-Ittihad",
+      "position": "CB",
+      "badge": null,
+      "note": "The experienced center-back and defensive anchor who has been the backbone of Egypt's defense for years. Aerial dominance and reading of the game make him the organizer Egypt's backline needs to survive against Belgium and Iran's attacking quality."
+    },
+    {
+      "name": "Mohamed Elneny",
+      "club": "Arsenal",
+      "position": "DM",
+      "badge": null,
+      "note": "The Arsenal midfielder brings Premier League experience and composure to Egypt's engine room. Though in the later stages of his career, Elneny's positional discipline and passing accuracy are essential to Egypt's structure and transition game."
+    }
+  ],
+  "tactics": {
+    "styleTags": ["Salah-Centric", "Counter-Attack", "Defensive Structure", "Direct"],
+    "tacticalNote": "Egypt's setup revolves entirely around maximizing Salah's impact. The 4-2-3-1 puts a double pivot in front of the defense to allow Salah freedom to roam and attack from the left. Marmoush as the central striker drags defenders out of position to create space for Salah's runs. Without the ball, Egypt drops into a compact shape and looks to spring forward quickly on the counter — exactly the kind of transition play that suits Salah's pace.",
+    "strength": "When Salah is in the game, Egypt can score against anyone — his ability to create something from nothing is a permanent threat that forces opponents to commit defensive resources to containing him.",
+    "vulnerability": "Egypt is heavily reliant on Salah; if he is neutralized or unavailable, they lack the creative depth to generate consistent attacking threat against organized defenses."
+  },
+  "watchFor": [
+    "Salah's link-up with Marmoush — if they develop chemistry, Egypt's attack can trouble any team in the tournament",
+    "Egypt's defensive organization under pressure — can they hold against Belgium and Belgium's creative attack?",
+    "Salah in free-kick situations — his set-piece delivery remains one of the most dangerous in world football"
+  ],
+  "schedule": [
+    { "date": "Jun 15", "time": "3PM ET", "opponent": "Belgium", "venue": "Lumen Field", "city": "Seattle", "isAway": true },
+    { "date": "Jun 21", "time": "9PM ET", "opponent": "New Zealand", "venue": "BC Place", "city": "Vancouver", "isAway": false },
+    { "date": "Jun 26", "time": "11PM ET", "opponent": "Iran", "venue": "Lumen Field", "city": "Seattle", "isAway": false }
+  ],
+  "history": [
+    { "year": 1990, "host": "Italy", "result": "Groups", "tier": "early" },
+    { "year": 1934, "host": "Italy", "result": "Groups", "tier": "early" }
+  ],
+  "allTimeRecord": {
+    "played": 8,
+    "won": 1,
+    "drawn": 1,
+    "lost": 6,
+    "scored": 10,
+    "conceded": 19,
+    "appearances": 3,
+    "titles": 0,
+    "finals": 0
+  },
+  "pitch": {
+    "players": [
+      { "name": "Mohamed El-Shenawy", "shortName": "El-Shenawy", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
+      { "name": "Akram Tawfik", "shortName": "Tawfik", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
+      { "name": "Ahmed Hegazy", "shortName": "Hegazy", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
+      { "name": "Omar Kamal", "shortName": "O. Kamal", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
+      { "name": "Ahmed Fattouh", "shortName": "Fattouh", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
+      { "name": "Tarek Hamed", "shortName": "T. Hamed", "position": "RDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 220 },
+      { "name": "Mohamed Elneny", "shortName": "Elneny", "position": "LDM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 220 },
+      { "name": "Zizo", "shortName": "Zizo", "position": "RAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 310 },
+      { "name": "Emam Ashour", "shortName": "Ashour", "position": "CAM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 300 },
+      { "name": "Mohamed Salah", "shortName": "Salah", "position": "LAM", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 104, "y": 310 },
+      { "name": "Omar Marmoush", "shortName": "Marmoush", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": false, "x": 226, "y": 390 }
+    ]
+  }
+}
