@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-09T11:25:05.913705+00:00",
+  "generated_at": "2026-05-10T11:26:50.890868+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -82,19 +82,17 @@
       "gamePk": 823303,
       "status": "final",
       "result": "L",
-      "score": "0\u20136"
+      "score": "0\u20136",
+      "archive_url": "archive.html?date=2026-05-09"
     },
     {
       "date": "2026-05-09",
       "opponent": "STL",
       "home": true,
       "gamePk": 823304,
-      "status": "scheduled",
-      "time_local": "4:15 PM PT",
-      "probable": {
-        "team": "Randy V\u00e1squez",
-        "opp": "Dustin May"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "4\u20132"
     },
     {
       "date": "2026-05-10",
@@ -138,7 +136,10 @@
       "home": false,
       "gamePk": 823140,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "opp": "Emerson Hancock"
+      }
     },
     {
       "date": "2026-05-16",
@@ -254,8 +255,8 @@
     }
   ],
   "summary": {
-    "month_record": "3\u20135",
-    "current_streak": "L2",
-    "last_10": "3\u20137"
+    "month_record": "4\u20135",
+    "current_streak": "W1",
+    "last_10": "4\u20136"
   }
 }
