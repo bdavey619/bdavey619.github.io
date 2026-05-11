@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-10T11:26:50.890868+00:00",
+  "generated_at": "2026-05-11T13:22:11.495562+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -92,19 +92,17 @@
       "gamePk": 823304,
       "status": "final",
       "result": "W",
-      "score": "4\u20132"
+      "score": "4\u20132",
+      "archive_url": "archive.html?date=2026-05-10"
     },
     {
       "date": "2026-05-10",
       "opponent": "STL",
       "home": true,
       "gamePk": 823305,
-      "status": "scheduled",
-      "time_local": "1:10 PM PT",
-      "probable": {
-        "team": "Walker Buehler",
-        "opp": "Kyle Leahy"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "3\u20132"
     },
     {
       "date": "2026-05-12",
@@ -112,7 +110,11 @@
       "home": false,
       "gamePk": 823790,
       "status": "scheduled",
-      "time_local": "4:40 PM PT"
+      "time_local": "4:40 PM PT",
+      "probable": {
+        "team": "Matt Waldron",
+        "opp": "Brandon Sproat"
+      }
     },
     {
       "date": "2026-05-13",
@@ -120,7 +122,11 @@
       "home": false,
       "gamePk": 823791,
       "status": "scheduled",
-      "time_local": "4:40 PM PT"
+      "time_local": "4:40 PM PT",
+      "probable": {
+        "team": "Michael King",
+        "opp": "Jacob Misiorowski"
+      }
     },
     {
       "date": "2026-05-14",
@@ -128,7 +134,11 @@
       "home": false,
       "gamePk": 823789,
       "status": "scheduled",
-      "time_local": "10:40 AM PT"
+      "time_local": "10:40 AM PT",
+      "probable": {
+        "team": "Griffin Canning",
+        "opp": "Kyle Harrison"
+      }
     },
     {
       "date": "2026-05-15",
@@ -255,8 +265,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u20135",
-    "current_streak": "W1",
-    "last_10": "4\u20136"
+    "month_record": "5\u20135",
+    "current_streak": "W2",
+    "last_10": "5\u20135"
   }
 }
