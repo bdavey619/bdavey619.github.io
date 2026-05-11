@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-10T11:56:39.871977+00:00",
+  "generated_at": "2026-05-11T13:49:51.016569+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -92,19 +92,17 @@
       "gamePk": 823792,
       "status": "final",
       "result": "L",
-      "score": "3\u20134"
+      "score": "3\u20134",
+      "archive_url": "archive.html?date=2026-05-10"
     },
     {
       "date": "2026-05-10",
       "opponent": "MIL",
       "home": false,
       "gamePk": 823793,
-      "status": "scheduled",
-      "time_local": "2:10 PM ET",
-      "probable": {
-        "team": "Carlos Rod\u00f3n",
-        "opp": "Logan Henderson"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20134"
     },
     {
       "date": "2026-05-11",
@@ -112,7 +110,11 @@
       "home": false,
       "gamePk": 824844,
       "status": "scheduled",
-      "time_local": "6:35 PM ET"
+      "time_local": "6:35 PM ET",
+      "probable": {
+        "team": "Ryan Weathers",
+        "opp": "Brandon Young"
+      }
     },
     {
       "date": "2026-05-12",
@@ -120,7 +122,10 @@
       "home": false,
       "gamePk": 824843,
       "status": "scheduled",
-      "time_local": "6:35 PM ET"
+      "time_local": "6:35 PM ET",
+      "probable": {
+        "team": "Will Warren"
+      }
     },
     {
       "date": "2026-05-13",
@@ -128,7 +133,10 @@
       "home": false,
       "gamePk": 824841,
       "status": "scheduled",
-      "time_local": "6:35 PM ET"
+      "time_local": "6:35 PM ET",
+      "probable": {
+        "team": "Max Fried"
+      }
     },
     {
       "date": "2026-05-15",
@@ -260,8 +268,8 @@
     }
   ],
   "summary": {
-    "month_record": "6\u20133",
-    "current_streak": "L2",
+    "month_record": "6\u20134",
+    "current_streak": "L3",
     "last_10": "6\u20134"
   }
 }
