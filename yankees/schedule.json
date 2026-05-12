@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-11T13:49:51.016569+00:00",
+  "generated_at": "2026-05-12T13:07:55.064464+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -102,19 +102,17 @@
       "gamePk": 823793,
       "status": "final",
       "result": "L",
-      "score": "3\u20134"
+      "score": "3\u20134",
+      "archive_url": "archive.html?date=2026-05-11"
     },
     {
       "date": "2026-05-11",
       "opponent": "BAL",
       "home": false,
       "gamePk": 824844,
-      "status": "scheduled",
-      "time_local": "6:35 PM ET",
-      "probable": {
-        "team": "Ryan Weathers",
-        "opp": "Brandon Young"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20133"
     },
     {
       "date": "2026-05-12",
@@ -268,8 +266,8 @@
     }
   ],
   "summary": {
-    "month_record": "6\u20134",
-    "current_streak": "L3",
-    "last_10": "6\u20134"
+    "month_record": "6\u20135",
+    "current_streak": "L4",
+    "last_10": "5\u20135"
   }
 }
