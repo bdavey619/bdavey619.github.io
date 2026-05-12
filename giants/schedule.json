@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-11T14:55:59.706613+00:00",
+  "generated_at": "2026-05-12T14:28:50.758212+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -91,19 +91,17 @@
       "gamePk": 823221,
       "status": "final",
       "result": "W",
-      "score": "7\u20136"
+      "score": "7\u20136",
+      "archive_url": "archive.html?date=2026-05-11"
     },
     {
       "date": "2026-05-11",
       "opponent": "LAD",
       "home": false,
       "gamePk": 823953,
-      "status": "scheduled",
-      "time_local": "7:10 PM PT",
-      "probable": {
-        "team": "Trevor McDonald",
-        "opp": "Roki Sasaki"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "9\u20133"
     },
     {
       "date": "2026-05-12",
@@ -263,8 +261,8 @@
     }
   ],
   "summary": {
-    "month_record": "3\u20136",
-    "current_streak": "W1",
-    "last_10": "3\u20137"
+    "month_record": "4\u20136",
+    "current_streak": "W2",
+    "last_10": "4\u20136"
   }
 }
