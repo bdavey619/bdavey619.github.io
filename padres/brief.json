@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T13:22:06+00:00",
+  "generated_at": "2026-05-12T05:06:45+00:00",
   "season": 2026,
   "team": {
     "record": "24-16",
@@ -211,7 +211,10 @@
           "h": 3,
           "er": 2,
           "k": 2,
-          "bb": 0
+          "bb": 0,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         },
         {
           "name": "Ron Marinaccio",
@@ -219,7 +222,10 @@
           "h": 0,
           "er": 0,
           "k": 3,
-          "bb": 0
+          "bb": 0,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         },
         {
           "name": "Bradgley Rodriguez",
@@ -227,7 +233,10 @@
           "h": 0,
           "er": 0,
           "k": 0,
-          "bb": 0
+          "bb": 0,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         },
         {
           "name": "Jeremiah Estrada",
@@ -235,7 +244,10 @@
           "h": 0,
           "er": 0,
           "k": 2,
-          "bb": 1
+          "bb": 1,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         },
         {
           "name": "Adrian Morejon",
@@ -243,7 +255,10 @@
           "h": 0,
           "er": 0,
           "k": 0,
-          "bb": 0
+          "bb": 0,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         }
       ]
     },
@@ -271,7 +286,8 @@
     "time_local": "4:40 PM PT",
     "probable": {
       "team": "Matt Waldron",
-      "opp": "Brandon Sproat"
+      "opp": "Brandon Sproat",
+      "opp_era": "5.87"
     },
     "insight": "MIL ranks among the weakest offenses in baseball. Waldron draws a favorable matchup tomorrow.",
     "hook_type": "opponent_weakness"
@@ -293,10 +309,10 @@
     },
     {
       "team": "D-backs",
-      "w": 19,
+      "w": 20,
       "l": 20,
-      "gb": "4.5",
-      "last10": "3-7"
+      "gb": "4.0",
+      "last10": "4-6"
     },
     {
       "team": "Giants",
@@ -740,42 +756,6 @@
       "significant_misses": 0,
       "multi_run_innings": 1,
       "momentum_swing_count": 2
-    }
-  },
-  "narrative": {
-    "top_frame": "Down two runs entering the tenth, they didn't fold.",
-    "what_this_means": "Castellanos had already supplied the firepower. A solo shot that kept them alive. But the game lived and died in Petco's final inning, where Machado's sac fly turned traffic into the walk-off. This is what a fragile win looks like from the inside: stretched thin through four separate leads, leaving runners on base in critical moments, surviving because late rallies matter more than early ones. The pitching held long enough for the bats to arrive. That's the formula holding together right now. They're winning by margins that don't last forever.",
-    "what_to_watch": "Milwaukee ranks among baseball's quietest offenses. Waldron owns a 5.20 ERA but draws a matchup where the Brewers' struggles at the plate become the equalizer.",
-    "story_state": {
-      "trend": "fragile",
-      "driver": "balanced",
-      "confidence": "medium",
-      "pressure": "high",
-      "record_w": 24,
-      "record_l": 16,
-      "streak": "W2",
-      "last10_w": 5,
-      "era": 4.07,
-      "ops": 0.667,
-      "gb": 0.0,
-      "division_rank": 1,
-      "last_result": "W",
-      "date": "2026-05-10",
-      "game_emotion_level": "extreme"
-    },
-    "story_delta": {
-      "has_prev": true,
-      "trend_changed": false,
-      "trend_direction": "unchanged",
-      "conf_changed": false,
-      "pressure_changed": false,
-      "driver_changed": false,
-      "signals": [
-        "won last game",
-        "win streak extended to W2",
-        "ERA improved: 4.14 \u2192 4.07",
-        "division gap: gained 1.0 game(s) (0.0 back)"
-      ]
     }
   }
 }

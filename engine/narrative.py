@@ -51,7 +51,8 @@ def check_insight_language(text):
 # Game Emotion Classification
 # ---------------------------------------------------------------------------
 
-def classify_game_emotion(last_game):
+def classify_game_emotion(last_game, team_win_pct=None, prev_division_rank=None,
+                          curr_division_rank=None):
     """
     Classify the emotional intensity of the last game.
     Returns 'normal' | 'high' | 'extreme' based on structured game data only.
@@ -59,8 +60,15 @@ def classify_game_emotion(last_game):
     extreme: walk-off win, 4+ runs in 9th or later (and win), comeback from 4+ deficit,
              extra-innings win after trailing by 2+
     high:    go-ahead run in 7th+, extra-innings win, comeback from 2-3 deficit,
-             10+ K start, 2+ HR game, shutout/near-shutout with 6+ inning start
+             10+ K start, 2+ HR game, shutout/near-shutout with 6+ inning start,
+             extra-inning win (floor rule — 10+ innings always at least "high"),
+             win vs higher-win-pct opponent that improves division rank
     normal:  everything else
+
+    Optional params for elevation triggers:
+      team_win_pct      — team's current season win percentage (float 0–1)
+      prev_division_rank — division rank before this game (from prev story_state)
+      curr_division_rank — division rank after this game (from current team data)
     """
     if not last_game:
         return "normal"
@@ -143,7 +151,88 @@ def classify_game_emotion(last_game):
             or dominant_k or big_hr or near_shutout):
         return "high"
 
+    # FLOOR: any extra-inning win is always at least "high"
+    if is_win and num_innings >= 10:
+        return "high"
+
+    # ELEVATION: win vs higher-win-pct opponent that improves division standing
+    opp_win_pct = last_game.get("opp_win_pct") if last_game else None
+    if (
+        is_win
+        and opp_win_pct is not None
+        and team_win_pct is not None
+        and opp_win_pct > team_win_pct
+        and prev_division_rank is not None
+        and curr_division_rank is not None
+        and curr_division_rank < prev_division_rank
+    ):
+        return "high"
+
     return "normal"
+
+
+def _detect_drama_sequence(last_game):
+    """
+    Detect the setup + payoff drama structure: team trailed, tied in inning 7+,
+    then won in extras or on a walkoff.
+
+    Returns a dict with tying_inning and walkoff_inning when the sequence is found,
+    or None otherwise.  Used to instruct the model to name the tying moment before
+    the walkoff rather than collapsing both into a single abstract statement.
+    """
+    if not last_game:
+        return None
+
+    result = last_game.get("result", "")
+    home   = last_game.get("home", False)
+    if result != "W":
+        return None
+
+    linescore = last_game.get("linescore") or [[], []]
+    def _to_int(v):
+        try:
+            return int(v)
+        except (TypeError, ValueError):
+            return 0
+
+    sd_inn  = [_to_int(v) for v in (linescore[0] if linescore else [])]
+    opp_inn = [_to_int(v) for v in (linescore[1] if len(linescore) > 1 else [])]
+    n = min(len(sd_inn), len(opp_inn))
+    if n < 7:
+        return None
+
+    sd_cum  = [sum(sd_inn[:i + 1]) for i in range(n)]
+    opp_cum = [sum(opp_inn[:i + 1]) for i in range(n)]
+
+    # Confirm team trailed at some point
+    ever_trailed = any(opp_cum[i] > sd_cum[i] for i in range(n))
+    if not ever_trailed:
+        return None
+
+    # Find the first inning >= 7 where team tied or took lead after trailing
+    tying_inning = None
+    for i in range(6, n):
+        if opp_cum[i - 1] > sd_cum[i - 1] and sd_cum[i] >= opp_cum[i]:
+            tying_inning = i + 1  # 1-indexed
+            break
+
+    if tying_inning is None:
+        return None
+
+    # Confirm this is a walkoff or extra-innings win
+    num_innings = len(sd_inn)
+    is_extra    = num_innings > 9
+    is_walkoff  = home and num_innings >= 9 and len(sd_inn) == len(opp_inn) and sd_inn[-1] > 0
+
+    if not (is_extra or is_walkoff):
+        return None
+
+    walkoff_inning = num_innings  # the inning the winning run scored
+
+    return {
+        "tying_inning":   tying_inning,
+        "walkoff_inning": walkoff_inning,
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -155,7 +244,7 @@ _CONF_ORDER     = {"high": 3, "medium": 2, "low": 1}
 _PRESSURE_ORDER = {"low": 1, "building": 2, "high": 3}
 
 
-def build_story_state(team, last_game):
+def build_story_state(team, last_game, prev_state=None):
     """
     Compute a lightweight story-state object from available structured data.
 
@@ -236,9 +325,16 @@ def build_story_state(team, last_game):
     else:
         pressure = "low"
 
-    last_result = (last_game or {}).get("result", "")
-    game_date   = (last_game or {}).get("date", "")
-    game_emotion_level = classify_game_emotion(last_game)
+    last_result    = (last_game or {}).get("result", "")
+    game_date      = (last_game or {}).get("date", "")
+    prev_division_rank = (prev_state or {}).get("division_rank")
+    game_emotion_level = classify_game_emotion(
+        last_game,
+        team_win_pct=win_pct,
+        prev_division_rank=prev_division_rank,
+        curr_division_rank=division_rank,
+    )
+    drama_sequence     = _detect_drama_sequence(last_game)
 
     return {
         "trend":              trend,
@@ -256,6 +352,7 @@ def build_story_state(team, last_game):
         "last_result":        last_result,
         "date":               game_date,
         "game_emotion_level": game_emotion_level,
+        "drama_sequence":     drama_sequence,
     }
 
 
@@ -617,19 +714,74 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
 
     kp = last_game.get("key_pitcher") or {}
     kh = last_game.get("key_hitters") or []
+
+    # Bullpen block — all relievers from full_box.pitching[1:]
+    _pitching_rows = (last_game.get("full_box") or {}).get("pitching") or []
+    _starter_row   = _pitching_rows[0] if _pitching_rows else None
+    _relief_rows   = _pitching_rows[1:]
+
+    # Starter exit note
+    if _starter_row:
+        try:
+            _starter_ip = float(str(_starter_row.get("ip", "0")))
+        except (TypeError, ValueError):
+            _starter_ip = 0.0
+        if _starter_ip < 5.0:
+            _starter_exit = f" (short outing — exited after {_starter_row['ip']} IP)"
+        elif _starter_ip < 6.0:
+            _starter_exit = f" (went {_starter_row['ip']} IP)"
+        else:
+            _starter_exit = ""
+    else:
+        _starter_exit = ""
+
     pitcher_text = (
-        f"{kp.get('name')} — {kp.get('line')} (season ERA: {kp.get('season_era', '?')})"
+        f"{kp.get('name')} — {kp.get('line')} (season ERA: {kp.get('season_era', '?')}){_starter_exit}"
         if kp else "N/A"
     )
+
+    # Build bullpen block with all relievers regardless of IP
+    if _relief_rows:
+        def _bp_line(p):
+            base = f"  {p['name']}: {p['ip']} IP, {p['er']} ER, {p['k']} K"
+            badges = []
+            if p.get("sv"):
+                badges.append("SV")
+            if p.get("hld"):
+                badges.append("H")
+            if p.get("bs"):
+                badges.append("BS")
+            return f"{base} ({', '.join(badges)})" if badges else base
+
+        _bullpen_lines = "\n".join(_bp_line(p) for p in _relief_rows)
+        # Total bullpen IP for the prompt instruction
+        _total_bp_ip = 0.0
+        for _p in _relief_rows:
+            try:
+                _total_bp_ip += float(str(_p.get("ip", "0")))
+            except (TypeError, ValueError):
+                pass
+        bullpen_block = (
+            f"\nBULLPEN ({len(_relief_rows)} pitcher{'s' if len(_relief_rows) != 1 else ''}"
+            f", {_total_bp_ip:.1f} IP total after starter):\n{_bullpen_lines}"
+        )
+    else:
+        bullpen_block = ""
+
     hitters_text = (
         "; ".join(f"{h['name']} {h['line']}" for h in kh)
         if kh else "N/A"
     )
 
-    ng_prob = next_game.get("probable") or {}
+    ng_prob  = next_game.get("probable") or {}
+    _our_sp  = ng_prob.get("team") or "TBD"
+    _opp_sp  = ng_prob.get("opp")  or "TBD"
+    _opp_era = ng_prob.get("opp_era")
+    _opp_sp_text = f"{_opp_sp} (season ERA: {_opp_era})" if _opp_era else _opp_sp
     next_text = (
         f"vs {next_game.get('opponent')} on {next_game.get('date')} at "
-        f"{next_game.get('time_local', 'TBD')}. SP: {ng_prob.get('team', 'TBD')}"
+        f"{next_game.get('time_local', 'TBD')}. "
+        f"Our SP: {_our_sp}. Opp SP: {_opp_sp_text}"
         if next_game else "N/A"
     )
 
@@ -703,14 +855,37 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
     else:
         game_driver_block = "\nGAME DRIVER: none detected"
 
+    # Drama sequence — injected when team trailed, tied late (7th+), then won in extras/walkoff
+    ds = story_state.get("drama_sequence")
+    if ds and story_state.get("game_emotion_level") == "extreme":
+        drama_sequence_block = (
+            f"\nDRAMA SEQUENCE (tying moment before walkoff — instruct model to name both):\n"
+            f"  Team trailed, then tied the game in inning {ds['tying_inning']}.\n"
+            f"  Team won in inning {ds['walkoff_inning']}.\n"
+            f"  INSTRUCTION: Name the tying play FIRST in WHAT THIS GAME MEANS, then the walkoff.\n"
+            f"  Do NOT collapse both into one abstract statement."
+        )
+    else:
+        drama_sequence_block = ""
+
     emotion = story_state.get("game_emotion_level", "normal")
     if emotion == "extreme":
         voice_block = """VOICE — EXTREME EMOTION (game_emotion_level: extreme):
-- TOP FRAME must open with the dramatic event. Make the moment feel real and earned — not hyped.
-- WHAT THIS GAME MEANS: be vivid. Lead with the emotional core of what happened, then connect it back to the larger team narrative.
-- Genuine energy is appropriate. But stay editorial. No all-caps, no exclamation marks, no manufactured urgency.
-- Earned emotion comes from the game situation itself — late rally, blown lead, walk-off, big comeback, dominant pitching, gutty escape. Let the situation carry the weight. Do not narrate the feeling; show it through the facts.
-- Forbidden phrases: "for the ages", "absolute madness", "unbelievable scenes", "one they'll never forget", "chaos", "mayhem"."""
+- The dramatic event is the TURNING POINT in the structured context above. Use it.
+  If TURNING POINT confidence is HIGH: TOP FRAME must open with that player's name or the exact inning.
+  Do NOT write "the dramatic event" generically — name the player and what they did.
+  Example forms: "Rodriguez walked it off in the twelfth." / "The ninth inning was one pitch."
+- DRAMA SEQUENCE RULE: If a DRAMA SEQUENCE block appears in the structured context above,
+  the tying moment is the emotional spine — name it FIRST in WHAT THIS GAME MEANS, then resolve to the walkoff.
+  Example: "Castellanos tied it with a home run in the ninth. Machado finished it in the tenth."
+  Do NOT compress both into a single vague statement. Name each moment separately.
+- WHAT THIS GAME MEANS: Name the inning. Name the count or game situation if available (2 out, tying run, etc.).
+  The drama lives in the specifics. "He tied it with two outs in the ninth" is vivid.
+  "The late rally" is not.
+- Stay editorial. No all-caps, no exclamation marks, no manufactured urgency.
+- Genuine energy comes from the facts themselves — let the situation carry the weight.
+- Forbidden phrases: "for the ages", "absolute madness", "unbelievable scenes", "one they'll never forget",
+  "chaos", "mayhem". All BANNED VOCABULARY terms apply here with extra force."""
     elif emotion == "high":
         voice_block = """VOICE — HIGH EMOTION (game_emotion_level: high):
 - TOP FRAME should acknowledge the key game event — the go-ahead run, the comeback, the dominant individual performance.
@@ -728,7 +903,7 @@ def _build_narrative_prompt(brief_data, story_state, delta, team_name,
 Identity: gritty, resourceful, slightly suspicious of their own success. Wins feel earned, not assumed.
 
 Language to lean into (1–2 uses per brief, not every sentence):
-  "scratched out" / "just enough" / "held up" / "didn't break" / "thin margin"
+  "scratched out" / "just enough" / "held up" / "didn't break" / "won by one run again"
 
 Editorial bias:
 - Trust the pitching more than the offense
@@ -747,7 +922,7 @@ Application rules:
 Identity: expectation-heavy, analytical, impatient with avoidable failure. Wins are expected; losses demand explanation.
 
 Language to lean into (1–2 uses per brief, not every sentence):
-  "should have" / "margin" / "cost" / "threshold" / "exposed" / "standard"
+  "should have" / "cost" / "threshold" / "exposed" / "standard" / "didn't finish it"
 
 Editorial bias:
 - Hold the team to a higher baseline expectation
@@ -1213,8 +1388,10 @@ LAST GAME:
   Key pitcher: {pitcher_text}
   Key hitters: {hitters_text}
   Offense:     {offense_note}{doubleheader_hint}
+{bullpen_block}
 {game_driver_block}
 {clutch_block}
+{drama_sequence_block}
 {game_story_block}
 
 TEAM CONTEXT:
@@ -1257,10 +1434,18 @@ Texture-specific rules:
   blowout            → write flat; state what happened and when; no manufactured late drama.
   dead_offense_loss  → write honest and direct; name what failed; do not reach for silver linings.
   late_breakthrough  → build the section chronologically; the late scoring is the payoff not the premise.
-  bullpen_grind      → acknowledge the starter exited; name the relievers if identifiable; the grind IS the story.
+  bullpen_grind      → the BULLPEN section in LAST GAME above has the specific names and lines. Use them.
+                        Do NOT write "the bullpen held" without naming who held it and their line.
+                        Example: "Marinaccio threw two scoreless. Estrada struck out two in the eighth."
   back_and_forth     → do not anchor on one moment; the shape of the game is the story.
   routine_win        → plain and measured; no forced energy.
   routine_loss       → analytical; explain what fell short specifically.
+
+PITCHING CONTEXT RULE (applies when BULLPEN section is present in LAST GAME above):
+When the BULLPEN section lists pitchers who covered 3 or more total IP, at least one named reliever
+must appear in WHAT THIS GAME MEANS — with their line or the role they played.
+Do NOT summarize with "the bullpen held" or "the pen came through" without naming who.
+If a reliever threw 2+ IP or recorded the final out, name them and what they did.
 
 When secondary = offense_wasted_pitching:
   The narrative must include both the starter's quality line AND the offensive failure.
@@ -1301,7 +1486,41 @@ Good: "They played six tied innings and then broke it open." / "Waldron held the
 Avoid: opening with the story hook wording, multi-clause sentences, listing multiple players, explaining event sequences.
 
 GAME STORY LENS (when GAME STORY SIGNALS available):
-The TOP FRAME should usually reflect the game shape (e.g., tied game broken late, wire-to-wire hold, blowout controlled early), the turning point, or the dominant pattern in the signals. Do not default to the best player's stat line unless that is clearly the story and no other angle is stronger.
+The TOP FRAME should usually reflect the game shape (e.g., tied game broken late, wire-to-wire hold, blowout controlled early), the turning point, or the dominant shape in the signals. Do not default to the best player's stat line unless that is clearly the story and no other angle is stronger.
+
+BANNED VOCABULARY — HARD RULE (applies to ALL three sections — TOP FRAME, WHAT THIS GAME MEANS, WHAT TO WATCH):
+Every instance of the following is a violation. Scan before returning. If found, rewrite the sentence.
+
+Abstract nouns that replace specific facts:
+  "pattern"   → say what recurred: "they left 7 runners on base again" / "the starter left before the 6th for the third time"
+  "formula"   → say the actual mechanism: "the bullpen held STL to 0 in three innings" / "the defense turned two"
+  "traffic"   → say the actual baserunner situation: "runners on second and third" / "two men on with one out"
+  "margin"    → say the run differential: "up by one" / "won by two for the third time this week"
+  "noise"     → delete; restate as what actually happened
+  "narrative" → delete; make a direct claim without naming the concept
+  "signal"    → say what changed: "the bullpen blew its third save this month" / "he's 0-for-12 in this spot"
+
+Generic framing phrases:
+  "that's the formula"          → say what the actual mechanism was
+  "this is the formula"         → same
+  "the formula broke"           → say what broke: "Rodón lasted 4.1 innings"
+  "this is the pattern"         → say what repeated: "they led through six and gave it back in one inning"
+  "that's the margin"           → say the actual score context
+  "this is how stretches start" → banned entirely — too generic
+  "this is what happens when"   → restate as a direct claim about this game
+  "the story is"                → delete preamble; make the claim directly
+  "the problem is"              → state the problem specifically, not as a concept
+  "this is the cost"            → say what the cost was: "the base on balls in the eighth cost them two runs"
+  "the division doesn't wait"   → banned entirely
+
+Motivational / recycled momentum language (also banned from WHAT TO WATCH):
+  "build on"    → banned
+  "momentum"    → say what changed: "they scored 3 in the 9th" / "the lineup went quiet after the fourth"
+  "bounce back" → banned
+  "keep it going" → banned
+  "carry that"  → banned
+
+SILENT SCAN: Before returning, check every sentence for these words. If any appear, rewrite the sentence with the specific fact it was hiding.
 
 2. WHAT THIS GAME MEANS (90–120 words max)
 Job: interpretation and identity claim — not factual recap, not sequence retelling. The game_note already handled the vivid factual summary. The Game Driver and Turning Point are already shown as memory anchors. Your job is to answer: What does this game reveal about who this team is?
@@ -1312,13 +1531,13 @@ WHAT THIS GAME MEANS should connect the game shape to team identity, season pres
 CHRONOLOGICAL TENSION (use when signals provide it):
 When missed opportunities, rally sequences, and momentum swings are available, build the section using chronological tension: setup → pressure or missed chance → turning point → payoff. Do not open with the conclusion and walk backwards.
 
-Do NOT restate the story_hook, game_note, Game Driver, or Turning Point — those facts are displayed separately and the reader already has them. Instead, answer: What is different about this team today because of this game? Use the STORY DELTA to identify one clear thing that changed — the pattern got louder, the margin for error shifted, a weakness became harder to ignore, a strength carried into a new kind of win, or the formula held in a new situation. Reference the Game Driver or Turning Point briefly if it supports the "what changed" answer — but do not retell the sequence. Connect the game to the team's current trend. Be precise.
+Do NOT restate the story_hook, game_note, Game Driver, or Turning Point — those facts are displayed separately and the reader already has them. Instead, answer: What is different about this team today because of this game? Use the STORY DELTA to identify one clear thing that changed — a weakness showed up again in the same inning type, a strength held in a new situation, a previously reliable piece failed at a key moment. Reference the Game Driver or Turning Point briefly if it supports the "what changed" answer — but do not retell the sequence. Connect the game to the team's current trend. Be precise.
 
 Prefer one strong thesis over several smaller observations. One claim argued well is more memorable than three things that happened. Build to your identity sentence — do not spread the argument thin.
 
-Make a clear claim about the team's identity. The section must include at least one sentence that could stand alone as an editorial take — something that answers "what is this team becoming?" or "what does this game reveal about how they win?" Frame it as a pattern, not a moment. Acceptable forms: "This is a team that...", "The pattern has become...", "They are now...", "This works because...", "This breaks if...". Weave at least one STORY THREAD naturally into the section — do not list it or name it explicitly; let it shape the argument.
+Make a clear claim about the team's identity. The section must include at least one sentence that could stand alone as an editorial take — something that answers "what is this team becoming?" or "what does this game reveal about how they win?" Frame it around a specific recurring situation, not an abstraction. Acceptable forms: "This is a team that...", "They are now...", "This works because...", "This breaks if...". Do NOT use "The pattern has become..." — say what the pattern IS: "They keep leaving runners on in the sixth" / "The bullpen has not blown a lead in 11 games." Weave at least one STORY THREAD naturally into the section — do not list it or name it explicitly; let it shape the argument.
 
-The section must end with a short, memorable punchline under 12 words that captures the core takeaway. It must stand alone as the FINAL sentence of this section — do not bury it mid-paragraph and do not follow it with anything. Examples: "France gave them two swings when they needed one." / "This only works until it doesn't." / "They're winning on margins that don't last." See PUNCHLINE RULE below for more examples and enforcement.
+The section must end with a short, memorable punchline under 12 words that captures the core takeaway. It must stand alone as the FINAL sentence of this section — do not bury it mid-paragraph and do not follow it with anything. Examples: "France gave them two swings when they needed one." / "This only works until it doesn't." / "Three straight one-run wins. That math gets harder." See PUNCHLINE RULE below for more examples and enforcement.
 
 Use plain, direct fan language. Replace analytical constructions ("this represents", "this illustrates") with concrete statements ("they needed it", "he delivered", "that was the game"). Avoid academic tone, over-qualification, and unnecessary metaphors.
 
@@ -1472,11 +1691,9 @@ Enforce this exact structure for WHAT THIS GAME MEANS:
 NO GENERIC ANALYSIS:
 Do not explain baseball.
 Avoid statements that could apply to any team or game, including phrases like:
-  - "that's the formula"
-  - "this is how stretches start"
-  - "the division doesn't wait"
   - "when it works"
   - "teams like this"
+(See BANNED VOCABULARY above for the complete list of banned abstract terms and phrases.)
 If a sentence could describe any MLB game, rewrite or delete it.
 
 SPECIFICITY REQUIREMENT:
@@ -1522,8 +1739,8 @@ Disallow explanatory framing entirely. Do NOT write:
 - "This is about…"
 - "The real problem is…"
 - "This shows that…"
-- "That's the formula…"
 - "This is how…"
+(See BANNED VOCABULARY above for the full list of banned formula/pattern phrases.)
 Replace with direct observations and conclusions. Write like someone who watched the game, not someone explaining it after.
 
 SENTENCE PURPOSE RULE:
@@ -1623,23 +1840,37 @@ If any fail → rewrite.
 3. WHAT TO WATCH (2 sentences max)
 FUNCTION OVERRIDE — this section previews the next game ONLY. It does not reference yesterday in any way.
 
+DATA LOCK — HARD RULE:
+The NEXT GAME context above provides exactly: Our SP, Opp SP, opponent abbreviation, date, and time.
+  - Opponent's starter for this preview: {_opp_sp} (the "Opp SP" above)
+  - Our team's starter for this preview: {_our_sp} (the "Our SP" above — NOT the opponent's pitcher)
+Do NOT name any pitcher not listed in the NEXT GAME context. Do NOT invent a pitcher.
+If you are about to attribute "{_our_sp}" to the opposing team, stop — that is our pitcher.
+The opponent is starting {_opp_sp}. Use that name if you reference an opposing starter.
+Do NOT invent a venue or ballpark name. Only reference home/away from the "vs" or "@" in NEXT GAME.
+
+DATE LOCK — HARD RULE:
+The game is {next_day_label} ({next_game.get('date', 'TBD')}).
+Write "tonight", "tomorrow", or "{next_day_label}" — these come from the verified date above.
+Do NOT write any other day of the week. Do NOT guess "Sunday", "Monday", etc. from training data.
+
 STRUCTURAL LOCK — HARD RULE:
-Your WHAT TO WATCH section MUST open with the next opponent's name or the probable pitcher's name.
+Your WHAT TO WATCH section MUST open with the next opponent's name or the opposing pitcher's name.
 If your draft does not begin with the opponent name or pitcher name, it fails. Rewrite from scratch.
 
 It must:
-- Open with: next opponent name (e.g. "STL…") OR probable pitcher name (e.g. "King faces…")
+- Open with: next opponent name (e.g. "MIL…") OR opposing pitcher name (e.g. "{_opp_sp}…")
 - Name one specific matchup detail (pitcher's recent ERA, the opponent's offensive weakness, series context, ballpark factor)
 
 Banned from this section:
 - Any word that references yesterday's game, result, or players (no "after last night", no player names from yesterday's box score)
-- Pattern language: "build on", "looking to", "momentum", "bounce back", "keep it going", "carry that"
+- "looking to" — say what the matchup actually is, not what the team hopes
 - Abstract team identity claims — this section is a preview, not a verdict
-- "the division doesn't wait"
+- All terms in BANNED VOCABULARY apply here too: "momentum", "build on", "bounce back", "keep it going", "carry that", "the division doesn't wait"
 
 Length: 1–2 sentences. One tight sentence is better than two vague ones. Not a recap.
 
-SILENT CHECK: Does your first word name the opponent or pitcher? If not, rewrite.
+SILENT CHECK: Does your first word name the opponent or opposing pitcher? If not, rewrite.
 
 REWRITE LOOP:
 After drafting WHAT THIS GAME MEANS, run a second pass if ANY of the following are true:
@@ -1835,11 +2066,11 @@ Instead frame the Game Driver as:
 - the separator
 - the finisher
 - the swing that mattered
-- the player who turned traffic into runs
+- the player who converted runners on base into runs
 - the player who made broad production count
 
 Good examples:
-  ✅ "The lineup created traffic. [Player] turned it into runs."
+  ✅ "The lineup got runners on. [Player] drove them in."
   ✅ "This was a team offense with one clear separator."
   ✅ "Everyone touched the game; [Player] changed it."
   ✅ "The bats showed up. [Player] made it matter."
@@ -1852,7 +2083,7 @@ TONAL VARIATION:
 Let the game type shape the writing — subtly, not conspicuously.
   GRITTY     → shorter sentences, physical verbs ("held on", "scratched out", "didn't break", "survived")
   DOMINANT   → confident, declarative ("they controlled this game", "this wasn't close")
-  FRAGILE    → tension, skepticism in reserve ("this works until it doesn't", "the margin is real")
+  FRAGILE    → tension, skepticism in reserve ("this works until it doesn't", "they won by one run again")
   CHAOTIC    → slightly more energy, irregular rhythm, comma-sparse sentences
   CLINICAL   → plain, even, no added heat — let the facts do the work
 Do not overdo this. The shift should be felt across 2–3 word choices, not performed as a style.
@@ -1865,9 +2096,9 @@ Banned in blowout contexts:
   "put up a fight" (unless the team actually scored 3+ runs)
   "couldn't recover"
   "the season pressure"
-  "the division doesn't wait"
   "exposed" (unless naming a specific structural weakness clearly caused by this game)
   philosophical overreach about what this means for the division race
+  (See BANNED VOCABULARY for additional banned abstract terms.)
 
 Required in blowout contexts:
   State what happened early and when — one clear sentence about when control was established.
@@ -1908,15 +2139,8 @@ VOICE VARIATION — CONTROLLED UNHINGED:
 The brief should read like a sharp human observer, not a template. Keep it accurate and grounded — but allow slightly more edge, surprise, and personality.
 
 1. DO NOT reuse abstract framing across briefs.
-   These phrases are banned because they have become reflexive fills rather than earned observations:
-   - "this is the pattern"
-   - "that's the margin"
-   - "this is the formula"
-   - "this is the cost"
-   - "this is what happens when"
-   - "the story is"
-   - "the problem is"
-   When you reach for one of these, replace it with a concrete observation from the actual game.
+   When you reach for any abstract framing phrase, replace it with a concrete observation from the actual game.
+   (See BANNED VOCABULARY earlier in these instructions for the full list with replacement guidance.)
 
 2. Replace abstract framing with something sharper and game-specific.
    Bad:  "This is the pattern getting louder."
@@ -1934,7 +2158,7 @@ The brief should read like a sharp human observer, not a template. Keep it accur
    - Not random, not meme-like, not mean-spirited toward an individual player
    Examples of the register:
    - "The bats didn't go cold. They left the building."
-   - "That was not traffic. That was loitering."
+   - "Two runners on, two outs, nobody home. Three times."
    - "A one-run lead is not a plan."
    - "Five hits is not offense. It's attendance."
    - "They brought a pocketknife to a bullpen game."
@@ -2354,7 +2578,10 @@ def generate_narrative_copy(brief_data, story_state, delta, team_name,
 
     next_game   = brief_data.get("next_game") or {}
     ng_opponent = (next_game.get("opponent") or "").strip()
-    ng_probable = ((next_game.get("probable") or {}).get("team") or "").strip()
+    _ng_prob    = (next_game.get("probable") or {})
+    # Validate that the model names the OPPONENT's starter (opp), not ours (team).
+    # Fallback to our SP only when no opp SP is available.
+    ng_probable = (_ng_prob.get("opp") or _ng_prob.get("team") or "").strip()
 
     base_prompt = _build_narrative_prompt(
         brief_data, story_state, delta, team_name,

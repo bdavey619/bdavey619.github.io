@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-05-11T13:49:45+00:00",
+  "generated_at": "2026-05-12T05:06:02+00:00",
   "season": 2026,
   "team": {
-    "record": "26-15",
-    "streak": "L3",
-    "run_diff": "+73",
-    "last10": "6-4",
+    "record": "26-16",
+    "streak": "L4",
+    "run_diff": "+72",
+    "last10": "5-5",
     "division_rank": 2,
-    "games_back": "1.0",
-    "avg": ".239",
-    "ops": ".775",
-    "era": "3.14"
+    "games_back": "2.0",
+    "avg": ".237",
+    "ops": ".771",
+    "era": "3.15"
   },
   "last_game": {
     "status": "final",
-    "gamePk": 823793,
-    "date": "2026-05-10",
-    "opponent": "MIL",
+    "gamePk": 824844,
+    "date": "2026-05-11",
+    "opponent": "BAL",
     "home": false,
     "result": "L",
     "score": {
-      "team": 3,
-      "opp": 4
+      "team": 2,
+      "opp": 3
     },
     "linescore": [
       [
-        1,
-        1,
+        0,
+        0,
+        2,
         0,
         0,
         0,
-        1,
         0,
         0,
         0
@@ -39,255 +39,259 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
         3,
         0,
-        0,
-        0,
-        0,
-        1
+        ""
       ]
     ],
     "decisions": {
-      "win": "Abner Uribe",
+      "win": "Dietrich Enns",
       "win_role": "RP",
       "win_team": "opp",
-      "loss": "David Bednar",
+      "loss": "Brent Headrick",
       "loss_role": "RP",
-      "loss_team": "team"
+      "loss_team": "team",
+      "save": "Anthony Nunez",
+      "save_role": "RP",
+      "save_team": "opp"
     },
     "key_hitters": [
       {
-        "name": "Aaron Judge",
-        "line": "1-3, 1 HR, 1 RBI",
-        "pos": "DH",
-        "season_avg": ".267"
+        "name": "Ben Rice",
+        "line": "2-4, 1 HR, 2 RBI",
+        "pos": "1B",
+        "season_avg": ".312"
       },
       {
-        "name": "Spencer Jones",
-        "line": "1-4, 1 RBI",
-        "pos": "RF",
-        "season_avg": ".111"
+        "name": "Max Schuemann",
+        "line": "1-3",
+        "pos": "SS",
+        "season_avg": ".250"
       }
     ],
     "key_pitcher": {
-      "name": "Carlos Rod\u00f3n",
-      "line": "4.1 IP, 2 H, 3 ER, 4 K",
+      "name": "Ryan Weathers",
+      "line": "6.1 IP, 1 H, 2 ER, 9 K",
       "role": "SP",
-      "season_era": "6.23"
+      "season_era": "3.00"
     },
-    "context_line": "Away \u00b7 American Family Field \u00b7 Day game",
-    "highlights_url": "https://www.youtube.com/results?search_query=NYY+vs+MIL+highlights+May+10+2026+MLB",
-    "game_note": "A 3-run fourth by MIL was more than the Yankees could answer.",
+    "context_line": "Away \u00b7 Oriole Park at Camden Yards \u00b7 Night game",
+    "highlights_url": "https://www.youtube.com/results?search_query=NYY+vs+BAL+highlights+May+11+2026+MLB",
+    "game_note": "A 3-run seventh by BAL was more than the Yankees could answer.",
     "full_box": {
       "batting": [
         {
           "name": "Trent Grisham",
           "pos": "CF",
-          "avg": ".178",
-          "ab": 4,
-          "r": 0,
-          "h": 1,
+          "avg": ".174",
+          "ab": 3,
+          "r": 1,
+          "h": 0,
           "rbi": 0,
-          "bb": 0,
-          "so": 2
+          "bb": 1,
+          "so": 0
         },
         {
           "name": "Ben Rice",
           "pos": "1B",
-          "avg": ".306",
+          "avg": ".312",
           "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
+          "r": 1,
+          "h": 2,
+          "rbi": 2,
           "bb": 0,
           "so": 1
         },
         {
           "name": "Aaron Judge",
-          "pos": "DH",
+          "pos": "RF",
           "avg": ".267",
-          "ab": 3,
-          "r": 1,
+          "ab": 4,
+          "r": 0,
           "h": 1,
-          "rbi": 1,
-          "bb": 1,
-          "so": 2
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
         },
         {
           "name": "Cody Bellinger",
           "pos": "LF",
-          "avg": ".292",
+          "avg": ".288",
           "ab": 2,
-          "r": 1,
-          "h": 1,
+          "r": 0,
+          "h": 0,
           "rbi": 0,
           "bb": 2,
-          "so": 0
+          "so": 1
         },
         {
           "name": "Jazz Chisholm Jr.",
           "pos": "2B",
-          "avg": ".207",
+          "avg": ".201",
           "ab": 4,
           "r": 0,
-          "h": 1,
-          "rbi": 1,
+          "h": 0,
+          "rbi": 0,
           "bb": 0,
-          "so": 2
+          "so": 3
         },
         {
           "name": "Ryan McMahon",
           "pos": "3B",
-          "avg": ".218",
+          "avg": ".210",
           "ab": 4,
           "r": 0,
           "h": 0,
           "rbi": 0,
           "bb": 0,
           "so": 1
-        },
-        {
-          "name": "Jos\u00e9 Caballero",
-          "pos": "SS",
-          "avg": ".259",
-          "ab": 3,
-          "r": 1,
-          "h": 1,
-          "rbi": 0,
-          "bb": 1,
-          "so": 0
         },
         {
           "name": "Spencer Jones",
-          "pos": "RF",
-          "avg": ".111",
-          "ab": 4,
+          "pos": "DH",
+          "avg": ".091",
+          "ab": 2,
           "r": 0,
-          "h": 1,
-          "rbi": 1,
+          "h": 0,
+          "rbi": 0,
           "bb": 0,
           "so": 1
         },
         {
-          "name": "J.C. Escarra",
+          "name": "Paul Goldschmidt",
+          "pos": "DH",
+          "avg": ".246",
+          "ab": 2,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 0
+        },
+        {
+          "name": "Max Schuemann",
+          "pos": "SS",
+          "avg": ".250",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "so": 1
+        },
+        {
+          "name": "Austin Wells",
           "pos": "C",
-          "avg": ".195",
+          "avg": ".177",
           "ab": 3,
           "r": 0,
           "h": 0,
           "rbi": 0,
-          "bb": 1,
-          "so": 1
+          "bb": 0,
+          "so": 0
         }
       ],
       "pitching": [
         {
-          "name": "Carlos Rod\u00f3n",
-          "ip": "4.1",
+          "name": "Ryan Weathers",
+          "ip": "6.1",
+          "h": 1,
+          "er": 2,
+          "k": 9,
+          "bb": 3,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
+        },
+        {
+          "name": "Brent Headrick",
+          "ip": "0.2",
           "h": 2,
-          "er": 3,
-          "k": 4,
-          "bb": 5
+          "er": 1,
+          "k": 1,
+          "bb": 0,
+          "sv": 0,
+          "hld": 0,
+          "bs": 1
         },
         {
-          "name": "Jake Bird",
-          "ip": "0.2",
-          "h": 0,
-          "er": 0,
-          "k": 2,
-          "bb": 0
-        },
-        {
-          "name": "Paul Blackburn",
-          "ip": "0.2",
+          "name": "Camilo Doval",
+          "ip": "1.0",
           "h": 0,
           "er": 0,
           "k": 1,
-          "bb": 1
-        },
-        {
-          "name": "Fernando Cruz",
-          "ip": "1.1",
-          "h": 1,
-          "er": 0,
-          "k": 3,
-          "bb": 0
-        },
-        {
-          "name": "Tim Hill",
-          "ip": "1.0",
-          "h": 1,
-          "er": 0,
-          "k": 0,
-          "bb": 0
-        },
-        {
-          "name": "David Bednar",
-          "ip": "0.2",
-          "h": 1,
-          "er": 1,
-          "k": 2,
-          "bb": 0
+          "bb": 0,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         }
       ]
     },
     "clutch_player": {
-      "name": "Aaron Judge",
-      "event": "1-3, 1 HR, 1 RBI",
+      "name": "Ben Rice",
+      "event": "2-4, 1 HR, 2 RBI",
       "inning": null,
-      "description": "led the offense with 1-3, 1 HR, 1 RBI.",
+      "description": "led the offense with 2-4, 1 HR, 2 RBI.",
       "reason": "top hitter by box score (no play-by-play clutch moment detected)",
       "confidence": "low"
     },
-    "game_driver": null
+    "game_driver": {
+      "name": "Ben Rice",
+      "type": "hitter",
+      "reason": "1 HR, 2 RBI",
+      "description": "led the offense with a home run and 2 RBI.",
+      "confidence": "medium"
+    }
   },
   "next_game": {
-    "gamePk": 824844,
-    "date": "2026-05-11",
+    "gamePk": 824843,
+    "date": "2026-05-12",
     "opponent": "BAL",
     "home": false,
     "time_local": "6:35 PM ET",
     "probable": {
-      "team": "Ryan Weathers",
-      "opp": "Brandon Young"
+      "team": "Will Warren"
     },
-    "insight": "Weathers has a 3.24 ERA over his last 4 starts. He takes the mound tonight.",
-    "hook_type": "pitcher_form"
+    "insight": "BAL's .230 average gives Warren a favorable matchup tomorrow.",
+    "hook_type": "opponent_weakness"
   },
   "standings": [
     {
       "team": "Rays",
-      "w": 26,
+      "w": 27,
       "l": 13,
       "gb": "-",
-      "last10": "8-2"
+      "last10": "9-1"
     },
     {
       "team": "Yankees",
       "w": 26,
-      "l": 15,
-      "gb": "1.0",
-      "last10": "6-4"
+      "l": 16,
+      "gb": "2.0",
+      "last10": "5-5"
+    },
+    {
+      "team": "Orioles",
+      "w": 19,
+      "l": 23,
+      "gb": "9.0",
+      "last10": "4-6"
     },
     {
       "team": "Blue Jays",
       "w": 18,
-      "l": 22,
-      "gb": "8.5",
-      "last10": "4-6"
-    },
-    {
-      "team": "Orioles",
-      "w": 18,
       "l": 23,
-      "gb": "9.0",
-      "last10": "3-7"
+      "gb": "9.5",
+      "last10": "4-6"
     },
     {
       "team": "Red Sox",
       "w": 17,
       "l": 23,
-      "gb": "9.5",
+      "gb": "10.0",
       "last10": "5-5"
     }
   ],
@@ -296,9 +300,9 @@
     "pitchers": []
   },
   "insight": {
-    "headline": "A 3.14 ERA should be winning more games.",
-    "detail": "Staff ERA is 3.14. That's held up. But New York is just 6-4 in the last ten. A .775 OPS hasn't turned good pitching into wins. They're 1.0 back in the AL East.",
-    "why": "staff carrying (3.14 ERA) \u00b7 offense clicking (.775 OPS) \u00b7 6\u20134 in the last ten"
+    "headline": "A 3.15 ERA should be winning more games.",
+    "detail": "Staff ERA is 3.15. That's held up. But New York is just 5-5 in the last ten. A .771 OPS hasn't turned good pitching into wins. They're 2.0 back in the AL East.",
+    "why": "staff carrying (3.15 ERA) \u00b7 offense clicking (.771 OPS) \u00b7 5\u20135 in the last ten"
   },
   "story_hook": "",
   "story_threads_debug": [
@@ -308,52 +312,194 @@
   "game_story": {
     "threat_events": [
       {
-        "inning": 2,
+        "inning": 1,
         "half": "top",
         "side": "team",
-        "batter": "Spencer Jones",
-        "pitcher": "Logan Henderson",
-        "event": "Single",
-        "description": "Spencer Jones singles on a sharp line drive to center fielder Garrett Mitchell. Jos\u00e9 Caballero scores.",
-        "rbi": 1,
+        "batter": "Jazz Chisholm Jr.",
+        "pitcher": "Brandon Young",
+        "event": "Flyout",
+        "description": "Jazz Chisholm Jr. flies out to right fielder Tyler O'Neill.",
+        "rbi": 0,
+        "outs_before": 0,
+        "runners_before": [
+          1,
+          2
+        ],
+        "team_score_before": 0,
+        "opp_score_before": 0,
+        "team_score_after": 0,
+        "opp_score_after": 0,
+        "runs_scored": 0,
+        "is_scoring": false
+      },
+      {
+        "inning": 6,
+        "half": "top",
+        "side": "team",
+        "batter": "Cody Bellinger",
+        "pitcher": "Brandon Young",
+        "event": "Groundout",
+        "description": "Cody Bellinger grounds out, first baseman Pete Alonso to pitcher Brandon Young. Aaron Judge to 3rd.",
+        "rbi": 0,
         "outs_before": 0,
         "runners_before": [
           2
         ],
-        "team_score_before": 1,
+        "team_score_before": 2,
         "opp_score_before": 0,
         "team_score_after": 2,
         "opp_score_after": 0,
-        "runs_scored": 1,
-        "is_scoring": true
+        "runs_scored": 0,
+        "is_scoring": false
+      },
+      {
+        "inning": 6,
+        "half": "top",
+        "side": "team",
+        "batter": "Jazz Chisholm Jr.",
+        "pitcher": "Dietrich Enns",
+        "event": "Strikeout",
+        "description": "Jazz Chisholm Jr. strikes out swinging.",
+        "rbi": 0,
+        "outs_before": 0,
+        "runners_before": [
+          3
+        ],
+        "team_score_before": 2,
+        "opp_score_before": 0,
+        "team_score_after": 2,
+        "opp_score_after": 0,
+        "runs_scored": 0,
+        "is_scoring": false
       },
       {
         "inning": 6,
         "half": "top",
         "side": "team",
         "batter": "Ryan McMahon",
-        "pitcher": "DL Hall",
+        "pitcher": "Dietrich Enns",
         "event": "Groundout",
-        "description": "Ryan McMahon grounds out, third baseman Luis Rengifo to first baseman Andrew Vaughn.",
+        "description": "Ryan McMahon grounds out, first baseman Pete Alonso to pitcher Dietrich Enns.",
         "rbi": 0,
         "outs_before": 0,
         "runners_before": [
-          2,
           3
         ],
-        "team_score_before": 3,
-        "opp_score_before": 3,
-        "team_score_after": 3,
-        "opp_score_after": 3,
+        "team_score_before": 2,
+        "opp_score_before": 0,
+        "team_score_after": 2,
+        "opp_score_after": 0,
+        "runs_scored": 0,
+        "is_scoring": false
+      },
+      {
+        "inning": 7,
+        "half": "top",
+        "side": "team",
+        "batter": "Austin Wells",
+        "pitcher": "Dietrich Enns",
+        "event": "Groundout",
+        "description": "Austin Wells grounds out, first baseman Pete Alonso to pitcher Dietrich Enns. Max Schuemann to 3rd.",
+        "rbi": 0,
+        "outs_before": 0,
+        "runners_before": [
+          2
+        ],
+        "team_score_before": 2,
+        "opp_score_before": 0,
+        "team_score_after": 2,
+        "opp_score_after": 0,
+        "runs_scored": 0,
+        "is_scoring": false
+      },
+      {
+        "inning": 7,
+        "half": "top",
+        "side": "team",
+        "batter": "Trent Grisham",
+        "pitcher": "Dietrich Enns",
+        "event": "Groundout",
+        "description": "Trent Grisham grounds out, second baseman Blaze Alexander to first baseman Pete Alonso.",
+        "rbi": 0,
+        "outs_before": 0,
+        "runners_before": [
+          3
+        ],
+        "team_score_before": 2,
+        "opp_score_before": 0,
+        "team_score_after": 2,
+        "opp_score_after": 0,
         "runs_scored": 0,
         "is_scoring": false
       }
     ],
-    "missed_opportunities": [],
-    "rally_sequences": [],
+    "missed_opportunities": [
+      {
+        "inning": 1,
+        "risp_at_bats": 1,
+        "runners_left": 2,
+        "events": [
+          "Flyout"
+        ],
+        "severity": "mild"
+      },
+      {
+        "inning": 6,
+        "risp_at_bats": 3,
+        "runners_left": 1,
+        "events": [
+          "Groundout",
+          "Strikeout",
+          "Groundout"
+        ],
+        "severity": "critical"
+      },
+      {
+        "inning": 7,
+        "risp_at_bats": 2,
+        "runners_left": 1,
+        "events": [
+          "Groundout",
+          "Groundout"
+        ],
+        "severity": "critical"
+      }
+    ],
+    "rally_sequences": [
+      {
+        "inning": 3,
+        "runs": 2,
+        "scoring_plays": [
+          {
+            "batter": "Ben Rice",
+            "event": "Home Run",
+            "rbi": 2
+          }
+        ],
+        "came_from_behind": false,
+        "was_tied": true,
+        "lead_change": true
+      }
+    ],
     "momentum_swings": [
       {
-        "inning": 4,
+        "inning": 3,
+        "half": "top",
+        "direction": "for",
+        "runs": 2,
+        "score_before": {
+          "team": 0,
+          "opp": 0
+        },
+        "score_after": {
+          "team": 2,
+          "opp": 0
+        },
+        "lead_change": true,
+        "go_ahead": true
+      },
+      {
+        "inning": 7,
         "half": "bottom",
         "direction": "against",
         "runs": 3,
@@ -375,52 +521,52 @@
       "max_deficit_faced": 1,
       "team_ever_led": true,
       "max_lead_held": 2,
-      "was_tied_late": true,
+      "was_tied_late": false,
       "innings_team_trailed": [
-        4,
-        5,
-        6,
+        7,
+        8,
         9
       ],
       "innings_team_led": [
-        1,
-        2,
         3,
-        4
+        4,
+        5,
+        6,
+        7
       ],
       "game_decided_by_inning": null,
       "blowout_by_5th": false,
-      "first_team_lead_inning": 1,
-      "first_team_trail_inning": 4,
-      "last_tied_inning": 8,
+      "first_team_lead_inning": 3,
+      "first_team_trail_inning": 7,
+      "last_tied_inning": 2,
       "lead_changes_count": 1,
       "end_inning_team_led": [
-        1,
-        2,
-        3
-      ],
-      "end_inning_team_trailed": [
+        3,
         4,
         5,
+        6
+      ],
+      "end_inning_team_trailed": [
+        7,
+        8,
         9
       ],
       "end_inning_tied": [
-        6,
-        7,
-        8
+        1,
+        2
       ],
       "end_inning_score_states": [
         {
           "inning": 1,
-          "team": 1,
+          "team": 0,
           "opp": 0,
-          "state": "led"
+          "state": "tied"
         },
         {
           "inning": 2,
-          "team": 2,
+          "team": 0,
           "opp": 0,
-          "state": "led"
+          "state": "tied"
         },
         {
           "inning": 3,
@@ -431,101 +577,65 @@
         {
           "inning": 4,
           "team": 2,
-          "opp": 3,
-          "state": "trailed"
+          "opp": 0,
+          "state": "led"
         },
         {
           "inning": 5,
+          "team": 2,
+          "opp": 0,
+          "state": "led"
+        },
+        {
+          "inning": 6,
+          "team": 2,
+          "opp": 0,
+          "state": "led"
+        },
+        {
+          "inning": 7,
           "team": 2,
           "opp": 3,
           "state": "trailed"
         },
         {
-          "inning": 6,
-          "team": 3,
-          "opp": 3,
-          "state": "tied"
-        },
-        {
-          "inning": 7,
-          "team": 3,
-          "opp": 3,
-          "state": "tied"
-        },
-        {
           "inning": 8,
-          "team": 3,
+          "team": 2,
           "opp": 3,
-          "state": "tied"
+          "state": "trailed"
         },
         {
           "inning": 9,
-          "team": 3,
-          "opp": 4,
+          "team": 2,
+          "opp": 3,
           "state": "trailed"
         }
       ]
     },
     "game_texture": {
-      "primary": "bullpen_grind",
-      "secondary": null,
-      "reason": "starter lasted 4.1 IP; game decided by 1 run(s)",
-      "tone_guidance": "grind, uncertain, bullpen-forward, survival feel"
+      "primary": "dead_offense_loss",
+      "secondary": "offense_wasted_pitching",
+      "reason": "team scored 2 run(s); offense silenced (5 hits, 9 strikeouts); starter: 2 ER in 6.1 IP",
+      "tone_guidance": "flat, offense-failure, suppressed energy"
     },
     "risp_conversion": {
-      "total_risp_pa": 2,
-      "risp_pa_with_run_scored": 1,
-      "risp_pa_without_run_scored": 1,
-      "risp_converted_innings": [
-        2
-      ],
+      "total_risp_pa": 6,
+      "risp_pa_with_run_scored": 0,
+      "risp_pa_without_run_scored": 6,
+      "risp_converted_innings": [],
       "risp_empty_innings": [
-        6
+        1,
+        6,
+        7
       ]
     },
     "summary": {
-      "total_risp_situations": 2,
-      "missed_opportunity_innings": 0,
-      "critical_misses": 0,
+      "total_risp_situations": 6,
+      "missed_opportunity_innings": 3,
+      "critical_misses": 2,
       "significant_misses": 0,
-      "multi_run_innings": 0,
-      "momentum_swing_count": 1
-    }
-  },
-  "narrative": {
-    "top_frame": "Carlos Rod\u00f3n lasted 4.1 innings, and the Yankees never recovered from the third inning when Milwaukee scored three straight runs to take the lead in a one-run loss.",
-    "what_this_means": "The pattern is becoming harder to ignore. They scored first, held the lead through three innings, then watched it slip away in a single inning and never got it back. This is not new territory. They've been here twice in the last three games. But the margin for error keeps shrinking. With two runners in scoring position, they converted once. With ten strikeouts and six hits, the offense looked overmatched when it mattered most. Judge hit a solo shot for show, but the rest of the lineup produced noise without consequence. Milwaukee's third-inning flare was the game. Everything after was trailing and hoping, not leading and controlling. You don't lose games like this by accident. You lose them when your best pitcher can't go five.",
-    "what_to_watch": "Baltimore sends Ryan Weathers to the mound tonight with a 3.24 ERA over his last four starts, and the Yankees will need to survive better early than they did in Milwaukee.",
-    "story_state": {
-      "trend": "slipping",
-      "driver": "balanced",
-      "confidence": "low",
-      "pressure": "high",
-      "record_w": 26,
-      "record_l": 15,
-      "streak": "L3",
-      "last10_w": 6,
-      "era": 3.14,
-      "ops": 0.775,
-      "gb": 1.0,
-      "division_rank": 2,
-      "last_result": "L",
-      "date": "2026-05-10",
-      "game_emotion_level": "normal"
-    },
-    "story_delta": {
-      "has_prev": true,
-      "trend_changed": true,
-      "trend_direction": "declined",
-      "conf_changed": true,
-      "pressure_changed": false,
-      "driver_changed": false,
-      "signals": [
-        "trend declined: fragile \u2192 slipping",
-        "confidence down: medium \u2192 low",
-        "lost last game",
-        "division gap: fell back 1.0 game(s) (1.0 back)"
-      ]
+      "multi_run_innings": 1,
+      "momentum_swing_count": 2
     }
   }
 }

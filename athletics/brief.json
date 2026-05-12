@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T15:45:48+00:00",
+  "generated_at": "2026-05-12T05:06:02+00:00",
   "season": 2026,
   "team": {
     "record": "21-19",
@@ -212,7 +212,10 @@
           "h": 6,
           "er": 2,
           "k": 4,
-          "bb": 4
+          "bb": 4,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         },
         {
           "name": "Justin Sterner",
@@ -220,7 +223,10 @@
           "h": 0,
           "er": 0,
           "k": 2,
-          "bb": 1
+          "bb": 1,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         },
         {
           "name": "Luis Medina",
@@ -228,7 +234,10 @@
           "h": 0,
           "er": 0,
           "k": 4,
-          "bb": 0
+          "bb": 0,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         }
       ]
     },
@@ -250,7 +259,8 @@
     "time_local": "6:40 PM PT",
     "probable": {
       "team": "Jeffrey Springs",
-      "opp": "Andre Pallante"
+      "opp": "Andre Pallante",
+      "opp_era": "4.34"
     }
   },
   "standings": [
@@ -262,14 +272,14 @@
       "last10": "5-5"
     },
     {
-      "team": "Rangers",
-      "w": 19,
-      "l": 21,
+      "team": "Mariners",
+      "w": 20,
+      "l": 22,
       "gb": "2.0",
-      "last10": "5-5"
+      "last10": "4-6"
     },
     {
-      "team": "Mariners",
+      "team": "Rangers",
       "w": 19,
       "l": 22,
       "gb": "2.5",
@@ -278,16 +288,16 @@
     {
       "team": "Angels",
       "w": 16,
-      "l": 25,
-      "gb": "5.5",
+      "l": 26,
+      "gb": "6.0",
       "last10": "4-6"
     },
     {
       "team": "Astros",
       "w": 16,
-      "l": 25,
-      "gb": "5.5",
-      "last10": "5-5"
+      "l": 26,
+      "gb": "6.0",
+      "last10": "4-6"
     }
   ],
   "hot_players": {
@@ -584,43 +594,6 @@
       "significant_misses": 0,
       "multi_run_innings": 0,
       "momentum_swing_count": 0
-    }
-  },
-  "narrative": {
-    "top_frame": "The lead they held through five innings evaporated in the sixth, and Luis Severino's quality start couldn't survive the offense's paralysis.",
-    "what_this_means": "They had one run to show for six chances with runners in scoring position. A statistic that defines this team right now. Severino gave them everything a starter can: 5.1 innings, two earned runs, four strikeouts. The pitching held. The bats did not. Ten strikeouts from a lineup that can't afford that kind of silence. They were ahead after two innings, level through five, and completely behind after six. That's not a collapse. That's a team that found one run's worth of answer to a problem that required more. The margin between fragile and finished is thin, and they're living inside it.",
-    "what_to_watch": "STL brings Jeffrey Springs to Camden Yards tomorrow. A left-hander the Athletics have not faced this season, and an offense that needs to string hits together rather than scatter them across nine strikeouts.",
-    "story_state": {
-      "trend": "fragile",
-      "driver": "balanced",
-      "confidence": "medium",
-      "pressure": "high",
-      "record_w": 21,
-      "record_l": 19,
-      "streak": "L1",
-      "last10_w": 5,
-      "era": 4.42,
-      "ops": 0.726,
-      "gb": 0.0,
-      "division_rank": 1,
-      "last_result": "L",
-      "date": "2026-05-10",
-      "game_emotion_level": "normal"
-    },
-    "story_delta": {
-      "has_prev": true,
-      "trend_changed": true,
-      "trend_direction": "declined",
-      "conf_changed": false,
-      "pressure_changed": true,
-      "driver_changed": false,
-      "signals": [
-        "trend declined: stabilizing \u2192 fragile",
-        "pressure increased: building \u2192 high",
-        "lost last game",
-        "streak flipped: W3 \u2192 L1",
-        "ERA improved: 4.47 \u2192 4.42"
-      ]
     }
   }
 }

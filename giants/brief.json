@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T14:55:54+00:00",
+  "generated_at": "2026-05-12T05:06:02+00:00",
   "season": 2026,
   "team": {
     "record": "16-24",
@@ -8,9 +8,9 @@
     "last10": "3-7",
     "division_rank": 4,
     "games_back": "8.0",
-    "avg": ".242",
-    "ops": ".649",
-    "era": "4.06"
+    "avg": ".244",
+    "ops": ".655",
+    "era": "4.04"
   },
   "last_game": {
     "status": "final",
@@ -215,7 +215,10 @@
           "h": 5,
           "er": 4,
           "k": 8,
-          "bb": 2
+          "bb": 2,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         },
         {
           "name": "Keaton Winn",
@@ -223,7 +226,10 @@
           "h": 1,
           "er": 0,
           "k": 0,
-          "bb": 0
+          "bb": 0,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         },
         {
           "name": "Sam Hentges",
@@ -231,7 +237,10 @@
           "h": 0,
           "er": 0,
           "k": 0,
-          "bb": 1
+          "bb": 1,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         },
         {
           "name": "Caleb Kilian",
@@ -239,7 +248,10 @@
           "h": 0,
           "er": 0,
           "k": 0,
-          "bb": 2
+          "bb": 2,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         },
         {
           "name": "Joel Peguero",
@@ -247,7 +259,10 @@
           "h": 1,
           "er": 1,
           "k": 0,
-          "bb": 1
+          "bb": 1,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         },
         {
           "name": "Dylan Smith",
@@ -255,7 +270,10 @@
           "h": 0,
           "er": 0,
           "k": 0,
-          "bb": 1
+          "bb": 1,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         },
         {
           "name": "Ryan Borucki",
@@ -263,7 +281,10 @@
           "h": 0,
           "er": 0,
           "k": 1,
-          "bb": 2
+          "bb": 2,
+          "sv": 0,
+          "hld": 0,
+          "bs": 0
         }
       ]
     },
@@ -291,7 +312,8 @@
     "time_local": "7:10 PM PT",
     "probable": {
       "team": "Trevor McDonald",
-      "opp": "Roki Sasaki"
+      "opp": "Roki Sasaki",
+      "opp_era": "5.88"
     }
   },
   "standings": [
@@ -311,10 +333,10 @@
     },
     {
       "team": "D-backs",
-      "w": 19,
+      "w": 20,
       "l": 20,
-      "gb": "4.5",
-      "last10": "3-7"
+      "gb": "4.0",
+      "last10": "4-6"
     },
     {
       "team": "Giants",
@@ -337,8 +359,8 @@
   },
   "insight": {
     "headline": "A 3-7 stretch over the last ten is a real concern.",
-    "detail": "A .649 OPS over this stretch has made it hard to win. Staff ERA is 4.06. The runs haven't been there.",
-    "why": "ERA at 4.06 \u00b7 quiet bats (.649 OPS) \u00b7 3\u20137 in the last ten"
+    "detail": "A .655 OPS over this stretch has made it hard to win. Staff ERA is 4.04. The runs haven't been there.",
+    "why": "ERA at 4.04 \u00b7 quiet bats (.655 OPS) \u00b7 3\u20137 in the last ten"
   },
   "story_hook": "Ramos powered the offense; Rodriguez ended it.",
   "story_threads_debug": [
@@ -1084,41 +1106,6 @@
       "significant_misses": 0,
       "multi_run_innings": 2,
       "momentum_swing_count": 3
-    }
-  },
-  "narrative": {
-    "top_frame": "Twelve innings and they finally broke through when it mattered most.",
-    "what_this_means": "The Giants' offense wasted 22 chances to score. Five innings left empty after runners reached base, the lineup stuck in neutral through stretches where the game was there to take. But they kept swinging. Ramos supplied the power with two runs driven in, and the lineup manufactured enough traffic that when Rodriguez stepped in during the twelfth, there was work to be done. This is a team that survives on margins thin enough to cut yourself on, winning through patience and the occasional player stepping in at exactly the right moment. They trailed after three innings, tied for most of the night, and only led once. In the game's final moment. The pattern has become: stay close enough and something breaks your way late. It did here. That's not sustainable if the early offense stays this quiet, but today it held.",
-    "what_to_watch": "LAD come to Oracle on Sunday with Trevor McDonald taking the mound. The Dodgers' lineup is built for the late innings. Worth watching how the Giants' late-game approach holds against their offensive depth.",
-    "story_state": {
-      "trend": "slipping",
-      "driver": "balanced",
-      "confidence": "low",
-      "pressure": "low",
-      "record_w": 16,
-      "record_l": 24,
-      "streak": "W1",
-      "last10_w": 3,
-      "era": 4.06,
-      "ops": 0.649,
-      "gb": 8.0,
-      "division_rank": 4,
-      "last_result": "W",
-      "date": "2026-05-10",
-      "game_emotion_level": "extreme"
-    },
-    "story_delta": {
-      "has_prev": true,
-      "trend_changed": false,
-      "trend_direction": "unchanged",
-      "conf_changed": false,
-      "pressure_changed": false,
-      "driver_changed": false,
-      "signals": [
-        "won last game",
-        "streak flipped: L1 \u2192 W1",
-        "division gap: gained 1.0 game(s) (8.0 back)"
-      ]
     }
   }
 }

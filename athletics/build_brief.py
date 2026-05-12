@@ -509,6 +509,9 @@ def _format_last_game(game):
         out["game_note"] = game_note
     if full_box:
         out["full_box"] = full_box
+    opp_win_pct = _get_opponent_win_pct(_opponent_abbr(game))
+    if opp_win_pct is not None:
+        out["opp_win_pct"] = opp_win_pct
     return out
 
 
@@ -714,6 +717,9 @@ def _extract_full_box_score(box, sd_side):
             "er":  pit.get("earnedRuns", 0),
             "k":   pit.get("strikeOuts", 0),
             "bb":  pit.get("baseOnBalls", 0),
+            "sv":  pit.get("saves", 0),
+            "hld": pit.get("holds", 0),
+            "bs":  pit.get("blownSaves", 0),
         })
 
     if not batting and not pitching:
@@ -732,8 +738,15 @@ def _format_next_game(game):
     probable = {}
     sd_pp = game["teams"][sd_side].get("probablePitcher", {})
     opp_pp = game["teams"][opp_side].get("probablePitcher", {})
-    if sd_pp: probable["team"] = sd_pp.get("fullName", "TBD")
-    if opp_pp: probable["opp"] = opp_pp.get("fullName", "TBD")
+    if sd_pp:
+        probable["team"] = sd_pp.get("fullName", "TBD")
+    if opp_pp:
+        opp_name = opp_pp.get("fullName", "TBD")
+        probable["opp"] = opp_name
+        # Fault-tolerant ERA fetch for opponent starter — omit on failure
+        opp_era = _get_pitcher_season_era(opp_pp.get("id"))
+        if opp_era:
+            probable["opp_era"] = opp_era
 
     return {
         "gamePk": game["gamePk"],
@@ -1248,6 +1261,43 @@ def _era_from_stats(stat_list):
         return None
 
 
+def _get_pitcher_season_era(pitcher_id):
+    """Fetch a pitcher's season ERA. Returns a formatted string like '3.24' or None on failure."""
+    if not pitcher_id:
+        return None
+    try:
+        data = get(f"people/{pitcher_id}/stats", stats="season", group="pitching", season=SEASON)
+        for s in data.get("stats", []):
+            if s.get("group", {}).get("displayName") == "pitching":
+                splits = s.get("splits", [])
+                if splits:
+                    era = splits[0].get("stat", {}).get("era")
+                    return str(era) if era is not None else None
+    except Exception:
+        pass
+    return None
+
+
+def _get_opponent_win_pct(opponent_abbr):
+    """Fetch opponent's current season win percentage across both leagues. Returns float or None."""
+    if not opponent_abbr:
+        return None
+    try:
+        data = get("standings", leagueId="103,104", season=SEASON, standingsTypes="regularSeason")
+        for record in data.get("records", []):
+            for tr in record.get("teamRecords", []):
+                abbr = tr.get("team", {}).get("abbreviation", "")
+                if abbr.upper() == opponent_abbr.upper():
+                    w = tr.get("wins", 0)
+                    l = tr.get("losses", 0)
+                    total = w + l
+                    if total > 0:
+                        return w / total
+    except Exception:
+        pass
+    return None
+
+
 def build_looking_ahead_hook_candidates(raw_game, team, standings):
     """Build all eligible hook candidates for the Looking Ahead section."""
     if not raw_game:
@@ -1707,7 +1757,7 @@ def build():
 
     print("Computing story state and delta...", file=sys.stderr)
     prev_state  = load_story_state(STORY_STATE_PATH)
-    story_state = build_story_state(team, last_game)
+    story_state = build_story_state(team, last_game, prev_state=prev_state)
     story_delta = compute_story_delta(prev_state, story_state)
     print(f"  [emotion] game_emotion_level: {story_state.get('game_emotion_level', 'normal')}", file=sys.stderr)
 

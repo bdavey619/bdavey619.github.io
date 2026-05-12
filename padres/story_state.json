@@ -13,5 +13,9 @@
   "division_rank": 1,
   "last_result": "W",
   "date": "2026-05-10",
-  "game_emotion_level": "extreme"
+  "game_emotion_level": "extreme",
+  "drama_sequence": {
+    "tying_inning": 9,
+    "walkoff_inning": 10
+  }
 }
