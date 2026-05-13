@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-12T14:28:50.758212+00:00",
+  "generated_at": "2026-05-13T14:37:38.059211+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -101,19 +101,17 @@
       "gamePk": 823953,
       "status": "final",
       "result": "W",
-      "score": "9\u20133"
+      "score": "9\u20133",
+      "archive_url": "archive.html?date=2026-05-12"
     },
     {
       "date": "2026-05-12",
       "opponent": "LAD",
       "home": false,
       "gamePk": 823951,
-      "status": "scheduled",
-      "time_local": "7:10 PM PT",
-      "probable": {
-        "team": "Adrian Houser",
-        "opp": "Yoshinobu Yamamoto"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "6\u20132"
     },
     {
       "date": "2026-05-13",
@@ -261,8 +259,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u20136",
-    "current_streak": "W2",
-    "last_10": "4\u20136"
+    "month_record": "5\u20136",
+    "current_streak": "W3",
+    "last_10": "5\u20135"
   }
 }
