@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-13T13:20:31.036090+00:00",
+  "generated_at": "2026-05-14T12:55:25.397459+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -122,19 +122,17 @@
       "gamePk": 824843,
       "status": "final",
       "result": "W",
-      "score": "6\u20132"
+      "score": "6\u20132",
+      "archive_url": "archive.html?date=2026-05-13"
     },
     {
       "date": "2026-05-13",
       "opponent": "BAL",
       "home": false,
       "gamePk": 824841,
-      "status": "scheduled",
-      "time_local": "1:05 PM ET",
-      "probable": {
-        "team": "Max Fried",
-        "opp": "Kyle Bradish"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20137"
     },
     {
       "date": "2026-05-15",
@@ -144,6 +142,7 @@
       "status": "scheduled",
       "time_local": "7:15 PM ET",
       "probable": {
+        "team": "Cam Schlittler",
         "opp": "Clay Holmes"
       }
     },
@@ -153,7 +152,10 @@
       "home": false,
       "gamePk": 823627,
       "status": "scheduled",
-      "time_local": "7:15 PM ET"
+      "time_local": "7:15 PM ET",
+      "probable": {
+        "team": "Carlos Rod\u00f3n"
+      }
     },
     {
       "date": "2026-05-17",
@@ -161,7 +163,10 @@
       "home": false,
       "gamePk": 823628,
       "status": "scheduled",
-      "time_local": "1:40 PM ET"
+      "time_local": "1:40 PM ET",
+      "probable": {
+        "team": "Ryan Weathers"
+      }
     },
     {
       "date": "2026-05-18",
@@ -269,8 +274,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u20135",
-    "current_streak": "W1",
-    "last_10": "5\u20135"
+    "month_record": "7\u20136",
+    "current_streak": "L1",
+    "last_10": "4\u20136"
   }
 }
