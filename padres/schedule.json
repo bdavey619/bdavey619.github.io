@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-13T12:26:54.755937+00:00",
+  "generated_at": "2026-05-14T12:10:21.950481+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -112,19 +112,17 @@
       "gamePk": 823790,
       "status": "final",
       "result": "L",
-      "score": "4\u20136"
+      "score": "4\u20136",
+      "archive_url": "archive.html?date=2026-05-13"
     },
     {
       "date": "2026-05-13",
       "opponent": "MIL",
       "home": false,
       "gamePk": 823791,
-      "status": "scheduled",
-      "time_local": "4:40 PM PT",
-      "probable": {
-        "team": "Michael King",
-        "opp": "Jacob Misiorowski"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "3\u20131"
     },
     {
       "date": "2026-05-14",
@@ -264,8 +262,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u20136",
-    "current_streak": "L1",
-    "last_10": "5\u20135"
+    "month_record": "6\u20136",
+    "current_streak": "W1",
+    "last_10": "6\u20134"
   }
 }
