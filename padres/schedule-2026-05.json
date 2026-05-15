@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-14T12:10:21.950481+00:00",
+  "generated_at": "2026-05-15T12:16:19.878734+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -122,19 +122,17 @@
       "gamePk": 823791,
       "status": "final",
       "result": "W",
-      "score": "3\u20131"
+      "score": "3\u20131",
+      "archive_url": "archive.html?date=2026-05-14"
     },
     {
       "date": "2026-05-14",
       "opponent": "MIL",
       "home": false,
       "gamePk": 823789,
-      "status": "scheduled",
-      "time_local": "10:40 AM PT",
-      "probable": {
-        "team": "Griffin Canning",
-        "opp": "Kyle Harrison"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20137"
     },
     {
       "date": "2026-05-15",
@@ -154,7 +152,10 @@
       "home": false,
       "gamePk": 823139,
       "status": "scheduled",
-      "time_local": "4:15 PM PT"
+      "time_local": "4:15 PM PT",
+      "probable": {
+        "opp": "Logan Gilbert"
+      }
     },
     {
       "date": "2026-05-17",
@@ -162,7 +163,10 @@
       "home": false,
       "gamePk": 823138,
       "status": "scheduled",
-      "time_local": "4:20 PM PT"
+      "time_local": "4:20 PM PT",
+      "probable": {
+        "opp": "George Kirby"
+      }
     },
     {
       "date": "2026-05-18",
@@ -262,8 +266,8 @@
     }
   ],
   "summary": {
-    "month_record": "6\u20136",
-    "current_streak": "W1",
-    "last_10": "6\u20134"
+    "month_record": "6\u20137",
+    "current_streak": "L1",
+    "last_10": "5\u20135"
   }
 }
