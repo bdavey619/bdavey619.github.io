@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-05",
   "division_name": "AL West",
-  "generated_at": "2026-05-14T15:08:03.286353+00:00",
+  "generated_at": "2026-05-15T15:03:17.357143+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -112,19 +112,17 @@
       "gamePk": 825010,
       "status": "final",
       "result": "W",
-      "score": "6\u20132"
+      "score": "6\u20132",
+      "archive_url": "archive.html?date=2026-05-14"
     },
     {
       "date": "2026-05-14",
       "opponent": "STL",
       "home": true,
       "gamePk": 825008,
-      "status": "scheduled",
-      "time_local": "12:05 PM PT",
-      "probable": {
-        "team": "Jacob Lopez",
-        "opp": "Michael McGreevy"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "4\u20135"
     },
     {
       "date": "2026-05-15",
@@ -132,7 +130,11 @@
       "home": true,
       "gamePk": 825009,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Aaron Civale",
+        "opp": "Tyler Mahle"
+      }
     },
     {
       "date": "2026-05-16",
@@ -140,7 +142,11 @@
       "home": true,
       "gamePk": 825007,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Luis Severino",
+        "opp": "Trevor McDonald"
+      }
     },
     {
       "date": "2026-05-17",
@@ -148,7 +154,11 @@
       "home": true,
       "gamePk": 825006,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "team": "Jeffrey Springs",
+        "opp": "Adrian Houser"
+      }
     },
     {
       "date": "2026-05-18",
@@ -256,8 +266,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u20136",
-    "current_streak": "W1",
+    "month_record": "5\u20137",
+    "current_streak": "L1",
     "last_10": "5\u20135"
   }
 }
