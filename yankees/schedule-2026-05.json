@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-15T12:57:53.034614+00:00",
+  "generated_at": "2026-05-16T11:55:40.748061+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -140,12 +140,9 @@
       "opponent": "NYM",
       "home": false,
       "gamePk": 823629,
-      "status": "scheduled",
-      "time_local": "7:15 PM ET",
-      "probable": {
-        "team": "Cam Schlittler",
-        "opp": "Clay Holmes"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20132"
     },
     {
       "date": "2026-05-16",
@@ -155,7 +152,8 @@
       "status": "scheduled",
       "time_local": "7:15 PM ET",
       "probable": {
-        "team": "Carlos Rod\u00f3n"
+        "team": "Carlos Rod\u00f3n",
+        "opp": "Huascar Brazob\u00e1n"
       }
     },
     {
@@ -276,8 +274,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u20136",
-    "current_streak": "L1",
+    "month_record": "8\u20136",
+    "current_streak": "W1",
     "last_10": "4\u20136"
   }
 }
