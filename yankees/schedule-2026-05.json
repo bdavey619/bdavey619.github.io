@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-16T11:55:40.748061+00:00",
+  "generated_at": "2026-05-17T12:01:42.787965+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -142,19 +142,17 @@
       "gamePk": 823629,
       "status": "final",
       "result": "W",
-      "score": "5\u20132"
+      "score": "5\u20132",
+      "archive_url": "archive.html?date=2026-05-16"
     },
     {
       "date": "2026-05-16",
       "opponent": "NYM",
       "home": false,
       "gamePk": 823627,
-      "status": "scheduled",
-      "time_local": "7:15 PM ET",
-      "probable": {
-        "team": "Carlos Rod\u00f3n",
-        "opp": "Huascar Brazob\u00e1n"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20136"
     },
     {
       "date": "2026-05-17",
@@ -164,7 +162,7 @@
       "status": "scheduled",
       "time_local": "1:40 PM ET",
       "probable": {
-        "team": "Ryan Weathers",
+        "team": "Elmer Rodr\u00edguez",
         "opp": "Freddy Peralta"
       }
     },
@@ -174,7 +172,10 @@
       "home": true,
       "gamePk": 823549,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Ryan Weathers"
+      }
     },
     {
       "date": "2026-05-19",
@@ -182,7 +183,10 @@
       "home": true,
       "gamePk": 823548,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Will Warren"
+      }
     },
     {
       "date": "2026-05-20",
@@ -274,8 +278,8 @@
     }
   ],
   "summary": {
-    "month_record": "8\u20136",
-    "current_streak": "W1",
-    "last_10": "4\u20136"
+    "month_record": "8\u20137",
+    "current_streak": "L1",
+    "last_10": "3\u20137"
   }
 }
