@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-17T12:01:42.787965+00:00",
+  "generated_at": "2026-05-18T14:33:39.753109+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -152,19 +152,17 @@
       "gamePk": 823627,
       "status": "final",
       "result": "L",
-      "score": "3\u20136"
+      "score": "3\u20136",
+      "archive_url": "archive.html?date=2026-05-17"
     },
     {
       "date": "2026-05-17",
       "opponent": "NYM",
       "home": false,
       "gamePk": 823628,
-      "status": "scheduled",
-      "time_local": "1:40 PM ET",
-      "probable": {
-        "team": "Elmer Rodr\u00edguez",
-        "opp": "Freddy Peralta"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "6\u20137"
     },
     {
       "date": "2026-05-18",
@@ -174,7 +172,8 @@
       "status": "scheduled",
       "time_local": "7:05 PM ET",
       "probable": {
-        "team": "Ryan Weathers"
+        "team": "Ryan Weathers",
+        "opp": "Patrick Corbin"
       }
     },
     {
@@ -185,7 +184,8 @@
       "status": "scheduled",
       "time_local": "7:05 PM ET",
       "probable": {
-        "team": "Will Warren"
+        "team": "Will Warren",
+        "opp": "Dylan Cease"
       }
     },
     {
@@ -194,7 +194,11 @@
       "home": true,
       "gamePk": 823547,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Cam Schlittler",
+        "opp": "Trey Yesavage"
+      }
     },
     {
       "date": "2026-05-21",
@@ -202,7 +206,10 @@
       "home": true,
       "gamePk": 823545,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Carlos Rod\u00f3n"
+      }
     },
     {
       "date": "2026-05-22",
@@ -278,8 +285,8 @@
     }
   ],
   "summary": {
-    "month_record": "8\u20137",
-    "current_streak": "L1",
+    "month_record": "8\u20138",
+    "current_streak": "L2",
     "last_10": "3\u20137"
   }
 }
