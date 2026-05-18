@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-05",
   "division_name": "AL West",
-  "generated_at": "2026-05-17T14:07:16.669379+00:00",
+  "generated_at": "2026-05-18T16:04:51.446061+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -142,19 +142,17 @@
       "gamePk": 825007,
       "status": "final",
       "result": "L",
-      "score": "4\u20136"
+      "score": "4\u20136",
+      "archive_url": "archive.html?date=2026-05-17"
     },
     {
       "date": "2026-05-17",
       "opponent": "SF",
       "home": true,
       "gamePk": 825006,
-      "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "team": "Jeffrey Springs",
-        "opp": "Adrian Houser"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u201310"
     },
     {
       "date": "2026-05-18",
@@ -162,7 +160,11 @@
       "home": false,
       "gamePk": 824035,
       "status": "scheduled",
-      "time_local": "6:38 PM PT"
+      "time_local": "6:38 PM PT",
+      "probable": {
+        "team": "J.T. Ginn",
+        "opp": "Walbert Ure\u00f1a"
+      }
     },
     {
       "date": "2026-05-19",
@@ -170,7 +172,11 @@
       "home": false,
       "gamePk": 824033,
       "status": "scheduled",
-      "time_local": "6:38 PM PT"
+      "time_local": "6:38 PM PT",
+      "probable": {
+        "team": "Jacob Lopez",
+        "opp": "Reid Detmers"
+      }
     },
     {
       "date": "2026-05-20",
@@ -178,7 +184,11 @@
       "home": false,
       "gamePk": 824032,
       "status": "scheduled",
-      "time_local": "6:38 PM PT"
+      "time_local": "6:38 PM PT",
+      "probable": {
+        "team": "Aaron Civale",
+        "opp": "Jack Kochanowicz"
+      }
     },
     {
       "date": "2026-05-21",
@@ -186,7 +196,11 @@
       "home": false,
       "gamePk": 824031,
       "status": "scheduled",
-      "time_local": "6:38 PM PT"
+      "time_local": "6:38 PM PT",
+      "probable": {
+        "team": "Luis Severino",
+        "opp": "Jos\u00e9 Soriano"
+      }
     },
     {
       "date": "2026-05-22",
@@ -194,7 +208,10 @@
       "home": false,
       "gamePk": 823298,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "opp": "Walker Buehler"
+      }
     },
     {
       "date": "2026-05-23",
@@ -262,8 +279,8 @@
     }
   ],
   "summary": {
-    "month_record": "6\u20138",
-    "current_streak": "L1",
+    "month_record": "6\u20139",
+    "current_streak": "L2",
     "last_10": "5\u20135"
   }
 }
