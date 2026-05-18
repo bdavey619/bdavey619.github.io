@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-17T13:23:02.953878+00:00",
+  "generated_at": "2026-05-18T15:35:27.112131+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -151,19 +151,17 @@
       "gamePk": 825007,
       "status": "final",
       "result": "W",
-      "score": "6\u20134"
+      "score": "6\u20134",
+      "archive_url": "archive.html?date=2026-05-17"
     },
     {
       "date": "2026-05-17",
       "opponent": "OAK",
       "home": false,
       "gamePk": 825006,
-      "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "team": "Adrian Houser",
-        "opp": "Jeffrey Springs"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "10\u20131"
     },
     {
       "date": "2026-05-18",
@@ -171,7 +169,11 @@
       "home": false,
       "gamePk": 825087,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Robbie Ray",
+        "opp": "Zac Gallen"
+      }
     },
     {
       "date": "2026-05-19",
@@ -179,7 +181,11 @@
       "home": false,
       "gamePk": 825086,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Landen Roupp",
+        "opp": "Ryne Nelson"
+      }
     },
     {
       "date": "2026-05-20",
@@ -187,7 +193,11 @@
       "home": false,
       "gamePk": 825084,
       "status": "scheduled",
-      "time_local": "12:40 PM PT"
+      "time_local": "12:40 PM PT",
+      "probable": {
+        "team": "Tyler Mahle",
+        "opp": "Merrill Kelly"
+      }
     },
     {
       "date": "2026-05-22",
@@ -263,8 +273,8 @@
     }
   ],
   "summary": {
-    "month_record": "6\u20139",
-    "current_streak": "W1",
-    "last_10": "5\u20135"
+    "month_record": "7\u20139",
+    "current_streak": "W2",
+    "last_10": "6\u20134"
   }
 }
