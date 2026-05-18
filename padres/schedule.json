@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-17T11:36:53.077855+00:00",
+  "generated_at": "2026-05-18T14:04:08.010537+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -152,19 +152,17 @@
       "gamePk": 823139,
       "status": "final",
       "result": "W",
-      "score": "7\u20134"
+      "score": "7\u20134",
+      "archive_url": "archive.html?date=2026-05-17"
     },
     {
       "date": "2026-05-17",
       "opponent": "SEA",
       "home": false,
       "gamePk": 823138,
-      "status": "scheduled",
-      "time_local": "4:20 PM PT",
-      "probable": {
-        "team": "Lucas Giolito",
-        "opp": "George Kirby"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "8\u20133"
     },
     {
       "date": "2026-05-18",
@@ -172,7 +170,11 @@
       "home": true,
       "gamePk": 823301,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Michael King",
+        "opp": "Yoshinobu Yamamoto"
+      }
     },
     {
       "date": "2026-05-19",
@@ -180,7 +182,11 @@
       "home": true,
       "gamePk": 823302,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Griffin Canning",
+        "opp": "Emmet Sheehan"
+      }
     },
     {
       "date": "2026-05-20",
@@ -188,7 +194,11 @@
       "home": true,
       "gamePk": 823299,
       "status": "scheduled",
-      "time_local": "5:40 PM PT"
+      "time_local": "5:40 PM PT",
+      "probable": {
+        "team": "Randy V\u00e1squez",
+        "opp": "Shohei Ohtani"
+      }
     },
     {
       "date": "2026-05-22",
@@ -196,7 +206,10 @@
       "home": true,
       "gamePk": 823298,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Walker Buehler"
+      }
     },
     {
       "date": "2026-05-23",
@@ -264,8 +277,8 @@
     }
   ],
   "summary": {
-    "month_record": "8\u20137",
-    "current_streak": "W2",
+    "month_record": "9\u20137",
+    "current_streak": "W3",
     "last_10": "6\u20134"
   }
 }
