@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-18T15:35:27.112131+00:00",
+  "generated_at": "2026-05-19T15:26:32.629151+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -161,19 +161,17 @@
       "gamePk": 825006,
       "status": "final",
       "result": "W",
-      "score": "10\u20131"
+      "score": "10\u20131",
+      "archive_url": "archive.html?date=2026-05-18"
     },
     {
       "date": "2026-05-18",
       "opponent": "ARI",
       "home": false,
       "gamePk": 825087,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Robbie Ray",
-        "opp": "Zac Gallen"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u201312"
     },
     {
       "date": "2026-05-19",
@@ -273,8 +271,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u20139",
-    "current_streak": "W2",
-    "last_10": "6\u20134"
+    "month_record": "7\u201310",
+    "current_streak": "L1",
+    "last_10": "5\u20135"
   }
 }
