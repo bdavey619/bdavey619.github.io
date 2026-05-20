@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-19T13:56:38.464964+00:00",
+  "generated_at": "2026-05-20T13:43:31.852376+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -172,19 +172,17 @@
       "gamePk": 823549,
       "status": "final",
       "result": "W",
-      "score": "7\u20136"
+      "score": "7\u20136",
+      "archive_url": "archive.html?date=2026-05-19"
     },
     {
       "date": "2026-05-19",
       "opponent": "TOR",
       "home": true,
       "gamePk": 823548,
-      "status": "scheduled",
-      "time_local": "7:05 PM ET",
-      "probable": {
-        "team": "Will Warren",
-        "opp": "Dylan Cease"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20134"
     },
     {
       "date": "2026-05-20",
@@ -215,7 +213,10 @@
       "home": true,
       "gamePk": 823546,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Gerrit Cole"
+      }
     },
     {
       "date": "2026-05-23",
@@ -283,8 +284,8 @@
     }
   ],
   "summary": {
-    "month_record": "9\u20138",
-    "current_streak": "W1",
-    "last_10": "3\u20137"
+    "month_record": "10\u20138",
+    "current_streak": "W2",
+    "last_10": "4\u20136"
   }
 }
