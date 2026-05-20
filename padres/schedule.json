@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-19T13:39:17.761603+00:00",
+  "generated_at": "2026-05-20T12:41:04.263137+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -172,19 +172,17 @@
       "gamePk": 823301,
       "status": "final",
       "result": "W",
-      "score": "1\u20130"
+      "score": "1\u20130",
+      "archive_url": "archive.html?date=2026-05-19"
     },
     {
       "date": "2026-05-19",
       "opponent": "LAD",
       "home": true,
       "gamePk": 823302,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Griffin Canning",
-        "opp": "Emmet Sheehan"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "4\u20135"
     },
     {
       "date": "2026-05-20",
@@ -215,7 +213,10 @@
       "home": true,
       "gamePk": 823300,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Lucas Giolito"
+      }
     },
     {
       "date": "2026-05-24",
@@ -223,7 +224,10 @@
       "home": true,
       "gamePk": 823297,
       "status": "scheduled",
-      "time_local": "1:10 PM PT"
+      "time_local": "1:10 PM PT",
+      "probable": {
+        "team": "Michael King"
+      }
     },
     {
       "date": "2026-05-25",
@@ -275,8 +279,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u20137",
-    "current_streak": "W4",
+    "month_record": "10\u20138",
+    "current_streak": "L1",
     "last_10": "7\u20133"
   }
 }
