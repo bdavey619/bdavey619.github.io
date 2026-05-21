@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-05",
   "division_name": "AL West",
-  "generated_at": "2026-05-20T16:09:00.748666+00:00",
+  "generated_at": "2026-05-21T15:59:09.058065+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -172,19 +172,17 @@
       "gamePk": 824033,
       "status": "final",
       "result": "W",
-      "score": "14\u20136"
+      "score": "14\u20136",
+      "archive_url": "archive.html?date=2026-05-20"
     },
     {
       "date": "2026-05-20",
       "opponent": "LAA",
       "home": false,
       "gamePk": 824032,
-      "status": "scheduled",
-      "time_local": "6:38 PM PT",
-      "probable": {
-        "team": "Aaron Civale",
-        "opp": "Jack Kochanowicz"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "6\u20135"
     },
     {
       "date": "2026-05-21",
@@ -281,8 +279,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u201310",
-    "current_streak": "W1",
+    "month_record": "8\u201310",
+    "current_streak": "W2",
     "last_10": "4\u20136"
   }
 }
