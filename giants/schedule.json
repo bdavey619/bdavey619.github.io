@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-20T15:23:39.431699+00:00",
+  "generated_at": "2026-05-21T15:30:58.212434+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -181,19 +181,17 @@
       "gamePk": 825086,
       "status": "final",
       "result": "L",
-      "score": "3\u20135"
+      "score": "3\u20135",
+      "archive_url": "archive.html?date=2026-05-20"
     },
     {
       "date": "2026-05-20",
       "opponent": "ARI",
       "home": false,
       "gamePk": 825084,
-      "status": "scheduled",
-      "time_local": "12:40 PM PT",
-      "probable": {
-        "team": "Tyler Mahle",
-        "opp": "Merrill Kelly"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20136"
     },
     {
       "date": "2026-05-22",
@@ -201,7 +199,11 @@
       "home": true,
       "gamePk": 823223,
       "status": "scheduled",
-      "time_local": "7:15 PM PT"
+      "time_local": "7:15 PM PT",
+      "probable": {
+        "team": "Trevor McDonald",
+        "opp": "Davis Martin"
+      }
     },
     {
       "date": "2026-05-23",
@@ -209,7 +211,11 @@
       "home": true,
       "gamePk": 823222,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "team": "Adrian Houser",
+        "opp": "Erick Fedde"
+      }
     },
     {
       "date": "2026-05-24",
@@ -217,7 +223,11 @@
       "home": true,
       "gamePk": 823220,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "team": "Robbie Ray",
+        "opp": "Noah Schultz"
+      }
     },
     {
       "date": "2026-05-25",
@@ -269,8 +279,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u201311",
-    "current_streak": "L2",
-    "last_10": "5\u20135"
+    "month_record": "7\u201312",
+    "current_streak": "L3",
+    "last_10": "4\u20136"
   }
 }
