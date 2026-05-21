@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-20T12:41:04.263137+00:00",
+  "generated_at": "2026-05-21T13:42:02.921096+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -182,19 +182,17 @@
       "gamePk": 823302,
       "status": "final",
       "result": "L",
-      "score": "4\u20135"
+      "score": "4\u20135",
+      "archive_url": "archive.html?date=2026-05-20"
     },
     {
       "date": "2026-05-20",
       "opponent": "LAD",
       "home": true,
       "gamePk": 823299,
-      "status": "scheduled",
-      "time_local": "5:40 PM PT",
-      "probable": {
-        "team": "Randy V\u00e1squez",
-        "opp": "Shohei Ohtani"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20134"
     },
     {
       "date": "2026-05-22",
@@ -279,8 +277,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u20138",
-    "current_streak": "L1",
-    "last_10": "7\u20133"
+    "month_record": "10\u20139",
+    "current_streak": "L2",
+    "last_10": "6\u20134"
   }
 }
