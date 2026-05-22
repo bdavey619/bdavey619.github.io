@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-21T14:15:49.175727+00:00",
+  "generated_at": "2026-05-22T13:33:37.337039+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -192,19 +192,17 @@
       "gamePk": 823547,
       "status": "final",
       "result": "L",
-      "score": "1\u20132"
+      "score": "1\u20132",
+      "archive_url": "archive.html?date=2026-05-21"
     },
     {
       "date": "2026-05-21",
       "opponent": "TOR",
       "home": true,
       "gamePk": 823545,
-      "status": "scheduled",
-      "time_local": "7:05 PM ET",
-      "probable": {
-        "team": "Carlos Rod\u00f3n",
-        "opp": "Braydon Fisher"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20132"
     },
     {
       "date": "2026-05-22",
@@ -290,8 +288,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u20139",
-    "current_streak": "L1",
+    "month_record": "10\u201310",
+    "current_streak": "L2",
     "last_10": "4\u20136"
   }
 }
