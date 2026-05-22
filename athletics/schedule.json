@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-05",
   "division_name": "AL West",
-  "generated_at": "2026-05-21T15:59:09.058065+00:00",
+  "generated_at": "2026-05-22T15:37:41.879653+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -182,19 +182,17 @@
       "gamePk": 824032,
       "status": "final",
       "result": "W",
-      "score": "6\u20135"
+      "score": "6\u20135",
+      "archive_url": "archive.html?date=2026-05-21"
     },
     {
       "date": "2026-05-21",
       "opponent": "LAA",
       "home": false,
       "gamePk": 824031,
-      "status": "scheduled",
-      "time_local": "6:38 PM PT",
-      "probable": {
-        "team": "Luis Severino",
-        "opp": "Jos\u00e9 Soriano"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "3\u20132"
     },
     {
       "date": "2026-05-22",
@@ -204,6 +202,7 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
+        "team": "Jeffrey Springs",
         "opp": "Walker Buehler"
       }
     },
@@ -215,6 +214,7 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
+        "team": "J.T. Ginn",
         "opp": "Lucas Giolito"
       }
     },
@@ -279,8 +279,8 @@
     }
   ],
   "summary": {
-    "month_record": "8\u201310",
-    "current_streak": "W2",
-    "last_10": "4\u20136"
+    "month_record": "9\u201310",
+    "current_streak": "W3",
+    "last_10": "5\u20135"
   }
 }
