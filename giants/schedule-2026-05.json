@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-22T14:42:21.849378+00:00",
+  "generated_at": "2026-05-23T13:27:45.569385+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -199,12 +199,9 @@
       "opponent": "CWS",
       "home": true,
       "gamePk": 823223,
-      "status": "scheduled",
-      "time_local": "7:15 PM PT",
-      "probable": {
-        "team": "Trevor McDonald",
-        "opp": "Davis Martin"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "4\u20139"
     },
     {
       "date": "2026-05-23",
@@ -215,7 +212,7 @@
       "time_local": "1:05 PM PT",
       "probable": {
         "team": "Adrian Houser",
-        "opp": "Erick Fedde"
+        "opp": "Bryan Hudson"
       }
     },
     {
@@ -280,8 +277,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u201312",
-    "current_streak": "L3",
-    "last_10": "4\u20136"
+    "month_record": "7\u201313",
+    "current_streak": "L4",
+    "last_10": "3\u20137"
   }
 }
