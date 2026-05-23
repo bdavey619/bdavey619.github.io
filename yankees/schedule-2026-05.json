@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-22T13:33:37.337039+00:00",
+  "generated_at": "2026-05-23T12:02:03.552149+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -202,19 +202,17 @@
       "gamePk": 823545,
       "status": "final",
       "result": "L",
-      "score": "0\u20132"
+      "score": "0\u20132",
+      "archive_url": "archive.html?date=2026-05-22"
     },
     {
       "date": "2026-05-22",
       "opponent": "TB",
       "home": true,
       "gamePk": 823546,
-      "status": "scheduled",
-      "time_local": "7:05 PM ET",
-      "probable": {
-        "team": "Gerrit Cole",
-        "opp": "Nick Martinez"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20134"
     },
     {
       "date": "2026-05-23",
@@ -224,6 +222,7 @@
       "status": "scheduled",
       "time_local": "1:35 PM ET",
       "probable": {
+        "team": "Ryan Weathers",
         "opp": "Drew Rasmussen"
       }
     },
@@ -235,6 +234,7 @@
       "status": "scheduled",
       "time_local": "1:35 PM ET",
       "probable": {
+        "team": "Will Warren",
         "opp": "Shane McClanahan"
       }
     },
@@ -288,8 +288,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u201310",
-    "current_streak": "L2",
+    "month_record": "10\u201311",
+    "current_streak": "L3",
     "last_10": "4\u20136"
   }
 }
