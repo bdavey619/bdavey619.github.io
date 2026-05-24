@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-23T12:02:03.552149+00:00",
+  "generated_at": "2026-05-24T12:03:10.095121+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -212,19 +212,17 @@
       "gamePk": 823546,
       "status": "final",
       "result": "L",
-      "score": "2\u20134"
+      "score": "2\u20134",
+      "archive_url": "archive.html?date=2026-05-23"
     },
     {
       "date": "2026-05-23",
       "opponent": "TB",
       "home": true,
       "gamePk": 823543,
-      "status": "scheduled",
-      "time_local": "1:35 PM ET",
-      "probable": {
-        "team": "Ryan Weathers",
-        "opp": "Drew Rasmussen"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20130"
     },
     {
       "date": "2026-05-24",
@@ -234,8 +232,8 @@
       "status": "scheduled",
       "time_local": "1:35 PM ET",
       "probable": {
-        "team": "Will Warren",
-        "opp": "Shane McClanahan"
+        "team": "Ryan Weathers",
+        "opp": "Drew Rasmussen"
       }
     },
     {
@@ -288,7 +286,7 @@
     }
   ],
   "summary": {
-    "month_record": "10\u201311",
+    "month_record": "10\u201312",
     "current_streak": "L3",
     "last_10": "4\u20136"
   }
