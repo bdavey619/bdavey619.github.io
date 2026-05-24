@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-23T11:39:54.721935+00:00",
+  "generated_at": "2026-05-24T11:47:00.330796+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -202,19 +202,17 @@
       "gamePk": 823298,
       "status": "final",
       "result": "W",
-      "score": "7\u20133"
+      "score": "7\u20133",
+      "archive_url": "archive.html?date=2026-05-23"
     },
     {
       "date": "2026-05-23",
       "opponent": "OAK",
       "home": true,
       "gamePk": 823300,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Lucas Giolito",
-        "opp": "J.T. Ginn"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "2\u20130"
     },
     {
       "date": "2026-05-24",
@@ -224,7 +222,8 @@
       "status": "scheduled",
       "time_local": "1:10 PM PT",
       "probable": {
-        "team": "Michael King"
+        "team": "Michael King",
+        "opp": "Luis Medina"
       }
     },
     {
@@ -233,7 +232,10 @@
       "home": true,
       "gamePk": 823296,
       "status": "scheduled",
-      "time_local": "3:40 PM PT"
+      "time_local": "3:40 PM PT",
+      "probable": {
+        "team": "Randy V\u00e1squez"
+      }
     },
     {
       "date": "2026-05-26",
@@ -241,7 +243,10 @@
       "home": true,
       "gamePk": 823294,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Griffin Canning"
+      }
     },
     {
       "date": "2026-05-27",
@@ -249,7 +254,10 @@
       "home": true,
       "gamePk": 823295,
       "status": "scheduled",
-      "time_local": "1:10 PM PT"
+      "time_local": "1:10 PM PT",
+      "probable": {
+        "team": "Walker Buehler"
+      }
     },
     {
       "date": "2026-05-29",
@@ -277,8 +285,8 @@
     }
   ],
   "summary": {
-    "month_record": "11\u20139",
-    "current_streak": "W1",
-    "last_10": "6\u20134"
+    "month_record": "12\u20139",
+    "current_streak": "W2",
+    "last_10": "7\u20133"
   }
 }
