@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-24T11:47:00.330796+00:00",
+  "generated_at": "2026-05-25T13:44:34.711415+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -212,19 +212,17 @@
       "gamePk": 823300,
       "status": "final",
       "result": "W",
-      "score": "2\u20130"
+      "score": "2\u20130",
+      "archive_url": "archive.html?date=2026-05-24"
     },
     {
       "date": "2026-05-24",
       "opponent": "OAK",
       "home": true,
       "gamePk": 823297,
-      "status": "scheduled",
-      "time_local": "1:10 PM PT",
-      "probable": {
-        "team": "Michael King",
-        "opp": "Luis Medina"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20135"
     },
     {
       "date": "2026-05-25",
@@ -234,7 +232,8 @@
       "status": "scheduled",
       "time_local": "3:40 PM PT",
       "probable": {
-        "team": "Randy V\u00e1squez"
+        "team": "Randy V\u00e1squez",
+        "opp": "Jes\u00fas Luzardo"
       }
     },
     {
@@ -245,7 +244,8 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
-        "team": "Griffin Canning"
+        "team": "Griffin Canning",
+        "opp": "Aaron Nola"
       }
     },
     {
@@ -256,7 +256,8 @@
       "status": "scheduled",
       "time_local": "1:10 PM PT",
       "probable": {
-        "team": "Walker Buehler"
+        "team": "Walker Buehler",
+        "opp": "Cristopher S\u00e1nchez"
       }
     },
     {
@@ -285,8 +286,8 @@
     }
   ],
   "summary": {
-    "month_record": "12\u20139",
-    "current_streak": "W2",
-    "last_10": "7\u20133"
+    "month_record": "12\u201310",
+    "current_streak": "L1",
+    "last_10": "6\u20134"
   }
 }
