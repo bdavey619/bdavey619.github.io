@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-05",
   "division_name": "AL East",
-  "generated_at": "2026-05-25T14:12:09.205213+00:00",
+  "generated_at": "2026-05-26T13:56:40.532372+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -231,19 +231,17 @@
       "gamePk": 823544,
       "status": "final",
       "result": "W",
-      "score": "2\u20130"
+      "score": "2\u20130",
+      "archive_url": "archive.html?date=2026-05-25"
     },
     {
       "date": "2026-05-25",
       "opponent": "KC",
       "home": false,
       "gamePk": 824107,
-      "status": "scheduled",
-      "time_local": "3:40 PM ET",
-      "probable": {
-        "team": "Will Warren",
-        "opp": "Michael Wacha"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "4\u20133"
     },
     {
       "date": "2026-05-26",
@@ -253,7 +251,8 @@
       "status": "scheduled",
       "time_local": "7:40 PM ET",
       "probable": {
-        "team": "Cam Schlittler"
+        "team": "Cam Schlittler",
+        "opp": "Bailey Falter"
       }
     },
     {
@@ -294,8 +293,8 @@
     }
   ],
   "summary": {
-    "month_record": "11\u201312",
-    "current_streak": "W1",
-    "last_10": "4\u20136"
+    "month_record": "12\u201312",
+    "current_streak": "W2",
+    "last_10": "5\u20135"
   }
 }
