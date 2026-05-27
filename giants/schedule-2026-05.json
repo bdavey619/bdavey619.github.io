@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-26T15:33:34.677219+00:00",
+  "generated_at": "2026-05-27T15:45:18.108500+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -231,19 +231,17 @@
       "gamePk": 823219,
       "status": "final",
       "result": "L",
-      "score": "2\u20136"
+      "score": "2\u20136",
+      "archive_url": "archive.html?date=2026-05-26"
     },
     {
       "date": "2026-05-26",
       "opponent": "ARI",
       "home": true,
       "gamePk": 823216,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "team": "Tyler Mahle",
-        "opp": "Eduardo Rodriguez"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "5\u20137"
     },
     {
       "date": "2026-05-27",
@@ -283,8 +281,8 @@
     }
   ],
   "summary": {
-    "month_record": "9\u201314",
-    "current_streak": "L1",
+    "month_record": "9\u201315",
+    "current_streak": "L2",
     "last_10": "4\u20136"
   }
 }
