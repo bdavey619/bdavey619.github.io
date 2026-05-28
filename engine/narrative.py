@@ -2607,7 +2607,7 @@ def generate_narrative_copy(brief_data, story_state, delta, team_name,
                     "content-type":      "application/json",
                 },
                 json={
-                    "model":      "claude-haiku-4-5-20251001",
+                    "model":      "claude-haiku-4-5",
                     "max_tokens": 700,
                     "system":     system,
                     "messages":   [{"role": "user", "content": prompt}],
