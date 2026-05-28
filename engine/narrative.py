@@ -2508,7 +2508,7 @@ def _is_structural_label(text: str) -> bool:
 def _narrative_fallback(reason):
     import sys
     print(f"  [narrative] Falling back to deterministic insight because: {reason}", file=sys.stderr)
-    return None
+    return None, reason
 
 
 # ---------------------------------------------------------------------------
@@ -2565,7 +2565,7 @@ def generate_narrative_copy(brief_data, story_state, delta, team_name,
                             game_driver=None):
     """
     Call the Anthropic API to generate AI-written narrative copy.
-    Returns a dict with top_frame, what_this_means, what_to_watch — or None on failure.
+    Returns (result_dict, None) on success or (None, error_reason_str) on failure.
     Logs a clear reason on every fallback path.
 
     Phase 3.2: validates fragments in what_this_means and opponent/pitcher in
@@ -2733,7 +2733,7 @@ def generate_narrative_copy(brief_data, story_state, delta, team_name,
 
         if not violations:
             print("  [narrative] AI narrative generated successfully", file=sys.stderr)
-            return last_result
+            return last_result, None
 
         if attempt == 0:
             violation_note = (
@@ -2748,4 +2748,4 @@ def generate_narrative_copy(brief_data, story_state, delta, team_name,
 
     # Return last attempt even if validation still fails on retry
     print("  [narrative] AI narrative generated (with unresolved violations)", file=sys.stderr)
-    return last_result
+    return last_result, None

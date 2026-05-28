@@ -1989,8 +1989,9 @@ def build():
     if last_game.get("status") == "postponed":
         print("  [narrative] postponed — using deterministic narrative", file=sys.stderr)
         narrative_copy = generate_postponed_narrative(last_game, next_game)
+        narrative_error = None
     else:
-        narrative_copy = generate_narrative_copy(
+        narrative_copy, narrative_error = generate_narrative_copy(
             brief_data, story_state, story_delta, CFG.team_name,
             story_threads=story_threads,
             story_hook=story_hook,
@@ -2004,6 +2005,8 @@ def build():
             "story_state": story_state,
             "story_delta": story_delta,
         }
+    elif narrative_error:
+        brief_data["narrative_error"] = narrative_error
 
     return brief_data
 
