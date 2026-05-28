@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-27T15:45:18.108500+00:00",
+  "generated_at": "2026-05-28T16:00:02.820595+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -248,12 +248,10 @@
       "opponent": "ARI",
       "home": true,
       "gamePk": 823217,
-      "status": "scheduled",
-      "time_local": "12:45 PM PT",
-      "probable": {
-        "team": "Trevor McDonald",
-        "opp": "Michael Soroka"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20133",
+      "archive_url": "archive.html?date=2026-05-27"
     },
     {
       "date": "2026-05-29",
@@ -261,7 +259,11 @@
       "home": false,
       "gamePk": 824353,
       "status": "scheduled",
-      "time_local": "5:40 PM PT"
+      "time_local": "5:40 PM PT",
+      "probable": {
+        "team": "Logan Webb",
+        "opp": "Michael Lorenzen"
+      }
     },
     {
       "date": "2026-05-30",
@@ -269,7 +271,10 @@
       "home": false,
       "gamePk": 824352,
       "status": "scheduled",
-      "time_local": "6:10 PM PT"
+      "time_local": "6:10 PM PT",
+      "probable": {
+        "team": "Adrian Houser"
+      }
     },
     {
       "date": "2026-05-31",
@@ -277,12 +282,16 @@
       "home": false,
       "gamePk": 824354,
       "status": "scheduled",
-      "time_local": "12:10 PM PT"
+      "time_local": "12:10 PM PT",
+      "probable": {
+        "team": "Robbie Ray",
+        "opp": "Tanner Gordon"
+      }
     }
   ],
   "summary": {
-    "month_record": "9\u201315",
-    "current_streak": "L2",
-    "last_10": "4\u20136"
+    "month_record": "9\u201316",
+    "current_streak": "L3",
+    "last_10": "3\u20137"
   }
 }
