@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-05",
   "division_name": "AL West",
-  "generated_at": "2026-05-30T14:16:20.208746+00:00",
+  "generated_at": "2026-05-31T14:19:59.568678+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -261,19 +261,17 @@
       "gamePk": 825002,
       "status": "final",
       "result": "L",
-      "score": "2\u20138"
+      "score": "2\u20138",
+      "archive_url": "archive.html?date=2026-05-30"
     },
     {
       "date": "2026-05-30",
       "opponent": "NYY",
       "home": true,
       "gamePk": 825000,
-      "status": "scheduled",
-      "time_local": "7:05 PM PT",
-      "probable": {
-        "team": "J.T. Ginn",
-        "opp": "Ryan Weathers"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "6\u20134"
     },
     {
       "date": "2026-05-31",
@@ -283,13 +281,14 @@
       "status": "scheduled",
       "time_local": "1:05 PM PT",
       "probable": {
+        "team": "Jacob Lopez",
         "opp": "Will Warren"
       }
     }
   ],
   "summary": {
-    "month_record": "10\u201316",
-    "current_streak": "L4",
+    "month_record": "11\u201316",
+    "current_streak": "W1",
     "last_10": "4\u20136"
   }
 }
