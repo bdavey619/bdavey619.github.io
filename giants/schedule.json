@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-30T13:41:31.307941+00:00",
+  "generated_at": "2026-05-31T13:47:00.049368+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -260,19 +260,17 @@
       "gamePk": 824353,
       "status": "final",
       "result": "L",
-      "score": "6\u20138"
+      "score": "6\u20138",
+      "archive_url": "archive.html?date=2026-05-30"
     },
     {
       "date": "2026-05-30",
       "opponent": "COL",
       "home": false,
       "gamePk": 824352,
-      "status": "scheduled",
-      "time_local": "6:10 PM PT",
-      "probable": {
-        "team": "Adrian Houser",
-        "opp": "Ryan Feltner"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20138"
     },
     {
       "date": "2026-05-31",
@@ -288,8 +286,8 @@
     }
   ],
   "summary": {
-    "month_record": "9\u201317",
-    "current_streak": "L4",
+    "month_record": "9\u201318",
+    "current_streak": "L5",
     "last_10": "2\u20138"
   }
 }
