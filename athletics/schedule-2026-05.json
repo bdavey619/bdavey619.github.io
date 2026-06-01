@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-05",
   "division_name": "AL West",
-  "generated_at": "2026-05-31T14:19:59.568678+00:00",
+  "generated_at": "2026-06-01T18:25:02.453821+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -271,24 +271,22 @@
       "gamePk": 825000,
       "status": "final",
       "result": "W",
-      "score": "6\u20134"
+      "score": "6\u20134",
+      "archive_url": "archive.html?date=2026-05-31"
     },
     {
       "date": "2026-05-31",
       "opponent": "NYY",
       "home": true,
       "gamePk": 825001,
-      "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "team": "Jacob Lopez",
-        "opp": "Will Warren"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "8\u201313"
     }
   ],
   "summary": {
-    "month_record": "11\u201316",
-    "current_streak": "W1",
-    "last_10": "4\u20136"
+    "month_record": "11\u201317",
+    "current_streak": "",
+    "last_10": ""
   }
 }
