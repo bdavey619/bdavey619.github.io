@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-05-31T13:47:00.049368+00:00",
+  "generated_at": "2026-06-01T17:42:06.569508+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -270,24 +270,22 @@
       "gamePk": 824352,
       "status": "final",
       "result": "L",
-      "score": "3\u20138"
+      "score": "3\u20138",
+      "archive_url": "archive.html?date=2026-05-31"
     },
     {
       "date": "2026-05-31",
       "opponent": "COL",
       "home": false,
       "gamePk": 824354,
-      "status": "scheduled",
-      "time_local": "12:10 PM PT",
-      "probable": {
-        "team": "Robbie Ray",
-        "opp": "Tanner Gordon"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "19\u20136"
     }
   ],
   "summary": {
-    "month_record": "9\u201318",
-    "current_streak": "L5",
-    "last_10": "2\u20138"
+    "month_record": "10\u201318",
+    "current_streak": "",
+    "last_10": ""
   }
 }
