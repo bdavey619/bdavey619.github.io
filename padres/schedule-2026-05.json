@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-05",
   "division_name": "NL West",
-  "generated_at": "2026-06-01T16:19:51.514911+00:00",
+  "generated_at": "2026-06-02T14:35:20.871107+00:00",
   "games": [
     {
       "date": "2026-05-01",
@@ -282,7 +282,8 @@
       "gamePk": 822729,
       "status": "final",
       "result": "L",
-      "score": "2\u20134"
+      "score": "2\u20134",
+      "archive_url": "archive.html?date=2026-06-01"
     }
   ],
   "summary": {
