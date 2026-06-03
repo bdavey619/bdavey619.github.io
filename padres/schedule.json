@@ -3,19 +3,16 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-02T14:35:20.871107+00:00",
+  "generated_at": "2026-06-03T15:12:17.832862+00:00",
   "games": [
     {
       "date": "2026-06-02",
       "opponent": "PHI",
       "home": false,
       "gamePk": 823460,
-      "status": "scheduled",
-      "time_local": "3:40 PM PT",
-      "probable": {
-        "team": "Randy V\u00e1squez",
-        "opp": "Aaron Nola"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20133"
     },
     {
       "date": "2026-06-03",
@@ -37,6 +34,7 @@
       "status": "scheduled",
       "time_local": "10:05 AM PT",
       "probable": {
+        "team": "Lucas Giolito",
         "opp": "Zack Wheeler"
       }
     },
@@ -48,6 +46,7 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
+        "team": "Michael King",
         "opp": "Christian Scott"
       }
     },
@@ -59,6 +58,7 @@
       "status": "scheduled",
       "time_local": "7:10 PM PT",
       "probable": {
+        "team": "Griffin Canning",
         "opp": "Nolan McLean"
       }
     },
@@ -232,8 +232,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20130",
-    "current_streak": "L2",
+    "month_record": "0\u20131",
+    "current_streak": "L3",
     "last_10": "3\u20137"
   }
 }
