@@ -3,19 +3,16 @@
   "team_slug": "athletics",
   "month": "2026-06",
   "division_name": "AL West",
-  "generated_at": "2026-06-02T17:04:59.268031+00:00",
+  "generated_at": "2026-06-03T17:30:47.975816+00:00",
   "games": [
     {
       "date": "2026-06-02",
       "opponent": "CHC",
       "home": false,
       "gamePk": 824675,
-      "status": "scheduled",
-      "time_local": "5:05 PM PT",
-      "probable": {
-        "team": "Gage Jump",
-        "opp": "Jameson Taillon"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "2\u20131"
     },
     {
       "date": "2026-06-03",
@@ -234,8 +231,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20130",
-    "current_streak": "L1",
+    "month_record": "1\u20130",
+    "current_streak": "W1",
     "last_10": "3\u20137"
   }
 }
