@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-03T16:51:16.360155+00:00",
+  "generated_at": "2026-06-04T15:18:18.211567+00:00",
   "games": [
     {
       "date": "2026-06-01",
@@ -22,18 +22,17 @@
       "gamePk": 823782,
       "status": "final",
       "result": "L",
-      "score": "3\u20138"
+      "score": "3\u20138",
+      "archive_url": "archive.html?date=2026-06-03"
     },
     {
       "date": "2026-06-03",
       "opponent": "MIL",
       "home": false,
       "gamePk": 823780,
-      "status": "scheduled",
-      "time_local": "4:40 PM PT",
-      "probable": {
-        "team": "Logan Webb"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "1\u20130"
     },
     {
       "date": "2026-06-04",
@@ -43,7 +42,8 @@
       "status": "scheduled",
       "time_local": "11:10 AM PT",
       "probable": {
-        "team": "Adrian Houser"
+        "team": "Adrian Houser",
+        "opp": "Coleman Crow"
       }
     },
     {
@@ -232,8 +232,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20132",
-    "current_streak": "L2",
+    "month_record": "1\u20132",
+    "current_streak": "W1",
     "last_10": "3\u20137"
   }
 }
