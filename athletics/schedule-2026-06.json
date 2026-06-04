@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-06",
   "division_name": "AL West",
-  "generated_at": "2026-06-03T17:30:47.975816+00:00",
+  "generated_at": "2026-06-04T16:02:29.912411+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -12,19 +12,17 @@
       "gamePk": 824675,
       "status": "final",
       "result": "W",
-      "score": "2\u20131"
+      "score": "2\u20131",
+      "archive_url": "archive.html?date=2026-06-03"
     },
     {
       "date": "2026-06-03",
       "opponent": "CHC",
       "home": false,
       "gamePk": 824671,
-      "status": "scheduled",
-      "time_local": "5:05 PM PT",
-      "probable": {
-        "team": "Jeffrey Springs",
-        "opp": "Colin Rea"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20134"
     },
     {
       "date": "2026-06-04",
@@ -34,6 +32,7 @@
       "status": "scheduled",
       "time_local": "5:05 PM PT",
       "probable": {
+        "team": "J.T. Ginn",
         "opp": "Shota Imanaga"
       }
     },
@@ -43,7 +42,10 @@
       "home": false,
       "gamePk": 824186,
       "status": "scheduled",
-      "time_local": "5:10 PM PT"
+      "time_local": "5:10 PM PT",
+      "probable": {
+        "team": "Jack Perkins"
+      }
     },
     {
       "date": "2026-06-06",
@@ -231,8 +233,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20130",
-    "current_streak": "W1",
-    "last_10": "3\u20137"
+    "month_record": "2\u20130",
+    "current_streak": "W2",
+    "last_10": "4\u20136"
   }
 }
