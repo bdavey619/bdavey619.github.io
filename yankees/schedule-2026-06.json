@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-06",
   "division_name": "AL East",
-  "generated_at": "2026-06-03T15:49:19.898460+00:00",
+  "generated_at": "2026-06-04T14:06:28.867136+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -12,19 +12,17 @@
       "gamePk": 823541,
       "status": "final",
       "result": "L",
-      "score": "4\u20139"
+      "score": "4\u20139",
+      "archive_url": "archive.html?date=2026-06-03"
     },
     {
       "date": "2026-06-03",
       "opponent": "CLE",
       "home": true,
       "gamePk": 823540,
-      "status": "scheduled",
-      "time_local": "7:05 PM ET",
-      "probable": {
-        "team": "Gerrit Cole",
-        "opp": "Gavin Williams"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "4\u20135"
     },
     {
       "date": "2026-06-04",
@@ -232,8 +230,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20131",
-    "current_streak": "L1",
+    "month_record": "0\u20132",
+    "current_streak": "L2",
     "last_10": "6\u20134"
   }
 }
