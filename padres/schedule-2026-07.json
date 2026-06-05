@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-06-04T13:37:26.055627+00:00",
+  "generated_at": "2026-06-05T13:30:02.686543+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -211,7 +211,7 @@
       "home": true,
       "gamePk": 823272,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:45 PM PT"
     }
   ],
   "summary": {
