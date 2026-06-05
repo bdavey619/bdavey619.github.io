@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-04T15:18:18.211567+00:00",
+  "generated_at": "2026-06-05T14:53:41.178442+00:00",
   "games": [
     {
       "date": "2026-06-01",
@@ -39,12 +39,10 @@
       "opponent": "MIL",
       "home": false,
       "gamePk": 823779,
-      "status": "scheduled",
-      "time_local": "11:10 AM PT",
-      "probable": {
-        "team": "Adrian Houser",
-        "opp": "Coleman Crow"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "12\u20139",
+      "archive_url": "archive.html?date=2026-06-04"
     },
     {
       "date": "2026-06-05",
@@ -52,7 +50,11 @@
       "home": false,
       "gamePk": 824673,
       "status": "scheduled",
-      "time_local": "11:20 AM PT"
+      "time_local": "11:20 AM PT",
+      "probable": {
+        "team": "Robbie Ray",
+        "opp": "Edward Cabrera"
+      }
     },
     {
       "date": "2026-06-06",
@@ -60,7 +62,11 @@
       "home": false,
       "gamePk": 824669,
       "status": "scheduled",
-      "time_local": "11:20 AM PT"
+      "time_local": "11:20 AM PT",
+      "probable": {
+        "team": "Landen Roupp",
+        "opp": "Ben Brown"
+      }
     },
     {
       "date": "2026-06-07",
@@ -68,7 +74,11 @@
       "home": false,
       "gamePk": 824670,
       "status": "scheduled",
-      "time_local": "5:30 PM PT"
+      "time_local": "5:30 PM PT",
+      "probable": {
+        "team": "Trevor McDonald",
+        "opp": "Jameson Taillon"
+      }
     },
     {
       "date": "2026-06-08",
@@ -232,8 +242,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20132",
-    "current_streak": "W1",
+    "month_record": "2\u20132",
+    "current_streak": "W2",
     "last_10": "3\u20137"
   }
 }
