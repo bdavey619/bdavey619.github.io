@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-06",
   "division_name": "AL West",
-  "generated_at": "2026-06-05T15:37:28.807338+00:00",
+  "generated_at": "2026-06-06T14:17:52.389395+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -32,19 +32,17 @@
       "gamePk": 824672,
       "status": "final",
       "result": "L",
-      "score": "6\u20137"
+      "score": "6\u20137",
+      "archive_url": "archive.html?date=2026-06-05"
     },
     {
       "date": "2026-06-05",
       "opponent": "HOU",
       "home": false,
       "gamePk": 824186,
-      "status": "scheduled",
-      "time_local": "5:10 PM PT",
-      "probable": {
-        "team": "Jack Perkins",
-        "opp": "Peter Lambert"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20135"
     },
     {
       "date": "2026-06-06",
@@ -76,7 +74,10 @@
       "home": true,
       "gamePk": 824998,
       "status": "scheduled",
-      "time_local": "7:05 PM PT"
+      "time_local": "7:05 PM PT",
+      "probable": {
+        "opp": "Kyle Harrison"
+      }
     },
     {
       "date": "2026-06-09",
@@ -84,7 +85,10 @@
       "home": true,
       "gamePk": 824999,
       "status": "scheduled",
-      "time_local": "7:05 PM PT"
+      "time_local": "7:05 PM PT",
+      "probable": {
+        "opp": "Robert Gasser"
+      }
     },
     {
       "date": "2026-06-10",
@@ -240,8 +244,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20131",
-    "current_streak": "L1",
-    "last_10": "4\u20136"
+    "month_record": "2\u20132",
+    "current_streak": "L2",
+    "last_10": "3\u20137"
   }
 }
