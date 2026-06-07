@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-06T11:50:30.160511+00:00",
+  "generated_at": "2026-06-07T12:06:44.225107+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -42,19 +42,17 @@
       "gamePk": 823293,
       "status": "final",
       "result": "L",
-      "score": "0\u20135"
+      "score": "0\u20135",
+      "archive_url": "archive.html?date=2026-06-06"
     },
     {
       "date": "2026-06-06",
       "opponent": "NYM",
       "home": true,
       "gamePk": 823292,
-      "status": "scheduled",
-      "time_local": "7:10 PM PT",
-      "probable": {
-        "team": "Griffin Canning",
-        "opp": "Nolan McLean"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "3\u20132"
     },
     {
       "date": "2026-06-07",
@@ -64,7 +62,8 @@
       "status": "scheduled",
       "time_local": "1:10 PM PT",
       "probable": {
-        "team": "Randy V\u00e1squez"
+        "team": "Randy V\u00e1squez",
+        "opp": "Huascar Brazob\u00e1n"
       }
     },
     {
@@ -97,7 +96,11 @@
       "home": true,
       "gamePk": 823287,
       "status": "scheduled",
-      "time_local": "1:10 PM PT"
+      "time_local": "1:10 PM PT",
+      "probable": {
+        "team": "Michael King",
+        "opp": "Brady Singer"
+      }
     },
     {
       "date": "2026-06-12",
@@ -237,8 +240,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20134",
-    "current_streak": "L6",
-    "last_10": "1\u20139"
+    "month_record": "1\u20134",
+    "current_streak": "W1",
+    "last_10": "2\u20138"
   }
 }
