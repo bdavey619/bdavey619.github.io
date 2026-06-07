@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-08",
   "division_name": "AL East",
-  "generated_at": "2026-06-06T12:08:20.178343+00:00",
+  "generated_at": "2026-06-07T12:22:50.338052+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -204,6 +204,14 @@
       "gamePk": 823501,
       "status": "scheduled",
       "time_local": "7:15 PM ET"
+    },
+    {
+      "date": "2026-08-29",
+      "opponent": "BOS",
+      "home": true,
+      "gamePk": 823539,
+      "status": "scheduled",
+      "time_local": "1:05 PM ET"
     },
     {
       "date": "2026-08-30",
