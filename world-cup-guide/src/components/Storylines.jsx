@@ -12,15 +12,15 @@ export default function Storylines() {
     <div>
       <div style={{ textAlign: 'center', marginBottom: 28 }}>
         <h1 style={{
-          fontFamily: 'Georgia, "Times New Roman", serif',
+          fontFamily: 'var(--font-serif)',
           fontSize: 32,
           fontWeight: 500,
-          color: '#1a1a1a',
+          color: 'var(--gray-900)',
           margin: '0 0 6px',
         }}>
           The Stories to Follow
         </h1>
-        <p style={{ fontSize: 14, color: '#888', margin: 0 }}>
+        <p style={{ fontSize: 14, color: 'var(--gray-500)', margin: 0 }}>
           Eight narratives that will define the 2026 World Cup
         </p>
       </div>
@@ -48,8 +48,8 @@ export default function Storylines() {
                   fontSize: 10,
                   textTransform: 'uppercase',
                   letterSpacing: '0.06em',
-                  background: '#f0f0f0',
-                  color: '#555',
+                  background: 'var(--surface)',
+                  color: 'var(--gray-700)',
                   padding: '3px 8px',
                   borderRadius: 12,
                 }}>
@@ -75,14 +75,14 @@ export default function Storylines() {
 
               {/* Row 2: number + headline */}
               <div style={{ marginTop: 8 }}>
-                <div style={{ fontSize: 11, color: '#aaa', fontFamily: 'inherit' }}>
+                <div style={{ fontSize: 11, color: 'var(--gray-400)', fontFamily: 'inherit' }}>
                   {String(i + 1).padStart(2, '0')}
                 </div>
                 <div style={{
-                  fontFamily: 'Georgia, "Times New Roman", serif',
+                  fontFamily: 'var(--font-serif)',
                   fontSize: 22,
                   fontWeight: 500,
-                  color: '#1a1a1a',
+                  color: 'var(--gray-900)',
                   lineHeight: 1.2,
                   marginTop: 2,
                 }}>
@@ -94,7 +94,7 @@ export default function Storylines() {
               <div style={{
                 fontSize: 13,
                 fontStyle: 'italic',
-                color: '#555',
+                color: 'var(--gray-700)',
                 marginTop: 4,
               }}>
                 {s.subheadline}
@@ -104,7 +104,7 @@ export default function Storylines() {
               <div style={{
                 fontSize: 13,
                 lineHeight: 1.75,
-                color: '#444',
+                color: 'var(--gray-700)',
                 marginTop: 10,
               }}>
                 {s.narrative}

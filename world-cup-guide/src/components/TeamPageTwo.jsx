@@ -6,8 +6,8 @@ export default function TeamPageTwo({ team }) {
     history, allTimeRecord, pitch,
   } = team
 
-  const muted = '#888'
-  const serif = '"Georgia", "Times New Roman", Times, serif'
+  const muted = 'var(--gray-500)'
+  const serif = 'var(--font-serif)'
 
   const SectionLabel = ({ label }) => (
     <div style={{ display: 'flex', alignItems: 'center', gap: 7, marginBottom: 8 }}>
@@ -18,7 +18,7 @@ export default function TeamPageTwo({ team }) {
         letterSpacing: '0.1em',
         textTransform: 'uppercase',
         color: muted,
-        fontFamily: 'sans-serif',
+        fontFamily: 'var(--font-sans)',
       }}>
         {label}
       </span>
@@ -33,21 +33,21 @@ export default function TeamPageTwo({ team }) {
       fontSize: 10,
       fontWeight: 600,
       lineHeight: '16px',
-      fontFamily: 'sans-serif',
+      fontFamily: 'var(--font-sans)',
     }
     switch (row.tier) {
       case 'winner':
         return <span style={{ ...base, background: accentColor, color: '#fff' }}>{row.result}</span>
       case 'final':
-        return <span style={{ ...base, background: '#e8e8e8', color: '#333' }}>{row.result}</span>
+        return <span style={{ ...base, background: 'var(--gray-200)', color: 'var(--gray-700)' }}>{row.result}</span>
       case 'deep':
-        return <span style={{ fontSize: 10.5, color: '#555', fontFamily: 'sans-serif' }}>{row.result}</span>
+        return <span style={{ fontSize: 11, color: 'var(--gray-700)', fontFamily: 'var(--font-sans)' }}>{row.result}</span>
       case 'early':
-        return <span style={{ fontSize: 10.5, color: muted, fontFamily: 'sans-serif' }}>{row.result}</span>
+        return <span style={{ fontSize: 11, color: muted, fontFamily: 'var(--font-sans)' }}>{row.result}</span>
       case 'dnq':
-        return <span style={{ fontSize: 10.5, color: '#bbb', fontStyle: 'italic', fontFamily: 'sans-serif' }}>DNQ</span>
+        return <span style={{ fontSize: 11, color: 'var(--gray-400)', fontStyle: 'italic', fontFamily: 'var(--font-sans)' }}>DNQ</span>
       default:
-        return <span style={{ fontSize: 10.5, fontFamily: 'sans-serif' }}>{row.result}</span>
+        return <span style={{ fontSize: 11, fontFamily: 'var(--font-sans)' }}>{row.result}</span>
     }
   }
 
@@ -55,7 +55,7 @@ export default function TeamPageTwo({ team }) {
     <div style={{
       fontFamily: serif,
       background: '#fff',
-      color: '#1a1a1a',
+      color: 'var(--gray-900)',
       overflow: 'hidden',
       border: '1px solid #e0e0e0',
       borderTop: 'none',
@@ -85,7 +85,7 @@ export default function TeamPageTwo({ team }) {
             color: muted,
             letterSpacing: '0.05em',
             textTransform: 'uppercase',
-            fontFamily: 'sans-serif',
+            fontFamily: 'var(--font-sans)',
             marginBottom: 2,
           }}>
             2026 FIFA WORLD CUP · WATCH GUIDE · P.2
@@ -96,7 +96,7 @@ export default function TeamPageTwo({ team }) {
               fontSize: 22,
               fontWeight: 500,
               lineHeight: 1,
-              color: '#1a1a1a',
+              color: 'var(--gray-900)',
             }}>
               {name}
             </span>
@@ -111,7 +111,7 @@ export default function TeamPageTwo({ team }) {
         </div>
 
         {/* Right — four stat pills with dividers */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 0, fontFamily: 'sans-serif' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 0, fontFamily: 'var(--font-sans)' }}>
           {[
             { label: 'FIFA RANKING', value: `#${meta.fifaRanking}`, colored: false },
             { label: 'ODDS TO WIN', value: meta.oddsToWin, colored: true },
@@ -123,7 +123,7 @@ export default function TeamPageTwo({ team }) {
                 <div style={{
                   width: '0.5px',
                   height: 30,
-                  background: '#e0e0e0',
+                  background: 'var(--gray-200)',
                   margin: '0 10px',
                 }} />
               )}
@@ -141,7 +141,7 @@ export default function TeamPageTwo({ team }) {
                   fontSize: 22,
                   fontWeight: 500,
                   lineHeight: 1,
-                  color: colored ? accentColor : '#1a1a1a',
+                  color: colored ? accentColor : 'var(--gray-900)',
                 }}>
                   {value}
                 </div>
@@ -177,7 +177,7 @@ export default function TeamPageTwo({ team }) {
                 <div
                   key={i}
                   style={{
-                    background: '#f7f7f7',
+                    background: 'var(--gray-50)',
                     borderRadius: 6,
                     padding: '8px 10px',
                   }}
@@ -192,7 +192,7 @@ export default function TeamPageTwo({ team }) {
                       fontSize: 9,
                       color: muted,
                       fontWeight: 700,
-                      fontFamily: 'sans-serif',
+                      fontFamily: 'var(--font-sans)',
                       textTransform: 'uppercase',
                       letterSpacing: '0.04em',
                     }}>
@@ -201,7 +201,7 @@ export default function TeamPageTwo({ team }) {
                     <span style={{
                       fontSize: 9,
                       color: muted,
-                      fontFamily: 'sans-serif',
+                      fontFamily: 'var(--font-sans)',
                     }}>
                       {match.city}
                     </span>
@@ -213,7 +213,7 @@ export default function TeamPageTwo({ team }) {
                     alignItems: 'center',
                   }}>
                     <span style={{
-                      fontSize: 12.5,
+                      fontSize: 13,
                       fontWeight: 500,
                       fontFamily: serif,
                     }}>
@@ -222,7 +222,7 @@ export default function TeamPageTwo({ team }) {
                     <span style={{
                       fontSize: 9,
                       fontWeight: 600,
-                      fontFamily: 'sans-serif',
+                      fontFamily: 'var(--font-sans)',
                       color: match.isAway ? muted : accentColor,
                       marginLeft: 6,
                       whiteSpace: 'nowrap',
@@ -252,10 +252,10 @@ export default function TeamPageTwo({ team }) {
                     borderBottom: i < history.length - 1 ? '0.5px solid #e8e8e8' : 'none',
                   }}
                 >
-                  <span style={{ fontSize: 10, color: muted, fontFamily: 'sans-serif' }}>
+                  <span style={{ fontSize: 10, color: muted, fontFamily: 'var(--font-sans)' }}>
                     {row.year}
                   </span>
-                  <span style={{ fontSize: 10.5, color: '#1a1a1a', fontFamily: 'sans-serif' }}>
+                  <span style={{ fontSize: 11, color: 'var(--gray-900)', fontFamily: 'var(--font-sans)' }}>
                     {row.host}
                   </span>
                   <span>{resultBadge(row)}</span>
@@ -278,15 +278,15 @@ export default function TeamPageTwo({ team }) {
                 <div
                   key={label}
                   style={{
-                    background: '#f7f7f7',
+                    background: 'var(--gray-50)',
                     borderRadius: 6,
                     padding: '5px 4px',
                     textAlign: 'center',
-                    fontFamily: 'sans-serif',
+                    fontFamily: 'var(--font-sans)',
                   }}
                 >
                   <div style={{ fontSize: 16, fontWeight: 500, lineHeight: 1 }}>{value}</div>
-                  <div style={{ fontSize: 8.5, color: muted, marginTop: 3, letterSpacing: '0.03em' }}>
+                  <div style={{ fontSize: 9, color: muted, marginTop: 3, letterSpacing: '0.03em' }}>
                     {label}
                   </div>
                 </div>
@@ -303,8 +303,8 @@ export default function TeamPageTwo({ team }) {
         display: 'flex',
         justifyContent: 'space-between',
         fontSize: 10,
-        color: '#bbb',
-        fontFamily: 'sans-serif',
+        color: 'var(--gray-400)',
+        fontFamily: 'var(--font-sans)',
         fontStyle: 'normal',
       }}>
         <span>World Cup Watch Guide · 2026 · p.2</span>

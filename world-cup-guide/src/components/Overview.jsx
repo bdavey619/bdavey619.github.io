@@ -19,14 +19,14 @@ export default function Overview({ teams, groups, onSelectTeam }) {
     <div>
       <div style={{ textAlign: 'center', marginBottom: 32 }}>
         <h1 style={{
-          fontFamily: 'Georgia, serif',
+          fontFamily: 'var(--font-serif)',
           fontSize: 32,
           margin: '0 0 4px',
-          color: '#1a1a1a',
+          color: 'var(--gray-900)',
         }}>
           2026 World Cup — Group Stage
         </h1>
-        <p style={{ fontSize: 14, color: '#888', margin: 0 }}>
+        <p style={{ fontSize: 14, color: 'var(--gray-500)', margin: 0 }}>
           48 teams · 12 groups · June 12 – July 19
         </p>
       </div>
@@ -50,7 +50,7 @@ export default function Overview({ teams, groups, onSelectTeam }) {
             }}>
               {/* Card header */}
               <div style={{
-                background: '#1a1a1a',
+                background: 'var(--gray-900)',
                 padding: '10px 14px',
               }}>
                 <span style={{
@@ -86,13 +86,13 @@ export default function Overview({ teams, groups, onSelectTeam }) {
                         <span style={{
                           fontSize: 13,
                           fontWeight: isFav ? 600 : 400,
-                          color: '#1a1a1a',
+                          color: 'var(--gray-900)',
                         }}>
                           {t.name}
                         </span>
                       </div>
                       <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                        <span style={{ fontSize: 11, color: '#888' }}>
+                        <span style={{ fontSize: 11, color: 'var(--gray-500)' }}>
                           #{t.meta.fifaRanking}
                         </span>
                         <span style={{ fontSize: 11, color: t.accentColor }}>
@@ -110,7 +110,7 @@ export default function Overview({ teams, groups, onSelectTeam }) {
                   padding: '8px 14px 10px',
                   borderTop: '1px solid #f0f0f0',
                 }}>
-                  <span style={{ fontSize: 11, fontStyle: 'italic', color: '#888' }}>
+                  <span style={{ fontSize: 11, fontStyle: 'italic', color: 'var(--gray-500)' }}>
                     Key match: {km.team1.name} vs {km.team2.name}
                     {km.date ? ` · ${km.date}` : ''}
                   </span>

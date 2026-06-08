@@ -15,6 +15,14 @@
   --font-serif: Georgia, "Times New Roman", Times, serif;
   --font-sans:  system-ui, -apple-system, sans-serif;
 
+  /* Semantic panel colors */
+  --green-bg:   #f0fff4;
+  --green-text: #2d7a4e;
+  --green-body: #2d5a3d;
+  --red-bg:     #fff5f5;
+  --red-text:   #a94444;
+  --red-body:   #7a3333;
+
   /* 6-step type scale */
   --text-xs:  11px;
   --text-sm:  13px;

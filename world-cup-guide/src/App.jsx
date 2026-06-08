@@ -146,7 +146,7 @@ export default function App() {
                     cursor: 'pointer',
                     border: isActive ? 'none' : '1px solid #d0d0d0',
                     background: isActive ? selectedTeam.accentColor : 'white',
-                    color: isActive ? 'white' : '#555',
+                    color: isActive ? 'white' : 'var(--gray-700)',
                     fontFamily: 'inherit',
                     display: 'flex',
                     alignItems: 'center',
@@ -186,26 +186,26 @@ export default function App() {
                     padding: '10px 12px',
                     borderRadius: 6,
                     cursor: 'pointer',
-                    background: isSelected ? '#fafafa' : 'white',
+                    background: isSelected ? 'var(--gray-50)' : 'white',
                     borderLeft: isSelected
                       ? `3px solid ${t.accentColor}`
                       : '3px solid transparent',
                   }}
                   onMouseEnter={e => {
-                    if (!isSelected) e.currentTarget.style.background = '#f5f5f5'
+                    if (!isSelected) e.currentTarget.style.background = 'var(--gray-100)'
                   }}
                   onMouseLeave={e => {
                     if (!isSelected) e.currentTarget.style.background = 'white'
                   }}
                 >
                   <div style={{ fontSize: 22 }}>{t.flagEmoji}</div>
-                  <div style={{ fontSize: 13, fontWeight: 600, color: '#1a1a1a', marginTop: 4 }}>
+                  <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--gray-900)', marginTop: 4 }}>
                     {t.name}
                   </div>
-                  <div style={{ fontSize: 11, color: '#888', marginTop: 2 }}>
+                  <div style={{ fontSize: 11, color: 'var(--gray-500)', marginTop: 2 }}>
                     #{t.meta.fifaRanking}
                   </div>
-                  <div style={{ fontSize: 11, color: '#888' }}>
+                  <div style={{ fontSize: 11, color: 'var(--gray-500)' }}>
                     {t.meta.oddsToWin}
                   </div>
                 </div>
@@ -217,7 +217,7 @@ export default function App() {
 
       {/* ── PAGE CONTENT ─────────────────────────────────── */}
       {activeView === 'schedule' ? (
-        <div style={{ background: '#f5f5f5', minHeight: 'calc(100vh - 100px)' }}>
+        <div style={{ background: 'var(--gray-100)', minHeight: 'calc(100vh - 100px)' }}>
           <Schedule teams={teams} onSelectTeam={selectTeam} />
         </div>
       ) : (
@@ -225,7 +225,7 @@ export default function App() {
         maxWidth: 680,
         margin: '0 auto',
         padding: '24px 16px',
-        background: '#f0f0f0',
+        background: 'var(--surface)',
         minHeight: 'calc(100vh - 200px)',
       }}>
         {activeView === 'guide' ? (

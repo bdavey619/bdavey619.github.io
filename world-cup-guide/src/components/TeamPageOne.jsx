@@ -33,7 +33,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
         letterSpacing: '0.1em',
         textTransform: 'uppercase',
         color: muted,
-        fontFamily: 'sans-serif',
+        fontFamily: 'var(--font-sans)',
       }}>
         {label}
       </span>
@@ -44,9 +44,9 @@ export default function TeamPageOne({ team, onViewStorylines }) {
     <div style={{
       fontFamily: serif,
       background: '#fff',
-      color: '#1a1a1a',
+      color: 'var(--gray-900)',
       overflow: 'hidden',
-      border: '1px solid #e0e0e0',
+      border: '1px solid var(--gray-200)',
       borderTop: 'none',
     }}>
 
@@ -75,7 +75,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
             color: muted,
             letterSpacing: '0.05em',
             textTransform: 'uppercase',
-            fontFamily: 'sans-serif',
+            fontFamily: 'var(--font-sans)',
             marginBottom: 3,
           }}>
             2026 FIFA WORLD CUP · WATCH GUIDE
@@ -84,7 +84,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
             fontFamily: serif,
             fontSize: 44,
             fontWeight: 500,
-            color: '#1a1a1a',
+            color: 'var(--gray-900)',
             lineHeight: 1,
           }}>
             {name}
@@ -112,7 +112,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
                 color: muted,
                 letterSpacing: '0.05em',
                 textTransform: 'uppercase',
-                fontFamily: 'sans-serif',
+                fontFamily: 'var(--font-sans)',
                 marginBottom: 3,
               }}>
                 {label}
@@ -153,10 +153,10 @@ export default function TeamPageOne({ team, onViewStorylines }) {
       }}>
 
         {/* LEFT COLUMN */}
-        <div style={{ borderRight: '0.5px solid #e0e0e0' }}>
+        <div style={{ borderRight: '0.5px solid var(--gray-200)' }}>
 
           {/* KEY PLAYERS */}
-          <div style={{ padding: '1.1rem 1.4rem 1rem', borderBottom: '0.5px solid #e0e0e0' }}>
+          <div style={{ padding: '1.1rem 1.4rem 1rem', borderBottom: '0.5px solid var(--gray-200)' }}>
             <SectionLabel label="Key Players" />
             <div style={{
               display: 'grid',
@@ -167,7 +167,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
                 <div
                   key={p.name}
                   style={{
-                    background: '#f7f7f7',
+                    background: 'var(--gray-50)',
                     borderRadius: 6,
                     padding: '9px 11px',
                   }}
@@ -179,7 +179,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
                     alignItems: 'flex-start',
                     marginBottom: 3,
                   }}>
-                    <span style={{ fontSize: 12.5, fontWeight: 500, fontFamily: serif }}>
+                    <span style={{ fontSize: 13, fontWeight: 500, fontFamily: serif }}>
                       {p.name}
                     </span>
                     {p.badge && (
@@ -189,7 +189,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
                         fontSize: 9,
                         padding: '1px 6px',
                         borderRadius: 3,
-                        fontFamily: 'sans-serif',
+                        fontFamily: 'var(--font-sans)',
                         fontStyle: 'normal',
                         whiteSpace: 'nowrap',
                         marginLeft: 4,
@@ -200,19 +200,19 @@ export default function TeamPageOne({ team, onViewStorylines }) {
                     )}
                   </div>
                   <div style={{
-                    fontSize: 10.5,
+                    fontSize: 11,
                     color: muted,
                     marginBottom: 5,
-                    fontFamily: 'sans-serif',
+                    fontFamily: 'var(--font-sans)',
                     fontStyle: 'normal',
                   }}>
                     {p.club} · {p.position}
                   </div>
                   <div style={{
-                    fontSize: 11.5,
+                    fontSize: 12,
                     lineHeight: 1.6,
                     color: muted,
-                    fontFamily: 'sans-serif',
+                    fontFamily: 'var(--font-sans)',
                     fontStyle: 'normal',
                   }}>
                     {p.note}
@@ -233,19 +233,19 @@ export default function TeamPageOne({ team, onViewStorylines }) {
                 fontWeight: 500,
                 padding: '3px 10px',
                 borderRadius: 4,
-                fontFamily: 'sans-serif',
+                fontFamily: 'var(--font-sans)',
                 fontStyle: 'normal',
               }}>
                 {meta.formation}
               </span>
               {tactics.styleTags.map((tag) => (
                 <span key={tag} style={{
-                  background: '#f0f0f0',
-                  color: '#666',
+                  background: 'var(--surface)',
+                  color: 'var(--gray-500)',
                   fontSize: 11,
                   padding: '3px 10px',
                   borderRadius: 4,
-                  fontFamily: 'sans-serif',
+                  fontFamily: 'var(--font-sans)',
                   fontStyle: 'normal',
                 }}>
                   {tag}
@@ -253,18 +253,18 @@ export default function TeamPageOne({ team, onViewStorylines }) {
               ))}
             </div>
             <div style={{
-              fontSize: 12.5,
+              fontSize: 13,
               lineHeight: 1.7,
-              color: '#333',
+              color: 'var(--gray-700)',
               margin: '10px 0',
-              fontFamily: 'sans-serif',
+              fontFamily: 'var(--font-sans)',
               fontStyle: 'normal',
             }}>
               {tactics.tacticalNote}
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 6 }}>
               <div style={{
-                background: '#f0fff4',
+                background: 'var(--green-bg)',
                 borderRadius: 4,
                 padding: '7px 9px',
               }}>
@@ -273,25 +273,25 @@ export default function TeamPageOne({ team, onViewStorylines }) {
                   fontWeight: 500,
                   textTransform: 'uppercase',
                   letterSpacing: '0.06em',
-                  color: '#2d7a4e',
+                  color: 'var(--green-text)',
                   marginBottom: 2,
-                  fontFamily: 'sans-serif',
+                  fontFamily: 'var(--font-sans)',
                   fontStyle: 'normal',
                 }}>
                   STRENGTH
                 </div>
                 <div style={{
-                  fontSize: 11.5,
+                  fontSize: 12,
                   lineHeight: 1.55,
-                  color: '#2d5a3d',
-                  fontFamily: 'sans-serif',
+                  color: 'var(--green-body)',
+                  fontFamily: 'var(--font-sans)',
                   fontStyle: 'normal',
                 }}>
                   {tactics.strength}
                 </div>
               </div>
               <div style={{
-                background: '#fff5f5',
+                background: 'var(--red-bg)',
                 borderRadius: 4,
                 padding: '7px 9px',
               }}>
@@ -300,18 +300,18 @@ export default function TeamPageOne({ team, onViewStorylines }) {
                   fontWeight: 500,
                   textTransform: 'uppercase',
                   letterSpacing: '0.06em',
-                  color: '#a94444',
+                  color: 'var(--red-text)',
                   marginBottom: 2,
-                  fontFamily: 'sans-serif',
+                  fontFamily: 'var(--font-sans)',
                   fontStyle: 'normal',
                 }}>
                   VULNERABILITY
                 </div>
                 <div style={{
-                  fontSize: 11.5,
+                  fontSize: 12,
                   lineHeight: 1.55,
-                  color: '#7a3333',
-                  fontFamily: 'sans-serif',
+                  color: 'var(--red-body)',
+                  fontFamily: 'var(--font-sans)',
                   fontStyle: 'normal',
                 }}>
                   {tactics.vulnerability}
@@ -325,13 +325,13 @@ export default function TeamPageOne({ team, onViewStorylines }) {
         <div style={{ display: 'flex', flexDirection: 'column' }}>
 
           {/* FOOTBALL IDENTITY */}
-          <div style={{ flex: 1, padding: '1.1rem 1.2rem', borderBottom: '0.5px solid #e0e0e0' }}>
+          <div style={{ flex: 1, padding: '1.1rem 1.2rem', borderBottom: '0.5px solid var(--gray-200)' }}>
             <SectionLabel label="Football Identity" />
             <div style={{
               fontSize: 12,
               lineHeight: 1.75,
               color: muted,
-              fontFamily: 'sans-serif',
+              fontFamily: 'var(--font-sans)',
               fontStyle: 'normal',
             }}>
               {narrative.footballIdentity}
@@ -339,13 +339,13 @@ export default function TeamPageOne({ team, onViewStorylines }) {
           </div>
 
           {/* THE MOMENT */}
-          <div style={{ flex: 1, padding: '1.1rem 1.2rem', borderBottom: '0.5px solid #e0e0e0' }}>
+          <div style={{ flex: 1, padding: '1.1rem 1.2rem', borderBottom: '0.5px solid var(--gray-200)' }}>
             <SectionLabel label="The Moment" />
             <div style={{
               fontSize: 12,
               lineHeight: 1.75,
               color: muted,
-              fontFamily: 'sans-serif',
+              fontFamily: 'var(--font-sans)',
               fontStyle: 'normal',
             }}>
               {narrative.theMoment}
@@ -364,16 +364,16 @@ export default function TeamPageOne({ team, onViewStorylines }) {
                     fontWeight: 500,
                     minWidth: 16,
                     flexShrink: 0,
-                    fontFamily: 'sans-serif',
+                    fontFamily: 'var(--font-sans)',
                     fontStyle: 'normal',
                   }}>
                     {i + 1}
                   </span>
                   <span style={{
-                    fontSize: 11.5,
+                    fontSize: 12,
                     lineHeight: 1.65,
                     color: muted,
-                    fontFamily: 'sans-serif',
+                    fontFamily: 'var(--font-sans)',
                     fontStyle: 'normal',
                   }}>
                     {item}
@@ -390,7 +390,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
         const teamStorylines = storylines.filter(s => s.teams.includes(name))
         if (!teamStorylines.length) return null
         return (
-          <div style={{ borderTop: '0.5px solid #e0e0e0' }}>
+          <div style={{ borderTop: '0.5px solid var(--gray-200)' }}>
             {teamStorylines.map(s => (
               <div
                 key={s.id}
@@ -401,12 +401,12 @@ export default function TeamPageOne({ team, onViewStorylines }) {
                   gap: 12,
                   padding: '10px 1.5rem',
                   cursor: 'pointer',
-                  background: '#fafafa',
+                  background: 'var(--gray-50)',
                   borderLeft: `3px solid ${s.accentColor}`,
                   transition: 'background 0.15s',
                 }}
-                onMouseEnter={e => e.currentTarget.style.background = '#f0f0f0'}
-                onMouseLeave={e => e.currentTarget.style.background = '#fafafa'}
+                onMouseEnter={e => e.currentTarget.style.background = 'var(--surface)'}
+                onMouseLeave={e => e.currentTarget.style.background = 'var(--gray-50)'}
               >
                 <div style={{ flex: 1 }}>
                   <div style={{
@@ -416,7 +416,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
                     textTransform: 'uppercase',
                     color: s.accentColor,
                     marginBottom: 2,
-                    fontFamily: 'sans-serif',
+                    fontFamily: 'var(--font-sans)',
                     fontStyle: 'normal',
                   }}>
                     Featured Storyline · {s.type}
@@ -424,23 +424,23 @@ export default function TeamPageOne({ team, onViewStorylines }) {
                   <div style={{
                     fontSize: 13,
                     fontWeight: 500,
-                    color: '#1a1a1a',
-                    fontFamily: 'sans-serif',
+                    color: 'var(--gray-900)',
+                    fontFamily: 'var(--font-sans)',
                     fontStyle: 'normal',
                   }}>
                     {s.headline}
                   </div>
                   <div style={{
                     fontSize: 11,
-                    color: '#888',
+                    color: 'var(--gray-500)',
                     marginTop: 1,
-                    fontFamily: 'sans-serif',
+                    fontFamily: 'var(--font-sans)',
                     fontStyle: 'normal',
                   }}>
                     {s.subheadline}
                   </div>
                 </div>
-                <div style={{ fontSize: 12, color: '#bbb', fontFamily: 'sans-serif', fontStyle: 'normal' }}>→</div>
+                <div style={{ fontSize: 12, color: 'var(--gray-400)', fontFamily: 'var(--font-sans)', fontStyle: 'normal' }}>→</div>
               </div>
             ))}
           </div>
@@ -449,7 +449,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
 
       {/* 6. ALL-TIME RECORD STRIP */}
       <div style={{
-        borderTop: '0.5px solid #e0e0e0',
+        borderTop: '0.5px solid var(--gray-200)',
         padding: '0.7rem 1.5rem',
         display: 'flex',
         alignItems: 'center',
@@ -458,7 +458,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
         <div style={{
           fontSize: 10,
           color: muted,
-          fontFamily: 'sans-serif',
+          fontFamily: 'var(--font-sans)',
           fontStyle: 'normal',
         }}>
           All-time WC record
@@ -477,11 +477,11 @@ export default function TeamPageOne({ team, onViewStorylines }) {
                 <div style={{
                   width: '0.5px',
                   height: 24,
-                  background: '#e0e0e0',
+                  background: 'var(--gray-200)',
                   margin: '0 14px',
                 }} />
               )}
-              <div style={{ textAlign: 'center', fontFamily: 'sans-serif', fontStyle: 'normal' }}>
+              <div style={{ textAlign: 'center', fontFamily: 'var(--font-sans)', fontStyle: 'normal' }}>
                 <div style={{ fontSize: 15, fontWeight: 500, lineHeight: 1 }}>{value}</div>
                 <div style={{ fontSize: 9, color: muted, marginTop: 2, letterSpacing: '0.04em' }}>
                   {label}
@@ -494,13 +494,13 @@ export default function TeamPageOne({ team, onViewStorylines }) {
 
       {/* 6. FOOTER */}
       <div style={{
-        borderTop: '0.5px solid #e0e0e0',
+        borderTop: '0.5px solid var(--gray-200)',
         padding: '6px 1.5rem',
         display: 'flex',
         justifyContent: 'space-between',
         fontSize: 10,
-        color: '#bbb',
-        fontFamily: 'sans-serif',
+        color: 'var(--gray-400)',
+        fontFamily: 'var(--font-sans)',
         fontStyle: 'normal',
       }}>
         <span>World Cup Watch Guide · 2026 · p.1</span>

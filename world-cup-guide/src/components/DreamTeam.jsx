@@ -208,15 +208,15 @@ export default function DreamTeam() {
       {/* Page header */}
       <div style={{ textAlign: 'center', marginBottom: 24 }}>
         <h1 style={{
-          fontFamily: 'Georgia, "Times New Roman", serif',
+          fontFamily: 'var(--font-serif)',
           fontSize: 32,
           fontWeight: 500,
-          color: '#1a1a1a',
+          color: 'var(--gray-900)',
           margin: '0 0 6px',
         }}>
           2026 World Cup Dream Team
         </h1>
-        <p style={{ fontSize: 14, color: '#888', margin: 0 }}>
+        <p style={{ fontSize: 14, color: 'var(--gray-500)', margin: 0 }}>
           The best XI in the tournament — selected by form, squad depth, and the games that matter
         </p>
       </div>
@@ -242,12 +242,12 @@ export default function DreamTeam() {
               fontSize: 11,
               textTransform: 'uppercase',
               letterSpacing: '0.06em',
-              color: '#888',
+              color: 'var(--gray-500)',
             }}>
               Starting XI
             </span>
             <span style={{
-              background: '#1a1a1a',
+              background: 'var(--gray-900)',
               color: 'white',
               fontSize: 11,
               fontWeight: 600,
@@ -257,7 +257,7 @@ export default function DreamTeam() {
               {dreamTeam.formation}
             </span>
           </div>
-          <span style={{ fontSize: 12, color: '#888' }}>
+          <span style={{ fontSize: 12, color: 'var(--gray-500)' }}>
             Coach: {dreamTeam.coach.name} · {dreamTeam.coach.flagEmoji}
           </span>
         </div>
@@ -303,7 +303,7 @@ export default function DreamTeam() {
           <path d="M 436 454 A 12 12 0 0 0 424 466" {...markingStyle} strokeWidth={1} />
 
           {/* Attacking end label */}
-          <text x={438} y={470} textAnchor="end" fill="white" fillOpacity={0.45} fontSize={8} fontFamily="sans-serif">
+          <text x={438} y={470} textAnchor="end" fill="white" fillOpacity={0.45} fontSize={8} fontFamily="var(--font-sans)">
             ← attacking end
           </text>
 
@@ -327,7 +327,7 @@ export default function DreamTeam() {
                   fill="white"
                   fontSize={p.isCaptain ? 8.5 : 8}
                   fontWeight="700"
-                  fontFamily="sans-serif"
+                  fontFamily="var(--font-sans)"
                 >
                   {p.shortName}
                 </text>
@@ -340,7 +340,7 @@ export default function DreamTeam() {
                     fillOpacity={0.85}
                     fontSize={6.5}
                     fontStyle="italic"
-                    fontFamily="sans-serif"
+                    fontFamily="var(--font-sans)"
                   >
                     {p.isCaptain ? 'captain' : 'key player'}
                   </text>
@@ -352,7 +352,7 @@ export default function DreamTeam() {
                   fill="white"
                   fillOpacity={0.5}
                   fontSize={7}
-                  fontFamily="sans-serif"
+                  fontFamily="var(--font-sans)"
                 >
                   {p.position}
                 </text>
@@ -369,7 +369,7 @@ export default function DreamTeam() {
           gap: '8px 14px',
         }}>
           {legend.map(({ country, count, flagEmoji }) => (
-            <span key={country} style={{ fontSize: 12, color: '#666' }}>
+            <span key={country} style={{ fontSize: 12, color: 'var(--gray-500)' }}>
               {flagEmoji} {country} ({count})
             </span>
           ))}
@@ -399,15 +399,15 @@ export default function DreamTeam() {
               gap: 5,
             }}>
               <span style={{ fontSize: 15 }}>{p.flagEmoji}</span>
-              <span style={{ fontSize: 13, fontWeight: 600, color: '#1a1a1a', flex: 1 }}>
+              <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--gray-900)', flex: 1 }}>
                 {p.name}
               </span>
-              <span style={{ fontSize: 11, color: '#aaa' }}>{p.position}</span>
+              <span style={{ fontSize: 11, color: 'var(--gray-400)' }}>{p.position}</span>
             </div>
-            <div style={{ fontSize: 11, color: '#aaa', marginTop: 2 }}>
+            <div style={{ fontSize: 11, color: 'var(--gray-400)', marginTop: 2 }}>
               {p.club}
             </div>
-            <div style={{ fontSize: 12, color: '#555', lineHeight: 1.6, marginTop: 6 }}>
+            <div style={{ fontSize: 12, color: 'var(--gray-700)', lineHeight: 1.6, marginTop: 6 }}>
               {p.note}
             </div>
           </div>
@@ -426,22 +426,22 @@ export default function DreamTeam() {
             fontSize: 10,
             textTransform: 'uppercase',
             letterSpacing: '0.06em',
-            color: '#aaa',
+            color: 'var(--gray-400)',
             marginBottom: 4,
           }}>
             Coach
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
             <span style={{ fontSize: 15 }}>{dreamTeam.coach.flagEmoji}</span>
-            <span style={{ fontSize: 13, fontWeight: 600, color: '#1a1a1a', flex: 1 }}>
+            <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--gray-900)', flex: 1 }}>
               {dreamTeam.coach.name}
             </span>
-            <span style={{ fontSize: 11, color: '#aaa' }}>{dreamTeam.coach.country}</span>
+            <span style={{ fontSize: 11, color: 'var(--gray-400)' }}>{dreamTeam.coach.country}</span>
           </div>
-          <div style={{ fontSize: 11, color: '#aaa', marginTop: 2 }}>
+          <div style={{ fontSize: 11, color: 'var(--gray-400)', marginTop: 2 }}>
             {dreamTeam.coach.club}
           </div>
-          <div style={{ fontSize: 12, color: '#555', lineHeight: 1.6, marginTop: 6 }}>
+          <div style={{ fontSize: 12, color: 'var(--gray-700)', lineHeight: 1.6, marginTop: 6 }}>
             {dreamTeam.coach.note}
           </div>
         </div>

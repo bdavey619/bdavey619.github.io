@@ -45,7 +45,7 @@ function MatchSlot({ home, away, isCompact, accentLeft }) {
       minWidth: isCompact ? 120 : 150,
     }}>
       <TeamRow label={home} accentColor={accentLeft} />
-      <div style={{ height: '0.5px', background: '#f0f0f0' }} />
+      <div style={{ height: '0.5px', background: 'var(--surface)' }} />
       <TeamRow label={away} />
     </div>
   )
@@ -63,7 +63,7 @@ function TeamRow({ label, accentColor }) {
     }}>
       <span style={{
         fontSize: 11,
-        color: label.startsWith('TBD') || label.includes('·') || label.includes('Best') ? '#aaa' : '#1a1a1a',
+        color: label.startsWith('TBD') || label.includes('·') || label.includes('Best') ? 'var(--gray-400)' : 'var(--gray-900)',
         fontStyle: label.includes('·') || label.includes('Best') ? 'italic' : 'normal',
         whiteSpace: 'nowrap',
         overflow: 'hidden',
@@ -108,15 +108,15 @@ export default function Bracket() {
       {/* Header */}
       <div style={{ textAlign: 'center', marginBottom: 28 }}>
         <h1 style={{
-          fontFamily: 'Georgia, serif',
+          fontFamily: 'var(--font-serif)',
           fontSize: 28,
           fontWeight: 500,
-          color: '#1a1a1a',
+          color: 'var(--gray-900)',
           margin: '0 0 4px',
         }}>
           Tournament Bracket
         </h1>
-        <p style={{ fontSize: 13, color: '#888', margin: 0 }}>
+        <p style={{ fontSize: 13, color: 'var(--gray-500)', margin: 0 }}>
           Knockout stage begins July 1 · 32 teams advance from the group stage
         </p>
       </div>
@@ -138,8 +138,8 @@ export default function Bracket() {
           { label: '= 32 teams', note: 'Enter the Round of 32' },
         ].map(({ label, note }) => (
           <div key={label}>
-            <div style={{ fontSize: 14, fontWeight: 600, color: '#1a1a1a' }}>{label}</div>
-            <div style={{ fontSize: 11, color: '#888' }}>{note}</div>
+            <div style={{ fontSize: 14, fontWeight: 600, color: 'var(--gray-900)' }}>{label}</div>
+            <div style={{ fontSize: 11, color: 'var(--gray-500)' }}>{note}</div>
           </div>
         ))}
       </div>
@@ -155,7 +155,7 @@ export default function Bracket() {
         <div style={{
           display: 'flex',
           borderBottom: '1px solid #f0f0f0',
-          background: '#fafafa',
+          background: 'var(--gray-50)',
         }}>
           {ROUNDS.map(r => (
             <div key={r.id} style={{
@@ -164,8 +164,8 @@ export default function Bracket() {
               borderRight: '1px solid #f0f0f0',
               textAlign: 'center',
             }}>
-              <div style={{ fontSize: 11, fontWeight: 600, color: '#1a1a1a' }}>{r.label}</div>
-              <div style={{ fontSize: 10, color: '#aaa', marginTop: 2 }}>{r.dates}</div>
+              <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--gray-900)' }}>{r.label}</div>
+              <div style={{ fontSize: 10, color: 'var(--gray-400)', marginTop: 2 }}>{r.dates}</div>
             </div>
           ))}
         </div>
@@ -207,7 +207,7 @@ export default function Bracket() {
 
             {/* Connector */}
             <div style={{ width: 12, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <div style={{ width: 1, height: '100%', background: '#e8e8e8' }} />
+              <div style={{ width: 1, height: '100%', background: 'var(--gray-200)' }} />
             </div>
 
             {/* R16 */}
@@ -224,7 +224,7 @@ export default function Bracket() {
             </div>
 
             <div style={{ width: 12, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <div style={{ width: 1, height: '100%', background: '#e8e8e8' }} />
+              <div style={{ width: 1, height: '100%', background: 'var(--gray-200)' }} />
             </div>
 
             {/* QF */}
@@ -241,7 +241,7 @@ export default function Bracket() {
             </div>
 
             <div style={{ width: 12, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <div style={{ width: 1, height: '100%', background: '#e8e8e8' }} />
+              <div style={{ width: 1, height: '100%', background: 'var(--gray-200)' }} />
             </div>
 
             {/* SF */}
@@ -258,7 +258,7 @@ export default function Bracket() {
             </div>
 
             <div style={{ width: 12, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <div style={{ width: 1, height: '100%', background: '#e8e8e8' }} />
+              <div style={{ width: 1, height: '100%', background: 'var(--gray-200)' }} />
             </div>
 
             {/* Final */}
@@ -275,7 +275,7 @@ export default function Bracket() {
                   fontWeight: 700,
                   letterSpacing: '0.1em',
                   textTransform: 'uppercase',
-                  color: '#888',
+                  color: 'var(--gray-500)',
                   marginBottom: 6,
                   textAlign: 'center',
                 }}>
@@ -300,8 +300,8 @@ export default function Bracket() {
         gap: 16,
       }}>
         <div>
-          <div style={{ fontSize: 11, fontWeight: 600, color: '#1a1a1a' }}>3rd Place Match · Jul 22</div>
-          <div style={{ fontSize: 11, color: '#aaa', marginTop: 4, fontStyle: 'italic' }}>TBD vs TBD · MetLife Stadium, East Rutherford</div>
+          <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--gray-900)' }}>3rd Place Match · Jul 22</div>
+          <div style={{ fontSize: 11, color: 'var(--gray-400)', marginTop: 4, fontStyle: 'italic' }}>TBD vs TBD · MetLife Stadium, East Rutherford</div>
         </div>
       </div>
     </div>
