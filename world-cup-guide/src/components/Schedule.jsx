@@ -228,7 +228,7 @@ export default function Schedule({ teams, onSelectTeam }) {
 function MatchCard({ match, onSelectTeam, isPast }) {
   const { time, group, home, away, city } = match
   return (
-    <div style={{
+    <div className="match-card" style={{
       background: 'white',
       borderRadius: 8,
       padding: '10px 14px',
@@ -264,9 +264,9 @@ function MatchCard({ match, onSelectTeam, isPast }) {
       </div>
 
       {/* Teams */}
-      <div style={{ display: 'flex', alignItems: 'center' }}>
+      <div className="match-teams" style={{ display: 'flex', alignItems: 'center' }}>
         <TeamChip team={home} align="right" onSelectTeam={onSelectTeam} />
-        <div style={{
+        <div className="match-vs" style={{
           padding: '0 8px',
           fontSize: 11,
           fontWeight: 600,
@@ -280,7 +280,7 @@ function MatchCard({ match, onSelectTeam, isPast }) {
       </div>
 
       {/* City */}
-      <div style={{ textAlign: 'center' }}>
+      <div className="match-city" style={{ textAlign: 'center' }}>
         <div style={{
           fontSize: 10,
           color: 'var(--gray-400)',
@@ -304,6 +304,7 @@ function TeamChip({ team, align, onSelectTeam }) {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       title="View team guide"
+      className="team-chip"
       style={{
         flex: 1,
         display: 'flex',

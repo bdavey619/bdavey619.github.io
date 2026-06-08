@@ -152,14 +152,14 @@ export default function TeamPageTwo({ team }) {
       </div>
 
       {/* 3. MAIN BODY */}
-      <div style={{
+      <div className="team-body-grid-p2" style={{
         display: 'grid',
         gridTemplateColumns: '1fr 228px',
         minHeight: 400,
       }}>
 
         {/* LEFT — PitchDiagram */}
-        <div style={{
+        <div className="team-left-col-p2" style={{
           padding: '1rem 1.2rem 1rem 1.5rem',
           borderRight: '0.5px solid #e0e0e0',
         }}>

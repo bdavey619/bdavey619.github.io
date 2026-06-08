@@ -46,3 +46,33 @@ body {
   scrollbar-width: none;
 }
 .scroll-x::-webkit-scrollbar { display: none; }
+
+/* ─── Mobile responsive ─────────────────────────────── */
+@media (max-width: 520px) {
+  /* Schedule: drop city column, stack teams vertically */
+  .match-card { grid-template-columns: 52px 1fr !important; }
+  .match-city { display: none !important; }
+  .match-teams { flex-direction: column !important; gap: 0 !important; align-items: stretch !important; }
+  .team-chip { justify-content: flex-start !important; flex-direction: row !important; text-align: left !important; }
+  .match-vs { display: none !important; }
+
+  /* Team guide: stack two-column body */
+  .team-body-grid { grid-template-columns: 1fr !important; }
+  .team-left-col  { border-right: none !important; }
+  .team-right-col { border-top: 0.5px solid var(--gray-200); }
+
+  /* Shrink oversized country name */
+  .team-name-xl { font-size: 28px !important; line-height: 1.1 !important; }
+
+  /* TeamPageTwo: stack pitch + schedule to single column */
+  .team-body-grid-p2 { grid-template-columns: 1fr !important; }
+  .team-left-col-p2  { border-right: none !important; border-bottom: 0.5px solid var(--gray-200); }
+
+  /* Tighten all-time record stat dividers */
+  .record-divider { margin: 0 8px !important; }
+
+  /* Team cards row: scrollable, don't squish */
+  .team-cards-row { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; flex-wrap: nowrap !important; }
+  .team-cards-row::-webkit-scrollbar { display: none; }
+  .team-card { min-width: 100px !important; flex: 0 0 auto !important; }
+}

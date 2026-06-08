@@ -168,7 +168,7 @@ export default function App() {
           background: 'white',
           borderBottom: '1px solid #e0e0e0',
         }}>
-          <div style={{
+          <div className="team-cards-row" style={{
             maxWidth: 680,
             margin: '0 auto',
             padding: '8px 16px',
@@ -179,6 +179,7 @@ export default function App() {
               const isSelected = t.id === selectedTeamId
               return (
                 <div
+                  className="team-card"
                   key={t.id}
                   onClick={() => setSelectedTeamId(t.id)}
                   style={{

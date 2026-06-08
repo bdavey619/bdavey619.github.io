@@ -86,7 +86,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
             fontWeight: 500,
             color: 'var(--gray-900)',
             lineHeight: 1,
-          }}>
+          }} className="team-name-xl">
             {name}
           </div>
           <div style={{
@@ -144,7 +144,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
       </div>
 
       {/* 4. MAIN BODY */}
-      <div style={{
+      <div className="team-body-grid" style={{
         display: 'grid',
         gridTemplateColumns: '1fr minmax(0, 240px)',
         border: '0.5px solid var(--gray-200)',
@@ -153,7 +153,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
       }}>
 
         {/* LEFT COLUMN */}
-        <div style={{ borderRight: '0.5px solid var(--gray-200)' }}>
+        <div className="team-left-col" style={{ borderRight: '0.5px solid var(--gray-200)' }}>
 
           {/* KEY PLAYERS */}
           <div style={{ padding: '1.1rem 1.4rem 1rem', borderBottom: '0.5px solid var(--gray-200)' }}>
@@ -322,7 +322,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
         </div>
 
         {/* RIGHT COLUMN */}
-        <div style={{ display: 'flex', flexDirection: 'column' }}>
+        <div className="team-right-col" style={{ display: 'flex', flexDirection: 'column' }}>
 
           {/* FOOTBALL IDENTITY */}
           <div style={{ flex: 1, padding: '1.1rem 1.2rem', borderBottom: '0.5px solid var(--gray-200)' }}>
@@ -474,7 +474,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
           ].map(({ label, value }, i) => (
             <div key={label} style={{ display: 'flex', alignItems: 'center' }}>
               {i > 0 && (
-                <div style={{
+                <div className="record-divider" style={{
                   width: '0.5px',
                   height: 24,
                   background: 'var(--gray-200)',
