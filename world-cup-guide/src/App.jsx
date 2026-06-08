@@ -4,6 +4,9 @@ import TeamPageTwo from './components/TeamPageTwo'
 import Overview from './components/Overview'
 import Storylines from './components/Storylines'
 import DreamTeam from './components/DreamTeam'
+import Schedule from './components/Schedule'
+import Homepage from './components/Homepage'
+import Bracket from './components/Bracket'
 import './App.css'
 
 const teamModules = import.meta.glob('./data/teams/*.json', { eager: true })
@@ -22,9 +25,10 @@ function firstInGroup(group) {
 }
 
 export default function App() {
+  const [entered, setEntered] = useState(false)
   const [activeGroup, setActiveGroup] = useState('I')
   const [selectedTeamId, setSelectedTeamId] = useState('france')
-  const [activeView, setActiveView] = useState('guide')
+  const [activeView, setActiveView] = useState('schedule')
 
   const selectedTeam = teams.find(t => t.id === selectedTeamId) ?? teams[0]
   const groupTeams = teams.filter(t => t.meta.group === activeGroup)
@@ -41,28 +45,50 @@ export default function App() {
     setActiveView('guide')
   }
 
+  if (!entered) return <Homepage onEnter={() => setEntered(true)} />
+
   return (
-    <div>
+    <div style={{ fontFamily: 'var(--font-serif)' }}>
       {/* ── TOP NAV ──────────────────────────────────────── */}
       <div style={{
-        background: '#f5f5f5',
-        borderBottom: '1px solid #e0e0e0',
+        background: 'white',
+        borderBottom: '1px solid var(--gray-200)',
+        position: 'sticky',
+        top: 0,
+        zIndex: 100,
       }}>
         <div style={{
           maxWidth: 680,
           margin: '0 auto',
-          padding: '12px 16px',
+          padding: '10px 16px',
           display: 'flex',
-          justifyContent: 'space-between',
           alignItems: 'center',
+          gap: 12,
         }}>
-          <span style={{ fontSize: 15, fontWeight: 600, color: '#1a1a1a' }}>
-            2026 World Cup Guide
-          </span>
-          <div style={{ display: 'flex', gap: 6 }}>
+          <button
+            onClick={() => setEntered(false)}
+            style={{
+              background: 'none',
+              border: 'none',
+              cursor: 'pointer',
+              padding: 0,
+              fontFamily: 'var(--font-serif)',
+              fontSize: 14,
+              fontWeight: 700,
+              color: 'var(--gray-900)',
+              letterSpacing: '-0.01em',
+              whiteSpace: 'nowrap',
+              flexShrink: 0,
+            }}
+          >
+            2026 WC
+          </button>
+          <div className="scroll-x" style={{ display: 'flex', gap: 5, flex: 1 }}>
             {[
+              { id: 'schedule', label: 'Schedule' },
               { id: 'guide', label: 'Guide' },
               { id: 'overview', label: 'Overview' },
+              { id: 'bracket', label: 'Bracket' },
               { id: 'storylines', label: 'Storylines' },
               { id: 'dreamteam', label: 'Dream Team' },
             ].map(({ id, label }) => (
@@ -70,14 +96,18 @@ export default function App() {
                 key={id}
                 onClick={() => setActiveView(id)}
                 style={{
-                  background: activeView === id ? '#1a1a1a' : 'white',
-                  color: activeView === id ? 'white' : '#1a1a1a',
-                  border: activeView === id ? 'none' : '1px solid #d0d0d0',
+                  background: activeView === id ? 'var(--gray-900)' : 'transparent',
+                  color: activeView === id ? 'white' : 'var(--gray-500)',
+                  border: activeView === id ? 'none' : '1px solid transparent',
                   borderRadius: 20,
-                  padding: '6px 16px',
+                  padding: '5px 13px',
                   fontSize: 13,
                   cursor: 'pointer',
-                  fontFamily: 'inherit',
+                  fontFamily: 'var(--font-sans)',
+                  fontWeight: activeView === id ? 600 : 400,
+                  whiteSpace: 'nowrap',
+                  flexShrink: 0,
+                  transition: 'all 0.15s',
                 }}
               >
                 {label}
@@ -90,17 +120,15 @@ export default function App() {
       {/* ── GROUP PILLS ──────────────────────────────────── */}
       {activeView === 'guide' && (
         <div style={{
-          background: '#f5f5f5',
-          borderBottom: '1px solid #e0e0e0',
-          padding: '10px 0',
+          background: 'var(--gray-100)',
+          borderBottom: '1px solid var(--gray-200)',
+          padding: '8px 0',
         }}>
-          <div style={{
+          <div className="scroll-x" style={{
             maxWidth: 680,
             margin: '0 auto',
             display: 'flex',
-            justifyContent: 'center',
-            gap: 8,
-            flexWrap: 'wrap',
+            gap: 6,
             padding: '0 16px',
           }}>
             {GROUPS.map(g => {
@@ -188,6 +216,11 @@ export default function App() {
       )}
 
       {/* ── PAGE CONTENT ─────────────────────────────────── */}
+      {activeView === 'schedule' ? (
+        <div style={{ background: '#f5f5f5', minHeight: 'calc(100vh - 100px)' }}>
+          <Schedule teams={teams} onSelectTeam={selectTeam} />
+        </div>
+      ) : (
       <div style={{
         maxWidth: 680,
         margin: '0 auto',
@@ -198,7 +231,7 @@ export default function App() {
         {activeView === 'guide' ? (
           <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
             <div style={{ background: 'white', borderRadius: 8, overflow: 'hidden', boxShadow: '0 1px 3px rgba(0,0,0,0.08)' }}>
-              <TeamPageOne team={selectedTeam} />
+              <TeamPageOne team={selectedTeam} onViewStorylines={() => setActiveView('storylines')} />
             </div>
             <div style={{ background: 'white', borderRadius: 8, overflow: 'hidden', boxShadow: '0 1px 3px rgba(0,0,0,0.08)' }}>
               <TeamPageTwo team={selectedTeam} />
@@ -206,12 +239,15 @@ export default function App() {
           </div>
         ) : activeView === 'overview' ? (
           <Overview teams={teams} groups={GROUPS} onSelectTeam={selectTeam} />
+        ) : activeView === 'bracket' ? (
+          <Bracket />
         ) : activeView === 'storylines' ? (
           <Storylines />
         ) : (
           <DreamTeam />
         )}
       </div>
+      )}
     </div>
   )
 }

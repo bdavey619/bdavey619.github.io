@@ -33,7 +33,7 @@ export default function Overview({ teams, groups, onSelectTeam }) {
 
       <div style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(3, 1fr)',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
         gap: 16,
       }}>
         {groups.map(g => {

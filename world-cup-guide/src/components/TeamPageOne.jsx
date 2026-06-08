@@ -1,11 +1,28 @@
-export default function TeamPageOne({ team }) {
+import { storylines } from '../data/storylines.js'
+
+export default function TeamPageOne({ team, onViewStorylines }) {
   const {
     accentColor, name, nickname, meta, narrative,
     keyPlayers, tactics, watchFor, allTimeRecord,
   } = team
 
-  const muted = '#888'
-  const serif = '"Georgia", "Times New Roman", Times, serif'
+  const muted = 'var(--gray-500)'
+  const serif = 'var(--font-serif)'
+
+  function hexToRgba(hex, alpha) {
+    const r = parseInt(hex.slice(1, 3), 16)
+    const g = parseInt(hex.slice(3, 5), 16)
+    const b = parseInt(hex.slice(5, 7), 16)
+    return `rgba(${r},${g},${b},${alpha})`
+  }
+
+  // Derive a readable dark tone from accent for text-on-tint use
+  function darkenForText(hex) {
+    const r = Math.max(0, parseInt(hex.slice(1, 3), 16) - 60)
+    const g = Math.max(0, parseInt(hex.slice(3, 5), 16) - 60)
+    const b = Math.max(0, parseInt(hex.slice(5, 7), 16) - 60)
+    return `rgb(${r},${g},${b})`
+  }
 
   const SectionLabel = ({ label }) => (
     <div style={{ display: 'flex', alignItems: 'center', gap: 7, marginBottom: 8 }}>
@@ -47,7 +64,9 @@ export default function TeamPageOne({ team }) {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'flex-start',
-        borderBottom: '0.5px solid #e0e0e0',
+        borderBottom: '0.5px solid var(--gray-200)',
+        flexWrap: 'wrap',
+        gap: '0.5rem',
       }}>
         {/* Left */}
         <div>
@@ -113,13 +132,13 @@ export default function TeamPageOne({ team }) {
 
       {/* 3. ESSENCE PANEL */}
       <div style={{
-        background: '#E6F1FB',
+        background: hexToRgba(accentColor, 0.08),
         borderLeft: `3px solid ${accentColor}`,
         padding: '0.9rem 1.5rem',
-        fontSize: 13.5,
+        fontSize: 13,
         fontStyle: 'italic',
-        lineHeight: 1.75,
-        color: '#0C447C',
+        lineHeight: 1.8,
+        color: darkenForText(accentColor),
       }}>
         {narrative.essence}
       </div>
@@ -127,8 +146,8 @@ export default function TeamPageOne({ team }) {
       {/* 4. MAIN BODY */}
       <div style={{
         display: 'grid',
-        gridTemplateColumns: '1fr 268px',
-        border: '0.5px solid #e0e0e0',
+        gridTemplateColumns: '1fr minmax(0, 240px)',
+        border: '0.5px solid var(--gray-200)',
         borderTop: 'none',
         borderBottom: 'none',
       }}>
@@ -366,7 +385,69 @@ export default function TeamPageOne({ team }) {
         </div>
       </div>
 
-      {/* 5. ALL-TIME RECORD STRIP */}
+      {/* 5. STORYLINE CALLOUT */}
+      {(() => {
+        const teamStorylines = storylines.filter(s => s.teams.includes(name))
+        if (!teamStorylines.length) return null
+        return (
+          <div style={{ borderTop: '0.5px solid #e0e0e0' }}>
+            {teamStorylines.map(s => (
+              <div
+                key={s.id}
+                onClick={onViewStorylines}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: 12,
+                  padding: '10px 1.5rem',
+                  cursor: 'pointer',
+                  background: '#fafafa',
+                  borderLeft: `3px solid ${s.accentColor}`,
+                  transition: 'background 0.15s',
+                }}
+                onMouseEnter={e => e.currentTarget.style.background = '#f0f0f0'}
+                onMouseLeave={e => e.currentTarget.style.background = '#fafafa'}
+              >
+                <div style={{ flex: 1 }}>
+                  <div style={{
+                    fontSize: 9,
+                    fontWeight: 700,
+                    letterSpacing: '0.1em',
+                    textTransform: 'uppercase',
+                    color: s.accentColor,
+                    marginBottom: 2,
+                    fontFamily: 'sans-serif',
+                    fontStyle: 'normal',
+                  }}>
+                    Featured Storyline · {s.type}
+                  </div>
+                  <div style={{
+                    fontSize: 13,
+                    fontWeight: 500,
+                    color: '#1a1a1a',
+                    fontFamily: 'sans-serif',
+                    fontStyle: 'normal',
+                  }}>
+                    {s.headline}
+                  </div>
+                  <div style={{
+                    fontSize: 11,
+                    color: '#888',
+                    marginTop: 1,
+                    fontFamily: 'sans-serif',
+                    fontStyle: 'normal',
+                  }}>
+                    {s.subheadline}
+                  </div>
+                </div>
+                <div style={{ fontSize: 12, color: '#bbb', fontFamily: 'sans-serif', fontStyle: 'normal' }}>→</div>
+              </div>
+            ))}
+          </div>
+        )
+      })()}
+
+      {/* 6. ALL-TIME RECORD STRIP */}
       <div style={{
         borderTop: '0.5px solid #e0e0e0',
         padding: '0.7rem 1.5rem',

@@ -7,7 +7,11 @@
   "meta": {
     "fifaRanking": 66,
     "group": "I",
-    "groupOpponents": ["France", "Norway", "Senegal"],
+    "groupOpponents": [
+      "France",
+      "Norway",
+      "Senegal"
+    ],
     "oddsToWin": "+10000",
     "impliedProbability": "~1%",
     "lastWCResult": "Groups '86",
@@ -52,7 +56,12 @@
     }
   ],
   "tactics": {
-    "styleTags": ["Organized", "Physical", "Direct", "Passionate"],
+    "styleTags": [
+      "Organized",
+      "Physical",
+      "Direct",
+      "Passionate"
+    ],
     "tacticalNote": "Jesús Casas has given Iraq a structured approach that prioritizes defensive organization while preserving enough attacking threat to make opponents work. The 4-3-3 is compact without the ball and direct when in possession — Iraq won't try to out-possess France or Norway, but they will be organized, physical, and capable of winning set-piece situations. The key to any Iraq progress is surviving the first two games without humiliation and then beating Senegal in the final match — the only realistic path to any points.",
     "strength": "Iraq's defensive organization under Casas has improved dramatically, and their passion and fighting spirit creates an intensity that can disrupt the rhythm of better technical teams.",
     "vulnerability": "Against France and Norway's quality in midfield and attack, Iraq will face sustained pressure they've rarely experienced in AFC qualification — the gap in technical quality across the team is significant."
@@ -63,12 +72,38 @@
     "The emotion of the occasion — Iraq players returning to a World Cup for the first time in 40 years will play with extraordinary motivation"
   ],
   "schedule": [
-    { "date": "Jun 16", "time": "6PM ET", "opponent": "Norway", "venue": "Gillette Stadium", "city": "Foxborough, MA", "isAway": false },
-    { "date": "Jun 22", "time": "5PM ET", "opponent": "France", "venue": "Lincoln Financial Field", "city": "Philadelphia", "isAway": true },
-    { "date": "Jun 26", "time": "3PM ET", "opponent": "Senegal", "venue": "BMO Field", "city": "Toronto", "isAway": true }
+    {
+      "date": "Jun 16",
+      "time": "6PM ET",
+      "opponent": "Norway",
+      "venue": "Gillette Stadium",
+      "city": "Foxborough, MA",
+      "isAway": true
+    },
+    {
+      "date": "Jun 22",
+      "time": "5PM ET",
+      "opponent": "France",
+      "venue": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "isAway": true
+    },
+    {
+      "date": "Jun 26",
+      "time": "3PM ET",
+      "opponent": "Senegal",
+      "venue": "BMO Field",
+      "city": "Toronto",
+      "isAway": true
+    }
   ],
   "history": [
-    { "year": 1986, "host": "Mexico", "result": "Groups", "tier": "early" }
+    {
+      "year": 1986,
+      "host": "Mexico",
+      "result": "Groups",
+      "tier": "early"
+    }
   ],
   "allTimeRecord": {
     "played": 3,
@@ -83,17 +118,116 @@
   },
   "pitch": {
     "players": [
-      { "name": "Jalal Hassan", "shortName": "J. Hassan", "position": "GK", "role": "gk", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 56 },
-      { "name": "Samer Saeed", "shortName": "S. Saeed", "position": "RB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 148 },
-      { "name": "Alaa Abbas", "shortName": "A. Abbas", "position": "RCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 293, "y": 148 },
-      { "name": "Rebin Sulaka", "shortName": "Sulaka", "position": "LCB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 161, "y": 148 },
-      { "name": "Ali Adnan", "shortName": "Ali Adnan", "position": "LB", "role": "def", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 148 },
-      { "name": "Ahmad Yasin", "shortName": "Yasin", "position": "RCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 348, "y": 244 },
-      { "name": "Amjad Attwan", "shortName": "Attwan", "position": "CM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 226, "y": 236 },
-      { "name": "Saad Abdul Amir", "shortName": "Abdul Amir", "position": "LCM", "role": "mid", "isKeyPlayer": false, "isCaptain": false, "x": 104, "y": 244 },
-      { "name": "Mohanad Ali", "shortName": "M. Ali", "position": "RW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 389, "y": 362 },
-      { "name": "Aymen Hussein", "shortName": "Hussein", "position": "ST", "role": "att", "isKeyPlayer": true, "isCaptain": true, "x": 226, "y": 372 },
-      { "name": "Dhurgham Ismail", "shortName": "Ismail", "position": "LW", "role": "att", "isKeyPlayer": false, "isCaptain": false, "x": 63, "y": 362 }
+      {
+        "name": "Jalal Hassan",
+        "shortName": "J. Hassan",
+        "position": "GK",
+        "role": "gk",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 56
+      },
+      {
+        "name": "Samer Saeed",
+        "shortName": "S. Saeed",
+        "position": "RB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 148
+      },
+      {
+        "name": "Alaa Abbas",
+        "shortName": "A. Abbas",
+        "position": "RCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 293,
+        "y": 148
+      },
+      {
+        "name": "Rebin Sulaka",
+        "shortName": "Sulaka",
+        "position": "LCB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 161,
+        "y": 148
+      },
+      {
+        "name": "Ali Adnan",
+        "shortName": "Ali Adnan",
+        "position": "LB",
+        "role": "def",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 148
+      },
+      {
+        "name": "Ahmad Yasin",
+        "shortName": "Yasin",
+        "position": "RCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 348,
+        "y": 244
+      },
+      {
+        "name": "Amjad Attwan",
+        "shortName": "Attwan",
+        "position": "CM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 226,
+        "y": 236
+      },
+      {
+        "name": "Saad Abdul Amir",
+        "shortName": "Abdul Amir",
+        "position": "LCM",
+        "role": "mid",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 104,
+        "y": 244
+      },
+      {
+        "name": "Mohanad Ali",
+        "shortName": "M. Ali",
+        "position": "RW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 389,
+        "y": 362
+      },
+      {
+        "name": "Aymen Hussein",
+        "shortName": "Hussein",
+        "position": "ST",
+        "role": "att",
+        "isKeyPlayer": true,
+        "isCaptain": true,
+        "x": 226,
+        "y": 372
+      },
+      {
+        "name": "Dhurgham Ismail",
+        "shortName": "Ismail",
+        "position": "LW",
+        "role": "att",
+        "isKeyPlayer": false,
+        "isCaptain": false,
+        "x": 63,
+        "y": 362
+      }
     ]
   }
 }
