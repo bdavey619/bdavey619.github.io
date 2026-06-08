@@ -80,7 +80,9 @@ function groupByDate(matches) {
 export default function Schedule({ teams, onSelectTeam }) {
   const allMatches = buildMatches(teams)
   const [activeGroup, setActiveGroup] = useState('ALL')
+  const [showTodayBtn, setShowTodayBtn] = useState(false)
   const dateRefs = useRef({})
+  const todayTargetRef = useRef(null)
   const todayKey = getTodayKey()
 
   const filtered = activeGroup === 'ALL'
@@ -94,6 +96,7 @@ export default function Schedule({ teams, onSelectTeam }) {
   useEffect(() => {
     const todayIdx = DATE_TO_NUM[todayKey] ?? -1
     const target = dates.find(d => DATE_TO_NUM[d] >= todayIdx) ?? dates[0]
+    todayTargetRef.current = target
     if (target && dateRefs.current[target]) {
       setTimeout(() => {
         dateRefs.current[target]?.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -101,8 +104,29 @@ export default function Schedule({ teams, onSelectTeam }) {
     }
   }, [activeGroup])
 
+  // Show "Today" button when today's section scrolls out of view
+  useEffect(() => {
+    const target = todayTargetRef.current
+    const el = target && dateRefs.current[target]
+    if (!el) return
+    const observer = new IntersectionObserver(
+      ([entry]) => setShowTodayBtn(!entry.isIntersecting),
+      { threshold: 0, rootMargin: '-60px 0px 0px 0px' }
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [activeGroup, dates.length])
+
+  function scrollToToday() {
+    const target = todayTargetRef.current
+    if (target && dateRefs.current[target]) {
+      dateRefs.current[target].scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+    setShowTodayBtn(false)
+  }
+
   return (
-    <div>
+    <div style={{ position: 'relative' }}>
       {/* Group filter — horizontal scroll, no wrap */}
       <div style={{
         background: 'white',
@@ -221,6 +245,36 @@ export default function Schedule({ teams, onSelectTeam }) {
           )
         })}
       </div>
+
+      {/* Floating "Today" button — appears when today's section is off-screen */}
+      {showTodayBtn && (
+        <div style={{
+          position: 'fixed',
+          bottom: 28,
+          left: '50%',
+          transform: 'translateX(-50%)',
+          zIndex: 50,
+        }}>
+          <button
+            onClick={scrollToToday}
+            style={{
+              background: 'var(--gray-900)',
+              color: 'white',
+              border: 'none',
+              borderRadius: 24,
+              padding: '11px 22px',
+              fontSize: 13,
+              fontWeight: 600,
+              cursor: 'pointer',
+              fontFamily: 'var(--font-sans)',
+              boxShadow: '0 4px 16px rgba(0,0,0,0.25)',
+              whiteSpace: 'nowrap',
+            }}
+          >
+            Jump to Today ↓
+          </button>
+        </div>
+      )}
     </div>
   )
 }
@@ -249,7 +303,7 @@ function MatchCard({ match, onSelectTeam, isPast }) {
         }}>
           {time.replace(' ET', '')}
         </div>
-        <div style={{
+        <div className="grp-badge" style={{
           fontSize: 10,
           color: 'var(--gray-500)',
           background: 'var(--gray-100)',

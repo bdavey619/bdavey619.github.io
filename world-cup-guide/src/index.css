@@ -47,6 +47,18 @@ body {
 }
 .scroll-x::-webkit-scrollbar { display: none; }
 
+/* Nav right-edge fade — always on, signals scrollability */
+.nav-fade-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 48px;
+  background: linear-gradient(to right, transparent, white);
+  pointer-events: none;
+  z-index: 1;
+}
+
 /* ─── Mobile responsive ─────────────────────────────── */
 @media (max-width: 520px) {
   /* Schedule: drop city column, stack teams vertically */
@@ -56,6 +68,9 @@ body {
   .team-chip { justify-content: flex-start !important; flex-direction: row !important; text-align: left !important; }
   .match-vs { display: none !important; }
 
+  /* Schedule group badge: slightly larger */
+  .grp-badge { font-size: 12px !important; padding: 2px 7px !important; }
+
   /* Team guide: stack two-column body */
   .team-body-grid { grid-template-columns: 1fr !important; }
   .team-left-col  { border-right: none !important; }
@@ -63,6 +78,25 @@ body {
 
   /* Shrink oversized country name */
   .team-name-xl { font-size: 28px !important; line-height: 1.1 !important; }
+
+  /* Stats row: 3-column grid, never wraps */
+  .team-stats-row {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    flex-direction: unset !important;
+    gap: 0 !important;
+    padding-top: 10px !important;
+    border-top: 0.5px solid var(--gray-200) !important;
+    width: 100% !important;
+    padding-bottom: 4px !important;
+  }
+  .team-stats-row > div { text-align: left !important; padding-right: 4px; }
+
+  /* Hide redundant "2026 FIFA WORLD CUP · WATCH GUIDE" label on mobile */
+  .team-page-label { display: none !important; }
+
+  /* Essence quote: slightly larger for readability */
+  .essence-panel { font-size: 15px !important; line-height: 1.7 !important; }
 
   /* TeamPageTwo: stack pitch + schedule to single column */
   .team-body-grid-p2 { grid-template-columns: 1fr !important; }

@@ -298,6 +298,7 @@ export default function Homepage({ onEnter }) {
         borderTop: '1px solid rgba(255,255,255,0.07)',
         overflow: 'hidden',
         padding: '10px 0',
+        paddingBottom: 'calc(10px + env(safe-area-inset-bottom, 0px))',
         background: 'rgba(0,0,0,0.3)',
       }}>
         <style>{`

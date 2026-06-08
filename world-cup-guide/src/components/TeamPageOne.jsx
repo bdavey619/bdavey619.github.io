@@ -70,7 +70,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
       }}>
         {/* Left */}
         <div>
-          <div style={{
+          <div className="team-page-label" style={{
             fontSize: 10,
             color: muted,
             letterSpacing: '0.05em',
@@ -100,7 +100,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
         </div>
 
         {/* Right — three stat blocks */}
-        <div style={{ display: 'flex', flexDirection: 'row', gap: 20, paddingTop: 6 }}>
+        <div className="team-stats-row" style={{ display: 'flex', flexDirection: 'row', gap: 20, paddingTop: 6 }}>
           {[
             { label: 'FIFA RANKING', value: `#${meta.fifaRanking}` },
             { label: 'LAST WC RESULT', value: meta.lastWCResult },
@@ -131,7 +131,7 @@ export default function TeamPageOne({ team, onViewStorylines }) {
       </div>
 
       {/* 3. ESSENCE PANEL */}
-      <div style={{
+      <div className="essence-panel" style={{
         background: hexToRgba(accentColor, 0.08),
         borderLeft: `3px solid ${accentColor}`,
         padding: '0.9rem 1.5rem',

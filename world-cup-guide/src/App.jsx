@@ -83,7 +83,8 @@ export default function App() {
           >
             2026 WC
           </button>
-          <div className="scroll-x" style={{ display: 'flex', gap: 5, flex: 1 }}>
+          <div style={{ position: 'relative', flex: 1, minWidth: 0 }}>
+          <div className="scroll-x" style={{ display: 'flex', gap: 5 }}>
             {[
               { id: 'schedule', label: 'Schedule' },
               { id: 'guide', label: 'Guide' },
@@ -113,6 +114,8 @@ export default function App() {
                 {label}
               </button>
             ))}
+          </div>
+          <div className="nav-fade-right" />
           </div>
         </div>
       </div>
