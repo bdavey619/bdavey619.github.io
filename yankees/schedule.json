@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-06",
   "division_name": "AL East",
-  "generated_at": "2026-06-08T14:50:16.439162+00:00",
+  "generated_at": "2026-06-09T13:45:34.621913+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -61,19 +61,17 @@
       "gamePk": 823537,
       "status": "final",
       "result": "W",
-      "score": "6\u20131"
+      "score": "6\u20131",
+      "archive_url": "archive.html?date=2026-06-08"
     },
     {
       "date": "2026-06-08",
       "opponent": "CLE",
       "home": false,
       "gamePk": 824427,
-      "status": "scheduled",
-      "time_local": "6:40 PM ET",
-      "probable": {
-        "team": "Will Warren",
-        "opp": "Gavin Williams"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "7\u20135"
     },
     {
       "date": "2026-06-09",
@@ -245,8 +243,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20134",
-    "current_streak": "W1",
+    "month_record": "3\u20134",
+    "current_streak": "W2",
     "last_10": "6\u20134"
   }
 }
