@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-09T14:53:55.403684+00:00",
+  "generated_at": "2026-06-10T15:37:29.408724+00:00",
   "games": [
     {
       "date": "2026-06-01",
@@ -81,19 +81,17 @@
       "gamePk": 823218,
       "status": "final",
       "result": "L",
-      "score": "3\u20134"
+      "score": "3\u20134",
+      "archive_url": "archive.html?date=2026-06-09"
     },
     {
       "date": "2026-06-09",
       "opponent": "WSH",
       "home": true,
       "gamePk": 823214,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "team": "Adrian Houser",
-        "opp": "Andrew Alvarez"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20136"
     },
     {
       "date": "2026-06-10",
@@ -245,8 +243,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u20134",
-    "current_streak": "L1",
+    "month_record": "4\u20135",
+    "current_streak": "L2",
     "last_10": "5\u20135"
   }
 }
