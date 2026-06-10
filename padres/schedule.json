@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-09T13:21:52.420816+00:00",
+  "generated_at": "2026-06-10T13:53:31.243300+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -72,19 +72,17 @@
       "gamePk": 823289,
       "status": "final",
       "result": "W",
-      "score": "6\u20132"
+      "score": "6\u20132",
+      "archive_url": "archive.html?date=2026-06-09"
     },
     {
       "date": "2026-06-09",
       "opponent": "CIN",
       "home": true,
       "gamePk": 823290,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Lucas Giolito",
-        "opp": "Chase Burns"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20135"
     },
     {
       "date": "2026-06-10",
@@ -104,7 +102,10 @@
       "home": false,
       "gamePk": 824826,
       "status": "scheduled",
-      "time_local": "4:05 PM PT"
+      "time_local": "4:05 PM PT",
+      "probable": {
+        "team": "Griffin Canning"
+      }
     },
     {
       "date": "2026-06-13",
@@ -112,7 +113,10 @@
       "home": false,
       "gamePk": 824828,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "team": "Randy V\u00e1squez"
+      }
     },
     {
       "date": "2026-06-14",
@@ -120,7 +124,10 @@
       "home": false,
       "gamePk": 824823,
       "status": "scheduled",
-      "time_local": "10:35 AM PT"
+      "time_local": "10:35 AM PT",
+      "probable": {
+        "team": "Walker Buehler"
+      }
     },
     {
       "date": "2026-06-15",
@@ -236,8 +243,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20135",
-    "current_streak": "W1",
-    "last_10": "3\u20137"
+    "month_record": "2\u20136",
+    "current_streak": "L1",
+    "last_10": "2\u20138"
   }
 }
