@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-06",
   "division_name": "AL West",
-  "generated_at": "2026-06-09T15:41:53.123036+00:00",
+  "generated_at": "2026-06-10T16:23:28.845251+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -72,19 +72,17 @@
       "gamePk": 824998,
       "status": "final",
       "result": "L",
-      "score": "14\u201315"
+      "score": "14\u201315",
+      "archive_url": "archive.html?date=2026-06-09"
     },
     {
       "date": "2026-06-09",
       "opponent": "MIL",
       "home": true,
       "gamePk": 824999,
-      "status": "scheduled",
-      "time_local": "7:05 PM PT",
-      "probable": {
-        "team": "J.T. Ginn",
-        "opp": "Robert Gasser"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "7\u20135"
     },
     {
       "date": "2026-06-10",
@@ -94,7 +92,8 @@
       "status": "scheduled",
       "time_local": "6:05 PM PT",
       "probable": {
-        "team": "Jack Perkins"
+        "team": "Jack Perkins",
+        "opp": "Brandon Sproat"
       }
     },
     {
@@ -243,8 +242,8 @@
     }
   ],
   "summary": {
-    "month_record": "3\u20134",
-    "current_streak": "L1",
-    "last_10": "4\u20136"
+    "month_record": "4\u20134",
+    "current_streak": "W1",
+    "last_10": "5\u20135"
   }
 }
