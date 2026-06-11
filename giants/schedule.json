@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-10T15:37:29.408724+00:00",
+  "generated_at": "2026-06-11T16:04:12.674110+00:00",
   "games": [
     {
       "date": "2026-06-01",
@@ -91,19 +91,17 @@
       "gamePk": 823214,
       "status": "final",
       "result": "L",
-      "score": "3\u20136"
+      "score": "3\u20136",
+      "archive_url": "archive.html?date=2026-06-10"
     },
     {
       "date": "2026-06-10",
       "opponent": "WSH",
       "home": true,
       "gamePk": 823215,
-      "status": "scheduled",
-      "time_local": "12:45 PM PT",
-      "probable": {
-        "team": "Robbie Ray",
-        "opp": "Foster Griffin"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "11\u201310"
     },
     {
       "date": "2026-06-12",
@@ -243,8 +241,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u20135",
-    "current_streak": "L2",
+    "month_record": "5\u20135",
+    "current_streak": "W1",
     "last_10": "5\u20135"
   }
 }
