@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-06",
   "division_name": "AL East",
-  "generated_at": "2026-06-10T14:26:09.288340+00:00",
+  "generated_at": "2026-06-11T14:42:38.992156+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -88,12 +88,10 @@
       "opponent": "CLE",
       "home": false,
       "gamePk": 824428,
-      "status": "scheduled",
-      "time_local": "1:10 PM ET",
-      "probable": {
-        "team": "Carlos Rod\u00f3n",
-        "opp": "Parker Messick"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "8\u20134",
+      "archive_url": "archive.html?date=2026-06-10"
     },
     {
       "date": "2026-06-12",
@@ -101,7 +99,10 @@
       "home": false,
       "gamePk": 822803,
       "status": "scheduled",
-      "time_local": "7:37 PM ET"
+      "time_local": "7:37 PM ET",
+      "probable": {
+        "team": "Ryan Weathers"
+      }
     },
     {
       "date": "2026-06-13",
@@ -109,7 +110,10 @@
       "home": false,
       "gamePk": 822802,
       "status": "scheduled",
-      "time_local": "3:07 PM ET"
+      "time_local": "3:07 PM ET",
+      "probable": {
+        "team": "Cam Schlittler"
+      }
     },
     {
       "date": "2026-06-14",
@@ -117,7 +121,10 @@
       "home": false,
       "gamePk": 822801,
       "status": "scheduled",
-      "time_local": "1:37 PM ET"
+      "time_local": "1:37 PM ET",
+      "probable": {
+        "team": "Will Warren"
+      }
     },
     {
       "date": "2026-06-16",
@@ -241,8 +248,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u20134",
-    "current_streak": "W3",
+    "month_record": "5\u20134",
+    "current_streak": "W4",
     "last_10": "6\u20134"
   }
 }
