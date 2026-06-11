@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-10T13:53:31.243300+00:00",
+  "generated_at": "2026-06-11T14:13:57.087466+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -82,19 +82,17 @@
       "gamePk": 823290,
       "status": "final",
       "result": "L",
-      "score": "3\u20135"
+      "score": "3\u20135",
+      "archive_url": "archive.html?date=2026-06-10"
     },
     {
       "date": "2026-06-10",
       "opponent": "CIN",
       "home": true,
       "gamePk": 823287,
-      "status": "scheduled",
-      "time_local": "1:10 PM PT",
-      "probable": {
-        "team": "Michael King",
-        "opp": "Brady Singer"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20134"
     },
     {
       "date": "2026-06-12",
@@ -243,8 +241,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20136",
-    "current_streak": "L1",
-    "last_10": "2\u20138"
+    "month_record": "3\u20136",
+    "current_streak": "W1",
+    "last_10": "3\u20137"
   }
 }
