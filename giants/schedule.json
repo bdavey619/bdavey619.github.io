@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-11T16:04:12.674110+00:00",
+  "generated_at": "2026-06-12T15:17:10.219734+00:00",
   "games": [
     {
       "date": "2026-06-01",
@@ -101,7 +101,8 @@
       "gamePk": 823215,
       "status": "final",
       "result": "W",
-      "score": "11\u201310"
+      "score": "11\u201310",
+      "archive_url": "archive.html?date=2026-06-11"
     },
     {
       "date": "2026-06-12",
@@ -109,7 +110,11 @@
       "home": true,
       "gamePk": 823211,
       "status": "scheduled",
-      "time_local": "7:15 PM PT"
+      "time_local": "7:15 PM PT",
+      "probable": {
+        "team": "Landen Roupp",
+        "opp": "Javier Assad"
+      }
     },
     {
       "date": "2026-06-13",
@@ -117,7 +122,11 @@
       "home": true,
       "gamePk": 823213,
       "status": "scheduled",
-      "time_local": "7:05 PM PT"
+      "time_local": "7:05 PM PT",
+      "probable": {
+        "team": "Trevor McDonald",
+        "opp": "Ben Brown"
+      }
     },
     {
       "date": "2026-06-14",
@@ -125,7 +134,11 @@
       "home": true,
       "gamePk": 823212,
       "status": "scheduled",
-      "time_local": "12:10 PM PT"
+      "time_local": "12:10 PM PT",
+      "probable": {
+        "team": "Logan Webb",
+        "opp": "Colin Rea"
+      }
     },
     {
       "date": "2026-06-16",
@@ -133,7 +146,10 @@
       "home": false,
       "gamePk": 824912,
       "status": "scheduled",
-      "time_local": "4:15 PM PT"
+      "time_local": "4:15 PM PT",
+      "probable": {
+        "opp": "Grant Holmes"
+      }
     },
     {
       "date": "2026-06-17",
