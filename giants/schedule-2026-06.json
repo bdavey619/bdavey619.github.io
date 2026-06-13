@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-12T15:17:10.219734+00:00",
+  "generated_at": "2026-06-13T14:01:56.634308+00:00",
   "games": [
     {
       "date": "2026-06-01",
@@ -109,12 +109,9 @@
       "opponent": "CHC",
       "home": true,
       "gamePk": 823211,
-      "status": "scheduled",
-      "time_local": "7:15 PM PT",
-      "probable": {
-        "team": "Landen Roupp",
-        "opp": "Javier Assad"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20135"
     },
     {
       "date": "2026-06-13",
@@ -257,8 +254,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u20135",
-    "current_streak": "W1",
+    "month_record": "5\u20136",
+    "current_streak": "L1",
     "last_10": "5\u20135"
   }
 }
