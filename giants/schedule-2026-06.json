@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-13T14:01:56.634308+00:00",
+  "generated_at": "2026-06-14T14:05:18.836845+00:00",
   "games": [
     {
       "date": "2026-06-01",
@@ -111,19 +111,17 @@
       "gamePk": 823211,
       "status": "final",
       "result": "L",
-      "score": "1\u20135"
+      "score": "1\u20135",
+      "archive_url": "archive.html?date=2026-06-13"
     },
     {
       "date": "2026-06-13",
       "opponent": "CHC",
       "home": true,
       "gamePk": 823213,
-      "status": "scheduled",
-      "time_local": "7:05 PM PT",
-      "probable": {
-        "team": "Trevor McDonald",
-        "opp": "Ben Brown"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20136"
     },
     {
       "date": "2026-06-14",
@@ -134,7 +132,7 @@
       "time_local": "12:10 PM PT",
       "probable": {
         "team": "Logan Webb",
-        "opp": "Colin Rea"
+        "opp": "Ryan Rolison"
       }
     },
     {
@@ -254,8 +252,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u20136",
-    "current_streak": "L1",
+    "month_record": "5\u20137",
+    "current_streak": "L2",
     "last_10": "5\u20135"
   }
 }
