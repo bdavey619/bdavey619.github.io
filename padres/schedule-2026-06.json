@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-13T12:07:26.278887+00:00",
+  "generated_at": "2026-06-14T12:20:09.697439+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -102,19 +102,17 @@
       "gamePk": 824826,
       "status": "final",
       "result": "L",
-      "score": "3\u20137"
+      "score": "3\u20137",
+      "archive_url": "archive.html?date=2026-06-13"
     },
     {
       "date": "2026-06-13",
       "opponent": "BAL",
       "home": false,
       "gamePk": 824828,
-      "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "team": "Randy V\u00e1squez",
-        "opp": "Trey Gibson"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "9\u20133"
     },
     {
       "date": "2026-06-14",
@@ -145,7 +143,10 @@
       "home": false,
       "gamePk": 823045,
       "status": "scheduled",
-      "time_local": "4:45 PM PT"
+      "time_local": "4:45 PM PT",
+      "probable": {
+        "opp": "Andre Pallante"
+      }
     },
     {
       "date": "2026-06-17",
@@ -153,7 +154,10 @@
       "home": false,
       "gamePk": 823044,
       "status": "scheduled",
-      "time_local": "11:15 AM PT"
+      "time_local": "11:15 AM PT",
+      "probable": {
+        "opp": "Kyle Leahy"
+      }
     },
     {
       "date": "2026-06-19",
@@ -245,8 +249,8 @@
     }
   ],
   "summary": {
-    "month_record": "3\u20137",
-    "current_streak": "L1",
-    "last_10": "3\u20137"
+    "month_record": "4\u20137",
+    "current_streak": "W1",
+    "last_10": "4\u20136"
   }
 }
