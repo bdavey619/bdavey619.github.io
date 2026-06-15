@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-14T12:20:09.697439+00:00",
+  "generated_at": "2026-06-15T16:06:46.029641+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -112,19 +112,17 @@
       "gamePk": 824828,
       "status": "final",
       "result": "W",
-      "score": "9\u20133"
+      "score": "9\u20133",
+      "archive_url": "archive.html?date=2026-06-14"
     },
     {
       "date": "2026-06-14",
       "opponent": "BAL",
       "home": false,
       "gamePk": 824823,
-      "status": "scheduled",
-      "time_local": "10:35 AM PT",
-      "probable": {
-        "team": "Walker Buehler",
-        "opp": "Trevor Rogers"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20132"
     },
     {
       "date": "2026-06-15",
@@ -145,6 +143,7 @@
       "status": "scheduled",
       "time_local": "4:45 PM PT",
       "probable": {
+        "team": "Michael King",
         "opp": "Andre Pallante"
       }
     },
@@ -249,8 +248,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u20137",
-    "current_streak": "W1",
-    "last_10": "4\u20136"
+    "month_record": "5\u20137",
+    "current_streak": "W2",
+    "last_10": "5\u20135"
   }
 }
