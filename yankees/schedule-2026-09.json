@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-09",
   "division_name": "AL East",
-  "generated_at": "2026-06-15T16:20:32.189919+00:00",
+  "generated_at": "2026-06-16T16:00:35.566077+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -35,7 +35,7 @@
       "home": false,
       "gamePk": 823257,
       "status": "scheduled",
-      "time_local": "8:40 PM ET"
+      "time_local": "7:15 PM ET"
     },
     {
       "date": "2026-09-06",

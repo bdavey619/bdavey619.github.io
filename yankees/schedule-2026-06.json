@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-06",
   "division_name": "AL East",
-  "generated_at": "2026-06-15T16:20:32.189919+00:00",
+  "generated_at": "2026-06-16T16:00:35.566077+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -120,7 +120,8 @@
       "gamePk": 822801,
       "status": "final",
       "result": "W",
-      "score": "8\u20133"
+      "score": "8\u20133",
+      "archive_url": "archive.html?date=2026-06-15"
     },
     {
       "date": "2026-06-16",
@@ -164,7 +165,10 @@
       "home": true,
       "gamePk": 823534,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "opp": "Rhett Lowder"
+      }
     },
     {
       "date": "2026-06-20",
