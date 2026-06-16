@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-15T16:06:46.029641+00:00",
+  "generated_at": "2026-06-16T15:25:45.695914+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -122,18 +122,17 @@
       "gamePk": 824823,
       "status": "final",
       "result": "W",
-      "score": "5\u20132"
+      "score": "5\u20132",
+      "archive_url": "archive.html?date=2026-06-15"
     },
     {
       "date": "2026-06-15",
       "opponent": "STL",
       "home": false,
       "gamePk": 823046,
-      "status": "scheduled",
-      "time_local": "4:45 PM PT",
-      "probable": {
-        "opp": "Dustin May"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20133"
     },
     {
       "date": "2026-06-16",
@@ -248,8 +247,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u20137",
-    "current_streak": "W2",
+    "month_record": "5\u20138",
+    "current_streak": "L1",
     "last_10": "5\u20135"
   }
 }
