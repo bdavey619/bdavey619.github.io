@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-16T15:25:45.695914+00:00",
+  "generated_at": "2026-06-17T14:06:30.351740+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -132,19 +132,17 @@
       "gamePk": 823046,
       "status": "final",
       "result": "L",
-      "score": "0\u20133"
+      "score": "0\u20133",
+      "archive_url": "archive.html?date=2026-06-16"
     },
     {
       "date": "2026-06-16",
       "opponent": "STL",
       "home": false,
       "gamePk": 823045,
-      "status": "scheduled",
-      "time_local": "4:45 PM PT",
-      "probable": {
-        "team": "Michael King",
-        "opp": "Andre Pallante"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20133"
     },
     {
       "date": "2026-06-17",
@@ -247,8 +245,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u20138",
-    "current_streak": "L1",
+    "month_record": "5\u20139",
+    "current_streak": "L2",
     "last_10": "5\u20135"
   }
 }
