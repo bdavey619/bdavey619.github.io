@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-06",
   "division_name": "AL West",
-  "generated_at": "2026-06-17T16:25:24.254089+00:00",
+  "generated_at": "2026-06-18T16:02:00.744615+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -142,19 +142,17 @@
       "gamePk": 824991,
       "status": "final",
       "result": "L",
-      "score": "5\u20136"
+      "score": "5\u20136",
+      "archive_url": "archive.html?date=2026-06-17"
     },
     {
       "date": "2026-06-17",
       "opponent": "PIT",
       "home": true,
       "gamePk": 824992,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Aaron Civale",
-        "opp": "Braxton Ashcraft"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "4\u201312"
     },
     {
       "date": "2026-06-18",
@@ -162,7 +160,10 @@
       "home": true,
       "gamePk": 824989,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Gage Jump"
+      }
     },
     {
       "date": "2026-06-19",
@@ -170,7 +171,10 @@
       "home": true,
       "gamePk": 824990,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Jeffrey Springs"
+      }
     },
     {
       "date": "2026-06-20",
@@ -178,7 +182,10 @@
       "home": true,
       "gamePk": 824988,
       "status": "scheduled",
-      "time_local": "7:05 PM PT"
+      "time_local": "7:05 PM PT",
+      "probable": {
+        "team": "J.T. Ginn"
+      }
     },
     {
       "date": "2026-06-21",
@@ -186,7 +193,10 @@
       "home": true,
       "gamePk": 824987,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "team": "Jack Perkins"
+      }
     },
     {
       "date": "2026-06-23",
@@ -254,8 +264,8 @@
     }
   ],
   "summary": {
-    "month_record": "8\u20136",
-    "current_streak": "L1",
+    "month_record": "8\u20137",
+    "current_streak": "L2",
     "last_10": "6\u20134"
   }
 }
