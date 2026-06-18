@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-17T14:06:30.351740+00:00",
+  "generated_at": "2026-06-18T13:45:54.285339+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -142,18 +142,17 @@
       "gamePk": 823045,
       "status": "final",
       "result": "L",
-      "score": "2\u20133"
+      "score": "2\u20133",
+      "archive_url": "archive.html?date=2026-06-17"
     },
     {
       "date": "2026-06-17",
       "opponent": "STL",
       "home": false,
       "gamePk": 823044,
-      "status": "scheduled",
-      "time_local": "11:15 AM PT",
-      "probable": {
-        "opp": "Kyle Leahy"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "6\u20131"
     },
     {
       "date": "2026-06-19",
@@ -161,7 +160,10 @@
       "home": false,
       "gamePk": 822886,
       "status": "scheduled",
-      "time_local": "5:05 PM PT"
+      "time_local": "5:05 PM PT",
+      "probable": {
+        "team": "Randy V\u00e1squez"
+      }
     },
     {
       "date": "2026-06-20",
@@ -169,7 +171,10 @@
       "home": false,
       "gamePk": 822885,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "team": "Walker Buehler"
+      }
     },
     {
       "date": "2026-06-21",
@@ -245,8 +250,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u20139",
-    "current_streak": "L2",
+    "month_record": "6\u20139",
+    "current_streak": "W1",
     "last_10": "5\u20135"
   }
 }
