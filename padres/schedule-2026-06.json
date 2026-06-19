@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-18T13:45:54.285339+00:00",
+  "generated_at": "2026-06-19T13:53:01.965781+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -152,7 +152,8 @@
       "gamePk": 823044,
       "status": "final",
       "result": "W",
-      "score": "6\u20131"
+      "score": "6\u20131",
+      "archive_url": "archive.html?date=2026-06-18"
     },
     {
       "date": "2026-06-19",
@@ -162,7 +163,8 @@
       "status": "scheduled",
       "time_local": "5:05 PM PT",
       "probable": {
-        "team": "Randy V\u00e1squez"
+        "team": "Randy V\u00e1squez",
+        "opp": "Jacob deGrom"
       }
     },
     {
@@ -173,7 +175,8 @@
       "status": "scheduled",
       "time_local": "1:05 PM PT",
       "probable": {
-        "team": "Walker Buehler"
+        "team": "Walker Buehler",
+        "opp": "Nathan Eovaldi"
       }
     },
     {
@@ -182,7 +185,10 @@
       "home": false,
       "gamePk": 822883,
       "status": "scheduled",
-      "time_local": "11:35 AM PT"
+      "time_local": "11:35 AM PT",
+      "probable": {
+        "opp": "MacKenzie Gore"
+      }
     },
     {
       "date": "2026-06-22",
