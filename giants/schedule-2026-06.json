@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-18T15:27:19.653382+00:00",
+  "generated_at": "2026-06-19T15:20:12.153787+00:00",
   "games": [
     {
       "date": "2026-06-01",
@@ -150,7 +150,8 @@
       "gamePk": 824912,
       "status": "final",
       "result": "W",
-      "score": "7\u20132"
+      "score": "7\u20132",
+      "archive_url": "archive.html?date=2026-06-18"
     },
     {
       "date": "2026-06-17",
@@ -159,19 +160,17 @@
       "gamePk": 824913,
       "status": "final",
       "result": "W",
-      "score": "7\u20135"
+      "score": "7\u20135",
+      "archive_url": "archive.html?date=2026-06-18"
     },
     {
       "date": "2026-06-18",
       "opponent": "ATL",
       "home": false,
       "gamePk": 824911,
-      "status": "scheduled",
-      "time_local": "4:15 PM PT",
-      "probable": {
-        "team": "Landen Roupp",
-        "opp": "Mart\u00edn P\u00e9rez"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20130"
     },
     {
       "date": "2026-06-19",
@@ -179,7 +178,11 @@
       "home": false,
       "gamePk": 823853,
       "status": "scheduled",
-      "time_local": "4:10 PM PT"
+      "time_local": "4:10 PM PT",
+      "probable": {
+        "team": "Landen Roupp",
+        "opp": "Lake Bachar"
+      }
     },
     {
       "date": "2026-06-20",
@@ -189,6 +192,7 @@
       "status": "scheduled",
       "time_local": "1:10 PM PT",
       "probable": {
+        "team": "Trevor McDonald",
         "opp": "Max Meyer"
       }
     },
@@ -198,7 +202,11 @@
       "home": false,
       "gamePk": 823852,
       "status": "scheduled",
-      "time_local": "10:40 AM PT"
+      "time_local": "10:40 AM PT",
+      "probable": {
+        "team": "Logan Webb",
+        "opp": "Ryan Gusto"
+      }
     },
     {
       "date": "2026-06-23",
@@ -266,7 +274,7 @@
     }
   ],
   "summary": {
-    "month_record": "9\u20137",
+    "month_record": "9\u20138",
     "current_streak": "W3",
     "last_10": "5\u20135"
   }
