@@ -1,18 +1,21 @@
 {
   "trend": "stabilizing",
-  "driver": "balanced",
+  "driver": "offense",
   "confidence": "medium",
   "pressure": "building",
-  "record_w": 37,
+  "record_w": 38,
   "record_l": 38,
-  "streak": "W1",
-  "last10_w": 6,
-  "era": 4.85,
-  "ops": 0.749,
-  "gb": 1.5,
+  "streak": "W2",
+  "last10_w": 7,
+  "era": 4.92,
+  "ops": 0.755,
+  "gb": 0.5,
   "division_rank": 2,
   "last_result": "W",
-  "date": "2026-06-18",
-  "game_emotion_level": "high",
-  "drama_sequence": null
+  "date": "2026-06-19",
+  "game_emotion_level": "extreme",
+  "drama_sequence": {
+    "tying_inning": 9,
+    "walkoff_inning": 10
+  }
 }
