@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-06",
   "division_name": "AL East",
-  "generated_at": "2026-06-19T14:14:30.213251+00:00",
+  "generated_at": "2026-06-20T12:53:29.523408+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -150,19 +150,17 @@
       "gamePk": 823533,
       "status": "final",
       "result": "L",
-      "score": "1\u20135"
+      "score": "1\u20135",
+      "archive_url": "archive.html?date=2026-06-19"
     },
     {
       "date": "2026-06-19",
       "opponent": "CIN",
       "home": true,
       "gamePk": 823534,
-      "status": "scheduled",
-      "time_local": "7:05 PM ET",
-      "probable": {
-        "team": "Cam Schlittler",
-        "opp": "Rhett Lowder"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20130"
     },
     {
       "date": "2026-06-20",
@@ -262,8 +260,8 @@
     }
   ],
   "summary": {
-    "month_record": "9\u20136",
-    "current_streak": "L1",
+    "month_record": "10\u20136",
+    "current_streak": "W1",
     "last_10": "8\u20132"
   }
 }
