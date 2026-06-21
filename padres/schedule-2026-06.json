@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-20T12:13:36.104897+00:00",
+  "generated_at": "2026-06-21T12:23:45.495101+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -162,19 +162,17 @@
       "gamePk": 822886,
       "status": "final",
       "result": "L",
-      "score": "7\u20139"
+      "score": "7\u20139",
+      "archive_url": "archive.html?date=2026-06-20"
     },
     {
       "date": "2026-06-20",
       "opponent": "TEX",
       "home": false,
       "gamePk": 822885,
-      "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "team": "Walker Buehler",
-        "opp": "Nathan Eovaldi"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "6\u20134"
     },
     {
       "date": "2026-06-21",
@@ -184,7 +182,7 @@
       "status": "scheduled",
       "time_local": "11:35 AM PT",
       "probable": {
-        "opp": "MacKenzie Gore"
+        "opp": "Nathan Eovaldi"
       }
     },
     {
@@ -253,8 +251,8 @@
     }
   ],
   "summary": {
-    "month_record": "6\u201310",
-    "current_streak": "L1",
+    "month_record": "7\u201310",
+    "current_streak": "W1",
     "last_10": "5\u20135"
   }
 }
