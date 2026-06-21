@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-06",
   "division_name": "AL West",
-  "generated_at": "2026-06-20T14:54:33.104916+00:00",
+  "generated_at": "2026-06-21T14:58:38.564052+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -172,19 +172,17 @@
       "gamePk": 824990,
       "status": "final",
       "result": "W",
-      "score": "12\u201311"
+      "score": "12\u201311",
+      "archive_url": "archive.html?date=2026-06-20"
     },
     {
       "date": "2026-06-20",
       "opponent": "LAA",
       "home": true,
       "gamePk": 824988,
-      "status": "scheduled",
-      "time_local": "7:05 PM PT",
-      "probable": {
-        "team": "J.T. Ginn",
-        "opp": "Walbert Ure\u00f1a"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20137"
     },
     {
       "date": "2026-06-21",
@@ -194,7 +192,8 @@
       "status": "scheduled",
       "time_local": "1:05 PM PT",
       "probable": {
-        "team": "Jack Perkins"
+        "team": "Jack Perkins",
+        "opp": "Reid Detmers"
       }
     },
     {
@@ -266,8 +265,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u20137",
-    "current_streak": "W2",
-    "last_10": "7\u20133"
+    "month_record": "10\u20138",
+    "current_streak": "L1",
+    "last_10": "6\u20134"
   }
 }
