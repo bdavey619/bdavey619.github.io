@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-06",
   "division_name": "AL East",
-  "generated_at": "2026-06-20T12:53:29.523408+00:00",
+  "generated_at": "2026-06-21T13:10:30.429880+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -160,19 +160,17 @@
       "gamePk": 823534,
       "status": "final",
       "result": "W",
-      "score": "5\u20130"
+      "score": "5\u20130",
+      "archive_url": "archive.html?date=2026-06-20"
     },
     {
       "date": "2026-06-20",
       "opponent": "CIN",
       "home": true,
       "gamePk": 823532,
-      "status": "scheduled",
-      "time_local": "1:35 PM ET",
-      "probable": {
-        "team": "Will Warren",
-        "opp": "Andrew Abbott"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u201310"
     },
     {
       "date": "2026-06-21",
@@ -182,7 +180,7 @@
       "status": "scheduled",
       "time_local": "1:35 PM ET",
       "probable": {
-        "team": "Gerrit Cole",
+        "team": "Elmer Rodr\u00edguez",
         "opp": "Chase Burns"
       }
     },
@@ -192,7 +190,10 @@
       "home": false,
       "gamePk": 824261,
       "status": "scheduled",
-      "time_local": "6:10 PM ET"
+      "time_local": "6:10 PM ET",
+      "probable": {
+        "team": "Gerrit Cole"
+      }
     },
     {
       "date": "2026-06-23",
@@ -260,8 +261,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u20136",
-    "current_streak": "W1",
-    "last_10": "8\u20132"
+    "month_record": "10\u20137",
+    "current_streak": "L1",
+    "last_10": "7\u20133"
   }
 }
