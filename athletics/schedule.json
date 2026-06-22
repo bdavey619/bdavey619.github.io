@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-06",
   "division_name": "AL West",
-  "generated_at": "2026-06-21T14:58:38.564052+00:00",
+  "generated_at": "2026-06-22T17:16:18.552674+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -182,19 +182,17 @@
       "gamePk": 824988,
       "status": "final",
       "result": "L",
-      "score": "0\u20137"
+      "score": "0\u20137",
+      "archive_url": "archive.html?date=2026-06-21"
     },
     {
       "date": "2026-06-21",
       "opponent": "LAA",
       "home": true,
       "gamePk": 824987,
-      "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "team": "Jack Perkins",
-        "opp": "Reid Detmers"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "7\u20139"
     },
     {
       "date": "2026-06-23",
@@ -202,7 +200,11 @@
       "home": false,
       "gamePk": 823210,
       "status": "scheduled",
-      "time_local": "6:45 PM PT"
+      "time_local": "6:45 PM PT",
+      "probable": {
+        "team": "Aaron Civale",
+        "opp": "Robbie Ray"
+      }
     },
     {
       "date": "2026-06-24",
@@ -212,6 +214,7 @@
       "status": "scheduled",
       "time_local": "6:45 PM PT",
       "probable": {
+        "team": "Gage Jump",
         "opp": "Tyler Mahle"
       }
     },
@@ -221,7 +224,11 @@
       "home": false,
       "gamePk": 823209,
       "status": "scheduled",
-      "time_local": "12:45 PM PT"
+      "time_local": "12:45 PM PT",
+      "probable": {
+        "team": "Jeffrey Springs",
+        "opp": "Landen Roupp"
+      }
     },
     {
       "date": "2026-06-26",
@@ -265,8 +272,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u20138",
-    "current_streak": "L1",
-    "last_10": "6\u20134"
+    "month_record": "10\u20139",
+    "current_streak": "L2",
+    "last_10": "5\u20135"
   }
 }
