@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-21T14:13:13.888976+00:00",
+  "generated_at": "2026-06-22T17:00:16.338601+00:00",
   "games": [
     {
       "date": "2026-06-01",
@@ -189,19 +189,17 @@
       "gamePk": 823854,
       "status": "final",
       "result": "L",
-      "score": "3\u20136"
+      "score": "3\u20136",
+      "archive_url": "archive.html?date=2026-06-21"
     },
     {
       "date": "2026-06-21",
       "opponent": "MIA",
       "home": false,
       "gamePk": 823852,
-      "status": "scheduled",
-      "time_local": "10:40 AM PT",
-      "probable": {
-        "team": "Logan Webb",
-        "opp": "Ryan Gusto"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20132"
     },
     {
       "date": "2026-06-23",
@@ -209,7 +207,11 @@
       "home": true,
       "gamePk": 823210,
       "status": "scheduled",
-      "time_local": "6:45 PM PT"
+      "time_local": "6:45 PM PT",
+      "probable": {
+        "team": "Robbie Ray",
+        "opp": "Aaron Civale"
+      }
     },
     {
       "date": "2026-06-24",
@@ -219,7 +221,8 @@
       "status": "scheduled",
       "time_local": "6:45 PM PT",
       "probable": {
-        "team": "Tyler Mahle"
+        "team": "Tyler Mahle",
+        "opp": "Gage Jump"
       }
     },
     {
@@ -228,7 +231,11 @@
       "home": true,
       "gamePk": 823209,
       "status": "scheduled",
-      "time_local": "12:45 PM PT"
+      "time_local": "12:45 PM PT",
+      "probable": {
+        "team": "Landen Roupp",
+        "opp": "Jeffrey Springs"
+      }
     },
     {
       "date": "2026-06-26",
@@ -272,8 +279,8 @@
     }
   ],
   "summary": {
-    "month_record": "9\u201310",
-    "current_streak": "L2",
+    "month_record": "9\u201311",
+    "current_streak": "L3",
     "last_10": "4\u20136"
   }
 }
