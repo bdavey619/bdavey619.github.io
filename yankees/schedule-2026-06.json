@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-06",
   "division_name": "AL East",
-  "generated_at": "2026-06-21T13:10:30.429880+00:00",
+  "generated_at": "2026-06-22T15:57:27.243465+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -170,19 +170,17 @@
       "gamePk": 823532,
       "status": "final",
       "result": "L",
-      "score": "2\u201310"
+      "score": "2\u201310",
+      "archive_url": "archive.html?date=2026-06-21"
     },
     {
       "date": "2026-06-21",
       "opponent": "CIN",
       "home": true,
       "gamePk": 823531,
-      "status": "scheduled",
-      "time_local": "1:35 PM ET",
-      "probable": {
-        "team": "Elmer Rodr\u00edguez",
-        "opp": "Chase Burns"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20134"
     },
     {
       "date": "2026-06-22",
@@ -192,7 +190,8 @@
       "status": "scheduled",
       "time_local": "6:10 PM ET",
       "probable": {
-        "team": "Gerrit Cole"
+        "team": "Gerrit Cole",
+        "opp": "Framber Valdez"
       }
     },
     {
@@ -201,7 +200,11 @@
       "home": false,
       "gamePk": 824262,
       "status": "scheduled",
-      "time_local": "6:40 PM ET"
+      "time_local": "6:40 PM ET",
+      "probable": {
+        "team": "Carlos Rod\u00f3n",
+        "opp": "Casey Mize"
+      }
     },
     {
       "date": "2026-06-24",
@@ -209,7 +212,11 @@
       "home": false,
       "gamePk": 824259,
       "status": "scheduled",
-      "time_local": "6:40 PM ET"
+      "time_local": "6:40 PM ET",
+      "probable": {
+        "team": "Ryan Weathers",
+        "opp": "Tarik Skubal"
+      }
     },
     {
       "date": "2026-06-25",
@@ -261,8 +268,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u20137",
-    "current_streak": "L1",
-    "last_10": "7\u20133"
+    "month_record": "10\u20138",
+    "current_streak": "L2",
+    "last_10": "6\u20134"
   }
 }
