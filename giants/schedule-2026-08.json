@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-06-22T17:00:16.338601+00:00",
+  "generated_at": "2026-06-23T14:51:14.243847+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -214,7 +214,7 @@
       "time_local": "7:05 PM PT"
     },
     {
-      "date": "2026-08-30",
+      "date": "2026-08-29",
       "opponent": "ARI",
       "home": true,
       "gamePk": 823177,
