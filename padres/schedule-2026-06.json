@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-22T15:34:13.594895+00:00",
+  "generated_at": "2026-06-23T13:19:59.610097+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -182,19 +182,17 @@
       "gamePk": 822883,
       "status": "final",
       "result": "L",
-      "score": "3\u20134"
+      "score": "3\u20134",
+      "archive_url": "archive.html?date=2026-06-22"
     },
     {
       "date": "2026-06-22",
       "opponent": "ATL",
       "home": true,
       "gamePk": 823288,
-      "status": "scheduled",
-      "time_local": "7:10 PM PT",
-      "probable": {
-        "team": "Michael King",
-        "opp": "Grant Holmes"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "1\u20130"
     },
     {
       "date": "2026-06-23",
@@ -215,6 +213,7 @@
       "status": "scheduled",
       "time_local": "5:40 PM PT",
       "probable": {
+        "team": "Randy V\u00e1squez",
         "opp": "Mart\u00edn P\u00e9rez"
       }
     },
@@ -260,8 +259,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u201311",
-    "current_streak": "L1",
+    "month_record": "8\u201311",
+    "current_streak": "W1",
     "last_10": "5\u20135"
   }
 }
