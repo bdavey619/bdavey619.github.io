@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-23T14:51:14.243847+00:00",
+  "generated_at": "2026-06-24T14:32:56.211020+00:00",
   "games": [
     {
       "date": "2026-06-01",
@@ -207,12 +207,9 @@
       "opponent": "OAK",
       "home": true,
       "gamePk": 823210,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "team": "Robbie Ray",
-        "opp": "Aaron Civale"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "3\u20131"
     },
     {
       "date": "2026-06-24",
@@ -280,8 +277,8 @@
     }
   ],
   "summary": {
-    "month_record": "9\u201311",
-    "current_streak": "L3",
-    "last_10": "4\u20136"
+    "month_record": "10\u201311",
+    "current_streak": "W1",
+    "last_10": "5\u20135"
   }
 }
