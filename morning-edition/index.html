@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morning Edition — San Diego</title>
+    <meta name="description" content="A finite daily local news front page for San Diego." />
+    <!--
+      TODO: Replace TODO_MORNING_EDITION_DEPLOYED_URL with the deployed Morning Edition URL
+      (e.g. https://morning-edition.vercel.app) once the app is deployed to Vercel.
+
+      Upgrade path: if this site moves to Vercel, replace this redirect with a vercel.json
+      rewrite so the URL stays bdavey.co/morning-edition instead of redirecting away:
+
+        {
+          "rewrites": [
+            {
+              "source": "/morning-edition/:path*",
+              "destination": "https://morning-edition.vercel.app/:path*"
+            }
+          ]
+        }
+    -->
+    <meta http-equiv="refresh" content="0; url=TODO_MORNING_EDITION_DEPLOYED_URL" />
+    <link rel="canonical" href="TODO_MORNING_EDITION_DEPLOYED_URL" />
+    <style>
+      body {
+        font-family: Georgia, serif;
+        background: #fafaf9;
+        color: #1c1917;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        text-align: center;
+        padding: 2rem;
+        box-sizing: border-box;
+      }
+      p { color: #78716c; font-size: 0.95rem; }
+      a { color: #1c1917; }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Morning Edition</h1>
+      <p>San Diego's daily front page.</p>
+      <p>
+        <a href="TODO_MORNING_EDITION_DEPLOYED_URL">
+          If you're not redirected, click here.
+        </a>
+      </p>
+    </div>
+    <script>
+      // Redirect immediately — meta refresh is the fallback
+      var dest = "TODO_MORNING_EDITION_DEPLOYED_URL";
+      if (!dest.startsWith("TODO")) {
+        window.location.replace(dest);
+      }
+    </script>
+  </body>
+</html>
