@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-06",
   "division_name": "AL West",
-  "generated_at": "2026-06-24T15:20:06.309547+00:00",
+  "generated_at": "2026-06-25T15:26:17.064528+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -202,19 +202,17 @@
       "gamePk": 823210,
       "status": "final",
       "result": "L",
-      "score": "1\u20133"
+      "score": "1\u20133",
+      "archive_url": "archive.html?date=2026-06-24"
     },
     {
       "date": "2026-06-24",
       "opponent": "SF",
       "home": false,
       "gamePk": 823208,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "team": "Gage Jump",
-        "opp": "Tyler Mahle"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20132"
     },
     {
       "date": "2026-06-25",
@@ -234,7 +232,10 @@
       "home": false,
       "gamePk": 824014,
       "status": "scheduled",
-      "time_local": "6:38 PM PT"
+      "time_local": "6:38 PM PT",
+      "probable": {
+        "opp": "Walbert Ure\u00f1a"
+      }
     },
     {
       "date": "2026-06-27",
@@ -242,7 +243,10 @@
       "home": false,
       "gamePk": 824015,
       "status": "scheduled",
-      "time_local": "6:38 PM PT"
+      "time_local": "6:38 PM PT",
+      "probable": {
+        "opp": "Reid Detmers"
+      }
     },
     {
       "date": "2026-06-28",
@@ -270,8 +274,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u201310",
-    "current_streak": "L3",
-    "last_10": "4\u20136"
+    "month_record": "10\u201311",
+    "current_streak": "L4",
+    "last_10": "3\u20137"
   }
 }
