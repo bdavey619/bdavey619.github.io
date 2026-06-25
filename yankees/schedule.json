@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-06",
   "division_name": "AL East",
-  "generated_at": "2026-06-24T13:25:29.043021+00:00",
+  "generated_at": "2026-06-25T13:22:14.968001+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -200,19 +200,17 @@
       "gamePk": 824262,
       "status": "final",
       "result": "W",
-      "score": "4\u20133"
+      "score": "4\u20133",
+      "archive_url": "archive.html?date=2026-06-24"
     },
     {
       "date": "2026-06-24",
       "opponent": "DET",
       "home": false,
       "gamePk": 824259,
-      "status": "scheduled",
-      "time_local": "6:40 PM ET",
-      "probable": {
-        "team": "Ryan Weathers",
-        "opp": "Tarik Skubal"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "4\u20132"
     },
     {
       "date": "2026-06-25",
@@ -220,7 +218,11 @@
       "home": false,
       "gamePk": 824747,
       "status": "scheduled",
-      "time_local": "7:10 PM ET"
+      "time_local": "7:10 PM ET",
+      "probable": {
+        "team": "Cam Schlittler",
+        "opp": "Connelly Early"
+      }
     },
     {
       "date": "2026-06-26",
@@ -228,7 +230,11 @@
       "home": false,
       "gamePk": 824743,
       "status": "scheduled",
-      "time_local": "7:10 PM ET"
+      "time_local": "7:10 PM ET",
+      "probable": {
+        "team": "Will Warren",
+        "opp": "Payton Tolle"
+      }
     },
     {
       "date": "2026-06-27",
@@ -236,7 +242,11 @@
       "home": false,
       "gamePk": 824745,
       "status": "scheduled",
-      "time_local": "1:10 PM ET"
+      "time_local": "1:10 PM ET",
+      "probable": {
+        "team": "Gerrit Cole",
+        "opp": "Jake Bennett"
+      }
     },
     {
       "date": "2026-06-28",
@@ -244,7 +254,11 @@
       "home": false,
       "gamePk": 824744,
       "status": "scheduled",
-      "time_local": "7:20 PM ET"
+      "time_local": "7:20 PM ET",
+      "probable": {
+        "team": "Carlos Rod\u00f3n",
+        "opp": "Sonny Gray"
+      }
     },
     {
       "date": "2026-06-29",
@@ -264,8 +278,8 @@
     }
   ],
   "summary": {
-    "month_record": "11\u20139",
-    "current_streak": "W1",
+    "month_record": "12\u20139",
+    "current_streak": "W2",
     "last_10": "6\u20134"
   }
 }
