@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-24T14:32:56.211020+00:00",
+  "generated_at": "2026-06-25T14:35:34.780105+00:00",
   "games": [
     {
       "date": "2026-06-01",
@@ -209,19 +209,17 @@
       "gamePk": 823210,
       "status": "final",
       "result": "W",
-      "score": "3\u20131"
+      "score": "3\u20131",
+      "archive_url": "archive.html?date=2026-06-24"
     },
     {
       "date": "2026-06-24",
       "opponent": "OAK",
       "home": true,
       "gamePk": 823208,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "team": "Tyler Mahle",
-        "opp": "Gage Jump"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "2\u20131"
     },
     {
       "date": "2026-06-25",
@@ -241,7 +239,10 @@
       "home": true,
       "gamePk": 823206,
       "status": "scheduled",
-      "time_local": "7:15 PM PT"
+      "time_local": "7:15 PM PT",
+      "probable": {
+        "opp": "Reynaldo L\u00f3pez"
+      }
     },
     {
       "date": "2026-06-27",
@@ -249,7 +250,10 @@
       "home": true,
       "gamePk": 823207,
       "status": "scheduled",
-      "time_local": "6:05 PM PT"
+      "time_local": "6:05 PM PT",
+      "probable": {
+        "opp": "Bryce Elder"
+      }
     },
     {
       "date": "2026-06-28",
@@ -257,7 +261,10 @@
       "home": true,
       "gamePk": 823204,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "opp": "Chris Sale"
+      }
     },
     {
       "date": "2026-06-29",
@@ -277,8 +284,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u201311",
-    "current_streak": "W1",
+    "month_record": "11\u201311",
+    "current_streak": "W2",
     "last_10": "5\u20135"
   }
 }
