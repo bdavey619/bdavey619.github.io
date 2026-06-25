@@ -6,11 +6,13 @@
     <title>Morning Edition — San Diego</title>
     <meta name="description" content="A finite daily local news front page for San Diego." />
     <!--
-      TODO: Replace TODO_MORNING_EDITION_DEPLOYED_URL with the deployed Morning Edition URL
-      (e.g. https://morning-edition.vercel.app) once the app is deployed to Vercel.
+      TODO: Once Morning Edition is deployed to Vercel, replace this placeholder page
+      with a redirect to the live URL (e.g. https://morning-edition.vercel.app):
 
-      Upgrade path: if this site moves to Vercel, replace this redirect with a vercel.json
-      rewrite so the URL stays bdavey.co/morning-edition instead of redirecting away:
+        <meta http-equiv="refresh" content="0; url=TODO_MORNING_EDITION_DEPLOYED_URL" />
+
+      Upgrade path: if this site moves to Vercel, use a vercel.json rewrite instead so
+      the URL stays bdavey.co/morning-edition without redirecting:
 
         {
           "rewrites": [
@@ -21,8 +23,6 @@
           ]
         }
     -->
-    <meta http-equiv="refresh" content="0; url=TODO_MORNING_EDITION_DEPLOYED_URL" />
-    <link rel="canonical" href="TODO_MORNING_EDITION_DEPLOYED_URL" />
     <style>
       body {
         font-family: Georgia, serif;
@@ -37,26 +37,19 @@
         padding: 2rem;
         box-sizing: border-box;
       }
-      p { color: #78716c; font-size: 0.95rem; }
+      h1 { margin: 0 0 0.25rem; font-size: 1.75rem; }
+      .tagline { color: #57534e; font-style: italic; margin: 0 0 1.5rem; font-size: 1rem; }
+      p { color: #78716c; font-size: 0.95rem; line-height: 1.6; margin: 0 0 0.75rem; }
       a { color: #1c1917; }
     </style>
   </head>
   <body>
     <div>
       <h1>Morning Edition</h1>
-      <p>San Diego's daily front page.</p>
-      <p>
-        <a href="TODO_MORNING_EDITION_DEPLOYED_URL">
-          If you're not redirected, click here.
-        </a>
-      </p>
+      <p class="tagline">Not a feed. A front page.</p>
+      <p>Morning Edition is being prepared for deployment.</p>
+      <p>Soon this page will open the live San Diego daily edition.</p>
+      <p><a href="https://github.com/bdavey619/morning-edition">github.com/bdavey619/morning-edition</a></p>
     </div>
-    <script>
-      // Redirect immediately — meta refresh is the fallback
-      var dest = "TODO_MORNING_EDITION_DEPLOYED_URL";
-      if (!dest.startsWith("TODO")) {
-        window.location.replace(dest);
-      }
-    </script>
   </body>
 </html>
