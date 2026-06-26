@@ -4,18 +4,15 @@
   "confidence": "low",
   "pressure": "low",
   "record_w": 33,
-  "record_l": 46,
-  "streak": "W2",
+  "record_l": 47,
+  "streak": "L1",
   "last10_w": 5,
-  "era": 4.36,
+  "era": 4.42,
   "ops": 0.728,
-  "gb": 18.0,
+  "gb": 18.5,
   "division_rank": 4,
-  "last_result": "W",
-  "date": "2026-06-24",
-  "game_emotion_level": "extreme",
-  "drama_sequence": {
-    "tying_inning": 9,
-    "walkoff_inning": 9
-  }
+  "last_result": "L",
+  "date": "2026-06-25",
+  "game_emotion_level": "high",
+  "drama_sequence": null
 }
