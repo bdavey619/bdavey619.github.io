@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-26T14:26:32.420365+00:00",
+  "generated_at": "2026-06-27T13:45:26.096809+00:00",
   "games": [
     {
       "date": "2026-06-01",
@@ -229,18 +229,17 @@
       "gamePk": 823209,
       "status": "final",
       "result": "L",
-      "score": "6\u20139"
+      "score": "6\u20139",
+      "archive_url": "archive.html?date=2026-06-26"
     },
     {
       "date": "2026-06-26",
       "opponent": "ATL",
       "home": true,
       "gamePk": 823206,
-      "status": "scheduled",
-      "time_local": "7:15 PM PT",
-      "probable": {
-        "opp": "Reynaldo L\u00f3pez"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20133"
     },
     {
       "date": "2026-06-27",
@@ -250,6 +249,7 @@
       "status": "scheduled",
       "time_local": "6:05 PM PT",
       "probable": {
+        "team": "Logan Webb",
         "opp": "Bryce Elder"
       }
     },
@@ -261,6 +261,7 @@
       "status": "scheduled",
       "time_local": "1:05 PM PT",
       "probable": {
+        "team": "Robbie Ray",
         "opp": "Chris Sale"
       }
     },
@@ -282,8 +283,8 @@
     }
   ],
   "summary": {
-    "month_record": "11\u201312",
-    "current_streak": "L1",
+    "month_record": "11\u201313",
+    "current_streak": "L2",
     "last_10": "5\u20135"
   }
 }
