@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-06",
   "division_name": "AL East",
-  "generated_at": "2026-06-26T13:15:00.395720+00:00",
+  "generated_at": "2026-06-27T12:10:40.615635+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -220,19 +220,17 @@
       "gamePk": 824747,
       "status": "final",
       "result": "L",
-      "score": "3\u20136"
+      "score": "3\u20136",
+      "archive_url": "archive.html?date=2026-06-26"
     },
     {
       "date": "2026-06-26",
       "opponent": "BOS",
       "home": false,
       "gamePk": 824743,
-      "status": "scheduled",
-      "time_local": "7:10 PM ET",
-      "probable": {
-        "team": "Will Warren",
-        "opp": "Payton Tolle"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20136"
     },
     {
       "date": "2026-06-27",
@@ -276,8 +274,8 @@
     }
   ],
   "summary": {
-    "month_record": "12\u201310",
-    "current_streak": "L1",
-    "last_10": "5\u20135"
+    "month_record": "12\u201311",
+    "current_streak": "L2",
+    "last_10": "4\u20136"
   }
 }
