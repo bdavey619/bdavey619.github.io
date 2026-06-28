@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-27T11:51:20.897602+00:00",
+  "generated_at": "2026-06-28T12:01:03.824783+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -222,19 +222,17 @@
       "gamePk": 823285,
       "status": "final",
       "result": "W",
-      "score": "7\u20131"
+      "score": "7\u20131",
+      "archive_url": "archive.html?date=2026-06-27"
     },
     {
       "date": "2026-06-27",
       "opponent": "LAD",
       "home": true,
       "gamePk": 823283,
-      "status": "scheduled",
-      "time_local": "5:40 PM PT",
-      "probable": {
-        "team": "Randy V\u00e1squez",
-        "opp": "Yoshinobu Yamamoto"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u201315"
     },
     {
       "date": "2026-06-28",
@@ -266,8 +264,8 @@
     }
   ],
   "summary": {
-    "month_record": "11\u201311",
-    "current_streak": "W4",
+    "month_record": "11\u201312",
+    "current_streak": "L1",
     "last_10": "6\u20134"
   }
 }
