@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-06",
   "division_name": "AL East",
-  "generated_at": "2026-06-28T12:18:32.254988+00:00",
+  "generated_at": "2026-06-29T14:49:23.032082+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -240,19 +240,17 @@
       "gamePk": 824745,
       "status": "final",
       "result": "L",
-      "score": "1\u20134"
+      "score": "1\u20134",
+      "archive_url": "archive.html?date=2026-06-28"
     },
     {
       "date": "2026-06-28",
       "opponent": "BOS",
       "home": false,
       "gamePk": 824744,
-      "status": "scheduled",
-      "time_local": "7:20 PM ET",
-      "probable": {
-        "team": "Carlos Rod\u00f3n",
-        "opp": "Sonny Gray"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "4\u20135"
     },
     {
       "date": "2026-06-29",
@@ -262,6 +260,7 @@
       "status": "scheduled",
       "time_local": "7:05 PM ET",
       "probable": {
+        "team": "Ryan Weathers",
         "opp": "Casey Mize"
       }
     },
@@ -273,13 +272,14 @@
       "status": "scheduled",
       "time_local": "7:05 PM ET",
       "probable": {
+        "team": "Cam Schlittler",
         "opp": "Tarik Skubal"
       }
     }
   ],
   "summary": {
-    "month_record": "12\u201312",
-    "current_streak": "L3",
+    "month_record": "12\u201313",
+    "current_streak": "L4",
     "last_10": "3\u20137"
   }
 }
