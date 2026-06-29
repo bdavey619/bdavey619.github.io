@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-28T13:48:25.962622+00:00",
+  "generated_at": "2026-06-29T15:49:25.252368+00:00",
   "games": [
     {
       "date": "2026-06-01",
@@ -249,19 +249,17 @@
       "gamePk": 823207,
       "status": "final",
       "result": "W",
-      "score": "5\u20130"
+      "score": "5\u20130",
+      "archive_url": "archive.html?date=2026-06-28"
     },
     {
       "date": "2026-06-28",
       "opponent": "ATL",
       "home": true,
       "gamePk": 823204,
-      "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "team": "Robbie Ray",
-        "opp": "Chris Sale"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "3\u20132"
     },
     {
       "date": "2026-06-29",
@@ -269,7 +267,11 @@
       "home": false,
       "gamePk": 825065,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Tyler Mahle",
+        "opp": "Eduardo Rodriguez"
+      }
     },
     {
       "date": "2026-06-30",
@@ -277,12 +279,15 @@
       "home": false,
       "gamePk": 825066,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Landen Roupp"
+      }
     }
   ],
   "summary": {
-    "month_record": "12\u201313",
-    "current_streak": "W1",
+    "month_record": "13\u201313",
+    "current_streak": "W2",
     "last_10": "5\u20135"
   }
 }
