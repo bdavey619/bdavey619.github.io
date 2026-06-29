@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-06-28T12:01:03.824783+00:00",
+  "generated_at": "2026-06-29T14:31:36.202653+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -11,7 +11,11 @@
       "home": false,
       "gamePk": 824660,
       "status": "scheduled",
-      "time_local": "11:20 AM PT"
+      "time_local": "11:20 AM PT",
+      "probable": {
+        "team": "Walker Buehler",
+        "opp": "Colin Rea"
+      }
     },
     {
       "date": "2026-07-02",
