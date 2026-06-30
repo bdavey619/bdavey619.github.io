@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-29T14:31:36.202653+00:00",
+  "generated_at": "2026-06-30T12:28:16.342382+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -242,18 +242,17 @@
       "gamePk": 823281,
       "status": "final",
       "result": "L",
-      "score": "2\u20134"
+      "score": "2\u20134",
+      "archive_url": "archive.html?date=2026-06-29"
     },
     {
       "date": "2026-06-29",
       "opponent": "CHC",
       "home": false,
       "gamePk": 824662,
-      "status": "scheduled",
-      "time_local": "5:05 PM PT",
-      "probable": {
-        "opp": "Shota Imanaga"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20133"
     },
     {
       "date": "2026-06-30",
@@ -269,8 +268,8 @@
     }
   ],
   "summary": {
-    "month_record": "11\u201313",
-    "current_streak": "L2",
-    "last_10": "6\u20134"
+    "month_record": "11\u201314",
+    "current_streak": "L3",
+    "last_10": "5\u20135"
   }
 }
