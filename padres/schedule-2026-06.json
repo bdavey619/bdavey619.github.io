@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-06",
   "division_name": "NL West",
-  "generated_at": "2026-06-30T12:28:16.342382+00:00",
+  "generated_at": "2026-07-01T13:15:12.129345+00:00",
   "games": [
     {
       "date": "2026-06-02",
@@ -252,24 +252,22 @@
       "gamePk": 824662,
       "status": "final",
       "result": "L",
-      "score": "2\u20133"
+      "score": "2\u20133",
+      "archive_url": "archive.html?date=2026-06-30"
     },
     {
       "date": "2026-06-30",
       "opponent": "CHC",
       "home": false,
       "gamePk": 824661,
-      "status": "scheduled",
-      "time_local": "5:05 PM PT",
-      "probable": {
-        "team": "JP Sears",
-        "opp": "Matthew Boyd"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "7\u20139"
     }
   ],
   "summary": {
-    "month_record": "11\u201314",
-    "current_streak": "L3",
-    "last_10": "5\u20135"
+    "month_record": "11\u201315",
+    "current_streak": "",
+    "last_10": ""
   }
 }

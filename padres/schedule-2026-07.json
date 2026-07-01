@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-06-30T12:28:16.342382+00:00",
+  "generated_at": "2026-07-01T13:15:12.129345+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -23,7 +23,10 @@
       "home": false,
       "gamePk": 823935,
       "status": "scheduled",
-      "time_local": "7:10 PM PT"
+      "time_local": "7:10 PM PT",
+      "probable": {
+        "opp": "Roki Sasaki"
+      }
     },
     {
       "date": "2026-07-03",
@@ -31,7 +34,10 @@
       "home": false,
       "gamePk": 823933,
       "status": "scheduled",
-      "time_local": "7:10 PM PT"
+      "time_local": "7:10 PM PT",
+      "probable": {
+        "opp": "Shohei Ohtani"
+      }
     },
     {
       "date": "2026-07-04",
@@ -220,7 +226,7 @@
   ],
   "summary": {
     "month_record": "0\u20130",
-    "current_streak": "",
-    "last_10": ""
+    "current_streak": "L4",
+    "last_10": "5\u20135"
   }
 }
