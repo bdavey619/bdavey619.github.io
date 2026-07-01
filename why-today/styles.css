@@ -1,0 +1,222 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #FEFEF9;
+  --bg-warm: #F7F5EE;
+  --text: #1A1918;
+  --text-secondary: #6B6862;
+  --text-tertiary: #9C9893;
+  --accent: #B5451B;
+  --rule: #E0DDD5;
+  --max-width: 720px;
+}
+
+html {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* ─── MASTHEAD ─── */
+
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  padding: 32px 40px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.publication-name {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.masthead-tagline {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--text-tertiary);
+  letter-spacing: 0.04em;
+}
+
+/* ─── HERO ─── */
+
+.hero {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 80px 40px 64px;
+  text-align: center;
+}
+
+.hero-eyebrow {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 24px;
+}
+
+.hero-headline {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin-bottom: 28px;
+}
+
+.hero-description {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* ─── EDITIONS ─── */
+
+.editions-section {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 40px 96px;
+}
+
+.section-rule {
+  width: 100%;
+  height: 1px;
+  background: var(--rule);
+  margin-bottom: 56px;
+}
+
+.section-label {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  margin-bottom: 40px;
+}
+
+.edition-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.edition-item {
+  border-top: 1px solid var(--rule);
+  padding: 36px 0;
+}
+
+.edition-item:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.edition-link {
+  text-decoration: none;
+  display: block;
+}
+
+.edition-link:hover .edition-question {
+  color: var(--accent);
+}
+
+.edition-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.edition-number {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  color: var(--text-tertiary);
+}
+
+.edition-date {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: var(--text-tertiary);
+}
+
+.edition-moment {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--text-tertiary);
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.edition-question {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--text);
+  transition: color 0.15s ease;
+}
+
+/* ─── FOOTER ─── */
+
+.footer {
+  border-top: 1px solid var(--rule);
+  padding: 32px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-name {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+
+.footer-note {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: var(--text-tertiary);
+}
+
+@media (max-width: 640px) {
+  .masthead { padding: 20px 24px; }
+  .hero { padding: 56px 24px 48px; }
+  .hero-headline { font-size: 36px; }
+  .editions-section { padding: 0 24px 72px; }
+  .footer { padding: 28px 24px; flex-direction: column; text-align: center; }
+}

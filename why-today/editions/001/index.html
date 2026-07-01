@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Today? · Why is July 4th America's birthday?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #FEFEF9;
+      --bg-warm: #F7F5EE;
+      --text: #1A1918;
+      --text-secondary: #6B6862;
+      --text-tertiary: #9C9893;
+      --accent: #B5451B;
+      --accent-light: #F2E8E3;
+      --rule: #E0DDD5;
+      --timeline-dot: #1A1918;
+      --max-width: 700px;
+      --wide-width: 920px;
+    }
+
+    html {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 18px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      min-height: 100vh;
+    }
+
+    /* ─── MASTHEAD ─── */
+
+    .masthead {
+      border-bottom: 1px solid var(--rule);
+      padding: 28px 40px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .publication-name {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text);
+    }
+
+    .masthead-meta {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+    }
+
+    /* ─── HERO ─── */
+
+    .hero {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 72px 40px 48px;
+      text-align: center;
+    }
+
+    .moment-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    .moment-statement {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      color: var(--text-secondary);
+      margin-bottom: 40px;
+    }
+
+    .edition-rule {
+      width: 40px;
+      height: 1px;
+      background: var(--rule);
+      margin: 0 auto 40px;
+    }
+
+    .hero-question {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 1.18;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+
+    @media (max-width: 600px) {
+      .hero-question { font-size: 30px; }
+    }
+
+    /* ─── SURPRISING SENTENCE ─── */
+
+    .surprising-sentence-wrapper {
+      background: var(--bg-warm);
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 56px 40px;
+      margin-bottom: 72px;
+    }
+
+    .surprising-sentence {
+      max-width: 620px;
+      margin: 0 auto;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 22px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.55;
+      color: var(--text);
+      text-align: center;
+    }
+
+    .surprising-sentence em {
+      font-style: normal;
+      color: var(--accent);
+    }
+
+    /* ─── BODY ─── */
+
+    .body-content {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 40px 96px;
+    }
+
+    .section-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 24px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.78;
+      color: var(--text);
+      margin-bottom: 24px;
+      font-weight: 300;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .body-content > p.drop-cap::first-letter {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 0.82;
+      float: left;
+      margin-right: 8px;
+      margin-top: 6px;
+      color: var(--text);
+    }
+
+    .section-divider {
+      width: 100%;
+      height: 1px;
+      background: var(--rule);
+      margin: 56px 0;
+    }
+
+    .section-heading {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 1.3;
+      color: var(--text);
+      margin-bottom: 28px;
+    }
+
+    /* ─── TIMELINE ─── */
+
+    .timeline-wrapper {
+      margin: 56px -20px;
+      padding: 48px 20px;
+      background: var(--bg-warm);
+      border-radius: 4px;
+      border: 1px solid var(--rule);
+    }
+
+    .timeline-heading {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .timeline {
+      position: relative;
+      max-width: 580px;
+      margin: 0 auto;
+    }
+
+    .timeline-spine {
+      position: absolute;
+      left: 50%;
+      top: 12px;
+      bottom: 12px;
+      width: 1px;
+      background: var(--rule);
+      transform: translateX(-50%);
+    }
+
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 1fr 24px 1fr;
+      gap: 0 20px;
+      margin-bottom: 40px;
+      position: relative;
+      align-items: start;
+    }
+
+    .timeline-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .timeline-left {
+      text-align: right;
+      padding-right: 12px;
+    }
+
+    .timeline-right {
+      padding-left: 12px;
+    }
+
+    .timeline-dot-col {
+      display: flex;
+      justify-content: center;
+      padding-top: 4px;
+    }
+
+    .timeline-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--text);
+      flex-shrink: 0;
+      z-index: 1;
+    }
+
+    .timeline-dot.decisive {
+      width: 14px;
+      height: 14px;
+      background: var(--accent);
+      margin-top: -2px;
+    }
+
+    .timeline-date {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 19px;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.2;
+    }
+
+    .timeline-date.decisive {
+      color: var(--accent);
+    }
+
+    .timeline-year {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 400;
+      color: var(--text-tertiary);
+      letter-spacing: 0.06em;
+      display: block;
+      margin-top: 2px;
+    }
+
+    .timeline-event {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text);
+      line-height: 1.4;
+    }
+
+    .timeline-detail {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      margin-top: 4px;
+    }
+
+    /* Odd items: date left, event right. Even items: event left, date right */
+    .timeline-item:nth-child(odd) .timeline-left { order: 0; }
+    .timeline-item:nth-child(even) .timeline-left,
+    .timeline-item:nth-child(even) .timeline-right {
+      /* swap for even items */
+    }
+
+    /* ─── PULL QUOTE ─── */
+
+    .pull-quote {
+      border-left: 3px solid var(--accent);
+      margin: 40px 0;
+      padding: 4px 0 4px 28px;
+    }
+
+    .pull-quote p {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 19px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.55;
+      color: var(--text);
+      margin-bottom: 10px;
+    }
+
+    .pull-quote cite {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--text-tertiary);
+      font-style: normal;
+      letter-spacing: 0.04em;
+    }
+
+    /* ─── REVELATION BLOCK ─── */
+
+    .revelation {
+      background: var(--text);
+      color: #FEFEF9;
+      padding: 48px 40px;
+      margin: 56px -40px;
+      text-align: center;
+    }
+
+    .revelation p {
+      color: rgba(254,254,249,0.85);
+      font-size: 16px;
+      max-width: 540px;
+      margin: 0 auto 0;
+    }
+
+    .revelation-headline {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 28px;
+      font-weight: 600;
+      font-style: italic;
+      line-height: 1.3;
+      color: #FEFEF9;
+      margin-bottom: 20px;
+      max-width: 540px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ─── CODA ─── */
+
+    .coda {
+      background: var(--accent-light);
+      border: 1px solid #D9B5A7;
+      border-radius: 3px;
+      padding: 32px 36px;
+      margin: 56px 0 0;
+    }
+
+    .coda-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+
+    .coda p {
+      font-size: 16px;
+      color: var(--text);
+      margin-bottom: 0;
+    }
+
+    /* ─── CONTINUE READING ─── */
+
+    .continue-reading {
+      border-top: 1px solid var(--rule);
+      margin-top: 72px;
+      padding-top: 40px;
+    }
+
+    .continue-reading .section-label {
+      margin-bottom: 28px;
+    }
+
+    .reading-list {
+      list-style: none;
+    }
+
+    .reading-list li {
+      border-bottom: 1px solid var(--rule);
+      padding: 16px 0;
+    }
+
+    .reading-list li:last-child {
+      border-bottom: none;
+    }
+
+    .reading-list a {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      text-decoration: none;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .reading-list a:hover {
+      color: var(--accent);
+    }
+
+    .reading-list .reading-meta {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+    }
+
+    /* ─── FOOTER ─── */
+
+    .footer {
+      border-top: 1px solid var(--rule);
+      padding: 32px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .footer-name {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+    }
+
+    .footer-note {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      text-align: right;
+    }
+
+    /* ─── UTILITY ─── */
+
+    strong {
+      font-weight: 500;
+    }
+
+    @media (max-width: 640px) {
+      .masthead { padding: 20px 24px; }
+      .hero { padding: 52px 24px 40px; }
+      .body-content { padding: 0 24px 72px; }
+      .revealing { margin: 56px -24px; padding: 40px 24px; }
+      .footer { padding: 28px 24px; flex-direction: column; text-align: center; }
+      .footer-note { text-align: center; }
+      .timeline-wrapper { margin: 56px -4px; }
+      .revelation { margin: 56px -24px; padding: 40px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <span class="publication-name">Why Today?</span>
+    <span class="masthead-meta">Edition No. 001 &nbsp;·&nbsp; June 30, 2026</span>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="moment-label">Today's Shared Moment</p>
+    <p class="moment-statement">America turns 250 in four days.</p>
+    <div class="edition-rule"></div>
+    <h1 class="hero-question">Why is July&nbsp;4th America's birthday — if it isn't the date of anything&nbsp;decisive?</h1>
+  </section>
+
+  <!-- SURPRISING SENTENCE -->
+  <div class="surprising-sentence-wrapper">
+    <p class="surprising-sentence">
+      John Adams predicted Americans would celebrate <em>July 2nd</em> forever. He predicted the fireworks, the parades, the bonfires. He got everything right except the date.
+    </p>
+  </div>
+
+  <!-- BODY -->
+  <main class="body-content">
+
+    <p class="section-label">What actually happened</p>
+
+    <p class="drop-cap">In the summer of 1776, Philadelphia was hot, and the Continental Congress was running out of patience. They had been debating independence for months. The final vote came on July 2nd, when Richard Henry Lee's resolution passed: the colonies were now, by law, free and independent states.</p>
+
+    <p>That was the moment. That was the act. The United States became independent on July 2nd, 1776.</p>
+
+    <p>John Adams knew it. He sat down that evening and wrote to his wife Abigail — the letter that has, with some irony, become one of the most quoted in American history:</p>
+
+    <div class="pull-quote">
+      <p>"The Second Day of July 1776, will be the most memorable Epocha, in the History of America… It ought to be solemnized with Pomp and Parade, with Shews, Games, Sports, Guns, Bells, Bonfires and Illuminations from one End of this Continent to the other from this Time forward forever more."</p>
+      <cite>John Adams, letter to Abigail Adams, July 3, 1776</cite>
+    </div>
+
+    <p>He was right about everything except one thing. Here is what the following weeks actually looked like:</p>
+
+    <!-- TIMELINE -->
+    <div class="timeline-wrapper">
+      <p class="timeline-heading">Philadelphia, Summer 1776</p>
+      <div class="timeline">
+        <div class="timeline-spine"></div>
+
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <div class="timeline-date decisive">July 2</div>
+            <span class="timeline-year">1776</span>
+          </div>
+          <div class="timeline-dot-col">
+            <div class="timeline-dot decisive"></div>
+          </div>
+          <div class="timeline-right">
+            <div class="timeline-event">Congress votes for independence</div>
+            <div class="timeline-detail">Lee's resolution passes. This is the decisive act. The United States is legally independent. Adams celebrates.</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <div class="timeline-date">July 4</div>
+            <span class="timeline-year">1776</span>
+          </div>
+          <div class="timeline-dot-col">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-right">
+            <div class="timeline-event">Congress approves the Declaration's text</div>
+            <div class="timeline-detail">Jefferson's document — an explanation of why independence was justified — is approved for printing. This date appears on the document's masthead.</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <div class="timeline-date">July 8</div>
+            <span class="timeline-year">1776</span>
+          </div>
+          <div class="timeline-dot-col">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-right">
+            <div class="timeline-event">First public reading in Philadelphia</div>
+            <div class="timeline-detail">The Declaration is read aloud to a crowd at the State House yard. The Liberty Bell rings. Most citizens hear of independence for the first time.</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <div class="timeline-date">August 2</div>
+            <span class="timeline-year">1776</span>
+          </div>
+          <div class="timeline-dot-col">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-right">
+            <div class="timeline-event">Most delegates sign the parchment</div>
+            <div class="timeline-detail">The famous signatures are added — not on July 4th, but a full month later. Several delegates signed even later than this.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <h2 class="section-heading">Why July 4th won</h2>
+
+    <p>The Declaration of Independence is not the act of independence. It is the announcement of it — a statement of principles and grievances written to explain to the world why the colonies had already voted to leave. The independence was done. The Declaration justified it.</p>
+
+    <p>But the date was on the document. When Congress had the Declaration printed and distributed — first to newspapers, then to colonial governments across the continent — every copy carried the date of its congressional approval: <em>In Congress, July 4, 1776.</em></p>
+
+    <p>The date traveled with the document. And the document was the only thing most Americans ever saw.</p>
+
+    <p>In the years that followed, July 4th became the date around which commemoration coalesced — gradually, informally, through repetition. Philadelphia held its first formal celebration on July 4th in 1777, a year after independence. By 1783, it was standard. By 1870, Congress made it a federal holiday.</p>
+
+    <p>July 2nd was never marked. No celebration ever attached to it. The vote that created the United States became a procedural footnote to the document that announced it.</p>
+
+    <div class="section-divider"></div>
+
+    <!-- REVELATION -->
+    <div class="revelation">
+      <p class="revelation-headline">Nations don't remember what happened. They remember what they decided to celebrate.</p>
+      <p>Adams watched July 4th become the date and never made peace with it. He believed, until the end, that July 2nd was the true birthday. He died on July 4th, 1826 — the 50th anniversary of the Declaration's approval. Thomas Jefferson died the same day, hours earlier.</p>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <h2 class="section-heading">What this means for every flag you'll see this week</h2>
+
+    <p>July 4th is not wrong. It is not a mistake or a confusion. It is something more interesting: a date that became real through the act of celebration itself.</p>
+
+    <p>This is how national identity usually works — not through official proclamation but through the gradual accumulation of commemoration. The date that appears on the most documents becomes the birthday. The event most often retold becomes the founding. The story repeated most consistently becomes the truth.</p>
+
+    <p>France celebrates July 14th — the storming of a largely empty prison that held seven prisoners. Australia marks January 26th — the arrival of a fleet most Australians now contest. America chose the date printed on a justification rather than the date of the act itself.</p>
+
+    <p>In each case, the "birthday" is less a historical fact than a collective decision about what to commemorate. And the decision, once made and repeated enough times, <em>becomes</em> the history.</p>
+
+    <p>Which means Adams was right about the fireworks. He was right about the bonfires and the parades and the illuminations from one end of the continent to the other. He just couldn't have known that the date would be chosen not by historians or by Congress, but by the calendar printed on a document — and by everyone who celebrated it.</p>
+
+    <!-- CODA -->
+    <div class="coda">
+      <p class="coda-label">One more thing</p>
+      <p>John Adams and Thomas Jefferson — the two men most responsible for independence, and the only two signers who became president — both died on July 4th, 1826, within hours of each other. It was the 50th anniversary of the Declaration. Neither man knew the other had died the same day. Adams's last words were reported to be: <em>"Thomas Jefferson survives."</em> He didn't.</p>
+    </div>
+
+    <!-- CONTINUE READING -->
+    <div class="continue-reading">
+      <p class="section-label">To continue</p>
+      <ul class="reading-list">
+        <li>
+          <a href="https://founders.archives.gov/documents/Adams/04-02-02-0016" target="_blank" rel="noopener">Adams's letter to Abigail, July 3, 1776</a>
+          <span class="reading-meta">National Archives · The letter where he predicts July 2nd will be remembered forever</span>
+        </li>
+        <li>
+          <a href="https://www.archives.gov/founding-docs/declaration-history" target="_blank" rel="noopener">A History of the Declaration of Independence</a>
+          <span class="reading-meta">National Archives · The full timeline of drafting, approval, and signing</span>
+        </li>
+        <li>
+          <a href="https://en.wikipedia.org/wiki/United_States_Semiquincentennial" target="_blank" rel="noopener">The United States Semiquincentennial</a>
+          <span class="reading-meta">Wikipedia · How America is marking its 250th year</span>
+        </li>
+      </ul>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span class="footer-name">Why Today?</span>
+    <span class="footer-note">A different question for today's conversation.</span>
+  </footer>
+
+</body>
+</html>
