@@ -3,19 +3,16 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-01T13:15:12.129345+00:00",
+  "generated_at": "2026-07-02T12:25:35.261312+00:00",
   "games": [
     {
       "date": "2026-07-01",
       "opponent": "CHC",
       "home": false,
       "gamePk": 824660,
-      "status": "scheduled",
-      "time_local": "11:20 AM PT",
-      "probable": {
-        "team": "Walker Buehler",
-        "opp": "Colin Rea"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u201323"
     },
     {
       "date": "2026-07-02",
@@ -25,6 +22,7 @@
       "status": "scheduled",
       "time_local": "7:10 PM PT",
       "probable": {
+        "team": "Randy V\u00e1squez",
         "opp": "Roki Sasaki"
       }
     },
@@ -36,6 +34,7 @@
       "status": "scheduled",
       "time_local": "7:10 PM PT",
       "probable": {
+        "team": "Michael King",
         "opp": "Shohei Ohtani"
       }
     },
@@ -45,7 +44,11 @@
       "home": false,
       "gamePk": 823932,
       "status": "scheduled",
-      "time_local": "7:10 PM PT"
+      "time_local": "7:10 PM PT",
+      "probable": {
+        "team": "Griffin Canning",
+        "opp": "Yoshinobu Yamamoto"
+      }
     },
     {
       "date": "2026-07-05",
@@ -53,7 +56,11 @@
       "home": false,
       "gamePk": 823931,
       "status": "scheduled",
-      "time_local": "4:20 PM PT"
+      "time_local": "4:20 PM PT",
+      "probable": {
+        "team": "JP Sears",
+        "opp": "Emmet Sheehan"
+      }
     },
     {
       "date": "2026-07-06",
@@ -225,8 +232,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20130",
-    "current_streak": "L4",
-    "last_10": "5\u20135"
+    "month_record": "0\u20131",
+    "current_streak": "L5",
+    "last_10": "4\u20136"
   }
 }
