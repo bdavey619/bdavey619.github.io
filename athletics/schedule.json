@@ -3,18 +3,16 @@
   "team_slug": "athletics",
   "month": "2026-07",
   "division_name": "AL West",
-  "generated_at": "2026-07-01T15:22:00.911836+00:00",
+  "generated_at": "2026-07-02T14:54:36.610338+00:00",
   "games": [
     {
       "date": "2026-07-01",
       "opponent": "LAD",
       "home": true,
       "gamePk": 824985,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "J.T. Ginn"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "7\u20131"
     },
     {
       "date": "2026-07-03",
@@ -22,7 +20,10 @@
       "home": true,
       "gamePk": 824982,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Jack Perkins"
+      }
     },
     {
       "date": "2026-07-04",
@@ -30,7 +31,10 @@
       "home": true,
       "gamePk": 824983,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Aaron Civale"
+      }
     },
     {
       "date": "2026-07-05",
@@ -38,7 +42,10 @@
       "home": true,
       "gamePk": 824980,
       "status": "scheduled",
-      "time_local": "1:30 PM PT"
+      "time_local": "1:30 PM PT",
+      "probable": {
+        "team": "Gage Jump"
+      }
     },
     {
       "date": "2026-07-07",
@@ -202,8 +209,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20130",
-    "current_streak": "L4",
-    "last_10": "2\u20138"
+    "month_record": "1\u20130",
+    "current_streak": "W1",
+    "last_10": "3\u20137"
   }
 }
