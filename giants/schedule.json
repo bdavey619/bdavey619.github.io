@@ -3,19 +3,16 @@
   "team_slug": "giants",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-01T14:38:29.108166+00:00",
+  "generated_at": "2026-07-02T14:03:10.219332+00:00",
   "games": [
     {
       "date": "2026-07-01",
       "opponent": "ARI",
       "home": false,
       "gamePk": 825064,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Trevor McDonald",
-        "opp": "Zac Gallen"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "6\u20134"
     },
     {
       "date": "2026-07-03",
@@ -211,8 +208,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20130",
-    "current_streak": "L2",
-    "last_10": "4\u20136"
+    "month_record": "1\u20130",
+    "current_streak": "W1",
+    "last_10": "5\u20135"
   }
 }
