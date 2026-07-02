@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Today? · Why is the Tour de France yellow?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #FEFEF9;
+      --bg-warm: #F7F5EE;
+      --text: #1A1918;
+      --text-secondary: #6B6862;
+      --text-tertiary: #9C9893;
+      --accent: #B5451B;
+      --rule: #E0DDD5;
+      --yellow: #F2C135;
+      --yellow-bg: #FDF6DC;
+      --yellow-text: #5C430A;
+      --max-width: 700px;
+    }
+
+    html {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 18px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body { min-height: 100vh; }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 1px solid var(--rule);
+      padding: 28px 40px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .publication-name {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .masthead-meta {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 72px 40px 48px;
+      text-align: center;
+    }
+
+    .moment-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    .moment-statement {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      color: var(--text-secondary);
+      margin-bottom: 40px;
+    }
+
+    .edition-rule {
+      width: 40px;
+      height: 1px;
+      background: var(--rule);
+      margin: 0 auto 40px;
+    }
+
+    .hero-question {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+
+    @media (max-width: 600px) {
+      .hero-question { font-size: 28px; }
+    }
+
+    /* ── Revelation block ── */
+    .revelation-wrapper {
+      background: var(--bg-warm);
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 56px 40px;
+      margin-bottom: 72px;
+    }
+
+    .revelation {
+      max-width: 580px;
+      margin: 0 auto;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 22px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--text);
+      text-align: center;
+    }
+
+    .revelation em {
+      font-style: normal;
+      color: var(--accent);
+    }
+
+    /* ── Body ── */
+    .body-content {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.78;
+      color: var(--text);
+      margin-bottom: 28px;
+      font-weight: 300;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    .body-content > p.drop-cap::first-letter {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 0.82;
+      float: left;
+      margin-right: 8px;
+      margin-top: 6px;
+      color: var(--text);
+    }
+
+    /* ── Color artifact ── */
+    .artifact-section {
+      max-width: var(--max-width);
+      margin: 56px auto;
+      padding: 0 40px;
+    }
+
+    .artifact {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+    }
+
+    .artifact-panel {
+      background: var(--yellow);
+      padding: 32px 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .artifact-panel.closed {
+      background: #D4B020;
+      opacity: 0.7;
+    }
+
+    .artifact-panel-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--yellow-text);
+      opacity: 0.7;
+    }
+
+    .artifact-panel-name {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.1;
+      color: var(--yellow-text);
+    }
+
+    .artifact-panel-name.script {
+      font-style: italic;
+    }
+
+    .artifact-panel-dates {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 13px;
+      font-weight: 300;
+      color: var(--yellow-text);
+      margin-top: 4px;
+    }
+
+    .artifact-panel-status {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--yellow-text);
+      margin-top: 12px;
+      opacity: 0.6;
+    }
+
+    .artifact-panel.live .artifact-panel-status {
+      opacity: 1;
+    }
+
+    .artifact-caption {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 13px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      line-height: 1.6;
+      margin-top: 12px;
+      font-style: italic;
+    }
+
+    @media (max-width: 480px) {
+      .artifact { grid-template-columns: 1fr; }
+    }
+
+    /* ── Blockquote ── */
+    blockquote {
+      margin: 0 0 28px;
+      padding: 0 0 0 24px;
+      border-left: 3px solid var(--yellow);
+    }
+
+    blockquote p {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 19px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.65;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    blockquote cite {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      color: var(--text-tertiary);
+      font-style: normal;
+    }
+
+    /* ── Ending image ── */
+    .ending-image {
+      background: var(--bg-warm);
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      margin-top: 56px;
+      padding: 48px 40px;
+      text-align: center;
+    }
+
+    .ending-image p {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 21px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.65;
+      color: var(--text);
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    /* ── One More Thing ── */
+    .one-more-thing {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 48px 40px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .omt-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 18px;
+    }
+
+    .one-more-thing p {
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--text);
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+
+    /* ── To Continue ── */
+    .to-continue {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 48px 40px 96px;
+    }
+
+    .continue-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 24px;
+    }
+
+    .rabbit-holes {
+      list-style: none;
+      padding: 0;
+    }
+
+    .rabbit-holes li {
+      padding: 16px 0;
+      border-bottom: 1px solid var(--rule);
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .rabbit-holes li:first-child { border-top: 1px solid var(--rule); }
+
+    .rabbit-holes li::before {
+      content: '→';
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 13px;
+      color: var(--text-tertiary);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .rabbit-hole-text strong {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .rabbit-hole-text span {
+      font-size: 14px;
+      font-weight: 300;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* ── Footer ── */
+    .footer {
+      border-top: 1px solid var(--rule);
+      padding: 32px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .footer-name {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+    }
+
+    .footer-note {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      text-align: right;
+    }
+
+    @media (max-width: 640px) {
+      .masthead { padding: 20px 24px; }
+      .hero { padding: 52px 24px 40px; }
+      .body-content { padding: 0 24px; }
+      .artifact-section { padding: 0 24px; }
+      .ending-image { padding: 40px 24px; }
+      .one-more-thing { padding: 40px 24px; }
+      .to-continue { padding: 40px 24px 72px; }
+      .footer { padding: 28px 24px; flex-direction: column; text-align: center; }
+      .footer-note { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="masthead">
+    <span class="publication-name">Why Today?</span>
+    <span class="masthead-meta">Edition No. 006 &nbsp;·&nbsp; July 1, 2026</span>
+  </header>
+
+  <section class="hero">
+    <p class="moment-label">Today's Shared Moment</p>
+    <p class="moment-statement">The Tour de France begins this Saturday in Lille. Three billion people will follow a race whose most recognizable symbol — the yellow jersey — almost nobody can explain.</p>
+    <div class="edition-rule"></div>
+    <h1 class="hero-question">Why is the Tour de France yellow?</h1>
+  </section>
+
+  <div class="revelation-wrapper">
+    <p class="revelation">
+      A closed newspaper has been leading the Tour de France for over a century.
+    </p>
+  </div>
+
+  <main class="body-content">
+
+    <p class="drop-cap">In 1903, L'Auto was losing. The French sports newspaper had roughly 20,000 daily readers against a dominant rival, Le Vélo, which had launched earlier and owned the cycling audience. The two papers had split over the Dreyfus Affair — Le Vélo had taken the Dreyfusard position; L'Auto's backers had not — and advertisers had followed Le Vélo out the door. A young L'Auto journalist named Géo Lefèvre, riding home from another race with his editor Henri Desgrange, suggested something no rival could replicate: a race around the entire country. Desgrange took the idea to the paper's financial controller, who approved it, and on January 19, 1903, L'Auto announced what Desgrange called "the greatest cycling trial in the entire world."</p>
+
+    <p>It worked. After the first Tour, L'Auto's circulation had tripled. After the second, it reached 130,000. Le Vélo, unable to report on a story it hadn't invented, folded in 1904.</p>
+
+  </main>
+
+  <div class="artifact-section">
+    <div class="artifact">
+      <div class="artifact-panel closed">
+        <span class="artifact-panel-label">The newspaper</span>
+        <span class="artifact-panel-name">L'Auto</span>
+        <span class="artifact-panel-dates">1900 — 1944</span>
+        <span class="artifact-panel-status">Shuttered as a Nazi collaborator</span>
+      </div>
+      <div class="artifact-panel live">
+        <span class="artifact-panel-label">The jersey</span>
+        <span class="artifact-panel-name script">Maillot Jaune</span>
+        <span class="artifact-panel-dates">1919 — present</span>
+        <span class="artifact-panel-status">Still racing</span>
+      </div>
+    </div>
+    <p class="artifact-caption">Same color. L'Auto printed on yellow paper; Desgrange chose yellow for the jersey in 1919 because it was the color of his paper. The newspaper closed in 1944. The color kept going.</p>
+  </div>
+
+  <main class="body-content">
+
+    <p>The yellow jersey arrived in 1919 without ceremony. Desgrange needed spectators to identify the race leader from the roadside. He chose the color of his paper. The jersey went to Eugène Christophe, who was leading the race at the time. Christophe didn't want it. Spectators lined the road and called out to him — <em>"Ah, the yellow jersey! Isn't he beautiful, the canary? What are you doing, Madame Cri-Cri"</em> — and, as he later recalled, "that lasted the whole course."</p>
+
+    <blockquote>
+      <p>"Ah, the yellow jersey! Isn't he beautiful, the canary?"</p>
+      <cite>— Roadside spectators, Tour de France, 1919, as recalled by Eugène Christophe</cite>
+    </blockquote>
+
+    <p>He wore it anyway, because Desgrange required it. Then, while leading the race, his front fork broke. He walked his bicycle to a blacksmith's shop in a nearby village and repaired it himself — the rules required no outside assistance — while the field rode past. He lost the yellow jersey. He finished third. He never won the Tour de France. The jersey he didn't want, repaired in a blacksmith's shop, has been worn by Merckx, Hinault, Induráin, and Armstrong, who held it for seven consecutive Tours before each title was stripped. It is now the thing every rider in the peloton is working toward.</p>
+
+    <p>Desgrange died in August 1940, a month into the German occupation. Four years later, at the liberation, the French government banned every publication that had kept printing under the occupation. L'Auto was among them. Its assets went to a new paper created to replace it: L'Équipe. L'Équipe still runs the Tour today.</p>
+
+  </main>
+
+  <div class="ending-image">
+    <p>The yellow jersey has been racing for 107 years. The newspaper that chose its color published its last edition eighty-two years ago.</p>
+  </div>
+
+  <div class="one-more-thing">
+    <p class="omt-label">One More Thing</p>
+    <p>In 1930, Desgrange banned trade teams to purify his race. With no sponsors to fund athletes, he needed a replacement. His solution: invite companies to send vehicles driving ahead of each stage in a promotional parade. The caravane publicitaire — floats throwing branded hats to roadside crowds — is now one of the Tour's most beloved spectacles. He created what he hated.</p>
+  </div>
+
+  <div class="to-continue">
+    <p class="continue-label">To Continue</p>
+    <ul class="rabbit-holes">
+      <li>
+        <div class="rabbit-hole-text">
+          <strong>The L'Auto / Le Vélo newspaper war</strong>
+          <span>How the Dreyfus Affair split French sports journalism — and why one side decided to invent a race rather than cover one.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <strong>Eugène Christophe and the broken fork</strong>
+          <span>The full story of the first yellow jersey: the blacksmith's shop, the rule against outside assistance, and the rider who wore the jersey nobody wanted and never won the Tour.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <strong>Doping from the beginning</strong>
+          <span>Early Tour riders used strychnine, cocaine, and ether-soaked handkerchiefs. These were not considered cheating — they were considered survival. When did the distinction appear, and why?</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <strong>The 1944 press purge</strong>
+          <span>How France dismantled 190 of 209 newspapers after the liberation — and how the paper born from that purge came to run the race its predecessor invented.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <strong>The publicity caravan today</strong>
+          <span>Millions of spectators line the roads each year to watch branded floats throw hats into crowds. A funding mechanism, invented by a man trying to purify his race, became a tradition nobody questions.</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <footer class="footer">
+    <span class="footer-name">Why Today?</span>
+    <span class="footer-note">A different question for today's conversation.</span>
+  </footer>
+
+</body>
+</html>
