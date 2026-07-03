@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-02T14:03:10.219332+00:00",
+  "generated_at": "2026-07-03T14:06:53.402257+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -12,7 +12,8 @@
       "gamePk": 825064,
       "status": "final",
       "result": "W",
-      "score": "6\u20134"
+      "score": "6\u20134",
+      "archive_url": "archive.html?date=2026-07-02"
     },
     {
       "date": "2026-07-03",
@@ -20,7 +21,10 @@
       "home": false,
       "gamePk": 824336,
       "status": "scheduled",
-      "time_local": "5:10 PM PT"
+      "time_local": "5:10 PM PT",
+      "probable": {
+        "opp": "Ryan Feltner"
+      }
     },
     {
       "date": "2026-07-04",
@@ -28,7 +32,10 @@
       "home": false,
       "gamePk": 824334,
       "status": "scheduled",
-      "time_local": "5:10 PM PT"
+      "time_local": "5:10 PM PT",
+      "probable": {
+        "opp": "Tomoyuki Sugano"
+      }
     },
     {
       "date": "2026-07-05",
@@ -36,7 +43,10 @@
       "home": false,
       "gamePk": 824333,
       "status": "scheduled",
-      "time_local": "1:00 PM PT"
+      "time_local": "1:00 PM PT",
+      "probable": {
+        "opp": "Tanner Gordon"
+      }
     },
     {
       "date": "2026-07-06",
