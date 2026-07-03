@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-07",
   "division_name": "AL East",
-  "generated_at": "2026-07-02T13:00:47.512302+00:00",
+  "generated_at": "2026-07-03T12:59:32.151604+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -12,7 +12,8 @@
       "gamePk": 823530,
       "status": "final",
       "result": "L",
-      "score": "2\u20136"
+      "score": "2\u20136",
+      "archive_url": "archive.html?date=2026-07-02"
     },
     {
       "date": "2026-07-03",
