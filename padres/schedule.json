@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-03T12:23:39.777846+00:00",
+  "generated_at": "2026-07-04T11:49:04.095477+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -22,19 +22,17 @@
       "gamePk": 823935,
       "status": "final",
       "result": "L",
-      "score": "7\u201312"
+      "score": "7\u201312",
+      "archive_url": "archive.html?date=2026-07-03"
     },
     {
       "date": "2026-07-03",
       "opponent": "LAD",
       "home": false,
       "gamePk": 823933,
-      "status": "scheduled",
-      "time_local": "7:10 PM PT",
-      "probable": {
-        "team": "Michael King",
-        "opp": "Shohei Ohtani"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20134"
     },
     {
       "date": "2026-07-04",
@@ -230,8 +228,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20132",
-    "current_streak": "L6",
-    "last_10": "4\u20136"
+    "month_record": "0\u20133",
+    "current_streak": "L7",
+    "last_10": "3\u20137"
   }
 }
