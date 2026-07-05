@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Today? · How did France end up playing against itself?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #FEFEF9;
+      --bg-warm: #F7F5EE;
+      --text: #1A1918;
+      --text-secondary: #6B6862;
+      --text-tertiary: #9C9893;
+      --accent: #B5451B;
+      --rule: #E0DDD5;
+      --max-width: 700px;
+
+      --morocco: #C1272D;
+      --france: #003189;
+      --spain: #D4950A;
+      --netherlands: #E17000;
+      --belgium: #555555;
+      --canada: #E8705A;
+    }
+
+    html {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 18px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body { min-height: 100vh; }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 1px solid var(--rule);
+      padding: 28px 40px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .publication-name {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .masthead-meta {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 72px 40px 48px;
+      text-align: center;
+    }
+
+    .moment-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    .moment-statement {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      color: var(--text-secondary);
+      margin-bottom: 40px;
+    }
+
+    .edition-rule {
+      width: 40px;
+      height: 1px;
+      background: var(--rule);
+      margin: 0 auto 40px;
+    }
+
+    .hero-question {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+
+    @media (max-width: 600px) {
+      .hero-question { font-size: 28px; }
+    }
+
+    /* ── Revelation block ── */
+    .revelation-wrapper {
+      background: var(--bg-warm);
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 56px 40px;
+      margin-bottom: 72px;
+    }
+
+    .revelation {
+      max-width: 580px;
+      margin: 0 auto;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 22px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--text);
+      text-align: center;
+    }
+
+    /* ── Body ── */
+    .body-content {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.78;
+      color: var(--text);
+      margin-bottom: 28px;
+      font-weight: 300;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    .body-content > p.drop-cap::first-letter {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 0.82;
+      float: left;
+      margin-right: 8px;
+      margin-top: 6px;
+      color: var(--text);
+    }
+
+    /* ── Origin grid ── */
+    .origin-section {
+      max-width: var(--max-width);
+      margin: 56px auto;
+      padding: 0 40px;
+    }
+
+    .origin-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.20em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 16px;
+    }
+
+    .origin-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 20px;
+    }
+
+    .origin-box {
+      width: 34px;
+      height: 34px;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+
+    .origin-box.morocco  { background: var(--morocco); }
+    .origin-box.france   { background: var(--france); }
+    .origin-box.spain    { background: var(--spain); }
+    .origin-box.netherlands { background: var(--netherlands); }
+    .origin-box.belgium  { background: var(--belgium); }
+    .origin-box.canada   { background: var(--canada); }
+
+    .origin-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      border-top: 1px solid var(--rule);
+      padding-top: 14px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--text-secondary);
+    }
+
+    .legend-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    .legend-dot.morocco  { background: var(--morocco); }
+    .legend-dot.france   { background: var(--france); }
+    .legend-dot.spain    { background: var(--spain); }
+    .legend-dot.netherlands { background: var(--netherlands); }
+    .legend-dot.belgium  { background: var(--belgium); }
+    .legend-dot.canada   { background: var(--canada); }
+
+    .origin-caption {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 13px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      line-height: 1.6;
+      margin-top: 14px;
+      font-style: italic;
+    }
+
+    /* ── Blockquote ── */
+    blockquote {
+      margin: 0 0 28px;
+      padding: 0 0 0 24px;
+      border-left: 3px solid var(--morocco);
+    }
+
+    blockquote p {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 19px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.65;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    blockquote cite {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      color: var(--text-tertiary);
+      font-style: normal;
+    }
+
+    /* ── Ending image ── */
+    .ending-image {
+      background: var(--bg-warm);
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      margin-top: 56px;
+      padding: 48px 40px;
+      text-align: center;
+    }
+
+    .ending-image p {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 21px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.65;
+      color: var(--text);
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    /* ── One More Thing ── */
+    .one-more-thing {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 48px 40px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .omt-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 18px;
+    }
+
+    .one-more-thing p {
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--text);
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+
+    /* ── To Continue ── */
+    .to-continue {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 48px 40px 96px;
+    }
+
+    .continue-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 24px;
+    }
+
+    .rabbit-holes {
+      list-style: none;
+      padding: 0;
+    }
+
+    .rabbit-holes li {
+      padding: 16px 0;
+      border-bottom: 1px solid var(--rule);
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .rabbit-holes li:first-child { border-top: 1px solid var(--rule); }
+
+    .rabbit-holes li::before {
+      content: '→';
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 13px;
+      color: var(--text-tertiary);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .rabbit-hole-text strong {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .rabbit-hole-text span {
+      font-size: 14px;
+      font-weight: 300;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* ── Footer ── */
+    .footer {
+      border-top: 1px solid var(--rule);
+      padding: 32px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .footer-name {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+    }
+
+    .footer-note {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      text-align: right;
+    }
+
+    @media (max-width: 640px) {
+      .masthead { padding: 20px 24px; }
+      .hero { padding: 52px 24px 40px; }
+      .body-content { padding: 0 24px; }
+      .origin-section { padding: 0 24px; }
+      .ending-image { padding: 40px 24px; }
+      .one-more-thing { padding: 40px 24px; }
+      .to-continue { padding: 40px 24px 72px; }
+      .footer { padding: 28px 24px; flex-direction: column; text-align: center; }
+      .footer-note { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="masthead">
+    <span class="publication-name">Why Today?</span>
+    <span class="masthead-meta">Edition No. 007 &nbsp;·&nbsp; July 5, 2026</span>
+  </header>
+
+  <section class="hero">
+    <p class="moment-label">Today's Shared Moment</p>
+    <p class="moment-statement">Morocco plays France in the World Cup quarterfinal on Thursday. They played in the 2022 semifinal too. France won. Something about that result has never settled.</p>
+    <div class="edition-rule"></div>
+    <h1 class="hero-question">How did France end up playing against itself?</h1>
+  </section>
+
+  <div class="revelation-wrapper">
+    <p class="revelation">
+      Morocco plays France on Thursday. Six of Morocco's players were born in France.
+    </p>
+  </div>
+
+  <main class="body-content">
+
+    <p class="drop-cap">Morocco named its 2026 World Cup squad in May. Twenty-six players. Seven were born in Morocco. Nineteen were born elsewhere — six in France, six in Spain, three in the Netherlands, three in Belgium, one in Canada. In the tournament's opening match against Canada, Morocco started its first all-foreign-born lineup in national team history.</p>
+
+    <p>This is not an accident or an anomaly. It is the shape that forty-four years of history leaves on a roster.</p>
+
+  </main>
+
+  <div class="origin-section">
+    <p class="origin-label">Morocco's 26-man squad — birthplace of each player</p>
+    <div class="origin-grid" aria-label="Morocco squad birthplace grid">
+      <!-- Morocco: 7 -->
+      <div class="origin-box morocco" title="Born in Morocco"></div>
+      <div class="origin-box morocco" title="Born in Morocco"></div>
+      <div class="origin-box morocco" title="Born in Morocco"></div>
+      <div class="origin-box morocco" title="Born in Morocco"></div>
+      <div class="origin-box morocco" title="Born in Morocco"></div>
+      <div class="origin-box morocco" title="Born in Morocco"></div>
+      <div class="origin-box morocco" title="Born in Morocco"></div>
+      <!-- France: 6 -->
+      <div class="origin-box france" title="Born in France"></div>
+      <div class="origin-box france" title="Born in France"></div>
+      <div class="origin-box france" title="Born in France"></div>
+      <div class="origin-box france" title="Born in France"></div>
+      <div class="origin-box france" title="Born in France"></div>
+      <div class="origin-box france" title="Born in France"></div>
+      <!-- Spain: 6 -->
+      <div class="origin-box spain" title="Born in Spain"></div>
+      <div class="origin-box spain" title="Born in Spain"></div>
+      <div class="origin-box spain" title="Born in Spain"></div>
+      <div class="origin-box spain" title="Born in Spain"></div>
+      <div class="origin-box spain" title="Born in Spain"></div>
+      <div class="origin-box spain" title="Born in Spain"></div>
+      <!-- Netherlands: 3 -->
+      <div class="origin-box netherlands" title="Born in Netherlands"></div>
+      <div class="origin-box netherlands" title="Born in Netherlands"></div>
+      <div class="origin-box netherlands" title="Born in Netherlands"></div>
+      <!-- Belgium: 3 -->
+      <div class="origin-box belgium" title="Born in Belgium"></div>
+      <div class="origin-box belgium" title="Born in Belgium"></div>
+      <div class="origin-box belgium" title="Born in Belgium"></div>
+      <!-- Canada: 1 -->
+      <div class="origin-box canada" title="Born in Canada"></div>
+    </div>
+    <div class="origin-legend">
+      <span class="legend-item"><span class="legend-dot morocco"></span>Morocco — 7</span>
+      <span class="legend-item"><span class="legend-dot france"></span>France — 6</span>
+      <span class="legend-item"><span class="legend-dot spain"></span>Spain — 6</span>
+      <span class="legend-item"><span class="legend-dot netherlands"></span>Netherlands — 3</span>
+      <span class="legend-item"><span class="legend-dot belgium"></span>Belgium — 3</span>
+      <span class="legend-item"><span class="legend-dot canada"></span>Canada — 1</span>
+    </div>
+    <p class="origin-caption">France and Spain together contribute as many players to Morocco's squad as Morocco does. The former colonial powers are the ones who made this team.</p>
+  </div>
+
+  <main class="body-content">
+
+    <p>On March 30, 1912, the Sultan of Morocco signed the Treaty of Fez. Under military pressure, he ceded foreign policy, military command, and most of the economy to France. The document called this arrangement a "protectorate" — a word that distinguished it, in theory, from colonization. In practice, France controlled Morocco for the next forty-four years. It built roads, schools, and cities for French settlers. It suppressed uprisings, including a 1912 revolt that killed 800 Moroccan soldiers in a single crackdown. When independence finally came in 1956, France had remade the country's infrastructure, language, and labor market in its own image.</p>
+
+    <p>What followed was migration. Moroccan workers — cheap labor for France's postwar reconstruction boom — came to Lyon, Marseille, Paris. Their children were born French. Those children's children are now 26 and playing in a World Cup.</p>
+
+    <p>FIFA's eligibility rules allow a player to represent the country of their birth, their parents, or their grandparents, provided they can demonstrate nationality. In 2021, FIFA went further: players who had appeared in up to three youth matches for one country could switch allegiances once. Several members of Morocco's 2026 squad had represented France at youth level before making that switch. FIFA, a bureaucracy not known for philosophy, has quietly built the sport's most practical answer to the question of what nationality actually means: it means something you can choose, once, when you're ready.</p>
+
+    <p>In December 2022, Morocco beat Spain and Portugal to reach the World Cup semifinal for the first time in any African or Arab nation's history. When the final whistle went, Moroccan flags appeared in the streets of Paris — not in opposition to France, but as French citizens celebrating Morocco. France deployed 10,000 police across the country that evening. In Montpellier, a man was killed in a hit-and-run after the celebrations. A group of forty far-right activists, armed with prohibited weapons, was arrested before it could reach the Champs-Élysées.</p>
+
+    <blockquote>
+      <p>"I was born in France, but nobody can have my heart for my country."</p>
+      <cite>— Walid Regragui, Morocco's head coach, after the 2022 quarterfinal win over Spain. Regragui was born in Corbeil-Essonnes, a suburb south of Paris.</cite>
+    </blockquote>
+
+    <p>Regragui replaced the previous Morocco coach six weeks before the 2022 tournament began. The players — many of them European-born — had lost confidence in their predecessor and told the federation. They wanted someone who understood where they came from. The federation hired a man born in Paris, raised between two countries, who had decided which one he was for.</p>
+
+  </main>
+
+  <div class="ending-image">
+    <p>France will need to beat a team built from the children of French colonization. The scoreline on Thursday will be simple. The squad list is not.</p>
+  </div>
+
+  <div class="one-more-thing">
+    <p class="omt-label">One More Thing</p>
+    <p>The 1998 French World Cup-winning team — Zidane, Thuram, Desailly — was celebrated under the slogan <em>black, blanc, beur</em>: a play on the French tricolor that meant Black, White, Arab. It was held up as proof that France's model of integration was working. Twenty-eight years later, six of those Arab players' equivalents are lining up for Morocco instead.</p>
+  </div>
+
+  <div class="to-continue">
+    <p class="continue-label">To Continue</p>
+    <ul class="rabbit-holes">
+      <li>
+        <div class="rabbit-hole-text">
+          <strong>The Treaty of Fez, 1912</strong>
+          <span>How France turned a sovereign sultanate into a "protectorate" under military pressure — and what forty-four years of that arrangement did to the country that followed.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <strong>FIFA's 2021 eligibility reform</strong>
+          <span>Why football changed its nationality rules — and which national teams it reshaped most. Morocco's transformation was not unique; it was the most visible.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <strong>Black, blanc, beur — and what happened next</strong>
+          <span>The 1998 French World Cup team was held up as proof that France's model of integration worked. The argument has since collapsed. What changed, and why.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <strong>Walid Regragui</strong>
+          <span>The biography of a man born in a Paris suburb who became the most successful coach in Moroccan football history — and what he has said about which country he is for.</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <footer class="footer">
+    <span class="footer-name">Why Today?</span>
+    <span class="footer-note">A different question for today's conversation.</span>
+  </footer>
+
+</body>
+</html>
