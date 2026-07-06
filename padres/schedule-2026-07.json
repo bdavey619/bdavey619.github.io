@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-05T11:51:20.367103+00:00",
+  "generated_at": "2026-07-06T14:03:39.275320+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -42,19 +42,17 @@
       "gamePk": 823932,
       "status": "final",
       "result": "L",
-      "score": "0\u20133"
+      "score": "0\u20133",
+      "archive_url": "archive.html?date=2026-07-05"
     },
     {
       "date": "2026-07-05",
       "opponent": "LAD",
       "home": false,
       "gamePk": 823931,
-      "status": "scheduled",
-      "time_local": "4:20 PM PT",
-      "probable": {
-        "team": "JP Sears",
-        "opp": "Emmet Sheehan"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20132"
     },
     {
       "date": "2026-07-06",
@@ -62,7 +60,11 @@
       "home": true,
       "gamePk": 823282,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Walker Buehler",
+        "opp": "Brandon Pfaadt"
+      }
     },
     {
       "date": "2026-07-07",
@@ -70,7 +72,10 @@
       "home": true,
       "gamePk": 823280,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "opp": "Zac Gallen"
+      }
     },
     {
       "date": "2026-07-08",
@@ -78,7 +83,11 @@
       "home": true,
       "gamePk": 823279,
       "status": "scheduled",
-      "time_local": "7:10 PM PT"
+      "time_local": "7:10 PM PT",
+      "probable": {
+        "team": "Michael King",
+        "opp": "Jose Cabrera"
+      }
     },
     {
       "date": "2026-07-09",
@@ -86,7 +95,11 @@
       "home": true,
       "gamePk": 823277,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Griffin Canning",
+        "opp": "Merrill Kelly"
+      }
     },
     {
       "date": "2026-07-10",
@@ -226,8 +239,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20134",
-    "current_streak": "L8",
+    "month_record": "1\u20134",
+    "current_streak": "W1",
     "last_10": "2\u20138"
   }
 }
