@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-07",
   "division_name": "AL West",
-  "generated_at": "2026-07-05T14:19:00.918220+00:00",
+  "generated_at": "2026-07-06T16:02:43.936038+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -32,19 +32,17 @@
       "gamePk": 824983,
       "status": "final",
       "result": "L",
-      "score": "2\u20137"
+      "score": "2\u20137",
+      "archive_url": "archive.html?date=2026-07-05"
     },
     {
       "date": "2026-07-05",
       "opponent": "MIA",
       "home": true,
       "gamePk": 824980,
-      "status": "scheduled",
-      "time_local": "1:30 PM PT",
-      "probable": {
-        "team": "Gage Jump",
-        "opp": "Eury P\u00e9rez"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "8\u20139"
     },
     {
       "date": "2026-07-07",
@@ -52,7 +50,11 @@
       "home": false,
       "gamePk": 824254,
       "status": "scheduled",
-      "time_local": "3:40 PM PT"
+      "time_local": "3:40 PM PT",
+      "probable": {
+        "team": "J.T. Ginn",
+        "opp": "Tarik Skubal"
+      }
     },
     {
       "date": "2026-07-08",
@@ -60,7 +62,11 @@
       "home": false,
       "gamePk": 824253,
       "status": "scheduled",
-      "time_local": "3:40 PM PT"
+      "time_local": "3:40 PM PT",
+      "probable": {
+        "team": "Jeffrey Springs",
+        "opp": "Troy Melton"
+      }
     },
     {
       "date": "2026-07-09",
@@ -68,7 +74,11 @@
       "home": false,
       "gamePk": 824251,
       "status": "scheduled",
-      "time_local": "3:40 PM PT"
+      "time_local": "3:40 PM PT",
+      "probable": {
+        "team": "Jack Perkins",
+        "opp": "Framber Valdez"
+      }
     },
     {
       "date": "2026-07-10",
@@ -208,8 +218,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20132",
-    "current_streak": "L2",
+    "month_record": "1\u20133",
+    "current_streak": "L3",
     "last_10": "3\u20137"
   }
 }
