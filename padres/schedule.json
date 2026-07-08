@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-07T12:41:13.847265+00:00",
+  "generated_at": "2026-07-08T12:00:38.264308+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -62,19 +62,17 @@
       "gamePk": 823282,
       "status": "final",
       "result": "L",
-      "score": "0\u20138"
+      "score": "0\u20138",
+      "archive_url": "archive.html?date=2026-07-07"
     },
     {
       "date": "2026-07-07",
       "opponent": "ARI",
       "home": true,
       "gamePk": 823280,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Germ\u00e1n M\u00e1rquez",
-        "opp": "Zac Gallen"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "4\u20131"
     },
     {
       "date": "2026-07-08",
@@ -106,7 +104,10 @@
       "home": true,
       "gamePk": 823278,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "JP Sears"
+      }
     },
     {
       "date": "2026-07-11",
@@ -238,8 +239,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20135",
-    "current_streak": "L1",
-    "last_10": "1\u20139"
+    "month_record": "2\u20135",
+    "current_streak": "W1",
+    "last_10": "2\u20138"
   }
 }
