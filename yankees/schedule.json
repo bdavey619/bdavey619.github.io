@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-07",
   "division_name": "AL East",
-  "generated_at": "2026-07-07T13:22:44.263825+00:00",
+  "generated_at": "2026-07-08T12:24:14.150942+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -52,19 +52,17 @@
       "gamePk": 822958,
       "status": "final",
       "result": "W",
-      "score": "5\u20131"
+      "score": "5\u20131",
+      "archive_url": "archive.html?date=2026-07-07"
     },
     {
       "date": "2026-07-07",
       "opponent": "TB",
       "home": false,
       "gamePk": 822956,
-      "status": "scheduled",
-      "time_local": "6:40 PM ET",
-      "probable": {
-        "team": "Will Warren",
-        "opp": "Ian Seymour"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "4\u20136"
     },
     {
       "date": "2026-07-08",
@@ -227,8 +225,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20133",
-    "current_streak": "W1",
+    "month_record": "2\u20134",
+    "current_streak": "L1",
     "last_10": "2\u20138"
   }
 }
