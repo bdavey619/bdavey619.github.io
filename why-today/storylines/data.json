@@ -6,7 +6,8 @@
       "id": "macron-damascus-bombing",
       "category": "Politics & World",
       "moment": "Bombing near Macron's Damascus hotel",
-      "why_now": "Explosives detonated near the Four Seasons hotel where the French president was staying during his Syria state visit.",
+      "why_now": "Explosives detonated near the Four Seasons hotel where the French president was staying during his Syria state visit \u2014 the first European leader to visit since Assad's ouster.",
+      "url": "https://www.cnn.com/2026/07/07/middleeast/explosion-damascus-macron-hotel-syria-intl",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -15,7 +16,8 @@
       "id": "hamas-dissolves-gaza-body",
       "category": "Politics & World",
       "moment": "Hamas dissolves Gaza governing body",
-      "why_now": "A major structural shift in Gaza's post-war governance, announced this week.",
+      "why_now": "After nearly two decades in control, Hamas formally dissolved its Government Emergency Committee, clearing the way for a technocratic committee \u2014 the first structural handover since 2007.",
+      "url": "https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -25,6 +27,7 @@
       "category": "Politics & World",
       "moment": "US-Iran strikes enter second day \u2014 90 targets hit, Iran retaliates at US bases",
       "why_now": "After Trump declared the ceasefire \"over\" from the NATO summit in Ankara, the US completed a second round of strikes hitting 90 military targets along Iran's coastline. Iran's Revolutionary Guards struck back at US bases in Kuwait and Bahrain.",
+      "url": "https://abcnews.go.com/International/live-updates/iran-live-updates-thousands-throng-tehran-streets-khamenei/?id=134509610",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 2,
@@ -43,7 +46,8 @@
       "id": "russia-ukraine-strikes",
       "category": "Politics & World",
       "moment": "Russia launches mass missile and drone attack on Ukraine",
-      "why_now": "Waves of missiles and drones killed at least 22 people, exposing gaps in Ukraine's air defenses more than four years into the war.",
+      "why_now": "351 drones and 68 missiles killed at least 22 people, with 15 killed in Kyiv alone \u2014 exposing gaps in Ukraine's air defenses more than four years into the war.",
+      "url": "https://www.npr.org/2026/07/06/g-s1-132088/russian-missile-drone-attack-kyiv-ukraine",
       "first_seen": "2026-07-09T12:00:00Z",
       "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 1
@@ -51,8 +55,9 @@
     {
       "id": "le-pen-presidential-run",
       "category": "Politics & World",
-      "moment": "Marine Le Pen announces presidential run despite ankle monitor",
-      "why_now": "The far-right leader said she'll run for the French presidency next year even after being sentenced to wear an electronic monitor for embezzlement \u2014 a first for a major French candidate.",
+      "moment": "Marine Le Pen announces presidential run despite ankle monitor conviction",
+      "why_now": "The appeals court upheld her embezzlement conviction and ordered an electronic monitor \u2014 but also reduced her candidacy ban to 15 months, effectively clearing her to run for the 2027 French presidency.",
+      "url": "https://www.cnn.com/2026/07/07/europe/marine-le-pen-france-court-ruling-intl",
       "first_seen": "2026-07-09T12:00:00Z",
       "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 1
@@ -60,26 +65,49 @@
     {
       "id": "maine-senate-platner",
       "category": "Politics & World",
-      "moment": "Pressure mounts on Maine Senate candidate Graham Platner",
-      "why_now": "Facing calls to drop his 2026 bid as new allegations emerge.",
+      "moment": "Graham Platner drops out of Maine Senate race after rape allegation",
+      "why_now": "After nearly every Democratic ally withdrew support \u2014 including Senate Minority Leader Schumer \u2014 Platner ended his bid in a video on July 8, days after the allegation was first reported.",
+      "url": "https://www.npr.org/2026/07/08/g-s1-132220/graham-platner-maine-senate-assault-allegation",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-08T19:45:00Z",
+          "note": "Rape allegation surfaces; Platner denies and says campaign weighing 'best path forward'"
+        },
+        {
+          "date": "2026-07-09T12:00:00Z",
+          "note": "Platner drops out after Schumer and DSCC pull support"
+        }
+      ]
     },
     {
       "id": "venezuela-earthquake",
       "category": "Politics & World",
-      "moment": "Venezuela earthquake death toll passes 3,500",
-      "why_now": "Survivors are still searching for missing family members as the toll continues to rise.",
+      "moment": "Venezuela earthquake death toll climbs past 3,800",
+      "why_now": "The toll from twin June earthquakes continues to rise \u2014 USGS estimates the final count could reach between 10,000 and 100,000 \u2014 with 17,000+ left homeless and searches still ongoing.",
+      "url": "https://abcnews.go.com/International/death-toll-venezuela-earthquakes-climbs-3600/story?id=134595467",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-08T19:45:00Z",
+          "note": "Death toll passes 3,500; survivors still searching for missing"
+        },
+        {
+          "date": "2026-07-09T12:00:00Z",
+          "note": "Toll climbs to 3,811; USGS warns final count could reach tens of thousands"
+        }
+      ]
     },
     {
       "id": "manhattan-highrise-evacuation",
       "category": "Politics & World",
       "moment": "Manhattan high-rise evacuated over collapse fears",
-      "why_now": "A 37-story building under construction was evacuated after columns buckled and floors sagged between the 21st and 26th floors.",
+      "why_now": "The former Pfizer headquarters \u2014 a 37-story building being converted to apartments \u2014 was evacuated after columns buckled between the 21st and 26th floors. The building has since been stabilized but is still under investigation.",
+      "url": "https://www.washingtonpost.com/nation/2026/07/07/manhattan-high-rise-risk-collapse-after-columns-buckle/",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -88,7 +116,8 @@
       "id": "markets-iran-selloff",
       "category": "Business & Markets",
       "moment": "Markets extend losses as US-Iran conflict deepens into day two",
-      "why_now": "The Dow fell over 1% and Brent crude jumped nearly 6% Tuesday; selling continued Wednesday as strikes and Iranian retaliation showed no sign of de-escalation.",
+      "why_now": "Brent crude reversed months of decline, jumping back above $76 as strikes continue. The Dow fell over 1% Tuesday; selling extended Wednesday as Iranian retaliation showed no sign of de-escalation.",
+      "url": "https://www.aljazeera.com/news/2026/7/8/oil-prices-surge-as-us-strikes-iran-reversing-fall-to-pre-war-levels",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 2,
@@ -99,7 +128,7 @@
         },
         {
           "date": "2026-07-09T12:00:00Z",
-          "note": "Losses extend as conflict enters day two; Dow -1.09%, crude up ~6%"
+          "note": "Brent reverses to $76+ as conflict enters day two; Iranian retaliation against US bases confirmed"
         }
       ]
     },
@@ -108,6 +137,7 @@
       "category": "Business & Markets",
       "moment": "Microsoft cuts 4,800 jobs in biggest Xbox restructuring ever",
       "why_now": "3,200 of the cuts hit Xbox specifically \u2014 about 20% of the gaming division \u2014 and four studios including Double Fine and Ninja Theory are being spun off or sold. Xbox CEO cited margins 3-10x below comparable platforms.",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
       "first_seen": "2026-07-09T12:00:00Z",
       "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 1
@@ -116,7 +146,8 @@
       "id": "spacex-nasdaq-100",
       "category": "Business & Markets",
       "moment": "SpaceX joins the Nasdaq-100",
-      "why_now": "The privately held rocket company's addition to one of Wall Street's most-watched indexes is a structural landmark for private-market firms seeking public-market legitimacy.",
+      "why_now": "Less than a month after its IPO, SpaceX entered the Nasdaq-100 on July 7 under Nasdaq's new fast-track rules \u2014 the first company to do so, forcing ~$4B in automatic index-fund buying.",
+      "url": "https://www.cnbc.com/2026/07/06/spacex-joins-the-nasdaq-100-on-tuesday-what-it-means-for-the-stock.html",
       "first_seen": "2026-07-09T12:00:00Z",
       "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 1
@@ -125,7 +156,8 @@
       "id": "blue-origin-valuation",
       "category": "Business & Markets",
       "moment": "Blue Origin valued at $130 billion",
-      "why_now": "Bezos's space company closed its first outside fundraising round at that valuation.",
+      "why_now": "Bezos's space company is raising $10B from Coatue and others in its first-ever outside fundraising round \u2014 coming weeks after SpaceX's blockbuster $1.75T IPO.",
+      "url": "https://www.cnbc.com/2026/07/08/blue-origin-bezos-fundraising.html",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -134,7 +166,8 @@
       "id": "manhattan-office-leasing",
       "category": "Business & Markets",
       "moment": "Manhattan office leasing hits a 20-year high",
-      "why_now": "A sharp counter-signal to years of \"office apocalypse\" narratives about downtowns emptying out for good.",
+      "why_now": "Q2 2026 logged 11 million sq ft of leases \u2014 29% above the five-year average \u2014 driven by AI companies and law firms. The first half of 2026 is the strongest since 2002.",
+      "url": "https://commercialobserver.com/2026/07/manhattan-office-leasing-q2-2026-report/",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -142,8 +175,9 @@
     {
       "id": "openai-gpt-5-6-release",
       "category": "Tech & Science",
-      "moment": "OpenAI publicly releases GPT-5.6",
-      "why_now": "Ends government-requested limits that had constrained the model's availability.",
+      "moment": "OpenAI publicly releases GPT-5.6 after government restrictions lifted",
+      "why_now": "The US Department of Commerce cleared OpenAI to launch GPT-5.6 widely on July 8, ending restrictions that had limited access to \"trusted partners\" since June \u2014 restrictions OpenAI called \"not the long-term default.\"",
+      "url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -152,7 +186,8 @@
       "id": "orbital-debris-salvage",
       "category": "Tech & Science",
       "moment": "$30 million orbital debris salvage mission launches",
-      "why_now": "A robotic \"lifesaver\" is heading up this week to retrieve stranded hardware in orbit.",
+      "why_now": "A robotic spacecraft is heading up this week to retrieve stranded hardware in orbit \u2014 part of a growing commercial race to clean up the most congested lanes above Earth.",
+      "url": "https://www.space.com/arianespace-rocket-space-junk-cleanup-mission-2026",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -160,8 +195,9 @@
     {
       "id": "hayabusa2-snowman-asteroid",
       "category": "Tech & Science",
-      "moment": "Hayabusa2's \"snowman\" asteroid photos",
-      "why_now": "JAXA's probe revealed a near-Earth asteroid shaped unlike anything scientists expected.",
+      "moment": "Hayabusa2's \"snowman\" asteroid flyby photos released",
+      "why_now": "JAXA's probe flew within 800 meters of near-Earth asteroid Torifune on July 5, revealing a contact-binary \"snowman\" shape unlike anything scientists predicted \u2014 and collecting high-resolution shape and water data.",
+      "url": "https://phys.org/news/2026-07-japan-snowman-asteroid-image-flyby.html",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -169,8 +205,9 @@
     {
       "id": "jwst-fourth-anniversary",
       "category": "Tech & Science",
-      "moment": "JWST's fourth anniversary images released",
-      "why_now": "A familiar galaxy rendered \"far richer\" than in any prior image of it.",
+      "moment": "JWST's fourth anniversary: a galaxy shaped by cosmic collision",
+      "why_now": "NASA released a Webb image of Centaurus A \u2014 11 million light-years away, its unusual shape caused by a galaxy merger 2 billion years ago \u2014 to mark four years of better-than-expected telescope performance.",
+      "url": "https://www.space.com/astronomy/james-webb-space-telescope/james-webb-space-telescope-celebrates-its-4th-birthday-with-stunning-image-of-a-galaxy-crash-site",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -179,7 +216,8 @@
       "id": "tianwen-2-kamooalewa",
       "category": "Tech & Science",
       "moment": "Tianwen-2 reaches asteroid Kamo'oalewa",
-      "why_now": "China's probe arrives after a journey of more than 1 billion kilometers.",
+      "why_now": "China's probe arrived at 469219 Kamo'oalewa on July 4 after a 400-day, 1-billion-kilometer journey \u2014 and beamed back the first close-up images of Earth's quasi-satellite.",
+      "url": "https://spacenews.com/tianwen-2-arrives-at-asteroid-kamooalewa-first-image-revealed/",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -187,8 +225,9 @@
     {
       "id": "artemis-astronaut-retires",
       "category": "Tech & Science",
-      "moment": "Canadian Artemis II astronaut retires",
-      "why_now": "Steps down shortly after the historic crewed lunar flyby earlier this year.",
+      "moment": "Canadian Artemis II astronaut Jeremy Hansen retires",
+      "why_now": "Hansen, the only non-American on Artemis II and the first Canadian to orbit the Moon, announced he'll step back from a full-time astronaut role in September \u2014 weeks after the historic April flyby.",
+      "url": "https://www.cnn.com/2026/07/06/science/artemis-2-astronaut-jeremy-hansen-retires",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -196,8 +235,9 @@
     {
       "id": "solar-flares-aurora",
       "category": "Tech & Science",
-      "moment": "Solar flares raise aurora odds across the U.S.",
-      "why_now": "Three flares this week widen the typical latitude where the northern lights are visible.",
+      "moment": "10 solar flares in 24 hours light up auroras across 30+ US states on July 4th",
+      "why_now": "A G3 geomagnetic storm \u2014 two levels stronger than forecasted \u2014 drove northern lights as far south as Utah, Colorado, and Northern California during Independence Day weekend.",
+      "url": "https://www.space.com/stargazing/auroras/sun-fires-off-10-solar-flares-in-24-hours-as-multiple-earth-bound-cmes-raise-northern-lights-hopes-for-july-4-weekend",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -207,6 +247,7 @@
       "category": "Sports",
       "moment": "World Cup quarterfinals begin \u2014 France-Morocco leads the slate",
       "why_now": "Four quarterfinals kick off today and tomorrow: France vs Morocco, Belgium vs Spain, Norway vs England, and Argentina vs Switzerland. The last eight teams play for semifinal spots.",
+      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-bracket-quarter-finals-full-schedule-live-updates",
       "first_seen": "2026-07-09T12:00:00Z",
       "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 1
@@ -216,6 +257,7 @@
       "category": "Sports",
       "moment": "Egypt FA files official protest over Argentina refereeing",
       "why_now": "After Argentina's stoppage-time 3-2 comeback win from 2-0 down, Egypt's football association formally called out \"controversial and influential refereeing incidents\" \u2014 adding a political edge to one of the tournament's most dramatic results.",
+      "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-egyptian-fa-calls-out-controversial-and-influential-refereeing-incidents-in-argentina-loss-140058246.html",
       "first_seen": "2026-07-07T18:00:00Z",
       "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 3,
@@ -239,6 +281,7 @@
       "category": "Sports",
       "moment": "World Cup Round of 16 concludes",
       "why_now": "Brazil\u2013Norway, Mexico\u2013England, and Colombia\u2013Switzerland decided the last quarterfinal spots.",
+      "url": "https://sports.yahoo.com/soccer/article/2026-fifa-world-cup-daily-schedule-every-match-date-kickoff-time-and-venue-for-all-48-teams-234515087.html",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -247,7 +290,8 @@
       "id": "swift-kelce-wedding",
       "category": "Culture & Entertainment",
       "moment": "Taylor Swift and Travis Kelce marry at Madison Square Garden",
-      "why_now": "After weeks of speculation about the rollout being its own PR campaign, the wedding actually happened \u2014 1,000 guests, Madison Square Garden, and now the post-wedding coverage cycle begins.",
+      "why_now": "After weeks of speculation about the rollout being its own PR campaign, the wedding happened July 3 \u2014 1,000 guests, officiated by Adam Sandler, Blake Lively conspicuously absent.",
+      "url": "https://www.nbcnews.com/news/us-news/live-blog/taylor-swift-travis-kelces-madison-square-garden-wedding-live-updates-rcna352411",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 2,
@@ -258,7 +302,7 @@
         },
         {
           "date": "2026-07-09T12:00:00Z",
-          "note": "Wedding confirmed at Madison Square Garden; 1,000 guests; Blake Lively notably absent"
+          "note": "Wedding confirmed at Madison Square Garden; officiated by Adam Sandler; Blake Lively notably absent"
         }
       ]
     },
@@ -266,7 +310,8 @@
       "id": "blake-lively-wedding-snub",
       "category": "Culture & Entertainment",
       "moment": "Blake Lively excluded from the Swift-Kelce wedding",
-      "why_now": "With the wedding now confirmed, the reported exclusion is no longer speculation \u2014 it's the final chapter of a once-unshakeable Hollywood friendship.",
+      "why_now": "The rift stems from Taylor being subpoenaed in Blake's lawsuit against Justin Baldoni. Sources say Lively is \"p---d off\" and the two will \"never be friends again.\"",
+      "url": "https://stylecaster.com/entertainment/celebrity-news/1234929856/blake-lively-taylor-swift-wedding-friendship/",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 2,
@@ -277,7 +322,7 @@
         },
         {
           "date": "2026-07-09T12:00:00Z",
-          "note": "Wedding confirmed; Lively absence now documented fact, not rumor"
+          "note": "Wedding confirmed; Lively and Reynolds spotted horse-show weekend in upstate NY \u2014 nowhere near MSG"
         }
       ]
     },
@@ -285,7 +330,8 @@
       "id": "beyonce-new-song",
       "category": "Culture & Entertainment",
       "moment": "Beyonc\u00e9 drops first new song in two years on July 4th",
-      "why_now": "\"MORNING DEW (DONK)\" arrived with no advance notice on the Fourth of July, reigniting the cultural conversation about what a surprise Beyonc\u00e9 release still does to the internet.",
+      "why_now": "\"Morning Dew (Donk)\" \u2014 co-written with Pharrell, recorded in 2013, leaked as a snippet in 2021 \u2014 arrived unannounced on Independence Day alongside a 60-day countdown to a B'Day 20th anniversary reissue.",
+      "url": "https://www.rollingstone.com/music/music-news/beyonce-surprise-new-song-morning-dew-donk-bday-reissue-1235589184/",
       "first_seen": "2026-07-09T12:00:00Z",
       "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 1
@@ -293,8 +339,9 @@
     {
       "id": "declaration-of-independence-copy-found",
       "category": "Culture & Entertainment",
-      "moment": "Rare early Declaration of Independence copy found",
-      "why_now": "A volunteer at Britain's National Archives discovered it during America's 250th-anniversary year.",
+      "moment": "\"Vanishingly rare\" Declaration of Independence copy found in UK archives",
+      "why_now": "A volunteer cataloging an 18th-century Royal Navy captain's papers found one of only 11 known Exeter-printing copies \u2014 seized from an American privateer ship on Christmas Eve 1776 \u2014 during America's 250th-anniversary year.",
+      "url": "https://www.cbsnews.com/news/vanishingly-rare-copy-of-the-declaration-of-independence-found-in-u-k-by-volunteer/",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -303,7 +350,8 @@
       "id": "prince-harry-lawsuit-loss",
       "category": "Culture & Entertainment",
       "moment": "Prince Harry loses UK press-intrusion lawsuit",
-      "why_now": "A British judge ruled against Harry and others in the case against the Daily Mail's publisher.",
+      "why_now": "Judge Matthew Nicklin ruled that while the claimants \u2014 Harry, Elton John, Elizabeth Hurley, and others \u2014 suspected unlawful gathering, they hadn't proved it. The Daily Mail called it an \"overwhelming victory.\"",
+      "url": "https://www.cbsnews.com/news/prince-harry-loses-legal-case-daily-mail-publisher-uk-court-dismisses-claims/",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -311,8 +359,9 @@
     {
       "id": "love-island-backlash",
       "category": "Culture & Entertainment",
-      "moment": "Love Island USA backlash cycle",
-      "why_now": "A contestant's apology tour has become its own referendum on parasocial reality-TV culture.",
+      "moment": "Love Island USA backlash cycle \u2014 Alannah Keyser's apology tour",
+      "why_now": "Keyser was removed after a resurfaced clip showed her using a racial slur. Her TikTok apology sparked more backlash than the original clip \u2014 fans pointing out her on-screen behavior as the larger pattern.",
+      "url": "https://www.today.com/popculture/news/love-island-usa-alannah-keyser-apology-backlash-rcna352131",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -320,8 +369,9 @@
     {
       "id": "bet-awards-mic-incident",
       "category": "Culture & Entertainment",
-      "moment": "BET Awards live-mic takeover",
-      "why_now": "A hosting incident sparked a multiplatform debate about award-show culture.",
+      "moment": "Keke Palmer grabs mic from host Druski at BET Awards",
+      "why_now": "Mid-show, Keke snatched the microphone, told the crowd \"This should have been my gig,\" and introduced Cardi B herself \u2014 a moment that became the most-clipped scene of the night and a referendum on BET's booking choices.",
+      "url": "https://www.huffpost.com/entry/keke-palmer-bet-awards-2026-host_n_6a41a39de4b0f259890d6b38",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -330,7 +380,8 @@
       "id": "empire-state-climbers",
       "category": "Odd & Human Interest",
       "moment": "Empire State Building antenna climbers get engaged, then arrested",
-      "why_now": "Two rooftoppers scaled the antenna and unfurled a pro-peace banner before the proposal \u2014 and the arrest.",
+      "why_now": "Ivan Kuznetsov and Angelina Nikolau scaled the antenna July 1, unfurled a \"power of love\" banner, got engaged on one knee \u2014 and were arraigned the next morning on burglary and reckless endangerment charges.",
+      "url": "https://www.cnn.com/2026/07/01/us/empire-state-building-banner",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -338,8 +389,9 @@
     {
       "id": "barcelona-human-tower-pope",
       "category": "Odd & Human Interest",
-      "moment": "130 people form a human tower to welcome Pope Leo XIV in Barcelona",
-      "why_now": "Catalans deployed their traditional \"castell\" form to greet the new pontiff \u2014 a welcome so local it became a global image.",
+      "moment": "Catalans build a human tower to welcome Pope Leo XIV in Barcelona",
+      "why_now": "The Castellers de Vilafranca erected a 10-meter tower at an Olympic Stadium vigil \u2014 an 8-year-old girl at the top \u2014 giving the new pontiff the most local possible welcome before 40,000 people.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/10/pope-leo-welcomed-in-barcelona-with-traditional-catalan-human-tower",
       "first_seen": "2026-07-09T12:00:00Z",
       "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 1

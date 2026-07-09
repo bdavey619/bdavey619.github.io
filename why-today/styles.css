@@ -301,6 +301,11 @@ body {
 .storyline-moment {
   font-weight: 600;
   color: var(--text);
+  text-decoration: none;
+}
+
+.storyline-moment:hover {
+  color: var(--accent);
 }
 
 .storyline-freshness {
