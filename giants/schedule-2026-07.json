@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-08T14:10:36.373015+00:00",
+  "generated_at": "2026-07-09T15:11:49.253270+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -62,19 +62,17 @@
       "gamePk": 823203,
       "status": "final",
       "result": "L",
-      "score": "3\u20139"
+      "score": "3\u20139",
+      "archive_url": "archive.html?date=2026-07-08"
     },
     {
       "date": "2026-07-08",
       "opponent": "TOR",
       "home": true,
       "gamePk": 823202,
-      "status": "scheduled",
-      "time_local": "12:45 PM PT",
-      "probable": {
-        "team": "Logan Webb",
-        "opp": "Dylan Cease"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u201310"
     },
     {
       "date": "2026-07-09",
@@ -93,7 +91,10 @@
       "home": true,
       "gamePk": 823200,
       "status": "scheduled",
-      "time_local": "7:15 PM PT"
+      "time_local": "7:15 PM PT",
+      "probable": {
+        "opp": "Tanner Gordon"
+      }
     },
     {
       "date": "2026-07-11",
@@ -101,7 +102,10 @@
       "home": true,
       "gamePk": 823198,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "opp": "Kyle Freeland"
+      }
     },
     {
       "date": "2026-07-12",
@@ -109,7 +113,10 @@
       "home": true,
       "gamePk": 823199,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "opp": "Michael Lorenzen"
+      }
     },
     {
       "date": "2026-07-17",
@@ -225,8 +232,8 @@
     }
   ],
   "summary": {
-    "month_record": "3\u20133",
-    "current_streak": "L1",
-    "last_10": "5\u20135"
+    "month_record": "3\u20134",
+    "current_streak": "L2",
+    "last_10": "4\u20136"
   }
 }
