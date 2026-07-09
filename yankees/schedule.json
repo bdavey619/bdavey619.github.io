@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-07",
   "division_name": "AL East",
-  "generated_at": "2026-07-08T12:24:14.150942+00:00",
+  "generated_at": "2026-07-09T13:51:26.081987+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -62,19 +62,17 @@
       "gamePk": 822956,
       "status": "final",
       "result": "L",
-      "score": "4\u20136"
+      "score": "4\u20136",
+      "archive_url": "archive.html?date=2026-07-08"
     },
     {
       "date": "2026-07-08",
       "opponent": "TB",
       "home": false,
       "gamePk": 822957,
-      "status": "scheduled",
-      "time_local": "6:40 PM ET",
-      "probable": {
-        "team": "Gerrit Cole",
-        "opp": "Shane McClanahan"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20133"
     },
     {
       "date": "2026-07-09",
@@ -93,7 +91,10 @@
       "home": false,
       "gamePk": 822709,
       "status": "scheduled",
-      "time_local": "6:45 PM ET"
+      "time_local": "6:45 PM ET",
+      "probable": {
+        "opp": "Zack Littell"
+      }
     },
     {
       "date": "2026-07-11",
@@ -101,7 +102,10 @@
       "home": false,
       "gamePk": 822711,
       "status": "scheduled",
-      "time_local": "4:05 PM ET"
+      "time_local": "4:05 PM ET",
+      "probable": {
+        "opp": "Miles Mikolas"
+      }
     },
     {
       "date": "2026-07-12",
@@ -225,8 +229,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20134",
-    "current_streak": "L1",
+    "month_record": "2\u20135",
+    "current_streak": "L2",
     "last_10": "2\u20138"
   }
 }
