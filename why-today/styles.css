@@ -57,6 +57,26 @@ body {
   letter-spacing: 0.04em;
 }
 
+.masthead-nav {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.masthead-nav-link {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.masthead-nav-link:hover {
+  text-decoration: underline;
+}
+
 /* ─── HERO ─── */
 
 .hero {
@@ -213,10 +233,98 @@ body {
   color: var(--text-tertiary);
 }
 
+/* ─── STORYLINES ─── */
+
+.storylines-meta-bar {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 40px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--text-tertiary);
+}
+
+.storylines-section {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 40px 96px;
+}
+
+.storyline-category {
+  border-top: 1px solid var(--rule);
+  padding: 20px 0 8px;
+}
+
+.storyline-category:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.storyline-category-label {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.storyline-list {
+  list-style: none;
+}
+
+.storyline-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding: 9px 0;
+  border-top: 1px solid var(--rule);
+}
+
+.storyline-item:first-child {
+  border-top: none;
+}
+
+.storyline-main {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.storyline-moment {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.storyline-freshness {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.storyline-freshness[title] {
+  border-bottom: 1px dotted var(--text-tertiary);
+  cursor: help;
+}
+
 @media (max-width: 640px) {
-  .masthead { padding: 20px 24px; }
+  .masthead { padding: 20px 24px; flex-wrap: wrap; row-gap: 8px; }
+  .masthead-tagline { display: none; }
   .hero { padding: 56px 24px 48px; }
   .hero-headline { font-size: 36px; }
   .editions-section { padding: 0 24px 72px; }
   .footer { padding: 28px 24px; flex-direction: column; text-align: center; }
+  .storylines-meta-bar { padding: 0 24px 32px; }
+  .storylines-section { padding: 0 24px 72px; }
+  .storyline-item { flex-direction: column; gap: 2px; }
 }

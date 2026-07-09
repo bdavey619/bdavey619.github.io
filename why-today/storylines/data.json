@@ -1,0 +1,241 @@
+{
+  "week_start": "2026-07-06",
+  "last_updated": "2026-07-08T19:45:00Z",
+  "storylines": [
+    {
+      "id": "macron-damascus-bombing",
+      "category": "Politics & World",
+      "moment": "Bombing near Macron's Damascus hotel",
+      "why_now": "Explosives detonated near the Four Seasons hotel where the French president was staying during his Syria state visit.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "hamas-dissolves-gaza-body",
+      "category": "Politics & World",
+      "moment": "Hamas dissolves Gaza governing body",
+      "why_now": "A major structural shift in Gaza's post-war governance, announced this week.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "iran-ceasefire-over",
+      "category": "Politics & World",
+      "moment": "Trump declares the Iran ceasefire \"over,\" strikes resume",
+      "why_now": "Announced from the NATO summit in Ankara; the U.S. launched fresh strikes after Iran targeted commercial vessels in the Strait of Hormuz.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "maine-senate-platner",
+      "category": "Politics & World",
+      "moment": "Pressure mounts on Maine Senate candidate Graham Platner",
+      "why_now": "Facing calls to drop his 2026 bid as new allegations emerge.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "venezuela-earthquake",
+      "category": "Politics & World",
+      "moment": "Venezuela earthquake death toll passes 3,500",
+      "why_now": "Survivors are still searching for missing family members as the toll continues to rise.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "manhattan-highrise-evacuation",
+      "category": "Politics & World",
+      "moment": "Manhattan high-rise evacuated over collapse fears",
+      "why_now": "A 37-story building under construction was evacuated after columns buckled and floors sagged between the 21st and 26th floors.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "markets-iran-selloff",
+      "category": "Business & Markets",
+      "moment": "Dow drops, oil surges as Iran ceasefire collapses",
+      "why_now": "The Dow fell over 1% and Brent crude jumped 5.7% after renewed U.S.-Iran hostilities rattled markets.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "blue-origin-valuation",
+      "category": "Business & Markets",
+      "moment": "Blue Origin valued at $130 billion",
+      "why_now": "Bezos's space company closed its first outside fundraising round at that valuation.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "manhattan-office-leasing",
+      "category": "Business & Markets",
+      "moment": "Manhattan office leasing hits a 20-year high",
+      "why_now": "A sharp counter-signal to years of \"office apocalypse\" narratives about downtowns emptying out for good.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "openai-gpt-5-6-release",
+      "category": "Tech & Science",
+      "moment": "OpenAI publicly releases GPT-5.6",
+      "why_now": "Ends government-requested limits that had constrained the model's availability.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "orbital-debris-salvage",
+      "category": "Tech & Science",
+      "moment": "$30 million orbital debris salvage mission launches",
+      "why_now": "A robotic \"lifesaver\" is heading up this week to retrieve stranded hardware in orbit.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "hayabusa2-snowman-asteroid",
+      "category": "Tech & Science",
+      "moment": "Hayabusa2's \"snowman\" asteroid photos",
+      "why_now": "JAXA's probe revealed a near-Earth asteroid shaped unlike anything scientists expected.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "jwst-fourth-anniversary",
+      "category": "Tech & Science",
+      "moment": "JWST's fourth anniversary images released",
+      "why_now": "A familiar galaxy rendered \"far richer\" than in any prior image of it.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "tianwen-2-kamooalewa",
+      "category": "Tech & Science",
+      "moment": "Tianwen-2 reaches asteroid Kamo'oalewa",
+      "why_now": "China's probe arrives after a journey of more than 1 billion kilometers.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "artemis-astronaut-retires",
+      "category": "Tech & Science",
+      "moment": "Canadian Artemis II astronaut retires",
+      "why_now": "Steps down shortly after the historic crewed lunar flyby earlier this year.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "solar-flares-aurora",
+      "category": "Tech & Science",
+      "moment": "Solar flares raise aurora odds across the U.S.",
+      "why_now": "Three flares this week widen the typical latitude where the northern lights are visible.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "argentina-egypt-comeback",
+      "category": "Sports",
+      "moment": "Argentina's 3-2 comeback over Egypt",
+      "why_now": "Down 2-0, Messi and Enzo Fern\u00e1ndez pulled off a stoppage-time World Cup win to reach the quarterfinals.",
+      "first_seen": "2026-07-07T18:00:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-07T18:00:00Z",
+          "note": "Egypt leads Argentina 2-0 at halftime"
+        },
+        {
+          "date": "2026-07-08T19:45:00Z",
+          "note": "Argentina completes stoppage-time comeback, wins 3-2"
+        }
+      ]
+    },
+    {
+      "id": "world-cup-round-of-16-concludes",
+      "category": "Sports",
+      "moment": "World Cup Round of 16 concludes",
+      "why_now": "Brazil\u2013Norway, Mexico\u2013England, and Colombia\u2013Switzerland decided the last quarterfinal spots.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "declaration-of-independence-copy-found",
+      "category": "Culture & Entertainment",
+      "moment": "Rare early Declaration of Independence copy found",
+      "why_now": "A volunteer at Britain's National Archives discovered it during America's 250th-anniversary year.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "swift-kelce-pr-theory",
+      "category": "Culture & Entertainment",
+      "moment": "Theory spreads that the Swift-Kelce wedding rollout is itself the story",
+      "why_now": "A conspiracy theory that the multimillion-dollar rollout is its own PR campaign is gaining real traction.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "blake-lively-wedding-snub",
+      "category": "Culture & Entertainment",
+      "moment": "Blake Lively excluded from the Swift-Kelce wedding",
+      "why_now": "Reported as the final straw in a friendship once called Hollywood's most bulletproof.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "prince-harry-lawsuit-loss",
+      "category": "Culture & Entertainment",
+      "moment": "Prince Harry loses UK press-intrusion lawsuit",
+      "why_now": "A British judge ruled against Harry and others in the case against the Daily Mail's publisher.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "love-island-backlash",
+      "category": "Culture & Entertainment",
+      "moment": "Love Island USA backlash cycle",
+      "why_now": "A contestant's apology tour has become its own referendum on parasocial reality-TV culture.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "bet-awards-mic-incident",
+      "category": "Culture & Entertainment",
+      "moment": "BET Awards live-mic takeover",
+      "why_now": "A hosting incident sparked a multiplatform debate about award-show culture.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "empire-state-climbers",
+      "category": "Odd & Human Interest",
+      "moment": "Empire State Building antenna climbers get engaged, then arrested",
+      "why_now": "Two rooftoppers scaled the antenna and unfurled a pro-peace banner before the proposal \u2014 and the arrest.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    }
+  ]
+}
