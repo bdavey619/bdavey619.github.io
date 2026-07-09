@@ -1,6 +1,6 @@
 {
   "week_start": "2026-07-06",
-  "last_updated": "2026-07-08T19:45:00Z",
+  "last_updated": "2026-07-09T12:00:00Z",
   "storylines": [
     {
       "id": "macron-damascus-bombing",
@@ -23,10 +23,38 @@
     {
       "id": "iran-ceasefire-over",
       "category": "Politics & World",
-      "moment": "Trump declares the Iran ceasefire \"over,\" strikes resume",
-      "why_now": "Announced from the NATO summit in Ankara; the U.S. launched fresh strikes after Iran targeted commercial vessels in the Strait of Hormuz.",
+      "moment": "US-Iran strikes enter second day \u2014 90 targets hit, Iran retaliates at US bases",
+      "why_now": "After Trump declared the ceasefire \"over\" from the NATO summit in Ankara, the US completed a second round of strikes hitting 90 military targets along Iran's coastline. Iran's Revolutionary Guards struck back at US bases in Kuwait and Bahrain.",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-08T19:45:00Z",
+          "note": "Trump declares ceasefire 'over' at NATO summit; fresh US strikes launched after Iran targeted ships in Strait of Hormuz"
+        },
+        {
+          "date": "2026-07-09T12:00:00Z",
+          "note": "US hits 90 targets across Iran's coastline; Iran retaliates against US bases in Kuwait and Bahrain"
+        }
+      ]
+    },
+    {
+      "id": "russia-ukraine-strikes",
+      "category": "Politics & World",
+      "moment": "Russia launches mass missile and drone attack on Ukraine",
+      "why_now": "Waves of missiles and drones killed at least 22 people, exposing gaps in Ukraine's air defenses more than four years into the war.",
+      "first_seen": "2026-07-09T12:00:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "le-pen-presidential-run",
+      "category": "Politics & World",
+      "moment": "Marine Le Pen announces presidential run despite ankle monitor",
+      "why_now": "The far-right leader said she'll run for the French presidency next year even after being sentenced to wear an electronic monitor for embezzlement \u2014 a first for a major French candidate.",
+      "first_seen": "2026-07-09T12:00:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 1
     },
     {
@@ -59,10 +87,38 @@
     {
       "id": "markets-iran-selloff",
       "category": "Business & Markets",
-      "moment": "Dow drops, oil surges as Iran ceasefire collapses",
-      "why_now": "The Dow fell over 1% and Brent crude jumped 5.7% after renewed U.S.-Iran hostilities rattled markets.",
+      "moment": "Markets extend losses as US-Iran conflict deepens into day two",
+      "why_now": "The Dow fell over 1% and Brent crude jumped nearly 6% Tuesday; selling continued Wednesday as strikes and Iranian retaliation showed no sign of de-escalation.",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-08T19:45:00Z",
+          "note": "Dow drops 1%+, Brent crude surges 5.7% on Trump's ceasefire announcement"
+        },
+        {
+          "date": "2026-07-09T12:00:00Z",
+          "note": "Losses extend as conflict enters day two; Dow -1.09%, crude up ~6%"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-xbox-layoffs",
+      "category": "Business & Markets",
+      "moment": "Microsoft cuts 4,800 jobs in biggest Xbox restructuring ever",
+      "why_now": "3,200 of the cuts hit Xbox specifically \u2014 about 20% of the gaming division \u2014 and four studios including Double Fine and Ninja Theory are being spun off or sold. Xbox CEO cited margins 3-10x below comparable platforms.",
+      "first_seen": "2026-07-09T12:00:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "spacex-nasdaq-100",
+      "category": "Business & Markets",
+      "moment": "SpaceX joins the Nasdaq-100",
+      "why_now": "The privately held rocket company's addition to one of Wall Street's most-watched indexes is a structural landmark for private-market firms seeking public-market legitimacy.",
+      "first_seen": "2026-07-09T12:00:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 1
     },
     {
@@ -147,13 +203,22 @@
       "appearances": 1
     },
     {
+      "id": "world-cup-quarterfinals",
+      "category": "Sports",
+      "moment": "World Cup quarterfinals begin \u2014 France-Morocco leads the slate",
+      "why_now": "Four quarterfinals kick off today and tomorrow: France vs Morocco, Belgium vs Spain, Norway vs England, and Argentina vs Switzerland. The last eight teams play for semifinal spots.",
+      "first_seen": "2026-07-09T12:00:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 1
+    },
+    {
       "id": "argentina-egypt-comeback",
       "category": "Sports",
-      "moment": "Argentina's 3-2 comeback over Egypt",
-      "why_now": "Down 2-0, Messi and Enzo Fern\u00e1ndez pulled off a stoppage-time World Cup win to reach the quarterfinals.",
+      "moment": "Egypt FA files official protest over Argentina refereeing",
+      "why_now": "After Argentina's stoppage-time 3-2 comeback win from 2-0 down, Egypt's football association formally called out \"controversial and influential refereeing incidents\" \u2014 adding a political edge to one of the tournament's most dramatic results.",
       "first_seen": "2026-07-07T18:00:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 2,
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-07-07T18:00:00Z",
@@ -162,6 +227,10 @@
         {
           "date": "2026-07-08T19:45:00Z",
           "note": "Argentina completes stoppage-time comeback, wins 3-2"
+        },
+        {
+          "date": "2026-07-09T12:00:00Z",
+          "note": "Egyptian FA officially protests refereeing decisions with FIFA"
         }
       ]
     },
@@ -175,28 +244,57 @@
       "appearances": 1
     },
     {
-      "id": "declaration-of-independence-copy-found",
+      "id": "swift-kelce-wedding",
       "category": "Culture & Entertainment",
-      "moment": "Rare early Declaration of Independence copy found",
-      "why_now": "A volunteer at Britain's National Archives discovered it during America's 250th-anniversary year.",
+      "moment": "Taylor Swift and Travis Kelce marry at Madison Square Garden",
+      "why_now": "After weeks of speculation about the rollout being its own PR campaign, the wedding actually happened \u2014 1,000 guests, Madison Square Garden, and now the post-wedding coverage cycle begins.",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "swift-kelce-pr-theory",
-      "category": "Culture & Entertainment",
-      "moment": "Theory spreads that the Swift-Kelce wedding rollout is itself the story",
-      "why_now": "A conspiracy theory that the multimillion-dollar rollout is its own PR campaign is gaining real traction.",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-08T19:45:00Z",
+          "note": "Theory spreads that the multimillion-dollar rollout is itself a PR campaign"
+        },
+        {
+          "date": "2026-07-09T12:00:00Z",
+          "note": "Wedding confirmed at Madison Square Garden; 1,000 guests; Blake Lively notably absent"
+        }
+      ]
     },
     {
       "id": "blake-lively-wedding-snub",
       "category": "Culture & Entertainment",
       "moment": "Blake Lively excluded from the Swift-Kelce wedding",
-      "why_now": "Reported as the final straw in a friendship once called Hollywood's most bulletproof.",
+      "why_now": "With the wedding now confirmed, the reported exclusion is no longer speculation \u2014 it's the final chapter of a once-unshakeable Hollywood friendship.",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-08T19:45:00Z",
+          "note": "Reported as the final straw in a friendship once called Hollywood's most bulletproof"
+        },
+        {
+          "date": "2026-07-09T12:00:00Z",
+          "note": "Wedding confirmed; Lively absence now documented fact, not rumor"
+        }
+      ]
+    },
+    {
+      "id": "beyonce-new-song",
+      "category": "Culture & Entertainment",
+      "moment": "Beyonc\u00e9 drops first new song in two years on July 4th",
+      "why_now": "\"MORNING DEW (DONK)\" arrived with no advance notice on the Fourth of July, reigniting the cultural conversation about what a surprise Beyonc\u00e9 release still does to the internet.",
+      "first_seen": "2026-07-09T12:00:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "declaration-of-independence-copy-found",
+      "category": "Culture & Entertainment",
+      "moment": "Rare early Declaration of Independence copy found",
+      "why_now": "A volunteer at Britain's National Archives discovered it during America's 250th-anniversary year.",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
@@ -235,6 +333,15 @@
       "why_now": "Two rooftoppers scaled the antenna and unfurled a pro-peace banner before the proposal \u2014 and the arrest.",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "barcelona-human-tower-pope",
+      "category": "Odd & Human Interest",
+      "moment": "130 people form a human tower to welcome Pope Leo XIV in Barcelona",
+      "why_now": "Catalans deployed their traditional \"castell\" form to greet the new pontiff \u2014 a welcome so local it became a global image.",
+      "first_seen": "2026-07-09T12:00:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 1
     }
   ]
