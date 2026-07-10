@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-08T12:00:38.264308+00:00",
+  "generated_at": "2026-07-10T12:39:19.348720+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -72,31 +72,26 @@
       "gamePk": 823280,
       "status": "final",
       "result": "W",
-      "score": "4\u20131"
+      "score": "4\u20131",
+      "archive_url": "archive.html?date=2026-07-08"
     },
     {
       "date": "2026-07-08",
       "opponent": "ARI",
       "home": true,
       "gamePk": 823279,
-      "status": "scheduled",
-      "time_local": "7:10 PM PT",
-      "probable": {
-        "team": "Michael King",
-        "opp": "Jose Cabrera"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "10\u20134"
     },
     {
       "date": "2026-07-09",
       "opponent": "ARI",
       "home": true,
       "gamePk": 823277,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Griffin Canning",
-        "opp": "Merrill Kelly"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20133"
     },
     {
       "date": "2026-07-10",
@@ -106,7 +101,8 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
-        "team": "JP Sears"
+        "team": "JP Sears",
+        "opp": "Shane Bieber"
       }
     },
     {
@@ -115,7 +111,11 @@
       "home": true,
       "gamePk": 823276,
       "status": "scheduled",
-      "time_local": "5:40 PM PT"
+      "time_local": "5:40 PM PT",
+      "probable": {
+        "team": "Walker Buehler",
+        "opp": "Trey Yesavage"
+      }
     },
     {
       "date": "2026-07-12",
@@ -123,7 +123,11 @@
       "home": true,
       "gamePk": 823274,
       "status": "scheduled",
-      "time_local": "1:10 PM PT"
+      "time_local": "1:10 PM PT",
+      "probable": {
+        "team": "Germ\u00e1n M\u00e1rquez",
+        "opp": "Kevin Gausman"
+      }
     },
     {
       "date": "2026-07-17",
@@ -239,8 +243,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20135",
-    "current_streak": "W1",
-    "last_10": "2\u20138"
+    "month_record": "3\u20136",
+    "current_streak": "L1",
+    "last_10": "3\u20137"
   }
 }
