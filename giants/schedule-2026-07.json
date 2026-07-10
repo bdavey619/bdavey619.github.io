@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-09T15:11:49.253270+00:00",
+  "generated_at": "2026-07-10T14:28:24.339990+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -72,18 +72,17 @@
       "gamePk": 823202,
       "status": "final",
       "result": "L",
-      "score": "0\u201310"
+      "score": "0\u201310",
+      "archive_url": "archive.html?date=2026-07-09"
     },
     {
       "date": "2026-07-09",
       "opponent": "COL",
       "home": true,
       "gamePk": 823201,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "opp": "Ryan Feltner"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "8\u20132"
     },
     {
       "date": "2026-07-10",
@@ -93,6 +92,7 @@
       "status": "scheduled",
       "time_local": "7:15 PM PT",
       "probable": {
+        "team": "Robbie Ray",
         "opp": "Tanner Gordon"
       }
     },
@@ -104,6 +104,7 @@
       "status": "scheduled",
       "time_local": "1:05 PM PT",
       "probable": {
+        "team": "Tyler Mahle",
         "opp": "Kyle Freeland"
       }
     },
@@ -115,6 +116,7 @@
       "status": "scheduled",
       "time_local": "1:05 PM PT",
       "probable": {
+        "team": "Trevor McDonald",
         "opp": "Michael Lorenzen"
       }
     },
@@ -232,8 +234,8 @@
     }
   ],
   "summary": {
-    "month_record": "3\u20134",
-    "current_streak": "L2",
+    "month_record": "4\u20134",
+    "current_streak": "W1",
     "last_10": "4\u20136"
   }
 }
