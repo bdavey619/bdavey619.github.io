@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-07",
   "division_name": "AL West",
-  "generated_at": "2026-07-09T15:43:43.638917+00:00",
+  "generated_at": "2026-07-10T15:15:22.997798+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -62,19 +62,17 @@
       "gamePk": 824253,
       "status": "final",
       "result": "L",
-      "score": "1\u20136"
+      "score": "1\u20136",
+      "archive_url": "archive.html?date=2026-07-09"
     },
     {
       "date": "2026-07-09",
       "opponent": "DET",
       "home": false,
       "gamePk": 824251,
-      "status": "scheduled",
-      "time_local": "3:40 PM PT",
-      "probable": {
-        "team": "Jack Perkins",
-        "opp": "Framber Valdez"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20134"
     },
     {
       "date": "2026-07-10",
@@ -84,6 +82,7 @@
       "status": "scheduled",
       "time_local": "4:40 PM PT",
       "probable": {
+        "team": "Jacob Lopez",
         "opp": "Sean Burke"
       }
     },
@@ -95,6 +94,7 @@
       "status": "scheduled",
       "time_local": "11:10 AM PT",
       "probable": {
+        "team": "Gage Jump",
         "opp": "Erick Fedde"
       }
     },
@@ -106,6 +106,7 @@
       "status": "scheduled",
       "time_local": "11:10 AM PT",
       "probable": {
+        "team": "J.T. Ginn",
         "opp": "Noah Schultz"
       }
     },
@@ -223,8 +224,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20135",
-    "current_streak": "L5",
+    "month_record": "1\u20136",
+    "current_streak": "L6",
     "last_10": "1\u20139"
   }
 }
