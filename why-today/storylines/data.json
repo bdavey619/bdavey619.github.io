@@ -1,6 +1,6 @@
 {
   "week_start": "2026-07-06",
-  "last_updated": "2026-07-09T12:00:00Z",
+  "last_updated": "2026-07-11T12:00:00Z",
   "storylines": [
     {
       "id": "macron-damascus-bombing",
@@ -25,12 +25,12 @@
     {
       "id": "iran-ceasefire-over",
       "category": "Politics & World",
-      "moment": "US-Iran strikes enter second day \u2014 90 targets hit, Iran retaliates at US bases",
-      "why_now": "After Trump declared the ceasefire \"over\" from the NATO summit in Ankara, the US completed a second round of strikes hitting 90 military targets along Iran's coastline. Iran's Revolutionary Guards struck back at US bases in Kuwait and Bahrain.",
-      "url": "https://abcnews.go.com/International/live-updates/iran-live-updates-thousands-throng-tehran-streets-khamenei/?id=134509610",
+      "moment": "Mediators scramble as US-Iran talks agreed but ceasefire stays 'over' \u2014 day four",
+      "why_now": "Pakistan and Qatar are brokering a return to negotiations after Trump simultaneously agreed to new talks while reaffirming the ceasefire is void. Iran still controls the Strait of Hormuz leverage; shipping has slowed and oil prices remain elevated despite doubts full-scale war returns.",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/10/iran-war-live-fresh-attacks-on-iran-as-us-says-talks-still-on",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-09T12:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-07-08T19:45:00Z",
@@ -39,18 +39,32 @@
         {
           "date": "2026-07-09T12:00:00Z",
           "note": "US hits 90 targets across Iran's coastline; Iran retaliates against US bases in Kuwait and Bahrain"
+        },
+        {
+          "date": "2026-07-11T12:00:00Z",
+          "note": "Pakistan and Qatar mediate; Trump says agreed to talks but ceasefire still 'over'; Strait of Hormuz remains the sticking point as shipping slows"
         }
       ]
     },
     {
       "id": "russia-ukraine-strikes",
       "category": "Politics & World",
-      "moment": "Russia launches mass missile and drone attack on Ukraine",
-      "why_now": "351 drones and 68 missiles killed at least 22 people, with 15 killed in Kyiv alone \u2014 exposing gaps in Ukraine's air defenses more than four years into the war.",
-      "url": "https://www.npr.org/2026/07/06/g-s1-132088/russian-missile-drone-attack-kyiv-ukraine",
+      "moment": "Russia-Ukraine war escalates \u2014 Ukraine hits 36 shadow fleet tankers and Russia's deepest refinery yet",
+      "why_now": "After Russia's July 6 mass attack on Kyiv (351 drones, 68 missiles, 22 dead), Ukraine opened a major fuel campaign: 36 shadow fleet tankers struck in four days in the Black Sea, and the Omsk refinery in Siberia \u2014 2,500km from the front lines \u2014 hit for the first time. Crimea declared a state of emergency.",
+      "url": "https://www.aljazeera.com/news/2026/7/10/ukraine-chokes-fuel-to-crimea-russian-consumers-targeting-military-supply",
       "first_seen": "2026-07-09T12:00:00Z",
-      "last_seen": "2026-07-09T12:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-09T12:00:00Z",
+          "note": "Russia launches mass attack: 351 drones, 68 missiles kill at least 22 in Kyiv \u2014 exposing gaps in Ukraine's air defenses"
+        },
+        {
+          "date": "2026-07-11T12:00:00Z",
+          "note": "Ukraine shifts to offense: 36 shadow fleet tankers struck in 4 days; first-ever strike on Omsk refinery, 2,500km inside Russia; Crimea state of emergency declared"
+        }
+      ]
     },
     {
       "id": "le-pen-presidential-run",
@@ -85,12 +99,12 @@
     {
       "id": "venezuela-earthquake",
       "category": "Politics & World",
-      "moment": "Venezuela earthquake death toll climbs past 3,800",
-      "why_now": "The toll from twin June earthquakes continues to rise \u2014 USGS estimates the final count could reach between 10,000 and 100,000 \u2014 with 17,000+ left homeless and searches still ongoing.",
+      "moment": "Venezuela earthquake death toll reaches 3,889 \u2014 USGS warns of tens of thousands more",
+      "why_now": "The toll from twin June earthquakes continues to climb \u2014 the Anadolu Agency recorded 3,889 on July 10, with USGS estimating the final count could reach between 10,000 and 100,000. Some 17,000 left homeless, searches still ongoing.",
       "url": "https://abcnews.go.com/International/death-toll-venezuela-earthquakes-climbs-3600/story?id=134595467",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-09T12:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-07-08T19:45:00Z",
@@ -99,6 +113,10 @@
         {
           "date": "2026-07-09T12:00:00Z",
           "note": "Toll climbs to 3,811; USGS warns final count could reach tens of thousands"
+        },
+        {
+          "date": "2026-07-11T12:00:00Z",
+          "note": "Anadolu Agency records toll at 3,889; USGS estimate of final count unchanged at 10,000\u2013100,000"
         }
       ]
     },
@@ -115,12 +133,12 @@
     {
       "id": "markets-iran-selloff",
       "category": "Business & Markets",
-      "moment": "Markets extend losses as US-Iran conflict deepens into day two",
-      "why_now": "Brent crude reversed months of decline, jumping back above $76 as strikes continue. The Dow fell over 1% Tuesday; selling extended Wednesday as Iranian retaliation showed no sign of de-escalation.",
+      "moment": "Oil elevated as Strait of Hormuz shipping slows \u2014 markets watchful but holding",
+      "why_now": "Oil prices remain above pre-war levels as Iran asserts control of the strait, but sellers are retreating \u2014 doubts that full-scale war returns have steadied markets. The Dow is up on the week; SK Hynix's 13% Nasdaq debut added a bullish AI-chip counterweight.",
       "url": "https://www.aljazeera.com/news/2026/7/8/oil-prices-surge-as-us-strikes-iran-reversing-fall-to-pre-war-levels",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-09T12:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-07-08T19:45:00Z",
@@ -129,6 +147,10 @@
         {
           "date": "2026-07-09T12:00:00Z",
           "note": "Brent reverses to $76+ as conflict enters day two; Iranian retaliation against US bases confirmed"
+        },
+        {
+          "date": "2026-07-11T12:00:00Z",
+          "note": "Oil 'relatively tame' as full-scale war doubts grow; Strait shipping slows; SK Hynix +13% debut adds bullish AI-chip counterweight"
         }
       ]
     },
@@ -170,6 +192,16 @@
       "url": "https://commercialobserver.com/2026/07/manhattan-office-leasing-q2-2026-report/",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-08T19:45:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "skhy-ipo",
+      "category": "Business & Markets",
+      "moment": "SK Hynix raises $26.5B in biggest foreign IPO in US history \u2014 jumps 13% on debut",
+      "why_now": "The South Korean AI-memory chipmaker \u2014 supplier of Nvidia's HBM chips \u2014 debuted on Nasdaq Thursday at $149 and closed at $168, seven times oversubscribed. It's a direct market bet on AI infrastructure demand, and the largest-ever US listing by a foreign company.",
+      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "first_seen": "2026-07-11T12:00:00Z",
+      "last_seen": "2026-07-11T12:00:00Z",
       "appearances": 1
     },
     {
@@ -243,24 +275,44 @@
       "appearances": 1
     },
     {
+      "id": "grok-45-launch",
+      "category": "Tech & Science",
+      "moment": "Grok 4.5 launches as SpaceXAI's first post-Cursor model \u2014 priced to undercut Anthropic",
+      "why_now": "SpaceXAI released Grok 4.5 on July 8\u20139, trained alongside its Cursor acquisition. Priced at $2/$6 per million tokens \u2014 roughly one-quarter the cost of Anthropic's Opus 4.8. Musk calls it \"Opus-class but faster and cheaper.\" Three top frontier models dropped in eight days.",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+      "first_seen": "2026-07-11T12:00:00Z",
+      "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 1
+    },
+    {
       "id": "world-cup-quarterfinals",
       "category": "Sports",
-      "moment": "World Cup quarterfinals begin \u2014 France-Morocco leads the slate",
-      "why_now": "Four quarterfinals kick off today and tomorrow: France vs Morocco, Belgium vs Spain, Norway vs England, and Argentina vs Switzerland. The last eight teams play for semifinal spots.",
-      "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-bracket-quarter-finals-full-schedule-live-updates",
+      "moment": "World Cup semis take shape \u2014 France and Spain through; Norway-England and Argentina-Switzerland today",
+      "why_now": "France beat Morocco 2-0 (Mbapp\u00e9 60', Demb\u00e9l\u00e9 66') and Spain edged Belgium 2-1 in the 88th minute. Norway vs England (5pm ET) and Argentina vs Switzerland (9pm ET) complete the quarterfinals today.",
+      "url": "https://www.cbssports.com/soccer/news/2026-fifa-world-cup-bracket-round-of-32-results-round-of-16-matchups-final/",
       "first_seen": "2026-07-09T12:00:00Z",
-      "last_seen": "2026-07-09T12:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-09T12:00:00Z",
+          "note": "Quarterfinals begin: France-Morocco and Spain-Belgium on July 10; Norway-England and Argentina-Switzerland on July 11"
+        },
+        {
+          "date": "2026-07-11T12:00:00Z",
+          "note": "France 2-0 Morocco (Mbapp\u00e9, Demb\u00e9l\u00e9); Spain 2-1 Belgium (Merino 88'). Norway-England and Argentina-Switzerland play tonight"
+        }
+      ]
     },
     {
       "id": "argentina-egypt-comeback",
       "category": "Sports",
-      "moment": "Egypt FA files official protest over Argentina refereeing",
-      "why_now": "After Argentina's stoppage-time 3-2 comeback win from 2-0 down, Egypt's football association formally called out \"controversial and influential refereeing incidents\" \u2014 adding a political edge to one of the tournament's most dramatic results.",
+      "moment": "Egypt FA protests Argentina refereeing \u2014 Argentina now faces Switzerland in QF tonight",
+      "why_now": "Egypt's FA formally challenged \"controversial and influential refereeing incidents\" with FIFA after Argentina's 3-2 stoppage-time comeback. FIFA has not ruled. Argentina plays Switzerland in the quarterfinals tonight.",
       "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-egyptian-fa-calls-out-controversial-and-influential-refereeing-incidents-in-argentina-loss-140058246.html",
       "first_seen": "2026-07-07T18:00:00Z",
-      "last_seen": "2026-07-09T12:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-07-07T18:00:00Z",
@@ -273,6 +325,10 @@
         {
           "date": "2026-07-09T12:00:00Z",
           "note": "Egyptian FA officially protests refereeing decisions with FIFA"
+        },
+        {
+          "date": "2026-07-11T12:00:00Z",
+          "note": "FIFA has not ruled on protest; Argentina faces Switzerland in QF tonight \u2014 protest shadow hangs over game"
         }
       ]
     },
@@ -287,14 +343,24 @@
       "appearances": 1
     },
     {
+      "id": "jayden-adams-death",
+      "category": "Sports",
+      "moment": "Bafana Bafana midfielder Jayden Adams, 25, dies weeks after World Cup debut",
+      "why_now": "Adams started two of South Africa's three group games \u2014 including the match that sealed their historic first-ever knockout-round qualification \u2014 and was found dead in Cape Town on July 11. The cause is under investigation.",
+      "url": "https://www.espn.com/soccer/story/_/id/49333373/south-africa-midfielder-jayden-adams-dies-aged-25-weeks-world-cup-appearance",
+      "first_seen": "2026-07-11T12:00:00Z",
+      "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 1
+    },
+    {
       "id": "swift-kelce-wedding",
       "category": "Culture & Entertainment",
       "moment": "Taylor Swift and Travis Kelce marry at Madison Square Garden",
-      "why_now": "After weeks of speculation about the rollout being its own PR campaign, the wedding happened July 3 \u2014 1,000 guests, officiated by Adam Sandler, Blake Lively conspicuously absent.",
+      "why_now": "After weeks of speculation about the rollout being its own PR campaign, the wedding happened July 3 \u2014 1,000 guests, officiated by Adam Sandler, Blake Lively conspicuously absent. This week: the newlyweds attended another couple's wedding alongside the Mahomeses; fans sold out every piece of trash from outside MSG.",
       "url": "https://www.nbcnews.com/news/us-news/live-blog/taylor-swift-travis-kelces-madison-square-garden-wedding-live-updates-rcna352411",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-09T12:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-07-08T19:45:00Z",
@@ -303,6 +369,10 @@
         {
           "date": "2026-07-09T12:00:00Z",
           "note": "Wedding confirmed at Madison Square Garden; officiated by Adam Sandler; Blake Lively notably absent"
+        },
+        {
+          "date": "2026-07-11T12:00:00Z",
+          "note": "Newlyweds spotted at a post-wedding event with Patrick and Brittany Mahomes; MSG wedding-night trash cubes sell out ($25/each); a bag of 'MSG air' listed for $49,999"
         }
       ]
     },
@@ -377,6 +447,26 @@
       "appearances": 1
     },
     {
+      "id": "jayz-reasonable-doubt-concert",
+      "category": "Culture & Entertainment",
+      "moment": "Jay-Z performs Reasonable Doubt start-to-finish at Yankee Stadium \u2014 45,000 fans, more than the album sold in week one",
+      "why_now": "Night one of a three-night Yankee Stadium series: Beyonc\u00e9 opened with \"Can't Knock the Hustle,\" Blue Ivy played keys on \"Feelin' It,\" Nas and Alicia Keys closed it out. The album sold 43,000 copies in its first week in 1996.",
+      "url": "https://variety.com/2026/music/news/jay-z-brings-out-beyonce-blue-ivy-carter-yankee-stadium-1236807113/",
+      "first_seen": "2026-07-11T12:00:00Z",
+      "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "kate-middleton-polo-return",
+      "category": "Culture & Entertainment",
+      "moment": "Kate Middleton returns to charity polo after two years away for cancer recovery",
+      "why_now": "Her first Royal Charity Polo Cup since 2023 \u2014 the years she missed while undergoing and recovering from treatment. She kissed William on the cheek after the match. After two years of carefully staged appearances, this one felt unscripted.",
+      "url": "https://www.hellomagazine.com/fashion/royal-style/912199/kate-middleton-polo-2026-gingham-temperley-dress/",
+      "first_seen": "2026-07-11T12:00:00Z",
+      "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 1
+    },
+    {
       "id": "empire-state-climbers",
       "category": "Odd & Human Interest",
       "moment": "Empire State Building antenna climbers get engaged, then arrested",
@@ -394,6 +484,16 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/6/10/pope-leo-welcomed-in-barcelona-with-traditional-catalan-human-tower",
       "first_seen": "2026-07-09T12:00:00Z",
       "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "swift-wedding-trash-merch",
+      "category": "Odd & Human Interest",
+      "moment": "Taylor Swift wedding trash sells out \u2014 artist curates $25 MSG detritus cubes, fan lists 'MSG air' for $49,999",
+      "why_now": "Artist Justin Gignac dressed in a tuxedo to collect street litter outside MSG the night of the wedding, packaged cigarette butts, confetti, and an AirPod fragment into $25 'NYC Garbage cubes,' and sold out by Thursday. Someone else is asking $49,999 for a sealed bag of air from outside the venue.",
+      "url": "https://www.tmz.com/2026/07/07/travis-kelce-taylor-swift-wedding-trash-sold-online/",
+      "first_seen": "2026-07-11T12:00:00Z",
+      "last_seen": "2026-07-11T12:00:00Z",
       "appearances": 1
     }
   ]
