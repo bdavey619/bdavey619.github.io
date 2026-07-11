@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-10T12:39:19.348720+00:00",
+  "generated_at": "2026-07-11T11:28:22.758431+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -91,19 +91,17 @@
       "gamePk": 823277,
       "status": "final",
       "result": "L",
-      "score": "1\u20133"
+      "score": "1\u20133",
+      "archive_url": "archive.html?date=2026-07-10"
     },
     {
       "date": "2026-07-10",
       "opponent": "TOR",
       "home": true,
       "gamePk": 823278,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "JP Sears",
-        "opp": "Shane Bieber"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20135"
     },
     {
       "date": "2026-07-11",
@@ -243,8 +241,8 @@
     }
   ],
   "summary": {
-    "month_record": "3\u20136",
-    "current_streak": "L1",
+    "month_record": "3\u20137",
+    "current_streak": "L2",
     "last_10": "3\u20137"
   }
 }
