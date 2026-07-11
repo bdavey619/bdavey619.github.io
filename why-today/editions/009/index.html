@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Today? · How did a Korean company that almost ceased to exist become the backbone of the AI revolution?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #FEFEF9;
+      --bg-warm: #F7F5EE;
+      --text: #1A1918;
+      --text-secondary: #6B6862;
+      --text-tertiary: #9C9893;
+      --accent: #B5451B;
+      --rule: #E0DDD5;
+      --max-width: 700px;
+
+      --open: #3A6B52;
+      --shut: #B5451B;
+    }
+
+    html {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 18px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body { min-height: 100vh; }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 1px solid var(--rule);
+      padding: 28px 40px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .publication-name {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .masthead-meta {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 72px 40px 48px;
+      text-align: center;
+    }
+
+    .moment-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    .moment-statement {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      color: var(--text-secondary);
+      margin-bottom: 40px;
+    }
+
+    .edition-rule {
+      width: 40px;
+      height: 1px;
+      background: var(--rule);
+      margin: 0 auto 40px;
+    }
+
+    .hero-question {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+
+    @media (max-width: 600px) {
+      .hero-question { font-size: 28px; }
+    }
+
+    /* ── Revelation ── */
+    .revelation-wrapper {
+      background: var(--bg-warm);
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 56px 40px;
+      margin-bottom: 72px;
+    }
+
+    .revelation {
+      max-width: 580px;
+      margin: 0 auto;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 22px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--text);
+      text-align: center;
+    }
+
+    /* ── Body ── */
+    .body-content {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.78;
+      color: var(--text);
+      margin-bottom: 28px;
+      font-weight: 300;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    .body-content > p.drop-cap::first-letter {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 0.82;
+      float: left;
+      margin-right: 8px;
+      margin-top: 6px;
+      color: var(--text);
+    }
+
+    strong { font-weight: 500; }
+
+    /* ── Timeline ── */
+    .timeline-section {
+      max-width: var(--max-width);
+      margin: 56px auto;
+      padding: 0 40px;
+    }
+
+    .timeline-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.20em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 24px;
+    }
+
+    .timeline {
+      position: relative;
+      padding-left: 30px;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 6px;
+      bottom: 6px;
+      width: 2px;
+      background: var(--rule);
+    }
+
+    .timeline-item {
+      position: relative;
+      padding-bottom: 26px;
+    }
+
+    .timeline-item:last-child { padding-bottom: 0; }
+
+    .timeline-dot {
+      position: absolute;
+      left: -30px;
+      top: 5px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--open);
+    }
+
+    .timeline-item.shut .timeline-dot {
+      background: var(--shut);
+      width: 15px;
+      height: 15px;
+      left: -31.5px;
+      top: 3.5px;
+    }
+
+    .timeline-date {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: var(--text-tertiary);
+      margin-bottom: 4px;
+    }
+
+    .timeline-item.shut .timeline-date { color: var(--shut); }
+
+    .timeline-text {
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--text);
+      font-weight: 300;
+    }
+
+    .timeline-caption {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 13px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      line-height: 1.6;
+      margin-top: 22px;
+      font-style: italic;
+      border-top: 1px solid var(--rule);
+      padding-top: 16px;
+    }
+
+    /* ── Blockquote ── */
+    blockquote {
+      margin: 0 0 28px;
+      padding: 0 0 0 24px;
+      border-left: 3px solid var(--accent);
+    }
+
+    blockquote p {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 19px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.65;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    blockquote cite {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      color: var(--text-tertiary);
+      font-style: normal;
+    }
+
+    /* ── Ending image ── */
+    .ending-image {
+      background: var(--bg-warm);
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      margin-top: 56px;
+      padding: 48px 40px;
+      text-align: center;
+    }
+
+    .ending-image p {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 21px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.65;
+      color: var(--text);
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+    /* ── One More Thing ── */
+    .one-more-thing {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 48px 40px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .omt-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 18px;
+    }
+
+    .one-more-thing p {
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--text);
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+
+    /* ── To Continue ── */
+    .to-continue {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 48px 40px 96px;
+    }
+
+    .continue-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 24px;
+    }
+
+    .rabbit-holes {
+      list-style: none;
+      padding: 0;
+    }
+
+    .rabbit-holes li {
+      padding: 16px 0;
+      border-bottom: 1px solid var(--rule);
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .rabbit-holes li:first-child { border-top: 1px solid var(--rule); }
+
+    .rabbit-holes li::before {
+      content: '→';
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 13px;
+      color: var(--text-tertiary);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .rabbit-hole-text strong {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .rabbit-hole-text a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .rabbit-hole-text a:hover strong {
+      color: var(--accent);
+    }
+
+    .rabbit-hole-text span {
+      font-size: 14px;
+      font-weight: 300;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* ── Footer ── */
+    .footer {
+      border-top: 1px solid var(--rule);
+      padding: 32px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .footer-name {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+    }
+
+    .footer-note {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      text-align: right;
+    }
+
+    @media (max-width: 640px) {
+      .masthead { padding: 20px 24px; }
+      .hero { padding: 52px 24px 40px; }
+      .body-content { padding: 0 24px; }
+      .timeline-section { padding: 0 24px; }
+      .ending-image { padding: 40px 24px; }
+      .one-more-thing { padding: 40px 24px; }
+      .to-continue { padding: 40px 24px 72px; }
+      .footer { padding: 28px 24px; flex-direction: column; text-align: center; }
+      .footer-note { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="masthead">
+    <span class="publication-name">Why Today?</span>
+    <span class="masthead-meta">Edition No. 009 &nbsp;·&nbsp; July 11, 2026</span>
+  </header>
+
+  <section class="hero">
+    <p class="moment-label">Today's Shared Moment</p>
+    <p class="moment-statement">This week, a company called SK Hynix debuted on the Nasdaq in the largest foreign IPO in US history. Most Americans had never heard of it. Nearly every piece of AI hardware they have heard of runs on its memory.</p>
+    <div class="edition-rule"></div>
+    <h1 class="hero-question">How did a Korean company that almost ceased to exist become the backbone of the AI revolution?</h1>
+  </section>
+
+  <div class="revelation-wrapper">
+    <p class="revelation">
+      In 2002, SK Hynix's creditors wrote off $7.1 billion in debt and international trade arbiters ruled its government bailout was illegal. This week it raised $26.5 billion in a single day on the Nasdaq. The distance between those two numbers has a name: HBM.
+    </p>
+  </div>
+
+  <main class="body-content">
+
+    <p class="drop-cap">On Thursday morning, a company most Americans had never heard of began trading on the Nasdaq, and by midday it had raised more money in its debut than any foreign company had ever raised listing in the United States. SK Hynix's name was not on the ticker tape most people were watching. But it was inside the hardware generating every headline they were reading: inside the Nvidia GPUs training AI models, inside the data centers running ChatGPT and Gemini and everything else the AI moment runs on. The memory chips that make AI possible are, in most cases, made by SK Hynix.</p>
+
+    <p>The company that debuted this week did not begin as an AI company. It began as a conglomerate bet, made in a country that had been one of the poorest on earth thirty years earlier. Korea in 1953 was devastated — the war had destroyed roughly forty percent of industrial capacity, and per-capita income lagged much of sub-Saharan Africa. The recovery that followed was built on chaebols: family-controlled conglomerates that the government directed into strategic industries with subsidized loans and protected markets. Steel, shipping, automobiles, and eventually electronics. Hyundai, the car company, diversified into semiconductors in 1983, founding Hyundai Electronics. The logic was blunt: Japan and the United States dominated chips; Korea needed chips; therefore Hyundai would make chips. It was an act of industrial will, not market signal.</p>
+
+    <p>The first two decades were survivable. The third nearly wasn't. The collapse of the dot-com economy in 2000–2001 took DRAM prices — the commodity memory that Hyundai Electronics, by then renamed Hynix Semiconductor after the parent group's restructuring, produced in volume — from over ten dollars per chip to under one. The company was buried under $7.1 billion in debt. Creditors wrote most of it off. The Korean government, alarmed at the prospect of losing one of its flagship manufacturers, stepped in with subsidized loans. And then the United States filed a complaint with the World Trade Organization: those subsidies, Washington argued, amounted to illegal state aid that allowed Hynix to dump chips below cost on global markets. In 2005, the WTO agreed. The Korean government's rescue of Hynix was ruled a prohibited subsidy under international trade law.</p>
+
+    <p>Here is where the story gets complicated.</p>
+
+    <p>While the WTO case was being decided, a separate investigation was proceeding at the US Department of Justice. Between roughly 1998 and 2002, every major DRAM manufacturer in the world had been meeting in hotel rooms and coordinating prices. Samsung, Hynix, Micron, Infineon, Elpida — a cartel that operated across three continents, held prices artificially high even as production costs fell, and extracted billions from the computer manufacturers and consumers who bought their memory. When the DOJ began taking it apart, the first company to cooperate received full immunity under the government's corporate leniency program. That company was Micron Technology. Samsung eventually paid $300 million. Hynix paid $185 million. Infineon paid $160 million. Micron paid nothing — and then, separately, filed the petition that triggered the WTO case against Hynix's government subsidies. The company that had just admitted to fixing prices alongside its competitors had turned around and accused one of them of receiving unfair government support. Micron collected immunity from the Justice Department and a favorable WTO ruling in the same decade. The company that walked away free was also the company that filed the complaint.</p>
+
+  </main>
+
+  <div class="timeline-section">
+    <p class="timeline-label">From conglomerate bet to backbone of AI</p>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">1983</p>
+        <p class="timeline-text">Hyundai Group founds Hyundai Electronics, entering a semiconductor market dominated by Japan and the United States — not because the market signaled opportunity, but because Korea decided it needed to be there.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">2001–2002</p>
+        <p class="timeline-text">DRAM prices collapse from over $10 to under $1 per chip. Hynix Semiconductor accumulates $7.1 billion in debt. Creditors write most of it off. The Korean government intervenes with subsidized loans — later ruled illegal state aid by the WTO.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">2004–2005</p>
+        <p class="timeline-text">DOJ fines land for the global DRAM price-fixing cartel. Samsung: $300 million. Hynix: $185 million. Micron: $0 — it cooperated first, received full immunity, and separately filed the WTO petition against Hynix's bailout.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">2009</p>
+        <p class="timeline-text">SK Hynix begins developing High Bandwidth Memory — a new memory architecture that stacks chips vertically and places them directly adjacent to the processor. No one is asking for it yet. The project will run for thirteen years before the market arrives.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">2013–2015</p>
+        <p class="timeline-text">SK Hynix demonstrates its first HBM chip. That same year, SK Group chairman Chey Tae-won is convicted of misappropriating funds from SK affiliates and sentenced to four years in prison. AMD releases the first commercial HBM product in 2015 — the Radeon R9 Fury X — to technical praise and commercial disappointment. Chey is pardoned and released. The HBM project continues.</p>
+      </div>
+      <div class="timeline-item shut">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">November 2022</p>
+        <p class="timeline-text">Nvidia releases the H100 GPU — built on a transformer-optimized architecture that requires extreme memory bandwidth — with SK Hynix HBM3 inside. ChatGPT launches three weeks later. The thirteen-year bet has arrived at its moment.</p>
+      </div>
+    </div>
+    <p class="timeline-caption">The fifth entry is the one the market missed. In 2015, when AMD's Fury X disappointed and Nvidia chose conventional memory, most observers concluded HBM was too expensive and too hard to manufacture at scale. SK Hynix kept building.</p>
+  </div>
+
+  <main class="body-content">
+
+    <p>The memory architecture at the center of this story works differently from the DRAM that almost destroyed the company twenty years earlier. Standard memory connects to processors through a bus — a relatively narrow pipe, data traveling horizontally across a circuit board, creating a bottleneck as processor speeds increase. HBM stacks multiple memory chips vertically, directly adjacent to the processor, and connects them through thousands of microscopic vertical pathways called through-silicon vias. Data doesn't cross a board; it moves through the package. Bandwidth increases by an order of magnitude. Power consumption falls substantially.</p>
+
+    <p>The AI models driving today's computing demand turned out to need exactly this. The transformer architecture underlying large language models doesn't just need raw processing power — it needs constant, high-speed access to enormous amounts of data, held close, retrieved fast. Traditional memory became the bottleneck. The chip that removed it was the one SK Hynix had been building since 2009, largely without commercial validation, through a debt restructuring, through an illegal-subsidy ruling, through its chairman's imprisonment, through a high-profile AMD product that sold poorly and nearly killed the program's justification.</p>
+
+    <p>The H100 launched in late 2022 with SK Hynix as its primary memory supplier. ChatGPT followed within weeks, creating demand for the H100 that Nvidia could not immediately fill — waitlists measured in months, spot prices multiples of list. Every data center building AI capacity needed H100s. Every H100 needed HBM. And SK Hynix, which had spent thirteen years making a chip nobody seemed to want, held the supply. The company that almost stopped existing in 2002 now controls roughly 62 percent of the global HBM market. This week it raised $26.5 billion on the Nasdaq in a single trading session — the largest foreign IPO in United States history.</p>
+
+  </main>
+
+  <div class="ending-image">
+    <p>In 2002, creditors wrote off $7.1 billion and the WTO ruled the rescue illegal. In 2022, the chip the engineers kept building anyway became the constraint on the AI revolution. History didn't reward the company that moved fastest. It rewarded the one that refused to stop.</p>
+  </div>
+
+  <div class="one-more-thing">
+    <p class="omt-label">One More Thing</p>
+    <p>On June 25, 2026 — three weeks ago — a federal class action lawsuit was filed in California against Samsung Electronics, SK Hynix, and Micron Technology. The plaintiffs allege that the same three companies are coordinating again: deliberately constricting conventional DRAM supply while they shift production to HBM, creating artificial scarcity, and driving consumer DRAM prices up roughly 700 percent over four quarters. The defendants have not yet responded. The case is <em>Garciaguirre v. Samsung Electronics</em>. The last time these three companies were accused of coordinating DRAM prices, one of them cooperated with the government and walked away free. The other two paid a combined $485 million.</p>
+  </div>
+
+  <div class="to-continue">
+    <p class="continue-label">To Continue</p>
+    <ul class="rabbit-holes">
+      <li>
+        <div class="rabbit-hole-text">
+          <a href="https://en.wikipedia.org/wiki/SK_Hynix" target="_blank" rel="noopener"><strong>SK Hynix</strong></a>
+          <span>The full company history, from Hyundai Electronics in 1983 through the near-bankruptcy, SK Group's acquisition, and the HBM era — including the WTO subsidy ruling and the DOJ cartel proceedings.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <a href="https://en.wikipedia.org/wiki/DRAM_price_fixing" target="_blank" rel="noopener"><strong>The DRAM price-fixing cartel</strong></a>
+          <span>The hotel-room meetings, the DOJ investigation, the leniency program that gave Micron full immunity, and the $1.1 billion in fines paid by everyone else — documented in detail, with primary sources.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <a href="https://en.wikipedia.org/wiki/High_Bandwidth_Memory" target="_blank" rel="noopener"><strong>High Bandwidth Memory</strong></a>
+          <span>How the stacked-die architecture works, the through-silicon via connections that make it possible, the generations from HBM1 through HBM3E, and why AI's transformer architecture created demand that nothing else could fill.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <a href="https://en.wikipedia.org/wiki/Chey_Tae-won" target="_blank" rel="noopener"><strong>Chey Tae-won</strong></a>
+          <span>The SK Group chairman who was convicted and imprisoned in 2013 while his engineers were building the first HBM chip, pardoned in 2015, and — as of his company's Nasdaq debut this week — presiding over one of the most valuable technology companies in Asia.</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <footer class="footer">
+    <span class="footer-name">Why Today?</span>
+    <span class="footer-note">A different question for today's conversation.</span>
+  </footer>
+
+</body>
+</html>
