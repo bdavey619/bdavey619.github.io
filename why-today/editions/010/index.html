@@ -246,6 +246,44 @@
       padding-top: 16px;
     }
 
+    /* ── Photo ── */
+    .photo-section {
+      max-width: var(--max-width);
+      margin: 0 auto 56px;
+      padding: 0 40px;
+    }
+
+    .photo-section img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .photo-caption {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      line-height: 1.6;
+      margin-top: 8px;
+      font-style: italic;
+    }
+
+    /* ── Category tag ── */
+    .category-tag {
+      display: inline-block;
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      border: 1px solid var(--rule);
+      padding: 1px 5px;
+      border-radius: 2px;
+      margin-bottom: 5px;
+    }
+
     blockquote {
       margin: 0 0 28px;
       padding: 0 0 0 24px;
@@ -440,6 +478,13 @@
     </p>
   </div>
 
+  <div class="photo-section">
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Teheran-ro_01.jpg" alt="Teheran-ro, Gangnam-gu, Seoul — Korea's corporate corridor" loading="lazy">
+      <figcaption class="photo-caption">Teheran-ro, Gangnam-gu, Seoul. Colloquially called "Teheran Valley." The towers along this street belong to Samsung, SK, LG, and Hyundai. The advertising is a map of who runs the country. — Wikimedia Commons / CC BY-SA</figcaption>
+    </figure>
+  </div>
+
   <main class="body-content">
 
     <p class="drop-cap">Search for Chey Tae-won this week and you will find a man worth roughly $5.7 billion — his wealth more than doubled in two months as SK Hynix's stock surged on the back of the AI chip boom and then again on this week's Nasdaq debut. You will find the chairman of SK Group, South Korea's second-largest conglomerate, with 186 subsidiaries spanning semiconductors, telecommunications, energy, and pharmaceuticals. And somewhere in the middle of his Wikipedia page, if you scroll far enough, you will find a section noting that in January 2013 he was convicted of embezzling more than $40 million from SK affiliates — money he had taken to cover personal investment losses — and sentenced to four years in prison. He was pardoned in August 2015 and returned to his office in 2016. Most of the coverage this week does not mention it.</p>
@@ -511,26 +556,44 @@
     <ul class="rabbit-holes">
       <li>
         <div class="rabbit-hole-text">
-          <a href="https://en.wikipedia.org/wiki/Chey_Tae-won" target="_blank" rel="noopener"><strong>Chey Tae-won</strong></a>
-          <span>The Wikipedia page that is, as this edition notes, thin. The conviction is there. The pardon is there. The return is there. It repays a close read knowing what surrounds it.</span>
-        </div>
-      </li>
-      <li>
-        <div class="rabbit-hole-text">
+          <span class="category-tag">Read</span>
           <a href="https://en.wikipedia.org/wiki/Chaebol" target="_blank" rel="noopener"><strong>Chaebol</strong></a>
           <span>The structure that makes the pardon cycle possible — family control, cross-shareholding, government dependence, and the full economic concentration figures behind the 40 percent and 77 percent numbers in this edition.</span>
         </div>
       </li>
       <li>
         <div class="rabbit-hole-text">
+          <span class="category-tag">Read</span>
           <a href="https://en.wikipedia.org/wiki/Hell_Joseon" target="_blank" rel="noopener"><strong>Hell Joseon</strong></a>
-          <span>The term that named what a generation already knew — including the full taxonomy of spoon classes, the sampo and n-po generations, and the demographic data that shows how the naming of something can also be its measurement.</span>
+          <span>The term that named what a generation already knew — the full taxonomy of spoon classes, the sampo and n-po generations, and the demographic data behind Korea's 0.75 fertility rate.</span>
         </div>
       </li>
       <li>
         <div class="rabbit-hole-text">
-          <a href="https://keia.org/analysis/the-rise-of-self-deprecating-terms-such-as-hell-chosun-and-dirt-spoon-among-the-young-generations-in-korea/" target="_blank" rel="noopener"><strong>The rise of "Hell Joseon" and "dirt spoon" — Korea Economic Institute</strong></a>
-          <span>An analysis of why self-deprecating economic terms spread through Korean youth culture, what they reveal about the gap between the meritocracy narrative and the lived experience, and why the language matters as a signal.</span>
+          <span class="category-tag">Book</span>
+          <a href="https://en.wikipedia.org/wiki/Pachinko_(novel)" target="_blank" rel="noopener"><strong>Pachinko — Min Jin Lee</strong></a>
+          <span>A multigenerational saga of a Korean family in Japan, spanning 1910–1989. Fiction, but the best single work for understanding Korean economic identity, survival, and the weight of history that underlies everything in this edition. 500,000+ Goodreads ratings.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <span class="category-tag">Book</span>
+          <strong>Korea: The Impossible Country — Daniel Tudor</strong>
+          <span>The Economist's former Korea correspondent on how modern South Korean society actually works: the education system, the chaebol economy, the compressed industrialization, the generational tension. The book that makes every billboard on Teheran-ro land differently.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <span class="category-tag">Watch</span>
+          <a href="https://en.wikipedia.org/wiki/Misaeng" target="_blank" rel="noopener"><strong>Misaeng (Incomplete Life) — 2014, Korea · Netflix</strong></a>
+          <span>A young man who fails his chaebol entrance exam gets a contract position and navigates a year inside a trading company. 20 episodes. Koreans who work at Samsung describe watching it as uncomfortably accurate. 9.2 on IMDb.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <span class="category-tag">Watch</span>
+          <a href="https://en.wikipedia.org/wiki/Parasite_(2019_film)" target="_blank" rel="noopener"><strong>Parasite — 2019, Bong Joon-ho · Netflix</strong></a>
+          <span>A poor Korean family infiltrates a wealthy household. The "gold spoon vs. dirt spoon" dynamic from this edition, dramatized at its most extreme. Won the Palme d'Or and Best Picture Oscar. The film the edition was building toward.</span>
         </div>
       </li>
     </ul>
