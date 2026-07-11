@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Today? · What does South Korea owe the families that built it?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #FEFEF9;
+      --bg-warm: #F7F5EE;
+      --text: #1A1918;
+      --text-secondary: #6B6862;
+      --text-tertiary: #9C9893;
+      --accent: #B5451B;
+      --rule: #E0DDD5;
+      --max-width: 700px;
+
+      --open: #3A6B52;
+      --shut: #B5451B;
+    }
+
+    html {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 18px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body { min-height: 100vh; }
+
+    .masthead {
+      border-bottom: 1px solid var(--rule);
+      padding: 28px 40px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .publication-name {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .masthead-meta {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+    }
+
+    .hero {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 72px 40px 48px;
+      text-align: center;
+    }
+
+    .moment-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    .moment-statement {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      color: var(--text-secondary);
+      margin-bottom: 40px;
+    }
+
+    .edition-rule {
+      width: 40px;
+      height: 1px;
+      background: var(--rule);
+      margin: 0 auto 40px;
+    }
+
+    .hero-question {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+
+    @media (max-width: 600px) {
+      .hero-question { font-size: 28px; }
+    }
+
+    .revelation-wrapper {
+      background: var(--bg-warm);
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 56px 40px;
+      margin-bottom: 72px;
+    }
+
+    .revelation {
+      max-width: 580px;
+      margin: 0 auto;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 22px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--text);
+      text-align: center;
+    }
+
+    .body-content {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.78;
+      color: var(--text);
+      margin-bottom: 28px;
+      font-weight: 300;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    .body-content > p.drop-cap::first-letter {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 0.82;
+      float: left;
+      margin-right: 8px;
+      margin-top: 6px;
+      color: var(--text);
+    }
+
+    strong { font-weight: 500; }
+
+    .timeline-section {
+      max-width: var(--max-width);
+      margin: 56px auto;
+      padding: 0 40px;
+    }
+
+    .timeline-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.20em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 24px;
+    }
+
+    .timeline {
+      position: relative;
+      padding-left: 30px;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 6px;
+      bottom: 6px;
+      width: 2px;
+      background: var(--rule);
+    }
+
+    .timeline-item {
+      position: relative;
+      padding-bottom: 26px;
+    }
+
+    .timeline-item:last-child { padding-bottom: 0; }
+
+    .timeline-dot {
+      position: absolute;
+      left: -30px;
+      top: 5px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--open);
+    }
+
+    .timeline-item.shut .timeline-dot {
+      background: var(--shut);
+      width: 15px;
+      height: 15px;
+      left: -31.5px;
+      top: 3.5px;
+    }
+
+    .timeline-date {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: var(--text-tertiary);
+      margin-bottom: 4px;
+    }
+
+    .timeline-item.shut .timeline-date { color: var(--shut); }
+
+    .timeline-text {
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--text);
+      font-weight: 300;
+    }
+
+    .timeline-caption {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 13px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      line-height: 1.6;
+      margin-top: 22px;
+      font-style: italic;
+      border-top: 1px solid var(--rule);
+      padding-top: 16px;
+    }
+
+    blockquote {
+      margin: 0 0 28px;
+      padding: 0 0 0 24px;
+      border-left: 3px solid var(--accent);
+    }
+
+    blockquote p {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 19px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.65;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    blockquote cite {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      color: var(--text-tertiary);
+      font-style: normal;
+    }
+
+    .ending-image {
+      background: var(--bg-warm);
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      margin-top: 56px;
+      padding: 48px 40px;
+      text-align: center;
+    }
+
+    .ending-image p {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 21px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.65;
+      color: var(--text);
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+    .one-more-thing {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 48px 40px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .omt-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 18px;
+    }
+
+    .one-more-thing p {
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--text);
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+
+    .to-continue {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 48px 40px 96px;
+    }
+
+    .continue-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 24px;
+    }
+
+    .rabbit-holes {
+      list-style: none;
+      padding: 0;
+    }
+
+    .rabbit-holes li {
+      padding: 16px 0;
+      border-bottom: 1px solid var(--rule);
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .rabbit-holes li:first-child { border-top: 1px solid var(--rule); }
+
+    .rabbit-holes li::before {
+      content: '→';
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 13px;
+      color: var(--text-tertiary);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .rabbit-hole-text strong {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .rabbit-hole-text a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .rabbit-hole-text a:hover strong {
+      color: var(--accent);
+    }
+
+    .rabbit-hole-text span {
+      font-size: 14px;
+      font-weight: 300;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    .footer {
+      border-top: 1px solid var(--rule);
+      padding: 32px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .footer-name {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+    }
+
+    .footer-note {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      text-align: right;
+    }
+
+    @media (max-width: 640px) {
+      .masthead { padding: 20px 24px; }
+      .hero { padding: 52px 24px 40px; }
+      .body-content { padding: 0 24px; }
+      .timeline-section { padding: 0 24px; }
+      .ending-image { padding: 40px 24px; }
+      .one-more-thing { padding: 40px 24px; }
+      .to-continue { padding: 40px 24px 72px; }
+      .footer { padding: 28px 24px; flex-direction: column; text-align: center; }
+      .footer-note { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="masthead">
+    <span class="publication-name">Why Today?</span>
+    <span class="masthead-meta">Edition No. 010 &nbsp;·&nbsp; July 11, 2026</span>
+  </header>
+
+  <section class="hero">
+    <p class="moment-label">Today's Shared Moment</p>
+    <p class="moment-statement">SK Hynix's Nasdaq debut made its chairman one of the wealthiest men in Asia. People are Googling Chey Tae-won. What they find, buried in thin Wikipedia coverage, is a criminal conviction. In Korea, this barely registers as surprising.</p>
+    <div class="edition-rule"></div>
+    <h1 class="hero-question">What does South Korea owe the families that built it?</h1>
+  </section>
+
+  <div class="revelation-wrapper">
+    <p class="revelation">
+      Chey Tae-won was convicted of embezzling over $40 million from his own companies, sentenced to four years in prison, and pardoned. The president who pardoned him was later convicted of corruption and also pardoned. In South Korea, this is not a scandal. It is a system.
+    </p>
+  </div>
+
+  <main class="body-content">
+
+    <p class="drop-cap">Search for Chey Tae-won this week and you will find a man worth roughly $5.7 billion — his wealth more than doubled in two months as SK Hynix's stock surged on the back of the AI chip boom and then again on this week's Nasdaq debut. You will find the chairman of SK Group, South Korea's second-largest conglomerate, with 186 subsidiaries spanning semiconductors, telecommunications, energy, and pharmaceuticals. And somewhere in the middle of his Wikipedia page, if you scroll far enough, you will find a section noting that in January 2013 he was convicted of embezzling more than $40 million from SK affiliates — money he had taken to cover personal investment losses — and sentenced to four years in prison. He was pardoned in August 2015 and returned to his office in 2016. Most of the coverage this week does not mention it.</p>
+
+    <p>The reason it doesn't register is not that Korea has a short memory. It is that what happened to Chey Tae-won is not unusual enough to mention in the same breath as a record IPO. His conviction, his imprisonment, his pardon, his return to the chairmanship — these events followed a track that has been worn smooth by decades of repetition. Korea's largest companies are run, in most cases, by the families that founded them. Those families have, in many cases, been convicted of crimes. Those convictions have, in virtually every case, eventually ended in a presidential pardon, justified on the grounds that the national economy requires these specific people at the helm of these specific companies. The pattern is consistent enough that legal scholars describe it not as a failure of the system but as a feature of it.</p>
+
+  </main>
+
+  <div class="timeline-section">
+    <p class="timeline-label">One cycle, repeating</p>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">1996 – 1998</p>
+        <p class="timeline-text">Lee Kun-hee, Samsung's chairman, is convicted of bribing government officials. He receives a suspended sentence and is pardoned by President Kim Dae-jung in 1998 as part of a general amnesty. He returns to lead Samsung.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">2008 – 2009</p>
+        <p class="timeline-text">Lee Kun-hee is convicted a second time, for tax evasion. He is pardoned by President Lee Myung-bak — explicitly, on the stated grounds that his involvement is needed for South Korea's successful bid to host the 2018 Winter Olympics. The bid succeeds.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">2013 – 2015</p>
+        <p class="timeline-text">Chey Tae-won is convicted of embezzling over $40 million from SK affiliates. He serves roughly two years of a four-year sentence before being pardoned by President Park Geun-hye — the first chaebol family member she pardons. He returns to SK Group in 2016.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">2017 – 2021</p>
+        <p class="timeline-text">Lee Jae-yong, Samsung's heir and de facto leader, is convicted of bribing President Park Geun-hye — the same president who pardoned Chey Tae-won — to secure government support for a Samsung corporate merger. Park Geun-hye is simultaneously convicted for accepting the bribe. Both are subsequently pardoned by separate administrations.</p>
+      </div>
+      <div class="timeline-item shut">
+        <div class="timeline-dot"></div>
+        <p class="timeline-date">August 2022</p>
+        <p class="timeline-text">President Yoon Suk-yeol pardons Lee Jae-yong, citing the need for Samsung's global competitiveness. Critics call it a signal that chaebol chiefs face no real legal consequences. Defenders call it economic realism. Both are, in a sense, correct.</p>
+      </div>
+    </div>
+    <p class="timeline-caption">Three families. Four presidents, across parties. The outcome is always the same. What changes is which president signs the pardon and what justification is offered.</p>
+  </div>
+
+  <main class="body-content">
+
+    <p>To understand why the pattern persists, you have to understand the economic architecture that makes it feel, to many Koreans, like it cannot stop. South Korea's postwar recovery — the "Miracle on the Han River" that took per-capita income from roughly $100 in 1953 to over $35,000 today — was not built on open markets and distributed competition. It was built on a deliberate bet, made by the military government of Park Chung-hee in the 1960s and 1970s, that state-directed capital channeled into a small number of family-controlled conglomerates could industrialize a devastated country faster than any other mechanism available. The chaebols — Samsung, Hyundai, SK, LG and dozens of others — were the instrument of that bet. They received preferential loans, protected markets, and government backing in exchange for meeting export targets and building strategic industries.</p>
+
+    <p>The bet worked. It worked so completely that the instrument became the economy. Today, the four largest chaebol families control companies whose combined revenues equal roughly 40 percent of South Korea's entire GDP. The top thirty chaebols together represent nearly 77 percent. No other advanced economy has this degree of concentration in the hands of so few families. In the United States, Apple — the country's most valuable company — represents approximately 3 percent of GDP. In Korea, one family's companies are 20 percent. The practical consequence is that the Korean government is not merely reluctant to remove chaebol chairmen from power. It is genuinely uncertain, in a way that is not entirely irrational, whether the economy could absorb the disruption if it tried.</p>
+
+    <blockquote>
+      <p>"If Samsung disappeared tomorrow, so would about a fifth of our exports. That is not a company that is too big to fail. That is a company that is too big to prosecute."</p>
+      <cite>— Widely attributed to Korean economic analysts; the underlying arithmetic is not disputed</cite>
+    </blockquote>
+
+    <p>The cost of this arrangement is paid mostly by young Koreans, and it is very high. The chaebol system creates what economists describe as a dual labor market: a small ring of stable, well-compensated positions inside the major conglomerates, surrounded by a much larger precarious economy of contract workers, temporary employees, and small businesses that cannot compete with companies backed by state-adjacent capital. Getting into the inner ring requires navigating one of the most demanding meritocratic sorting processes in the world — standardized test scores, elite university admissions, years of accumulated credentials the Korean job market calls "spec" — followed by brutal rejection rates even at that level. Youth unemployment sits at 12.5 percent. Nearly 40 percent of Korean wage earners are classified as non-regular workers, meaning contract or temporary positions with limited protections and no path to the inner ring. The average apartment in Seoul costs 1.3 billion won — roughly $960,000, or more than thirteen times the median annual household income.</p>
+
+    <p>Somewhere in that arithmetic, a generation made a calculation. The Korean terms for it spread through the internet in the early 2010s. <em>Sampo</em>: giving up three things — dating, marriage, children — because the economic conditions for a conventional life felt unachievable. Then <em>opo</em>, giving up five, adding homeownership and social life. Then <em>Hell Joseon</em>, comparing contemporary Korea to the rigid hierarchy of the Joseon dynasty (1392–1897), where birth determined fate and mobility was a fiction. The term went viral not because it was new but because it named something a generation already knew. South Korea's fertility rate in 2025 was 0.75 — the lowest ever recorded in any country, ever. The country where four families run 40 percent of the economy is also the country where young people have stopped having children at a rate without precedent in human demographic history.</p>
+
+  </main>
+
+  <div class="ending-image">
+    <p>The chaebols built Korea. Korea built the chaebols. The question that a generation of young Koreans is now answering differently from their parents is whether those two sentences still mean the same thing.</p>
+  </div>
+
+  <div class="one-more-thing">
+    <p class="omt-label">One More Thing</p>
+    <p>There is a Korean term for the class position young Koreans are born into: <em>heuk-sujeo</em>, or "dirt spoon" — the bottom of a four-level hierarchy of silver, gold, diamond, and dirt spoons that describes inherited economic advantage. The children of chaebol families are diamond spoons. The majority of young Koreans are dirt spoons, and the term has spread because it captures something the official meritocracy narrative does not: in a country where 77 percent of the economy is controlled by 30 conglomerates, the spoon you were born with matters more than the spec you accumulated. Chey Tae-won was born into a diamond spoon family, convicted of embezzlement, pardoned, and this week became one of the wealthiest men in Asia. His Wikipedia page is thin. His story is not.</p>
+  </div>
+
+  <div class="to-continue">
+    <p class="continue-label">To Continue</p>
+    <ul class="rabbit-holes">
+      <li>
+        <div class="rabbit-hole-text">
+          <a href="https://en.wikipedia.org/wiki/Chey_Tae-won" target="_blank" rel="noopener"><strong>Chey Tae-won</strong></a>
+          <span>The Wikipedia page that is, as this edition notes, thin. The conviction is there. The pardon is there. The return is there. It repays a close read knowing what surrounds it.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <a href="https://en.wikipedia.org/wiki/Chaebol" target="_blank" rel="noopener"><strong>Chaebol</strong></a>
+          <span>The structure that makes the pardon cycle possible — family control, cross-shareholding, government dependence, and the full economic concentration figures behind the 40 percent and 77 percent numbers in this edition.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <a href="https://en.wikipedia.org/wiki/Hell_Joseon" target="_blank" rel="noopener"><strong>Hell Joseon</strong></a>
+          <span>The term that named what a generation already knew — including the full taxonomy of spoon classes, the sampo and n-po generations, and the demographic data that shows how the naming of something can also be its measurement.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <a href="https://keia.org/analysis/the-rise-of-self-deprecating-terms-such-as-hell-chosun-and-dirt-spoon-among-the-young-generations-in-korea/" target="_blank" rel="noopener"><strong>The rise of "Hell Joseon" and "dirt spoon" — Korea Economic Institute</strong></a>
+          <span>An analysis of why self-deprecating economic terms spread through Korean youth culture, what they reveal about the gap between the meritocracy narrative and the lived experience, and why the language matters as a signal.</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <footer class="footer">
+    <span class="footer-name">Why Today?</span>
+    <span class="footer-note">A different question for today's conversation.</span>
+  </footer>
+
+</body>
+</html>
