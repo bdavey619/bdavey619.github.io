@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-07",
   "division_name": "AL West",
-  "generated_at": "2026-07-11T14:03:15.068146+00:00",
+  "generated_at": "2026-07-12T14:08:02.651176+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -82,19 +82,17 @@
       "gamePk": 824575,
       "status": "final",
       "result": "L",
-      "score": "1\u201314"
+      "score": "1\u201314",
+      "archive_url": "archive.html?date=2026-07-11"
     },
     {
       "date": "2026-07-11",
       "opponent": "CWS",
       "home": false,
       "gamePk": 824576,
-      "status": "scheduled",
-      "time_local": "11:10 AM PT",
-      "probable": {
-        "team": "Gage Jump",
-        "opp": "Bryan Hudson"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20131"
     },
     {
       "date": "2026-07-12",
@@ -222,8 +220,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20137",
-    "current_streak": "L7",
+    "month_record": "1\u20138",
+    "current_streak": "L8",
     "last_10": "1\u20139"
   }
 }
