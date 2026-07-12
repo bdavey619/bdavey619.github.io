@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-11T13:20:55.741506+00:00",
+  "generated_at": "2026-07-12T13:21:19.535521+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -92,19 +92,17 @@
       "gamePk": 823200,
       "status": "final",
       "result": "L",
-      "score": "3\u20134"
+      "score": "3\u20134",
+      "archive_url": "archive.html?date=2026-07-11"
     },
     {
       "date": "2026-07-11",
       "opponent": "COL",
       "home": true,
       "gamePk": 823198,
-      "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "team": "Tyler Mahle",
-        "opp": "Kyle Freeland"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "4\u20132"
     },
     {
       "date": "2026-07-12",
@@ -232,8 +230,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u20135",
-    "current_streak": "L1",
-    "last_10": "4\u20136"
+    "month_record": "5\u20135",
+    "current_streak": "W1",
+    "last_10": "5\u20135"
   }
 }
