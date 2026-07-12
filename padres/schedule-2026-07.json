@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-11T11:28:22.758431+00:00",
+  "generated_at": "2026-07-12T11:35:18.311112+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -101,19 +101,17 @@
       "gamePk": 823278,
       "status": "final",
       "result": "L",
-      "score": "3\u20135"
+      "score": "3\u20135",
+      "archive_url": "archive.html?date=2026-07-11"
     },
     {
       "date": "2026-07-11",
       "opponent": "TOR",
       "home": true,
       "gamePk": 823276,
-      "status": "scheduled",
-      "time_local": "5:40 PM PT",
-      "probable": {
-        "team": "Walker Buehler",
-        "opp": "Trey Yesavage"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "8\u20137"
     },
     {
       "date": "2026-07-12",
@@ -241,8 +239,8 @@
     }
   ],
   "summary": {
-    "month_record": "3\u20137",
-    "current_streak": "L2",
-    "last_10": "3\u20137"
+    "month_record": "4\u20137",
+    "current_streak": "W1",
+    "last_10": "4\u20136"
   }
 }
