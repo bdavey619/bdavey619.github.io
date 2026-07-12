@@ -1,36 +1,16 @@
 {
   "week_start": "2026-07-06",
-  "last_updated": "2026-07-11T12:00:00Z",
+  "last_updated": "2026-07-12T14:00:00Z",
   "storylines": [
-    {
-      "id": "macron-damascus-bombing",
-      "category": "Politics & World",
-      "moment": "Bombing near Macron's Damascus hotel",
-      "why_now": "Explosives detonated near the Four Seasons hotel where the French president was staying during his Syria state visit \u2014 the first European leader to visit since Assad's ouster.",
-      "url": "https://www.cnn.com/2026/07/07/middleeast/explosion-damascus-macron-hotel-syria-intl",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "hamas-dissolves-gaza-body",
-      "category": "Politics & World",
-      "moment": "Hamas dissolves Gaza governing body",
-      "why_now": "After nearly two decades in control, Hamas formally dissolved its Government Emergency Committee, clearing the way for a technocratic committee \u2014 the first structural handover since 2007.",
-      "url": "https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
     {
       "id": "iran-ceasefire-over",
       "category": "Politics & World",
-      "moment": "Mediators scramble as US-Iran talks agreed but ceasefire stays 'over' \u2014 day four",
+      "moment": "US-Iran talks stall as Khamenei funeral ends \u2014 Strait standoff holds, day five",
       "why_now": "Pakistan and Qatar are brokering a return to negotiations after Trump simultaneously agreed to new talks while reaffirming the ceasefire is void. Iran still controls the Strait of Hormuz leverage; shipping has slowed and oil prices remain elevated despite doubts full-scale war returns.",
       "url": "https://www.aljazeera.com/news/liveblog/2026/7/10/iran-war-live-fresh-attacks-on-iran-as-us-says-talks-still-on",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-11T12:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-07-12T14:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-07-08T19:45:00Z",
@@ -43,6 +23,10 @@
         {
           "date": "2026-07-11T12:00:00Z",
           "note": "Pakistan and Qatar mediate; Trump says agreed to talks but ceasefire still 'over'; Strait of Hormuz remains the sticking point as shipping slows"
+        },
+        {
+          "date": "2026-07-12T14:00:00Z",
+          "note": "Jul 12: Khamenei funeral procession concludes in Karbala; Pakistan-Qatar mediation ongoing; no new strikes overnight but Strait of Hormuz standoff holds; diplomatic track fragile"
         }
       ]
     },
@@ -121,16 +105,6 @@
       ]
     },
     {
-      "id": "manhattan-highrise-evacuation",
-      "category": "Politics & World",
-      "moment": "Manhattan high-rise evacuated over collapse fears",
-      "why_now": "The former Pfizer headquarters \u2014 a 37-story building being converted to apartments \u2014 was evacuated after columns buckled between the 21st and 26th floors. The building has since been stabilized but is still under investigation.",
-      "url": "https://www.washingtonpost.com/nation/2026/07/07/manhattan-high-rise-risk-collapse-after-columns-buckle/",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
       "id": "markets-iran-selloff",
       "category": "Business & Markets",
       "moment": "Oil elevated as Strait of Hormuz shipping slows \u2014 markets watchful but holding",
@@ -175,26 +149,6 @@
       "appearances": 1
     },
     {
-      "id": "blue-origin-valuation",
-      "category": "Business & Markets",
-      "moment": "Blue Origin valued at $130 billion",
-      "why_now": "Bezos's space company is raising $10B from Coatue and others in its first-ever outside fundraising round \u2014 coming weeks after SpaceX's blockbuster $1.75T IPO.",
-      "url": "https://www.cnbc.com/2026/07/08/blue-origin-bezos-fundraising.html",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "manhattan-office-leasing",
-      "category": "Business & Markets",
-      "moment": "Manhattan office leasing hits a 20-year high",
-      "why_now": "Q2 2026 logged 11 million sq ft of leases \u2014 29% above the five-year average \u2014 driven by AI companies and law firms. The first half of 2026 is the strongest since 2002.",
-      "url": "https://commercialobserver.com/2026/07/manhattan-office-leasing-q2-2026-report/",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
       "id": "skhy-ipo",
       "category": "Business & Markets",
       "moment": "SK Hynix raises $26.5B in biggest foreign IPO in US history \u2014 jumps 13% on debut",
@@ -202,76 +156,6 @@
       "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
       "first_seen": "2026-07-11T12:00:00Z",
       "last_seen": "2026-07-11T12:00:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "openai-gpt-5-6-release",
-      "category": "Tech & Science",
-      "moment": "OpenAI publicly releases GPT-5.6 after government restrictions lifted",
-      "why_now": "The US Department of Commerce cleared OpenAI to launch GPT-5.6 widely on July 8, ending restrictions that had limited access to \"trusted partners\" since June \u2014 restrictions OpenAI called \"not the long-term default.\"",
-      "url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "orbital-debris-salvage",
-      "category": "Tech & Science",
-      "moment": "$30 million orbital debris salvage mission launches",
-      "why_now": "A robotic spacecraft is heading up this week to retrieve stranded hardware in orbit \u2014 part of a growing commercial race to clean up the most congested lanes above Earth.",
-      "url": "https://www.space.com/arianespace-rocket-space-junk-cleanup-mission-2026",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "hayabusa2-snowman-asteroid",
-      "category": "Tech & Science",
-      "moment": "Hayabusa2's \"snowman\" asteroid flyby photos released",
-      "why_now": "JAXA's probe flew within 800 meters of near-Earth asteroid Torifune on July 5, revealing a contact-binary \"snowman\" shape unlike anything scientists predicted \u2014 and collecting high-resolution shape and water data.",
-      "url": "https://phys.org/news/2026-07-japan-snowman-asteroid-image-flyby.html",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "jwst-fourth-anniversary",
-      "category": "Tech & Science",
-      "moment": "JWST's fourth anniversary: a galaxy shaped by cosmic collision",
-      "why_now": "NASA released a Webb image of Centaurus A \u2014 11 million light-years away, its unusual shape caused by a galaxy merger 2 billion years ago \u2014 to mark four years of better-than-expected telescope performance.",
-      "url": "https://www.space.com/astronomy/james-webb-space-telescope/james-webb-space-telescope-celebrates-its-4th-birthday-with-stunning-image-of-a-galaxy-crash-site",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "tianwen-2-kamooalewa",
-      "category": "Tech & Science",
-      "moment": "Tianwen-2 reaches asteroid Kamo'oalewa",
-      "why_now": "China's probe arrived at 469219 Kamo'oalewa on July 4 after a 400-day, 1-billion-kilometer journey \u2014 and beamed back the first close-up images of Earth's quasi-satellite.",
-      "url": "https://spacenews.com/tianwen-2-arrives-at-asteroid-kamooalewa-first-image-revealed/",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "artemis-astronaut-retires",
-      "category": "Tech & Science",
-      "moment": "Canadian Artemis II astronaut Jeremy Hansen retires",
-      "why_now": "Hansen, the only non-American on Artemis II and the first Canadian to orbit the Moon, announced he'll step back from a full-time astronaut role in September \u2014 weeks after the historic April flyby.",
-      "url": "https://www.cnn.com/2026/07/06/science/artemis-2-astronaut-jeremy-hansen-retires",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "solar-flares-aurora",
-      "category": "Tech & Science",
-      "moment": "10 solar flares in 24 hours light up auroras across 30+ US states on July 4th",
-      "why_now": "A G3 geomagnetic storm \u2014 two levels stronger than forecasted \u2014 drove northern lights as far south as Utah, Colorado, and Northern California during Independence Day weekend.",
-      "url": "https://www.space.com/stargazing/auroras/sun-fires-off-10-solar-flares-in-24-hours-as-multiple-earth-bound-cmes-raise-northern-lights-hopes-for-july-4-weekend",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
       "appearances": 1
     },
     {
@@ -287,12 +171,12 @@
     {
       "id": "world-cup-quarterfinals",
       "category": "Sports",
-      "moment": "World Cup semis take shape \u2014 France and Spain through; Norway-England and Argentina-Switzerland today",
-      "why_now": "France beat Morocco 2-0 (Mbapp\u00e9 60', Demb\u00e9l\u00e9 66') and Spain edged Belgium 2-1 in the 88th minute. Norway vs England (5pm ET) and Argentina vs Switzerland (9pm ET) complete the quarterfinals today.",
+      "moment": "World Cup semifinals confirmed \u2014 France vs Spain, England vs Argentina",
+      "why_now": "All four quarterfinals complete: France 2-0 Morocco, Spain 2-1 Belgium, England 2-1 Norway (AET), Argentina 1-0 Switzerland (Mac Allister 10'). England's first semi since 2018; Argentina defending champions.",
       "url": "https://www.cbssports.com/soccer/news/2026-fifa-world-cup-bracket-round-of-32-results-round-of-16-matchups-final/",
       "first_seen": "2026-07-09T12:00:00Z",
-      "last_seen": "2026-07-11T12:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-07-12T14:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-07-09T12:00:00Z",
@@ -301,18 +185,22 @@
         {
           "date": "2026-07-11T12:00:00Z",
           "note": "France 2-0 Morocco (Mbapp\u00e9, Demb\u00e9l\u00e9); Spain 2-1 Belgium (Merino 88'). Norway-England and Argentina-Switzerland play tonight"
+        },
+        {
+          "date": "2026-07-12T14:00:00Z",
+          "note": "Jul 11 night: England beat Norway 2-1 AET; Argentina beat Switzerland 1-0 (Mac Allister 10'). All four QFs done. Semis: France vs Spain, England vs Argentina"
         }
       ]
     },
     {
       "id": "argentina-egypt-comeback",
       "category": "Sports",
-      "moment": "Egypt FA protests Argentina refereeing \u2014 Argentina now faces Switzerland in QF tonight",
-      "why_now": "Egypt's FA formally challenged \"controversial and influential refereeing incidents\" with FIFA after Argentina's 3-2 stoppage-time comeback. FIFA has not ruled. Argentina plays Switzerland in the quarterfinals tonight.",
+      "moment": "Argentina reach semis; Egypt's FIFA protest over their match still unresolved",
+      "why_now": "Argentina beat Switzerland 1-0 (Mac Allister 10') to reach the semifinals. Egypt's formal protest to FIFA over refereeing decisions in Argentina's 3-2 comeback win over Egypt remains open \u2014 no ruling as of July 12.",
       "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-egyptian-fa-calls-out-controversial-and-influential-refereeing-incidents-in-argentina-loss-140058246.html",
       "first_seen": "2026-07-07T18:00:00Z",
-      "last_seen": "2026-07-11T12:00:00Z",
-      "appearances": 4,
+      "last_seen": "2026-07-12T14:00:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-07-07T18:00:00Z",
@@ -329,18 +217,12 @@
         {
           "date": "2026-07-11T12:00:00Z",
           "note": "FIFA has not ruled on protest; Argentina faces Switzerland in QF tonight \u2014 protest shadow hangs over game"
+        },
+        {
+          "date": "2026-07-12T14:00:00Z",
+          "note": "Jul 11: Argentina beat Switzerland 1-0 and advance to semis; Egypt's refereeing protest still unresolved by FIFA"
         }
       ]
-    },
-    {
-      "id": "world-cup-round-of-16-concludes",
-      "category": "Sports",
-      "moment": "World Cup Round of 16 concludes",
-      "why_now": "Brazil\u2013Norway, Mexico\u2013England, and Colombia\u2013Switzerland decided the last quarterfinal spots.",
-      "url": "https://sports.yahoo.com/soccer/article/2026-fifa-world-cup-daily-schedule-every-match-date-kickoff-time-and-venue-for-all-48-teams-234515087.html",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
     },
     {
       "id": "jayden-adams-death",
@@ -407,46 +289,6 @@
       "appearances": 1
     },
     {
-      "id": "declaration-of-independence-copy-found",
-      "category": "Culture & Entertainment",
-      "moment": "\"Vanishingly rare\" Declaration of Independence copy found in UK archives",
-      "why_now": "A volunteer cataloging an 18th-century Royal Navy captain's papers found one of only 11 known Exeter-printing copies \u2014 seized from an American privateer ship on Christmas Eve 1776 \u2014 during America's 250th-anniversary year.",
-      "url": "https://www.cbsnews.com/news/vanishingly-rare-copy-of-the-declaration-of-independence-found-in-u-k-by-volunteer/",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "prince-harry-lawsuit-loss",
-      "category": "Culture & Entertainment",
-      "moment": "Prince Harry loses UK press-intrusion lawsuit",
-      "why_now": "Judge Matthew Nicklin ruled that while the claimants \u2014 Harry, Elton John, Elizabeth Hurley, and others \u2014 suspected unlawful gathering, they hadn't proved it. The Daily Mail called it an \"overwhelming victory.\"",
-      "url": "https://www.cbsnews.com/news/prince-harry-loses-legal-case-daily-mail-publisher-uk-court-dismisses-claims/",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "love-island-backlash",
-      "category": "Culture & Entertainment",
-      "moment": "Love Island USA backlash cycle \u2014 Alannah Keyser's apology tour",
-      "why_now": "Keyser was removed after a resurfaced clip showed her using a racial slur. Her TikTok apology sparked more backlash than the original clip \u2014 fans pointing out her on-screen behavior as the larger pattern.",
-      "url": "https://www.today.com/popculture/news/love-island-usa-alannah-keyser-apology-backlash-rcna352131",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "bet-awards-mic-incident",
-      "category": "Culture & Entertainment",
-      "moment": "Keke Palmer grabs mic from host Druski at BET Awards",
-      "why_now": "Mid-show, Keke snatched the microphone, told the crowd \"This should have been my gig,\" and introduced Cardi B herself \u2014 a moment that became the most-clipped scene of the night and a referendum on BET's booking choices.",
-      "url": "https://www.huffpost.com/entry/keke-palmer-bet-awards-2026-host_n_6a41a39de4b0f259890d6b38",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
       "id": "jayz-reasonable-doubt-concert",
       "category": "Culture & Entertainment",
       "moment": "Jay-Z performs Reasonable Doubt start-to-finish at Yankee Stadium \u2014 45,000 fans, more than the album sold in week one",
@@ -467,16 +309,6 @@
       "appearances": 1
     },
     {
-      "id": "empire-state-climbers",
-      "category": "Odd & Human Interest",
-      "moment": "Empire State Building antenna climbers get engaged, then arrested",
-      "why_now": "Ivan Kuznetsov and Angelina Nikolau scaled the antenna July 1, unfurled a \"power of love\" banner, got engaged on one knee \u2014 and were arraigned the next morning on burglary and reckless endangerment charges.",
-      "url": "https://www.cnn.com/2026/07/01/us/empire-state-building-banner",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-08T19:45:00Z",
-      "appearances": 1
-    },
-    {
       "id": "barcelona-human-tower-pope",
       "category": "Odd & Human Interest",
       "moment": "Catalans build a human tower to welcome Pope Leo XIV in Barcelona",
@@ -494,6 +326,46 @@
       "url": "https://www.tmz.com/2026/07/07/travis-kelce-taylor-swift-wedding-trash-sold-online/",
       "first_seen": "2026-07-11T12:00:00Z",
       "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "oracle-sp-downgrade-bbb",
+      "category": "Business & Markets",
+      "moment": "S&P downgrades Oracle to one notch above junk as AI spending hits $90B capex",
+      "why_now": "S&P cut Oracle to BBB- on July 9 \u2014 the lowest investment grade \u2014 citing $167B in debt, $90\u201395B projected capex for FY2027, and the fact that OpenAI alone accounts for roughly half its remaining performance obligations. Oracle's stock rose anyway.",
+      "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3592347",
+      "first_seen": "2026-07-12T14:00:00Z",
+      "last_seen": "2026-07-12T14:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "spain-almeria-wildfire",
+      "category": "Politics & World",
+      "moment": "Spain wildfire kills multiple in Almeria \u2014 victims found in burned-out vehicles",
+      "why_now": "A fast-moving fire in the southern province of Almeria, a major holiday destination, trapped people in their cars as they tried to flee. Multiple fatalities confirmed. Coming weeks after Europe's early-summer heat surge.",
+      "url": "https://www.bbc.com/news/world-europe",
+      "first_seen": "2026-07-12T14:00:00Z",
+      "last_seen": "2026-07-12T14:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "ebola-congo-spreading",
+      "category": "Politics & World",
+      "moment": "Ebola spreads to new regions of Congo \u2014 WHO tracking cases beyond Ituri epicenter",
+      "why_now": "New suspected Ebola cases have appeared in parts of the Democratic Republic of Congo previously unaffected, signaling the outbreak is moving beyond the Ituri epicenter. WHO is monitoring; no international travel alert yet.",
+      "url": "https://www.democracynow.org/2026/7/9/headlines",
+      "first_seen": "2026-07-12T14:00:00Z",
+      "last_seen": "2026-07-12T14:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "mistral-leanstral-formal-verification",
+      "category": "Tech & Science",
+      "moment": "Mistral releases Leanstral 1.5 \u2014 AI that mathematically proves code is correct",
+      "why_now": "Leanstral 1.5 uses the Lean 4 proof assistant to provide formal mathematical verification that software behaves as intended \u2014 moving beyond code generation into correctness guarantees. Relevant for aviation, medical devices, and financial systems where bugs are unacceptable.",
+      "url": "https://medium.com/@davidakpovi/ai-news-week-of-july-6-to-july-12-2026-f81a26c49c55",
+      "first_seen": "2026-07-12T14:00:00Z",
+      "last_seen": "2026-07-12T14:00:00Z",
       "appearances": 1
     }
   ]
