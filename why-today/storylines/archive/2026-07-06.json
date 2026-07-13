@@ -1,5 +1,5 @@
 {
-  "week_start": "2026-07-13",
+  "week_start": "2026-07-06",
   "last_updated": "2026-07-13T13:50:00Z",
   "storylines": [
     {
@@ -55,6 +55,36 @@
       ]
     },
     {
+      "id": "le-pen-presidential-run",
+      "category": "Politics & World",
+      "moment": "Marine Le Pen announces presidential run despite ankle monitor conviction",
+      "why_now": "The appeals court upheld her embezzlement conviction and ordered an electronic monitor \u2014 but also reduced her candidacy ban to 15 months, effectively clearing her to run for the 2027 French presidency.",
+      "url": "https://www.cnn.com/2026/07/07/europe/marine-le-pen-france-court-ruling-intl",
+      "first_seen": "2026-07-09T12:00:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "maine-senate-platner",
+      "category": "Politics & World",
+      "moment": "Graham Platner drops out of Maine Senate race after rape allegation",
+      "why_now": "After nearly every Democratic ally withdrew support \u2014 including Senate Minority Leader Schumer \u2014 Platner ended his bid in a video on July 8, days after the allegation was first reported.",
+      "url": "https://www.npr.org/2026/07/08/g-s1-132220/graham-platner-maine-senate-assault-allegation",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-08T19:45:00Z",
+          "note": "Rape allegation surfaces; Platner denies and says campaign weighing 'best path forward'"
+        },
+        {
+          "date": "2026-07-09T12:00:00Z",
+          "note": "Platner drops out after Schumer and DSCC pull support"
+        }
+      ]
+    },
+    {
       "id": "venezuela-earthquake",
       "category": "Politics & World",
       "moment": "Venezuela earthquake death toll reaches 3,889 \u2014 USGS warns of tens of thousands more",
@@ -105,6 +135,26 @@
           "note": "Jul 13: Brent crude jumps 3.6% to $78.7/bbl on Trump's Strait blockade announcement and 140-target US strike on Iran. Markets opening with risk-off tone."
         }
       ]
+    },
+    {
+      "id": "microsoft-xbox-layoffs",
+      "category": "Business & Markets",
+      "moment": "Microsoft cuts 4,800 jobs in biggest Xbox restructuring ever",
+      "why_now": "3,200 of the cuts hit Xbox specifically \u2014 about 20% of the gaming division \u2014 and four studios including Double Fine and Ninja Theory are being spun off or sold. Xbox CEO cited margins 3-10x below comparable platforms.",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+      "first_seen": "2026-07-09T12:00:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "spacex-nasdaq-100",
+      "category": "Business & Markets",
+      "moment": "SpaceX joins the Nasdaq-100",
+      "why_now": "Less than a month after its IPO, SpaceX entered the Nasdaq-100 on July 7 under Nasdaq's new fast-track rules \u2014 the first company to do so, forcing ~$4B in automatic index-fund buying.",
+      "url": "https://www.cnbc.com/2026/07/06/spacex-joins-the-nasdaq-100-on-tuesday-what-it-means-for-the-stock.html",
+      "first_seen": "2026-07-09T12:00:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 1
     },
     {
       "id": "skhy-ipo",
@@ -221,6 +271,36 @@
       ]
     },
     {
+      "id": "blake-lively-wedding-snub",
+      "category": "Culture & Entertainment",
+      "moment": "Blake Lively excluded from the Swift-Kelce wedding",
+      "why_now": "The rift stems from Taylor being subpoenaed in Blake's lawsuit against Justin Baldoni. Sources say Lively is \"p---d off\" and the two will \"never be friends again.\"",
+      "url": "https://stylecaster.com/entertainment/celebrity-news/1234929856/blake-lively-taylor-swift-wedding-friendship/",
+      "first_seen": "2026-07-08T19:45:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-08T19:45:00Z",
+          "note": "Reported as the final straw in a friendship once called Hollywood's most bulletproof"
+        },
+        {
+          "date": "2026-07-09T12:00:00Z",
+          "note": "Wedding confirmed; Lively and Reynolds spotted horse-show weekend in upstate NY \u2014 nowhere near MSG"
+        }
+      ]
+    },
+    {
+      "id": "beyonce-new-song",
+      "category": "Culture & Entertainment",
+      "moment": "Beyonc\u00e9 drops first new song in two years on July 4th",
+      "why_now": "\"Morning Dew (Donk)\" \u2014 co-written with Pharrell, recorded in 2013, leaked as a snippet in 2021 \u2014 arrived unannounced on Independence Day alongside a 60-day countdown to a B'Day 20th anniversary reissue.",
+      "url": "https://www.rollingstone.com/music/music-news/beyonce-surprise-new-song-morning-dew-donk-bday-reissue-1235589184/",
+      "first_seen": "2026-07-09T12:00:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
+      "appearances": 1
+    },
+    {
       "id": "jayz-reasonable-doubt-concert",
       "category": "Culture & Entertainment",
       "moment": "Jay-Z performs Reasonable Doubt start-to-finish at Yankee Stadium \u2014 45,000 fans, more than the album sold in week one",
@@ -238,6 +318,16 @@
       "url": "https://www.hellomagazine.com/fashion/royal-style/912199/kate-middleton-polo-2026-gingham-temperley-dress/",
       "first_seen": "2026-07-11T12:00:00Z",
       "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "barcelona-human-tower-pope",
+      "category": "Odd & Human Interest",
+      "moment": "Catalans build a human tower to welcome Pope Leo XIV in Barcelona",
+      "why_now": "The Castellers de Vilafranca erected a 10-meter tower at an Olympic Stadium vigil \u2014 an 8-year-old girl at the top \u2014 giving the new pontiff the most local possible welcome before 40,000 people.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/10/pope-leo-welcomed-in-barcelona-with-traditional-catalan-human-tower",
+      "first_seen": "2026-07-09T12:00:00Z",
+      "last_seen": "2026-07-09T12:00:00Z",
       "appearances": 1
     },
     {
