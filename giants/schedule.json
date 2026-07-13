@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-12T13:21:19.535521+00:00",
+  "generated_at": "2026-07-13T14:35:46.316020+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -102,19 +102,17 @@
       "gamePk": 823198,
       "status": "final",
       "result": "W",
-      "score": "4\u20132"
+      "score": "4\u20132",
+      "archive_url": "archive.html?date=2026-07-12"
     },
     {
       "date": "2026-07-12",
       "opponent": "COL",
       "home": true,
       "gamePk": 823199,
-      "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "team": "Trevor McDonald",
-        "opp": "Michael Lorenzen"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "3\u20131"
     },
     {
       "date": "2026-07-17",
@@ -122,7 +120,10 @@
       "home": false,
       "gamePk": 823115,
       "status": "scheduled",
-      "time_local": "7:10 PM PT"
+      "time_local": "7:10 PM PT",
+      "probable": {
+        "team": "Landen Roupp"
+      }
     },
     {
       "date": "2026-07-18",
@@ -130,7 +131,10 @@
       "home": false,
       "gamePk": 823116,
       "status": "scheduled",
-      "time_local": "5:08 PM PT"
+      "time_local": "5:08 PM PT",
+      "probable": {
+        "team": "Logan Webb"
+      }
     },
     {
       "date": "2026-07-19",
@@ -138,7 +142,10 @@
       "home": false,
       "gamePk": 823113,
       "status": "scheduled",
-      "time_local": "1:10 PM PT"
+      "time_local": "1:10 PM PT",
+      "probable": {
+        "team": "Robbie Ray"
+      }
     },
     {
       "date": "2026-07-20",
@@ -230,8 +237,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u20135",
-    "current_streak": "W1",
+    "month_record": "6\u20135",
+    "current_streak": "W2",
     "last_10": "5\u20135"
   }
 }
