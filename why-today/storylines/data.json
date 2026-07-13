@@ -7,6 +7,8 @@
       "category": "Politics & World",
       "moment": "US reinstates Strait of Hormuz blockade \u2014 140 Iran targets struck, oil jumps",
       "why_now": "Trump announced Monday the US will block Iranian ships from the Strait and charge other vessels for passage. US Central Command struck 140 targets in Iran on Sunday. Iran retaliated against US bases in five countries. Oil up 3.6% to $78.7/bbl. The interim ceasefire agreement is effectively void.",
+      "hidden_question": "Why does a strait 21 miles wide at its narrowest determine the price of oil in every country on earth?",
+      "editorial_potential": "high",
       "url": "https://www.aljazeera.com/news/liveblog/2026/7/13/iran-war-live-us-bombs-iranian-cities-again-as-hormuz-standoff-intensifies",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-13T13:50:00Z",
@@ -26,11 +28,11 @@
         },
         {
           "date": "2026-07-12T14:00:00Z",
-          "note": "Jul 12: Khamenei funeral procession concludes in Karbala; Pakistan-Qatar mediation ongoing; no new strikes overnight but Strait of Hormuz standoff holds; diplomatic track fragile"
+          "note": "Khamenei funeral procession concludes in Karbala; Pakistan-Qatar mediation ongoing; no new strikes overnight but Strait of Hormuz standoff holds; diplomatic track fragile"
         },
         {
           "date": "2026-07-13T13:50:00Z",
-          "note": "Jul 13: Trump announces US will reinstate blockade of Strait, charge ships for passage. US Central Command: 140 Iran targets struck Sunday. Iran strikes US bases in Bahrain, Qatar, Kuwait, Oman, Jordan. Oil up 3.6% to $78.7/bbl. Ceasefire agreement now effectively void."
+          "note": "Trump announces US will reinstate blockade of Strait, charge ships for passage. US Central Command: 140 Iran targets struck Sunday. Iran strikes US bases in Bahrain, Qatar, Kuwait, Oman, Jordan. Oil up 3.6% to $78.7/bbl. Ceasefire agreement now effectively void."
         }
       ]
     },
@@ -39,6 +41,8 @@
       "category": "Politics & World",
       "moment": "Russia-Ukraine war escalates \u2014 Ukraine hits 36 shadow fleet tankers and Russia's deepest refinery yet",
       "why_now": "After Russia's July 6 mass attack on Kyiv (351 drones, 68 missiles, 22 dead), Ukraine opened a major fuel campaign: 36 shadow fleet tankers struck in four days in the Black Sea, and the Omsk refinery in Siberia \u2014 2,500km from the front lines \u2014 hit for the first time. Crimea declared a state of emergency.",
+      "hidden_question": "How did Russia build a secret fleet of hundreds of oil tankers that half the world quietly agreed to pretend not to see?",
+      "editorial_potential": "high",
       "url": "https://www.aljazeera.com/news/2026/7/10/ukraine-chokes-fuel-to-crimea-russian-consumers-targeting-military-supply",
       "first_seen": "2026-07-09T12:00:00Z",
       "last_seen": "2026-07-11T12:00:00Z",
@@ -59,6 +63,8 @@
       "category": "Politics & World",
       "moment": "Venezuela earthquake death toll reaches 3,889 \u2014 USGS warns of tens of thousands more",
       "why_now": "The toll from twin June earthquakes continues to climb \u2014 the Anadolu Agency recorded 3,889 on July 10, with USGS estimating the final count could reach between 10,000 and 100,000. Some 17,000 left homeless, searches still ongoing.",
+      "hidden_question": "Why can seismologists predict an earthquake's magnitude to two decimal places but estimate its death toll only within an order of magnitude?",
+      "editorial_potential": "medium",
       "url": "https://abcnews.go.com/International/death-toll-venezuela-earthquakes-climbs-3600/story?id=134595467",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-11T12:00:00Z",
@@ -79,10 +85,96 @@
       ]
     },
     {
+      "id": "ebola-congo-spreading",
+      "category": "Politics & World",
+      "moment": "Ebola spreads to new regions of Congo \u2014 WHO tracking cases beyond Ituri epicenter",
+      "why_now": "New suspected Ebola cases have appeared in parts of the Democratic Republic of Congo previously unaffected, signaling the outbreak is moving beyond the Ituri epicenter. WHO is monitoring; no international travel alert yet.",
+      "hidden_question": "Why, with a highly effective Ebola vaccine available since 2020, does the same outbreak keep returning to the same region of Congo?",
+      "editorial_potential": "high",
+      "url": "https://www.democracynow.org/2026/7/9/headlines",
+      "first_seen": "2026-07-12T14:00:00Z",
+      "last_seen": "2026-07-12T14:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "spain-almeria-wildfire",
+      "category": "Politics & World",
+      "moment": "Spain wildfire kills multiple in Almeria \u2014 victims found in burned-out vehicles",
+      "why_now": "A fast-moving fire in the southern province of Almeria, a major holiday destination, trapped people in their cars as they tried to flee. Multiple fatalities confirmed. Coming weeks after Europe's early-summer heat surge.",
+      "hidden_question": "Why do wildfires keep catching people in their cars even when they had time to evacuate?",
+      "editorial_potential": "medium",
+      "url": "https://www.bbc.com/news/world-europe",
+      "first_seen": "2026-07-12T14:00:00Z",
+      "last_seen": "2026-07-12T14:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "lindsey-graham-dies",
+      "category": "Politics & World",
+      "moment": "Senator Lindsey Graham dies at 71 \u2014 aortic dissection, day after returning from Ukraine",
+      "why_now": "The four-term South Carolina Republican died Saturday evening of an aortic dissection after a brief and sudden illness. Graham had flown back from Kyiv the day before, where he'd been a prominent Ukraine supporter. His death opens a Senate seat in a reliably Republican state.",
+      "hidden_question": "How did one of the most reliable opponents of democratic accountability at home become one of the Senate's most consistent champions of democracy abroad?",
+      "editorial_potential": "medium",
+      "url": "https://www.npr.org/2026/07/12/nx-s1-5890790/us-sen-lindsey-graham-dies",
+      "first_seen": "2026-07-13T13:50:00Z",
+      "last_seen": "2026-07-13T13:50:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "bangkok-pub-fire",
+      "category": "Politics & World",
+      "moment": "Bangkok pub fire kills 27 \u2014 no fire escapes, exit doors reportedly locked",
+      "why_now": "A fire broke out shortly before midnight Sunday at the Na Ladprao pub in Bangkok after smoke emerged from a circuit breaker near the stage. Most victims were found in windowless bathrooms near a rear exit. Firefighters brought the blaze under control in 30 minutes; 63 others hospitalized. Investigation underway.",
+      "hidden_question": "Why do nightclub fires keep killing people the same way \u2014 locked exits, no sprinklers, crowds that can't find the way out \u2014 in every country, decade after decade?",
+      "editorial_potential": "high",
+      "url": "https://www.npr.org/2026/07/12/g-s1-133238/fire-breaks-out-at-a-pub-in-bangkok-killing-at-least-27-people-officials-say",
+      "first_seen": "2026-07-13T13:50:00Z",
+      "last_seen": "2026-07-13T13:50:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "us-heat-wave-midwest-east",
+      "category": "Politics & World",
+      "moment": "Heat dome expands east \u2014 Midwest hits today, Northeast tomorrow, 100\u00b0F+ possible",
+      "why_now": "The heat system that set 148 daily records between June 30 and July 5 is now pushing into the Midwest and East Coast. Billings, MT could top 110\u00b0F for the first time in a century. Morning lows in cities staying in the mid-upper 70s \u2014 offering little overnight relief. Health alerts in effect across the region.",
+      "hidden_question": "Why do we still measure heat waves by the daily high when it's the overnight low that actually kills people?",
+      "editorial_potential": "medium",
+      "url": "https://weather.com/2026/07/13/forecast/regional/heat-wave-rockies-plains-midwest-east-forecast",
+      "first_seen": "2026-07-13T13:50:00Z",
+      "last_seen": "2026-07-13T13:50:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "yale-doj-admissions-investigation",
+      "category": "Politics & World",
+      "moment": "DOJ opens investigation into Yale admissions \u2014 undergrad, law, and medical school",
+      "why_now": "The Justice Department is investigating Yale's admissions practices across all three major divisions. Coming after Harvard and other elite institutions faced similar scrutiny, the investigation focuses on whether Yale's process complies with anti-discrimination law post the Supreme Court's 2023 affirmative action ruling.",
+      "hidden_question": "After the Supreme Court banned race-conscious admissions, why do elite universities still end up with roughly the same kinds of students?",
+      "editorial_potential": "high",
+      "url": "https://www.cbsnews.com/news/",
+      "first_seen": "2026-07-13T13:50:00Z",
+      "last_seen": "2026-07-13T13:50:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "oracle-sp-downgrade-bbb",
+      "category": "Business & Markets",
+      "moment": "S&P downgrades Oracle to one notch above junk as AI spending hits $90B capex",
+      "why_now": "S&P cut Oracle to BBB- on July 9 \u2014 the lowest investment grade \u2014 citing $167B in debt, $90\u201395B projected capex for FY2027, and the fact that OpenAI alone accounts for roughly half its remaining performance obligations. Oracle's stock rose anyway.",
+      "hidden_question": "Why did Oracle's stock rise the same day S&P warned it was approaching junk \u2014 and what does that say about how investors are betting on AI?",
+      "editorial_potential": "high",
+      "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3592347",
+      "first_seen": "2026-07-12T14:00:00Z",
+      "last_seen": "2026-07-12T14:00:00Z",
+      "appearances": 1
+    },
+    {
       "id": "markets-iran-selloff",
       "category": "Business & Markets",
       "moment": "Oil jumps 3.6% to $78.7 on Strait blockade announcement \u2014 markets open risk-off",
       "why_now": "Brent crude surged on Trump's announcement that the US will reinstate a blockade of Iranian ships in the Strait of Hormuz and charge other vessels for passage. Markets opening Monday with a risk-off tone.",
+      "hidden_question": "Why do oil markets spike on conflict news when traders know wars almost never actually cut supply for long?",
+      "editorial_potential": "medium",
       "url": "https://www.aljazeera.com/news/2026/7/8/oil-prices-surge-as-us-strikes-iran-reversing-fall-to-pre-war-levels",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-13T13:50:00Z",
@@ -102,7 +194,7 @@
         },
         {
           "date": "2026-07-13T13:50:00Z",
-          "note": "Jul 13: Brent crude jumps 3.6% to $78.7/bbl on Trump's Strait blockade announcement and 140-target US strike on Iran. Markets opening with risk-off tone."
+          "note": "Brent crude jumps 3.6% to $78.7/bbl on Trump's Strait blockade announcement and 140-target US strike on Iran. Markets opening with risk-off tone."
         }
       ]
     },
@@ -111,9 +203,23 @@
       "category": "Business & Markets",
       "moment": "SK Hynix raises $26.5B in biggest foreign IPO in US history \u2014 jumps 13% on debut",
       "why_now": "The South Korean AI-memory chipmaker \u2014 supplier of Nvidia's HBM chips \u2014 debuted on Nasdaq Thursday at $149 and closed at $168, seven times oversubscribed. It's a direct market bet on AI infrastructure demand, and the largest-ever US listing by a foreign company.",
+      "hidden_question": "Why do investors pay 40\u00d7 earnings for a company that almost went bankrupt twice \u2014 and what changed?",
+      "editorial_potential": "low",
       "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
       "first_seen": "2026-07-11T12:00:00Z",
       "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "mistral-leanstral-formal-verification",
+      "category": "Tech & Science",
+      "moment": "Mistral releases Leanstral 1.5 \u2014 AI that mathematically proves code is correct",
+      "why_now": "Leanstral 1.5 uses the Lean 4 proof assistant to provide formal mathematical verification that software behaves as intended \u2014 moving beyond code generation into correctness guarantees. Relevant for aviation, medical devices, and financial systems where bugs are unacceptable.",
+      "hidden_question": "Why have computer scientists been able to mathematically prove software is correct since the 1970s \u2014 and why does almost no production code use it?",
+      "editorial_potential": "high",
+      "url": "https://medium.com/@davidakpovi/ai-news-week-of-july-6-to-july-12-2026-f81a26c49c55",
+      "first_seen": "2026-07-12T14:00:00Z",
+      "last_seen": "2026-07-12T14:00:00Z",
       "appearances": 1
     },
     {
@@ -121,6 +227,8 @@
       "category": "Tech & Science",
       "moment": "Grok 4.5 launches as SpaceXAI's first post-Cursor model \u2014 priced to undercut Anthropic",
       "why_now": "SpaceXAI released Grok 4.5 on July 8\u20139, trained alongside its Cursor acquisition. Priced at $2/$6 per million tokens \u2014 roughly one-quarter the cost of Anthropic's Opus 4.8. Musk calls it \"Opus-class but faster and cheaper.\" Three top frontier models dropped in eight days.",
+      "hidden_question": "What happens to an industry when the price of intelligence keeps falling by half every few months \u2014 and who actually profits?",
+      "editorial_potential": "medium",
       "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
       "first_seen": "2026-07-11T12:00:00Z",
       "last_seen": "2026-07-11T12:00:00Z",
@@ -131,7 +239,9 @@
       "category": "Sports",
       "moment": "World Cup semifinals: France vs Spain tomorrow, England vs Argentina Wednesday",
       "why_now": "The final four play this week: France vs Spain (Tue Jul 14, AT&T Stadium, Dallas, 3pm ET) and England vs Argentina (Wed Jul 15, Mercedes-Benz Stadium, Atlanta, 3pm ET). Winners meet in the final July 19. France and Argentina are defending semi-finalists; England's first semi since 2018.",
-      "url": "https://www.nbcsports.com/soccer/news/when-are-the-2026-fifa-world-cup-semifinals-dates-confirmed-teams",
+      "hidden_question": "Why does every England vs. Argentina match feel less like a football game and more like unfinished business from a war?",
+      "editorial_potential": "high",
+      "url": "https://www.nbcsports.com/soccer/news/when-are-the-2026-fifa-world-cup-semifinals-dates-times-confirmed-teams",
       "first_seen": "2026-07-09T12:00:00Z",
       "last_seen": "2026-07-13T13:50:00Z",
       "appearances": 4,
@@ -146,11 +256,11 @@
         },
         {
           "date": "2026-07-12T14:00:00Z",
-          "note": "Jul 11 night: England beat Norway 2-1 AET; Argentina beat Switzerland 1-0 (Mac Allister 10'). All four QFs done. Semis: France vs Spain, England vs Argentina"
+          "note": "England beat Norway 2-1 AET; Argentina beat Switzerland 1-0 (Mac Allister 10'). All four QFs done. Semis: France vs Spain, England vs Argentina"
         },
         {
           "date": "2026-07-13T13:50:00Z",
-          "note": "Jul 13: Semis today and tomorrow. France vs Spain \u2014 Tue Jul 14, AT&T Stadium, Dallas, 3pm ET. England vs Argentina \u2014 Wed Jul 15, Mercedes-Benz Stadium, Atlanta, 3pm ET. Final July 19."
+          "note": "Semis today and tomorrow. France vs Spain \u2014 Tue Jul 14, AT&T Stadium, Dallas, 3pm ET. England vs Argentina \u2014 Wed Jul 15, Mercedes-Benz Stadium, Atlanta, 3pm ET. Final July 19."
         }
       ]
     },
@@ -159,6 +269,8 @@
       "category": "Sports",
       "moment": "Argentina reach semis; Egypt's FIFA protest over their match still unresolved",
       "why_now": "Argentina beat Switzerland 1-0 (Mac Allister 10') to reach the semifinals. Egypt's formal protest to FIFA over refereeing decisions in Argentina's 3-2 comeback win over Egypt remains open \u2014 no ruling as of July 12.",
+      "hidden_question": "Has FIFA ever actually overturned a match result because of a refereeing protest \u2014 and if not, why do teams keep filing them?",
+      "editorial_potential": "medium",
       "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-egyptian-fa-calls-out-controversial-and-influential-refereeing-incidents-in-argentina-loss-140058246.html",
       "first_seen": "2026-07-07T18:00:00Z",
       "last_seen": "2026-07-12T14:00:00Z",
@@ -182,7 +294,7 @@
         },
         {
           "date": "2026-07-12T14:00:00Z",
-          "note": "Jul 11: Argentina beat Switzerland 1-0 and advance to semis; Egypt's refereeing protest still unresolved by FIFA"
+          "note": "Argentina beat Switzerland 1-0 and advance to semis; Egypt's refereeing protest still unresolved by FIFA"
         }
       ]
     },
@@ -191,7 +303,21 @@
       "category": "Sports",
       "moment": "Bafana Bafana midfielder Jayden Adams, 25, dies weeks after World Cup debut",
       "why_now": "Adams started two of South Africa's three group games \u2014 including the match that sealed their historic first-ever knockout-round qualification \u2014 and was found dead in Cape Town on July 11. The cause is under investigation.",
+      "hidden_question": "Why does South Africa keep producing world-class footballers the world only notices when they play internationally \u2014 and then loses them?",
+      "editorial_potential": "low",
       "url": "https://www.espn.com/soccer/story/_/id/49333373/south-africa-midfielder-jayden-adams-dies-aged-25-weeks-world-cup-appearance",
+      "first_seen": "2026-07-11T12:00:00Z",
+      "last_seen": "2026-07-11T12:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "jayz-reasonable-doubt-concert",
+      "category": "Culture & Entertainment",
+      "moment": "Jay-Z performs Reasonable Doubt start-to-finish at Yankee Stadium \u2014 45,000 fans, more than the album sold in week one",
+      "why_now": "Night one of a three-night Yankee Stadium series: Beyonc\u00e9 opened with \"Can't Knock the Hustle,\" Blue Ivy played keys on \"Feelin' It,\" Nas and Alicia Keys closed it out. The album sold 43,000 copies in its first week in 1996.",
+      "hidden_question": "How did Reasonable Doubt \u2014 now considered one of the greatest debut albums ever made \u2014 sell only 43,000 copies in its first week?",
+      "editorial_potential": "high",
+      "url": "https://variety.com/2026/music/news/jay-z-brings-out-beyonce-blue-ivy-carter-yankee-stadium-1236807113/",
       "first_seen": "2026-07-11T12:00:00Z",
       "last_seen": "2026-07-11T12:00:00Z",
       "appearances": 1
@@ -201,6 +327,8 @@
       "category": "Culture & Entertainment",
       "moment": "Taylor Swift and Travis Kelce marry at Madison Square Garden",
       "why_now": "After weeks of speculation about the rollout being its own PR campaign, the wedding happened July 3 \u2014 1,000 guests, officiated by Adam Sandler, Blake Lively conspicuously absent. This week: the newlyweds attended another couple's wedding alongside the Mahomeses; fans sold out every piece of trash from outside MSG.",
+      "hidden_question": "When does a celebrity's private life stop being private and start being content \u2014 and who made that deal?",
+      "editorial_potential": "medium",
       "url": "https://www.nbcnews.com/news/us-news/live-blog/taylor-swift-travis-kelces-madison-square-garden-wedding-live-updates-rcna352411",
       "first_seen": "2026-07-08T19:45:00Z",
       "last_seen": "2026-07-11T12:00:00Z",
@@ -221,113 +349,15 @@
       ]
     },
     {
-      "id": "jayz-reasonable-doubt-concert",
-      "category": "Culture & Entertainment",
-      "moment": "Jay-Z performs Reasonable Doubt start-to-finish at Yankee Stadium \u2014 45,000 fans, more than the album sold in week one",
-      "why_now": "Night one of a three-night Yankee Stadium series: Beyonc\u00e9 opened with \"Can't Knock the Hustle,\" Blue Ivy played keys on \"Feelin' It,\" Nas and Alicia Keys closed it out. The album sold 43,000 copies in its first week in 1996.",
-      "url": "https://variety.com/2026/music/news/jay-z-brings-out-beyonce-blue-ivy-carter-yankee-stadium-1236807113/",
-      "first_seen": "2026-07-11T12:00:00Z",
-      "last_seen": "2026-07-11T12:00:00Z",
-      "appearances": 1
-    },
-    {
       "id": "kate-middleton-polo-return",
       "category": "Culture & Entertainment",
       "moment": "Kate Middleton returns to charity polo after two years away for cancer recovery",
       "why_now": "Her first Royal Charity Polo Cup since 2023 \u2014 the years she missed while undergoing and recovering from treatment. She kissed William on the cheek after the match. After two years of carefully staged appearances, this one felt unscripted.",
+      "hidden_question": "Why does recovering from cancer require a public returning-to-normal performance rather than just being recovered?",
+      "editorial_potential": "low",
       "url": "https://www.hellomagazine.com/fashion/royal-style/912199/kate-middleton-polo-2026-gingham-temperley-dress/",
       "first_seen": "2026-07-11T12:00:00Z",
       "last_seen": "2026-07-11T12:00:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "swift-wedding-trash-merch",
-      "category": "Odd & Human Interest",
-      "moment": "Taylor Swift wedding trash sells out \u2014 artist curates $25 MSG detritus cubes, fan lists 'MSG air' for $49,999",
-      "why_now": "Artist Justin Gignac dressed in a tuxedo to collect street litter outside MSG the night of the wedding, packaged cigarette butts, confetti, and an AirPod fragment into $25 'NYC Garbage cubes,' and sold out by Thursday. Someone else is asking $49,999 for a sealed bag of air from outside the venue.",
-      "url": "https://www.tmz.com/2026/07/07/travis-kelce-taylor-swift-wedding-trash-sold-online/",
-      "first_seen": "2026-07-11T12:00:00Z",
-      "last_seen": "2026-07-11T12:00:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "oracle-sp-downgrade-bbb",
-      "category": "Business & Markets",
-      "moment": "S&P downgrades Oracle to one notch above junk as AI spending hits $90B capex",
-      "why_now": "S&P cut Oracle to BBB- on July 9 \u2014 the lowest investment grade \u2014 citing $167B in debt, $90\u201395B projected capex for FY2027, and the fact that OpenAI alone accounts for roughly half its remaining performance obligations. Oracle's stock rose anyway.",
-      "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3592347",
-      "first_seen": "2026-07-12T14:00:00Z",
-      "last_seen": "2026-07-12T14:00:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "spain-almeria-wildfire",
-      "category": "Politics & World",
-      "moment": "Spain wildfire kills multiple in Almeria \u2014 victims found in burned-out vehicles",
-      "why_now": "A fast-moving fire in the southern province of Almeria, a major holiday destination, trapped people in their cars as they tried to flee. Multiple fatalities confirmed. Coming weeks after Europe's early-summer heat surge.",
-      "url": "https://www.bbc.com/news/world-europe",
-      "first_seen": "2026-07-12T14:00:00Z",
-      "last_seen": "2026-07-12T14:00:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "ebola-congo-spreading",
-      "category": "Politics & World",
-      "moment": "Ebola spreads to new regions of Congo \u2014 WHO tracking cases beyond Ituri epicenter",
-      "why_now": "New suspected Ebola cases have appeared in parts of the Democratic Republic of Congo previously unaffected, signaling the outbreak is moving beyond the Ituri epicenter. WHO is monitoring; no international travel alert yet.",
-      "url": "https://www.democracynow.org/2026/7/9/headlines",
-      "first_seen": "2026-07-12T14:00:00Z",
-      "last_seen": "2026-07-12T14:00:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "mistral-leanstral-formal-verification",
-      "category": "Tech & Science",
-      "moment": "Mistral releases Leanstral 1.5 \u2014 AI that mathematically proves code is correct",
-      "why_now": "Leanstral 1.5 uses the Lean 4 proof assistant to provide formal mathematical verification that software behaves as intended \u2014 moving beyond code generation into correctness guarantees. Relevant for aviation, medical devices, and financial systems where bugs are unacceptable.",
-      "url": "https://medium.com/@davidakpovi/ai-news-week-of-july-6-to-july-12-2026-f81a26c49c55",
-      "first_seen": "2026-07-12T14:00:00Z",
-      "last_seen": "2026-07-12T14:00:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "lindsey-graham-dies",
-      "category": "Politics & World",
-      "moment": "Senator Lindsey Graham dies at 71 \u2014 aortic dissection, day after returning from Ukraine",
-      "why_now": "The four-term South Carolina Republican died Saturday evening of an aortic dissection after a brief and sudden illness. Graham had flown back from Kyiv the day before, where he'd been a prominent Ukraine supporter. His death opens a Senate seat in a reliably Republican state.",
-      "url": "https://www.npr.org/2026/07/12/nx-s1-5890790/us-sen-lindsey-graham-dies",
-      "first_seen": "2026-07-13T13:50:00Z",
-      "last_seen": "2026-07-13T13:50:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "bangkok-pub-fire",
-      "category": "Politics & World",
-      "moment": "Bangkok pub fire kills 27 \u2014 no fire escapes, exit doors reportedly locked",
-      "why_now": "A fire broke out shortly before midnight Sunday at the Na Ladprao pub in Bangkok after smoke emerged from a circuit breaker near the stage. Most victims were found in windowless bathrooms near a rear exit. Firefighters brought the blaze under control in 30 minutes; 63 others hospitalized. Investigation underway.",
-      "url": "https://www.npr.org/2026/07/12/g-s1-133238/fire-breaks-out-at-a-pub-in-bangkok-killing-at-least-27-people-officials-say",
-      "first_seen": "2026-07-13T13:50:00Z",
-      "last_seen": "2026-07-13T13:50:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "us-heat-wave-midwest-east",
-      "category": "Politics & World",
-      "moment": "Heat dome expands east \u2014 Midwest hits today, Northeast tomorrow, 100\u00b0F+ possible",
-      "why_now": "The heat system that set 148 daily records between June 30 and July 5 is now pushing into the Midwest and East Coast. Billings, MT could top 110\u00b0F for the first time in a century. Morning lows in cities staying in the mid-upper 70s \u2014 offering little overnight relief. Health alerts in effect across the region.",
-      "url": "https://weather.com/2026/07/13/forecast/regional/heat-wave-rockies-plains-midwest-east-forecast",
-      "first_seen": "2026-07-13T13:50:00Z",
-      "last_seen": "2026-07-13T13:50:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "yale-doj-admissions-investigation",
-      "category": "Politics & World",
-      "moment": "DOJ opens investigation into Yale admissions \u2014 undergrad, law, and medical school",
-      "why_now": "The Justice Department is investigating Yale's admissions practices across all three major divisions. Coming after Harvard and other elite institutions faced similar scrutiny, the investigation focuses on whether Yale's process complies with anti-discrimination law post the Supreme Court's 2023 affirmative action ruling.",
-      "url": "https://www.cbsnews.com/news/",
-      "first_seen": "2026-07-13T13:50:00Z",
-      "last_seen": "2026-07-13T13:50:00Z",
       "appearances": 1
     },
     {
@@ -335,9 +365,23 @@
       "category": "Culture & Entertainment",
       "moment": "Live-action Moana opens \u2014 Dwayne Johnson reprises Maui a decade later",
       "why_now": "Disney's live-action remake of Moana debuted this weekend, with Dwayne Johnson reprising the role of Maui he voiced in the 2016 animated original. The film is tracking against a summer box office that has been dominated by sequels and remakes.",
+      "hidden_question": "Why does Disney keep remaking animated films in live-action when the originals were made specifically because live-action couldn't do them justice?",
+      "editorial_potential": "medium",
       "url": "https://www.wnem.com/2026/07/13/monday-july-13-2026-5-things-you-need-know/",
       "first_seen": "2026-07-13T13:50:00Z",
       "last_seen": "2026-07-13T13:50:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "swift-wedding-trash-merch",
+      "category": "Odd & Human Interest",
+      "moment": "Taylor Swift wedding trash sells out \u2014 artist curates $25 MSG detritus cubes, fan lists 'MSG air' for $49,999",
+      "why_now": "Artist Justin Gignac dressed in a tuxedo to collect street litter outside MSG the night of the wedding, packaged cigarette butts, confetti, and an AirPod fragment into $25 'NYC Garbage cubes,' and sold out by Thursday. Someone else is asking $49,999 for a sealed bag of air from outside the venue.",
+      "hidden_question": "Why do people pay real money for fragments of moments they weren't part of?",
+      "editorial_potential": "medium",
+      "url": "https://www.tmz.com/2026/07/07/travis-kelce-taylor-swift-wedding-trash-sold-online/",
+      "first_seen": "2026-07-11T12:00:00Z",
+      "last_seen": "2026-07-11T12:00:00Z",
       "appearances": 1
     }
   ]
