@@ -1,23 +1,19 @@
 {
   "week_start": "2026-07-13",
-  "last_updated": "2026-07-14T14:00:00Z",
+  "last_updated": "2026-07-14T20:00:00Z",
   "storylines": [
     {
       "id": "iran-ceasefire-over",
       "category": "Politics & World",
-      "moment": "Day 6 of US strikes on Iran; IRGC hits two supertankers; Strait blockade fully operational",
-      "why_now": "IRGC targeted two supertankers overnight in the Strait of Hormuz. The naval blockade reimposed Sunday at 4pm is holding. Trump reversed his ship-fee proposal within 24 hours of announcing it. Iran has formally declared the ceasefire void. Oil holding above $78/bbl; tanker insurers raising war-risk premiums.",
+      "moment": "US strikes Abadan refinery \u2014 oldest in Middle East; only 14 ships crossed Hormuz Sunday vs 130/day before war",
+      "why_now": "US strikes today hit Abadan, Mahshahr, Qeshm Island, and Kish Island. The Strait has effectively shut: 14 ships crossed Sunday vs the normal ~130 per day, representing a fifth of world oil supply. Trump demanded a 20% cargo fee from countries that depend on Hormuz oil and warned he'll strike bridges and power plants 'next week' unless Tehran returns to the table. Iran hit two ships in Omani waters, killing a crew member.",
       "hidden_question": "Why does a strait 21 miles wide at its narrowest determine the price of oil in every country on earth?",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/7/13/iran-war-live-us-bombs-iranian-cities-again-as-hormuz-standoff-intensifies",
+      "url": "https://www.aljazeera.com/news/2026/7/14/us-strikes-new-targets-in-iran-as-tehran-hits-gulf-states-hormuz",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-14T14:00:00Z",
-      "appearances": 6,
+      "last_seen": "2026-07-14T20:00:00Z",
+      "appearances": 7,
       "history": [
-        {
-          "date": "2026-07-08T19:45:00Z",
-          "note": "Trump declares ceasefire 'over' at NATO summit; fresh US strikes launched after Iran targeted ships in Strait of Hormuz"
-        },
         {
           "date": "2026-07-09T12:00:00Z",
           "note": "US hits 90 targets across Iran's coastline; Iran retaliates against US bases in Kuwait and Bahrain"
@@ -28,37 +24,45 @@
         },
         {
           "date": "2026-07-13T13:50:00Z",
-          "note": "Trump announces US will reinstate blockade of Strait, charge ships for passage. US Central Command: 140 Iran targets struck Sunday. Iran strikes US bases in Bahrain, Qatar, Kuwait, Oman, Jordan. Oil up 3.6% to $78.7/bbl."
+          "note": "Trump announces US will reinstate blockade of Strait, charge ships for passage. US Central Command: 140 Iran targets struck Sunday. Oil up 3.6% to $78.7/bbl."
         },
         {
           "date": "2026-07-14T14:00:00Z",
-          "note": "IRGC hits two supertankers in Strait overnight. Trump reverses ship-fee proposal within 24 hours of announcing it. Naval blockade reimposed at 4pm Sunday holding. Iran formally declares ceasefire void. Tanker insurers raising war-risk premiums."
+          "note": "IRGC hits two supertankers in Strait overnight. Trump reverses ship-fee proposal within 24 hours. Naval blockade reimposed; Iran formally declares ceasefire void."
+        },
+        {
+          "date": "2026-07-14T20:00:00Z",
+          "note": "US strikes hit Abadan refinery (oldest in Middle East), Mahshahr, Qeshm, Kish Island. Only 14 ships crossed Hormuz Sunday vs ~130/day before war. Trump demands 20% cargo fee; threatens to strike power plants next week. Iran hits two ships in Omani waters, kills one crew member."
         }
       ]
     },
     {
       "id": "russia-ukraine-strikes",
       "category": "Politics & World",
-      "moment": "Ukraine and Europe launch joint ballistic missile defense framework; Zelenskyy meets Macron in Paris on Bastille Day",
-      "why_now": "Ukraine and European partners announced a joint ballistic missile defense framework today, direct response to Russia's July 6 mass attack (351 drones, 68 missiles, 22 dead in Kyiv). Zelenskyy traveled to Paris to meet Macron on Bastille Day, signaling the European defense axis is still cohering despite the Iran crisis dominating Western attention.",
+      "moment": "30+ countries pledge to defend Ukraine; Zelenskyy meets Macron in Paris on Bastille Day",
+      "why_now": "More than 30 countries formally pledged to defend Ukraine against Russia today, announced alongside Zelenskyy's Bastille Day meeting with Macron in Paris. The joint EU ballistic missile defense framework announced this morning is the most concrete European security commitment since the war began. Ukraine's shadow fleet campaign \u2014 36 tankers struck \u2014 continues in the background.",
       "hidden_question": "How did Russia build a secret fleet of hundreds of oil tankers that half the world quietly agreed to pretend not to see?",
       "editorial_potential": "high",
       "url": "https://www.aljazeera.com/news/2026/7/10/ukraine-chokes-fuel-to-crimea-russian-consumers-targeting-military-supply",
       "first_seen": "2026-07-09T12:00:00Z",
-      "last_seen": "2026-07-14T14:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-07-14T20:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-07-09T12:00:00Z",
-          "note": "Russia launches mass attack: 351 drones, 68 missiles kill at least 22 in Kyiv \u2014 exposing gaps in Ukraine's air defenses"
+          "note": "Russia launches mass attack: 351 drones, 68 missiles kill at least 22 in Kyiv"
         },
         {
           "date": "2026-07-11T12:00:00Z",
-          "note": "Ukraine shifts to offense: 36 shadow fleet tankers struck in 4 days; first-ever strike on Omsk refinery, 2,500km inside Russia; Crimea state of emergency declared"
+          "note": "Ukraine shifts to offense: 36 shadow fleet tankers struck in 4 days; first-ever strike on Omsk refinery, 2,500km inside Russia"
         },
         {
           "date": "2026-07-14T14:00:00Z",
           "note": "Ukraine and European partners announce joint ballistic missile defense framework. Zelenskyy meets Macron in Paris on Bastille Day."
+        },
+        {
+          "date": "2026-07-14T20:00:00Z",
+          "note": "30+ countries formally pledge to defend Ukraine; announcement made alongside Zelenskyy-Macron meeting in Paris."
         }
       ]
     },
@@ -89,14 +93,24 @@
     {
       "id": "lindsey-graham-dies",
       "category": "Politics & World",
-      "moment": "Senator Lindsey Graham dies at 71 \u2014 aortic dissection, day after returning from Ukraine",
-      "why_now": "The four-term South Carolina Republican died Saturday evening of an aortic dissection after a brief and sudden illness. Graham had flown back from Kyiv the day before, where he'd been a prominent Ukraine supporter. His death opens a Senate seat in a reliably Republican state.",
+      "moment": "Graham's sister Darline sworn in to his Senate seat today \u2014 oath at 2:30pm EST",
+      "why_now": "South Carolina Governor Henry McMaster appointed Darline Graham Nordone, Senator Graham's younger sister, to complete his term. Her oath of office was scheduled for 2:30pm EST today. Graham died Saturday of an aortic dissection hours after returning from Kyiv.",
       "hidden_question": "How did one of the most reliable opponents of democratic accountability at home become one of the Senate's most consistent champions of democracy abroad?",
       "editorial_potential": "medium",
       "url": "https://www.npr.org/2026/07/12/nx-s1-5890790/us-sen-lindsey-graham-dies",
       "first_seen": "2026-07-13T13:50:00Z",
-      "last_seen": "2026-07-13T13:50:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-14T20:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-13T13:50:00Z",
+          "note": "Graham dies at 71 of aortic dissection; flown back from Kyiv the day before"
+        },
+        {
+          "date": "2026-07-14T20:00:00Z",
+          "note": "Governor McMaster appoints Graham's younger sister Darline Graham Nordone to his seat; oath scheduled 2:30pm EST today"
+        }
+      ]
     },
     {
       "id": "bangkok-pub-fire",
@@ -137,13 +151,35 @@
     {
       "id": "trump-icc-sanctions",
       "category": "Politics & World",
-      "moment": "State Dept vows to 'disable' ICC; sanctioned judges file lawsuit against US in Manhattan",
-      "why_now": "The State Department escalated this week, adding ICC officials to the sanctions list and pledging to 'disable' the court's operations. In an unusual move, ICC judges filed a lawsuit in a Manhattan federal court challenging the sanctions' legality. The US is the only major democracy to sanction an international criminal court.",
+      "moment": "Rubio calls ICC 'unelected globalist bureaucrats'; more officials sanctioned; ICC judges sue US in Manhattan",
+      "why_now": "Secretary of State Rubio announced new ICC sanctions today, describing the court as 'a global tribunal staffed by unelected globalist bureaucrats' targeting Americans and Israelis whose countries never joined. ICC judges filed a lawsuit in Manhattan federal court challenging the sanctions. The US is the only major democracy sanctioning an international criminal tribunal.",
       "hidden_question": "Why does the world's largest democracy impose sanctions on the court that was built to prosecute genocide?",
       "editorial_potential": "medium",
       "url": "",
       "first_seen": "2026-07-14T14:00:00Z",
-      "last_seen": "2026-07-14T14:00:00Z",
+      "last_seen": "2026-07-14T20:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-14T14:00:00Z",
+          "note": "State Dept vows to 'disable' ICC; ICC judges file lawsuit in Manhattan against sanctions"
+        },
+        {
+          "date": "2026-07-14T20:00:00Z",
+          "note": "Rubio announces additional ICC official sanctions; describes court as 'unelected globalist bureaucrats targeting Americans and Israelis'"
+        }
+      ]
+    },
+    {
+      "id": "ny-ai-data-center-ban",
+      "category": "Politics & World",
+      "moment": "New York bans new AI data centers for 12 months \u2014 first US state; electricity rates up 68% in 6 years",
+      "why_now": "Governor Hochul signed an executive order today barring new large-scale data centers (50MW+ of power) for up to one year while the state assesses environmental and grid impacts. New York's residential electricity rates have risen 68% over the past six years \u2014 ranking it the 4th most expensive state for power. The ban affects Microsoft, Amazon, and Google projects. 46% of New Yorkers support the moratorium; only 21% oppose.",
+      "hidden_question": "Why is the cost of AI now showing up on Americans' electricity bills before it's showing up in their paychecks?",
+      "editorial_potential": "high",
+      "url": "https://www.cnbc.com/2026/07/14/new-york-ai-data-center-ban.html",
+      "first_seen": "2026-07-14T20:00:00Z",
+      "last_seen": "2026-07-14T20:00:00Z",
       "appearances": 1
     },
     {
@@ -161,72 +197,102 @@
     {
       "id": "markets-iran-selloff",
       "category": "Business & Markets",
-      "moment": "June CPI cools to 3.5% \u2014 but gas fell 9.7% during a ceasefire that no longer exists",
-      "why_now": "CPI for June came in at 3.5% annually, beating expectations of 3.9%. Gas fell 9.7% in June \u2014 entirely due to the ceasefire that has since collapsed. Tech and semiconductor stocks bounced on the data Thursday and Friday. IBM's Q2 earnings today reversed that relief: shares plunged 24\u201325% on the worst single-day drop in the company's 115-year history.",
+      "moment": "IBM confirmed $67B market cap wiped \u2014 worst day since Black Monday 1987; tech sells off on IBM contagion",
+      "why_now": "IBM's crash is now confirmed at 25-26%, erasing $67B in market cap \u2014 worse than its October 19, 1987 drop of 23.7% on Black Monday. Q2 revenue was $17.2B vs $17.9B expected; EPS $2.27 vs $3.01. CEO Arvind Krishna blamed clients shifting to servers, storage, and memory in the final weeks of June. Contagion hit ServiceNow, Salesforce, and Accenture. Full earnings July 22.",
       "hidden_question": "What happens to inflation when the peace deal that lowered gas prices collapses?",
       "editorial_potential": "medium",
-      "url": "https://www.aljazeera.com/news/2026/7/8/oil-prices-surge-as-us-strikes-iran-reversing-fall-to-pre-war-levels",
+      "url": "https://www.cnbc.com/2026/07/14/ibm-warns-second-quarter-earnings-fell-short-of-expectations.html",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-14T14:00:00Z",
-      "appearances": 5,
+      "last_seen": "2026-07-14T20:00:00Z",
+      "appearances": 6,
       "history": [
-        {
-          "date": "2026-07-08T19:45:00Z",
-          "note": "Dow drops 1%+, Brent crude surges 5.7% on Trump's ceasefire announcement"
-        },
         {
           "date": "2026-07-09T12:00:00Z",
           "note": "Brent reverses to $76+ as conflict enters day two; Iranian retaliation against US bases confirmed"
         },
         {
           "date": "2026-07-11T12:00:00Z",
-          "note": "Oil 'relatively tame' as full-scale war doubts grow; Strait shipping slows; SK Hynix +13% debut adds bullish AI-chip counterweight"
+          "note": "Oil 'relatively tame' as full-scale war doubts grow; SK Hynix +13% debut adds bullish AI-chip counterweight"
         },
         {
           "date": "2026-07-13T13:50:00Z",
-          "note": "Brent crude jumps 3.6% to $78.7/bbl on Trump's Strait blockade announcement and 140-target US strike on Iran."
+          "note": "Brent crude jumps 3.6% to $78.7/bbl on Trump's Strait blockade announcement."
         },
         {
           "date": "2026-07-14T14:00:00Z",
-          "note": "June CPI: 3.5% annual vs 3.9% expected; gas -9.7% in June (ceasefire effect, now gone). IBM crashes 24-25% on Q2 miss \u2014 worst day in 115-year history. Tech stocks that bounced on CPI data now retreating."
+          "note": "June CPI: 3.5% annual vs 3.9% expected; gas -9.7% in June (ceasefire effect, now gone). IBM crashes 24-25%."
+        },
+        {
+          "date": "2026-07-14T20:00:00Z",
+          "note": "IBM confirmed down 25-26%; $67B in market cap wiped \u2014 worse than Black Monday 1987. Q2 revenue $17.2B vs $17.9B expected. Full earnings July 22."
         }
       ]
     },
     {
       "id": "ibm-crash-ai-shift",
       "category": "Business & Markets",
-      "moment": "IBM crashes 24% \u2014 worst day in 115-year history \u2014 as customers divert Q2 spend to AI hardware",
-      "why_now": "IBM's Q2 earnings showed software and consulting revenue missed sharply. Executives said enterprise customers postponed IBM software contracts to redirect capex toward AI infrastructure \u2014 servers, memory, and storage to run their own AI. The selloff dragged ServiceNow -7%, Salesforce -5%, and Accenture -8%.",
+      "moment": "IBM crashes 25% \u2014 worst day in 115-year history, $67B gone \u2014 as clients abandon software for AI hardware",
+      "why_now": "IBM Q2 missed on revenue ($17.2B vs $17.9B expected) and EPS ($2.27 vs $3.01). CEO Arvind Krishna said clients in the final weeks of June shifted their quarterly capex from IBM software contracts to servers, storage, and memory \u2014 securing supply-constrained AI infrastructure ahead of expected price increases. The crash was worse than IBM's Black Monday 1987 drop. Contagion: ServiceNow -7%, Salesforce -5%, Accenture -8%.",
       "hidden_question": "Why did IBM \u2014 which helped invent deep learning and supplies the mainframes that run the global financial system \u2014 keep ending up on the wrong side of the AI wave it helped start?",
       "editorial_potential": "high",
-      "url": "",
+      "url": "https://www.cnbc.com/2026/07/14/ibm-warns-second-quarter-earnings-fell-short-of-expectations.html",
       "first_seen": "2026-07-14T14:00:00Z",
-      "last_seen": "2026-07-14T14:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-14T20:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-14T14:00:00Z",
+          "note": "IBM issues preliminary Q2 warning; shares crater 24-25% intraday"
+        },
+        {
+          "date": "2026-07-14T20:00:00Z",
+          "note": "IBM closes down 25-26%; $67B in market cap erased. Confirmed worst day in company history, exceeding Black Monday 1987 drop of 23.7%."
+        }
+      ]
     },
     {
       "id": "spacex-nasdaq100-fasttrack",
       "category": "Business & Markets",
-      "moment": "SpaceX joins Nasdaq-100 after 15 trading days via rewritten index rules",
-      "why_now": "Nasdaq rewrote its eligibility rules to add SpaceX \u2014 eliminating the float requirement and weighting the stock at 3\u00d7 its actual float (roughly 1.3%). SpaceX qualified on market cap alone (top-40) just 15 trading days after its IPO. No other company has entered the Nasdaq-100 this quickly.",
-      "hidden_question": "What does it mean when the rules of a major stock index get rewritten for a single company \u2014 and who benefits?",
+      "moment": "SpaceX joined Nasdaq-100 on July 7 via rewritten rules \u2014 $4B+ in forced ETF buying",
+      "why_now": "SpaceX (SPCX) joined the Nasdaq-100 effective July 7 \u2014 just 15 trading days after its IPO \u2014 after Nasdaq rewrote its fast-entry rules for large IPOs. Index was weighted at 3\u00d7 SpaceX's raw float (~1.3% weight), triggering $4B+ in forced passive buying. No existing company was removed; the Nasdaq-100 temporarily exceeds 100 constituents. Shares already down 28% from IPO high.",
+      "hidden_question": "What does it mean when the rules of a major stock index get rewritten for a single company \u2014 and who actually benefits?",
       "editorial_potential": "high",
-      "url": "",
+      "url": "https://www.cnbc.com/2026/07/06/spacex-joins-the-nasdaq-100-on-tuesday-what-it-means-for-the-stock.html",
       "first_seen": "2026-07-14T14:00:00Z",
-      "last_seen": "2026-07-14T14:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-14T20:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-14T14:00:00Z",
+          "note": "SpaceX confirmed in Nasdaq-100 after 15 trading days; rules rewritten to allow fast-track via market cap alone"
+        },
+        {
+          "date": "2026-07-14T20:00:00Z",
+          "note": "$4B+ in passive ETF buying triggered; index temporarily exceeds 100 members; shares down 28% from IPO high"
+        }
+      ]
     },
     {
       "id": "uber-delivery-hero",
       "category": "Business & Markets",
-      "moment": "Uber in advanced talks to acquire Delivery Hero at ~\u20ac10B \u2014 deal could close this week",
-      "why_now": "Uber is reportedly in advanced negotiations to acquire Delivery Hero, the Berlin-based food delivery company that operates in Europe, Asia, and Latin America. At roughly \u20ac10B, the deal would make Uber the dominant food delivery platform across most of the developed world outside China.",
+      "moment": "Delivery Hero confirms Uber takeover talks \u2014 advanced negotiations on ~\u20ac10B deal",
+      "why_now": "Delivery Hero officially confirmed today it is in advanced negotiations with Uber for a possible acquisition. Uber already owns 19.5% of Delivery Hero's capital plus 5.6% in options. The deal would make Uber the dominant food delivery platform across Europe, Asia, and Latin America \u2014 and set up a direct global battle with DoorDash.",
       "hidden_question": "What happens to food delivery gig work when one company owns everywhere?",
       "editorial_potential": "medium",
-      "url": "",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-14/uber-is-said-to-be-in-advanced-talks-on-delivery-hero-takeover",
       "first_seen": "2026-07-14T14:00:00Z",
-      "last_seen": "2026-07-14T14:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-14T20:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-14T14:00:00Z",
+          "note": "Bloomberg reports Uber in advanced talks to acquire Delivery Hero at ~\u20ac10B"
+        },
+        {
+          "date": "2026-07-14T20:00:00Z",
+          "note": "Delivery Hero officially confirms negotiations; Uber already holds 19.5% stake plus 5.6% in options"
+        }
+      ]
     },
     {
       "id": "mistral-leanstral-formal-verification",
@@ -243,53 +309,49 @@
     {
       "id": "world-cup-quarterfinals",
       "category": "Sports",
-      "moment": "France vs Spain: today, Bastille Day in Dallas; England vs Argentina: tomorrow in Atlanta",
-      "why_now": "France faces Spain today (July 14) at AT&T Stadium in Dallas \u2014 Bastille Day, with Mbapp\u00e9 on 8 goals and a chance to reach France's third consecutive World Cup final. Argentina players said this week they'd win tomorrow 'for the Malvinas.' The England-Argentina match in Atlanta is the first-ever World Cup semifinal between the two nations.",
+      "moment": "Spain beats France 2-0 on Bastille Day \u2014 first final since 2010; England vs Argentina tomorrow",
+      "why_now": "Spain defeated France 2-0 today at AT&T Stadium in Dallas \u2014 Oyarzabal penalty (22'), Porro (58') \u2014 ending France's tournament and Mbapp\u00e9's best shot at a title. Spain has allowed just one goal in seven matches and is in their first World Cup final since 2010. Tomorrow: England vs Argentina in Atlanta, 3pm ET. Messi has 8 goals and 21 chances created \u2014 the most of any player at this tournament. England seeking their first final since 1966.",
       "hidden_question": "Why does every England vs. Argentina match feel less like a football game and more like unfinished business from a war?",
       "editorial_potential": "high",
-      "url": "https://www.nbcsports.com/soccer/news/when-are-the-2026-fifa-world-cup-semifinals-dates-times-confirmed-teams",
+      "url": "https://www.nbcnews.com/sports/soccer/live-blog/spain-france-world-cup-2026-july-14-live-updates-rcna587324",
       "first_seen": "2026-07-09T12:00:00Z",
-      "last_seen": "2026-07-14T14:00:00Z",
-      "appearances": 5,
+      "last_seen": "2026-07-14T20:00:00Z",
+      "appearances": 6,
       "history": [
         {
-          "date": "2026-07-09T12:00:00Z",
-          "note": "Quarterfinals begin: France-Morocco and Spain-Belgium on July 10; Norway-England and Argentina-Switzerland on July 11"
-        },
-        {
           "date": "2026-07-11T12:00:00Z",
-          "note": "France 2-0 Morocco (Mbapp\u00e9, Demb\u00e9l\u00e9); Spain 2-1 Belgium (Merino 88'). Norway-England and Argentina-Switzerland play tonight"
+          "note": "France 2-0 Morocco (Mbapp\u00e9, Demb\u00e9l\u00e9); Spain 2-1 Belgium (Merino 88')"
         },
         {
           "date": "2026-07-12T14:00:00Z",
-          "note": "England beat Norway 2-1 AET; Argentina beat Switzerland 1-0 (Mac Allister 10'). All four QFs done. Semis: France vs Spain, England vs Argentina"
+          "note": "England beat Norway 2-1 AET; Argentina beat Switzerland 1-0 (Mac Allister 10')"
         },
         {
           "date": "2026-07-13T13:50:00Z",
-          "note": "Semis today and tomorrow. France vs Spain \u2014 Tue Jul 14, AT&T Stadium, Dallas, 3pm ET. England vs Argentina \u2014 Wed Jul 15, Mercedes-Benz Stadium, Atlanta, 3pm ET. Final July 19."
+          "note": "Semis set: France vs Spain today (Bastille Day, Dallas); England vs Argentina tomorrow (Atlanta)"
         },
         {
           "date": "2026-07-14T14:00:00Z",
-          "note": "France plays Spain today (Bastille Day) in Dallas \u2014 Mbapp\u00e9 has 8 goals, France seeking third straight final. Argentine players said they'll win 'for the Malvinas.' First-ever WC semi between England and Argentina is tomorrow in Atlanta."
+          "note": "Argentine players said they'd win 'for the Malvinas'; Messi has 21 chances created, most of any player"
+        },
+        {
+          "date": "2026-07-14T20:00:00Z",
+          "note": "Spain 2-0 France \u2014 Oyarzabal pen 22', Porro 58'. Spain in first final since 2010; allowed 1 goal in 7 matches. England vs Argentina tomorrow in Atlanta."
         }
       ]
     },
     {
       "id": "argentina-egypt-comeback",
       "category": "Sports",
-      "moment": "Argentina reach semis; Egypt's FIFA protest over their match still unresolved",
-      "why_now": "Argentina beat Switzerland 1-0 (Mac Allister 10') to reach the semifinals. Egypt's formal protest to FIFA over refereeing decisions in Argentina's 3-2 comeback win over Egypt remains open \u2014 no ruling as of July 12.",
+      "moment": "Argentina in semifinal tomorrow \u2014 Egypt's FIFA protest still unresolved as Argentina chase the title",
+      "why_now": "Argentina beat Switzerland to reach the semifinals. Egypt's formal protest over refereeing decisions in Argentina's improbable 3-2 comeback win remains open \u2014 FIFA has issued no ruling. Argentina plays England tomorrow in Atlanta. If they win the final, the protest will be resolved \u2014 or quietly dropped \u2014 with Argentina as world champions.",
       "hidden_question": "Has FIFA ever actually overturned a match result because of a refereeing protest \u2014 and if not, why do teams keep filing them?",
       "editorial_potential": "medium",
       "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-egyptian-fa-calls-out-controversial-and-influential-refereeing-incidents-in-argentina-loss-140058246.html",
       "first_seen": "2026-07-07T18:00:00Z",
-      "last_seen": "2026-07-12T14:00:00Z",
-      "appearances": 5,
+      "last_seen": "2026-07-14T20:00:00Z",
+      "appearances": 6,
       "history": [
-        {
-          "date": "2026-07-07T18:00:00Z",
-          "note": "Egypt leads Argentina 2-0 at halftime"
-        },
         {
           "date": "2026-07-08T19:45:00Z",
           "note": "Argentina completes stoppage-time comeback, wins 3-2"
@@ -300,11 +362,15 @@
         },
         {
           "date": "2026-07-11T12:00:00Z",
-          "note": "FIFA has not ruled on protest; Argentina faces Switzerland in QF tonight \u2014 protest shadow hangs over game"
+          "note": "FIFA has not ruled on protest; Argentina faces Switzerland in QF"
         },
         {
           "date": "2026-07-12T14:00:00Z",
-          "note": "Argentina beat Switzerland 1-0 and advance to semis; Egypt's refereeing protest still unresolved by FIFA"
+          "note": "Argentina advance to semis; Egypt's protest still unresolved"
+        },
+        {
+          "date": "2026-07-14T20:00:00Z",
+          "note": "Argentina plays England tomorrow in Atlanta; Egypt's protest still open \u2014 FIFA will likely let it expire quietly"
         }
       ]
     },
@@ -321,15 +387,39 @@
       "appearances": 1
     },
     {
+      "id": "emmy-nominations-2026",
+      "category": "Culture & Entertainment",
+      "moment": "Emmy nominations: The Pitt leads with 25; Hacks gets 24 \u2014 record for a comedy series",
+      "why_now": "The 2026 Emmy nominations were announced this week. The Pitt \u2014 a medical drama filmed entirely in real time across a single 15-hour ER shift \u2014 leads all shows with 25 nominations. Hacks received 24 nominations, a record for a comedy series in a single year. The nominations signal a prestige TV landscape increasingly dominated by experimental formats.",
+      "hidden_question": "Why does a medical show filmed in real time \u2014 where the crew couldn't cut if something went wrong \u2014 lead the Emmy nominations in the same year that AI started writing everything else?",
+      "editorial_potential": "medium",
+      "url": "",
+      "first_seen": "2026-07-14T20:00:00Z",
+      "last_seen": "2026-07-14T20:00:00Z",
+      "appearances": 1
+    },
+    {
       "id": "sam-neill-death",
       "category": "Culture & Entertainment",
       "moment": "Sam Neill dies at 78 \u2014 'sudden and unexpected,' had been cancer-free after blood cancer treatment",
-      "why_now": "The Jurassic Park actor and star of dozens of films and the Peaky Blinders spinoff died this week. He had gone public about his blood cancer diagnosis in 2023 and written a memoir; he had been considered cancer-free. His death was described as sudden and unexpected.",
+      "why_now": "The Jurassic Park actor and star of dozens of films died this week. He had gone public about his blood cancer diagnosis in 2023 and written a memoir; he had been considered cancer-free. His death was described as sudden and unexpected.",
       "hidden_question": "Why do we only start paying attention to an actor's body of work after they die?",
       "editorial_potential": "low",
       "url": "",
       "first_seen": "2026-07-14T14:00:00Z",
       "last_seen": "2026-07-14T14:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "iron-man-art-record",
+      "category": "Odd & Human Interest",
+      "moment": "Original Iron Man comic page sells for $3.875M \u2014 record for Marvel comic art",
+      "why_now": "The piece of original comic book art that first introduced readers to the Marvel Comics hero Iron Man sold at auction for $3,875,000, a new record for Marvel comic art. The page is from Tales of Suspense #39, published 1963 \u2014 a year when it cost 12 cents at a newsstand.",
+      "hidden_question": "Why does the original page of a comic book sell for millions when you can read the same images in a reprint for free?",
+      "editorial_potential": "medium",
+      "url": "",
+      "first_seen": "2026-07-14T20:00:00Z",
+      "last_seen": "2026-07-14T20:00:00Z",
       "appearances": 1
     }
   ]
