@@ -1,23 +1,19 @@
 {
   "week_start": "2026-07-13",
-  "last_updated": "2026-07-15T15:00:00Z",
+  "last_updated": "2026-07-15T21:00:00Z",
   "storylines": [
     {
       "id": "iran-ceasefire-over",
       "category": "Politics & World",
-      "moment": "US blockades Iranian ports; Trump declares unilateral control of Strait; 30+ civilians killed",
-      "why_now": "US carried out 90 minutes of new strikes this morning hitting the Greater Tunb island in the Persian Gulf. The US has now blockaded Iranian ports \u2014 not just the Strait shipping lane \u2014 and has 'redirected' two commercial vessels. Iran struck 7 commercial ships this week; ~12 crew members killed or missing. Iran's Health Ministry reports 260+ injured and 30+ civilian deaths from US strikes. Trump declared unilateral US control of the Strait of Hormuz; return to peace talks looks 'unlikely.'",
+      "moment": "US launches second wave of strikes on Iran \u2014 command centers, air defenses, missile sites; air raid sirens in Tehran",
+      "why_now": "US completed a second strike wave today targeting Iran's command centers, air defense sites, missile/drone capabilities, and coastal surveillance facilities. Air defenses activated in Tehran overnight Thursday; residents reported a loud explosion. Iran's Foreign Ministry: 'We have no plans for negotiations and remain focused on defending the country.' Trump released a wrongfully detained American woman today as a separate gesture; separately, Trump is weighing options to expand the military operation.",
       "hidden_question": "Why does a strait 21 miles wide at its narrowest determine the price of oil in every country on earth?",
       "editorial_potential": "high",
-      "url": "https://www.cnn.com/2026/07/15/world/live-news/iran-war-trump",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/15/live-trump-says-strikes-on-iran-will-continue-until-i-say",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-15T15:00:00Z",
-      "appearances": 8,
+      "last_seen": "2026-07-15T21:00:00Z",
+      "appearances": 9,
       "history": [
-        {
-          "date": "2026-07-09T12:00:00Z",
-          "note": "US hits 90 targets across Iran's coastline; Iran retaliates against US bases in Kuwait and Bahrain"
-        },
         {
           "date": "2026-07-11T12:00:00Z",
           "note": "Pakistan and Qatar mediate; ceasefire still 'over'; Strait of Hormuz shipping slows"
@@ -28,11 +24,15 @@
         },
         {
           "date": "2026-07-14T20:00:00Z",
-          "note": "US strikes Abadan refinery (oldest in Middle East). Only 14 ships crossed Hormuz Sunday vs ~130/day. Trump demands 20% cargo fee; threatens power plants next week."
+          "note": "US strikes Abadan refinery. Only 14 ships crossed Hormuz Sunday vs ~130/day. Trump demands 20% cargo fee."
         },
         {
           "date": "2026-07-15T15:00:00Z",
-          "note": "US blockades Iranian ports, not just shipping lane. 90-min strikes hit Greater Tunb island. 30+ civilians killed per Iran Health Ministry. Trump declares unilateral US control of Hormuz. Iran struck 7 commercial ships this week. Peace talks 'unlikely.'"
+          "note": "US blockades Iranian ports. 30+ civilians killed per Iran. Trump declares unilateral US control of Hormuz. Iran struck 7 commercial ships; ~12 crew killed/missing."
+        },
+        {
+          "date": "2026-07-15T21:00:00Z",
+          "note": "Second strike wave hits command centers, air defenses, missile/drone sites, coastal surveillance. Air raid sirens in Tehran overnight. Iran: 'no plans for negotiations.' Trump released wrongfully detained American woman. Trump weighing expanded operation."
         }
       ]
     },
@@ -58,7 +58,7 @@
         },
         {
           "date": "2026-07-14T14:00:00Z",
-          "note": "Ukraine and European partners announce joint ballistic missile defense framework. Zelenskyy meets Macron in Paris on Bastille Day."
+          "note": "Ukraine and European partners announce joint ballistic missile defense framework. Zelenskyy meets Macron in Paris."
         },
         {
           "date": "2026-07-14T20:00:00Z",
@@ -70,7 +70,7 @@
       "id": "lindsey-graham-dies",
       "category": "Politics & World",
       "moment": "Graham's sister Darline sworn in to his Senate seat \u2014 oath at 2:30pm yesterday",
-      "why_now": "South Carolina Governor Henry McMaster appointed Darline Graham Nordone, Senator Graham's younger sister, to complete his term. Her oath of office was yesterday at 2:30pm EST. Graham died Saturday of an aortic dissection hours after returning from Kyiv.",
+      "why_now": "South Carolina Governor Henry McMaster appointed Darline Graham Nordone, Senator Graham's younger sister, to complete his term. Her oath was yesterday at 2:30pm EST. Graham died Saturday of an aortic dissection hours after returning from Kyiv.",
       "hidden_question": "How did one of the most reliable opponents of democratic accountability at home become one of the Senate's most consistent champions of democracy abroad?",
       "editorial_potential": "medium",
       "url": "https://www.npr.org/2026/07/12/nx-s1-5890790/us-sen-lindsey-graham-dies",
@@ -116,7 +116,7 @@
       "id": "trump-icc-sanctions",
       "category": "Politics & World",
       "moment": "Rubio calls ICC 'unelected globalist bureaucrats'; ICC judges sue US in Manhattan",
-      "why_now": "Secretary of State Rubio announced new ICC sanctions, describing the court as 'a global tribunal staffed by unelected globalist bureaucrats' targeting Americans and Israelis. ICC judges filed a lawsuit in Manhattan federal court challenging the sanctions. The US is the only major democracy sanctioning an international criminal tribunal.",
+      "why_now": "Secretary of State Rubio announced new ICC sanctions, describing the court as 'a global tribunal staffed by unelected globalist bureaucrats' targeting Americans and Israelis. ICC judges filed a lawsuit in Manhattan federal court challenging the sanctions.",
       "hidden_question": "Why does the world's largest democracy impose sanctions on the court that was built to prosecute genocide?",
       "editorial_potential": "medium",
       "url": "",
@@ -138,7 +138,7 @@
       "id": "ny-ai-data-center-ban",
       "category": "Politics & World",
       "moment": "New York bans new AI data centers for 12 months \u2014 first US state; electricity rates up 68% in 6 years",
-      "why_now": "Governor Hochul signed an executive order barring new large-scale data centers (50MW+ of power) for up to one year. New York's residential electricity rates have risen 68% over the past six years \u2014 4th most expensive state. The ban affects Microsoft, Amazon, and Google projects. 46% of New Yorkers support the moratorium; only 21% oppose.",
+      "why_now": "Governor Hochul signed an executive order barring new large-scale data centers (50MW+) for up to one year. New York's residential electricity rates have risen 68% over the past six years \u2014 4th most expensive state. The ban affects Microsoft, Amazon, and Google projects. 46% of New Yorkers support the moratorium; only 21% oppose.",
       "hidden_question": "Why is the cost of AI now showing up on Americans' electricity bills before it's showing up in their paychecks?",
       "editorial_potential": "high",
       "url": "https://www.cnbc.com/2026/07/14/new-york-ai-data-center-ban.html",
@@ -149,8 +149,8 @@
     {
       "id": "markets-iran-selloff",
       "category": "Business & Markets",
-      "moment": "Nasdaq climbs on AI optimism and surprise PPI deflation \u2014 even as Hormuz crisis deepens",
-      "why_now": "PPI fell 0.3% in June (expected: flat) \u2014 the second inflation surprise downside this week after CPI's 3.5% vs 3.9% expected. Both readings were depressed by the since-collapsed ceasefire's gas price effect. Markets chose to rally anyway: Nasdaq up on AI chip demand, Morgan Stanley beat Q2 estimates ($3.46/share EPS). IBM is down 25% from Tuesday; SpaceX up 1.3%. Mitsubishi Heavy +4.9% after announcing an Nvidia cooling partnership.",
+      "moment": "Nasdaq climbs on AI optimism and PPI surprise even as Iran strikes deepen",
+      "why_now": "PPI fell 0.3% in June (expected: flat) \u2014 the second inflation downside surprise this week after CPI's 3.5% vs 3.9% expected. Markets chose to rally on AI chip optimism; Morgan Stanley beat Q2 estimates ($3.46/share EPS). IBM remains down 25%. Mitsubishi Heavy +4.9% on Nvidia cooling deal. Iran escalation continues in the background.",
       "hidden_question": "What happens to inflation when the peace deal that lowered gas prices collapses?",
       "editorial_potential": "medium",
       "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-15-2026",
@@ -163,10 +163,6 @@
           "note": "Dow drops 1%+, Brent crude surges 5.7% on Trump's ceasefire announcement"
         },
         {
-          "date": "2026-07-11T12:00:00Z",
-          "note": "Oil 'relatively tame' as full-scale war doubts grow"
-        },
-        {
           "date": "2026-07-13T13:50:00Z",
           "note": "Brent crude jumps 3.6% to $78.7/bbl on Trump's Strait blockade announcement."
         },
@@ -176,15 +172,15 @@
         },
         {
           "date": "2026-07-15T15:00:00Z",
-          "note": "PPI -0.3% in June (expected flat) \u2014 second inflation downside surprise this week. Nasdaq rallies on AI chip demand despite Hormuz escalation. Morgan Stanley beats Q2. IBM still down 25%. Mitsubishi Heavy +4.9% on Nvidia cooling deal."
+          "note": "PPI -0.3% in June (expected flat). Nasdaq rallies on AI chip demand. Morgan Stanley beats Q2. Mitsubishi Heavy +4.9% on Nvidia cooling deal."
         }
       ]
     },
     {
       "id": "ibm-crash-ai-shift",
       "category": "Business & Markets",
-      "moment": "IBM down 25% \u2014 worst day in history, $67B gone; entire enterprise software sector repricing",
-      "why_now": "IBM's crash is confirmed at 25-26%, worse than Black Monday 1987. Q2 revenue was $17.2B vs $17.9B expected; EPS $2.27 vs $3.01. CEO Krishna said clients shifted quarterly capex from IBM software to AI hardware in June's final weeks. ServiceNow, Salesforce, and Accenture fell on contagion. Full earnings July 22. Market is now asking which software companies are next.",
+      "moment": "IBM down 25% \u2014 worst day in history, $67B gone; enterprise software sector repricing",
+      "why_now": "IBM Q2 missed on revenue ($17.2B vs $17.9B expected) and EPS ($2.27 vs $3.01). CEO Krishna said clients shifted quarterly capex from IBM software to AI hardware in June's final weeks. The crash was worse than IBM's Black Monday 1987 drop. Contagion: ServiceNow -7%, Salesforce -5%, Accenture -8%. Full earnings July 22.",
       "hidden_question": "Why did IBM \u2014 which helped invent deep learning and supplies the mainframes that run the global financial system \u2014 keep ending up on the wrong side of the AI wave it helped start?",
       "editorial_potential": "high",
       "url": "https://www.cnbc.com/2026/07/14/ibm-warns-second-quarter-earnings-fell-short-of-expectations.html",
@@ -205,8 +201,8 @@
     {
       "id": "spacex-nasdaq100-fasttrack",
       "category": "Business & Markets",
-      "moment": "SpaceX in Nasdaq-100 and flying Starship Flight 13 tomorrow \u2014 first commercial payload",
-      "why_now": "SpaceX joined the Nasdaq-100 on July 7 via rewritten eligibility rules (15 trading days after IPO; float requirement eliminated). Starship Flight 13 is scheduled tomorrow July 16 at 6:45pm ET from Starbase \u2014 the first to carry commercial payload: 20 V3 Starlink satellites. SpaceX shares are up 1.3% today.",
+      "moment": "SpaceX in Nasdaq-100 and Starship Flight 13 launches tomorrow \u2014 first commercial payload",
+      "why_now": "SpaceX joined the Nasdaq-100 on July 7 via rewritten eligibility rules (15 trading days after IPO). Starship Flight 13 is scheduled tomorrow July 16 at 6:45pm ET \u2014 the first to carry commercial payload: 20 V3 Starlink satellites. Shares up 1.3% today.",
       "hidden_question": "What does it mean when the rules of a major stock index get rewritten for a single company \u2014 and who actually benefits?",
       "editorial_potential": "high",
       "url": "https://www.theregister.com/offbeat/2026/07/13/lucky-13-spacex-aims-for-july-16-starship-flight-test/5270434",
@@ -232,7 +228,7 @@
       "id": "uber-delivery-hero",
       "category": "Business & Markets",
       "moment": "Delivery Hero confirms Uber takeover talks \u2014 advanced negotiations on ~\u20ac10B deal",
-      "why_now": "Delivery Hero officially confirmed it is in advanced negotiations with Uber for a possible acquisition. Uber already owns 19.5% of Delivery Hero's capital plus 5.6% in options. The deal would make Uber the dominant food delivery platform across Europe, Asia, and Latin America \u2014 setting up a direct global battle with DoorDash.",
+      "why_now": "Delivery Hero officially confirmed it is in advanced negotiations with Uber. Uber already owns 19.5% of Delivery Hero's capital plus 5.6% in options. The deal would make Uber the dominant food delivery platform across Europe, Asia, and Latin America.",
       "hidden_question": "What happens to food delivery gig work when one company owns everywhere?",
       "editorial_potential": "medium",
       "url": "https://www.bloomberg.com/news/articles/2026-07-14/uber-is-said-to-be-in-advanced-talks-on-delivery-hero-takeover",
@@ -253,14 +249,14 @@
     {
       "id": "world-cup-quarterfinals",
       "category": "Sports",
-      "moment": "England vs Argentina: today in Atlanta \u2014 first-ever WC semifinal between them; Falklands 1982 in the background",
-      "why_now": "England and Argentina meet today at 3pm ET in Atlanta in the first-ever World Cup semifinal between the two countries. Argentina players said this week they're playing 'for the Malvinas.' England is seeking their first final since 1966. Messi has 8 goals and 21 chances created \u2014 most of any player this tournament. Spain wait in the final after beating France 2-0 on Bastille Day.",
-      "hidden_question": "Why does every England vs. Argentina match feel less like a football game and more like unfinished business from a war?",
+      "moment": "Argentina 2-1 England \u2014 Messi 2 late assists; Argentina vs Spain final Sunday in New Jersey",
+      "why_now": "Argentina beat England 2-1 in a stoppage-time classic at Atlanta. England led 1-0 (Gordon, 55'). Messi's assists set up Fernandez (85') and Martinez (92'). Argentina now faces Spain in the final July 19 at New Jersey Stadium \u2014 a chance to become the first back-to-back World Cup champions since Brazil in 1958 and 1962. Messi: 21 World Cup goals (all-time record), 12 assists (all-time record), 9 consecutive scoring games.",
+      "hidden_question": "Why has no player ever won back-to-back World Cups \u2014 and is Messi about to change that at age 39?",
       "editorial_potential": "high",
-      "url": "https://www.skysports.com/football/live-blog/12309/13562929/england-vs-argentina-live-world-cup-2026-semi-final-fixture-score-live-updates-and-team-news",
+      "url": "https://www.nbcmiami.com/world-cup/argentina-england-messi-score-live-updates/3833909/",
       "first_seen": "2026-07-09T12:00:00Z",
-      "last_seen": "2026-07-15T15:00:00Z",
-      "appearances": 7,
+      "last_seen": "2026-07-15T21:00:00Z",
+      "appearances": 8,
       "history": [
         {
           "date": "2026-07-12T14:00:00Z",
@@ -271,31 +267,35 @@
           "note": "Semis set: France vs Spain (July 14, Dallas); England vs Argentina (July 15, Atlanta)"
         },
         {
-          "date": "2026-07-14T14:00:00Z",
-          "note": "Argentine players say they'll win 'for the Malvinas.' Messi leads tournament: 8 goals, 21 chances created."
-        },
-        {
           "date": "2026-07-14T20:00:00Z",
-          "note": "Spain 2-0 France (Oyarzabal pen 22', Porro 58'). Spain in first final since 2010; allowed 1 goal in 7 matches."
+          "note": "Spain 2-0 France (Oyarzabal pen 22', Porro 58'). Spain in first final since 2010."
         },
         {
           "date": "2026-07-15T15:00:00Z",
-          "note": "England vs Argentina kicks off today 3pm ET in Atlanta. First-ever WC semifinal between the nations. Opta: England 38.9% win probability, Argentina 34.1%, 27% chance of extra time."
+          "note": "England vs Argentina kicks off 3pm ET in Atlanta. Messi leads tournament: 8 goals, 21 chances created. Argentine players said they're playing 'for the Malvinas.'"
+        },
+        {
+          "date": "2026-07-15T21:00:00Z",
+          "note": "Argentina 2-1 England. England led 1-0 (Gordon 55'). Messi assists: Fernandez equalizes 85', Martinez wins it 92'. Messi: 21 WC goals (all-time record), 12 assists (all-time record). Final: Argentina vs Spain, July 19, New Jersey."
         }
       ]
     },
     {
       "id": "argentina-egypt-comeback",
       "category": "Sports",
-      "moment": "Argentina in today's semifinal vs England \u2014 Egypt's FIFA protest still open",
-      "why_now": "Argentina play England today in Atlanta. Egypt's formal protest over refereeing decisions in Argentina's 3-2 comeback win \u2014 filed formally with FIFA \u2014 remains unresolved with no ruling issued. If Argentina win today and reach the final, FIFA will likely let the protest expire quietly.",
+      "moment": "Argentina in the World Cup final \u2014 Egypt's FIFA protest now academic",
+      "why_now": "Argentina beat England 2-1 and will play Spain in the final July 19. Egypt's formal protest over refereeing decisions in Argentina's 3-2 comeback win remains officially unresolved \u2014 FIFA has issued no ruling and is unlikely to with Argentina now one game from the title.",
       "hidden_question": "Has FIFA ever actually overturned a match result because of a refereeing protest \u2014 and if not, why do teams keep filing them?",
       "editorial_potential": "medium",
       "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-egyptian-fa-calls-out-controversial-and-influential-refereeing-incidents-in-argentina-loss-140058246.html",
       "first_seen": "2026-07-07T18:00:00Z",
-      "last_seen": "2026-07-15T15:00:00Z",
-      "appearances": 7,
+      "last_seen": "2026-07-15T21:00:00Z",
+      "appearances": 8,
       "history": [
+        {
+          "date": "2026-07-07T18:00:00Z",
+          "note": "Egypt leads Argentina 2-0 at halftime"
+        },
         {
           "date": "2026-07-08T19:45:00Z",
           "note": "Argentina completes stoppage-time comeback, wins 3-2"
@@ -309,12 +309,8 @@
           "note": "Argentina advance to semis; Egypt's protest still unresolved"
         },
         {
-          "date": "2026-07-14T20:00:00Z",
-          "note": "Argentina plays England tomorrow; Egypt's protest still open \u2014 FIFA likely to let it expire quietly"
-        },
-        {
-          "date": "2026-07-15T15:00:00Z",
-          "note": "Argentina playing England today 3pm ET. If they reach the final, the protest becomes academic."
+          "date": "2026-07-15T21:00:00Z",
+          "note": "Argentina in the final. Egypt's protest now academic \u2014 FIFA has not ruled and is unlikely to before the July 19 final."
         }
       ]
     },
@@ -346,7 +342,7 @@
       "id": "paramount-warner-merger-blocked",
       "category": "Culture & Entertainment",
       "moment": "12 states + WGA sue to block Paramount-Warner Bros. $110B merger; Paramount threatens to leave California",
-      "why_now": "A coalition of 12 states (including California, New York, Massachusetts) sued Monday to block Paramount Skydance's $110B acquisition of Warner Bros. Discovery. The WGA filed its own antitrust suit Tuesday in Northern California. Paramount responded by threatening to move its headquarters and pull $30B in annual spending out of California. The deal would create the world's largest English-language media company.",
+      "why_now": "A coalition of 12 states sued Monday to block Paramount Skydance's $110B acquisition of Warner Bros. Discovery. The WGA filed its own antitrust suit Tuesday. Paramount threatened to move its HQ and pull $30B in annual spending out of California if sued. The deal would create the world's largest English-language media company.",
       "hidden_question": "Why do media mergers keep happening even though every previous major one has made the product demonstrably worse for audiences?",
       "editorial_potential": "high",
       "url": "https://www.washingtonpost.com/business/2026/07/13/12-states-sue-block-paramount-skydance-buying-warner-bros/",
@@ -358,7 +354,7 @@
       "id": "kpop-grammy-nominations",
       "category": "Culture & Entertainment",
       "moment": "K-pop artists nominated in three of the four major Grammy categories for the first time",
-      "why_now": "Katseye, HUNTR/X's 'Golden' (from the KPop Demon Hunters soundtrack), and Ros\u00e9 and Bruno Mars' 'APT.' received Grammy nominations in three of the big four categories \u2014 the first time K-pop has broken into that tier. The Recording Academy's nominations reflect a decade-long mainstreaming of Korean pop in English-speaking markets.",
+      "why_now": "Katseye, HUNTR/X's 'Golden,' and Ros\u00e9 and Bruno Mars' 'APT.' received Grammy nominations in three of the big four categories \u2014 the first time K-pop has broken into that tier. The nominations reflect a decade-long mainstreaming of Korean pop in English-speaking markets.",
       "hidden_question": "Why did it take three decades for K-pop to reach the Grammy shortlist \u2014 and what finally changed?",
       "editorial_potential": "medium",
       "url": "",
@@ -370,7 +366,7 @@
       "id": "sam-neill-death",
       "category": "Culture & Entertainment",
       "moment": "Sam Neill dies at 78 \u2014 'sudden and unexpected,' had been cancer-free after blood cancer treatment",
-      "why_now": "The Jurassic Park actor died this week. He had gone public about his blood cancer diagnosis in 2023 and written a memoir; he had been considered cancer-free. His death was described as sudden and unexpected.",
+      "why_now": "The Jurassric Park actor died this week. He had gone public about his blood cancer diagnosis in 2023 and written a memoir; he had been considered cancer-free. His death was described as sudden and unexpected.",
       "hidden_question": "Why do we only start paying attention to an actor's body of work after they die?",
       "editorial_potential": "low",
       "url": "",
