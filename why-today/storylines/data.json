@@ -1,23 +1,19 @@
 {
   "week_start": "2026-07-13",
-  "last_updated": "2026-07-15T21:00:00Z",
+  "last_updated": "2026-07-16T18:00:00Z",
   "storylines": [
     {
       "id": "iran-ceasefire-over",
       "category": "Politics & World",
-      "moment": "US launches second wave of strikes on Iran \u2014 command centers, air defenses, missile sites; air raid sirens in Tehran",
-      "why_now": "US completed a second strike wave today targeting Iran's command centers, air defense sites, missile/drone capabilities, and coastal surveillance facilities. Air defenses activated in Tehran overnight Thursday; residents reported a loud explosion. Iran's Foreign Ministry: 'We have no plans for negotiations and remain focused on defending the country.' Trump released a wrongfully detained American woman today as a separate gesture; separately, Trump is weighing options to expand the military operation.",
+      "moment": "US strikes near Tehran for first time; Iran fires back at US bases in Kuwait, Bahrain, Jordan \u2014 35+ killed",
+      "why_now": "The US carried out its third wave of strikes, this time hitting targets closer to Tehran than any previous round and disabling an Iranian oil tanker in the Strait. Iran responded with Operation Saeqeh Phase 10 \u2014 attack drones targeting US radar and Patriot systems in Kuwait and Bahrain, plus two IRGC ballistic missile salvos at a US base in Jordan. Jordan intercepted Iranian missiles. At least 35 killed, 300+ wounded in the current wave; a hospital in Ahvaz evacuated 211 patients after being hit. Iran's warning: it will 'destroy all infrastructure throughout the region' if the US targets Iranian civilian sites.",
       "hidden_question": "Why does a strait 21 miles wide at its narrowest determine the price of oil in every country on earth?",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/7/15/live-trump-says-strikes-on-iran-will-continue-until-i-say",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/16/iran-war-live-sirens-in-bahrain-kuwait-us-disables-iranian-oil-tanker",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-15T21:00:00Z",
-      "appearances": 9,
+      "last_seen": "2026-07-16T18:00:00Z",
+      "appearances": 10,
       "history": [
-        {
-          "date": "2026-07-11T12:00:00Z",
-          "note": "Pakistan and Qatar mediate; ceasefire still 'over'; Strait of Hormuz shipping slows"
-        },
         {
           "date": "2026-07-13T13:50:00Z",
           "note": "Trump reinstates Strait blockade; 140 Iran targets struck Sunday. Oil up 3.6% to $78.7/bbl."
@@ -32,21 +28,25 @@
         },
         {
           "date": "2026-07-15T21:00:00Z",
-          "note": "Second strike wave hits command centers, air defenses, missile/drone sites, coastal surveillance. Air raid sirens in Tehran overnight. Iran: 'no plans for negotiations.' Trump released wrongfully detained American woman. Trump weighing expanded operation."
+          "note": "Second strike wave hits command centers, air defenses, missile/drone sites. Air raid sirens in Tehran. Iran: 'no plans for negotiations.'"
+        },
+        {
+          "date": "2026-07-16T18:00:00Z",
+          "note": "US strikes near Tehran for first time. Iran fires Phase 10 at US bases in Kuwait, Bahrain, Jordan. Jordan intercepts Iranian missiles. 35+ killed, 300+ wounded. Iran threatens 'all infrastructure throughout the region.'"
         }
       ]
     },
     {
       "id": "russia-ukraine-strikes",
       "category": "Politics & World",
-      "moment": "30+ countries pledge to defend Ukraine; Zelenskyy meets Macron in Paris on Bastille Day",
-      "why_now": "More than 30 countries formally pledged to defend Ukraine against Russia, announced alongside Zelenskyy's Bastille Day meeting with Macron. The joint EU ballistic missile defense framework is the most concrete European security commitment since the war began. Ukraine's shadow fleet campaign \u2014 36 tankers struck \u2014 continues in the background.",
-      "hidden_question": "How did Russia build a secret fleet of hundreds of oil tankers that half the world quietly agreed to pretend not to see?",
+      "moment": "Zelenskyy fires PM Svyrydenko and Defense Minister Fedorov in sweeping wartime cabinet reshuffle",
+      "why_now": "PM Yulia Svyrydenko resigned at Zelenskyy's request, triggering the removal of the full cabinet. Defense Minister Mykhailo Fedorov \u2014 appointed just six months ago \u2014 was dismissed amid friction with old-guard generals over conscription reform and conflict with Commander-in-Chief Syrskyi. Interior Minister Ihor Klymenko has been offered the defense portfolio. Fedorov's tenure: restricted Russia's Starlink access, tripled drone procurement, signed Patriot and Gripen contracts. Cabinet reshuffles mid-war are rare, and the timing \u2014 as Iran and Ukraine dominate the same news cycle \u2014 raises the stakes.",
+      "hidden_question": "Why does a wartime government keep firing the ministers who modernized it in favor of the generals who resisted them?",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/7/10/ukraine-chokes-fuel-to-crimea-russian-consumers-targeting-military-supply",
+      "url": "https://www.defensenews.com/global/europe/2026/07/15/fedorov-out-as-ukraines-defense-minister-in-major-government-shake-up/",
       "first_seen": "2026-07-09T12:00:00Z",
-      "last_seen": "2026-07-14T20:00:00Z",
-      "appearances": 4,
+      "last_seen": "2026-07-16T18:00:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-07-09T12:00:00Z",
@@ -57,12 +57,12 @@
           "note": "Ukraine shifts to offense: 36 shadow fleet tankers struck in 4 days; first-ever strike on Omsk refinery"
         },
         {
-          "date": "2026-07-14T14:00:00Z",
-          "note": "Ukraine and European partners announce joint ballistic missile defense framework. Zelenskyy meets Macron in Paris."
+          "date": "2026-07-14T20:00:00Z",
+          "note": "30+ countries formally pledge to defend Ukraine; Zelenskyy-Macron Bastille Day meeting in Paris."
         },
         {
-          "date": "2026-07-14T20:00:00Z",
-          "note": "30+ countries formally pledge to defend Ukraine; announced alongside Zelenskyy-Macron Bastille Day meeting."
+          "date": "2026-07-16T18:00:00Z",
+          "note": "Zelenskyy fires PM Svyrydenko and Defense Minister Fedorov (6 months in). Fedorov clashed with generals over conscription reform. Klymenko offered defense role."
         }
       ]
     },
@@ -91,26 +91,24 @@
     {
       "id": "bangkok-pub-fire",
       "category": "Politics & World",
-      "moment": "Bangkok pub fire kills 27 \u2014 no fire escapes, exit doors reportedly locked",
-      "why_now": "A fire broke out shortly before midnight Sunday at the Na Ladprao pub in Bangkok. Most victims were found in windowless bathrooms near a rear exit. Firefighters brought the blaze under control in 30 minutes; 63 others hospitalized. Investigation underway.",
+      "moment": "Bangkok pub fire toll rises to 30+; Thailand safety overhaul debated \u2014 same blocked exits, no sprinklers",
+      "why_now": "The fire at the Na Ladprao pub has killed more than 30 people and injured 70+, with most victims found in windowless bathrooms near a rear exit. Thailand's safety regulations are now under active national debate \u2014 questions about blocked exits, absent sprinklers, and windowless escape routes. Similar fatal fires have struck Bangkok entertainment venues repeatedly over the past decade with the same causes.",
       "hidden_question": "Why do nightclub fires keep killing people the same way \u2014 locked exits, no sprinklers, crowds that can't find the way out \u2014 in every country, decade after decade?",
       "editorial_potential": "high",
       "url": "https://www.npr.org/2026/07/12/g-s1-133238/fire-breaks-out-at-a-pub-in-bangkok-killing-at-least-27-people-officials-say",
       "first_seen": "2026-07-13T13:50:00Z",
-      "last_seen": "2026-07-13T13:50:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "yale-doj-admissions-investigation",
-      "category": "Politics & World",
-      "moment": "DOJ opens investigation into Yale admissions \u2014 undergrad, law, and medical school",
-      "why_now": "The Justice Department is investigating Yale's admissions practices across all three major divisions. Follows similar scrutiny of Harvard and other elite institutions; focuses on compliance with anti-discrimination law post the Supreme Court's 2023 affirmative action ruling.",
-      "hidden_question": "After the Supreme Court banned race-conscious admissions, why do elite universities still end up with roughly the same kinds of students?",
-      "editorial_potential": "high",
-      "url": "https://www.cbsnews.com/news/",
-      "first_seen": "2026-07-13T13:50:00Z",
-      "last_seen": "2026-07-13T13:50:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-16T18:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-13T13:50:00Z",
+          "note": "Fire kills at least 27 at Bangkok Na Ladprao pub; most victims found in windowless bathrooms near blocked exit"
+        },
+        {
+          "date": "2026-07-16T18:00:00Z",
+          "note": "Toll rises to 30+, 70+ injured. National debate over Thailand venue safety standards \u2014 exits, sprinklers, escape routes."
+        }
+      ]
     },
     {
       "id": "trump-icc-sanctions",
@@ -149,19 +147,15 @@
     {
       "id": "markets-iran-selloff",
       "category": "Business & Markets",
-      "moment": "Nasdaq climbs on AI optimism and PPI surprise even as Iran strikes deepen",
-      "why_now": "PPI fell 0.3% in June (expected: flat) \u2014 the second inflation downside surprise this week after CPI's 3.5% vs 3.9% expected. Markets chose to rally on AI chip optimism; Morgan Stanley beat Q2 estimates ($3.46/share EPS). IBM remains down 25%. Mitsubishi Heavy +4.9% on Nvidia cooling deal. Iran escalation continues in the background.",
+      "moment": "Wall Street closes higher despite Gulf escalation; UnitedHealth +5.6%, BlackRock +6.6%; TSMC earnings beat but stock falls",
+      "why_now": "Stocks rallied through Iran-driven oil and yield pressure: Dow +0.3%, Nasdaq +0.6%, S&P +0.4%. UnitedHealth beat Q2 strongly (+5.6%); BlackRock rose 6.6%. Taiwan Semiconductor crushed Q2 ($40.2B revenue, profit up 77.4% YoY), then fell as analysts cited heavy capital expenditure commitments and margin compression fears. June retail sales grew just 0.2% MoM (consensus: 0.3%). Earnings resilience won the day against macro headwinds.",
       "hidden_question": "What happens to inflation when the peace deal that lowered gas prices collapses?",
       "editorial_potential": "medium",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-15-2026",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-16-2026",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-15T15:00:00Z",
-      "appearances": 7,
+      "last_seen": "2026-07-16T18:00:00Z",
+      "appearances": 8,
       "history": [
-        {
-          "date": "2026-07-08T19:45:00Z",
-          "note": "Dow drops 1%+, Brent crude surges 5.7% on Trump's ceasefire announcement"
-        },
         {
           "date": "2026-07-13T13:50:00Z",
           "note": "Brent crude jumps 3.6% to $78.7/bbl on Trump's Strait blockade announcement."
@@ -172,7 +166,11 @@
         },
         {
           "date": "2026-07-15T15:00:00Z",
-          "note": "PPI -0.3% in June (expected flat). Nasdaq rallies on AI chip demand. Morgan Stanley beats Q2. Mitsubishi Heavy +4.9% on Nvidia cooling deal."
+          "note": "PPI -0.3% in June (expected flat). Nasdaq rallies on AI chip demand. Morgan Stanley beats Q2."
+        },
+        {
+          "date": "2026-07-16T18:00:00Z",
+          "note": "Dow +0.3%, Nasdaq +0.6%. UnitedHealth +5.6%, BlackRock +6.6% on Q2 beats. TSMC beats massively but falls on capex. Retail sales +0.2% MoM (miss vs 0.3%)."
         }
       ]
     },
@@ -201,14 +199,14 @@
     {
       "id": "spacex-nasdaq100-fasttrack",
       "category": "Business & Markets",
-      "moment": "SpaceX in Nasdaq-100 and Starship Flight 13 launches tomorrow \u2014 first commercial payload",
-      "why_now": "SpaceX joined the Nasdaq-100 on July 7 via rewritten eligibility rules (15 trading days after IPO). Starship Flight 13 is scheduled tomorrow July 16 at 6:45pm ET \u2014 the first to carry commercial payload: 20 V3 Starlink satellites. Shares up 1.3% today.",
+      "moment": "Starship Flight 13 launches tonight at 6:45pm ET \u2014 first commercial payload: 20 V3 Starlink satellites",
+      "why_now": "SpaceX's 13th Starship test launches from Boca Chica this evening with a 90-minute window starting at 6:45pm ET. It's the first Starship to carry commercial payload: 20 V3 Starlink satellites that will be deployed and then intentionally de-orbited to validate the payload delivery system. The flight also tests upgraded booster recovery hardware. SpaceX joined the Nasdaq-100 on July 7 via rewritten eligibility rules.",
       "hidden_question": "What does it mean when the rules of a major stock index get rewritten for a single company \u2014 and who actually benefits?",
       "editorial_potential": "high",
-      "url": "https://www.theregister.com/offbeat/2026/07/13/lucky-13-spacex-aims-for-july-16-starship-flight-test/5270434",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-13-launch-what-time",
       "first_seen": "2026-07-14T14:00:00Z",
-      "last_seen": "2026-07-15T15:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-07-16T18:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-07-14T14:00:00Z",
@@ -220,7 +218,11 @@
         },
         {
           "date": "2026-07-15T15:00:00Z",
-          "note": "Starship Flight 13 scheduled July 16 6:45pm ET \u2014 first commercial payload: 20 V3 Starlinks. Shares up 1.3% today."
+          "note": "Starship Flight 13 confirmed for July 16 6:45pm ET \u2014 first commercial payload: 20 V3 Starlinks. Shares up 1.3%."
+        },
+        {
+          "date": "2026-07-16T18:00:00Z",
+          "note": "Launch window opens 6:45pm ET tonight. Suborbital test from Boca Chica: 20 V3 Starlinks deploy then intentionally de-orbit to validate payload delivery."
         }
       ]
     },
@@ -247,21 +249,29 @@
       ]
     },
     {
+      "id": "tsmc-ai-earnings",
+      "category": "Tech & Science",
+      "moment": "TSMC reports best quarter in company history \u2014 $40.2B revenue, profit up 77% \u2014 entirely driven by AI chip demand",
+      "why_now": "Taiwan Semiconductor Manufacturing Co. reported Q2 2026 results today: $40.2B revenue (+33.7% YoY), net income up 77.4% year-over-year, gross margin of 67.7%. The results are almost entirely driven by AI chip orders from Nvidia, Apple, and AMD. The stock slipped despite the beat as analysts flagged record capital expenditure commitments and concerns about margin sustainability as TSMC ramps new fabrication capacity. TSMC manufactures roughly 90% of the world's most advanced chips.",
+      "hidden_question": "Why does almost every AI chip in the world get made on an island that two nuclear powers are actively competing to control?",
+      "editorial_potential": "high",
+      "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
+      "first_seen": "2026-07-16T18:00:00Z",
+      "last_seen": "2026-07-16T18:00:00Z",
+      "appearances": 1
+    },
+    {
       "id": "world-cup-quarterfinals",
       "category": "Sports",
-      "moment": "Argentina 2-1 England \u2014 Messi 2 late assists; Argentina vs Spain final Sunday in New Jersey",
-      "why_now": "Argentina beat England 2-1 in a stoppage-time classic at Atlanta. England led 1-0 (Gordon, 55'). Messi's assists set up Fernandez (85') and Martinez (92'). Argentina now faces Spain in the final July 19 at New Jersey Stadium \u2014 a chance to become the first back-to-back World Cup champions since Brazil in 1958 and 1962. Messi: 21 World Cup goals (all-time record), 12 assists (all-time record), 9 consecutive scoring games.",
+      "moment": "World Cup Final Sunday: Argentina vs Spain, New Jersey \u2014 halftime show: Madonna, Shakira, Bieber, BTS, Burna Boy",
+      "why_now": "Three days to the biggest sporting event in US history. Argentina vs Spain kicks off July 19 at 3pm ET at New Jersey Stadium. The halftime show \u2014 curated by Coldplay's Chris Martin \u2014 features Madonna, Shakira, Justin Bieber, BTS, and Burna Boy in an 11-minute set. Argentina seeks back-to-back titles (first since Brazil 1958/62); Spain seeks its second World Cup. Messi: 21 WC goals, 12 assists, both all-time records.",
       "hidden_question": "Why has no player ever won back-to-back World Cups \u2014 and is Messi about to change that at age 39?",
       "editorial_potential": "high",
-      "url": "https://www.nbcmiami.com/world-cup/argentina-england-messi-score-live-updates/3833909/",
+      "url": "https://www.aljazeera.com/sports/2026/7/16/fifa-world-cup-final-2026-date-time-and-venue-trump-prediction",
       "first_seen": "2026-07-09T12:00:00Z",
-      "last_seen": "2026-07-15T21:00:00Z",
-      "appearances": 8,
+      "last_seen": "2026-07-16T18:00:00Z",
+      "appearances": 9,
       "history": [
-        {
-          "date": "2026-07-12T14:00:00Z",
-          "note": "England beat Norway 2-1 AET; Argentina beat Switzerland 1-0"
-        },
         {
           "date": "2026-07-13T13:50:00Z",
           "note": "Semis set: France vs Spain (July 14, Dallas); England vs Argentina (July 15, Atlanta)"
@@ -272,11 +282,15 @@
         },
         {
           "date": "2026-07-15T15:00:00Z",
-          "note": "England vs Argentina kicks off 3pm ET in Atlanta. Messi leads tournament: 8 goals, 21 chances created. Argentine players said they're playing 'for the Malvinas.'"
+          "note": "England vs Argentina kicks off 3pm ET in Atlanta. Messi leads tournament: 8 goals, 21 chances created."
         },
         {
           "date": "2026-07-15T21:00:00Z",
-          "note": "Argentina 2-1 England. England led 1-0 (Gordon 55'). Messi assists: Fernandez equalizes 85', Martinez wins it 92'. Messi: 21 WC goals (all-time record), 12 assists (all-time record). Final: Argentina vs Spain, July 19, New Jersey."
+          "note": "Argentina 2-1 England. Messi assists: Fernandez 85', Martinez 92'. 21 WC goals, 12 assists (all-time records). Final: Argentina vs Spain, July 19, New Jersey."
+        },
+        {
+          "date": "2026-07-16T18:00:00Z",
+          "note": "Final buildup: halftime show (Chris Martin curating) \u2014 Madonna, Shakira, Bieber, BTS, Burna Boy. 3pm ET kickoff Sunday."
         }
       ]
     },
@@ -315,18 +329,6 @@
       ]
     },
     {
-      "id": "live-action-moana-box-office",
-      "category": "Culture & Entertainment",
-      "moment": "Live-action Moana opens \u2014 Dwayne Johnson reprises Maui a decade later",
-      "why_now": "Disney's live-action remake of Moana debuted this weekend, with Dwayne Johnson reprising the role of Maui he voiced in the 2016 animated original. The film is tracking against a summer box office dominated by sequels and remakes.",
-      "hidden_question": "Why does Disney keep remaking animated films in live-action when the originals were made specifically because live-action couldn't do them justice?",
-      "editorial_potential": "medium",
-      "url": "https://www.wnem.com/2026/07/13/monday-july-13-2026-5-things-you-need-know/",
-      "first_seen": "2026-07-13T13:50:00Z",
-      "last_seen": "2026-07-13T13:50:00Z",
-      "appearances": 1
-    },
-    {
       "id": "emmy-nominations-2026",
       "category": "Culture & Entertainment",
       "moment": "Emmy nominations: The Pitt leads with 25; Hacks gets 24 \u2014 record for a comedy series",
@@ -341,14 +343,24 @@
     {
       "id": "paramount-warner-merger-blocked",
       "category": "Culture & Entertainment",
-      "moment": "12 states + WGA sue to block Paramount-Warner Bros. $110B merger; Paramount threatens to leave California",
-      "why_now": "A coalition of 12 states sued Monday to block Paramount Skydance's $110B acquisition of Warner Bros. Discovery. The WGA filed its own antitrust suit Tuesday. Paramount threatened to move its HQ and pull $30B in annual spending out of California if sued. The deal would create the world's largest English-language media company.",
+      "moment": "EU decides July 22 on Paramount-Warner; Oregon AG seeks 60-day delay; Gulf sovereign funds are backing the deal",
+      "why_now": "Paramount won't close the $110B Warner Bros. Discovery merger before July 22, when the EU issues its ruling. Oregon's AG is seeking a court order delaying the deal 60 days for state review. The DOJ, China, and UK have already approved. The merger is backed by three Gulf sovereign wealth funds: Saudi Arabia's PIF, Abu Dhabi's L'imad Holding, and the Qatar Investment Authority. Paramount still targets a late-September close despite the 12-state lawsuit.",
       "hidden_question": "Why do media mergers keep happening even though every previous major one has made the product demonstrably worse for audiences?",
       "editorial_potential": "high",
-      "url": "https://www.washingtonpost.com/business/2026/07/13/12-states-sue-block-paramount-skydance-buying-warner-bros/",
+      "url": "https://www.thewrap.com/industry-news/deals-ma/paramount-warner-bros-merger-wont-close-before-july-22/",
       "first_seen": "2026-07-15T15:00:00Z",
-      "last_seen": "2026-07-15T15:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-16T18:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-15T15:00:00Z",
+          "note": "12 states sue to block deal; WGA files antitrust suit; Paramount threatens to leave California"
+        },
+        {
+          "date": "2026-07-16T18:00:00Z",
+          "note": "EU deciding July 22; won't close before then. Oregon AG seeks 60-day delay. Saudi PIF, Abu Dhabi L'imad, Qatar Investment Authority back the deal. DOJ, China, UK already approved."
+        }
+      ]
     },
     {
       "id": "kpop-grammy-nominations",
@@ -366,7 +378,7 @@
       "id": "sam-neill-death",
       "category": "Culture & Entertainment",
       "moment": "Sam Neill dies at 78 \u2014 'sudden and unexpected,' had been cancer-free after blood cancer treatment",
-      "why_now": "The Jurassric Park actor died this week. He had gone public about his blood cancer diagnosis in 2023 and written a memoir; he had been considered cancer-free. His death was described as sudden and unexpected.",
+      "why_now": "The Jurassic Park actor died this week. He had gone public about his blood cancer diagnosis in 2023 and written a memoir; he had been considered cancer-free. His death was described as sudden and unexpected.",
       "hidden_question": "Why do we only start paying attention to an actor's body of work after they die?",
       "editorial_potential": "low",
       "url": "",
@@ -384,6 +396,18 @@
       "url": "",
       "first_seen": "2026-07-14T20:00:00Z",
       "last_seen": "2026-07-14T20:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "egypt-mummy-homer",
+      "category": "Odd & Human Interest",
+      "moment": "1,600-year-old Egyptian mummy found with Homer's Iliad used as embalming material \u2014 first time archaeologists have seen this",
+      "why_now": "A mummy from Roman-era Egypt was found with a fragment of Homer's Iliad physically embedded in the burial wrapping \u2014 a passage from the Greek poem used as embalming material. It's the first time researchers have encountered this. The find raises questions about how ancient Egyptians related to Greek literary culture centuries into Rome's occupation of Egypt.",
+      "hidden_question": "Why did an ancient Egyptian use a passage from a Greek war poem to wrap a corpse \u2014 and what does it say about how ideas travel between worlds that seem to have nothing in common?",
+      "editorial_potential": "medium",
+      "url": "",
+      "first_seen": "2026-07-16T18:00:00Z",
+      "last_seen": "2026-07-16T18:00:00Z",
       "appearances": 1
     }
   ]
