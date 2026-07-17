@@ -1,23 +1,19 @@
 {
   "week_start": "2026-07-13",
-  "last_updated": "2026-07-16T18:00:00Z",
+  "last_updated": "2026-07-17T18:00:00Z",
   "storylines": [
     {
       "id": "iran-ceasefire-over",
       "category": "Politics & World",
-      "moment": "US strikes near Tehran for first time; Iran fires back at US bases in Kuwait, Bahrain, Jordan \u2014 35+ killed",
-      "why_now": "The US carried out its third wave of strikes, this time hitting targets closer to Tehran than any previous round and disabling an Iranian oil tanker in the Strait. Iran responded with Operation Saeqeh Phase 10 \u2014 attack drones targeting US radar and Patriot systems in Kuwait and Bahrain, plus two IRGC ballistic missile salvos at a US base in Jordan. Jordan intercepted Iranian missiles. At least 35 killed, 300+ wounded in the current wave; a hospital in Ahvaz evacuated 211 patients after being hit. Iran's warning: it will 'destroy all infrastructure throughout the region' if the US targets Iranian civilian sites.",
+      "moment": "Iran tells Hezbollah and regional allies to prepare for broader war \u2014 conflict expanding beyond US-Iran",
+      "why_now": "Iran has instructed Hezbollah and its full regional proxy network to prepare for a broader conflict \u2014 the clearest signal yet that the war may expand beyond a US-Iran bilateral fight. Air defenses over Erbil (Kurdish capital) shot down Iranian drones; strikes on exiled Iranian Kurds killed eight. Kuwait's army reported an Iranian drone attack wounded military personnel. Iran's top negotiator told CBS the country is 'ready for war as peace talks inch along' \u2014 suggesting back-channel negotiations continue even as the battlefield widens. Iran's president gave a rare interview hinting at possible normalization terms. The 2026 Iran war Wikipedia article now lists a parallel '2026 Lebanon war' entry.",
       "hidden_question": "Why does a strait 21 miles wide at its narrowest determine the price of oil in every country on earth?",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/7/16/iran-war-live-sirens-in-bahrain-kuwait-us-disables-iranian-oil-tanker",
+      "url": "https://www.timesofisrael.com/liveblog-july-17-2026/",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-16T18:00:00Z",
-      "appearances": 10,
+      "last_seen": "2026-07-17T18:00:00Z",
+      "appearances": 11,
       "history": [
-        {
-          "date": "2026-07-13T13:50:00Z",
-          "note": "Trump reinstates Strait blockade; 140 Iran targets struck Sunday. Oil up 3.6% to $78.7/bbl."
-        },
         {
           "date": "2026-07-14T20:00:00Z",
           "note": "US strikes Abadan refinery. Only 14 ships crossed Hormuz Sunday vs ~130/day. Trump demands 20% cargo fee."
@@ -32,7 +28,11 @@
         },
         {
           "date": "2026-07-16T18:00:00Z",
-          "note": "US strikes near Tehran for first time. Iran fires Phase 10 at US bases in Kuwait, Bahrain, Jordan. Jordan intercepts Iranian missiles. 35+ killed, 300+ wounded. Iran threatens 'all infrastructure throughout the region.'"
+          "note": "US strikes near Tehran for first time. Iran fires Phase 10 at US bases in Kuwait, Bahrain, Jordan. Jordan intercepts Iranian missiles. 35+ killed, 300+ wounded."
+        },
+        {
+          "date": "2026-07-17T18:00:00Z",
+          "note": "Iran tells Hezbollah and regional allies to prepare for broader conflict. Drones over Erbil; 8 killed in Kurdish strikes; Kuwait military wounded. Peace talks 'inching' in background."
         }
       ]
     },
@@ -147,19 +147,15 @@
     {
       "id": "markets-iran-selloff",
       "category": "Business & Markets",
-      "moment": "Wall Street closes higher despite Gulf escalation; UnitedHealth +5.6%, BlackRock +6.6%; TSMC earnings beat but stock falls",
-      "why_now": "Stocks rallied through Iran-driven oil and yield pressure: Dow +0.3%, Nasdaq +0.6%, S&P +0.4%. UnitedHealth beat Q2 strongly (+5.6%); BlackRock rose 6.6%. Taiwan Semiconductor crushed Q2 ($40.2B revenue, profit up 77.4% YoY), then fell as analysts cited heavy capital expenditure commitments and margin compression fears. June retail sales grew just 0.2% MoM (consensus: 0.3%). Earnings resilience won the day against macro headwinds.",
+      "moment": "Nasdaq drops \u2014 Netflix -11% on soft guidance, chips sell off; tech narrative fractures on same day Nolan sells out theaters",
+      "why_now": "Netflix Q2 came in roughly in line (EPS $0.80 vs $0.79 est) but Q3 guidance disappointed ($12.86B revenue vs $13B expected), sending shares down 11%. Netflix is now 45% off its June 2025 peak \u2014 $259B in market value gone. Chip stocks sold off broadly alongside it. Analysts warned the company is 'losing narrative control.' The irony: Netflix fell on the same day Christopher Nolan's The Odyssey opened to sellout IMAX crowds \u2014 the theatrical experience Netflix spent a decade arguing was obsolete.",
       "hidden_question": "What happens to inflation when the peace deal that lowered gas prices collapses?",
       "editorial_potential": "medium",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-16-2026",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-17-dow-sp-500-nasdaq-092345307.html",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-16T18:00:00Z",
-      "appearances": 8,
+      "last_seen": "2026-07-17T18:00:00Z",
+      "appearances": 9,
       "history": [
-        {
-          "date": "2026-07-13T13:50:00Z",
-          "note": "Brent crude jumps 3.6% to $78.7/bbl on Trump's Strait blockade announcement."
-        },
         {
           "date": "2026-07-14T20:00:00Z",
           "note": "June CPI: 3.5% annual vs 3.9% expected. IBM crashes 25-26%, $67B wiped \u2014 worst day in 115-year history."
@@ -170,9 +166,25 @@
         },
         {
           "date": "2026-07-16T18:00:00Z",
-          "note": "Dow +0.3%, Nasdaq +0.6%. UnitedHealth +5.6%, BlackRock +6.6% on Q2 beats. TSMC beats massively but falls on capex. Retail sales +0.2% MoM (miss vs 0.3%)."
+          "note": "Dow +0.3%, Nasdaq +0.6%. UnitedHealth +5.6%, BlackRock +6.6% on Q2 beats. TSMC beats massively but falls on capex. Retail sales +0.2% MoM (miss)."
+        },
+        {
+          "date": "2026-07-17T18:00:00Z",
+          "note": "Nasdaq hammered: chips sell off broadly; Netflix -11% on soft Q3 guidance ($12.86B vs $13B expected). Netflix now 45% off peak, $259B wiped. Analysts: 'losing narrative control.'"
         }
       ]
+    },
+    {
+      "id": "netflix-earnings-miss",
+      "category": "Business & Markets",
+      "moment": "Netflix -11% on soft Q3 guidance \u2014 down 45% from peak, $259B wiped; analysts warn it's 'losing narrative control'",
+      "why_now": "Netflix reported Q2 results roughly in line with estimates (EPS $0.80 vs $0.79, revenue $12.56B vs $12.59B), but guided Q3 to $12.86B revenue and $0.82 EPS \u2014 both below Street expectations. Shares fell 11% on the miss. Netflix is now 45% off its June 2025 peak, having wiped $259B in market value over the past year. The same day, Christopher Nolan's The Odyssey opened to sellout IMAX crowds worldwide \u2014 a theatrical event of a kind Netflix spent a decade arguing the world no longer needed.",
+      "hidden_question": "Why is the company that convinced the world to stop going to movie theaters struggling on the exact day the biggest theatrical event in years is selling out cinemas everywhere?",
+      "editorial_potential": "high",
+      "url": "https://247wallst.com/investing/2026/07/17/netflix-sinks-11-on-soft-q3-guidance-as-analysts-warn-its-losing-narrative-control/",
+      "first_seen": "2026-07-17T18:00:00Z",
+      "last_seen": "2026-07-17T18:00:00Z",
+      "appearances": 1
     },
     {
       "id": "ibm-crash-ai-shift",
@@ -199,14 +211,14 @@
     {
       "id": "spacex-nasdaq100-fasttrack",
       "category": "Business & Markets",
-      "moment": "Starship Flight 13 launches tonight at 6:45pm ET \u2014 first commercial payload: 20 V3 Starlink satellites",
-      "why_now": "SpaceX's 13th Starship test launches from Boca Chica this evening with a 90-minute window starting at 6:45pm ET. It's the first Starship to carry commercial payload: 20 V3 Starlink satellites that will be deployed and then intentionally de-orbited to validate the payload delivery system. The flight also tests upgraded booster recovery hardware. SpaceX joined the Nasdaq-100 on July 7 via rewritten eligibility rules.",
+      "moment": "Starship Flight 13 aborts at T-0 \u2014 4 Raptor engines didn't ignite; 2 to be replaced, next attempt early next week",
+      "why_now": "SpaceX's launch attempt aborted automatically at T-0 when telemetry showed four Raptor 3 engines on the Super Heavy booster failed to ignite. Elon Musk: 'To be confident of a good flight, 2 Raptors will be removed and replaced. Most probable launch timing is early next week.' The mission \u2014 first deployment of Starlink V3 satellites, first Starship commercial payload \u2014 waits for the engine swap.",
       "hidden_question": "What does it mean when the rules of a major stock index get rewritten for a single company \u2014 and who actually benefits?",
       "editorial_potential": "high",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-13-launch-what-time",
+      "url": "https://spaceflightnow.com/2026/07/16/live-coverage-spacex-to-deploy-first-starlink-v3-satellites-on-suborbital-starship-super-heavy-flight/",
       "first_seen": "2026-07-14T14:00:00Z",
-      "last_seen": "2026-07-16T18:00:00Z",
-      "appearances": 4,
+      "last_seen": "2026-07-17T18:00:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-07-14T14:00:00Z",
@@ -218,11 +230,15 @@
         },
         {
           "date": "2026-07-15T15:00:00Z",
-          "note": "Starship Flight 13 confirmed for July 16 6:45pm ET \u2014 first commercial payload: 20 V3 Starlinks. Shares up 1.3%."
+          "note": "Starship Flight 13 confirmed for July 16 6:45pm ET \u2014 first commercial payload: 20 V3 Starlinks."
         },
         {
           "date": "2026-07-16T18:00:00Z",
-          "note": "Launch window opens 6:45pm ET tonight. Suborbital test from Boca Chica: 20 V3 Starlinks deploy then intentionally de-orbit to validate payload delivery."
+          "note": "Launch window opens 6:45pm ET. Suborbital test from Boca Chica: 20 V3 Starlinks to deploy and intentionally de-orbit."
+        },
+        {
+          "date": "2026-07-17T18:00:00Z",
+          "note": "Aborted at T-0: 4 Raptor 3 engines didn't ignite. Musk: 2 Raptors to be replaced. Next attempt early next week."
         }
       ]
     },
@@ -263,19 +279,15 @@
     {
       "id": "world-cup-quarterfinals",
       "category": "Sports",
-      "moment": "World Cup Final Sunday: Argentina vs Spain, New Jersey \u2014 halftime show: Madonna, Shakira, Bieber, BTS, Burna Boy",
-      "why_now": "Three days to the biggest sporting event in US history. Argentina vs Spain kicks off July 19 at 3pm ET at New Jersey Stadium. The halftime show \u2014 curated by Coldplay's Chris Martin \u2014 features Madonna, Shakira, Justin Bieber, BTS, and Burna Boy in an 11-minute set. Argentina seeks back-to-back titles (first since Brazil 1958/62); Spain seeks its second World Cup. Messi: 21 WC goals, 12 assists, both all-time records.",
+      "moment": "World Cup Final is Sunday: Messi (39, last WC) vs. Yamal (19, heir apparent) \u2014 Spain conceded just 1 goal all tournament",
+      "why_now": "Two days to the final. The central narrative: Lionel Messi at 39, in his last World Cup, faces Lamine Yamal at 19 \u2014 the Barcelona prodigy already being called the next Messi, playing against the man himself. Spain conceded one goal in six games (including vs. France in the semis). It's the first final ever between the reigning European Championship winner and the reigning Copa America winner. Messi leads the Golden Boot race with 8 goals and 4 assists. Argentina seeks back-to-back titles; Spain seeks its second World Cup.",
       "hidden_question": "Why has no player ever won back-to-back World Cups \u2014 and is Messi about to change that at age 39?",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/sports/2026/7/16/fifa-world-cup-final-2026-date-time-and-venue-trump-prediction",
+      "url": "https://www.nbcsports.com/watch/soccer/world-cup/2026-world-cup-final-spain-vs-argentina-preview-predictions-storylines",
       "first_seen": "2026-07-09T12:00:00Z",
-      "last_seen": "2026-07-16T18:00:00Z",
-      "appearances": 9,
+      "last_seen": "2026-07-17T18:00:00Z",
+      "appearances": 10,
       "history": [
-        {
-          "date": "2026-07-13T13:50:00Z",
-          "note": "Semis set: France vs Spain (July 14, Dallas); England vs Argentina (July 15, Atlanta)"
-        },
         {
           "date": "2026-07-14T20:00:00Z",
           "note": "Spain 2-0 France (Oyarzabal pen 22', Porro 58'). Spain in first final since 2010."
@@ -291,6 +303,10 @@
         {
           "date": "2026-07-16T18:00:00Z",
           "note": "Final buildup: halftime show (Chris Martin curating) \u2014 Madonna, Shakira, Bieber, BTS, Burna Boy. 3pm ET kickoff Sunday."
+        },
+        {
+          "date": "2026-07-17T18:00:00Z",
+          "note": "Final preview: Messi (39, last WC) vs Yamal (19, heir apparent). Spain conceded 1 goal all tournament. First final between reigning Euro + Copa America holders."
         }
       ]
     },
@@ -329,6 +345,52 @@
       ]
     },
     {
+      "id": "nba-offseason-reshuffle",
+      "category": "Sports",
+      "moment": "Giannis traded to Miami after 14 years in Milwaukee; Ja Morant to Portland; Wembanyama signs $252M max; Knicks just won title",
+      "why_now": "The NBA offseason has reshuffled the entire league in weeks. Giannis Antetokounmpo \u2014 two-time MVP, 2021 champion in Milwaukee after 14 years \u2014 demanded and received a trade to Miami (Tyler Herro plus three first-round picks). Ja Morant moved from Memphis to Portland. Jaylen Brown traded to Philadelphia for Paul George. Victor Wembanyama locked in a five-year, $252M max extension with San Antonio. The Knicks, who just won the 2026 NBA championship, retained their core. The scale and speed of simultaneous star movement has no recent parallel in league history.",
+      "hidden_question": "Why does the city that sacrificed the most to build a championship around one player almost always watch that player leave \u2014 and why do small markets keep believing the next star will be different?",
+      "editorial_potential": "high",
+      "url": "https://www.nba.com/news/nba-offseason-deals-2026",
+      "first_seen": "2026-07-16T18:00:00Z",
+      "last_seen": "2026-07-16T18:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "nolan-odyssey",
+      "category": "Culture & Entertainment",
+      "moment": "The Odyssey opens to universal raves \u2014 'Nolan's biggest film,' 'breathtaking, bold, perfection'; first film shot entirely in IMAX",
+      "why_now": "Christopher Nolan's The Odyssey opened today to a critical reception placing it among the best films of the decade. USA Today: 4/4 \u2014 'not only the greatest work on Nolan's resume but tops Matt Damon's impressive CV.' The Daily Beast: 'Modern mainstream films don't come more daring, mammoth, and accomplished.' Hollywood Reporter: 'Staggering... Nolan's biggest film to date.' Rotten Tomatoes: 'one of the best films of the year.' It is the first film ever shot entirely in IMAX format. On the same day, Netflix fell 11% \u2014 the streaming service that spent a decade arguing theaters were obsolete.",
+      "hidden_question": "Why does every generation think Homer's Odyssey is secretly about right now \u2014 and what does our version say about what we're trying to get home from?",
+      "editorial_potential": "high",
+      "url": "https://www.odysseymovie.com/",
+      "first_seen": "2026-07-16T18:00:00Z",
+      "last_seen": "2026-07-17T18:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-16T18:00:00Z",
+          "note": "Early screenings begin at 2pm ET. First film shot entirely in IMAX. Reviews embargoed."
+        },
+        {
+          "date": "2026-07-17T18:00:00Z",
+          "note": "Opens to universal raves. USA Today 4/4. Hollywood Reporter: 'Nolan's biggest film to date.' Netflix falls 11% on same day."
+        }
+      ]
+    },
+    {
+      "id": "ella-langley-choosin-texas",
+      "category": "Culture & Entertainment",
+      "moment": "'Choosin' Texas' by Ella Langley hits 13 weeks at #1 \u2014 first country song to do this since Mariah Carey, 21 years ago",
+      "why_now": "The country track holds the Billboard Hot 100's top spot for a 13th week \u2014 the first non-holiday song by a solo woman to reach that milestone since Mariah Carey's 'We Belong Together' in 2005, and the first act primarily associated with country music to ever do it. The song's dominance is consistent across all formats: 25.8M streams, 49.7M radio airplay impressions in its most recent tracking week. Critics are now asking what it means that a country song about choosing to stay in Texas has become the defining sound of summer 2026 across every genre and every region.",
+      "hidden_question": "What does it mean when the most-played song in America for three months is specifically about choosing to stay \u2014 and millions of people in every state keep streaming it?",
+      "editorial_potential": "high",
+      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-13th-week/",
+      "first_seen": "2026-07-16T18:00:00Z",
+      "last_seen": "2026-07-16T18:00:00Z",
+      "appearances": 1
+    },
+    {
       "id": "emmy-nominations-2026",
       "category": "Culture & Entertainment",
       "moment": "Emmy nominations: The Pitt leads with 25; Hacks gets 24 \u2014 record for a comedy series",
@@ -358,7 +420,7 @@
         },
         {
           "date": "2026-07-16T18:00:00Z",
-          "note": "EU deciding July 22; won't close before then. Oregon AG seeks 60-day delay. Saudi PIF, Abu Dhabi L'imad, Qatar Investment Authority back the deal. DOJ, China, UK already approved."
+          "note": "EU deciding July 22; won't close before then. Oregon AG seeks 60-day delay. Saudi PIF, Abu Dhabi L'imad, Qatar Investment Authority back the deal."
         }
       ]
     },
@@ -372,18 +434,6 @@
       "url": "",
       "first_seen": "2026-07-15T15:00:00Z",
       "last_seen": "2026-07-15T15:00:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "sam-neill-death",
-      "category": "Culture & Entertainment",
-      "moment": "Sam Neill dies at 78 \u2014 'sudden and unexpected,' had been cancer-free after blood cancer treatment",
-      "why_now": "The Jurassic Park actor died this week. He had gone public about his blood cancer diagnosis in 2023 and written a memoir; he had been considered cancer-free. His death was described as sudden and unexpected.",
-      "hidden_question": "Why do we only start paying attention to an actor's body of work after they die?",
-      "editorial_potential": "low",
-      "url": "",
-      "first_seen": "2026-07-14T14:00:00Z",
-      "last_seen": "2026-07-14T14:00:00Z",
       "appearances": 1
     },
     {
@@ -406,42 +456,6 @@
       "hidden_question": "Why did an ancient Egyptian use a passage from a Greek war poem to wrap a corpse \u2014 and what does it say about how ideas travel between worlds that seem to have nothing in common?",
       "editorial_potential": "medium",
       "url": "",
-      "first_seen": "2026-07-16T18:00:00Z",
-      "last_seen": "2026-07-16T18:00:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "nolan-odyssey",
-      "category": "Culture & Entertainment",
-      "moment": "Christopher Nolan's The Odyssey opens tomorrow \u2014 first 70mm IMAX Homer adaptation; Matt Damon, Tom Holland, Zendaya",
-      "why_now": "Nolan's first film since Oppenheimer opens July 17 \u2014 the first theatrical adaptation of Homer's Odyssey shot in 70mm IMAX, starring Matt Damon as Odysseus, Tom Holland, Anne Hathaway, Zendaya as Athena, Robert Pattinson, and Lupita Nyong'o. The film premiered July 6 in London and has been tracking as the summer's biggest non-franchise release. Early screenings begin tonight at 2pm ET. The timing lands the same week a 1,600-year-old Egyptian mummy was found wrapped in Homer's Iliad \u2014 making Homer the subject of both Hollywood's biggest summer release and an archaeological first.",
-      "hidden_question": "Why does every generation think Homer's Odyssey is secretly about right now \u2014 and what does our version say about what we're trying to get home from?",
-      "editorial_potential": "high",
-      "url": "https://www.odysseymovie.com/",
-      "first_seen": "2026-07-16T18:00:00Z",
-      "last_seen": "2026-07-16T18:00:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "ella-langley-choosin-texas",
-      "category": "Culture & Entertainment",
-      "moment": "'Choosin' Texas' by Ella Langley hits 13 weeks at #1 \u2014 first country song to do this since Mariah Carey, 21 years ago",
-      "why_now": "The country track holds the Billboard Hot 100's top spot for a 13th week \u2014 the first non-holiday song by a solo woman to reach that milestone since Mariah Carey's 'We Belong Together' in 2005, and the first act primarily associated with country music to ever do it. The song's dominance is consistent across all formats: 25.8M streams, 49.7M radio airplay impressions in its most recent tracking week. Critics are now asking what it means that a country song about choosing to stay in Texas has become the defining sound of summer 2026 across every genre and every region.",
-      "hidden_question": "What does it mean when the most-played song in America for three months is specifically about choosing to stay \u2014 and millions of people in every state keep streaming it?",
-      "editorial_potential": "high",
-      "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-13th-week/",
-      "first_seen": "2026-07-16T18:00:00Z",
-      "last_seen": "2026-07-16T18:00:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "nba-offseason-reshuffle",
-      "category": "Sports",
-      "moment": "Giannis traded to Miami after 14 years in Milwaukee; Ja Morant to Portland; Wembanyama signs $252M max; Knicks just won title",
-      "why_now": "The NBA offseason has reshuffled the entire league in weeks. Giannis Antetokounmpo \u2014 two-time MVP, 2021 champion in Milwaukee after 14 years \u2014 demanded and received a trade to Miami (Tyler Herro plus three first-round picks). Ja Morant moved from Memphis to Portland. Jaylen Brown traded to Philadelphia for Paul George. Victor Wembanyama locked in a five-year, $252M max extension with San Antonio. The Knicks, who just won the 2026 NBA championship, retained their core. The scale and speed of simultaneous star movement has no recent parallel in league history.",
-      "hidden_question": "Why does the city that sacrificed the most to build a championship around one player almost always watch that player leave \u2014 and why do small markets keep believing the next star will be different?",
-      "editorial_potential": "high",
-      "url": "https://www.nba.com/news/nba-offseason-deals-2026",
       "first_seen": "2026-07-16T18:00:00Z",
       "last_seen": "2026-07-16T18:00:00Z",
       "appearances": 1
