@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Today? · What does Christopher Nolan understand about movies that the rest of Hollywood doesn't?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #FEFEF9;
+      --bg-warm: #F7F5EE;
+      --text: #1A1918;
+      --text-secondary: #6B6862;
+      --text-tertiary: #9C9893;
+      --accent: #B5451B;
+      --rule: #E0DDD5;
+      --max-width: 700px;
+    }
+
+    html {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 18px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body { min-height: 100vh; }
+
+    .masthead {
+      border-bottom: 1px solid var(--rule);
+      padding: 28px 40px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .publication-name {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .masthead-meta {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+    }
+
+    .hero {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 72px 40px 48px;
+      text-align: center;
+    }
+
+    .moment-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    .moment-statement {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      color: var(--text-secondary);
+      margin-bottom: 40px;
+    }
+
+    .edition-rule {
+      width: 40px;
+      height: 1px;
+      background: var(--rule);
+      margin: 0 auto 40px;
+    }
+
+    .hero-question {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+
+    @media (max-width: 600px) {
+      .hero-question { font-size: 28px; }
+    }
+
+    .revelation-wrapper {
+      background: var(--bg-warm);
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 56px 40px;
+      margin-bottom: 72px;
+    }
+
+    .revelation {
+      max-width: 580px;
+      margin: 0 auto;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 22px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--text);
+      text-align: center;
+    }
+
+    .body-content {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.78;
+      color: var(--text);
+      margin-bottom: 28px;
+      font-weight: 300;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    .body-content > p.drop-cap::first-letter {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 0.82;
+      float: left;
+      margin-right: 8px;
+      margin-top: 6px;
+      color: var(--text);
+    }
+
+    strong { font-weight: 500; }
+
+    /* ── Film Record Visual ── */
+    .film-record {
+      max-width: var(--max-width);
+      margin: 56px auto;
+      padding: 0 40px;
+    }
+
+    .film-record-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.20em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 24px;
+    }
+
+    .film-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .film-row:first-of-type {
+      border-top: 1px solid var(--rule);
+    }
+
+    .film-year {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 400;
+      color: var(--text-tertiary);
+      letter-spacing: 0.04em;
+      width: 36px;
+      flex-shrink: 0;
+    }
+
+    .film-title {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      width: 140px;
+      flex-shrink: 0;
+    }
+
+    .film-bar-wrap {
+      flex: 1;
+      position: relative;
+      height: 6px;
+      background: var(--rule);
+      border-radius: 3px;
+    }
+
+    .film-bar {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 3px;
+      opacity: 0.7;
+    }
+
+    .film-gross {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--text-secondary);
+      width: 72px;
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    .film-record-caption {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 13px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      line-height: 1.6;
+      margin-top: 18px;
+      font-style: italic;
+    }
+
+    /* ── Blockquote ── */
+    blockquote {
+      margin: 0 0 28px;
+      padding: 0 0 0 24px;
+      border-left: 3px solid var(--accent);
+    }
+
+    blockquote p {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 19px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.65;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    blockquote cite {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      color: var(--text-tertiary);
+      font-style: normal;
+    }
+
+    /* ── Ending image ── */
+    .ending-image {
+      background: var(--bg-warm);
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      margin-top: 56px;
+      padding: 48px 40px;
+      text-align: center;
+    }
+
+    .ending-image p {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 21px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.65;
+      color: var(--text);
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+    /* ── One More Thing ── */
+    .one-more-thing {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 48px 40px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .omt-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 18px;
+    }
+
+    .one-more-thing p {
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--text);
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+
+    /* ── To Continue ── */
+    .to-continue {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 48px 40px 96px;
+    }
+
+    .continue-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 24px;
+    }
+
+    .rabbit-holes {
+      list-style: none;
+      padding: 0;
+    }
+
+    .rabbit-holes li {
+      padding: 16px 0;
+      border-bottom: 1px solid var(--rule);
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .rabbit-holes li:first-child { border-top: 1px solid var(--rule); }
+
+    .rabbit-holes li::before {
+      content: '→';
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 13px;
+      color: var(--text-tertiary);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .rabbit-hole-text strong {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .rabbit-hole-text a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .rabbit-hole-text a:hover strong {
+      color: var(--accent);
+    }
+
+    .rabbit-hole-text span {
+      font-size: 14px;
+      font-weight: 300;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* ── Footer ── */
+    .footer {
+      border-top: 1px solid var(--rule);
+      padding: 32px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .footer-name {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+    }
+
+    .footer-note {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+      color: var(--text-tertiary);
+      text-align: right;
+    }
+
+    @media (max-width: 640px) {
+      .masthead { padding: 20px 24px; }
+      .hero { padding: 52px 24px 40px; }
+      .body-content { padding: 0 24px; }
+      .film-record { padding: 0 24px; }
+      .ending-image { padding: 40px 24px; }
+      .one-more-thing { padding: 40px 24px; }
+      .to-continue { padding: 40px 24px 72px; }
+      .footer { padding: 28px 24px; flex-direction: column; text-align: center; }
+      .footer-note { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="masthead">
+    <span class="publication-name">Why Today?</span>
+    <span class="masthead-meta">Edition No. 011 &nbsp;·&nbsp; July 18, 2026</span>
+  </header>
+
+  <section class="hero">
+    <p class="moment-label">This Week's Shared Moment</p>
+    <p class="moment-statement">Christopher Nolan's <em>The Odyssey</em> opened this weekend to the biggest preview numbers of 2026. The same evening, Netflix announced it would cut the frequency of its viewership reporting. Its stock fell 10%.</p>
+    <div class="edition-rule"></div>
+    <h1 class="hero-question">What does Christopher Nolan understand about movies that the rest of Hollywood doesn't?</h1>
+  </section>
+
+  <div class="revelation-wrapper">
+    <p class="revelation">
+      On Thursday evening, Christopher Nolan's new film sold $17.6 million in preview tickets. That same day, Netflix announced it would stop telling investors how many people watch its shows.
+    </p>
+  </div>
+
+  <main class="body-content">
+
+    <p class="drop-cap">In December 2020, Warner Bros. announced that its entire 2021 film slate — every major release, including Dune and The Matrix 4 — would debut simultaneously in theaters and on HBO Max. The studio called it a pandemic solution. What it was, Nolan said publicly and without qualification, was a mistake. "Some of our industry's biggest filmmakers and most important movie stars went to bed the night before thinking they were working for the greatest movie studio and woke up to find out they were working for the worst streaming service," he said. He was the most prominent director to say out loud what most of the industry had decided to think quietly. Trading the theatrical experience for streaming convenience was not an upgrade. It was a misunderstanding of what movies are for.</p>
+
+    <p>The industry disagreed. Streaming was the future — convenient, frictionless, available on any screen at any time. Nolan was a stubborn romantic defending a dying format. At the time, this seemed like the more reasonable position.</p>
+
+    <p>His argument was not about nostalgia. It was about a specific claim: that there is something irreplaceable about watching a film in a dark room, on a screen larger than any wall in your house, surrounded by strangers who are feeling what you are feeling at the same moment. That this experience is not merely a delivery mechanism for the film. It is part of the film. Remove it and you have something different — something that looks the same but is not the same.</p>
+
+    <blockquote>
+      <p>"They don't even understand what they're losing."</p>
+      <cite>— Christopher Nolan, December 2020, on Warner Bros.' decision to move its entire slate to HBO Max</cite>
+    </blockquote>
+
+    <p>The simplest argument for his position is his own track record. In the fifteen years since <em>Inception</em>, Nolan has made five original films — not sequels, not franchise IP, not adaptations of pre-existing intellectual property with guaranteed audiences. All five grossed more than $500 million worldwide. No director in history has done that.</p>
+
+  </main>
+
+  <div class="film-record">
+    <p class="film-record-label">Original films. No franchise. No sequel.</p>
+
+    <div class="film-row">
+      <span class="film-year">2010</span>
+      <span class="film-title">Inception</span>
+      <div class="film-bar-wrap"><div class="film-bar" style="width:85%"></div></div>
+      <span class="film-gross">$830M</span>
+    </div>
+    <div class="film-row">
+      <span class="film-year">2014</span>
+      <span class="film-title">Interstellar</span>
+      <div class="film-bar-wrap"><div class="film-bar" style="width:69%"></div></div>
+      <span class="film-gross">$677M</span>
+    </div>
+    <div class="film-row">
+      <span class="film-year">2017</span>
+      <span class="film-title">Dunkirk</span>
+      <div class="film-bar-wrap"><div class="film-bar" style="width:54%"></div></div>
+      <span class="film-gross">$525M</span>
+    </div>
+    <div class="film-row">
+      <span class="film-year">2023</span>
+      <span class="film-title">Oppenheimer</span>
+      <div class="film-bar-wrap"><div class="film-bar" style="width:100%"></div></div>
+      <span class="film-gross">$975M</span>
+    </div>
+
+    <p class="film-record-caption">A three-hour film about theoretical physics, with no conventional action sequences and no franchise tie-in, remains the highest-grossing film of his career. It made most of its money from people who drove to a theater specifically to be in a room experiencing it.</p>
+  </div>
+
+  <main class="body-content">
+
+    <p>The record matters because it is not an argument — it is evidence. Each of these films asked audiences to sit still for two to three hours with something demanding, original, and available only in one place. Each time, the audiences came.</p>
+
+    <p>The technical explanation for why goes to something Nolan has been saying for years, and that most of the industry has decided to treat as eccentricity. <em>The Odyssey</em> is the first feature film ever shot entirely on IMAX film. Not partially — every scene, every shot. To accomplish this, Nolan and the IMAX Corporation built a new camera system from scratch. It weighs 400 pounds. Each film magazine holds between two and a half and three minutes of footage before it needs to be reloaded. The production adapted Homer's entire epic around a camera that cannot run continuously for more than three minutes without stopping.</p>
+
+    <p>He chose this format because IMAX film captures up to three times the resolution of the best digital cameras available today. Digital cinema projectors cap at 4K; film bypasses that ceiling entirely, projecting directly onto the screen without compression or downscaling. The image the audience sees contains more information than any digital frame can hold. Most audiences cannot articulate this difference. They feel it.</p>
+
+    <p>Nolan's argument is that the film industry adopted digital cameras for economic reasons — they are cheaper, faster, and vastly more convenient than film — and then confused those economic advantages with image-quality advantages. The industry chose the more efficient tool and told itself the more efficient tool was also the better one. He disagrees. "There's nothing that competes with it," he has said of IMAX film. He means that technically.</p>
+
+    <p>The argument about streaming runs the same way. Netflix solved a real problem: convenience had always been a barrier to watching movies. Drive to a theater, buy a ticket, sit in a seat at a specific time. Netflix eliminated all of that. Any film, any time, any device, fifteen dollars a month. The prediction that followed — that theatrical cinema would collapse — was reasonable. Convenience had been the barrier. Remove the barrier, remove the need for theaters.</p>
+
+    <p>What the prediction missed was the difference between content and experience. Content is interchangeable. It fills time, it entertains, it passes through you and is replaced by the next thing in the queue. Experience is something else: you remember where you were. You want to see it again. You tell people. The films that require the theatrical experience — IMAX, scale, darkness, the communal act of watching in a room full of strangers — are not simply the films that happen to be large. They are the films where the medium is the point. Strip the medium and you have something that occupies the same amount of time and is not the same thing at all.</p>
+
+    <p>What Netflix actually accomplished was clearing the field. Every film that did not require the theatrical experience migrated to streaming. Mid-budget dramas, adult thrillers, original comedies — the films that used to fill theaters on a random Tuesday — moved to platforms where they could find audiences without competing for screens. Theaters were left with only the films worth leaving the couch for. Those films began setting records. The five biggest opening weekends in American box-office history all came after Netflix became dominant.</p>
+
+  </main>
+
+  <div class="ending-image">
+    <p>Netflix announced this week that it will report viewing data annually instead of twice a year. The company that disrupted Hollywood by demanding transparency from everyone else is becoming a black box about its own performance. The Odyssey, shot on a format so demanding it required building a camera that didn't exist, opened to the biggest preview night of 2026. Nolan has been saying since 2020 that the theatrical experience is irreplaceable. He had no data for it then. He has plenty now.</p>
+  </div>
+
+  <div class="one-more-thing">
+    <p class="omt-label">One More Thing</p>
+    <p>Netflix's business model requires every film it releases to be watchable on any screen — phone, tablet, laptop, television. Nolan made <em>The Odyssey</em> specifically so it cannot be experienced properly on a phone screen. That is not a limitation of the film. It is an argument about what films are for.</p>
+  </div>
+
+  <div class="to-continue">
+    <p class="continue-label">To Continue</p>
+    <ul class="rabbit-holes">
+      <li>
+        <div class="rabbit-hole-text">
+          <strong>Nolan's 2020 statement on Warner Bros.</strong>
+          <span>The full text of his public response when Warner Bros. moved its entire 2021 slate to HBO Max — the document that laid out his position at the moment the industry was most certain he was wrong.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <a href="https://ymcinema.com/2026/05/08/the-odyssey-400-pound-imax-system/" target="_blank" rel="noopener"><strong>The 400-pound camera</strong></a>
+          <span>How Nolan and IMAX built the system that shot <em>The Odyssey</em>, and the technical case for why IMAX film outperforms every digital camera currently available.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <strong>The death of the mid-budget film</strong>
+          <span>How streaming absorbed the $20–60M original drama and thriller, the mechanism that left theaters with only films worth leaving home for — and why that cleared field may have made theatrical cinema stronger, not weaker.</span>
+        </div>
+      </li>
+      <li>
+        <div class="rabbit-hole-text">
+          <strong>Roger Deakins on why he switched to digital</strong>
+          <span>The cinematographer behind <em>Blade Runner 2049</em> and <em>1917</em> made the opposite choice from Nolan. His explanation is the best argument on the other side.</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <footer class="footer">
+    <span class="footer-name">Why Today?</span>
+    <span class="footer-note">A different question for today's conversation.</span>
+  </footer>
+
+</body>
+</html>
