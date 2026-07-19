@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-18T11:27:40.723252+00:00",
+  "generated_at": "2026-07-19T11:34:25.427797+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -131,19 +131,17 @@
       "gamePk": 824090,
       "status": "final",
       "result": "L",
-      "score": "6\u20137"
+      "score": "6\u20137",
+      "archive_url": "archive.html?date=2026-07-18"
     },
     {
       "date": "2026-07-18",
       "opponent": "KC",
       "home": false,
       "gamePk": 824088,
-      "status": "scheduled",
-      "time_local": "1:10 PM PT",
-      "probable": {
-        "team": "Griffin Canning",
-        "opp": "Randy Dobnak"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20136"
     },
     {
       "date": "2026-07-19",
@@ -247,8 +245,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u20138",
-    "current_streak": "L1",
+    "month_record": "5\u20139",
+    "current_streak": "L2",
     "last_10": "5\u20135"
   }
 }
