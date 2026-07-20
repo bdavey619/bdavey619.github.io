@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-07",
   "division_name": "AL East",
-  "generated_at": "2026-07-19T12:01:23.499597+00:00",
+  "generated_at": "2026-07-20T13:09:48.478705+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -139,20 +139,20 @@
       "opponent": "LAD",
       "home": true,
       "gamePk": 823521,
-      "status": "scheduled",
-      "time_local": "7:20 PM ET"
+      "status": "final",
+      "result": "W",
+      "score": "2\u20131",
+      "archive_url": "archive.html?date=2026-07-19"
     },
     {
       "date": "2026-07-19",
       "opponent": "LAD",
       "home": true,
       "gamePk": 823523,
-      "status": "scheduled",
-      "time_local": "12:35 PM ET",
-      "probable": {
-        "team": "Cam Schlittler",
-        "opp": "Yoshinobu Yamamoto"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20138",
+      "archive_url": "archive.html?date=2026-07-19"
     },
     {
       "date": "2026-07-20",
@@ -162,7 +162,7 @@
       "status": "scheduled",
       "time_local": "7:05 PM ET",
       "probable": {
-        "team": "Will Warren",
+        "team": "Ryan Weathers",
         "opp": "Braxton Ashcraft"
       }
     },
@@ -172,7 +172,11 @@
       "home": true,
       "gamePk": 823519,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Will Warren",
+        "opp": "Bubba Chandler"
+      }
     },
     {
       "date": "2026-07-22",
@@ -180,7 +184,11 @@
       "home": true,
       "gamePk": 823518,
       "status": "scheduled",
-      "time_local": "1:35 PM ET"
+      "time_local": "1:35 PM ET",
+      "probable": {
+        "team": "Gerrit Cole",
+        "opp": "Mitch Keller"
+      }
     },
     {
       "date": "2026-07-24",
@@ -248,8 +256,8 @@
     }
   ],
   "summary": {
-    "month_record": "6\u20137",
-    "current_streak": "L1",
-    "last_10": "5\u20135"
+    "month_record": "7\u20138",
+    "current_streak": "W1",
+    "last_10": "6\u20134"
   }
 }
