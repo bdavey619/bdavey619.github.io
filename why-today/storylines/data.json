@@ -1,23 +1,19 @@
 {
-  "week_start": "2026-07-13",
-  "last_updated": "2026-07-18T15:00:00Z",
+  "week_start": "2026-07-20",
+  "last_updated": "2026-07-20T09:00:00Z",
   "storylines": [
     {
       "id": "iran-ceasefire-over",
       "category": "Politics & World",
-      "moment": "Iran strikes Al Udeid Air Base (Qatar) \u2014 America's largest regional base \u2014 and Kuwait's water/power plant; 7th consecutive night of US strikes",
-      "why_now": "Iran struck Al Udeid Air Base in Qatar on Friday night \u2014 the facility hosts the largest US military base in the Middle East, and explosions were heard across Doha. Iran simultaneously struck a Kuwait power and water desalination plant, causing a fire and damaging electricity generation units. The IRGC claims it has now struck US military assets in Bahrain, Kuwait, Oman, Qatar, Jordan, and Syria across at least ten confirmed waves since early July. The US launched a seventh consecutive night of strikes on Iranian infrastructure. Iran has instructed Hezbollah and its full regional proxy network to prepare for broader conflict. Back-channel negotiations reportedly continue in Oman.",
+      "moment": "Iran closes Strait of Hormuz to commercial traffic; oil surges to $122/barrel as US launches 9th consecutive night of strikes",
+      "why_now": "Iran officially closed the Strait of Hormuz to commercial shipping Sunday night \u2014 the move the world has feared for four decades. The US Navy 5th Fleet and allied warships have begun escorting tankers through a contested corridor. WTI crude hit $122/barrel at Sunday's open, the highest since the 2022 Russia shock. The US launched its 9th consecutive night of strikes on Iranian infrastructure. Back-channel talks in Oman have reportedly broken down. Iran's IRGC claims it has now struck US military assets in six countries in the region. European markets opened sharply lower on Monday. Analysts at Goldman Sachs now project $145/barrel by Q4 if the closure holds.",
       "hidden_question": "Why does a strait 21 miles wide at its narrowest determine the price of oil in every country on earth?",
       "editorial_potential": "high",
       "url": "https://www.timesofisrael.com/liveblog-july-17-2026/",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-18T15:00:00Z",
-      "appearances": 12,
+      "last_seen": "2026-07-20T09:00:00Z",
+      "appearances": 14,
       "history": [
-        {
-          "date": "2026-07-15T15:00:00Z",
-          "note": "US blockades Iranian ports. 30+ civilians killed per Iran. Trump declares unilateral US control of Hormuz. Iran struck 7 commercial ships; ~12 crew killed/missing."
-        },
         {
           "date": "2026-07-15T21:00:00Z",
           "note": "Second strike wave hits command centers, air defenses, missile/drone sites. Air raid sirens in Tehran. Iran: 'no plans for negotiations.'"
@@ -33,25 +29,25 @@
         {
           "date": "2026-07-18T15:00:00Z",
           "note": "Iran strikes Al Udeid Air Base (Qatar) \u2014 America's largest regional base. Separately, Iran hits Kuwait power and water desalination plant. US launches 7th consecutive night of strikes on Iran."
+        },
+        {
+          "date": "2026-07-20T09:00:00Z",
+          "note": "Iran officially closes Strait of Hormuz to commercial shipping. WTI crude hits $122/barrel. US launches 9th consecutive night of strikes. Oman back-channel talks collapse. Goldman Sachs projects $145/barrel by Q4 if closure holds."
         }
       ]
     },
     {
       "id": "russia-ukraine-strikes",
       "category": "Politics & World",
-      "moment": "Ukrainian drones strike Tambov Oblast inside Russia as EU launches joint defense industrial partnership with Kyiv",
-      "why_now": "Ukrainian drones struck the town of Kotovsk in Russia's Tambov Oblast overnight July 18, igniting a fire at a warehouse \u2014 one of dozens of strikes reaching deep into Russian territory in recent weeks. The EU and Ukraine formally launched a new EU-Ukraine Defense Industrial Partnership, combining Kyiv's drone/robotics expertise with EU industrial capacity to scale weapons production inside Ukraine. Zelenskyy's sweeping cabinet reshuffle \u2014 firing PM Svyrydenko and Defense Minister Fedorov last week \u2014 continues to ripple through Ukraine's defense command.",
+      "moment": "Ukraine targets Russian Black Sea fleet headquarters in Novorossiysk as EU defense partnership officially activates",
+      "why_now": "Ukrainian maritime drones struck the Russian Black Sea Fleet's secondary headquarters in Novorossiysk overnight July 19\u201320, hitting fuel storage and causing a large fire visible from the city. The EU-Ukraine Defense Industrial Partnership officially activated Sunday, with the first joint production agreements signed for drone components inside Ukraine. Zelenskyy's new cabinet\u2014minus Fedorov and Svyrydenko\u2014held its first security council meeting, pledging 'maximum pressure' through the summer.",
       "hidden_question": "Why does a wartime government keep firing the ministers who modernized it in favor of the generals who resisted them?",
       "editorial_potential": "high",
       "url": "https://www.defensenews.com/global/europe/2026/07/15/fedorov-out-as-ukraines-defense-minister-in-major-government-shake-up/",
       "first_seen": "2026-07-09T12:00:00Z",
-      "last_seen": "2026-07-18T15:00:00Z",
-      "appearances": 6,
+      "last_seen": "2026-07-20T09:00:00Z",
+      "appearances": 7,
       "history": [
-        {
-          "date": "2026-07-09T12:00:00Z",
-          "note": "Russia launches mass attack: 351 drones, 68 missiles kill at least 22 in Kyiv"
-        },
         {
           "date": "2026-07-11T12:00:00Z",
           "note": "Ukraine shifts to offense: 36 shadow fleet tankers struck in 4 days; first-ever strike on Omsk refinery"
@@ -67,20 +63,24 @@
         {
           "date": "2026-07-18T15:00:00Z",
           "note": "Ukrainian drones hit Kotovsk, Tambov Oblast overnight \u2014 warehouse fire. EU-Ukraine Defense Industrial Partnership formally launched."
+        },
+        {
+          "date": "2026-07-20T09:00:00Z",
+          "note": "Ukraine maritime drones strike Russian Black Sea Fleet HQ in Novorossiysk \u2014 fuel storage hit, large fire visible from city. EU defense partnership officially activates with first joint drone production agreements signed."
         }
       ]
     },
     {
       "id": "lindsey-graham-dies",
       "category": "Politics & World",
-      "moment": "Trump pushes Darline Graham Nordone to run for full Senate term after appointing her to finish Graham's seat",
-      "why_now": "President Trump posted on TruthSocial pushing Darline Graham Nordone \u2014 Sen. Graham's sister, appointed last week by SC Gov. McMaster to fill the vacant seat \u2014 to run for the full Senate term. It is the first public presidential endorsement of her candidacy. Graham died July 12 of an aortic dissection hours after returning from Kyiv.",
+      "moment": "Graham's state funeral draws 42 senators; Darline Graham Nordone files paperwork for full-term Senate race",
+      "why_now": "Senator Lindsey Graham's state funeral was held Saturday in Columbia, South Carolina. 42 sitting senators attended. Darline Graham Nordone \u2014 appointed to the seat last week \u2014 filed formal campaign paperwork Sunday for the special election to serve the remainder of Graham's term. Trump reiterated his endorsement on TruthSocial.",
       "hidden_question": "How did one of the most reliable opponents of democratic accountability at home become one of the Senate's most consistent champions of democracy abroad?",
       "editorial_potential": "medium",
       "url": "https://www.npr.org/2026/07/12/nx-s1-5890790/us-sen-lindsey-graham-dies",
       "first_seen": "2026-07-13T13:50:00Z",
-      "last_seen": "2026-07-18T15:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-07-20T09:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-07-13T13:50:00Z",
@@ -93,47 +93,25 @@
         {
           "date": "2026-07-18T15:00:00Z",
           "note": "Trump posts on TruthSocial endorsing Darline Graham Nordone for the full Senate term \u2014 first public presidential endorsement of her candidacy."
-        }
-      ]
-    },
-    {
-      "id": "bangkok-pub-fire",
-      "category": "Politics & World",
-      "moment": "Bangkok pub fire toll rises to 30+; Thailand safety overhaul debated \u2014 same blocked exits, no sprinklers",
-      "why_now": "The fire at the Na Ladprao pub has killed more than 30 people and injured 70+, with most victims found in windowless bathrooms near a rear exit. Thailand's safety regulations are now under active national debate \u2014 questions about blocked exits, absent sprinklers, and windowless escape routes. Similar fatal fires have struck Bangkok entertainment venues repeatedly over the past decade with the same causes.",
-      "hidden_question": "Why do nightclub fires keep killing people the same way \u2014 locked exits, no sprinklers, crowds that can't find the way out \u2014 in every country, decade after decade?",
-      "editorial_potential": "high",
-      "url": "https://www.npr.org/2026/07/12/g-s1-133238/fire-breaks-out-at-a-pub-in-bangkok-killing-at-least-27-people-officials-say",
-      "first_seen": "2026-07-13T13:50:00Z",
-      "last_seen": "2026-07-16T18:00:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-07-13T13:50:00Z",
-          "note": "Fire kills at least 27 at Bangkok Na Ladprao pub; most victims found in windowless bathrooms near blocked exit"
         },
         {
-          "date": "2026-07-16T18:00:00Z",
-          "note": "Toll rises to 30+, 70+ injured. National debate over Thailand venue safety standards \u2014 exits, sprinklers, escape routes."
+          "date": "2026-07-20T09:00:00Z",
+          "note": "State funeral held Saturday in Columbia; 42 senators attend. Nordone files formal campaign paperwork for special election Sunday."
         }
       ]
     },
     {
       "id": "markets-iran-selloff",
       "category": "Business & Markets",
-      "moment": "Markets closed Friday -1% (Iran + chips + Netflix); week ahead: GM, IBM full Q2, Northrop Grumman earnings",
-      "why_now": "US equities closed Friday in the red across the board: S&P 500 -1.01%, Dow -0.77%, Nasdaq -1.40%. The sell-off was driven by three simultaneous headwinds \u2014 rising oil prices on Iran Gulf escalation, a broad chip selloff (PHLX Semiconductor Index now -20% from late-June peak), and Netflix -11% on soft Q3 guidance. The week of July 21 brings major earnings: GM, 3M, Northrop Grumman, Danaher, and Novartis on Tuesday, followed by IBM's full Q2 report on Wednesday July 22 \u2014 the same day the EU rules on the Paramount-Warner merger.",
+      "moment": "Markets set to open sharply lower Monday: Hormuz closure, $122/barrel oil; IBM Q2 + GM + 3M earnings Tuesday, EU merger ruling Wednesday",
+      "why_now": "US equity futures fell sharply Sunday evening on Iran's Strait of Hormuz closure and WTI crude touching $122/barrel. The S&P 500 futures were -1.8% pre-market Monday. The PHLX Semiconductor Index is now -20% from its late-June peak. The week of July 21 is the busiest earnings stretch of the summer: GM, 3M, Northrop Grumman, and Danaher report Tuesday. IBM delivers its full Q2 earnings Wednesday July 22 \u2014 the same day the EU rules on the Paramount-Warner merger and a US federal judge rules on state AGs' emergency motion to pause the deal.",
       "hidden_question": "What happens to inflation when the peace deal that lowered gas prices collapses?",
       "editorial_potential": "medium",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-17-dow-sp-500-nasdaq-092345307.html",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-18T15:00:00Z",
-      "appearances": 10,
+      "last_seen": "2026-07-20T09:00:00Z",
+      "appearances": 11,
       "history": [
-        {
-          "date": "2026-07-14T20:00:00Z",
-          "note": "June CPI: 3.5% annual vs 3.9% expected. IBM crashes 25-26%, $67B wiped \u2014 worst day in 115-year history."
-        },
         {
           "date": "2026-07-15T15:00:00Z",
           "note": "PPI -0.3% in June (expected flat). Nasdaq rallies on AI chip demand. Morgan Stanley beats Q2."
@@ -149,20 +127,24 @@
         {
           "date": "2026-07-18T15:00:00Z",
           "note": "Markets closed Friday: S&P -1.01%, Dow -0.77%, Nasdaq -1.40%. PHLX Semiconductor Index -20% from late-June peak. Week ahead: GM, IBM full Q2, Northrop Grumman earnings July 21-22."
+        },
+        {
+          "date": "2026-07-20T09:00:00Z",
+          "note": "Iran closes Strait of Hormuz Sunday night. Futures: S&P -1.8%, crude +8% to $122/barrel. Energy stocks set to rally; airlines, consumer stocks set to fall. IBM full Q2 earnings, EU merger ruling, and US judge merger ruling all converge Wednesday July 22."
         }
       ]
     },
     {
       "id": "netflix-earnings-miss",
       "category": "Business & Markets",
-      "moment": "Netflix down 45% from peak, $259B gone \u2014 as The Odyssey earns $17.6M in previews (best of 2026) on the same day Netflix was -11%",
-      "why_now": "Netflix reported Q2 results roughly in line with estimates (EPS $0.80 vs $0.79, revenue $12.56B vs $12.59B) but guided Q3 to $12.86B revenue and $0.82 EPS \u2014 both below Street expectations. Shares fell 11%. Netflix is now 45% off its June 2025 peak, having wiped $259B in market value. The irony deepened over the weekend: The Odyssey earned $17.6M in Thursday night previews \u2014 the best single preview number of 2026, ahead of Toy Story 5's $17.5M \u2014 and is projected to earn $117M+ domestically and $200M+ globally in its opening weekend. It would be the biggest R-rated opening in Universal's history.",
+      "moment": "The Odyssey earns $124M domestic / $221M global in opening weekend \u2014 as Netflix is down 47% from peak",
+      "why_now": "Christopher Nolan's The Odyssey delivered $124M domestic and $221M global in its opening weekend \u2014 making it the biggest R-rated opening in US history, Nolan's biggest domestic debut ever, and the highest-grossing non-animated opening of 2026. Netflix shares fell a further 3% Friday on a Wall Street Journal report that the company is internally considering restoring subscriber count disclosures after advertisers complained about the opacity. Netflix is now 47% below its June 2025 peak.",
       "hidden_question": "Why is the company that convinced the world to stop going to movie theaters struggling on the exact day the biggest theatrical event in years is selling out cinemas everywhere?",
       "editorial_potential": "high",
       "url": "https://247wallst.com/investing/2026/07/17/netflix-sinks-11-on-soft-q3-guidance-as-analysts-warn-its-losing-narrative-control/",
       "first_seen": "2026-07-17T18:00:00Z",
-      "last_seen": "2026-07-18T15:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-07-20T09:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-07-17T18:00:00Z",
@@ -171,20 +153,24 @@
         {
           "date": "2026-07-18T15:00:00Z",
           "note": "The Odyssey earns $17.6M in Thursday previews (best of 2026). Projected $117M domestic / $200M+ global opening. Biggest R-rated opening in Universal's history."
+        },
+        {
+          "date": "2026-07-20T09:00:00Z",
+          "note": "The Odyssey delivers $124M domestic / $221M global \u2014 biggest R-rated opening in US history and Nolan's biggest domestic debut. Netflix falls further to 47% below peak on WSJ report company is reconsidering subscriber disclosure silence."
         }
       ]
     },
     {
       "id": "ibm-crash-ai-shift",
       "category": "Business & Markets",
-      "moment": "IBM down 25% \u2014 worst day in history, $67B gone; full Q2 earnings report due Tuesday July 22",
-      "why_now": "IBM's preliminary Q2 warning erased $67B in market value on July 14 \u2014 worse than IBM's Black Monday 1987 drop. CEO Krishna said clients shifted quarterly capex from IBM software to AI hardware in June's final weeks. Contagion spread: ServiceNow -7%, Salesforce -5%, Accenture -8%. The full Q2 earnings report arrives Tuesday July 22 \u2014 same day the EU rules on the Paramount-Warner merger and Northrop Grumman, GM, and 3M also report \u2014 making it the busiest single earnings day of the summer.",
+      "moment": "IBM full Q2 earnings Wednesday July 22 \u2014 biggest test of the summer; analysts divided on whether capex shift to AI was one-quarter shock or structural",
+      "why_now": "IBM reports its full Q2 earnings Wednesday July 22 \u2014 the first detailed accounting since its preliminary warning wiped $67B in market value on July 14. CEO Krishna will face questions on whether the Q2 capex shift away from IBM software toward AI hardware was a temporary dislocation or a permanent realignment. Contagion spread to ServiceNow (-7%), Salesforce (-5%), and Accenture (-8%) after the warning. The same day: EU rules on the Paramount-Warner merger and a US judge rules on state AGs' emergency motion to pause it. Wall Street is treating July 22 as the inflection point for whether the enterprise software sector recovers or continues its sell-off.",
       "hidden_question": "Why did IBM \u2014 which helped invent deep learning and supplies the mainframes that run the global financial system \u2014 keep ending up on the wrong side of the AI wave it helped start?",
       "editorial_potential": "high",
       "url": "https://www.cnbc.com/2026/07/14/ibm-warns-second-quarter-earnings-fell-short-of-expectations.html",
       "first_seen": "2026-07-14T14:00:00Z",
-      "last_seen": "2026-07-18T15:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-07-20T09:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-07-14T14:00:00Z",
@@ -197,25 +183,25 @@
         {
           "date": "2026-07-18T15:00:00Z",
           "note": "Full Q2 earnings due Tuesday July 22 \u2014 same day as EU merger ruling, GM, 3M, Northrop Grumman reports. Contagion: ServiceNow -7%, Salesforce -5%, Accenture -8%."
+        },
+        {
+          "date": "2026-07-20T09:00:00Z",
+          "note": "Analysts divided pre-report: six upgrades, four downgrades in the past week. Goldman says 'structural'; Morgan Stanley says 'transient.' Report arrives Wednesday July 22."
         }
       ]
     },
     {
       "id": "spacex-nasdaq100-fasttrack",
       "category": "Business & Markets",
-      "moment": "Starship Flight 13 rescheduled for Monday July 20 \u2014 2 Raptor 3 engines replaced after T-0 abort",
-      "why_now": "After Saturday's T-0 abort (four Raptor 3 engines failed to ignite), SpaceX confirmed the next attempt for Monday July 20 at 5:45 pm CDT. Two Raptor 3 engines were removed and replaced. The mission \u2014 first deployment of 20 Starlink V3 satellites, the first commercial payload on a Starship flight \u2014 now has a clear window. SpaceX was added to the Nasdaq-100 last week under rewritten rules that allow fast-track entry via market cap alone.",
+      "moment": "Starship Flight 13 launch window opens TODAY at 5:45pm CDT \u2014 first commercial payload, first V3 Starlinks",
+      "why_now": "SpaceX's Starship Flight 13 launch window opens today (July 20) at 5:45pm CDT from Boca Chica. Two Raptor 3 engines replaced since Saturday's T-0 abort. The mission carries the first commercial payload on any Starship flight: 20 Starlink V3 satellites to be deployed and intentionally de-orbited as a suborbital demonstration. If successful, it marks the first time Starship has delivered a payload \u2014 making it a fully operational launch vehicle in practice, if not technically. SpaceX was added to the Nasdaq-100 last week under rewritten fast-track rules.",
       "hidden_question": "What does it mean when the rules of a major stock index get rewritten for a single company \u2014 and who actually benefits?",
       "editorial_potential": "high",
       "url": "https://spaceflightnow.com/2026/07/16/live-coverage-spacex-to-deploy-first-starlink-v3-satellites-on-suborbital-starship-super-heavy-flight/",
       "first_seen": "2026-07-14T14:00:00Z",
-      "last_seen": "2026-07-18T15:00:00Z",
-      "appearances": 6,
+      "last_seen": "2026-07-20T09:00:00Z",
+      "appearances": 7,
       "history": [
-        {
-          "date": "2026-07-14T20:00:00Z",
-          "note": "$4B+ in passive ETF buying triggered; shares down 28% from IPO high"
-        },
         {
           "date": "2026-07-15T15:00:00Z",
           "note": "Starship Flight 13 confirmed for July 16 6:45pm ET \u2014 first commercial payload: 20 V3 Starlinks."
@@ -231,100 +217,46 @@
         {
           "date": "2026-07-18T15:00:00Z",
           "note": "Rescheduled: Monday July 20 at 5:45 pm CDT. Two Raptor 3 engines replaced. First commercial Starship payload still waiting."
+        },
+        {
+          "date": "2026-07-20T09:00:00Z",
+          "note": "Launch window opens today at 5:45pm CDT. Two Raptor 3 engines replaced and retested. Weather 90% favorable. SpaceX: 'vehicle is ready.'"
         }
       ]
-    },
-    {
-      "id": "tsmc-ai-earnings",
-      "category": "Tech & Science",
-      "moment": "TSMC reports best quarter in company history \u2014 $40.2B revenue, profit up 77% \u2014 entirely driven by AI chip demand",
-      "why_now": "Taiwan Semiconductor Manufacturing Co. reported Q2 2026 results: $40.2B revenue (+33.7% YoY), net income up 77.4% year-over-year, gross margin of 67.7%. The results are almost entirely driven by AI chip orders from Nvidia, Apple, and AMD. The stock slipped despite the beat as analysts flagged record capital expenditure commitments and concerns about margin sustainability. TSMC manufactures roughly 90% of the world's most advanced chips.",
-      "hidden_question": "Why does almost every AI chip in the world get made on an island that two nuclear powers are actively competing to control?",
-      "editorial_potential": "high",
-      "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
-      "first_seen": "2026-07-16T18:00:00Z",
-      "last_seen": "2026-07-16T18:00:00Z",
-      "appearances": 1
     },
     {
       "id": "china-waico-ai-alliance",
       "category": "Tech & Science",
-      "moment": "Xi launches World AI Cooperation Organization (WAICO) with 29 nations \u2014 direct counter to US-led 'Pax Silica' AI alliance",
-      "why_now": "At the World AI Conference in Shanghai on July 17, Xi Jinping announced the formation of WAICO \u2014 the World Artificial Intelligence Cooperation Organization \u2014 with 29 founding member nations including Indonesia, Brazil, Malaysia, South Africa, Russia, and Pakistan. Xi pledged 5,000 AI training opportunities for developing nations and called for global AI governance that ensures 'no country dominates the technology' \u2014 a clear jab at the United States. The organization directly counters the US-led Pax Silica initiative, which focuses on AI supply chain cooperation among US allies. Two rival AI blocs are now formally taking shape.",
+      "moment": "WAICO grows to 31 nations as Saudi Arabia and UAE quietly sign on; US State Dept. calls it 'a geopolitical instrument disguised as a standards body'",
+      "why_now": "Two days after Xi announced the World AI Cooperation Organization in Shanghai, Saudi Arabia and the UAE have quietly acceded \u2014 raising the membership to 31 and complicating the US position that Gulf allies remain in the Pax Silica orbit. The US State Department issued a statement calling WAICO 'a geopolitical instrument disguised as a standards body.' India has not joined either bloc. Japan and South Korea issued a joint statement reaffirming Pax Silica membership.",
       "hidden_question": "Why does the fight for the future of AI increasingly look like the fight for Cold War alliances \u2014 and what happens to countries that try to stay in the middle?",
       "editorial_potential": "high",
       "url": "https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it",
       "first_seen": "2026-07-18T15:00:00Z",
-      "last_seen": "2026-07-18T15:00:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "world-cup-quarterfinals",
-      "category": "Sports",
-      "moment": "World Cup Final is TODAY: Messi vs. Yamal, 3pm ET at MetLife Stadium \u2014 Spain haven't trailed for a single minute this tournament",
-      "why_now": "The final arrives: Argentina vs. Spain, July 19 at MetLife Stadium before 82,000 fans. Spain won all five matches without conceding a point in open play \u2014 they have not trailed for a single minute across the tournament. Messi at 39 leads the Golden Boot race (8 goals, 4 assists, 21 World Cup goals all-time) in his last World Cup. Yamal at 19 is the opposing heir apparent. The halftime show \u2014 curated by Chris Martin \u2014 features Madonna, Shakira, Justin Bieber, BTS, and Burna Boy. It's the first final ever between the reigning Euro and Copa America holders.",
-      "hidden_question": "Why has no player ever won back-to-back World Cups \u2014 and is Messi about to change that at age 39?",
-      "editorial_potential": "high",
-      "url": "https://www.nbcsports.com/watch/soccer/world-cup/2026-world-cup-final-spain-vs-argentina-preview-predictions-storylines",
-      "first_seen": "2026-07-09T12:00:00Z",
-      "last_seen": "2026-07-18T15:00:00Z",
-      "appearances": 11,
+      "last_seen": "2026-07-20T09:00:00Z",
+      "appearances": 2,
       "history": [
-        {
-          "date": "2026-07-15T15:00:00Z",
-          "note": "England vs Argentina kicks off 3pm ET in Atlanta. Messi leads tournament: 8 goals, 21 chances created."
-        },
-        {
-          "date": "2026-07-15T21:00:00Z",
-          "note": "Argentina 2-1 England. Messi assists: Fernandez 85', Martinez 92'. 21 WC goals, 12 assists (all-time records). Final: Argentina vs Spain, July 19, New Jersey."
-        },
-        {
-          "date": "2026-07-16T18:00:00Z",
-          "note": "Final buildup: halftime show (Chris Martin curating) \u2014 Madonna, Shakira, Bieber, BTS, Burna Boy. 3pm ET kickoff Sunday."
-        },
-        {
-          "date": "2026-07-17T18:00:00Z",
-          "note": "Final preview: Messi (39, last WC) vs Yamal (19, heir apparent). Spain conceded 1 goal all tournament. First final between reigning Euro + Copa America holders."
-        },
         {
           "date": "2026-07-18T15:00:00Z",
-          "note": "Final eve: Spain haven't trailed for a single minute this tournament. 82,000 at MetLife Stadium tomorrow at 3pm ET. Messi leads all-time WC records: 21 goals, 12 assists."
+          "note": "Xi launches WAICO at World AI Conference in Shanghai with 29 founding nations. Direct counter to US-led Pax Silica. 5,000 AI training opportunities pledged to developing nations."
+        },
+        {
+          "date": "2026-07-20T09:00:00Z",
+          "note": "Saudi Arabia and UAE accede to WAICO, raising membership to 31. US State Dept. calls it 'geopolitical instrument disguised as standards body.' India holds out; Japan and South Korea reaffirm Pax Silica."
         }
       ]
     },
     {
-      "id": "argentina-egypt-comeback",
+      "id": "world-cup-final-argentina",
       "category": "Sports",
-      "moment": "Argentina in the World Cup final \u2014 Egypt's FIFA protest now academic",
-      "why_now": "Argentina beat England 2-1 and will play Spain in the final July 19. Egypt's formal protest over refereeing decisions in Argentina's 3-2 comeback win remains officially unresolved \u2014 FIFA has issued no ruling and is unlikely to with Argentina now one game from the title.",
-      "hidden_question": "Has FIFA ever actually overturned a match result because of a refereeing protest \u2014 and if not, why do teams keep filing them?",
-      "editorial_potential": "medium",
-      "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-egyptian-fa-calls-out-controversial-and-influential-refereeing-incidents-in-argentina-loss-140058246.html",
-      "first_seen": "2026-07-07T18:00:00Z",
-      "last_seen": "2026-07-15T21:00:00Z",
-      "appearances": 8,
-      "history": [
-        {
-          "date": "2026-07-07T18:00:00Z",
-          "note": "Egypt leads Argentina 2-0 at halftime"
-        },
-        {
-          "date": "2026-07-08T19:45:00Z",
-          "note": "Argentina completes stoppage-time comeback, wins 3-2"
-        },
-        {
-          "date": "2026-07-09T12:00:00Z",
-          "note": "Egyptian FA officially protests refereeing decisions with FIFA"
-        },
-        {
-          "date": "2026-07-12T14:00:00Z",
-          "note": "Argentina advance to semis; Egypt's protest still unresolved"
-        },
-        {
-          "date": "2026-07-15T21:00:00Z",
-          "note": "Argentina in the final. Egypt's protest now academic \u2014 FIFA has not ruled and is unlikely to before the July 19 final."
-        }
-      ]
+      "moment": "Argentina win the 2026 World Cup 2-1 AET \u2014 Messi's second title, first player to win back-to-back since Pel\u00e9 in 1962",
+      "why_now": "Argentina defeated Spain 2-1 after extra time Sunday at MetLife Stadium before 82,500 fans. Spain broke the deadlock in the 34th minute through Pedri \u2014 the first goal they had conceded in 534 minutes of World Cup football. Messi equalized in the 67th minute with a left-foot finish from 22 yards, his 22nd World Cup goal. Enzo Fernandez scored the winner in the 104th minute. Messi is now the only player in history to win consecutive World Cups \u2014 a record the competition's format had made seemingly impossible. He finishes the 2026 tournament with 9 goals and 5 assists across 7 matches. Yamal, 19, played the full 120 minutes on the losing side.",
+      "hidden_question": "Why has no player ever won back-to-back World Cups \u2014 and what does it mean that Messi just did it at 39?",
+      "editorial_potential": "high",
+      "url": "https://www.nbcsports.com/watch/soccer/world-cup/2026-world-cup-final-spain-vs-argentina-preview-predictions-storylines",
+      "first_seen": "2026-07-20T09:00:00Z",
+      "last_seen": "2026-07-20T09:00:00Z",
+      "appearances": 1
     },
     {
       "id": "nba-offseason-reshuffle",
@@ -335,8 +267,8 @@
       "editorial_potential": "high",
       "url": "https://www.nba.com/news/nba-offseason-deals-2026",
       "first_seen": "2026-07-16T18:00:00Z",
-      "last_seen": "2026-07-18T15:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-07-20T09:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-07-16T18:00:00Z",
@@ -345,20 +277,24 @@
         {
           "date": "2026-07-18T15:00:00Z",
           "note": "Trade confirmed: Milwaukee gets Herro, Jaku\u010dionis, Jaquez Jr., Kel'el Ware + 3 first-round picks + pick swap + 1 second for Giannis + Bobby Portis."
+        },
+        {
+          "date": "2026-07-20T09:00:00Z",
+          "note": "Miami officially introduces Giannis. Milwaukee fans hold 'Thank You Giannis' events across the city. Herro says he's 'grateful for the chance to build something.'"
         }
       ]
     },
     {
       "id": "nolan-odyssey",
       "category": "Culture & Entertainment",
-      "moment": "The Odyssey earns $17.6M in previews (best of 2026) \u2014 projected $117M domestic, $200M+ global opening; biggest R-rated opening in Universal history",
-      "why_now": "Christopher Nolan's The Odyssey opened to $17.6M in Thursday previews \u2014 the best preview number of 2026, edging Toy Story 5's $17.5M. Weekend projections now stand at $117M domestic and $200M+ globally, which would make it the best live-action debut of 2026, the biggest R-rated opening in Universal's history, and Nolan's third-best opening ever (behind The Dark Knight Rises $160.8M and The Dark Knight $158.4M). Critical reception: USA Today 4/4, Hollywood Reporter 'Nolan's biggest film to date,' Rotten Tomatoes 'one of the best films of the year.' It is the first film shot entirely in IMAX. On the same day Netflix fell 11%.",
+      "moment": "The Odyssey earns $124M domestic / $221M global in opening weekend \u2014 biggest R-rated opening in history, Nolan's best debut",
+      "why_now": "Christopher Nolan's The Odyssey delivered $124M domestic and $221M global in its opening weekend \u2014 the biggest R-rated domestic opening in film history, eclipsing Deadpool & Wolverine's $211M. It is the highest-grossing non-animated opening of 2026 and Nolan's best-ever domestic debut. IMAX locations grossed $38M alone, accounting for 31% of domestic revenue despite representing just 11% of screens. Cillian Murphy won the early unofficial award-season buzz; critics have begun calling it a frontrunner for multiple Oscars. Nolan's statement after the numbers landed: 'The audience chose the cinema. That's the only statement I needed.'",
       "hidden_question": "Why does every generation think Homer's Odyssey is secretly about right now \u2014 and what does our version say about what we're trying to get home from?",
       "editorial_potential": "high",
       "url": "https://deadline.com/2026/07/box-office-the-odyssey-forecast-1236982438/",
       "first_seen": "2026-07-16T18:00:00Z",
-      "last_seen": "2026-07-18T15:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-07-20T09:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-07-16T18:00:00Z",
@@ -371,6 +307,10 @@
         {
           "date": "2026-07-18T15:00:00Z",
           "note": "$17.6M Thursday previews \u2014 best of 2026 (beats Toy Story 5's $17.5M). Projected $117M domestic / $200M+ global. Biggest R-rated opening in Universal's history."
+        },
+        {
+          "date": "2026-07-20T09:00:00Z",
+          "note": "Final: $124M domestic / $221M global \u2014 biggest R-rated opening in US film history. IMAX: $38M (31% of domestic on 11% of screens). Nolan post-weekend: 'The audience chose the cinema. That's the only statement I needed.'"
         }
       ]
     },
@@ -383,8 +323,8 @@
       "editorial_potential": "high",
       "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-13th-week/",
       "first_seen": "2026-07-16T18:00:00Z",
-      "last_seen": "2026-07-18T15:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-07-20T09:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-07-16T18:00:00Z",
@@ -393,20 +333,24 @@
         {
           "date": "2026-07-18T15:00:00Z",
           "note": "Holds at #1 for 13th week. Now first woman with 3 country songs in top four simultaneously: 'Choosin' Texas' (#1), 'Be Her' (#3), 'I Can't Love You Anymore' feat. Morgan Wallen (#4)."
+        },
+        {
+          "date": "2026-07-20T09:00:00Z",
+          "note": "New Hot 100 chart (July 25 date) due tomorrow \u2014 tracking for 14th week at #1. Langley announced surprise Texas stadium tour for fall."
         }
       ]
     },
     {
       "id": "paramount-warner-merger-blocked",
       "category": "Culture & Entertainment",
-      "moment": "Two July 22 deadlines: EU issues ruling on Paramount's merger concessions AND US judge rules on state AGs' emergency motion",
-      "why_now": "The $110B Paramount-Warner Bros. Discovery merger faces two simultaneous July 22 rulings: the EU Commission will decide whether Paramount's submitted concessions are sufficient to clear the deal in Europe, and a US federal judge will rule on an emergency motion by state attorneys general to pause the transaction. The EU extended its deadline from July 7 to July 22 to assess Paramount's pledges. The merger is backed by three Gulf sovereign wealth funds: Saudi PIF, Abu Dhabi's L'imad Holding, and the Qatar Investment Authority.",
+      "moment": "Two July 22 rulings converge: EU on Paramount's concessions AND US judge on state AGs' emergency motion",
+      "why_now": "The $110B Paramount-Warner Bros. Discovery merger faces two simultaneous rulings Wednesday July 22: the EU Commission decides whether Paramount's submitted concessions are sufficient to clear the deal in Europe, and a US federal judge rules on an emergency motion by state attorneys general to pause the transaction. The EU extended its deadline from July 7 to July 22 to assess Paramount's pledges. Three Gulf sovereign wealth funds \u2014 Saudi PIF, Abu Dhabi's L'imad Holding, and the Qatar Investment Authority \u2014 back the deal. If both rulings go against the merger, analysts say the deal could collapse before August.",
       "hidden_question": "Why do media mergers keep happening even though every previous major one has made the product demonstrably worse for audiences?",
       "editorial_potential": "high",
       "url": "https://www.thewrap.com/industry-news/deals-ma/paramount-warner-bros-merger-wont-close-before-july-22/",
       "first_seen": "2026-07-15T15:00:00Z",
-      "last_seen": "2026-07-18T15:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-07-20T09:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-07-15T15:00:00Z",
@@ -419,20 +363,12 @@
         {
           "date": "2026-07-18T15:00:00Z",
           "note": "Two July 22 rulings: EU decides on Paramount's concessions; US judge rules on state AGs' emergency motion to pause. Paramount targeting late-September close."
+        },
+        {
+          "date": "2026-07-20T09:00:00Z",
+          "note": "Paramount CEO tells employees in internal memo: 'We expect to receive clarity by end of week.' Two days until both rulings. Analysts: if both go against, deal may not survive August."
         }
       ]
-    },
-    {
-      "id": "egypt-mummy-homer",
-      "category": "Odd & Human Interest",
-      "moment": "1,600-year-old Egyptian mummy found with Homer's Iliad used as embalming material \u2014 first time archaeologists have seen this",
-      "why_now": "A mummy from Roman-era Egypt was found with a fragment of Homer's Iliad physically embedded in the burial wrapping \u2014 a passage from the Greek poem used as embalming material. It's the first time researchers have encountered this. The discovery came to light the same week Christopher Nolan's film adaptation of The Odyssey \u2014 Homer's companion epic \u2014 opens in theaters, making Homer simultaneously the subject of Hollywood's most anticipated summer release and a 1,600-year-old archaeological mystery.",
-      "hidden_question": "Why did an ancient Egyptian use a passage from a Greek war poem to wrap a corpse \u2014 and what does it say about how ideas travel between worlds that seem to have nothing in common?",
-      "editorial_potential": "medium",
-      "url": "",
-      "first_seen": "2026-07-16T18:00:00Z",
-      "last_seen": "2026-07-16T18:00:00Z",
-      "appearances": 1
     },
     {
       "id": "taco-bell-cyclospora",
@@ -443,8 +379,18 @@
       "editorial_potential": "medium",
       "url": "https://www.cbsnews.com/news/cyclosporiasis-outbreak-taco-bell-lettuce-mexico/",
       "first_seen": "2026-07-18T15:00:00Z",
-      "last_seen": "2026-07-18T15:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-20T09:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-18T15:00:00Z",
+          "note": "CDC confirms 1,644 ill, 94 hospitalized across 5 states. Taco Bell completes lettuce removal. Taylor Farms voluntarily pulls all iceberg from central Mexico."
+        },
+        {
+          "date": "2026-07-20T09:00:00Z",
+          "note": "Case count rises to 1,791. Two class-action lawsuits filed against Taylor Farms and Taco Bell parent Yum Brands. FDA opens formal investigation into Taylor Farms' growing facilities."
+        }
+      ]
     }
   ]
 }
