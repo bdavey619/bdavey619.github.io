@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-19T13:19:17.058076+00:00",
+  "generated_at": "2026-07-20T14:07:15.422331+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -132,19 +132,17 @@
       "gamePk": 823116,
       "status": "final",
       "result": "L",
-      "score": "3\u20134"
+      "score": "3\u20134",
+      "archive_url": "archive.html?date=2026-07-19"
     },
     {
       "date": "2026-07-19",
       "opponent": "SEA",
       "home": false,
       "gamePk": 823113,
-      "status": "scheduled",
-      "time_local": "1:10 PM PT",
-      "probable": {
-        "team": "Robbie Ray",
-        "opp": "Logan Gilbert"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20136"
     },
     {
       "date": "2026-07-20",
@@ -152,7 +150,11 @@
       "home": false,
       "gamePk": 824087,
       "status": "scheduled",
-      "time_local": "4:40 PM PT"
+      "time_local": "4:40 PM PT",
+      "probable": {
+        "team": "Trevor McDonald",
+        "opp": "Michael Wacha"
+      }
     },
     {
       "date": "2026-07-21",
@@ -160,7 +162,11 @@
       "home": false,
       "gamePk": 824085,
       "status": "scheduled",
-      "time_local": "4:40 PM PT"
+      "time_local": "4:40 PM PT",
+      "probable": {
+        "team": "Tyler Mahle",
+        "opp": "Luinder Avila"
+      }
     },
     {
       "date": "2026-07-22",
@@ -168,7 +174,11 @@
       "home": false,
       "gamePk": 824083,
       "status": "scheduled",
-      "time_local": "11:10 AM PT"
+      "time_local": "11:10 AM PT",
+      "probable": {
+        "team": "Landen Roupp",
+        "opp": "Seth Lugo"
+      }
     },
     {
       "date": "2026-07-24",
@@ -236,8 +246,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u20136",
-    "current_streak": "L1",
+    "month_record": "7\u20137",
+    "current_streak": "L2",
     "last_10": "5\u20135"
   }
 }
