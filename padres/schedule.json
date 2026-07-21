@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-20T12:29:14.261130+00:00",
+  "generated_at": "2026-07-21T12:06:21.074478+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -151,19 +151,17 @@
       "gamePk": 824086,
       "status": "final",
       "result": "W",
-      "score": "19\u20132"
+      "score": "19\u20132",
+      "archive_url": "archive.html?date=2026-07-20"
     },
     {
       "date": "2026-07-20",
       "opponent": "ATL",
       "home": false,
       "gamePk": 824898,
-      "status": "scheduled",
-      "time_local": "4:15 PM PT",
-      "probable": {
-        "team": "JP Sears",
-        "opp": "Bryce Elder"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20133"
     },
     {
       "date": "2026-07-21",
@@ -196,6 +194,7 @@
       "status": "scheduled",
       "time_local": "9:15 AM PT",
       "probable": {
+        "team": "Griffin Canning",
         "opp": "Chris Sale"
       }
     },
@@ -257,8 +256,8 @@
     }
   ],
   "summary": {
-    "month_record": "6\u20139",
-    "current_streak": "W1",
+    "month_record": "6\u201310",
+    "current_streak": "L1",
     "last_10": "5\u20135"
   }
 }
