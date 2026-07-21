@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-20T14:07:15.422331+00:00",
+  "generated_at": "2026-07-21T13:51:54.278465+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -142,19 +142,17 @@
       "gamePk": 823113,
       "status": "final",
       "result": "L",
-      "score": "3\u20136"
+      "score": "3\u20136",
+      "archive_url": "archive.html?date=2026-07-20"
     },
     {
       "date": "2026-07-20",
       "opponent": "KC",
       "home": false,
       "gamePk": 824087,
-      "status": "scheduled",
-      "time_local": "4:40 PM PT",
-      "probable": {
-        "team": "Trevor McDonald",
-        "opp": "Michael Wacha"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20134"
     },
     {
       "date": "2026-07-21",
@@ -246,8 +244,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u20137",
-    "current_streak": "L2",
-    "last_10": "5\u20135"
+    "month_record": "7\u20138",
+    "current_streak": "L3",
+    "last_10": "4\u20136"
   }
 }
