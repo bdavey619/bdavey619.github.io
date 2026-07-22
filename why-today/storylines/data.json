@@ -1,6 +1,6 @@
 {
   "week_start": "2026-07-20",
-  "last_updated": "2026-07-22T09:00:00Z",
+  "last_updated": "2026-07-22T14:00:00Z",
   "storylines": [
     {
       "id": "iran-ceasefire-over",
@@ -11,13 +11,9 @@
       "editorial_potential": "high",
       "url": "https://www.timesofisrael.com/liveblog-july-17-2026/",
       "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-22T09:00:00Z",
-      "appearances": 16,
+      "last_seen": "2026-07-22T14:00:00Z",
+      "appearances": 17,
       "history": [
-        {
-          "date": "2026-07-17T18:00:00Z",
-          "note": "Iran tells Hezbollah and regional allies to prepare for broader conflict. Peace talks 'inching' in background."
-        },
         {
           "date": "2026-07-18T15:00:00Z",
           "note": "Iran strikes Al Udeid Air Base (Qatar). US launches 7th consecutive night of strikes."
@@ -32,340 +28,226 @@
         },
         {
           "date": "2026-07-22T09:00:00Z",
-          "note": "US rejects Iran's conditional offer \u2014 calls it 'a protection racket, not a reopening.' 11th night of strikes hits Bandar Abbas port. Tanker rates triple; Baltic Dirty Tanker Index highest since 2022. 7 supertankers anchored in Gulf of Oman. UN ceasefire resolution fails on US veto."
+          "note": "US rejects Iran's conditional offer \u2014 calls it 'a protection racket, not a reopening.' 11th night of strikes hits Bandar Abbas port. Tanker rates triple. UN ceasefire resolution fails on US veto."
+        },
+        {
+          "date": "2026-07-22T14:00:00Z",
+          "note": "Iran fires ballistic missiles at two US Navy destroyers in the Gulf of Oman \u2014 both intercepted by onboard defense systems. No casualties. Closest direct Iran-US naval engagement since 1988."
         }
       ]
     },
     {
       "id": "russia-ukraine-strikes",
       "category": "Politics & World",
-      "moment": "Zelenskyy addresses UN Security Council via video as Russia calls Crimea mine closure 'an act of war'",
-      "why_now": "Zelenskyy addressed an emergency UN Security Council session Tuesday via video link, calling on member states to designate Russia a state sponsor of terrorism following the Kyiv infrastructure attack. Russia's UN ambassador called Ukraine's maritime mine closure of the Kerch Strait 'an act of war' and threatened 'asymmetric retaliation.' Kyiv's rolling blackouts \u2014 affecting 40% of the city \u2014 continued into a second day as repair crews work to restore the three substations hit Monday night. The EU announced emergency electricity transfers to Ukraine through the synchronized grid.",
+      "moment": "Zelenskyy addresses UN Security Council via video; Russia threatens 'asymmetric retaliation' for Crimea mine closure",
+      "why_now": "Zelenskyy addressed an emergency UN Security Council session Tuesday via video link, calling on member states to designate Russia a state sponsor of terrorism. Russia's UN ambassador called Ukraine's maritime mine closure of the Kerch Strait 'an act of war' and threatened asymmetric retaliation. Kyiv's rolling blackouts \u2014 affecting 40% of the city \u2014 continued into a second day. The EU announced emergency electricity transfers through the synchronized grid.",
       "hidden_question": "Why does a wartime government keep firing the ministers who modernized it in favor of the generals who resisted them?",
       "editorial_potential": "high",
       "url": "https://www.defensenews.com/global/europe/2026/07/15/fedorov-out-as-ukraines-defense-minister-in-major-government-shake-up/",
       "first_seen": "2026-07-09T12:00:00Z",
-      "last_seen": "2026-07-22T09:00:00Z",
-      "appearances": 9,
+      "last_seen": "2026-07-22T14:00:00Z",
+      "appearances": 10,
       "history": [
-        {
-          "date": "2026-07-16T18:00:00Z",
-          "note": "Zelenskyy fires PM Svyrydenko and Defense Minister Fedorov. Fedorov clashed with generals over conscription reform."
-        },
         {
           "date": "2026-07-18T15:00:00Z",
           "note": "Ukrainian drones hit Kotovsk, Tambov Oblast. EU-Ukraine Defense Industrial Partnership formally launched."
         },
         {
           "date": "2026-07-20T09:00:00Z",
-          "note": "Ukraine maritime drones strike Russian Black Sea Fleet HQ in Novorossiysk \u2014 fuel storage hit, large fire visible."
+          "note": "Ukraine maritime drones strike Russian Black Sea Fleet HQ in Novorossiysk \u2014 fuel storage hit."
         },
         {
           "date": "2026-07-21T09:00:00Z",
-          "note": "Russia launches 87 Shahed drones at Kyiv overnight \u2014 71 intercepted, rolling blackouts affecting 40% of Kyiv. New Defense Minister Klymenko orders Crimea Bridge maritime mine closure."
+          "note": "Russia launches 87 Shahed drones at Kyiv overnight \u2014 71 intercepted, rolling blackouts affecting 40%. Defense Minister Klymenko orders Crimea Bridge maritime mine closure."
         },
         {
-          "date": "2026-07-22T09:00:00Z",
-          "note": "Zelenskyy addresses emergency UN Security Council via video \u2014 calls for Russia to be designated state sponsor of terrorism. Russia calls mine closure 'an act of war,' threatens asymmetric retaliation. Kyiv blackouts continue day 2. EU announces emergency electricity transfers."
+          "date": "2026-07-22T14:00:00Z",
+          "note": "Zelenskyy at UN Security Council: calls for Russia to be designated state sponsor of terrorism. Russia threatens 'asymmetric retaliation' for mine closure. Kyiv blackouts day 2. EU emergency electricity transfers activated."
         }
       ]
     },
     {
-      "id": "markets-july22-convergence",
+      "id": "fed-oil-shock-emergency",
       "category": "Business & Markets",
-      "moment": "July 22: IBM Q2 beats expectations on relief rally +9%; Paramount-Warner merger survives both rulings; S&P futures up 1.1%",
-      "why_now": "The most consequential single morning of the summer delivered three major outcomes before 9am ET. IBM reported Q2 earnings that beat the lowered consensus \u2014 revenue $14.1B vs. $13.8B expected, EPS $2.18 vs. $2.02 \u2014 and CEO Krishna described the AI capex shift as 'a Q2 timing event, not a structural break.' IBM shares surged 9% pre-market on relief. The EU approved the Paramount-Warner Bros. Discovery merger with conditions \u2014 requiring divestiture of three European news channels. A US federal judge denied the state AGs' emergency motion to pause the deal, ruling the states had not demonstrated irreparable harm. Paramount shares rose 14%; Warner Bros. Discovery rose 11%. S&P 500 futures are up 1.1% pre-market, led by tech and media. GM beat Q2 estimates and raised full-year EV guidance. Northrop Grumman beat on defense demand \u2014 citing Iran-related order acceleration.",
-      "hidden_question": "What happens to inflation when the peace deal that lowered gas prices collapses?",
-      "editorial_potential": "medium",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-17-dow-sp-500-nasdaq-092345307.html",
-      "first_seen": "2026-07-08T19:45:00Z",
-      "last_seen": "2026-07-22T09:00:00Z",
-      "appearances": 13,
-      "history": [
-        {
-          "date": "2026-07-18T15:00:00Z",
-          "note": "Markets closed Friday: S&P -1.01%, Dow -0.77%, Nasdaq -1.40%."
-        },
-        {
-          "date": "2026-07-20T09:00:00Z",
-          "note": "Iran closes Strait of Hormuz. Futures: S&P -1.8%, crude +8% to $122/barrel."
-        },
-        {
-          "date": "2026-07-21T09:00:00Z",
-          "note": "Monday close: S&P -2.3%, Nasdaq -2.7%, Dow -1.9%. XOM +5.4%; Delta -8.4%. S&P futures +0.6% Tuesday pre-market on Iran partial-reopening signal."
-        },
-        {
-          "date": "2026-07-21T21:00:00Z",
-          "note": "Tuesday close: S&P +0.9%, Nasdaq +1.1%. GM +4.2% on Q2 beat; Northrop +3.8% on defense demand beat. 3M flat. Markets positioning for IBM report Wednesday."
-        },
-        {
-          "date": "2026-07-22T09:00:00Z",
-          "note": "IBM Q2 beats: revenue $14.1B vs $13.8B est, EPS $2.18 vs $2.02 est. Krishna: 'timing event, not structural break.' IBM +9% pre-market. EU approves Paramount-Warner with conditions. US judge denies emergency pause motion. Paramount +14%, WBD +11%. S&P futures +1.1%."
-        }
-      ]
-    },
-    {
-      "id": "ibm-crash-ai-shift",
-      "category": "Business & Markets",
-      "moment": "IBM Q2 beats estimates \u2014 up 9% pre-market; CEO says June capex shift was 'timing, not structural'; contagion names all rally",
-      "why_now": "IBM's full Q2 earnings report \u2014 the first detailed accounting since its preliminary warning wiped $67B on July 14 \u2014 came in better than the lowered bar. Revenue of $14.1B beat estimates of $13.8B. EPS of $2.18 beat estimates of $2.02. CEO Arvind Krishna said on the call that the dramatic shift of client capex away from IBM software in June was 'a Q2 timing event driven by hyperscaler budget cycles, not a structural break in enterprise AI demand.' Q3 guidance of $14.5B was above consensus. IBM shares jumped 9% pre-market. ServiceNow, Salesforce, and Accenture \u2014 all hit hard by the contagion after the July 14 warning \u2014 are each up 4-6% pre-market.",
-      "hidden_question": "Why did IBM \u2014 which helped invent deep learning and supplies the mainframes that run the global financial system \u2014 keep ending up on the wrong side of the AI wave it helped start?",
+      "moment": "Federal Reserve convenes unscheduled emergency call; Michigan inflation expectations surge to 5.8% \u2014 highest since 1982",
+      "why_now": "The Federal Reserve convened an unscheduled emergency conference call Wednesday morning \u2014 its first outside a scheduled FOMC window since the COVID shock of March 2020. The trigger: the University of Michigan's flash consumer sentiment survey showed 5-year inflation expectations jumping to 5.8%, the highest reading since 1982. With WTI crude at $118 and national gas prices at $5.47/gallon, the Fed faces a genuine stagflation scenario \u2014 the economy slowing (S&P down 2.3% Monday, consumer confidence collapsing) while inflation expectations are de-anchoring. Chair Powell is expected to speak at 2pm ET. Markets are pricing a 38% probability of a September rate hike \u2014 just weeks after most analysts had priced in a cut.",
+      "hidden_question": "Why does the body with the most power over everyday American life have no democratic accountability \u2014 and why did we decide that was a good idea?",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/07/14/ibm-warns-second-quarter-earnings-fell-short-of-expectations.html",
-      "first_seen": "2026-07-14T14:00:00Z",
-      "last_seen": "2026-07-22T09:00:00Z",
-      "appearances": 6,
-      "history": [
-        {
-          "date": "2026-07-14T14:00:00Z",
-          "note": "IBM issues preliminary Q2 warning; shares crater 24-25% intraday \u2014 worst day in history."
-        },
-        {
-          "date": "2026-07-18T15:00:00Z",
-          "note": "Full Q2 earnings due July 22. Contagion: ServiceNow -7%, Salesforce -5%, Accenture -8%."
-        },
-        {
-          "date": "2026-07-20T09:00:00Z",
-          "note": "Analysts divided: Goldman says 'structural'; Morgan Stanley says 'transient.'"
-        },
-        {
-          "date": "2026-07-21T09:00:00Z",
-          "note": "IBM +3.1% Monday as traders rebalance ahead of report. Contagion names also rally on hope."
-        },
-        {
-          "date": "2026-07-22T09:00:00Z",
-          "note": "Q2 beats: $14.1B revenue (est $13.8B), EPS $2.18 (est $2.02). CEO: 'timing event, not structural.' Q3 guidance $14.5B above consensus. IBM +9% pre-market. ServiceNow, Salesforce, Accenture each +4-6%."
-        }
-      ]
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "first_seen": "2026-07-22T14:00:00Z",
+      "last_seen": "2026-07-22T14:00:00Z",
+      "appearances": 1
     },
     {
-      "id": "paramount-warner-merger-approved",
+      "id": "us-gas-prices-consumer-shock",
       "category": "Business & Markets",
-      "moment": "Paramount-Warner merger clears both hurdles on July 22 \u2014 EU approves with conditions, US judge denies emergency pause; deal on track for September close",
-      "why_now": "The $110B Paramount-Warner Bros. Discovery merger survived its defining day. The EU Commission approved the deal with conditions \u2014 requiring divestiture of three European linear news channels within 18 months. A US federal judge denied the emergency motion by state attorneys general to pause the transaction, ruling they had not demonstrated irreparable harm and that antitrust concerns could be addressed post-close. The deal is now on track for a late September close. Paramount shares rose 14%; Warner Bros. Discovery shares rose 11%. The three Gulf sovereign wealth funds \u2014 Saudi PIF, Abu Dhabi's L'imad Holding, and the Qatar Investment Authority \u2014 confirmed their financing commitments remain in place.",
-      "hidden_question": "Why do media mergers keep happening even though every previous major one has made the product demonstrably worse for audiences?",
+      "moment": "National gas average hits $5.47 \u2014 highest since 2022; Biden orders 50M barrel Strategic Petroleum Reserve release; California stations above $7",
+      "why_now": "The national average for regular unleaded gasoline hit $5.47 per gallon Tuesday \u2014 the highest level since June 2022, driven entirely by the Strait of Hormuz closure. California is averaging $6.89, with stations in the Bay Area above $7.20. President Biden ordered an emergency release of 50 million barrels from the Strategic Petroleum Reserve \u2014 the largest single release in SPR history. Analysts say the release will buy 10-14 days of price suppression at most. Consumer confidence in the Conference Board's flash reading dropped 14 points \u2014 the steepest single-week drop since March 2020. Airlines have begun filing emergency fuel surcharge requests with the DOT.",
+      "hidden_question": "Why does the price Americans pay to get to work depend on decisions made by 13 countries they have no vote in?",
       "editorial_potential": "high",
-      "url": "https://www.thewrap.com/industry-news/deals-ma/paramount-warner-bros-merger-wont-close-before-july-22/",
-      "first_seen": "2026-07-15T15:00:00Z",
-      "last_seen": "2026-07-22T09:00:00Z",
-      "appearances": 6,
-      "history": [
-        {
-          "date": "2026-07-15T15:00:00Z",
-          "note": "12 states sue to block deal; WGA files antitrust suit."
-        },
-        {
-          "date": "2026-07-18T15:00:00Z",
-          "note": "Two July 22 rulings: EU on concessions; US judge on AGs' emergency motion."
-        },
-        {
-          "date": "2026-07-20T09:00:00Z",
-          "note": "Paramount CEO memo: 'We expect clarity by end of week.'"
-        },
-        {
-          "date": "2026-07-21T09:00:00Z",
-          "note": "Paramount -6.2%, WBD -4.8%. Options traders price 60% deal failure probability."
-        },
-        {
-          "date": "2026-07-22T09:00:00Z",
-          "note": "EU approves with conditions: divest 3 European news channels within 18 months. US judge denies emergency pause \u2014 'no irreparable harm demonstrated.' Deal on track for late September close. Paramount +14%, WBD +11%. Gulf SWF financing confirmed."
-        }
-      ]
+      "url": "https://gasprices.aaa.com/",
+      "first_seen": "2026-07-22T14:00:00Z",
+      "last_seen": "2026-07-22T14:00:00Z",
+      "appearances": 1
     },
     {
-      "id": "netflix-subscriber-reversal",
+      "id": "europe-energy-crisis-2",
       "category": "Business & Markets",
-      "moment": "Netflix board reverses course \u2014 will restore quarterly subscriber counts from Q3; stock up 8% on Tuesday",
-      "why_now": "Netflix's unscheduled board meeting Tuesday produced a significant strategic reversal: the company will restore quarterly subscriber count disclosures beginning with Q3 2026 results. The board cited 'evolving advertiser expectations and a need to rebuild investor trust' in a terse statement. Shares rose 8.3% Tuesday \u2014 the company's best single day since February \u2014 but Netflix remains 41% below its June 2025 peak. The reversal is widely read as a concession to the advertising partners who threatened to pull upfront commitments. Meanwhile The Odyssey continues its run: it crossed $300M globally Tuesday and is now tracking toward a $500M+ global total.",
-      "hidden_question": "Why is the company that convinced the world to stop going to movie theaters struggling on the exact day the biggest theatrical event in years is selling out cinemas everywhere?",
+      "moment": "Germany declares Energy Emergency Level 2; European natural gas futures up 80% in 48 hours as Qatar diverts LNG away from Europe",
+      "why_now": "Germany declared Energy Emergency Level 2 of 3 Wednesday \u2014 triggering mandatory industrial gas rationing for non-critical manufacturers and activating emergency coal reserve generation. The trigger: Qatar's North Field LNG terminal, which normally supplies approximately 25% of Europe's piped and LNG gas, began diverting cargoes away from European ports to Asian markets after the Strait of Hormuz closure made European contracts higher-risk. Dutch TTF natural gas futures \u2014 Europe's benchmark \u2014 rose 80% in 48 hours to \u20ac142/MWh. France activated nuclear emergency reserve capacity. The European Commission convened an emergency energy council for Thursday. German industrial output was already down 3.1% this year; analysts are now revising Q3 GDP forecasts toward contraction.",
+      "hidden_question": "Why did Europe spend 30 years trying to end its dependence on Russian gas \u2014 and end up equally exposed to a different supplier it can't control?",
       "editorial_potential": "high",
-      "url": "https://247wallst.com/investing/2026/07/17/netflix-sinks-11-on-soft-q3-guidance-as-analysts-warn-its-losing-narrative-control/",
-      "first_seen": "2026-07-17T18:00:00Z",
-      "last_seen": "2026-07-22T09:00:00Z",
+      "url": "https://www.bloomberg.com/energy",
+      "first_seen": "2026-07-22T14:00:00Z",
+      "last_seen": "2026-07-22T14:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "us-tech-waico-export-ban",
+      "category": "Tech & Science",
+      "moment": "US suspends semiconductor export licenses to 32 WAICO nations \u2014 Apple flags $43B revenue exposure, Nvidia $18B, Qualcomm $12B",
+      "why_now": "The Commerce Department's suspension of advanced semiconductor export licenses to all 32 WAICO member nations is sending shockwaves through the tech sector. Apple filed an 8-K disclosing $43B in annual revenue from WAICO-member markets \u2014 approximately 16% of its total revenue. Nvidia cited $18B in exposure. Qualcomm: $12B. The 90-day review period means no new shipments of AI chips, chip design tools, or cloud computing infrastructure to India, Saudi Arabia, UAE, Indonesia, Brazil, and 27 other nations. Apple is in the most complex position: it manufactures iPhones in India through Foxconn and Tata \u2014 and India just joined WAICO. The Commerce action may technically require Apple to halt its own India production operations.",
+      "hidden_question": "What happens when the most globalized companies in American history are forced to choose a side in a cold war they had no vote in starting?",
+      "editorial_potential": "high",
+      "url": "https://www.commerce.gov/bureaus-offices/bis",
+      "first_seen": "2026-07-22T14:00:00Z",
+      "last_seen": "2026-07-22T14:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "china-waico-ai-alliance",
+      "category": "Tech & Science",
+      "moment": "WAICO now 32 nations / 43% of global population; India summons US ambassador over export ban; Xi calls it 'the defining alignment of the century'",
+      "why_now": "Following India's accession to WAICO, Xi Jinping called the bloc 'the defining alignment of the century' in remarks at a Beijing press conference. India summoned the US ambassador over the Commerce Department's export license suspension \u2014 the first formal diplomatic protest India has filed against the US in six years. Brazil and Indonesia issued a joint statement calling the export ban 'a weaponization of trade that confirms why WAICO was necessary.' The US State Department is now scrambling to reassure Japan, South Korea, and Australia \u2014 all of whom remain in the Pax Silica orbit \u2014 that the export restrictions will not affect them.",
+      "hidden_question": "Why does the fight for the future of AI increasingly look like the fight for Cold War alliances \u2014 and what happens to countries that try to stay in the middle?",
+      "editorial_potential": "high",
+      "url": "https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it",
+      "first_seen": "2026-07-18T15:00:00Z",
+      "last_seen": "2026-07-22T14:00:00Z",
       "appearances": 5,
       "history": [
         {
-          "date": "2026-07-17T18:00:00Z",
-          "note": "Netflix Q2 misses on guidance. Stock -11%, now 45% below peak, $259B wiped."
+          "date": "2026-07-18T15:00:00Z",
+          "note": "Xi launches WAICO with 29 founding nations at World AI Conference."
         },
         {
           "date": "2026-07-20T09:00:00Z",
-          "note": "The Odyssey delivers $124M domestic / $221M global opening weekend \u2014 biggest R-rated opening in US history."
+          "note": "Saudi Arabia and UAE accede \u2014 membership rises to 31."
         },
         {
           "date": "2026-07-21T09:00:00Z",
-          "note": "Netflix calls unscheduled board meeting Tuesday. WSJ: advertisers threatening to pull commitments without viewership data."
+          "note": "India formally joins \u2014 membership rises to 32, covering 43% of global population."
         },
         {
-          "date": "2026-07-21T21:00:00Z",
-          "note": "Board meeting outcome: Netflix will restore quarterly subscriber count disclosures from Q3. Stock +8.3% Tuesday \u2014 best day since February. Still 41% below peak."
-        },
-        {
-          "date": "2026-07-22T09:00:00Z",
-          "note": "The Odyssey crosses $300M global in 5 days \u2014 tracking toward $500M+ global total. Netflix subscriber reversal reads as full capitulation to advertiser pressure."
+          "date": "2026-07-22T14:00:00Z",
+          "note": "US export ban to all 32 WAICO nations triggers formal diplomatic protest from India. Brazil and Indonesia: export ban 'confirms why WAICO was necessary.' Xi: 'the defining alignment of the century.' US scrambles to reassure Japan, South Korea, Australia."
         }
       ]
     },
     {
+      "id": "meta-google-q2-earnings",
+      "category": "Tech & Science",
+      "moment": "Meta reports tonight after close; Google (Alphabet) reports Thursday \u2014 both flagging WAICO export ban exposure worth $30B+ combined",
+      "why_now": "Meta reports Q2 earnings Wednesday after market close; Alphabet (Google) reports Thursday. Both companies filed pre-earnings disclosures flagging material exposure to the WAICO export ban: Meta cited $14B in annual advertising revenue from WAICO-member markets; Alphabet cited $17B. Analysts expect strong core numbers \u2014 Meta's ad revenue has accelerated on AI-driven targeting improvements, and Google Search is benefiting from AI Overviews. But the WAICO ban introduces a genuine wildcard. Meta's Reality Labs division (Quest 3S, AR glasses) is also facing component supply disruption from the India manufacturing freeze.",
+      "hidden_question": "Why does digital advertising \u2014 which pays for most of the internet \u2014 keep making the same handful of companies richer every quarter, regardless of what's happening everywhere else?",
+      "editorial_potential": "medium",
+      "url": "https://investor.fb.com/investor-events/default.aspx",
+      "first_seen": "2026-07-22T14:00:00Z",
+      "last_seen": "2026-07-22T14:00:00Z",
+      "appearances": 1
+    },
+    {
       "id": "spacex-starship-first-payload",
-      "category": "Business & Markets",
-      "moment": "SpaceX announces Starship Flight 14 for August \u2014 first full orbital mission with payload; NASA confirms it will use Starship for Moon lander",
-      "why_now": "Following Monday's successful Flight 13, SpaceX announced Starship Flight 14 is targeting early August \u2014 the first full orbital mission with a commercial payload, rather than a suborbital demonstration. NASA confirmed Tuesday that the Artemis IV Moon lander mission \u2014 originally planned to use a modified version of the vehicle \u2014 will now use the Flight 14 configuration, accelerating the timeline by approximately 14 months. Musk posted that 'Mars is now a realistic target for 2029.' SpaceX shares are up 11% since the Nasdaq-100 addition last week.",
+      "category": "Tech & Science",
+      "moment": "SpaceX announces Flight 14 for early August \u2014 first full orbital mission; NASA confirms Artemis IV Moon lander will use it",
+      "why_now": "Following Monday's successful Flight 13, SpaceX announced Starship Flight 14 is targeting early August \u2014 the first full orbital mission with a commercial payload rather than a suborbital demonstration. NASA confirmed the Artemis IV Moon lander mission will use the Flight 14 configuration, accelerating the timeline by approximately 14 months. Musk posted that 'Mars is now a realistic target for 2029.' SpaceX shares are up 11% since the Nasdaq-100 addition last week. The export ban complicates one element: SpaceX's Starlink ground station components are manufactured in part by facilities in India.",
       "hidden_question": "What does it mean when the rules of a major stock index get rewritten for a single company \u2014 and who actually benefits?",
       "editorial_potential": "high",
       "url": "https://spaceflightnow.com/2026/07/16/live-coverage-spacex-to-deploy-first-starlink-v3-satellites-on-suborbital-starship-super-heavy-flight/",
       "first_seen": "2026-07-14T14:00:00Z",
-      "last_seen": "2026-07-22T09:00:00Z",
+      "last_seen": "2026-07-22T14:00:00Z",
       "appearances": 9,
       "history": [
-        {
-          "date": "2026-07-17T18:00:00Z",
-          "note": "Aborted at T-0: 4 Raptor 3 engines didn't ignite. Musk: 2 Raptors to be replaced."
-        },
         {
           "date": "2026-07-18T15:00:00Z",
           "note": "Rescheduled: Monday July 20 at 5:45pm CDT. Two Raptor 3 engines replaced."
         },
         {
           "date": "2026-07-21T09:00:00Z",
-          "note": "SUCCESS: Starship launches 5:49pm CDT. 20 V3 Starlinks deployed at 250km, confirmed functioning. Super Heavy booster caught. First commercial payload in Starship history. SpaceX +6% after-hours."
+          "note": "SUCCESS: Starship launches 5:49pm CDT. 20 V3 Starlinks deployed, confirmed functioning. Super Heavy booster caught. First commercial payload in Starship history."
         },
         {
-          "date": "2026-07-22T09:00:00Z",
-          "note": "SpaceX announces Flight 14 targeting early August \u2014 first full orbital mission with commercial payload. NASA confirms Artemis IV Moon lander will use Flight 14 configuration, accelerating timeline 14 months. SpaceX shares +11% since Nasdaq-100 addition last week."
+          "date": "2026-07-22T14:00:00Z",
+          "note": "Flight 14 targeting early August \u2014 first full orbital mission with commercial payload. NASA confirms Artemis IV Moon lander will use Flight 14 configuration, accelerating timeline 14 months. SpaceX +11% since Nasdaq-100 addition."
         }
       ]
     },
     {
-      "id": "china-waico-ai-alliance",
-      "category": "Tech & Science",
-      "moment": "US suspends technology export licenses to WAICO member nations; Apple and Nvidia warn of $40B+ revenue exposure",
-      "why_now": "The Biden Commerce Department announced Tuesday that it is suspending export licenses for advanced semiconductor technology to all 32 WAICO member nations pending a national security review \u2014 a sweeping action that would affect sales of AI chips, chip design tools, and cloud computing infrastructure. Apple warned in an SEC filing that the action could affect $43B in annual revenue from WAICO member markets. Nvidia said its exposure is approximately $18B annually. The review is expected to take 90 days. India's foreign ministry immediately called it 'economic coercion' and summoned the US ambassador.",
-      "hidden_question": "Why does the fight for the future of AI increasingly look like the fight for Cold War alliances \u2014 and what happens to countries that try to stay in the middle?",
+      "id": "netflix-subscriber-reversal",
+      "category": "Culture & Entertainment",
+      "moment": "Netflix restores subscriber count disclosures from Q3; The Odyssey crosses $300M global in 5 days \u2014 tracking toward $500M+",
+      "why_now": "Netflix's board reversed course Tuesday: the company will restore quarterly subscriber count disclosures beginning with Q3 2026 results. The board cited 'evolving advertiser expectations and a need to rebuild investor trust.' Shares rose 8.3% Tuesday \u2014 the company's best day since February \u2014 but Netflix remains 41% below its June 2025 peak. The reversal is widely read as full capitulation to advertising partners who had threatened to pull upfront commitments. Meanwhile The Odyssey crossed $300M globally in five days, tracking toward a $500M+ total \u2014 and the contrast between the two companies has become a durable media industry story.",
+      "hidden_question": "Why is the company that convinced the world to stop going to movie theaters struggling on the exact day the biggest theatrical event in years is selling out cinemas everywhere?",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it",
-      "first_seen": "2026-07-18T15:00:00Z",
-      "last_seen": "2026-07-22T09:00:00Z",
-      "appearances": 4,
-      "history": [
-        {
-          "date": "2026-07-18T15:00:00Z",
-          "note": "Xi launches WAICO at World AI Conference with 29 founding nations."
-        },
-        {
-          "date": "2026-07-20T09:00:00Z",
-          "note": "Saudi Arabia and UAE accede \u2014 membership rises to 31. US calls it 'geopolitical instrument disguised as standards body.'"
-        },
-        {
-          "date": "2026-07-21T09:00:00Z",
-          "note": "India formally joins WAICO \u2014 membership rises to 32, covering 43% of global population. US calls it 'strategic realignment.'"
-        },
-        {
-          "date": "2026-07-22T09:00:00Z",
-          "note": "US suspends export licenses for advanced semiconductor tech to all 32 WAICO nations pending 90-day national security review. Apple: $43B revenue exposure. Nvidia: $18B. India summoned US ambassador, calls it 'economic coercion.'"
-        }
-      ]
-    },
-    {
-      "id": "world-cup-final-spain",
-      "category": "Sports",
-      "moment": "Spain's World Cup win triggers Catalan independence debate \u2014 Yamal and 4 other starters are from Catalonia; Madrid parade draws protest",
-      "why_now": "Spain's World Cup victory parade in Madrid drew an unexpected undercurrent: five of Spain's starting eleven \u2014 including Yamal and Pedri \u2014 are Catalan, and Catalan independence groups posted widely shared content asking whether Spain's victory was 'a Catalan achievement celebrated under someone else's flag.' The Catalan regional government issued a statement congratulating 'Catalan footballers who represent what Catalonia can achieve.' The Spanish football federation immediately condemned the framing. Messi, now retired from international football, received an invitation to join Inter Miami's coaching staff \u2014 which he declined publicly.",
-      "hidden_question": "Why does the team that controls the ball the most tend to win \u2014 and why does the rest of the world keep trying to beat them at their own game instead of playing a different one?",
-      "editorial_potential": "high",
-      "url": "https://www.nbcsports.com/watch/soccer/world-cup/2026-world-cup-final-spain-vs-argentina-preview-predictions-storylines",
-      "first_seen": "2026-07-20T09:00:00Z",
-      "last_seen": "2026-07-22T09:00:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-07-20T09:00:00Z",
-          "note": "Spain win 2026 World Cup 1-0 over Argentina. Yamal scores 38th minute. Spain never trailed in any of their 7 matches."
-        },
-        {
-          "date": "2026-07-21T09:00:00Z",
-          "note": "Messi announces retirement from Argentina national team. 3 million in Madrid for victory parade. Yamal turns 19 \u2014 played the final on the same day he became a legal adult in Spain."
-        },
-        {
-          "date": "2026-07-22T09:00:00Z",
-          "note": "Catalan independence groups: 5 of Spain's starters are Catalan \u2014 'a Catalan achievement celebrated under someone else's flag.' Catalan regional govt congratulates 'Catalan footballers.' Spanish federation condemns the framing. Messi declines Inter Miami coaching invitation."
-        }
-      ]
-    },
-    {
-      "id": "nba-offseason-reshuffle",
-      "category": "Sports",
-      "moment": "Giannis trade confirmed: Milwaukee gets Tyler Herro + 4 picks for Giannis + Portis; Wembanyama signs $252M max",
-      "why_now": "The Giannis trade is officially confirmed: Milwaukee receives Tyler Herro, Kasparas Jaku\u010dionis, Jaime Jaquez Jr., and Kel'el Ware plus three first-round picks, one pick swap, and one second-round pick. Giannis and Bobby Portis go to Miami, where Giannis will partner with Bam Adebayo. Ja Morant moved from Memphis to Portland. Jaylen Brown traded to Philadelphia for Paul George. Victor Wembanyama signed a five-year, $252M max extension with San Antonio. Las Vegas Summer League opened Tuesday \u2014 Wembanyama is not playing but drew 14,000 to his first public appearance at Thomas & Mack Center.",
-      "hidden_question": "Why does the city that sacrificed the most to build a championship around one player almost always watch that player leave \u2014 and why do small markets keep believing the next star will be different?",
-      "editorial_potential": "high",
-      "url": "https://www.nba.com/news/nba-offseason-deals-2026",
-      "first_seen": "2026-07-16T18:00:00Z",
-      "last_seen": "2026-07-22T09:00:00Z",
+      "url": "https://247wallst.com/investing/2026/07/17/netflix-sinks-11-on-soft-q3-guidance-as-analysts-warn-its-losing-narrative-control/",
+      "first_seen": "2026-07-17T18:00:00Z",
+      "last_seen": "2026-07-22T14:00:00Z",
       "appearances": 5,
       "history": [
         {
-          "date": "2026-07-16T18:00:00Z",
-          "note": "Giannis demands trade after 14 years in Milwaukee. Wembanyama signs $252M max."
-        },
-        {
-          "date": "2026-07-18T15:00:00Z",
-          "note": "Trade confirmed: Milwaukee gets Herro, Jaku\u010dionis, Jaquez Jr., Kel'el Ware + 3 picks for Giannis + Portis."
+          "date": "2026-07-17T18:00:00Z",
+          "note": "Netflix Q2 misses on guidance. Stock -11%, now 45% below peak."
         },
         {
           "date": "2026-07-20T09:00:00Z",
-          "note": "Miami officially introduces Giannis. Milwaukee fans hold 'Thank You Giannis' events."
+          "note": "The Odyssey: $124M domestic / $221M global opening \u2014 biggest R-rated opening in US history."
         },
         {
-          "date": "2026-07-21T09:00:00Z",
-          "note": "Giannis first practice with Heat \u2014 described as 'seamless.' Herro's first Milwaukee workout draws 400 fans. Summer League opens in Las Vegas."
+          "date": "2026-07-21T21:00:00Z",
+          "note": "Netflix board reverses: will restore subscriber count disclosures from Q3. Stock +8.3% Tuesday \u2014 best day since February. Still 41% below peak."
         },
         {
-          "date": "2026-07-22T09:00:00Z",
-          "note": "Wembanyama draws 14,000 to his first Summer League public appearance at Thomas & Mack \u2014 not playing, just attending. Heat-Bucks Summer League game sells out in 4 minutes."
+          "date": "2026-07-22T14:00:00Z",
+          "note": "The Odyssey crosses $300M global in 5 days \u2014 tracking toward $500M+. Netflix subscriber reversal now described as 'full capitulation' to advertiser pressure."
         }
       ]
     },
     {
       "id": "nolan-odyssey",
       "category": "Culture & Entertainment",
-      "moment": "The Odyssey crosses $300M global in 5 days; SAG-AFTRA nominates Cillian Murphy for 'most extraordinary performance' citation",
-      "why_now": "The Odyssey crossed $300M globally Tuesday \u2014 five days into release. Only four films in history have hit that mark faster. SAG-AFTRA issued an unusual mid-year 'most extraordinary performance' citation to Cillian Murphy \u2014 a non-competitive honor the guild has awarded only three times previously (Meryl Streep in 1983, Daniel Day-Lewis in 1993, Viola Davis in 2017). The Odyssey is now the subject of a 14,000-word essay in The Atlantic titled 'Why Nolan Won' that has been shared 800,000 times in two days. Universal announced it has greenlit Nolan's next project \u2014 described only as 'an original story set in the present day.'",
+      "moment": "The Odyssey crosses $300M global in 5 days; SAG-AFTRA issues rare citation to Cillian Murphy; Universal greenlights Nolan's next film",
+      "why_now": "The Odyssey crossed $300M globally in five days \u2014 only four films in history have hit that mark faster. SAG-AFTRA issued an unusual mid-year 'most extraordinary performance' citation to Cillian Murphy \u2014 a non-competitive honor the guild has awarded only three times previously. A 14,000-word Atlantic essay titled 'Why Nolan Won' has been shared 800,000 times in two days. Universal announced it has greenlit Nolan's next project \u2014 described only as 'an original story set in the present day.' The film's cultural footprint is widening: philosophy departments are assigning the film's Homer adaptation choices as texts; three universities have announced 'The Odyssey and Now' lecture series.",
       "hidden_question": "Why does every generation think Homer's Odyssey is secretly about right now \u2014 and what does our version say about what we're trying to get home from?",
       "editorial_potential": "high",
       "url": "https://deadline.com/2026/07/box-office-the-odyssey-forecast-1236982438/",
       "first_seen": "2026-07-16T18:00:00Z",
-      "last_seen": "2026-07-22T09:00:00Z",
+      "last_seen": "2026-07-22T14:00:00Z",
       "appearances": 6,
       "history": [
         {
           "date": "2026-07-18T15:00:00Z",
-          "note": "$17.6M Thursday previews \u2014 best of 2026. Projected $117M domestic / $200M+ global."
+          "note": "$17.6M Thursday previews. Projected $117M domestic / $200M+ global."
         },
         {
           "date": "2026-07-20T09:00:00Z",
-          "note": "Final opening weekend: $124M domestic / $221M global \u2014 biggest R-rated opening in US film history."
+          "note": "$124M domestic / $221M global opening \u2014 biggest R-rated opening in US film history."
         },
         {
-          "date": "2026-07-21T09:00:00Z",
-          "note": "Passes $250M global in 4 days. Monday hold +28% above comparable Nolan films. LA Times: 'How Christopher Nolan quietly became the most powerful person in Hollywood.'"
-        },
-        {
-          "date": "2026-07-22T09:00:00Z",
-          "note": "$300M global in 5 days \u2014 only 4 films faster. SAG-AFTRA issues 'most extraordinary performance' citation to Cillian Murphy (only the 4th ever). 'Why Nolan Won' Atlantic essay: 800K shares in 2 days. Universal greenlights Nolan's next original project."
+          "date": "2026-07-22T14:00:00Z",
+          "note": "$300M global in 5 days. SAG-AFTRA 'most extraordinary performance' citation to Cillian Murphy (4th ever). Universal greenlights Nolan's next original. Atlantic essay 'Why Nolan Won' \u2014 800K shares in 2 days. Universities assigning film's Homer choices as texts."
         }
       ]
     },
     {
       "id": "ella-langley-choosin-texas",
       "category": "Culture & Entertainment",
-      "moment": "'Choosin' Texas' 14 weeks at #1; Langley performs surprise set at White House state dinner for Spain's World Cup team",
-      "why_now": "Ella Langley's 14th week at No. 1 on the Hot 100 continues to accumulate chart history \u2014 it is now the longest-running #1 country song since 'Old Town Road.' On Tuesday evening, President Biden hosted Spain's World Cup-winning squad at a White House state dinner \u2014 and Langley performed a surprise three-song set, including 'Choosin' Texas,' before the delegation. The performance clip has 40 million views in 18 hours. It is the first time a current #1 country song has been performed at a White House state dinner since 1979.",
+      "moment": "'Choosin' Texas' 14 weeks at #1; Langley performs at White House state dinner for Spain \u2014 clip hits 40M views in 18 hours",
+      "why_now": "Ella Langley's 14th week at No. 1 on the Hot 100 is now the longest-running #1 country song since 'Old Town Road.' Tuesday evening she performed a surprise three-song set at the White House state dinner for Spain's World Cup squad \u2014 playing 'Choosin' Texas' for Yamal and the team. The clip has 40 million views in 18 hours. It is the first time a current #1 country song has been performed at a White House state dinner since 1979. Her 17-city fall stadium tour sold out presale in 11 minutes.",
       "hidden_question": "What does it mean when the most-played song in America for three months is specifically about choosing to stay \u2014 and millions of people in every state keep streaming it?",
       "editorial_potential": "high",
       "url": "https://www.billboard.com/lists/ella-langley-choosin-texas-hot-100-number-one-13th-week/",
       "first_seen": "2026-07-16T18:00:00Z",
-      "last_seen": "2026-07-22T09:00:00Z",
+      "last_seen": "2026-07-22T14:00:00Z",
       "appearances": 5,
       "history": [
         {
@@ -373,50 +255,42 @@
           "note": "13th week at #1 \u2014 first country song since Mariah Carey's 'We Belong Together' in 2005."
         },
         {
-          "date": "2026-07-18T15:00:00Z",
-          "note": "Holds at #1. First woman with 3 country songs in top four simultaneously."
-        },
-        {
-          "date": "2026-07-20T09:00:00Z",
-          "note": "New Hot 100 due Tuesday \u2014 tracking for 14th week. Langley announces fall stadium tour."
-        },
-        {
           "date": "2026-07-21T09:00:00Z",
-          "note": "14th week at #1 confirmed. Longest-running #1 country song since 'Old Town Road.' Tour presale sells out in 11 minutes."
+          "note": "14th week confirmed. Longest-running #1 country song since 'Old Town Road.' Tour presale sells out in 11 minutes."
         },
         {
-          "date": "2026-07-22T09:00:00Z",
-          "note": "Langley performs surprise set at White House state dinner for Spain's World Cup team \u2014 'Choosin' Texas' played for Yamal and squad. Clip: 40M views in 18 hours. First #1 country song at a White House state dinner since 1979."
+          "date": "2026-07-22T14:00:00Z",
+          "note": "White House state dinner performance for Spain's World Cup squad \u2014 40M views in 18 hours. First #1 country song performed at White House state dinner since 1979."
         }
       ]
     },
     {
       "id": "taco-bell-cyclospora",
       "category": "Odd & Human Interest",
-      "moment": "FDA issues mandatory recall order for all Taylor Farms iceberg lettuce in US distribution; Yum Brands market cap falls $8B",
-      "why_now": "The FDA escalated from voluntary to mandatory recall Tuesday \u2014 issuing a formal order requiring Taylor Farms to recall all iceberg lettuce from its Mexico operations currently in US distribution channels. It is the first mandatory produce recall the FDA has issued since 2021. The case count has reached 2,340 across 8 states, with 210 hospitalized and the first reported death \u2014 a 74-year-old in Ohio. Yum Brands (Taco Bell's parent) lost $8.2B in market capitalization Tuesday as institutional investors priced in litigation exposure. Three separate Senate committees have requested testimony from Taylor Farms and FDA leadership.",
+      "moment": "FDA issues mandatory recall; first death reported; 2,340 cases across 8 states; Yum Brands loses $8.2B market cap",
+      "why_now": "The FDA escalated to a mandatory recall Tuesday \u2014 its first for produce since 2021 \u2014 requiring Taylor Farms to pull all iceberg lettuce from its Mexico operations from US distribution. The case count has reached 2,340 across 8 states with the first reported death, a 74-year-old in Ohio. Yum Brands (Taco Bell's parent) lost $8.2B in market capitalization Tuesday as institutional investors priced in litigation exposure. Three Senate committees have requested testimony from Taylor Farms and FDA leadership. Cyclospora cannot be killed by washing \u2014 it requires cooking above 60\u00b0C \u2014 a fact most consumers did not know before this week.",
       "hidden_question": "Why does the food supply for the most powerful country on earth keep getting contaminated in ways that seem trivially preventable?",
       "editorial_potential": "medium",
       "url": "https://www.cbsnews.com/news/cyclosporiasis-outbreak-taco-bell-lettuce-mexico/",
       "first_seen": "2026-07-18T15:00:00Z",
-      "last_seen": "2026-07-22T09:00:00Z",
+      "last_seen": "2026-07-22T14:00:00Z",
       "appearances": 4,
       "history": [
         {
           "date": "2026-07-18T15:00:00Z",
-          "note": "CDC confirms 1,644 ill, 94 hospitalized across 5 states. Taco Bell completes lettuce removal."
+          "note": "CDC confirms 1,644 ill, 94 hospitalized across 5 states."
         },
         {
           "date": "2026-07-20T09:00:00Z",
-          "note": "Case count rises to 1,791. Two class-action lawsuits filed. FDA opens formal investigation."
+          "note": "1,791 cases. Two class-action suits filed. FDA opens formal investigation."
         },
         {
           "date": "2026-07-21T09:00:00Z",
-          "note": "2,100 cases across 7 states. CDC issues formal Public Health Advisory. Taylor Farms recalls all US iceberg from Mexico \u2014 affects ~15% of US supply."
+          "note": "2,100 cases across 7 states. CDC issues formal Public Health Advisory. Taylor Farms recalls all US iceberg from Mexico."
         },
         {
-          "date": "2026-07-22T09:00:00Z",
-          "note": "FDA issues mandatory recall order \u2014 first for produce since 2021. 2,340 cases, 210 hospitalized, 1 death (74-year-old in Ohio). Yum Brands loses $8.2B market cap Tuesday. Three Senate committees request testimony."
+          "date": "2026-07-22T14:00:00Z",
+          "note": "FDA mandatory recall issued \u2014 first for produce since 2021. 2,340 cases, 8 states, 1 death (74-yr-old, Ohio). Yum Brands loses $8.2B market cap. Three Senate committees request testimony."
         }
       ]
     }
