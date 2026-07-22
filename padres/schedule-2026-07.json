@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-21T12:06:21.074478+00:00",
+  "generated_at": "2026-07-22T12:09:59.944882+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -161,19 +161,17 @@
       "gamePk": 824898,
       "status": "final",
       "result": "L",
-      "score": "2\u20133"
+      "score": "2\u20133",
+      "archive_url": "archive.html?date=2026-07-21"
     },
     {
       "date": "2026-07-21",
       "opponent": "ATL",
       "home": false,
       "gamePk": 824895,
-      "status": "scheduled",
-      "time_local": "4:15 PM PT",
-      "probable": {
-        "team": "Walker Buehler",
-        "opp": "Reynaldo L\u00f3pez"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "8\u20133"
     },
     {
       "date": "2026-07-22",
@@ -183,7 +181,8 @@
       "status": "scheduled",
       "time_local": "4:15 PM PT",
       "probable": {
-        "team": "Michael King"
+        "team": "Michael King",
+        "opp": "Mart\u00edn P\u00e9rez"
       }
     },
     {
@@ -256,8 +255,8 @@
     }
   ],
   "summary": {
-    "month_record": "6\u201310",
-    "current_streak": "L1",
+    "month_record": "7\u201310",
+    "current_streak": "W1",
     "last_10": "5\u20135"
   }
 }
