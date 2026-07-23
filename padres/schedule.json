@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-22T12:09:59.944882+00:00",
+  "generated_at": "2026-07-23T12:08:40.425867+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -171,19 +171,17 @@
       "gamePk": 824895,
       "status": "final",
       "result": "W",
-      "score": "8\u20133"
+      "score": "8\u20133",
+      "archive_url": "archive.html?date=2026-07-22"
     },
     {
       "date": "2026-07-22",
       "opponent": "ATL",
       "home": false,
       "gamePk": 824896,
-      "status": "scheduled",
-      "time_local": "4:15 PM PT",
-      "probable": {
-        "team": "Michael King",
-        "opp": "Mart\u00edn P\u00e9rez"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "6\u20137"
     },
     {
       "date": "2026-07-23",
@@ -203,7 +201,10 @@
       "home": false,
       "gamePk": 823843,
       "status": "scheduled",
-      "time_local": "4:10 PM PT"
+      "time_local": "4:10 PM PT",
+      "probable": {
+        "team": "Germ\u00e1n M\u00e1rquez"
+      }
     },
     {
       "date": "2026-07-25",
@@ -211,7 +212,10 @@
       "home": false,
       "gamePk": 823841,
       "status": "scheduled",
-      "time_local": "1:10 PM PT"
+      "time_local": "1:10 PM PT",
+      "probable": {
+        "team": "JP Sears"
+      }
     },
     {
       "date": "2026-07-26",
@@ -219,7 +223,10 @@
       "home": false,
       "gamePk": 823840,
       "status": "scheduled",
-      "time_local": "10:40 AM PT"
+      "time_local": "10:40 AM PT",
+      "probable": {
+        "team": "Walker Buehler"
+      }
     },
     {
       "date": "2026-07-28",
@@ -255,8 +262,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u201310",
-    "current_streak": "W1",
-    "last_10": "5\u20135"
+    "month_record": "7\u201311",
+    "current_streak": "L1",
+    "last_10": "4\u20136"
   }
 }
