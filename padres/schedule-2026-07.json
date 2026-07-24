@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-23T12:08:40.425867+00:00",
+  "generated_at": "2026-07-24T11:59:07.883029+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -181,19 +181,17 @@
       "gamePk": 824896,
       "status": "final",
       "result": "L",
-      "score": "6\u20137"
+      "score": "6\u20137",
+      "archive_url": "archive.html?date=2026-07-23"
     },
     {
       "date": "2026-07-23",
       "opponent": "ATL",
       "home": false,
       "gamePk": 824893,
-      "status": "scheduled",
-      "time_local": "9:15 AM PT",
-      "probable": {
-        "team": "Griffin Canning",
-        "opp": "Chris Sale"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "5\u20136"
     },
     {
       "date": "2026-07-24",
@@ -214,7 +212,8 @@
       "status": "scheduled",
       "time_local": "1:10 PM PT",
       "probable": {
-        "team": "JP Sears"
+        "team": "JP Sears",
+        "opp": "Eury P\u00e9rez"
       }
     },
     {
@@ -225,7 +224,8 @@
       "status": "scheduled",
       "time_local": "10:40 AM PT",
       "probable": {
-        "team": "Walker Buehler"
+        "team": "Walker Buehler",
+        "opp": "Janson Junk"
       }
     },
     {
@@ -262,8 +262,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u201311",
-    "current_streak": "L1",
+    "month_record": "7\u201312",
+    "current_streak": "L2",
     "last_10": "4\u20136"
   }
 }
