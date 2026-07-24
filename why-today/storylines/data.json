@@ -87,14 +87,38 @@
       "appearances": 1
     },
     {
-      "id": "taylor-swift-kelce-wedding",
+      "id": "spain-world-cup-2026",
       "category": "Culture & Entertainment",
-      "moment": "Taylor Swift and Travis Kelce were married July 3 at Madison Square Garden \u2014 1,000 guests inside, thousands of fans outside \u2014 the most covered cultural event of the summer.",
-      "why_now": "The wedding of Taylor Swift and Kansas City Chiefs tight end Travis Kelce on July 3 at Madison Square Garden drew an estimated 1,000 attendees and thousands of fans outside the venue. The event dominated media coverage for the week of July 4. It joins a summer that has already included Jannik Sinner defending his Wimbledon title (July 12) and the WNBA All-Star Game (July 25) \u2014 a cultural calendar running parallel to, and largely disconnected from, the political and economic news of the same weeks. The proximity of the wedding to the ongoing Iran war funding debate, the WAICO launch, and the ICC warrant story is not ironic so much as it is structurally American: the country holds both realities simultaneously.",
-      "hidden_question": "Why does a celebrity wedding feel like a national event \u2014 and what does it say about what we've decided to celebrate together at the exact moment so much else feels contested and unresolved?",
+      "moment": "Spain beat Argentina 1-0 in extra time on July 19 to win the 2026 FIFA World Cup \u2014 Ferran Torres scored the winner at MetLife Stadium \u2014 ending Messi's last realistic shot at a second title.",
+      "why_now": "Spain defeated Argentina 1-0 in extra time in the 2026 World Cup final at MetLife Stadium on July 19, with Ferran Torres scoring the winner assisted by Nico Williams. The result ended what is likely Lionel Messi's final World Cup campaign. Spain now has four World Cup titles. The tournament \u2014 hosted across the US, Canada, and Mexico \u2014 drew record attendance and TV numbers. The final result has dominated sports and cultural conversation all week, five days later.",
+      "hidden_question": "Why does one sport, once every four years, make the entire world pay attention at the same time \u2014 and what does that say about what we still share?",
+      "editorial_potential": "high",
+      "url": "https://www.cbssports.com/soccer/news/argentina-spain-world-cup-2026-final-live-updates-score-result/live/",
+      "first_seen": "2026-07-19T00:00:00Z",
+      "last_seen": "2026-07-24T16:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "charli-xcx-music-fashion-film",
+      "category": "Culture & Entertainment",
+      "moment": "Charli xcx releases her seventh album 'Music, Fashion, Film' today \u2014 Martin Scorsese on the cover, 'Rock Music' as the lead single \u2014 following brat's massive cultural footprint in 2024.",
+      "why_now": "Charli xcx drops 'Music, Fashion, Film' today, July 24, via Atlantic Records. The album's cover features John Cale of The Velvet Underground, designer Marc Jacobs, and director Martin Scorsese \u2014 one figure each from the three disciplines in the title. Lead single 'Rock Music' features processed guitar riffs and digitally manipulated vocals, a departure from brat's hyperpop. The album release is the biggest music drop of the week and is driving significant social media activity, including a viral glitch-edit trend on TikTok synced to 'Rock Music.'",
+      "hidden_question": "What does it mean that one of the most influential pop artists of the moment keeps making albums that are essentially arguments about what art is for?",
       "editorial_potential": "medium",
-      "url": "https://www.britannica.com/topic/Major-Events-of-2026",
-      "first_seen": "2026-07-03T00:00:00Z",
+      "url": "https://www.rollingstone.com/music/music-news/charli-xcx-new-album-music-fashion-film-1235570567/",
+      "first_seen": "2026-07-24T00:00:00Z",
+      "last_seen": "2026-07-24T16:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "ukraine-russia-escalation",
+      "category": "Politics & World",
+      "moment": "Russia fired 41 ballistic and hypersonic missiles at Kyiv overnight July 19 \u2014 one of the largest attacks of the war \u2014 while protests spread over Zelenskyy's firing of Ukraine's defense minister.",
+      "why_now": "Russia launched 41 ballistic and hypersonic missiles at Kyiv overnight into July 19 \u2014 one of the largest single missile barrages of the war. Ukraine intercepted 18; one civilian was killed and 16 wounded. On July 21 Russia followed with 58 UAV strikes, killing at least 10 civilians across Ukraine including in Donetsk and Odesa. The UN recorded a 37% increase in civilian casualties in the first half of 2026 compared to the same period last year. Separate from the military situation, protests continued this week over Zelenskyy's decision to fire Ukraine's defense minister \u2014 the domestic political situation is adding strain to the war effort.",
+      "hidden_question": "Why does a war in its fourth year keep escalating instead of grinding toward negotiation \u2014 and who benefits from that?",
+      "editorial_potential": "high",
+      "url": "https://www.forbes.com/sites/katyasoldak/2026/07/23/thursday-july-23-russias-war-on-ukraine-news-and-information-from-ukraine/",
+      "first_seen": "2026-07-19T00:00:00Z",
       "last_seen": "2026-07-24T16:00:00Z",
       "appearances": 1
     }
