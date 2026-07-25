@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-24T11:59:07.883029+00:00",
+  "generated_at": "2026-07-25T11:40:17.118747+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -191,18 +191,17 @@
       "gamePk": 824893,
       "status": "final",
       "result": "L",
-      "score": "5\u20136"
+      "score": "5\u20136",
+      "archive_url": "archive.html?date=2026-07-24"
     },
     {
       "date": "2026-07-24",
       "opponent": "MIA",
       "home": false,
       "gamePk": 823843,
-      "status": "scheduled",
-      "time_local": "4:10 PM PT",
-      "probable": {
-        "team": "Germ\u00e1n M\u00e1rquez"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "4\u20132"
     },
     {
       "date": "2026-07-25",
@@ -234,7 +233,10 @@
       "home": true,
       "gamePk": 823275,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Michael King"
+      }
     },
     {
       "date": "2026-07-29",
@@ -262,8 +264,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u201312",
-    "current_streak": "L2",
-    "last_10": "4\u20136"
+    "month_record": "8\u201312",
+    "current_streak": "W1",
+    "last_10": "5\u20135"
   }
 }
