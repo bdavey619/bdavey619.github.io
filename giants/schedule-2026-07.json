@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-24T13:46:53.113837+00:00",
+  "generated_at": "2026-07-25T13:27:43.721536+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -180,12 +180,9 @@
       "opponent": "LAA",
       "home": true,
       "gamePk": 823196,
-      "status": "scheduled",
-      "time_local": "7:15 PM PT",
-      "probable": {
-        "team": "Logan Webb",
-        "opp": "Grayson Rodriguez"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "7\u20136"
     },
     {
       "date": "2026-07-25",
@@ -255,8 +252,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u201310",
-    "current_streak": "L5",
+    "month_record": "8\u201310",
+    "current_streak": "W1",
     "last_10": "4\u20136"
   }
 }
