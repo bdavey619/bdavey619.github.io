@@ -1,18 +1,18 @@
 {
   "week_start": "2026-07-20",
-  "last_updated": "2026-07-24T18:00:00Z",
+  "last_updated": "2026-07-25T12:00:00Z",
   "storylines": [
     {
       "id": "iran-war-no-congressional-vote",
       "category": "Politics & World",
-      "moment": "Iran hit US military bases in Bahrain, Jordan, and Kuwait with drones overnight \u2014 day 147 of a war Congress never voted on; today the House passed a nonbinding 'end it' resolution 214-208 while the Senate fell one vote short of a binding halt.",
-      "why_now": "Trump launched the Iran war February 28, 2026 using the 2001 AUMF \u2014 a law written to fight al-Qaeda \u2014 without a congressional vote. Today Iran struck Sheikh Isa Air Base in Bahrain (fuel tanks, warehouses, barracks), aircraft hangars at Al-Azraq base in Jordan, and claimed a hit on an Amazon data center in Bahrain. CENTCOM completed its 13th consecutive night of strikes on Iran overnight. In Congress today: the House passed Rep. Jayapal's nonbinding resolution calling on Trump to end the war 214-208; the Senate fell 49-47 \u2014 one vote short \u2014 of discharging a binding Van Hollen resolution that would have halted US involvement. GOP is holding behind Trump. The Pentagon's official cost is $37.5 billion; internal DoD estimates say $80-100 billion. Hegseth is asking Congress for $67 billion more.",
+      "moment": "For the first time in 14 nights, the US did not strike Iran overnight July 24 \u2014 Trump says Tehran is 'getting more serious' about a deal; Saudi Arabia is now escalating against Houthis in Yemen as the regional war spreads.",
+      "why_now": "The streak of 13 consecutive nights of US strikes on Iran ended overnight July 24 \u2014 no strikes reported, the first pause since the current escalation began. Trump said Friday that Iran 'wants a deal' and that the US remains in talks, with an exit either diplomatic or military. Meanwhile Saudi Arabia launched strikes on Houthi-held Hodeidah in Yemen, widening the regional conflict. The House passed a nonbinding 'end the war' resolution 214-208 on July 24; the Senate fell 49-47 on a binding halt. Iran also struck US bases in Bahrain, Jordan, and Kuwait with drones on July 24. The war is now 147 days old, started without a congressional vote, costing an official $37.5 billion with internal DoD estimates of $80-100 billion.",
       "hidden_question": "How did the United States end up in a $37 billion war \u2014 one that started with killing a foreign head of state \u2014 without a single member of Congress casting a vote?",
       "editorial_potential": "high",
       "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
       "first_seen": "2026-07-22T00:00:00Z",
-      "last_seen": "2026-07-24T18:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-07-25T12:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-07-22T00:00:00Z",
@@ -21,6 +21,10 @@
         {
           "date": "2026-07-24T18:00:00Z",
           "note": "Iran strikes US bases in Bahrain, Jordan, Kuwait with drones. CENTCOM 13th consecutive night of strikes. House nonbinding 'end it' 214-208. Senate binding halt fails 49-47 \u2014 one vote short."
+        },
+        {
+          "date": "2026-07-25T12:00:00Z",
+          "note": "First night without US strikes in 14 nights. Trump: Iran 'getting more serious' about a deal. Saudi Arabia escalates vs. Houthis in Yemen. Regional war spreading even as direct US-Iran strikes pause."
         }
       ]
     },
@@ -99,14 +103,24 @@
     {
       "id": "lebron-76ers-decision-4",
       "category": "Culture & Entertainment",
-      "moment": "LeBron James, 41, signed with the Philadelphia 76ers today \u2014 leaving the Lakers, taking $8 million when he could've made more, and saying 'I'm not going for money.' Decision 4.0.",
-      "why_now": "LeBron James announced today he is joining the Philadelphia 76ers for what he called 'the last part of my career.' He signed a two-year, $8 million deal \u2014 well below his market value \u2014 after informing the Lakers he would not return for his 24th season. He had been linked to Cleveland, Miami, Golden State, and Philly. His quote: 'I'm not going for money.' At 41, the NBA's all-time leading scorer is explicitly framing this as a legacy decision, not a financial one. The Cavaliers, where he won a title in 2016, and the Heat, where he won two, were both passed over. He chose the 76ers.",
-      "hidden_question": "When the greatest basketball player of his era chooses where to finish his career at 41 for $8 million, what is he actually choosing \u2014 and what does that tell us about what winning means to him now?",
+      "moment": "Pennsylvania's governor declared 'LeBron James Day.' Caitlin Clark: 'No way! Wow.' Barkley: 'He stacked it again.' Decision 4.0 is consuming all of sports \u2014 the day after LeBron chose the 76ers over Cleveland and Miami.",
+      "why_now": "LeBron James signed with the Philadelphia 76ers on July 24 \u2014 two years, $8 million, well below market \u2014 for what he called 'the last part of my career.' The reaction Friday: Governor Josh Shapiro declared LeBron James Day in Pennsylvania. Caitlin Clark, told the news live at WNBA All-Star media day: 'No way! Wow. I'll be watching more 76ers games.' Charles Barkley on TNT: 'He stacked it in Miami. He stacked it in Cleveland. He stacked it in LA. Now he's stacking it in Philly.' The central question \u2014 whether LeBron is chasing a title or genuinely choosing something different \u2014 is what's driving the debate. The $8 million says different. Passing up Cleveland, where he's a legend, and Miami, where he won twice, is the evidence.",
+      "hidden_question": "When the greatest basketball player of his era signs for $8 million at 41, passing Cleveland and Miami where he already won, what is he actually choosing \u2014 and why does everyone feel like it matters?",
       "editorial_potential": "high",
-      "url": "https://www.cleveland19.com/2026/07/24/76ers-land-lebron-james/",
+      "url": "https://www.inquirer.com/sixers/live/lebron-james-signs-philadelphia-76ers-contract-salary-roster-updates-reaction-20260724.html",
       "first_seen": "2026-07-24T00:00:00Z",
-      "last_seen": "2026-07-24T18:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-25T12:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-24T00:00:00Z",
+          "note": "Signs with 76ers. Two years, $8M. 'I'm not going for money.' Passed Cleveland and Miami."
+        },
+        {
+          "date": "2026-07-25T12:00:00Z",
+          "note": "Gov. Shapiro declares LeBron James Day. Caitlin Clark: 'No way! Wow.' Barkley: 'He stacked it again.' Dominates sports conversation heading into WNBA All-Star weekend."
+        }
+      ]
     },
     {
       "id": "lamine-yamal-completed-football",
@@ -142,6 +156,18 @@
       "url": "https://www.npr.org/2026/07/24/nx-s1-5905783/trump-tariff-trade-global-canada",
       "first_seen": "2026-07-24T00:00:00Z",
       "last_seen": "2026-07-24T18:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "wnba-allstar-clark-bueckers",
+      "category": "Culture & Entertainment",
+      "moment": "Caitlin Clark and Paige Bueckers captain opposite teams tonight at the WNBA All-Star Game in Chicago \u2014 8:30pm ET on ABC \u2014 the most-watched women's sports event of the year.",
+      "why_now": "The 2026 WNBA All-Star Game tips off tonight at the United Center in Chicago. Caitlin Clark (21.2 ppg, 8.2 apg \u2014 career high in scoring) captains Team Weatherspoon; Paige Bueckers (19.9 ppg, 5.9 apg) captains Team Cooper. Both received over 1 million fan votes, the highest totals in All-Star history. The Clark-Bueckers dynamic is the defining rivalry in women's basketball \u2014 two of the most popular players in the sport's history, one a second-year pro dominating the league, the other a rookie who came in as the most anticipated player since Clark herself. The game airs on ABC primetime, a platform commitment that would have been unthinkable five years ago.",
+      "hidden_question": "Why did women's basketball go from an afterthought to a primetime ABC event in three years \u2014 and what exactly changed?",
+      "editorial_potential": "high",
+      "url": "https://sports.yahoo.com/wnba/article/wnba-all-star-game-2026-schedule-date-rosters-how-to-watch-as-caitlin-clark-paige-bueckers-go-head-to-head-221518753.html",
+      "first_seen": "2026-07-25T00:00:00Z",
+      "last_seen": "2026-07-25T12:00:00Z",
       "appearances": 1
     },
     {
