@@ -5,14 +5,24 @@
     {
       "id": "iran-war-no-congressional-vote",
       "category": "Politics & World",
-      "moment": "The US has spent $37.5 billion on a war with Iran \u2014 started February 28 with joint US-Israeli strikes killing Iran's Supreme Leader \u2014 that Congress never voted on. Not a single vote before the first bomb fell.",
-      "why_now": "Trump launched the Iran war on February 28, 2026, citing the 2001 AUMF \u2014 the law passed three days after September 11 to authorize force against al-Qaeda \u2014 as legal justification. Congress never voted. The Pentagon's official cost is now $37.5 billion; internal DoD estimates put the real figure at $80-100 billion. Hegseth is asking Congress for $67 billion more. At a fiery July 22 Senate hearing, senators from both parties challenged him on cost discrepancies and what results the US has to show. Rep. Barrett has introduced a formal Iran-specific AUMF to limit the conflict and restore congressional war powers. Sen. Murphy has publicly questioned the administration's legal authority. Reason magazine called it plainly: 'Congress gave away its authority to declare war and enabled Trump's Iran war.'",
+      "moment": "Iran hit US military bases in Bahrain, Jordan, and Kuwait with drones overnight \u2014 day 147 of a war Congress never voted on; today the House passed a nonbinding 'end it' resolution 214-208 while the Senate fell one vote short of a binding halt.",
+      "why_now": "Trump launched the Iran war February 28, 2026 using the 2001 AUMF \u2014 a law written to fight al-Qaeda \u2014 without a congressional vote. Today Iran struck Sheikh Isa Air Base in Bahrain (fuel tanks, warehouses, barracks), aircraft hangars at Al-Azraq base in Jordan, and claimed a hit on an Amazon data center in Bahrain. CENTCOM completed its 13th consecutive night of strikes on Iran overnight. In Congress today: the House passed Rep. Jayapal's nonbinding resolution calling on Trump to end the war 214-208; the Senate fell 49-47 \u2014 one vote short \u2014 of discharging a binding Van Hollen resolution that would have halted US involvement. GOP is holding behind Trump. The Pentagon's official cost is $37.5 billion; internal DoD estimates say $80-100 billion. Hegseth is asking Congress for $67 billion more.",
       "hidden_question": "How did the United States end up in a $37 billion war \u2014 one that started with killing a foreign head of state \u2014 without a single member of Congress casting a vote?",
       "editorial_potential": "high",
-      "url": "https://reason.com/2026/05/05/congress-and-the-executive-enabled-illegal-war-in-iran/",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
       "first_seen": "2026-07-22T00:00:00Z",
       "last_seen": "2026-07-24T18:00:00Z",
-      "appearances": 1
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-22T00:00:00Z",
+          "note": "Hegseth testifies: official cost $37.5B, internal figure $80-100B. Senators from both parties challenge results. Barrett AUMF bill has one GOP cosponsor."
+        },
+        {
+          "date": "2026-07-24T18:00:00Z",
+          "note": "Iran strikes US bases in Bahrain, Jordan, Kuwait with drones. CENTCOM 13th consecutive night of strikes. House nonbinding 'end it' 214-208. Senate binding halt fails 49-47 \u2014 one vote short."
+        }
+      ]
     },
     {
       "id": "zelenskyy-fires-commander-protests",
@@ -106,6 +116,18 @@
       "hidden_question": "Can you make a follow-up to a cultural moment without the follow-up being about the cultural moment \u2014 and what happens when you try?",
       "editorial_potential": "medium",
       "url": "https://www.rollingstone.com/music/music-news/charli-xcx-new-album-music-fashion-film-1235570567/",
+      "first_seen": "2026-07-24T00:00:00Z",
+      "last_seen": "2026-07-24T18:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "trump-tariffs-60-countries",
+      "category": "Business & Markets",
+      "moment": "Trump's replacement tariffs went into effect at midnight \u2014 10-12.5% on 60 trading partners covering 99.4% of US imports \u2014 hours after the Supreme Court-struck 10% blanket duty expired.",
+      "why_now": "At 12:01 a.m. today, the Trump administration's new tariff suite went into effect on 60 countries \u2014 Canada, Mexico, India, the UK, and 56 others \u2014 covering 99.4% of all US imports. The rates are 10-12.5%, imposed under Section 301 of the Trade Act of 1974 under a forced labor rationale, replacing the near-blanket 10% tariff the Supreme Court recently ruled unlawful. NPR called Trump 'defiant' in the framing. The new duties affect essentially every major US trade relationship simultaneously. Consumer prices on a wide range of imported goods are expected to rise; the full economic effect will take weeks to appear in data.",
+      "hidden_question": "What does it mean to put a tax on 99.4% of what your country imports \u2014 and who actually ends up paying it?",
+      "editorial_potential": "high",
+      "url": "https://www.npr.org/2026/07/24/nx-s1-5905783/trump-tariff-trade-global-canada",
       "first_seen": "2026-07-24T00:00:00Z",
       "last_seen": "2026-07-24T18:00:00Z",
       "appearances": 1
