@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-07",
   "division_name": "AL East",
-  "generated_at": "2026-07-24T12:22:41.888333+00:00",
+  "generated_at": "2026-07-25T12:04:35.322440+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -198,12 +198,9 @@
       "opponent": "PHI",
       "home": false,
       "gamePk": 823434,
-      "status": "scheduled",
-      "time_local": "6:45 PM ET",
-      "probable": {
-        "team": "Will Warren",
-        "opp": "Jes\u00fas Luzardo"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "1\u20130"
     },
     {
       "date": "2026-07-25",
@@ -213,7 +210,7 @@
       "status": "scheduled",
       "time_local": "6:05 PM ET",
       "probable": {
-        "team": "Cam Schlittler"
+        "team": "Ryan Weathers"
       }
     },
     {
@@ -224,7 +221,7 @@
       "status": "scheduled",
       "time_local": "7:20 PM ET",
       "probable": {
-        "team": "Ryan Weathers",
+        "team": "Will Warren",
         "opp": "Cristopher S\u00e1nchez"
       }
     },
@@ -270,8 +267,8 @@
     }
   ],
   "summary": {
-    "month_record": "9\u201310",
-    "current_streak": "W1",
+    "month_record": "10\u201310",
+    "current_streak": "W2",
     "last_10": "7\u20133"
   }
 }
