@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-07",
   "division_name": "AL East",
-  "generated_at": "2026-07-25T12:04:35.322440+00:00",
+  "generated_at": "2026-07-26T12:07:23.058080+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -200,18 +200,17 @@
       "gamePk": 823434,
       "status": "final",
       "result": "W",
-      "score": "1\u20130"
+      "score": "1\u20130",
+      "archive_url": "archive.html?date=2026-07-25"
     },
     {
       "date": "2026-07-25",
       "opponent": "PHI",
       "home": false,
       "gamePk": 823435,
-      "status": "scheduled",
-      "time_local": "6:05 PM ET",
-      "probable": {
-        "team": "Ryan Weathers"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "3\u20131"
     },
     {
       "date": "2026-07-26",
@@ -231,7 +230,10 @@
       "home": false,
       "gamePk": 824570,
       "status": "scheduled",
-      "time_local": "7:40 PM ET"
+      "time_local": "7:40 PM ET",
+      "probable": {
+        "opp": "Noah Schultz"
+      }
     },
     {
       "date": "2026-07-28",
@@ -239,7 +241,10 @@
       "home": false,
       "gamePk": 824569,
       "status": "scheduled",
-      "time_local": "7:40 PM ET"
+      "time_local": "7:40 PM ET",
+      "probable": {
+        "opp": "Anthony Kay"
+      }
     },
     {
       "date": "2026-07-29",
@@ -247,7 +252,10 @@
       "home": false,
       "gamePk": 824567,
       "status": "scheduled",
-      "time_local": "7:40 PM ET"
+      "time_local": "7:40 PM ET",
+      "probable": {
+        "opp": "Davis Martin"
+      }
     },
     {
       "date": "2026-07-30",
@@ -255,7 +263,10 @@
       "home": false,
       "gamePk": 824568,
       "status": "scheduled",
-      "time_local": "2:10 PM ET"
+      "time_local": "2:10 PM ET",
+      "probable": {
+        "opp": "Sean Burke"
+      }
     },
     {
       "date": "2026-07-31",
@@ -267,8 +278,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u201310",
-    "current_streak": "W2",
+    "month_record": "11\u201310",
+    "current_streak": "W3",
     "last_10": "7\u20133"
   }
 }
