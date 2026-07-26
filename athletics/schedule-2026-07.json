@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-07",
   "division_name": "AL West",
-  "generated_at": "2026-07-25T14:12:23.738185+00:00",
+  "generated_at": "2026-07-26T14:11:07.918366+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -172,18 +172,17 @@
       "gamePk": 823680,
       "status": "final",
       "result": "W",
-      "score": "2\u20130"
+      "score": "2\u20130",
+      "archive_url": "archive.html?date=2026-07-25"
     },
     {
       "date": "2026-07-25",
       "opponent": "MIN",
       "home": false,
       "gamePk": 823679,
-      "status": "scheduled",
-      "time_local": "4:10 PM PT",
-      "probable": {
-        "team": "Mason Barnett"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20132"
     },
     {
       "date": "2026-07-26",
@@ -194,7 +193,7 @@
       "time_local": "11:10 AM PT",
       "probable": {
         "team": "Jeffrey Springs",
-        "opp": "Joe Ryan"
+        "opp": "Connor Prielipp"
       }
     },
     {
@@ -203,7 +202,10 @@
       "home": true,
       "gamePk": 824977,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "opp": "Payton Tolle"
+      }
     },
     {
       "date": "2026-07-28",
@@ -239,8 +241,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u201313",
-    "current_streak": "W1",
+    "month_record": "4\u201314",
+    "current_streak": "L1",
     "last_10": "3\u20137"
   }
 }
