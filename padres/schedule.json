@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-26T11:42:22.525896+00:00",
+  "generated_at": "2026-07-27T13:23:35.549100+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -211,19 +211,17 @@
       "gamePk": 823841,
       "status": "final",
       "result": "W",
-      "score": "7\u20132"
+      "score": "7\u20132",
+      "archive_url": "archive.html?date=2026-07-26"
     },
     {
       "date": "2026-07-26",
       "opponent": "MIA",
       "home": false,
       "gamePk": 823840,
-      "status": "scheduled",
-      "time_local": "10:40 AM PT",
-      "probable": {
-        "team": "Walker Buehler",
-        "opp": "Janson Junk"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20133"
     },
     {
       "date": "2026-07-28",
@@ -233,7 +231,8 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
-        "team": "Michael King"
+        "team": "Michael King",
+        "opp": "Michael Lorenzen"
       }
     },
     {
@@ -242,7 +241,10 @@
       "home": true,
       "gamePk": 823273,
       "status": "scheduled",
-      "time_local": "1:10 PM PT"
+      "time_local": "1:10 PM PT",
+      "probable": {
+        "opp": "Gabriel Hughes"
+      }
     },
     {
       "date": "2026-07-30",
@@ -262,8 +264,8 @@
     }
   ],
   "summary": {
-    "month_record": "9\u201312",
-    "current_streak": "W2",
+    "month_record": "10\u201312",
+    "current_streak": "W3",
     "last_10": "5\u20135"
   }
 }
