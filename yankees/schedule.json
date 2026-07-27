@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-07",
   "division_name": "AL East",
-  "generated_at": "2026-07-26T12:07:23.058080+00:00",
+  "generated_at": "2026-07-27T13:41:00.107426+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -210,19 +210,17 @@
       "gamePk": 823435,
       "status": "final",
       "result": "W",
-      "score": "3\u20131"
+      "score": "3\u20131",
+      "archive_url": "archive.html?date=2026-07-26"
     },
     {
       "date": "2026-07-26",
       "opponent": "PHI",
       "home": false,
       "gamePk": 823433,
-      "status": "scheduled",
-      "time_local": "7:20 PM ET",
-      "probable": {
-        "team": "Will Warren",
-        "opp": "Cristopher S\u00e1nchez"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "4\u201311"
     },
     {
       "date": "2026-07-27",
@@ -232,6 +230,7 @@
       "status": "scheduled",
       "time_local": "7:40 PM ET",
       "probable": {
+        "team": "Max Fried",
         "opp": "Noah Schultz"
       }
     },
@@ -243,6 +242,7 @@
       "status": "scheduled",
       "time_local": "7:40 PM ET",
       "probable": {
+        "team": "Gerrit Cole",
         "opp": "Anthony Kay"
       }
     },
@@ -254,6 +254,7 @@
       "status": "scheduled",
       "time_local": "7:40 PM ET",
       "probable": {
+        "team": "Cam Schlittler",
         "opp": "Davis Martin"
       }
     },
@@ -265,6 +266,7 @@
       "status": "scheduled",
       "time_local": "2:10 PM ET",
       "probable": {
+        "team": "Ryan Weathers",
         "opp": "Sean Burke"
       }
     },
@@ -278,8 +280,8 @@
     }
   ],
   "summary": {
-    "month_record": "11\u201310",
-    "current_streak": "W3",
-    "last_10": "7\u20133"
+    "month_record": "11\u201311",
+    "current_streak": "L1",
+    "last_10": "6\u20134"
   }
 }
