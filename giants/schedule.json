@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-26T13:23:50.833825+00:00",
+  "generated_at": "2026-07-27T14:35:49.466344+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -192,19 +192,17 @@
       "gamePk": 823197,
       "status": "final",
       "result": "W",
-      "score": "9\u20132"
+      "score": "9\u20132",
+      "archive_url": "archive.html?date=2026-07-26"
     },
     {
       "date": "2026-07-26",
       "opponent": "LAA",
       "home": true,
       "gamePk": 823194,
-      "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "team": "Carson Whisenhunt",
-        "opp": "Jos\u00e9 Soriano"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20134"
     },
     {
       "date": "2026-07-27",
@@ -214,6 +212,7 @@
       "status": "scheduled",
       "time_local": "6:45 PM PT",
       "probable": {
+        "team": "Tyler Mahle",
         "opp": "Brandon Sproat"
       }
     },
@@ -225,6 +224,7 @@
       "status": "scheduled",
       "time_local": "6:45 PM PT",
       "probable": {
+        "team": "Landen Roupp",
         "opp": "Logan Henderson"
       }
     },
@@ -236,6 +236,7 @@
       "status": "scheduled",
       "time_local": "12:45 PM PT",
       "probable": {
+        "team": "Logan Webb",
         "opp": "Shane Drohan"
       }
     },
@@ -257,8 +258,8 @@
     }
   ],
   "summary": {
-    "month_record": "9\u201310",
-    "current_streak": "W2",
-    "last_10": "5\u20135"
+    "month_record": "9\u201311",
+    "current_streak": "L1",
+    "last_10": "4\u20136"
   }
 }
