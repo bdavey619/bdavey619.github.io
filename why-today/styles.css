@@ -363,6 +363,146 @@ body {
   line-height: 1.5;
 }
 
+/* ─── CABINET OF CURIOSITIES — STREAMS ─── */
+
+.stream-summary {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 40px 24px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: var(--text-tertiary);
+  letter-spacing: 0.02em;
+}
+
+.stream-section {
+  border-top: 1px solid var(--rule);
+  padding: 24px 0 12px;
+}
+
+.stream-section:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.stream-label {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.stream-dormant .stream-label {
+  color: var(--text-tertiary);
+}
+
+.stream-dormant-note {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--text-tertiary);
+  margin-bottom: 8px;
+}
+
+/* Within headlines stream, categories become sub-sections */
+.stream-section .storyline-category {
+  border-top: 1px solid var(--rule);
+  padding: 12px 0 4px;
+  margin-left: 0;
+}
+
+.stream-section .storyline-category:first-child {
+  border-top: none;
+}
+
+.stream-section .storyline-category-label {
+  color: var(--text-tertiary);
+  margin-bottom: 6px;
+}
+
+/* ─── CURIOSITY CARD FIELDS ─── */
+
+.curiosity-observation {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text);
+  line-height: 1.5;
+  margin-top: 2px;
+}
+
+.curiosity-question {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.curiosity-season {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: var(--text-tertiary);
+  margin-left: 4px;
+}
+
+.curiosity-location {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: var(--text-tertiary);
+  margin-left: 4px;
+}
+
+/* ─── STATUS CHIPS ─── */
+
+.curiosity-status {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 1px 5px;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.status-curious {
+  background: #EEF3FD;
+  color: #3B5BA8;
+}
+
+.status-investigating {
+  background: #F0F8EE;
+  color: #3A7A30;
+}
+
+.status-thread_found {
+  background: #FDF5EC;
+  color: #A06820;
+}
+
+.status-ready_to_shape {
+  background: #FDF0EC;
+  color: var(--accent);
+}
+
+.status-published {
+  background: var(--bg-warm);
+  color: var(--text-tertiary);
+}
+
+.status-dormant {
+  background: var(--bg-warm);
+  color: var(--text-tertiary);
+}
+
 @media (max-width: 640px) {
   .masthead { padding: 20px 24px; flex-wrap: wrap; row-gap: 8px; }
   .masthead-tagline { display: none; }
@@ -373,4 +513,5 @@ body {
   .storylines-meta-bar { padding: 0 24px 32px; }
   .storylines-section { padding: 0 24px 72px; }
   .storyline-row { flex-direction: column; gap: 2px; }
+  .stream-summary { padding: 0 24px 16px; }
 }
