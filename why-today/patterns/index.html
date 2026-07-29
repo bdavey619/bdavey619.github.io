@@ -193,14 +193,45 @@ body {
   border-bottom: 1px solid var(--rule);
 }
 
+.ev-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 2px;
+}
+
 .ev-domain {
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--text-3);
-  padding-top: 2px;
-  line-height: 1.5;
+  line-height: 1.4;
+}
+
+.ev-new-badge {
+  display: inline-block;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 1px 5px;
+  border-radius: 2px;
+  width: fit-content;
+}
+
+.ev-date {
+  font-size: 10px;
+  color: var(--text-3);
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.ev-item--new {
+  box-shadow: -3px 0 0 var(--accent);
+  padding-left: 12px;
 }
 
 .ev-body {
@@ -261,7 +292,8 @@ body {
     grid-template-columns: 1fr;
     gap: 6px;
   }
-  .ev-domain { padding-top: 0; }
+  .ev-meta { flex-direction: row; flex-wrap: wrap; gap: 6px; align-items: baseline; }
+  .ev-date { padding-top: 0; }
 }
 
 /* ── FOCUS ── */
@@ -294,21 +326,30 @@ body {
       <p class="pattern-explanation">The Strait of Hormuz has been near-stopped since February 28, when U.S.-Iran fighting began. The disruption is now legible everywhere the system touches. Infrastructure becomes visible precisely by becoming unreliable.</p>
       <ul class="evidence-list">
         <li class="ev-item">
-          <span class="ev-domain">Shipping</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Shipping</span>
+          <time class="ev-date">Jul 10</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">Commercial tanker traffic through the Strait has ground to a near-halt since U.S.-Iran fighting began. Roughly 20% of global oil and LNG trade passes through a strait that is no longer passable.</p>
           <a href="https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
         <li class="ev-item">
-          <span class="ev-domain">Energy</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Energy</span>
+          <time class="ev-date">Jul 2026</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">European TTF gas prices rose above EUR60/MWh — more than 50% above levels when fighting began. Europe enters autumn with storage at 28%.</p>
           <a href="https://www.eia.gov/todayinenergy/detail.php?id=67604" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
         <li class="ev-item">
-          <span class="ev-domain">Labor</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Labor</span>
+          <time class="ev-date">Jul 2026</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">Some 6,000 seafarers remain stranded on vessels in and around the Strait as of late July. Seventeen crew members have been killed; nine ships abandoned outright by their owners at Iranian ports.</p>
           <a href="https://gcaptain.com/the-race-to-rescue-8000-sailors-still-stranded-behind-hormuz/" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
@@ -322,21 +363,30 @@ body {
       <p class="pattern-explanation">Late July is when several slow-moving transitions arrive at once: firefly season closes, the Perseids begin building, Lammas marks the cross-quarter day between solstice and equinox. None of them are news. Together they mark a passage the Gregorian calendar has no word for.</p>
       <ul class="evidence-list">
         <li class="ev-item">
-          <span class="ev-domain">Natural World</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Natural World</span>
+          <time class="ev-date">Annual</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">Firefly season is ending across most of North America. The bioluminescent window closes in late July — gone until next summer with no announcement.</p>
           <a href="https://www.accuweather.com/en/leisure-recreation/firefly-season-is-here-when-to-watch-for-summers-flashing-lights/1898307" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
         <li class="ev-item">
-          <span class="ev-domain">Astronomy</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Astronomy</span>
+          <time class="ev-date">Annual</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">Earth is moving through debris left by Comet Swift-Tuttle. The Perseids build toward their August 12–13 peak.</p>
           <a href="https://earthsky.org/astronomy-essentials/everything-you-need-to-know-perseid-meteor-shower/" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
         <li class="ev-item">
-          <span class="ev-domain">Season</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Season</span>
+          <time class="ev-date">Annual</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">Lammas, August 1, is the cross-quarter day midway between the summer solstice and the autumn equinox. Pre-industrial calendars named this passage. Modern ones largely forgot it.</p>
           <a href="https://nationaltoday.com/lammas-day/" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
@@ -350,21 +400,30 @@ body {
       <p class="pattern-explanation">The language of AI development — open source, open weights, frontier models — is being rewritten in real time, and the rewrites are not neutral. The same week China&#x27;s Kimi K3 became the largest open-weights model ever released, 29 nations without a single Western democracy launched a coordinated AI governance body. The vocabulary and the infrastructure are being claimed simultaneously.</p>
       <ul class="evidence-list">
         <li class="ev-item">
-          <span class="ev-domain">Technology</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Technology</span>
+          <time class="ev-date">Jul 16</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">Kimi K3, released with open weights at 2.8 trillion parameters, is the largest open-weights model ever — larger than anything currently available from Western labs.</p>
           <a href="https://fortune.com/2026/07/16/moonshots-kimi-k3-pushes-chinese-ai-into-fable-level-territory/" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
         <li class="ev-item">
-          <span class="ev-domain">Governance</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Governance</span>
+          <time class="ev-date">Jul 28</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">WAICO, a new AI coordination body, launched in Shanghai with 29 member nations. Not a single Western democracy is among them.</p>
           <a href="https://www.forbes.com/sites/timbajarin/2026/07/28/china-launches-waico-in-shanghai-as-west-sits-out-ai-governance/" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
         <li class="ev-item">
-          <span class="ev-domain">Law</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Law</span>
+          <time class="ev-date">Jul 28</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">The White House has accused Moonshot AI of distilling Anthropic&#x27;s models to build K3. If established in court, the legal theory would make open-weights models legally distinct from open-source ones in ways the field hasn&#x27;t worked through.</p>
           <a href="https://www.techtimes.com/articles/321757/20260728/china-fires-back-us-targets-moonshot-ai-over-kimi-k3-anthropic-fable-theft-claim.htm" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
@@ -378,28 +437,40 @@ body {
       <p class="pattern-explanation">This summer, heat isn&#x27;t functioning as weather — it&#x27;s a force reorganizing systems that don&#x27;t normally share a vocabulary. The same pressure is reshaping insurance markets, fishing grounds, wine harvests, and coral reefs at the same time.</p>
       <ul class="evidence-list">
         <li class="ev-item">
-          <span class="ev-domain">Ocean</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Ocean</span>
+          <time class="ev-date">Jul 27</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">Coral researchers in Florida are physically relocating fragments to cooler, deeper water — a technique that admits their current habitat is no longer viable year-round.</p>
           <a href="https://www.wusf.org/environment/2026-07-27/how-floridas-coral-researchers-are-adapting-to-extreme-heat-amid-another-el-nino-warming-event" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
         <li class="ev-item">
-          <span class="ev-domain">Insurance</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Insurance</span>
+          <time class="ev-date">Jul 2026</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">More than 1 in 17 new home loans in California relied on the state&#x27;s insurer of last resort in Q1 2026. Private carriers have largely stopped writing policies in fire-risk zones.</p>
           <a href="https://beinsure.com/news/california-fair-plan-now-insures-more-new-home-loans/" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
         <li class="ev-item">
-          <span class="ev-domain">Agriculture</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Agriculture</span>
+          <time class="ev-date">Jul 2026</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">Wildfires appeared in Bordeaux this summer. Winemakers are harvesting weeks earlier than historical averages — a calendar shift that changes not just timing but the character of the wine.</p>
           <a href="https://www.wine-searcher.com/m/2026/07/heatwaves-threaten-bordeaux-harvest" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
         <li class="ev-item">
-          <span class="ev-domain">Fisheries</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Fisheries</span>
+          <time class="ev-date">Feb 18</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">Atlantic bluefin tuna are projected to shift their range significantly northward as ocean warming accelerates. The fishing industry&#x27;s maps of where fish live are becoming unreliable.</p>
           <a href="https://www.undercurrentnews.com/2026/02/18/atlantic-bluefin-tuna-set-to-shift-north-as-ocean-warming-accelerates/" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
@@ -413,28 +484,40 @@ body {
       <p class="pattern-explanation">Several distinct stories this week share an underlying shape: the mechanism designed to check power was either absent or actively removed. Across four countries, four domains. The structural absence is the same.</p>
       <ul class="evidence-list">
         <li class="ev-item">
-          <span class="ev-domain">Constitutional</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Constitutional</span>
+          <time class="ev-date">Jul 23</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">The Senate voted 47–49 to kill a binding War Powers resolution. Operations in Iran enter their fifth month without formal congressional authorization.</p>
           <a href="https://www.cnn.com/2026/07/23/politics/trump-iran-war-powers" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
         <li class="ev-item">
-          <span class="ev-domain">Military</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Military</span>
+          <time class="ev-date">Jul 21</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">Zelenskyy fired Gen. Oleksandr Syrskyi as Ukraine&#x27;s commander-in-chief on July 21. The move came in response to nationwide protests — not internal review.</p>
           <a href="https://www.pbs.org/newshour/world/ukraines-zelenskyy-fires-his-army-chief-after-protests-and-names-a-replacement" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
         <li class="ev-item">
-          <span class="ev-domain">Diplomacy</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Diplomacy</span>
+          <time class="ev-date">Jul 21</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">New York&#x27;s new mayor pledged to arrest Netanyahu upon his UN visit, then acknowledged publicly he lacks the legal authority to do so. No mechanism exists to close the gap between municipal conviction, federal policy, and international law.</p>
           <a href="https://www.cnn.com/2026/07/21/politics/zohran-mamdani-benjamin-netanyahu-israel-arrest-icc" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
         <li class="ev-item">
-          <span class="ev-domain">Technology</span>
+          <div class="ev-meta">
+            <span class="ev-domain">Technology</span>
+          <time class="ev-date">Jul 22</time>
+          </div>
           <div class="ev-body">
             <p class="ev-text">France&#x27;s parliament passed a ban on social media for children under 15, then cut the enforcement mechanism from the final bill. Platforms must verify ages but face no binding obligation to actually block access.</p>
           <a href="https://www.techtimes.com/articles/321273/20260722/france-bans-social-media-under-15s-cut-enforcement-mechanism.htm" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>

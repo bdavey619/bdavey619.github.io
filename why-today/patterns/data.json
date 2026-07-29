@@ -11,22 +11,30 @@
         {
           "domain": "Ocean",
           "text": "Coral researchers in Florida are physically relocating fragments to cooler, deeper water — a technique that admits their current habitat is no longer viable year-round.",
-          "url": "https://www.wusf.org/environment/2026-07-27/how-floridas-coral-researchers-are-adapting-to-extreme-heat-amid-another-el-nino-warming-event"
+          "url": "https://www.wusf.org/environment/2026-07-27/how-floridas-coral-researchers-are-adapting-to-extreme-heat-amid-another-el-nino-warming-event",
+          "date": "2026-07-27",
+          "is_new": false
         },
         {
           "domain": "Insurance",
           "text": "More than 1 in 17 new home loans in California relied on the state's insurer of last resort in Q1 2026. Private carriers have largely stopped writing policies in fire-risk zones.",
-          "url": "https://beinsure.com/news/california-fair-plan-now-insures-more-new-home-loans/"
+          "url": "https://beinsure.com/news/california-fair-plan-now-insures-more-new-home-loans/",
+          "date": "2026-07",
+          "is_new": false
         },
         {
           "domain": "Agriculture",
           "text": "Wildfires appeared in Bordeaux this summer. Winemakers are harvesting weeks earlier than historical averages — a calendar shift that changes not just timing but the character of the wine.",
-          "url": "https://www.wine-searcher.com/m/2026/07/heatwaves-threaten-bordeaux-harvest"
+          "url": "https://www.wine-searcher.com/m/2026/07/heatwaves-threaten-bordeaux-harvest",
+          "date": "2026-07",
+          "is_new": false
         },
         {
           "domain": "Fisheries",
           "text": "Atlantic bluefin tuna are projected to shift their range significantly northward as ocean warming accelerates. The fishing industry's maps of where fish live are becoming unreliable.",
-          "url": "https://www.undercurrentnews.com/2026/02/18/atlantic-bluefin-tuna-set-to-shift-north-as-ocean-warming-accelerates/"
+          "url": "https://www.undercurrentnews.com/2026/02/18/atlantic-bluefin-tuna-set-to-shift-north-as-ocean-warming-accelerates/",
+          "date": "2026-02-18",
+          "is_new": false
         }
       ]
     },
@@ -39,17 +47,23 @@
         {
           "domain": "Shipping",
           "text": "Commercial tanker traffic through the Strait has ground to a near-halt since U.S.-Iran fighting began. Roughly 20% of global oil and LNG trade passes through a strait that is no longer passable.",
-          "url": "https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting"
+          "url": "https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting",
+          "date": "2026-07-10",
+          "is_new": false
         },
         {
           "domain": "Energy",
           "text": "European TTF gas prices rose above EUR60/MWh — more than 50% above levels when fighting began. Europe enters autumn with storage at 28%.",
-          "url": "https://www.eia.gov/todayinenergy/detail.php?id=67604"
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=67604",
+          "date": "2026-07",
+          "is_new": false
         },
         {
           "domain": "Labor",
           "text": "Some 6,000 seafarers remain stranded on vessels in and around the Strait as of late July. Seventeen crew members have been killed; nine ships abandoned outright by their owners at Iranian ports.",
-          "url": "https://gcaptain.com/the-race-to-rescue-8000-sailors-still-stranded-behind-hormuz/"
+          "url": "https://gcaptain.com/the-race-to-rescue-8000-sailors-still-stranded-behind-hormuz/",
+          "date": "2026-07",
+          "is_new": false
         }
       ]
     },
@@ -62,17 +76,23 @@
         {
           "domain": "Technology",
           "text": "Kimi K3, released with open weights at 2.8 trillion parameters, is the largest open-weights model ever — larger than anything currently available from Western labs.",
-          "url": "https://fortune.com/2026/07/16/moonshots-kimi-k3-pushes-chinese-ai-into-fable-level-territory/"
+          "url": "https://fortune.com/2026/07/16/moonshots-kimi-k3-pushes-chinese-ai-into-fable-level-territory/",
+          "date": "2026-07-16",
+          "is_new": false
         },
         {
           "domain": "Governance",
           "text": "WAICO, a new AI coordination body, launched in Shanghai with 29 member nations. Not a single Western democracy is among them.",
-          "url": "https://www.forbes.com/sites/timbajarin/2026/07/28/china-launches-waico-in-shanghai-as-west-sits-out-ai-governance/"
+          "url": "https://www.forbes.com/sites/timbajarin/2026/07/28/china-launches-waico-in-shanghai-as-west-sits-out-ai-governance/",
+          "date": "2026-07-28",
+          "is_new": false
         },
         {
           "domain": "Law",
           "text": "The White House has accused Moonshot AI of distilling Anthropic's models to build K3. If established in court, the legal theory would make open-weights models legally distinct from open-source ones in ways the field hasn't worked through.",
-          "url": "https://www.techtimes.com/articles/321757/20260728/china-fires-back-us-targets-moonshot-ai-over-kimi-k3-anthropic-fable-theft-claim.htm"
+          "url": "https://www.techtimes.com/articles/321757/20260728/china-fires-back-us-targets-moonshot-ai-over-kimi-k3-anthropic-fable-theft-claim.htm",
+          "date": "2026-07-28",
+          "is_new": false
         }
       ]
     },
@@ -85,17 +105,23 @@
         {
           "domain": "Natural World",
           "text": "Firefly season is ending across most of North America. The bioluminescent window closes in late July — gone until next summer with no announcement.",
-          "url": "https://www.accuweather.com/en/leisure-recreation/firefly-season-is-here-when-to-watch-for-summers-flashing-lights/1898307"
+          "url": "https://www.accuweather.com/en/leisure-recreation/firefly-season-is-here-when-to-watch-for-summers-flashing-lights/1898307",
+          "date": "annual",
+          "is_new": false
         },
         {
           "domain": "Astronomy",
           "text": "Earth is moving through debris left by Comet Swift-Tuttle. The Perseids build toward their August 12–13 peak.",
-          "url": "https://earthsky.org/astronomy-essentials/everything-you-need-to-know-perseid-meteor-shower/"
+          "url": "https://earthsky.org/astronomy-essentials/everything-you-need-to-know-perseid-meteor-shower/",
+          "date": "annual",
+          "is_new": false
         },
         {
           "domain": "Season",
           "text": "Lammas, August 1, is the cross-quarter day midway between the summer solstice and the autumn equinox. Pre-industrial calendars named this passage. Modern ones largely forgot it.",
-          "url": "https://nationaltoday.com/lammas-day/"
+          "url": "https://nationaltoday.com/lammas-day/",
+          "date": "annual",
+          "is_new": false
         }
       ]
     },
@@ -108,22 +134,30 @@
         {
           "domain": "Constitutional",
           "text": "The Senate voted 47–49 to kill a binding War Powers resolution. Operations in Iran enter their fifth month without formal congressional authorization.",
-          "url": "https://www.cnn.com/2026/07/23/politics/trump-iran-war-powers"
+          "url": "https://www.cnn.com/2026/07/23/politics/trump-iran-war-powers",
+          "date": "2026-07-23",
+          "is_new": false
         },
         {
           "domain": "Military",
           "text": "Zelenskyy fired Gen. Oleksandr Syrskyi as Ukraine's commander-in-chief on July 21. The move came in response to nationwide protests — not internal review.",
-          "url": "https://www.pbs.org/newshour/world/ukraines-zelenskyy-fires-his-army-chief-after-protests-and-names-a-replacement"
+          "url": "https://www.pbs.org/newshour/world/ukraines-zelenskyy-fires-his-army-chief-after-protests-and-names-a-replacement",
+          "date": "2026-07-21",
+          "is_new": false
         },
         {
           "domain": "Diplomacy",
           "text": "New York's new mayor pledged to arrest Netanyahu upon his UN visit, then acknowledged publicly he lacks the legal authority to do so. No mechanism exists to close the gap between municipal conviction, federal policy, and international law.",
-          "url": "https://www.cnn.com/2026/07/21/politics/zohran-mamdani-benjamin-netanyahu-israel-arrest-icc"
+          "url": "https://www.cnn.com/2026/07/21/politics/zohran-mamdani-benjamin-netanyahu-israel-arrest-icc",
+          "date": "2026-07-21",
+          "is_new": false
         },
         {
           "domain": "Technology",
           "text": "France's parliament passed a ban on social media for children under 15, then cut the enforcement mechanism from the final bill. Platforms must verify ages but face no binding obligation to actually block access.",
-          "url": "https://www.techtimes.com/articles/321273/20260722/france-bans-social-media-under-15s-cut-enforcement-mechanism.htm"
+          "url": "https://www.techtimes.com/articles/321273/20260722/france-bans-social-media-under-15s-cut-enforcement-mechanism.htm",
+          "date": "2026-07-22",
+          "is_new": false
         }
       ]
     }
