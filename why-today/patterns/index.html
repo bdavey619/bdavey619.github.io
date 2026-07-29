@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Today? &middot; Week of July 27, 2026</title>
+  <style>
+/* ── TOKENS ── */
+:root {
+  --bg:           #FAFAF5;
+  --bg-warm:      #F2F0E8;
+  --text:         #1C1A18;
+  --text-2:       #5E5A53;
+  --text-3:       #9A968F;
+  --accent:       #B5451B;
+  --rule:         #DDDAD0;
+  --max:          680px;
+
+  --c-building:    #3D5A8A; --c-building-bg:    #EDF1F9;
+  --c-accel:       #2D6830; --c-accel-bg:       #EAF3EB;
+  --c-peaking:     #9B3A10; --c-peaking-bg:     #FBF0EB;
+  --c-fading:      #9A968F; --c-fading-bg:      #F2F0E8;
+  --c-acute:       #8B1A1A; --c-acute-bg:       #FBEEEE;
+  --c-persist:     #5E5A53; --c-persist-bg:     #F2F0E8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:           #131110;
+    --bg-warm:      #1C1A17;
+    --text:         #EDEAD3;
+    --text-2:       #9C9880;
+    --text-3:       #6A6758;
+    --accent:       #CF6238;
+    --rule:         #2C2920;
+
+    --c-building:    #7A9AC4; --c-building-bg:    #151D2C;
+    --c-accel:       #7AAF80; --c-accel-bg:       #151F16;
+    --c-peaking:     #CF6238; --c-peaking-bg:     #261710;
+    --c-fading:      #6A6758; --c-fading-bg:      #1C1A17;
+    --c-acute:       #C44040; --c-acute-bg:       #261414;
+    --c-persist:     #9C9880; --c-persist-bg:     #1C1A17;
+  }
+}
+
+:root[data-theme="light"] {
+  --bg: #FAFAF5; --bg-warm: #F2F0E8;
+  --text: #1C1A18; --text-2: #5E5A53; --text-3: #9A968F;
+  --accent: #B5451B; --rule: #DDDAD0;
+  --c-building: #3D5A8A; --c-building-bg: #EDF1F9;
+  --c-accel: #2D6830; --c-accel-bg: #EAF3EB;
+  --c-peaking: #9B3A10; --c-peaking-bg: #FBF0EB;
+  --c-fading: #9A968F; --c-fading-bg: #F2F0E8;
+  --c-acute: #8B1A1A; --c-acute-bg: #FBEEEE;
+  --c-persist: #5E5A53; --c-persist-bg: #F2F0E8;
+}
+
+:root[data-theme="dark"] {
+  --bg: #131110; --bg-warm: #1C1A17;
+  --text: #EDEAD3; --text-2: #9C9880; --text-3: #6A6758;
+  --accent: #CF6238; --rule: #2C2920;
+  --c-building: #7A9AC4; --c-building-bg: #151D2C;
+  --c-accel: #7AAF80; --c-accel-bg: #151F16;
+  --c-peaking: #CF6238; --c-peaking-bg: #261710;
+  --c-fading: #6A6758; --c-fading-bg: #1C1A17;
+  --c-acute: #C44040; --c-acute-bg: #261414;
+  --c-persist: #9C9880; --c-persist-bg: #1C1A17;
+}
+
+/* ── RESET ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── MASTHEAD ── */
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 28px 32px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.pub-name {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.pub-week {
+  font-size: 12px;
+  color: var(--text-3);
+  letter-spacing: 0.04em;
+}
+
+/* ── LEDE ── */
+.lede {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 52px 24px 48px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.lede-headline {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  font-size: clamp(28px, 5vw, 40px);
+  font-weight: normal;
+  line-height: 1.15;
+  color: var(--text);
+  text-wrap: balance;
+  margin-bottom: 16px;
+}
+
+.lede-description {
+  font-size: 15px;
+  color: var(--text-2);
+  line-height: 1.6;
+  max-width: 520px;
+  margin-bottom: 20px;
+}
+
+.lede-updated {
+  font-size: 12px;
+  color: var(--text-3);
+  letter-spacing: 0.04em;
+}
+
+/* ── PATTERNS ── */
+.patterns {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 24px 96px;
+}
+
+.pattern {
+  padding: 48px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.pattern:last-child {
+  border-bottom: none;
+}
+
+/* ── PATTERN HEADER ── */
+.pattern-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.momentum-chip {
+  flex-shrink: 0;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 3px 7px;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+
+.momentum-building     { color: var(--c-building);  background: var(--c-building-bg); }
+.momentum-accelerating { color: var(--c-accel);     background: var(--c-accel-bg); }
+.momentum-peaking      { color: var(--c-peaking);   background: var(--c-peaking-bg); }
+.momentum-fading       { color: var(--c-fading);    background: var(--c-fading-bg); }
+.momentum-acute        { color: var(--c-acute);     background: var(--c-acute-bg); }
+.momentum-persistent   { color: var(--c-persist);   background: var(--c-persist-bg); }
+
+.pattern-title {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  font-size: clamp(19px, 3vw, 24px);
+  font-weight: normal;
+  line-height: 1.25;
+  color: var(--text);
+  text-wrap: balance;
+  flex: 1;
+  min-width: 0;
+}
+
+/* ── EXPLANATION ── */
+.pattern-explanation {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-2);
+  margin-bottom: 28px;
+}
+
+/* ── EVIDENCE ── */
+.evidence-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.ev-item {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 0 16px;
+  align-items: baseline;
+  padding: 10px 0;
+  border-top: 1px solid var(--rule);
+}
+
+.ev-item:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.ev-domain {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  padding-top: 1px;
+  line-height: 1.5;
+}
+
+.ev-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-2);
+}
+
+.ev-link {
+  color: inherit;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 2px;
+}
+
+.ev-link:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
+/* ── FOOTER ── */
+.footer {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 32px 24px 48px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--rule);
+}
+
+.footer-name {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+
+.footer-note {
+  font-size: 12px;
+  color: var(--text-3);
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 480px) {
+  .masthead { padding: 20px 16px; }
+  .lede     { padding: 36px 16px 32px; }
+  .patterns { padding: 0 16px 64px; }
+  .footer   { padding: 24px 16px 40px; flex-direction: column; gap: 8px; }
+
+  .ev-item {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  .ev-domain { padding-top: 0; }
+}
+
+/* ── FOCUS ── */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+  </style>
+</head>
+<body>
+
+  <header class="masthead">
+    <a href="../" class="pub-name">Why Today?</a>
+    <span class="pub-week">Week of July 27, 2026</span>
+  </header>
+
+  <section class="lede">
+    <h1 class="lede-headline">What the week reveals.</h1>
+    <p class="lede-description">5 patterns identified from this week&#x27;s observations across the cabinet.</p>
+    <p class="lede-updated">Updated July 29, 2026</p>
+  </section>
+
+  <div class="patterns">
+    <article class="pattern" id="energy-systems-architecture-visible">
+      <header class="pattern-header">
+        <span class="momentum-chip momentum-acute">Acute</span>
+        <h2 class="pattern-title">The Energy System&#x27;s Hidden Architecture, Now Visible</h2>
+      </header>
+      <p class="pattern-explanation">The Strait of Hormuz — through which roughly a fifth of the world&#x27;s traded oil passes — has seen a sharp drop in commercial traffic. The effect is now rippling: LNG prices in Europe, hundreds of stranded seafarers, and a 149-day US military operation conducted without a congressional vote. Infrastructure everyone depends on is becoming visible precisely by becoming unreliable.</p>
+      <ul class="evidence-list">
+        <li class="ev-item">
+          <span class="ev-domain">Shipping</span>
+          <span class="ev-text">Commercial tanker traffic through the Strait of Hormuz has dropped sharply as operators reroute around the risk corridor, adding weeks and significant cost to each voyage.</span>
+        </li>
+        <li class="ev-item">
+          <span class="ev-domain">Energy</span>
+          <span class="ev-text">European LNG spot prices have responded within days — a direct demonstration that the continent&#x27;s energy independence from Russia transferred its dependency to a different chokepoint.</span>
+        </li>
+        <li class="ev-item">
+          <span class="ev-domain">Labor</span>
+          <span class="ev-text">Hundreds of seafarers remain stranded on vessels operators have chosen not to move through the strait. They are trapped between their employment contracts and a geopolitical risk their employers will not accept.</span>
+        </li>
+        <li class="ev-item">
+          <span class="ev-domain">Constitutional</span>
+          <span class="ev-text">The US has now conducted military operations in the region for 149 consecutive days without a congressional vote under the War Powers Act, which requires one within 60 days.</span>
+        </li>
+      </ul>
+    </article>
+
+    <article class="pattern" id="late-july-threshold">
+      <header class="pattern-header">
+        <span class="momentum-chip momentum-peaking">Peaking now</span>
+        <h2 class="pattern-title">The Late July Threshold</h2>
+      </header>
+      <p class="pattern-explanation">Late July is when several slow-moving transitions arrive at once: the year&#x27;s peak produce, the first signs of the Perseids building, Ghost Month opening on the lunar calendar, Lammas marking the cross-quarter day between solstice and equinox, and the quiet end of firefly season. None of them are news. Together they mark a passage the Gregorian calendar has no word for.</p>
+      <ul class="evidence-list">
+        <li class="ev-item">
+          <span class="ev-domain">Natural World</span>
+          <span class="ev-text">Firefly season is ending. The bioluminescent window that opened in June closes in late July — one of the year&#x27;s most specific sensory events, gone until next summer with no announcement.</span>
+        </li>
+        <li class="ev-item">
+          <span class="ev-domain">Astronomy</span>
+          <span class="ev-text">The Perseids are building toward their August 11–13 peak. Earth is currently moving through a debris trail left by Comet Swift-Tuttle — a trail the planet crosses at the same point in its orbit every year.</span>
+        </li>
+        <li class="ev-item">
+          <span class="ev-domain">Culture</span>
+          <span class="ev-text">Ghost Month opens July 28 in the lunar calendar. Observed by more than a billion people across East and Southeast Asia, it marks a period when the boundary between the living and the dead is considered thin.</span>
+        </li>
+        <li class="ev-item">
+          <span class="ev-domain">Season</span>
+          <span class="ev-text">Lammas, August 1, is the cross-quarter day midway between the summer solstice and the autumn equinox. In much of the US, county fairs open the same week — a ritual that maps almost exactly onto this seasonal midpoint.</span>
+        </li>
+      </ul>
+    </article>
+
+    <article class="pattern" id="ai-as-geopolitical-terrain">
+      <header class="pattern-header">
+        <span class="momentum-chip momentum-accelerating">Accelerating</span>
+        <h2 class="pattern-title">AI as Geopolitical Terrain</h2>
+      </header>
+      <p class="pattern-explanation">The language of AI development — open source, open weights, frontier models — is being rewritten in real time, and the rewrites are not neutral. The same week China&#x27;s Kimi K3 became the largest open-weights model ever released, 29 nations without a single Western democracy launched a coordinated AI governance body. The vocabulary and the infrastructure are being claimed simultaneously.</p>
+      <ul class="evidence-list">
+        <li class="ev-item">
+          <span class="ev-domain">Technology</span>
+          <span class="ev-text">Kimi K3, released as open weights at 2.8 trillion parameters, is the largest model ever released under an open-weights license — larger than anything currently available from Western labs.</span>
+        </li>
+        <li class="ev-item">
+          <span class="ev-domain">Governance</span>
+          <span class="ev-text">WAICO, a new AI coordination body, launched with 29 member nations. No Western democracy is among them.</span>
+        </li>
+        <li class="ev-item">
+          <span class="ev-domain">Law</span>
+          <span class="ev-text">OpenAI has accused Kimi&#x27;s developer of training on distilled outputs of its models — a legal theory that, if established, would make open-weights models legally different from open-source ones in ways the field has not yet worked through.</span>
+        </li>
+      </ul>
+    </article>
+
+    <article class="pattern" id="heat-as-restructuring-pressure">
+      <header class="pattern-header">
+        <span class="momentum-chip momentum-building">Building</span>
+        <h2 class="pattern-title">Heat as a Restructuring Pressure</h2>
+      </header>
+      <p class="pattern-explanation">This summer, heat isn&#x27;t functioning as weather — it&#x27;s a force reorganizing multiple systems simultaneously. Insurance markets, fishing grounds, wine harvests, and coral ecosystems are all responding to the same signal in ways none of them would predict by looking at each other.</p>
+      <ul class="evidence-list">
+        <li class="ev-item">
+          <span class="ev-domain">Ocean</span>
+          <span class="ev-text">Coral reefs off Florida are being physically relocated — not restored in place, but moved to cooler water for the first time. The admission embedded in that decision: their current habitat is no longer viable.</span>
+        </li>
+        <li class="ev-item">
+          <span class="ev-domain">Insurance</span>
+          <span class="ev-text">California&#x27;s state insurer of last resort is now the state&#x27;s largest home insurer. Private carriers have stopped writing new policies in fire-risk zones, leaving the government-backed plan to absorb what the market won&#x27;t touch.</span>
+        </li>
+        <li class="ev-item">
+          <span class="ev-domain">Agriculture</span>
+          <span class="ev-text">Bordeaux winemakers are harvesting three weeks earlier than historical averages — a calendar shift that doesn&#x27;t just change timing, it changes the wine&#x27;s character. Pyrocumulonimbus clouds have appeared over the region.</span>
+        </li>
+        <li class="ev-item">
+          <span class="ev-domain">Fisheries</span>
+          <span class="ev-text">Bluefin tuna are appearing in waters where they haven&#x27;t been recorded for decades, following warm water that has moved steadily north. The industry&#x27;s geographic assumptions are quietly becoming unreliable.</span>
+        </li>
+      </ul>
+    </article>
+
+    <article class="pattern" id="accountability-gap">
+      <header class="pattern-header">
+        <span class="momentum-chip momentum-persistent">Persistent</span>
+        <h2 class="pattern-title">The Accountability Gap</h2>
+      </header>
+      <p class="pattern-explanation">Several distinct stories this week share an underlying shape: institutions designed to constrain or check power were not used, used too late, or bypassed entirely. The pattern spans a constitutional obligation, a mid-war command dismissal, a diplomatic immunity standoff, and a platform self-regulation failure. The specific facts differ across four countries. The structural absence is the same.</p>
+      <ul class="evidence-list">
+        <li class="ev-item">
+          <span class="ev-domain">Constitutional</span>
+          <span class="ev-text">The US has conducted military operations for 149 consecutive days without a congressional vote. The War Powers Act requires one within 60 days.</span>
+        </li>
+        <li class="ev-item">
+          <span class="ev-domain">Military</span>
+          <span class="ev-text">Zelenskyy dismissed a senior Ukrainian commander mid-operation. The announcement arrived without the procedural review standard among NATO allies.</span>
+        </li>
+        <li class="ev-item">
+          <span class="ev-domain">Diplomacy</span>
+          <span class="ev-text">New York City&#x27;s mayor moved to restrict Netanyahu&#x27;s movements within the city, citing obligations under international law. The action exposed a gap between municipal authority and federal foreign policy with no clear resolution mechanism.</span>
+        </li>
+        <li class="ev-item">
+          <span class="ev-domain">Technology</span>
+          <span class="ev-text">France enacted social media restrictions the platforms had promised to implement voluntarily. They hadn&#x27;t. The self-regulation framework had produced the same outcome as no regulation.</span>
+        </li>
+      </ul>
+    </article>
+  </div>
+
+  <footer class="footer">
+    <span class="footer-name">Why Today?</span>
+    <span class="footer-note">bdavey.co/why-today</span>
+  </footer>
+
+</body>
+</html>
