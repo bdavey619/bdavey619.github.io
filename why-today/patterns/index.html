@@ -172,12 +172,79 @@ body {
   margin-bottom: 28px;
 }
 
-/* ── EVIDENCE ── */
+/* ── EVIDENCE TOGGLE ── */
+.evidence-details {
+  margin-top: 24px;
+}
+
+.evidence-details > summary {
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.evidence-details > summary::-webkit-details-marker { display: none; }
+
+.evidence-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 0;
+}
+
+.evidence-toggle::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid var(--text-3);
+  transition: transform 0.18s ease;
+  position: relative;
+  top: 1px;
+}
+
+.evidence-details[open] > summary .evidence-toggle::after {
+  transform: rotate(180deg);
+}
+
+.ev-summary-count {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+
+.ev-summary-new {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 1px 6px;
+  border-radius: 2px;
+}
+
+.evidence-toggle:hover .ev-summary-count { color: var(--text-2); }
+.evidence-toggle:hover::after { border-top-color: var(--text-2); }
+
+/* ── EVIDENCE LIST ── */
 .evidence-list {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 0;
+  margin-top: 12px;
+  animation: evidenceIn 0.18s ease-out;
+}
+
+@keyframes evidenceIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .ev-item {
@@ -324,7 +391,11 @@ body {
     <article class="pattern" id="energy-systems-architecture-visible">
       <h2 class="pattern-title">What Hormuz Was Holding</h2>
       <p class="pattern-explanation">The Strait of Hormuz has been near-stopped since February 28, when U.S.-Iran fighting began. The disruption is now legible everywhere the system touches. Infrastructure becomes visible precisely by becoming unreliable.</p>
-      <ul class="evidence-list">
+      <details class="evidence-details">
+        <summary class="evidence-toggle">
+          <span class="ev-summary-count">3 sources</span>
+        </summary>
+        <ul class="evidence-list">
         <li class="ev-item">
           <div class="ev-meta">
             <span class="ev-domain">Shipping</span>
@@ -355,13 +426,18 @@ body {
           <a href="https://gcaptain.com/the-race-to-rescue-8000-sailors-still-stranded-behind-hormuz/" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
-      </ul>
+        </ul>
+      </details>
     </article>
 
     <article class="pattern" id="late-july-threshold">
       <h2 class="pattern-title">The Late July Threshold</h2>
       <p class="pattern-explanation">Late July is when several slow-moving transitions arrive at once: firefly season closes, the Perseids begin building, Lammas marks the cross-quarter day between solstice and equinox. None of them are news. Together they mark a passage the Gregorian calendar has no word for.</p>
-      <ul class="evidence-list">
+      <details class="evidence-details">
+        <summary class="evidence-toggle">
+          <span class="ev-summary-count">3 sources</span>
+        </summary>
+        <ul class="evidence-list">
         <li class="ev-item">
           <div class="ev-meta">
             <span class="ev-domain">Natural World</span>
@@ -392,13 +468,18 @@ body {
           <a href="https://nationaltoday.com/lammas-day/" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
-      </ul>
+        </ul>
+      </details>
     </article>
 
     <article class="pattern" id="ai-as-geopolitical-terrain">
       <h2 class="pattern-title">AI as Geopolitical Terrain</h2>
       <p class="pattern-explanation">The language of AI development — open source, open weights, frontier models — is being rewritten in real time, and the rewrites are not neutral. The same week China&#x27;s Kimi K3 became the largest open-weights model ever released, 29 nations without a single Western democracy launched a coordinated AI governance body. The vocabulary and the infrastructure are being claimed simultaneously.</p>
-      <ul class="evidence-list">
+      <details class="evidence-details">
+        <summary class="evidence-toggle">
+          <span class="ev-summary-count">3 sources</span>
+        </summary>
+        <ul class="evidence-list">
         <li class="ev-item">
           <div class="ev-meta">
             <span class="ev-domain">Technology</span>
@@ -429,13 +510,18 @@ body {
           <a href="https://www.techtimes.com/articles/321757/20260728/china-fires-back-us-targets-moonshot-ai-over-kimi-k3-anthropic-fable-theft-claim.htm" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
-      </ul>
+        </ul>
+      </details>
     </article>
 
     <article class="pattern" id="heat-as-restructuring-pressure">
       <h2 class="pattern-title">Heat as a Restructuring Pressure</h2>
       <p class="pattern-explanation">This summer, heat isn&#x27;t functioning as weather — it&#x27;s a force reorganizing systems that don&#x27;t normally share a vocabulary. The same pressure is reshaping insurance markets, fishing grounds, wine harvests, and coral reefs at the same time.</p>
-      <ul class="evidence-list">
+      <details class="evidence-details">
+        <summary class="evidence-toggle">
+          <span class="ev-summary-count">4 sources</span>
+        </summary>
+        <ul class="evidence-list">
         <li class="ev-item">
           <div class="ev-meta">
             <span class="ev-domain">Ocean</span>
@@ -476,13 +562,18 @@ body {
           <a href="https://www.undercurrentnews.com/2026/02/18/atlantic-bluefin-tuna-set-to-shift-north-as-ocean-warming-accelerates/" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
-      </ul>
+        </ul>
+      </details>
     </article>
 
     <article class="pattern" id="accountability-gap">
       <h2 class="pattern-title">The Accountability Gap</h2>
       <p class="pattern-explanation">Several distinct stories this week share an underlying shape: the mechanism designed to check power was either absent or actively removed. Across four countries, four domains. The structural absence is the same.</p>
-      <ul class="evidence-list">
+      <details class="evidence-details">
+        <summary class="evidence-toggle">
+          <span class="ev-summary-count">4 sources</span>
+        </summary>
+        <ul class="evidence-list">
         <li class="ev-item">
           <div class="ev-meta">
             <span class="ev-domain">Constitutional</span>
@@ -523,7 +614,8 @@ body {
           <a href="https://www.techtimes.com/articles/321273/20260722/france-bans-social-media-under-15s-cut-enforcement-mechanism.htm" class="ev-read-more" target="_blank" rel="noopener">Read more &#x2192;</a>
           </div>
         </li>
-      </ul>
+        </ul>
+      </details>
     </article>
   </div>
 
