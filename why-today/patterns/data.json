@@ -19,14 +19,14 @@
           "domain": "Insurance",
           "text": "More than 1 in 17 new home loans in California relied on the state's insurer of last resort in Q1 2026. Private carriers have largely stopped writing policies in fire-risk zones.",
           "url": "https://beinsure.com/news/california-fair-plan-now-insures-more-new-home-loans/",
-          "date": "2026-07",
+          "date": "2026-06",
           "is_new": false
         },
         {
           "domain": "Agriculture",
           "text": "Wildfires appeared in Bordeaux this summer. Winemakers are harvesting weeks earlier than historical averages — a calendar shift that changes not just timing but the character of the wine.",
           "url": "https://www.wine-searcher.com/m/2026/07/heatwaves-threaten-bordeaux-harvest",
-          "date": "2026-07",
+          "date": "2026-07-23",
           "is_new": false
         },
         {
@@ -54,15 +54,15 @@
         {
           "domain": "Energy",
           "text": "European TTF gas prices rose above EUR60/MWh — more than 50% above levels when fighting began. Europe enters autumn with storage at 28%.",
-          "url": "https://www.eia.gov/todayinenergy/detail.php?id=67604",
-          "date": "2026-07",
+          "url": "https://www.indexbox.io/blog/gas-prices-surge-as-strait-of-hormuz-disruptions-persist-despite-us-iran-mou/",
+          "date": "2026-07-27",
           "is_new": false
         },
         {
           "domain": "Labor",
           "text": "Some 6,000 seafarers remain stranded on vessels in and around the Strait as of late July. Seventeen crew members have been killed; nine ships abandoned outright by their owners at Iranian ports.",
           "url": "https://gcaptain.com/the-race-to-rescue-8000-sailors-still-stranded-behind-hormuz/",
-          "date": "2026-07",
+          "date": "2026-07-03",
           "is_new": false
         }
       ]
