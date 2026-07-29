@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-28T14:08:09.498369+00:00",
+  "generated_at": "2026-07-29T14:11:10.578802+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -212,19 +212,17 @@
       "gamePk": 823195,
       "status": "final",
       "result": "W",
-      "score": "3\u20130"
+      "score": "3\u20130",
+      "archive_url": "archive.html?date=2026-07-28"
     },
     {
       "date": "2026-07-28",
       "opponent": "MIL",
       "home": true,
       "gamePk": 823193,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "team": "Landen Roupp",
-        "opp": "Logan Henderson"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20138"
     },
     {
       "date": "2026-07-29",
@@ -256,8 +254,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u201311",
-    "current_streak": "W1",
-    "last_10": "4\u20136"
+    "month_record": "10\u201312",
+    "current_streak": "L1",
+    "last_10": "3\u20137"
   }
 }
