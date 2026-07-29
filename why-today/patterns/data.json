@@ -1,6 +1,6 @@
 {
   "week": "2026-07-27",
-  "last_updated": "2026-07-29T00:00:00Z",
+  "last_updated": "2026-07-29T12:00:00Z",
   "patterns": [
     {
       "id": "heat-as-restructuring-pressure",
@@ -10,51 +10,46 @@
       "evidence": [
         {
           "domain": "Ocean",
-          "text": "Coral reefs off Florida are being physically relocated — not restored in place, but moved to cooler water for the first time. The admission embedded in that decision: their current habitat is no longer viable.",
-          "url": ""
+          "text": "Coral researchers in Florida are using a \"coral shuffle\" — physically relocating fragments to cooler, deeper water, then returning them once temperatures drop. The technique is an admission embedded in the practice: their current habitat is no longer viable year-round.",
+          "url": "https://www.wusf.org/environment/2026-07-27/how-floridas-coral-researchers-are-adapting-to-extreme-heat-amid-another-el-nino-warming-event"
         },
         {
           "domain": "Insurance",
-          "text": "California's state insurer of last resort is now the state's largest home insurer. Private carriers have stopped writing new policies in fire-risk zones, leaving the government-backed plan to absorb what the market won't touch.",
-          "url": ""
+          "text": "More than 1 in 17 new home loans in California in Q1 2026 relied on the FAIR Plan — the state's insurer of last resort, designed to cover what private markets won't touch. Private carriers have effectively stopped writing new policies in fire-risk zones.",
+          "url": "https://beinsure.com/news/california-fair-plan-now-insures-more-new-home-loans/"
         },
         {
           "domain": "Agriculture",
-          "text": "Bordeaux winemakers are harvesting three weeks earlier than historical averages — a calendar shift that doesn't just change timing, it changes the wine's character. Pyrocumulonimbus clouds have appeared over the region.",
-          "url": ""
+          "text": "Heatwaves are threatening the 2026 Bordeaux harvest, with wildfires appearing in the region. Winemakers are harvesting weeks earlier than historical averages — a calendar shift that changes not just timing but the character of the wine.",
+          "url": "https://www.wine-searcher.com/m/2026/07/heatwaves-threaten-bordeaux-harvest"
         },
         {
           "domain": "Fisheries",
-          "text": "Bluefin tuna are appearing in waters where they haven't been recorded for decades, following warm water that has moved steadily north. The industry's geographic assumptions are quietly becoming unreliable.",
-          "url": ""
+          "text": "Atlantic bluefin tuna are projected to shift their range significantly northward as ocean warming accelerates, according to an AZTI study. The fishing industry's geographic maps of where fish live are quietly becoming unreliable.",
+          "url": "https://www.undercurrentnews.com/2026/02/18/atlantic-bluefin-tuna-set-to-shift-north-as-ocean-warming-accelerates/"
         }
       ]
     },
     {
       "id": "energy-systems-architecture-visible",
       "title": "The Energy System's Hidden Architecture, Now Visible",
-      "explanation": "The Strait of Hormuz — through which roughly a fifth of the world's traded oil passes — has seen a sharp drop in commercial traffic. The effect is now rippling: LNG prices in Europe, hundreds of stranded seafarers, and a 149-day US military operation conducted without a congressional vote. Infrastructure everyone depends on is becoming visible precisely by becoming unreliable.",
+      "explanation": "The Strait of Hormuz — through which roughly a fifth of the world's traded oil passes — has been near-stopped since February 28, when U.S.-Iran fighting began. The disruption is now legible everywhere the system touches: European gas prices above EUR60/MWh, thousands of seafarers stranded at sea for months, storage reserves draining. Infrastructure everyone depends on becomes visible precisely by becoming unreliable.",
       "momentum": "acute",
       "evidence": [
         {
           "domain": "Shipping",
-          "text": "Commercial tanker traffic through the Strait of Hormuz has dropped sharply as operators reroute around the risk corridor, adding weeks and significant cost to each voyage.",
-          "url": ""
+          "text": "Commercial tanker traffic through the Strait of Hormuz has ground to a near-halt since U.S.-Iran fighting resumed in February 2026. The strait carries roughly 20% of global oil and LNG trade; operators who once rerouted around the risk are now simply not moving.",
+          "url": "https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting"
         },
         {
           "domain": "Energy",
-          "text": "European LNG spot prices have responded within days — a direct demonstration that the continent's energy independence from Russia transferred its dependency to a different chokepoint.",
-          "url": ""
+          "text": "European TTF gas prices have risen above EUR60/MWh — more than 50% above levels when the conflict began. Europe's gas storage stands at 28%, and competition with Asia for available LNG is intensifying ahead of winter.",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=67604"
         },
         {
           "domain": "Labor",
-          "text": "Hundreds of seafarers remain stranded on vessels operators have chosen not to move through the strait. They are trapped between their employment contracts and a geopolitical risk their employers will not accept.",
-          "url": ""
-        },
-        {
-          "domain": "Constitutional",
-          "text": "The US has now conducted military operations in the region for 149 consecutive days without a congressional vote under the War Powers Act, which requires one within 60 days.",
-          "url": ""
+          "text": "Some 6,000 seafarers remain stranded on vessels in and around the Strait as of late July, months after evacuation efforts began. Seventeen crew members have been killed; at least nine ships have been abandoned outright by their owners at Iranian ports.",
+          "url": "https://gcaptain.com/the-race-to-rescue-8000-sailors-still-stranded-behind-hormuz/"
         }
       ]
     },
@@ -66,74 +61,69 @@
       "evidence": [
         {
           "domain": "Technology",
-          "text": "Kimi K3, released as open weights at 2.8 trillion parameters, is the largest model ever released under an open-weights license — larger than anything currently available from Western labs.",
-          "url": ""
+          "text": "Kimi K3, released with open weights at 2.8 trillion parameters, is the largest model ever released under an open-weights license — larger than anything currently available from Western labs.",
+          "url": "https://fortune.com/2026/07/16/moonshots-kimi-k3-pushes-chinese-ai-into-fable-level-territory/"
         },
         {
           "domain": "Governance",
-          "text": "WAICO, a new AI coordination body, launched with 29 member nations. No Western democracy is among them.",
-          "url": ""
+          "text": "WAICO, a new AI coordination body, launched in Shanghai with 29 member nations. Not a single Western democracy is among them.",
+          "url": "https://www.forbes.com/sites/timbajarin/2026/07/28/china-launches-waico-in-shanghai-as-west-sits-out-ai-governance/"
         },
         {
           "domain": "Law",
-          "text": "OpenAI has accused Kimi's developer of training on distilled outputs of its models — a legal theory that, if established, would make open-weights models legally different from open-source ones in ways the field has not yet worked through.",
-          "url": ""
+          "text": "The White House has accused Moonshot AI of a \"large-scale, covert industrial distillation\" campaign against Anthropic's models to build K3. If the legal theory — that training on distilled outputs constitutes theft — is established in court, open-weights models would become legally distinct from open-source ones in ways the field hasn't worked through.",
+          "url": "https://www.techtimes.com/articles/321757/20260728/china-fires-back-us-targets-moonshot-ai-over-kimi-k3-anthropic-fable-theft-claim.htm"
         }
       ]
     },
     {
       "id": "late-july-threshold",
       "title": "The Late July Threshold",
-      "explanation": "Late July is when several slow-moving transitions arrive at once: the year's peak produce, the first signs of the Perseids building, Ghost Month opening on the lunar calendar, Lammas marking the cross-quarter day between solstice and equinox, and the quiet end of firefly season. None of them are news. Together they mark a passage the Gregorian calendar has no word for.",
+      "explanation": "Late July is when several slow-moving transitions arrive at once: firefly season closes, the Perseids begin building, Lammas marks the cross-quarter day between solstice and equinox. None of them are news. Together they mark a passage the Gregorian calendar has no word for.",
       "momentum": "peaking",
       "evidence": [
         {
           "domain": "Natural World",
-          "text": "Firefly season is ending. The bioluminescent window that opened in June closes in late July — one of the year's most specific sensory events, gone until next summer with no announcement.",
-          "url": ""
+          "text": "Firefly season is ending across most of North America. The bioluminescent window that opened in late May or June closes in late July — one of the year's most specific sensory events, gone until next summer with no announcement.",
+          "url": "https://www.accuweather.com/en/leisure-recreation/firefly-season-is-here-when-to-watch-for-summers-flashing-lights/1898307"
         },
         {
           "domain": "Astronomy",
-          "text": "The Perseids are building toward their August 11–13 peak. Earth is currently moving through a debris trail left by Comet Swift-Tuttle — a trail the planet crosses at the same point in its orbit every year.",
-          "url": ""
-        },
-        {
-          "domain": "Culture",
-          "text": "Ghost Month opens July 28 in the lunar calendar. Observed by more than a billion people across East and Southeast Asia, it marks a period when the boundary between the living and the dead is considered thin.",
-          "url": ""
+          "text": "The Perseids are building toward their August 12–13 peak. Earth is moving through debris left by Comet Swift-Tuttle — a trail the planet crosses at the same orbital point every year.",
+          "url": "https://earthsky.org/astronomy-essentials/everything-you-need-to-know-perseid-meteor-shower/"
         },
         {
           "domain": "Season",
-          "text": "Lammas, August 1, is the cross-quarter day midway between the summer solstice and the autumn equinox. In much of the US, county fairs open the same week — a ritual that maps almost exactly onto this seasonal midpoint.",
-          "url": ""
+          "text": "Lammas, August 1, is the cross-quarter day midway between the summer solstice and the autumn equinox. The harvest festival marks a transition point that pre-industrial calendars named and modern ones largely forgot.",
+          "url": "https://nationaltoday.com/lammas-day/"
         }
       ]
     },
     {
       "id": "accountability-gap",
       "title": "The Accountability Gap",
-      "explanation": "Several distinct stories this week share an underlying shape: institutions designed to constrain or check power were not used, used too late, or bypassed entirely. The pattern spans a constitutional obligation, a mid-war command dismissal, a diplomatic immunity standoff, and a platform self-regulation failure. The specific facts differ across four countries. The structural absence is the same.",
+      "explanation": "Several distinct stories this week share an underlying shape: the mechanism designed to check power was either absent or actively removed. The Senate killed the binding War Powers measure; Ukraine's commander was fired in response to street protests rather than institutional review; New York's new mayor found himself legally unable to enforce an international warrant; France passed a social media ban but removed the enforcement mechanism from the bill. The specific facts differ across four countries. The structural absence is the same.",
       "momentum": "persistent",
       "evidence": [
         {
           "domain": "Constitutional",
-          "text": "The US has conducted military operations for 149 consecutive days without a congressional vote. The War Powers Act requires one within 60 days.",
-          "url": ""
+          "text": "The Senate voted 47–49 to kill a binding War Powers resolution that would have required Trump to end operations in Iran. Both chambers had passed non-binding concurrent resolutions; the binding measure — the one that would have actually forced a choice — died, leaving operations entering their fifth month without formal authorization.",
+          "url": "https://www.cnn.com/2026/07/23/politics/trump-iran-war-powers"
         },
         {
           "domain": "Military",
-          "text": "Zelenskyy dismissed a senior Ukrainian commander mid-operation. The announcement arrived without the procedural review standard among NATO allies.",
-          "url": ""
+          "text": "Zelenskyy fired Gen. Oleksandr Syrskyi as Ukraine's commander-in-chief on July 21, replacing him with Mykhailo Drapatyi. The move came in direct response to nationwide public protests rather than any internal or allied review process.",
+          "url": "https://www.pbs.org/newshour/world/ukraines-zelenskyy-fires-his-army-chief-after-protests-and-names-a-replacement"
         },
         {
           "domain": "Diplomacy",
-          "text": "New York City's mayor moved to restrict Netanyahu's movements within the city, citing obligations under international law. The action exposed a gap between municipal authority and federal foreign policy with no clear resolution mechanism.",
-          "url": ""
+          "text": "New York City's new mayor pledged to arrest Israeli Prime Minister Netanyahu upon his UN visit — then acknowledged publicly he lacks the legal authority to do so. The episode exposed a gap between municipal conviction, federal foreign policy, and international law, with no mechanism to resolve any of it.",
+          "url": "https://www.cnn.com/2026/07/21/politics/zohran-mamdani-benjamin-netanyahu-israel-arrest-icc"
         },
         {
           "domain": "Technology",
-          "text": "France enacted social media restrictions the platforms had promised to implement voluntarily. They hadn't. The self-regulation framework had produced the same outcome as no regulation.",
-          "url": ""
+          "text": "France's parliament passed a ban on social media for children under 15 — then cut the enforcement mechanism from the final bill. Platforms must verify user ages but face no binding obligation to actually block access; the tool that would have compelled compliance was removed before passage.",
+          "url": "https://www.techtimes.com/articles/321273/20260722/france-bans-social-media-under-15s-cut-enforcement-mechanism.htm"
         }
       ]
     }
