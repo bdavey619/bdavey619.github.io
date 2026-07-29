@@ -1,6 +1,6 @@
 {
   "week_start": "2026-07-27",
-  "last_updated": "2026-07-27T16:00:00Z",
+  "last_updated": "2026-07-29T12:00:00Z",
   "storylines": [
     {
       "id": "perseid-meteor-shower-buildup",
@@ -311,28 +311,28 @@
       "stream": "curiosities",
       "observer": "craftsperson",
       "title": "Veraison \u2014 the week the grapes become smoke sponges",
-      "observation": "In winemaking, veraison is the moment when grapes begin to ripen: they soften, change color, and start accumulating sugars. In the northern hemisphere it typically begins in late July. The moment veraison starts, grapes become acutely susceptible to wildfire smoke: volatile phenolic compounds in smoke bind with the sugars in the fruit during fermentation, creating flavors permanently described as 'ashy, smoky, or burnt' \u2014 unremovable even after harvest. Bordeaux vineyards are currently in the final days before veraison begins. The fire is 15 kilometers away. Winemakers cannot see from outside the vineyard whether the threshold has been crossed.",
+      "observation": "In winemaking, veraison is the moment when grapes begin to ripen: they soften, change color, and start accumulating sugars. In Bordeaux, veraison has arrived weeks ahead of schedule in 2026 \u2014 driven by the heat and drought \u2014 making vineyards acutely vulnerable to smoke taint right now. Volatile phenolic compounds in smoke bind with the sugars in the fruit during fermentation, creating flavors permanently described as 'ashy, smoky, or burnt.' The Gironde fire is 15 kilometers away with active smoke. The fire and the vulnerability window have arrived at the same moment. The 2026 vintage in affected sub-regions (Graves, Pessac-L\u00e9ognan) may be unrecoverable.",
       "question": "If a wildfire near a vineyard arrives before veraison the grapes are safe, and after veraison it could destroy the vintage \u2014 and no one looking at the vines can tell which side of the line they're on?",
-      "hidden_question": "If a wildfire near a vineyard arrives before veraison the grapes are safe, and after veraison it could destroy the vintage \u2014 and no one looking at the vines can tell which side of the line they're on?",
+      "hidden_question": "When a wildfire arrives at exactly the week the grapes become permeable to smoke \u2014 and the heat that made the fire also accelerated the grapes \u2014 is that coincidence, or the same underlying pressure expressing itself twice?",
       "pattern": "Wildfire smoke is becoming a permanent agricultural risk for wine regions in summer \u2014 the fire doesn't need to destroy the vines, only to arrive at the wrong week",
       "transferability": "Understanding veraison timing means reading every summer news story about wildfires near wine regions differently \u2014 the question is not whether the fire destroyed the vines but whether it arrived before or after the grapes turned",
       "cluster_id": "europe-summer-disruption-2026",
-      "why_now": "Bordeaux's Gironde fire is threatening the wine region in the exact two-to-three-week window before veraison begins. The vineyards are currently safe \u2014 but a few weeks from vulnerable.",
+      "why_now": "Veraison has arrived early in Bordeaux. The fire is 15km from city limits. The smoke taint vulnerability window is NOW \u2014 not approaching.",
       "status": "captured",
       "editorial_potential": "high",
       "url": "https://www.pressdemocrat.com/2026/06/10/california-wine-grapes-smoke-taint-vineyards-research/",
       "location": "Bordeaux, France",
       "season_or_time_context": "Late July 2026 \u2014 pre-veraison window",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-29T12:00:00Z",
+      "appearances": 2
     },
     {
       "id": "strait-hormuz-traffic-collapse",
       "stream": "curiosities",
       "observer": "systems",
       "title": "The Strait of Hormuz \u2014 when 20 percent of the world's oil runs through 21 miles",
-      "observation": "Commercial traffic through the Strait of Hormuz has fallen approximately 90% year-on-year. In the week of July 13\u201319, only 8 non-Iranian-linked vessels transited inbound, versus 108 the previous week. About 70% of tankers still attempting transit are running with AIS transponders disabled \u2014 'dark.' Roughly 6,000 seafarers are stranded aboard vessels unable to pass. The strait is 21 miles wide at its narrowest point. It carries approximately 20% of the world's oil and petroleum products. Oil prices have risen above $100 per barrel. China sends roughly 40% of its oil imports through this passage; Japan sends 70% of its Middle Eastern crude.",
+      "observation": "Commercial traffic through the Strait of Hormuz has fallen approximately 90% year-on-year. The US has reinstated a naval blockade of Iranian ports; 62 maritime incidents involving commercial vessels have been reported across the Persian Gulf since the conflict began. About 6,000 seafarers remain stranded on around 500 ships moored behind the strait. A deal is now being negotiated specifically centered on who controls vessel transit through the strait \u2014 the negotiation IS the recognition: the entire diplomatic structure centers on control of two miles of water.",
       "question": "If 20% of the world's oil trade runs through a 21-mile-wide passage that can be effectively closed by a regional conflict \u2014 what does that tell you about how the global energy system is actually built?",
       "hidden_question": "If 20% of the world's oil trade runs through a 21-mile-wide passage that can be effectively closed by a regional conflict \u2014 what does that tell you about how the global energy system is actually built?",
       "pattern": "The 2026 Iran conflict is revealing that global energy infrastructure is far more geographically concentrated and fragile than most risk models assumed",
@@ -345,8 +345,8 @@
       "location": "Strait of Hormuz, Persian Gulf",
       "season_or_time_context": "Late July 2026 \u2014 Hormuz near-standstill",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-29T12:00:00Z",
+      "appearances": 2
     },
     {
       "id": "kimi-k3-open-weights-distinction",
@@ -366,8 +366,14 @@
       "location": "",
       "season_or_time_context": "July 27, 2026 \u2014 open weights release day",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-07-29T12:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-07-29T12:00:00Z",
+          "note": "Kimi K3 halted new subscriptions within 48 hours of the open-weights release \u2014 global demand overwhelmed capacity before any regulatory response could form. The model the US called IP theft is now running on servers worldwide, including in WAICO member nations. Moonshot says it is adding compute as fast as possible and will reopen subscriptions in batches."
+        }
+      ]
     },
     {
       "id": "iran-war-no-congressional-vote",
@@ -385,13 +391,9 @@
       "editorial_potential": "high",
       "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
       "first_seen": "2026-07-22T00:00:00Z",
-      "last_seen": "2026-07-27T16:00:00Z",
-      "appearances": 6,
+      "last_seen": "2026-07-29T12:00:00Z",
+      "appearances": 7,
       "history": [
-        {
-          "date": "2026-07-24T18:00:00Z",
-          "note": "Iran strikes US bases in Bahrain, Jordan, Kuwait with drones. CENTCOM 13th consecutive night of strikes. House nonbinding 'end it' 214-208. Senate binding halt fails 49-47 \u2014 one vote short."
-        },
         {
           "date": "2026-07-25T12:00:00Z",
           "note": "First night without US strikes in 14 nights. Trump: Iran 'getting more serious' about a deal. Saudi Arabia escalates vs. Houthis in Yemen. Regional war spreading even as direct US-Iran strikes pause."
@@ -407,6 +409,10 @@
         {
           "date": "2026-07-27T16:00:00Z",
           "note": "Trump directed military not to conduct new strikes. Iran also holding fire. Both sides deny formal ceasefire but the pause is holding. Netanyahu flying to Washington for White House meeting July 29. The war may be approaching an off-ramp \u2014 which makes the constitutional question sharper, not softer: how did a conflict that reached this scale start, escalate, and now potentially end without a single congressional vote?"
+        },
+        {
+          "date": "2026-07-29T12:00:00Z",
+          "note": "Netanyahu met Trump at the White House on July 28 \u2014 entering through a side door, no public press conference. Netanyahu: 'one of the best meetings we've ever had.' Trump: 'very good.' Topics: Iran nuclear deal, Lebanon, Abraham Accords. A deal is being negotiated centered on Hormuz vessel transit. A war that started without congressional authorization may end the same way \u2014 through a private diplomatic meeting, not a congressional vote."
         }
       ]
     },
@@ -711,8 +717,8 @@
       "url": "https://www.japantimes.co.jp/news/2026/07/27/world/wildfires-bordeaux-france-spain/",
       "season_or_time_context": "Late July 2026",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-07-27T16:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-07-29T12:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-07-26T14:00:00Z",
@@ -725,6 +731,10 @@
         {
           "date": "2026-07-27T16:00:00Z",
           "note": "Evacuation total now 320,000+. Fire generated a pyrocumulonimbus \u2014 fire-created thunderstorm, first ever recorded in France. The fire-cloud creates lightning that starts new fires beyond the original perimeter, making the blaze partially self-perpetuating. Authorities warn fire may not be fully out for months. Macron calls emergency cabinet meeting."
+        },
+        {
+          "date": "2026-07-29T12:00:00Z",
+          "note": "330,000+ total evacuated across France and Spain. 60,000 evacuees allowed to return to 3 Bordeaux suburbs. But a 4th heatwave of summer is arriving \u2014 Omega block atmospheric pattern, 40-45\u00b0C forecast \u2014 threatening to reignite the fire. 4,000 more tourists ordered evacuated from Atlantic coast sites. Fire still not contained, one week after start."
         }
       ]
     },
@@ -895,6 +905,48 @@
       "season_or_time_context": "Late July 2026 \u2014 post-World Cup",
       "first_seen": "2026-07-27T16:00:00Z",
       "last_seen": "2026-07-27T16:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "full-buck-moon-three-showers",
+      "stream": "natural_world",
+      "observer": "naturalist",
+      "title": "Full Buck Moon tonight \u2014 with three simultaneous meteor showers it drowns out",
+      "observation": "The Full Buck Moon peaks tonight, July 29, at 14:36 UTC. At the same time, three meteor showers are active simultaneously: the Southern Delta Aquariids and Alpha Capricornids (both peaking July 30\u201331), and the building Perseids. The bright full moon washes out all three. The sky is full of meteors and the moon makes them invisible. This is the last full moon before Lammas \u2014 the cross-quarter threshold that falls August 1 \u2014 and before the Perseids peak on August 12\u201313 under a new moon.",
+      "question": "What does it mean that the moon is at its brightest on the same night three meteor showers are active \u2014 and is the coincidence that the showers are hidden at exactly the seasonal threshold moment meaningful, or just interesting?",
+      "hidden_question": "What does it mean that the sky is most full of activity on the night it's hardest to see?",
+      "pattern": "The astronomical calendar is not organized for viewing convenience \u2014 the most active nights may be the least observable",
+      "transferability": "Understanding that full moons wash out meteor showers means reading any 'best night to watch' astronomy calendar differently \u2014 brightness and activity are independent variables",
+      "cluster_id": "late-july-threshold-convergence",
+      "why_now": "The Full Buck Moon is tonight. Three showers are simultaneously active. This is the last full moon before the Lammas threshold.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.theweathernetwork.com/en/news/weather/forecasts/july-2026-full-buck-moon-rises-tuesday-night-as-three-meteor-showers-flash-through-the-sky",
+      "location": "",
+      "season_or_time_context": "July 29, 2026 \u2014 full moon night",
+      "first_seen": "2026-07-29T12:00:00Z",
+      "last_seen": "2026-07-29T12:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "europe-fourth-heatwave-omega-block",
+      "stream": "natural_world",
+      "observer": "naturalist",
+      "title": "Europe's fourth heatwave of 2026 \u2014 an Omega block locking in 45\u00b0C",
+      "observation": "A fourth heatwave of summer 2026 is building across Europe, driven by an Omega block atmospheric pattern \u2014 a configuration where a high-pressure system becomes locked in place, preventing weather systems from moving through. The pattern is forecast to push temperatures above 40\u00b0C across France and the Iberian Peninsula, with peaks near 45\u00b0C possible. Nighttime lows will remain in the mid-to-upper 20s Celsius \u2014 the same overnight heat debt mechanism that has been accumulating across the US. This is Europe's fourth heatwave of the summer. The Bordeaux wildfire, already burning for a week, is directly in the forecast path.",
+      "question": "At what point does 'fourth heatwave of the summer' stop being a sequence of events and become a description of what summer is?",
+      "hidden_question": "When a heatwave is the fourth of the summer, is it still a heatwave \u2014 or has it become the new ambient condition with occasional brief relief?",
+      "pattern": "Europe is experiencing heatwaves as a serial condition rather than a periodic event \u2014 the question is no longer when the next one arrives but how long the gap is",
+      "transferability": "Understanding Omega block patterns means reading 'persistent heat' forecasts differently \u2014 a locked atmospheric pattern doesn't resolve on a human schedule",
+      "cluster_id": "europe-summer-disruption-2026",
+      "why_now": "The 4th heatwave is arriving now. The Bordeaux fire is directly in its path. 45\u00b0C is forecast for France and Iberia.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.severe-weather.eu/global-weather/extreme-heatwave-excessive-heat-dome-mediterranean-forecast-europe-july-august-2026-mk/",
+      "location": "Western and Central Europe",
+      "season_or_time_context": "Late July \u2014 early August 2026",
+      "first_seen": "2026-07-29T12:00:00Z",
+      "last_seen": "2026-07-29T12:00:00Z",
       "appearances": 1
     }
   ]

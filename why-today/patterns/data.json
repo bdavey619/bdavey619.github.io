@@ -1,6 +1,6 @@
 {
   "week": "2026-07-27",
-  "last_updated": "2026-07-29T12:00:00Z",
+  "last_updated": "2026-07-29T18:00:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
@@ -17,17 +17,17 @@
         },
         {
           "domain": "Insurance",
-          "text": "More than 1 in 17 new home loans in California relied on the state's insurer of last resort in Q1 2026. Private carriers have largely stopped writing policies in fire-risk zones.",
-          "url": "https://beinsure.com/news/california-fair-plan-now-insures-more-new-home-loans/",
-          "date": "2026-06",
-          "is_new": false
+          "text": "FAIR Plan policies in California grew 44% in one year, reaching 668,600 — the state's insurer of last resort, which covers only fire, smoke, lightning, and explosion. A 29.1% statewide rate increase was approved for October 2026. Nine zip codes now account for $44 billion in exposure — a 135% increase since 2022 — concentrating the risk that private carriers refused to carry.",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-22/california-s-fair-plan-faces-rising-wildfire-risk-from-luxury-homes",
+          "date": "2026-07-22",
+          "is_new": true
         },
         {
           "domain": "Agriculture",
-          "text": "Wildfires appeared in Bordeaux this summer. Winemakers are harvesting weeks earlier than historical averages — a calendar shift that changes not just timing but the character of the wine.",
-          "url": "https://www.wine-searcher.com/m/2026/07/heatwaves-threaten-bordeaux-harvest",
-          "date": "2026-07-23",
-          "is_new": false
+          "text": "Bordeaux vineyards entered veraison weeks early in 2026 — driven by heat and drought. Veraison is the exact window when grape skins turn permeable and smoke compounds bind permanently to ripening sugars. The Gironde fire arrived at the same moment: 15km away, smoke actively present. The 2026 vintage in the Graves and Pessac-Léognan sub-regions may be unrecoverable.",
+          "url": "https://www.wine-searcher.com/m/2026/07/vintage-fears-as-bordeaux-burns",
+          "date": "2026-07-29",
+          "is_new": true
         },
         {
           "domain": "Fisheries",
@@ -46,10 +46,10 @@
       "evidence": [
         {
           "domain": "Shipping",
-          "text": "Commercial tanker traffic through the Strait has ground to a near-halt since U.S.-Iran fighting began. Roughly 20% of global oil and LNG trade passes through a strait that is no longer passable.",
-          "url": "https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting",
-          "date": "2026-07-10",
-          "is_new": false
+          "text": "Commercial tanker traffic through the Strait of Hormuz has fallen ~90% year-on-year. The US has reinstated a naval blockade of Iranian ports; 62 maritime incidents have been recorded since fighting began. A deal is now being negotiated specifically centered on who controls vessel transit through the strait — the diplomatic structure confirms what the recognition names.",
+          "url": "https://www.unitedagainstnucleariran.com/analysis/iran-shipping-update-july-28-2026",
+          "date": "2026-07-28",
+          "is_new": true
         },
         {
           "domain": "Energy",
@@ -75,10 +75,10 @@
       "evidence": [
         {
           "domain": "Technology",
-          "text": "Kimi K3, released with open weights at 2.8 trillion parameters, is the largest open-weights model ever — larger than anything currently available from Western labs.",
-          "url": "https://fortune.com/2026/07/16/moonshots-kimi-k3-pushes-chinese-ai-into-fable-level-territory/",
-          "date": "2026-07-16",
-          "is_new": false
+          "text": "Kimi K3, released with open weights at 2.8 trillion parameters, halted new subscriptions within 48 hours — global demand overwhelmed capacity before any regulatory response could form. The model runs on servers worldwide, including in WAICO member nations. It is the largest open-weights model ever released, larger than anything currently available from Western labs.",
+          "url": "https://thenewstack.io/kimi-k3-inference-bottleneck/",
+          "date": "2026-07-29",
+          "is_new": true
         },
         {
           "domain": "Governance",
@@ -111,10 +111,10 @@
         },
         {
           "domain": "Astronomy",
-          "text": "Earth is moving through debris left by Comet Swift-Tuttle. The Perseids build toward their August 12–13 peak.",
+          "text": "The Full Buck Moon peaked tonight, July 29, while three meteor showers are simultaneously active — the Southern Delta Aquariids, Alpha Capricornids, and building Perseids. The bright moon washes out all three. Earth is moving through the debris trail of Comet Swift-Tuttle toward the Perseid peak on August 12–13, which falls on a new moon — near-perfect dark skies.",
           "url": "https://earthsky.org/astronomy-essentials/everything-you-need-to-know-perseid-meteor-shower/",
-          "date": "annual",
-          "is_new": false
+          "date": "2026-07-29",
+          "is_new": true
         },
         {
           "domain": "Season",
@@ -122,6 +122,13 @@
           "url": "https://nationaltoday.com/lammas-day/",
           "date": "annual",
           "is_new": false
+        },
+        {
+          "domain": "Ritual",
+          "text": "Ghost Month — the seventh lunar month of the Chinese calendar — began July 28 across China, Taiwan, Singapore, Malaysia, and global diaspora communities. The Gates of the Underworld open; paper money burns at street corners for ancestral spirits; front rows at performances are left empty for unseen guests. Hundreds of millions of people observe this threshold simultaneously, in a calendar that has no Western counterpart.",
+          "url": "https://www.remitly.com/blog/lifestyle-culture/hungry-ghost-festival-dates-traditions-and-rituals/",
+          "date": "2026-07-28",
+          "is_new": true
         }
       ]
     },
@@ -133,10 +140,10 @@
       "evidence": [
         {
           "domain": "Constitutional",
-          "text": "The Senate voted 47–49 to kill a binding War Powers resolution. Operations in Iran enter their fifth month without formal congressional authorization.",
+          "text": "The Senate voted 47–49 to kill a binding War Powers resolution. Operations in Iran are now in their fifth month without formal congressional authorization. On July 28, Netanyahu entered the White House through a side door for a private meeting with Trump — no public press conference. Both described it as 'one of our best meetings.' A war that started without a congressional vote may end the same way.",
           "url": "https://www.cnn.com/2026/07/23/politics/trump-iran-war-powers",
-          "date": "2026-07-23",
-          "is_new": false
+          "date": "2026-07-28",
+          "is_new": true
         },
         {
           "domain": "Military",
