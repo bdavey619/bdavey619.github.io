@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-07",
   "division_name": "AL West",
-  "generated_at": "2026-07-28T15:02:18.998441+00:00",
+  "generated_at": "2026-07-29T14:54:03.987729+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -202,19 +202,17 @@
       "gamePk": 824977,
       "status": "final",
       "result": "L",
-      "score": "2\u20134"
+      "score": "2\u20134",
+      "archive_url": "archive.html?date=2026-07-28"
     },
     {
       "date": "2026-07-28",
       "opponent": "BOS",
       "home": true,
       "gamePk": 824976,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Gage Jump",
-        "opp": "Jake Bennett"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "4\u20133"
     },
     {
       "date": "2026-07-29",
@@ -249,8 +247,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u201316",
-    "current_streak": "L3",
-    "last_10": "3\u20137"
+    "month_record": "5\u201316",
+    "current_streak": "W1",
+    "last_10": "4\u20136"
   }
 }
