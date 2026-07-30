@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-29T12:27:13.075655+00:00",
+  "generated_at": "2026-07-30T12:09:44.452552+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -231,18 +231,17 @@
       "gamePk": 823275,
       "status": "final",
       "result": "W",
-      "score": "8\u20137"
+      "score": "8\u20137",
+      "archive_url": "archive.html?date=2026-07-29"
     },
     {
       "date": "2026-07-29",
       "opponent": "COL",
       "home": true,
       "gamePk": 823273,
-      "status": "scheduled",
-      "time_local": "1:10 PM PT",
-      "probable": {
-        "opp": "Gabriel Hughes"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "3\u20131"
     },
     {
       "date": "2026-07-30",
@@ -250,7 +249,10 @@
       "home": true,
       "gamePk": 823271,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "JP Sears"
+      }
     },
     {
       "date": "2026-07-31",
@@ -262,8 +264,8 @@
     }
   ],
   "summary": {
-    "month_record": "11\u201312",
-    "current_streak": "W4",
-    "last_10": "6\u20134"
+    "month_record": "12\u201312",
+    "current_streak": "W5",
+    "last_10": "7\u20133"
   }
 }
