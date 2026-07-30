@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-07",
   "division_name": "AL West",
-  "generated_at": "2026-07-29T14:54:03.987729+00:00",
+  "generated_at": "2026-07-30T14:52:32.369852+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -212,19 +212,17 @@
       "gamePk": 824976,
       "status": "final",
       "result": "W",
-      "score": "4\u20133"
+      "score": "4\u20133",
+      "archive_url": "archive.html?date=2026-07-29"
     },
     {
       "date": "2026-07-29",
       "opponent": "BOS",
       "home": true,
       "gamePk": 824973,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Jacob Lopez",
-        "opp": "Patrick Sandoval"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20134"
     },
     {
       "date": "2026-07-30",
@@ -234,6 +232,7 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
+        "team": "Mason Barnett",
         "opp": "Sonny Gray"
       }
     },
@@ -243,12 +242,15 @@
       "home": true,
       "gamePk": 824975,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "opp": "Casey Mize"
+      }
     }
   ],
   "summary": {
-    "month_record": "5\u201316",
-    "current_streak": "W1",
-    "last_10": "4\u20136"
+    "month_record": "5\u201317",
+    "current_streak": "L1",
+    "last_10": "3\u20137"
   }
 }
