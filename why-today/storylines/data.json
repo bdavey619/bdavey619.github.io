@@ -1,6 +1,6 @@
 {
   "week_start": "2026-07-27",
-  "last_updated": "2026-07-29T12:00:00Z",
+  "last_updated": "2026-07-30T18:00:00Z",
   "storylines": [
     {
       "id": "perseid-meteor-shower-buildup",
@@ -345,8 +345,14 @@
       "location": "Strait of Hormuz, Persian Gulf",
       "season_or_time_context": "Late July 2026 \u2014 Hormuz near-standstill",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-07-29T12:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-07-30T18:00:00Z",
+      "appearances": 3,
+      "history": [
+        {
+          "date": "2026-07-30T18:00:00Z",
+          "note": "The Islamabad Memorandum transit fee terms are now public: $1-2M per vessel, per voyage, scaled to size and cargo. The fee is suspended during the 60-day ceasefire window. Iran has won the principle \u2014 the strait is now acknowledged as a managed, priced passage, not neutral international water."
+        }
+      ]
     },
     {
       "id": "kimi-k3-open-weights-distinction",
@@ -391,13 +397,9 @@
       "editorial_potential": "high",
       "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
       "first_seen": "2026-07-22T00:00:00Z",
-      "last_seen": "2026-07-29T12:00:00Z",
-      "appearances": 7,
+      "last_seen": "2026-07-30T18:00:00Z",
+      "appearances": 8,
       "history": [
-        {
-          "date": "2026-07-25T12:00:00Z",
-          "note": "First night without US strikes in 14 nights. Trump: Iran 'getting more serious' about a deal. Saudi Arabia escalates vs. Houthis in Yemen. Regional war spreading even as direct US-Iran strikes pause."
-        },
         {
           "date": "2026-07-26T14:00:00Z",
           "note": "Second consecutive day with no US strikes on Iran. Diplomatic talks pressing forward. War is 148 days old. Saudi Arabia continues strikes on Houthis. Exit \u2014 whether diplomatic or military \u2014 appears closer."
@@ -413,6 +415,10 @@
         {
           "date": "2026-07-29T12:00:00Z",
           "note": "Netanyahu met Trump at the White House on July 28 \u2014 entering through a side door, no public press conference. Netanyahu: 'one of the best meetings we've ever had.' Trump: 'very good.' Topics: Iran nuclear deal, Lebanon, Abraham Accords. A deal is being negotiated centered on Hormuz vessel transit. A war that started without congressional authorization may end the same way \u2014 through a private diplomatic meeting, not a congressional vote."
+        },
+        {
+          "date": "2026-07-30T18:00:00Z",
+          "note": "The Islamabad Memorandum (signed June 17) established that Iran and Oman will charge $1-2M per vessel for Hormuz transit \u2014 fee suspended during the current ceasefire window through ~August 17. Forbes analysis July 28: 'Hormuz Is Becoming A Fee-And-Permission Regime.' A war that started without a congressional vote may end having permanently changed the legal status of the world's most important energy passage \u2014 also without a congressional vote."
         }
       ]
     },
@@ -432,8 +438,14 @@
       "editorial_potential": "high",
       "url": "https://www.nbcnews.com/world/ukraine/ukraines-zelenskyy-fires-commander-chief-protests-major-rift-rcna588159",
       "first_seen": "2026-07-21T00:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-07-30T18:00:00Z",
+      "appearances": 4,
+      "history": [
+        {
+          "date": "2026-07-30T18:00:00Z",
+          "note": "Drapatyi's first act: a system-wide manpower audit \u2014 suggesting unit staffing reports under Syrskyi were unreliable. Russia launched ballistic missiles at Kyiv on July 30, hours after his appointment was finalized. The new command is being tested immediately."
+        }
+      ]
     },
     {
       "id": "white-house-accuses-china-distillation",
@@ -947,6 +959,96 @@
       "season_or_time_context": "Late July \u2014 early August 2026",
       "first_seen": "2026-07-29T12:00:00Z",
       "last_seen": "2026-07-29T12:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "france-heat-deaths-confirmed",
+      "stream": "headlines",
+      "observer": "headlines",
+      "category": "Politics & World",
+      "title": "France confirms 2,025 dead from June heatwave \u2014 Europe's toll estimated at 20,000",
+      "moment": "France confirmed on July 3 that the June heatwave killed 2,025 people above normal death rates. A preprint estimated the continent-wide toll at 20,390. The Bordeaux fire, burning simultaneously and generating 2,500 firefighters and front-page coverage, has not confirmed a comparable death count.",
+      "observation": "France's June 2026 heatwave killed 2,025 people above normal death rates \u2014 confirmed July 3, three weeks after the heat had passed. A preprint by Indiana University climate scientist Christopher Callahan estimated the continent-wide toll from just the seven peak days (June 22\u201328) at 20,390 deaths. France: 5,210. Germany: 4,543. Spain: 3,163. Italy: 2,709. The 4th heatwave of the summer is arriving July 30 \u2014 directly over the still-burning Bordeaux fire, with overnight lows staying near 25\u00b0C. Heat death has no perimeter, no visible front, and no equivalent emergency response.",
+      "question": "Heat and fire share a cause \u2014 but one generates evacuation orders and front pages while the other generates excess-mortality statistics, weeks later. Why?",
+      "hidden_question": "Why does the emergency system mobilize 2,500 firefighters and 1,500 soldiers against the fire and nothing equivalent against the heat that kills ten times as many people?",
+      "pattern": "Heat kills at a scale that makes fire look marginal \u2014 but fire has a perimeter, a visible front, and a countable emergency. Heat has none of these, and the response infrastructure reflects that.",
+      "transferability": "Understanding the mortality gap between heat and fire means reading every heatwave advisory as a proxy for a body count that won't be confirmed for weeks",
+      "cluster_id": "europe-summer-disruption-2026",
+      "why_now": "France confirmed the June death toll on July 3. The 4th heatwave is arriving July 30 \u2014 on top of an active fire \u2014 and will produce another count, confirmed in August.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.travelerstoday.com/articles/60336/20260705/europe-heatwave-2026-france-confirms-2025-dead-omega-block-holds-continent.htm",
+      "location": "France / Europe",
+      "season_or_time_context": "Late July 2026 \u2014 4th heatwave arriving",
+      "first_seen": "2026-07-30T18:00:00Z",
+      "last_seen": "2026-07-30T18:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "hormuz-fee-regime",
+      "stream": "curiosities",
+      "observer": "systems",
+      "title": "The Strait of Hormuz is becoming a toll road \u2014 $1\u20132M per vessel, per voyage",
+      "observation": "The Islamabad Memorandum (signed June 17, brokered by Pakistan) includes an agreed principle that Iran and Oman will charge $1\u20132M per vessel for transit through the Strait of Hormuz \u2014 scaled to ship size, cargo type, and volume. The fee regime is currently suspended during the 60-day ceasefire window (through approximately August 17). Secretary Rubio warned that transit fees would make any deal unviable. A Forbes analysis titled 'Hormuz Is Becoming A Fee-And-Permission Regime' was published July 28 \u2014 the same day Netanyahu met Trump at the White House through the side door.",
+      "question": "If the world's most important energy chokepoint is now a managed, priced passage rather than neutral international water \u2014 what does that do to every global shipping calculation for the next decade?",
+      "hidden_question": "The ceasefire restored access to the strait, but not the old order \u2014 the old order was that the strait was neutral water. What has it become?",
+      "pattern": "The Hormuz closure didn't restore the old order when it ended \u2014 it formalized a new one in which Iran has won the principle of sovereign toll authority over a 21-mile-wide international passage",
+      "transferability": "Understanding the transit fee as a structural outcome (not just a negotiating position) means reading every future chokepoint closure differently \u2014 the closer gains leverage that persists after the opening",
+      "cluster_id": "",
+      "why_now": "The Forbes analysis 'Hormuz Is Becoming A Fee-And-Permission Regime' published July 28. The principle is now agreed \u2014 the fee is currently suspended, not rejected.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.forbes.com/sites/guneyyildiz/2026/07/28/hormuz-is-becoming-a-fee-and-permission-regime/",
+      "location": "Strait of Hormuz",
+      "season_or_time_context": "Late July 2026",
+      "first_seen": "2026-07-30T18:00:00Z",
+      "last_seen": "2026-07-30T18:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "amodei-open-weights-position",
+      "stream": "headlines",
+      "observer": "headlines",
+      "category": "Tech & Science",
+      "title": "Anthropic: we don't want to ban open weights \u2014 but we do want anti-distillation enforcement",
+      "moment": "Dario Amodei posted on July 27 that Anthropic 'has never advocated for a ban on open-weights models' \u2014 while simultaneously calling for chip export controls, anti-distillation enforcement, and mandatory safety testing. Anthropic was the only major US AI lab that did not sign the Nvidia-led open letter defending open-weight AI from regulation.",
+      "observation": "When Nvidia and most major US AI labs (including OpenAI and Meta) signed an open letter opposing regulatory restrictions on open-weight AI, Anthropic declined. On July 27, Dario Amodei clarified: Anthropic doesn't support a ban on open weights, but it does support anti-distillation enforcement \u2014 a specific mechanism to prevent companies from training on another company's model outputs. The company whose model was allegedly distilled to build Kimi K3 is carving a middle path: open weights yes, IP theft enforcement yes, government ban on open weights no. This position leaves Anthropic as the outlier among US labs \u2014 allied with neither the open-weights movement nor the banning movement.",
+      "question": "What does it mean that the company whose model was allegedly stolen to build the world's largest open-weights release is the one most carefully defining the distinction between 'open weights' and 'open source'?",
+      "hidden_question": "Is Anthropic's middle position principled or strategic \u2014 and does it matter, given that the model is already global?",
+      "pattern": "The US AI industry does not have a coherent position on open-weight models \u2014 even among companies that have the most at stake, the positions are splitting between 'regulate nothing' and 'enforce specific IP violations'",
+      "transferability": "Understanding Anthropic's distinction means reading every future AI policy debate differently \u2014 'open weights' and 'open source' are now legal and political categories, not just technical ones",
+      "cluster_id": "ai-geopolitical-split-2026",
+      "why_now": "Amodei's statement was published July 27, the day Kimi K3's weights dropped. The position clarifies where the US industry's fault lines actually run.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "location": "",
+      "season_or_time_context": "July 27\u201328, 2026",
+      "first_seen": "2026-07-30T18:00:00Z",
+      "last_seen": "2026-07-30T18:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "drapatyi-audit-under-fire",
+      "stream": "headlines",
+      "observer": "headlines",
+      "category": "Politics & World",
+      "title": "Ukraine's new commander orders manpower audit \u2014 Russia strikes Kyiv within hours of his appointment",
+      "moment": "General Mykhailo Drapatyi's first official act as Ukraine's commander-in-chief was announcing an audit of unit staffing and manpower allocation. Russia launched ballistic missiles at Kyiv on July 30 \u2014 hours after his appointment was finalized. He is now restructuring Ukraine's military under live fire.",
+      "observation": "Drapatyi, 43, appointed after mass protests led to the removal of General Syrskyi, began his tenure by ordering a system-wide audit of how many soldiers are actually in which units \u2014 a signal that the previous command's reporting was unreliable. Russia responded to the leadership transition with a ballistic missile strike on Kyiv on July 30. His first call with NATO commander Gen. Grynkewich centered on holding the line and air defense. The military command was restructured by protest, not review \u2014 and it's now being tested by the enemy on its first day.",
+      "question": "When a military commander is appointed because protesters demanded a change, what does his first move \u2014 an audit \u2014 reveal about what the previous command was hiding?",
+      "hidden_question": "What does it mean to audit the army while the enemy is striking the capital \u2014 and what does the audit's existence imply about what Syrskyi left behind?",
+      "pattern": "Military transitions under wartime pressure compress the normal grace period for new leadership \u2014 the audit happens under fire, literally",
+      "transferability": "Understanding Drapatyi's first act means reading manpower audits in wartime contexts as signals about command integrity, not just efficiency",
+      "cluster_id": "",
+      "why_now": "The audit was announced July 29. Russia struck Kyiv on July 30. The new commander is in his first 48 hours.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://kyivindependent.com/ukraine-war-latest-general-staff-announces-manpower-allocation-audit-in-first-major-reforms-under-drapatyi/",
+      "location": "Ukraine",
+      "season_or_time_context": "Late July 2026 \u2014 first 48 hours under new command",
+      "first_seen": "2026-07-30T18:00:00Z",
+      "last_seen": "2026-07-30T18:00:00Z",
       "appearances": 1
     }
   ]

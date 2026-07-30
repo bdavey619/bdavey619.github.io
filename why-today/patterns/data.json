@@ -1,12 +1,12 @@
 {
   "week": "2026-07-27",
-  "last_updated": "2026-07-29T18:00:00Z",
+  "last_updated": "2026-07-30T18:00:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
       "title": "Heat is quietly changing where entire industries can exist",
       "explanation": "Heat is forcing industries to retreat from geographies they've operated in for generations — not through catastrophe, but through slow withdrawal. Insurers stop writing policies. Coral gets relocated. Harvests shift earlier. Fish move north. None of these industries are coordinating with each other. They're all responding to the same signal: the map no longer matches the territory.",
-      "momentum": "building",
+      "momentum": "accelerating",
       "evidence": [
         {
           "domain": "Ocean",
@@ -42,12 +42,12 @@
       "id": "energy-systems-architecture-visible",
       "title": "The Hormuz closure revealed how much of the world's energy was always running through two miles of contested water",
       "explanation": "The Strait of Hormuz carried roughly 20% of global oil and LNG before February. That number was always there in the data. What the closure did was make it felt — in gas prices, in stranded sailors, in European storage levels entering autumn. The fragility wasn't created by the conflict. The conflict just removed the assumption that the strait would always be passable.",
-      "momentum": "acute",
+      "momentum": "building",
       "evidence": [
         {
           "domain": "Shipping",
-          "text": "Commercial tanker traffic through the Strait of Hormuz has fallen ~90% year-on-year. The US has reinstated a naval blockade of Iranian ports; 62 maritime incidents have been recorded since fighting began. A deal is now being negotiated specifically centered on who controls vessel transit through the strait — the diplomatic structure confirms what the recognition names.",
-          "url": "https://www.unitedagainstnucleariran.com/analysis/iran-shipping-update-july-28-2026",
+          "text": "Commercial tanker traffic through the Strait of Hormuz fell ~90% year-on-year during the conflict. Now, under the Islamabad Memorandum, Iran and Oman have established the principle that they will charge $1–2M per vessel per voyage for Hormuz transit — fee suspended during the current 60-day ceasefire window. The closure is easing. But the old order — neutral international water, always open — has not been restored. The strait is now a managed, priced passage.",
+          "url": "https://www.forbes.com/sites/guneyyildiz/2026/07/28/hormuz-is-becoming-a-fee-and-permission-regime/",
           "date": "2026-07-28",
           "is_new": true
         },
@@ -89,10 +89,10 @@
         },
         {
           "domain": "Law",
-          "text": "The White House has accused Moonshot AI of distilling Anthropic's models to build K3. If established in court, the legal theory would make open-weights models legally distinct from open-source ones in ways the field hasn't worked through.",
-          "url": "https://www.techtimes.com/articles/321757/20260728/china-fires-back-us-targets-moonshot-ai-over-kimi-k3-anthropic-fable-theft-claim.htm",
-          "date": "2026-07-28",
-          "is_new": false
+          "text": "The White House's distillation claim put Anthropic in an unusual position: the company whose model was allegedly used to build Kimi K3 is now on record saying it does not support a ban on open-weight models. Dario Amodei, posting July 27, called non-dangerous open models 'a public good' while backing anti-distillation enforcement and chip export controls — a middle position that left Anthropic as the only major US lab not on the Nvidia-led open letter. The victim of alleged IP theft is now defining the distinction between 'open weights' (acceptable) and 'distillation' (not) — a legal category that doesn't fully exist yet.",
+          "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+          "date": "2026-07-27",
+          "is_new": true
         }
       ]
     },
@@ -147,10 +147,10 @@
         },
         {
           "domain": "Military",
-          "text": "Zelenskyy fired Gen. Oleksandr Syrskyi as Ukraine's commander-in-chief on July 21. The move came in response to nationwide protests — not internal review.",
-          "url": "https://www.pbs.org/newshour/world/ukraines-zelenskyy-fires-his-army-chief-after-protests-and-names-a-replacement",
-          "date": "2026-07-21",
-          "is_new": false
+          "text": "Zelenskyy fired Gen. Syrskyi on July 21 — removed by protest, not internal review. His replacement, Gen. Drapatyi, issued a system-wide manpower audit as his first official act on July 29, suggesting unit staffing reports under Syrskyi were unreliable. Russia launched ballistic missiles at Kyiv within hours of the appointment. The accountability gap that created the leadership change is now being measured by the new commander while the enemy is already testing him.",
+          "url": "https://kyivindependent.com/ukraine-war-latest-general-staff-announces-manpower-allocation-audit-in-first-major-reforms-under-drapatyi/",
+          "date": "2026-07-30",
+          "is_new": true
         },
         {
           "domain": "Diplomacy",
@@ -165,6 +165,35 @@
           "url": "https://www.techtimes.com/articles/321273/20260722/france-bans-social-media-under-15s-cut-enforcement-mechanism.htm",
           "date": "2026-07-22",
           "is_new": false
+        }
+      ]
+    },
+    {
+      "id": "heat-kills-differently",
+      "title": "Heat kills far more than fire does — but it kills in a way that doesn't trigger the emergency response.",
+      "explanation": "France confirmed 2,025 deaths from the June heatwave on July 3 — three weeks after the heat had passed. A preprint estimated 20,390 dead across Europe in those same seven days. The Bordeaux fire burning simultaneously mobilized 2,500 firefighters, 1,500 soldiers, and weeks of front-page coverage. Heat and fire share a cause — the same Omega block, the same drought, the same record temperatures. They don't share a response architecture. Emergency systems are designed for disasters with perimeters: you can see where the fire is, you can evacuate a zone, you can call in air support. Heat has no perimeter. It kills overnight, in bedrooms, in the elderly and the poor, and the count isn't final until an epidemiologist runs the numbers in August.",
+      "momentum": "acute",
+      "evidence": [
+        {
+          "domain": "Public Health",
+          "text": "France confirmed 2,025 excess deaths from the June 2026 heatwave — announced July 3, three weeks after the peak heat. A statistical preprint estimated the European continental toll at 20,390 for just the seven peak days of June 22–28: France 5,210, Germany 4,543, Spain 3,163, Italy 2,709. The fourth heatwave of the summer arrived July 30.",
+          "url": "https://www.travelerstoday.com/articles/60336/20260705/europe-heatwave-2026-france-confirms-2025-dead-omega-block-holds-continent.htm",
+          "date": "2026-07-03",
+          "is_new": true
+        },
+        {
+          "domain": "Physiology",
+          "text": "The US's third heat dome of summer 2026 targets 80 million Americans with overnight lows above 75–80°F across the Southeast, Great Plains, and Northeast. When overnight temperatures stay this high, the body's core temperature repair cycle fails during sleep. Physicians call this 'heat debt' — an accumulating physiological burden that makes each subsequent day more dangerous. The accumulation is invisible until it becomes a hospital crisis.",
+          "url": "https://www.techtimes.com/articles/321637/20260726/summers-third-heat-dome-targets-80-million-americans-overnight-heat-wont-break-until-august.htm",
+          "date": "2026-07-26",
+          "is_new": true
+        },
+        {
+          "domain": "Emergency Response",
+          "text": "France deployed 2,500 firefighters and 1,500 soldiers to fight the Bordeaux fire — which has killed no one confirmed as of July 30. The June heatwave that killed 2,025 French citizens generated no equivalent deployment. The 4th heatwave is now arriving with 40–45°C forecast; the deaths it produces will be counted in August, after the fact, by epidemiologists.",
+          "url": "https://abcnews.com/International/wireStory/heat-wave-threatens-reignite-frances-mega-fire-bordeaux-135180714",
+          "date": "2026-07-30",
+          "is_new": true
         }
       ]
     }
