@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-07",
   "division_name": "AL East",
-  "generated_at": "2026-07-29T13:03:34.345746+00:00",
+  "generated_at": "2026-07-30T12:48:14.473038+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -240,19 +240,17 @@
       "gamePk": 824569,
       "status": "final",
       "result": "W",
-      "score": "3\u20132"
+      "score": "3\u20132",
+      "archive_url": "archive.html?date=2026-07-29"
     },
     {
       "date": "2026-07-29",
       "opponent": "CWS",
       "home": false,
       "gamePk": 824567,
-      "status": "scheduled",
-      "time_local": "7:40 PM ET",
-      "probable": {
-        "team": "Cam Schlittler",
-        "opp": "Davis Martin"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "5\u20136"
     },
     {
       "date": "2026-07-30",
@@ -272,12 +270,15 @@
       "home": false,
       "gamePk": 824651,
       "status": "scheduled",
-      "time_local": "2:20 PM ET"
+      "time_local": "2:20 PM ET",
+      "probable": {
+        "opp": "Shota Imanaga"
+      }
     }
   ],
   "summary": {
-    "month_record": "13\u201311",
-    "current_streak": "W2",
+    "month_record": "13\u201312",
+    "current_streak": "L1",
     "last_10": "7\u20133"
   }
 }
