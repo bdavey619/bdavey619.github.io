@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-07",
   "division_name": "AL West",
-  "generated_at": "2026-07-30T14:52:32.369852+00:00",
+  "generated_at": "2026-07-31T15:02:44.666378+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -222,19 +222,17 @@
       "gamePk": 824973,
       "status": "final",
       "result": "L",
-      "score": "2\u20134"
+      "score": "2\u20134",
+      "archive_url": "archive.html?date=2026-07-30"
     },
     {
       "date": "2026-07-30",
       "opponent": "BOS",
       "home": true,
       "gamePk": 824974,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Mason Barnett",
-        "opp": "Sonny Gray"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "4\u20135"
     },
     {
       "date": "2026-07-31",
@@ -244,13 +242,14 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
+        "team": "Jeffrey Springs",
         "opp": "Casey Mize"
       }
     }
   ],
   "summary": {
-    "month_record": "5\u201317",
-    "current_streak": "L1",
+    "month_record": "5\u201318",
+    "current_streak": "L2",
     "last_10": "3\u20137"
   }
 }
