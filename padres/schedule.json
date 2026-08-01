@@ -1,274 +1,246 @@
 {
   "team": "Padres",
   "team_slug": "padres",
-  "month": "2026-07",
+  "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-07-31T12:24:45.307788+00:00",
+  "generated_at": "2026-08-01T11:38:38.226671+00:00",
   "games": [
     {
-      "date": "2026-07-01",
-      "opponent": "CHC",
-      "home": false,
-      "gamePk": 824660,
-      "status": "final",
-      "result": "L",
-      "score": "3\u201323",
-      "archive_url": "archive.html?date=2026-07-02"
-    },
-    {
-      "date": "2026-07-02",
-      "opponent": "LAD",
-      "home": false,
-      "gamePk": 823935,
-      "status": "final",
-      "result": "L",
-      "score": "7\u201312",
-      "archive_url": "archive.html?date=2026-07-03"
-    },
-    {
-      "date": "2026-07-03",
-      "opponent": "LAD",
-      "home": false,
-      "gamePk": 823933,
-      "status": "final",
-      "result": "L",
-      "score": "3\u20134",
-      "archive_url": "archive.html?date=2026-07-04"
-    },
-    {
-      "date": "2026-07-04",
-      "opponent": "LAD",
-      "home": false,
-      "gamePk": 823932,
-      "status": "final",
-      "result": "L",
-      "score": "0\u20133",
-      "archive_url": "archive.html?date=2026-07-05"
-    },
-    {
-      "date": "2026-07-05",
-      "opponent": "LAD",
-      "home": false,
-      "gamePk": 823931,
-      "status": "final",
-      "result": "W",
-      "score": "5\u20132",
-      "archive_url": "archive.html?date=2026-07-06"
-    },
-    {
-      "date": "2026-07-06",
-      "opponent": "ARI",
-      "home": true,
-      "gamePk": 823282,
-      "status": "final",
-      "result": "L",
-      "score": "0\u20138",
-      "archive_url": "archive.html?date=2026-07-07"
-    },
-    {
-      "date": "2026-07-07",
-      "opponent": "ARI",
-      "home": true,
-      "gamePk": 823280,
-      "status": "final",
-      "result": "W",
-      "score": "4\u20131",
-      "archive_url": "archive.html?date=2026-07-08"
-    },
-    {
-      "date": "2026-07-08",
-      "opponent": "ARI",
-      "home": true,
-      "gamePk": 823279,
-      "status": "final",
-      "result": "W",
-      "score": "10\u20134"
-    },
-    {
-      "date": "2026-07-09",
-      "opponent": "ARI",
-      "home": true,
-      "gamePk": 823277,
-      "status": "final",
-      "result": "L",
-      "score": "1\u20133",
-      "archive_url": "archive.html?date=2026-07-10"
-    },
-    {
-      "date": "2026-07-10",
-      "opponent": "TOR",
-      "home": true,
-      "gamePk": 823278,
-      "status": "final",
-      "result": "L",
-      "score": "3\u20135",
-      "archive_url": "archive.html?date=2026-07-11"
-    },
-    {
-      "date": "2026-07-11",
-      "opponent": "TOR",
-      "home": true,
-      "gamePk": 823276,
-      "status": "final",
-      "result": "W",
-      "score": "8\u20137",
-      "archive_url": "archive.html?date=2026-07-12"
-    },
-    {
-      "date": "2026-07-12",
-      "opponent": "TOR",
-      "home": true,
-      "gamePk": 823274,
-      "status": "final",
-      "result": "W",
-      "score": "5\u20134",
-      "archive_url": "archive.html?date=2026-07-13"
-    },
-    {
-      "date": "2026-07-17",
-      "opponent": "KC",
-      "home": false,
-      "gamePk": 824090,
-      "status": "final",
-      "result": "L",
-      "score": "6\u20137",
-      "archive_url": "archive.html?date=2026-07-18"
-    },
-    {
-      "date": "2026-07-18",
-      "opponent": "KC",
-      "home": false,
-      "gamePk": 824088,
-      "status": "final",
-      "result": "L",
-      "score": "1\u20136",
-      "archive_url": "archive.html?date=2026-07-19"
-    },
-    {
-      "date": "2026-07-19",
-      "opponent": "KC",
-      "home": false,
-      "gamePk": 824086,
-      "status": "final",
-      "result": "W",
-      "score": "19\u20132",
-      "archive_url": "archive.html?date=2026-07-20"
-    },
-    {
-      "date": "2026-07-20",
-      "opponent": "ATL",
-      "home": false,
-      "gamePk": 824898,
-      "status": "final",
-      "result": "L",
-      "score": "2\u20133",
-      "archive_url": "archive.html?date=2026-07-21"
-    },
-    {
-      "date": "2026-07-21",
-      "opponent": "ATL",
-      "home": false,
-      "gamePk": 824895,
-      "status": "final",
-      "result": "W",
-      "score": "8\u20133",
-      "archive_url": "archive.html?date=2026-07-22"
-    },
-    {
-      "date": "2026-07-22",
-      "opponent": "ATL",
-      "home": false,
-      "gamePk": 824896,
-      "status": "final",
-      "result": "L",
-      "score": "6\u20137",
-      "archive_url": "archive.html?date=2026-07-23"
-    },
-    {
-      "date": "2026-07-23",
-      "opponent": "ATL",
-      "home": false,
-      "gamePk": 824893,
-      "status": "final",
-      "result": "L",
-      "score": "5\u20136",
-      "archive_url": "archive.html?date=2026-07-24"
-    },
-    {
-      "date": "2026-07-24",
-      "opponent": "MIA",
-      "home": false,
-      "gamePk": 823843,
-      "status": "final",
-      "result": "W",
-      "score": "4\u20132",
-      "archive_url": "archive.html?date=2026-07-25"
-    },
-    {
-      "date": "2026-07-25",
-      "opponent": "MIA",
-      "home": false,
-      "gamePk": 823841,
-      "status": "final",
-      "result": "W",
-      "score": "7\u20132",
-      "archive_url": "archive.html?date=2026-07-26"
-    },
-    {
-      "date": "2026-07-26",
-      "opponent": "MIA",
-      "home": false,
-      "gamePk": 823840,
-      "status": "final",
-      "result": "W",
-      "score": "5\u20133",
-      "archive_url": "archive.html?date=2026-07-27"
-    },
-    {
-      "date": "2026-07-28",
-      "opponent": "COL",
-      "home": true,
-      "gamePk": 823275,
-      "status": "final",
-      "result": "W",
-      "score": "8\u20137",
-      "archive_url": "archive.html?date=2026-07-29"
-    },
-    {
-      "date": "2026-07-29",
-      "opponent": "COL",
-      "home": true,
-      "gamePk": 823273,
-      "status": "final",
-      "result": "W",
-      "score": "3\u20131",
-      "archive_url": "archive.html?date=2026-07-30"
-    },
-    {
-      "date": "2026-07-30",
+      "date": "2026-08-01",
       "opponent": "SF",
       "home": true,
-      "gamePk": 823271,
-      "status": "final",
-      "result": "L",
-      "score": "1\u20134"
-    },
-    {
-      "date": "2026-07-31",
-      "opponent": "SF",
-      "home": true,
-      "gamePk": 823272,
+      "gamePk": 823269,
       "status": "scheduled",
-      "time_local": "6:45 PM PT",
+      "time_local": "5:40 PM PT",
       "probable": {
-        "team": "Bradgley Rodriguez",
-        "opp": "Carson Whisenhunt"
+        "team": "Walker Buehler",
+        "opp": "Tyler Mahle"
       }
+    },
+    {
+      "date": "2026-08-02",
+      "opponent": "SF",
+      "home": true,
+      "gamePk": 823270,
+      "status": "scheduled",
+      "time_local": "1:10 PM PT",
+      "probable": {
+        "team": "Michael King",
+        "opp": "Landen Roupp"
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "opponent": "ARI",
+      "home": false,
+      "gamePk": 825095,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-08-04",
+      "opponent": "ARI",
+      "home": false,
+      "gamePk": 825054,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-08-05",
+      "opponent": "ARI",
+      "home": false,
+      "gamePk": 825052,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-08-06",
+      "opponent": "ARI",
+      "home": false,
+      "gamePk": 825053,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-08-07",
+      "opponent": "HOU",
+      "home": true,
+      "gamePk": 823266,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-08-08",
+      "opponent": "HOU",
+      "home": true,
+      "gamePk": 823267,
+      "status": "scheduled",
+      "time_local": "4:15 PM PT"
+    },
+    {
+      "date": "2026-08-09",
+      "opponent": "HOU",
+      "home": true,
+      "gamePk": 823268,
+      "status": "scheduled",
+      "time_local": "5:20 PM PT"
+    },
+    {
+      "date": "2026-08-10",
+      "opponent": "MIL",
+      "home": true,
+      "gamePk": 823265,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-08-11",
+      "opponent": "MIL",
+      "home": true,
+      "gamePk": 823264,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-08-12",
+      "opponent": "MIL",
+      "home": true,
+      "gamePk": 823263,
+      "status": "scheduled",
+      "time_local": "1:10 PM PT"
+    },
+    {
+      "date": "2026-08-14",
+      "opponent": "CLE",
+      "home": false,
+      "gamePk": 824399,
+      "status": "scheduled",
+      "time_local": "4:10 PM PT"
+    },
+    {
+      "date": "2026-08-15",
+      "opponent": "CLE",
+      "home": false,
+      "gamePk": 824400,
+      "status": "scheduled",
+      "time_local": "4:10 PM PT"
+    },
+    {
+      "date": "2026-08-16",
+      "opponent": "CLE",
+      "home": false,
+      "gamePk": 824397,
+      "status": "scheduled",
+      "time_local": "10:40 AM PT"
+    },
+    {
+      "date": "2026-08-17",
+      "opponent": "NYM",
+      "home": false,
+      "gamePk": 823589,
+      "status": "scheduled",
+      "time_local": "4:10 PM PT"
+    },
+    {
+      "date": "2026-08-18",
+      "opponent": "NYM",
+      "home": false,
+      "gamePk": 823586,
+      "status": "scheduled",
+      "time_local": "4:10 PM PT"
+    },
+    {
+      "date": "2026-08-19",
+      "opponent": "NYM",
+      "home": false,
+      "gamePk": 823587,
+      "status": "scheduled",
+      "time_local": "10:10 AM PT"
+    },
+    {
+      "date": "2026-08-21",
+      "opponent": "MIN",
+      "home": true,
+      "gamePk": 823262,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-08-22",
+      "opponent": "MIN",
+      "home": true,
+      "gamePk": 823261,
+      "status": "scheduled",
+      "time_local": "5:40 PM PT"
+    },
+    {
+      "date": "2026-08-23",
+      "opponent": "MIN",
+      "home": true,
+      "gamePk": 823258,
+      "status": "scheduled",
+      "time_local": "1:10 PM PT"
+    },
+    {
+      "date": "2026-08-24",
+      "opponent": "PIT",
+      "home": true,
+      "gamePk": 823260,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-08-25",
+      "opponent": "PIT",
+      "home": true,
+      "gamePk": 823259,
+      "status": "scheduled",
+      "time_local": "6:40 PM PT"
+    },
+    {
+      "date": "2026-08-26",
+      "opponent": "PIT",
+      "home": true,
+      "gamePk": 823255,
+      "status": "scheduled",
+      "time_local": "1:10 PM PT"
+    },
+    {
+      "date": "2026-08-28",
+      "opponent": "TB",
+      "home": false,
+      "gamePk": 822935,
+      "status": "scheduled",
+      "time_local": "4:10 PM PT"
+    },
+    {
+      "date": "2026-08-29",
+      "opponent": "TB",
+      "home": false,
+      "gamePk": 822936,
+      "status": "scheduled",
+      "time_local": "1:10 PM PT"
+    },
+    {
+      "date": "2026-08-30",
+      "opponent": "TB",
+      "home": false,
+      "gamePk": 822933,
+      "status": "scheduled",
+      "time_local": "10:40 AM PT"
+    },
+    {
+      "date": "2026-08-31",
+      "opponent": "CIN",
+      "home": false,
+      "gamePk": 824473,
+      "status": "scheduled",
+      "time_local": "3:40 PM PT"
     }
   ],
   "summary": {
-    "month_record": "12\u201313",
-    "current_streak": "L1",
-    "last_10": "6\u20134"
+    "month_record": "0\u20130",
+    "current_streak": "W1",
+    "last_10": "7\u20133"
   }
 }

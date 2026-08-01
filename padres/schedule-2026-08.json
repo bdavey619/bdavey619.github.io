@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-07-31T12:24:45.307788+00:00",
+  "generated_at": "2026-08-01T11:38:38.226671+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -13,7 +13,8 @@
       "status": "scheduled",
       "time_local": "5:40 PM PT",
       "probable": {
-        "team": "Walker Buehler"
+        "team": "Walker Buehler",
+        "opp": "Tyler Mahle"
       }
     },
     {
@@ -24,7 +25,8 @@
       "status": "scheduled",
       "time_local": "1:10 PM PT",
       "probable": {
-        "team": "Michael King"
+        "team": "Michael King",
+        "opp": "Landen Roupp"
       }
     },
     {
@@ -238,7 +240,7 @@
   ],
   "summary": {
     "month_record": "0\u20130",
-    "current_streak": "",
-    "last_10": ""
+    "current_streak": "W1",
+    "last_10": "7\u20133"
   }
 }
