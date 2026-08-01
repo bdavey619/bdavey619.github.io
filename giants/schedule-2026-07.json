@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-07",
   "division_name": "NL West",
-  "generated_at": "2026-07-31T14:08:29.515774+00:00",
+  "generated_at": "2026-08-01T13:22:18.590770+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -242,24 +242,22 @@
       "gamePk": 823271,
       "status": "final",
       "result": "W",
-      "score": "4\u20131"
+      "score": "4\u20131",
+      "archive_url": "archive.html?date=2026-07-31"
     },
     {
       "date": "2026-07-31",
       "opponent": "SD",
       "home": false,
       "gamePk": 823272,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "team": "Carson Whisenhunt",
-        "opp": "Bradgley Rodriguez"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20137"
     }
   ],
   "summary": {
-    "month_record": "12\u201312",
-    "current_streak": "W2",
-    "last_10": "5\u20135"
+    "month_record": "12\u201313",
+    "current_streak": "",
+    "last_10": ""
   }
 }
