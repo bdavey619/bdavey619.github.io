@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-07",
   "division_name": "AL East",
-  "generated_at": "2026-07-31T12:59:20.003217+00:00",
+  "generated_at": "2026-08-01T12:04:19.611050+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -260,24 +260,22 @@
       "gamePk": 824568,
       "status": "final",
       "result": "L",
-      "score": "1\u20132"
+      "score": "1\u20132",
+      "archive_url": "archive.html?date=2026-07-31"
     },
     {
       "date": "2026-07-31",
       "opponent": "CHC",
       "home": false,
       "gamePk": 824651,
-      "status": "scheduled",
-      "time_local": "2:20 PM ET",
-      "probable": {
-        "team": "Will Warren",
-        "opp": "Shota Imanaga"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "2\u20130"
     }
   ],
   "summary": {
-    "month_record": "13\u201313",
-    "current_streak": "L2",
-    "last_10": "6\u20134"
+    "month_record": "14\u201313",
+    "current_streak": "",
+    "last_10": ""
   }
 }
