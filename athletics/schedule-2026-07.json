@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-07",
   "division_name": "AL West",
-  "generated_at": "2026-07-31T15:02:44.666378+00:00",
+  "generated_at": "2026-08-01T14:08:02.571897+00:00",
   "games": [
     {
       "date": "2026-07-01",
@@ -232,24 +232,22 @@
       "gamePk": 824974,
       "status": "final",
       "result": "L",
-      "score": "4\u20135"
+      "score": "4\u20135",
+      "archive_url": "archive.html?date=2026-07-31"
     },
     {
       "date": "2026-07-31",
       "opponent": "DET",
       "home": true,
       "gamePk": 824975,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Jeffrey Springs",
-        "opp": "Casey Mize"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u201313"
     }
   ],
   "summary": {
-    "month_record": "5\u201318",
-    "current_streak": "L2",
-    "last_10": "3\u20137"
+    "month_record": "5\u201319",
+    "current_streak": "",
+    "last_10": ""
   }
 }
