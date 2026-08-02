@@ -3,19 +3,16 @@
   "team_slug": "athletics",
   "month": "2026-08",
   "division_name": "AL West",
-  "generated_at": "2026-08-01T14:08:02.571897+00:00",
+  "generated_at": "2026-08-02T14:10:28.236010+00:00",
   "games": [
     {
       "date": "2026-08-01",
       "opponent": "DET",
       "home": true,
       "gamePk": 824972,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Jack Perkins",
-        "opp": "Framber Valdez"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "6\u20138"
     },
     {
       "date": "2026-08-02",
@@ -46,7 +43,10 @@
       "home": false,
       "gamePk": 824482,
       "status": "scheduled",
-      "time_local": "3:40 PM PT"
+      "time_local": "3:40 PM PT",
+      "probable": {
+        "opp": "Rhett Lowder"
+      }
     },
     {
       "date": "2026-08-06",
@@ -242,8 +242,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20130",
-    "current_streak": "L3",
+    "month_record": "0\u20131",
+    "current_streak": "L4",
     "last_10": "2\u20138"
   }
 }
