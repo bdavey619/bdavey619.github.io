@@ -3,19 +3,16 @@
   "team_slug": "giants",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-01T13:22:18.590770+00:00",
+  "generated_at": "2026-08-02T13:22:34.129319+00:00",
   "games": [
     {
       "date": "2026-08-01",
       "opponent": "SD",
       "home": false,
       "gamePk": 823269,
-      "status": "scheduled",
-      "time_local": "5:40 PM PT",
-      "probable": {
-        "team": "Tyler Mahle",
-        "opp": "Walker Buehler"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "5\u20136"
     },
     {
       "date": "2026-08-02",
@@ -239,8 +236,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20130",
-    "current_streak": "L1",
+    "month_record": "0\u20131",
+    "current_streak": "L2",
     "last_10": "5\u20135"
   }
 }
