@@ -1,6 +1,6 @@
 {
   "week": "2026-07-27",
-  "last_updated": "2026-07-30T18:00:00Z",
+  "last_updated": "2026-08-02T18:00:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
@@ -30,11 +30,11 @@
           "is_new": true
         },
         {
-          "domain": "Fisheries",
-          "text": "Atlantic bluefin tuna are projected to shift their range significantly northward as ocean warming accelerates. The fishing industry's maps of where fish live are becoming unreliable.",
-          "url": "https://www.undercurrentnews.com/2026/02/18/atlantic-bluefin-tuna-set-to-shift-north-as-ocean-warming-accelerates/",
-          "date": "2026-02-18",
-          "is_new": false
+          "domain": "Energy Production",
+          "text": "Hungary's Paks Nuclear Power Plant — the country's only nuclear facility, supplying 33–40% of its electricity — shut down for the first time in its 44-year history on August 2. The Danube River, which cools the reactors, dropped to a record minus 134cm. The previous drought record was minus 98cm, set in 2018. The same heat wave that pushed electricity demand to record highs also emptied the river that makes the electricity possible.",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-01/hungary-to-shut-its-only-nuclear-plant-for-first-time-on-drought",
+          "date": "2026-08-02",
+          "is_new": true
         }
       ]
     },
@@ -99,8 +99,8 @@
     {
       "id": "late-july-threshold",
       "title": "Late July is the year's turning point that the modern calendar forgot to name",
-      "explanation": "Pre-industrial cultures named this passage — Lammas, the cross-quarter day halfway between solstice and equinox. Firefly season closes. The Perseids build toward their peak. The light changes. None of this is news, but it's not nothing either. The modern calendar skips from July to August as if the transition between them weren't real. It is.",
-      "momentum": "peaking",
+      "explanation": "Pre-industrial cultures named this passage — Lammas, the cross-quarter day halfway between solstice and equinox, arrived August 1. Firefly season closed. The Full Buck Moon rose. The light changed. None of this is news, but it wasn't nothing. The modern calendar skips from July to August as if the transition between them weren't real. It was. The threshold is now behind us — August is a harvest month, not a summer month.",
+      "momentum": "fading",
       "evidence": [
         {
           "domain": "Natural World",
@@ -190,9 +190,9 @@
         },
         {
           "domain": "Emergency Response",
-          "text": "France deployed 2,500 firefighters and 1,500 soldiers to fight the Bordeaux fire — which has killed no one confirmed as of July 30. The June heatwave that killed 2,025 French citizens generated no equivalent deployment. The 4th heatwave is now arriving with 40–45°C forecast; the deaths it produces will be counted in August, after the fact, by epidemiologists.",
-          "url": "https://abcnews.com/International/wireStory/heat-wave-threatens-reignite-frances-mega-fire-bordeaux-135180714",
-          "date": "2026-07-30",
+          "text": "France deployed 2,500 firefighters and 1,500 soldiers to fight the Bordeaux fire — which killed no one confirmed as of containment on August 1. As the Bordeaux crews stood down, 1,500 firefighters moved immediately to a new Provence fire. Greece deployed helicopter fleets to Athens suburb fires — two crews died in a mid-air collision August 2. The firefighting infrastructure is fully mobilized. The June heatwave that killed 2,025 French citizens mobilized nothing equivalent.",
+          "url": "https://www.aljazeera.com/news/2026/8/2/firefighting-helicopters-collide-near-athens-as-greece-battles-wildfires",
+          "date": "2026-08-02",
           "is_new": true
         }
       ]

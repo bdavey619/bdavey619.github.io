@@ -1,6 +1,6 @@
 {
   "week_start": "2026-07-27",
-  "last_updated": "2026-07-30T18:00:00Z",
+  "last_updated": "2026-08-02T18:00:00Z",
   "storylines": [
     {
       "id": "perseid-meteor-shower-buildup",
@@ -20,8 +20,14 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 building to August peak",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4,
+      "history": [
+        {
+          "date": "2026-08-02T18:00:00Z",
+          "note": "Ten days to peak. New moon alignment confirmed \u2014 near-perfect dark skies on August 12\u201313. Particle density increasing nightly. Meteors already visible on clear nights. 2026 is shaping up as one of the best Perseid years in recent memory."
+        }
+      ]
     },
     {
       "id": "ocean-heat-el-nino-2026",
@@ -41,8 +47,8 @@
       "location": "",
       "season_or_time_context": "Late July 2026 \u2014 El Ni\u00f1o developing",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 3
     },
     {
       "id": "stone-fruit-peak-late-july",
@@ -62,8 +68,8 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 brief peak window",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 3
     },
     {
       "id": "wildfire-smoke-new-normal",
@@ -83,8 +89,8 @@
       "location": "",
       "season_or_time_context": "Late July 2026 \u2014 fire season peak",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 3
     },
     {
       "id": "overnight-heat-debt",
@@ -104,8 +110,8 @@
       "location": "Central and eastern United States",
       "season_or_time_context": "Late July 2026 \u2014 third heat dome of summer",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 2
     },
     {
       "id": "firefly-season-threshold",
@@ -125,8 +131,8 @@
       "location": "Northern United States",
       "season_or_time_context": "Late July \u2014 firefly season end",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 2
     },
     {
       "id": "back-to-school-anxiety-ritual",
@@ -146,8 +152,8 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 ritual transition",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 3
     },
     {
       "id": "county-fair-season-peak",
@@ -167,8 +173,8 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 peak fair season",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 3
     },
     {
       "id": "heirloom-tomato-peak",
@@ -188,8 +194,8 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 heirloom tomato arrival",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 2
     },
     {
       "id": "sweet-corn-24-hour-window",
@@ -209,8 +215,8 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 peak corn season",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 3
     },
     {
       "id": "coolcation-geography-rewrite",
@@ -230,8 +236,8 @@
       "location": "Southern Europe / Scandinavia",
       "season_or_time_context": "Late July 2026 \u2014 peak summer travel season",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-07-26T14:00:00Z",
@@ -261,8 +267,8 @@
       "location": "Cap Ferret, Gironde, France",
       "season_or_time_context": "Late July 2026 \u2014 peak season, fire emergency",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 2
     },
     {
       "id": "sunset-later-than-solstice",
@@ -282,8 +288,8 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 the counterintuitive moment",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 3
     },
     {
       "id": "stone-fruit-synchronized-ripening",
@@ -303,8 +309,8 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 stone fruit peak",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 3
     },
     {
       "id": "smoke-taint-veraison-window",
@@ -324,8 +330,14 @@
       "location": "Bordeaux, France",
       "season_or_time_context": "Late July 2026 \u2014 pre-veraison window",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-07-29T12:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4,
+      "history": [
+        {
+          "date": "2026-08-02T18:00:00Z",
+          "note": "Bordeaux fire contained August 1. Whether the smoke exposure during the veraison window permanently damaged the vintage will be known at crush in September. The window for damage has now closed \u2014 the question is how much got through."
+        }
+      ]
     },
     {
       "id": "strait-hormuz-traffic-collapse",
@@ -345,8 +357,8 @@
       "location": "Strait of Hormuz, Persian Gulf",
       "season_or_time_context": "Late July 2026 \u2014 Hormuz near-standstill",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-07-30T18:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-07-30T18:00:00Z",
@@ -372,8 +384,8 @@
       "location": "",
       "season_or_time_context": "July 27, 2026 \u2014 open weights release day",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-07-29T12:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-07-29T12:00:00Z",
@@ -397,13 +409,9 @@
       "editorial_potential": "high",
       "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
       "first_seen": "2026-07-22T00:00:00Z",
-      "last_seen": "2026-07-30T18:00:00Z",
-      "appearances": 8,
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 9,
       "history": [
-        {
-          "date": "2026-07-26T14:00:00Z",
-          "note": "Second consecutive day with no US strikes on Iran. Diplomatic talks pressing forward. War is 148 days old. Saudi Arabia continues strikes on Houthis. Exit \u2014 whether diplomatic or military \u2014 appears closer."
-        },
         {
           "date": "2026-07-27T10:00:00Z",
           "note": "Third consecutive day without direct US-Iran air strikes. Iran has been attacking commercial vessels bypassing its preapproved Strait of Hormuz routes. Traffic through the strait down 90% year-on-year. 70% of still-transiting tankers running AIS 'dark.' Oil above $100/barrel. 6,000 seafarers stranded. The conflict has shifted from air strikes to an economic siege over the world's most critical energy passage."
@@ -419,6 +427,10 @@
         {
           "date": "2026-07-30T18:00:00Z",
           "note": "The Islamabad Memorandum (signed June 17) established that Iran and Oman will charge $1-2M per vessel for Hormuz transit \u2014 fee suspended during the current ceasefire window through ~August 17. Forbes analysis July 28: 'Hormuz Is Becoming A Fee-And-Permission Regime.' A war that started without a congressional vote may end having permanently changed the legal status of the world's most important energy passage \u2014 also without a congressional vote."
+        },
+        {
+          "date": "2026-08-02T18:00:00Z",
+          "note": "60-day ceasefire window under Islamabad Memorandum running through ~August 17. Transit fee regime suspended during window but principle established. Nuclear talks ongoing. The war may end the same way it started: without a congressional vote."
         }
       ]
     },
@@ -438,12 +450,16 @@
       "editorial_potential": "high",
       "url": "https://www.nbcnews.com/world/ukraine/ukraines-zelenskyy-fires-commander-chief-protests-major-rift-rcna588159",
       "first_seen": "2026-07-21T00:00:00Z",
-      "last_seen": "2026-07-30T18:00:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-07-30T18:00:00Z",
           "note": "Drapatyi's first act: a system-wide manpower audit \u2014 suggesting unit staffing reports under Syrskyi were unreliable. Russia launched ballistic missiles at Kyiv on July 30, hours after his appointment was finalized. The new command is being tested immediately."
+        },
+        {
+          "date": "2026-08-02T18:00:00Z",
+          "note": "Drapatyi manpower audit underway. Russia launched 31 missiles, 201 guided bombs, and 6,659 kamikaze drones on August 1 alone. Ukraine's new strategy: precision long-range strikes on hard-to-replace industrial components rather than broad infrastructure. Russia's territorial gains this year have tapered to 10\u201315 square miles in the past month while Ukraine claims 700 sq km recaptured."
         }
       ]
     },
@@ -463,8 +479,14 @@
       "editorial_potential": "high",
       "url": "https://www.ibtimes.com/china-ai-distillation-moonshot-kimi-k3-anthropic-3805653",
       "first_seen": "2026-07-17T00:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 5,
+      "history": [
+        {
+          "date": "2026-08-02T18:00:00Z",
+          "note": "AI EO 60-day framework deadline reached August 1. No open-weights ban signed. The Nvidia/Meta/Microsoft open-letter coalition holds. Anthropic's anti-distillation middle position is the outlier. The debate continues without resolution."
+        }
+      ]
     },
     {
       "id": "waico-global-south-ai-split",
@@ -482,8 +504,8 @@
       "editorial_potential": "high",
       "url": "https://thediplomat.com/2026/07/chinas-new-ai-club-the-world-artificial-intelligence-cooperation-organization/",
       "first_seen": "2026-07-17T00:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4
     },
     {
       "id": "france-kids-social-media-ban",
@@ -501,8 +523,8 @@
       "editorial_potential": "high",
       "url": "https://www.npr.org/2026/07/22/g-s1-134875/france-social-media-ban",
       "first_seen": "2026-07-21T00:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4
     },
     {
       "id": "mamdani-calls-netanyahu-war-criminal",
@@ -520,8 +542,8 @@
       "editorial_potential": "high",
       "url": "https://www.npr.org/2026/07/22/g-s1-134880/mamdani-nyc-netanyahu",
       "first_seen": "2026-07-22T00:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4
     },
     {
       "id": "shutdown-third-in-a-year",
@@ -539,8 +561,8 @@
       "editorial_potential": "medium",
       "url": "https://www.npr.org/2026/07/21/nx-s1-5902245/government-funding-house-vote-continuing-resolution",
       "first_seen": "2026-07-21T00:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4
     },
     {
       "id": "lebron-76ers-decision-4",
@@ -558,8 +580,8 @@
       "editorial_potential": "high",
       "url": "https://www.inquirer.com/sixers/live/lebron-james-signs-philadelphia-76ers-contract-salary-roster-updates-reaction-20260724.html",
       "first_seen": "2026-07-24T00:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-07-24T00:00:00Z",
@@ -595,8 +617,8 @@
       "editorial_potential": "high",
       "url": "https://www.cbssports.com/soccer/news/argentina-spain-world-cup-2026-final-live-updates-score-result/live/",
       "first_seen": "2026-07-19T00:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4
     },
     {
       "id": "charli-xcx-music-fashion-film",
@@ -614,8 +636,8 @@
       "editorial_potential": "medium",
       "url": "https://www.rollingstone.com/music/music-news/charli-xcx-new-album-music-fashion-film-1235570567/",
       "first_seen": "2026-07-24T00:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4
     },
     {
       "id": "trump-tariffs-60-countries",
@@ -633,8 +655,8 @@
       "editorial_potential": "high",
       "url": "https://www.npr.org/2026/07/24/nx-s1-5905783/trump-tariff-trade-global-canada",
       "first_seen": "2026-07-24T00:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4
     },
     {
       "id": "wnba-allstar-clark-bueckers",
@@ -652,8 +674,8 @@
       "editorial_potential": "high",
       "url": "https://sports.yahoo.com/wnba/article/wnba-all-star-game-2026-schedule-date-rosters-how-to-watch-as-caitlin-clark-paige-bueckers-go-head-to-head-221518753.html",
       "first_seen": "2026-07-25T00:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-07-25T12:00:00Z",
@@ -685,8 +707,8 @@
       "editorial_potential": "medium",
       "url": "https://www.benzinga.com/markets/earnings/26/07/60438897/jamie-dimon-delivers-mixed-message-economy-is-resilient-but-market-risks-are-mounting",
       "first_seen": "2026-07-17T00:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4
     },
     {
       "id": "pogacar-fifth-tour-de-france",
@@ -707,8 +729,8 @@
       "url": "https://www.npr.org/2026/07/26/nx-s1-5908503/tadej-pogacar-tour-de-france-2026-winner-wildfires",
       "season_or_time_context": "July 26\u201327, 2026",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 3
     },
     {
       "id": "france-spain-wildfires-evacuations",
@@ -729,8 +751,8 @@
       "url": "https://www.japantimes.co.jp/news/2026/07/27/world/wildfires-bordeaux-france-spain/",
       "season_or_time_context": "Late July 2026",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-07-29T12:00:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 6,
       "history": [
         {
           "date": "2026-07-26T14:00:00Z",
@@ -747,6 +769,10 @@
         {
           "date": "2026-07-29T12:00:00Z",
           "note": "330,000+ total evacuated across France and Spain. 60,000 evacuees allowed to return to 3 Bordeaux suburbs. But a 4th heatwave of summer is arriving \u2014 Omega block atmospheric pattern, 40-45\u00b0C forecast \u2014 threatening to reignite the fire. 4,000 more tourists ordered evacuated from Atlantic coast sites. Fire still not contained, one week after start."
+        },
+        {
+          "date": "2026-08-02T18:00:00Z",
+          "note": "Bordeaux fire declared largely contained August 1 after 10 days \u2014 420 sq km burned, 330,000+ evacuated, 3,000 firefighters maintaining perimeter. Within 24 hours a new fire erupts in Provence: 1,500 firefighters deployed. Greece fires simultaneously threaten Athens suburbs. Two firefighting helicopters collide near Athens August 2, killing both crews. The fire season has not ended \u2014 it has moved."
         }
       ]
     },
@@ -769,8 +795,8 @@
       "url": "https://www.npr.org/2026/07/24/nx-s1-5906236/india-wangchuk-hunger-strike-cockroach-protesters",
       "season_or_time_context": "Late July 2026",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-07-27T10:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 3
     },
     {
       "id": "pyrocumulonimbus-bordeaux",
@@ -790,8 +816,8 @@
       "location": "Gironde, France",
       "season_or_time_context": "Late July 2026 \u2014 peak fire emergency",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-07-27T16:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 2
     },
     {
       "id": "ghost-month-begins",
@@ -811,8 +837,8 @@
       "location": "East and Southeast Asia; global diaspora",
       "season_or_time_context": "Late July to late August 2026 \u2014 Ghost Month begins July 28",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-07-27T16:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 2
     },
     {
       "id": "florida-coral-relocation",
@@ -832,8 +858,8 @@
       "location": "Florida Keys",
       "season_or_time_context": "Late July 2026 \u2014 pre-bleaching window",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-07-27T16:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 2
     },
     {
       "id": "el-nino-bluefin-warm-water",
@@ -853,8 +879,8 @@
       "location": "Southern California offshore waters",
       "season_or_time_context": "Late July 2026 \u2014 El Ni\u00f1o season",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-07-27T16:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 2
     },
     {
       "id": "california-fair-plan-retreat",
@@ -874,8 +900,8 @@
       "location": "California",
       "season_or_time_context": "Late July 2026 \u2014 fire season",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-07-27T16:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 2
     },
     {
       "id": "lammas-cross-quarter-threshold",
@@ -895,8 +921,14 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 cross-quarter threshold",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-07-27T16:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 3,
+      "history": [
+        {
+          "date": "2026-08-02T18:00:00Z",
+          "note": "Lammas passed August 1. The cross-quarter threshold has been crossed. Grain fields are turning gold. The back-to-school sales that started in late July now feel less premature."
+        }
+      ]
     },
     {
       "id": "fifa-host-city-extraction",
@@ -916,8 +948,8 @@
       "location": "United States (11 host cities)",
       "season_or_time_context": "Late July 2026 \u2014 post-World Cup",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-07-27T16:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 2
     },
     {
       "id": "full-buck-moon-three-showers",
@@ -937,8 +969,8 @@
       "location": "",
       "season_or_time_context": "July 29, 2026 \u2014 full moon night",
       "first_seen": "2026-07-29T12:00:00Z",
-      "last_seen": "2026-07-29T12:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 2
     },
     {
       "id": "europe-fourth-heatwave-omega-block",
@@ -958,97 +990,143 @@
       "location": "Western and Central Europe",
       "season_or_time_context": "Late July \u2014 early August 2026",
       "first_seen": "2026-07-29T12:00:00Z",
-      "last_seen": "2026-07-29T12:00:00Z",
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 3,
+      "history": [
+        {
+          "date": "2026-08-02T18:00:00Z",
+          "note": "Omega block heatwave peaked over France and Iberia. The same drought conditions that drove the heatwave also dropped the Danube to record lows \u2014 forcing Hungary's Paks nuclear plant to shut down for the first time in 44 years."
+        }
+      ]
+    },
+    {
+      "id": "hungary-nuclear-danube-drought",
+      "stream": "natural_world",
+      "observer": "systems",
+      "title": "Hungary's only nuclear plant shuts down \u2014 the Danube has run too low to cool the reactors",
+      "observation": "The Paks Nuclear Power Plant \u2014 Hungary's sole nuclear facility, in operation for 44 years and normally supplying 33\u201340% of the country's electricity \u2014 completed a full shutdown on August 2, the first in its history. The cause: the Danube River has dropped to a record low of minus 134cm at Paks, heading toward minus 144cm. The previous drought record was minus 98cm in 2018. River water cools the reactors; below a threshold level, the plant must shut down. Prime Minister Peter Magyar warned of 'critical days ahead.' Emergency power imports and industrial restrictions on water and electricity consumption were activated immediately.",
+      "question": "If nuclear power \u2014 often described as the solution to fossil fuel dependence \u2014 shuts down in a heat wave because rivers get too low and too warm to cool the reactors, what does that reveal about the assumptions built into 'clean energy'?",
+      "hidden_question": "Nuclear plants are cooled by the rivers they're built beside. The same drought that dries fields also dries rivers \u2014 and the heat that makes electricity demand soar is the same heat that makes nuclear production impossible. What does it mean that demand and supply are coupled to the same climate variable?",
+      "pattern": "Nuclear plants built on rivers have a hidden vulnerability to drought \u2014 they assumed river levels that no longer hold",
+      "transferability": "Understanding river-cooled nuclear infrastructure means reading every extreme drought forecast as an energy security event, not just an agricultural one",
+      "cluster_id": "el-nino-living-world-2026",
+      "why_now": "The Paks plant shut down August 2. First full shutdown in 44 years. Hungary's PM warns of imminent critical conditions.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-01/hungary-to-shut-its-only-nuclear-plant-for-first-time-on-drought",
+      "location": "Paks, Hungary / Danube River",
+      "season_or_time_context": "August 2, 2026 \u2014 record Danube lows",
+      "first_seen": "2026-08-02T18:00:00Z",
+      "last_seen": "2026-08-02T18:00:00Z",
       "appearances": 1
     },
     {
-      "id": "france-heat-deaths-confirmed",
+      "id": "greece-wildfires-near-athens",
       "stream": "headlines",
       "observer": "headlines",
       "category": "Politics & World",
-      "title": "France confirms 2,025 dead from June heatwave \u2014 Europe's toll estimated at 20,000",
-      "moment": "France confirmed on July 3 that the June heatwave killed 2,025 people above normal death rates. A preprint estimated the continent-wide toll at 20,390. The Bordeaux fire, burning simultaneously and generating 2,500 firefighters and front-page coverage, has not confirmed a comparable death count.",
-      "observation": "France's June 2026 heatwave killed 2,025 people above normal death rates \u2014 confirmed July 3, three weeks after the heat had passed. A preprint by Indiana University climate scientist Christopher Callahan estimated the continent-wide toll from just the seven peak days (June 22\u201328) at 20,390 deaths. France: 5,210. Germany: 4,543. Spain: 3,163. Italy: 2,709. The 4th heatwave of the summer is arriving July 30 \u2014 directly over the still-burning Bordeaux fire, with overnight lows staying near 25\u00b0C. Heat death has no perimeter, no visible front, and no equivalent emergency response.",
-      "question": "Heat and fire share a cause \u2014 but one generates evacuation orders and front pages while the other generates excess-mortality statistics, weeks later. Why?",
-      "hidden_question": "Why does the emergency system mobilize 2,500 firefighters and 1,500 soldiers against the fire and nothing equivalent against the heat that kills ten times as many people?",
-      "pattern": "Heat kills at a scale that makes fire look marginal \u2014 but fire has a perimeter, a visible front, and a countable emergency. Heat has none of these, and the response infrastructure reflects that.",
-      "transferability": "Understanding the mortality gap between heat and fire means reading every heatwave advisory as a proxy for a body count that won't be confirmed for weeks",
+      "title": "Greece wildfires threaten Athens suburbs \u2014 sea evacuations, two helicopters collide",
+      "moment": "Wildfires spread across Greece from July 31, forcing sea evacuations from coastal communities near Athens and destroying over 100 homes in western Attica. On August 2, two firefighting helicopters collided near Athens \u2014 killing both crews \u2014 as wind gusts topped 73 kph.",
+      "observation": "As France's Bordeaux megafire approached containment, wildfires erupted near Athens on July 31, spreading through western Attica and the Geraneia mountains. Authorities evacuated 254 people by sea from Agios Vasileios \u2014 a coastal community where fire and smoke blocked the only road out. By August 2, over 100 homes were destroyed, and a fresh fire forced evacuations on Kefalonia. Two Chinook helicopters collided near Athens, killing both crews. Prime Minister Mitsotakis cut short a European summit.",
+      "question": "What does it mean that the European wildfire crisis is spreading geographically even as individual fires are contained \u2014 and at what point does 'Europe's fire season' become indistinguishable from 'European summer'?",
+      "hidden_question": "The Bordeaux fire was contained \u2014 and the day it was, Greece started burning. Is this one fire season or many? What does 'contained' mean when the underlying conditions haven't changed?",
+      "pattern": "European wildfires in 2026 are spreading geographically rather than resolving \u2014 the crisis moves as firefighting resources follow the active front",
+      "transferability": "Understanding the mobility of the fire season means reading 'contained' as a change in location, not an end to risk",
       "cluster_id": "europe-summer-disruption-2026",
-      "why_now": "France confirmed the June death toll on July 3. The 4th heatwave is arriving July 30 \u2014 on top of an active fire \u2014 and will produce another count, confirmed in August.",
+      "why_now": "Bordeaux reached containment August 1 while Greece began its worst fire emergency of the summer simultaneously. Two firefighters died August 2.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.travelerstoday.com/articles/60336/20260705/europe-heatwave-2026-france-confirms-2025-dead-omega-block-holds-continent.htm",
-      "location": "France / Europe",
-      "season_or_time_context": "Late July 2026 \u2014 4th heatwave arriving",
-      "first_seen": "2026-07-30T18:00:00Z",
-      "last_seen": "2026-07-30T18:00:00Z",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-01/greece-wildfires-rage-near-athens-prompting-sea-evacuations",
+      "location": "Attica / Geraneia mountains / Kefalonia, Greece",
+      "season_or_time_context": "August 1\u20132, 2026",
+      "first_seen": "2026-08-02T18:00:00Z",
+      "last_seen": "2026-08-02T18:00:00Z",
       "appearances": 1
     },
     {
-      "id": "hormuz-fee-regime",
-      "stream": "curiosities",
-      "observer": "systems",
-      "title": "The Strait of Hormuz is becoming a toll road \u2014 $1\u20132M per vessel, per voyage",
-      "observation": "The Islamabad Memorandum (signed June 17, brokered by Pakistan) includes an agreed principle that Iran and Oman will charge $1\u20132M per vessel for transit through the Strait of Hormuz \u2014 scaled to ship size, cargo type, and volume. The fee regime is currently suspended during the 60-day ceasefire window (through approximately August 17). Secretary Rubio warned that transit fees would make any deal unviable. A Forbes analysis titled 'Hormuz Is Becoming A Fee-And-Permission Regime' was published July 28 \u2014 the same day Netanyahu met Trump at the White House through the side door.",
-      "question": "If the world's most important energy chokepoint is now a managed, priced passage rather than neutral international water \u2014 what does that do to every global shipping calculation for the next decade?",
-      "hidden_question": "The ceasefire restored access to the strait, but not the old order \u2014 the old order was that the strait was neutral water. What has it become?",
-      "pattern": "The Hormuz closure didn't restore the old order when it ended \u2014 it formalized a new one in which Iran has won the principle of sovereign toll authority over a 21-mile-wide international passage",
-      "transferability": "Understanding the transit fee as a structural outcome (not just a negotiating position) means reading every future chokepoint closure differently \u2014 the closer gains leverage that persists after the opening",
-      "cluster_id": "",
-      "why_now": "The Forbes analysis 'Hormuz Is Becoming A Fee-And-Permission Regime' published July 28. The principle is now agreed \u2014 the fee is currently suspended, not rejected.",
+      "id": "bordeaux-contained-provence-erupts",
+      "stream": "natural_world",
+      "observer": "naturalist",
+      "title": "Bordeaux fire contained after 10 days \u2014 a new blaze erupts in Provence the same day",
+      "observation": "France declared the Gironde fire largely contained on August 1, after 10 days, 420 square kilometers burned, 330,000+ evacuated, and 3,000 firefighters holding the perimeter. Residents began returning. Within 24 hours, a separate wildfire erupted in Provence \u2014 1,500 firefighters deployed to the new front. The fire didn't end; it moved.",
+      "question": "What would it take for the European fire season to actually end rather than relocate \u2014 and is 'contained' a useful word when the conditions that created the fire haven't changed?",
+      "hidden_question": "When fires move faster than they can be contained, and each containment spawns the next front, is 'fire season' still a useful category \u2014 or has it become a permanent condition with geography as the only variable?",
+      "pattern": "European wildfire containment is producing geographic relief but not systemic resolution \u2014 drought, heat, and wind persist, and the fire relocates",
+      "transferability": "Understanding fire mobility means reading every 'contained' headline as a change in location, not an end to risk",
+      "cluster_id": "europe-summer-disruption-2026",
+      "why_now": "Bordeaux declared largely contained August 1. Provence fire opened August 1\u20132. Same firefighting resources are relocating south.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.forbes.com/sites/guneyyildiz/2026/07/28/hormuz-is-becoming-a-fee-and-permission-regime/",
-      "location": "Strait of Hormuz",
-      "season_or_time_context": "Late July 2026",
-      "first_seen": "2026-07-30T18:00:00Z",
-      "last_seen": "2026-07-30T18:00:00Z",
+      "url": "https://wtop.com/world/2026/08/french-wildfire-near-bordeaux-contained-as-1500-firefighters-battle-separate-blaze-in-provence/",
+      "location": "Bordeaux (contained) / Provence (new), France",
+      "season_or_time_context": "August 1\u20132, 2026",
+      "first_seen": "2026-08-02T18:00:00Z",
+      "last_seen": "2026-08-02T18:00:00Z",
       "appearances": 1
     },
     {
-      "id": "amodei-open-weights-position",
+      "id": "perseid-approach-ten-days",
+      "stream": "natural_world",
+      "observer": "naturalist",
+      "title": "Ten days to the Perseids \u2014 building toward the best conditions in years",
+      "observation": "The Perseid meteor shower peaks August 12\u201313, 2026 \u2014 ten days from now. Earth is moving through the debris trail of Comet Swift-Tuttle with particle density increasing each night. The 2026 peak falls on a new moon: near-perfect dark skies. On peak nights, 25\u201350 visible meteors per hour are realistic under truly dark skies, with occasional fireballs. This is one of the most favorable Perseid years in recent memory. Increased meteor activity is already visible on any clear night this week.",
+      "question": "If the Perseids are always described as an 'annual event,' why does it feel worth mentioning that the peak is ten days away \u2014 and what changes when you understand that Earth is the thing moving through the debris field, not the meteors falling toward you?",
+      "hidden_question": "Most people experience the Perseids as something that happens to them. What changes when you understand Earth is actively moving through a cloud of ancient comet debris that's been waiting in the same orbit for centuries?",
+      "pattern": "The Perseids are building toward their best conditions in years, and most people won't notice until they've missed the peak",
+      "transferability": "Understanding the Perseid buildup means treating any clear night this week as a preview \u2014 the meteors are already coming, just not yet at maximum density",
+      "cluster_id": "late-july-threshold-convergence",
+      "why_now": "Ten days to peak. New moon alignment. Building density. The approach is visible now.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://weather.com/2026/07/16/science/space/perseid-meteor-shower-2026-perfect-new-moon-to-create-ideal-conditions-for-peak",
+      "location": "",
+      "season_or_time_context": "Early August 2026 \u2014 building to August 12\u201313 peak",
+      "first_seen": "2026-08-02T18:00:00Z",
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "lammas-has-passed",
+      "stream": "human_rituals",
+      "observer": "threshold_watcher",
+      "title": "Lammas passed \u2014 the harvest has begun",
+      "observation": "August 1 was Lammas \u2014 the cross-quarter day midway between the summer solstice and the autumn equinox, the traditional first day of grain harvest across pre-industrial northern Europe. The name comes from 'hlaf-mass' \u2014 loaf mass \u2014 the Christian ceremony of bringing bread baked from the first grain to church as a harvest offering. In Scotland, one of the four legal quarter days for lease renewals and hiring fairs. Grain fields across the northern temperate zone are visibly turning from green to gold this week. The threshold has been crossed. August is now a harvest month, not a summer month.",
+      "question": "Why does Lammas still organize something in how August feels even for people who have never heard the name \u2014 and what is the agricultural calendar actually tracking that makes it persist in intuition centuries after the farming it was designed for has disappeared?",
+      "hidden_question": "Every culture in the northern hemisphere has a name for this threshold. Modern culture lost the names but kept the feeling. What does the feeling actually track?",
+      "pattern": "The cross-quarter calendar persists as intuition long after the agricultural practices it organized have disappeared from everyday life",
+      "transferability": "Understanding Lammas means reading 'late summer' differently \u2014 what most people experience as a vague heaviness about August is the harvest calendar's first day, still operating without its labels",
+      "cluster_id": "late-july-threshold-convergence",
+      "why_now": "Lammas was August 1. The threshold has been crossed.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://nationaltoday.com/lammas-day/",
+      "location": "",
+      "season_or_time_context": "August 1, 2026 \u2014 cross-quarter threshold",
+      "first_seen": "2026-08-02T18:00:00Z",
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 1
+    },
+    {
+      "id": "ai-eo-august-deadline",
       "stream": "headlines",
       "observer": "headlines",
       "category": "Tech & Science",
-      "title": "Anthropic: we don't want to ban open weights \u2014 but we do want anti-distillation enforcement",
-      "moment": "Dario Amodei posted on July 27 that Anthropic 'has never advocated for a ban on open-weights models' \u2014 while simultaneously calling for chip export controls, anti-distillation enforcement, and mandatory safety testing. Anthropic was the only major US AI lab that did not sign the Nvidia-led open letter defending open-weight AI from regulation.",
-      "observation": "When Nvidia and most major US AI labs (including OpenAI and Meta) signed an open letter opposing regulatory restrictions on open-weight AI, Anthropic declined. On July 27, Dario Amodei clarified: Anthropic doesn't support a ban on open weights, but it does support anti-distillation enforcement \u2014 a specific mechanism to prevent companies from training on another company's model outputs. The company whose model was allegedly distilled to build Kimi K3 is carving a middle path: open weights yes, IP theft enforcement yes, government ban on open weights no. This position leaves Anthropic as the outlier among US labs \u2014 allied with neither the open-weights movement nor the banning movement.",
-      "question": "What does it mean that the company whose model was allegedly stolen to build the world's largest open-weights release is the one most carefully defining the distinction between 'open weights' and 'open source'?",
-      "hidden_question": "Is Anthropic's middle position principled or strategic \u2014 and does it matter, given that the model is already global?",
-      "pattern": "The US AI industry does not have a coherent position on open-weight models \u2014 even among companies that have the most at stake, the positions are splitting between 'regulate nothing' and 'enforce specific IP violations'",
-      "transferability": "Understanding Anthropic's distinction means reading every future AI policy debate differently \u2014 'open weights' and 'open source' are now legal and political categories, not just technical ones",
+      "title": "Trump's AI executive order hits its 60-day deadline \u2014 open-weights debate unresolved",
+      "moment": "Trump's June 2 AI executive order required agencies to develop frontier AI governance frameworks within 60 days. That deadline landed August 1. No open-weights ban has been signed. The Nvidia/Meta/Microsoft coalition holds. Anthropic's middle position (anti-distillation, not a ban) is the outlier.",
+      "observation": "Trump's June 2 AI executive order asked federal agencies to develop cybersecurity mandates and voluntary frameworks for frontier AI models within 60 days. That deadline was August 1. The open-weights debate sparked by Kimi K3's July 27 release remains publicly unresolved: the Nvidia/Meta/Microsoft coalition argues open models expand competition; Anthropic backs anti-distillation enforcement without a ban; no executive order restricting open weights has been signed. CNBC: 'Trump's AI executive order nears key deadline as regulation debate intensifies.'",
+      "question": "What happens when a 60-day government deadline arrives and the question the deadline was meant to settle is still publicly contested \u2014 and who benefits from the delay?",
+      "hidden_question": "The June AI executive order asked for frameworks, not decisions. The August 1 deadline produces frameworks. What comes next?",
+      "pattern": "US AI policy is moving in parallel tracks that have not converged: executive processes demanding frameworks while underlying questions about open weights and distillation remain publicly unresolved",
+      "transferability": "Understanding the deadline-without-decision means reading every 'AI regulation imminent' headline as a proxy for the same underlying disagreement rather than a signal of resolution",
       "cluster_id": "ai-geopolitical-split-2026",
-      "why_now": "Amodei's statement was published July 27, the day Kimi K3's weights dropped. The position clarifies where the US industry's fault lines actually run.",
+      "why_now": "The 60-day framework deadline was August 1. The debate about what follows is beginning now.",
       "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "editorial_potential": "medium",
+      "url": "https://www.cnbc.com/2026/07/31/trump-ai-executive-order-nears-key-deadline-regulation-debate-heats-up.html",
       "location": "",
-      "season_or_time_context": "July 27\u201328, 2026",
-      "first_seen": "2026-07-30T18:00:00Z",
-      "last_seen": "2026-07-30T18:00:00Z",
-      "appearances": 1
-    },
-    {
-      "id": "drapatyi-audit-under-fire",
-      "stream": "headlines",
-      "observer": "headlines",
-      "category": "Politics & World",
-      "title": "Ukraine's new commander orders manpower audit \u2014 Russia strikes Kyiv within hours of his appointment",
-      "moment": "General Mykhailo Drapatyi's first official act as Ukraine's commander-in-chief was announcing an audit of unit staffing and manpower allocation. Russia launched ballistic missiles at Kyiv on July 30 \u2014 hours after his appointment was finalized. He is now restructuring Ukraine's military under live fire.",
-      "observation": "Drapatyi, 43, appointed after mass protests led to the removal of General Syrskyi, began his tenure by ordering a system-wide audit of how many soldiers are actually in which units \u2014 a signal that the previous command's reporting was unreliable. Russia responded to the leadership transition with a ballistic missile strike on Kyiv on July 30. His first call with NATO commander Gen. Grynkewich centered on holding the line and air defense. The military command was restructured by protest, not review \u2014 and it's now being tested by the enemy on its first day.",
-      "question": "When a military commander is appointed because protesters demanded a change, what does his first move \u2014 an audit \u2014 reveal about what the previous command was hiding?",
-      "hidden_question": "What does it mean to audit the army while the enemy is striking the capital \u2014 and what does the audit's existence imply about what Syrskyi left behind?",
-      "pattern": "Military transitions under wartime pressure compress the normal grace period for new leadership \u2014 the audit happens under fire, literally",
-      "transferability": "Understanding Drapatyi's first act means reading manpower audits in wartime contexts as signals about command integrity, not just efficiency",
-      "cluster_id": "",
-      "why_now": "The audit was announced July 29. Russia struck Kyiv on July 30. The new commander is in his first 48 hours.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://kyivindependent.com/ukraine-war-latest-general-staff-announces-manpower-allocation-audit-in-first-major-reforms-under-drapatyi/",
-      "location": "Ukraine",
-      "season_or_time_context": "Late July 2026 \u2014 first 48 hours under new command",
-      "first_seen": "2026-07-30T18:00:00Z",
-      "last_seen": "2026-07-30T18:00:00Z",
+      "season_or_time_context": "August 1\u20132, 2026",
+      "first_seen": "2026-08-02T18:00:00Z",
+      "last_seen": "2026-08-02T18:00:00Z",
       "appearances": 1
     }
   ]
