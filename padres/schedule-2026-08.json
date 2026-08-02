@@ -3,19 +3,16 @@
   "team_slug": "padres",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-01T11:38:38.226671+00:00",
+  "generated_at": "2026-08-02T11:39:33.672157+00:00",
   "games": [
     {
       "date": "2026-08-01",
       "opponent": "SF",
       "home": true,
       "gamePk": 823269,
-      "status": "scheduled",
-      "time_local": "5:40 PM PT",
-      "probable": {
-        "team": "Walker Buehler",
-        "opp": "Tyler Mahle"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "6\u20135"
     },
     {
       "date": "2026-08-02",
@@ -239,8 +236,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20130",
-    "current_streak": "W1",
+    "month_record": "1\u20130",
+    "current_streak": "W2",
     "last_10": "7\u20133"
   }
 }
