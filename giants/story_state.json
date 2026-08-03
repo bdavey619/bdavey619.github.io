@@ -1,18 +1,18 @@
 {
-  "trend": "fragile",
+  "trend": "slipping",
   "driver": "balanced",
   "confidence": "low",
   "pressure": "low",
   "record_w": 47,
-  "record_l": 64,
-  "streak": "L2",
+  "record_l": 65,
+  "streak": "L3",
   "last10_w": 5,
-  "era": 4.38,
+  "era": 4.39,
   "ops": 0.725,
   "gb": 22.0,
   "division_rank": 4,
   "last_result": "L",
-  "date": "2026-08-01",
+  "date": "2026-08-02",
   "game_emotion_level": "normal",
   "drama_sequence": null
 }
