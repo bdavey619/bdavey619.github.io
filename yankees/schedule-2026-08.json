@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-08",
   "division_name": "AL East",
-  "generated_at": "2026-08-02T12:05:57.736510+00:00",
+  "generated_at": "2026-08-03T13:43:38.557720+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -12,19 +12,17 @@
       "gamePk": 824649,
       "status": "final",
       "result": "L",
-      "score": "2\u20135"
+      "score": "2\u20135",
+      "archive_url": "archive.html?date=2026-08-02"
     },
     {
       "date": "2026-08-02",
       "opponent": "CHC",
       "home": false,
       "gamePk": 824648,
-      "status": "scheduled",
-      "time_local": "2:20 PM ET",
-      "probable": {
-        "team": "Gerrit Cole",
-        "opp": "Colin Rea"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "2\u20131"
     },
     {
       "date": "2026-08-03",
@@ -32,7 +30,11 @@
       "home": true,
       "gamePk": 823520,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Cam Schlittler",
+        "opp": "Michael McGreevy"
+      }
     },
     {
       "date": "2026-08-04",
@@ -40,7 +42,10 @@
       "home": true,
       "gamePk": 823517,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Ryan Weathers"
+      }
     },
     {
       "date": "2026-08-05",
@@ -48,7 +53,10 @@
       "home": true,
       "gamePk": 823516,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Will Warren"
+      }
     },
     {
       "date": "2026-08-07",
@@ -236,8 +244,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20131",
-    "current_streak": "L1",
+    "month_record": "1\u20131",
+    "current_streak": "W1",
     "last_10": "6\u20134"
   }
 }
