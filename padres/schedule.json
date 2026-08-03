@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-02T11:39:33.672157+00:00",
+  "generated_at": "2026-08-03T13:22:41.880555+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -12,19 +12,17 @@
       "gamePk": 823269,
       "status": "final",
       "result": "W",
-      "score": "6\u20135"
+      "score": "6\u20135",
+      "archive_url": "archive.html?date=2026-08-02"
     },
     {
       "date": "2026-08-02",
       "opponent": "SF",
       "home": true,
       "gamePk": 823270,
-      "status": "scheduled",
-      "time_local": "1:10 PM PT",
-      "probable": {
-        "team": "Michael King",
-        "opp": "Landen Roupp"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20134"
     },
     {
       "date": "2026-08-03",
@@ -32,7 +30,11 @@
       "home": false,
       "gamePk": 825095,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Michael King",
+        "opp": "Brandon Pfaadt"
+      }
     },
     {
       "date": "2026-08-04",
@@ -40,7 +42,10 @@
       "home": false,
       "gamePk": 825054,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "opp": "Eduardo Rodriguez"
+      }
     },
     {
       "date": "2026-08-05",
@@ -48,7 +53,10 @@
       "home": false,
       "gamePk": 825052,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "opp": "Mitch Bratt"
+      }
     },
     {
       "date": "2026-08-06",
@@ -56,7 +64,11 @@
       "home": false,
       "gamePk": 825053,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Walker Buehler",
+        "opp": "Kohl Drake"
+      }
     },
     {
       "date": "2026-08-07",
@@ -236,8 +248,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20130",
-    "current_streak": "W2",
-    "last_10": "7\u20133"
+    "month_record": "2\u20130",
+    "current_streak": "W3",
+    "last_10": "8\u20132"
   }
 }
