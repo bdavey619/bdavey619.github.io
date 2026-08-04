@@ -1,59 +1,59 @@
 {
   "week": "2026-07-27",
-  "last_updated": "2026-08-02T18:00:00Z",
+  "last_updated": "2026-08-04T18:00:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
       "title": "Heat is quietly changing where entire industries can exist",
-      "explanation": "Heat is forcing industries to retreat from geographies they've operated in for generations — not through catastrophe, but through slow withdrawal. Insurers stop writing policies. Coral gets relocated. Harvests shift earlier. Fish move north. None of these industries are coordinating with each other. They're all responding to the same signal: the map no longer matches the territory.",
+      "explanation": "Heat is forcing industries to retreat from geographies they've operated in for generations \u2014 not through catastrophe, but through slow withdrawal. Insurers stop writing policies. Coral gets relocated. Harvests shift earlier. Fish move north. None of these industries are coordinating with each other. They're all responding to the same signal: the map no longer matches the territory.",
       "momentum": "accelerating",
       "evidence": [
         {
           "domain": "Ocean",
-          "text": "Coral researchers in Florida are physically relocating fragments to cooler, deeper water — a technique that admits their current habitat is no longer viable year-round.",
+          "text": "Coral researchers in Florida are physically relocating fragments to cooler, deeper water \u2014 a technique that admits their current habitat is no longer viable year-round.",
           "url": "https://www.wusf.org/environment/2026-07-27/how-floridas-coral-researchers-are-adapting-to-extreme-heat-amid-another-el-nino-warming-event",
           "date": "2026-07-27",
           "is_new": false
         },
         {
           "domain": "Insurance",
-          "text": "FAIR Plan policies in California grew 44% in one year, reaching 668,600 — the state's insurer of last resort, which covers only fire, smoke, lightning, and explosion. A 29.1% statewide rate increase was approved for October 2026. Nine zip codes now account for $44 billion in exposure — a 135% increase since 2022 — concentrating the risk that private carriers refused to carry.",
+          "text": "FAIR Plan policies in California grew 44% in one year, reaching 668,600 \u2014 the state's insurer of last resort, which covers only fire, smoke, lightning, and explosion. A 29.1% statewide rate increase was approved for October 2026. Nine zip codes now account for $44 billion in exposure \u2014 a 135% increase since 2022 \u2014 concentrating the risk that private carriers refused to carry.",
           "url": "https://www.bloomberg.com/news/articles/2026-07-22/california-s-fair-plan-faces-rising-wildfire-risk-from-luxury-homes",
           "date": "2026-07-22",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Agriculture",
-          "text": "Bordeaux vineyards entered veraison weeks early in 2026 — driven by heat and drought. Veraison is the exact window when grape skins turn permeable and smoke compounds bind permanently to ripening sugars. The Gironde fire arrived at the same moment: 15km away, smoke actively present. The 2026 vintage in the Graves and Pessac-Léognan sub-regions may be unrecoverable.",
+          "text": "Bordeaux vineyards entered veraison weeks early in 2026 \u2014 driven by heat and drought. Veraison is the exact window when grape skins turn permeable and smoke compounds bind permanently to ripening sugars. The Gironde fire arrived at the same moment: 15km away, smoke actively present. The 2026 vintage in the Graves and Pessac-L\u00e9ognan sub-regions may be unrecoverable.",
           "url": "https://www.wine-searcher.com/m/2026/07/vintage-fears-as-bordeaux-burns",
           "date": "2026-07-29",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy Production",
-          "text": "Hungary's Paks Nuclear Power Plant — the country's only nuclear facility, supplying 33–40% of its electricity — shut down for the first time in its 44-year history on August 2. The Danube River, which cools the reactors, dropped to a record minus 134cm. The previous drought record was minus 98cm, set in 2018. The same heat wave that pushed electricity demand to record highs also emptied the river that makes the electricity possible.",
+          "text": "Hungary's Paks Nuclear Power Plant \u2014 the country's only nuclear facility, supplying 33\u201340% of its electricity \u2014 shut down for the first time in its 44-year history on August 2. The Danube River, which cools the reactors, dropped to a record minus 134cm. The previous drought record was minus 98cm, set in 2018. The same heat wave that pushed electricity demand to record highs also emptied the river that makes the electricity possible.",
           "url": "https://www.bloomberg.com/news/articles/2026-08-01/hungary-to-shut-its-only-nuclear-plant-for-first-time-on-drought",
           "date": "2026-08-02",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
     {
       "id": "energy-systems-architecture-visible",
       "title": "The Hormuz closure revealed how much of the world's energy was always running through two miles of contested water",
-      "explanation": "The Strait of Hormuz carried roughly 20% of global oil and LNG before February. That number was always there in the data. What the closure did was make it felt — in gas prices, in stranded sailors, in European storage levels entering autumn. The fragility wasn't created by the conflict. The conflict just removed the assumption that the strait would always be passable.",
+      "explanation": "The Strait of Hormuz carried roughly 20% of global oil and LNG before February. That number was always there in the data. What the closure did was make it felt \u2014 in gas prices, in stranded sailors, in European storage levels entering autumn. The fragility wasn't created by the conflict. The conflict just removed the assumption that the strait would always be passable.",
       "momentum": "building",
       "evidence": [
         {
           "domain": "Shipping",
-          "text": "Commercial tanker traffic through the Strait of Hormuz fell ~90% year-on-year during the conflict. Now, under the Islamabad Memorandum, Iran and Oman have established the principle that they will charge $1–2M per vessel per voyage for Hormuz transit — fee suspended during the current 60-day ceasefire window. The closure is easing. But the old order — neutral international water, always open — has not been restored. The strait is now a managed, priced passage.",
+          "text": "Commercial tanker traffic through the Strait of Hormuz fell ~90% year-on-year during the conflict. Now, under the Islamabad Memorandum, Iran and Oman have established the principle that they will charge $1\u20132M per vessel per voyage for Hormuz transit \u2014 fee suspended during the current 60-day ceasefire window. The closure is easing. But the old order \u2014 neutral international water, always open \u2014 has not been restored. The strait is now a managed, priced passage.",
           "url": "https://www.forbes.com/sites/guneyyildiz/2026/07/28/hormuz-is-becoming-a-fee-and-permission-regime/",
           "date": "2026-07-28",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy",
-          "text": "European TTF gas prices rose above EUR60/MWh — more than 50% above levels when fighting began. Europe enters autumn with storage at 28%.",
+          "text": "European TTF gas prices rose above EUR60/MWh \u2014 more than 50% above levels when fighting began. Europe enters autumn with storage at 28%.",
           "url": "https://www.indexbox.io/blog/gas-prices-surge-as-strait-of-hormuz-disruptions-persist-despite-us-iran-mou/",
           "date": "2026-07-27",
           "is_new": false
@@ -69,16 +69,16 @@
     },
     {
       "id": "ai-as-geopolitical-terrain",
-      "title": "The AI race has stopped being company vs. company — it's now nation vs. nation",
-      "explanation": "The same week China released the largest open-weights model ever built, 29 countries launched a new AI governance body in Shanghai with no Western democracies present. These aren't two separate stories. They're the same story: the contest for who sets the terms of AI — technically, legally, diplomatically — has shifted from competing labs to competing blocs.",
+      "title": "The AI race has stopped being company vs. company \u2014 it's now nation vs. nation",
+      "explanation": "The same week China released the largest open-weights model ever built, 29 countries launched a new AI governance body in Shanghai with no Western democracies present. These aren't two separate stories. They're the same story: the contest for who sets the terms of AI \u2014 technically, legally, diplomatically \u2014 has shifted from competing labs to competing blocs.",
       "momentum": "accelerating",
       "evidence": [
         {
           "domain": "Technology",
-          "text": "Kimi K3, released with open weights at 2.8 trillion parameters, halted new subscriptions within 48 hours — global demand overwhelmed capacity before any regulatory response could form. The model runs on servers worldwide, including in WAICO member nations. It is the largest open-weights model ever released, larger than anything currently available from Western labs.",
+          "text": "Kimi K3, released with open weights at 2.8 trillion parameters, halted new subscriptions within 48 hours \u2014 global demand overwhelmed capacity before any regulatory response could form. The model runs on servers worldwide, including in WAICO member nations. It is the largest open-weights model ever released, larger than anything currently available from Western labs.",
           "url": "https://thenewstack.io/kimi-k3-inference-bottleneck/",
           "date": "2026-07-29",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Governance",
@@ -89,32 +89,32 @@
         },
         {
           "domain": "Law",
-          "text": "The White House's distillation claim put Anthropic in an unusual position: the company whose model was allegedly used to build Kimi K3 is now on record saying it does not support a ban on open-weight models. Dario Amodei, posting July 27, called non-dangerous open models 'a public good' while backing anti-distillation enforcement and chip export controls — a middle position that left Anthropic as the only major US lab not on the Nvidia-led open letter. The victim of alleged IP theft is now defining the distinction between 'open weights' (acceptable) and 'distillation' (not) — a legal category that doesn't fully exist yet.",
+          "text": "The White House's distillation claim put Anthropic in an unusual position: the company whose model was allegedly used to build Kimi K3 is now on record saying it does not support a ban on open-weight models. Dario Amodei, posting July 27, called non-dangerous open models 'a public good' while backing anti-distillation enforcement and chip export controls \u2014 a middle position that left Anthropic as the only major US lab not on the Nvidia-led open letter. The victim of alleged IP theft is now defining the distinction between 'open weights' (acceptable) and 'distillation' (not) \u2014 a legal category that doesn't fully exist yet.",
           "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
           "date": "2026-07-27",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
     {
       "id": "late-july-threshold",
       "title": "Late July is the year's turning point that the modern calendar forgot to name",
-      "explanation": "Pre-industrial cultures named this passage — Lammas, the cross-quarter day halfway between solstice and equinox, arrived August 1. Firefly season closed. The Full Buck Moon rose. The light changed. None of this is news, but it wasn't nothing. The modern calendar skips from July to August as if the transition between them weren't real. It was. The threshold is now behind us — August is a harvest month, not a summer month.",
+      "explanation": "Pre-industrial cultures named this passage \u2014 Lammas, the cross-quarter day halfway between solstice and equinox, arrived August 1. Firefly season closed. The Full Buck Moon rose. The light changed. None of this is news, but it wasn't nothing. The modern calendar skips from July to August as if the transition between them weren't real. It was. The threshold is now behind us \u2014 August is a harvest month, not a summer month.",
       "momentum": "fading",
       "evidence": [
         {
           "domain": "Natural World",
-          "text": "Firefly season is ending across most of North America. The bioluminescent window closes in late July — gone until next summer with no announcement.",
+          "text": "Firefly season is ending across most of North America. The bioluminescent window closes in late July \u2014 gone until next summer with no announcement.",
           "url": "https://www.accuweather.com/en/leisure-recreation/firefly-season-is-here-when-to-watch-for-summers-flashing-lights/1898307",
           "date": "annual",
           "is_new": false
         },
         {
           "domain": "Astronomy",
-          "text": "The Full Buck Moon peaked tonight, July 29, while three meteor showers are simultaneously active — the Southern Delta Aquariids, Alpha Capricornids, and building Perseids. The bright moon washes out all three. Earth is moving through the debris trail of Comet Swift-Tuttle toward the Perseid peak on August 12–13, which falls on a new moon — near-perfect dark skies.",
+          "text": "The Full Buck Moon peaked tonight, July 29, while three meteor showers are simultaneously active \u2014 the Southern Delta Aquariids, Alpha Capricornids, and building Perseids. The bright moon washes out all three. Earth is moving through the debris trail of Comet Swift-Tuttle toward the Perseid peak on August 12\u201313, which falls on a new moon \u2014 near-perfect dark skies.",
           "url": "https://earthsky.org/astronomy-essentials/everything-you-need-to-know-perseid-meteor-shower/",
           "date": "2026-07-29",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Season",
@@ -125,31 +125,31 @@
         },
         {
           "domain": "Ritual",
-          "text": "Ghost Month — the seventh lunar month of the Chinese calendar — began July 28 across China, Taiwan, Singapore, Malaysia, and global diaspora communities. The Gates of the Underworld open; paper money burns at street corners for ancestral spirits; front rows at performances are left empty for unseen guests. Hundreds of millions of people observe this threshold simultaneously, in a calendar that has no Western counterpart.",
+          "text": "Ghost Month \u2014 the seventh lunar month of the Chinese calendar \u2014 began July 28 across China, Taiwan, Singapore, Malaysia, and global diaspora communities. The Gates of the Underworld open; paper money burns at street corners for ancestral spirits; front rows at performances are left empty for unseen guests. Hundreds of millions of people observe this threshold simultaneously, in a calendar that has no Western counterpart.",
           "url": "https://www.remitly.com/blog/lifestyle-culture/hungry-ghost-festival-dates-traditions-and-rituals/",
           "date": "2026-07-28",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
     {
       "id": "accountability-gap",
       "title": "This week, four institutions kept the authority and quietly removed the accountability",
-      "explanation": "The U.S. Senate kept war powers but stripped the binding check. Ukraine's high command was reshuffled by protest rather than review. A mayor announced an arrest he has no legal mechanism to make. France banned social media for minors and then cut the enforcement clause. These aren't failures of individual institutions — they're the same move, made in four different countries: preserve the appearance of accountability while removing what would make it real.",
+      "explanation": "The U.S. Senate kept war powers but stripped the binding check. Ukraine's high command was reshuffled by protest rather than review. A mayor announced an arrest he has no legal mechanism to make. France banned social media for minors and then cut the enforcement clause. These aren't failures of individual institutions \u2014 they're the same move, made in four different countries: preserve the appearance of accountability while removing what would make it real.",
       "momentum": "persistent",
       "evidence": [
         {
           "domain": "Constitutional",
-          "text": "The Senate voted 47–49 to kill a binding War Powers resolution. Operations in Iran are now in their fifth month without formal congressional authorization. On July 28, Netanyahu entered the White House through a side door for a private meeting with Trump — no public press conference. Both described it as 'one of our best meetings.' A war that started without a congressional vote may end the same way.",
+          "text": "The Senate voted 47\u201349 to kill a binding War Powers resolution. Operations in Iran are now in their fifth month without formal congressional authorization. On July 28, Netanyahu entered the White House through a side door for a private meeting with Trump \u2014 no public press conference. Both described it as 'one of our best meetings.' A war that started without a congressional vote may end the same way.",
           "url": "https://www.cnn.com/2026/07/23/politics/trump-iran-war-powers",
           "date": "2026-07-28",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Military",
-          "text": "Zelenskyy fired Gen. Syrskyi on July 21 — removed by protest, not internal review. His replacement, Gen. Drapatyi, issued a system-wide manpower audit as his first official act on July 29, suggesting unit staffing reports under Syrskyi were unreliable. Russia launched ballistic missiles at Kyiv within hours of the appointment. The accountability gap that created the leadership change is now being measured by the new commander while the enemy is already testing him.",
-          "url": "https://kyivindependent.com/ukraine-war-latest-general-staff-announces-manpower-allocation-audit-in-first-major-reforms-under-drapatyi/",
-          "date": "2026-07-30",
+          "text": "Zelenskyy fired Gen. Syrskyi on July 21 \u2014 removed by protest, not internal review. His replacement, Gen. Drapatyi, issued a system-wide manpower audit as his first official act on July 29. By August 3, early findings were emerging: some brigades severely understaffed, others overstaffed \u2014 Syrskyi had systematically redirected mobilized recruits to newly formed brigades criticized for abuse and poor performance. Drapatyi warned 'no one will be untouchable.' The failure wasn't a personnel problem \u2014 it was a reporting problem: unit staffing data under Syrskyi was unreliable. The new commander's first act is measuring the gap his predecessor created.",
+          "url": "https://kyivindependent.com/analysis-new-commander-in-chief-drapatyi-faces-a-manpower-mess-of-syrskyis-creation/",
+          "date": "2026-08-04",
           "is_new": true
         },
         {
@@ -170,30 +170,30 @@
     },
     {
       "id": "heat-kills-differently",
-      "title": "Heat kills far more than fire does — but it kills in a way that doesn't trigger the emergency response.",
-      "explanation": "France confirmed 2,025 deaths from the June heatwave on July 3 — three weeks after the heat had passed. A preprint estimated 20,390 dead across Europe in those same seven days. The Bordeaux fire burning simultaneously mobilized 2,500 firefighters, 1,500 soldiers, and weeks of front-page coverage. Heat and fire share a cause — the same Omega block, the same drought, the same record temperatures. They don't share a response architecture. Emergency systems are designed for disasters with perimeters: you can see where the fire is, you can evacuate a zone, you can call in air support. Heat has no perimeter. It kills overnight, in bedrooms, in the elderly and the poor, and the count isn't final until an epidemiologist runs the numbers in August.",
+      "title": "Heat kills far more than fire does \u2014 but it kills in a way that doesn't trigger the emergency response.",
+      "explanation": "France confirmed 2,025 deaths from the June heatwave on July 3 \u2014 three weeks after the heat had passed. A preprint estimated 20,390 dead across Europe in those same seven days. The Bordeaux fire burning simultaneously mobilized 2,500 firefighters, 1,500 soldiers, and weeks of front-page coverage. Heat and fire share a cause \u2014 the same Omega block, the same drought, the same record temperatures. They don't share a response architecture. Emergency systems are designed for disasters with perimeters: you can see where the fire is, you can evacuate a zone, you can call in air support. Heat has no perimeter. It kills overnight, in bedrooms, in the elderly and the poor, and the count isn't final until an epidemiologist runs the numbers in August.",
       "momentum": "acute",
       "evidence": [
         {
           "domain": "Public Health",
-          "text": "France confirmed 2,025 excess deaths from the June 2026 heatwave — announced July 3, three weeks after the peak heat. A statistical preprint estimated the European continental toll at 20,390 for just the seven peak days of June 22–28: France 5,210, Germany 4,543, Spain 3,163, Italy 2,709. The fourth heatwave of the summer arrived July 30.",
+          "text": "France confirmed 2,025 excess deaths from the June 2026 heatwave \u2014 announced July 3, three weeks after the peak heat. A statistical preprint estimated the European continental toll at 20,390 for just the seven peak days of June 22\u201328: France 5,210, Germany 4,543, Spain 3,163, Italy 2,709. The fourth heatwave of the summer arrived July 30.",
           "url": "https://www.travelerstoday.com/articles/60336/20260705/europe-heatwave-2026-france-confirms-2025-dead-omega-block-holds-continent.htm",
           "date": "2026-07-03",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Physiology",
-          "text": "The US's third heat dome of summer 2026 targets 80 million Americans with overnight lows above 75–80°F across the Southeast, Great Plains, and Northeast. When overnight temperatures stay this high, the body's core temperature repair cycle fails during sleep. Physicians call this 'heat debt' — an accumulating physiological burden that makes each subsequent day more dangerous. The accumulation is invisible until it becomes a hospital crisis.",
-          "url": "https://www.techtimes.com/articles/321637/20260726/summers-third-heat-dome-targets-80-million-americans-overnight-heat-wont-break-until-august.htm",
-          "date": "2026-07-26",
+          "text": "The fourth US heat dome of summer 2026 targets 200 million Americans with overnight lows above 75\u201380\u00b0F through at least mid-August across the Southeast, Great Plains, Mississippi Valley, and Northeast. Maricopa County, Arizona has confirmed 40 heat-related deaths in 2026 by early August \u2014 a figure that grows as medical examiners complete retrospective reviews. By August 4, roughly 10% of the continental US has recorded its hottest day of 2026. When overnight temperatures stay this high, the body's core temperature repair cycle fails during sleep \u2014 'heat debt' accumulates. The count arrives weeks after the deaths.",
+          "url": "https://www.severe-weather.eu/global-weather/major-heat-dome-heatwave-united-states-canada-august-mk/",
+          "date": "2026-08-04",
           "is_new": true
         },
         {
           "domain": "Emergency Response",
-          "text": "France deployed 2,500 firefighters and 1,500 soldiers to fight the Bordeaux fire — which killed no one confirmed as of containment on August 1. As the Bordeaux crews stood down, 1,500 firefighters moved immediately to a new Provence fire. Greece deployed helicopter fleets to Athens suburb fires — two crews died in a mid-air collision August 2. The firefighting infrastructure is fully mobilized. The June heatwave that killed 2,025 French citizens mobilized nothing equivalent.",
+          "text": "France deployed 2,500 firefighters and 1,500 soldiers to fight the Bordeaux fire \u2014 which killed no one confirmed as of containment on August 1. As the Bordeaux crews stood down, 1,500 firefighters moved immediately to a new Provence fire. Greece deployed helicopter fleets to Athens suburb fires \u2014 two crews died in a mid-air collision August 2. The firefighting infrastructure is fully mobilized. The June heatwave that killed 2,025 French citizens mobilized nothing equivalent.",
           "url": "https://www.aljazeera.com/news/2026/8/2/firefighting-helicopters-collide-near-athens-as-greece-battles-wildfires",
           "date": "2026-08-02",
-          "is_new": true
+          "is_new": false
         }
       ]
     }

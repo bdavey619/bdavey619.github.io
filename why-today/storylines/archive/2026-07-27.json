@@ -1,6 +1,6 @@
 {
-  "week_start": "2026-08-03",
-  "last_updated": "2026-08-04T18:00:00Z",
+  "week_start": "2026-07-27",
+  "last_updated": "2026-08-02T18:00:00Z",
   "storylines": [
     {
       "id": "perseid-meteor-shower-buildup",
@@ -18,18 +18,14 @@
       "editorial_potential": "high",
       "url": "https://earthsky.org/astronomy-essentials/everything-you-need-to-know-perseid-meteor-shower/",
       "location": "",
-      "season_or_time_context": "Aug 4, 2026 \u2014 building toward Aug 12\u201313 peak",
+      "season_or_time_context": "Late July \u2014 building to August peak",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 5,
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-08-02T18:00:00Z",
           "note": "Ten days to peak. New moon alignment confirmed \u2014 near-perfect dark skies on August 12\u201313. Particle density increasing nightly. Meteors already visible on clear nights. 2026 is shaping up as one of the best Perseid years in recent memory."
-        },
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "Eight days to peak. New moon on August 12\u201313 confirmed: ideal dark sky conditions. 2026 may run slightly lower raw rates than a peak Perseid year \u2014 Jupiter disturbed the stream center \u2014 but viewing conditions remain exceptional. Activity already visible nightly, increasing."
         }
       ]
     },
@@ -114,14 +110,8 @@
       "location": "Central and eastern United States",
       "season_or_time_context": "Late July 2026 \u2014 third heat dome of summer",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "Fourth US heat dome of summer 2026 confirmed, targeting 200 million Americans. Maricopa County, Arizona has confirmed 40 heat-related deaths this year as of early August \u2014 a figure that will grow as medical examiners complete retrospective review. Roughly 10% of the continental US has recorded its hottest day of 2026 by August 4. Overnight lows above 75\u201380\u00b0F persist across the Southeast, Great Plains, and Mississippi Valley \u2014 the heat debt mechanism accumulating without release. The count arrives weeks after the deaths."
-        }
-      ]
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 2
     },
     {
       "id": "firefly-season-threshold",
@@ -419,9 +409,13 @@
       "editorial_potential": "high",
       "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
       "first_seen": "2026-07-22T00:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 10,
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 9,
       "history": [
+        {
+          "date": "2026-07-27T10:00:00Z",
+          "note": "Third consecutive day without direct US-Iran air strikes. Iran has been attacking commercial vessels bypassing its preapproved Strait of Hormuz routes. Traffic through the strait down 90% year-on-year. 70% of still-transiting tankers running AIS 'dark.' Oil above $100/barrel. 6,000 seafarers stranded. The conflict has shifted from air strikes to an economic siege over the world's most critical energy passage."
+        },
         {
           "date": "2026-07-27T16:00:00Z",
           "note": "Trump directed military not to conduct new strikes. Iran also holding fire. Both sides deny formal ceasefire but the pause is holding. Netanyahu flying to Washington for White House meeting July 29. The war may be approaching an off-ramp \u2014 which makes the constitutional question sharper, not softer: how did a conflict that reached this scale start, escalate, and now potentially end without a single congressional vote?"
@@ -437,10 +431,6 @@
         {
           "date": "2026-08-02T18:00:00Z",
           "note": "60-day ceasefire window under Islamabad Memorandum running through ~August 17. Transit fee regime suspended during window but principle established. Nuclear talks ongoing. The war may end the same way it started: without a congressional vote."
-        },
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "Aug 3\u20134: Ceasefire holding at day 13 under the Islamabad Memorandum. Nuclear talks progressing but complicated by two Iranian conditions: a Lebanon ceasefire guarantee and limits on Iran's missile programme. 60-day window runs through approximately August 17. The transit fee regime ($1\u20132M per vessel) remains suspended during the window but the principle is established \u2014 Hormuz as a managed, priced passage, not neutral international water. A war that started without a congressional vote may end the same way."
         }
       ]
     },
@@ -460,8 +450,8 @@
       "editorial_potential": "high",
       "url": "https://www.nbcnews.com/world/ukraine/ukraines-zelenskyy-fires-commander-chief-protests-major-rift-rcna588159",
       "first_seen": "2026-07-21T00:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 6,
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-07-30T18:00:00Z",
@@ -470,10 +460,6 @@
         {
           "date": "2026-08-02T18:00:00Z",
           "note": "Drapatyi manpower audit underway. Russia launched 31 missiles, 201 guided bombs, and 6,659 kamikaze drones on August 1 alone. Ukraine's new strategy: precision long-range strikes on hard-to-replace industrial components rather than broad infrastructure. Russia's territorial gains this year have tapered to 10\u201315 square miles in the past month while Ukraine claims 700 sq km recaptured."
-        },
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "Drapatyi audit findings emerging: some brigades severely understaffed, others overstaffed. Syrskyi reportedly redirected mobilized recruits to newly formed brigades criticized for abuse and wasteful attacks. Drapatyi warned 'no one will be untouchable.' The accountability gap that forced the leadership change is now being measured by the new commander's first act. Russia launched 200+ guided bombs and drones August 3 while the audit proceeds."
         }
       ]
     },
@@ -575,14 +561,8 @@
       "editorial_potential": "medium",
       "url": "https://www.npr.org/2026/07/21/nx-s1-5902245/government-funding-house-vote-continuing-resolution",
       "first_seen": "2026-07-21T00:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 5,
-      "history": [
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "August 3: Senate leaders reached a bipartisan deal to fund the government through December 11 \u2014 struck the same day the House left for August recess. Senate Majority Leader Thune: 'The American people have already experienced two record-breaking government shutdowns in the past 10 months.' The deal still requires House reconciliation when Congress returns in September. A shutdown has been deferred; the cliff-to-cliff funding dynamic is structurally unchanged."
-        }
-      ]
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 4
     },
     {
       "id": "lebron-76ers-decision-4",
@@ -855,16 +835,10 @@
       "editorial_potential": "high",
       "url": "https://www.britannica.com/topic/Hungry-Ghost-Festival",
       "location": "East and Southeast Asia; global diaspora",
-      "season_or_time_context": "Aug 4, 2026 \u2014 Ghost Month ongoing, main festival Aug 12",
+      "season_or_time_context": "Late July to late August 2026 \u2014 Ghost Month begins July 28",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "Ghost Month is in its second week. The main festival \u2014 Hungry Ghost Festival, the 15th day of the seventh lunar month \u2014 falls on August 12. The same night as the Perseid meteor shower peak. In Chinese tradition, August 12 is the night ancestral spirits are closest to the living; in astronomical tradition, it is the night Earth is deepest in the debris trail of a comet that last visited the inner solar system in 69 BC. The front rows of theaters stay empty for unseen guests; overhead, the sky is full of light that has been traveling since before the comet rounded the sun."
-        }
-      ]
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 2
     },
     {
       "id": "florida-coral-relocation",
@@ -1043,14 +1017,8 @@
       "location": "Paks, Hungary / Danube River",
       "season_or_time_context": "August 2, 2026 \u2014 record Danube lows",
       "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "Danube forecast to drop to a new record of minus 144cm \u2014 below even the recent record of minus 134cm set days ago. No significant rainfall in any model for the Danube basin. Hungarian officials say the plant could remain offline for over a month. Hungary is importing emergency power from Austria, Slovakia, and Romania and has imposed industrial electricity and water restrictions, burning coal and gas to compensate for 33\u201340% of its electricity supply disappearing. The plant that ran 44 years without a full shutdown may not restart until September."
-        }
-      ]
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 1
     },
     {
       "id": "greece-wildfires-near-athens",
@@ -1072,14 +1040,8 @@
       "location": "Attica / Geraneia mountains / Kefalonia, Greece",
       "season_or_time_context": "August 1\u20132, 2026",
       "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "Aug 3\u20134: fires in western Attica jumped containment lines as strong winds returned, gusting above 70 kph. Total evacuations across Attica and Kefalonia now exceed 1,000. Provence fire in France stabilizing but not fully contained. European firefighting aircraft stretched across simultaneous active fronts in two countries. The fire season remains active \u2014 moving rather than ending."
-        }
-      ]
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 1
     },
     {
       "id": "bordeaux-contained-provence-erupts",
@@ -1118,16 +1080,10 @@
       "editorial_potential": "high",
       "url": "https://weather.com/2026/07/16/science/space/perseid-meteor-shower-2026-perfect-new-moon-to-create-ideal-conditions-for-peak",
       "location": "",
-      "season_or_time_context": "Aug 4, 2026 \u2014 eight days to Perseid peak",
+      "season_or_time_context": "Early August 2026 \u2014 building to August 12\u201313 peak",
       "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "Eight days to peak on August 12\u201313. Rates building nightly \u2014 already visible on any clear dark night. New detail from meteor scientists: Jupiter's gravity has disturbed the stream's center, meaning 2026 raw rates may run slightly below a typical Perseid peak year; Earth encounters denser debris in 2027. But the new moon holds \u2014 near-perfect dark skies at peak. The condition for a great year is visibility, not density. Any clear night this week is a preview."
-        }
-      ]
+      "last_seen": "2026-08-02T18:00:00Z",
+      "appearances": 1
     },
     {
       "id": "lammas-has-passed",
