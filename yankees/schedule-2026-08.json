@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-08",
   "division_name": "AL East",
-  "generated_at": "2026-08-03T13:43:38.557720+00:00",
+  "generated_at": "2026-08-04T13:04:56.689381+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -22,19 +22,17 @@
       "gamePk": 824648,
       "status": "final",
       "result": "W",
-      "score": "2\u20131"
+      "score": "2\u20131",
+      "archive_url": "archive.html?date=2026-08-03"
     },
     {
       "date": "2026-08-03",
       "opponent": "STL",
       "home": true,
       "gamePk": 823520,
-      "status": "scheduled",
-      "time_local": "7:05 PM ET",
-      "probable": {
-        "team": "Cam Schlittler",
-        "opp": "Michael McGreevy"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "7\u201313"
     },
     {
       "date": "2026-08-04",
@@ -44,7 +42,8 @@
       "status": "scheduled",
       "time_local": "7:05 PM ET",
       "probable": {
-        "team": "Ryan Weathers"
+        "team": "Ryan Weathers",
+        "opp": "Hunter Dobbins"
       }
     },
     {
@@ -55,7 +54,8 @@
       "status": "scheduled",
       "time_local": "7:05 PM ET",
       "probable": {
-        "team": "Will Warren"
+        "team": "Will Warren",
+        "opp": "Andre Pallante"
       }
     },
     {
@@ -244,8 +244,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20131",
-    "current_streak": "W1",
-    "last_10": "6\u20134"
+    "month_record": "1\u20132",
+    "current_streak": "L1",
+    "last_10": "5\u20135"
   }
 }
