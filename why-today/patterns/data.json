@@ -1,5 +1,5 @@
 {
-  "week": "2026-07-27",
+  "week": "2026-08-03",
   "last_updated": "2026-08-04T18:00:00Z",
   "recognitions": [
     {
@@ -97,42 +97,6 @@
       ]
     },
     {
-      "id": "late-july-threshold",
-      "title": "Late July is the year's turning point that the modern calendar forgot to name",
-      "explanation": "Pre-industrial cultures named this passage \u2014 Lammas, the cross-quarter day halfway between solstice and equinox, arrived August 1. Firefly season closed. The Full Buck Moon rose. The light changed. None of this is news, but it wasn't nothing. The modern calendar skips from July to August as if the transition between them weren't real. It was. The threshold is now behind us \u2014 August is a harvest month, not a summer month.",
-      "momentum": "fading",
-      "evidence": [
-        {
-          "domain": "Natural World",
-          "text": "Firefly season is ending across most of North America. The bioluminescent window closes in late July \u2014 gone until next summer with no announcement.",
-          "url": "https://www.accuweather.com/en/leisure-recreation/firefly-season-is-here-when-to-watch-for-summers-flashing-lights/1898307",
-          "date": "annual",
-          "is_new": false
-        },
-        {
-          "domain": "Astronomy",
-          "text": "The Full Buck Moon peaked tonight, July 29, while three meteor showers are simultaneously active \u2014 the Southern Delta Aquariids, Alpha Capricornids, and building Perseids. The bright moon washes out all three. Earth is moving through the debris trail of Comet Swift-Tuttle toward the Perseid peak on August 12\u201313, which falls on a new moon \u2014 near-perfect dark skies.",
-          "url": "https://earthsky.org/astronomy-essentials/everything-you-need-to-know-perseid-meteor-shower/",
-          "date": "2026-07-29",
-          "is_new": false
-        },
-        {
-          "domain": "Season",
-          "text": "Lammas, August 1, is the cross-quarter day midway between the summer solstice and the autumn equinox. Pre-industrial calendars named this passage. Modern ones largely forgot it.",
-          "url": "https://nationaltoday.com/lammas-day/",
-          "date": "annual",
-          "is_new": false
-        },
-        {
-          "domain": "Ritual",
-          "text": "Ghost Month \u2014 the seventh lunar month of the Chinese calendar \u2014 began July 28 across China, Taiwan, Singapore, Malaysia, and global diaspora communities. The Gates of the Underworld open; paper money burns at street corners for ancestral spirits; front rows at performances are left empty for unseen guests. Hundreds of millions of people observe this threshold simultaneously, in a calendar that has no Western counterpart.",
-          "url": "https://www.remitly.com/blog/lifestyle-culture/hungry-ghost-festival-dates-traditions-and-rituals/",
-          "date": "2026-07-28",
-          "is_new": false
-        }
-      ]
-    },
-    {
       "id": "accountability-gap",
       "title": "This week, four institutions kept the authority and quietly removed the accountability",
       "explanation": "The U.S. Senate kept war powers but stripped the binding check. Ukraine's high command was reshuffled by protest rather than review. A mayor announced an arrest he has no legal mechanism to make. France banned social media for minors and then cut the enforcement clause. These aren't failures of individual institutions \u2014 they're the same move, made in four different countries: preserve the appearance of accountability while removing what would make it real.",
@@ -194,6 +158,35 @@
           "url": "https://www.aljazeera.com/news/2026/8/2/firefighting-helicopters-collide-near-athens-as-greece-battles-wildfires",
           "date": "2026-08-02",
           "is_new": false
+        }
+      ]
+    },
+    {
+      "id": "fire-season-relocates",
+      "title": "The European fire season doesn't end when a fire is contained \u2014 it relocates to the next front",
+      "explanation": "Bordeaux reached containment on August 1. Within 24 hours, a wildfire erupted in Provence. By August 3, Greek fires near Athens had jumped their containment lines. Two firefighting helicopters collided near Athens, killing both crews. The infrastructure \u2014 aircraft, tankers, crews \u2014 packed up from the Gironde and moved south and east. 'Contained' is a geographic description, not a systemic one. The Omega block, the drought, the accumulated dry biomass: none of it ended on August 1. The fire season is not a sequence of separate events; it is a continuous system moving across terrain. What changes from fire to fire is not the underlying condition but the available fuel. Each region that has burned is temporarily protected by its own destruction. The unburned regions remain vulnerable until their turn comes. The question isn't whether the next fire will start \u2014 it's where.",
+      "momentum": "acute",
+      "evidence": [
+        {
+          "domain": "Emergency Response",
+          "text": "France declared the Gironde fire largely contained on August 1 \u2014 420 sq km burned, 330,000+ evacuated, 3,000 firefighters holding the perimeter. Within 24 hours, a wildfire erupted in Provence: 1,500 firefighters immediately redeployed to the new front. The crews that stood down at Bordeaux were operational in Provence before the containment announcement was 24 hours old.",
+          "url": "https://wtop.com/world/2026/08/french-wildfire-near-bordeaux-contained-as-1500-firefighters-battle-separate-blaze-in-provence/",
+          "date": "2026-08-02",
+          "is_new": true
+        },
+        {
+          "domain": "Wildfire",
+          "text": "Fires erupted near Athens in western Attica on July 31; by August 3\u20134 they jumped containment lines as winds returned above 70 kph, forcing evacuations of 1,000+ people across Attica and Kefalonia. Two firefighting helicopters collided over Athens on August 2, killing both crews. Greece began its worst fire emergency of the summer on the same day France's worst fire was declared contained.",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-01/greece-wildfires-rage-near-athens-prompting-sea-evacuations",
+          "date": "2026-08-04",
+          "is_new": true
+        },
+        {
+          "domain": "Weather",
+          "text": "The fourth European heatwave of summer 2026 arrived simultaneously with the Bordeaux containment, driven by the same Omega block atmospheric pattern. The drought that dried the Danube to record lows also left Provence and Greece tinder-dry. 45\u00b0C temperatures were forecast across France and the Iberian Peninsula through early August. The conditions that generated the Bordeaux fire haven't lifted \u2014 they've shifted expression to a new address.",
+          "url": "https://www.severe-weather.eu/global-weather/extreme-heatwave-excessive-heat-dome-mediterranean-forecast-europe-july-august-2026-mk/",
+          "date": "2026-08-04",
+          "is_new": true
         }
       ]
     }
