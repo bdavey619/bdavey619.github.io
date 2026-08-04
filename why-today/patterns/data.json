@@ -1,6 +1,6 @@
 {
   "week": "2026-08-03",
-  "last_updated": "2026-08-04T18:00:00Z",
+  "last_updated": "2026-08-04T19:30:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
@@ -60,10 +60,10 @@
         },
         {
           "domain": "Labor",
-          "text": "Some 6,000 seafarers remain stranded on vessels in and around the Strait as of late July. Seventeen crew members have been killed; nine ships abandoned outright by their owners at Iranian ports.",
-          "url": "https://gcaptain.com/the-race-to-rescue-8000-sailors-still-stranded-behind-hormuz/",
-          "date": "2026-07-03",
-          "is_new": false
+          "text": "IMO launched a mass evacuation in late June under the ceasefire window — 115 ships carrying 2,500 crew cleared the Persian Gulf in the first 3.5 days. Then a container ship, the Ever Lovely, was struck in the Gulf of Oman and the operation was suspended pending security guarantees. As of late July, 6,000 seafarers remain stranded on roughly 400 vessels. The Islamabad Memorandum's transit fee regime has resumed commercial shipping through the strait — but the crews trapped before the ceasefire have not been repatriated.",
+          "url": "https://www.marineinsight.com/6000-seafarers-remain-trapped-in-strait-of-hormuz-after-imo-pauses-evacuation-plan/",
+          "date": "2026-07-24",
+          "is_new": true
         }
       ]
     },
@@ -140,7 +140,7 @@
       "evidence": [
         {
           "domain": "Public Health",
-          "text": "France confirmed 2,025 excess deaths from the June 2026 heatwave \u2014 announced July 3, three weeks after the peak heat. A statistical preprint estimated the European continental toll at 20,390 for just the seven peak days of June 22\u201328: France 5,210, Germany 4,543, Spain 3,163, Italy 2,709. The fourth heatwave of the summer arrived July 30.",
+          "text": "France confirmed 2,025 excess deaths from the June 2026 heatwave \u2014 announced July 3, three weeks after the peak heat. A statistical preprint estimated the European continental toll at 20,390 for just the seven peak days of June 22\u201328: France 5,210, Germany 4,543, Spain 3,163, Italy 2,709.",
           "url": "https://www.travelerstoday.com/articles/60336/20260705/europe-heatwave-2026-france-confirms-2025-dead-omega-block-holds-continent.htm",
           "date": "2026-07-03",
           "is_new": false
