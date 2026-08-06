@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-08",
   "division_name": "AL West",
-  "generated_at": "2026-08-05T14:57:42.701301+00:00",
+  "generated_at": "2026-08-06T14:56:40.311000+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -32,19 +32,17 @@
       "gamePk": 824484,
       "status": "final",
       "result": "L",
-      "score": "4\u20135"
+      "score": "4\u20135",
+      "archive_url": "archive.html?date=2026-08-05"
     },
     {
       "date": "2026-08-05",
       "opponent": "CIN",
       "home": false,
       "gamePk": 824482,
-      "status": "scheduled",
-      "time_local": "3:40 PM PT",
-      "probable": {
-        "team": "Jacob Lopez",
-        "opp": "Rhett Lowder"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20133"
     },
     {
       "date": "2026-08-06",
@@ -55,7 +53,7 @@
       "time_local": "9:40 AM PT",
       "probable": {
         "team": "Mason Barnett",
-        "opp": "Hunter Greene"
+        "opp": "Andrew Abbott"
       }
     },
     {
@@ -244,8 +242,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20133",
-    "current_streak": "L6",
+    "month_record": "0\u20134",
+    "current_streak": "L7",
     "last_10": "1\u20139"
   }
 }
