@@ -1,6 +1,6 @@
 {
   "week_start": "2026-08-03",
-  "last_updated": "2026-08-04T18:00:00Z",
+  "last_updated": "2026-08-06T18:00:00Z",
   "storylines": [
     {
       "id": "perseid-meteor-shower-buildup",
@@ -18,10 +18,10 @@
       "editorial_potential": "high",
       "url": "https://earthsky.org/astronomy-essentials/everything-you-need-to-know-perseid-meteor-shower/",
       "location": "",
-      "season_or_time_context": "Aug 4, 2026 \u2014 building toward Aug 12\u201313 peak",
+      "season_or_time_context": "Aug 6, 2026 \u2014 six days to peak; solar eclipse same night",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 5,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 6,
       "history": [
         {
           "date": "2026-08-02T18:00:00Z",
@@ -30,6 +30,10 @@
         {
           "date": "2026-08-04T18:00:00Z",
           "note": "Eight days to peak. New moon on August 12\u201313 confirmed: ideal dark sky conditions. 2026 may run slightly lower raw rates than a peak Perseid year \u2014 Jupiter disturbed the stream center \u2014 but viewing conditions remain exceptional. Activity already visible nightly, increasing."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Six days to peak. The Aug 12 night now carries three layered events: Perseid peak, total solar eclipse (Spain/Iceland/Greenland path, first European totality since 1999), and the Ghost Month Hungry Ghost Festival. Activity is building nightly. The eclipse happens at dusk in Spain \u2014 totality before nightfall. Perseids begin after dark, everywhere. The same new moon responsible for ideal Perseid conditions is the moon that causes the eclipse."
         }
       ]
     },
@@ -51,8 +55,14 @@
       "location": "",
       "season_or_time_context": "Late July 2026 \u2014 El Ni\u00f1o developing",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 4,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "El Ni\u00f1o intensification continues \u2014 Ni\u00f1o 3.4 index above +2\u00b0C. The same Omega block atmospheric pattern driving European heatwaves is consistent with strong El Ni\u00f1o conditions. Still on track for a 'very strong' event peaking in December."
+        }
+      ]
     },
     {
       "id": "stone-fruit-peak-late-july",
@@ -72,8 +82,14 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 brief peak window",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 4,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Stone fruit peak is waning \u2014 most California peaches and nectarines past peak ripeness by early August. The window narrows; late-season varieties still available at farmers markets. White nectarines and late plums are the last of the season."
+        }
+      ]
     },
     {
       "id": "wildfire-smoke-new-normal",
@@ -93,8 +109,14 @@
       "location": "",
       "season_or_time_context": "Late July 2026 \u2014 fire season peak",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 4,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Smoke from European fires (Athens, Provence, earlier Bordeaux) has spread regionally. US West under particulate from western fires alongside the heat dome. Smoke-as-baseline across both continents in the same August week."
+        }
+      ]
     },
     {
       "id": "overnight-heat-debt",
@@ -114,12 +136,16 @@
       "location": "Central and eastern United States",
       "season_or_time_context": "Late July 2026 \u2014 third heat dome of summer",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-08-04T18:00:00Z",
           "note": "Fourth US heat dome of summer 2026 confirmed, targeting 200 million Americans. Maricopa County, Arizona has confirmed 40 heat-related deaths this year as of early August \u2014 a figure that will grow as medical examiners complete retrospective review. Roughly 10% of the continental US has recorded its hottest day of 2026 by August 4. Overnight lows above 75\u201380\u00b0F persist across the Southeast, Great Plains, and Mississippi Valley \u2014 the heat debt mechanism accumulating without release. The count arrives weeks after the deaths."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "The fourth US heat dome peaked over the West Aug 1-5, with Death Valley at 126\u00b0F and nearly 50 million people under heat alerts across 12 western states. Phoenix and Tucson exceeded 110\u00b0F. The East and Southeast continue under overnight lows above 75-80\u00b0F accumulating heat debt. July jobs report releases Friday August 7 \u2014 expected 85,000 payrolls vs June's 57,000 \u2014 while the count of 40+ Maricopa heat deaths grows as medical examiners complete retrospective reviews."
         }
       ]
     },
@@ -141,8 +167,14 @@
       "location": "Northern United States",
       "season_or_time_context": "Late July \u2014 firefly season end",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 3,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Firefly season past peak \u2014 activity declining in most US regions by early August as temperatures rise. Still visible in cooler, wetter areas. The threshold between firefly season and its end is now active."
+        }
+      ]
     },
     {
       "id": "back-to-school-anxiety-ritual",
@@ -162,8 +194,14 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 ritual transition",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 4,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Back-to-school season in full swing \u2014 major retailers reporting back-to-school shopping rush. Children's anxiety and parental logistics intensifying through August. The economy-sentiment gap between spending data and consumer mood is visible here too: spending up, anxiety up simultaneously."
+        }
+      ]
     },
     {
       "id": "county-fair-season-peak",
@@ -183,8 +221,14 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 peak fair season",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 4,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "County fair season at peak in most US states through mid-August. Livestock judging, fried food, demolition derby \u2014 the annual ritual continues. The Oklahoma State Fair and Iowa State Fair (late August) will mark the end of the primary season."
+        }
+      ]
     },
     {
       "id": "heirloom-tomato-peak",
@@ -204,8 +248,14 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 heirloom tomato arrival",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 3,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Heirloom tomatoes at peak in most northern US and European growing regions \u2014 the narrow window when heat, water, and timing align for maximum flavor. Farmers markets showing full variety. Still the best week to buy."
+        }
+      ]
     },
     {
       "id": "sweet-corn-24-hour-window",
@@ -225,8 +275,14 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 peak corn season",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 4,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Sweet corn season at its peak in the Midwest and Northeast. The 24-hour window from stalk to table is the relevant frame \u2014 corn's sugars convert to starch rapidly post-harvest. Local roadside stands now at maximum supply."
+        }
+      ]
     },
     {
       "id": "coolcation-geography-rewrite",
@@ -246,8 +302,8 @@
       "location": "Southern Europe / Scandinavia",
       "season_or_time_context": "Late July 2026 \u2014 peak summer travel season",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-07-26T14:00:00Z",
@@ -256,6 +312,10 @@
         {
           "date": "2026-07-27T10:00:00Z",
           "note": "Evacuation total exceeds 300,000 (220,000 France, 75,000+ Spain). Fire advancing toward Bordeaux, approximately 15km from city entry points. Bordeaux Mayor says no city evacuation planned but fire 'not under control.'"
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Coolcation demand continues to reshape European summer travel. With Athens and southern France under fire risk and high heat warnings, northern European destinations \u2014 Scotland, Norway, Iceland \u2014 reporting record summer bookings. The fire-risk map is now a travel map."
         }
       ]
     },
@@ -271,11 +331,11 @@
       "transferability": "Understanding what makes Cap Ferret accessible only by one road or by ferry changes how you read its evacuation \u2014 geography that makes a place desirable can make it dangerous to leave",
       "cluster_id": "europe-summer-disruption-2026",
       "why_now": "Cap Ferret is completely closed during what is normally its highest-demand week. The evacuation by boat is happening today, July 27.",
-      "status": "captured",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://edition.cnn.com/2026/07/24/europe/cap-ferret-peninsula-evacuated-intl",
       "location": "Cap Ferret, Gironde, France",
-      "season_or_time_context": "Late July 2026 \u2014 peak season, fire emergency",
+      "season_or_time_context": "Evacuation lifted \u2014 residents returned after containment",
       "first_seen": "2026-07-27T10:00:00Z",
       "last_seen": "2026-08-02T18:00:00Z",
       "appearances": 2
@@ -298,8 +358,14 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 the counterintuitive moment",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 4,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Sunset still later than at solstice \u2014 the annual perceptual phenomenon holds through mid-August. Evenings feel long despite declining daylight. The asymmetry between sunrise (advancing) and sunset (still retreating) continues."
+        }
+      ]
     },
     {
       "id": "stone-fruit-synchronized-ripening",
@@ -319,8 +385,14 @@
       "location": "",
       "season_or_time_context": "Late July \u2014 stone fruit peak",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 4,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "The synchronized window is closing \u2014 stone fruit peak runs roughly July 20\u2013August 10 depending on variety and latitude. Now in the final week of the primary season."
+        }
+      ]
     },
     {
       "id": "smoke-taint-veraison-window",
@@ -340,12 +412,16 @@
       "location": "Bordeaux, France",
       "season_or_time_context": "Late July 2026 \u2014 pre-veraison window",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-08-02T18:00:00Z",
           "note": "Bordeaux fire contained August 1. Whether the smoke exposure during the veraison window permanently damaged the vintage will be known at crush in September. The window for damage has now closed \u2014 the question is how much got through."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Bordeaux veraison window has passed \u2014 the 2026 Gironde vintage fate now essentially decided. Smoke was present during the critical ripening period. Wine producers assessing the extent of smoke taint; some early tastings underway. The season's outcome is locked in; the story now moves to the harvest and final assessment."
         }
       ]
     },
@@ -367,12 +443,16 @@
       "location": "Strait of Hormuz, Persian Gulf",
       "season_or_time_context": "Late July 2026 \u2014 Hormuz near-standstill",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-07-30T18:00:00Z",
           "note": "The Islamabad Memorandum transit fee terms are now public: $1-2M per vessel, per voyage, scaled to size and cargo. The fee is suspended during the 60-day ceasefire window. Iran has won the principle \u2014 the strait is now acknowledged as a managed, priced passage, not neutral international water."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Commercial traffic recovering under the ceasefire. Trump says formal deal could come this week; Iran and Oman say talks in 'final stages.' If a permanent fee regime is formalized, this storyline transitions from crisis to structural condition."
         }
       ]
     },
@@ -394,12 +474,16 @@
       "location": "",
       "season_or_time_context": "July 27, 2026 \u2014 open weights release day",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-07-29T12:00:00Z",
           "note": "Kimi K3 halted new subscriptions within 48 hours of the open-weights release \u2014 global demand overwhelmed capacity before any regulatory response could form. The model the US called IP theft is now running on servers worldwide, including in WAICO member nations. Moonshot says it is adding compute as fast as possible and will reopen subscriptions in batches."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Kimi K3 subscription demand still high globally. US export control deliberations continuing. The open-weights/distillation legal distinction being examined by Congress. No new model releases this week; the geopolitical response is still being formulated."
         }
       ]
     },
@@ -419,13 +503,9 @@
       "editorial_potential": "high",
       "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
       "first_seen": "2026-07-22T00:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 10,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 11,
       "history": [
-        {
-          "date": "2026-07-27T16:00:00Z",
-          "note": "Trump directed military not to conduct new strikes. Iran also holding fire. Both sides deny formal ceasefire but the pause is holding. Netanyahu flying to Washington for White House meeting July 29. The war may be approaching an off-ramp \u2014 which makes the constitutional question sharper, not softer: how did a conflict that reached this scale start, escalate, and now potentially end without a single congressional vote?"
-        },
         {
           "date": "2026-07-29T12:00:00Z",
           "note": "Netanyahu met Trump at the White House on July 28 \u2014 entering through a side door, no public press conference. Netanyahu: 'one of the best meetings we've ever had.' Trump: 'very good.' Topics: Iran nuclear deal, Lebanon, Abraham Accords. A deal is being negotiated centered on Hormuz vessel transit. A war that started without congressional authorization may end the same way \u2014 through a private diplomatic meeting, not a congressional vote."
@@ -441,6 +521,10 @@
         {
           "date": "2026-08-04T18:00:00Z",
           "note": "Aug 3\u20134: Ceasefire holding at day 13 under the Islamabad Memorandum. Nuclear talks progressing but complicated by two Iranian conditions: a Lebanon ceasefire guarantee and limits on Iran's missile programme. 60-day window runs through approximately August 17. The transit fee regime ($1\u20132M per vessel) remains suspended during the window but the principle is established \u2014 Hormuz as a managed, priced passage, not neutral international water. A war that started without a congressional vote may end the same way."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Aug 5: Trump says a Hormuz deal could come 'this week.' CNBC: 'Iran, Oman say Strait of Hormuz talks in final stages.' Trump at a Las Vegas rally: 'Iran cannot have a nuclear weapon.' Vance: 'I remain confident we'll reach an outcome that benefits the United States.' The structure of the potential deal: a permanent fee-based transit regime managed through Oman \u2014 converting the 60-day ceasefire window into a standing arrangement. The ceasefire window under the Islamabad Memorandum expires approximately August 17. A formal follow-on deal before that date would institutionalize Hormuz as a managed passage rather than neutral international water. A war that started without a congressional vote may end the same way \u2014 by White House announcement."
         }
       ]
     },
@@ -460,8 +544,8 @@
       "editorial_potential": "high",
       "url": "https://www.nbcnews.com/world/ukraine/ukraines-zelenskyy-fires-commander-chief-protests-major-rift-rcna588159",
       "first_seen": "2026-07-21T00:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 6,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 7,
       "history": [
         {
           "date": "2026-07-30T18:00:00Z",
@@ -474,6 +558,10 @@
         {
           "date": "2026-08-04T18:00:00Z",
           "note": "Drapatyi audit findings emerging: some brigades severely understaffed, others overstaffed. Syrskyi reportedly redirected mobilized recruits to newly formed brigades criticized for abuse and wasteful attacks. Drapatyi warned 'no one will be untouchable.' The accountability gap that forced the leadership change is now being measured by the new commander's first act. Russia launched 200+ guided bombs and drones August 3 while the audit proceeds."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Russia suffered 42,860 casualties in July 2026 \u2014 the highest monthly toll of the war. Ukrainian forces struck the Syvash railway bridge, a repair base near Pervomaiske, and a Black Sea Fleet signals unit south of Sevastopol. A Kyiv Independent investigation alleged an assault regiment commander ordered troops to open fire on retreating friendly soldiers \u2014 exactly the systemic abuse the Drapatyi audit is designed to surface. The audit proceeds as Russia grinds forward at record cost."
         }
       ]
     },
@@ -493,12 +581,16 @@
       "editorial_potential": "high",
       "url": "https://www.ibtimes.com/china-ai-distillation-moonshot-kimi-k3-anthropic-3805653",
       "first_seen": "2026-07-17T00:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 5,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 6,
       "history": [
         {
           "date": "2026-08-02T18:00:00Z",
           "note": "AI EO 60-day framework deadline reached August 1. No open-weights ban signed. The Nvidia/Meta/Microsoft open-letter coalition holds. Anthropic's anti-distillation middle position is the outlier. The debate continues without resolution."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "The distillation claim remains unsubstantiated publicly \u2014 no formal legal filing or public evidence released. White House AI framework deadline passed Aug 1 with no public deliverables. The diplomatic claim and the legal category are both in limbo."
         }
       ]
     },
@@ -518,8 +610,14 @@
       "editorial_potential": "high",
       "url": "https://thediplomat.com/2026/07/chinas-new-ai-club-the-world-artificial-intelligence-cooperation-organization/",
       "first_seen": "2026-07-17T00:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 4
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 5,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "WAICO now in its second week of operation. No Western democracies have signaled interest in joining. The AI governance split between blocs is hardening."
+        }
+      ]
     },
     {
       "id": "france-kids-social-media-ban",
@@ -537,8 +635,14 @@
       "editorial_potential": "high",
       "url": "https://www.npr.org/2026/07/22/g-s1-134875/france-social-media-ban",
       "first_seen": "2026-07-21T00:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 4
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 5,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "France's social media ban for under-15s is now law \u2014 but without an enforcement mechanism. Platforms are developing age-verification approaches but no binding compliance deadline is in effect. A law exists; it is not yet a policy."
+        }
+      ]
     },
     {
       "id": "mamdani-calls-netanyahu-war-criminal",
@@ -556,8 +660,14 @@
       "editorial_potential": "high",
       "url": "https://www.npr.org/2026/07/22/g-s1-134880/mamdani-nyc-netanyahu",
       "first_seen": "2026-07-22T00:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 4
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 5,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "NYC mayor Mamdani maintains his position that Netanyahu should be arrested upon any UN visit \u2014 but continues to acknowledge he lacks the legal authority to order an arrest. No UN General Assembly visit scheduled for Netanyahu; no mechanism to close the gap between municipal conviction and federal/international law."
+        }
+      ]
     },
     {
       "id": "shutdown-third-in-a-year",
@@ -575,12 +685,16 @@
       "editorial_potential": "medium",
       "url": "https://www.npr.org/2026/07/21/nx-s1-5902245/government-funding-house-vote-continuing-resolution",
       "first_seen": "2026-07-21T00:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 5,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 6,
       "history": [
         {
           "date": "2026-08-04T18:00:00Z",
           "note": "August 3: Senate leaders reached a bipartisan deal to fund the government through December 11 \u2014 struck the same day the House left for August recess. Senate Majority Leader Thune: 'The American people have already experienced two record-breaking government shutdowns in the past 10 months.' The deal still requires House reconciliation when Congress returns in September. A shutdown has been deferred; the cliff-to-cliff funding dynamic is structurally unchanged."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Senate bipartisan deal (August 3) funds government through December 11 \u2014 but the deal still requires House reconciliation when Congress returns from August recess in September. The cliff-to-cliff dynamic is deferred, not resolved. A third shutdown this year remains possible if the House doesn't pass the CR in September."
         }
       ]
     },
@@ -600,8 +714,8 @@
       "editorial_potential": "high",
       "url": "https://www.inquirer.com/sixers/live/lebron-james-signs-philadelphia-76ers-contract-salary-roster-updates-reaction-20260724.html",
       "first_seen": "2026-07-24T00:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 5,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 6,
       "history": [
         {
           "date": "2026-07-24T00:00:00Z",
@@ -618,6 +732,10 @@
         {
           "date": "2026-07-27T10:00:00Z",
           "note": "Analysis phase continues. Story may be approaching staleness as it settles into 'wait and see' territory. The philosophical question (what is LeBron choosing?) has displaced the sports question (what does this do for the 76ers?)."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "LeBron James's 76ers chapter continues \u2014 no major contract or roster developments this week. The organizational rebuild narrative is ongoing."
         }
       ]
     },
@@ -637,8 +755,14 @@
       "editorial_potential": "high",
       "url": "https://www.cbssports.com/soccer/news/argentina-spain-world-cup-2026-final-live-updates-score-result/live/",
       "first_seen": "2026-07-19T00:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 4
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 5,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Lamine Yamal's post-Euro season: Barcelona pre-season in progress. The 17-year-old is preparing for what will be his first full La Liga season as a confirmed starter."
+        }
+      ]
     },
     {
       "id": "charli-xcx-music-fashion-film",
@@ -656,8 +780,14 @@
       "editorial_potential": "medium",
       "url": "https://www.rollingstone.com/music/music-news/charli-xcx-new-album-music-fashion-film-1235570567/",
       "first_seen": "2026-07-24T00:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 4
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 5,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Charli XCX's cultural moment continues \u2014 brat summer aesthetic still dominant in fashion and music media through August. The film project (no release date confirmed) remains in production."
+        }
+      ]
     },
     {
       "id": "trump-tariffs-60-countries",
@@ -675,8 +805,14 @@
       "editorial_potential": "high",
       "url": "https://www.npr.org/2026/07/24/nx-s1-5905783/trump-tariff-trade-global-canada",
       "first_seen": "2026-07-24T00:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 4
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 5,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Trump tariff negotiations ongoing with the 60-country group. No major bilateral deals announced this week. The tariff schedule is in effect; negotiations are background noise to the Hormuz/Iran headline focus."
+        }
+      ]
     },
     {
       "id": "wnba-allstar-clark-bueckers",
@@ -694,8 +830,8 @@
       "editorial_potential": "high",
       "url": "https://sports.yahoo.com/wnba/article/wnba-all-star-game-2026-schedule-date-rosters-how-to-watch-as-caitlin-clark-paige-bueckers-go-head-to-head-221518753.html",
       "first_seen": "2026-07-25T00:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-07-25T12:00:00Z",
@@ -708,6 +844,10 @@
         {
           "date": "2026-07-27T10:00:00Z",
           "note": "Post-game analysis phase. The primetime ABC broadcast confirmed the league's commercial reality \u2014 the Clark-Bueckers rivalry generates genuine adversarial narrative, not just star appeal."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "WNBA season at its midpoint; regular season continues through September. Caitlin Clark and Paige Bueckers dominating coverage. The All-Star game has passed; playoffs are the next major inflection point."
         }
       ]
     },
@@ -727,8 +867,14 @@
       "editorial_potential": "medium",
       "url": "https://www.benzinga.com/markets/earnings/26/07/60438897/jamie-dimon-delivers-mixed-message-economy-is-resilient-but-market-risks-are-mounting",
       "first_seen": "2026-07-17T00:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 4
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 5,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "July jobs report out tomorrow (Aug 7) \u2014 expected 85,000 payrolls, a partial recovery from June's 57,000. Consumer sentiment remains below spending reality. The gap between economic data and how the economy feels is the week's context."
+        }
+      ]
     },
     {
       "id": "pogacar-fifth-tour-de-france",
@@ -744,10 +890,10 @@
       "transferability": "Understanding why the Tour finale was rerouted \u2014 not for the riders but for the security forces \u2014 changes how you read event cancellations and reroutes caused by climate events",
       "cluster_id": "europe-summer-disruption-2026",
       "why_now": "Pogacar crossed the line in Paris July 26 with a final margin of 6:26 over Remco Evenepoel. The tour finale was truncated due to wildfires near Bordeaux.",
-      "status": "captured",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.npr.org/2026/07/26/nx-s1-5908503/tadej-pogacar-tour-de-france-2026-winner-wildfires",
-      "season_or_time_context": "July 26\u201327, 2026",
+      "season_or_time_context": "Tour de France ended late July",
       "first_seen": "2026-07-26T14:00:00Z",
       "last_seen": "2026-08-02T18:00:00Z",
       "appearances": 3
@@ -771,13 +917,9 @@
       "url": "https://www.japantimes.co.jp/news/2026/07/27/world/wildfires-bordeaux-france-spain/",
       "season_or_time_context": "Late July 2026",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 6,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 7,
       "history": [
-        {
-          "date": "2026-07-26T14:00:00Z",
-          "note": "250,000 evacuated across France and Spain. Tour de France finale rerouted. Fires near Bordeaux; city not yet threatened."
-        },
         {
           "date": "2026-07-27T10:00:00Z",
           "note": "Evacuation total exceeds 300,000. Fire advancing toward Bordeaux city limits, approximately 15km from entry points. Interior Minister confirms fire 'not under control.' Bordeaux mayor says no city evacuation currently planned. 2,500 firefighters, 1,500 soldiers fighting the blaze."
@@ -793,6 +935,10 @@
         {
           "date": "2026-08-02T18:00:00Z",
           "note": "Bordeaux fire declared largely contained August 1 after 10 days \u2014 420 sq km burned, 330,000+ evacuated, 3,000 firefighters maintaining perimeter. Within 24 hours a new fire erupts in Provence: 1,500 firefighters deployed. Greece fires simultaneously threaten Athens suburbs. Two firefighting helicopters collide near Athens August 2, killing both crews. The fire season has not ended \u2014 it has moved."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Provence fire stabilizing (Aug 5). Athens-area fire situation 'much better.' 115 active heat spots remain in France. Spain under high fire risk. The multi-country fire season remains active \u2014 just past its peak emergency week."
         }
       ]
     },
@@ -815,8 +961,14 @@
       "url": "https://www.npr.org/2026/07/24/nx-s1-5906236/india-wangchuk-hunger-strike-cockroach-protesters",
       "season_or_time_context": "Late July 2026",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 3
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 4,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Sonam Wangchuk's protest continues. The Indian government has not responded to his demands regarding Ladakh autonomy. No major development this week."
+        }
+      ]
     },
     {
       "id": "pyrocumulonimbus-bordeaux",
@@ -830,11 +982,11 @@
       "transferability": "Understanding pyrocumulonimbus means reading every large wildfire report differently \u2014 the question is not just whether the fire is spreading but whether it has reached the size where it begins generating its own conditions",
       "cluster_id": "europe-summer-disruption-2026",
       "why_now": "The Gironde fire generated a pyrocumulonimbus on the night of July 26\u201327 \u2014 the first ever recorded in France. France 24 reported it July 27. The fire is now partially self-perpetuating.",
-      "status": "captured",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.france24.com/en/france/20260727-what-are-fire-clouds-pyrocumulonimbus-observed-france-for-the-first-time",
       "location": "Gironde, France",
-      "season_or_time_context": "Late July 2026 \u2014 peak fire emergency",
+      "season_or_time_context": "Bordeaux contained Aug 1 \u2014 pyrocumulonimbus event passed",
       "first_seen": "2026-07-27T16:00:00Z",
       "last_seen": "2026-08-02T18:00:00Z",
       "appearances": 2
@@ -855,14 +1007,18 @@
       "editorial_potential": "high",
       "url": "https://www.britannica.com/topic/Hungry-Ghost-Festival",
       "location": "East and Southeast Asia; global diaspora",
-      "season_or_time_context": "Aug 4, 2026 \u2014 Ghost Month ongoing, main festival Aug 12",
+      "season_or_time_context": "Aug 6, 2026 \u2014 six days to Aug 12 triple convergence",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-08-04T18:00:00Z",
           "note": "Ghost Month is in its second week. The main festival \u2014 Hungry Ghost Festival, the 15th day of the seventh lunar month \u2014 falls on August 12. The same night as the Perseid meteor shower peak. In Chinese tradition, August 12 is the night ancestral spirits are closest to the living; in astronomical tradition, it is the night Earth is deepest in the debris trail of a comet that last visited the inner solar system in 69 BC. The front rows of theaters stay empty for unseen guests; overhead, the sky is full of light that has been traveling since before the comet rounded the sun."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Aug 12 has acquired a third layer. The night of the Hungry Ghost Festival and Perseid peak will now also see a total solar eclipse sweep across Spain and Iceland \u2014 the first totality on mainland Europe since 1999. In European tradition, totality arrives at golden hour, just before dark. Then the Perseid peak after nightfall. In Chinese tradition, the same night is when the Gates of the Underworld are widest and ancestral spirits walk. Three frameworks for understanding the sky \u2014 two astronomical, one ancestral \u2014 all converge on the same evening. The eclipse is the sun being briefly swallowed; in the Ghost Month calendar, it arrives precisely when the dead are nearest the living."
         }
       ]
     },
@@ -884,8 +1040,14 @@
       "location": "Florida Keys",
       "season_or_time_context": "Late July 2026 \u2014 pre-bleaching window",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 3,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Coral relocation program ongoing. SSTs remain elevated in Florida Keys. No new announcements this week; the relocation work is continuous."
+        }
+      ]
     },
     {
       "id": "el-nino-bluefin-warm-water",
@@ -905,8 +1067,14 @@
       "location": "Southern California offshore waters",
       "season_or_time_context": "Late July 2026 \u2014 El Ni\u00f1o season",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 3,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Bluefin tuna range expansion continuing \u2014 warm water pushing species into new northern fisheries. No major new reports this week; trend ongoing."
+        }
+      ]
     },
     {
       "id": "california-fair-plan-retreat",
@@ -926,8 +1094,14 @@
       "location": "California",
       "season_or_time_context": "Late July 2026 \u2014 fire season",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 3,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "FAIR Plan coverage continues expanding. No new rate approvals this week beyond the 29.1% increase approved for October 2026. The structural retreat is ongoing."
+        }
+      ]
     },
     {
       "id": "lammas-cross-quarter-threshold",
@@ -941,11 +1115,11 @@
       "transferability": "Understanding Lammas as the hinge point means reading the county fair, the back-to-school sale, and the heavy feeling of late July not as disconnected events but as expressions of the same seasonal threshold",
       "cluster_id": "late-july-threshold-convergence",
       "why_now": "Lammas is August 1 \u2014 four days away. The Full Buck Moon arrives July 29. This is the threshold week \u2014 the last week of summer's fullness before harvest's urgency begins.",
-      "status": "captured",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://nationaltoday.com/lammas-day/",
       "location": "",
-      "season_or_time_context": "Late July \u2014 cross-quarter threshold",
+      "season_or_time_context": "Lammas passed Aug 1",
       "first_seen": "2026-07-27T16:00:00Z",
       "last_seen": "2026-08-02T18:00:00Z",
       "appearances": 3,
@@ -974,8 +1148,14 @@
       "location": "United States (11 host cities)",
       "season_or_time_context": "Late July 2026 \u2014 post-World Cup",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 2
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 3,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "FIFA 2026 host city concerns continue \u2014 infrastructure costs, venue profitability, and local impact debates ongoing in US and Canadian host cities. No major new contract announcements this week."
+        }
+      ]
     },
     {
       "id": "full-buck-moon-three-showers",
@@ -989,11 +1169,11 @@
       "transferability": "Understanding that full moons wash out meteor showers means reading any 'best night to watch' astronomy calendar differently \u2014 brightness and activity are independent variables",
       "cluster_id": "late-july-threshold-convergence",
       "why_now": "The Full Buck Moon is tonight. Three showers are simultaneously active. This is the last full moon before the Lammas threshold.",
-      "status": "captured",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.theweathernetwork.com/en/news/weather/forecasts/july-2026-full-buck-moon-rises-tuesday-night-as-three-meteor-showers-flash-through-the-sky",
       "location": "",
-      "season_or_time_context": "July 29, 2026 \u2014 full moon night",
+      "season_or_time_context": "July 10 Buck Moon passed \u2014 over a month ago",
       "first_seen": "2026-07-29T12:00:00Z",
       "last_seen": "2026-08-02T18:00:00Z",
       "appearances": 2
@@ -1016,12 +1196,16 @@
       "location": "Western and Central Europe",
       "season_or_time_context": "Late July \u2014 early August 2026",
       "first_seen": "2026-07-29T12:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-08-02T18:00:00Z",
           "note": "Omega block heatwave peaked over France and Iberia. The same drought conditions that drove the heatwave also dropped the Danube to record lows \u2014 forcing Hungary's Paks nuclear plant to shut down for the first time in 44 years."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "The fourth European heatwave is ongoing \u2014 the Omega block pattern persists over the continent. Very high fire risk warnings in effect across southern Europe. Greece and Provence both recently experienced the direct consequences. A fifth heatwave event is possible within the same summer Omega block regime."
         }
       ]
     },
@@ -1043,12 +1227,16 @@
       "location": "Paks, Hungary / Danube River",
       "season_or_time_context": "August 2, 2026 \u2014 record Danube lows",
       "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-08-04T18:00:00Z",
           "note": "Danube forecast to drop to a new record of minus 144cm \u2014 below even the recent record of minus 134cm set days ago. No significant rainfall in any model for the Danube basin. Hungarian officials say the plant could remain offline for over a month. Hungary is importing emergency power from Austria, Slovakia, and Romania and has imposed industrial electricity and water restrictions, burning coal and gas to compensate for 33\u201340% of its electricity supply disappearing. The plant that ran 44 years without a full shutdown may not restart until September."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Paks Nuclear Power Plant remains fully offline. No significant rainfall in any forecast model for the Danube basin. Hungary burning coal and gas, importing power from neighbors. The plant may not restart until September. No change since Aug 4."
         }
       ]
     },
@@ -1072,12 +1260,16 @@
       "location": "Attica / Geraneia mountains / Kefalonia, Greece",
       "season_or_time_context": "August 1\u20132, 2026",
       "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-08-04T18:00:00Z",
           "note": "Aug 3\u20134: fires in western Attica jumped containment lines as strong winds returned, gusting above 70 kph. Total evacuations across Attica and Kefalonia now exceed 1,000. Provence fire in France stabilizing but not fully contained. European firefighting aircraft stretched across simultaneous active fronts in two countries. The fire season remains active \u2014 moving rather than ending."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Aug 5: Greek fire services spokesman: 'The situation in the region is much better.' The Athens-area fires burned more than 14,000 hectares over five days. Remaining containment lines lifted. Teams from the Environment and Civil Protection ministries arrived to assess communities 50km northwest of Athens. PM Mitsotakis chaired a cabinet meeting to determine compensation. Hundreds of displaced animals in rescue. Very high fire risk (Category 4) remains for Attica and Greek islands through Aug 6. The acute phase is ending; the conditions that caused it are not."
         }
       ]
     },
@@ -1099,8 +1291,14 @@
       "location": "Bordeaux (contained) / Provence (new), France",
       "season_or_time_context": "August 1\u20132, 2026",
       "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
-      "appearances": 1
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Aug 5: The Gros Bessillon fire in the Provence hills stabilized \u2014 perimeter not expanding overnight \u2014 but not fully contained as winds were expected to return. About 1,500 firefighters continued reinforcing fire lines. Satellite monitoring detected 115 active heat spots across France, highest concentration in Provence-Alpes-C\u00f4te d'Azur. European Forest Fire Information System: wildfire risk high across the continent through August 5. The relocation pattern continues \u2014 fire season is working through the fuel map."
+        }
+      ]
     },
     {
       "id": "perseid-approach-ten-days",
@@ -1118,14 +1316,18 @@
       "editorial_potential": "high",
       "url": "https://weather.com/2026/07/16/science/space/perseid-meteor-shower-2026-perfect-new-moon-to-create-ideal-conditions-for-peak",
       "location": "",
-      "season_or_time_context": "Aug 4, 2026 \u2014 eight days to Perseid peak",
+      "season_or_time_context": "Aug 6, 2026 \u2014 six days to Aug 12 peak; solar eclipse same night",
       "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-04T18:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-08-04T18:00:00Z",
           "note": "Eight days to peak on August 12\u201313. Rates building nightly \u2014 already visible on any clear dark night. New detail from meteor scientists: Jupiter's gravity has disturbed the stream's center, meaning 2026 raw rates may run slightly below a typical Perseid peak year; Earth encounters denser debris in 2027. But the new moon holds \u2014 near-perfect dark skies at peak. The condition for a great year is visibility, not density. Any clear night this week is a preview."
+        },
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Six days to peak. New development: a total solar eclipse also occurs on August 12 \u2014 the same night as the Perseid peak. The eclipse path crosses Siberian Russia, eastern Greenland, Iceland, and northern Spain, reaching mainland Europe for the first time since 1999. In Spain, totality arrives during golden hour, just before sunset. For viewers in North America and northern Europe who miss the eclipse path, the same new moon that causes the eclipse also guarantees the darkest Perseid skies in years. The darkness that enables meteor watching and the darkness of the eclipse are the same astronomical condition."
         }
       ]
     },
@@ -1141,11 +1343,11 @@
       "transferability": "Understanding Lammas means reading 'late summer' differently \u2014 what most people experience as a vague heaviness about August is the harvest calendar's first day, still operating without its labels",
       "cluster_id": "late-july-threshold-convergence",
       "why_now": "Lammas was August 1. The threshold has been crossed.",
-      "status": "captured",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://nationaltoday.com/lammas-day/",
       "location": "",
-      "season_or_time_context": "August 1, 2026 \u2014 cross-quarter threshold",
+      "season_or_time_context": "Threshold now behind us",
       "first_seen": "2026-08-02T18:00:00Z",
       "last_seen": "2026-08-02T18:00:00Z",
       "appearances": 1
@@ -1168,9 +1370,36 @@
       "editorial_potential": "medium",
       "url": "https://www.cnbc.com/2026/07/31/trump-ai-executive-order-nears-key-deadline-regulation-debate-heats-up.html",
       "location": "",
-      "season_or_time_context": "August 1\u20132, 2026",
+      "season_or_time_context": "Aug 6, 2026 \u2014 Aug 1 deadline passed without public release",
       "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-02T18:00:00Z",
+      "last_seen": "2026-08-06T18:00:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-08-06T18:00:00Z",
+          "note": "Aug 1 deadline passed. White House claimed the voluntary AI evaluation framework was complete: 'The voluntary framework outlined in the June 2nd executive order was complete by the deadline.' But no Federal Register notices, no NIST or CISA publications, and no public deliverables appeared. Axios: 'White House finalizes AI framework behind closed doors.' The administration kept the authority to set AI governance standards and removed the accountability of public disclosure."
+        }
+      ]
+    },
+    {
+      "id": "solar-eclipse-august-12",
+      "stream": "natural_world",
+      "observer": "naturalist",
+      "title": "Total solar eclipse August 12 \u2014 first European totality since 1999",
+      "observation": "A total solar eclipse will cross the Earth on August 12, 2026 \u2014 six days from now. The path of totality passes through Siberian Russia, eastern Greenland, the west coast of Iceland, and northern Spain, with a sliver of Portugal. In Spain, totality arrives at golden hour, just before sunset, when the sun is very low in the sky \u2014 a visually dramatic geometry that won't recur over mainland Europe for decades. Maximum duration is 2 minutes 18 seconds, offshore west of Iceland. This is the first total solar eclipse visible from mainland Europe since 1999. The same new moon that causes the eclipse also creates ideal dark-sky conditions for the Perseid meteor shower, which peaks the same night. And in the Chinese lunar calendar, August 12 is the Hungry Ghost Festival \u2014 the night ancestral spirits are closest to the living. Three frameworks \u2014 two astronomical, one ancestral \u2014 converge on the same evening.",
+      "question": "What happens to how you experience the sky when you know that the darkness of the new moon, the swallowing of the sun at dusk, and the height of the meteor shower all arrive on the same night by pure orbital coincidence?",
+      "hidden_question": "What happens to how you experience the sky when you know that the darkness of the new moon, the swallowing of the sun at dusk, and the height of the meteor shower all arrive on the same night by pure orbital coincidence?",
+      "pattern": "Multiple unrelated astronomical cycles occasionally synchronize on a single date \u2014 the convergence amplifies the significance of what any single event would provide alone",
+      "transferability": "If you're in Iceland or northern Spain, August 12 is a rare opportunity to see totality at golden hour. If you're anywhere in the northern hemisphere, the same night offers exceptional Perseid conditions after dark.",
+      "cluster_id": "",
+      "why_now": "Six days to the eclipse. Path through Iceland and Spain is being finalized by eclipse chasers worldwide. First European totality since 1999.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://science.nasa.gov/eclipses/future-eclipses/total-solar-eclipse-on-august-12-2026/",
+      "location": "Spain, Iceland, Greenland, Russia",
+      "season_or_time_context": "Aug 6, 2026 \u2014 six days to totality",
+      "first_seen": "2026-08-06T18:00:00Z",
+      "last_seen": "2026-08-06T18:00:00Z",
       "appearances": 1
     }
   ]

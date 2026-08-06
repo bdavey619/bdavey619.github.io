@@ -1,6 +1,6 @@
 {
   "week": "2026-08-03",
-  "last_updated": "2026-08-04T19:30:00Z",
+  "last_updated": "2026-08-06T18:00:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
@@ -46,10 +46,10 @@
       "evidence": [
         {
           "domain": "Shipping",
-          "text": "Commercial tanker traffic through the Strait of Hormuz fell ~90% year-on-year during the conflict. Now, under the Islamabad Memorandum, Iran and Oman have established the principle that they will charge $1\u20132M per vessel per voyage for Hormuz transit \u2014 fee suspended during the current 60-day ceasefire window. The closure is easing. But the old order \u2014 neutral international water, always open \u2014 has not been restored. The strait is now a managed, priced passage.",
-          "url": "https://www.forbes.com/sites/guneyyildiz/2026/07/28/hormuz-is-becoming-a-fee-and-permission-regime/",
-          "date": "2026-07-28",
-          "is_new": false
+          "text": "Commercial tanker traffic through the Strait of Hormuz fell ~90% year-on-year during the conflict. Under the Islamabad Memorandum, Iran and Oman established the principle of charging $1\u20132M per vessel for Hormuz transit \u2014 fee suspended during the 60-day ceasefire window. Now, on August 5, Trump said a formal deal to permanently reopen the strait could come 'this week.' Iran and Oman told CNBC talks are in 'final stages.' The deal under discussion would convert the temporary fee suspension into a permanent managed-transit regime. The old order \u2014 neutral international water, always open \u2014 is not being restored; it is being replaced with a priced passage, institutionalized by treaty.",
+          "url": "https://www.cnbc.com/2026/08/05/us-iran-war-trump-hormuz-bessent-iran-deal-close.html",
+          "date": "2026-08-05",
+          "is_new": true
         },
         {
           "domain": "Energy",
@@ -60,10 +60,10 @@
         },
         {
           "domain": "Labor",
-          "text": "IMO launched a mass evacuation in late June under the ceasefire window — 115 ships carrying 2,500 crew cleared the Persian Gulf in the first 3.5 days. Then a container ship, the Ever Lovely, was struck in the Gulf of Oman and the operation was suspended pending security guarantees. As of late July, 6,000 seafarers remain stranded on roughly 400 vessels. The Islamabad Memorandum's transit fee regime has resumed commercial shipping through the strait — but the crews trapped before the ceasefire have not been repatriated.",
+          "text": "IMO launched a mass evacuation in late June under the ceasefire window \u2014 115 ships carrying 2,500 crew cleared the Persian Gulf in the first 3.5 days. Then a container ship, the Ever Lovely, was struck in the Gulf of Oman and the operation was suspended pending security guarantees. As of late July, 6,000 seafarers remain stranded on roughly 400 vessels. The Islamabad Memorandum's transit fee regime has resumed commercial shipping through the strait \u2014 but the crews trapped before the ceasefire have not been repatriated.",
           "url": "https://www.marineinsight.com/6000-seafarers-remain-trapped-in-strait-of-hormuz-after-imo-pauses-evacuation-plan/",
           "date": "2026-07-24",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -114,7 +114,7 @@
           "text": "Zelenskyy fired Gen. Syrskyi on July 21 \u2014 removed by protest, not internal review. His replacement, Gen. Drapatyi, issued a system-wide manpower audit as his first official act on July 29. By August 3, early findings were emerging: some brigades severely understaffed, others overstaffed \u2014 Syrskyi had systematically redirected mobilized recruits to newly formed brigades criticized for abuse and poor performance. Drapatyi warned 'no one will be untouchable.' The failure wasn't a personnel problem \u2014 it was a reporting problem: unit staffing data under Syrskyi was unreliable. The new commander's first act is measuring the gap his predecessor created.",
           "url": "https://kyivindependent.com/analysis-new-commander-in-chief-drapatyi-faces-a-manpower-mess-of-syrskyis-creation/",
           "date": "2026-08-04",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Diplomacy",
@@ -125,10 +125,10 @@
         },
         {
           "domain": "Technology",
-          "text": "France's parliament passed a ban on social media for children under 15, then cut the enforcement mechanism from the final bill. Platforms must verify ages but face no binding obligation to actually block access.",
-          "url": "https://www.techtimes.com/articles/321273/20260722/france-bans-social-media-under-15s-cut-enforcement-mechanism.htm",
-          "date": "2026-07-22",
-          "is_new": false
+          "text": "Trump's June 2 AI executive order required three deliverables by August 1: a classified AI benchmarking process, a voluntary frontier AI disclosure framework, and a federal cyber workforce plan. The White House declared the deadline met: 'The voluntary framework outlined in the June 2nd executive order was complete by the deadline.' But no Federal Register notices, no NIST or CISA publications, and no public framework appeared. Axios: 'White House finalizes AI framework behind closed doors.' The administration kept the authority to set AI governance standards and removed the accountability of public disclosure.",
+          "url": "https://www.axios.com/2026/08/03/white-house-finalizes-ai-framework-behind-closed-doors",
+          "date": "2026-08-03",
+          "is_new": true
         }
       ]
     },
@@ -150,7 +150,7 @@
           "text": "The fourth US heat dome of summer 2026 targets 200 million Americans with overnight lows above 75\u201380\u00b0F through at least mid-August across the Southeast, Great Plains, Mississippi Valley, and Northeast. Maricopa County, Arizona has confirmed 40 heat-related deaths in 2026 by early August \u2014 a figure that grows as medical examiners complete retrospective reviews. By August 4, roughly 10% of the continental US has recorded its hottest day of 2026. When overnight temperatures stay this high, the body's core temperature repair cycle fails during sleep \u2014 'heat debt' accumulates. The count arrives weeks after the deaths.",
           "url": "https://www.severe-weather.eu/global-weather/major-heat-dome-heatwave-united-states-canada-august-mk/",
           "date": "2026-08-04",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Emergency Response",
@@ -172,13 +172,13 @@
           "text": "France declared the Gironde fire largely contained on August 1 \u2014 420 sq km burned, 330,000+ evacuated, 3,000 firefighters holding the perimeter. Within 24 hours, a wildfire erupted in Provence: 1,500 firefighters immediately redeployed to the new front. The crews that stood down at Bordeaux were operational in Provence before the containment announcement was 24 hours old.",
           "url": "https://wtop.com/world/2026/08/french-wildfire-near-bordeaux-contained-as-1500-firefighters-battle-separate-blaze-in-provence/",
           "date": "2026-08-02",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Wildfire",
-          "text": "Fires erupted near Athens in western Attica on July 31; by August 3\u20134 they jumped containment lines as winds returned above 70 kph, forcing evacuations of 1,000+ people across Attica and Kefalonia. Two firefighting helicopters collided over Athens on August 2, killing both crews. Greece began its worst fire emergency of the summer on the same day France's worst fire was declared contained.",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-01/greece-wildfires-rage-near-athens-prompting-sea-evacuations",
-          "date": "2026-08-04",
+          "text": "The Athens-area fires burned more than 14,000 hectares over five days \u2014 the worst near the capital in recent memory. By August 5, fire services said 'the situation is much better' and remaining containment lines were lifted. Damage assessment teams arrived to survey communities 50km northwest of Athens. Very high fire risk (Category 4) remained in effect for Attica and the islands through August 6. The acute phase in Greece is ending. The underlying conditions \u2014 heat, drought, Omega block \u2014 have not ended; the fire season's next address has not yet been determined.",
+          "url": "https://www.euronews.com/my-europe/2026/08/05/firefighters-scramble-to-contain-fires-outside-athens-before-high-winds-return",
+          "date": "2026-08-05",
           "is_new": true
         },
         {
@@ -186,7 +186,7 @@
           "text": "The fourth European heatwave of summer 2026 arrived simultaneously with the Bordeaux containment, driven by the same Omega block atmospheric pattern. The drought that dried the Danube to record lows also left Provence and Greece tinder-dry. 45\u00b0C temperatures were forecast across France and the Iberian Peninsula through early August. The conditions that generated the Bordeaux fire haven't lifted \u2014 they've shifted expression to a new address.",
           "url": "https://www.severe-weather.eu/global-weather/extreme-heatwave-excessive-heat-dome-mediterranean-forecast-europe-july-august-2026-mk/",
           "date": "2026-08-04",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
