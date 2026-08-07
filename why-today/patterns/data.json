@@ -1,6 +1,6 @@
 {
   "week": "2026-08-03",
-  "last_updated": "2026-08-06T18:00:00Z",
+  "last_updated": "2026-08-07T18:00:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
@@ -46,9 +46,9 @@
       "evidence": [
         {
           "domain": "Shipping",
-          "text": "Commercial tanker traffic through the Strait of Hormuz fell ~90% year-on-year during the conflict. Under the Islamabad Memorandum, Iran and Oman established the principle of charging $1\u20132M per vessel for Hormuz transit \u2014 fee suspended during the 60-day ceasefire window. Now, on August 5, Trump said a formal deal to permanently reopen the strait could come 'this week.' Iran and Oman told CNBC talks are in 'final stages.' The deal under discussion would convert the temporary fee suspension into a permanent managed-transit regime. The old order \u2014 neutral international water, always open \u2014 is not being restored; it is being replaced with a priced passage, institutionalized by treaty.",
-          "url": "https://www.cnbc.com/2026/08/05/us-iran-war-trump-hormuz-bessent-iran-deal-close.html",
-          "date": "2026-08-05",
+          "text": "Commercial tanker traffic through the Strait of Hormuz fell ~90% during the conflict. On August 6, Iran and Oman agreed in principle on new shipping lane coordinates \u2014 routes that pass partially through Iranian territorial waters, departing from the decades-old Omani-water system. Iran's Deputy FM: 'An understanding has been reached on almost all raised issues.' But Tehran explicitly excluded the US: full normalization depends on Washington lifting its blockade of Iranian ports. The deal is not a restoration of neutral international water \u2014 it is Iran extracting recognition of its territorial sovereignty over the passage as the price of reopening it.",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/iran-says-deal-with-oman-on-strait-of-hormuz-agreed-in-principle",
+          "date": "2026-08-06",
           "is_new": true
         },
         {
@@ -128,7 +128,7 @@
           "text": "Trump's June 2 AI executive order required three deliverables by August 1: a classified AI benchmarking process, a voluntary frontier AI disclosure framework, and a federal cyber workforce plan. The White House declared the deadline met: 'The voluntary framework outlined in the June 2nd executive order was complete by the deadline.' But no Federal Register notices, no NIST or CISA publications, and no public framework appeared. Axios: 'White House finalizes AI framework behind closed doors.' The administration kept the authority to set AI governance standards and removed the accountability of public disclosure.",
           "url": "https://www.axios.com/2026/08/03/white-house-finalizes-ai-framework-behind-closed-doors",
           "date": "2026-08-03",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -176,9 +176,9 @@
         },
         {
           "domain": "Wildfire",
-          "text": "The Athens-area fires burned more than 14,000 hectares over five days \u2014 the worst near the capital in recent memory. By August 5, fire services said 'the situation is much better' and remaining containment lines were lifted. Damage assessment teams arrived to survey communities 50km northwest of Athens. Very high fire risk (Category 4) remained in effect for Attica and the islands through August 6. The acute phase in Greece is ending. The underlying conditions \u2014 heat, drought, Omega block \u2014 have not ended; the fire season's next address has not yet been determined.",
-          "url": "https://www.euronews.com/my-europe/2026/08/05/firefighters-scramble-to-contain-fires-outside-athens-before-high-winds-return",
-          "date": "2026-08-05",
+          "text": "The Athens-area fire burned 14,000+ hectares over five days; containment lines were lifting by August 5. Then Crete and Paros ignited, adding 6,000+ more hectares. By August 7, 150+ wildfires were active across Greece \u2014 Attica recovering, the islands newly burning. Civil Protection Minister: the fire department has been 'pushed to its limits.' Three arson arrests made. The relocation pattern now operates within a single country: the fire season didn't leave Greece when Athens improved. It moved to the next available fuel.",
+          "url": "https://greece-moments.com/en/greece-fires/",
+          "date": "2026-08-07",
           "is_new": true
         },
         {
