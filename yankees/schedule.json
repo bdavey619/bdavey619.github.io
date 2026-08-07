@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-08",
   "division_name": "AL East",
-  "generated_at": "2026-08-06T12:58:40.098758+00:00",
+  "generated_at": "2026-08-07T11:49:34.565744+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -52,7 +52,8 @@
       "gamePk": 823516,
       "status": "final",
       "result": "L",
-      "score": "1\u20133"
+      "score": "1\u20133",
+      "archive_url": "archive.html?date=2026-08-06"
     },
     {
       "date": "2026-08-07",
@@ -62,7 +63,8 @@
       "status": "scheduled",
       "time_local": "7:05 PM ET",
       "probable": {
-        "team": "Max Fried"
+        "team": "Max Fried",
+        "opp": "Tyler Mahle"
       }
     },
     {
@@ -73,7 +75,8 @@
       "status": "scheduled",
       "time_local": "3:05 PM ET",
       "probable": {
-        "team": "Gerrit Cole"
+        "team": "Gerrit Cole",
+        "opp": "Chris Sale"
       }
     },
     {
@@ -84,7 +87,8 @@
       "status": "scheduled",
       "time_local": "1:35 PM ET",
       "probable": {
-        "team": "Cam Schlittler"
+        "team": "Cam Schlittler",
+        "opp": "Grant Holmes"
       }
     },
     {
