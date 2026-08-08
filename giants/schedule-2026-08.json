@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-07T13:04:24.816002+00:00",
+  "generated_at": "2026-08-08T12:49:27.380569+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -60,11 +60,9 @@
       "opponent": "DET",
       "home": true,
       "gamePk": 823191,
-      "status": "scheduled",
-      "time_local": "7:15 PM PT",
-      "probable": {
-        "opp": "Keider Montero"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20132"
     },
     {
       "date": "2026-08-08",
@@ -252,8 +250,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20134",
-    "current_streak": "L2",
+    "month_record": "2\u20134",
+    "current_streak": "W1",
     "last_10": "4\u20136"
   }
 }
