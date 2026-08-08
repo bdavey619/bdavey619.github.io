@@ -1,6 +1,6 @@
 {
   "week": "2026-08-03",
-  "last_updated": "2026-08-07T18:00:00Z",
+  "last_updated": "2026-08-08T18:00:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
@@ -42,13 +42,13 @@
       "id": "energy-systems-architecture-visible",
       "title": "The Hormuz closure revealed how much of the world's energy was always running through two miles of contested water",
       "explanation": "The Strait of Hormuz carried roughly 20% of global oil and LNG before February. That number was always there in the data. What the closure did was make it felt \u2014 in gas prices, in stranded sailors, in European storage levels entering autumn. The fragility wasn't created by the conflict. The conflict just removed the assumption that the strait would always be passable.",
-      "momentum": "building",
+      "momentum": "accelerating",
       "evidence": [
         {
           "domain": "Shipping",
-          "text": "Commercial tanker traffic through the Strait of Hormuz fell ~90% during the conflict. On August 6, Iran and Oman agreed in principle on new shipping lane coordinates \u2014 routes that pass partially through Iranian territorial waters, departing from the decades-old Omani-water system. Iran's Deputy FM: 'An understanding has been reached on almost all raised issues.' But Tehran explicitly excluded the US: full normalization depends on Washington lifting its blockade of Iranian ports. The deal is not a restoration of neutral international water \u2014 it is Iran extracting recognition of its territorial sovereignty over the passage as the price of reopening it.",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/iran-says-deal-with-oman-on-strait-of-hormuz-agreed-in-principle",
-          "date": "2026-08-06",
+          "text": "Commercial tanker traffic through the Strait of Hormuz fell ~90% during the conflict. On August 6, Iran and Oman agreed in principle on new shipping lane coordinates \u2014 routes passing partially through Iranian territorial waters, departing from the decades-old Omani-water system. On August 8, Bloomberg: 'Iran Says Hormuz Deal Close But Its Conditions Must Be Met.' IRGC statement: Hormuz will reopen only after the US 'fully' accepts conditions \u2014 specifically, that the US honor Islamabad MOU commitments Tehran says Washington violated. The strait reopens on Iran's terms, or not at all.",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-08/iran-says-hormuz-deal-close-but-that-its-conditions-must-be-met",
+          "date": "2026-08-08",
           "is_new": true
         },
         {
@@ -64,6 +64,13 @@
           "url": "https://www.marineinsight.com/6000-seafarers-remain-trapped-in-strait-of-hormuz-after-imo-pauses-evacuation-plan/",
           "date": "2026-07-24",
           "is_new": false
+        },
+        {
+          "domain": "Security",
+          "text": "On August 7, Saudi Arabia, Turkey, and Pakistan signed the Mecca Joint Defence Agreement \u2014 a trilateral mutual-defense pact in which an attack on any one is treated as an attack on all. Turkey brings NATO's second-largest military; Pakistan brings the Muslim world's only nuclear arsenal; Saudi Arabia brings oil wealth and the legitimacy of Mecca. No Western institution brokered it. Middle East Monitor: 'A new Sunni security architecture born of American doubt.' The pact was signed the same week as the Iran-Oman Hormuz negotiations \u2014 two architectures forming simultaneously around the same contested water: one defining who controls the sea lane, the other defining who defends the powers around it.",
+          "url": "https://www.aljazeera.com/news/2026/8/7/saudi-%E2%81%A0arabia-pakistan-and-turkiye-sign-defence-deal-amid-regional-turmoil",
+          "date": "2026-08-07",
+          "is_new": true
         }
       ]
     },
@@ -99,7 +106,7 @@
     {
       "id": "accountability-gap",
       "title": "This week, four institutions kept the authority and quietly removed the accountability",
-      "explanation": "The U.S. Senate kept war powers but stripped the binding check. Ukraine's high command was reshuffled by protest rather than review. A mayor announced an arrest he has no legal mechanism to make. France banned social media for minors and then cut the enforcement clause. These aren't failures of individual institutions \u2014 they're the same move, made in four different countries: preserve the appearance of accountability while removing what would make it real.",
+      "explanation": "The Senate voted down a binding War Powers resolution while Iran operations entered their fifth month without congressional authorization. Ukraine's new commander is measuring how much his predecessor obscured about unit staffing and readiness. The White House declared an AI governance framework 'complete' behind closed doors, with no public deliverables. The same administration publicly attacked the Federal Reserve chair for not cutting interest rates fast enough \u2014 hours after a weak jobs report made cuts likely on their own. These aren't individual institutional failures. They're the same move: preserve the authority, dismantle what would make it accountable.",
       "momentum": "persistent",
       "evidence": [
         {
@@ -117,11 +124,11 @@
           "is_new": false
         },
         {
-          "domain": "Diplomacy",
-          "text": "New York's new mayor pledged to arrest Netanyahu upon his UN visit, then acknowledged publicly he lacks the legal authority to do so. No mechanism exists to close the gap between municipal conviction, federal policy, and international law.",
-          "url": "https://www.cnn.com/2026/07/21/politics/zohran-mamdani-benjamin-netanyahu-israel-arrest-icc",
-          "date": "2026-07-21",
-          "is_new": false
+          "domain": "Monetary",
+          "text": "Following the July jobs miss (73K payrolls, -258K revision to prior months), the White House attacked Federal Reserve Chair Jerome Powell within hours. Labor Secretary Lori Chavez-DeRemer: 'Jerome Powell needs to do his job and cut those interest rates now \u2014 what is he waiting for?' Trump on Truth Social: 'Jerome Too Late Powell should have lowered rates long ago.' Yahoo Finance: 'Jobs slowdown seals Fed rate cut as White House criticizes Powell for not acting sooner.' This followed a July 29 FOMC at which three regional Fed presidents dissented in favor of a rate hike. The executive branch kept maximum public pressure on the institution whose independence was designed to remove monetary policy from exactly this kind of pressure.",
+          "url": "https://finance.yahoo.com/news/jobs-slowdown-seals-fed-rate-cut-as-white-house-criticizes-powell-for-not-acting-sooner-150805909.html",
+          "date": "2026-08-08",
+          "is_new": true
         },
         {
           "domain": "Technology",
@@ -176,9 +183,9 @@
         },
         {
           "domain": "Wildfire",
-          "text": "The Athens-area fire burned 14,000+ hectares over five days; containment lines were lifting by August 5. Then Crete and Paros ignited, adding 6,000+ more hectares. By August 7, 150+ wildfires were active across Greece \u2014 Attica recovering, the islands newly burning. Civil Protection Minister: the fire department has been 'pushed to its limits.' Three arson arrests made. The relocation pattern now operates within a single country: the fire season didn't leave Greece when Athens improved. It moved to the next available fuel.",
+          "text": "The Athens-area fire burned 14,000+ hectares over five days; containment lines lifting by August 5. Then Crete and Paros ignited \u2014 6,000+ more hectares. By August 7, 150+ wildfires active across Greece. By August 8, three firefighters had died battling fires in Crete and the Peloponnese. Civil Protection Minister: the fire department has been 'pushed to its limits.' Three arson arrests. The relocation pattern now operates within a single country: the fire season didn't leave Greece when Athens improved. The cost has crossed beyond displacement and hectares \u2014 it is now a firefighter casualty event.",
           "url": "https://greece-moments.com/en/greece-fires/",
-          "date": "2026-08-07",
+          "date": "2026-08-08",
           "is_new": true
         },
         {
