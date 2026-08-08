@@ -1,6 +1,6 @@
 {
   "week_start": "2026-08-03",
-  "last_updated": "2026-08-07T18:00:00Z",
+  "last_updated": "2026-08-08T18:00:00Z",
   "storylines": [
     {
       "id": "perseid-meteor-shower-buildup",
@@ -80,18 +80,22 @@
       "transferability": "Understanding that late July is the stone fruit peak means treating every peach at the farmers market this week as something that won't be back for eleven months",
       "cluster_id": "summer-produce-peak-july",
       "why_now": "The stone fruit window in the northern hemisphere peaks between late July and early August. California peaches arrived two weeks early this year due to a warm spring.",
-      "status": "captured",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://fruitguys.com/blog/guide-to-summer-fruit-2023/",
       "location": "",
       "season_or_time_context": "Late July \u2014 brief peak window",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
+      "last_seen": "2026-08-08T18:00:00Z",
       "appearances": 4,
       "history": [
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "Stone fruit peak is waning \u2014 most California peaches and nectarines past peak ripeness by early August. The window narrows; late-season varieties still available at farmers markets. White nectarines and late plums are the last of the season."
+        },
+        {
+          "date": "2026-08-08T18:00:00Z",
+          "note": "Past seasonal peak \u2014 stone fruit window closing in August."
         }
       ]
     },
@@ -169,18 +173,22 @@
       "transferability": "Understanding the firefly-to-katydid transition means recognizing that the night sounds of late July are not the sounds of summer's peak but of summer's turn",
       "cluster_id": "late-july-threshold-convergence",
       "why_now": "Firefly season is ending now across most of the northern US. This is the threshold week \u2014 the last chance to see them in most northern latitudes for another year.",
-      "status": "captured",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.accuweather.com/en/leisure-recreation/firefly-season-is-here-when-to-watch-for-summers-flashing-lights/1898307",
       "location": "Northern United States",
       "season_or_time_context": "Late July \u2014 firefly season end",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
+      "last_seen": "2026-08-08T18:00:00Z",
       "appearances": 3,
       "history": [
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "Firefly season past peak \u2014 activity declining in most US regions by early August as temperatures rise. Still visible in cooler, wetter areas. The threshold between firefly season and its end is now active."
+        },
+        {
+          "date": "2026-08-08T18:00:00Z",
+          "note": "Firefly season peaks June-July; by August populations are declining. Threshold has passed."
         }
       ]
     },
@@ -281,18 +289,22 @@
       "transferability": "Understanding the sugar clock means reading every piece of corn at a supermarket differently \u2014 distance from the source is a quality measurement visible in the taste",
       "cluster_id": "",
       "why_now": "Sweet corn peaks from mid-July through August across most of the US. The biological fact about sugar-to-starch conversion is invisible to most buyers.",
-      "status": "captured",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.canr.msu.edu/news/sweet_corn_and_summer_traditions",
       "location": "",
       "season_or_time_context": "Late July \u2014 peak corn season",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
+      "last_seen": "2026-08-08T18:00:00Z",
       "appearances": 4,
       "history": [
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "Sweet corn season at its peak in the Midwest and Northeast. The 24-hour window from stalk to table is the relevant frame \u2014 corn's sugars convert to starch rapidly post-harvest. Local roadside stands now at maximum supply."
+        },
+        {
+          "date": "2026-08-08T18:00:00Z",
+          "note": "Seasonal observation too granular; better captured in harvest-season and back-to-school context."
         }
       ]
     },
@@ -626,14 +638,19 @@
       "editorial_potential": "high",
       "url": "https://thediplomat.com/2026/07/chinas-new-ai-club-the-world-artificial-intelligence-cooperation-organization/",
       "first_seen": "2026-07-17T00:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
+      "last_seen": "2026-08-08T18:00:00Z",
       "appearances": 5,
       "history": [
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "WAICO now in its second week of operation. No Western democracies have signaled interest in joining. The AI governance split between blocs is hardening."
+        },
+        {
+          "date": "2026-08-08T18:00:00Z",
+          "note": "WAICO summit moment passed; underlying AI governance divide is real but not generating weekly updates in regular source flow."
         }
-      ]
+      ],
+      "status": "dormant"
     },
     {
       "id": "france-kids-social-media-ban",
@@ -651,14 +668,19 @@
       "editorial_potential": "high",
       "url": "https://www.npr.org/2026/07/22/g-s1-134875/france-social-media-ban",
       "first_seen": "2026-07-21T00:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
+      "last_seen": "2026-08-08T18:00:00Z",
       "appearances": 5,
       "history": [
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "France's social media ban for under-15s is now law \u2014 but without an enforcement mechanism. Platforms are developing age-verification approaches but no binding compliance deadline is in effect. A law exists; it is not yet a policy."
+        },
+        {
+          "date": "2026-08-08T18:00:00Z",
+          "note": "Under-15 social media law passed and in implementation phase; no new legislative or enforcement developments. France social media evidence already swapped out of patterns."
         }
-      ]
+      ],
+      "status": "dormant"
     },
     {
       "id": "mamdani-calls-netanyahu-war-criminal",
@@ -676,14 +698,19 @@
       "editorial_potential": "high",
       "url": "https://www.npr.org/2026/07/22/g-s1-134880/mamdani-nyc-netanyahu",
       "first_seen": "2026-07-22T00:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
+      "last_seen": "2026-08-08T18:00:00Z",
       "appearances": 5,
       "history": [
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "NYC mayor Mamdani maintains his position that Netanyahu should be arrested upon any UN visit \u2014 but continues to acknowledge he lacks the legal authority to order an arrest. No UN General Assembly visit scheduled for Netanyahu; no mechanism to close the gap between municipal conviction and federal/international law."
+        },
+        {
+          "date": "2026-08-08T18:00:00Z",
+          "note": "NYC mayoral primary moment; subsequent coverage moved to general policy. Not appearing in regular source flow."
         }
-      ]
+      ],
+      "status": "dormant"
     },
     {
       "id": "shutdown-third-in-a-year",
@@ -796,14 +823,19 @@
       "editorial_potential": "medium",
       "url": "https://www.rollingstone.com/music/music-news/charli-xcx-new-album-music-fashion-film-1235570567/",
       "first_seen": "2026-07-24T00:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
+      "last_seen": "2026-08-08T18:00:00Z",
       "appearances": 5,
       "history": [
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "Charli XCX's cultural moment continues \u2014 brat summer aesthetic still dominant in fashion and music media through August. The film project (no release date confirmed) remains in production."
+        },
+        {
+          "date": "2026-08-08T18:00:00Z",
+          "note": "Cultural peak passed; no major new development. Not in regular source flow (finviz/bloomberg/reuters/yahoo/espn)."
         }
-      ]
+      ],
+      "status": "dormant"
     },
     {
       "id": "trump-tariffs-60-countries",
@@ -976,17 +1008,21 @@
       "transferability": "Understanding why the Cockroach movement adopted an insult as its name means reading every future protest naming differently \u2014 the reclaimed slur as identity signal is now a repeatable political technology",
       "cluster_id": "",
       "why_now": "Wangchuk ended his fast on July 24 after 26 days. Protest organizers vowed to continue. Modi broke silence and promised swift justice. The movement is ongoing.",
-      "status": "captured",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.npr.org/2026/07/24/nx-s1-5906236/india-wangchuk-hunger-strike-cockroach-protesters",
       "season_or_time_context": "Late July 2026",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
+      "last_seen": "2026-08-08T18:00:00Z",
       "appearances": 4,
       "history": [
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "Sonam Wangchuk's protest continues. The Indian government has not responded to his demands regarding Ladakh autonomy. No major development this week."
+        },
+        {
+          "date": "2026-08-08T18:00:00Z",
+          "note": "Wangchuk hunger strike moment passed; protests continuing but no longer generating international wire coverage."
         }
       ]
     },
@@ -1437,6 +1473,33 @@
         {
           "date": "2026-08-07T18:00:00Z",
           "note": "Five days to totality. Eclipse path confirmed: western Russia, eastern Greenland, Iceland, northern Spain. Maximum duration 2 min 18 sec off Iceland. Spain at golden hour. NASA August sky guide devotes significant coverage to the eclipse-Perseid convergence. Eclipse tourism bookings for Iceland and Spain now fully sold out for prime viewing locations. First European totality since 1999."
+        }
+      ]
+    },
+    {
+      "id": "treasury-yields-rate-cut-signal",
+      "stream": "headlines",
+      "observer": "analyst",
+      "title": "10-year treasury as the economy's real-time verdict",
+      "observation": "The 10-year treasury yield is the bond market's live forecast of future economic conditions \u2014 not what the Fed says it believes, but what investors actually bet. The Fed funds rate moves in discrete committee decisions; the 10-year moves the moment data lands. When the July jobs report printed 73,000 payrolls on August 7 \u2014 well below the 104,000 consensus, with a combined -258,000 downward revision to prior months \u2014 rate cut expectations surged immediately. Three Fed regional presidents had dissented in favor of a rate hike at the July 29 FOMC; by August 8, the market had repriced. The 30-year treasury, which mortgage rates track most directly, follows the 10-year with a lag of weeks. Mortgage rates typically run 1.5\u20132 percentage points above the 10-year yield. When yields drop on a jobs miss, the cost of buying a home follows.",
+      "question": "If the bond market has already priced in a softening economy before the Fed has formally acknowledged it, what does it mean to watch the 10-year as a running story rather than a number on a terminal?",
+      "hidden_question": "If the bond market has already priced in a softening economy before the Fed has formally acknowledged it, what does it mean to watch the 10-year as a running story rather than a number on a terminal?",
+      "pattern": "Bond yields function as the market's honest, continuously updated opinion about the future \u2014 carrying real money stakes, and therefore faster and more accurate than official announcements about what the economy is doing",
+      "transferability": "Anyone buying a home, refinancing, or timing a large borrowing decision is watching the 10-year whether they know it or not. The yield is the variable that converts macro headlines into personal financial timing.",
+      "cluster_id": "",
+      "why_now": "July jobs report shock (73K payrolls, -258K revision) drove the first major yield repricing of the summer. Rate cut expectations surging. The gap between where yields were August 6 and where they sit August 8 is the story of the week.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "location": "United States",
+      "season_or_time_context": "Aug 8, 2026 \u2014 post-jobs-report yield repricing",
+      "first_seen": "2026-08-08T18:00:00Z",
+      "last_seen": "2026-08-08T18:00:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-08T18:00:00Z",
+          "note": "First capture. July jobs report (73K, -258K revision) triggered rate cut repricing. Three Fed dissents (pro-hike) at July 29 FOMC now look inverted by the data. 10-year moved on the print; 30-year and mortgage rates following with a lag."
         }
       ]
     }
