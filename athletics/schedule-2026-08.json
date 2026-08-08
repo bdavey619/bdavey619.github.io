@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-08",
   "division_name": "AL West",
-  "generated_at": "2026-08-07T13:52:22.819683+00:00",
+  "generated_at": "2026-08-08T13:28:42.550857+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -59,12 +59,9 @@
       "opponent": "BOS",
       "home": false,
       "gamePk": 824727,
-      "status": "scheduled",
-      "time_local": "4:10 PM PT",
-      "probable": {
-        "team": "Jack Perkins",
-        "opp": "Payton Tolle"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u201313"
     },
     {
       "date": "2026-08-08",
@@ -251,8 +248,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20135",
-    "current_streak": "L8",
+    "month_record": "0\u20136",
+    "current_streak": "L9",
     "last_10": "1\u20139"
   }
 }
