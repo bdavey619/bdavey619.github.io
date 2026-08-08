@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-08",
   "division_name": "AL East",
-  "generated_at": "2026-08-07T11:49:34.565744+00:00",
+  "generated_at": "2026-08-08T11:33:12.975234+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -60,12 +60,9 @@
       "opponent": "ATL",
       "home": true,
       "gamePk": 823515,
-      "status": "scheduled",
-      "time_local": "7:05 PM ET",
-      "probable": {
-        "team": "Max Fried",
-        "opp": "Tyler Mahle"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "3\u20132"
     },
     {
       "date": "2026-08-08",
@@ -253,8 +250,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20133",
-    "current_streak": "L1",
+    "month_record": "3\u20133",
+    "current_streak": "W1",
     "last_10": "5\u20135"
   }
 }
