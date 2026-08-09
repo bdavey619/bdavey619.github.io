@@ -1,6 +1,6 @@
 {
   "week_start": "2026-08-10",
-  "last_updated": "2026-08-09T18:00:00Z",
+  "last_updated": "2026-08-09T21:00:00Z",
   "storylines": [
     {
       "id": "perseid-meteor-shower-buildup",
@@ -46,33 +46,6 @@
       ]
     },
     {
-      "id": "ocean-heat-el-nino-2026",
-      "stream": "natural_world",
-      "observer": "naturalist",
-      "title": "Record ocean heat \u2014 El Ni\u00f1o accelerating beyond recent precedent",
-      "observation": "Global sea surface temperatures hit all-time records in June 2026. NOAA declared El Ni\u00f1o on June 11, and by July 9 gave an 81% probability of a 'very strong' event peaking at 3.9\u00b0C above average in December \u2014 about a degree beyond the 2015 record. Roughly 82% of the global ocean is currently in a marine heat wave. The Ni\u00f1o 3.4 index climbed to +2.1\u00b0C by mid-July, indicating continued intensification. The oceans are the warmest they have ever been recorded.",
-      "question": "If the ocean is already at record temperatures and El Ni\u00f1o hasn't even peaked yet \u2014 what does that make the year ahead, and what does 'unprecedented' mean when it keeps getting surpassed?",
-      "hidden_question": "If the ocean is already at record temperatures and El Ni\u00f1o hasn't even peaked yet \u2014 what does that make the year ahead, and what does 'unprecedented' mean when it keeps getting surpassed?",
-      "pattern": "Climate extremes are outrunning the historical vocabulary for describing them \u2014 'unprecedented' is now describing the baseline",
-      "transferability": "Understanding El Ni\u00f1o's intensification means reading the next six months of weather headlines as part of a single escalating sequence rather than isolated events",
-      "cluster_id": "el-nino-living-world-2026",
-      "why_now": "Forecasters are watching a rapidly intensifying El Ni\u00f1o in real time. The Ni\u00f1o 3.4 index reached +2.1\u00b0C by mid-July. The 81% probability of a 'very strong' event was assigned on July 9.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://www.carbonbrief.org/state-of-the-climate-rapidly-developing-el-nino-raises-chance-of-record-warm-2026",
-      "location": "",
-      "season_or_time_context": "Late July 2026 \u2014 El Ni\u00f1o developing",
-      "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 4,
-      "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "El Ni\u00f1o intensification continues \u2014 Ni\u00f1o 3.4 index above +2\u00b0C. The same Omega block atmospheric pattern driving European heatwaves is consistent with strong El Ni\u00f1o conditions. Still on track for a 'very strong' event peaking in December."
-        }
-      ]
-    },
-    {
       "id": "stone-fruit-peak-late-july",
       "stream": "natural_world",
       "observer": "threshold_watcher",
@@ -86,7 +59,7 @@
       "why_now": "The stone fruit window in the northern hemisphere peaks between late July and early August. California peaches arrived two weeks early this year due to a warm spring.",
       "status": "dormant",
       "editorial_potential": "medium",
-      "url": "https://fruitguys.com/blog/guide-to-summer-fruit-2023/",
+      "url": "",
       "location": "",
       "season_or_time_context": "Late July \u2014 brief peak window",
       "first_seen": "2026-07-26T14:00:00Z",
@@ -100,33 +73,6 @@
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "Past seasonal peak \u2014 stone fruit window closing in August."
-        }
-      ]
-    },
-    {
-      "id": "wildfire-smoke-new-normal",
-      "stream": "natural_world",
-      "observer": "naturalist",
-      "title": "Smoky skies \u2014 wildfire haze as the new summer baseline",
-      "observation": "In mid-July, over 115 million Americans were exposed to unhealthy air quality from Canadian and Minnesota wildfires. This weekend, France and Spain have evacuated more than 300,000 people from fires near Bordeaux \u2014 up from 250,000 Saturday \u2014 as the Gironde blaze advances toward the city's outskirts, now approximately 15km from Bordeaux's entry points. Tour de France organizers rerouted the finale to keep it within Paris city limits. Fire and smoke are now simultaneously disrupting North America and southern Europe at the height of summer.",
-      "question": "When does a once-in-a-decade event become an annual expectation \u2014 and at what point do people stop treating summer smoke as a disruption and start building it into their plans?",
-      "hidden_question": "When does a once-in-a-decade event become an annual expectation \u2014 and at what point do people stop treating summer smoke as a disruption and start building it into their plans?",
-      "pattern": "Wildfire smoke is transitioning from a regional weather event to a continental planning constraint \u2014 something that reroutes events and cancels plans like a transportation disruption",
-      "transferability": "Once you understand smoke as infrastructure \u2014 something that affects plans and schedules like roads or airports \u2014 you begin reading summer itineraries differently",
-      "cluster_id": "europe-summer-disruption-2026",
-      "why_now": "Active wildfire smoke events are happening simultaneously across North America and southern Europe this week. As of July 27, the Bordeaux fire has now displaced 300,000+ people and is advancing on the city itself.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://yaleclimateconnections.org/2026/07/dangerous-and-historic-wildfire-smoke-pollution-event-engulfs-the-u-s-and-canada/",
-      "location": "",
-      "season_or_time_context": "Late July 2026 \u2014 fire season peak",
-      "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 4,
-      "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Smoke from European fires (Athens, Provence, earlier Bordeaux) has spread regionally. US West under particulate from western fires alongside the heat dome. Smoke-as-baseline across both continents in the same August week."
         }
       ]
     },
@@ -228,60 +174,6 @@
       ]
     },
     {
-      "id": "county-fair-season-peak",
-      "stream": "human_rituals",
-      "observer": "anthropologist",
-      "title": "County fair season \u2014 America's oldest agricultural ritual at peak",
-      "observation": "This week is peak county fair season across the United States \u2014 the Knox County Fair opened July 26 in Ohio, the Montana State Fair opened July 24. The county fair began in 1807 when a Massachusetts farmer named Elkanah Watson invited some neighbors to watch him shear a sheep. The point was to improve farming technique. Most of the people attending fairs this week have never farmed.",
-      "question": "What does a ritual designed to transfer agricultural knowledge become when most of the people attending it no longer farm \u2014 and why do they still go?",
-      "hidden_question": "What does a ritual designed to transfer agricultural knowledge become when most of the people attending it no longer farm \u2014 and why do they still go?",
-      "pattern": "Agricultural rituals outlast agriculture because they encode something about seasonal time \u2014 the passage from summer toward harvest \u2014 that people need regardless of whether they farm",
-      "transferability": "Understanding what the county fair was designed to teach changes how you read its survival \u2014 the deep-fried Oreo and the prize pig are both evidence of something the original design didn't anticipate",
-      "cluster_id": "late-july-threshold-convergence",
-      "why_now": "Peak county fair season runs late July through mid-August \u2014 the liminal moment between the height of summer and the approach of school and harvest.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://countyfairsusa.net/the-evolution-of-county-fairs-in-the-usa/",
-      "location": "",
-      "season_or_time_context": "Late July \u2014 peak fair season",
-      "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 4,
-      "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "County fair season at peak in most US states through mid-August. Livestock judging, fried food, demolition derby \u2014 the annual ritual continues. The Oklahoma State Fair and Iowa State Fair (late August) will mark the end of the primary season."
-        }
-      ]
-    },
-    {
-      "id": "heirloom-tomato-peak",
-      "stream": "human_rituals",
-      "observer": "anthropologist",
-      "title": "Heirloom tomatoes \u2014 the food experience that still requires being there",
-      "observation": "Heirloom tomatoes \u2014 the Brandywines, Cherokee Purples, Green Zebras, and Black Krims \u2014 arrive at farmers markets in late July and last until September. Unlike commercial tomatoes, heirloom varieties cannot be shipped: their skins split easily and they soften within one to two days of harvest. The ritual of buying them requires physical presence at a specific market, at a specific week. They command $3\u20136 per pound \u2014 a premium paid not for a variety but for a logistics decision: the grower sold locally because there was no other option.",
-      "question": "Why do heirloom tomatoes command so much ritual attention \u2014 and what does the persistence of that ritual tell us about what the rest of the food system has quietly given up?",
-      "hidden_question": "Why do heirloom tomatoes command so much ritual attention \u2014 and what does the persistence of that ritual tell us about what the rest of the food system has quietly given up?",
-      "pattern": "Heirloom tomatoes are one of the last common food experiences that enforce geographic and temporal presence \u2014 you must be at the right market in the right week",
-      "transferability": "Understanding why heirloom tomatoes can't be shipped changes how you read the rest of the produce aisle \u2014 everything that made it there gave up something to get there",
-      "cluster_id": "summer-produce-peak-july",
-      "why_now": "Late July is when heirloom tomatoes first appear at farmers markets across the US. This is the arrival week \u2014 before they're abundant. They won't last past September.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://foodwise.org/articles/farmers-market-guide-to-tomatoes/",
-      "location": "",
-      "season_or_time_context": "Late July \u2014 heirloom tomato arrival",
-      "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Heirloom tomatoes at peak in most northern US and European growing regions \u2014 the narrow window when heat, water, and timing align for maximum flavor. Farmers markets showing full variety. Still the best week to buy."
-        }
-      ]
-    },
-    {
       "id": "sweet-corn-24-hour-window",
       "stream": "human_rituals",
       "observer": "craftsperson",
@@ -313,41 +205,6 @@
       ]
     },
     {
-      "id": "coolcation-geography-rewrite",
-      "stream": "places",
-      "observer": "geographer",
-      "title": "The coolcation \u2014 summer's geography is being rewritten in real time",
-      "observation": "Bookings to southern Europe this summer are down 15% from last year. Travel to Scandinavia is up 35%. Norway, Iceland, Alaska, and the Alps are replacing the Mediterranean as summer destinations as wildfires, extreme heat, and hazardous air quality make traditional hotspots hostile. As of July 27, France has evacuated approximately 220,000 people and Spain 75,000\u2013100,000 more as fires advance toward Bordeaux city limits. The 300,000+ person displacement is happening during the peak tourist season.",
-      "question": "When the places people have vacationed for generations become too hot, too smoky, or too dangerous to visit in summer \u2014 what happens to the places, the economies built around them, and the idea of summer itself?",
-      "hidden_question": "When the places people have vacationed for generations become too hot, too smoky, or too dangerous to visit in summer \u2014 what happens to the places, the economies built around them, and the idea of summer itself?",
-      "pattern": "Southern Europe is becoming a structurally unreliable summer destination as heat and fire disrupt the region at its seasonal peak \u2014 not occasionally, but as an annual pattern",
-      "transferability": "Understanding coolcation patterns means reading hotel pricing in late summer differently \u2014 and reading southern European tourism economies as climate exposure assets",
-      "cluster_id": "europe-summer-disruption-2026",
-      "why_now": "Southern European summer bookings are already down 15% and France/Spain are evacuating 300,000+ people from wildfires as of July 27. The geographic shift is visible in real-time booking data.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://www.yehey.com/2026/07/yeheycom-summer-travel-trends-2026.html",
-      "location": "Southern Europe / Scandinavia",
-      "season_or_time_context": "Late July 2026 \u2014 peak summer travel season",
-      "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 4,
-      "history": [
-        {
-          "date": "2026-07-26T14:00:00Z",
-          "note": "250,000 evacuated. Bookings to southern Europe down 15%, Scandinavia up 35%. Tour de France finale rerouted inside Paris."
-        },
-        {
-          "date": "2026-07-27T10:00:00Z",
-          "note": "Evacuation total exceeds 300,000 (220,000 France, 75,000+ Spain). Fire advancing toward Bordeaux, approximately 15km from city entry points. Bordeaux Mayor says no city evacuation planned but fire 'not under control.'"
-        },
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Coolcation demand continues to reshape European summer travel. With Athens and southern France under fire risk and high heat warnings, northern European destinations \u2014 Scotland, Norway, Iceland \u2014 reporting record summer bookings. The fire-risk map is now a travel map."
-        }
-      ]
-    },
-    {
       "id": "cap-ferret-peak-evacuated",
       "stream": "places",
       "observer": "geographer",
@@ -367,91 +224,6 @@
       "first_seen": "2026-07-27T10:00:00Z",
       "last_seen": "2026-08-02T18:00:00Z",
       "appearances": 2
-    },
-    {
-      "id": "sunset-later-than-solstice",
-      "stream": "curiosities",
-      "observer": "naturalist",
-      "title": "The sunset is still later than it was on the solstice",
-      "observation": "The summer solstice was June 21 \u2014 the longest day of the year. But at most mid-northern latitudes, the latest sunset of the year doesn't happen on the solstice. It happens a week or two after, meaning right now \u2014 in late July \u2014 the sun is setting later than it did on June 21. The days are getting shorter from the top, with sunrise arriving earlier, but not yet from the bottom.",
-      "question": "If the summer solstice is the longest day of the year, why does the sun keep setting later for weeks after it \u2014 and what does that tell you about how the year is actually organized?",
-      "hidden_question": "If the summer solstice is the longest day of the year, why does the sun keep setting later for weeks after it \u2014 and what does that tell you about how the year is actually organized?",
-      "pattern": "",
-      "transferability": "Understanding the equation of time means any sunset visible from a window becomes a measurement instrument \u2014 when the sun sets is not the same thing as how long the day was",
-      "cluster_id": "",
-      "why_now": "This is a phenomenon happening right now, in late July, that almost no one who notices the later-feeling evenings stops to examine. It is a permanent small perceptual shift available to anyone who goes looking.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://earthsky.org/astronomy-essentials/at-midnorthern-latitudes-latest-sunsets-of-the-year-in-late-june/",
-      "location": "",
-      "season_or_time_context": "Late July \u2014 the counterintuitive moment",
-      "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 4,
-      "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Sunset still later than at solstice \u2014 the annual perceptual phenomenon holds through mid-August. Evenings feel long despite declining daylight. The asymmetry between sunrise (advancing) and sunset (still retreating) continues."
-        }
-      ]
-    },
-    {
-      "id": "stone-fruit-synchronized-ripening",
-      "stream": "curiosities",
-      "observer": "craftsperson",
-      "title": "Why do all the stone fruits ripen at the same time?",
-      "observation": "Peaches, nectarines, plums, apricots, and cherries all peak in the same six-to-eight-week window in midsummer \u2014 different species, different sizes, different colors \u2014 arriving together at farmers markets and vanishing together. They share a stone (the pit), shared ancestry in the Prunus genus, and apparently a shared calendar.",
-      "question": "Is the synchronized ripening of stone fruits convergent evolution, shared ancestry, or something about what the season makes possible \u2014 and what creature benefits when all of them ripen at once?",
-      "hidden_question": "Is the synchronized ripening of stone fruits convergent evolution, shared ancestry, or something about what the season makes possible \u2014 and what creature benefits when all of them ripen at once?",
-      "pattern": "",
-      "transferability": "Understanding why stone fruits share a genus means noticing that 'stone fruit' is a biological description, not a culinary category \u2014 and that the market display is a family reunion",
-      "cluster_id": "summer-produce-peak-july",
-      "why_now": "Stone fruit is at peak this week. The synchronization is visible \u2014 and noticeably strange \u2014 to anyone standing in front of a farmers market display.",
-      "status": "captured",
-      "editorial_potential": "medium",
-      "url": "https://www.zupans.com/get-to-know-your-stone-fruit/",
-      "location": "",
-      "season_or_time_context": "Late July \u2014 stone fruit peak",
-      "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 4,
-      "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "The synchronized window is closing \u2014 stone fruit peak runs roughly July 20\u2013August 10 depending on variety and latitude. Now in the final week of the primary season."
-        }
-      ]
-    },
-    {
-      "id": "smoke-taint-veraison-window",
-      "stream": "curiosities",
-      "observer": "craftsperson",
-      "title": "Veraison \u2014 the week the grapes become smoke sponges",
-      "observation": "In winemaking, veraison is the moment when grapes begin to ripen: they soften, change color, and start accumulating sugars. In Bordeaux, veraison has arrived weeks ahead of schedule in 2026 \u2014 driven by the heat and drought \u2014 making vineyards acutely vulnerable to smoke taint right now. Volatile phenolic compounds in smoke bind with the sugars in the fruit during fermentation, creating flavors permanently described as 'ashy, smoky, or burnt.' The Gironde fire is 15 kilometers away with active smoke. The fire and the vulnerability window have arrived at the same moment. The 2026 vintage in affected sub-regions (Graves, Pessac-L\u00e9ognan) may be unrecoverable.",
-      "question": "If a wildfire near a vineyard arrives before veraison the grapes are safe, and after veraison it could destroy the vintage \u2014 and no one looking at the vines can tell which side of the line they're on?",
-      "hidden_question": "When a wildfire arrives at exactly the week the grapes become permeable to smoke \u2014 and the heat that made the fire also accelerated the grapes \u2014 is that coincidence, or the same underlying pressure expressing itself twice?",
-      "pattern": "Wildfire smoke is becoming a permanent agricultural risk for wine regions in summer \u2014 the fire doesn't need to destroy the vines, only to arrive at the wrong week",
-      "transferability": "Understanding veraison timing means reading every summer news story about wildfires near wine regions differently \u2014 the question is not whether the fire destroyed the vines but whether it arrived before or after the grapes turned",
-      "cluster_id": "europe-summer-disruption-2026",
-      "why_now": "Veraison has arrived early in Bordeaux. The fire is 15km from city limits. The smoke taint vulnerability window is NOW \u2014 not approaching.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://www.pressdemocrat.com/2026/06/10/california-wine-grapes-smoke-taint-vineyards-research/",
-      "location": "Bordeaux, France",
-      "season_or_time_context": "Late July 2026 \u2014 pre-veraison window",
-      "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 5,
-      "history": [
-        {
-          "date": "2026-08-02T18:00:00Z",
-          "note": "Bordeaux fire contained August 1. Whether the smoke exposure during the veraison window permanently damaged the vintage will be known at crush in September. The window for damage has now closed \u2014 the question is how much got through."
-        },
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Bordeaux veraison window has passed \u2014 the 2026 Gironde vintage fate now essentially decided. Smoke was present during the critical ripening period. Wine producers assessing the extent of smoke taint; some early tastings underway. The season's outcome is locked in; the story now moves to the harvest and final assessment."
-        }
-      ]
     },
     {
       "id": "strait-hormuz-traffic-collapse",
@@ -493,37 +265,6 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Aug 9: Bloomberg \u2014 Iran FM rules out US talks entirely until US 'makes amends' for MOU violations. The proposed deal \u2014 which would ban US and Israeli vessels, impose 7% cargo fees, and fine violators 20% \u2014 remains on the table for everyone else. The US has rejected any 'impediments to freedom of navigation.' Eight days to the ceasefire expiry. If no deal, the MOU framework lapses and the strait's status reverts to the pre-ceasefire posture."
-        }
-      ]
-    },
-    {
-      "id": "kimi-k3-open-weights-distinction",
-      "stream": "curiosities",
-      "observer": "craftsperson",
-      "title": "Open weights vs. open source \u2014 the distinction that changes everything",
-      "observation": "Today, July 27, Moonshot AI released the full open weights of Kimi K3 \u2014 a 2.8-trillion-parameter model, the largest ever released in open-weights form, which topped coding leaderboards last week. But 'open weights' and 'open source' are not the same thing. Open weights means the trained parameters are downloadable and runnable by anyone. Open source means the training data, training code, and full reproduction pipeline are also available. Kimi K3 releases the weights but not the training process. The White House is reportedly drafting an executive order to restrict 'open-source AI' on the same day the thing it wants to restrict was released \u2014 and may not be describing the same thing.",
-      "question": "If you can download and run a model but can't rebuild it, is that open-source \u2014 and if the government restricts 'open-source AI,' what exactly does it think it's restricting?",
-      "hidden_question": "If you can download and run a model but can't rebuild it, is that open-source \u2014 and if the government restricts 'open-source AI,' what exactly does it think it's restricting?",
-      "pattern": "'Open source' and 'open weights' are being used interchangeably in policy discussions that treat them as the same thing \u2014 and the policy being designed may not control the thing it's aimed at",
-      "transferability": "Understanding the open-weights vs. open-source distinction changes how you read every AI policy debate \u2014 the thing regulators say they're restricting and the thing they can actually restrict may be different categories",
-      "cluster_id": "ai-geopolitical-split-2026",
-      "why_now": "Kimi K3 open weights dropped today, July 27. The White House executive order discussion is happening simultaneously. The model is now freely available globally \u2014 including in countries with restricted access to US models.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
-      "location": "",
-      "season_or_time_context": "July 27, 2026 \u2014 open weights release day",
-      "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 5,
-      "history": [
-        {
-          "date": "2026-07-29T12:00:00Z",
-          "note": "Kimi K3 halted new subscriptions within 48 hours of the open-weights release \u2014 global demand overwhelmed capacity before any regulatory response could form. The model the US called IP theft is now running on servers worldwide, including in WAICO member nations. Moonshot says it is adding compute as fast as possible and will reopen subscriptions in batches."
-        },
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Kimi K3 subscription demand still high globally. US export control deliberations continuing. The open-weights/distillation legal distinction being examined by Congress. No new model releases this week; the geopolitical response is still being formulated."
         }
       ]
     },
@@ -607,35 +348,6 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Aug 9: Bloomberg reports Ukraine grain exports forecast to fall 53% as Russia continues systematic port strikes. Russian forces also destroyed Ukraine's largest PPE warehouse. The Aug 8 151-drone attack was the week's largest single strike; the grain and PPE targeting is the sustained campaign underneath: civilian infrastructure attrition designed to squeeze export revenue and defense supply simultaneously. Drapatyi audit continues in the background."
-        }
-      ]
-    },
-    {
-      "id": "white-house-accuses-china-distillation",
-      "stream": "headlines",
-      "observer": "headlines",
-      "category": "Tech & Science",
-      "moment": "The White House accused Moonshot AI of 'large-scale, covert industrial distillation' of Anthropic's Claude Fable model to build Kimi K3 \u2014 which topped the coding leaderboard \u2014 and today the open weights of that model were released globally to anyone who wants them.",
-      "observation": "The White House accused a Chinese lab of training its AI on another AI's outputs \u2014 distillation \u2014 and the result, Kimi K3, topped the coding leaderboard. Today, July 27, its full open weights \u2014 2.8 trillion parameters, the largest open-weights release ever \u2014 became freely available to anyone in the world. The White House is reportedly drafting an executive order restricting open-source AI as this happens.",
-      "question": "If a Chinese lab trained its AI on an American lab's AI and made something better \u2014 whose AI is it, and what does 'winning' the AI race even mean anymore?",
-      "why_now": "Kimi K3 open weights dropped today, July 27. The model that the White House calls an act of IP theft is now freely downloadable by anyone on Earth, simultaneously with the administration's reported effort to draft an EO restricting such releases.",
-      "hidden_question": "If a Chinese lab trained its AI on an American lab's AI \u2014 and made something better \u2014 whose AI is it, and what does 'winning' the AI race even mean anymore?",
-      "pattern": "AI is becoming the primary domain where US-China technological rivalry is most concretely and rapidly contested",
-      "transferability": "Understanding AI distillation means noticing that the competitive dynamics of AI development are less like manufacturing (you can't copy a factory) and more like academia (ideas propagate through outputs)",
-      "cluster_id": "ai-geopolitical-split-2026",
-      "editorial_potential": "high",
-      "url": "https://www.ibtimes.com/china-ai-distillation-moonshot-kimi-k3-anthropic-3805653",
-      "first_seen": "2026-07-17T00:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 6,
-      "history": [
-        {
-          "date": "2026-08-02T18:00:00Z",
-          "note": "AI EO 60-day framework deadline reached August 1. No open-weights ban signed. The Nvidia/Meta/Microsoft open-letter coalition holds. Anthropic's anti-distillation middle position is the outlier. The debate continues without resolution."
-        },
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "The distillation claim remains unsubstantiated publicly \u2014 no formal legal filing or public evidence released. White House AI framework deadline passed Aug 1 with no public deliverables. The diplomatic claim and the legal category are both in limbo."
         }
       ]
     },
@@ -730,101 +442,6 @@
       "status": "dormant"
     },
     {
-      "id": "shutdown-third-in-a-year",
-      "stream": "headlines",
-      "observer": "headlines",
-      "category": "Politics & World",
-      "moment": "The House passed a funding extension July 21 on a party-line vote; it needs 60 Senate votes it may not have; a shutdown would be the third since last September, two months before midterm elections.",
-      "observation": "The House voted 220-205 to extend government funding through December 4 \u2014 a measure that requires 60 Senate votes, meaning Democratic support that hasn't materialized. A failure would be the third government shutdown since last September, arriving two months before midterm elections.",
-      "question": "Why has shutting down the government \u2014 failing at the most basic function of governance \u2014 become a routine negotiating move rather than a political catastrophe?",
-      "why_now": "The December 4 deadline also creates a new cliff four weeks after November midterms \u2014 setting up the same fight again regardless of election results.",
-      "hidden_question": "Why has shutting down the government \u2014 failing at the most basic function of governance \u2014 become a routine negotiating move rather than a political catastrophe?",
-      "pattern": "Government shutdowns have become a standard legislative negotiating tool because the political consequences have repeatedly failed to materialize",
-      "transferability": "Understanding why shutdowns don't produce political catastrophe means reading every future shutdown threat as a negotiation position, not a crisis",
-      "cluster_id": "",
-      "editorial_potential": "medium",
-      "url": "https://www.npr.org/2026/07/21/nx-s1-5902245/government-funding-house-vote-continuing-resolution",
-      "first_seen": "2026-07-21T00:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 6,
-      "history": [
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "August 3: Senate leaders reached a bipartisan deal to fund the government through December 11 \u2014 struck the same day the House left for August recess. Senate Majority Leader Thune: 'The American people have already experienced two record-breaking government shutdowns in the past 10 months.' The deal still requires House reconciliation when Congress returns in September. A shutdown has been deferred; the cliff-to-cliff funding dynamic is structurally unchanged."
-        },
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Senate bipartisan deal (August 3) funds government through December 11 \u2014 but the deal still requires House reconciliation when Congress returns from August recess in September. The cliff-to-cliff dynamic is deferred, not resolved. A third shutdown this year remains possible if the House doesn't pass the CR in September."
-        }
-      ]
-    },
-    {
-      "id": "lebron-76ers-decision-4",
-      "stream": "headlines",
-      "observer": "headlines",
-      "category": "Culture & Entertainment",
-      "moment": "Pennsylvania's governor declared 'LeBron James Day.' Caitlin Clark: 'No way! Wow.' Barkley: 'He stacked it again.' Decision 4.0 is consuming all of sports \u2014 the day after LeBron chose the 76ers over Cleveland and Miami.",
-      "observation": "LeBron James signed with the Philadelphia 76ers for two years, $8 million \u2014 well below market \u2014 passing Cleveland where he's a legend and Miami where he won twice. Pennsylvania's governor declared LeBron James Day. Charles Barkley: 'He stacked it again.'",
-      "question": "When the greatest basketball player of his era signs for $8 million at 41, passing every place he already won, what is he actually choosing \u2014 and why does everyone feel like it matters?",
-      "why_now": "LeBron James signed with the Philadelphia 76ers on July 24 \u2014 two years, $8 million, well below market \u2014 for what he called 'the last part of my career.' The story is settling into the analysis phase \u2014 the central debate being whether LeBron is chasing a title or genuinely doing something different.",
-      "hidden_question": "When the greatest basketball player of his era signs for $8 million at 41, passing Cleveland and Miami where he already won, what is he actually choosing \u2014 and why does everyone feel like it matters?",
-      "pattern": "",
-      "transferability": "Understanding what LeBron passed up means reading the choice differently \u2014 the $8M price signals something the team selection doesn't explain",
-      "cluster_id": "",
-      "editorial_potential": "high",
-      "url": "https://www.inquirer.com/sixers/live/lebron-james-signs-philadelphia-76ers-contract-salary-roster-updates-reaction-20260724.html",
-      "first_seen": "2026-07-24T00:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 6,
-      "history": [
-        {
-          "date": "2026-07-24T00:00:00Z",
-          "note": "Signs with 76ers. Two years, $8M. 'I'm not going for money.' Passed Cleveland and Miami."
-        },
-        {
-          "date": "2026-07-25T12:00:00Z",
-          "note": "Gov. Shapiro declares LeBron James Day. Caitlin Clark: 'No way! Wow.' Barkley: 'He stacked it again.' Dominates sports conversation heading into WNBA All-Star weekend."
-        },
-        {
-          "date": "2026-07-26T14:00:00Z",
-          "note": "Story settles into analysis phase. Central debate: is LeBron chasing a ring in Philly or genuinely doing something different by choosing a city where he's never played \u2014 and taking $8M to prove it."
-        },
-        {
-          "date": "2026-07-27T10:00:00Z",
-          "note": "Analysis phase continues. Story may be approaching staleness as it settles into 'wait and see' territory. The philosophical question (what is LeBron choosing?) has displaced the sports question (what does this do for the 76ers?)."
-        },
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "LeBron James's 76ers chapter continues \u2014 no major contract or roster developments this week. The organizational rebuild narrative is ongoing."
-        }
-      ]
-    },
-    {
-      "id": "lamine-yamal-completed-football",
-      "stream": "headlines",
-      "observer": "headlines",
-      "category": "Culture & Entertainment",
-      "moment": "Lamine Yamal, 19, won the World Cup with Spain on July 19 and posted 'Almost completed the set' \u2014 having already won Euro 2024 at 17. He is being called the best player in the world at an age most players are in youth academies.",
-      "observation": "Spain beat Argentina 1-0 in the World Cup final on July 19. Lamine Yamal, 19, won his second major title \u2014 Euro 2024 at 17, World Cup 2026 at 19. Messi's Argentina, at 37, likely ended its last World Cup run in a loss to the player everyone has already started comparing to him.",
-      "question": "What does it feel like to watch the old era lose to the new one in real time \u2014 and why does that feel like something larger than a soccer match?",
-      "why_now": "Spain beat Argentina 1-0 in extra time at MetLife Stadium on July 19, with Ferran Torres scoring the winner. Yamal's social media post \u2014 'Almost completed the set' \u2014 became one of the most shared sports moments of the year. The Messi comparison is now unavoidable.",
-      "hidden_question": "What does it feel like to watch the old era lose to the new one in real time \u2014 and why does that feel like something larger than a soccer match?",
-      "pattern": "",
-      "transferability": "Understanding what Yamal's victory over Messi's Argentina represents means reading the 'passing the torch' narrative differently \u2014 it was not passed, it was won",
-      "cluster_id": "",
-      "editorial_potential": "high",
-      "url": "https://www.cbssports.com/soccer/news/argentina-spain-world-cup-2026-final-live-updates-score-result/live/",
-      "first_seen": "2026-07-19T00:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 5,
-      "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Lamine Yamal's post-Euro season: Barcelona pre-season in progress. The 17-year-old is preparing for what will be his first full La Liga season as a confirmed starter."
-        }
-      ]
-    },
-    {
       "id": "charli-xcx-music-fashion-film",
       "stream": "headlines",
       "observer": "headlines",
@@ -853,68 +470,6 @@
         }
       ],
       "status": "dormant"
-    },
-    {
-      "id": "trump-tariffs-60-countries",
-      "stream": "headlines",
-      "observer": "headlines",
-      "category": "Business & Markets",
-      "moment": "Trump's replacement tariffs went into effect at midnight July 24 \u2014 10-12.5% on 60 trading partners covering 99.4% of US imports \u2014 and the lagged economic impact is now beginning to reach grocery shelves: coffee up 19-25%, beef up 10-15%, shipping container rates at a 22-month high.",
-      "observation": "Tariffs of 10-12.5% on 60 trading partners covering 99.4% of US imports went into effect July 24 \u2014 the largest US tax increase as a share of GDP since 1993. Average household cost: $1,500 this year. The trade deficit has not meaningfully changed. Food analysts expected the full tariff-driven cost increases to hit retail shelves in mid-to-late 2026 \u2014 which is now. Coffee is up 19-25%. Beef up 10-15%. Container freight rates hit a 22-month high in July.",
-      "question": "What does it mean to put a tax on 99.4% of what your country imports \u2014 and if the stated goal was to change trade patterns, why hasn't it?",
-      "why_now": "Tariff-driven cost increases have a 12-18 month lag before reaching retail shelves. The tariffs went into effect July 24 and are now beginning to register in grocery prices, shipping rates, and household budgets.",
-      "hidden_question": "What does it mean to put a tax on 99.4% of what your country imports \u2014 and who actually ends up paying it?",
-      "pattern": "Tariff costs follow a 12-18 month supply chain lag before reaching consumers \u2014 the political moment of imposing a tariff and the moment people feel it are systematically disconnected",
-      "transferability": "Understanding tariff lag means reading every trade announcement as a forecast for a future economic experience, not a present one \u2014 the cost arrives long after the political event",
-      "cluster_id": "",
-      "editorial_potential": "high",
-      "url": "https://www.npr.org/2026/07/24/nx-s1-5905783/trump-tariff-trade-global-canada",
-      "first_seen": "2026-07-24T00:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 5,
-      "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Trump tariff negotiations ongoing with the 60-country group. No major bilateral deals announced this week. The tariff schedule is in effect; negotiations are background noise to the Hormuz/Iran headline focus."
-        }
-      ]
-    },
-    {
-      "id": "wnba-allstar-clark-bueckers",
-      "stream": "headlines",
-      "observer": "headlines",
-      "category": "Culture & Entertainment",
-      "moment": "Paige Bueckers and Team Collier won the WNBA All-Star Game in Chicago on July 25 \u2014 aired primetime on ABC \u2014 the most-watched women's sports event of the year, a platform commitment that would have been inconceivable five years ago.",
-      "observation": "Paige Bueckers and Team Collier won the WNBA All-Star Game on July 25 in Chicago, aired primetime on ABC. Both Clark and Bueckers drew over 1 million fan votes \u2014 the highest totals in All-Star history. The ABC primetime slot would have been inconceivable five years ago.",
-      "question": "Why did women's basketball go from an afterthought to a primetime ABC event in three years \u2014 and what exactly changed?",
-      "why_now": "The 2026 WNBA All-Star Game tipped off in Chicago on July 25. Caitlin Clark (21.2 ppg, 8.2 apg) and Paige Bueckers (19.9 ppg, 5.9 apg) both received over 1 million fan votes \u2014 the highest totals in All-Star history.",
-      "hidden_question": "Why did women's basketball go from an afterthought to a primetime ABC event in three years \u2014 and what exactly changed?",
-      "pattern": "Women's basketball crossed a threshold in the last three years where the growth is no longer dependent on a single star \u2014 it has produced a rivalry that sustains interest independently",
-      "transferability": "Understanding the Clark-Bueckers dynamic means reading women's sports growth differently \u2014 the accelerant was not a single player but a genuine adversarial narrative",
-      "cluster_id": "",
-      "editorial_potential": "high",
-      "url": "https://sports.yahoo.com/wnba/article/wnba-all-star-game-2026-schedule-date-rosters-how-to-watch-as-caitlin-clark-paige-bueckers-go-head-to-head-221518753.html",
-      "first_seen": "2026-07-25T00:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 5,
-      "history": [
-        {
-          "date": "2026-07-25T12:00:00Z",
-          "note": "Game previewed \u2014 Clark and Bueckers captain opposing teams; 1M+ fan votes each, all-time record. ABC primetime."
-        },
-        {
-          "date": "2026-07-26T14:00:00Z",
-          "note": "Paige Bueckers and Team Collier win. Game airs primetime ABC. The Clark-Bueckers dynamic is now a defining feature of American sports, not just women's basketball."
-        },
-        {
-          "date": "2026-07-27T10:00:00Z",
-          "note": "Post-game analysis phase. The primetime ABC broadcast confirmed the league's commercial reality \u2014 the Clark-Bueckers rivalry generates genuine adversarial narrative, not just star appeal."
-        },
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "WNBA season at its midpoint; regular season continues through September. Caitlin Clark and Paige Bueckers dominating coverage. The All-Star game has passed; playoffs are the next major inflection point."
-        }
-      ]
     },
     {
       "id": "economy-sentiment-gap",
@@ -1112,87 +667,6 @@
       ]
     },
     {
-      "id": "florida-coral-relocation",
-      "stream": "natural_world",
-      "observer": "naturalist",
-      "title": "Coral evacuated to land \u2014 Florida Keys researchers move living reefs before the bleaching arrives",
-      "observation": "On July 22, 2026, scientists working in the Florida Keys transported 30 pieces of endangered elkhorn coral from offshore nurseries to a temperature-controlled hatchery on land, as a pre-emptive response to expected El Ni\u00f1o-driven bleaching. The first signs of bleaching had already appeared at Newfound Harbor on July 12. Scientists describe 2026 as potentially worse than 2023, when most of Florida's Coral Reef system was bleached. This is the second bleaching emergency in three years at the same reef system. The conservation response has crossed a line: the reef is being physically removed from the ocean before the damage arrives.",
-      "question": "What does it mean for a reef system when the only way to protect the living coral is to take it out of the water \u2014 and what comes back to the reef when the water temperature eventually drops again?",
-      "hidden_question": "What does it mean for a reef system when the only way to protect the living coral is to take it out of the water \u2014 and what comes back to the reef when the temperature drops?",
-      "pattern": "Coral conservation has crossed from restoration to emergency evacuation \u2014 El Ni\u00f1o is making the ocean temporarily uninhabitable for the organisms that built the reef",
-      "transferability": "Understanding coral relocation means reading every marine heatwave forecast differently \u2014 the reef can be partially saved if the evacuation happens before the bleaching, not after",
-      "cluster_id": "el-nino-living-world-2026",
-      "why_now": "The relocation happened July 22. First bleaching signs documented July 12. El Ni\u00f1o is now forecast to reach 3.9\u00b0C above average by December \u2014 potentially the strongest event on record.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://www.ksat.com/tech/2026/07/22/florida-researchers-bring-endangered-elkhorn-coral-ashore-to-protect-them/",
-      "location": "Florida Keys",
-      "season_or_time_context": "Late July 2026 \u2014 pre-bleaching window",
-      "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Coral relocation program ongoing. SSTs remain elevated in Florida Keys. No new announcements this week; the relocation work is continuous."
-        }
-      ]
-    },
-    {
-      "id": "el-nino-bluefin-warm-water",
-      "stream": "curiosities",
-      "observer": "craftsperson",
-      "title": "Bluefin where they shouldn't be \u2014 fishing captains reading El Ni\u00f1o in fish distribution",
-      "observation": "Southern California fishing captains are finding Pacific bluefin tuna in waters and at times they don't normally appear. Water temperatures off San Diego reached 68\u00b0F in mid-March 2026 \u2014 a threshold that normally isn't hit until May or June. Bluefin, which follow temperature breaks and bait schools, have been appearing on offshore structure months ahead of schedule. Yellowfin tuna, ordinarily a Baja species, have been showing up locally in June and July. For captains who have fished these waters for decades, the fish are reading the same El Ni\u00f1o signal the meteorologists are reading \u2014 and doing it faster than the instruments confirm it.",
-      "question": "If the fish move before the instruments confirm the trend, what does that tell you about how much biological systems encode information that monitoring networks haven't captured yet?",
-      "hidden_question": "If the fish move before the instruments confirm the trend, what does that tell you about how much biological systems encode information that monitoring networks haven't captured yet?",
-      "pattern": "Marine species distributions are shifting in real time as El Ni\u00f1o advances \u2014 fish are appearing in the wrong waters months before seasonal models predict, making traditional fishing charts unreliable",
-      "transferability": "Understanding the warm-water fish displacement means recognizing that wherever El Ni\u00f1o strengthens, the species you encounter are different from the species on the seasonal calendar \u2014 the ocean is running ahead of schedule",
-      "cluster_id": "el-nino-living-world-2026",
-      "why_now": "El Ni\u00f1o is at +2.1\u00b0C above average in the Ni\u00f1o 3.4 index. Southern California anglers are reporting bluefin and yellowfin tuna earlier and farther north than any recent season.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://www.spearfactor.com/post/california-bluefin-tuna-2026-season-what-this-el-ni%C3%B1o-year-is-producing-on-the-offshore-banks",
-      "location": "Southern California offshore waters",
-      "season_or_time_context": "Late July 2026 \u2014 El Ni\u00f1o season",
-      "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Bluefin tuna range expansion continuing \u2014 warm water pushing species into new northern fisheries. No major new reports this week; trend ongoing."
-        }
-      ]
-    },
-    {
-      "id": "california-fair-plan-retreat",
-      "stream": "curiosities",
-      "observer": "systems",
-      "title": "The insurer of last resort becomes the insurer of first resort",
-      "observation": "The California FAIR Plan \u2014 designed as the insurance backstop of last resort for properties unable to get coverage elsewhere \u2014 now covers approximately 5% of the state's single-family homes, up from 1.5% in December 2020. More than one in 17 new California home loans is now written with FAIR Plan coverage, which protects against little more than fire, smoke, lightning, and explosions \u2014 nothing else. Seven of California's 12 largest home insurers have reduced or halted new underwriting in the state. Average premiums have risen 84% since 2020. The insurance industry has not announced a verdict on California fire risk \u2014 it has simply stopped writing policies, which is the same thing expressed differently.",
-      "question": "When the insurance industry stops writing policies in a region, is that a market failure or a market signal \u2014 and what does the industry know about future fire risk that the housing market hasn't priced in yet?",
-      "hidden_question": "When the insurance industry stops writing policies in a region, is that a market failure or a market signal \u2014 and what does it know that the housing market hasn't priced in yet?",
-      "pattern": "The insurance industry's retreat from fire-risk regions is a private-sector verdict on physical risk that has arrived well before public policy has responded to it",
-      "transferability": "Understanding the FAIR Plan as a risk signal rather than a policy product changes how you read property markets in any region where traditional insurance is becoming unavailable \u2014 the insurer's exit is information",
-      "cluster_id": "",
-      "why_now": "The FAIR Plan's share of California homes reached 5% as of March 2026, revealed in Stanford research published in June. The Bordeaux fire and ongoing California fire season are concentrating attention on exactly this dynamic.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://woods.stanford.edu/news/californias-home-insurance-crisis-spreading-beyond-wildfire-country",
-      "location": "California",
-      "season_or_time_context": "Late July 2026 \u2014 fire season",
-      "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "FAIR Plan coverage continues expanding. No new rate approvals this week beyond the 29.1% increase approved for October 2026. The structural retreat is ongoing."
-        }
-      ]
-    },
-    {
       "id": "lammas-cross-quarter-threshold",
       "stream": "human_rituals",
       "observer": "threshold_watcher",
@@ -1220,33 +694,6 @@
       ]
     },
     {
-      "id": "fifa-host-city-extraction",
-      "stream": "curiosities",
-      "observer": "systems",
-      "title": "World Cup host cities, $250M in the hole \u2014 the FIFA commercial architecture",
-      "observation": "Now that the 2026 World Cup has ended, the 11 US host cities face a collective shortfall of at least $250 million. FIFA's commercial contracts forbid host cities from doing deals with local businesses that compete with FIFA's global partners \u2014 a city that spent hundreds of millions to stage the tournament couldn't arrange a deal with a local convenience store, because McDonald's holds those rights globally. FIFA is expected to retain virtually all of the $11\u201314 billion the tournament generated. The contract terms were public before any city bid. Cities bid anyway.",
-      "question": "Why do cities compete fiercely to host events that contractually strip them of the revenue their investment makes possible \u2014 and what does bidding for a World Cup actually signal about a city's civic ambitions?",
-      "hidden_question": "Why do cities compete fiercely to host events that contractually strip them of the revenue their investment makes possible \u2014 and what does bidding for a World Cup reveal about a city?",
-      "pattern": "FIFA's commercial architecture systematically extracts public value while transferring costs to local governments \u2014 the terms are disclosed, and cities bid anyway",
-      "transferability": "Understanding how FIFA's contracts work means reading every future city bid for a mega-event differently \u2014 the decision to host tells you something about civic ambition that has almost nothing to do with economics",
-      "cluster_id": "",
-      "why_now": "The World Cup ended July 19. Host cities are now tallying actual costs against FIFA's commercial restrictions. The post-mortem is happening in real time.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://www.newsweek.com/world-cup-2026-host-cities-losses-12066163",
-      "location": "United States (11 host cities)",
-      "season_or_time_context": "Late July 2026 \u2014 post-World Cup",
-      "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "FIFA 2026 host city concerns continue \u2014 infrastructure costs, venue profitability, and local impact debates ongoing in US and Canadian host cities. No major new contract announcements this week."
-        }
-      ]
-    },
-    {
       "id": "full-buck-moon-three-showers",
       "stream": "natural_world",
       "observer": "naturalist",
@@ -1266,68 +713,6 @@
       "first_seen": "2026-07-29T12:00:00Z",
       "last_seen": "2026-08-02T18:00:00Z",
       "appearances": 2
-    },
-    {
-      "id": "europe-fourth-heatwave-omega-block",
-      "stream": "natural_world",
-      "observer": "naturalist",
-      "title": "Europe's fourth heatwave of 2026 \u2014 an Omega block locking in 45\u00b0C",
-      "observation": "A fourth heatwave of summer 2026 is building across Europe, driven by an Omega block atmospheric pattern \u2014 a configuration where a high-pressure system becomes locked in place, preventing weather systems from moving through. The pattern is forecast to push temperatures above 40\u00b0C across France and the Iberian Peninsula, with peaks near 45\u00b0C possible. Nighttime lows will remain in the mid-to-upper 20s Celsius \u2014 the same overnight heat debt mechanism that has been accumulating across the US. This is Europe's fourth heatwave of the summer. The Bordeaux wildfire, already burning for a week, is directly in the forecast path.",
-      "question": "At what point does 'fourth heatwave of the summer' stop being a sequence of events and become a description of what summer is?",
-      "hidden_question": "When a heatwave is the fourth of the summer, is it still a heatwave \u2014 or has it become the new ambient condition with occasional brief relief?",
-      "pattern": "Europe is experiencing heatwaves as a serial condition rather than a periodic event \u2014 the question is no longer when the next one arrives but how long the gap is",
-      "transferability": "Understanding Omega block patterns means reading 'persistent heat' forecasts differently \u2014 a locked atmospheric pattern doesn't resolve on a human schedule",
-      "cluster_id": "europe-summer-disruption-2026",
-      "why_now": "The 4th heatwave is arriving now. The Bordeaux fire is directly in its path. 45\u00b0C is forecast for France and Iberia.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://www.severe-weather.eu/global-weather/extreme-heatwave-excessive-heat-dome-mediterranean-forecast-europe-july-august-2026-mk/",
-      "location": "Western and Central Europe",
-      "season_or_time_context": "Late July \u2014 early August 2026",
-      "first_seen": "2026-07-29T12:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 4,
-      "history": [
-        {
-          "date": "2026-08-02T18:00:00Z",
-          "note": "Omega block heatwave peaked over France and Iberia. The same drought conditions that drove the heatwave also dropped the Danube to record lows \u2014 forcing Hungary's Paks nuclear plant to shut down for the first time in 44 years."
-        },
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "The fourth European heatwave is ongoing \u2014 the Omega block pattern persists over the continent. Very high fire risk warnings in effect across southern Europe. Greece and Provence both recently experienced the direct consequences. A fifth heatwave event is possible within the same summer Omega block regime."
-        }
-      ]
-    },
-    {
-      "id": "hungary-nuclear-danube-drought",
-      "stream": "natural_world",
-      "observer": "systems",
-      "title": "Hungary's only nuclear plant shuts down \u2014 the Danube has run too low to cool the reactors",
-      "observation": "The Paks Nuclear Power Plant \u2014 Hungary's sole nuclear facility, in operation for 44 years and normally supplying 33\u201340% of the country's electricity \u2014 completed a full shutdown on August 2, the first in its history. The cause: the Danube River has dropped to a record low of minus 134cm at Paks, heading toward minus 144cm. The previous drought record was minus 98cm in 2018. River water cools the reactors; below a threshold level, the plant must shut down. Prime Minister Peter Magyar warned of 'critical days ahead.' Emergency power imports and industrial restrictions on water and electricity consumption were activated immediately.",
-      "question": "If nuclear power \u2014 often described as the solution to fossil fuel dependence \u2014 shuts down in a heat wave because rivers get too low and too warm to cool the reactors, what does that reveal about the assumptions built into 'clean energy'?",
-      "hidden_question": "Nuclear plants are cooled by the rivers they're built beside. The same drought that dries fields also dries rivers \u2014 and the heat that makes electricity demand soar is the same heat that makes nuclear production impossible. What does it mean that demand and supply are coupled to the same climate variable?",
-      "pattern": "Nuclear plants built on rivers have a hidden vulnerability to drought \u2014 they assumed river levels that no longer hold",
-      "transferability": "Understanding river-cooled nuclear infrastructure means reading every extreme drought forecast as an energy security event, not just an agricultural one",
-      "cluster_id": "el-nino-living-world-2026",
-      "why_now": "The Paks plant shut down August 2. First full shutdown in 44 years. Hungary's PM warns of imminent critical conditions.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-01/hungary-to-shut-its-only-nuclear-plant-for-first-time-on-drought",
-      "location": "Paks, Hungary / Danube River",
-      "season_or_time_context": "August 2, 2026 \u2014 record Danube lows",
-      "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "Danube forecast to drop to a new record of minus 144cm \u2014 below even the recent record of minus 134cm set days ago. No significant rainfall in any model for the Danube basin. Hungarian officials say the plant could remain offline for over a month. Hungary is importing emergency power from Austria, Slovakia, and Romania and has imposed industrial electricity and water restrictions, burning coal and gas to compensate for 33\u201340% of its electricity supply disappearing. The plant that ran 44 years without a full shutdown may not restart until September."
-        },
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Paks Nuclear Power Plant remains fully offline. No significant rainfall in any forecast model for the Danube basin. Hungary burning coal and gas, importing power from neighbors. The plant may not restart until September. No change since Aug 4."
-        }
-      ]
     },
     {
       "id": "greece-wildfires-near-athens",
@@ -1468,35 +853,6 @@
       "first_seen": "2026-08-02T18:00:00Z",
       "last_seen": "2026-08-02T18:00:00Z",
       "appearances": 1
-    },
-    {
-      "id": "ai-eo-august-deadline",
-      "stream": "headlines",
-      "observer": "headlines",
-      "category": "Tech & Science",
-      "title": "Trump's AI executive order hits its 60-day deadline \u2014 open-weights debate unresolved",
-      "moment": "Trump's June 2 AI executive order required agencies to develop frontier AI governance frameworks within 60 days. That deadline landed August 1. No open-weights ban has been signed. The Nvidia/Meta/Microsoft coalition holds. Anthropic's middle position (anti-distillation, not a ban) is the outlier.",
-      "observation": "Trump's June 2 AI executive order asked federal agencies to develop cybersecurity mandates and voluntary frameworks for frontier AI models within 60 days. That deadline was August 1. The open-weights debate sparked by Kimi K3's July 27 release remains publicly unresolved: the Nvidia/Meta/Microsoft coalition argues open models expand competition; Anthropic backs anti-distillation enforcement without a ban; no executive order restricting open weights has been signed. CNBC: 'Trump's AI executive order nears key deadline as regulation debate intensifies.'",
-      "question": "What happens when a 60-day government deadline arrives and the question the deadline was meant to settle is still publicly contested \u2014 and who benefits from the delay?",
-      "hidden_question": "The June AI executive order asked for frameworks, not decisions. The August 1 deadline produces frameworks. What comes next?",
-      "pattern": "US AI policy is moving in parallel tracks that have not converged: executive processes demanding frameworks while underlying questions about open weights and distillation remain publicly unresolved",
-      "transferability": "Understanding the deadline-without-decision means reading every 'AI regulation imminent' headline as a proxy for the same underlying disagreement rather than a signal of resolution",
-      "cluster_id": "ai-geopolitical-split-2026",
-      "why_now": "The 60-day framework deadline was August 1. The debate about what follows is beginning now.",
-      "status": "captured",
-      "editorial_potential": "medium",
-      "url": "https://www.cnbc.com/2026/07/31/trump-ai-executive-order-nears-key-deadline-regulation-debate-heats-up.html",
-      "location": "",
-      "season_or_time_context": "Aug 6, 2026 \u2014 Aug 1 deadline passed without public release",
-      "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Aug 1 deadline passed. White House claimed the voluntary AI evaluation framework was complete: 'The voluntary framework outlined in the June 2nd executive order was complete by the deadline.' But no Federal Register notices, no NIST or CISA publications, and no public deliverables appeared. Axios: 'White House finalizes AI framework behind closed doors.' The administration kept the authority to set AI governance standards and removed the accountability of public disclosure."
-        }
-      ]
     },
     {
       "id": "solar-eclipse-august-12",
@@ -1640,7 +996,7 @@
       "why_now": "The Hormuz deal is described as 'close but conditions must be met' on August 8. TTF still elevated. The energy sector premium is the market's live bet on how this resolves.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.indexbox.io/blog/gas-prices-surge-as-strait-of-hormuz-disruptions-persist-despite-us-iran-mou/",
+      "url": "",
       "location": "Europe / Global",
       "season_or_time_context": "Aug 9, 2026 \u2014 US rejection; premium may persist through Aug 17 ceasefire expiry",
       "first_seen": "2026-08-08T18:00:00Z",

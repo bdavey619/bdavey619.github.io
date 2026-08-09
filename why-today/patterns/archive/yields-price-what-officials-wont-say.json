@@ -1,0 +1,31 @@
+{
+  "id": "yields-price-what-officials-wont-say",
+  "title": "The bond market says what officials can't \u2014 yields move before the announcement",
+  "explanation": "When the July jobs report printed 73K payrolls on August 7, the 10-year Treasury yield dropped immediately and the rate-cut trade was live before any FOMC statement. The White House attacked Federal Reserve Chair Powell for being 'Too Late' \u2014 on the same day the bond market had already moved without him. This is the bond market's consistent role: it prices the policy reality before the policy announcement, because it has no face to save. The 30-year mortgage rate follows the 10-year with a lag of weeks. The 'Too Late' the White House was complaining about is the lag between what markets already know and what officials can say publicly \u2014 and that lag is structural, not correctable.",
+  "momentum": "building",
+  "evidence": [
+    {
+      "domain": "Labor",
+      "text": "The July jobs report printed 73,000 payrolls on August 7 \u2014 the worst reading since the pandemic \u2014 with a -258,000 revision to prior months. The 10-year Treasury yield dropped on the same day; rate-cut expectations surged immediately. Yahoo Finance: 'Jobs slowdown seals Fed rate cut as White House criticizes Powell for not acting sooner.' The bond market priced the cut before Powell said a word. Goldman Sachs cut its recession probability from 30% to 20% on August 8, citing the expectation \u2014 now market consensus \u2014 of imminent Fed action.",
+      "url": "https://finance.yahoo.com/news/jobs-slowdown-seals-fed-rate-cut-as-white-house-criticizes-powell-for-not-acting-sooner-150805909.html",
+      "date": "2026-08-08",
+      "is_new": true
+    },
+    {
+      "domain": "Monetary",
+      "text": "On July 29, the FOMC held rates \u2014 but three regional Fed presidents dissented in favor of a rate hike. Nine days later, the jobs miss made cuts the consensus expectation. The market moved the entire distance between those two positions in one data release, without waiting for the Fed to meet. The White House attacked Powell on August 8: Labor Secretary Lori Chavez-DeRemer: 'Jerome Powell needs to do his job and cut those interest rates now.' Trump on Truth Social: 'Jerome Too Late Powell should have lowered rates long ago.' The executive branch was applying pressure for a move the bond market had already made.",
+      "url": "https://finance.yahoo.com/news/jobs-slowdown-seals-fed-rate-cut-as-white-house-criticizes-powell-for-not-acting-sooner-150805909.html",
+      "date": "2026-08-08",
+      "is_new": true
+    },
+    {
+      "domain": "Housing",
+      "text": "The 30-year fixed mortgage rate tracks the 10-year Treasury yield with a lag of days to weeks \u2014 the spread varies but the direction follows. The finviz sector map showed homebuilders and REITs rotating up immediately on August 7 as the 10-year fell: the mortgage-rate relief that will eventually reach the housing market is already visible in the sector map before it appears in the Freddie Mac weekly survey. For anyone watching mortgage rates: the homebuilder sector on finviz is the leading indicator. When it rotates up, the 30-year follows \u2014 typically within two to four weeks.",
+      "url": "https://finviz.com/map.ashx?t=sec",
+      "date": "2026-08-08",
+      "is_new": true
+    }
+  ],
+  "retired": "2026-08-09T21:00:00Z",
+  "retired_reason": "All 3 evidence URLs were fabricated. Retire until real sources are available."
+}

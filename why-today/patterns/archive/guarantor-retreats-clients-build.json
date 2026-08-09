@@ -1,0 +1,31 @@
+{
+  "id": "guarantor-retreats-clients-build",
+  "title": "When the guarantor retreats, its clients build their own architecture",
+  "explanation": "The US spent 80 years as the implicit security backstop for the Middle East \u2014 the guarantor beneath every bilateral arrangement. In August 2026, two parallel architectures formed simultaneously around the same contested water: Iran negotiated a Hormuz fee regime that explicitly bans US and Israeli vessels, and Saudi Arabia, Turkey, and Pakistan signed a mutual-defense pact with no Western institution involved. Neither was brokered by Washington. Both were responses to the same perception: that the American guarantee is no longer unconditional. The clients aren't waiting for the guarantor to return. They're building the architecture they need for a world where it doesn't.",
+  "momentum": "building",
+  "evidence": [
+    {
+      "domain": "Security",
+      "text": "On August 7, Saudi Arabia, Turkey, and Pakistan signed the Mecca Joint Defence Agreement \u2014 a trilateral mutual-defense pact in which an attack on any one is an attack on all. Turkey brings NATO's second-largest military; Pakistan brings the Muslim world's only nuclear arsenal; Saudi Arabia brings oil wealth and the legitimacy of Mecca. No Western institution brokered it. Middle East Monitor: 'A new Sunni security architecture born of American doubt.' The pact was signed the same week as the Iran-Oman Hormuz negotiations \u2014 two architectures forming simultaneously around the same contested water.",
+      "url": "https://www.aljazeera.com/news/2026/8/7/saudi-arabia-pakistan-and-turkiye-sign-defence-deal-amid-regional-turmoil",
+      "date": "2026-08-07",
+      "is_new": true
+    },
+    {
+      "domain": "Shipping",
+      "text": "Iran's proposed Hormuz arrangement would ban US and Israeli vessels entirely, impose fees up to 7% of cargo on all other commercial traffic, and fine violators 20% of cargo value. The US rejected any 'impediments to freedom of navigation.' On August 9, Iranian FM Araghchi formally ruled out US talks: 'As long as the American violation of the MOU continues... there is no possibility of resuming negotiations.' The strait may reopen \u2014 for Chinese, European, and Gulf tankers under Iranian management \u2014 while formally excluding the world's largest navy. The world's most important chokepoint is being architected without the US at the table.",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-09/wait-for-hormuz-deal-stretches-on-as-iran-says-terms-must-be-met",
+      "date": "2026-08-09",
+      "is_new": true
+    },
+    {
+      "domain": "Diplomacy",
+      "text": "The Islamabad Memorandum \u2014 the ceasefire framework \u2014 was brokered by Oman and Pakistan, not the US. The Mecca Defence Pact was signed in Mecca without Western mediation. The Hormuz deal is being negotiated through Oman. Three major regional security arrangements in six weeks, none of them with the US as convener or guarantor. NPR (Aug 7): 'Iran says agreement with Oman for Strait of Hormuz prohibits U.S. and Israeli vessels.' The regional architecture isn't excluding the US because it was asked to leave \u2014 it's forming in the spaces where the US chose not to be.",
+      "url": "https://www.npr.org/2026/08/07/iran-oman-hormuz-deal-us-israeli-vessels",
+      "date": "2026-08-07",
+      "is_new": true
+    }
+  ],
+  "retired": "2026-08-09T21:00:00Z",
+  "retired_reason": "Diplomacy URL fabricated (wrong NPR format). Only 2 real evidence items remain \u2014 below 3-item minimum. Retire until a real third source is available."
+}
