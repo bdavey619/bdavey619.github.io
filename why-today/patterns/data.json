@@ -1,6 +1,6 @@
 {
   "week": "2026-08-10",
-  "last_updated": "2026-08-09T18:00:00Z",
+  "last_updated": "2026-08-09T20:00:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
@@ -75,35 +75,6 @@
       ]
     },
     {
-      "id": "ai-as-geopolitical-terrain",
-      "title": "The AI race has stopped being company vs. company \u2014 it's now nation vs. nation",
-      "explanation": "The same week China released the largest open-weights model ever built, 29 countries launched a new AI governance body in Shanghai with no Western democracies present. These aren't two separate stories. They're the same story: the contest for who sets the terms of AI \u2014 technically, legally, diplomatically \u2014 has shifted from competing labs to competing blocs.",
-      "momentum": "accelerating",
-      "evidence": [
-        {
-          "domain": "Technology",
-          "text": "Kimi K3, released with open weights at 2.8 trillion parameters, halted new subscriptions within 48 hours \u2014 global demand overwhelmed capacity before any regulatory response could form. The model runs on servers worldwide, including in WAICO member nations. It is the largest open-weights model ever released, larger than anything currently available from Western labs.",
-          "url": "https://thenewstack.io/kimi-k3-inference-bottleneck/",
-          "date": "2026-07-29",
-          "is_new": false
-        },
-        {
-          "domain": "Governance",
-          "text": "WAICO, a new AI coordination body, launched in Shanghai with 29 member nations. Not a single Western democracy is among them.",
-          "url": "https://www.forbes.com/sites/timbajarin/2026/07/28/china-launches-waico-in-shanghai-as-west-sits-out-ai-governance/",
-          "date": "2026-07-28",
-          "is_new": false
-        },
-        {
-          "domain": "Law",
-          "text": "The White House's distillation claim put Anthropic in an unusual position: the company whose model was allegedly used to build Kimi K3 is now on record saying it does not support a ban on open-weight models. Dario Amodei, posting July 27, called non-dangerous open models 'a public good' while backing anti-distillation enforcement and chip export controls \u2014 a middle position that left Anthropic as the only major US lab not on the Nvidia-led open letter. The victim of alleged IP theft is now defining the distinction between 'open weights' (acceptable) and 'distillation' (not) \u2014 a legal category that doesn't fully exist yet.",
-          "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
-          "date": "2026-07-27",
-          "is_new": false
-        }
-      ]
-    },
-    {
       "id": "accountability-gap",
       "title": "This week, four institutions kept the authority and quietly removed the accountability",
       "explanation": "The Senate voted down a binding War Powers resolution while Iran operations entered their fifth month without congressional authorization. Ukraine's new commander is measuring how much his predecessor obscured about unit staffing and readiness. The White House declared an AI governance framework 'complete' behind closed doors, with no public deliverables. The same administration publicly attacked the Federal Reserve chair for not cutting interest rates fast enough \u2014 hours after a weak jobs report made cuts likely on their own. These aren't individual institutional failures. They're the same move: preserve the authority, dismantle what would make it accountable.",
@@ -140,35 +111,6 @@
       ]
     },
     {
-      "id": "heat-kills-differently",
-      "title": "Heat kills far more than fire does \u2014 but it kills in a way that doesn't trigger the emergency response.",
-      "explanation": "France confirmed 2,025 deaths from the June heatwave on July 3 \u2014 three weeks after the heat had passed. A preprint estimated 20,390 dead across Europe in those same seven days. The Bordeaux fire burning simultaneously mobilized 2,500 firefighters, 1,500 soldiers, and weeks of front-page coverage. Heat and fire share a cause \u2014 the same Omega block, the same drought, the same record temperatures. They don't share a response architecture. Emergency systems are designed for disasters with perimeters: you can see where the fire is, you can evacuate a zone, you can call in air support. Heat has no perimeter. It kills overnight, in bedrooms, in the elderly and the poor, and the count isn't final until an epidemiologist runs the numbers in August.",
-      "momentum": "acute",
-      "evidence": [
-        {
-          "domain": "Public Health",
-          "text": "France confirmed 2,025 excess deaths from the June 2026 heatwave \u2014 announced July 3, three weeks after the peak heat. A statistical preprint estimated the European continental toll at 20,390 for just the seven peak days of June 22\u201328: France 5,210, Germany 4,543, Spain 3,163, Italy 2,709.",
-          "url": "https://www.travelerstoday.com/articles/60336/20260705/europe-heatwave-2026-france-confirms-2025-dead-omega-block-holds-continent.htm",
-          "date": "2026-07-03",
-          "is_new": false
-        },
-        {
-          "domain": "Physiology",
-          "text": "The fourth US heat dome of summer 2026 targets 200 million Americans with overnight lows above 75\u201380\u00b0F through at least mid-August across the Southeast, Great Plains, Mississippi Valley, and Northeast. Maricopa County, Arizona has confirmed 40 heat-related deaths in 2026 by early August \u2014 a figure that grows as medical examiners complete retrospective reviews. By August 4, roughly 10% of the continental US has recorded its hottest day of 2026. When overnight temperatures stay this high, the body's core temperature repair cycle fails during sleep \u2014 'heat debt' accumulates. The count arrives weeks after the deaths.",
-          "url": "https://www.severe-weather.eu/global-weather/major-heat-dome-heatwave-united-states-canada-august-mk/",
-          "date": "2026-08-04",
-          "is_new": false
-        },
-        {
-          "domain": "Emergency Response",
-          "text": "France deployed 2,500 firefighters and 1,500 soldiers to fight the Bordeaux fire \u2014 which killed no one confirmed as of containment on August 1. As the Bordeaux crews stood down, 1,500 firefighters moved immediately to a new Provence fire. Greece deployed helicopter fleets to Athens suburb fires \u2014 two crews died in a mid-air collision August 2. The firefighting infrastructure is fully mobilized. The June heatwave that killed 2,025 French citizens mobilized nothing equivalent.",
-          "url": "https://www.aljazeera.com/news/2026/8/2/firefighting-helicopters-collide-near-athens-as-greece-battles-wildfires",
-          "date": "2026-08-02",
-          "is_new": false
-        }
-      ]
-    },
-    {
       "id": "fire-season-relocates",
       "title": "The European fire season doesn't end when a fire is contained \u2014 it relocates to the next front",
       "explanation": "Bordeaux reached containment on August 1. Within 24 hours, a wildfire erupted in Provence. By August 3, Greek fires near Athens had jumped their containment lines. Two firefighting helicopters collided near Athens, killing both crews. The infrastructure \u2014 aircraft, tankers, crews \u2014 packed up from the Gironde and moved south and east. 'Contained' is a geographic description, not a systemic one. The Omega block, the drought, the accumulated dry biomass: none of it ended on August 1. The fire season is not a sequence of separate events; it is a continuous system moving across terrain. What changes from fire to fire is not the underlying condition but the available fuel. Each region that has burned is temporarily protected by its own destruction. The unburned regions remain vulnerable until their turn comes. The question isn't whether the next fire will start \u2014 it's where.",
@@ -194,6 +136,64 @@
           "url": "https://www.severe-weather.eu/global-weather/extreme-heatwave-excessive-heat-dome-mediterranean-forecast-europe-july-august-2026-mk/",
           "date": "2026-08-04",
           "is_new": false
+        }
+      ]
+    },
+    {
+      "id": "guarantor-retreats-clients-build",
+      "title": "When the guarantor retreats, its clients build their own architecture",
+      "explanation": "The US spent 80 years as the implicit security backstop for the Middle East \u2014 the guarantor beneath every bilateral arrangement. In August 2026, two parallel architectures formed simultaneously around the same contested water: Iran negotiated a Hormuz fee regime that explicitly bans US and Israeli vessels, and Saudi Arabia, Turkey, and Pakistan signed a mutual-defense pact with no Western institution involved. Neither was brokered by Washington. Both were responses to the same perception: that the American guarantee is no longer unconditional. The clients aren't waiting for the guarantor to return. They're building the architecture they need for a world where it doesn't.",
+      "momentum": "building",
+      "evidence": [
+        {
+          "domain": "Security",
+          "text": "On August 7, Saudi Arabia, Turkey, and Pakistan signed the Mecca Joint Defence Agreement \u2014 a trilateral mutual-defense pact in which an attack on any one is an attack on all. Turkey brings NATO's second-largest military; Pakistan brings the Muslim world's only nuclear arsenal; Saudi Arabia brings oil wealth and the legitimacy of Mecca. No Western institution brokered it. Middle East Monitor: 'A new Sunni security architecture born of American doubt.' The pact was signed the same week as the Iran-Oman Hormuz negotiations \u2014 two architectures forming simultaneously around the same contested water.",
+          "url": "https://www.aljazeera.com/news/2026/8/7/saudi-arabia-pakistan-and-turkiye-sign-defence-deal-amid-regional-turmoil",
+          "date": "2026-08-07",
+          "is_new": true
+        },
+        {
+          "domain": "Shipping",
+          "text": "Iran's proposed Hormuz arrangement would ban US and Israeli vessels entirely, impose fees up to 7% of cargo on all other commercial traffic, and fine violators 20% of cargo value. The US rejected any 'impediments to freedom of navigation.' On August 9, Iranian FM Araghchi formally ruled out US talks: 'As long as the American violation of the MOU continues... there is no possibility of resuming negotiations.' The strait may reopen \u2014 for Chinese, European, and Gulf tankers under Iranian management \u2014 while formally excluding the world's largest navy. The world's most important chokepoint is being architected without the US at the table.",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-09/wait-for-hormuz-deal-stretches-on-as-iran-says-terms-must-be-met",
+          "date": "2026-08-09",
+          "is_new": true
+        },
+        {
+          "domain": "Diplomacy",
+          "text": "The Islamabad Memorandum \u2014 the ceasefire framework \u2014 was brokered by Oman and Pakistan, not the US. The Mecca Defence Pact was signed in Mecca without Western mediation. The Hormuz deal is being negotiated through Oman. Three major regional security arrangements in six weeks, none of them with the US as convener or guarantor. NPR (Aug 7): 'Iran says agreement with Oman for Strait of Hormuz prohibits U.S. and Israeli vessels.' The regional architecture isn't excluding the US because it was asked to leave \u2014 it's forming in the spaces where the US chose not to be.",
+          "url": "https://www.npr.org/2026/08/07/iran-oman-hormuz-deal-us-israeli-vessels",
+          "date": "2026-08-07",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "id": "yields-price-what-officials-wont-say",
+      "title": "The bond market says what officials can't \u2014 yields move before the announcement",
+      "explanation": "When the July jobs report printed 73K payrolls on August 7, the 10-year Treasury yield dropped immediately and the rate-cut trade was live before any FOMC statement. The White House attacked Federal Reserve Chair Powell for being 'Too Late' \u2014 on the same day the bond market had already moved without him. This is the bond market's consistent role: it prices the policy reality before the policy announcement, because it has no face to save. The 30-year mortgage rate follows the 10-year with a lag of weeks. The 'Too Late' the White House was complaining about is the lag between what markets already know and what officials can say publicly \u2014 and that lag is structural, not correctable.",
+      "momentum": "building",
+      "evidence": [
+        {
+          "domain": "Labor",
+          "text": "The July jobs report printed 73,000 payrolls on August 7 \u2014 the worst reading since the pandemic \u2014 with a -258,000 revision to prior months. The 10-year Treasury yield dropped on the same day; rate-cut expectations surged immediately. Yahoo Finance: 'Jobs slowdown seals Fed rate cut as White House criticizes Powell for not acting sooner.' The bond market priced the cut before Powell said a word. Goldman Sachs cut its recession probability from 30% to 20% on August 8, citing the expectation \u2014 now market consensus \u2014 of imminent Fed action.",
+          "url": "https://finance.yahoo.com/news/jobs-slowdown-seals-fed-rate-cut-as-white-house-criticizes-powell-for-not-acting-sooner-150805909.html",
+          "date": "2026-08-08",
+          "is_new": true
+        },
+        {
+          "domain": "Monetary",
+          "text": "On July 29, the FOMC held rates \u2014 but three regional Fed presidents dissented in favor of a rate hike. Nine days later, the jobs miss made cuts the consensus expectation. The market moved the entire distance between those two positions in one data release, without waiting for the Fed to meet. The White House attacked Powell on August 8: Labor Secretary Lori Chavez-DeRemer: 'Jerome Powell needs to do his job and cut those interest rates now.' Trump on Truth Social: 'Jerome Too Late Powell should have lowered rates long ago.' The executive branch was applying pressure for a move the bond market had already made.",
+          "url": "https://finance.yahoo.com/news/jobs-slowdown-seals-fed-rate-cut-as-white-house-criticizes-powell-for-not-acting-sooner-150805909.html",
+          "date": "2026-08-08",
+          "is_new": true
+        },
+        {
+          "domain": "Housing",
+          "text": "The 30-year fixed mortgage rate tracks the 10-year Treasury yield with a lag of days to weeks \u2014 the spread varies but the direction follows. The finviz sector map showed homebuilders and REITs rotating up immediately on August 7 as the 10-year fell: the mortgage-rate relief that will eventually reach the housing market is already visible in the sector map before it appears in the Freddie Mac weekly survey. For anyone watching mortgage rates: the homebuilder sector on finviz is the leading indicator. When it rotates up, the 30-year follows \u2014 typically within two to four weeks.",
+          "url": "https://finviz.com/map.ashx?t=sec",
+          "date": "2026-08-08",
+          "is_new": true
         }
       ]
     }

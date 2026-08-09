@@ -1,0 +1,31 @@
+{
+  "id": "ai-as-geopolitical-terrain",
+  "title": "The AI race has stopped being company vs. company \u2014 it's now nation vs. nation",
+  "explanation": "The same week China released the largest open-weights model ever built, 29 countries launched a new AI governance body in Shanghai with no Western democracies present. These aren't two separate stories. They're the same story: the contest for who sets the terms of AI \u2014 technically, legally, diplomatically \u2014 has shifted from competing labs to competing blocs.",
+  "momentum": "accelerating",
+  "evidence": [
+    {
+      "domain": "Technology",
+      "text": "Kimi K3, released with open weights at 2.8 trillion parameters, halted new subscriptions within 48 hours \u2014 global demand overwhelmed capacity before any regulatory response could form. The model runs on servers worldwide, including in WAICO member nations. It is the largest open-weights model ever released, larger than anything currently available from Western labs.",
+      "url": "https://thenewstack.io/kimi-k3-inference-bottleneck/",
+      "date": "2026-07-29",
+      "is_new": false
+    },
+    {
+      "domain": "Governance",
+      "text": "WAICO, a new AI coordination body, launched in Shanghai with 29 member nations. Not a single Western democracy is among them.",
+      "url": "https://www.forbes.com/sites/timbajarin/2026/07/28/china-launches-waico-in-shanghai-as-west-sits-out-ai-governance/",
+      "date": "2026-07-28",
+      "is_new": false
+    },
+    {
+      "domain": "Law",
+      "text": "The White House's distillation claim put Anthropic in an unusual position: the company whose model was allegedly used to build Kimi K3 is now on record saying it does not support a ban on open-weight models. Dario Amodei, posting July 27, called non-dangerous open models 'a public good' while backing anti-distillation enforcement and chip export controls \u2014 a middle position that left Anthropic as the only major US lab not on the Nvidia-led open letter. The victim of alleged IP theft is now defining the distinction between 'open weights' (acceptable) and 'distillation' (not) \u2014 a legal category that doesn't fully exist yet.",
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "date": "2026-07-27",
+      "is_new": false
+    }
+  ],
+  "retired": "2026-08-09T20:00:00Z",
+  "retired_reason": "Evidence stale; pattern not feeding new developments."
+}
