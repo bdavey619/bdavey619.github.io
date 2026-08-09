@@ -1510,7 +1510,7 @@
     },
     {
       "id": "treasury-yields-rate-cut-signal",
-      "stream": "headlines",
+      "stream": "markets",
       "observer": "analyst",
       "title": "10-year treasury as the economy's real-time verdict",
       "observation": "The 10-year treasury yield is the bond market's live forecast of future economic conditions \u2014 not what the Fed says it believes, but what investors actually bet. The Fed funds rate moves in discrete committee decisions; the 10-year moves the moment data lands. When the July jobs report printed 73,000 payrolls on August 7 \u2014 well below the 104,000 consensus, with a combined -258,000 downward revision to prior months \u2014 rate cut expectations surged immediately. Three Fed regional presidents had dissented in favor of a rate hike at the July 29 FOMC; by August 8, the market had repriced. The 30-year treasury, which mortgage rates track most directly, follows the 10-year with a lag of weeks. Mortgage rates typically run 1.5\u20132 percentage points above the 10-year yield. When yields drop on a jobs miss, the cost of buying a home follows.",
@@ -1563,6 +1563,60 @@
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "First capture. Signed August 7 in Mecca by MBS, Erdogan, and Shehbaz Sharif. Described across media as 'Sunni NATO.' Not brokered by the US or any Western institution. Simultaneous with Iran-Oman Hormuz negotiations \u2014 two competing regional architectures taking shape in the same week."
+        }
+      ]
+    },
+    {
+      "id": "rate-sensitive-sector-rotation",
+      "stream": "markets",
+      "observer": "analyst",
+      "title": "Rate-sensitive sectors rotating up as the jobs miss reprices the Fed",
+      "observation": "When the July jobs report printed 73,000 payrolls on August 7, the finviz sector map showed the classic bad-economy-good-rate-cut rotation immediately. Rate-sensitive sectors \u2014 homebuilders, REITs, utilities \u2014 got bid as rate cut expectations surged. Cyclicals (industrials, materials) softened on growth concerns. Healthcare, the one sector that actually added jobs (+28K, absorbing heat-illness and ER volume), held up defensively. The market is pricing rate cuts before the Fed has formally moved \u2014 the sector map reflects what the bond market already said: the hiking cycle is over. The gap between the three Fed dissents on July 29 (pro-hike) and the August 8 sector rotation (pro-cut) is the width of one jobs report.",
+      "question": "If the sector map shows the rate-cut trade already running, what does that mean for the homebuilder or REIT investor who waits for the Fed to officially act?",
+      "hidden_question": "If the sector map shows the rate-cut trade already running, what does that mean for the homebuilder or REIT investor who waits for the Fed to officially act?",
+      "pattern": "Sector rotation is the market's leading indicator \u2014 money moves into the beneficiaries of the next policy change before the policy change is announced",
+      "transferability": "For anyone watching mortgage rates: the homebuilder and REIT sectors on finviz lead the rate relief that eventually reaches the mortgage market. When those sectors rotate up, the 30-year yield and eventually mortgage rates follow.",
+      "cluster_id": "",
+      "why_now": "July jobs miss (73K, -258K revision) drove an immediate sector rotation on August 7\u20138. The finviz heat map is the real-time record of where this repricing is landing.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://finviz.com/map.ashx?t=sec",
+      "location": "United States",
+      "season_or_time_context": "Aug 8, 2026 \u2014 post-jobs-miss rotation; rate cut trade live",
+      "first_seen": "2026-08-08T18:00:00Z",
+      "last_seen": "2026-08-08T18:00:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-08T18:00:00Z",
+          "note": "First capture. July jobs miss triggered immediate sector rotation. Rate-sensitive sectors (homebuilders, REITs, utilities) rallying; cyclicals softening. Healthcare defensive on heat-driven demand."
+        }
+      ]
+    },
+    {
+      "id": "hormuz-energy-risk-premium",
+      "stream": "markets",
+      "observer": "analyst",
+      "title": "Energy sector carrying a Hormuz war premium that the deal may or may not compress",
+      "observation": "European TTF natural gas prices rose above EUR 60/MWh during the Iran conflict \u2014 more than 50% above levels when fighting began. Oil markets absorbed a similar Hormuz risk premium. The energy sector on finviz has been one of the stronger performers of the conflict period, partly on elevated prices and partly on the uncertainty premium that markets attach to supply disruption risk. Now the Hormuz deal is described as 'close' \u2014 but Iran's conditions include US recognition of Iranian territorial sovereignty over the passage, and the IRGC has said the strait reopens only after the US 'fully' accepts conditions. A deal that reopens the strait on Iran's terms may compress the premium less than a clean neutral-water reopening would. The energy sector price is the market's answer to the question: how much supply disruption risk does this deal actually remove?",
+      "question": "If the Hormuz deal codifies Iranian control rather than restoring neutral international water, how much of the energy risk premium actually goes away?",
+      "hidden_question": "If the Hormuz deal codifies Iranian control rather than restoring neutral international water, how much of the energy risk premium actually goes away?",
+      "pattern": "Commodity prices and sector performance encode geopolitical risk in real time; the degree of compression after a diplomatic development reveals how much uncertainty the market actually believed was resolved",
+      "transferability": "Watch the energy sector on finviz and TTF gas prices as the Hormuz deal language hardens. A full compression back to pre-conflict levels would signal the market believes the disruption risk is gone. A partial compression would signal it believes Iran's control of the passage introduces new uncertainty.",
+      "cluster_id": "",
+      "why_now": "The Hormuz deal is described as 'close but conditions must be met' on August 8. TTF still elevated. The energy sector premium is the market's live bet on how this resolves.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.indexbox.io/blog/gas-prices-surge-as-strait-of-hormuz-disruptions-persist-despite-us-iran-mou/",
+      "location": "Europe / Global",
+      "season_or_time_context": "Aug 8, 2026 \u2014 Hormuz deal close; TTF still elevated",
+      "first_seen": "2026-08-08T18:00:00Z",
+      "last_seen": "2026-08-08T18:00:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-08T18:00:00Z",
+          "note": "First capture. TTF gas above EUR 60/MWh. Energy sector carrying war premium. Hormuz deal 'close but conditions must be met' \u2014 premium compression depends on whether the deal actually removes disruption risk or just redefines it."
         }
       ]
     }
