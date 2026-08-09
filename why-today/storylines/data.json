@@ -1,6 +1,6 @@
 {
   "week_start": "2026-08-03",
-  "last_updated": "2026-08-08T18:00:00Z",
+  "last_updated": "2026-08-09T18:00:00Z",
   "storylines": [
     {
       "id": "perseid-meteor-shower-buildup",
@@ -18,15 +18,11 @@
       "editorial_potential": "high",
       "url": "https://earthsky.org/astronomy-essentials/everything-you-need-to-know-perseid-meteor-shower/",
       "location": "",
-      "season_or_time_context": "Aug 8, 2026 \u2014 four days to peak; mass-media coverage phase",
+      "season_or_time_context": "Aug 9, 2026 \u2014 three days to peak; full media saturation",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-08T18:00:00Z",
-      "appearances": 8,
+      "last_seen": "2026-08-09T18:00:00Z",
+      "appearances": 9,
       "history": [
-        {
-          "date": "2026-08-02T18:00:00Z",
-          "note": "Ten days to peak. New moon alignment confirmed \u2014 near-perfect dark skies on August 12\u201313. Particle density increasing nightly. Meteors already visible on clear nights. 2026 is shaping up as one of the best Perseid years in recent memory."
-        },
         {
           "date": "2026-08-04T18:00:00Z",
           "note": "Eight days to peak. New moon on August 12\u201313 confirmed: ideal dark sky conditions. 2026 may run slightly lower raw rates than a peak Perseid year \u2014 Jupiter disturbed the stream center \u2014 but viewing conditions remain exceptional. Activity already visible nightly, increasing."
@@ -42,6 +38,10 @@
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "Four days to peak. Weather.com today: 'One moon, two shows: a guide to the strangest sky day of 2026.' Coverage has reached the mass-weather-audience phase \u2014 the last phase before the event itself. Activity building every clear night. The next time the Perseid peak falls on a new moon will be 2045."
+        },
+        {
+          "date": "2026-08-09T18:00:00Z",
+          "note": "Three days. BBC Sky at Night, Discover Magazine, Farmers' Almanac, NASA, Forbes, EarthSky, weather.com \u2014 every outlet has published. 80\u2013100 per hour under ideal conditions. Next new moon after this one: September \u2014 the 2045 comparison keeps appearing in coverage. Activity building every clear night already."
         }
       ]
     },
@@ -469,10 +469,10 @@
       "editorial_potential": "high",
       "url": "https://www.lloydslistintelligence.com/resources/blog/strait-of-hormuz-brief-21-july-2026",
       "location": "Strait of Hormuz, Persian Gulf",
-      "season_or_time_context": "Late July 2026 \u2014 Hormuz near-standstill",
+      "season_or_time_context": "Aug 9, 2026 \u2014 US rejected Iranian terms; ceasefire expires ~Aug 17",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-08-08T18:00:00Z",
-      "appearances": 7,
+      "last_seen": "2026-08-09T18:00:00Z",
+      "appearances": 8,
       "history": [
         {
           "date": "2026-07-30T18:00:00Z",
@@ -489,6 +489,10 @@
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "Aug 8: Hormuz deal 'close but conditions must be met' \u2014 Iran will not reopen the strait unilaterally even after a deal; full normalization requires US honoring the Islamabad MOU. The same day, the Mecca Joint Defence Agreement was signed: Saudi Arabia, Turkey, Pakistan in a mutual-defense pact. The strait is being negotiated between Iran and Oman; the security environment around the strait is being negotiated separately by the Sunni powers. Two simultaneous architecture changes, neither brokered by Washington."
+        },
+        {
+          "date": "2026-08-09T18:00:00Z",
+          "note": "Aug 6-7: Iran's deal terms are now public. The proposed arrangement would: (1) ban US and Israeli military and commercial vessels from the strait entirely; (2) impose fees up to 7% of cargo value on all other commercial traffic; (3) fine violators up to 20% of cargo value. The US has rejected the terms. The strait would reopen for Chinese, European, and Gulf tankers under an Iranian-managed fee regime \u2014 but the world's largest navy would be formally prohibited from its waters. The Islamabad Memorandum ceasefire expires ~Aug 17. No deal, no agreed terms, nine days left."
         }
       ]
     },
@@ -539,13 +543,9 @@
       "editorial_potential": "high",
       "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
       "first_seen": "2026-07-22T00:00:00Z",
-      "last_seen": "2026-08-08T18:00:00Z",
-      "appearances": 13,
+      "last_seen": "2026-08-09T18:00:00Z",
+      "appearances": 14,
       "history": [
-        {
-          "date": "2026-08-02T18:00:00Z",
-          "note": "60-day ceasefire window under Islamabad Memorandum running through ~August 17. Transit fee regime suspended during window but principle established. Nuclear talks ongoing. The war may end the same way it started: without a congressional vote."
-        },
         {
           "date": "2026-08-04T18:00:00Z",
           "note": "Aug 3\u20134: Ceasefire holding at day 13 under the Islamabad Memorandum. Nuclear talks progressing but complicated by two Iranian conditions: a Lebanon ceasefire guarantee and limits on Iran's missile programme. 60-day window runs through approximately August 17. The transit fee regime ($1\u20132M per vessel) remains suspended during the window but the principle is established \u2014 Hormuz as a managed, priced passage, not neutral international water. A war that started without a congressional vote may end the same way."
@@ -561,6 +561,10 @@
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "Aug 8: Bloomberg \u2014 'Iran Says Hormuz Deal Close But Its Conditions Must Be Met.' IRGC statement: Hormuz will reopen after the US 'fully' accepts conditions. Iran foreign ministry specified the conditions: the US must honor commitments made under the Islamabad Memorandum of Understanding that Tehran says Washington violated. The framing has shifted from 'agreed in principle' (Aug 6) to 'close but our conditions must be met' \u2014 a slight hardening. Al Jazeera: 'Iran deliberates Hormuz arrangement amid uncertain prospects with US.' Meanwhile, the Mecca Joint Defence Agreement (Saudi Arabia + Turkey + Pakistan) was signed August 7 \u2014 a trilateral mutual-defense pact that reconfigures the regional security architecture Iran is negotiating against."
+        },
+        {
+          "date": "2026-08-09T18:00:00Z",
+          "note": "Aug 6-7: The terms of Iran's Hormuz deal became public. NPR (Aug 7): 'Iran says agreement with Oman for Strait of Hormuz prohibits U.S. and Israeli vessels.' Bloomberg (Aug 6): 'Iran-Oman Deal Proposes Ban on US, Israeli Ships.' The deal would impose fees up to 7% of cargo value on commercial vessels transiting the strait and fines of up to 20% of cargo value for violators. Trump administration response (CNBC, Aug 6): the US rejects any 'impediments' to freedom of navigation. Trump had said a deal was coming 'this week' on August 5; by August 8 the US had formally rejected the Iranian terms. The ceasefire window under the Islamabad Memorandum expires approximately August 17. A war that started without a congressional vote is now approaching a post-ceasefire cliff with no agreed deal."
         }
       ]
     },
@@ -580,13 +584,9 @@
       "editorial_potential": "high",
       "url": "https://www.nbcnews.com/world/ukraine/ukraines-zelenskyy-fires-commander-chief-protests-major-rift-rcna588159",
       "first_seen": "2026-07-21T00:00:00Z",
-      "last_seen": "2026-08-08T18:00:00Z",
-      "appearances": 8,
+      "last_seen": "2026-08-09T18:00:00Z",
+      "appearances": 9,
       "history": [
-        {
-          "date": "2026-07-30T18:00:00Z",
-          "note": "Drapatyi's first act: a system-wide manpower audit \u2014 suggesting unit staffing reports under Syrskyi were unreliable. Russia launched ballistic missiles at Kyiv on July 30, hours after his appointment was finalized. The new command is being tested immediately."
-        },
         {
           "date": "2026-08-02T18:00:00Z",
           "note": "Drapatyi manpower audit underway. Russia launched 31 missiles, 201 guided bombs, and 6,659 kamikaze drones on August 1 alone. Ukraine's new strategy: precision long-range strikes on hard-to-replace industrial components rather than broad infrastructure. Russia's territorial gains this year have tapered to 10\u201315 square miles in the past month while Ukraine claims 700 sq km recaptured."
@@ -602,6 +602,10 @@
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "Aug 8: Russian forces attacked overnight with 151 strike UAVs plus Iskander-M and S-400 missiles across 11 Ukrainian regions. Separately: Russian forces seized approximately 50-55 square kilometers west of Orekhovo in Zaporizhzhia within 24 hours \u2014 a significant single-day territorial gain. Ukraine struck back: drones hit oil refineries in Syzran and Ilsky (fires confirmed); Ukrainian Shadow Forces drones struck 12 Russian shadow fleet vessels in the Black Sea and Sea of Azov. The Drapatyi audit proceeds as the front remains kinetic."
+        },
+        {
+          "date": "2026-08-09T18:00:00Z",
+          "note": "Aug 9: Bloomberg reports Ukraine grain exports forecast to fall 53% as Russia continues systematic port strikes. Russian forces also destroyed Ukraine's largest PPE warehouse. The Aug 8 151-drone attack was the week's largest single strike; the grain and PPE targeting is the sustained campaign underneath: civilian infrastructure attrition designed to squeeze export revenue and defense supply simultaneously. Drapatyi audit continues in the background."
         }
       ]
     },
@@ -1079,10 +1083,10 @@
       "editorial_potential": "high",
       "url": "https://www.britannica.com/topic/Hungry-Ghost-Festival",
       "location": "East and Southeast Asia; global diaspora",
-      "season_or_time_context": "Aug 8, 2026 \u2014 correction: festival Aug 27; Ghost Month opens Aug 13 (day after eclipse)",
+      "season_or_time_context": "Aug 9, 2026 \u2014 two convergences: Aug 12 (eclipse+Perseids+Ghost Month opens) and Aug 27 (blood moon+festival)",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-08-08T18:00:00Z",
-      "appearances": 6,
+      "last_seen": "2026-08-09T18:00:00Z",
+      "appearances": 7,
       "history": [
         {
           "date": "2026-08-04T18:00:00Z",
@@ -1099,6 +1103,10 @@
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "Date correction (Aug 8): Multiple authoritative sources (Remitly, chinatravel.com, WOFS, Sassy Mama) confirm the Hungry Ghost Festival falls on August 27, 2026 \u2014 the 15th day of the 7th lunar month, when the moon is full and spirits are nearest. Ghost Month opens August 13. This means the eclipse and Perseid peak (August 12) fall on the EVE of Ghost Month \u2014 the night before the Gates of the Underworld open. The convergence is real but different from what was previously described: the sun goes dark on the day the underworld is about to open, not on the festival night. The triple convergence was eclipse + Perseids + Ghost Month opening; the festival itself (August 27) is a separate peak."
+        },
+        {
+          "date": "2026-08-09T18:00:00Z",
+          "note": "Aug 9: Discovery \u2014 there are TWO eclipse convergences in August, not one. Farmers' Almanac August sky guide: 'Perseid Meteors, Two Eclipses, Venus, and the Sturgeon Moon.' Forbes (Aug 1): 'See A Solar Eclipse, The Perseids And A 96% Blood Moon: August's Sky.' The second eclipse is a near-total lunar eclipse on August 27 \u2014 96% of the moon's disk in shadow, producing a deep red blood moon. August 27 is also the Sturgeon Moon AND the Hungry Ghost Festival \u2014 the night the Gates of the Underworld are widest. The August 12 convergence (solar eclipse + Perseids + Ghost Month opening) and the August 27 convergence (near-total blood moon + Hungry Ghost Festival) are two separate events, both within the same Ghost Month. The ancestral spirits walk in during a blood moon."
         }
       ]
     },
@@ -1404,10 +1412,10 @@
       "editorial_potential": "high",
       "url": "https://weather.com/2026/07/16/science/space/perseid-meteor-shower-2026-perfect-new-moon-to-create-ideal-conditions-for-peak",
       "location": "",
-      "season_or_time_context": "Aug 8, 2026 \u2014 four days to Aug 12 peak",
+      "season_or_time_context": "Aug 9, 2026 \u2014 three days to Aug 12 peak; crescent moon with Mars predawn",
       "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-08T18:00:00Z",
-      "appearances": 5,
+      "last_seen": "2026-08-09T18:00:00Z",
+      "appearances": 6,
       "history": [
         {
           "date": "2026-08-04T18:00:00Z",
@@ -1424,6 +1432,10 @@
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "Four days to peak. Weather.com published 'One moon, two shows: a guide to the strangest sky day of 2026' \u2014 today, August 8. The mass-audience phase of coverage has begun. The article frames both events together: the eclipse as the daytime show, the Perseids as the night show, the new moon as the condition that makes both possible."
+        },
+        {
+          "date": "2026-08-09T18:00:00Z",
+          "note": "Three days to peak. August 9 predawn: crescent moon rises alongside Mars \u2014 the last notable night sky event before the main show. BBC Sky at Night Magazine: 'We're getting a solar eclipse and shooting stars on the same day. How to see this summer's cosmic double whammy.' Discover Magazine: 'A Total Solar Eclipse and the Perseids Meteor Shower Will Share the Sky in August 2026.' Coverage has reached saturation \u2014 every astronomy outlet, weather service, and general-interest science publication has published its guide. The event is now inside the window where the question is just: will the sky be clear?"
         }
       ]
     },
@@ -1493,10 +1505,10 @@
       "editorial_potential": "high",
       "url": "https://science.nasa.gov/eclipses/future-eclipses/total-solar-eclipse-on-august-12-2026/",
       "location": "Spain, Iceland, Greenland, Russia",
-      "season_or_time_context": "Aug 8, 2026 \u2014 four days to totality",
+      "season_or_time_context": "Aug 9, 2026 \u2014 three days to totality; second Aug eclipse confirmed (Aug 27)",
       "first_seen": "2026-08-06T18:00:00Z",
-      "last_seen": "2026-08-08T18:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-08-09T18:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-08-07T18:00:00Z",
@@ -1505,6 +1517,10 @@
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "Four days to totality. Eclipse tourism for Iceland and Spain has been sold out for weeks; the coverage today (weather.com, starwalk.space) is for the general public who are watching from home. August 12 carries: eclipse at dusk in Spain (totality at golden hour), then Perseid peak after dark everywhere. The same new moon is the agent of both."
+        },
+        {
+          "date": "2026-08-09T18:00:00Z",
+          "note": "Three days to totality. Forbes (Aug 1): 'See A Solar Eclipse, The Perseids And A 96% Blood Moon: August's Sky' \u2014 also flags the August 27 near-total lunar eclipse. Two eclipse events in August 2026: the Aug 12 total solar eclipse and an Aug 27 near-total lunar eclipse (96%, blood moon). The Farmers' Almanac notes both. The Aug 12 eclipse remains the headliner \u2014 path through Spain, Iceland, Greenland, Russia; first European totality since 1999."
         }
       ]
     },
@@ -1582,14 +1598,18 @@
       "editorial_potential": "medium",
       "url": "https://finviz.com/map.ashx?t=sec",
       "location": "United States",
-      "season_or_time_context": "Aug 8, 2026 \u2014 post-jobs-miss rotation; rate cut trade live",
+      "season_or_time_context": "Aug 9, 2026 \u2014 rate-cut rotation holding; energy sector supported by Hormuz ambiguity",
       "first_seen": "2026-08-08T18:00:00Z",
-      "last_seen": "2026-08-08T18:00:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-09T18:00:00Z",
+      "appearances": 2,
       "history": [
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "First capture. July jobs miss triggered immediate sector rotation. Rate-sensitive sectors (homebuilders, REITs, utilities) rallying; cyclicals softening. Healthcare defensive on heat-driven demand."
+        },
+        {
+          "date": "2026-08-09T18:00:00Z",
+          "note": "Aug 9: Sector rotation from the jobs miss continues building. Homebuilders, REITs, and utilities holding gains as rate cut expectations remain firm. Energy sector held up by the Hormuz ambiguity \u2014 the US rejection of Iran's terms means the reopening trade hasn't run. The two signals (rate cuts coming + energy supply uncertain) are pulling different sectors in different directions on the finviz map."
         }
       ]
     },
@@ -1609,14 +1629,18 @@
       "editorial_potential": "high",
       "url": "https://www.indexbox.io/blog/gas-prices-surge-as-strait-of-hormuz-disruptions-persist-despite-us-iran-mou/",
       "location": "Europe / Global",
-      "season_or_time_context": "Aug 8, 2026 \u2014 Hormuz deal close; TTF still elevated",
+      "season_or_time_context": "Aug 9, 2026 \u2014 US rejection; premium may persist through Aug 17 ceasefire expiry",
       "first_seen": "2026-08-08T18:00:00Z",
-      "last_seen": "2026-08-08T18:00:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-09T18:00:00Z",
+      "appearances": 2,
       "history": [
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "First capture. TTF gas above EUR 60/MWh. Energy sector carrying war premium. Hormuz deal 'close but conditions must be met' \u2014 premium compression depends on whether the deal actually removes disruption risk or just redefines it."
+        },
+        {
+          "date": "2026-08-09T18:00:00Z",
+          "note": "Aug 9: US has rejected Iran's proposed Hormuz terms \u2014 explicitly refusing any deal that would prohibit US/Israeli vessels or impose fees on American commercial shipping. This rejection means the energy risk premium does not compress on any announcement of a deal: a deal that excludes the US is not a reopening the US accepts. TTF gas remains elevated. The strait may reopen for Chinese, European, and Gulf tankers under an Iranian fee regime \u2014 while remaining formally closed to US and Israeli vessels. The energy sector on finviz is pricing this ambiguity."
         }
       ]
     }
