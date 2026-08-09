@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-08T12:49:27.380569+00:00",
+  "generated_at": "2026-08-09T12:51:33.077521+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -62,19 +62,17 @@
       "gamePk": 823191,
       "status": "final",
       "result": "W",
-      "score": "5\u20132"
+      "score": "5\u20132",
+      "archive_url": "archive.html?date=2026-08-08"
     },
     {
       "date": "2026-08-08",
       "opponent": "DET",
       "home": true,
       "gamePk": 823188,
-      "status": "scheduled",
-      "time_local": "4:15 PM PT",
-      "probable": {
-        "team": "Landen Roupp",
-        "opp": "Jackson Jobe"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20138"
     },
     {
       "date": "2026-08-09",
@@ -250,8 +248,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20134",
-    "current_streak": "W1",
+    "month_record": "2\u20135",
+    "current_streak": "L1",
     "last_10": "4\u20136"
   }
 }
