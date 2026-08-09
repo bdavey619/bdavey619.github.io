@@ -1,6 +1,6 @@
 {
-  "week": "2026-08-03",
-  "last_updated": "2026-08-08T18:00:00Z",
+  "week": "2026-08-10",
+  "last_updated": "2026-08-09T18:00:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
@@ -46,9 +46,9 @@
       "evidence": [
         {
           "domain": "Shipping",
-          "text": "Commercial tanker traffic through the Strait of Hormuz fell ~90% during the conflict. On August 6, Iran and Oman agreed in principle on new shipping lane coordinates \u2014 routes passing partially through Iranian territorial waters, departing from the decades-old Omani-water system. On August 8, Bloomberg: 'Iran Says Hormuz Deal Close But Its Conditions Must Be Met.' IRGC statement: Hormuz will reopen only after the US 'fully' accepts conditions \u2014 specifically, that the US honor Islamabad MOU commitments Tehran says Washington violated. The strait reopens on Iran's terms, or not at all.",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-08/iran-says-hormuz-deal-close-but-that-its-conditions-must-be-met",
-          "date": "2026-08-08",
+          "text": "Commercial tanker traffic through the Strait of Hormuz fell ~90% during the conflict. Iran's proposed deal would: ban US and Israeli vessels entirely; impose fees up to 7% of cargo on all other commercial traffic; fine violators 20% of cargo value. The US rejected any 'impediments to freedom of navigation.' On August 9, Bloomberg: 'Iran Rejects US Talks for Now as Wait for Hormuz Deal Drags On.' FM Araghchi: 'As long as the American violation of the MOU continues... there is no possibility of resuming negotiations.' The ceasefire expires ~August 17. Eight days left with no talks and no deal. The strait may reopen for Chinese, European, and Gulf tankers under Iranian management \u2014 while formally excluding the world's largest navy.",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-09/wait-for-hormuz-deal-stretches-on-as-iran-says-terms-must-be-met",
+          "date": "2026-08-09",
           "is_new": true
         },
         {
@@ -70,7 +70,7 @@
           "text": "On August 7, Saudi Arabia, Turkey, and Pakistan signed the Mecca Joint Defence Agreement \u2014 a trilateral mutual-defense pact in which an attack on any one is treated as an attack on all. Turkey brings NATO's second-largest military; Pakistan brings the Muslim world's only nuclear arsenal; Saudi Arabia brings oil wealth and the legitimacy of Mecca. No Western institution brokered it. Middle East Monitor: 'A new Sunni security architecture born of American doubt.' The pact was signed the same week as the Iran-Oman Hormuz negotiations \u2014 two architectures forming simultaneously around the same contested water: one defining who controls the sea lane, the other defining who defends the powers around it.",
           "url": "https://www.aljazeera.com/news/2026/8/7/saudi-%E2%81%A0arabia-pakistan-and-turkiye-sign-defence-deal-amid-regional-turmoil",
           "date": "2026-08-07",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -128,7 +128,7 @@
           "text": "Following the July jobs miss (73K payrolls, -258K revision to prior months), the White House attacked Federal Reserve Chair Jerome Powell within hours. Labor Secretary Lori Chavez-DeRemer: 'Jerome Powell needs to do his job and cut those interest rates now \u2014 what is he waiting for?' Trump on Truth Social: 'Jerome Too Late Powell should have lowered rates long ago.' Yahoo Finance: 'Jobs slowdown seals Fed rate cut as White House criticizes Powell for not acting sooner.' This followed a July 29 FOMC at which three regional Fed presidents dissented in favor of a rate hike. The executive branch kept maximum public pressure on the institution whose independence was designed to remove monetary policy from exactly this kind of pressure.",
           "url": "https://finance.yahoo.com/news/jobs-slowdown-seals-fed-rate-cut-as-white-house-criticizes-powell-for-not-acting-sooner-150805909.html",
           "date": "2026-08-08",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Technology",
@@ -186,7 +186,7 @@
           "text": "The Athens-area fire burned 14,000+ hectares over five days; containment lines lifting by August 5. Then Crete and Paros ignited \u2014 6,000+ more hectares. By August 7, 150+ wildfires active across Greece. By August 8, three firefighters had died battling fires in Crete and the Peloponnese. Civil Protection Minister: the fire department has been 'pushed to its limits.' Three arson arrests. The relocation pattern now operates within a single country: the fire season didn't leave Greece when Athens improved. The cost has crossed beyond displacement and hectares \u2014 it is now a firefighter casualty event.",
           "url": "https://greece-moments.com/en/greece-fires/",
           "date": "2026-08-08",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Weather",

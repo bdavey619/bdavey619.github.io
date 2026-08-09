@@ -1,5 +1,5 @@
 {
-  "week_start": "2026-08-03",
+  "week_start": "2026-08-10",
   "last_updated": "2026-08-09T18:00:00Z",
   "storylines": [
     {
@@ -455,7 +455,7 @@
     },
     {
       "id": "strait-hormuz-traffic-collapse",
-      "stream": "curiosities",
+      "stream": "headlines",
       "observer": "systems",
       "title": "The Strait of Hormuz \u2014 when 20 percent of the world's oil runs through 21 miles",
       "observation": "Commercial traffic through the Strait of Hormuz has fallen approximately 90% year-on-year. The US has reinstated a naval blockade of Iranian ports; 62 maritime incidents involving commercial vessels have been reported across the Persian Gulf since the conflict began. About 6,000 seafarers remain stranded on around 500 ships moored behind the strait. A deal is now being negotiated specifically centered on who controls vessel transit through the strait \u2014 the negotiation IS the recognition: the entire diplomatic structure centers on control of two miles of water.",
@@ -469,15 +469,11 @@
       "editorial_potential": "high",
       "url": "https://www.lloydslistintelligence.com/resources/blog/strait-of-hormuz-brief-21-july-2026",
       "location": "Strait of Hormuz, Persian Gulf",
-      "season_or_time_context": "Aug 9, 2026 \u2014 US rejected Iranian terms; ceasefire expires ~Aug 17",
+      "season_or_time_context": "Aug 9, 2026 \u2014 no talks, no deal; Aug 17 ceasefire expiry",
       "first_seen": "2026-07-27T10:00:00Z",
       "last_seen": "2026-08-09T18:00:00Z",
-      "appearances": 8,
+      "appearances": 9,
       "history": [
-        {
-          "date": "2026-07-30T18:00:00Z",
-          "note": "The Islamabad Memorandum transit fee terms are now public: $1-2M per vessel, per voyage, scaled to size and cargo. The fee is suspended during the 60-day ceasefire window. Iran has won the principle \u2014 the strait is now acknowledged as a managed, priced passage, not neutral international water."
-        },
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "Commercial traffic recovering under the ceasefire. Trump says formal deal could come this week; Iran and Oman say talks in 'final stages.' If a permanent fee regime is formalized, this storyline transitions from crisis to structural condition."
@@ -493,6 +489,10 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Aug 6-7: Iran's deal terms are now public. The proposed arrangement would: (1) ban US and Israeli military and commercial vessels from the strait entirely; (2) impose fees up to 7% of cargo value on all other commercial traffic; (3) fine violators up to 20% of cargo value. The US has rejected the terms. The strait would reopen for Chinese, European, and Gulf tankers under an Iranian-managed fee regime \u2014 but the world's largest navy would be formally prohibited from its waters. The Islamabad Memorandum ceasefire expires ~Aug 17. No deal, no agreed terms, nine days left."
+        },
+        {
+          "date": "2026-08-09T18:00:00Z",
+          "note": "Aug 9: Bloomberg \u2014 Iran FM rules out US talks entirely until US 'makes amends' for MOU violations. The proposed deal \u2014 which would ban US and Israeli vessels, impose 7% cargo fees, and fine violators 20% \u2014 remains on the table for everyone else. The US has rejected any 'impediments to freedom of navigation.' Eight days to the ceasefire expiry. If no deal, the MOU framework lapses and the strait's status reverts to the pre-ceasefire posture."
         }
       ]
     },
@@ -544,12 +544,8 @@
       "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
       "first_seen": "2026-07-22T00:00:00Z",
       "last_seen": "2026-08-09T18:00:00Z",
-      "appearances": 14,
+      "appearances": 15,
       "history": [
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "Aug 3\u20134: Ceasefire holding at day 13 under the Islamabad Memorandum. Nuclear talks progressing but complicated by two Iranian conditions: a Lebanon ceasefire guarantee and limits on Iran's missile programme. 60-day window runs through approximately August 17. The transit fee regime ($1\u20132M per vessel) remains suspended during the window but the principle is established \u2014 Hormuz as a managed, priced passage, not neutral international water. A war that started without a congressional vote may end the same way."
-        },
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "Aug 5: Trump says a Hormuz deal could come 'this week.' CNBC: 'Iran, Oman say Strait of Hormuz talks in final stages.' Trump at a Las Vegas rally: 'Iran cannot have a nuclear weapon.' Vance: 'I remain confident we'll reach an outcome that benefits the United States.' The structure of the potential deal: a permanent fee-based transit regime managed through Oman \u2014 converting the 60-day ceasefire window into a standing arrangement. The ceasefire window under the Islamabad Memorandum expires approximately August 17. A formal follow-on deal before that date would institutionalize Hormuz as a managed passage rather than neutral international water. A war that started without a congressional vote may end the same way \u2014 by White House announcement."
@@ -565,8 +561,13 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Aug 6-7: The terms of Iran's Hormuz deal became public. NPR (Aug 7): 'Iran says agreement with Oman for Strait of Hormuz prohibits U.S. and Israeli vessels.' Bloomberg (Aug 6): 'Iran-Oman Deal Proposes Ban on US, Israeli Ships.' The deal would impose fees up to 7% of cargo value on commercial vessels transiting the strait and fines of up to 20% of cargo value for violators. Trump administration response (CNBC, Aug 6): the US rejects any 'impediments' to freedom of navigation. Trump had said a deal was coming 'this week' on August 5; by August 8 the US had formally rejected the Iranian terms. The ceasefire window under the Islamabad Memorandum expires approximately August 17. A war that started without a congressional vote is now approaching a post-ceasefire cliff with no agreed deal."
+        },
+        {
+          "date": "2026-08-09T18:00:00Z",
+          "note": "Aug 9: Bloomberg \u2014 'Iran Rejects US Talks for Now as Wait for Hormuz Deal Drags On.' Iranian FM Araghchi: 'As long as the American violation of the Memorandum of Understanding continues and the US does not make amends for its violations, there is no possibility of resuming negotiations.' Iran has now formally ruled out direct talks with the US \u2014 not just set conditions, but closed the door. The ceasefire window under the Islamabad MOU expires approximately August 17. Eight days remain with no active US-Iran negotiations and no agreed Hormuz arrangement."
         }
-      ]
+      ],
+      "season_or_time_context": "Aug 9, 2026 \u2014 Iran rules out US talks; ceasefire expires Aug 17"
     },
     {
       "id": "zelenskyy-fires-commander-protests",
@@ -1346,10 +1347,10 @@
       "editorial_potential": "high",
       "url": "https://www.bloomberg.com/news/articles/2026-08-01/greece-wildfires-rage-near-athens-prompting-sea-evacuations",
       "location": "Attica / Geraneia mountains / Kefalonia, Greece",
-      "season_or_time_context": "Aug 8, 2026 \u2014 three firefighters dead; Crete/Peloponnese active",
+      "season_or_time_context": "Aug 9, 2026 \u2014 Rethymno improving as winds ease; other areas active",
       "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-08T18:00:00Z",
-      "appearances": 5,
+      "last_seen": "2026-08-09T18:00:00Z",
+      "appearances": 6,
       "history": [
         {
           "date": "2026-08-04T18:00:00Z",
@@ -1366,6 +1367,10 @@
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "Aug 8: Three firefighters have died battling fires in Crete and the Peloponnese \u2014 the human cost of the expanded fire season. The Attica fires are largely contained; Crete and Paros fires remain active. Civil protection resources remain stretched. The death toll marks a shift: the fire season is no longer only about displaced residents and hectares \u2014 it is now a firefighter casualty event."
+        },
+        {
+          "date": "2026-08-09T18:00:00Z",
+          "note": "Aug 9: The fire in Rethymno, Crete is being brought under control as Meltemi winds ease \u2014 gusts had reached 100 km/h at peak, making containment impossible. With winds dropping, firefighting is yielding results. Other areas on Crete and Paros remain active. The three firefighter deaths stand as the week's casualty count. The easing of the Meltemi marks the beginning of the containment phase for this round \u2014 the same pattern as Attica a week earlier."
         }
       ]
     },
@@ -1381,18 +1386,22 @@
       "transferability": "Understanding fire mobility means reading every 'contained' headline as a change in location, not an end to risk",
       "cluster_id": "europe-summer-disruption-2026",
       "why_now": "Bordeaux declared largely contained August 1. Provence fire opened August 1\u20132. Same firefighting resources are relocating south.",
-      "status": "captured",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://wtop.com/world/2026/08/french-wildfire-near-bordeaux-contained-as-1500-firefighters-battle-separate-blaze-in-provence/",
       "location": "Bordeaux (contained) / Provence (new), France",
       "season_or_time_context": "August 1\u20132, 2026",
       "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-06T18:00:00Z",
+      "last_seen": "2026-08-09T18:00:00Z",
       "appearances": 2,
       "history": [
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "Aug 5: The Gros Bessillon fire in the Provence hills stabilized \u2014 perimeter not expanding overnight \u2014 but not fully contained as winds were expected to return. About 1,500 firefighters continued reinforcing fire lines. Satellite monitoring detected 115 active heat spots across France, highest concentration in Provence-Alpes-C\u00f4te d'Azur. European Forest Fire Information System: wildfire risk high across the continent through August 5. The relocation pattern continues \u2014 fire season is working through the fuel map."
+        },
+        {
+          "date": "2026-08-09T18:00:00Z",
+          "note": "France fire situation stabilized. Provence contained; 115 active heat spots declining. The relocation pattern (Bordeaux \u2192 Provence \u2192 Greece) is fully captured in fire-season-relocates recognition. Dormant."
         }
       ]
     },
@@ -1598,10 +1607,10 @@
       "editorial_potential": "medium",
       "url": "https://finviz.com/map.ashx?t=sec",
       "location": "United States",
-      "season_or_time_context": "Aug 9, 2026 \u2014 rate-cut rotation holding; energy sector supported by Hormuz ambiguity",
+      "season_or_time_context": "Aug 9, 2026 \u2014 S&P 500 record 7,758; bad jobs data fueling the rally",
       "first_seen": "2026-08-08T18:00:00Z",
       "last_seen": "2026-08-09T18:00:00Z",
-      "appearances": 2,
+      "appearances": 3,
       "history": [
         {
           "date": "2026-08-08T18:00:00Z",
@@ -1610,6 +1619,10 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Aug 9: Sector rotation from the jobs miss continues building. Homebuilders, REITs, and utilities holding gains as rate cut expectations remain firm. Energy sector held up by the Hormuz ambiguity \u2014 the US rejection of Iran's terms means the reopening trade hasn't run. The two signals (rate cuts coming + energy supply uncertain) are pulling different sectors in different directions on the finviz map."
+        },
+        {
+          "date": "2026-08-09T18:00:00Z",
+          "note": "Aug 9: Charles Schwab \u2014 'Surprise Jobs Drop Lifts Stocks as Hike Odds Fall.' The S&P 500 closed at a record 7,758 on August 7 \u2014 up 0.62% on the day of the worst jobs report since the pandemic. Nasdaq gained 1.3%. Bad economy = good rate-cut trade = stocks up. Goldman Sachs August Pulse: 'renewed enthusiasm around AI stocks and optimism about potential Hormuz reopening supported sentiment.' The record close happened the same day Iran ruled out US talks on the deal that was supposed to reopen the strait. The market is pricing the best version of both stories simultaneously."
         }
       ]
     },
