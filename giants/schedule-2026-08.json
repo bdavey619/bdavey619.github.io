@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-10T13:08:47.950365+00:00",
+  "generated_at": "2026-08-11T13:06:29.597206+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -82,19 +82,17 @@
       "gamePk": 823190,
       "status": "final",
       "result": "L",
-      "score": "1\u20133"
+      "score": "1\u20133",
+      "archive_url": "archive.html?date=2026-08-10"
     },
     {
       "date": "2026-08-10",
       "opponent": "HOU",
       "home": true,
       "gamePk": 823189,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "team": "Blade Tidwell",
-        "opp": "Hayden Wesneski"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20136"
     },
     {
       "date": "2026-08-11",
@@ -253,8 +251,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20136",
-    "current_streak": "L2",
-    "last_10": "3\u20137"
+    "month_record": "2\u20137",
+    "current_streak": "L3",
+    "last_10": "2\u20138"
   }
 }
