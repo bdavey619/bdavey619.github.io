@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-08",
   "division_name": "AL West",
-  "generated_at": "2026-08-10T13:59:16.611948+00:00",
+  "generated_at": "2026-08-11T14:00:06.549276+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -81,19 +81,17 @@
       "gamePk": 824724,
       "status": "final",
       "result": "W",
-      "score": "4\u20133"
+      "score": "4\u20133",
+      "archive_url": "archive.html?date=2026-08-10"
     },
     {
       "date": "2026-08-10",
       "opponent": "TB",
       "home": true,
       "gamePk": 824969,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Jacob Lopez",
-        "opp": "Freddy Peralta"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "6\u201310"
     },
     {
       "date": "2026-08-11",
@@ -103,6 +101,7 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
+        "team": "Mason Barnett",
         "opp": "Nick Martinez"
       }
     },
@@ -255,8 +254,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20136",
-    "current_streak": "W2",
+    "month_record": "2\u20137",
+    "current_streak": "L1",
     "last_10": "2\u20138"
   }
 }
