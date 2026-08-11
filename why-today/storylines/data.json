@@ -1,6 +1,6 @@
 {
   "week_start": "2026-08-10",
-  "last_updated": "2026-08-09T21:00:00Z",
+  "last_updated": "2026-08-11T18:00:00Z",
   "storylines": [
     {
       "id": "perseid-meteor-shower-buildup",
@@ -18,15 +18,11 @@
       "editorial_potential": "high",
       "url": "https://earthsky.org/astronomy-essentials/everything-you-need-to-know-perseid-meteor-shower/",
       "location": "",
-      "season_or_time_context": "Aug 9, 2026 \u2014 three days to peak; full media saturation",
+      "season_or_time_context": "Aug 11, 2026 \u2014 peak tomorrow; weather now the only variable",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-09T18:00:00Z",
-      "appearances": 9,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 10,
       "history": [
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "Eight days to peak. New moon on August 12\u201313 confirmed: ideal dark sky conditions. 2026 may run slightly lower raw rates than a peak Perseid year \u2014 Jupiter disturbed the stream center \u2014 but viewing conditions remain exceptional. Activity already visible nightly, increasing."
-        },
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "Six days to peak. The Aug 12 night now carries three layered events: Perseid peak, total solar eclipse (Spain/Iceland/Greenland path, first European totality since 1999), and the Ghost Month Hungry Ghost Festival. Activity is building nightly. The eclipse happens at dusk in Spain \u2014 totality before nightfall. Perseids begin after dark, everywhere. The same new moon responsible for ideal Perseid conditions is the moon that causes the eclipse."
@@ -42,6 +38,10 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Three days. BBC Sky at Night, Discover Magazine, Farmers' Almanac, NASA, Forbes, EarthSky, weather.com \u2014 every outlet has published. 80\u2013100 per hour under ideal conditions. Next new moon after this one: September \u2014 the 2045 comparison keeps appearing in coverage. Activity building every clear night already."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Peak is tomorrow night, Aug 12. Activity already building through the evening of Aug 11. Weather is the only variable left. The coverage saturation that was already complete on Aug 9 has now shifted to real-time sky reports and hourly cloud cover forecasts. The question is no longer whether to go outside."
         }
       ]
     },
@@ -92,10 +92,10 @@
       "editorial_potential": "high",
       "url": "https://www.techtimes.com/articles/321637/20260726/summers-third-heat-dome-targets-80-million-americans-overnight-heat-wont-break-until-august.htm",
       "location": "Central and eastern United States",
-      "season_or_time_context": "Late July 2026 \u2014 third heat dome of summer",
+      "season_or_time_context": "Aug 11, 2026 \u2014 4th heat dome; eclipse cools totality path briefly tomorrow",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-08-07T18:00:00Z",
-      "appearances": 5,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 6,
       "history": [
         {
           "date": "2026-08-04T18:00:00Z",
@@ -108,6 +108,10 @@
         {
           "date": "2026-08-07T18:00:00Z",
           "note": "July jobs report (Aug 7): 73K payrolls, 4.2% unemployment, -258K revision to prior months. The heat connection: healthcare was the one sector that grew (+28K), absorbing heat-illness treatment, ER visits, and mortality follow-up. Outside healthcare, cyclical private hiring was essentially zero. The heat dome that kept overnight temperatures above 75\u00b0F across the Southeast is the same condition degrading outdoor labor productivity. The count of 40+ Maricopa heat deaths remains preliminary \u2014 medical examiners processing July deaths through August."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Aug 11: The fourth US heat dome continues across the Southeast and Great Plains. Overnight lows above 75-80\u00b0F through at least mid-August. Heat-debt accumulation continues \u2014 Maricopa County's count will grow as medical examiners complete retrospective reviews. The eclipse tomorrow will briefly cool exposed surfaces under the path of totality, then full sun returns."
         }
       ]
     },
@@ -158,10 +162,10 @@
       "editorial_potential": "medium",
       "url": "https://www.marketplace.org/story/2026/07/06/anxiety-is-driving-some-of-our-backtoschool-buying-habits",
       "location": "",
-      "season_or_time_context": "Late July \u2014 ritual transition",
+      "season_or_time_context": "Aug 11, 2026 \u2014 peak back-to-school; eclipse tomorrow disrupts school day",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-07T18:00:00Z",
-      "appearances": 5,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 6,
       "history": [
         {
           "date": "2026-08-06T18:00:00Z",
@@ -170,6 +174,10 @@
         {
           "date": "2026-08-07T18:00:00Z",
           "note": "August 7: back-to-school shopping in full swing, but the July jobs report (73K payrolls) injects a new current into the ritual. Retailer reports show back-to-school spending up in dollar terms but down in unit volume \u2014 inflation plus weak labor market creating the same spending pressure with fewer items bought. The anxiety part of the ritual has an economic dimension this year: parents spending more to send children to school as the job market softens under them."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Aug 11: The back-to-school retail window is at peak. School starts across much of the US in the next 1-2 weeks. The eclipse tomorrow creates a one-day interruption in the routine: schools in the totality path are either dismissing early or holding eclipse viewing events. The first school bell of the year and the first totality since 1999 land in the same week."
         }
       ]
     },
@@ -241,15 +249,11 @@
       "editorial_potential": "high",
       "url": "https://www.lloydslistintelligence.com/resources/blog/strait-of-hormuz-brief-21-july-2026",
       "location": "Strait of Hormuz, Persian Gulf",
-      "season_or_time_context": "Aug 9, 2026 \u2014 no talks, no deal; Aug 17 ceasefire expiry",
+      "season_or_time_context": "Aug 11, 2026 \u2014 6 days to Aug 17; no deal, strait status unresolved",
       "first_seen": "2026-07-27T10:00:00Z",
-      "last_seen": "2026-08-09T18:00:00Z",
-      "appearances": 9,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 10,
       "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Commercial traffic recovering under the ceasefire. Trump says formal deal could come this week; Iran and Oman say talks in 'final stages.' If a permanent fee regime is formalized, this storyline transitions from crisis to structural condition."
-        },
         {
           "date": "2026-08-07T18:00:00Z",
           "note": "Iran-Oman deal agreed in principle Aug 6. New shipping lane coordinates through Iranian territorial waters agreed. Initial period: 2-4 months. But Iran has explicitly excluded the US from the arrangement \u2014 full reopening contingent on the US lifting its blockade of Iranian ports. This is a bilateral deal that codifies Iranian control of the strait, not the Trump-brokered reopening. The strait reopens on Iran's terms, not neutral ones."
@@ -265,6 +269,10 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Aug 9: Bloomberg \u2014 Iran FM rules out US talks entirely until US 'makes amends' for MOU violations. The proposed deal \u2014 which would ban US and Israeli vessels, impose 7% cargo fees, and fine violators 20% \u2014 remains on the table for everyone else. The US has rejected any 'impediments to freedom of navigation.' Eight days to the ceasefire expiry. If no deal, the MOU framework lapses and the strait's status reverts to the pre-ceasefire posture."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Aug 11: Six days to ceasefire expiry, no deal, no US-Iran talks. Iran's proposed fee regime \u2014 banning US/Israeli vessels, 7% cargo fees, 20% fines \u2014 remains on the table. The US has not re-engaged. The strait's post-ceasefire status remains unresolved. Commercial traffic is moving under the MOU framework; what happens after Aug 17 is open."
         }
       ]
     },
@@ -284,13 +292,9 @@
       "editorial_potential": "high",
       "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
       "first_seen": "2026-07-22T00:00:00Z",
-      "last_seen": "2026-08-09T18:00:00Z",
-      "appearances": 15,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 16,
       "history": [
-        {
-          "date": "2026-08-06T18:00:00Z",
-          "note": "Aug 5: Trump says a Hormuz deal could come 'this week.' CNBC: 'Iran, Oman say Strait of Hormuz talks in final stages.' Trump at a Las Vegas rally: 'Iran cannot have a nuclear weapon.' Vance: 'I remain confident we'll reach an outcome that benefits the United States.' The structure of the potential deal: a permanent fee-based transit regime managed through Oman \u2014 converting the 60-day ceasefire window into a standing arrangement. The ceasefire window under the Islamabad Memorandum expires approximately August 17. A formal follow-on deal before that date would institutionalize Hormuz as a managed passage rather than neutral international water. A war that started without a congressional vote may end the same way \u2014 by White House announcement."
-        },
         {
           "date": "2026-08-07T18:00:00Z",
           "note": "Aug 6: Iran and Oman agreed in principle on Hormuz shipping arrangements. Iran's Deputy FM Gharibabadi: 'An understanding in principle has been reached on almost all raised issues, including the map for maritime traffic entry and exit routes.' Under the proposed arrangement, new inbound and outbound corridors would pass partially through Iranian territorial waters \u2014 a departure from the decades-old system in which traffic traveled through Omani waters. CNN analysis: 'An agreement on the Strait of Hormuz is taking shape \u2014 but not one Trump wants.' Tehran explicitly stated the US is not party to the agreement and hinted that full normalization of the strait depends on Washington lifting its blockade of Iranian ports. The deal institutionalizes Iranian sovereignty over the passage rather than restoring neutral international water."
@@ -306,9 +310,13 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Aug 9: Bloomberg \u2014 'Iran Rejects US Talks for Now as Wait for Hormuz Deal Drags On.' Iranian FM Araghchi: 'As long as the American violation of the Memorandum of Understanding continues and the US does not make amends for its violations, there is no possibility of resuming negotiations.' Iran has now formally ruled out direct talks with the US \u2014 not just set conditions, but closed the door. The ceasefire window under the Islamabad MOU expires approximately August 17. Eight days remain with no active US-Iran negotiations and no agreed Hormuz arrangement."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Aug 11: Six days to the Islamabad MOU ceasefire expiry. No US-Iran talks. No agreed Hormuz arrangement. Iran FM Araghchi ruled out negotiations on Aug 9 and no change since. The Trump administration has offered no public response to that statement. The clock is running without a visible diplomatic process."
         }
       ],
-      "season_or_time_context": "Aug 9, 2026 \u2014 Iran rules out US talks; ceasefire expires Aug 17"
+      "season_or_time_context": "Aug 11, 2026 \u2014 6 days to Aug 17 ceasefire expiry; no talks"
     },
     {
       "id": "zelenskyy-fires-commander-protests",
@@ -326,13 +334,9 @@
       "editorial_potential": "high",
       "url": "https://www.nbcnews.com/world/ukraine/ukraines-zelenskyy-fires-commander-chief-protests-major-rift-rcna588159",
       "first_seen": "2026-07-21T00:00:00Z",
-      "last_seen": "2026-08-09T18:00:00Z",
-      "appearances": 9,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 10,
       "history": [
-        {
-          "date": "2026-08-02T18:00:00Z",
-          "note": "Drapatyi manpower audit underway. Russia launched 31 missiles, 201 guided bombs, and 6,659 kamikaze drones on August 1 alone. Ukraine's new strategy: precision long-range strikes on hard-to-replace industrial components rather than broad infrastructure. Russia's territorial gains this year have tapered to 10\u201315 square miles in the past month while Ukraine claims 700 sq km recaptured."
-        },
         {
           "date": "2026-08-04T18:00:00Z",
           "note": "Drapatyi audit findings emerging: some brigades severely understaffed, others overstaffed. Syrskyi reportedly redirected mobilized recruits to newly formed brigades criticized for abuse and wasteful attacks. Drapatyi warned 'no one will be untouchable.' The accountability gap that forced the leadership change is now being measured by the new commander's first act. Russia launched 200+ guided bombs and drones August 3 while the audit proceeds."
@@ -348,8 +352,13 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Aug 9: Bloomberg reports Ukraine grain exports forecast to fall 53% as Russia continues systematic port strikes. Russian forces also destroyed Ukraine's largest PPE warehouse. The Aug 8 151-drone attack was the week's largest single strike; the grain and PPE targeting is the sustained campaign underneath: civilian infrastructure attrition designed to squeeze export revenue and defense supply simultaneously. Drapatyi audit continues in the background."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Aug 11: Drapatyi's manpower audit entering its second week. Early findings (brigades unevenly staffed, mobilized recruits misrouted under Syrskyi) are being processed command-wide. No public deliverable yet. The grain export disruption from Aug 9 \u2014 53% forecast drop from Russian port strikes \u2014 continues in the background."
         }
-      ]
+      ],
+      "season_or_time_context": "Aug 11, 2026 \u2014 Drapatyi audit week 2; grain disruption ongoing"
     },
     {
       "id": "waico-global-south-ai-split",
@@ -487,8 +496,8 @@
       "editorial_potential": "medium",
       "url": "https://www.benzinga.com/markets/earnings/26/07/60438897/jamie-dimon-delivers-mixed-message-economy-is-resilient-but-market-risks-are-mounting",
       "first_seen": "2026-07-17T00:00:00Z",
-      "last_seen": "2026-08-08T18:00:00Z",
-      "appearances": 7,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 8,
       "history": [
         {
           "date": "2026-08-06T18:00:00Z",
@@ -501,8 +510,13 @@
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "Aug 8: After the July jobs miss (73K, -258K revision), the White House escalated attacks on Fed Chair Powell. Labor Secretary Lori Chavez-DeRemer: 'Jerome Powell needs to do his job and cut those interest rates now.' Trump on Truth Social: 'Jerome Too Late Powell should have lowered rates long ago.' Yahoo Finance headline: 'Jobs slowdown seals Fed rate cut as White House criticizes Powell for not acting sooner.' The sentiment gap now has a political dimension: the administration that three Fed members were prepared to hike for on July 29 is now loudly demanding cuts \u2014 within ten days of that meeting."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Aug 11: The gap between economic data (jobs miss, yield drop, rate-cut trade live) and market sentiment (S&P record close Aug 7) is now one week old and hasn't closed. Stocks haven't given back the eclipse-week gains. The market is pricing both the rate-cut trade and the Hormuz-reopening trade simultaneously."
         }
-      ]
+      ],
+      "season_or_time_context": "Aug 11, 2026 \u2014 data/sentiment gap intact; S&P record holding"
     },
     {
       "id": "pogacar-fifth-tour-de-france",
@@ -543,15 +557,11 @@
       "status": "captured",
       "editorial_potential": "high",
       "url": "https://www.japantimes.co.jp/news/2026/07/27/world/wildfires-bordeaux-france-spain/",
-      "season_or_time_context": "Late July 2026",
+      "season_or_time_context": "Aug 11, 2026 \u2014 Provence stabilizing; Omega block easing",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-07T18:00:00Z",
-      "appearances": 8,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 9,
       "history": [
-        {
-          "date": "2026-07-27T16:00:00Z",
-          "note": "Evacuation total now 320,000+. Fire generated a pyrocumulonimbus \u2014 fire-created thunderstorm, first ever recorded in France. The fire-cloud creates lightning that starts new fires beyond the original perimeter, making the blaze partially self-perpetuating. Authorities warn fire may not be fully out for months. Macron calls emergency cabinet meeting."
-        },
         {
           "date": "2026-07-29T12:00:00Z",
           "note": "330,000+ total evacuated across France and Spain. 60,000 evacuees allowed to return to 3 Bordeaux suburbs. But a 4th heatwave of summer is arriving \u2014 Omega block atmospheric pattern, 40-45\u00b0C forecast \u2014 threatening to reignite the fire. 4,000 more tourists ordered evacuated from Atlantic coast sites. Fire still not contained, one week after start."
@@ -567,6 +577,10 @@
         {
           "date": "2026-08-07T18:00:00Z",
           "note": "France: 115 active heat spots remain (as of Aug 5-6). Spain: high fire risk zones across the Iberian Peninsula. Greece: 150+ wildfires, Crete and Paros newly active. The European fire map as of August 7 shows simultaneous fire pressure across three countries. The firefighting resources that were in Bordeaux, then Athens, are now stretched across the full Mediterranean arc."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Aug 11: The Provence fire that erupted after Bordeaux containment is stabilizing. The Omega block that drove the summer's four heatwaves has shifted \u2014 the same atmospheric pattern that fueled Bordeaux, Provence, and the Greek fires is easing as August moves toward its second half. Fire season is entering its containment phase across France and Spain."
         }
       ]
     },
@@ -639,15 +653,11 @@
       "editorial_potential": "high",
       "url": "https://www.britannica.com/topic/Hungry-Ghost-Festival",
       "location": "East and Southeast Asia; global diaspora",
-      "season_or_time_context": "Aug 9, 2026 \u2014 two convergences: Aug 12 (eclipse+Perseids+Ghost Month opens) and Aug 27 (blood moon+festival)",
+      "season_or_time_context": "Aug 11, 2026 \u2014 eclipse eve; Ghost Month opens Aug 13; blood moon Aug 27",
       "first_seen": "2026-07-27T16:00:00Z",
-      "last_seen": "2026-08-09T18:00:00Z",
-      "appearances": 7,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 8,
       "history": [
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "Ghost Month is in its second week. The main festival \u2014 Hungry Ghost Festival, the 15th day of the seventh lunar month \u2014 falls on August 12. The same night as the Perseid meteor shower peak. In Chinese tradition, August 12 is the night ancestral spirits are closest to the living; in astronomical tradition, it is the night Earth is deepest in the debris trail of a comet that last visited the inner solar system in 69 BC. The front rows of theaters stay empty for unseen guests; overhead, the sky is full of light that has been traveling since before the comet rounded the sun."
-        },
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "Aug 12 has acquired a third layer. The night of the Hungry Ghost Festival and Perseid peak will now also see a total solar eclipse sweep across Spain and Iceland \u2014 the first totality on mainland Europe since 1999. In European tradition, totality arrives at golden hour, just before dark. Then the Perseid peak after nightfall. In Chinese tradition, the same night is when the Gates of the Underworld are widest and ancestral spirits walk. Three frameworks for understanding the sky \u2014 two astronomical, one ancestral \u2014 all converge on the same evening. The eclipse is the sun being briefly swallowed; in the Ghost Month calendar, it arrives precisely when the dead are nearest the living."
@@ -663,6 +673,10 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Aug 9: Discovery \u2014 there are TWO eclipse convergences in August, not one. Farmers' Almanac August sky guide: 'Perseid Meteors, Two Eclipses, Venus, and the Sturgeon Moon.' Forbes (Aug 1): 'See A Solar Eclipse, The Perseids And A 96% Blood Moon: August's Sky.' The second eclipse is a near-total lunar eclipse on August 27 \u2014 96% of the moon's disk in shadow, producing a deep red blood moon. August 27 is also the Sturgeon Moon AND the Hungry Ghost Festival \u2014 the night the Gates of the Underworld are widest. The August 12 convergence (solar eclipse + Perseids + Ghost Month opening) and the August 27 convergence (near-total blood moon + Hungry Ghost Festival) are two separate events, both within the same Ghost Month. The ancestral spirits walk in during a blood moon."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Tonight is the eve of the eclipse; Ghost Month opens Aug 13. Two convergences inside the same Ghost Month: the Aug 12 solar eclipse + Perseids (the doorway opening night); and the Aug 27 near-total lunar eclipse (96%, blood moon) landing on the Hungry Ghost Festival itself, the night the gates are widest. The interval between the two: 15 days \u2014 exactly half a lunar cycle."
         }
       ]
     },
@@ -732,15 +746,11 @@
       "editorial_potential": "high",
       "url": "https://www.bloomberg.com/news/articles/2026-08-01/greece-wildfires-rage-near-athens-prompting-sea-evacuations",
       "location": "Attica / Geraneia mountains / Kefalonia, Greece",
-      "season_or_time_context": "Aug 9, 2026 \u2014 Rethymno improving as winds ease; other areas active",
+      "season_or_time_context": "Aug 11, 2026 \u2014 Rethymno improving; other areas active; Meltemi easing",
       "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-09T18:00:00Z",
-      "appearances": 6,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 7,
       "history": [
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "Aug 3\u20134: fires in western Attica jumped containment lines as strong winds returned, gusting above 70 kph. Total evacuations across Attica and Kefalonia now exceed 1,000. Provence fire in France stabilizing but not fully contained. European firefighting aircraft stretched across simultaneous active fronts in two countries. The fire season remains active \u2014 moving rather than ending."
-        },
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "Aug 5: Greek fire services spokesman: 'The situation in the region is much better.' The Athens-area fires burned more than 14,000 hectares over five days. Remaining containment lines lifted. Teams from the Environment and Civil Protection ministries arrived to assess communities 50km northwest of Athens. PM Mitsotakis chaired a cabinet meeting to determine compensation. Hundreds of displaced animals in rescue. Very high fire risk (Category 4) remains for Attica and Greek islands through Aug 6. The acute phase is ending; the conditions that caused it are not."
@@ -756,6 +766,10 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Aug 9: The fire in Rethymno, Crete is being brought under control as Meltemi winds ease \u2014 gusts had reached 100 km/h at peak, making containment impossible. With winds dropping, firefighting is yielding results. Other areas on Crete and Paros remain active. The three firefighter deaths stand as the week's casualty count. The easing of the Meltemi marks the beginning of the containment phase for this round \u2014 the same pattern as Attica a week earlier."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Aug 11: Rethymno (Crete) containment continuing as Meltemi eases further. Paros and Peloponnese areas remain active. Civil Protection resources stretched. The three firefighter deaths from Aug 7-8 stand as the week's casualty count. The pattern: each fire system that burns reduces available fuel in that region \u2014 the question is where ignition finds the next unburned zone."
         }
       ]
     },
@@ -806,15 +820,11 @@
       "editorial_potential": "high",
       "url": "https://weather.com/2026/07/16/science/space/perseid-meteor-shower-2026-perfect-new-moon-to-create-ideal-conditions-for-peak",
       "location": "",
-      "season_or_time_context": "Aug 9, 2026 \u2014 three days to Aug 12 peak; crescent moon with Mars predawn",
+      "season_or_time_context": "Aug 11, 2026 \u2014 one day to peak; 80-100/hr tomorrow night",
       "first_seen": "2026-08-02T18:00:00Z",
-      "last_seen": "2026-08-09T18:00:00Z",
-      "appearances": 6,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 7,
       "history": [
-        {
-          "date": "2026-08-04T18:00:00Z",
-          "note": "Eight days to peak on August 12\u201313. Rates building nightly \u2014 already visible on any clear dark night. New detail from meteor scientists: Jupiter's gravity has disturbed the stream's center, meaning 2026 raw rates may run slightly below a typical Perseid peak year; Earth encounters denser debris in 2027. But the new moon holds \u2014 near-perfect dark skies at peak. The condition for a great year is visibility, not density. Any clear night this week is a preview."
-        },
         {
           "date": "2026-08-06T18:00:00Z",
           "note": "Six days to peak. New development: a total solar eclipse also occurs on August 12 \u2014 the same night as the Perseid peak. The eclipse path crosses Siberian Russia, eastern Greenland, Iceland, and northern Spain, reaching mainland Europe for the first time since 1999. In Spain, totality arrives during golden hour, just before sunset. For viewers in North America and northern Europe who miss the eclipse path, the same new moon that causes the eclipse also guarantees the darkest Perseid skies in years. The darkness that enables meteor watching and the darkness of the eclipse are the same astronomical condition."
@@ -830,6 +840,10 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Three days to peak. August 9 predawn: crescent moon rises alongside Mars \u2014 the last notable night sky event before the main show. BBC Sky at Night Magazine: 'We're getting a solar eclipse and shooting stars on the same day. How to see this summer's cosmic double whammy.' Discover Magazine: 'A Total Solar Eclipse and the Perseids Meteor Shower Will Share the Sky in August 2026.' Coverage has reached saturation \u2014 every astronomy outlet, weather service, and general-interest science publication has published its guide. The event is now inside the window where the question is just: will the sky be clear?"
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Tomorrow is the peak. The eclipse happens during the day; the Perseids run overnight. Aug 11 predawn: the shower is already active at ~30 per hour under dark skies. Tomorrow night \u2014 after totality \u2014 rates climb toward 80-100 per hour. Ghost Month opens Aug 13. The convergence window closes at dawn on Aug 13."
         }
       ]
     },
@@ -870,10 +884,10 @@
       "editorial_potential": "high",
       "url": "https://science.nasa.gov/eclipses/future-eclipses/total-solar-eclipse-on-august-12-2026/",
       "location": "Spain, Iceland, Greenland, Russia",
-      "season_or_time_context": "Aug 9, 2026 \u2014 three days to totality; second Aug eclipse confirmed (Aug 27)",
+      "season_or_time_context": "Aug 11, 2026 \u2014 one day to totality; Perseids peak tomorrow night",
       "first_seen": "2026-08-06T18:00:00Z",
-      "last_seen": "2026-08-09T18:00:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-08-07T18:00:00Z",
@@ -886,6 +900,10 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Three days to totality. Forbes (Aug 1): 'See A Solar Eclipse, The Perseids And A 96% Blood Moon: August's Sky' \u2014 also flags the August 27 near-total lunar eclipse. Two eclipse events in August 2026: the Aug 12 total solar eclipse and an Aug 27 near-total lunar eclipse (96%, blood moon). The Farmers' Almanac notes both. The Aug 12 eclipse remains the headliner \u2014 path through Spain, Iceland, Greenland, Russia; first European totality since 1999."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Tomorrow. Path through Spain, Iceland, Greenland, Russia \u2014 first European totality since 1999. Simultaneous with Perseids peak. Weather forecasts are the dominant search. Ghost Month opens the day after. The three-way convergence lands tonight into tomorrow morning."
         }
       ]
     },
@@ -905,10 +923,10 @@
       "editorial_potential": "high",
       "url": "https://fred.stlouisfed.org/series/DGS10",
       "location": "United States",
-      "season_or_time_context": "Aug 8, 2026 \u2014 rate cut sealed, jumbo cut chatter, White House vs Powell",
+      "season_or_time_context": "Aug 11, 2026 \u2014 yield steady; rate-cut consensus holding into Sept FOMC",
       "first_seen": "2026-08-08T18:00:00Z",
-      "last_seen": "2026-08-08T18:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-08-08T18:00:00Z",
@@ -917,6 +935,10 @@
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "Aug 8: 'Jumbo rate cut chatter rising after dismal jobs report' \u2014 AOL/TheStreet. Rate cut at the September FOMC now described as sealed. White House: Trump calls Powell 'Too Late Powell'; Labor Secretary demands cuts 'now.' The political pressure and the market pricing are pointing the same direction for the first time since the war began. TheStreet: 'Cooling jobs report resets Fed interest-rate cut bet.' The 10-year fell on the print; 30-year following. Mortgage rate relief is now a matter of when, not whether."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Aug 11: The 10-year yield has held its post-jobs-miss level through the week. No new economic data to reprice. Rate-cut expectations remain market consensus heading into the eclipse weekend. The FOMC doesn't meet again until September."
         }
       ]
     },
@@ -936,14 +958,18 @@
       "editorial_potential": "high",
       "url": "https://www.aljazeera.com/news/2026/8/7/saudi-%E2%81%A0arabia-pakistan-and-turkiye-sign-defence-deal-amid-regional-turmoil",
       "location": "Mecca, Saudi Arabia",
-      "season_or_time_context": "Aug 8, 2026 \u2014 signed Aug 7, same week as Hormuz deal",
+      "season_or_time_context": "Aug 11, 2026 \u2014 pact in week 1; 6 days to ceasefire expiry",
       "first_seen": "2026-08-08T18:00:00Z",
-      "last_seen": "2026-08-08T18:00:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 2,
       "history": [
         {
           "date": "2026-08-08T18:00:00Z",
           "note": "First capture. Signed August 7 in Mecca by MBS, Erdogan, and Shehbaz Sharif. Described across media as 'Sunni NATO.' Not brokered by the US or any Western institution. Simultaneous with Iran-Oman Hormuz negotiations \u2014 two competing regional architectures taking shape in the same week."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Aug 11: The Mecca Joint Defence Agreement \u2014 signed Aug 7 \u2014 has entered its first week without a formal US response. The pact's first test is ambient: the Hormuz ceasefire expires in 6 days, the deal's signatories include a nuclear power (Pakistan) and a NATO member (Turkey), and the US is not a party to any of the regional arrangements forming around the same contested water."
         }
       ]
     },
@@ -961,12 +987,12 @@
       "why_now": "July jobs miss (73K, -258K revision) drove an immediate sector rotation on August 7\u20138. The finviz heat map is the real-time record of where this repricing is landing.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://finviz.com/map.ashx?t=sec",
+      "url": "",
       "location": "United States",
-      "season_or_time_context": "Aug 9, 2026 \u2014 S&P 500 record 7,758; bad jobs data fueling the rally",
+      "season_or_time_context": "Aug 11, 2026 \u2014 rotation holding; eclipse tomorrow; 6 days to ceasefire",
       "first_seen": "2026-08-08T18:00:00Z",
-      "last_seen": "2026-08-09T18:00:00Z",
-      "appearances": 3,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-08-08T18:00:00Z",
@@ -979,6 +1005,10 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Aug 9: Charles Schwab \u2014 'Surprise Jobs Drop Lifts Stocks as Hike Odds Fall.' The S&P 500 closed at a record 7,758 on August 7 \u2014 up 0.62% on the day of the worst jobs report since the pandemic. Nasdaq gained 1.3%. Bad economy = good rate-cut trade = stocks up. Goldman Sachs August Pulse: 'renewed enthusiasm around AI stocks and optimism about potential Hormuz reopening supported sentiment.' The record close happened the same day Iran ruled out US talks on the deal that was supposed to reopen the strait. The market is pricing the best version of both stories simultaneously."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Aug 11: Sector rotation holding. Homebuilders and REITs maintained gains through the week as rate-cut expectations stayed firm. The jobs-miss trade hasn't unwound. Energy sector supported by Hormuz ambiguity \u2014 6 days to ceasefire expiry with no deal in place. The two signals (cuts coming + energy supply uncertain) continue pulling different sectors in opposite directions."
         }
       ]
     },
@@ -998,10 +1028,10 @@
       "editorial_potential": "high",
       "url": "",
       "location": "Europe / Global",
-      "season_or_time_context": "Aug 9, 2026 \u2014 US rejection; premium may persist through Aug 17 ceasefire expiry",
+      "season_or_time_context": "Aug 11, 2026 \u2014 6 days to expiry; premium intact",
       "first_seen": "2026-08-08T18:00:00Z",
-      "last_seen": "2026-08-09T18:00:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-11T18:00:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-08-08T18:00:00Z",
@@ -1010,6 +1040,10 @@
         {
           "date": "2026-08-09T18:00:00Z",
           "note": "Aug 9: US has rejected Iran's proposed Hormuz terms \u2014 explicitly refusing any deal that would prohibit US/Israeli vessels or impose fees on American commercial shipping. This rejection means the energy risk premium does not compress on any announcement of a deal: a deal that excludes the US is not a reopening the US accepts. TTF gas remains elevated. The strait may reopen for Chinese, European, and Gulf tankers under an Iranian fee regime \u2014 while remaining formally closed to US and Israeli vessels. The energy sector on finviz is pricing this ambiguity."
+        },
+        {
+          "date": "2026-08-11T18:00:00Z",
+          "note": "Aug 11: The energy risk premium remains structurally elevated. No US-Iran talks, 6 days to ceasefire expiry, no agreed Hormuz arrangement. The premium that doesn't compress on a deal that excludes the US is still the dominant energy market signal."
         }
       ]
     }
