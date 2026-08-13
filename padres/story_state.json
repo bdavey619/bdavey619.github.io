@@ -3,16 +3,19 @@
   "driver": "balanced",
   "confidence": "medium",
   "pressure": "low",
-  "record_w": 64,
+  "record_w": 65,
   "record_l": 57,
-  "streak": "W4",
+  "streak": "W5",
   "last10_w": 7,
-  "era": 4.12,
-  "ops": 0.703,
+  "era": 4.1,
+  "ops": 0.702,
   "gb": 8.5,
-  "division_rank": 3,
+  "division_rank": 2,
   "last_result": "W",
-  "date": "2026-08-11",
-  "game_emotion_level": "normal",
-  "drama_sequence": null
+  "date": "2026-08-12",
+  "game_emotion_level": "extreme",
+  "drama_sequence": {
+    "tying_inning": 8,
+    "walkoff_inning": 11
+  }
 }
