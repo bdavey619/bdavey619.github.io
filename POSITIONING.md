@@ -13,6 +13,16 @@ Last updated: 15 August 2026
 
 That's the site. Everything on it is evidence for that one sentence.
 
+On the page it reads as the headline:
+
+> **I build small things that change what you notice.**
+
+"Notice" is deliberate, not decorative. It is already the load-bearing verb
+across the work — Seasonal's stated goal is *"I started noticing the year,"* The
+Local Season is about noticing routines, Must Watch is about what is worth
+noticing tonight. Earlier drafts ended on "how you see a familiar one," which
+was an abstraction standing in for the real thing.
+
 Shifting perspective is the reason the projects exist. It's not a side effect of
 being curious, and it's not a portfolio theme applied after the fact — it's the
 actual motive. A project belongs here when it takes something a person already
@@ -88,6 +98,32 @@ Worked examples:
   better than "a lot of games."
 - **If a line could describe someone else's project, rewrite it.**
 - **One line per project.** If it needs a paragraph, it needs a project page.
+
+## Design
+
+**Ground: Marine (`#dbe3e8`), a cool grey-blue — the June-gloom morning.** Not a
+style preference. Eight of the nine project screenshots have warm near-white
+edges (luminance 230–253), so any warm paper ground lets them dissolve into the
+page. Cool separates them by hue; the shadow under each one separates them by
+depth. Dark mode is Pacific (`#0d2a31`) — deep water.
+
+**Accent: deep teal (`#0b5d68`), Pacific in daylight.** It carries the second
+half of the headline and every "View →". Analogous to the ground rather than
+fighting it, and it clears AA at small sizes, so it works on labels and not just
+display type. An earlier vermilion read as sunset-orange and belonged to a
+warmer palette than this one.
+
+**Hierarchy is the point.** Each group leads with one featured project at full
+width and follows with the rest as smaller cards. Nine projects at identical
+visual weight is what made an earlier version read as a list rather than a
+portfolio — and equal weight also contradicts ordering by argument strength.
+
+**The featured slot goes to the project that makes the group's case best** — with
+one exception worth remembering: the Debt Cycle Explainer is a wholly dark page
+(luminance 6–18 top to bottom, no light section and no theme toggle), so as a
+full-width feature it punched a black hole through the layout. Operation Epic
+Fury leads "Patterns underneath" instead, and Debt Cycle sits in a card where
+its darkness is an accent rather than a wall.
 
 ## Structure
 

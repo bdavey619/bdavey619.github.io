@@ -1,20 +1,29 @@
 /* ============================================
-   Design System — bdavey619.github.io
-   Minimalist, text-first, personal library feel
+   Design System — bdavey.co
+   Text-first and editorial, on a San Diego palette:
+   marine layer by day, Pacific after dark.
+
+   The ground is deliberately cool. Eight of the nine project
+   screenshots have warm near-white edges (luminance 230–253), so a
+   warm paper ground lets them dissolve into the page. A cool ground
+   plus a real shadow makes them read as objects sitting on it.
    ============================================ */
 
 :root {
-  /* Colors */
-  --bg: #fafaf8;
-  --text: #1a1a1a;
-  --text-muted: #6b6b6b;
-  --link: #1a1a1a;
-  --link-hover: #4a4a4a;
-  --border: #e0e0dc;
-  --code-bg: #f0f0ec;
-  --tag-bg: #eeeee9;
-  --tag-active-bg: #1a1a1a;
-  --tag-active-text: #fafaf8;
+  /* Colors — Marine (June gloom) */
+  --bg: #dbe3e8;
+  --surface: #eef3f5;
+  --text: #16232c;
+  --text-muted: #566670;
+  --link: #16232c;
+  --link-hover: #0b5d68;
+  --accent: #0b5d68;
+  --border: #c0ced6;
+  --code-bg: #cfdae0;
+  --tag-bg: #cfdae0;
+  --tag-active-bg: #16232c;
+  --tag-active-text: #eef3f5;
+  --shadow: 0 1px 2px rgba(20, 40, 55, .10), 0 16px 32px -14px rgba(20, 40, 55, .34);
 
   /* Typography */
   --font-body: Georgia, "Times New Roman", Times, serif;
@@ -33,31 +42,38 @@
   --text-2xl: 2rem;
 }
 
+/* Pacific — the dark counterpart */
 [data-theme="dark"] {
-  --bg: #1a1a1a;
-  --text: #e0e0dc;
-  --text-muted: #999;
-  --link: #e0e0dc;
-  --link-hover: #bbb;
-  --border: #333;
-  --code-bg: #252525;
-  --tag-bg: #2a2a2a;
-  --tag-active-bg: #e0e0dc;
-  --tag-active-text: #1a1a1a;
+  --bg: #0d2a31;
+  --surface: #12363f;
+  --text: #e8f0f1;
+  --text-muted: #8ea8ad;
+  --link: #e8f0f1;
+  --link-hover: #6fc7d1;
+  --accent: #6fc7d1;
+  --border: #1d4753;
+  --code-bg: #123840;
+  --tag-bg: #123840;
+  --tag-active-bg: #e8f0f1;
+  --tag-active-text: #0d2a31;
+  --shadow: 0 0 0 1px rgba(255, 255, 255, .07), 0 18px 36px -16px rgba(0, 0, 0, .65);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #1a1a1a;
-    --text: #e0e0dc;
-    --text-muted: #999;
-    --link: #e0e0dc;
-    --link-hover: #bbb;
-    --border: #333;
-    --code-bg: #252525;
-    --tag-bg: #2a2a2a;
-    --tag-active-bg: #e0e0dc;
-    --tag-active-text: #1a1a1a;
+    --bg: #0d2a31;
+    --surface: #12363f;
+    --text: #e8f0f1;
+    --text-muted: #8ea8ad;
+    --link: #e8f0f1;
+    --link-hover: #6fc7d1;
+    --accent: #6fc7d1;
+    --border: #1d4753;
+    --code-bg: #123840;
+    --tag-bg: #123840;
+    --tag-active-bg: #e8f0f1;
+    --tag-active-text: #0d2a31;
+    --shadow: 0 0 0 1px rgba(255, 255, 255, .07), 0 18px 36px -16px rgba(0, 0, 0, .65);
   }
 }
 
@@ -263,21 +279,193 @@ blockquote p:last-child {
   margin-bottom: 0;
 }
 
+/* ---- Home: wider canvas for the work ---- */
+
+.container--home {
+  max-width: 1080px;
+}
+
 /* ---- Lede (homepage thesis) ---- */
 
 .lede {
-  padding: 0.5rem 0 0.25rem;
+  padding: clamp(2rem, 7vw, 4.5rem) 0 clamp(1.5rem, 4vw, 2.75rem);
 }
 
 .lede h1 {
   font-family: var(--font-body);
-  font-size: var(--text-2xl);
+  font-size: clamp(2.1rem, 5.6vw, 3.75rem);
   font-weight: 400;
-  line-height: 1.22;
-  letter-spacing: -0.01em;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
   max-width: 20ch;
   text-wrap: balance;
-  margin: 0 0 0.75rem;
+  margin: 0;
+}
+
+.lede h1 .hit {
+  color: var(--accent);
+}
+
+/* ---- Home: project groups ---- */
+
+.group {
+  padding: clamp(2.25rem, 5vw, 3.75rem) 0 0;
+}
+
+.ghead {
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-bottom: 2.1rem;
+}
+
+.ghead h2 {
+  margin: 0;
+  font-family: var(--font-ui);
+  font-size: clamp(1.45rem, 3.2vw, 2.05rem);
+  font-weight: 700;
+  letter-spacing: -0.022em;
+  line-height: 1.15;
+}
+
+.ghead p {
+  margin: 0.35rem 0 0;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+/* The screenshots are objects sitting on the page, not washes of it —
+   the shadow is what separates them from a light ground. */
+.shot {
+  border: 1px solid var(--border);
+  background: var(--tag-bg);
+  overflow: hidden;
+  line-height: 0;
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.35s ease, transform 0.45s cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+.shot img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.55s cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+.feat,
+.card {
+  text-decoration: none;
+  display: block;
+}
+
+.feat:hover .shot,
+.card:hover .shot {
+  transform: translateY(-3px);
+}
+
+.feat:hover .shot img {
+  transform: scale(1.018);
+}
+
+.card:hover .shot img {
+  transform: scale(1.03);
+}
+
+.feat {
+  margin-bottom: 2.5rem;
+}
+
+.feat .meta {
+  margin-top: 1.2rem;
+  max-width: 54ch;
+}
+
+.feat h3 {
+  margin: 0 0 0.3rem;
+  font-family: var(--font-body);
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.012em;
+}
+
+.feat p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 1.03rem;
+}
+
+.feat .go,
+.card .go {
+  display: inline-block;
+  margin-top: 0.55rem;
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.feat:hover .go,
+.card:hover .go {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* auto-fill, not auto-fit: a lone card keeps one column's width instead of
+   stretching full-bleed and competing with the featured project above it */
+.rest {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  gap: 1.9rem 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.72rem;
+}
+
+.card h3 {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.card p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-family: var(--font-ui);
+  line-height: 1.45;
+}
+
+/* ---- Scroll entrance ---- */
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.65s ease, transform 0.65s cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+[data-reveal].in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .shot,
+  .shot img {
+    transition: none;
+  }
 }
 
 /* ---- Section Helpers ---- */
@@ -286,18 +474,13 @@ blockquote p:last-child {
   margin-bottom: 0;
 }
 
-/* Consecutive groups (no rule between them) need their own breathing room */
-.section + .section {
-  margin-top: 2.25rem;
-}
-
 .section-label {
   font-family: var(--font-ui);
   font-size: var(--text-sm);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #8a8f98;
+  color: var(--text-muted);
   margin: 0 0 0.875rem;
   display: flex;
   align-items: center;
@@ -308,27 +491,9 @@ blockquote p:last-child {
   display: inline-block;
   width: 24px;
   height: 1px;
-  background: #c7ccd1;
+  background: var(--border);
   margin-right: 10px;
   flex-shrink: 0;
-}
-
-[data-theme="dark"] .section-label {
-  color: #9ca0a8;
-}
-
-[data-theme="dark"] .section-label::before {
-  background: #3e4249;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .section-label {
-    color: #9ca0a8;
-  }
-
-  :root:not([data-theme="light"]) .section-label::before {
-    background: #3e4249;
-  }
 }
 
 .muted {
@@ -469,7 +634,8 @@ article .post-date {
 /* ---- Footer ---- */
 
 footer {
-  padding: 1rem 0;
+  margin-top: 3.5rem;
+  padding: 1.75rem 0 3.5rem;
   border-top: 1px solid var(--border);
   font-family: var(--font-ui);
   font-size: var(--text-sm);

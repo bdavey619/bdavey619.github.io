@@ -1,5 +1,5 @@
 /* ============================================
-   main.js — Dark mode
+   main.js — Dark mode + scroll entrance
    ============================================ */
 
 (function () {
@@ -27,6 +27,25 @@
       const current = document.documentElement.getAttribute('data-theme');
       setTheme(current === 'dark' ? 'light' : 'dark');
     });
+  }
+
+  // ---- Scroll entrance ----
+  const reveals = document.querySelectorAll('[data-reveal]');
+  if (reveals.length) {
+    const noMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (noMotion || !('IntersectionObserver' in window)) {
+      reveals.forEach((el) => el.classList.add('in'));
+    } else {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+      reveals.forEach((el) => io.observe(el));
+    }
   }
 
 })();
