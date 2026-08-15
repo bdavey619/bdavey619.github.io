@@ -16,6 +16,24 @@
   <meta http-equiv="refresh" content="0; url=/">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <script>
+    /* Runs before first paint so a stored choice never flashes the wrong theme.
+       With no stored choice we leave the page unstamped and let the CSS
+       prefers-color-scheme block decide, which also means the page follows
+       live OS changes for free. Local time is only consulted when the OS
+       reports no preference at all. */
+    (function () {
+      try {
+        var d = document.documentElement,
+            c = localStorage.getItem('theme-choice');
+        if (c === 'light' || c === 'dark') { d.setAttribute('data-theme', c); return; }
+        if (window.matchMedia('(prefers-color-scheme: no-preference)').matches) {
+          var h = new Date().getHours();
+          d.setAttribute('data-theme', (h < 7 || h >= 19) ? 'dark' : 'light');
+        }
+      } catch (e) {}
+    })();
+  </script>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>

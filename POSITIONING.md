@@ -131,6 +131,30 @@ full-width feature it punched a black hole through the layout. Operation Epic
 Fury leads "Patterns underneath" instead, and Debt Cycle sits in a card where
 its darkness is an accent rather than a wall.
 
+## Theme
+
+The site never reads the clock to decide light or dark. Resolution order:
+
+1. **A deliberate choice.** Clicking the toggle stores `theme-choice` and that
+   wins from then on, on that browser.
+2. **The operating system**, via `prefers-color-scheme`. With no stored choice
+   the page is left unstamped and CSS drives it, which means the site follows
+   OS changes live — including macOS "Auto", which does switch at sunrise and
+   sunset. That is the only way time of day reaches this site, and it reaches
+   it through the visitor, not through us.
+3. **Local time**, only if the OS reports `no-preference`. Today's browsers
+   never report that — they collapse it to `light` — so this branch is correct
+   but inert. It exists so the behaviour is right if that ever changes.
+
+Two rules worth keeping:
+
+- **Only a click writes to storage.** An earlier version persisted the theme on
+  every page load, including when it was merely reflecting the OS, so a first
+  visit silently pinned the site forever and it stopped following the OS. If
+  you touch this code, keep `setItem` inside the click handler and nowhere else.
+- **The bootstrap must stay inline in `<head>`, above the stylesheet.** It is
+  what prevents a stored choice from flashing the opposite theme on first paint.
+
 ## Structure
 
 The homepage is the work. There is no separate projects index — for fewer than
