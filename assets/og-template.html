@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!--
+  Source for /assets/og-image.png. Not linked from the site.
+  Regenerate after changing the headline:
+    python3 -m http.server 8000
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless \
+      --window-size=1200,630 --force-device-scale-factor=2 \
+      --screenshot=assets/og-image.png http://localhost:8000/assets/og-template.html
+-->
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1200px; height: 630px; }
+  body {
+    background: #fafaf8;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #1a1a1a;
+    padding: 84px 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-font-smoothing: antialiased;
+  }
+  .top { display: flex; flex-direction: column; gap: 6px; }
+  .name {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    font-size: 30px; font-weight: 600; letter-spacing: -0.01em;
+  }
+  .status {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    font-size: 19px; color: #6b6b6b;
+  }
+  h1 {
+    font-size: 76px;
+    font-weight: 400;
+    line-height: 1.14;
+    letter-spacing: -0.015em;
+    max-width: 17ch;
+  }
+  .rule { height: 2px; background: #e0e0dc; margin-bottom: 30px; }
+  .foot {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    font-size: 21px;
+    color: #6b6b6b;
+    letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+  <div class="top">
+    <div class="name">Brett Davey</div>
+    <div class="status">Building in San Diego</div>
+  </div>
+  <h1>I build small things that change how you see a familiar one.</h1>
+  <div>
+    <div class="rule"></div>
+    <div class="foot">bdavey.co</div>
+  </div>
+</body>
+</html>
