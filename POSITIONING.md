@@ -113,6 +113,12 @@ fighting it, and it clears AA at small sizes, so it works on labels and not just
 display type. An earlier vermilion read as sunset-orange and belonged to a
 warmer palette than this one.
 
+**One hero, above everything.** The first project a visitor sees is the one
+that is both actively worked on and the one I'm proudest of right now — no group
+heading above it, larger than any other item. Today that's Seasonal. The hero is
+a standing slot, not a permanent assignment: it changes when the answer to
+"proudest thing currently running" changes.
+
 **Hierarchy is the point.** Each group leads with one featured project at full
 width and follows with the rest as smaller cards. Nine projects at identical
 visual weight is what made an earlier version read as a list rather than a
@@ -145,8 +151,39 @@ Current groups:
 - **Where you are** — things that change how a place or a season feels. The
   Local Season, Seasonal, Dockside Market.
 
-The rule for adding groups: a group earns a header at two projects, not one. A
-single project under its own heading reads as an empty room.
+The rule for adding groups: a group earns a header at two projects, not one — a
+lone card in a grid reads as an empty room. The exception is a group whose only
+member is presented as a *feature* (full-width image, not a grid cell), which
+reads as complete. "Where you are" runs that way now: Seasonal was promoted to
+the hero slot, leaving The Local Season as a single featured project.
+
+## Status, and what's earned a place
+
+Every project on the page carries one of three states, and they are factual, not
+flattering:
+
+- **Live** — updating on a cadence, or publishing new editions. Morning Brief
+  (daily cron, four teams), Must Watch (weekly cron), Why Today (11 editions),
+  Seasonal (monthly).
+- **Building** — real and reachable, not yet on a cadence. The Local Season
+  (two city-months), World Cup Guide (pre-tournament).
+- **Earlier** — built, learned, no longer updating.
+
+**Earlier is a separate tier at the bottom, and it is text-only on purpose.** A
+screenshot there would give retired work the same visual weight as running work,
+which is the exact problem the ranking is meant to solve. Each entry keeps its
+name, its one-line shift, its date, and its link.
+
+Two things worth keeping straight inside that tier: the Debt Cycle Explainer and
+Operation Epic Fury are **finished by design** — a static explainer six months
+old isn't stale, it's done. Dockside Market is **retired**: it was built to
+update weekly and stopped, and it is still serving February prices. Fix it or
+retire it deliberately; don't let it drift.
+
+A consequence worth naming: moving Earlier out emptied "Patterns underneath" of
+live work entirely. Both its members are historical. That is a true signal about
+where the current work sits — attention and place — and the group retires until
+something live belongs in it.
 
 Secondary material (photos) lives in the footer, reachable but not competing.
 Photos stays because outdoor curiosity is part of the same instinct — noticing —

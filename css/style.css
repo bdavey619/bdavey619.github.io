@@ -306,6 +306,97 @@ blockquote p:last-child {
   color: var(--accent);
 }
 
+/* ---- Status ---- */
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-family: var(--font-ui);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.status::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  flex: none;
+}
+
+.status--live {
+  color: var(--accent);
+}
+
+/* Only the live dot pulses, and only if the visitor allows motion */
+@media (prefers-reduced-motion: no-preference) {
+  .status--live::before {
+    animation: status-pulse 2.6s ease-in-out infinite;
+  }
+}
+
+@keyframes status-pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.35; }
+}
+
+.title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* ---- Home: the hero project ---- */
+
+.hero-project {
+  display: block;
+  text-decoration: none;
+  padding: 0 0 clamp(2rem, 4vw, 3rem);
+}
+
+.hero-project .meta {
+  margin-top: 1.4rem;
+  max-width: 56ch;
+}
+
+.hero-project h2 {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-body);
+  font-size: clamp(1.9rem, 4vw, 2.5rem);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.018em;
+}
+
+.hero-project p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 1.08rem;
+}
+
+.hero-project .go {
+  display: inline-block;
+  margin-top: 0.65rem;
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.hero-project:hover .go {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 /* ---- Home: project groups ---- */
 
 .group {
@@ -336,6 +427,9 @@ blockquote p:last-child {
 /* The screenshots are objects sitting on the page, not washes of it —
    the shadow is what separates them from a light ground. */
 .shot {
+  /* span by default — must be blockified or the border renders as a
+     zero-height inline box and leaves a stray rule beside the image */
+  display: block;
   border: 1px solid var(--border);
   background: var(--tag-bg);
   overflow: hidden;
@@ -343,6 +437,16 @@ blockquote p:last-child {
   border-radius: 4px;
   box-shadow: var(--shadow);
   transition: box-shadow 0.35s ease, transform 0.45s cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+.hero-project .meta,
+.feat .meta,
+.title-row {
+  display: block;
+}
+
+.title-row {
+  display: flex;
 }
 
 .shot img {
@@ -359,11 +463,13 @@ blockquote p:last-child {
 }
 
 .feat:hover .shot,
-.card:hover .shot {
+.card:hover .shot,
+.hero-project:hover .shot {
   transform: translateY(-3px);
 }
 
-.feat:hover .shot img {
+.feat:hover .shot img,
+.hero-project:hover .shot img {
   transform: scale(1.018);
 }
 
@@ -441,6 +547,76 @@ blockquote p:last-child {
   font-size: 0.9rem;
   font-family: var(--font-ui);
   line-height: 1.45;
+}
+
+/* ---- Earlier: built, learned, no longer updating ----
+   Deliberately text-first. These stay credited and clickable, but a
+   screenshot here would give retired work the same weight as running work. */
+
+.earlier {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+}
+
+.earlier-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--border);
+}
+
+.earlier-item {
+  margin: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.earlier-item a {
+  display: grid;
+  grid-template-columns: minmax(0, 15rem) minmax(0, 1fr) auto;
+  gap: 0.25rem 1.5rem;
+  align-items: baseline;
+  padding: 0.95rem 0;
+  text-decoration: none;
+  transition: padding-left 0.25s cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+.earlier-item a:hover {
+  padding-left: 0.6rem;
+}
+
+.earlier-name {
+  font-family: var(--font-body);
+  font-size: 1.08rem;
+  font-weight: 600;
+}
+
+.earlier-item a:hover .earlier-name {
+  color: var(--accent);
+}
+
+.earlier-desc {
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+
+.earlier-when {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 620px) {
+  .earlier-item a {
+    grid-template-columns: 1fr auto;
+  }
+  .earlier-desc {
+    grid-column: 1 / -1;
+  }
 }
 
 /* ---- Scroll entrance ---- */
