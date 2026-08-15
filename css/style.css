@@ -224,6 +224,37 @@ a:hover {
   color: var(--link-hover);
 }
 
+/* ---- Focus ----
+   Nearly everything on the home page is a large card-shaped link, so the
+   browser default ring reads poorly against the marine ground. :focus-visible
+   keeps the ring off mouse clicks and on for keyboard navigation. */
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Card links wrap their own image, so the ring hugs the whole card */
+.hero-project:focus-visible,
+.feat:focus-visible,
+.card:focus-visible {
+  outline-offset: 6px;
+  border-radius: 5px;
+}
+
+/* Match the hover lift so keyboard and pointer feel like one interaction */
+.hero-project:focus-visible .shot,
+.feat:focus-visible .shot,
+.card:focus-visible .shot {
+  transform: translateY(-3px);
+}
+
+.theme-toggle:focus-visible {
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
 /* ---- Lists ---- */
 
 ul, ol {
@@ -311,7 +342,7 @@ blockquote p:last-child {
 .status {
   display: inline-flex;
   align-items: center;
-  gap: 0.4em;
+  gap: 0.45em;
   font-family: var(--font-ui);
   font-size: 0.66rem;
   font-weight: 600;
@@ -321,10 +352,16 @@ blockquote p:last-child {
   white-space: nowrap;
 }
 
+/* Each state gets its own marker shape, not just its own word — the four
+   read apart at a glance, and colour alone never carries the meaning.
+     Live      filled dot, accent, slow pulse   — running now
+     Building  half-filled dot                  — under way
+     Complete  hollow ring                      — a closed loop
+     Retired   flat dash                        — stopped */
 .status::before {
   content: '';
-  width: 6px;
-  height: 6px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   background: currentColor;
   flex: none;
@@ -332,6 +369,26 @@ blockquote p:last-child {
 
 .status--live {
   color: var(--accent);
+}
+
+.status--building {
+  color: var(--text);
+}
+
+.status--building::before {
+  background: linear-gradient(to right, currentColor 50%, transparent 50%);
+  box-shadow: inset 0 0 0 1.5px currentColor;
+}
+
+.status--complete::before {
+  background: transparent;
+  box-shadow: inset 0 0 0 1.5px currentColor;
+}
+
+.status--retired::before {
+  width: 9px;
+  height: 2px;
+  border-radius: 1px;
 }
 
 /* Only the live dot pulses, and only if the visitor allows motion */
@@ -549,6 +606,16 @@ blockquote p:last-child {
   line-height: 1.45;
 }
 
+/* Mobile art direction: below 620px the <picture> swaps in a 4:3 crop that
+   zooms into one legible element, because the 3:1 desktop slice renders about
+   150px tall on a phone and its text becomes texture. */
+@media (max-width: 620px) {
+  .shot img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+}
+
 /* ---- Scroll entrance ---- */
 
 [data-reveal] {
@@ -722,12 +789,6 @@ article .post-date {
   line-height: 1.3;
 }
 
-/* ---- Photos intro ---- */
-
-.photos-intro {
-  margin-bottom: 0;
-}
-
 /* ---- Contact Links ---- */
 
 .contact-links {
@@ -801,113 +862,6 @@ footer p {
     padding: 0.75rem 0;
   }
 }
-
-/* ---- Photo Grid ---- */
-
-.container--wide {
-  max-width: 960px;
-}
-
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 6px;
-  margin-top: 1.5rem;
-}
-
-.photo-grid img {
-  width: 100%;
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
-  display: block;
-  cursor: pointer;
-  transition: opacity 0.15s ease;
-}
-
-.photo-grid img:hover {
-  opacity: 0.85;
-}
-
-@media (max-width: 700px) {
-  .photo-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .photo-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* ---- Lightbox ---- */
-
-.lightbox {
-  position: fixed;
-  inset: 0;
-  background: rgba(255, 255, 255, 0.96);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-}
-
-.lightbox[hidden] {
-  display: none;
-}
-
-.lightbox img {
-  max-width: 90vw;
-  max-height: 90vh;
-  object-fit: contain;
-  display: block;
-}
-
-.lightbox-close {
-  position: absolute;
-  top: 1.25rem;
-  right: 1.5rem;
-  background: none;
-  border: none;
-  color: var(--text);
-  font-size: 1.25rem;
-  font-family: var(--font-ui);
-  font-weight: 300;
-  line-height: 1;
-  cursor: pointer;
-  z-index: 10;
-  padding: 0;
-}
-
-.lightbox-close:hover {
-  opacity: 0.5;
-}
-
-.lightbox-prev,
-.lightbox-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  color: var(--text);
-  font-size: 0.875rem;
-  font-family: var(--font-ui);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  cursor: pointer;
-  padding: 1rem;
-  z-index: 10;
-  opacity: 0.35;
-}
-
-.lightbox-prev:hover,
-.lightbox-next:hover {
-  opacity: 1;
-}
-
-.lightbox-prev { left: 0.5rem; }
-.lightbox-next { right: 0.5rem; }
 
 /* ---- Print ---- */
 

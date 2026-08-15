@@ -207,11 +207,22 @@ The distinction between **Complete** and **Retired** is the one worth
 protecting. Lumping them together would either flatter the thing that broke or
 insult the three that finished.
 
-Secondary material (photos) lives in the footer, reachable but not competing.
-Photos stays because outdoor curiosity is part of the same instinct — noticing —
-and it's already a finished collection rather than a promise. Sections with
-nothing in them get deleted, not published with a "nothing here yet"
-placeholder.
+The site is the work and nothing else. Photos was removed in August 2026 — a
+second thing competing for the footer, and 86 MB of unresized camera JPEGs on a
+page linked from everywhere. Sections with nothing in them get deleted, not
+published with a "nothing here yet" placeholder, and sections that are no longer
+part of the argument get deleted too.
+
+**Status markers carry meaning in shape, never in colour alone.** Live is a
+filled dot, Building is half-filled, Complete is a hollow ring, Retired is a
+flat dash. Four states that read apart at a glance and survive being printed,
+dimmed, or seen by someone who can't separate the hues.
+
+**The screenshots are art-directed for mobile.** Below 620px a `<picture>` swaps
+the 3:1 desktop slice for a 4:3 crop zoomed into one legible element, because
+the desktop crop renders about 150px tall on a phone and its text becomes
+texture. Never fix this by cropping the wide image with CSS — the content is
+centred, so a left crop truncates headlines mid-word.
 
 ## Open threads
 
