@@ -1,5 +1,5 @@
 /* ============================================
-   main.js — Dark mode + Quote filtering
+   main.js — Dark mode
    ============================================ */
 
 (function () {
@@ -29,51 +29,4 @@
     });
   }
 
-  // ---- Mobile Menu ----
-  const menuToggle = document.querySelector('.menu-toggle');
-  const mobileNav = document.getElementById('mobile-nav');
-  if (menuToggle && mobileNav) {
-    menuToggle.addEventListener('click', () => {
-      const open = mobileNav.hidden;
-      mobileNav.hidden = !open;
-      menuToggle.setAttribute('aria-expanded', open);
-      menuToggle.textContent = open ? 'Close' : 'Menu';
-    });
-
-    mobileNav.querySelectorAll('a').forEach((link) => {
-      link.addEventListener('click', () => {
-        mobileNav.hidden = true;
-        menuToggle.setAttribute('aria-expanded', 'false');
-        menuToggle.textContent = 'Menu';
-      });
-    });
-  }
-
-  // ---- Quote Tag Filtering ----
-  const tagContainer = document.querySelector('.quote-tags');
-  if (tagContainer) {
-    const buttons = tagContainer.querySelectorAll('button');
-    const quotes = document.querySelectorAll('.quote-list li');
-
-    buttons.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        const tag = btn.dataset.tag;
-
-        // Toggle active state
-        if (btn.classList.contains('active')) {
-          btn.classList.remove('active');
-          quotes.forEach((q) => (q.style.display = ''));
-          return;
-        }
-
-        buttons.forEach((b) => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        quotes.forEach((q) => {
-          const tags = q.dataset.tags ? q.dataset.tags.split(',') : [];
-          q.style.display = tags.includes(tag) ? '' : 'none';
-        });
-      });
-    });
-  }
 })();

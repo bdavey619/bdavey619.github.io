@@ -92,12 +92,6 @@ header {
   padding: 2.5rem 0 1rem;
 }
 
-.site-title {
-  display: flex;
-  flex-direction: column;
-  gap: 0.1rem;
-}
-
 .site-name {
   font-family: var(--font-ui);
   font-size: var(--text-lg);
@@ -107,25 +101,12 @@ header {
   color: var(--text);
 }
 
-.site-status {
-  font-family: var(--font-ui);
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  letter-spacing: 0.01em;
-}
-
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 0.5rem;
-}
-
-nav .nav-links {
-  display: flex;
-  gap: 1.25rem;
-  align-items: center;
 }
 
 nav a {
@@ -163,47 +144,6 @@ nav a[aria-current="page"] {
 
 .theme-toggle:hover {
   color: var(--text);
-}
-
-/* ---- Mobile Menu ---- */
-
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-family: var(--font-ui);
-  font-size: var(--text-sm);
-  color: var(--text-muted);
-  padding: 0.25rem 0;
-}
-
-.menu-toggle:hover {
-  color: var(--text);
-}
-
-.mobile-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  padding: 0.75rem 0 0.5rem;
-  border-top: 1px solid var(--border);
-  margin-top: 0.5rem;
-}
-
-.mobile-nav a {
-  font-family: var(--font-ui);
-  font-size: var(--text-sm);
-  color: var(--text-muted);
-  text-decoration: none;
-}
-
-.mobile-nav a:hover {
-  color: var(--text);
-}
-
-.mobile-nav[hidden] {
-  display: none;
 }
 
 /* ---- Main Content ---- */
@@ -310,6 +250,32 @@ blockquote p:last-child {
   margin-bottom: 0;
 }
 
+/* ---- Lede (homepage thesis) ---- */
+
+.lede {
+  padding: 0.5rem 0 0.25rem;
+}
+
+.lede h1 {
+  font-family: var(--font-body);
+  font-size: var(--text-2xl);
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: -0.01em;
+  max-width: 20ch;
+  text-wrap: balance;
+  margin: 0 0 0.75rem;
+}
+
+.lede-sub {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+  max-width: 46ch;
+}
+
 /* ---- Section Helpers ---- */
 
 .section {
@@ -387,7 +353,9 @@ blockquote p:last-child {
 
 .entry-title {
   font-family: inherit;
+  font-size: var(--text-base);
   font-weight: 600;
+  line-height: 1.35;
   margin: 0 0 0.2rem;
 }
 
@@ -441,55 +409,6 @@ article .post-date {
   margin-bottom: 0.5rem;
 }
 
-/* ---- Quotes ---- */
-
-.quote-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 1.25rem;
-  font-family: var(--font-ui);
-}
-
-.quote-tags button {
-  font-family: var(--font-ui);
-  font-size: var(--text-sm);
-  background: var(--tag-bg);
-  color: var(--text);
-  border: none;
-  padding: 0.3rem 0.75rem;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.quote-tags button:hover {
-  opacity: 0.8;
-}
-
-.quote-tags button.active {
-  background: var(--tag-active-bg);
-  color: var(--tag-active-text);
-}
-
-.quote-text {
-  font-size: var(--text-base);
-  line-height: 1.5;
-  margin-bottom: 0.35rem;
-}
-
-.quote-attr {
-  font-family: var(--font-ui);
-  font-size: var(--text-sm);
-  color: var(--text-muted);
-}
-
-.quote-note {
-  font-size: var(--text-sm);
-  color: var(--text-muted);
-  margin-top: 0.35rem;
-  font-style: italic;
-}
-
 /* ---- Principles ---- */
 
 .principles {
@@ -500,136 +419,10 @@ article .post-date {
   line-height: 1.3;
 }
 
-/* ---- Season Meta ---- */
-
-.season-meta {
-  font-family: var(--font-ui);
-  font-size: var(--text-sm);
-  color: var(--text-muted);
-  margin: -0.25rem 0 0.5rem;
-}
-
-
-/* ---- Season Photo Strip ---- */
-
-.season-photo-strip {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 6px;
-}
-
-.season-photo-slot {
-  aspect-ratio: 3 / 2;
-  background: var(--tag-bg);
-  border-radius: 2px;
-}
-
-@media (max-width: 600px) {
-  .season-photo-strip {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* ---- Monthly Lead / Archive ---- */
-
-.monthly-title {
-  font-size: var(--text-lg);
-  font-family: var(--font-body);
-  font-weight: 400;
-  margin: 0.15rem 0 0.4rem;
-  line-height: 1.3;
-}
-
-.monthly-body {
-  font-size: var(--text-sm);
-  color: var(--text-muted);
-  margin: 0 0 0.5rem;
-}
-
-.monthly-body + .monthly-body {
-  margin-top: 1.25rem;
-}
-
-.monthly-link {
-  font-family: var(--font-ui);
-  font-size: var(--text-sm);
-  margin: 0;
-}
-
-.monthly-link a {
-  text-decoration: none;
-}
-
-.monthly-link a:hover {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
 /* ---- Photos intro ---- */
 
 .photos-intro {
   margin-bottom: 0;
-}
-
-/* ---- Shipped Link ---- */
-
-.shipped-link {
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-/* ---- Build List ---- */
-
-.build-list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-.build-item {
-  margin-bottom: 0.9rem;
-}
-
-.build-title {
-  font-family: inherit;
-  font-weight: 400;
-}
-
-.build-note {
-  margin-top: 2px;
-  color: var(--text-muted);
-  font-size: var(--text-sm);
-  line-height: 1.35;
-}
-
-/* ---- Projects Page Spacing ---- */
-
-.projects-main .section-label {
-  margin-top: 40px;
-  margin-bottom: 12px;
-}
-
-.projects-main .section-label:first-child {
-  margin-top: 0.5rem;
-}
-
-.projects-main .entry:last-child {
-  padding-bottom: 8px;
-}
-
-/* ---- Project Context ---- */
-
-.project-context {
-  font-family: var(--font-ui);
-  font-style: italic;
-  font-size: var(--text-sm);
-  color: var(--text-muted);
-  opacity: 0.8;
-  margin: 5px 0 0.5rem;
-  line-height: 1.5;
 }
 
 /* ---- Contact Links ---- */
@@ -655,10 +448,23 @@ footer p {
   margin: 0;
 }
 
-.footer-status {
-  margin-top: 0.25rem;
-  font-size: 0.75rem;
+.footer-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+}
+
+.footer-links a {
   color: var(--text-muted);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* ---- Responsive ---- */
@@ -677,14 +483,6 @@ footer p {
 
   main {
     padding: 1rem 0 2rem;
-  }
-
-  .nav-links {
-    display: none !important;
-  }
-
-  .menu-toggle {
-    display: block;
   }
 
   hr {
