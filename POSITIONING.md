@@ -105,15 +105,12 @@ Current groups:
 - **Worth your attention** — things that answer *what deserves your time, and
   why.* Why Today, Must Watch, World Cup Guide, Morning Brief.
 - **Patterns underneath** — things that make an invisible mechanism visible.
-  Debt Cycle Explainer, Operation Epic Fury, Dockside Market.
+  Debt Cycle Explainer, Operation Epic Fury.
+- **Where you are** — things that change how a place or a season feels. The
+  Local Season, Seasonal, Dockside Market.
 
-A third group, **Where you are** — things that change how a place or a season
-feels — opens when Before You Go and Seasonal deploy. Dockside Market moves into
-it at that point; it sits under "Patterns underneath" for now because a group of
-one reads as an empty room.
-
-That's the rule for adding groups generally: a group earns a header at two
-projects, not one.
+The rule for adding groups: a group earns a header at two projects, not one. A
+single project under its own heading reads as an empty room.
 
 Secondary material (photos) lives in the footer, reachable but not competing.
 Photos stays because outdoor curiosity is part of the same instinct — noticing —
@@ -123,9 +120,12 @@ placeholder.
 
 ## Open threads
 
-- **Before You Go** and **Seasonal** have finished prototypes in their repos and
-  aren't deployed. They're two of the strongest expressions of the claim. Deploy
-  them.
+- **Naming.** "Before You Go" was the working name for what now ships as **The
+  Local Season**. The homepage uses the live brand so the title matches what a
+  visitor sees on arrival. Pick one name and retire the other.
+- **Seasonal's URL** is `/seasonal-basket/` because that's the repo name, but
+  the product is called Seasonal everywhere else. Rename the repo, or accept the
+  mismatch.
 - **Same Sun, Different Day** doesn't exist yet and is probably the single
   purest version of the idea: sunrise/sunset data as a way of understanding how
   a place feels. The raw material is already in The Local Season's schema
