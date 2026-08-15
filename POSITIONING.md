@@ -137,53 +137,51 @@ The homepage is the work. There is no separate projects index — for fewer than
 a dozen projects it's a click of friction buying nothing, and it lets the
 homepage get away with saying nothing.
 
-Group projects by **the kind of shift they produce**, and order within each group
-by how well it makes the argument. Never group by technology, recency, or status
-— "Current Builds / Mental Models / Data Tools" sorts by kind of thing, which is
-a taxonomy, not a case.
+Group projects by **lifecycle**: what is still running, and what was made for a
+moment and finished.
 
-Current groups:
+- **Still running** — *What I use, and still add to.* Seasonal (hero), Why
+  Today, Must Watch, Morning Brief, The Local Season.
+- **Point in time** — *Built for a moment. Finished, and still worth reading.*
+  World Cup Guide, Debt Cycle Explainer, Operation Epic Fury, Dockside Market.
 
-- **Worth your attention** — things that answer *what deserves your time, and
-  why.* Why Today, Must Watch, World Cup Guide, Morning Brief.
-- **Patterns underneath** — things that make an invisible mechanism visible.
-  Debt Cycle Explainer, Operation Epic Fury.
-- **Where you are** — things that change how a place or a season feels. The
-  Local Season, Seasonal, Dockside Market.
+**This reverses an earlier rule in this document, deliberately.** The site used
+to group by the kind of shift a project produced — "Worth your attention",
+"Patterns underneath", "Where you are" — and that doc said never to group by
+recency or status. Two things broke it. "Patterns underneath" lost both members
+to the archive tier, and promoting Seasonal to the hero left "Where you are"
+with a single project. A taxonomy where two of three categories collapse is not
+describing the work anymore.
 
-The rule for adding groups: a group earns a header at two projects, not one — a
-lone card in a grid reads as an empty room. The exception is a group whose only
-member is presented as a *feature* (full-width image, not a grid cell), which
-reads as complete. "Where you are" runs that way now: Seasonal was promoted to
-the hero slot, leaving The Local Season as a single featured project.
+The thesis did not move out of the site, it moved out of the *headers*. It now
+lives in the headline and in the one-line shift under each project, which is
+where it was always doing the real work. The group headers now answer the
+question a visitor actually has: is this thing alive, and is he still doing it?
+
+A project belongs in **Point in time** when it finished on purpose. That is not
+the same as abandoned, and the labels keep the difference visible.
 
 ## Status, and what's earned a place
 
 Every project on the page carries one of three states, and they are factual, not
 flattering:
 
-- **Live** — updating on a cadence, or publishing new editions. Morning Brief
-  (daily cron, four teams), Must Watch (weekly cron), Why Today (11 editions),
-  Seasonal (monthly).
-- **Building** — real and reachable, not yet on a cadence. The Local Season
-  (two city-months), World Cup Guide (pre-tournament).
-- **Earlier** — built, learned, no longer updating.
+- **Live** — updating on a cadence, or publishing new editions. Seasonal
+  (monthly), Morning Brief (daily cron, four teams), Must Watch (weekly cron),
+  Why Today (11 editions). Only the Live dot pulses.
+- **Building** — real and reachable, not on a cadence, still being worked on.
+  The Local Season (two city-months).
+- **Complete** — finished on purpose. The World Cup Guide did its job while the
+  tournament was on; the Debt Cycle Explainer and Operation Epic Fury are static
+  by design. A six-month-old explainer is not stale, it is done.
+- **Retired** — built to keep going, and stopped. Dockside Market only. It is
+  still serving February prices, so the label is doing real work: it tells a
+  visitor the stale data is known, not neglected. Fix the pipeline or take the
+  page down deliberately.
 
-**Earlier is a separate tier at the bottom, and it is text-only on purpose.** A
-screenshot there would give retired work the same visual weight as running work,
-which is the exact problem the ranking is meant to solve. Each entry keeps its
-name, its one-line shift, its date, and its link.
-
-Two things worth keeping straight inside that tier: the Debt Cycle Explainer and
-Operation Epic Fury are **finished by design** — a static explainer six months
-old isn't stale, it's done. Dockside Market is **retired**: it was built to
-update weekly and stopped, and it is still serving February prices. Fix it or
-retire it deliberately; don't let it drift.
-
-A consequence worth naming: moving Earlier out emptied "Patterns underneath" of
-live work entirely. Both its members are historical. That is a true signal about
-where the current work sits — attention and place — and the group retires until
-something live belongs in it.
+The distinction between **Complete** and **Retired** is the one worth
+protecting. Lumping them together would either flatter the thing that broke or
+insult the three that finished.
 
 Secondary material (photos) lives in the footer, reachable but not competing.
 Photos stays because outdoor curiosity is part of the same instinct — noticing —
