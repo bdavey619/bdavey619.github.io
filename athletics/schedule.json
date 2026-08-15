@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-08",
   "division_name": "AL West",
-  "generated_at": "2026-08-14T13:56:48.595439+00:00",
+  "generated_at": "2026-08-15T13:09:36.588774+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -119,11 +119,9 @@
       "opponent": "TEX",
       "home": true,
       "gamePk": 824968,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "opp": "Kumar Rocker"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "8\u20133"
     },
     {
       "date": "2026-08-15",
@@ -133,6 +131,7 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
+        "team": "J.T. Ginn",
         "opp": "MacKenzie Gore"
       }
     },
@@ -144,6 +143,7 @@
       "status": "scheduled",
       "time_local": "1:05 PM PT",
       "probable": {
+        "team": "Jacob Lopez",
         "opp": "Cody Bradford"
       }
     },
@@ -261,8 +261,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20139",
-    "current_streak": "L3",
-    "last_10": "2\u20138"
+    "month_record": "3\u20139",
+    "current_streak": "W1",
+    "last_10": "3\u20137"
   }
 }
