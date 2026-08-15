@@ -95,13 +95,31 @@ The homepage is the work. There is no separate projects index — for fewer than
 a dozen projects it's a click of friction buying nothing, and it lets the
 homepage get away with saying nothing.
 
-Order projects by **how well they make the argument**, not by type, recency, or
-category. No "Current Builds / Mental Models / Data Tools" headers — those sort
-by kind of thing, which is a taxonomy, not a case.
+Group projects by **the kind of shift they produce**, and order within each group
+by how well it makes the argument. Never group by technology, recency, or status
+— "Current Builds / Mental Models / Data Tools" sorts by kind of thing, which is
+a taxonomy, not a case.
 
-Secondary material (photos, writing) lives in the footer, reachable but not
-competing. Sections with nothing in them get deleted, not published with a
-"nothing here yet" placeholder.
+Current groups:
+
+- **Worth your attention** — things that answer *what deserves your time, and
+  why.* Why Today, Must Watch, World Cup Guide, Morning Brief.
+- **Patterns underneath** — things that make an invisible mechanism visible.
+  Debt Cycle Explainer, Operation Epic Fury, Dockside Market.
+
+A third group, **Where you are** — things that change how a place or a season
+feels — opens when Before You Go and Seasonal deploy. Dockside Market moves into
+it at that point; it sits under "Patterns underneath" for now because a group of
+one reads as an empty room.
+
+That's the rule for adding groups generally: a group earns a header at two
+projects, not one.
+
+Secondary material (photos) lives in the footer, reachable but not competing.
+Photos stays because outdoor curiosity is part of the same instinct — noticing —
+and it's already a finished collection rather than a promise. Sections with
+nothing in them get deleted, not published with a "nothing here yet"
+placeholder.
 
 ## Open threads
 
@@ -115,5 +133,6 @@ competing. Sections with nothing in them get deleted, not published with a
   "not yet rendered").
 - **The essay.** `writing/building-things-that-arent-your-job.html` is an early,
   pre-positioning draft of this argument, framed around "finance people make
-  decent product thinkers." The better essay is the one that argues the claim at
-  the top of this document.
+  decent product thinkers." It's still published but no longer linked from
+  anywhere — one post isn't worth a footer slot. Writing comes back when there's
+  an essay that argues the claim at the top of this document.

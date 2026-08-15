@@ -92,6 +92,12 @@ header {
   padding: 2.5rem 0 1rem;
 }
 
+.site-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
 .site-name {
   font-family: var(--font-ui);
   font-size: var(--text-lg);
@@ -99,6 +105,13 @@ header {
   letter-spacing: -0.01em;
   text-decoration: none;
   color: var(--text);
+}
+
+.site-status {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.01em;
 }
 
 nav {
@@ -280,6 +293,11 @@ blockquote p:last-child {
 
 .section {
   margin-bottom: 0;
+}
+
+/* Consecutive groups (no rule between them) need their own breathing room */
+.section + .section {
+  margin-top: 2.25rem;
 }
 
 .section-label {
