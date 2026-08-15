@@ -79,14 +79,17 @@ requires two sentences of setup, the framing isn't found yet either.
 
 Worked examples:
 
-| Project | The shift |
-|---|---|
-| Why Today | A day's news, turned into the question it quietly raises. |
-| Must Watch | Twenty games tonight. One is worth your evening — here's which, and why. |
-| World Cup Guide | Know what's at stake before kickoff, not just who's playing. |
-| Before You Go | Not the best month to visit. The month the city is most itself. |
-| Seasonal | Keep the meal. Change the season. You start noticing the year. |
-| Debt Cycle Explainer | The compounding that turns government debt into currency risk, made visible. |
+| Project | The line | Its structure |
+|---|---|---|
+| Seasonal | Keep the meal. Change the season. Your cooking stays exactly as it is, and starts to taste like the month. | imperative pair, then consequence |
+| Why Today | A day's news, turned into the question it quietly raises. | noun phrase, transformation |
+| Must Watch | Twenty games tonight. One is worth your evening — here's which, and why. | number, then narrowing |
+| Morning Brief | Yesterday's game, and what it sets up tonight. | past into future |
+| The Local Season | Not the best month to visit. The month a city is most itself. | negation, then correction |
+| World Cup Guide | Know what's at stake before kickoff, not just who's playing. All 48 teams, and how each one got here. | negation, then inventory |
+| Debt Cycle Explainer | The slow arithmetic behind a sudden currency crisis. | slow against sudden |
+| Operation Epic Fury | How a conflict escalates — the shape of a spiral, drawn while it was happening. | mechanism, then provenance |
+| Dockside Market | The price of fish, and what it gives away about the water. | object, then revelation |
 
 ## Copy rules
 
@@ -98,6 +101,18 @@ Worked examples:
   better than "a lot of games."
 - **If a line could describe someone else's project, rewrite it.**
 - **One line per project.** If it needs a paragraph, it needs a project page.
+- **Vary the structure.** The third column above exists to be checked. No two
+  projects should share a sentence shape, and "not X, but Y" is the one that
+  creeps — it is genuinely right for The Local Season and World Cup Guide, and
+  it would be a tic at four. Dockside used to be a third until it was rewritten.
+- **Don't restate the title.** The Debt Cycle Explainer's line used to say
+  "compounding" and "debt", both already in the name. A description that repeats
+  the title spends its only sentence saying nothing new.
+- **Let the shift be felt, not announced.** "Yesterday's game, and what it sets
+  up tonight" beats "the story behind tonight's game" — the second one tells the
+  reader there is a story instead of showing them one.
+- **The labels carry the facts.** Cadence, scope and dates live in the status
+  chip, so the description never has to spend words on "daily" or "monthly".
 
 ## Design
 
