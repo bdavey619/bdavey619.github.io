@@ -10,14 +10,14 @@
       "evidence": [
         {
           "domain": "Energy Production",
-          "text": "Hungary and Romania have both taken nuclear reactors offline for the first time because the Danube's water level - used to cool the plants - dropped below the threshold required for safe operation. Hungary's 44-year-old Paks plant, which generates close to half the country's electricity, has been running at around 10% of normal output. Danube flows are the lowest in seven years. A country's power supply is now a function of river depth.",
-          "url": "https://www.pv-magazine.com/2026/08/10/when-the-rivers-stop-flowing-europes-drought-summer-measured/",
-          "date": "2026-08-10",
+          "text": "Hungary and Romania took nuclear reactors offline for the first time because Danube cooling water fell below the safe threshold. At Paks - Hungary's only nuclear plant - three units sat idle and the fourth ran at half capacity for 11 days, with grid output down to 240MW. When the river came back 19cm, Hungary restarted a unit and output rose to 500MW. Then it began building a structure in the riverbed to raise the level at Paks permanently. The adaptation is not moving the plant; it is rebuilding the river to fit it.",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-12/hungary-to-raise-danube-riverbed-to-help-cool-its-nuclear-plant",
+          "date": "2026-08-12",
           "is_new": true
         },
         {
           "domain": "Shipping",
-          "text": "The Rhine's water level at Cologne has fallen below the record lows of 2018, forcing cargo ships to carry only about 20% of their normal loads. If the water stays critically low through mid-September, that alone would take roughly 0.35 percentage points off German GDP this quarter. A noticeable rise in levels is not expected before October - the disruption outlasts the season that caused it.",
+          "text": "Kaub, the Rhine's shallowest chokepoint, fell to 15cm of navigable depth - below the 25cm record set in 2018 and the lowest since records began in 1880. Commercial sailings through Kaub have basically stopped and cargo can no longer be booked past it. Freight is moving to road, and German authorities have relaxed weekend truck-driving bans to absorb it. Analysts warn it curbs German growth just as it was recovering; forecasters say weeks of sustained rain are needed and the crisis could run into October.",
           "url": "https://www.insurancejournal.com/news/international/2026/08/12/881099.htm",
           "date": "2026-08-12",
           "is_new": true
