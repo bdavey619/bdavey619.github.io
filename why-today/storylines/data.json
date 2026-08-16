@@ -22,7 +22,8 @@
       "first_seen": "2026-08-16T18:00:00Z",
       "last_seen": "2026-08-16T18:00:00Z",
       "appearances": 1,
-      "history": []
+      "history": [],
+      "source_date": "2026-08-12"
     },
     {
       "id": "overnight-heat-debt",
@@ -44,7 +45,8 @@
       "first_seen": "2026-07-27T14:00:00Z",
       "last_seen": "2026-08-16T18:00:00Z",
       "appearances": 8,
-      "history": []
+      "history": [],
+      "source_date": "2026-08-13"
     },
     {
       "id": "back-to-school-anxiety-ritual",
@@ -66,14 +68,15 @@
       "first_seen": "2026-07-26T14:00:00Z",
       "last_seen": "2026-08-16T18:00:00Z",
       "appearances": 8,
-      "history": []
+      "history": [],
+      "source_evergreen": true
     },
     {
       "id": "treasury-yields-rate-cut-signal",
       "stream": "markets",
       "observer": "markets",
       "title": "The 10-year spent the week arguing with itself about a rate hike",
-      "observation": "This stopped being a rate-cut story. The 10-year tested a 19-month high of 4.75% on Tuesday, then fell back to about 4.65% by Friday after July CPI printed 3.4% headline and 2.5% core - both in line - and producer prices came in flat. The 30-year sits near 5.26%. Odds of a September hike fell to roughly 34% from 55%. The yield moved 10bp on the absence of bad news.",
+      "observation": "This stopped being a rate-cut story. The 10-year finished Friday at 4.68% and the 2-year at 4.17%, after the 10-year tested a 19-month high of 4.75% on Tuesday. July CPI printed 3.4% headline and 2.5% core - both in line - and producer prices came in flat, easing expectations for a September hike. The yield spent the week moving on the absence of bad news.",
       "question": "What is the 10-year actually pricing when it moves this far on data that came in exactly as expected?",
       "hidden_question": "What is the 10-year actually pricing when it moves this far on data that came in exactly as expected?",
       "pattern": "The long end is repricing the direction of the next move, not its size",
@@ -82,20 +85,21 @@
       "why_now": "CPI and PPI both landed benign this week and repriced the September FOMC.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/08/12/treasury-yields-inflation-cpi-data.html",
+      "url": "https://seekingalpha.com/article/4937000-treasury-yields-snapshot-august-14-2026",
       "location": "",
-      "season_or_time_context": "Aug 16, 2026 - 10yr 4.65% (19-mo high 4.75% Tue); 30yr 5.26%",
+      "season_or_time_context": "Aug 16, 2026 - 10yr closed 4.68% Fri; 19-mo high 4.75% Tue",
       "first_seen": "2026-08-08T18:00:00Z",
       "last_seen": "2026-08-16T18:00:00Z",
       "appearances": 5,
-      "history": []
+      "history": [],
+      "source_date": "2026-08-14"
     },
     {
       "id": "hormuz-energy-risk-premium",
       "stream": "markets",
       "observer": "markets",
       "title": "The Hormuz premium stopped pricing a deal and started pricing a deficit",
-      "observation": "Brent climbed above $88 on Friday, up nearly 5% on the week as talks stalled. The IEA is warning of the widest global supply deficit in five years for 2026, and the EIA does not expect Middle East production near pre-conflict levels until early 2027. The market has stopped betting on a settlement that compresses the premium and started pricing a supply gap that outlives the negotiation.",
+      "observation": "Brent closed Friday at $88.52, up 1.67% on the day and almost 6% on the week, after the US said its naval blockade of Iranian ports could continue indefinitely. WTI settled at $82.40, up 5% on the week. The IEA cut its demand outlook - prolonged conflict and high prices are weighing on consumption - while expecting global supply to fall 4.3 million barrels a day, about 4%, this year. The premium is no longer a bet on the negotiation; it is a bet on the supply gap outliving it.",
       "question": "At what point does a war premium stop being a risk premium and simply become the price?",
       "hidden_question": "At what point does a war premium stop being a risk premium and simply become the price?",
       "pattern": "A risk premium converting into a structural supply reprice",
@@ -104,13 +108,14 @@
       "why_now": "Brent gained ~5% on the week as the Hormuz talks deadlocked.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/08/11/hormuz-oil-prices-us-iran.html",
+      "url": "https://www.cnbc.com/2026/08/14/oil-prices-today-brent-wti-hormuz.html",
       "location": "",
-      "season_or_time_context": "Aug 16, 2026 - Brent $88, +5% wk; EIA sees no recovery until 2027",
+      "season_or_time_context": "Aug 16, 2026 - Brent $88.52 Fri, +6% on the week",
       "first_seen": "2026-08-08T18:00:00Z",
       "last_seen": "2026-08-16T18:00:00Z",
       "appearances": 5,
-      "history": []
+      "history": [],
+      "source_date": "2026-08-14"
     },
     {
       "id": "hormuz-deadlock-no-congressional-vote",
@@ -133,7 +138,8 @@
       "last_seen": "2026-08-16T18:00:00Z",
       "appearances": 18,
       "history": [],
-      "category": "Politics & World"
+      "category": "Politics & World",
+      "source_date": "2026-08-13"
     },
     {
       "id": "european-fire-front-moves-north",
@@ -156,7 +162,8 @@
       "last_seen": "2026-08-16T18:00:00Z",
       "appearances": 11,
       "history": [],
-      "category": "Politics & World"
+      "category": "Politics & World",
+      "source_date": "2026-08-14"
     },
     {
       "id": "indonesia-flores-earthquake",
@@ -179,7 +186,8 @@
       "last_seen": "2026-08-16T18:00:00Z",
       "appearances": 1,
       "history": [],
-      "category": "Politics & World"
+      "category": "Politics & World",
+      "source_date": "2026-08-15"
     },
     {
       "id": "hurricane-lala-hawaii",
@@ -201,7 +209,8 @@
       "first_seen": "2026-08-16T18:00:00Z",
       "last_seen": "2026-08-16T18:00:00Z",
       "appearances": 1,
-      "history": []
+      "history": [],
+      "source_date": "2026-08-15"
     }
   ]
 }
