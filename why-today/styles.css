@@ -27,6 +27,14 @@
   --c-fading:   #9A968F;  --c-fading-bg:   #F2F0E8;
   --c-acute:    #8B1A1A;  --c-acute-bg:    #FBEEEE;
   --c-persist:  #5E5A53;  --c-persist-bg:  #F2F0E8;
+
+  /* stream identity, for the cabinet */
+  --s-natural:   #2D6830;
+  --s-ritual:    #8A5A1F;
+  --s-places:    #3D5A8A;
+  --s-curious:   #6B4A8A;
+  --s-markets:   #1F6B6B;
+  --s-headlines: #8B1A1A;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -45,6 +53,13 @@
     --c-fading:   #6A6758;  --c-fading-bg:   #1C1A17;
     --c-acute:    #C44040;  --c-acute-bg:    #261414;
     --c-persist:  #9C9880;  --c-persist-bg:  #1C1A17;
+
+    --s-natural:   #7AAF80;
+    --s-ritual:    #C9A05C;
+    --s-places:    #7A9AC4;
+    --s-curious:   #A88AC4;
+    --s-markets:   #6FB5B5;
+    --s-headlines: #C44040;
   }
 }
 
@@ -63,6 +78,13 @@
   --c-fading:   #6A6758;  --c-fading-bg:   #1C1A17;
   --c-acute:    #C44040;  --c-acute-bg:    #261414;
   --c-persist:  #9C9880;  --c-persist-bg:  #1C1A17;
+
+  --s-natural:   #7AAF80;
+  --s-ritual:  #C9A05C;
+  --s-places:  #7A9AC4;
+  --s-curious:   #A88AC4;
+  --s-markets:   #6FB5B5;
+  --s-headlines: #C44040;
 }
 
 html {
@@ -355,9 +377,15 @@ body {
 }
 
 .storyline-moment {
-  font-weight: 600;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
   color: var(--text);
   text-decoration: none;
+  text-wrap: balance;
+  transition: color 0.15s ease;
 }
 
 .storyline-moment:hover {
@@ -373,11 +401,6 @@ body {
   flex-shrink: 0;
 }
 
-.storyline-freshness[title] {
-  border-bottom: 1px dotted var(--text-tertiary);
-  cursor: help;
-}
-
 .storyline-potential {
   font-family: 'Source Sans 3', sans-serif;
   font-size: 11px;
@@ -391,26 +414,18 @@ body {
 }
 
 .potential-high {
-  background: #FDF0EC;
-  color: var(--accent);
+  background: var(--c-peaking-bg);
+  color: var(--c-peaking);
 }
 
 .potential-medium {
-  background: #F2F1EE;
+  background: var(--bg-warm);
   color: var(--text-secondary);
 }
 
 .potential-low {
-  background: #F7F5EE;
+  background: var(--bg-warm);
   color: var(--text-tertiary);
-}
-
-.storyline-hidden-question {
-  font-family: 'Source Serif 4', Georgia, serif;
-  font-size: 13px;
-  font-style: italic;
-  color: var(--text-secondary);
-  line-height: 1.5;
 }
 
 /* ─── CABINET OF CURIOSITIES — STREAMS ─── */
@@ -489,8 +504,11 @@ body {
   font-family: 'Source Serif 4', Georgia, serif;
   font-size: 15px;
   font-style: italic;
-  color: var(--text-secondary);
-  line-height: 1.5;
+  line-height: 1.6;
+  color: var(--text);
+  border-left: 2px solid var(--accent);
+  padding-left: 14px;
+  margin-top: 10px;
 }
 
 .curiosity-season {
@@ -507,6 +525,7 @@ body {
   font-weight: 300;
   color: var(--text-tertiary);
   margin-left: 4px;
+  font-style: italic;
 }
 
 /* ─── STATUS CHIPS ─── */
@@ -524,22 +543,22 @@ body {
 }
 
 .status-curious {
-  background: #EEF3FD;
-  color: #3B5BA8;
+  background: var(--c-building-bg);
+  color: var(--c-building);
 }
 
 .status-investigating {
-  background: #F0F8EE;
-  color: #3A7A30;
+  background: var(--c-accel-bg);
+  color: var(--c-accel);
 }
 
 .status-thread_found {
-  background: #FDF5EC;
-  color: #A06820;
+  background: var(--c-peaking-bg);
+  color: var(--c-peaking);
 }
 
 .status-ready_to_shape {
-  background: #FDF0EC;
+  background: var(--c-peaking-bg);
   color: var(--accent);
 }
 
@@ -552,6 +571,48 @@ body {
   background: var(--bg-warm);
   color: var(--text-tertiary);
 }
+
+
+/* ─── STREAM IDENTITY ─── */
+
+.stream-section { --stream: var(--text-tertiary); }
+.stream-section[data-stream="natural_world"] { --stream: var(--s-natural); }
+.stream-section[data-stream="human_rituals"] { --stream: var(--s-ritual); }
+.stream-section[data-stream="places"]        { --stream: var(--s-places); }
+.stream-section[data-stream="curiosities"]   { --stream: var(--s-curious); }
+.stream-section[data-stream="markets"]       { --stream: var(--s-markets); }
+.stream-section[data-stream="headlines"]     { --stream: var(--s-headlines); }
+
+.stream-section .stream-label {
+  color: var(--stream);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.stream-section .stream-label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--stream);
+  opacity: 0.28;
+}
+
+.stream-section .storyline-moment:hover { color: var(--stream); }
+
+/* metadata line — was crammed inline against the title */
+.storyline-meta {
+  font-family: 'Source Sans 3', sans-serif;
+  column-gap: 14px;
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--text-tertiary);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  margin-top: 2px;
+}
+
 
 /* ─── RECOGNITIONS ─── */
 
