@@ -1,0 +1,31 @@
+{
+  "id": "accountability-gap",
+  "title": "Three institutions kept the authority and quietly removed the accountability",
+  "explanation": "The White House completed an AI oversight framework, briefed the largest AI companies on it privately, and declined to publish it. The Iran war passed five months with no congressional authorization while the Pentagon reframed an open-ended naval blockade as a war of attrition it can sustain indefinitely. Ukraine's new commander is still measuring how much his predecessor's reporting obscured, and the audit has now reached the recruitment centers. These are not three institutional failures. They are the same move: preserve the authority, dismantle the mechanism that would make it reviewable. What makes the pattern persistent rather than acute is that in each case the accountability mechanism did not fail - it was outlasted.",
+  "momentum": "persistent",
+  "evidence": [
+    {
+      "domain": "Technology",
+      "text": "The White House will not disclose the contents of its frontier AI framework, who has seen it, or when companies will use it. The framework itself is not classified - but the benchmarks are, and so are the thresholds. Executive Order 14409 directed an NSA-led group to build a system under which developers give the government access to their models for up to thirty days before release; the rules were briefed to industry at a closed-door meeting with National Cyber Director Sean Cairncross on August 4. No Federal Register notice, no NIST or CISA publication, no OSTP statement followed. Congress may conduct oversight and does not appear poised to.",
+      "url": "https://www.techpolicy.press/five-questions-the-us-government-should-answer-about-its-secretive-frontier-ai-framework/",
+      "date": "2026-08-04",
+      "is_new": true
+    },
+    {
+      "domain": "Constitutional",
+      "text": "The war began February 28 and is now past five months without congressional authorization. Defense Secretary Hegseth has said Trump 'has all the authorities he needs under Article 2,' and now says the Navy can hold its blockade of Iranian ports 'indefinitely... because we'll rotate ships in and out.' GOP Senator Lisa Murkowski intends to introduce a formal AUMF. The War Powers clock was first paused by a ceasefire and is now simply never started by a blockade.",
+      "url": "https://www.hngn.com/articles/272667/20260813/iran-parliament-panel-advances-bill-control-hormuz-us-presses-arms-makers-war-footing.htm",
+      "date": "2026-08-13",
+      "is_new": true
+    },
+    {
+      "domain": "Military",
+      "text": "On August 12, Human Rights Commissioner Dmytro Lubinets said Gen. Drapatyi's team had begun reviewing recommendations to reform Ukraine's mobilization system. The team suspended the head of the Transcarpathia Oblast Territorial Recruitment Center and dispatched a large-scale inspection. Drapatyi has framed the audit as establishing the real level of combat readiness rather than assigning fault, while saying anyone found responsible for abuses will be held accountable. The reform has reached the recruitment centers - the layer the public's complaints actually came from.",
+      "url": "https://kyivindependent.com/transcarpathia-recruitment-chief-suspended-as-drapatyis-team-reviews-mobilization-reforms/",
+      "date": "2026-08-12",
+      "is_new": true
+    }
+  ],
+  "retired": "2026-08-16",
+  "retired_reason": "Technology evidence passed the 10-day rule at 12 days and could not be refreshed - the frontier AI framework story has not moved since the closed-door Cairncross briefing on Aug 4. The Constitutional and Military legs were still live (Aug 13 and Aug 12), but the recognition is retired rather than carried on two of three domains. The underlying condition persists: the framework remains unpublished. Re-nameable if a third domain produces fresh evidence."
+}
