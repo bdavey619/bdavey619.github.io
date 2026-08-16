@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-15T10:45:15.110044+00:00",
+  "generated_at": "2026-08-16T10:45:48.265397+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -132,18 +132,17 @@
       "gamePk": 824399,
       "status": "final",
       "result": "W",
-      "score": "7\u20135"
+      "score": "7\u20135",
+      "archive_url": "archive.html?date=2026-08-15"
     },
     {
       "date": "2026-08-15",
       "opponent": "CLE",
       "home": false,
       "gamePk": 824400,
-      "status": "scheduled",
-      "time_local": "4:10 PM PT",
-      "probable": {
-        "opp": "Joey Cantillo"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20136"
     },
     {
       "date": "2026-08-16",
@@ -266,8 +265,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u20133",
-    "current_streak": "W6",
-    "last_10": "8\u20132"
+    "month_record": "10\u20134",
+    "current_streak": "L1",
+    "last_10": "7\u20133"
   }
 }
