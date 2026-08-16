@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-15T12:37:35.971473+00:00",
+  "generated_at": "2026-08-16T12:39:20.080991+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -122,19 +122,17 @@
       "gamePk": 823185,
       "status": "final",
       "result": "L",
-      "score": "2\u20135"
+      "score": "2\u20135",
+      "archive_url": "archive.html?date=2026-08-15"
     },
     {
       "date": "2026-08-15",
       "opponent": "COL",
       "home": true,
       "gamePk": 823184,
-      "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "team": "Logan Webb",
-        "opp": "Michael Lorenzen"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "7\u20131"
     },
     {
       "date": "2026-08-16",
@@ -165,7 +163,10 @@
       "home": false,
       "gamePk": 824394,
       "status": "scheduled",
-      "time_local": "3:40 PM PT"
+      "time_local": "3:40 PM PT",
+      "probable": {
+        "opp": "Parker Messick"
+      }
     },
     {
       "date": "2026-08-20",
@@ -265,8 +266,8 @@
     }
   ],
   "summary": {
-    "month_record": "3\u20139",
-    "current_streak": "L2",
+    "month_record": "4\u20139",
+    "current_streak": "W1",
     "last_10": "3\u20137"
   }
 }
