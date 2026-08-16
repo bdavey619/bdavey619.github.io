@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Why Today? &middot; Week of August 10, 2026</title>
+  <title>Why Today? &middot; Week of August 16, 2026</title>
   <style>
 /* ── TOKENS ── */
 :root {
@@ -105,6 +105,23 @@ body {
   color: var(--text-3);
   letter-spacing: 0.04em;
 }
+
+.pub-nav {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.pub-link {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.pub-link:hover { text-decoration: underline; }
 
 /* ── LEDE ── */
 .lede {
@@ -378,7 +395,10 @@ body {
 
   <header class="masthead">
     <a href="../" class="pub-name">Why Today?</a>
-    <span class="pub-week">Week of August 10, 2026</span>
+    <nav class="pub-nav">
+      <a href="../storylines/" class="pub-link">&larr; Cabinet of Curiosities</a>
+      <span class="pub-week">Week of August 16, 2026</span>
+    </nav>
   </header>
 
   <section class="lede">
