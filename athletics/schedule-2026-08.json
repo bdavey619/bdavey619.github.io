@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-08",
   "division_name": "AL West",
-  "generated_at": "2026-08-15T13:09:36.588774+00:00",
+  "generated_at": "2026-08-16T13:11:04.300054+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -121,19 +121,17 @@
       "gamePk": 824968,
       "status": "final",
       "result": "W",
-      "score": "8\u20133"
+      "score": "8\u20133",
+      "archive_url": "archive.html?date=2026-08-15"
     },
     {
       "date": "2026-08-15",
       "opponent": "TEX",
       "home": true,
       "gamePk": 824966,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "J.T. Ginn",
-        "opp": "MacKenzie Gore"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20135"
     },
     {
       "date": "2026-08-16",
@@ -261,8 +259,8 @@
     }
   ],
   "summary": {
-    "month_record": "3\u20139",
-    "current_streak": "W1",
+    "month_record": "3\u201310",
+    "current_streak": "L1",
     "last_10": "3\u20137"
   }
 }
