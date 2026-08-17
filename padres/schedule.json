@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-16T10:45:48.265397+00:00",
+  "generated_at": "2026-08-17T10:54:32.538540+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -142,19 +142,17 @@
       "gamePk": 824400,
       "status": "final",
       "result": "L",
-      "score": "1\u20136"
+      "score": "1\u20136",
+      "archive_url": "archive.html?date=2026-08-16"
     },
     {
       "date": "2026-08-16",
       "opponent": "CLE",
       "home": false,
       "gamePk": 824397,
-      "status": "scheduled",
-      "time_local": "10:40 AM PT",
-      "probable": {
-        "team": "Casey Mize",
-        "opp": "Tanner Bibee"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20130"
     },
     {
       "date": "2026-08-17",
@@ -164,6 +162,7 @@
       "status": "scheduled",
       "time_local": "4:10 PM PT",
       "probable": {
+        "team": "Walker Buehler",
         "opp": "Nolan McLean"
       }
     },
@@ -173,7 +172,10 @@
       "home": false,
       "gamePk": 823586,
       "status": "scheduled",
-      "time_local": "4:10 PM PT"
+      "time_local": "4:10 PM PT",
+      "probable": {
+        "team": "Robbie Ray"
+      }
     },
     {
       "date": "2026-08-19",
@@ -181,7 +183,10 @@
       "home": false,
       "gamePk": 823587,
       "status": "scheduled",
-      "time_local": "10:10 AM PT"
+      "time_local": "10:10 AM PT",
+      "probable": {
+        "team": "Michael King"
+      }
     },
     {
       "date": "2026-08-21",
@@ -265,8 +270,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u20134",
-    "current_streak": "L1",
-    "last_10": "7\u20133"
+    "month_record": "11\u20134",
+    "current_streak": "W1",
+    "last_10": "8\u20132"
   }
 }
