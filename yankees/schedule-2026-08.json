@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-08",
   "division_name": "AL East",
-  "generated_at": "2026-08-16T11:23:39.799065+00:00",
+  "generated_at": "2026-08-17T11:29:55.844979+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -132,19 +132,17 @@
       "gamePk": 822775,
       "status": "final",
       "result": "L",
-      "score": "1\u20134"
+      "score": "1\u20134",
+      "archive_url": "archive.html?date=2026-08-16"
     },
     {
       "date": "2026-08-16",
       "opponent": "TOR",
       "home": false,
       "gamePk": 822774,
-      "status": "scheduled",
-      "time_local": "1:37 PM ET",
-      "probable": {
-        "team": "Ryan Weathers",
-        "opp": "Dylan Cease"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "4\u20133"
     },
     {
       "date": "2026-08-18",
@@ -152,7 +150,10 @@
       "home": false,
       "gamePk": 824803,
       "status": "scheduled",
-      "time_local": "6:35 PM ET"
+      "time_local": "6:35 PM ET",
+      "probable": {
+        "team": "Will Warren"
+      }
     },
     {
       "date": "2026-08-19",
@@ -160,7 +161,10 @@
       "home": false,
       "gamePk": 824801,
       "status": "scheduled",
-      "time_local": "6:35 PM ET"
+      "time_local": "6:35 PM ET",
+      "probable": {
+        "team": "Max Fried"
+      }
     },
     {
       "date": "2026-08-20",
@@ -168,7 +172,10 @@
       "home": false,
       "gamePk": 824802,
       "status": "scheduled",
-      "time_local": "6:35 PM ET"
+      "time_local": "6:35 PM ET",
+      "probable": {
+        "team": "Gerrit Cole"
+      }
     },
     {
       "date": "2026-08-21",
@@ -260,8 +267,8 @@
     }
   ],
   "summary": {
-    "month_record": "6\u20137",
-    "current_streak": "L3",
+    "month_record": "7\u20137",
+    "current_streak": "W1",
     "last_10": "5\u20135"
   }
 }
