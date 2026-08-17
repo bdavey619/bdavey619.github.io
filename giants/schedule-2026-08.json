@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-16T12:39:20.080991+00:00",
+  "generated_at": "2026-08-17T12:44:09.243855+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -132,19 +132,17 @@
       "gamePk": 823184,
       "status": "final",
       "result": "W",
-      "score": "7\u20131"
+      "score": "7\u20131",
+      "archive_url": "archive.html?date=2026-08-16"
     },
     {
       "date": "2026-08-16",
       "opponent": "COL",
       "home": true,
       "gamePk": 823182,
-      "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "team": "Blade Tidwell",
-        "opp": "Gabriel Hughes"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "7\u201313"
     },
     {
       "date": "2026-08-18",
@@ -154,6 +152,7 @@
       "status": "scheduled",
       "time_local": "3:40 PM PT",
       "probable": {
+        "team": "Carson Whisenhunt",
         "opp": "Foster Griffin"
       }
     },
@@ -174,7 +173,11 @@
       "home": false,
       "gamePk": 824395,
       "status": "scheduled",
-      "time_local": "10:10 AM PT"
+      "time_local": "10:10 AM PT",
+      "probable": {
+        "team": "Landen Roupp",
+        "opp": "Gavin Williams"
+      }
     },
     {
       "date": "2026-08-21",
@@ -266,8 +269,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u20139",
-    "current_streak": "W1",
+    "month_record": "4\u201310",
+    "current_streak": "L1",
     "last_10": "3\u20137"
   }
 }
