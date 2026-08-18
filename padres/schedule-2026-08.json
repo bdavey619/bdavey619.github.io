@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-17T10:54:32.538540+00:00",
+  "generated_at": "2026-08-18T10:53:18.894571+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -152,19 +152,17 @@
       "gamePk": 824397,
       "status": "final",
       "result": "W",
-      "score": "5\u20130"
+      "score": "5\u20130",
+      "archive_url": "archive.html?date=2026-08-17"
     },
     {
       "date": "2026-08-17",
       "opponent": "NYM",
       "home": false,
       "gamePk": 823589,
-      "status": "scheduled",
-      "time_local": "4:10 PM PT",
-      "probable": {
-        "team": "Walker Buehler",
-        "opp": "Nolan McLean"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20132"
     },
     {
       "date": "2026-08-18",
@@ -174,7 +172,8 @@
       "status": "scheduled",
       "time_local": "4:10 PM PT",
       "probable": {
-        "team": "Robbie Ray"
+        "team": "Robbie Ray",
+        "opp": "Zac Thornton"
       }
     },
     {
@@ -185,7 +184,8 @@
       "status": "scheduled",
       "time_local": "10:10 AM PT",
       "probable": {
-        "team": "Michael King"
+        "team": "Michael King",
+        "opp": "Robert Stock"
       }
     },
     {
@@ -270,8 +270,8 @@
     }
   ],
   "summary": {
-    "month_record": "11\u20134",
-    "current_streak": "W1",
-    "last_10": "8\u20132"
+    "month_record": "11\u20135",
+    "current_streak": "L1",
+    "last_10": "7\u20133"
   }
 }
