@@ -1,6 +1,6 @@
 {
   "week": "2026-08-16",
-  "last_updated": "2026-08-17T04:30:00Z",
+  "last_updated": "2026-08-18T03:40:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
@@ -13,13 +13,13 @@
           "text": "Hungary took Paks reactors offline for the first time because Danube cooling water fell below the safe threshold - the river hit minus 134cm at the plant and three of four units shut down in sequence. When the Danube came back 19cm, Hungary restarted a unit. Then it began rebuilding the river: a bed sill upstream of the plant using some 145,000 cubic metres of rock, which officials say could raise the level by up to three feet, plus two 260-foot barges to be transported to the site and possibly sunk to lift the water another eight inches at the cooling pumps. The adaptation is not moving the plant; it is rebuilding the river to fit it.",
           "url": "https://www.nbcnews.com/world/hungary/hungary-sink-barges-build-sill-danube-river-keep-nuclear-plant-running-rcna592183",
           "date": "2026-08-12",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Shipping",
-          "text": "Kaub, the Rhine's shallowest chokepoint, fell below the 25cm record set in 2018 to the lowest reading since records began in 1880, and barge operators say most traffic is now halted south of Mainz. The price of a river: barges that normally haul 5,100 tonnes past Kaub are moving about 800, and freight from Rotterdam to points south has reached roughly EUR 150 a tonne against EUR 20 in normal water. Duisburg reports loading capacity at about a third of usual. Covestro declared force majeure on polyether polyols at Dormagen, where the key feedstock can only arrive by ship, and EnBW put the earnings hit in the low tens of millions of euros. A noticeable rise is unlikely before October.",
-          "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2864800-rhine-hits-record-lows-halts-shipping-south-of-mainz",
-          "date": "2026-08-13",
+          "text": "The Kaub gauge fell to 6cm late Friday - the first single-digit reading since measurements began in the 19th century, against a 25cm record set in 2018. The figure is a reading against a reference datum, not a depth: the navigation channel at Kaub was still a little over 1.2 metres. That is the point. It is deep enough to be water and far too shallow to be a freight corridor, so barges that normally haul 5,100 tonnes past Kaub move about 800, Rotterdam freight to points south runs roughly EUR 150 a tonne against EUR 20, Duisburg loads at a third of capacity, and Covestro has force majeure on polyether polyols at Dormagen. A river does not have to disappear to stop being infrastructure.",
+          "url": "https://eutoday.net/rhine-record-6cm-kaub-freight-shifts/",
+          "date": "2026-08-16",
           "is_new": true
         },
         {
@@ -34,36 +34,36 @@
     {
       "id": "fire-season-relocates",
       "title": "The European fire season doesn't end when a fire is contained — it relocates to the next front",
-      "explanation": "Athens was controlled on August 3. Since August 10 the intensification has been in France and Iberia; last week it reached central England, and this week the Adriatic coast of Croatia - two geographies outside the Mediterranean pattern this was named in. The conditions never lifted; only the available fuel changes. Each region that has burned is protected by its own destruction, and the unburned wait their turn.",
+      "explanation": "Athens was controlled on August 3. Since then the intensification has moved through France and Iberia, central England, the Croatian Adriatic, and this week a Belgian fire advancing on the German border - four geographies outside the Mediterranean pattern this was named in. The conditions never lifted; only the available fuel changes. And the newest variable is not weather at all: some of these ignitions were set deliberately, which means the system now propagates through intent as well as through drought.",
       "momentum": "acute",
       "evidence": [
         {
-          "domain": "Tourism",
-          "text": "A fire out of Lokva Rogoznica covered the roughly 6km to Omis on Croatia's Dalmatian coast in a matter of hours, reaching the Borak neighbourhood above the town centre at about 1:45am. Around 1,200 residents and tourists were evacuated - by land and by sea, with harbour authority vessels lifting people out of stretches the road could not reach, and some people going into the water off boats to escape the heat. Thirty-six were injured, fourteen hospitalised, seven in critical condition; more than 1,000 hectares burned. It happened at the height of the Croatian season, in a coastal geography this recognition did not previously include.",
-          "url": "https://www.euronews.com/my-europe/2026/08/14/at-least-people-in-10-in-intensive-care-and-thousands-flee-intense-wildfire-in-croatia",
-          "date": "2026-08-14",
+          "domain": "Law Enforcement",
+          "text": "Croatian police arrested four people - three Croatians aged 42, 45 and 46 and a Polish citizen - suspected of deliberately setting fires at ten locations across Zadar County on Aug 14 and 15, using open flame and flammable material. Officers seized a pistol, a shotgun and arson materials. They were caught because a local couple near Rastevic saw the group lighting a fire, were confronted when they challenged them, and passed the vehicle details to police. A season everyone has been reading as weather turns out, in part, to be a crime scene.",
+          "url": "https://english.news.cn/europe/20260817/edcd06892c564ebd85959f834aff50b2/c.html",
+          "date": "2026-08-17",
           "is_new": true
         },
         {
           "domain": "Emergency Response",
-          "text": "Firefighters in central England spent Friday fighting homes ablaze - the fire season arriving in a country that is not part of the Mediterranean pattern this recognition was built on. The same day in France, a new fire ran through woodland overnight in the Landes, forcing more than 500 people out of Luglon, while the Aude blaze was fought to the edge of Carcassonne and brought under control overnight into August 14 with 73 homes saved.",
-          "url": "https://www.cnn.com/2026/08/14/europe/uk-wildfires-homes-ablaze-hnk-intl",
+          "text": "A Belgian wildfire advancing toward Germany forced the partial evacuation of a German border town, while France's major blaze was stabilised the same day. In Spain a soldier died Sunday fighting a major fire in Aragon, where authorities have deployed the largest firefighting arsenal in the region's history. In Portugal five firefighters were injured when their vehicle caught fire near Dine, and Greece is investigating a deadly blaze of its own.",
+          "url": "https://www.euronews.com/my-europe/2026/08/17/europe-wildfires-german-border-town-partially-evacuated-but-france-blaze-stabilised",
+          "date": "2026-08-17",
+          "is_new": true
+        },
+        {
+          "domain": "Tourism",
+          "text": "A fire out of Lokva Rogoznica covered the roughly 6km to Omis on Croatia's Dalmatian coast in hours, reaching the Borak neighbourhood above the town centre at about 1:45am. Around 1,200 residents and tourists were evacuated by land and by sea, with harbour authority vessels lifting people from stretches the road could not reach and some going into the water off boats. One woman died and about 40 were injured, ten in intensive care. Croatia's fire chief called it among the worst in the country's history.",
+          "url": "https://www.euronews.com/my-europe/2026/08/14/at-least-people-in-10-in-intensive-care-and-thousands-flee-intense-wildfire-in-croatia",
           "date": "2026-08-14",
           "is_new": false
         },
         {
           "domain": "Wildfire",
-          "text": "As of August 12 the area burned across Europe reached 567,097 hectares, against a 20-year average for the same point in the season of 243,189 hectares - roughly 2.3 times normal. Wildfire activity intensified across southeast Europe from August 10 as extreme dry conditions fuelled new ignitions. At least 14 people have died in European fires this year.",
+          "text": "EFFIS counted 568,415 hectares burned across the EU to Aug 13 from 1,647 separate fires - roughly 2.3 times the 20-year average for the date, but well below the 775,748 hectares burned by the same point in 2025. The season is extraordinary against its own history and unexceptional against last year, which is its own kind of finding.",
           "url": "https://joint-research-centre.ec.europa.eu/projects-and-activities/natural-and-man-made-hazards/forest-fires/current-wildfire-situation-europe_en",
-          "date": "2026-08-12",
-          "is_new": false
-        },
-        {
-          "domain": "Weather",
-          "text": "The fourth major European heatwave of summer 2026 intensified through the week, with more than 135 million people forecast above 35C across France, Italy, Spain and the UK - parts of France past 42C, and the UK's hottest day of the year at 38.1C in west London. June and July in western Europe were the hottest such months on record, averaging 21.62C - about 2.79C above average. The conditions that generated the first fires have not lifted; they have changed address four times.",
-          "url": "https://www.euronews.com/my-europe/2026/08/13/millions-across-europe-swelter-through-a-new-wave-of-extreme-temperatures",
-          "date": "2026-08-13",
-          "is_new": false
+          "date": "2026-08-17",
+          "is_new": true
         }
       ]
     },
@@ -71,20 +71,20 @@
       "id": "warning-clears-before-the-damage-does",
       "title": "We have made the alert fast and left the recovery exactly as slow as it ever was",
       "explanation": "Three disasters on three continents in one weekend, and all three have the same shape: the detection system did its job in hours and then handed off to nothing. A tsunami warning is issued and lifted the same morning; a flash flood emergency expires; a fire is contained overnight. Each of those is a measured, quantitative, minutes-to-hours system. What follows - the death toll, the grid, the intensive care unit, the people who will not go back into the house - has no equivalent instrument and no equivalent urgency. The alert clearing has become the moment coverage ends, which is roughly the moment the actual damage begins to be counted.",
-      "momentum": "building",
+      "momentum": "accelerating",
       "evidence": [
         {
           "domain": "Utilities",
-          "text": "Hurricane Lala never made an official landfall on Hawaii Island - it strengthened to Category 1, passed close late Saturday, then weakened and pulled away. The flash flood emergency lasted hours. The consequence is measured in months: about 200,000 customers across Oahu, Maui and Hawaii island woke without power Sunday, and Hawaiian Electric is telling the hardest-hit rural districts to prepare for weeks or possibly months. The constraint is not the storm but what grew next to the lines - crews are assessing a 42-mile transmission span on the Hamakua coast where albizia, a fast-growing invasive, took down poles and structures. 100 mainland crew are being flown in.",
-          "url": "https://www.hawaiinewsnow.com/2026/08/16/power-outages-impact-88k-hawaii-hurricane-lala-hampers-utility-crews/",
-          "date": "2026-08-16",
+          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. Three days later 117,300 are still dark, 39,400 of them on the Big Island. Gusts of 91mph at Kohala put trees onto poles and transmission towers, and the utility reported Monday that assessments found major damage to infrastructure in remote areas. Its estimate for the hardest-hit rural districts is weeks, possibly months; 100 mainland crew arrive later this week.",
+          "url": "https://www.hawaiinewsnow.com/2026/08/17/power-outages-impact-193k-across-hawaii-after-lala-damages-grid-lines/",
+          "date": "2026-08-17",
           "is_new": true
         },
         {
           "domain": "Disaster Response",
-          "text": "Indonesia issued a tsunami warning after the M7.7 off Flores on Aug 15 and lifted it the same morning when monitoring showed no significant sea-level change - a complete, correct, quantitative answer inside a few hours. The other number took three days and is still moving: 2, then 20, 38, 47, 51, and 53 by Sunday. BMKG logged 995 aftershocks by 3pm Sunday. More than 900 homes destroyed and 450 damaged, about 5,000 people in shelters, landslides still blocking the Trans-Flores Highway. Officials say some residents stay in the evacuation sites because of the aftershocks and the memory of the 1992 Flores quake - a 34-year-old event doing more to set behaviour than any current bulletin.",
-          "url": "https://www.inquirer.com/news/nation-world/indonesia-earthquake-death-toll-rises-flores-20260816.html",
-          "date": "2026-08-16",
+          "text": "Indonesia issued a tsunami warning after the M7.7 off Flores and lifted it the same morning when monitoring showed no significant sea-level change - a complete, correct, quantitative answer inside a few hours; the waves came in under 1.6m. The other number took three days and is still moving: 2, then 20, 38, 47, 51, 53, and 68 by Monday, with displacement rising to 12,800. Landslides still block sections of the Trans-Flores Highway. Monday was Independence Day, marked with thousands in shelters and residents who will not re-enter their houses because of the aftershocks and the memory of the 1992 Flores quake.",
+          "url": "https://time.com/article/2026/08/17/indonesia-earthquake-damage-death-toll/",
+          "date": "2026-08-17",
           "is_new": true
         },
         {
@@ -92,7 +92,7 @@
           "text": "The Omis fire in Croatia was fought through a single night by 286 firefighters, 90 vehicles and four aircraft, and the acute emergency was over inside about a day. What did not end with it: 36 injured, fourteen hospitalised and seven in critical condition, more than 1,000 hectares burned, roughly 1,200 residents and tourists displaced at the height of the season, and about 1,000 of them in a sports hall. The containment headline and the intensive care unit are running on completely different clocks.",
           "url": "https://www.euronews.com/my-europe/2026/08/14/at-least-people-in-10-in-intensive-care-and-thousands-flee-intense-wildfire-in-croatia",
           "date": "2026-08-14",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -100,14 +100,14 @@
       "id": "record-totals-hide-the-split",
       "title": "The records being set this month are made of prices, not strength",
       "explanation": "A record total can be produced two ways: more people buying more, or the same people paying more while a smaller group buys most of it. Every headline figure this month is the second kind. The sum and its components started pointing in opposite directions in the same week - which is where an average stops describing anyone. The clearest evidence is not the total at all; it is where the money is being spent.",
-      "momentum": "accelerating",
+      "momentum": "peaking",
       "evidence": [
         {
           "domain": "Retail Channels",
           "text": "The composition beneath the record: Walmart's share of parents' back-to-school shopping destinations climbed more than 22 percentage points in a year to nearly 80% - the highest level any retailer has reached in the history of JLL's survey. Dollar stores entered the top ten retailers for the first time, up about 10 points to nearly 32%. Mass merchandisers as a category now reach more than 83% of back-to-school shoppers, and Walmart's shoppers over-index on saving money and finishing the entire list in one trip. Budgets rose 11.7% to $489 per child. A record total and a record migration to discounters are the same data point read twice.",
           "url": "https://www.jll.com/en-us/insights/back-to-school-2026-shopping-report",
           "date": "2026-08-17",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Retail",
@@ -125,10 +125,39 @@
         },
         {
           "domain": "Markets",
-          "text": "The S&P 500 closed the week at 7,785.76, up 0.4% for a third consecutive weekly gain after an all-time closing high of 7,798.99 and a first intraday move above 7,800. The Russell 2000 surged 3.15% to 3,068.42, outperforming large caps. Markets rallied on benign CPI and flat PPI while the spending data underneath deteriorated - the market is pricing the absence of inflation, not the presence of demand.",
-          "url": "https://www.cnbc.com/2026/08/13/stock-market-today-live-updates.html",
-          "date": "2026-08-14",
-          "is_new": false
+          "text": "The three-week rally ended Monday. The S&P 500 fell 0.52% to 7,745.06, the Dow lost 272.63 points to 53,459.78 and the Nasdaq slipped 0.32% to 26,644.91, pushed down by oil and yields rather than by anything in the earnings. The index had closed at a record 7,798.99 four sessions earlier. What moved it was not demand data at all - which is the whole point of this pattern: the market was pricing the absence of inflation, and the moment energy and the long bond argued otherwise, the record went.",
+          "url": "https://www.cnbc.com/2026/08/17/stock-market-today-live-updates.html",
+          "date": "2026-08-17",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "id": "priced-as-permanent",
+      "title": "Three markets stopped pricing these disruptions as interruptions and started pricing them as the baseline",
+      "explanation": "An interruption and a permanent condition carry the same headline and completely different prices. Monday was the day three separate systems switched from the first to the second within hours of each other: an energy market that had spent 60 days pricing a deal, a bond market repricing the cost of borrowing for thirty years, and a set of infrastructure owners committing capital on the assumption that the water and the weather are not coming back. None of them is waiting for a return to normal any more.",
+      "momentum": "building",
+      "evidence": [
+        {
+          "domain": "Sovereign Debt",
+          "text": "The 30-year Treasury yield topped 5.31%, its highest since July 2007 - the last time it was here the iPhone had just gone on sale and 'subprime' was a new word. For most of the decade after 2008 it sat below 3%. The drivers are structural rather than cyclical: enormous issuance to fund persistent deficits, tariffs and energy costs keeping inflation alive past the point the Fed expected it to fade, and a market still recalibrating around Kevin Warsh, who took the chair in May. A thirty-year price is a statement about thirty years.",
+          "url": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html",
+          "date": "2026-08-17",
+          "is_new": true
+        },
+        {
+          "domain": "Energy",
+          "text": "The memorandum Trump and Pezeshkian signed on June 17 declared removal of the US naval blockade and safe passage for commercial vessels - explicitly 'for 60 days only'. The 60 days ran out Monday with no successor, both sides having accused the other of violating it for weeks. Brent gained 2.7% to settle at $90.87 and Iran ruled out an interim extension. Roughly a fifth of the world's oil and gas moved through the strait before Feb 28. The premium was never pricing the negotiation; it was pricing what happens when the negotiation has an expiry date printed on it.",
+          "url": "https://www.cnbc.com/2026/08/17/oil-prices-iran-war-strait-hormuz.html",
+          "date": "2026-08-17",
+          "is_new": true
+        },
+        {
+          "domain": "Infrastructure",
+          "text": "The capital commitments give it away. Hungary is building a bed sill into the Danube - 145,000 cubic metres of rock, plus two 260-foot barges that may be sunk at the cooling pumps - to raise a river permanently rather than move a nuclear plant. Hawaiian Electric is planning a rebuild measured in months. On the Rhine, freight is being restructured onto road and rail while Kaub sits at a single-digit gauge reading with no meaningful rain in the catchments. Nobody spends like this on something they expect to end.",
+          "url": "https://eutoday.net/rhine-record-6cm-kaub-freight-shifts/",
+          "date": "2026-08-16",
+          "is_new": true
         }
       ]
     }
