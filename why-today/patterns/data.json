@@ -1,6 +1,6 @@
 {
   "week": "2026-08-16",
-  "last_updated": "2026-08-18T03:40:00Z",
+  "last_updated": "2026-08-18T14:11:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
@@ -20,7 +20,7 @@
           "text": "The Kaub gauge fell to 6cm late Friday - the first single-digit reading since measurements began in the 19th century, against a 25cm record set in 2018. The figure is a reading against a reference datum, not a depth: the navigation channel at Kaub was still a little over 1.2 metres. That is the point. It is deep enough to be water and far too shallow to be a freight corridor, so barges that normally haul 5,100 tonnes past Kaub move about 800, Rotterdam freight to points south runs roughly EUR 150 a tonne against EUR 20, Duisburg loads at a third of capacity, and Covestro has force majeure on polyether polyols at Dormagen. A river does not have to disappear to stop being infrastructure.",
           "url": "https://eutoday.net/rhine-record-6cm-kaub-freight-shifts/",
           "date": "2026-08-16",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Water Supply",
@@ -39,15 +39,15 @@
       "evidence": [
         {
           "domain": "Law Enforcement",
-          "text": "Croatian police arrested four people - three Croatians aged 42, 45 and 46 and a Polish citizen - suspected of deliberately setting fires at ten locations across Zadar County on Aug 14 and 15, using open flame and flammable material. Officers seized a pistol, a shotgun and arson materials. They were caught because a local couple near Rastevic saw the group lighting a fire, were confronted when they challenged them, and passed the vehicle details to police. A season everyone has been reading as weather turns out, in part, to be a crime scene.",
-          "url": "https://english.news.cn/europe/20260817/edcd06892c564ebd85959f834aff50b2/c.html",
+          "text": "Croatian police arrested four people - three Croatians aged 42, 45 and 46 and a 33-year-old Polish citizen - suspected of deliberately setting fires at ten locations across Zadar County on Aug 14 and 15, acting, investigators say, under a prior plan and mutual agreement. Officers seized a semi-automatic rifle with 44 rounds, a pistol and several mobile devices. The prosecutor's office is now preparing formal charges, and Croatian media report USKOK is examining whether the spree contains elements of terrorism. A season everyone has been reading as weather turns out, in part, to be a crime scene - and now potentially a terrorism case.",
+          "url": "https://www.thedubrovniktimes.com/news/croatia/item/20375-four-suspects-accused-of-deliberately-starting-ten-fires-across-croatia-as-police-seize-guns-and-ammunition",
           "date": "2026-08-17",
           "is_new": true
         },
         {
           "domain": "Emergency Response",
-          "text": "A Belgian wildfire advancing toward Germany forced the partial evacuation of a German border town, while France's major blaze was stabilised the same day. In Spain a soldier died Sunday fighting a major fire in Aragon, where authorities have deployed the largest firefighting arsenal in the region's history. In Portugal five firefighters were injured when their vehicle caught fire near Dine, and Greece is investigating a deadly blaze of its own.",
-          "url": "https://www.euronews.com/my-europe/2026/08/17/europe-wildfires-german-border-town-partially-evacuated-but-france-blaze-stabilised",
+          "text": "Belgium's High Fens fire more than doubled in 24 hours to about 3,000 hectares - the largest wildfire in the country's recorded history - and had advanced close enough to Germany to trigger an evacuation order in the border town of Monschau. Rain on Monday stopped the advance, but a crisis-cell spokesman refused to call it contained: 'it could change according to the weather.' Some 500 firefighters from Belgium, Germany and Luxembourg, plus aircraft brought in under the EU Civil Protection Mechanism, are still on it. In Spain a soldier died fighting a major fire in Aragon; in Portugal five firefighters were injured when their vehicle caught fire near Dine; Greece is investigating a deadly blaze of its own.",
+          "url": "https://www.detroitnews.com/story/news/world/2026/08/17/rainfall-fight-belgiums-biggest-wildfire-blazes-europe/91334748007/",
           "date": "2026-08-17",
           "is_new": true
         },
@@ -63,7 +63,7 @@
           "text": "EFFIS counted 568,415 hectares burned across the EU to Aug 13 from 1,647 separate fires - roughly 2.3 times the 20-year average for the date, but well below the 775,748 hectares burned by the same point in 2025. The season is extraordinary against its own history and unexceptional against last year, which is its own kind of finding.",
           "url": "https://joint-research-centre.ec.europa.eu/projects-and-activities/natural-and-man-made-hazards/forest-fires/current-wildfire-situation-europe_en",
           "date": "2026-08-17",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -75,9 +75,9 @@
       "evidence": [
         {
           "domain": "Utilities",
-          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. Three days later 117,300 are still dark, 39,400 of them on the Big Island. Gusts of 91mph at Kohala put trees onto poles and transmission towers, and the utility reported Monday that assessments found major damage to infrastructure in remote areas. Its estimate for the hardest-hit rural districts is weeks, possibly months; 100 mainland crew arrive later this week.",
-          "url": "https://www.hawaiinewsnow.com/2026/08/17/power-outages-impact-193k-across-hawaii-after-lala-damages-grid-lines/",
-          "date": "2026-08-17",
+          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. By Monday evening the statewide total was down to 88,670, but unevenly: the Big Island's wooded Puna-to-Hamakua corridor still had about 38,250 out against Oahu's 14,350, and the utility's estimate for the hardest-hit rural districts remains weeks to months even as the aggregate number falls fast. The detection and the acute emergency resolved in hours; the recovery clock in the wooded districts is running on a completely different schedule.",
+          "url": "https://www.staradvertiser.com/2026/08/18/hawaii-news/thousands-still-without-power-as-crews-work-around-the-clock/",
+          "date": "2026-08-18",
           "is_new": true
         },
         {
@@ -85,7 +85,7 @@
           "text": "Indonesia issued a tsunami warning after the M7.7 off Flores and lifted it the same morning when monitoring showed no significant sea-level change - a complete, correct, quantitative answer inside a few hours; the waves came in under 1.6m. The other number took three days and is still moving: 2, then 20, 38, 47, 51, 53, and 68 by Monday, with displacement rising to 12,800. Landslides still block sections of the Trans-Flores Highway. Monday was Independence Day, marked with thousands in shelters and residents who will not re-enter their houses because of the aftershocks and the memory of the 1992 Flores quake.",
           "url": "https://time.com/article/2026/08/17/indonesia-earthquake-damage-death-toll/",
           "date": "2026-08-17",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Public Health",
@@ -125,9 +125,9 @@
         },
         {
           "domain": "Markets",
-          "text": "The three-week rally ended Monday. The S&P 500 fell 0.52% to 7,745.06, the Dow lost 272.63 points to 53,459.78 and the Nasdaq slipped 0.32% to 26,644.91, pushed down by oil and yields rather than by anything in the earnings. The index had closed at a record 7,798.99 four sessions earlier. What moved it was not demand data at all - which is the whole point of this pattern: the market was pricing the absence of inflation, and the moment energy and the long bond argued otherwise, the record went.",
-          "url": "https://www.cnbc.com/2026/08/17/stock-market-today-live-updates.html",
-          "date": "2026-08-17",
+          "text": "The three-week rally ended Monday and kept unwinding Tuesday. The S&P 500 fell 0.52% Monday, then another 0.44% Tuesday; the Dow lost 272.63 points Monday, then 0.21% more; the Nasdaq, worst hit, slipped 0.32% Monday and then 1.02% Tuesday as rising long-dated yields hit tech hardest. The index had closed at a record 7,798.99 five sessions earlier. What moved it two days running was not demand data at all - which is the whole point of this pattern: the market was pricing the absence of inflation, and the moment energy and the long bond argued otherwise, the record kept eroding.",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-18-dow-sp-500-nasdaq-080822735.html",
+          "date": "2026-08-18",
           "is_new": true
         }
       ]
@@ -140,16 +140,16 @@
       "evidence": [
         {
           "domain": "Sovereign Debt",
-          "text": "The 30-year Treasury yield topped 5.31%, its highest since July 2007 - the last time it was here the iPhone had just gone on sale and 'subprime' was a new word. For most of the decade after 2008 it sat below 3%. The drivers are structural rather than cyclical: enormous issuance to fund persistent deficits, tariffs and energy costs keeping inflation alive past the point the Fed expected it to fade, and a market still recalibrating around Kevin Warsh, who took the chair in May. A thirty-year price is a statement about thirty years.",
-          "url": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html",
-          "date": "2026-08-17",
+          "text": "The 30-year Treasury yield topped 5.31% Monday, its highest since July 2007 - the last time it was here the iPhone had just gone on sale and 'subprime' was a new word - and held above 5.3% Tuesday. The 10-year, previously the quiet one, joined it: pushed toward 4.75%, up about 5 basis points, and this time it showed up directly in equities, dragging the Nasdaq down 1.02%. For most of the decade after 2008 the 30-year sat below 3%. The drivers are structural rather than cyclical: enormous issuance to fund persistent deficits, tariffs and energy costs keeping inflation alive past the point the Fed expected it to fade, and a market still recalibrating around Kevin Warsh, who took the chair in May. A thirty-year price is a statement about thirty years.",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-18-dow-sp-500-nasdaq-080822735.html",
+          "date": "2026-08-18",
           "is_new": true
         },
         {
           "domain": "Energy",
-          "text": "The memorandum Trump and Pezeshkian signed on June 17 declared removal of the US naval blockade and safe passage for commercial vessels - explicitly 'for 60 days only'. The 60 days ran out Monday with no successor, both sides having accused the other of violating it for weeks. Brent gained 2.7% to settle at $90.87 and Iran ruled out an interim extension. Roughly a fifth of the world's oil and gas moved through the strait before Feb 28. The premium was never pricing the negotiation; it was pricing what happens when the negotiation has an expiry date printed on it.",
-          "url": "https://www.cnbc.com/2026/08/17/oil-prices-iran-war-strait-hormuz.html",
-          "date": "2026-08-17",
+          "text": "The memorandum Trump and Pezeshkian signed on June 17 declared removal of the US naval blockade and safe passage for commercial vessels - explicitly 'for 60 days only'. It ran out Monday with no successor, and Tuesday removed any doubt this is now the baseline: Iran said the strait stays shut until the US lifts sanctions and the blockade, a fresh strike was reported on a vessel transiting it, and oil hit its highest level since July. Trump answered by threatening, for the second time, to bomb Oman - the country actually hosting the talks. Roughly a fifth of the world's oil and gas moved through the strait before Feb 28. The premium was never pricing the negotiation; it was pricing what happens when the negotiation has an expiry date printed on it, and now a second one on the mediator.",
+          "url": "https://www.forbes.com/sites/siladityaray/2026/08/18/iran-says-hormuz-will-stay-shut-until-us-lifts-sanctions-and-blockade-as-deadline-passes-for-peace-deal/",
+          "date": "2026-08-18",
           "is_new": true
         },
         {
@@ -157,7 +157,7 @@
           "text": "The capital commitments give it away. Hungary is building a bed sill into the Danube - 145,000 cubic metres of rock, plus two 260-foot barges that may be sunk at the cooling pumps - to raise a river permanently rather than move a nuclear plant. Hawaiian Electric is planning a rebuild measured in months. On the Rhine, freight is being restructured onto road and rail while Kaub sits at a single-digit gauge reading with no meaningful rain in the catchments. Nobody spends like this on something they expect to end.",
           "url": "https://eutoday.net/rhine-record-6cm-kaub-freight-shifts/",
           "date": "2026-08-16",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
