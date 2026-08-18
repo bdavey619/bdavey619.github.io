@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-08",
   "division_name": "AL East",
-  "generated_at": "2026-08-17T11:29:55.844979+00:00",
+  "generated_at": "2026-08-18T11:29:12.147819+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -142,7 +142,8 @@
       "gamePk": 822774,
       "status": "final",
       "result": "W",
-      "score": "4\u20133"
+      "score": "4\u20133",
+      "archive_url": "archive.html?date=2026-08-17"
     },
     {
       "date": "2026-08-18",
@@ -152,7 +153,8 @@
       "status": "scheduled",
       "time_local": "6:35 PM ET",
       "probable": {
-        "team": "Will Warren"
+        "team": "Carlos Rod\u00f3n",
+        "opp": "Shane Baz"
       }
     },
     {
@@ -163,7 +165,7 @@
       "status": "scheduled",
       "time_local": "6:35 PM ET",
       "probable": {
-        "team": "Max Fried"
+        "opp": "Chris Bassitt"
       }
     },
     {
@@ -174,7 +176,8 @@
       "status": "scheduled",
       "time_local": "6:35 PM ET",
       "probable": {
-        "team": "Gerrit Cole"
+        "team": "Gerrit Cole",
+        "opp": "Kyle Bradish"
       }
     },
     {
