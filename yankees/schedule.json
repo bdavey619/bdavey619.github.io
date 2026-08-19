@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-08",
   "division_name": "AL East",
-  "generated_at": "2026-08-18T11:29:12.147819+00:00",
+  "generated_at": "2026-08-19T11:29:08.877938+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -150,12 +150,9 @@
       "opponent": "BAL",
       "home": false,
       "gamePk": 824803,
-      "status": "scheduled",
-      "time_local": "6:35 PM ET",
-      "probable": {
-        "team": "Carlos Rod\u00f3n",
-        "opp": "Shane Baz"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "3\u20131"
     },
     {
       "date": "2026-08-19",
@@ -165,6 +162,7 @@
       "status": "scheduled",
       "time_local": "6:35 PM ET",
       "probable": {
+        "team": "Will Warren",
         "opp": "Chris Bassitt"
       }
     },
@@ -270,8 +268,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u20137",
-    "current_streak": "W1",
-    "last_10": "5\u20135"
+    "month_record": "8\u20137",
+    "current_streak": "W2",
+    "last_10": "6\u20134"
   }
 }
