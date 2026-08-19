@@ -528,6 +528,77 @@ body {
   font-style: italic;
 }
 
+/* ─── WHAT CHANGED ─── */
+
+/* The newest change note, in the open. The whole point of this block is that a
+   reader should not have to open anything to learn what moved since last time. */
+.curiosity-latest {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  background: var(--bg-warm);
+  border-left: 2px solid var(--rule);
+  padding: 9px 12px;
+  margin-top: 12px;
+  border-radius: 0 2px 2px 0;
+}
+
+/* A note from this cycle earns the accent; an older one stays quiet. */
+.curiosity-latest.is-current {
+  border-left-color: var(--accent);
+  color: var(--text);
+}
+
+.latest-date {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  margin-right: 8px;
+}
+
+.curiosity-latest.is-current .latest-date { color: var(--accent); }
+
+.curiosity-change {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 1px 5px;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.change-new {
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.change-updated {
+  background: var(--c-building-bg);
+  color: var(--c-building);
+}
+
+/* One line, directly under the meta bar, saying what this session did. */
+.storylines-cycle-bar {
+  max-width: var(--max-width);
+  margin: -24px auto 0;
+  padding: 0 40px 36px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+
 /* ─── STATUS CHIPS ─── */
 
 .curiosity-status {
@@ -737,6 +808,9 @@ body {
 
 .evidence-details, .history-details { margin-top: 20px; }
 
+/* The earlier notes belong to the change block above them, not to open space. */
+.curiosity-latest + .history-details { margin-top: 4px; }
+
 .evidence-details > summary,
 .history-details > summary {
   list-style: none;
@@ -916,6 +990,7 @@ body {
   .editions-section { padding: 0 24px 72px; }
   .footer { padding: 28px 24px; flex-direction: column; text-align: center; gap: 8px; }
   .storylines-meta-bar { padding: 0 24px 32px; }
+  .storylines-cycle-bar { padding: 0 24px 28px; margin-top: -20px; }
   .storylines-section { padding: 0 24px 72px; }
   .storyline-row { flex-direction: column; gap: 2px; }
   .stream-summary { padding: 0 24px 16px; }

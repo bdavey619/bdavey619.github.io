@@ -1,5 +1,6 @@
 {
   "week_start": "2026-08-16",
+  "cycle_start": "2026-08-18T14:11:00Z",
   "last_updated": "2026-08-19T00:20:00Z",
   "storylines": [
     {
@@ -7,7 +8,7 @@
       "stream": "natural_world",
       "observer": "threshold_watcher",
       "title": "The Rhine went single-digit for the first time on record - and the number everyone is quoting isn't a depth",
-      "observation": "The Kaub gauge fell to 6cm late Friday and read 8cm early Saturday - the first single-digit reading since measurements began in the 19th century, against a previous record of 25cm set in 2018. One correction worth making: that gauge figure is a reading against a reference datum, not the depth of the water. The navigation channel at Kaub was still a little over 1.2 metres deep. It is simply far too shallow for laden barges and for most 110-135m river cruise ships, which is why 18 of 34 Viking landing stages between Amsterdam and Basel were inaccessible or unserved as of Aug 14, and why freight keeps shifting to road and rail. A barge that normally hauls 5,100 tonnes past Kaub is moving about 800, and Rotterdam freight to points south has reached roughly EUR 150 a tonne against EUR 20 in normal water. Rain is finally forecast for the Swiss and Alpine catchments and Kaub may recover modestly later in the week - but the soil is dry enough that isolated storms run off without recharging the river.",
+      "observation": "Kaub is the Rhine's shallowest chokepoint, and its gauge reading \u2014 a level against a reference datum, not a depth \u2014 sets what the whole river can carry. One drought is degrading a freight network, a coolant supply and a power source at once.",
       "question": "When a number becomes the headline for a crisis, how often is it measuring the thing we think it is - and who benefits from the confusion?",
       "hidden_question": "When a number becomes the headline for a crisis, how often is it measuring the thing we think it is - and who benefits from the confusion?",
       "pattern": "When a river becomes the binding constraint, the cheaper adaptation is to re-engineer the river rather than relocate what depends on it",
@@ -22,7 +23,20 @@
       "first_seen": "2026-08-16T18:00:00Z",
       "last_seen": "2026-08-18T03:40:00Z",
       "appearances": 3,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-08-16T18:00:00Z",
+          "note": "Kaub hit 15cm, below the 2018 record and the lowest since 1880. The Danube rose 19cm, letting Hungary restart a second Paks reactor unit."
+        },
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "A barge that normally hauls 5,100 tonnes past Kaub is moving about 800. Rotterdam freight south reached ~EUR 150 a tonne against EUR 20. Covestro declared force majeure at Dormagen."
+        },
+        {
+          "date": "2026-08-18T03:40:00Z",
+          "note": "Kaub read 6cm \u2014 the first single-digit reading on record. The navigation channel is still ~1.2m deep; 18 of 34 Viking landing stages were out as of Aug 14."
+        }
+      ],
       "source_date": "2026-08-16"
     },
     {
@@ -30,7 +44,7 @@
       "stream": "natural_world",
       "observer": "threshold_watcher",
       "title": "Heat debt - when overnight lows refuse to drop, the body falls behind",
-      "observation": "Recovery from heat happens at night. The fourth European heatwave of the summer pushed above 35C across France, Italy, Spain and the UK, with a UK year-high of 38.1C in west London and parts of France past 42C. More than 135 million people were forecast above 35C. June and July in western Europe were the hottest on record, averaging 21.62C - about 2.79C above normal. The debt is cumulative: the fourth wave lands on a body that never finished paying off the third.",
+      "observation": "Recovery from heat happens at night. When overnight lows stop dropping, the debt is cumulative \u2014 the fourth wave of a summer lands on a body that never finished paying off the third.",
       "question": "Why is the overnight low a better predictor of who dies in a heatwave than the afternoon high everyone actually talks about?",
       "hidden_question": "Why is the overnight low a better predictor of who dies in a heatwave than the afternoon high everyone actually talks about?",
       "pattern": "Heat mortality tracks failed overnight recovery, not peak daytime temperature",
@@ -45,7 +59,16 @@
       "first_seen": "2026-07-27T14:00:00Z",
       "last_seen": "2026-08-16T18:00:00Z",
       "appearances": 8,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-08-16T18:00:00Z",
+          "note": "The fourth European heatwave pushed above 35C across France, Italy, Spain and the UK, with a UK year-high of 38.1C in west London and parts of France past 42C."
+        },
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "June and July in western Europe were the hottest on record, averaging 21.62C \u2014 about 2.79C above normal. More than 135 million people were forecast above 35C."
+        }
+      ],
       "source_date": "2026-08-13"
     },
     {
@@ -53,7 +76,7 @@
       "stream": "natural_world",
       "observer": "threshold_watcher",
       "title": "Lala never made landfall - and three days on, 117,000 customers are still dark",
-      "observation": "At peak the storm took out 250,900 Hawaiian Electric customers - roughly one in four tracked accounts statewide - as the eyewall passed just south of Hawaii Island without an official landfall. By 6pm Monday that had fallen to about 88,670 still dark; outage trackers showed the statewide count continuing to drop through Tuesday, with the Big Island's Puna-to-Hamakua corridor still the laggard against Oahu's faster-clearing urban circuits. The reinforcement Hawaiian Electric asked for arrives on schedule Wednesday: about 100 mainland mutual-aid crew, requested through the utility's Western Region Mutual Assistance Group membership, land and begin work today - the first outside labor added to the restoration since the storm hit. Gusts hit 91mph at Kohala, 89mph in West Maui and 84mph in elevated parts of Oahu, toppling trees onto poles and transmission towers. Hawaiian Electric's own estimate for the hardest-hit rural districts is still weeks - possibly months - even as the statewide total drops and outside crews join the effort.",
+      "observation": "Lala's eyewall passed just south of Hawaii Island without an official landfall. It did not need one: at peak the storm took out 250,900 Hawaiian Electric customers, roughly one in four tracked accounts statewide.",
       "question": "Why is landfall still the headline metric for a storm when the damage is done by rain rate and terrain - and who is misled by that framing?",
       "hidden_question": "Why is landfall still the headline metric for a storm when the damage is done by rain rate and terrain - and who is misled by that framing?",
       "pattern": "Landfall is a coastline event; the flooding that kills is a rain-rate and topography event",
@@ -68,7 +91,28 @@
       "first_seen": "2026-08-16T18:00:00Z",
       "last_seen": "2026-08-19T00:20:00Z",
       "appearances": 5,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-08-16T18:00:00Z",
+          "note": "Flash flood emergency for parts of the Big Island, rain at 3-5 inches an hour. Two homes swept away at Naalehu, one person dead. Mauna Kea's summit clocked 140mph."
+        },
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "More than 100 homes on the southern Big Island destroyed or damaged. Hawaiian Electric restored 63,000 customers and began flying in 100 mainland crew."
+        },
+        {
+          "date": "2026-08-18T03:40:00Z",
+          "note": "Three days on, 117,300 still dark. Gusts hit 91mph at Kohala and 89mph in West Maui; assessments found major damage to infrastructure in remote areas."
+        },
+        {
+          "date": "2026-08-18T14:11:00Z",
+          "note": "Down to 88,670 out by 6pm Monday, but unevenly: about 38,250 on the Big Island against 14,350 on Oahu and 1,450 in Maui County."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "The 100 mainland mutual-aid crew land and begin work Wednesday \u2014 the first outside labor added since the storm. The rural estimate is still weeks, possibly months."
+        }
+      ],
       "source_date": "2026-08-17"
     },
     {
@@ -76,7 +120,7 @@
       "stream": "human_rituals",
       "observer": "threshold_watcher",
       "title": "Back-to-school - a record total, and everyone shopping at the same two places",
-      "observation": "The NRF projects $146.8 billion in 2026 back-to-school spending, an all-time high, and JLL has parents budgeting $489 per child, up 11.7%. The composition is the story. Walmart's share of parents' shopping destinations climbed more than 22 percentage points in a year to nearly 80% - the highest any retailer has reached in the history of JLL's survey. Dollar stores entered the top ten for the first time, up about 10 points to nearly 32%. Mass merchandisers now reach more than 83% of back-to-school shoppers. The ritual is getting more expensive to perform and the places it is performed in are consolidating around price.",
+      "observation": "The NRF projects $146.8 billion in 2026 back-to-school spending, an all-time high. The ritual is getting more expensive to perform, and the places it is performed in are consolidating around price.",
       "question": "What does it mean that the most reliable annual measure of household optimism is now rising for the same reason household strain is?",
       "hidden_question": "What does it mean that the most reliable annual measure of household optimism is now rising for the same reason household strain is?",
       "pattern": "A record aggregate produced by prices and participation rather than strength - visible in where the money is spent, not how much",
@@ -91,7 +135,16 @@
       "first_seen": "2026-07-26T14:00:00Z",
       "last_seen": "2026-08-18T03:40:00Z",
       "appearances": 10,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-08-16T18:00:00Z",
+          "note": "RSM reads the record as 'K-shaped underneath' \u2014 broader participation and higher prices, not a consumer who feels flush. The same week, July retail sales fell 0.6%."
+        },
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "JLL has parents budgeting $489 per child, up 11.7%. Walmart's share of destinations climbed 22 points to nearly 80%, a survey record, and dollar stores entered the top ten."
+        }
+      ],
       "source_evergreen": true
     },
     {
@@ -99,7 +152,7 @@
       "stream": "places",
       "observer": "threshold_watcher",
       "title": "Omis was evacuated by boat - and the Adriatic fire wave now has four people in custody",
-      "observation": "The fire out of Lokva Rogoznica covered the roughly 6km to Omis in hours, reaching the Borak neighbourhood above the town centre around 1:45am. Roughly 1,200 residents and tourists were moved out - by land and by sea, with harbour authority vessels lifting people from stretches the road could not reach, and some going into the water off boats to escape the heat. One woman died; about 40 were injured with ten in intensive care. Croatia's fire chief called it among the worst blazes in the country's history. Further up the same coast the story turned criminal: police arrested four people - three Croatians aged 42, 45 and 46 and a 33-year-old Polish citizen - shortly after 8pm on Aug 15, suspected of deliberately setting fires at ten locations across Zadar County that day and the day before, acting, investigators say, under a prior plan and mutual agreement. Officers seized a semi-automatic rifle with 44 rounds, a pistol and several mobile devices. Police have now submitted a formal criminal complaint, together with the evidence collected, to the Municipal State Attorney's Office in Zadar - the case has moved from investigation to prosecution's desk. Croatian media report USKOK is separately examining whether the arson contains elements of terrorism; no such charge has been confirmed publicly. A local couple who saw them lighting a fire near Rastevic took down the vehicle and called it in.",
+      "observation": "The Lokva Rogoznica fire covered the roughly 6km to Omis in hours. About 1,200 people were moved out by land and by sea, harbour authority vessels lifting them from stretches the road could not reach.",
       "question": "What happens to a place whose geography is its whole economy when that same geography becomes the reason there is only one way out - and when the fire turns out to have been set?",
       "hidden_question": "What happens to a place whose geography is its whole economy when that same geography becomes the reason there is only one way out - and when the fire turns out to have been set?",
       "pattern": "The cliff-and-single-coast-road setting that makes a place worth visiting is the same thing that makes it impossible to leave by land",
@@ -114,7 +167,24 @@
       "first_seen": "2026-08-17T04:30:00Z",
       "last_seen": "2026-08-19T00:20:00Z",
       "appearances": 4,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "The fire reached the Borak neighbourhood above the town centre around 1:45am. Thirty-six injured, seven critical; 286 firefighters, 90 vehicles and four aircraft worked it overnight."
+        },
+        {
+          "date": "2026-08-18T03:40:00Z",
+          "note": "One woman died and the injured count was revised to about 40, ten in intensive care. Police arrested four people for deliberately setting fires across Zadar County."
+        },
+        {
+          "date": "2026-08-18T14:11:00Z",
+          "note": "The four \u2014 Croatians aged 42, 45 and 46 and a 33-year-old Pole \u2014 are suspected of firing ten locations under a prior plan. USKOK is examining whether it amounts to terrorism."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "Police filed a formal criminal complaint with the Municipal State Attorney's Office in Zadar. The case has moved from investigation to prosecution."
+        }
+      ],
       "source_date": "2026-08-18"
     },
     {
@@ -122,7 +192,7 @@
       "stream": "curiosities",
       "observer": "threshold_watcher",
       "title": "An invasive tree is now the pacing item on Hawaii's power restoration",
-      "observation": "The reason parts of Hawaii island may wait months rather than days for power is not the storm and not the poles - it is the trees. Many of the island's transmission lines run through wooded ground where albizia, a fast-growing invasive introduced for reforestation, is tall and brittle enough to take a line out when it goes over. Gusts of 91mph at Kohala put trees onto poles and transmission towers, and Hawaiian Electric said Monday that assessments found major damage to infrastructure in remote areas; crews are working a 42-mile transmission span on the Hamakua coast. Three days in, the gap the biology predicted is now big enough that Hawaiian Electric is importing labor for it: about 100 mainland mutual-aid crew begin work Wednesday, aimed squarely at the wooded Big Island circuits that local crews haven't been able to clear at the same pace as Oahu's more accessible lines. The restoration schedule is being set by what grew alongside the corridor over decades, not by what the wind did in a night - and now by how fast outside labor can be flown in to work against it.",
+      "observation": "Hawaii Island's transmission lines run through ground where albizia \u2014 a fast-growing invasive introduced for reforestation \u2014 is tall and brittle enough to take a line out. The restoration schedule is set by what grew alongside the corridor, not by the wind.",
       "question": "How many of the systems we call infrastructure are actually being governed by something biological that nobody put on the asset register?",
       "hidden_question": "How many of the systems we call infrastructure are actually being governed by something biological that nobody put on the asset register?",
       "pattern": "A slow biological accumulation sets the recovery time of a fast engineered system",
@@ -137,7 +207,24 @@
       "first_seen": "2026-08-17T04:30:00Z",
       "last_seen": "2026-08-19T00:20:00Z",
       "appearances": 4,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "Crews are assessing a 42-mile span on the Hamakua coast after fallen trees knocked down multiple poles and structures."
+        },
+        {
+          "date": "2026-08-18T03:40:00Z",
+          "note": "Hawaiian Electric said assessments found major damage in remote areas; 91mph gusts at Kohala put trees onto poles and transmission towers."
+        },
+        {
+          "date": "2026-08-18T14:11:00Z",
+          "note": "The split is holding as the biology predicts: Oahu's accessible urban circuits down to about 14,350 out, the wooded Puna-to-Hamakua corridor still roughly 38,250."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "The gap is now big enough to import labor for: about 100 mainland crew begin Wednesday, aimed squarely at the wooded Big Island circuits."
+        }
+      ],
       "source_date": "2026-08-17"
     },
     {
@@ -145,7 +232,7 @@
       "stream": "markets",
       "observer": "markets",
       "title": "The 30-year hit 5.31% - a level last seen when 'subprime' was a new word",
-      "observation": "The story moved to the long end of the curve, and it kept moving. The 30-year yield topped 5.31% Monday, its highest since July 2007 - the last time it was here, the iPhone had just gone on sale - then topped 5.33% Tuesday, extending the 19-year high a second straight session. The 10-year is no longer the quiet one either, sitting around 4.70-4.73%, up from the low-4.60s a week ago, and Tuesday it showed up directly in equities: the S&P 500 closed down 0.69% at 7,691.76, its third straight losing session, and the Nasdaq fell 1.33% to 26,289.71 as AI-linked names - Nvidia, Meta, Tesla, Oracle - dropped up to 3%. Three things are pushing the long end: the Treasury is issuing an enormous volume of debt to fund persistent deficits, and more supply means worse prices; tariffs and rising energy costs have kept inflation alive past the point the Fed expected it to fade; and the market is still recalibrating around Kevin Warsh, who took the chair in May and whose signals on the path of rates have introduced fresh uncertainty.",
+      "observation": "The story is at the long end of the curve. Three things are pushing it: Treasury issuing enormous debt to fund persistent deficits, tariffs and energy keeping inflation alive past the Fed's expectation, and a market still recalibrating around Kevin Warsh.",
       "question": "When the long bond reprices this far, is the market forecasting inflation - or repricing the credibility of the borrower?",
       "hidden_question": "When the long bond reprices this far, is the market forecasting inflation - or repricing the credibility of the borrower?",
       "pattern": "The long end is repricing supply and credibility, not the next rate decision",
@@ -160,7 +247,28 @@
       "first_seen": "2026-08-08T18:00:00Z",
       "last_seen": "2026-08-19T00:20:00Z",
       "appearances": 9,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-08-16T18:00:00Z",
+          "note": "The 10-year finished Friday at 4.68% after testing a 19-month high of 4.75%. July CPI came in at 3.4% headline and 2.5% core, both in line, and PPI was flat."
+        },
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "The 10-year eased to 4.69%, up 9bp on the month and 35bp on the year. What holds the long end up is not a print but the read that the Fed may be complacent on inflation."
+        },
+        {
+          "date": "2026-08-18T03:40:00Z",
+          "note": "The 30-year topped 5.31%, its highest since July 2007. For most of the decade after 2008 it sat below 3%."
+        },
+        {
+          "date": "2026-08-18T14:11:00Z",
+          "note": "The 10-year pushed toward 4.75%, up ~5bp, dragging the Nasdaq down 1.02% while the S&P fell 0.44% \u2014 tech hit hardest by the rise in long-dated borrowing costs."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "The 30-year topped 5.33%, a second straight 19-year high. The S&P closed down 0.69% at 7,691.76 and the Nasdaq fell 1.33% as Nvidia, Meta, Tesla and Oracle dropped up to 3%."
+        }
+      ],
       "source_date": "2026-08-18"
     },
     {
@@ -168,7 +276,7 @@
       "stream": "markets",
       "observer": "markets",
       "title": "The 60-day clock ran out, and Brent settled at $90.87",
-      "observation": "The memorandum Trump and Pezeshkian signed on June 17 - which declared the removal of the US naval blockade and arrangements for safe passage of commercial vessels, explicitly 'for 60 days only' - expired Monday with no successor. The clearest read on what that's worth isn't the price, it's the traffic: crossings collapsed 64% from their post-MoU peak to single digits by mid-August, just three vessels on one recent day, against a pre-war daily average of about 130. Brent held near $91 Tuesday and WTI near $84, both close to their highest since July. Yet the same 24 hours produced something the oil price doesn't capture: Iran's foreign ministry said talks with Oman are 'continuing in earnest' and that the two sides have agreed a 'navigation map' for the strait, even as the final text is still being negotiated - progress that coexists uneasily with Trump's second threat in three months to bomb Oman if it 'gets in the way,' and with Trump's own claim, which the IRGC denies, of a direct backchannel to the Guard. The market is pricing a strait that is simultaneously being negotiated open and threatened shut by the same set of actors in the same week.",
+      "observation": "The June 17 memorandum removing the US naval blockade ran 'for 60 days only' and expired Monday with no successor. The clearest read on what that is worth is not the price but the traffic.",
       "question": "At what point does a war premium stop being a risk premium and simply become the price?",
       "hidden_question": "At what point does a war premium stop being a risk premium and simply become the price?",
       "pattern": "A risk premium converting into a structural supply reprice",
@@ -183,7 +291,28 @@
       "first_seen": "2026-08-08T18:00:00Z",
       "last_seen": "2026-08-19T00:20:00Z",
       "appearances": 9,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-08-16T18:00:00Z",
+          "note": "Brent closed Friday at $88.52, up almost 6% on the week, after the US said its blockade could continue indefinitely. The IEA warns of the widest supply deficit in five years for 2026."
+        },
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "Eight vessels crossed the strait on a single recent day, against roughly 130 a day before the war began on Feb 28."
+        },
+        {
+          "date": "2026-08-18T03:40:00Z",
+          "note": "The memorandum expired. Brent gained 2.7% to settle at $90.87 as Iran ruled out an interim extension and threatened to escalate."
+        },
+        {
+          "date": "2026-08-18T14:11:00Z",
+          "note": "A fresh strike was reported on a transiting vessel. Iran said the strait stays shut until sanctions and the blockade lift \u2014 a condition, not a position. Trump threatened Oman a second time."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "Crossings have collapsed 64% from their post-MoU peak to single digits \u2014 three vessels on one recent day. Iran says it has agreed a 'navigation map' with Oman, text still being negotiated."
+        }
+      ],
       "source_date": "2026-08-17"
     },
     {
@@ -191,7 +320,7 @@
       "stream": "headlines",
       "observer": "headlines",
       "title": "171 days of war, an expired agreement, and still no congressional vote",
-      "observation": "The one document that structured this war expired Monday, and the days since have run two tracks at once. On one: Iran's foreign ministry says talks with Oman are 'continuing in earnest' and the sides have agreed a 'navigation map' for reopening the strait, with the final text still being drafted. On the other: strait crossings have collapsed 64% from their post-MoU peak to single digits a day, Trump has now threatened twice to bomb Oman - the country actually hosting those talks - if it 'gets in the way,' and Trump claims a direct backchannel to the IRGC that the IRGC itself denies exists. Both tracks are real, and Congress has weighed in on neither. Control of the strait - about a fifth of world oil and gas before Feb 28 - remains the sticking point. What still has not happened, on the third day without a governing agreement: any congressional vote. The War Powers clock was first paused by a ceasefire, then never started by a blockade, and has now outlasted the agreement that replaced both.",
+      "observation": "The war began February 28. The War Powers clock was first paused by a ceasefire, then never started by a blockade, and has now outlasted the agreement that replaced both. Congress still has not voted.",
       "question": "How does a country fight a 171-day war that closes the world's most important oil lane without Congress ever casting a vote - and what mechanism was supposed to prevent that?",
       "hidden_question": "How does a country fight a 171-day war that closes the world's most important oil lane without Congress ever casting a vote - and what mechanism was supposed to prevent that?",
       "pattern": "The War Powers check is not failing - it is being outlasted",
@@ -206,7 +335,28 @@
       "first_seen": "2026-07-22T00:00:00Z",
       "last_seen": "2026-08-19T00:20:00Z",
       "appearances": 22,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-08-16T18:00:00Z",
+          "note": "Iran set six conditions for reopening the strait. Hegseth says the Navy can hold the blockade 'indefinitely' and that Trump 'has all the authorities he needs under Article 2.'"
+        },
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "Israeli strikes in southern Lebanon killed 11, the deadliest day there since the June ceasefire. The war widened over the weekend without widening its authorisation."
+        },
+        {
+          "date": "2026-08-18T03:40:00Z",
+          "note": "The June 17 memorandum expired. Control of the strait \u2014 a fifth of world oil and gas before Feb 28 \u2014 remains the sticking point, and no vote followed."
+        },
+        {
+          "date": "2026-08-18T14:11:00Z",
+          "note": "Trump threatened for a second time to bomb Oman, the country hosting the talks Tehran says it is close to concluding."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "Two tracks now run at once: a 'navigation map' agreed with Oman, and crossings down 64% alongside a doubled bombing threat aimed at the mediator. Congress has weighed in on neither."
+        }
+      ],
       "category": "Politics & World",
       "source_date": "2026-08-18"
     },
@@ -215,7 +365,7 @@
       "stream": "headlines",
       "observer": "headlines",
       "title": "The fire front reached Belgium - and is now approaching the German border",
-      "observation": "The High Fens fire in Belgium's Liege province, which broke out Friday, more than doubled in 24 hours to about 3,000 hectares and is now the largest wildfire in Belgium's recorded history. Rain over eastern Belgium on Monday helped stop its advance toward Germany, and Sourbrodt residents were allowed home Monday night - but roughly 600 evacuees from elsewhere in the High Fens still couldn't return as of Tuesday. Authorities called the fire 'contained' in areas crews could reach, then had to qualify that overnight: the blaze kept spreading, unchecked, through peat bog and moorland too remote for crews on foot, new hotspots emerged, and two firefighters were hospitalised. Tuesday's operation was a deliberate push to 'definitively encircle' the fire rather than simply hold the line - nearly 500 personnel, 120-plus vehicles and nine aircraft from five countries. France's major blaze was stabilised days ago; in Spain a soldier died fighting a major fire in Aragon; in Portugal five firefighters were hurt when their vehicle caught fire near Dine; Greece is investigating a deadly blaze of its own. Across Europe this year, fires have killed more than 20 people and burned roughly 576,000 hectares - twice the size of Luxembourg.",
+      "observation": "The season keeps finding geographies it was not named for. The High Fens fire in Belgium's Liege province is now the largest wildfire in the country's recorded history, burning through peat bog and moorland too remote for crews on foot.",
       "question": "If the fire season is one continuous system moving across terrain rather than a sequence of separate fires, what decides where it goes next?",
       "hidden_question": "If the fire season is one continuous system moving across terrain rather than a sequence of separate fires, what decides where it goes next?",
       "pattern": "Each burned region is temporarily protected by its own destruction; the unburned wait their turn",
@@ -230,7 +380,28 @@
       "first_seen": "2026-07-26T14:00:00Z",
       "last_seen": "2026-08-19T00:20:00Z",
       "appearances": 15,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-08-16T18:00:00Z",
+          "note": "A new fire ran through France's Landes, forcing more than 500 out of Luglon, and the Aude blaze was fought to the edge of Carcassonne. European burned area hit 567,097 hectares against a 20-year average of 243,189."
+        },
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "The front reached Croatia's Dalmatian coast at Omis. At least 14 people have died in European fires this year."
+        },
+        {
+          "date": "2026-08-18T03:40:00Z",
+          "note": "A Belgian fire advancing on Germany forced the partial evacuation of a German border town. A soldier died fighting in Aragon; five firefighters were hurt near Dine in Portugal."
+        },
+        {
+          "date": "2026-08-18T14:11:00Z",
+          "note": "High Fens more than doubled in 24 hours to about 3,000 hectares. Monschau, across the German border, was put under evacuation order; rain on Monday stopped the advance."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "'Contained' in reachable areas turned out to mean it kept spreading where crews could not follow. Tuesday's push to 'definitively encircle' used nearly 500 personnel and nine aircraft from five countries."
+        }
+      ],
       "category": "Politics & World",
       "source_date": "2026-08-18"
     },
@@ -239,7 +410,7 @@
       "stream": "headlines",
       "observer": "headlines",
       "title": "The tsunami warning cleared in hours; by Independence Day the toll was 68 and 12,800 had lost their homes",
-      "observation": "The M7.7 hit off Flores at 5:58am on Aug 15. Indonesia issued a tsunami warning and lifted it the same morning when monitoring showed no significant sea-level change; the waves that came were under 1.6m. That was the fast, correct, quantitative answer. The other number took three days: 2, then 20, 38, 47, 51, 53, and 68 by Monday, with displacement climbing to 12,800 (5,000 of them in formal shelters) and 213 injured. It has held at 68 since, but the other count kept moving in the background: more than 1,600 aftershocks recorded since the mainshock. Rescue teams reached the last landslide-isolated communities this week, and psychological support services have now been organized at some shelter sites amid shortages of food, clean water and medicine. Landslides are still blocking sections of the Trans-Flores Highway. Officials say some residents will not go back inside because of the aftershocks and the memory of the 1992 Flores quake and tsunami.",
+      "observation": "The M7.7 hit off Flores at 5:58am on Aug 15. The tsunami warning was issued and lifted the same morning \u2014 the fast, correct, quantitative answer. The other number took three days.",
       "question": "Why does a tsunami warning resolve in hours while the death toll takes days - and what does that asymmetry say about which disasters we have learned to measure?",
       "hidden_question": "Why does a tsunami warning resolve in hours while the death toll takes days - and what does that asymmetry say about which disasters we have learned to measure?",
       "pattern": "Tsunami detection is fast and quantitative; counting the dead stays slow and is revised upward for days",
@@ -254,7 +425,24 @@
       "first_seen": "2026-08-16T18:00:00Z",
       "last_seen": "2026-08-19T00:20:00Z",
       "appearances": 4,
-      "history": [],
+      "history": [
+        {
+          "date": "2026-08-16T18:00:00Z",
+          "note": "The death toll moved from 2 to 20 to 38 to 47 in a single day, then to 51 on Sunday. At least 341 aftershocks logged."
+        },
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "The toll reached 53. BMKG had logged 995 aftershocks. More than 900 homes destroyed and 450 damaged, with about 5,000 people in temporary shelters."
+        },
+        {
+          "date": "2026-08-18T03:40:00Z",
+          "note": "68 by Monday, displacement at 12,800. Monday was Aug 17 \u2014 Independence Day \u2014 which Indonesia marked with a fifth of a province in shelters."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "Held at 68, but more than 1,600 aftershocks since the mainshock. Rescue teams reached the last landslide-isolated communities and psychological support was organized at shelters."
+        }
+      ],
       "category": "Politics & World",
       "source_date": "2026-08-18"
     }
