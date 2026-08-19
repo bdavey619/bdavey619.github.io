@@ -1,12 +1,12 @@
 {
   "week": "2026-08-16",
-  "last_updated": "2026-08-19T00:20:00Z",
+  "last_updated": "2026-08-19T14:30:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
       "title": "Heat is quietly changing where entire industries can exist",
       "explanation": "Heat is forcing industries out of geographies they have worked for generations - not by catastrophe but by slow withdrawal. This cycle it reached Europe's rivers, which turn out to be three industries at once: a freight network, a coolant supply, a power source. One drought degrades all three, and nobody is coordinating the retreat. The cost has now been quoted: seven times normal freight, a third of normal loading capacity, and force majeure on finished goods.",
-      "momentum": "accelerating",
+      "momentum": "fading",
       "evidence": [
         {
           "domain": "Energy Production",
@@ -42,13 +42,13 @@
           "text": "Croatian police arrested four people - three Croatians aged 42, 45 and 46 and a 33-year-old Polish citizen - suspected of deliberately setting fires at ten locations across Zadar County on Aug 14 and 15, acting, investigators say, under a prior plan and mutual agreement. Officers seized a semi-automatic rifle with 44 rounds, a pistol and several mobile devices. Police have now filed a formal criminal complaint, with the evidence collected, to the Municipal State Attorney's Office in Zadar - the case has moved from arrest to prosecutor's desk - while Croatian media report USKOK is separately examining whether the spree contains elements of terrorism. A season everyone has been reading as weather turns out, in part, to be a crime scene - and now potentially a terrorism case.",
           "url": "https://europeantimes.news/2026/08/croatia-probes-coordinated-zadar-fires/",
           "date": "2026-08-18",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Emergency Response",
-          "text": "Belgium's High Fens fire more than doubled in 24 hours to about 3,000 hectares - the largest wildfire in the country's recorded history. Rain stopped its advance toward Germany and let Sourbrodt's evacuees home Monday night, and authorities called it 'contained' in areas crews could reach - then had to walk that back overnight, as the fire kept spreading unchecked through peat bog and moorland too remote to reach on foot, new hotspots appeared, and two firefighters were hospitalised. Tuesday's operation shifted to a deliberate push to fully encircle the fire: nearly 500 personnel, 120-plus vehicles and nine aircraft from five countries. About 600 evacuees still can't go home. In Spain a soldier died fighting a major fire in Aragon; in Portugal five firefighters were injured when their vehicle caught fire near Dine; Greece is investigating a deadly blaze of its own.",
-          "url": "https://www.euronews.com/my-europe/2026/08/18/firefighters-pushing-to-definitively-encircle-east-belgium-wildfire-authorities-say",
-          "date": "2026-08-18",
+          "text": "Belgium's High Fens fire more than doubled in 24 hours to about 3,000 hectares - the largest wildfire in the country's recorded history. Crews fully encircled it overnight Tuesday into Wednesday, stopping its spread toward Germany, but officials still call the situation 'complicated': flare-ups keep appearing, and because the fire burns in peat - sometimes deep underground - it can reignite whenever the ground is disturbed. Full extinguishment is expected to take weeks or months of soaking, a second, much slower timeline behind the one the encirclement headline suggests. In Spain a soldier died fighting a major fire in Aragon; in Portugal five firefighters were injured when their vehicle caught fire near Dine; Greece is investigating a deadly blaze of its own.",
+          "url": "https://www.euronews.com/my-europe/2026/08/19/belgium-wildfire-encircled-overnight-but-situation-still-complicated-officials-say",
+          "date": "2026-08-19",
           "is_new": true
         },
         {
@@ -75,9 +75,9 @@
       "evidence": [
         {
           "domain": "Utilities",
-          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. By Monday evening the statewide total was down to 88,670, and Wednesday brought the clearest sign yet that local crews alone can't close the rest of the gap on the original timeline: about 100 mainland mutual-aid crew, requested days earlier through the utility's regional assistance network, arrived and began work - aimed at the same wooded Big Island corridor that's lagged since day one. The detection and the acute emergency resolved in hours; the recovery is now importing labor to keep up.",
-          "url": "https://www.techtimes.com/articles/324678/20260817/hawaii-power-outage-map-track-lala-recovery-island-grid-faces-months-long-repairs.htm",
-          "date": "2026-08-17",
+          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. The recovery took longer, but not as long as it looked on day three: about 100 mainland mutual-aid crew joined the wooded Big Island corridor Wednesday, and the statewide total more than halved in under a day, from 88,670 to about 33,600 - proof that the bottleneck was labor, not just terrain. The detection and the acute emergency resolved in hours; the recovery took days, but it did move once the right resource showed up.",
+          "url": "https://www.hawaiinewsnow.com/2026/08/19/outages-when-power-is-expected-return-oahu-maui-hawaii-island/",
+          "date": "2026-08-19",
           "is_new": true
         },
         {
@@ -85,7 +85,7 @@
           "text": "Indonesia issued a tsunami warning after the M7.7 off Flores and lifted it the same morning when monitoring showed no significant sea-level change - a complete, correct, quantitative answer inside a few hours; the waves came in under 1.6m. The other number took three days to reach 68 and has held there since - but the emergency itself hadn't: more than 1,600 aftershocks have followed the mainshock, rescue teams only reached the last landslide-isolated villages this week, and psychological support services have just now been organized at shelter sites still short of food, clean water and medicine. The alert cleared in hours; the actual recovery is still arriving, days later.",
           "url": "https://www.pbs.org/newshour/amp/world/thousands-await-aid-in-indonesia-after-powerful-earthquake-that-killed-at-least-68",
           "date": "2026-08-18",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Public Health",
@@ -128,7 +128,7 @@
           "text": "The three-week rally is now a three-day losing streak. The S&P 500 fell 0.52% Monday, then closed Tuesday down 0.69% at 7,691.76; the Nasdaq, worst hit both days, closed down 1.33% at 26,289.71 as AI-linked names - Nvidia, Meta, Tesla, Oracle - dropped up to 3%. The index had closed at a record 7,798.99 five sessions earlier. What moved it two days running was not demand data at all - which is the whole point of this pattern: the market was pricing the absence of inflation, and the moment energy and the long bond argued otherwise, the record kept eroding. One exception proved the rule: Home Depot gained about 1% after beating earnings - the one mover this week actually about a company rather than about yields.",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-18-dow-sp-500-nasdaq-080822735.html",
           "date": "2026-08-18",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -140,16 +140,16 @@
       "evidence": [
         {
           "domain": "Sovereign Debt",
-          "text": "The 30-year Treasury yield topped 5.31% Monday, its highest since July 2007 - the last time it was here the iPhone had just gone on sale and 'subprime' was a new word - then extended that 19-year high again Tuesday to 5.33%. Two straight record closes, not one. The 10-year, previously the quiet one, is now sitting around 4.70-4.73%, and this time the move showed up directly in equities: the S&P 500's third straight losing session, the Nasdaq down 1.33% as AI-linked names sold off hardest. For most of the decade after 2008 the 30-year sat below 3%. The drivers are structural rather than cyclical: enormous issuance to fund persistent deficits, tariffs and energy costs keeping inflation alive past the point the Fed expected it to fade, and a market still recalibrating around Kevin Warsh, who took the chair in May. A thirty-year price is a statement about thirty years, and it just restated itself two days running.",
-          "url": "https://www.cnbc.com/2026/08/18/treasury-yields-.html",
-          "date": "2026-08-18",
+          "text": "The 30-year Treasury yield set a 19-year high two sessions running, Monday to Tuesday, topping out at 5.33% - then pulled back 9 basis points Wednesday to 5.196% the moment Treasury unexpectedly announced it would at least double the size of its long-dated debt buybacks, effective September. The 10-year fell 6bp to 4.647% on the same news, and stocks rallied. Read carefully, this doesn't undercut the pattern - it confirms it: the government is now actively intervening to manage a yield level it cannot let run unchecked, which is not the behavior of an actor treating this as a passing spike. The underlying issuance, deficits and inflation drivers are unchanged; only the tool being used against them is new.",
+          "url": "https://www.cnbc.com/2026/08/19/treasury-announces-upscaled-buyback-operation-for-longer-term-debt-sending-yields-lower.html",
+          "date": "2026-08-19",
           "is_new": true
         },
         {
           "domain": "Energy",
-          "text": "The memorandum Trump and Pezeshkian signed on June 17 declared removal of the US naval blockade and safe passage for commercial vessels - explicitly 'for 60 days only'. It ran out Monday with no successor. The hardest evidence of what that's worth is the traffic, not the talk: crossings through the strait have collapsed 64% from their post-MoU peak to single digits a day, against a pre-war average of about 130 - even as Iran's foreign ministry says talks with Oman on a 'navigation map' for reopening are 'continuing in earnest.' Trump's answer to that diplomatic progress was to threaten, for the second time, to bomb Oman - the country hosting the talks - while claiming a backchannel to the IRGC that the IRGC denies. Roughly a fifth of the world's oil and gas moved through the strait before Feb 28. Nobody involved is behaving as if reopening is imminent, whatever the map says.",
-          "url": "https://www.thenationalnews.com/business/energy/2026/08/17/hormuz-traffic-falls-to-single-digits-as-60-day-deadline-for-us-iran-mou-expires/",
-          "date": "2026-08-17",
+          "text": "The memorandum Trump and Pezeshkian signed on June 17 declared removal of the US naval blockade and safe passage for commercial vessels - explicitly 'for 60 days only'. It ran out Monday with no successor, and crossings through the strait have collapsed 64% from their post-MoU peak to single digits a day, against a pre-war average of about 130. Wednesday made the baseline explicit rather than implicit: Trump said there are 'no talks or conversations going on, or scheduled' with Tehran and that the blockade remains in 'full force and effect' - directly contradicting Iran's own account of 'navigation map' progress with Oman. Two governments cannot even agree on whether negotiation is happening. Roughly a fifth of the world's oil and gas moved through the strait before Feb 28. Nobody involved is behaving as if reopening is imminent, whatever either side's map says.",
+          "url": "https://www.justsecurity.org/154539/early-edition-august-19-2026/",
+          "date": "2026-08-19",
           "is_new": true
         },
         {
