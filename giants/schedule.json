@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-18T12:46:56.516296+00:00",
+  "generated_at": "2026-08-19T12:47:55.189268+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -150,12 +150,9 @@
       "opponent": "CLE",
       "home": false,
       "gamePk": 824398,
-      "status": "scheduled",
-      "time_local": "3:40 PM PT",
-      "probable": {
-        "team": "Carson Whisenhunt",
-        "opp": "Foster Griffin"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20138"
     },
     {
       "date": "2026-08-19",
@@ -165,6 +162,7 @@
       "status": "scheduled",
       "time_local": "3:40 PM PT",
       "probable": {
+        "team": "Matt Wilkinson",
         "opp": "Parker Messick"
       }
     },
@@ -186,7 +184,10 @@
       "home": false,
       "gamePk": 824721,
       "status": "scheduled",
-      "time_local": "4:10 PM PT"
+      "time_local": "4:10 PM PT",
+      "probable": {
+        "opp": "Sonny Gray"
+      }
     },
     {
       "date": "2026-08-22",
@@ -194,7 +195,10 @@
       "home": false,
       "gamePk": 824718,
       "status": "scheduled",
-      "time_local": "4:15 PM PT"
+      "time_local": "4:15 PM PT",
+      "probable": {
+        "opp": "Patrick Sandoval"
+      }
     },
     {
       "date": "2026-08-23",
@@ -202,7 +206,10 @@
       "home": false,
       "gamePk": 824720,
       "status": "scheduled",
-      "time_local": "12:15 PM PT"
+      "time_local": "12:15 PM PT",
+      "probable": {
+        "opp": "Jake Bennett"
+      }
     },
     {
       "date": "2026-08-24",
@@ -270,8 +277,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u201310",
-    "current_streak": "L1",
+    "month_record": "4\u201311",
+    "current_streak": "L2",
     "last_10": "3\u20137"
   }
 }
