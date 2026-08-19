@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-18T10:53:18.894571+00:00",
+  "generated_at": "2026-08-19T10:52:34.923731+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -162,19 +162,17 @@
       "gamePk": 823589,
       "status": "final",
       "result": "L",
-      "score": "1\u20132"
+      "score": "1\u20132",
+      "archive_url": "archive.html?date=2026-08-18"
     },
     {
       "date": "2026-08-18",
       "opponent": "NYM",
       "home": false,
       "gamePk": 823586,
-      "status": "scheduled",
-      "time_local": "4:10 PM PT",
-      "probable": {
-        "team": "Robbie Ray",
-        "opp": "Zac Thornton"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20132"
     },
     {
       "date": "2026-08-19",
@@ -270,8 +268,8 @@
     }
   ],
   "summary": {
-    "month_record": "11\u20135",
-    "current_streak": "L1",
-    "last_10": "7\u20133"
+    "month_record": "12\u20135",
+    "current_streak": "W1",
+    "last_10": "8\u20132"
   }
 }
