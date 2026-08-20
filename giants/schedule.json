@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-19T12:47:55.189268+00:00",
+  "generated_at": "2026-08-20T12:50:16.185062+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -152,19 +152,17 @@
       "gamePk": 824398,
       "status": "final",
       "result": "L",
-      "score": "1\u20138"
+      "score": "1\u20138",
+      "archive_url": "archive.html?date=2026-08-19"
     },
     {
       "date": "2026-08-19",
       "opponent": "CLE",
       "home": false,
       "gamePk": 824394,
-      "status": "scheduled",
-      "time_local": "3:40 PM PT",
-      "probable": {
-        "team": "Matt Wilkinson",
-        "opp": "Parker Messick"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "1\u20130"
     },
     {
       "date": "2026-08-20",
@@ -277,8 +275,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u201311",
-    "current_streak": "L2",
+    "month_record": "5\u201311",
+    "current_streak": "W1",
     "last_10": "3\u20137"
   }
 }
