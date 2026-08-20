@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-19T10:52:34.923731+00:00",
+  "generated_at": "2026-08-20T10:55:06.899317+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -172,19 +172,17 @@
       "gamePk": 823586,
       "status": "final",
       "result": "W",
-      "score": "5\u20132"
+      "score": "5\u20132",
+      "archive_url": "archive.html?date=2026-08-19"
     },
     {
       "date": "2026-08-19",
       "opponent": "NYM",
       "home": false,
       "gamePk": 823587,
-      "status": "scheduled",
-      "time_local": "10:10 AM PT",
-      "probable": {
-        "team": "Michael King",
-        "opp": "Robert Stock"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20134"
     },
     {
       "date": "2026-08-21",
@@ -192,7 +190,10 @@
       "home": true,
       "gamePk": 823262,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "opp": "Connor Prielipp"
+      }
     },
     {
       "date": "2026-08-22",
@@ -200,7 +201,11 @@
       "home": true,
       "gamePk": 823261,
       "status": "scheduled",
-      "time_local": "5:40 PM PT"
+      "time_local": "5:40 PM PT",
+      "probable": {
+        "team": "Casey Mize",
+        "opp": "Dean Kremer"
+      }
     },
     {
       "date": "2026-08-23",
@@ -208,7 +213,11 @@
       "home": true,
       "gamePk": 823258,
       "status": "scheduled",
-      "time_local": "1:10 PM PT"
+      "time_local": "1:10 PM PT",
+      "probable": {
+        "team": "Walker Buehler",
+        "opp": "Bailey Ober"
+      }
     },
     {
       "date": "2026-08-24",
@@ -268,8 +277,8 @@
     }
   ],
   "summary": {
-    "month_record": "12\u20135",
-    "current_streak": "W1",
-    "last_10": "8\u20132"
+    "month_record": "12\u20136",
+    "current_streak": "L1",
+    "last_10": "7\u20133"
   }
 }
