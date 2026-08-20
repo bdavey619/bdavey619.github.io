@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-08",
   "division_name": "AL West",
-  "generated_at": "2026-08-19T13:26:33.032784+00:00",
+  "generated_at": "2026-08-20T13:28:46.714966+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -161,15 +161,17 @@
       "gamePk": 824075,
       "status": "final",
       "result": "L",
-      "score": "3\u20134"
+      "score": "3\u20134",
+      "archive_url": "archive.html?date=2026-08-19"
     },
     {
       "date": "2026-08-19",
       "opponent": "KC",
       "home": false,
       "gamePk": 824076,
-      "status": "scheduled",
-      "time_local": "4:40 PM PT"
+      "status": "final",
+      "result": "L",
+      "score": "7\u20139"
     },
     {
       "date": "2026-08-20",
@@ -177,7 +179,11 @@
       "home": false,
       "gamePk": 824074,
       "status": "scheduled",
-      "time_local": "11:10 AM PT"
+      "time_local": "11:10 AM PT",
+      "probable": {
+        "team": "Gage Jump",
+        "opp": "Randy Dobnak"
+      }
     },
     {
       "date": "2026-08-21",
@@ -185,7 +191,10 @@
       "home": false,
       "gamePk": 824152,
       "status": "scheduled",
-      "time_local": "5:10 PM PT"
+      "time_local": "5:10 PM PT",
+      "probable": {
+        "team": "J.T. Ginn"
+      }
     },
     {
       "date": "2026-08-22",
@@ -193,7 +202,10 @@
       "home": false,
       "gamePk": 824151,
       "status": "scheduled",
-      "time_local": "4:10 PM PT"
+      "time_local": "4:10 PM PT",
+      "probable": {
+        "team": "Jacob Lopez"
+      }
     },
     {
       "date": "2026-08-23",
@@ -261,8 +273,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u201312",
-    "current_streak": "L2",
-    "last_10": "4\u20136"
+    "month_record": "4\u201313",
+    "current_streak": "L3",
+    "last_10": "3\u20137"
   }
 }
