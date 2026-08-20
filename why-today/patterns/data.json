@@ -1,6 +1,6 @@
 {
   "week": "2026-08-16",
-  "last_updated": "2026-08-19T14:30:00Z",
+  "last_updated": "2026-08-20T00:20:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
@@ -49,7 +49,7 @@
           "text": "Belgium's High Fens fire more than doubled in 24 hours to about 3,000 hectares - the largest wildfire in the country's recorded history. Crews fully encircled it overnight Tuesday into Wednesday, stopping its spread toward Germany, but officials still call the situation 'complicated': flare-ups keep appearing, and because the fire burns in peat - sometimes deep underground - it can reignite whenever the ground is disturbed. Full extinguishment is expected to take weeks or months of soaking, a second, much slower timeline behind the one the encirclement headline suggests. In Spain a soldier died fighting a major fire in Aragon; in Portugal five firefighters were injured when their vehicle caught fire near Dine; Greece is investigating a deadly blaze of its own.",
           "url": "https://www.euronews.com/my-europe/2026/08/19/belgium-wildfire-encircled-overnight-but-situation-still-complicated-officials-say",
           "date": "2026-08-19",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Tourism",
@@ -75,17 +75,17 @@
       "evidence": [
         {
           "domain": "Utilities",
-          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. The recovery took longer, but not as long as it looked on day three: about 100 mainland mutual-aid crew joined the wooded Big Island corridor Wednesday, and the statewide total more than halved in under a day, from 88,670 to about 33,600 - proof that the bottleneck was labor, not just terrain. The detection and the acute emergency resolved in hours; the recovery took days, but it did move once the right resource showed up.",
-          "url": "https://www.hawaiinewsnow.com/2026/08/19/outages-when-power-is-expected-return-oahu-maui-hawaii-island/",
+          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. Statewide restoration is now at 91% - but that average erases the actual shape of the recovery: Oahu (99%) and Maui (98%) are essentially done, while Hawaii Island, where the storm hit, is stuck at 75%, with pockets facing at least two more weeks. The detection and the acute emergency resolved in hours; the recovery is resolving island by island, and the island that got hit hardest is the one still waiting.",
+          "url": "https://mauinow.com/2026/08/19/affected-customers-power-restored-99-oahu-98-maui-75-hawaii-island/",
           "date": "2026-08-19",
           "is_new": true
         },
         {
           "domain": "Disaster Response",
-          "text": "Indonesia issued a tsunami warning after the M7.7 off Flores and lifted it the same morning when monitoring showed no significant sea-level change - a complete, correct, quantitative answer inside a few hours; the waves came in under 1.6m. The other number took three days to reach 68 and has held there since - but the emergency itself hadn't: more than 1,600 aftershocks have followed the mainshock, rescue teams only reached the last landslide-isolated villages this week, and psychological support services have just now been organized at shelter sites still short of food, clean water and medicine. The alert cleared in hours; the actual recovery is still arriving, days later.",
-          "url": "https://www.pbs.org/newshour/amp/world/thousands-await-aid-in-indonesia-after-powerful-earthquake-that-killed-at-least-68",
+          "text": "Indonesia issued a tsunami warning after the M7.7 off Flores and lifted it the same morning when monitoring showed no significant sea-level change - a complete, correct, quantitative answer inside a few hours; the waves came in under 1.6m. Five days on, the other numbers are still moving in the wrong direction: the toll rose to 70, and displacement more than tripled from 12,800 to 40,000. Yet grocery stores and gas stations reopened on Flores the same day - recovery and displacement climbing simultaneously, because they're measuring different pockets of the same island. The alert cleared in hours; this recovery is still being counted five days later.",
+          "url": "https://www.hngn.com/articles/272763/20260818/indonesia-earthquake-magnitude-77-quake-off-flores-kills-least-38-triggers-tsunami-alert.htm",
           "date": "2026-08-18",
-          "is_new": false
+          "is_new": true
         },
         {
           "domain": "Public Health",
@@ -140,9 +140,9 @@
       "evidence": [
         {
           "domain": "Sovereign Debt",
-          "text": "The 30-year Treasury yield set a 19-year high two sessions running, Monday to Tuesday, topping out at 5.33% - then pulled back 9 basis points Wednesday to 5.196% the moment Treasury unexpectedly announced it would at least double the size of its long-dated debt buybacks, effective September. The 10-year fell 6bp to 4.647% on the same news, and stocks rallied. Read carefully, this doesn't undercut the pattern - it confirms it: the government is now actively intervening to manage a yield level it cannot let run unchecked, which is not the behavior of an actor treating this as a passing spike. The underlying issuance, deficits and inflation drivers are unchanged; only the tool being used against them is new.",
-          "url": "https://www.cnbc.com/2026/08/19/treasury-announces-upscaled-buyback-operation-for-longer-term-debt-sending-yields-lower.html",
-          "date": "2026-08-19",
+          "text": "The 30-year Treasury yield set a 19-year high two sessions running, then pulled back 9 basis points Wednesday to 5.196% the moment Treasury unexpectedly announced it would at least double its long-dated debt buybacks. The relief lasted about twelve hours: by Thursday morning the 30-year had already crept back to 5.285% and the 10-year to 4.70%, most of Wednesday's gain given back before the buybacks even take effect on Sept 9. That is the confirmation this pattern was waiting for - a deliberate policy intervention bought less than a day of relief, which means the market is pricing the underlying deficit and inflation story, not the news cycle.",
+          "url": "https://tradingeconomics.com/united-states/30-year-bond-yield",
+          "date": "2026-08-20",
           "is_new": true
         },
         {
@@ -150,7 +150,7 @@
           "text": "The memorandum Trump and Pezeshkian signed on June 17 declared removal of the US naval blockade and safe passage for commercial vessels - explicitly 'for 60 days only'. It ran out Monday with no successor, and crossings through the strait have collapsed 64% from their post-MoU peak to single digits a day, against a pre-war average of about 130. Wednesday made the baseline explicit rather than implicit: Trump said there are 'no talks or conversations going on, or scheduled' with Tehran and that the blockade remains in 'full force and effect' - directly contradicting Iran's own account of 'navigation map' progress with Oman. Two governments cannot even agree on whether negotiation is happening. Roughly a fifth of the world's oil and gas moved through the strait before Feb 28. Nobody involved is behaving as if reopening is imminent, whatever either side's map says.",
           "url": "https://www.justsecurity.org/154539/early-edition-august-19-2026/",
           "date": "2026-08-19",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Infrastructure",

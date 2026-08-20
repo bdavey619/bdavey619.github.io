@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-16",
-  "cycle_start": "2026-08-19T00:20:00Z",
-  "last_updated": "2026-08-19T14:30:00Z",
+  "cycle_start": "2026-08-19T14:30:00Z",
+  "last_updated": "2026-08-20T00:20:00Z",
   "storylines": [
     {
       "id": "rhine-danube-record-low-water",
@@ -86,20 +86,16 @@
       "pattern": "Landfall is a coastline event; the flooding that kills is a rain-rate and topography event",
       "transferability": "Reading rain rate and terrain instead of the track cone changes which storms look dangerous",
       "cluster_id": "",
-      "why_now": "The mainland crews landed and the number moved fast behind them: statewide outages more than halved in under 24 hours, from 88,670 to about 33,600.",
+      "why_now": "Statewide restoration has crossed 91%, but the number hides a widening gap between islands: Oahu and Maui are essentially done while Hawaii Island - where the storm actually hit - is still a quarter dark.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.hawaiinewsnow.com/2026/08/19/outages-when-power-is-expected-return-oahu-maui-hawaii-island/",
+      "url": "https://mauinow.com/2026/08/19/affected-customers-power-restored-99-oahu-98-maui-75-hawaii-island/",
       "location": "Hawaii Island",
-      "season_or_time_context": "Aug 19, 2026 - 33,600 out statewide; Big Island 24,400",
+      "season_or_time_context": "Aug 20, 2026 - 91% statewide restored; Hawaii Island at 75%",
       "first_seen": "2026-08-16T18:00:00Z",
-      "last_seen": "2026-08-19T14:30:00Z",
-      "appearances": 6,
+      "last_seen": "2026-08-20T00:20:00Z",
+      "appearances": 7,
       "history": [
-        {
-          "date": "2026-08-17T04:30:00Z",
-          "note": "More than 100 homes on the southern Big Island destroyed or damaged. Hawaiian Electric restored 63,000 customers and began flying in 100 mainland crew."
-        },
         {
           "date": "2026-08-18T03:40:00Z",
           "note": "Three days on, 117,300 still dark. Gusts hit 91mph at Kohala and 89mph in West Maui; assessments found major damage to infrastructure in remote areas."
@@ -115,6 +111,10 @@
         {
           "date": "2026-08-19T14:30:00Z",
           "note": "Down to about 33,600 statewide by Wednesday evening, with 24,400 of that on the Big Island \u2014 restoration accelerating sharply now that mainland crews are on the ground."
+        },
+        {
+          "date": "2026-08-20T00:20:00Z",
+          "note": "91% restored statewide \u2014 99% Oahu, 98% Maui, only 75% Hawaii Island. HECO expects 95% statewide by Friday, but pockets of Puna, Kohala and Ka\u02bb\u016b still face at least two more weeks."
         }
       ],
       "source_date": "2026-08-19"
@@ -202,20 +202,16 @@
       "pattern": "A slow biological accumulation sets the recovery time of a fast engineered system",
       "transferability": "Ask of any network - grid, rail, fibre - what is growing next to it, and how long that has been allowed to grow",
       "cluster_id": "",
-      "why_now": "Once outside crews were added specifically for the wooded circuits, that corridor's count fell by more than a third in a day - the clearest sign the tree problem was a labor problem, not a structural one.",
+      "why_now": "The island-by-island split makes the case on its own: Oahu and Maui's largely unwooded circuits are at 98-99%, while Hawaii Island's albizia-heavy corridor is stuck at 75% - a 23-point gap that maps almost exactly onto where the trees are.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.hawaiinewsnow.com/2026/08/19/outages-when-power-is-expected-return-oahu-maui-hawaii-island/",
+      "url": "https://mauinow.com/2026/08/19/affected-customers-power-restored-99-oahu-98-maui-75-hawaii-island/",
       "location": "Hamakua coast, Hawaii Island",
-      "season_or_time_context": "Aug 19, 2026 - Big Island down to 24,400 out",
+      "season_or_time_context": "Aug 20, 2026 - Hawaii Island at 75% vs 98-99% elsewhere",
       "first_seen": "2026-08-17T04:30:00Z",
-      "last_seen": "2026-08-19T14:30:00Z",
-      "appearances": 5,
+      "last_seen": "2026-08-20T00:20:00Z",
+      "appearances": 6,
       "history": [
-        {
-          "date": "2026-08-17T04:30:00Z",
-          "note": "Crews are assessing a 42-mile span on the Hamakua coast after fallen trees knocked down multiple poles and structures."
-        },
         {
           "date": "2026-08-18T03:40:00Z",
           "note": "Hawaiian Electric said assessments found major damage in remote areas; 91mph gusts at Kohala put trees onto poles and transmission towers."
@@ -231,6 +227,10 @@
         {
           "date": "2026-08-19T14:30:00Z",
           "note": "The wooded corridor is closing fast with outside help: Big Island outages down to about 24,400, from 38,250 a day earlier."
+        },
+        {
+          "date": "2026-08-20T00:20:00Z",
+          "note": "Oahu and Maui are essentially done, 99% and 98% restored. Hawaii Island - the only wooded, albizia-heavy grid - sits at 75%, the clearest island-by-island read on what the trees cost."
         }
       ],
       "source_date": "2026-08-19"
@@ -246,20 +246,16 @@
       "pattern": "The long end is repricing supply and credibility, not the next rate decision",
       "transferability": "A 30-year yield at a 19-year high reprices mortgages, pensions and every long-dated liability at once",
       "cluster_id": "",
-      "why_now": "A day after its second straight 19-year high, the 30-year reversed hard the moment Treasury announced it would at least double its long-dated buybacks - a policy lever, not a change in the underlying deficit or inflation story.",
+      "why_now": "The buyback relief lasted about twelve hours: yields were already climbing back by Thursday morning, which is the clearest sign yet that a policy lever can blunt the spike but not the underlying pressure pushing it.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/08/19/treasury-announces-upscaled-buyback-operation-for-longer-term-debt-sending-yields-lower.html",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-19-dow-sp-500-nasdaq-081116064.html",
       "location": "",
-      "season_or_time_context": "Aug 19, 2026 - Treasury buyback move pulls 30yr back to 5.196%",
+      "season_or_time_context": "Aug 20, 2026 - yields creeping back up after Wednesday's pullback",
       "first_seen": "2026-08-08T18:00:00Z",
-      "last_seen": "2026-08-19T14:30:00Z",
-      "appearances": 10,
+      "last_seen": "2026-08-20T00:20:00Z",
+      "appearances": 11,
       "history": [
-        {
-          "date": "2026-08-17T04:30:00Z",
-          "note": "The 10-year eased to 4.69%, up 9bp on the month and 35bp on the year. What holds the long end up is not a print but the read that the Fed may be complacent on inflation."
-        },
         {
           "date": "2026-08-18T03:40:00Z",
           "note": "The 30-year topped 5.31%, its highest since July 2007. For most of the decade after 2008 it sat below 3%."
@@ -275,6 +271,10 @@
         {
           "date": "2026-08-19T14:30:00Z",
           "note": "Treasury unexpectedly at least doubled its long-dated debt buyback size, effective Sept 9. The 10-year fell 6bp to 4.647%, the 30-year tumbled 9bp to 5.196%, and stocks rallied on the news."
+        },
+        {
+          "date": "2026-08-20T00:20:00Z",
+          "note": "Wednesday closed with the 10-year at 4.65% and the 30-year at 5.19% - the rally held through the close. By Thursday morning both had already crept back up, to 4.70% and 5.285%."
         }
       ],
       "source_date": "2026-08-19"
@@ -424,15 +424,15 @@
       "pattern": "Tsunami detection is fast and quantitative; counting the dead stays slow and is revised upward for days",
       "transferability": "An early earthquake death toll is a floor, not an estimate",
       "cluster_id": "",
-      "why_now": "The toll has held at 68 for two days, but 1,600+ aftershocks and rescue teams only now reaching the last cut-off villages show the emergency itself hasn't actually ended - just the number that gets quoted.",
+      "why_now": "The toll moved again after two flat days, and displacement more than tripled to 40,000 - while grocery stores reopened on the same island, on the same day. Both numbers are true at once.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.pbs.org/newshour/amp/world/thousands-await-aid-in-indonesia-after-powerful-earthquake-that-killed-at-least-68",
+      "url": "https://www.hngn.com/articles/272763/20260818/indonesia-earthquake-magnitude-77-quake-off-flores-kills-least-38-triggers-tsunami-alert.htm",
       "location": "Flores, East Nusa Tenggara, Indonesia",
-      "season_or_time_context": "Aug 19, 2026 - toll steady at 68; last isolated villages reached",
+      "season_or_time_context": "Aug 20, 2026 - toll 70; displacement up to 40,000",
       "first_seen": "2026-08-16T18:00:00Z",
-      "last_seen": "2026-08-19T00:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-20T00:20:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-08-16T18:00:00Z",
@@ -449,6 +449,10 @@
         {
           "date": "2026-08-19T00:20:00Z",
           "note": "Held at 68, but more than 1,600 aftershocks since the mainshock. Rescue teams reached the last landslide-isolated communities and psychological support was organized at shelters."
+        },
+        {
+          "date": "2026-08-20T00:20:00Z",
+          "note": "The toll moved again: 70 dead, 1,182 injured, displacement now 40,000 against 12,800 four days ago. Grocery stores and gas stations reopened on Flores even as landslide-cut villages still wait for aid."
         }
       ],
       "category": "Politics & World",
@@ -465,19 +469,23 @@
       "pattern": "A platform proven under emergency conditions still has to be reproven, patiently, against the diseases it was never built to fight first",
       "transferability": "Every mRNA-platform readout from here reads differently once one of them has actually cleared Phase 3 against cancer",
       "cluster_id": "",
-      "why_now": "Moderna's stock jumped as much as 120% premarket Wednesday - one of the largest single-day moves for a company that size - on a trial result, not a rumor.",
+      "why_now": "Regulators moved almost as fast as the stock: both the FDA and EMA put the therapy on an expedited review pathway within a day of the data, and the companies now say they'll file for approval within months.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/08/19/moderna-merck-cancer-vaccine-shows-initial-late-stage-melanoma-data.html",
+      "url": "https://www.biospace.com/drug-development/moderna-stock-nearly-doubles-as-merck-partnered-mrna-cancer-vaccine-meets-phase-3-goal",
       "location": "",
-      "season_or_time_context": "Aug 19, 2026 - Phase 3 melanoma trial met primary and secondary goals",
+      "season_or_time_context": "Aug 20, 2026 - FDA and EMA grant expedited review",
       "first_seen": "2026-08-19T14:30:00Z",
-      "last_seen": "2026-08-19T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-20T00:20:00Z",
+      "appearances": 2,
       "history": [
         {
           "date": "2026-08-19T14:30:00Z",
           "note": "Interim Phase 3 results: the shot cut recurrence and metastasis versus Keytruda alone in surgically-removed high-risk melanoma. Merck rose over 10%; Moderna's stock nearly doubled."
+        },
+        {
+          "date": "2026-08-20T00:20:00Z",
+          "note": "Both the FDA and EMA placed the therapy on expedited review. Moderna and Merck say they aim to file for approval within months; analysts project multi-billion-dollar peak sales."
         }
       ],
       "source_date": "2026-08-19"
@@ -493,19 +501,23 @@
       "pattern": "An announced deal and a finalized deal are different events, and the gap between them is where the leverage still lives",
       "transferability": "Any tariff 'deal' announced hours before its own deadline deserves a re-check on the actual date it was signed",
       "cluster_id": "",
-      "why_now": "Trump announced the pause on Truth Social mere hours before a midnight deadline - the closest read yet on how these deadlines actually get resolved, or don't.",
+      "why_now": "One side of the negotiating table is now calling this a done deal in public, on Truth Social, while the other side's own prime minister still won't say more than 'substantial progress' - the gap the pause bought hasn't closed, it's just moved.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cbsnews.com/news/trump-pauses-tariffs-canada/",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/trump-carney-optimistic-on-trade-deal-as-negotiators-meet-in-washington",
       "location": "",
-      "season_or_time_context": "Aug 19, 2026 - 3-day pause, deadline now Aug 21",
+      "season_or_time_context": "Aug 20, 2026 - Trump claims a deal; Carney still says 'progress'",
       "first_seen": "2026-08-19T14:30:00Z",
-      "last_seen": "2026-08-19T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-20T00:20:00Z",
+      "appearances": 2,
       "history": [
         {
           "date": "2026-08-19T14:30:00Z",
           "note": "Trump paused the 50% tariffs three days before a midnight deadline, citing a deal Canada has not confirmed is final. Carney: 'important work still to be done.'"
+        },
+        {
+          "date": "2026-08-20T00:20:00Z",
+          "note": "Trump declared \"we've come to a deal,\" saying Canada \"gave us the points we had to have\" on agricultural market access. Carney's own language stayed at 'substantial progress' - not confirmation."
         }
       ],
       "category": "Politics & World",
