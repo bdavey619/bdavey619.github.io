@@ -1,6 +1,6 @@
 {
   "week": "2026-08-16",
-  "last_updated": "2026-08-20T00:20:00Z",
+  "last_updated": "2026-08-20T14:30:00Z",
   "recognitions": [
     {
       "id": "heat-as-restructuring-pressure",
@@ -39,10 +39,10 @@
       "evidence": [
         {
           "domain": "Law Enforcement",
-          "text": "Croatian police arrested four people - three Croatians aged 42, 45 and 46 and a 33-year-old Polish citizen - suspected of deliberately setting fires at ten locations across Zadar County on Aug 14 and 15, acting, investigators say, under a prior plan and mutual agreement. Officers seized a semi-automatic rifle with 44 rounds, a pistol and several mobile devices. Police have now filed a formal criminal complaint, with the evidence collected, to the Municipal State Attorney's Office in Zadar - the case has moved from arrest to prosecutor's desk - while Croatian media report USKOK is separately examining whether the spree contains elements of terrorism. A season everyone has been reading as weather turns out, in part, to be a crime scene - and now potentially a terrorism case.",
-          "url": "https://europeantimes.news/2026/08/croatia-probes-coordinated-zadar-fires/",
-          "date": "2026-08-18",
-          "is_new": false
+          "text": "Croatian police arrested four people - three Croatians aged 42, 45 and 46 and a 33-year-old Polish citizen - suspected of deliberately setting fires at ten locations across Zadar County on Aug 14 and 15, acting, investigators say, under a prior plan and mutual agreement. Officers seized a semi-automatic rifle with 44 rounds, a pistol and several mobile devices. All four have now confessed, according to investigating judge Hrvoje Visković - they admit lighting dry grass with lighters at every site - and are charged with a crime against general security, carrying one to ten years. Croatian media separately report USKOK is examining whether the spree also amounts to terrorism. A season everyone has been reading as weather turns out, in part, to be a solved crime scene - with a bigger question still open.",
+          "url": "https://vreme.com/en/drustvo/namerno-izazivanje-pozara-kod-zadra-medju-uhapsenima-i-srpski-drzavljanin/",
+          "date": "2026-08-19",
+          "is_new": true
         },
         {
           "domain": "Emergency Response",
@@ -75,9 +75,9 @@
       "evidence": [
         {
           "domain": "Utilities",
-          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. Statewide restoration is now at 91% - but that average erases the actual shape of the recovery: Oahu (99%) and Maui (98%) are essentially done, while Hawaii Island, where the storm hit, is stuck at 75%, with pockets facing at least two more weeks. The detection and the acute emergency resolved in hours; the recovery is resolving island by island, and the island that got hit hardest is the one still waiting.",
-          "url": "https://mauinow.com/2026/08/19/affected-customers-power-restored-99-oahu-98-maui-75-hawaii-island/",
-          "date": "2026-08-19",
+          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. Statewide restoration has climbed to about 96% - Hawaii Island itself is down to roughly 16,800 out, from 38,250 three days ago - and it is still not over: the National Hurricane Center gives a new system, EP90, a 90% chance of developing into a cyclone that could reach the same island by the weekend, before repairs are finished. The detection and the acute emergency resolved in hours; the recovery is still running when the next hazard's forecast begins.",
+          "url": "https://www.staradvertiser.com/2026/08/20/hawaii-news/residents-urged-to-prepare-for-another-storm/",
+          "date": "2026-08-20",
           "is_new": true
         },
         {
@@ -85,7 +85,7 @@
           "text": "Indonesia issued a tsunami warning after the M7.7 off Flores and lifted it the same morning when monitoring showed no significant sea-level change - a complete, correct, quantitative answer inside a few hours; the waves came in under 1.6m. Five days on, the other numbers are still moving in the wrong direction: the toll rose to 70, and displacement more than tripled from 12,800 to 40,000. Yet grocery stores and gas stations reopened on Flores the same day - recovery and displacement climbing simultaneously, because they're measuring different pockets of the same island. The alert cleared in hours; this recovery is still being counted five days later.",
           "url": "https://www.hngn.com/articles/272763/20260818/indonesia-earthquake-magnitude-77-quake-off-flores-kills-least-38-triggers-tsunami-alert.htm",
           "date": "2026-08-18",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Public Health",
@@ -104,10 +104,10 @@
       "evidence": [
         {
           "domain": "Retail Channels",
-          "text": "The composition beneath the record: Walmart's share of parents' back-to-school shopping destinations climbed more than 22 percentage points in a year to nearly 80% - the highest level any retailer has reached in the history of JLL's survey. Dollar stores entered the top ten retailers for the first time, up about 10 points to nearly 32%. Mass merchandisers as a category now reach more than 83% of back-to-school shoppers, and Walmart's shoppers over-index on saving money and finishing the entire list in one trip. Budgets rose 11.7% to $489 per child. A record total and a record migration to discounters are the same data point read twice.",
-          "url": "https://www.jll.com/en-us/insights/back-to-school-2026-shopping-report",
-          "date": "2026-08-17",
-          "is_new": false
+          "text": "The composition beneath the record: Walmart's share of parents' back-to-school shopping destinations climbed more than 22 percentage points in a year to nearly 80% - the highest level any retailer has reached in the history of JLL's survey. Dollar stores entered the top ten retailers for the first time, up about 10 points to nearly 32%. A newer survey puts a name on the same behavior: 31% of parents are now using four or more cost-saving tactics, 60% plan to shop more affordable retailers, and 51% are substituting private labels - even as apparel spending rises 22% because worn-out items still have to be replaced. A record total and a record migration to discount-seeking behavior are the same data point read twice.",
+          "url": "https://www.nerdwallet.com/finance/studies/back-to-school-shopping-report",
+          "date": "2026-08-20",
+          "is_new": true
         },
         {
           "domain": "Retail",
@@ -140,17 +140,17 @@
       "evidence": [
         {
           "domain": "Sovereign Debt",
-          "text": "The 30-year Treasury yield set a 19-year high two sessions running, then pulled back 9 basis points Wednesday to 5.196% the moment Treasury unexpectedly announced it would at least double its long-dated debt buybacks. The relief lasted about twelve hours: by Thursday morning the 30-year had already crept back to 5.285% and the 10-year to 4.70%, most of Wednesday's gain given back before the buybacks even take effect on Sept 9. That is the confirmation this pattern was waiting for - a deliberate policy intervention bought less than a day of relief, which means the market is pricing the underlying deficit and inflation story, not the news cycle.",
-          "url": "https://tradingeconomics.com/united-states/30-year-bond-yield",
+          "text": "The 30-year Treasury yield set a 19-year high two sessions running, then pulled back 9 basis points Wednesday to 5.196% the moment Treasury unexpectedly announced it would at least double its long-dated debt buybacks. The relief lasted about a day: by Thursday's close it was fully unwound, with equities down (S&P -0.33%, Dow -0.71%, Nasdaq -0.52%) and yields back up as fresh Iran-sanctions oil risk retook the wheel. That is the confirmation this pattern was waiting for - a deliberate policy intervention bought less than 24 hours of relief, which means the market is pricing the underlying deficit and inflation story, not the news cycle.",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-20-dow-sp-500-nasdaq-081139322.html",
           "date": "2026-08-20",
           "is_new": true
         },
         {
           "domain": "Energy",
-          "text": "The memorandum Trump and Pezeshkian signed on June 17 declared removal of the US naval blockade and safe passage for commercial vessels - explicitly 'for 60 days only'. It ran out Monday with no successor, and crossings through the strait have collapsed 64% from their post-MoU peak to single digits a day, against a pre-war average of about 130. Wednesday made the baseline explicit rather than implicit: Trump said there are 'no talks or conversations going on, or scheduled' with Tehran and that the blockade remains in 'full force and effect' - directly contradicting Iran's own account of 'navigation map' progress with Oman. Two governments cannot even agree on whether negotiation is happening. Roughly a fifth of the world's oil and gas moved through the strait before Feb 28. Nobody involved is behaving as if reopening is imminent, whatever either side's map says.",
-          "url": "https://www.justsecurity.org/154539/early-edition-august-19-2026/",
-          "date": "2026-08-19",
-          "is_new": false
+          "text": "The memorandum Trump and Pezeshkian signed on June 17 declared removal of the US naval blockade and safe passage for commercial vessels - explicitly 'for 60 days only'. It ran out Monday with no successor, and crossings through the strait have collapsed 64% from their post-MoU peak to single digits a day. Thursday moved the baseline further: Trump declared 'economic warfare' on Iran, threatening 'tremendous' consequences for any country giving it a financial lifeline - a permanent-footing policy, not a 60-day bridge to a deal. China buys more than 80% of Iran's exported oil, so the threat itself now carries its own escalation risk. Nobody involved is behaving as if reopening is imminent.",
+          "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html",
+          "date": "2026-08-20",
+          "is_new": true
         },
         {
           "domain": "Infrastructure",
@@ -158,6 +158,35 @@
           "url": "https://eutoday.net/rhine-record-6cm-kaub-freight-shifts/",
           "date": "2026-08-16",
           "is_new": false
+        }
+      ]
+    },
+    {
+      "id": "claims-outrun-confirmation",
+      "title": "This week, three separate claims of having fixed something didn't survive a single news cycle",
+      "explanation": "Across trade, foreign policy and debt management, the same pattern showed up three times in 48 hours: an announcement of control or resolution, followed within about a day by the other side, or the market, contradicting it. A Canada tariff 'deal' whose own trade minister says the disputed terms were never on the table. A denial that talks with Iran even exist, followed a day later by a declared war footing against that same government. A bond-market intervention whose relief lasted less than 24 hours before yields fully round-tripped. None of the underlying claims turned out to be simply false - they just didn't hold past the next cycle.",
+      "momentum": "building",
+      "evidence": [
+        {
+          "domain": "Foreign Policy",
+          "text": "Wednesday, Trump said there were 'no talks or conversations going on, or scheduled' with Tehran. Thursday, he announced 'economic warfare' on Iran - 'the most crushing economic operation ever taken against any country' - threatening 'tremendous' consequences for any nation giving Iran a financial lifeline. A government cannot credibly deny a negotiating track and declare a new offensive against the same target within 24 hours without one of those two statements being for domestic consumption rather than diplomacy.",
+          "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html",
+          "date": "2026-08-20",
+          "is_new": true
+        },
+        {
+          "domain": "Trade Policy",
+          "text": "Trump paused new 50% Canada tariffs hours before their deadline, then declared 'we've come to a deal' and that Canada 'gave us the points we had to have' on farm market access. Canada's trade minister, Dominic LeBlanc, told reporters the same day that dairy supply management was 'not on the table' and stayed fully protected - and the White House itself confirms nothing is actually signed. The 'deal' is a headline two governments are describing in incompatible terms.",
+          "url": "https://abcnews.com/Politics/wireStory/trump-us-canada-trade-deal-key-terms-remain-135785816",
+          "date": "2026-08-20",
+          "is_new": true
+        },
+        {
+          "domain": "Debt Management",
+          "text": "Treasury unexpectedly at least doubled its long-dated debt buyback size Wednesday, and the 30-year yield dropped 9 basis points on the announcement alone - a policy lever working exactly as intended, for about twelve hours. By Thursday's close the entire move had round-tripped: yields back up, the S&P down 0.33%, the Dow down 0.71%, on fresh oil risk from the same administration's Iran threats. The intervention wasn't wrong; it just wasn't durable past one trading session.",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-20-dow-sp-500-nasdaq-081139322.html",
+          "date": "2026-08-20",
+          "is_new": true
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-16",
-  "cycle_start": "2026-08-19T14:30:00Z",
-  "last_updated": "2026-08-20T00:20:00Z",
+  "cycle_start": "2026-08-20T00:20:00Z",
+  "last_updated": "2026-08-20T14:30:00Z",
   "storylines": [
     {
       "id": "rhine-danube-record-low-water",
@@ -86,20 +86,16 @@
       "pattern": "Landfall is a coastline event; the flooding that kills is a rain-rate and topography event",
       "transferability": "Reading rain rate and terrain instead of the track cone changes which storms look dangerous",
       "cluster_id": "",
-      "why_now": "Statewide restoration has crossed 91%, but the number hides a widening gap between islands: Oahu and Maui are essentially done while Hawaii Island - where the storm actually hit - is still a quarter dark.",
+      "why_now": "The Big Island's outage count is now falling by the thousands per update - but the National Hurricane Center is watching a 90%-likely new system that could bring more heavy rain to the same island before the current repairs are even finished.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://mauinow.com/2026/08/19/affected-customers-power-restored-99-oahu-98-maui-75-hawaii-island/",
+      "url": "https://www.staradvertiser.com/2026/08/20/hawaii-news/residents-urged-to-prepare-for-another-storm/",
       "location": "Hawaii Island",
-      "season_or_time_context": "Aug 20, 2026 - 91% statewide restored; Hawaii Island at 75%",
+      "season_or_time_context": "Aug 20, 2026 - Big Island at 16,800 out; new storm threat forming",
       "first_seen": "2026-08-16T18:00:00Z",
-      "last_seen": "2026-08-20T00:20:00Z",
-      "appearances": 7,
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 8,
       "history": [
-        {
-          "date": "2026-08-18T03:40:00Z",
-          "note": "Three days on, 117,300 still dark. Gusts hit 91mph at Kohala and 89mph in West Maui; assessments found major damage to infrastructure in remote areas."
-        },
         {
           "date": "2026-08-18T14:11:00Z",
           "note": "Down to 88,670 out by 6pm Monday, but unevenly: about 38,250 on the Big Island against 14,350 on Oahu and 1,450 in Maui County."
@@ -115,9 +111,13 @@
         {
           "date": "2026-08-20T00:20:00Z",
           "note": "91% restored statewide \u2014 99% Oahu, 98% Maui, only 75% Hawaii Island. HECO expects 95% statewide by Friday, but pockets of Puna, Kohala and Ka\u02bb\u016b still face at least two more weeks."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "Big Island down to about 16,800 out, with Puna Geothermal Venture reconnected. But a new tropical system - EP90 - has a 90% chance of developing and could bring more heavy rain to the Big Island by the weekend."
         }
       ],
-      "source_date": "2026-08-19"
+      "source_date": "2026-08-20"
     },
     {
       "id": "back-to-school-anxiety-ritual",
@@ -130,15 +130,15 @@
       "pattern": "A record aggregate produced by prices and participation rather than strength - visible in where the money is spent, not how much",
       "transferability": "Any record consumer total this year needs its composition checked before it is read as confidence",
       "cluster_id": "",
-      "why_now": "A record budget and a record migration to discounters showed up in the same survey - and in the same month July retail sales fell 0.6%.",
+      "why_now": "A newer survey puts a name on the same split: 'spending down, but costs add up' - shoppers are actively cutting corners (4+ tactics apiece) and still landing on a record total, which is the strongest evidence yet that this is a squeeze wearing a record's clothes.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.jll.com/en-us/insights/back-to-school-2026-shopping-report",
+      "url": "https://www.nerdwallet.com/finance/studies/back-to-school-shopping-report",
       "location": "",
-      "season_or_time_context": "Aug 18, 2026 - Walmart ~80%; dollar stores in the top ten",
+      "season_or_time_context": "Aug 20, 2026 - cost-cutting tactics up even as totals stay record",
       "first_seen": "2026-07-26T14:00:00Z",
-      "last_seen": "2026-08-18T03:40:00Z",
-      "appearances": 10,
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 11,
       "history": [
         {
           "date": "2026-08-16T18:00:00Z",
@@ -147,6 +147,10 @@
         {
           "date": "2026-08-17T04:30:00Z",
           "note": "JLL has parents budgeting $489 per child, up 11.7%. Walmart's share of destinations climbed 22 points to nearly 80%, a survey record, and dollar stores entered the top ten."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "NerdWallet's read: spending down, costs still add up. 31% of parents now use 4+ cost-saving tactics; 60% shop more affordable retailers; apparel spend up 22%, tech spend cut 16%."
         }
       ],
       "source_evergreen": true
@@ -162,15 +166,15 @@
       "pattern": "The cliff-and-single-coast-road setting that makes a place worth visiting is the same thing that makes it impossible to leave by land",
       "transferability": "Any coastal resort town with one road and a mountain behind it has the same evacuation problem waiting",
       "cluster_id": "",
-      "why_now": "Police have formally handed the case file to the Zadar prosecutor's office - the criminal complaint is filed, even as the terrorism question stays open.",
+      "why_now": "All four suspects have confessed - the case is no longer a question of who, only of what charge sticks. A general-security conviction caps at ten years; a terrorism finding, still under USKOK review, would be a different order of consequence entirely.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://europeantimes.news/2026/08/croatia-probes-coordinated-zadar-fires/",
+      "url": "https://vreme.com/en/drustvo/namerno-izazivanje-pozara-kod-zadra-medju-uhapsenima-i-srpski-drzavljanin/",
       "location": "Omis, Dalmatia, Croatia",
-      "season_or_time_context": "Aug 19, 2026 - criminal complaint filed with Zadar prosecutor",
+      "season_or_time_context": "Aug 20, 2026 - all four confessed; charged, 1-10 year exposure",
       "first_seen": "2026-08-17T04:30:00Z",
-      "last_seen": "2026-08-19T00:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-08-17T04:30:00Z",
@@ -187,9 +191,13 @@
         {
           "date": "2026-08-19T00:20:00Z",
           "note": "Police filed a formal criminal complaint with the Municipal State Attorney's Office in Zadar. The case has moved from investigation to prosecution."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "All four confessed, per investigating judge Hrvoje Viskovi\u0107 - they admit lighting dry grass with lighters at all ten sites. Charged with a crime against general security, carrying one to ten years."
         }
       ],
-      "source_date": "2026-08-18"
+      "source_date": "2026-08-19"
     },
     {
       "id": "albizia-tree-grid-constraint",
@@ -202,20 +210,16 @@
       "pattern": "A slow biological accumulation sets the recovery time of a fast engineered system",
       "transferability": "Ask of any network - grid, rail, fibre - what is growing next to it, and how long that has been allowed to grow",
       "cluster_id": "",
-      "why_now": "The island-by-island split makes the case on its own: Oahu and Maui's largely unwooded circuits are at 98-99%, while Hawaii Island's albizia-heavy corridor is stuck at 75% - a 23-point gap that maps almost exactly onto where the trees are.",
+      "why_now": "The wooded corridor's count is falling fast now that labor is matched to the terrain - down another third in half a day - which is the clearest proof yet that the constraint was always about crews reaching trees, not the trees themselves being unfixable.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://mauinow.com/2026/08/19/affected-customers-power-restored-99-oahu-98-maui-75-hawaii-island/",
+      "url": "https://www.hawaiinewsnow.com/2026/08/20/outages-restoration-efforts-continue-statewide-customers-urged-prepare-new-storm/",
       "location": "Hamakua coast, Hawaii Island",
-      "season_or_time_context": "Aug 20, 2026 - Hawaii Island at 75% vs 98-99% elsewhere",
+      "season_or_time_context": "Aug 20, 2026 - Big Island down to 16,800 out",
       "first_seen": "2026-08-17T04:30:00Z",
-      "last_seen": "2026-08-20T00:20:00Z",
-      "appearances": 6,
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 7,
       "history": [
-        {
-          "date": "2026-08-18T03:40:00Z",
-          "note": "Hawaiian Electric said assessments found major damage in remote areas; 91mph gusts at Kohala put trees onto poles and transmission towers."
-        },
         {
           "date": "2026-08-18T14:11:00Z",
           "note": "The split is holding as the biology predicts: Oahu's accessible urban circuits down to about 14,350 out, the wooded Puna-to-Hamakua corridor still roughly 38,250."
@@ -231,9 +235,13 @@
         {
           "date": "2026-08-20T00:20:00Z",
           "note": "Oahu and Maui are essentially done, 99% and 98% restored. Hawaii Island - the only wooded, albizia-heavy grid - sits at 75%, the clearest island-by-island read on what the trees cost."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "Big Island outages down to about 16,800, with power back to Puna Geothermal Venture - the wooded corridor closing at roughly the same pace it opened, once the labor arrived."
         }
       ],
-      "source_date": "2026-08-19"
+      "source_date": "2026-08-20"
     },
     {
       "id": "treasury-yields-rate-cut-signal",
@@ -246,20 +254,16 @@
       "pattern": "The long end is repricing supply and credibility, not the next rate decision",
       "transferability": "A 30-year yield at a 19-year high reprices mortgages, pensions and every long-dated liability at once",
       "cluster_id": "",
-      "why_now": "The buyback relief lasted about twelve hours: yields were already climbing back by Thursday morning, which is the clearest sign yet that a policy lever can blunt the spike but not the underlying pressure pushing it.",
+      "why_now": "Wednesday's rally is now fully unwound: by Thursday's close, equities were down and yields were back up on fresh Iran-sanctions oil risk - the buyback bought about a day, not a trend reversal.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-19-dow-sp-500-nasdaq-081116064.html",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-20-dow-sp-500-nasdaq-081139322.html",
       "location": "",
-      "season_or_time_context": "Aug 20, 2026 - yields creeping back up after Wednesday's pullback",
+      "season_or_time_context": "Aug 20, 2026 - Thursday close erases the buyback bounce",
       "first_seen": "2026-08-08T18:00:00Z",
-      "last_seen": "2026-08-20T00:20:00Z",
-      "appearances": 11,
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 12,
       "history": [
-        {
-          "date": "2026-08-18T03:40:00Z",
-          "note": "The 30-year topped 5.31%, its highest since July 2007. For most of the decade after 2008 it sat below 3%."
-        },
         {
           "date": "2026-08-18T14:11:00Z",
           "note": "The 10-year pushed toward 4.75%, up ~5bp, dragging the Nasdaq down 1.02% while the S&P fell 0.44% \u2014 tech hit hardest by the rise in long-dated borrowing costs."
@@ -275,9 +279,13 @@
         {
           "date": "2026-08-20T00:20:00Z",
           "note": "Wednesday closed with the 10-year at 4.65% and the 30-year at 5.19% - the rally held through the close. By Thursday morning both had already crept back up, to 4.70% and 5.285%."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "Thursday's rebound went all the way through to stocks: S&P -0.33%, Dow -0.71%, Nasdaq -0.52%, as yields rose further and oil jumped on Trump's new Iran sanctions threat. The buyback bounce is fully unwound."
         }
       ],
-      "source_date": "2026-08-19"
+      "source_date": "2026-08-20"
     },
     {
       "id": "hormuz-energy-risk-premium",
@@ -290,20 +298,16 @@
       "pattern": "A risk premium converting into a structural supply reprice",
       "transferability": "Energy equities are now a supply-deficit trade rather than a headline-risk trade",
       "cluster_id": "",
-      "why_now": "Iran and Oman say they've agreed a map to reopen the strait, but Trump himself now denies any talks with Tehran are happening at all - the same government is simultaneously the optimistic and the flatly denying source.",
+      "why_now": "The denial that talks exist has now escalated into a declared campaign - \"the most crushing economic operation ever taken against any country\" - which is a strange thing to launch against a government you say you aren't talking to.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.justsecurity.org/154539/early-edition-august-19-2026/",
+      "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html",
       "location": "",
-      "season_or_time_context": "Aug 19, 2026 - Trump denies talks even as Oman map reported agreed",
+      "season_or_time_context": "Aug 20, 2026 - Trump declares economic warfare on Iran",
       "first_seen": "2026-08-08T18:00:00Z",
-      "last_seen": "2026-08-19T14:30:00Z",
-      "appearances": 10,
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 11,
       "history": [
-        {
-          "date": "2026-08-17T04:30:00Z",
-          "note": "Eight vessels crossed the strait on a single recent day, against roughly 130 a day before the war began on Feb 28."
-        },
         {
           "date": "2026-08-18T03:40:00Z",
           "note": "The memorandum expired. Brent gained 2.7% to settle at $90.87 as Iran ruled out an interim extension and threatened to escalate."
@@ -319,9 +323,13 @@
         {
           "date": "2026-08-19T14:30:00Z",
           "note": "Trump says there are \"no talks or conversations going on, or scheduled\" with Tehran, and the blockade stays in \"full force and effect\" \u2014 even as he insists mines are cleared and other traffic is free to pass."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "Trump announced \"economic warfare\" on Iran - \"tremendous\" consequences for any country giving it a financial lifeline. Oil rose on the threat; China buys over 80% of Iran's exported oil."
         }
       ],
-      "source_date": "2026-08-19"
+      "source_date": "2026-08-20"
     },
     {
       "id": "hormuz-deadlock-no-congressional-vote",
@@ -334,20 +342,16 @@
       "pattern": "The War Powers check is not failing - it is being outlasted",
       "transferability": "Reading every future US military action for whether the authorization clock ever starts",
       "cluster_id": "",
-      "why_now": "Trump's own denial that talks are even scheduled now contradicts Iran's account of the Oman negotiations - two governments disagreeing about whether the diplomatic track exists at all, and Congress still hasn't weighed in on any of it.",
+      "why_now": "A declared campaign of \"economic warfare\" is a bigger step than a denial of talks - it is the administration committing publicly to a wider, longer fight, and it still did not go anywhere near a vote.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.justsecurity.org/154539/early-edition-august-19-2026/",
+      "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html",
       "location": "",
-      "season_or_time_context": "Aug 19, 2026 - Trump denies talks are scheduled; no vote",
+      "season_or_time_context": "Aug 20, 2026 - day 174; economic warfare declared, no vote",
       "first_seen": "2026-07-22T00:00:00Z",
-      "last_seen": "2026-08-19T14:30:00Z",
-      "appearances": 23,
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 24,
       "history": [
-        {
-          "date": "2026-08-17T04:30:00Z",
-          "note": "Israeli strikes in southern Lebanon killed 11, the deadliest day there since the June ceasefire. The war widened over the weekend without widening its authorisation."
-        },
         {
           "date": "2026-08-18T03:40:00Z",
           "note": "The June 17 memorandum expired. Control of the strait \u2014 a fifth of world oil and gas before Feb 28 \u2014 remains the sticking point, and no vote followed."
@@ -363,10 +367,14 @@
         {
           "date": "2026-08-19T14:30:00Z",
           "note": "Trump now denies any talks with Tehran are even scheduled, contradicting Iran's own account of the Oman negotiations. Still day 173. No vote."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "Trump declared \"economic warfare\" on Iran and threatened any country that helps it. Day 174 of a war Congress has never voted to authorize or continue."
         }
       ],
       "category": "Politics & World",
-      "source_date": "2026-08-19"
+      "source_date": "2026-08-20"
     },
     {
       "id": "european-fire-front-moves-north",
@@ -501,15 +509,15 @@
       "pattern": "An announced deal and a finalized deal are different events, and the gap between them is where the leverage still lives",
       "transferability": "Any tariff 'deal' announced hours before its own deadline deserves a re-check on the actual date it was signed",
       "cluster_id": "",
-      "why_now": "One side of the negotiating table is now calling this a done deal in public, on Truth Social, while the other side's own prime minister still won't say more than 'substantial progress' - the gap the pause bought hasn't closed, it's just moved.",
+      "why_now": "Now both governments are describing the same unsigned deal in mutually exclusive terms - Trump touts farm-sector wins, Canada's trade minister says dairy supply management was 'not on the table' and stayed fully protected - which is the clearest sign yet that 'we have a deal' was a negotiating position, not an outcome.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-19/trump-carney-optimistic-on-trade-deal-as-negotiators-meet-in-washington",
+      "url": "https://abcnews.com/Politics/wireStory/trump-us-canada-trade-deal-key-terms-remain-135785816",
       "location": "",
-      "season_or_time_context": "Aug 20, 2026 - Trump claims a deal; Carney still says 'progress'",
+      "season_or_time_context": "Aug 20, 2026 - key terms unclear; Canada says dairy untouched",
       "first_seen": "2026-08-19T14:30:00Z",
-      "last_seen": "2026-08-20T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 3,
       "history": [
         {
           "date": "2026-08-19T14:30:00Z",
@@ -518,10 +526,71 @@
         {
           "date": "2026-08-20T00:20:00Z",
           "note": "Trump declared \"we've come to a deal,\" saying Canada \"gave us the points we had to have\" on agricultural market access. Carney's own language stayed at 'substantial progress' - not confirmation."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "Key terms remain unclear and nothing is signed. Trump touts farm-sector wins; Canada's trade minister LeBlanc says dairy supply management was 'not on the table' and stayed fully protected."
         }
       ],
       "category": "Politics & World",
+      "source_date": "2026-08-20"
+    },
+    {
+      "id": "national-debt-40-trillion",
+      "stream": "markets",
+      "observer": "markets",
+      "title": "The debt hit $40 trillion - five months after it hit $39 trillion",
+      "observation": "US federal debt passed $40.05 trillion Tuesday, just five months after crossing $39 trillion and months earlier than forecasters expected. That's about $117,000 per person, $297,000 per household. Interest alone has cost nearly $1.2 trillion this year.",
+      "question": "When the distance between debt milestones keeps shrinking, is the number still measuring size - or has it started measuring the rate of acceleration?",
+      "hidden_question": "When the distance between debt milestones keeps shrinking, is the number still measuring size - or has it started measuring the rate of acceleration?",
+      "pattern": "A round-number milestone hides its own most important fact: the interval since the last one",
+      "transferability": "Any 'debt hits $X trillion' headline needs the gap since the last trillion checked before it means anything",
+      "cluster_id": "",
+      "why_now": "It took four and a half years to go from $30 trillion to $40 trillion, but only five months to go from $39 to $40 - and interest on the debt is now the third-largest line item in the federal budget.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.cnbc.com/2026/08/19/us-government-debt-passes-40-trillion-mark-for-the-first-time.html",
+      "location": "",
+      "season_or_time_context": "Aug 20, 2026 - $40.05T; $39T was just five months ago",
+      "first_seen": "2026-08-20T14:30:00Z",
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "Debt passed $40.05T Tuesday, just 5 months after $39T. July's deficit was $432.3B, the highest since March 2021; lost tariff revenue accelerated the timeline."
+        }
+      ],
+      "category": "Business & Markets",
       "source_date": "2026-08-19"
+    },
+    {
+      "id": "ep90-second-hawaii-storm",
+      "stream": "natural_world",
+      "observer": "threshold_watcher",
+      "title": "A second storm is already forming for Hawaii - one week after Lala, before the lights are even back on",
+      "observation": "A tropical rainstorm (EP90) southeast of Hawaii has a 90% chance of developing into a cyclone that could reach the islands this weekend. Rain could start on the Big Island as soon as Sunday - the same island Lala just wrecked.",
+      "question": "What happens to a recovery's timeline when the next hazard arrives before the last one has been cleaned up?",
+      "hidden_question": "What happens to a recovery's timeline when the next hazard arrives before the last one has been cleaned up?",
+      "pattern": "A disaster season is not a sequence of separate events if the gap between them is shorter than the recovery time",
+      "transferability": "Check the recovery timeline against the next hazard's forecast before calling any disaster 'over'",
+      "cluster_id": "",
+      "why_now": "The National Hurricane Center rates this system 90% likely to develop, and its earliest possible landfall window lands before Hawaiian Electric's own restoration estimate for the hardest-hit Lala circuits.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.staradvertiser.com/2026/08/20/hawaii-news/residents-urged-to-prepare-for-another-storm/",
+      "location": "Hawaii Island",
+      "season_or_time_context": "Aug 20, 2026 - EP90 at 90% development odds; possible weekend arrival",
+      "first_seen": "2026-08-20T14:30:00Z",
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "NHC gives the system a 90% chance of developing. Earliest rain could reach the Big Island Sunday, then spread west - one week to the day after Lala hit."
+        }
+      ],
+      "source_date": "2026-08-20"
     }
   ]
 }
