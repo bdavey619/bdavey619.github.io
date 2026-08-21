@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-20T12:50:16.185062+00:00",
+  "generated_at": "2026-08-21T12:47:56.461971+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -162,19 +162,17 @@
       "gamePk": 824394,
       "status": "final",
       "result": "W",
-      "score": "1\u20130"
+      "score": "1\u20130",
+      "archive_url": "archive.html?date=2026-08-20"
     },
     {
       "date": "2026-08-20",
       "opponent": "CLE",
       "home": false,
       "gamePk": 824395,
-      "status": "scheduled",
-      "time_local": "10:10 AM PT",
-      "probable": {
-        "team": "Landen Roupp",
-        "opp": "Gavin Williams"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20135"
     },
     {
       "date": "2026-08-21",
@@ -184,6 +182,7 @@
       "status": "scheduled",
       "time_local": "4:10 PM PT",
       "probable": {
+        "team": "Logan Webb",
         "opp": "Sonny Gray"
       }
     },
@@ -195,6 +194,7 @@
       "status": "scheduled",
       "time_local": "4:15 PM PT",
       "probable": {
+        "team": "Blade Tidwell",
         "opp": "Patrick Sandoval"
       }
     },
@@ -215,7 +215,10 @@
       "home": true,
       "gamePk": 823183,
       "status": "scheduled",
-      "time_local": "6:45 PM PT"
+      "time_local": "6:45 PM PT",
+      "probable": {
+        "opp": "Chase Burns"
+      }
     },
     {
       "date": "2026-08-25",
@@ -275,8 +278,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u201311",
-    "current_streak": "W1",
+    "month_record": "5\u201312",
+    "current_streak": "L1",
     "last_10": "3\u20137"
   }
 }
