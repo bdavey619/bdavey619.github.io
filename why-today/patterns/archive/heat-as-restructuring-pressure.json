@@ -1,0 +1,31 @@
+{
+  "id": "heat-as-restructuring-pressure",
+  "title": "Heat is quietly changing where entire industries can exist",
+  "explanation": "Heat is forcing industries out of geographies they have worked for generations - not by catastrophe but by slow withdrawal. This cycle it reached Europe's rivers, which turn out to be three industries at once: a freight network, a coolant supply, a power source. One drought degrades all three, and nobody is coordinating the retreat. The cost has now been quoted: seven times normal freight, a third of normal loading capacity, and force majeure on finished goods.",
+  "momentum": "fading",
+  "evidence": [
+    {
+      "domain": "Energy Production",
+      "text": "Hungary took Paks reactors offline for the first time because Danube cooling water fell below the safe threshold - the river hit minus 134cm at the plant and three of four units shut down in sequence. When the Danube came back 19cm, Hungary restarted a unit. Then it began rebuilding the river: a bed sill upstream of the plant using some 145,000 cubic metres of rock, which officials say could raise the level by up to three feet, plus two 260-foot barges to be transported to the site and possibly sunk to lift the water another eight inches at the cooling pumps. The adaptation is not moving the plant; it is rebuilding the river to fit it.",
+      "url": "https://www.nbcnews.com/world/hungary/hungary-sink-barges-build-sill-danube-river-keep-nuclear-plant-running-rcna592183",
+      "date": "2026-08-12",
+      "is_new": false
+    },
+    {
+      "domain": "Shipping",
+      "text": "The Kaub gauge fell to 6cm late Friday - the first single-digit reading since measurements began in the 19th century, against a 25cm record set in 2018. The figure is a reading against a reference datum, not a depth: the navigation channel at Kaub was still a little over 1.2 metres. That is the point. It is deep enough to be water and far too shallow to be a freight corridor, so barges that normally haul 5,100 tonnes past Kaub move about 800, Rotterdam freight to points south runs roughly EUR 150 a tonne against EUR 20, Duisburg loads at a third of capacity, and Covestro has force majeure on polyether polyols at Dormagen. A river does not have to disappear to stop being infrastructure.",
+      "url": "https://eutoday.net/rhine-record-6cm-kaub-freight-shifts/",
+      "date": "2026-08-16",
+      "is_new": false
+    },
+    {
+      "domain": "Water Supply",
+      "text": "France is experiencing its driest year on record. The consequence showed up as fire: a new blaze ran through woodland overnight in the Landes region, forcing more than 500 people out of the town of Luglon, while a separate fire was fought to the edge of Carcassonne. Parched ground is now the precondition rather than the aftermath.",
+      "url": "https://www.washingtonpost.com/world/2026/08/14/fires-france-england-heat-drought/881f7f3a-97b4-11f1-9ef9-1be722184483_story.html",
+      "date": "2026-08-14",
+      "is_new": false
+    }
+  ],
+  "retired": "2026-08-21T00:20:00Z",
+  "retired_reason": "Momentum already downgraded to fading last session; driving storyline (Rhine/Danube) has been dormant for four consecutive sessions with no new development, and oldest evidence item is now 9 days old with nothing accumulating behind it."
+}

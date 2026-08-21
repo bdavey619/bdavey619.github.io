@@ -1,36 +1,7 @@
 {
   "week": "2026-08-16",
-  "last_updated": "2026-08-20T14:30:00Z",
+  "last_updated": "2026-08-21T00:20:00Z",
   "recognitions": [
-    {
-      "id": "heat-as-restructuring-pressure",
-      "title": "Heat is quietly changing where entire industries can exist",
-      "explanation": "Heat is forcing industries out of geographies they have worked for generations - not by catastrophe but by slow withdrawal. This cycle it reached Europe's rivers, which turn out to be three industries at once: a freight network, a coolant supply, a power source. One drought degrades all three, and nobody is coordinating the retreat. The cost has now been quoted: seven times normal freight, a third of normal loading capacity, and force majeure on finished goods.",
-      "momentum": "fading",
-      "evidence": [
-        {
-          "domain": "Energy Production",
-          "text": "Hungary took Paks reactors offline for the first time because Danube cooling water fell below the safe threshold - the river hit minus 134cm at the plant and three of four units shut down in sequence. When the Danube came back 19cm, Hungary restarted a unit. Then it began rebuilding the river: a bed sill upstream of the plant using some 145,000 cubic metres of rock, which officials say could raise the level by up to three feet, plus two 260-foot barges to be transported to the site and possibly sunk to lift the water another eight inches at the cooling pumps. The adaptation is not moving the plant; it is rebuilding the river to fit it.",
-          "url": "https://www.nbcnews.com/world/hungary/hungary-sink-barges-build-sill-danube-river-keep-nuclear-plant-running-rcna592183",
-          "date": "2026-08-12",
-          "is_new": false
-        },
-        {
-          "domain": "Shipping",
-          "text": "The Kaub gauge fell to 6cm late Friday - the first single-digit reading since measurements began in the 19th century, against a 25cm record set in 2018. The figure is a reading against a reference datum, not a depth: the navigation channel at Kaub was still a little over 1.2 metres. That is the point. It is deep enough to be water and far too shallow to be a freight corridor, so barges that normally haul 5,100 tonnes past Kaub move about 800, Rotterdam freight to points south runs roughly EUR 150 a tonne against EUR 20, Duisburg loads at a third of capacity, and Covestro has force majeure on polyether polyols at Dormagen. A river does not have to disappear to stop being infrastructure.",
-          "url": "https://eutoday.net/rhine-record-6cm-kaub-freight-shifts/",
-          "date": "2026-08-16",
-          "is_new": false
-        },
-        {
-          "domain": "Water Supply",
-          "text": "France is experiencing its driest year on record. The consequence showed up as fire: a new blaze ran through woodland overnight in the Landes region, forcing more than 500 people out of the town of Luglon, while a separate fire was fought to the edge of Carcassonne. Parched ground is now the precondition rather than the aftermath.",
-          "url": "https://www.washingtonpost.com/world/2026/08/14/fires-france-england-heat-drought/881f7f3a-97b4-11f1-9ef9-1be722184483_story.html",
-          "date": "2026-08-14",
-          "is_new": false
-        }
-      ]
-    },
     {
       "id": "fire-season-relocates",
       "title": "The European fire season doesn't end when a fire is contained — it relocates to the next front",
@@ -42,7 +13,7 @@
           "text": "Croatian police arrested four people - three Croatians aged 42, 45 and 46 and a 33-year-old Polish citizen - suspected of deliberately setting fires at ten locations across Zadar County on Aug 14 and 15, acting, investigators say, under a prior plan and mutual agreement. Officers seized a semi-automatic rifle with 44 rounds, a pistol and several mobile devices. All four have now confessed, according to investigating judge Hrvoje Visković - they admit lighting dry grass with lighters at every site - and are charged with a crime against general security, carrying one to ten years. Croatian media separately report USKOK is examining whether the spree also amounts to terrorism. A season everyone has been reading as weather turns out, in part, to be a solved crime scene - with a bigger question still open.",
           "url": "https://vreme.com/en/drustvo/namerno-izazivanje-pozara-kod-zadra-medju-uhapsenima-i-srpski-drzavljanin/",
           "date": "2026-08-19",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Emergency Response",
@@ -75,8 +46,8 @@
       "evidence": [
         {
           "domain": "Utilities",
-          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. Statewide restoration has climbed to about 96% - Hawaii Island itself is down to roughly 16,800 out, from 38,250 three days ago - and it is still not over: the National Hurricane Center gives a new system, EP90, a 90% chance of developing into a cyclone that could reach the same island by the weekend, before repairs are finished. The detection and the acute emergency resolved in hours; the recovery is still running when the next hazard's forecast begins.",
-          "url": "https://www.staradvertiser.com/2026/08/20/hawaii-news/residents-urged-to-prepare-for-another-storm/",
+          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. Restoration is well advanced, but the recovery clock hasn't stopped: the system behind Lala, now Tropical Depression Two-C and likely to become Tropical Storm Moke, is forecast to pass south of the islands with 5-10 inches of rain reaching the Big Island as soon as late Saturday - the same island still finishing repairs. The detection and the acute emergency resolved in hours; the recovery is still running when the next hazard's forecast begins.",
+          "url": "https://www.weather.com/2026/08/20/storms/hurricane/video/tropical-depression-two-c-moke-tropical-threat-hawaii-development",
           "date": "2026-08-20",
           "is_new": true
         },
@@ -107,7 +78,7 @@
           "text": "The composition beneath the record: Walmart's share of parents' back-to-school shopping destinations climbed more than 22 percentage points in a year to nearly 80% - the highest level any retailer has reached in the history of JLL's survey. Dollar stores entered the top ten retailers for the first time, up about 10 points to nearly 32%. A newer survey puts a name on the same behavior: 31% of parents are now using four or more cost-saving tactics, 60% plan to shop more affordable retailers, and 51% are substituting private labels - even as apparel spending rises 22% because worn-out items still have to be replaced. A record total and a record migration to discount-seeking behavior are the same data point read twice.",
           "url": "https://www.nerdwallet.com/finance/studies/back-to-school-shopping-report",
           "date": "2026-08-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Retail",
@@ -143,12 +114,12 @@
           "text": "The 30-year Treasury yield set a 19-year high two sessions running, then pulled back 9 basis points Wednesday to 5.196% the moment Treasury unexpectedly announced it would at least double its long-dated debt buybacks. The relief lasted about a day: by Thursday's close it was fully unwound, with equities down (S&P -0.33%, Dow -0.71%, Nasdaq -0.52%) and yields back up as fresh Iran-sanctions oil risk retook the wheel. That is the confirmation this pattern was waiting for - a deliberate policy intervention bought less than 24 hours of relief, which means the market is pricing the underlying deficit and inflation story, not the news cycle.",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-20-dow-sp-500-nasdaq-081139322.html",
           "date": "2026-08-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy",
-          "text": "The memorandum Trump and Pezeshkian signed on June 17 declared removal of the US naval blockade and safe passage for commercial vessels - explicitly 'for 60 days only'. It ran out Monday with no successor, and crossings through the strait have collapsed 64% from their post-MoU peak to single digits a day. Thursday moved the baseline further: Trump declared 'economic warfare' on Iran, threatening 'tremendous' consequences for any country giving it a financial lifeline - a permanent-footing policy, not a 60-day bridge to a deal. China buys more than 80% of Iran's exported oil, so the threat itself now carries its own escalation risk. Nobody involved is behaving as if reopening is imminent.",
-          "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html",
+          "text": "The memorandum Trump and Pezeshkian signed on June 17 declared removal of the US naval blockade and safe passage for commercial vessels - explicitly 'for 60 days only'. It ran out Monday with no successor. Trump declared 'economic warfare' on Iran Thursday, a permanent-footing policy rather than a 60-day bridge to a deal - and the traffic data confirms which baseline the market is actually pricing: 236 ships crossed over 19 days in August, about 12 a day versus a ~130-a-day pre-war norm, and most are masking their identity to do it. A strait where ships hide who they are to pass is not a strait anyone treats as reopened.",
+          "url": "https://www.aljazeera.com/news/2026/8/20/are-hormuz-ships-more-willing-to-defy-iran-or-the-us-what-data-shows",
           "date": "2026-08-20",
           "is_new": true
         },
@@ -172,21 +143,21 @@
           "text": "Wednesday, Trump said there were 'no talks or conversations going on, or scheduled' with Tehran. Thursday, he announced 'economic warfare' on Iran - 'the most crushing economic operation ever taken against any country' - threatening 'tremendous' consequences for any nation giving Iran a financial lifeline. A government cannot credibly deny a negotiating track and declare a new offensive against the same target within 24 hours without one of those two statements being for domestic consumption rather than diplomacy.",
           "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html",
           "date": "2026-08-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Trade Policy",
           "text": "Trump paused new 50% Canada tariffs hours before their deadline, then declared 'we've come to a deal' and that Canada 'gave us the points we had to have' on farm market access. Canada's trade minister, Dominic LeBlanc, told reporters the same day that dairy supply management was 'not on the table' and stayed fully protected - and the White House itself confirms nothing is actually signed. The 'deal' is a headline two governments are describing in incompatible terms.",
           "url": "https://abcnews.com/Politics/wireStory/trump-us-canada-trade-deal-key-terms-remain-135785816",
           "date": "2026-08-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Debt Management",
           "text": "Treasury unexpectedly at least doubled its long-dated debt buyback size Wednesday, and the 30-year yield dropped 9 basis points on the announcement alone - a policy lever working exactly as intended, for about twelve hours. By Thursday's close the entire move had round-tripped: yields back up, the S&P down 0.33%, the Dow down 0.71%, on fresh oil risk from the same administration's Iran threats. The intervention wasn't wrong; it just wasn't durable past one trading session.",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-20-dow-sp-500-nasdaq-081139322.html",
           "date": "2026-08-20",
-          "is_new": true
+          "is_new": false
         }
       ]
     }

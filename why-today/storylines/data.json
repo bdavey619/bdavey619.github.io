@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-16",
-  "cycle_start": "2026-08-20T00:20:00Z",
-  "last_updated": "2026-08-20T14:30:00Z",
+  "cycle_start": "2026-08-20T14:30:00Z",
+  "last_updated": "2026-08-21T00:20:00Z",
   "storylines": [
     {
       "id": "rhine-danube-record-low-water",
@@ -298,20 +298,16 @@
       "pattern": "A risk premium converting into a structural supply reprice",
       "transferability": "Energy equities are now a supply-deficit trade rather than a headline-risk trade",
       "cluster_id": "",
-      "why_now": "The denial that talks exist has now escalated into a declared campaign - \"the most crushing economic operation ever taken against any country\" - which is a strange thing to launch against a government you say you aren't talking to.",
+      "why_now": "The traffic data resolves the ambiguity: ships are moving again - a dozen a day, not the single digits of last week - but the actual behavior confirms the strait is functioning as an Iran-controlled corridor, not a reopened one, because crews are still hiding who they are to use it.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html",
+      "url": "https://www.aljazeera.com/news/2026/8/20/are-hormuz-ships-more-willing-to-defy-iran-or-the-us-what-data-shows",
       "location": "",
-      "season_or_time_context": "Aug 20, 2026 - Trump declares economic warfare on Iran",
+      "season_or_time_context": "Aug 21, 2026 - traffic ticks up to ~12/day, still masking identity",
       "first_seen": "2026-08-08T18:00:00Z",
-      "last_seen": "2026-08-20T14:30:00Z",
-      "appearances": 11,
+      "last_seen": "2026-08-21T00:20:00Z",
+      "appearances": 12,
       "history": [
-        {
-          "date": "2026-08-18T03:40:00Z",
-          "note": "The memorandum expired. Brent gained 2.7% to settle at $90.87 as Iran ruled out an interim extension and threatened to escalate."
-        },
         {
           "date": "2026-08-18T14:11:00Z",
           "note": "A fresh strike was reported on a transiting vessel. Iran said the strait stays shut until sanctions and the blockade lift \u2014 a condition, not a position. Trump threatened Oman a second time."
@@ -327,6 +323,10 @@
         {
           "date": "2026-08-20T14:30:00Z",
           "note": "Trump announced \"economic warfare\" on Iran - \"tremendous\" consequences for any country giving it a financial lifeline. Oil rose on the threat; China buys over 80% of Iran's exported oil."
+        },
+        {
+          "date": "2026-08-21T00:20:00Z",
+          "note": "236 ships crossed over 19 days in August - about 12/day, still a fraction of the ~130/day pre-war baseline. Most now mask their identity transiting, and more seem afraid of Iran than of defying the US blockade."
         }
       ],
       "source_date": "2026-08-20"
@@ -342,20 +342,16 @@
       "pattern": "The War Powers check is not failing - it is being outlasted",
       "transferability": "Reading every future US military action for whether the authorization clock ever starts",
       "cluster_id": "",
-      "why_now": "A declared campaign of \"economic warfare\" is a bigger step than a denial of talks - it is the administration committing publicly to a wider, longer fight, and it still did not go anywhere near a vote.",
+      "why_now": "The clearest evidence the strait isn't actually open is behavioral: crews are hiding their own ships' identities to use it, which is not what compliance with a lifted blockade looks like - and Congress still has nothing to vote on because no one will call this what it is.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html",
+      "url": "https://www.aljazeera.com/news/2026/8/20/are-hormuz-ships-more-willing-to-defy-iran-or-the-us-what-data-shows",
       "location": "",
-      "season_or_time_context": "Aug 20, 2026 - day 174; economic warfare declared, no vote",
+      "season_or_time_context": "Aug 21, 2026 - day 175; ships still masking identity, no vote",
       "first_seen": "2026-07-22T00:00:00Z",
-      "last_seen": "2026-08-20T14:30:00Z",
-      "appearances": 24,
+      "last_seen": "2026-08-21T00:20:00Z",
+      "appearances": 25,
       "history": [
-        {
-          "date": "2026-08-18T03:40:00Z",
-          "note": "The June 17 memorandum expired. Control of the strait \u2014 a fifth of world oil and gas before Feb 28 \u2014 remains the sticking point, and no vote followed."
-        },
         {
           "date": "2026-08-18T14:11:00Z",
           "note": "Trump threatened for a second time to bomb Oman, the country hosting the talks Tehran says it is close to concluding."
@@ -371,6 +367,10 @@
         {
           "date": "2026-08-20T14:30:00Z",
           "note": "Trump declared \"economic warfare\" on Iran and threatened any country that helps it. Day 174 of a war Congress has never voted to authorize or continue."
+        },
+        {
+          "date": "2026-08-21T00:20:00Z",
+          "note": "Traffic data for August shows ships more afraid of Iran than of the US blockade - masking identity to transit at all. Day 175. Still no vote, on a war run by neither side's stated rules."
         }
       ],
       "category": "Politics & World",
@@ -575,21 +575,54 @@
       "pattern": "A disaster season is not a sequence of separate events if the gap between them is shorter than the recovery time",
       "transferability": "Check the recovery timeline against the next hazard's forecast before calling any disaster 'over'",
       "cluster_id": "",
-      "why_now": "The National Hurricane Center rates this system 90% likely to develop, and its earliest possible landfall window lands before Hawaiian Electric's own restoration estimate for the hardest-hit Lala circuits.",
+      "why_now": "The system now has a name-in-waiting and a track: south of the islands rather than direct, which softens the worst-case wind risk but keeps the same Big Island in the direct path of 5-10 inches of rain before Hawaiian Electric's own restoration estimate for the hardest-hit Lala circuits runs out.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.staradvertiser.com/2026/08/20/hawaii-news/residents-urged-to-prepare-for-another-storm/",
+      "url": "https://www.weather.com/2026/08/20/storms/hurricane/video/tropical-depression-two-c-moke-tropical-threat-hawaii-development",
       "location": "Hawaii Island",
-      "season_or_time_context": "Aug 20, 2026 - EP90 at 90% development odds; possible weekend arrival",
+      "season_or_time_context": "Aug 21, 2026 - Tropical Depression Two-C, likely Moke, tracking south",
       "first_seen": "2026-08-20T14:30:00Z",
-      "last_seen": "2026-08-20T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-21T00:20:00Z",
+      "appearances": 2,
       "history": [
         {
           "date": "2026-08-20T14:30:00Z",
           "note": "NHC gives the system a 90% chance of developing. Earliest rain could reach the Big Island Sunday, then spread west - one week to the day after Lala hit."
+        },
+        {
+          "date": "2026-08-21T00:20:00Z",
+          "note": "Now Tropical Depression Two-C, expected to become Tropical Storm Moke. Forecast track passes south of the islands, with impacts starting late Saturday night - 5 to 10 inches forecast for the Big Island."
         }
       ],
+      "source_date": "2026-08-20"
+    },
+    {
+      "id": "north-korea-missile-barrage-trump-overture",
+      "stream": "headlines",
+      "observer": "headlines",
+      "title": "North Korea answered Trump's scaled-back war games with ten missiles - and a shrug",
+      "observation": "The US trimmed its joint drills with South Korea as a diplomatic overture. North Korea's answer Thursday: about ten short-range ballistic missiles fired toward the sea, and Kim Yo Jong publicly denying Trump's claim that her brother had even responded to him.",
+      "question": "What does it mean when the rejection of an olive branch is delivered without the usual fury - is that contempt, or is it a door being left open a crack?",
+      "hidden_question": "What does it mean when the rejection of an olive branch is delivered without the usual fury - is that contempt, or is it a door being left open a crack?",
+      "pattern": "A concession that gets a missile test in response, but not the customary rhetoric, is being rejected and kept alive at the same time",
+      "transferability": "Read any dictatorship's 'no' for whether it comes with or without the usual denunciation - the absence of fury is itself a signal",
+      "cluster_id": "",
+      "why_now": "Kim Yo Jong called Trump's own account of a response from her brother false, while pointedly noting personal relations between the two leaders are 'still excellent' - a rejection engineered to leave the door open for a better offer.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.washingtonpost.com/world/2026/08/20/south-north-korea-projectile-launch-military-exercises/c7142bca-9c71-11f1-9cc4-2dc9b46e2d5c_story.html",
+      "location": "",
+      "season_or_time_context": "Aug 20, 2026 - ~10 missiles fired after drills scaled back",
+      "first_seen": "2026-08-21T00:20:00Z",
+      "last_seen": "2026-08-21T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-21T00:20:00Z",
+          "note": "About 10 short-range missiles fired toward the sea, ~185 miles each, hours after the US scaled back drills with South Korea. Kim Yo Jong denied Kim Jong Un ever responded to Trump."
+        }
+      ],
+      "category": "Politics & World",
       "source_date": "2026-08-20"
     }
   ]
