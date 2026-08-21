@@ -1,6 +1,6 @@
 {
   "week": "2026-08-16",
-  "last_updated": "2026-08-21T00:20:00Z",
+  "last_updated": "2026-08-21T14:30:00Z",
   "recognitions": [
     {
       "id": "fire-season-relocates",
@@ -17,10 +17,10 @@
         },
         {
           "domain": "Emergency Response",
-          "text": "Belgium's High Fens fire more than doubled in 24 hours to about 3,000 hectares - the largest wildfire in the country's recorded history. Crews fully encircled it overnight Tuesday into Wednesday, stopping its spread toward Germany, but officials still call the situation 'complicated': flare-ups keep appearing, and because the fire burns in peat - sometimes deep underground - it can reignite whenever the ground is disturbed. Full extinguishment is expected to take weeks or months of soaking, a second, much slower timeline behind the one the encirclement headline suggests. In Spain a soldier died fighting a major fire in Aragon; in Portugal five firefighters were injured when their vehicle caught fire near Dine; Greece is investigating a deadly blaze of its own.",
-          "url": "https://www.euronews.com/my-europe/2026/08/19/belgium-wildfire-encircled-overnight-but-situation-still-complicated-officials-say",
+          "text": "Belgium's High Fens fire more than doubled in 24 hours to about 3,000 hectares - the largest wildfire in the country's recorded history, still not fully extinguished a week on because it burns in peat. What's now surfaced is why Belgium was so unready for it: a Belgian Wildfire Network report published in March - five months before this fire - described the country's governance as 'fragmented' and its specialist expertise as 'limited,' with responsibility scattered across agencies at national and regional level, and warned that longer droughts and forest degradation were creating exactly the conditions for a fire it couldn't control. The report wasn't a forecast in hindsight; it was on file before the match was struck.",
+          "url": "https://brusselsmorning.com/belgium-wildfire-response-2026/101765/",
           "date": "2026-08-19",
-          "is_new": false
+          "is_new": true
         },
         {
           "domain": "Tourism",
@@ -46,17 +46,17 @@
       "evidence": [
         {
           "domain": "Utilities",
-          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. Restoration is well advanced, but the recovery clock hasn't stopped: the system behind Lala, now Tropical Depression Two-C and likely to become Tropical Storm Moke, is forecast to pass south of the islands with 5-10 inches of rain reaching the Big Island as soon as late Saturday - the same island still finishing repairs. The detection and the acute emergency resolved in hours; the recovery is still running when the next hazard's forecast begins.",
-          "url": "https://www.weather.com/2026/08/20/storms/hurricane/video/tropical-depression-two-c-moke-tropical-threat-hawaii-development",
-          "date": "2026-08-20",
+          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. Restoration is well advanced, but the recovery clock hasn't stopped: the system behind Lala is now named Tropical Storm Moke, forecast to strengthen to a category-one hurricane, with up to 15 inches of rain possible on the Big Island - ground the National Weather Service itself calls already saturated - and officials warning of life-threatening flash floods and mudslides in the same areas Lala just hit. The detection and the acute emergency resolved in hours; the recovery is still running when the next hazard arrives.",
+          "url": "https://weather.com/2026/08/21/storms/hurricane/hawaii-tropical-storm-moke-forecast",
+          "date": "2026-08-21",
           "is_new": true
         },
         {
           "domain": "Disaster Response",
-          "text": "Indonesia issued a tsunami warning after the M7.7 off Flores and lifted it the same morning when monitoring showed no significant sea-level change - a complete, correct, quantitative answer inside a few hours; the waves came in under 1.6m. Five days on, the other numbers are still moving in the wrong direction: the toll rose to 70, and displacement more than tripled from 12,800 to 40,000. Yet grocery stores and gas stations reopened on Flores the same day - recovery and displacement climbing simultaneously, because they're measuring different pockets of the same island. The alert cleared in hours; this recovery is still being counted five days later.",
-          "url": "https://www.hngn.com/articles/272763/20260818/indonesia-earthquake-magnitude-77-quake-off-flores-kills-least-38-triggers-tsunami-alert.htm",
-          "date": "2026-08-18",
-          "is_new": false
+          "text": "Indonesia issued a tsunami warning after the M7.7 off Flores and lifted it the same morning when monitoring showed no significant sea-level change - a complete, correct, quantitative answer inside a few hours; the waves came in under 1.6m. Six days on, the other number still hasn't stopped moving: the toll climbed from 70 to 83 overnight, with 328 more seriously injured and 639 with minor injuries. The alert resolved in one morning. The count it handed off to still isn't final on day six.",
+          "url": "https://english.news.cn/20260821/445bbbcda35e4cf789d223f9f5ee52f2/c.html",
+          "date": "2026-08-21",
+          "is_new": true
         },
         {
           "domain": "Public Health",
@@ -111,17 +111,17 @@
       "evidence": [
         {
           "domain": "Sovereign Debt",
-          "text": "The 30-year Treasury yield set a 19-year high two sessions running, then pulled back 9 basis points Wednesday to 5.196% the moment Treasury unexpectedly announced it would at least double its long-dated debt buybacks. The relief lasted about a day: by Thursday's close it was fully unwound, with equities down (S&P -0.33%, Dow -0.71%, Nasdaq -0.52%) and yields back up as fresh Iran-sanctions oil risk retook the wheel. That is the confirmation this pattern was waiting for - a deliberate policy intervention bought less than 24 hours of relief, which means the market is pricing the underlying deficit and inflation story, not the news cycle.",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-20-dow-sp-500-nasdaq-081139322.html",
-          "date": "2026-08-20",
-          "is_new": false
+          "text": "The 30-year Treasury yield set a 19-year high two sessions running, then pulled back 9 basis points Wednesday the moment Treasury unexpectedly announced it would at least double its long-dated debt buybacks. The relief lasted about a day: by Thursday's close it was already unwound, and Friday it kept climbing - the 10-year near 4.7%, the 30-year near 5.25%, both still rising, stocks falling on the same move. Two full sessions after the announcement, the market has had two separate chances to treat the intervention as durable and passed on both. That is confirmation, not ambiguity: the deficit and inflation story is what's being priced, not the buyback.",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+          "date": "2026-08-21",
+          "is_new": true
         },
         {
           "domain": "Energy",
           "text": "The memorandum Trump and Pezeshkian signed on June 17 declared removal of the US naval blockade and safe passage for commercial vessels - explicitly 'for 60 days only'. It ran out Monday with no successor. Trump declared 'economic warfare' on Iran Thursday, a permanent-footing policy rather than a 60-day bridge to a deal - and the traffic data confirms which baseline the market is actually pricing: 236 ships crossed over 19 days in August, about 12 a day versus a ~130-a-day pre-war norm, and most are masking their identity to do it. A strait where ships hide who they are to pass is not a strait anyone treats as reopened.",
           "url": "https://www.aljazeera.com/news/2026/8/20/are-hormuz-ships-more-willing-to-defy-iran-or-the-us-what-data-shows",
           "date": "2026-08-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Infrastructure",
@@ -136,8 +136,15 @@
       "id": "claims-outrun-confirmation",
       "title": "This week, three separate claims of having fixed something didn't survive a single news cycle",
       "explanation": "Across trade, foreign policy and debt management, the same pattern showed up three times in 48 hours: an announcement of control or resolution, followed within about a day by the other side, or the market, contradicting it. A Canada tariff 'deal' whose own trade minister says the disputed terms were never on the table. A denial that talks with Iran even exist, followed a day later by a declared war footing against that same government. A bond-market intervention whose relief lasted less than 24 hours before yields fully round-tripped. None of the underlying claims turned out to be simply false - they just didn't hold past the next cycle.",
-      "momentum": "building",
+      "momentum": "accelerating",
       "evidence": [
+        {
+          "domain": "Trade Policy",
+          "text": "Trump paused new 50% Canada tariffs hours before their deadline, then declared 'we've come to a deal' - and by Friday, the actual deadline day the pause was bought for, the deal was still 'expected' to finalize rather than finalized. Canada's trade minister says dairy supply management was 'not on the table' and stayed fully protected, and the White House itself confirms nothing is signed. Two full days of 'we have a deal' still haven't produced a deal.",
+          "url": "https://www.wbur.org/hereandnow/2026/08/20/us-canada-trade-deal",
+          "date": "2026-08-21",
+          "is_new": true
+        },
         {
           "domain": "Foreign Policy",
           "text": "Wednesday, Trump said there were 'no talks or conversations going on, or scheduled' with Tehran. Thursday, he announced 'economic warfare' on Iran - 'the most crushing economic operation ever taken against any country' - threatening 'tremendous' consequences for any nation giving Iran a financial lifeline. A government cannot credibly deny a negotiating track and declare a new offensive against the same target within 24 hours without one of those two statements being for domestic consumption rather than diplomacy.",
@@ -146,15 +153,8 @@
           "is_new": false
         },
         {
-          "domain": "Trade Policy",
-          "text": "Trump paused new 50% Canada tariffs hours before their deadline, then declared 'we've come to a deal' and that Canada 'gave us the points we had to have' on farm market access. Canada's trade minister, Dominic LeBlanc, told reporters the same day that dairy supply management was 'not on the table' and stayed fully protected - and the White House itself confirms nothing is actually signed. The 'deal' is a headline two governments are describing in incompatible terms.",
-          "url": "https://abcnews.com/Politics/wireStory/trump-us-canada-trade-deal-key-terms-remain-135785816",
-          "date": "2026-08-20",
-          "is_new": false
-        },
-        {
           "domain": "Debt Management",
-          "text": "Treasury unexpectedly at least doubled its long-dated debt buyback size Wednesday, and the 30-year yield dropped 9 basis points on the announcement alone - a policy lever working exactly as intended, for about twelve hours. By Thursday's close the entire move had round-tripped: yields back up, the S&P down 0.33%, the Dow down 0.71%, on fresh oil risk from the same administration's Iran threats. The intervention wasn't wrong; it just wasn't durable past one trading session.",
+          "text": "Treasury unexpectedly at least doubled its long-dated debt buyback size Wednesday, and the 30-year yield dropped 9 basis points on the announcement alone - a policy lever working exactly as intended, for about twelve hours. By Thursday's close the entire move had round-tripped, and Friday yields kept climbing past their pre-announcement level. The intervention wasn't wrong; it just wasn't durable past one trading session.",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-20-dow-sp-500-nasdaq-081139322.html",
           "date": "2026-08-20",
           "is_new": false
