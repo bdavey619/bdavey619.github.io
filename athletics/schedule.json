@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-08",
   "division_name": "AL West",
-  "generated_at": "2026-08-21T13:28:08.062629+00:00",
+  "generated_at": "2026-08-22T13:10:58.959482+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -181,19 +181,17 @@
       "gamePk": 824074,
       "status": "final",
       "result": "L",
-      "score": "2\u20136"
+      "score": "2\u20136",
+      "archive_url": "archive.html?date=2026-08-21"
     },
     {
       "date": "2026-08-21",
       "opponent": "HOU",
       "home": false,
       "gamePk": 824152,
-      "status": "scheduled",
-      "time_local": "5:10 PM PT",
-      "probable": {
-        "team": "J.T. Ginn",
-        "opp": "Hayden Wesneski"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20134"
     },
     {
       "date": "2026-08-22",
@@ -273,8 +271,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u201314",
-    "current_streak": "L4",
+    "month_record": "4\u201315",
+    "current_streak": "L5",
     "last_10": "2\u20138"
   }
 }
