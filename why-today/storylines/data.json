@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-16",
-  "cycle_start": "2026-08-21T00:20:00Z",
-  "last_updated": "2026-08-21T14:30:00Z",
+  "cycle_start": "2026-08-21T14:30:00Z",
+  "last_updated": "2026-08-22T00:20:00Z",
   "storylines": [
     {
       "id": "rhine-danube-record-low-water",
@@ -513,15 +513,15 @@
       "pattern": "An announced deal and a finalized deal are different events, and the gap between them is where the leverage still lives",
       "transferability": "Any tariff 'deal' announced hours before its own deadline deserves a re-check on the actual date it was signed",
       "cluster_id": "",
-      "why_now": "This is the actual deadline day the three-day pause was bought for - and by midday Friday, the thing that was supposed to be finalized still isn't, which is the cleanest possible test of whether 'we have a deal' meant anything concrete.",
+      "why_now": "The deadline the three-day pause was bought for has now passed, and the deal is still described as 'finalising' rather than final - the same gap this card opened with, three days later and one vocabulary word softer.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.wbur.org/hereandnow/2026/08/20/us-canada-trade-deal",
+      "url": "https://www.yahoo.com/news/politics/articles/canada-us-finalising-trade-deal-174757839.html",
       "location": "",
-      "season_or_time_context": "Aug 21, 2026 - deadline day; deal expected but not yet signed",
+      "season_or_time_context": "Aug 22, 2026 - deadline passed; deal still 'finalising'",
       "first_seen": "2026-08-19T14:30:00Z",
-      "last_seen": "2026-08-21T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-22T00:20:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-08-19T14:30:00Z",
@@ -538,10 +538,14 @@
         {
           "date": "2026-08-21T14:30:00Z",
           "note": "The deal is expected to be finalized by the end of today, Friday - the actual deadline this whole three-day pause was buying time toward. Still not signed as of midday."
+        },
+        {
+          "date": "2026-08-22T00:20:00Z",
+          "note": "Friday's deadline passed with the deal still 'finalising,' not finalized. Trump says farm tariffs go to zero; steel, aluminum and auto duties are expected to fall. Carney asked provinces to restock US alcohol."
         }
       ],
       "category": "Politics & World",
-      "source_date": "2026-08-20"
+      "source_date": "2026-08-21"
     },
     {
       "id": "national-debt-40-trillion",
@@ -583,15 +587,15 @@
       "pattern": "A disaster season is not a sequence of separate events if the gap between them is shorter than the recovery time",
       "transferability": "Check the recovery timeline against the next hazard's forecast before calling any disaster 'over'",
       "cluster_id": "",
-      "why_now": "The rain forecast just tripled - from 5-10 inches to as much as 15 - on ground the National Weather Service itself calls already saturated from Lala, which is precisely the compounding risk this card was written to track.",
+      "why_now": "The track has firmed up 180 miles offshore rather than a direct hit, which softens the wind risk - but the flood watch still runs a full 42 hours, because it was never the wind that mattered for a Big Island already saturated by Lala.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://weather.com/2026/08/21/storms/hurricane/hawaii-tropical-storm-moke-forecast",
+      "url": "https://www.hawaiinewsnow.com/2026/08/21/tropical-depression-two-c-slows-slightly-it-continues-towards-hawaii/",
       "location": "Hawaii Island",
-      "season_or_time_context": "Aug 21, 2026 - Moke may reach category-one strength; up to 15in forecast",
+      "season_or_time_context": "Aug 22, 2026 - Moke 660mi SE of Hilo; flood watch through Monday",
       "first_seen": "2026-08-20T14:30:00Z",
-      "last_seen": "2026-08-21T14:30:00Z",
-      "appearances": 3,
+      "last_seen": "2026-08-22T00:20:00Z",
+      "appearances": 4,
       "history": [
         {
           "date": "2026-08-20T14:30:00Z",
@@ -604,6 +608,10 @@
         {
           "date": "2026-08-21T14:30:00Z",
           "note": "Now named Moke, forecast to strengthen to a high-end tropical storm or category-one hurricane. Up to 15 inches possible on the Big Island; officials warn of life-threatening flash floods and mudslides in Lala-hit areas."
+        },
+        {
+          "date": "2026-08-22T00:20:00Z",
+          "note": "As of 11am, Moke's center was 660 miles southeast of Hilo, winds 45mph, track passing about 180 miles south of the Big Island. A flood watch runs late Saturday night through Monday afternoon."
         }
       ],
       "source_date": "2026-08-21"
@@ -636,6 +644,34 @@
       ],
       "category": "Politics & World",
       "source_date": "2026-08-20"
+    },
+    {
+      "id": "indiana-storm-outages-second-week",
+      "stream": "natural_world",
+      "observer": "threshold_watcher",
+      "title": "85,000 Americans are in their ninth day without power - and it isn't a hurricane, it's Indiana",
+      "observation": "Storms carrying 99mph winds hit northwest Indiana on Aug 11, killing seven, including a 4-year-old. Nine days later 85,000 customers were still dark, over 22,000 in Gary, where about 300 poles and 44 transmission structures need rebuilding.",
+      "question": "Why does a storm that kills seven and leaves tens of thousands dark for two weeks get a fraction of the coverage a Pacific hurricane gets in the same news cycle?",
+      "hidden_question": "Why does a storm that kills seven and leaves tens of thousands dark for two weeks get a fraction of the coverage a Pacific hurricane gets in the same news cycle?",
+      "pattern": "A storm's newsworthiness tracks its exoticism, not its duration or its body count",
+      "transferability": "Any domestic outage running longer than a well-covered foreign one is worth checking for exactly this gap",
+      "cluster_id": "",
+      "why_now": "Full restoration in Gary isn't expected until Aug 25 - two full weeks after the storm - which would make this outage longer than Lala's, with a smaller fraction of the attention.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.npr.org/2026/08/21/g-s1-139527/indiana-storm-outages",
+      "location": "Gary, Indiana",
+      "season_or_time_context": "Aug 21, 2026 - day 9; Gary restoration not expected until Aug 25",
+      "first_seen": "2026-08-22T00:20:00Z",
+      "last_seen": "2026-08-22T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-22T00:20:00Z",
+          "note": "Day nine: 85,000 still without power, residents in 'survival mode' - spoiled food, hot-meal lines, phone-charging hunts. Gary's 300 damaged poles won't be fully repaired until Aug 25."
+        }
+      ],
+      "source_date": "2026-08-21"
     }
   ]
 }

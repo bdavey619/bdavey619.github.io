@@ -1,6 +1,6 @@
 {
   "week": "2026-08-16",
-  "last_updated": "2026-08-21T14:30:00Z",
+  "last_updated": "2026-08-22T00:20:00Z",
   "recognitions": [
     {
       "id": "fire-season-relocates",
@@ -20,7 +20,7 @@
           "text": "Belgium's High Fens fire more than doubled in 24 hours to about 3,000 hectares - the largest wildfire in the country's recorded history, still not fully extinguished a week on because it burns in peat. What's now surfaced is why Belgium was so unready for it: a Belgian Wildfire Network report published in March - five months before this fire - described the country's governance as 'fragmented' and its specialist expertise as 'limited,' with responsibility scattered across agencies at national and regional level, and warned that longer droughts and forest degradation were creating exactly the conditions for a fire it couldn't control. The report wasn't a forecast in hindsight; it was on file before the match was struck.",
           "url": "https://brusselsmorning.com/belgium-wildfire-response-2026/101765/",
           "date": "2026-08-19",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Tourism",
@@ -46,8 +46,8 @@
       "evidence": [
         {
           "domain": "Utilities",
-          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. Restoration is well advanced, but the recovery clock hasn't stopped: the system behind Lala is now named Tropical Storm Moke, forecast to strengthen to a category-one hurricane, with up to 15 inches of rain possible on the Big Island - ground the National Weather Service itself calls already saturated - and officials warning of life-threatening flash floods and mudslides in the same areas Lala just hit. The detection and the acute emergency resolved in hours; the recovery is still running when the next hazard arrives.",
-          "url": "https://weather.com/2026/08/21/storms/hurricane/hawaii-tropical-storm-moke-forecast",
+          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. Restoration is well advanced, but the recovery clock hasn't stopped: the system behind Lala is now Tropical Storm Moke, tracking about 180 miles south of the Big Island with 45mph winds - a near-miss on wind, but a flood watch running 42 hours straight because the ground is still saturated from Lala. The detection and the acute emergency resolved in hours; the recovery is still running when the next hazard arrives, whether or not the storm itself makes landfall.",
+          "url": "https://www.hawaiinewsnow.com/2026/08/21/tropical-depression-two-c-slows-slightly-it-continues-towards-hawaii/",
           "date": "2026-08-21",
           "is_new": true
         },
@@ -56,7 +56,7 @@
           "text": "Indonesia issued a tsunami warning after the M7.7 off Flores and lifted it the same morning when monitoring showed no significant sea-level change - a complete, correct, quantitative answer inside a few hours; the waves came in under 1.6m. Six days on, the other number still hasn't stopped moving: the toll climbed from 70 to 83 overnight, with 328 more seriously injured and 639 with minor injuries. The alert resolved in one morning. The count it handed off to still isn't final on day six.",
           "url": "https://english.news.cn/20260821/445bbbcda35e4cf789d223f9f5ee52f2/c.html",
           "date": "2026-08-21",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Public Health",
@@ -114,7 +114,7 @@
           "text": "The 30-year Treasury yield set a 19-year high two sessions running, then pulled back 9 basis points Wednesday the moment Treasury unexpectedly announced it would at least double its long-dated debt buybacks. The relief lasted about a day: by Thursday's close it was already unwound, and Friday it kept climbing - the 10-year near 4.7%, the 30-year near 5.25%, both still rising, stocks falling on the same move. Two full sessions after the announcement, the market has had two separate chances to treat the intervention as durable and passed on both. That is confirmation, not ambiguity: the deficit and inflation story is what's being priced, not the buyback.",
           "url": "https://www.schwab.com/learn/story/stock-market-update-open",
           "date": "2026-08-21",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy",
@@ -140,8 +140,8 @@
       "evidence": [
         {
           "domain": "Trade Policy",
-          "text": "Trump paused new 50% Canada tariffs hours before their deadline, then declared 'we've come to a deal' - and by Friday, the actual deadline day the pause was bought for, the deal was still 'expected' to finalize rather than finalized. Canada's trade minister says dairy supply management was 'not on the table' and stayed fully protected, and the White House itself confirms nothing is signed. Two full days of 'we have a deal' still haven't produced a deal.",
-          "url": "https://www.wbur.org/hereandnow/2026/08/20/us-canada-trade-deal",
+          "text": "Trump paused new 50% Canada tariffs hours before their deadline, then declared 'we've come to a deal' - and Friday, the actual deadline the pause was bought for, came and went with the deal still 'finalising' rather than final. Farm tariffs are said to be headed to zero and steel, aluminum and auto duties are expected to fall, but none of it is signed, and Canada's trade minister says dairy supply management was never on the table to begin with. Three days of 'we have a deal' still haven't produced a deal.",
+          "url": "https://www.yahoo.com/news/politics/articles/canada-us-finalising-trade-deal-174757839.html",
           "date": "2026-08-21",
           "is_new": true
         },
