@@ -1,6 +1,6 @@
 {
   "week": "2026-08-16",
-  "last_updated": "2026-08-22T00:20:00Z",
+  "last_updated": "2026-08-22T14:20:00Z",
   "recognitions": [
     {
       "id": "fire-season-relocates",
@@ -46,9 +46,9 @@
       "evidence": [
         {
           "domain": "Utilities",
-          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. Restoration is well advanced, but the recovery clock hasn't stopped: the system behind Lala is now Tropical Storm Moke, tracking about 180 miles south of the Big Island with 45mph winds - a near-miss on wind, but a flood watch running 42 hours straight because the ground is still saturated from Lala. The detection and the acute emergency resolved in hours; the recovery is still running when the next hazard arrives, whether or not the storm itself makes landfall.",
-          "url": "https://www.hawaiinewsnow.com/2026/08/21/tropical-depression-two-c-slows-slightly-it-continues-towards-hawaii/",
-          "date": "2026-08-21",
+          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. Restoration is well advanced, but the recovery clock hasn't stopped: the system behind Lala is now Tropical Storm Moke, its track easing steadily farther out - 180 miles south, then 225 to 275 - while the rain forecast hasn't moved at all, 5 to 10 inches on ground still saturated from Lala. The detection and the acute emergency resolved in hours; the recovery is still running when the next hazard arrives, whether or not the storm itself makes landfall.",
+          "url": "https://www.staradvertiser.com/2026/08/22/hawaii-news/tropical-storm-moke-nears-hawaii-amid-lala-recovery/",
+          "date": "2026-08-22",
           "is_new": true
         },
         {
@@ -59,11 +59,11 @@
           "is_new": false
         },
         {
-          "domain": "Public Health",
-          "text": "The Omis fire in Croatia was fought through a single night by 286 firefighters, 90 vehicles and four aircraft, and the acute emergency was over inside about a day. What did not end with it: 36 injured, fourteen hospitalised and seven in critical condition, more than 1,000 hectares burned, roughly 1,200 residents and tourists displaced at the height of the season, and about 1,000 of them in a sports hall. The containment headline and the intensive care unit are running on completely different clocks.",
-          "url": "https://www.euronews.com/my-europe/2026/08/14/at-least-people-in-10-in-intensive-care-and-thousands-flee-intense-wildfire-in-croatia",
-          "date": "2026-08-14",
-          "is_new": false
+          "domain": "Storm Recovery",
+          "text": "Storms with 99mph winds hit northwest Indiana on Aug 11 and killed seven; the acute weather emergency was over within a day. Eleven days later, restoration is still staggered city by city - Griffith, Hobart, Merrillville and East Chicago back Friday, Hammond and Highland Saturday, Lake Station Sunday, and Gary, hit hardest, not until Tuesday. Indiana is now paying $5,000 grants to affected families. No Pacific storm named it; no tsunami warning covered it. The recovery clock ran anyway, for two full weeks, on a fraction of the attention Hawaii's got.",
+          "url": "https://www.npr.org/2026/08/21/g-s1-139527/indiana-storm-outages",
+          "date": "2026-08-21",
+          "is_new": true
         }
       ]
     },
@@ -135,14 +135,14 @@
     {
       "id": "claims-outrun-confirmation",
       "title": "This week, three separate claims of having fixed something didn't survive a single news cycle",
-      "explanation": "Across trade, foreign policy and debt management, the same pattern showed up three times in 48 hours: an announcement of control or resolution, followed within about a day by the other side, or the market, contradicting it. A Canada tariff 'deal' whose own trade minister says the disputed terms were never on the table. A denial that talks with Iran even exist, followed a day later by a declared war footing against that same government. A bond-market intervention whose relief lasted less than 24 hours before yields fully round-tripped. None of the underlying claims turned out to be simply false - they just didn't hold past the next cycle.",
+      "explanation": "Across trade, foreign policy and debt management, the same pattern showed up: an announcement of control or resolution, followed within about a day by the other side, or the market, contradicting it. This week one of the three went all the way - the Canada 'deal' didn't just fail to hold, it collapsed entirely into real tariffs and real retaliation. A denial that talks with Iran even exist, followed a day later by a declared war footing against that same government. A bond-market intervention whose relief lasted less than 24 hours before yields fully round-tripped. The pattern isn't that these claims are false when made - it's that none of them are built to survive contact with the next news cycle.",
       "momentum": "accelerating",
       "evidence": [
         {
           "domain": "Trade Policy",
-          "text": "Trump paused new 50% Canada tariffs hours before their deadline, then declared 'we've come to a deal' - and Friday, the actual deadline the pause was bought for, came and went with the deal still 'finalising' rather than final. Farm tariffs are said to be headed to zero and steel, aluminum and auto duties are expected to fall, but none of it is signed, and Canada's trade minister says dairy supply management was never on the table to begin with. Three days of 'we have a deal' still haven't produced a deal.",
-          "url": "https://www.yahoo.com/news/politics/articles/canada-us-finalising-trade-deal-174757839.html",
-          "date": "2026-08-21",
+          "text": "Trump paused new 50% Canada tariffs three separate times, each time declaring 'we've come to a deal.' Friday night, at the actual deadline, talks collapsed instead - USTR Greer blamed Canadian 11th-hour demands, Carney blamed unfair US walk-backs. The tariffs took effect Saturday on plywood, liquor, electrical equipment and hockey gear, and Carney vowed dollar-for-dollar retaliation. This is the cleanest version of the pattern yet: the claim didn't just fail to hold, it inverted into the exact outcome it was announced to prevent.",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-22/us-canada-trade-talks-collapse-triggering-trump-s-50-tariffs",
+          "date": "2026-08-22",
           "is_new": true
         },
         {

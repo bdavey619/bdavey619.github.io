@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-16",
-  "cycle_start": "2026-08-21T14:30:00Z",
-  "last_updated": "2026-08-22T00:20:00Z",
+  "cycle_start": "2026-08-22T00:20:00Z",
+  "last_updated": "2026-08-22T14:20:00Z",
   "storylines": [
     {
       "id": "rhine-danube-record-low-water",
@@ -506,27 +506,23 @@
       "id": "canada-tariff-pause-eleventh-hour",
       "stream": "headlines",
       "observer": "headlines",
-      "title": "Trump paused 50% Canada tariffs hours before they hit - and called it a deal that isn't signed yet",
-      "observation": "New 50% US tariffs on about $20B of Canadian goods, including cement and hockey sticks, were due at midnight. Trump postponed them three days, to Aug 21, citing a deal 'subject to finalization.' Canada's PM called it progress, not an agreement.",
-      "question": "How many trade 'deals' are actually just a deadline both governments agreed to be afraid of at the same time?",
-      "hidden_question": "How many trade 'deals' are actually just a deadline both governments agreed to be afraid of at the same time?",
-      "pattern": "An announced deal and a finalized deal are different events, and the gap between them is where the leverage still lives",
-      "transferability": "Any tariff 'deal' announced hours before its own deadline deserves a re-check on the actual date it was signed",
+      "title": "The deal that was never signed just collapsed - and the 50% tariffs Trump paused three times finally hit",
+      "observation": "Trump paused new 50% tariffs on $20B of Canadian goods three times over a week, each time citing a deal 'subject to finalization.' At Friday's midnight deadline, talks collapsed instead. The tariffs took effect Saturday. Carney suspended talks and vowed dollar-for-dollar retaliation.",
+      "question": "How many trade 'deals' are actually just a deadline both governments agreed to be afraid of - until one side decided it wasn't afraid enough?",
+      "hidden_question": "How many trade 'deals' are actually just a deadline both governments agreed to be afraid of - until one side decided it wasn't afraid enough?",
+      "pattern": "An announced deal and a finalized deal are different events, and the gap between them is where the leverage still lives - right up until someone stops bluffing",
+      "transferability": "Any tariff 'deal' announced hours before its own deadline deserves a re-check on the actual date it was signed - or whether it collapsed instead",
       "cluster_id": "",
-      "why_now": "The deadline the three-day pause was bought for has now passed, and the deal is still described as 'finalising' rather than final - the same gap this card opened with, three days later and one vocabulary word softer.",
+      "why_now": "Every 'we have a deal' statement this week turned out to be a position, not an outcome - and the position finally broke: real tariffs, real retaliation, both sides blaming the other for 11th-hour demands.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.yahoo.com/news/politics/articles/canada-us-finalising-trade-deal-174757839.html",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-22/us-canada-trade-talks-collapse-triggering-trump-s-50-tariffs",
       "location": "",
-      "season_or_time_context": "Aug 22, 2026 - deadline passed; deal still 'finalising'",
+      "season_or_time_context": "Aug 22, 2026 - talks collapsed; 50% tariffs now in effect",
       "first_seen": "2026-08-19T14:30:00Z",
-      "last_seen": "2026-08-22T00:20:00Z",
-      "appearances": 5,
+      "last_seen": "2026-08-22T14:20:00Z",
+      "appearances": 6,
       "history": [
-        {
-          "date": "2026-08-19T14:30:00Z",
-          "note": "Trump paused the 50% tariffs three days before a midnight deadline, citing a deal Canada has not confirmed is final. Carney: 'important work still to be done.'"
-        },
         {
           "date": "2026-08-20T00:20:00Z",
           "note": "Trump declared \"we've come to a deal,\" saying Canada \"gave us the points we had to have\" on agricultural market access. Carney's own language stayed at 'substantial progress' - not confirmation."
@@ -542,10 +538,14 @@
         {
           "date": "2026-08-22T00:20:00Z",
           "note": "Friday's deadline passed with the deal still 'finalising,' not finalized. Trump says farm tariffs go to zero; steel, aluminum and auto duties are expected to fall. Carney asked provinces to restock US alcohol."
+        },
+        {
+          "date": "2026-08-22T14:20:00Z",
+          "note": "Talks collapsed Friday night. USTR Greer blames Canadian 11th-hour demands; Carney blames unfair US walk-backs. Tariffs took effect Saturday on plywood, liquor, electrical equipment and hockey gear. Carney vows dollar-for-dollar retaliation."
         }
       ],
       "category": "Politics & World",
-      "source_date": "2026-08-21"
+      "source_date": "2026-08-22"
     },
     {
       "id": "national-debt-40-trillion",
@@ -587,15 +587,15 @@
       "pattern": "A disaster season is not a sequence of separate events if the gap between them is shorter than the recovery time",
       "transferability": "Check the recovery timeline against the next hazard's forecast before calling any disaster 'over'",
       "cluster_id": "",
-      "why_now": "The track has firmed up 180 miles offshore rather than a direct hit, which softens the wind risk - but the flood watch still runs a full 42 hours, because it was never the wind that mattered for a Big Island already saturated by Lala.",
+      "why_now": "The track keeps easing farther offshore - 180 miles, then 225 to 275 - while the rain forecast hasn't moved at all, which is the clean split this card exists to draw: distance shrinks the wind story and does nothing to the flood one.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.hawaiinewsnow.com/2026/08/21/tropical-depression-two-c-slows-slightly-it-continues-towards-hawaii/",
+      "url": "https://www.staradvertiser.com/2026/08/22/hawaii-news/tropical-storm-moke-nears-hawaii-amid-lala-recovery/",
       "location": "Hawaii Island",
-      "season_or_time_context": "Aug 22, 2026 - Moke 660mi SE of Hilo; flood watch through Monday",
+      "season_or_time_context": "Aug 22, 2026 - Moke 545mi SE of Hilo; track easing to 225-275mi south",
       "first_seen": "2026-08-20T14:30:00Z",
-      "last_seen": "2026-08-22T00:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-22T14:20:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-08-20T14:30:00Z",
@@ -612,9 +612,13 @@
         {
           "date": "2026-08-22T00:20:00Z",
           "note": "As of 11am, Moke's center was 660 miles southeast of Hilo, winds 45mph, track passing about 180 miles south of the Big Island. A flood watch runs late Saturday night through Monday afternoon."
+        },
+        {
+          "date": "2026-08-22T14:20:00Z",
+          "note": "Now 545 miles SE of Hilo, still 45mph, forecast track eased further out to 225-275 miles south. Rain risk is unchanged - 5-10in, locally 15in, on the same windward slopes Lala already soaked."
         }
       ],
-      "source_date": "2026-08-21"
+      "source_date": "2026-08-22"
     },
     {
       "id": "north-korea-missile-barrage-trump-overture",
@@ -656,22 +660,26 @@
       "pattern": "A storm's newsworthiness tracks its exoticism, not its duration or its body count",
       "transferability": "Any domestic outage running longer than a well-covered foreign one is worth checking for exactly this gap",
       "cluster_id": "",
-      "why_now": "Full restoration in Gary isn't expected until Aug 25 - two full weeks after the storm - which would make this outage longer than Lala's, with a smaller fraction of the attention.",
+      "why_now": "The state is now paying $5,000 grants to affected families and Gary is dead last on a five-city restoration list running through Tuesday - which would put its full recovery at two full weeks, longer than Lala's, on a fraction of the coverage.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.npr.org/2026/08/21/g-s1-139527/indiana-storm-outages",
+      "url": "https://chicago.suntimes.com/weather/2026/08/19/gary-power-outage-deadly-storms",
       "location": "Gary, Indiana",
-      "season_or_time_context": "Aug 21, 2026 - day 9; Gary restoration not expected until Aug 25",
+      "season_or_time_context": "Aug 22, 2026 - staggered restoration; Gary last, Tuesday",
       "first_seen": "2026-08-22T00:20:00Z",
-      "last_seen": "2026-08-22T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-22T14:20:00Z",
+      "appearances": 2,
       "history": [
         {
           "date": "2026-08-22T00:20:00Z",
           "note": "Day nine: 85,000 still without power, residents in 'survival mode' - spoiled food, hot-meal lines, phone-charging hunts. Gary's 300 damaged poles won't be fully repaired until Aug 25."
+        },
+        {
+          "date": "2026-08-22T14:20:00Z",
+          "note": "NIPSCO's restoration is staggered by city - Griffith, Hobart, Merrillville and East Chicago back Friday, Hammond and Highland today, Lake Station tomorrow, Gary last on Tuesday. Indiana is granting $5,000 per affected family."
         }
       ],
-      "source_date": "2026-08-21"
+      "source_date": "2026-08-22"
     }
   ]
 }
