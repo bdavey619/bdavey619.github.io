@@ -1,0 +1,685 @@
+{
+  "week_start": "2026-08-16",
+  "cycle_start": "2026-08-22T00:20:00Z",
+  "last_updated": "2026-08-22T14:20:00Z",
+  "storylines": [
+    {
+      "id": "rhine-danube-record-low-water",
+      "stream": "natural_world",
+      "observer": "threshold_watcher",
+      "title": "The Rhine went single-digit for the first time on record - and the number everyone is quoting isn't a depth",
+      "observation": "Kaub is the Rhine's shallowest chokepoint, and its gauge reading \u2014 a level against a reference datum, not a depth \u2014 sets what the whole river can carry. One drought is degrading a freight network, a coolant supply and a power source at once.",
+      "question": "When a number becomes the headline for a crisis, how often is it measuring the thing we think it is - and who benefits from the confusion?",
+      "hidden_question": "When a number becomes the headline for a crisis, how often is it measuring the thing we think it is - and who benefits from the confusion?",
+      "pattern": "When a river becomes the binding constraint, the cheaper adaptation is to re-engineer the river rather than relocate what depends on it",
+      "transferability": "Rhine barge rates, German road-freight rules and Hungarian power output are one story, not three",
+      "cluster_id": "",
+      "why_now": "Set aside: three sessions running have found nothing beyond \"still critically low, no meaningful rain.\" Kaub is holding near record lows with the forecast unchanged \u2014 revive when the level actually moves or a new commercial impact is reported.",
+      "status": "dormant",
+      "editorial_potential": "high",
+      "url": "https://eutoday.net/rhine-record-6cm-kaub-freight-shifts/",
+      "location": "Rhine delta to lower Danube",
+      "season_or_time_context": "Aug 18, 2026 - Kaub 6cm; channel still ~1.2m; 18 of 34 landings out",
+      "first_seen": "2026-08-16T18:00:00Z",
+      "last_seen": "2026-08-18T03:40:00Z",
+      "appearances": 3,
+      "history": [
+        {
+          "date": "2026-08-16T18:00:00Z",
+          "note": "Kaub hit 15cm, below the 2018 record and the lowest since 1880. The Danube rose 19cm, letting Hungary restart a second Paks reactor unit."
+        },
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "A barge that normally hauls 5,100 tonnes past Kaub is moving about 800. Rotterdam freight south reached ~EUR 150 a tonne against EUR 20. Covestro declared force majeure at Dormagen."
+        },
+        {
+          "date": "2026-08-18T03:40:00Z",
+          "note": "Kaub read 6cm \u2014 the first single-digit reading on record. The navigation channel is still ~1.2m deep; 18 of 34 Viking landing stages were out as of Aug 14."
+        },
+        {
+          "date": "2026-08-19T14:30:00Z",
+          "note": "Set dormant: three sessions with no new development. Forecasters say levels look steady near record lows, with weeks of sustained rain needed to meaningfully recover."
+        }
+      ],
+      "source_date": "2026-08-16"
+    },
+    {
+      "id": "overnight-heat-debt",
+      "stream": "natural_world",
+      "observer": "threshold_watcher",
+      "title": "Heat debt - when overnight lows refuse to drop, the body falls behind",
+      "observation": "Recovery from heat happens at night. When overnight lows stop dropping, the debt is cumulative \u2014 the fourth wave of a summer lands on a body that never finished paying off the third.",
+      "question": "Why is the overnight low a better predictor of who dies in a heatwave than the afternoon high everyone actually talks about?",
+      "hidden_question": "Why is the overnight low a better predictor of who dies in a heatwave than the afternoon high everyone actually talks about?",
+      "pattern": "Heat mortality tracks failed overnight recovery, not peak daytime temperature",
+      "transferability": "Reading the overnight low instead of the daily high changes which heatwaves look dangerous",
+      "cluster_id": "",
+      "why_now": "Set aside: the fourth wave's western-European peak passed on Aug 13-14 and nothing new has surfaced since. Forecasts put the hottest core moving east into Germany, Hungary and the Balkans - revive this when that arrival is actually reported rather than projected.",
+      "status": "dormant",
+      "editorial_potential": "high",
+      "url": "https://www.euronews.com/my-europe/2026/08/13/millions-across-europe-swelter-through-a-new-wave-of-extreme-temperatures",
+      "location": "",
+      "season_or_time_context": "Aug 13, 2026 - 135M people above 35C; UK year-high 38.1C",
+      "first_seen": "2026-07-27T14:00:00Z",
+      "last_seen": "2026-08-16T18:00:00Z",
+      "appearances": 8,
+      "history": [
+        {
+          "date": "2026-08-16T18:00:00Z",
+          "note": "The fourth European heatwave pushed above 35C across France, Italy, Spain and the UK, with a UK year-high of 38.1C in west London and parts of France past 42C."
+        },
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "June and July in western Europe were the hottest on record, averaging 21.62C \u2014 about 2.79C above normal. More than 135 million people were forecast above 35C."
+        }
+      ],
+      "source_date": "2026-08-13"
+    },
+    {
+      "id": "hurricane-lala-hawaii",
+      "stream": "natural_world",
+      "observer": "threshold_watcher",
+      "title": "Lala never made landfall - and three days on, 117,000 customers are still dark",
+      "observation": "Lala's eyewall passed just south of Hawaii Island without an official landfall. It did not need one: at peak the storm took out 250,900 Hawaiian Electric customers, roughly one in four tracked accounts statewide.",
+      "question": "Why is landfall still the headline metric for a storm when the damage is done by rain rate and terrain - and who is misled by that framing?",
+      "hidden_question": "Why is landfall still the headline metric for a storm when the damage is done by rain rate and terrain - and who is misled by that framing?",
+      "pattern": "Landfall is a coastline event; the flooding that kills is a rain-rate and topography event",
+      "transferability": "Reading rain rate and terrain instead of the track cone changes which storms look dangerous",
+      "cluster_id": "",
+      "why_now": "The Big Island's outage count is now falling by the thousands per update - but the National Hurricane Center is watching a 90%-likely new system that could bring more heavy rain to the same island before the current repairs are even finished.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.staradvertiser.com/2026/08/20/hawaii-news/residents-urged-to-prepare-for-another-storm/",
+      "location": "Hawaii Island",
+      "season_or_time_context": "Aug 20, 2026 - Big Island at 16,800 out; new storm threat forming",
+      "first_seen": "2026-08-16T18:00:00Z",
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 8,
+      "history": [
+        {
+          "date": "2026-08-18T14:11:00Z",
+          "note": "Down to 88,670 out by 6pm Monday, but unevenly: about 38,250 on the Big Island against 14,350 on Oahu and 1,450 in Maui County."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "The 100 mainland mutual-aid crew land and begin work Wednesday \u2014 the first outside labor added since the storm. The rural estimate is still weeks, possibly months."
+        },
+        {
+          "date": "2026-08-19T14:30:00Z",
+          "note": "Down to about 33,600 statewide by Wednesday evening, with 24,400 of that on the Big Island \u2014 restoration accelerating sharply now that mainland crews are on the ground."
+        },
+        {
+          "date": "2026-08-20T00:20:00Z",
+          "note": "91% restored statewide \u2014 99% Oahu, 98% Maui, only 75% Hawaii Island. HECO expects 95% statewide by Friday, but pockets of Puna, Kohala and Ka\u02bb\u016b still face at least two more weeks."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "Big Island down to about 16,800 out, with Puna Geothermal Venture reconnected. But a new tropical system - EP90 - has a 90% chance of developing and could bring more heavy rain to the Big Island by the weekend."
+        }
+      ],
+      "source_date": "2026-08-20"
+    },
+    {
+      "id": "back-to-school-anxiety-ritual",
+      "stream": "human_rituals",
+      "observer": "threshold_watcher",
+      "title": "Back-to-school - a record total, and everyone shopping at the same two places",
+      "observation": "The NRF projects $146.8 billion in 2026 back-to-school spending, an all-time high. The ritual is getting more expensive to perform, and the places it is performed in are consolidating around price.",
+      "question": "What does it mean that the most reliable annual measure of household optimism is now rising for the same reason household strain is?",
+      "hidden_question": "What does it mean that the most reliable annual measure of household optimism is now rising for the same reason household strain is?",
+      "pattern": "A record aggregate produced by prices and participation rather than strength - visible in where the money is spent, not how much",
+      "transferability": "Any record consumer total this year needs its composition checked before it is read as confidence",
+      "cluster_id": "",
+      "why_now": "A newer survey puts a name on the same split: 'spending down, but costs add up' - shoppers are actively cutting corners (4+ tactics apiece) and still landing on a record total, which is the strongest evidence yet that this is a squeeze wearing a record's clothes.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.nerdwallet.com/finance/studies/back-to-school-shopping-report",
+      "location": "",
+      "season_or_time_context": "Aug 20, 2026 - cost-cutting tactics up even as totals stay record",
+      "first_seen": "2026-07-26T14:00:00Z",
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 11,
+      "history": [
+        {
+          "date": "2026-08-16T18:00:00Z",
+          "note": "RSM reads the record as 'K-shaped underneath' \u2014 broader participation and higher prices, not a consumer who feels flush. The same week, July retail sales fell 0.6%."
+        },
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "JLL has parents budgeting $489 per child, up 11.7%. Walmart's share of destinations climbed 22 points to nearly 80%, a survey record, and dollar stores entered the top ten."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "NerdWallet's read: spending down, costs still add up. 31% of parents now use 4+ cost-saving tactics; 60% shop more affordable retailers; apparel spend up 22%, tech spend cut 16%."
+        }
+      ],
+      "source_evergreen": true
+    },
+    {
+      "id": "omis-evacuated-by-sea",
+      "stream": "places",
+      "observer": "threshold_watcher",
+      "title": "Omis was evacuated by boat - and the Adriatic fire wave now has four people in custody",
+      "observation": "The Lokva Rogoznica fire covered the roughly 6km to Omis in hours. About 1,200 people were moved out by land and by sea, harbour authority vessels lifting them from stretches the road could not reach.",
+      "question": "What happens to a place whose geography is its whole economy when that same geography becomes the reason there is only one way out - and when the fire turns out to have been set?",
+      "hidden_question": "What happens to a place whose geography is its whole economy when that same geography becomes the reason there is only one way out - and when the fire turns out to have been set?",
+      "pattern": "The cliff-and-single-coast-road setting that makes a place worth visiting is the same thing that makes it impossible to leave by land",
+      "transferability": "Any coastal resort town with one road and a mountain behind it has the same evacuation problem waiting",
+      "cluster_id": "",
+      "why_now": "All four suspects have confessed - the case is no longer a question of who, only of what charge sticks. A general-security conviction caps at ten years; a terrorism finding, still under USKOK review, would be a different order of consequence entirely.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://vreme.com/en/drustvo/namerno-izazivanje-pozara-kod-zadra-medju-uhapsenima-i-srpski-drzavljanin/",
+      "location": "Omis, Dalmatia, Croatia",
+      "season_or_time_context": "Aug 20, 2026 - all four confessed; charged, 1-10 year exposure",
+      "first_seen": "2026-08-17T04:30:00Z",
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 5,
+      "history": [
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "The fire reached the Borak neighbourhood above the town centre around 1:45am. Thirty-six injured, seven critical; 286 firefighters, 90 vehicles and four aircraft worked it overnight."
+        },
+        {
+          "date": "2026-08-18T03:40:00Z",
+          "note": "One woman died and the injured count was revised to about 40, ten in intensive care. Police arrested four people for deliberately setting fires across Zadar County."
+        },
+        {
+          "date": "2026-08-18T14:11:00Z",
+          "note": "The four \u2014 Croatians aged 42, 45 and 46 and a 33-year-old Pole \u2014 are suspected of firing ten locations under a prior plan. USKOK is examining whether it amounts to terrorism."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "Police filed a formal criminal complaint with the Municipal State Attorney's Office in Zadar. The case has moved from investigation to prosecution."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "All four confessed, per investigating judge Hrvoje Viskovi\u0107 - they admit lighting dry grass with lighters at all ten sites. Charged with a crime against general security, carrying one to ten years."
+        }
+      ],
+      "source_date": "2026-08-19"
+    },
+    {
+      "id": "albizia-tree-grid-constraint",
+      "stream": "curiosities",
+      "observer": "threshold_watcher",
+      "title": "An invasive tree is now the pacing item on Hawaii's power restoration",
+      "observation": "Hawaii Island's transmission lines run through ground where albizia \u2014 a fast-growing invasive introduced for reforestation \u2014 is tall and brittle enough to take a line out. The restoration schedule is set by what grew alongside the corridor, not by the wind.",
+      "question": "How many of the systems we call infrastructure are actually being governed by something biological that nobody put on the asset register?",
+      "hidden_question": "How many of the systems we call infrastructure are actually being governed by something biological that nobody put on the asset register?",
+      "pattern": "A slow biological accumulation sets the recovery time of a fast engineered system",
+      "transferability": "Ask of any network - grid, rail, fibre - what is growing next to it, and how long that has been allowed to grow",
+      "cluster_id": "",
+      "why_now": "The wooded corridor's count is falling fast now that labor is matched to the terrain - down another third in half a day - which is the clearest proof yet that the constraint was always about crews reaching trees, not the trees themselves being unfixable.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.hawaiinewsnow.com/2026/08/20/outages-restoration-efforts-continue-statewide-customers-urged-prepare-new-storm/",
+      "location": "Hamakua coast, Hawaii Island",
+      "season_or_time_context": "Aug 20, 2026 - Big Island down to 16,800 out",
+      "first_seen": "2026-08-17T04:30:00Z",
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 7,
+      "history": [
+        {
+          "date": "2026-08-18T14:11:00Z",
+          "note": "The split is holding as the biology predicts: Oahu's accessible urban circuits down to about 14,350 out, the wooded Puna-to-Hamakua corridor still roughly 38,250."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "The gap is now big enough to import labor for: about 100 mainland crew begin Wednesday, aimed squarely at the wooded Big Island circuits."
+        },
+        {
+          "date": "2026-08-19T14:30:00Z",
+          "note": "The wooded corridor is closing fast with outside help: Big Island outages down to about 24,400, from 38,250 a day earlier."
+        },
+        {
+          "date": "2026-08-20T00:20:00Z",
+          "note": "Oahu and Maui are essentially done, 99% and 98% restored. Hawaii Island - the only wooded, albizia-heavy grid - sits at 75%, the clearest island-by-island read on what the trees cost."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "Big Island outages down to about 16,800, with power back to Puna Geothermal Venture - the wooded corridor closing at roughly the same pace it opened, once the labor arrived."
+        }
+      ],
+      "source_date": "2026-08-20"
+    },
+    {
+      "id": "treasury-yields-rate-cut-signal",
+      "stream": "markets",
+      "observer": "markets",
+      "title": "The 30-year hit 5.31% - a level last seen when 'subprime' was a new word",
+      "observation": "The story is at the long end of the curve. Three things are pushing it: Treasury issuing enormous debt to fund persistent deficits, tariffs and energy keeping inflation alive past the Fed's expectation, and a market still recalibrating around Kevin Warsh.",
+      "question": "When the long bond reprices this far, is the market forecasting inflation - or repricing the credibility of the borrower?",
+      "hidden_question": "When the long bond reprices this far, is the market forecasting inflation - or repricing the credibility of the borrower?",
+      "pattern": "The long end is repricing supply and credibility, not the next rate decision",
+      "transferability": "A 30-year yield at a 19-year high reprices mortgages, pensions and every long-dated liability at once",
+      "cluster_id": "",
+      "why_now": "Two full sessions after the buyback announcement, yields are back near their pre-announcement highs and climbing - the market has now had two separate chances to treat the intervention as durable, and both times it didn't.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "location": "",
+      "season_or_time_context": "Aug 21, 2026 - yields near pre-buyback highs, still climbing",
+      "first_seen": "2026-08-08T18:00:00Z",
+      "last_seen": "2026-08-21T14:30:00Z",
+      "appearances": 13,
+      "history": [
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "The 30-year topped 5.33%, a second straight 19-year high. The S&P closed down 0.69% at 7,691.76 and the Nasdaq fell 1.33% as Nvidia, Meta, Tesla and Oracle dropped up to 3%."
+        },
+        {
+          "date": "2026-08-19T14:30:00Z",
+          "note": "Treasury unexpectedly at least doubled its long-dated debt buyback size, effective Sept 9. The 10-year fell 6bp to 4.647%, the 30-year tumbled 9bp to 5.196%, and stocks rallied on the news."
+        },
+        {
+          "date": "2026-08-20T00:20:00Z",
+          "note": "Wednesday closed with the 10-year at 4.65% and the 30-year at 5.19% - the rally held through the close. By Thursday morning both had already crept back up, to 4.70% and 5.285%."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "Thursday's rebound went all the way through to stocks: S&P -0.33%, Dow -0.71%, Nasdaq -0.52%, as yields rose further and oil jumped on Trump's new Iran sanctions threat. The buyback bounce is fully unwound."
+        },
+        {
+          "date": "2026-08-21T14:30:00Z",
+          "note": "Friday: 10-year near 4.7%, 30-year near 5.25%, both still climbing. Stocks fell in early trading as investors bet the buyback offers only a temporary reprieve - exactly the read this pattern already had."
+        }
+      ],
+      "source_date": "2026-08-21"
+    },
+    {
+      "id": "hormuz-energy-risk-premium",
+      "stream": "markets",
+      "observer": "markets",
+      "title": "The 60-day clock ran out, and Brent settled at $90.87",
+      "observation": "The June 17 memorandum removing the US naval blockade ran 'for 60 days only' and expired Monday with no successor. The clearest read on what that is worth is not the price but the traffic.",
+      "question": "At what point does a war premium stop being a risk premium and simply become the price?",
+      "hidden_question": "At what point does a war premium stop being a risk premium and simply become the price?",
+      "pattern": "A risk premium converting into a structural supply reprice",
+      "transferability": "Energy equities are now a supply-deficit trade rather than a headline-risk trade",
+      "cluster_id": "",
+      "why_now": "The traffic data resolves the ambiguity: ships are moving again - a dozen a day, not the single digits of last week - but the actual behavior confirms the strait is functioning as an Iran-controlled corridor, not a reopened one, because crews are still hiding who they are to use it.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.aljazeera.com/news/2026/8/20/are-hormuz-ships-more-willing-to-defy-iran-or-the-us-what-data-shows",
+      "location": "",
+      "season_or_time_context": "Aug 21, 2026 - traffic ticks up to ~12/day, still masking identity",
+      "first_seen": "2026-08-08T18:00:00Z",
+      "last_seen": "2026-08-21T00:20:00Z",
+      "appearances": 12,
+      "history": [
+        {
+          "date": "2026-08-18T14:11:00Z",
+          "note": "A fresh strike was reported on a transiting vessel. Iran said the strait stays shut until sanctions and the blockade lift \u2014 a condition, not a position. Trump threatened Oman a second time."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "Crossings have collapsed 64% from their post-MoU peak to single digits \u2014 three vessels on one recent day. Iran says it has agreed a 'navigation map' with Oman, text still being negotiated."
+        },
+        {
+          "date": "2026-08-19T14:30:00Z",
+          "note": "Trump says there are \"no talks or conversations going on, or scheduled\" with Tehran, and the blockade stays in \"full force and effect\" \u2014 even as he insists mines are cleared and other traffic is free to pass."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "Trump announced \"economic warfare\" on Iran - \"tremendous\" consequences for any country giving it a financial lifeline. Oil rose on the threat; China buys over 80% of Iran's exported oil."
+        },
+        {
+          "date": "2026-08-21T00:20:00Z",
+          "note": "236 ships crossed over 19 days in August - about 12/day, still a fraction of the ~130/day pre-war baseline. Most now mask their identity transiting, and more seem afraid of Iran than of defying the US blockade."
+        }
+      ],
+      "source_date": "2026-08-20"
+    },
+    {
+      "id": "hormuz-deadlock-no-congressional-vote",
+      "stream": "headlines",
+      "observer": "headlines",
+      "title": "171 days of war, an expired agreement, and still no congressional vote",
+      "observation": "The war began February 28. The War Powers clock was first paused by a ceasefire, then never started by a blockade, and has now outlasted the agreement that replaced both. Congress still has not voted.",
+      "question": "How does a country fight a 171-day war that closes the world's most important oil lane without Congress ever casting a vote - and what mechanism was supposed to prevent that?",
+      "hidden_question": "How does a country fight a 171-day war that closes the world's most important oil lane without Congress ever casting a vote - and what mechanism was supposed to prevent that?",
+      "pattern": "The War Powers check is not failing - it is being outlasted",
+      "transferability": "Reading every future US military action for whether the authorization clock ever starts",
+      "cluster_id": "",
+      "why_now": "The clearest evidence the strait isn't actually open is behavioral: crews are hiding their own ships' identities to use it, which is not what compliance with a lifted blockade looks like - and Congress still has nothing to vote on because no one will call this what it is.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.aljazeera.com/news/2026/8/20/are-hormuz-ships-more-willing-to-defy-iran-or-the-us-what-data-shows",
+      "location": "",
+      "season_or_time_context": "Aug 21, 2026 - day 175; ships still masking identity, no vote",
+      "first_seen": "2026-07-22T00:00:00Z",
+      "last_seen": "2026-08-21T00:20:00Z",
+      "appearances": 25,
+      "history": [
+        {
+          "date": "2026-08-18T14:11:00Z",
+          "note": "Trump threatened for a second time to bomb Oman, the country hosting the talks Tehran says it is close to concluding."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "Two tracks now run at once: a 'navigation map' agreed with Oman, and crossings down 64% alongside a doubled bombing threat aimed at the mediator. Congress has weighed in on neither."
+        },
+        {
+          "date": "2026-08-19T14:30:00Z",
+          "note": "Trump now denies any talks with Tehran are even scheduled, contradicting Iran's own account of the Oman negotiations. Still day 173. No vote."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "Trump declared \"economic warfare\" on Iran and threatened any country that helps it. Day 174 of a war Congress has never voted to authorize or continue."
+        },
+        {
+          "date": "2026-08-21T00:20:00Z",
+          "note": "Traffic data for August shows ships more afraid of Iran than of the US blockade - masking identity to transit at all. Day 175. Still no vote, on a war run by neither side's stated rules."
+        }
+      ],
+      "category": "Politics & World",
+      "source_date": "2026-08-20"
+    },
+    {
+      "id": "european-fire-front-moves-north",
+      "stream": "headlines",
+      "observer": "headlines",
+      "title": "The fire front reached Belgium - and is now approaching the German border",
+      "observation": "The season keeps finding geographies it was not named for. The High Fens fire in Belgium's Liege province is now the largest wildfire in the country's recorded history, burning through peat bog and moorland too remote for crews on foot.",
+      "question": "If the fire season is one continuous system moving across terrain rather than a sequence of separate fires, what decides where it goes next?",
+      "hidden_question": "If the fire season is one continuous system moving across terrain rather than a sequence of separate fires, what decides where it goes next?",
+      "pattern": "Each burned region is temporarily protected by its own destruction; the unburned wait their turn",
+      "transferability": "'Contained' describes a geography, not the system that produced the fire",
+      "cluster_id": "",
+      "why_now": "A government report warned five months ago that the country's wildfire response was fragmented and under-resourced - and then got the wildfire that proved it. The fire wasn't the surprise; the response to it was the predicted one.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://brusselsmorning.com/belgium-wildfire-response-2026/101765/",
+      "location": "",
+      "season_or_time_context": "Aug 21, 2026 - report shows the gaps were flagged in March",
+      "first_seen": "2026-07-26T14:00:00Z",
+      "last_seen": "2026-08-21T14:30:00Z",
+      "appearances": 17,
+      "history": [
+        {
+          "date": "2026-08-18T03:40:00Z",
+          "note": "A Belgian fire advancing on Germany forced the partial evacuation of a German border town. A soldier died fighting in Aragon; five firefighters were hurt near Dine in Portugal."
+        },
+        {
+          "date": "2026-08-18T14:11:00Z",
+          "note": "High Fens more than doubled in 24 hours to about 3,000 hectares. Monschau, across the German border, was put under evacuation order; rain on Monday stopped the advance."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "'Contained' in reachable areas turned out to mean it kept spreading where crews could not follow. Tuesday's push to 'definitively encircle' used nearly 500 personnel and nine aircraft from five countries."
+        },
+        {
+          "date": "2026-08-19T14:30:00Z",
+          "note": "Crews fully encircled the fire overnight, but officials call it still 'complicated' with new flare-ups. Because it burns in peat, it could take weeks or months of soaking to stop it reigniting."
+        },
+        {
+          "date": "2026-08-21T14:30:00Z",
+          "note": "A Belgian Wildfire Network report from March warned governance was 'fragmented' and expertise 'limited' across scattered agencies - exactly the gap this fire just exposed in practice."
+        }
+      ],
+      "category": "Politics & World",
+      "source_date": "2026-08-19"
+    },
+    {
+      "id": "indonesia-flores-earthquake",
+      "stream": "headlines",
+      "observer": "headlines",
+      "title": "The tsunami warning cleared in hours; by Independence Day the toll was 68 and 12,800 had lost their homes",
+      "observation": "The M7.7 hit off Flores at 5:58am on Aug 15. The tsunami warning was issued and lifted the same morning \u2014 the fast, correct, quantitative answer. The other number took three days.",
+      "question": "Why does a tsunami warning resolve in hours while the death toll takes days - and what does that asymmetry say about which disasters we have learned to measure?",
+      "hidden_question": "Why does a tsunami warning resolve in hours while the death toll takes days - and what does that asymmetry say about which disasters we have learned to measure?",
+      "pattern": "Tsunami detection is fast and quantitative; counting the dead stays slow and is revised upward for days",
+      "transferability": "An early earthquake death toll is a floor, not an estimate",
+      "cluster_id": "",
+      "why_now": "Six days after the tsunami warning cleared in hours, the death toll is still climbing - 70 to 83 overnight - which is the pattern this card exists to name: the fast number was final on day one, and the slow number still isn't final on day six.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://english.news.cn/20260821/445bbbcda35e4cf789d223f9f5ee52f2/c.html",
+      "location": "Flores, East Nusa Tenggara, Indonesia",
+      "season_or_time_context": "Aug 21, 2026 - toll 83; still rising six days out",
+      "first_seen": "2026-08-16T18:00:00Z",
+      "last_seen": "2026-08-21T14:30:00Z",
+      "appearances": 6,
+      "history": [
+        {
+          "date": "2026-08-17T04:30:00Z",
+          "note": "The toll reached 53. BMKG had logged 995 aftershocks. More than 900 homes destroyed and 450 damaged, with about 5,000 people in temporary shelters."
+        },
+        {
+          "date": "2026-08-18T03:40:00Z",
+          "note": "68 by Monday, displacement at 12,800. Monday was Aug 17 \u2014 Independence Day \u2014 which Indonesia marked with a fifth of a province in shelters."
+        },
+        {
+          "date": "2026-08-19T00:20:00Z",
+          "note": "Held at 68, but more than 1,600 aftershocks since the mainshock. Rescue teams reached the last landslide-isolated communities and psychological support was organized at shelters."
+        },
+        {
+          "date": "2026-08-20T00:20:00Z",
+          "note": "The toll moved again: 70 dead, 1,182 injured, displacement now 40,000 against 12,800 four days ago. Grocery stores and gas stations reopened on Flores even as landslide-cut villages still wait for aid."
+        },
+        {
+          "date": "2026-08-21T14:30:00Z",
+          "note": "Toll now 83, per Basarnas - up from 70 a day earlier. 328 seriously injured, 639 with minor injuries. Six days out, the count is still rising, not settling."
+        }
+      ],
+      "category": "Politics & World",
+      "source_date": "2026-08-21"
+    },
+    {
+      "id": "moderna-merck-melanoma-vaccine",
+      "stream": "curiosities",
+      "observer": "threshold_watcher",
+      "title": "The first mRNA cancer vaccine to win a Phase 3 trial just made Moderna's stock nearly double",
+      "observation": "Intismeran, Moderna and Merck's personalized mRNA shot paired with Keytruda, met its goals in a 1,100-patient melanoma trial \u2014 the first final-stage win for any mRNA cancer therapy. The vaccine platform built for a pandemic just proved itself against something slower.",
+      "question": "What does it mean that the technology validated at pandemic speed took six more years to prove itself against a disease that moves in decades, not weeks?",
+      "hidden_question": "What does it mean that the technology validated at pandemic speed took six more years to prove itself against a disease that moves in decades, not weeks?",
+      "pattern": "A platform proven under emergency conditions still has to be reproven, patiently, against the diseases it was never built to fight first",
+      "transferability": "Every mRNA-platform readout from here reads differently once one of them has actually cleared Phase 3 against cancer",
+      "cluster_id": "",
+      "why_now": "Two days on, the story has stopped being about one company's trial and started being about a category: if this platform works against melanoma, the next question every mRNA developer gets asked is which cancer they're pointing it at next.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.cnn.com/2026/08/21/health/mrna-cancer-vaccines-wave",
+      "location": "",
+      "season_or_time_context": "Aug 21, 2026 - framed as opening a wave of mRNA cancer vaccines",
+      "first_seen": "2026-08-19T14:30:00Z",
+      "last_seen": "2026-08-21T14:30:00Z",
+      "appearances": 3,
+      "history": [
+        {
+          "date": "2026-08-19T14:30:00Z",
+          "note": "Interim Phase 3 results: the shot cut recurrence and metastasis versus Keytruda alone in surgically-removed high-risk melanoma. Merck rose over 10%; Moderna's stock nearly doubled."
+        },
+        {
+          "date": "2026-08-20T00:20:00Z",
+          "note": "Both the FDA and EMA placed the therapy on expedited review. Moderna and Merck say they aim to file for approval within months; analysts project multi-billion-dollar peak sales."
+        },
+        {
+          "date": "2026-08-21T14:30:00Z",
+          "note": "Coverage has widened from this one drug to the platform: outlets are now framing the result as the opening of a broader wave of mRNA cancer vaccines, not a one-off win."
+        }
+      ],
+      "source_date": "2026-08-21"
+    },
+    {
+      "id": "canada-tariff-pause-eleventh-hour",
+      "stream": "headlines",
+      "observer": "headlines",
+      "title": "The deal that was never signed just collapsed - and the 50% tariffs Trump paused three times finally hit",
+      "observation": "Trump paused new 50% tariffs on $20B of Canadian goods three times over a week, each time citing a deal 'subject to finalization.' At Friday's midnight deadline, talks collapsed instead. The tariffs took effect Saturday. Carney suspended talks and vowed dollar-for-dollar retaliation.",
+      "question": "How many trade 'deals' are actually just a deadline both governments agreed to be afraid of - until one side decided it wasn't afraid enough?",
+      "hidden_question": "How many trade 'deals' are actually just a deadline both governments agreed to be afraid of - until one side decided it wasn't afraid enough?",
+      "pattern": "An announced deal and a finalized deal are different events, and the gap between them is where the leverage still lives - right up until someone stops bluffing",
+      "transferability": "Any tariff 'deal' announced hours before its own deadline deserves a re-check on the actual date it was signed - or whether it collapsed instead",
+      "cluster_id": "",
+      "why_now": "Every 'we have a deal' statement this week turned out to be a position, not an outcome - and the position finally broke: real tariffs, real retaliation, both sides blaming the other for 11th-hour demands.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-22/us-canada-trade-talks-collapse-triggering-trump-s-50-tariffs",
+      "location": "",
+      "season_or_time_context": "Aug 22, 2026 - talks collapsed; 50% tariffs now in effect",
+      "first_seen": "2026-08-19T14:30:00Z",
+      "last_seen": "2026-08-22T14:20:00Z",
+      "appearances": 6,
+      "history": [
+        {
+          "date": "2026-08-20T00:20:00Z",
+          "note": "Trump declared \"we've come to a deal,\" saying Canada \"gave us the points we had to have\" on agricultural market access. Carney's own language stayed at 'substantial progress' - not confirmation."
+        },
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "Key terms remain unclear and nothing is signed. Trump touts farm-sector wins; Canada's trade minister LeBlanc says dairy supply management was 'not on the table' and stayed fully protected."
+        },
+        {
+          "date": "2026-08-21T14:30:00Z",
+          "note": "The deal is expected to be finalized by the end of today, Friday - the actual deadline this whole three-day pause was buying time toward. Still not signed as of midday."
+        },
+        {
+          "date": "2026-08-22T00:20:00Z",
+          "note": "Friday's deadline passed with the deal still 'finalising,' not finalized. Trump says farm tariffs go to zero; steel, aluminum and auto duties are expected to fall. Carney asked provinces to restock US alcohol."
+        },
+        {
+          "date": "2026-08-22T14:20:00Z",
+          "note": "Talks collapsed Friday night. USTR Greer blames Canadian 11th-hour demands; Carney blames unfair US walk-backs. Tariffs took effect Saturday on plywood, liquor, electrical equipment and hockey gear. Carney vows dollar-for-dollar retaliation."
+        }
+      ],
+      "category": "Politics & World",
+      "source_date": "2026-08-22"
+    },
+    {
+      "id": "national-debt-40-trillion",
+      "stream": "markets",
+      "observer": "markets",
+      "title": "The debt hit $40 trillion - five months after it hit $39 trillion",
+      "observation": "US federal debt passed $40.05 trillion Tuesday, just five months after crossing $39 trillion and months earlier than forecasters expected. That's about $117,000 per person, $297,000 per household. Interest alone has cost nearly $1.2 trillion this year.",
+      "question": "When the distance between debt milestones keeps shrinking, is the number still measuring size - or has it started measuring the rate of acceleration?",
+      "hidden_question": "When the distance between debt milestones keeps shrinking, is the number still measuring size - or has it started measuring the rate of acceleration?",
+      "pattern": "A round-number milestone hides its own most important fact: the interval since the last one",
+      "transferability": "Any 'debt hits $X trillion' headline needs the gap since the last trillion checked before it means anything",
+      "cluster_id": "",
+      "why_now": "It took four and a half years to go from $30 trillion to $40 trillion, but only five months to go from $39 to $40 - and interest on the debt is now the third-largest line item in the federal budget.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.cnbc.com/2026/08/19/us-government-debt-passes-40-trillion-mark-for-the-first-time.html",
+      "location": "",
+      "season_or_time_context": "Aug 20, 2026 - $40.05T; $39T was just five months ago",
+      "first_seen": "2026-08-20T14:30:00Z",
+      "last_seen": "2026-08-20T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "Debt passed $40.05T Tuesday, just 5 months after $39T. July's deficit was $432.3B, the highest since March 2021; lost tariff revenue accelerated the timeline."
+        }
+      ],
+      "category": "Business & Markets",
+      "source_date": "2026-08-19"
+    },
+    {
+      "id": "ep90-second-hawaii-storm",
+      "stream": "natural_world",
+      "observer": "threshold_watcher",
+      "title": "A second storm is already forming for Hawaii - one week after Lala, before the lights are even back on",
+      "observation": "A tropical rainstorm (EP90) southeast of Hawaii has a 90% chance of developing into a cyclone that could reach the islands this weekend. Rain could start on the Big Island as soon as Sunday - the same island Lala just wrecked.",
+      "question": "What happens to a recovery's timeline when the next hazard arrives before the last one has been cleaned up?",
+      "hidden_question": "What happens to a recovery's timeline when the next hazard arrives before the last one has been cleaned up?",
+      "pattern": "A disaster season is not a sequence of separate events if the gap between them is shorter than the recovery time",
+      "transferability": "Check the recovery timeline against the next hazard's forecast before calling any disaster 'over'",
+      "cluster_id": "",
+      "why_now": "The track keeps easing farther offshore - 180 miles, then 225 to 275 - while the rain forecast hasn't moved at all, which is the clean split this card exists to draw: distance shrinks the wind story and does nothing to the flood one.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.staradvertiser.com/2026/08/22/hawaii-news/tropical-storm-moke-nears-hawaii-amid-lala-recovery/",
+      "location": "Hawaii Island",
+      "season_or_time_context": "Aug 22, 2026 - Moke 545mi SE of Hilo; track easing to 225-275mi south",
+      "first_seen": "2026-08-20T14:30:00Z",
+      "last_seen": "2026-08-22T14:20:00Z",
+      "appearances": 5,
+      "history": [
+        {
+          "date": "2026-08-20T14:30:00Z",
+          "note": "NHC gives the system a 90% chance of developing. Earliest rain could reach the Big Island Sunday, then spread west - one week to the day after Lala hit."
+        },
+        {
+          "date": "2026-08-21T00:20:00Z",
+          "note": "Now Tropical Depression Two-C, expected to become Tropical Storm Moke. Forecast track passes south of the islands, with impacts starting late Saturday night - 5 to 10 inches forecast for the Big Island."
+        },
+        {
+          "date": "2026-08-21T14:30:00Z",
+          "note": "Now named Moke, forecast to strengthen to a high-end tropical storm or category-one hurricane. Up to 15 inches possible on the Big Island; officials warn of life-threatening flash floods and mudslides in Lala-hit areas."
+        },
+        {
+          "date": "2026-08-22T00:20:00Z",
+          "note": "As of 11am, Moke's center was 660 miles southeast of Hilo, winds 45mph, track passing about 180 miles south of the Big Island. A flood watch runs late Saturday night through Monday afternoon."
+        },
+        {
+          "date": "2026-08-22T14:20:00Z",
+          "note": "Now 545 miles SE of Hilo, still 45mph, forecast track eased further out to 225-275 miles south. Rain risk is unchanged - 5-10in, locally 15in, on the same windward slopes Lala already soaked."
+        }
+      ],
+      "source_date": "2026-08-22"
+    },
+    {
+      "id": "north-korea-missile-barrage-trump-overture",
+      "stream": "headlines",
+      "observer": "headlines",
+      "title": "North Korea answered Trump's scaled-back war games with ten missiles - and a shrug",
+      "observation": "The US trimmed its joint drills with South Korea as a diplomatic overture. North Korea's answer Thursday: about ten short-range ballistic missiles fired toward the sea, and Kim Yo Jong publicly denying Trump's claim that her brother had even responded to him.",
+      "question": "What does it mean when the rejection of an olive branch is delivered without the usual fury - is that contempt, or is it a door being left open a crack?",
+      "hidden_question": "What does it mean when the rejection of an olive branch is delivered without the usual fury - is that contempt, or is it a door being left open a crack?",
+      "pattern": "A concession that gets a missile test in response, but not the customary rhetoric, is being rejected and kept alive at the same time",
+      "transferability": "Read any dictatorship's 'no' for whether it comes with or without the usual denunciation - the absence of fury is itself a signal",
+      "cluster_id": "",
+      "why_now": "Kim Yo Jong called Trump's own account of a response from her brother false, while pointedly noting personal relations between the two leaders are 'still excellent' - a rejection engineered to leave the door open for a better offer.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.washingtonpost.com/world/2026/08/20/south-north-korea-projectile-launch-military-exercises/c7142bca-9c71-11f1-9cc4-2dc9b46e2d5c_story.html",
+      "location": "",
+      "season_or_time_context": "Aug 20, 2026 - ~10 missiles fired after drills scaled back",
+      "first_seen": "2026-08-21T00:20:00Z",
+      "last_seen": "2026-08-21T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-21T00:20:00Z",
+          "note": "About 10 short-range missiles fired toward the sea, ~185 miles each, hours after the US scaled back drills with South Korea. Kim Yo Jong denied Kim Jong Un ever responded to Trump."
+        }
+      ],
+      "category": "Politics & World",
+      "source_date": "2026-08-20"
+    },
+    {
+      "id": "indiana-storm-outages-second-week",
+      "stream": "natural_world",
+      "observer": "threshold_watcher",
+      "title": "85,000 Americans are in their ninth day without power - and it isn't a hurricane, it's Indiana",
+      "observation": "Storms carrying 99mph winds hit northwest Indiana on Aug 11, killing seven, including a 4-year-old. Nine days later 85,000 customers were still dark, over 22,000 in Gary, where about 300 poles and 44 transmission structures need rebuilding.",
+      "question": "Why does a storm that kills seven and leaves tens of thousands dark for two weeks get a fraction of the coverage a Pacific hurricane gets in the same news cycle?",
+      "hidden_question": "Why does a storm that kills seven and leaves tens of thousands dark for two weeks get a fraction of the coverage a Pacific hurricane gets in the same news cycle?",
+      "pattern": "A storm's newsworthiness tracks its exoticism, not its duration or its body count",
+      "transferability": "Any domestic outage running longer than a well-covered foreign one is worth checking for exactly this gap",
+      "cluster_id": "",
+      "why_now": "The state is now paying $5,000 grants to affected families and Gary is dead last on a five-city restoration list running through Tuesday - which would put its full recovery at two full weeks, longer than Lala's, on a fraction of the coverage.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://chicago.suntimes.com/weather/2026/08/19/gary-power-outage-deadly-storms",
+      "location": "Gary, Indiana",
+      "season_or_time_context": "Aug 22, 2026 - staggered restoration; Gary last, Tuesday",
+      "first_seen": "2026-08-22T00:20:00Z",
+      "last_seen": "2026-08-22T14:20:00Z",
+      "appearances": 2,
+      "history": [
+        {
+          "date": "2026-08-22T00:20:00Z",
+          "note": "Day nine: 85,000 still without power, residents in 'survival mode' - spoiled food, hot-meal lines, phone-charging hunts. Gary's 300 damaged poles won't be fully repaired until Aug 25."
+        },
+        {
+          "date": "2026-08-22T14:20:00Z",
+          "note": "NIPSCO's restoration is staggered by city - Griffith, Hobart, Merrillville and East Chicago back Friday, Hammond and Highland today, Lake Station tomorrow, Gary last on Tuesday. Indiana is granting $5,000 per affected family."
+        }
+      ],
+      "source_date": "2026-08-22"
+    }
+  ]
+}

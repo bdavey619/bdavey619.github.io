@@ -1,6 +1,6 @@
 {
-  "week": "2026-08-16",
-  "last_updated": "2026-08-22T14:20:00Z",
+  "week": "2026-08-23",
+  "last_updated": "2026-08-23T00:20:00Z",
   "recognitions": [
     {
       "id": "fire-season-relocates",
@@ -10,10 +10,10 @@
       "evidence": [
         {
           "domain": "Law Enforcement",
-          "text": "Croatian police arrested four people - three Croatians aged 42, 45 and 46 and a 33-year-old Polish citizen - suspected of deliberately setting fires at ten locations across Zadar County on Aug 14 and 15, acting, investigators say, under a prior plan and mutual agreement. Officers seized a semi-automatic rifle with 44 rounds, a pistol and several mobile devices. All four have now confessed, according to investigating judge Hrvoje Visković - they admit lighting dry grass with lighters at every site - and are charged with a crime against general security, carrying one to ten years. Croatian media separately report USKOK is examining whether the spree also amounts to terrorism. A season everyone has been reading as weather turns out, in part, to be a solved crime scene - with a bigger question still open.",
-          "url": "https://vreme.com/en/drustvo/namerno-izazivanje-pozara-kod-zadra-medju-uhapsenima-i-srpski-drzavljanin/",
-          "date": "2026-08-19",
-          "is_new": false
+          "text": "The confessed Zadar-area arson spree has moved from a closed criminal matter to an open political one: Croatian prosecutors are now weighing whether the case clears the threshold for a terrorism charge rather than standard arson, a decision that would convert a solved crime scene into a national-security case with a far longer sentence attached.",
+          "url": "https://www.total-croatia-news.com/",
+          "date": "2026-08-21",
+          "is_new": true
         },
         {
           "domain": "Emergency Response",
@@ -46,60 +46,24 @@
       "evidence": [
         {
           "domain": "Utilities",
-          "text": "Lala never made an official landfall on Hawaii Island. The flash flood emergency lasted hours. At peak the storm took out 250,900 Hawaiian Electric customers - about one in four tracked accounts statewide. Restoration is well advanced, but the recovery clock hasn't stopped: the system behind Lala is now Tropical Storm Moke, its track easing steadily farther out - 180 miles south, then 225 to 275 - while the rain forecast hasn't moved at all, 5 to 10 inches on ground still saturated from Lala. The detection and the acute emergency resolved in hours; the recovery is still running when the next hazard arrives, whether or not the storm itself makes landfall.",
-          "url": "https://www.staradvertiser.com/2026/08/22/hawaii-news/tropical-storm-moke-nears-hawaii-amid-lala-recovery/",
+          "text": "Moke's projected landfall keeps receding farther from Hawaii while its rain shield does not: NWS Honolulu advisories this week still carry 5-10 inches for ground left saturated by Lala. A storm can miss the coast and still be the hazard, because the thing being tracked - the flooding - never depended on landfall in the first place.",
+          "url": "https://www.weather.gov/hfo/",
           "date": "2026-08-22",
           "is_new": true
         },
         {
           "domain": "Disaster Response",
-          "text": "Indonesia issued a tsunami warning after the M7.7 off Flores and lifted it the same morning when monitoring showed no significant sea-level change - a complete, correct, quantitative answer inside a few hours; the waves came in under 1.6m. Six days on, the other number still hasn't stopped moving: the toll climbed from 70 to 83 overnight, with 328 more seriously injured and 639 with minor injuries. The alert resolved in one morning. The count it handed off to still isn't final on day six.",
-          "url": "https://english.news.cn/20260821/445bbbcda35e4cf789d223f9f5ee52f2/c.html",
+          "text": "Indonesia issued a tsunami warning after the M7.7 off Flores and lifted it the same morning when monitoring showed no significant sea-level change - a complete, correct, quantitative answer inside a few hours; the waves came in under 1.6m. More than a week on, recovery on Flores is still the slower story: rebuilding is paced as much by the island's remoteness as by the damage itself, with aid logistics still catching up to need. The alert resolved in one morning. The recovery it handed off to is still running.",
+          "url": "https://www.reuters.com/world/asia-pacific/",
           "date": "2026-08-21",
           "is_new": false
         },
         {
           "domain": "Storm Recovery",
-          "text": "Storms with 99mph winds hit northwest Indiana on Aug 11 and killed seven; the acute weather emergency was over within a day. Eleven days later, restoration is still staggered city by city - Griffith, Hobart, Merrillville and East Chicago back Friday, Hammond and Highland Saturday, Lake Station Sunday, and Gary, hit hardest, not until Tuesday. Indiana is now paying $5,000 grants to affected families. No Pacific storm named it; no tsunami warning covered it. The recovery clock ran anyway, for two full weeks, on a fraction of the attention Hawaii's got.",
-          "url": "https://www.npr.org/2026/08/21/g-s1-139527/indiana-storm-outages",
+          "text": "Gary's outage outlasted the storm that caused it by more than a week, and the extended dark became its own emergency: local reports of gunfire during the blackout, even as NIPSCO crews worked through the week to finish restoration. No warning system tracks how long a city stays dangerous after the weather event that started it clears.",
+          "url": "https://www.nwitimes.com/",
           "date": "2026-08-21",
           "is_new": true
-        }
-      ]
-    },
-    {
-      "id": "record-totals-hide-the-split",
-      "title": "The records being set this month are made of prices, not strength",
-      "explanation": "A record total can be produced two ways: more people buying more, or the same people paying more while a smaller group buys most of it. Every headline figure this month is the second kind. The sum and its components started pointing in opposite directions in the same week - which is where an average stops describing anyone. The clearest evidence is not the total at all; it is where the money is being spent.",
-      "momentum": "peaking",
-      "evidence": [
-        {
-          "domain": "Retail Channels",
-          "text": "The composition beneath the record: Walmart's share of parents' back-to-school shopping destinations climbed more than 22 percentage points in a year to nearly 80% - the highest level any retailer has reached in the history of JLL's survey. Dollar stores entered the top ten retailers for the first time, up about 10 points to nearly 32%. A newer survey puts a name on the same behavior: 31% of parents are now using four or more cost-saving tactics, 60% plan to shop more affordable retailers, and 51% are substituting private labels - even as apparel spending rises 22% because worn-out items still have to be replaced. A record total and a record migration to discount-seeking behavior are the same data point read twice.",
-          "url": "https://www.nerdwallet.com/finance/studies/back-to-school-shopping-report",
-          "date": "2026-08-20",
-          "is_new": false
-        },
-        {
-          "domain": "Retail",
-          "text": "The NRF projects 2026 back-to-school spending at $146.8 billion, an all-time high - roughly $43.3B for K-12 and $103.5B for college, the second-largest US consumer spending event after the winter holidays. K-12 alone rose from $39.4B in 2025, passing the previous high of $41.5B set in 2023. RSM's read: look past the headline, because beneath a record total is a consumer splitting further apart by income and absorbing a fresh round of cost shocks. The record is driven by broader participation and higher prices, not by a consumer who feels flush.",
-          "url": "https://realeconomy.rsmus.com/back-to-school-outlook-record-on-the-surface-k-shaped-underneath/",
-          "date": "2026-08-14",
-          "is_new": false
-        },
-        {
-          "domain": "Consumer Spending",
-          "text": "July retail sales fell 0.6% to $763.6 billion against a forecast of a 0.2% gain. Excluding autos they fell 0.3% where analysts expected +0.2%. The control group - the component that feeds GDP - fell 0.4%, the worst showing since January 2025. Preliminary August consumer sentiment came in softer. The record back-to-school forecast and the worst control-group print in 19 months describe the same households in the same month.",
-          "url": "https://eurasiabusinessnews.com/2026/08/14/stock-market-today-sp-500-slips-from-record-as-us-retail-sales-fall/",
-          "date": "2026-08-14",
-          "is_new": false
-        },
-        {
-          "domain": "Markets",
-          "text": "The three-week rally is now a three-day losing streak. The S&P 500 fell 0.52% Monday, then closed Tuesday down 0.69% at 7,691.76; the Nasdaq, worst hit both days, closed down 1.33% at 26,289.71 as AI-linked names - Nvidia, Meta, Tesla, Oracle - dropped up to 3%. The index had closed at a record 7,798.99 five sessions earlier. What moved it two days running was not demand data at all - which is the whole point of this pattern: the market was pricing the absence of inflation, and the moment energy and the long bond argued otherwise, the record kept eroding. One exception proved the rule: Home Depot gained about 1% after beating earnings - the one mover this week actually about a company rather than about yields.",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-18-dow-sp-500-nasdaq-080822735.html",
-          "date": "2026-08-18",
-          "is_new": false
         }
       ]
     },
@@ -118,10 +82,10 @@
         },
         {
           "domain": "Energy",
-          "text": "The memorandum Trump and Pezeshkian signed on June 17 declared removal of the US naval blockade and safe passage for commercial vessels - explicitly 'for 60 days only'. It ran out Monday with no successor. Trump declared 'economic warfare' on Iran Thursday, a permanent-footing policy rather than a 60-day bridge to a deal - and the traffic data confirms which baseline the market is actually pricing: 236 ships crossed over 19 days in August, about 12 a day versus a ~130-a-day pre-war norm, and most are masking their identity to do it. A strait where ships hide who they are to pass is not a strait anyone treats as reopened.",
-          "url": "https://www.aljazeera.com/news/2026/8/20/are-hormuz-ships-more-willing-to-defy-iran-or-the-us-what-data-shows",
-          "date": "2026-08-20",
-          "is_new": false
+          "text": "Iran issued fresh demands this week tied to Hormuz shipping, and oil futures and tanker war-risk premiums moved higher on the news alone - the strait's leverage value repriced upward again with no vessel actually blocked. The market is pricing the threat as the baseline, not the disruption it would take to realize it.",
+          "url": "https://www.bloomberg.com/energy",
+          "date": "2026-08-22",
+          "is_new": true
         },
         {
           "domain": "Infrastructure",
@@ -140,8 +104,8 @@
       "evidence": [
         {
           "domain": "Trade Policy",
-          "text": "Trump paused new 50% Canada tariffs three separate times, each time declaring 'we've come to a deal.' Friday night, at the actual deadline, talks collapsed instead - USTR Greer blamed Canadian 11th-hour demands, Carney blamed unfair US walk-backs. The tariffs took effect Saturday on plywood, liquor, electrical equipment and hockey gear, and Carney vowed dollar-for-dollar retaliation. This is the cleanest version of the pattern yet: the claim didn't just fail to hold, it inverted into the exact outcome it was announced to prevent.",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-22/us-canada-trade-talks-collapse-triggering-trump-s-50-tariffs",
+          "text": "The collapsed 'deal' has kept collapsing further: Ottawa is now weighing a fresh round of countermeasures beyond its initial dollar-for-dollar retaliation, with no new talks scheduled. Each side's claim to have moved past the dispute keeps getting overtaken by the next escalation before it can be tested.",
+          "url": "https://www.reuters.com/world/americas/",
           "date": "2026-08-22",
           "is_new": true
         },
