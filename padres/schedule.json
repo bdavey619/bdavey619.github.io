@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-22T10:46:45.622562+00:00",
+  "generated_at": "2026-08-23T10:47:34.128192+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -192,19 +192,17 @@
       "gamePk": 823262,
       "status": "final",
       "result": "W",
-      "score": "6\u20132"
+      "score": "6\u20132",
+      "archive_url": "archive.html?date=2026-08-22"
     },
     {
       "date": "2026-08-22",
       "opponent": "MIN",
       "home": true,
       "gamePk": 823261,
-      "status": "scheduled",
-      "time_local": "5:40 PM PT",
-      "probable": {
-        "team": "Casey Mize",
-        "opp": "Dean Kremer"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "7\u20135"
     },
     {
       "date": "2026-08-23",
@@ -282,8 +280,8 @@
     }
   ],
   "summary": {
-    "month_record": "13\u20136",
-    "current_streak": "W1",
+    "month_record": "14\u20136",
+    "current_streak": "W2",
     "last_10": "7\u20133"
   }
 }
