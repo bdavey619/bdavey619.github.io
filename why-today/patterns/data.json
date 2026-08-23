@@ -1,6 +1,6 @@
 {
   "week": "2026-08-23",
-  "last_updated": "2026-08-23T00:20:00Z",
+  "last_updated": "2026-08-23T14:10:00Z",
   "recognitions": [
     {
       "id": "fire-season-relocates",
@@ -10,9 +10,9 @@
       "evidence": [
         {
           "domain": "Law Enforcement",
-          "text": "The confessed Zadar-area arson spree has moved from a closed criminal matter to an open political one: Croatian prosecutors are now weighing whether the case clears the threshold for a terrorism charge rather than standard arson, a decision that would convert a solved crime scene into a national-security case with a far longer sentence attached.",
-          "url": "https://www.total-croatia-news.com/",
-          "date": "2026-08-21",
+          "text": "Croatia's chief state prosecutor Ivan Turudić now says terrorism hasn't been excluded but motive still needs to be established — and officials have separated the confessed Zadar-area arson spree from the more destructive Omiš fire, treating them as two unconnected cases rather than one coordinated campaign.",
+          "url": "https://europeantimes.news/2026/08/croatia-probes-coordinated-zadar-fires/",
+          "date": "2026-08-20",
           "is_new": true
         },
         {
@@ -46,8 +46,8 @@
       "evidence": [
         {
           "domain": "Utilities",
-          "text": "Moke's projected landfall keeps receding farther from Hawaii while its rain shield does not: NWS Honolulu advisories this week still carry 5-10 inches for ground left saturated by Lala. A storm can miss the coast and still be the hazard, because the thing being tracked - the flooding - never depended on landfall in the first place.",
-          "url": "https://www.weather.gov/hfo/",
+          "text": "Moke's track has firmed up passing roughly 200 miles south of the Big Island, with weakening now forecast to begin Sunday — but NOAA's rain warning went up, not down, to over a foot on ground still saturated from Lala. The storm is resolving as a track question and staying open as a flood one.",
+          "url": "https://www.staradvertiser.com/2026/08/22/breaking-news/tropical-storm-moke-strengthens-slightly-will-bring-heavy-rain-to-big-island/",
           "date": "2026-08-22",
           "is_new": true
         },
@@ -60,9 +60,9 @@
         },
         {
           "domain": "Storm Recovery",
-          "text": "Gary's outage outlasted the storm that caused it by more than a week, and the extended dark became its own emergency: local reports of gunfire during the blackout, even as NIPSCO crews worked through the week to finish restoration. No warning system tracks how long a city stays dangerous after the weather event that started it clears.",
-          "url": "https://www.nwitimes.com/",
-          "date": "2026-08-21",
+          "text": "NIPSCO now targets Tuesday for full Gary restoration — two weeks after the storm, with crews rebuilding 335 damaged poles and 27 substation outages rather than just clearing lines. The state is now paying $5,000 grants to affected families, a recovery-stage instrument with no acute-emergency equivalent.",
+          "url": "https://nwitimes.com/news/local/lake/gary/article_d9557458-2f00-4fac-ba13-a75076028b1b.html",
+          "date": "2026-08-20",
           "is_new": true
         }
       ]
@@ -82,9 +82,9 @@
         },
         {
           "domain": "Energy",
-          "text": "Iran issued fresh demands this week tied to Hormuz shipping, and oil futures and tanker war-risk premiums moved higher on the news alone - the strait's leverage value repriced upward again with no vessel actually blocked. The market is pricing the threat as the baseline, not the disruption it would take to realize it.",
-          "url": "https://www.bloomberg.com/energy",
-          "date": "2026-08-22",
+          "text": "Iran's core demands for reopening Hormuz haven't moved, but Tehran now says it's close to a separate deal with Oman on a managed transit route around its own waters. Nobody is negotiating a reopening any more - they're building a permanent detour around the closure instead.",
+          "url": "https://www.nbcnews.com/world/iran/iran-says-deal-strait-hormuz-close-will-not-open-waterway-rcna591476",
+          "date": "2026-08-21",
           "is_new": true
         },
         {
@@ -104,9 +104,9 @@
       "evidence": [
         {
           "domain": "Trade Policy",
-          "text": "The collapsed 'deal' has kept collapsing further: Ottawa is now weighing a fresh round of countermeasures beyond its initial dollar-for-dollar retaliation, with no new talks scheduled. Each side's claim to have moved past the dispute keeps getting overtaken by the next escalation before it can be tested.",
-          "url": "https://www.reuters.com/world/americas/",
-          "date": "2026-08-22",
+          "text": "The claim is now fully overtaken by the fact: Trump's 50% tariffs on $20B of Canadian goods took effect Saturday, and Carney has confirmed dollar-for-dollar retaliation on steel, dairy and electronics for Sept 8, calling Canada 'at war' with the US. What was a pending deal three cycles ago is now a live trade war with a start date.",
+          "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates",
+          "date": "2026-08-23",
           "is_new": true
         },
         {

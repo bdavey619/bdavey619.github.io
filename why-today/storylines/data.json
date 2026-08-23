@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-23",
-  "cycle_start": "2026-08-23T00:20:00Z",
-  "last_updated": "2026-08-23T00:45:00Z",
+  "cycle_start": "2026-08-23T00:45:00Z",
+  "last_updated": "2026-08-23T14:10:00Z",
   "storylines": [
     {
       "id": "moke-tropical-storm-hawaii",
@@ -17,13 +17,17 @@
       "why_now": "Storm track updates place Hawaii in the warning cone this week, the first significant tropical threat to the islands since recent wildfire recovery efforts began.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.weather.gov/hfo/",
+      "url": "https://www.staradvertiser.com/2026/08/22/breaking-news/tropical-storm-moke-strengthens-slightly-will-bring-heavy-rain-to-big-island/",
       "location": "Hawaii, USA",
       "season_or_time_context": "Central Pacific hurricane season",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-23T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-23T14:10:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-23T14:10:00Z",
+          "note": "Moke's track has firmed up passing about 200 miles south of the Big Island, with weakening forecast to begin Sunday; NOAA now warns over a foot of rain is possible."
+        },
         {
           "date": "2026-08-23T00:20:00Z",
           "note": "Tropical Storm Moke tracking toward Hawaii; National Weather Service Honolulu issuing advisories and watches for the islands."
@@ -43,22 +47,26 @@
       "pattern": "escalation as bargaining posture between interdependent economies",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Prime Minister Carney's government is weighing new countermeasures this week in response to the latest US tariff actions, continuing a monthslong standoff.",
+      "why_now": "Talks collapsed Friday night at the tariff deadline; Trump's 50% tariffs on Canadian goods took effect Saturday and Carney has announced dollar-for-dollar retaliatory tariffs, calling the US move \"a miscalculation.\"",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.reuters.com/world/americas/",
+      "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates",
       "location": "Canada / United States",
       "season_or_time_context": "ongoing trade dispute",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-23T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-23T14:10:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-23T14:10:00Z",
+          "note": "Talks collapsed and 50% US tariffs took effect Saturday on $20B in Canadian goods; Carney announced dollar-for-dollar retaliation on steel, dairy and electronics, effective Sept 8, and called Canada \"at war\" with the US."
+        },
         {
           "date": "2026-08-23T00:20:00Z",
           "note": "Canada's government signaling new retaliatory measures against US tariffs; talks between Ottawa and Washington remain stalled."
         }
       ],
-      "source_date": "2026-08-22"
+      "source_date": "2026-08-23"
     },
     {
       "id": "hormuz-iran-new-demands",
@@ -71,22 +79,26 @@
       "pattern": "chokepoint leverage priced as permanent risk premium",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "New Iranian demands this week over the strait have renewed volatility in oil futures and shipping insurance rates.",
+      "why_now": "Iran's demands for reopening the strait remain unchanged (blockade lift, sanctions removal, US troop withdrawal), but Tehran now says it is close to a separate deal with Oman on a managed transit route around its territorial waters.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.bloomberg.com/energy",
+      "url": "https://www.nbcnews.com/world/iran/iran-says-deal-strait-hormuz-close-will-not-open-waterway-rcna591476",
       "location": "Strait of Hormuz",
       "season_or_time_context": "ongoing regional tension",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-23T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-23T14:10:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-23T14:10:00Z",
+          "note": "Iran's FM says Tehran is close to an agreement with Oman on a transit route through its own waters \u2014 a workaround, not a reopening of the strait itself."
+        },
         {
           "date": "2026-08-23T00:20:00Z",
           "note": "Iran issued new demands tied to Strait of Hormuz shipping this week, pushing oil futures and tanker insurance premiums higher."
         }
       ],
-      "source_date": "2026-08-22"
+      "source_date": "2026-08-21"
     },
     {
       "id": "hormuz-war-no-vote",
@@ -157,22 +169,26 @@
       "pattern": "infrastructure failure exposing underlying social fragility",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Extended NIPSCO power restoration in Gary this week has coincided with reports of gunfire and disorder during the outage.",
+      "why_now": "NIPSCO now estimates full restoration for Gary by Tuesday, Aug 25 \u2014 two weeks after the storm \u2014 with 63,500 customers still dark as of Aug 20 and Indiana paying $5,000 grants to affected families.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.nwitimes.com/",
+      "url": "https://nwitimes.com/news/local/lake/gary/article_d9557458-2f00-4fac-ba13-a75076028b1b.html",
       "location": "Gary, Indiana, USA",
       "season_or_time_context": "summer storm season",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-23T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-23T14:10:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-23T14:10:00Z",
+          "note": "NIPSCO now targets Tuesday for full Gary restoration; crews are rebuilding 335 damaged poles and 27 substation outages, not just clearing lines. State is paying $5,000 grants to affected families."
+        },
         {
           "date": "2026-08-23T00:20:00Z",
           "note": "NIPSCO crews still restoring power in Gary days after the storm; local reports of gunfire during the extended outage."
         }
       ],
-      "source_date": "2026-08-21"
+      "source_date": "2026-08-20"
     },
     {
       "id": "omis-zadar-arson-terrorism-question",
@@ -185,22 +201,26 @@
       "pattern": "criminal act reclassified under a political threat framework",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Croatian prosecutors this week are weighing whether to pursue terrorism charges in the Omi\u0161/Zadar-area arson case.",
+      "why_now": "Croatia's chief state prosecutor Ivan Turudi\u0107 says terrorism has not been excluded but motive still needs to be established; prosecutors are also now treating the Zadar-area arson arrests and the separate, more destructive Omi\u0161 fire as two distinct cases with no confirmed link.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.total-croatia-news.com/",
+      "url": "https://europeantimes.news/2026/08/croatia-probes-coordinated-zadar-fires/",
       "location": "Omi\u0161 / Zadar, Croatia",
       "season_or_time_context": "Mediterranean fire season",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-23T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-23T14:10:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-23T14:10:00Z",
+          "note": "Chief state prosecutor Turudi\u0107 says terrorism isn't excluded but motive is still unestablished; officials now say Zadar's arson arrests and the Omi\u0161 fire are separate, unconnected cases."
+        },
         {
           "date": "2026-08-23T00:20:00Z",
           "note": "Croatian prosecutor's office reviewing whether the Omi\u0161-area arson case warrants a terrorism charge rather than standard arson."
         }
       ],
-      "source_date": "2026-08-21"
+      "source_date": "2026-08-20"
     },
     {
       "id": "moderna-merck-melanoma-vaccine",
@@ -213,22 +233,54 @@
       "pattern": "crisis infrastructure outliving its original crisis",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Moderna and Merck's personalized mRNA melanoma vaccine has advanced in regulatory review this week, continuing its post-pandemic pivot to oncology.",
+      "why_now": "The vaccine-plus-Keytruda combination met both trial endpoints in a late-stage study and already holds FDA Breakthrough Therapy Designation; Moderna and Merck say they aim to file for regulatory approval within months.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/",
+      "url": "https://www.cnn.com/2026/08/21/health/mrna-cancer-vaccines-wave",
       "location": "United States / Europe",
       "season_or_time_context": "ongoing regulatory review",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-23T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-23T14:10:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-23T14:10:00Z",
+          "note": "INTerpath-001 trial met both its recurrence and spread-prevention endpoints; the mRNA-4157/Keytruda combo already has FDA Breakthrough Therapy status and a filing is planned within months."
+        },
         {
           "date": "2026-08-23T00:20:00Z",
           "note": "Moderna and Merck's mRNA-4157 personalized melanoma vaccine continued advancing through regulatory review this week."
         }
       ],
-      "source_date": "2026-08-20"
+      "source_date": "2026-08-21"
+    },
+    {
+      "id": "jackson-hole-new-fed-chair-dictionary",
+      "stream": "markets",
+      "observer": "Why Today?",
+      "title": "Markets face Jackson Hole with an unfamiliar Fed chair",
+      "observation": "Kevin Warsh's first Jackson Hole keynote as Fed chair arrives with traders still building the dictionary for how his language differs from his predecessor's \u2014 the same words may not carry the same signal now that the person saying them has changed.",
+      "question": "How long does it take a market to relearn a new voice, and what does it cost while it's still guessing?",
+      "hidden_question": "Does monetary credibility belong to the office or the person holding it \u2014 and does it transfer automatically, or have to be rebuilt from nothing?",
+      "pattern": "institutional continuity undercut by a change in who's speaking",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Warsh delivers his first keynote as Fed chair Friday, Aug 28, three weeks ahead of the September FOMC meeting, with rate-cut odds and the credibility of this week's Treasury buyback both already in question.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.techtimes.com/articles/325228/20260821/jackson-hole-2026-what-watch-when-warsh-steps-podium-friday.htm",
+      "location": "Jackson Hole, Wyoming, USA",
+      "season_or_time_context": "Federal Reserve annual symposium",
+      "first_seen": "2026-08-23T14:10:00Z",
+      "last_seen": "2026-08-23T14:10:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-23T14:10:00Z",
+          "note": "Kevin Warsh, who succeeded Powell as Fed chair in May, delivers his first Jackson Hole keynote Aug 28; markets are still calibrating how to read his language ahead of the September FOMC meeting."
+        }
+      ],
+      "source_date": "2026-08-21"
     }
   ]
 }
