@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-23",
-  "cycle_start": "2026-08-23T00:45:00Z",
-  "last_updated": "2026-08-23T14:10:00Z",
+  "cycle_start": "2026-08-23T14:10:00Z",
+  "last_updated": "2026-08-24T00:20:00Z",
   "storylines": [
     {
       "id": "moke-tropical-storm-hawaii",
@@ -17,13 +17,17 @@
       "why_now": "Storm track updates place Hawaii in the warning cone this week, the first significant tropical threat to the islands since recent wildfire recovery efforts began.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.staradvertiser.com/2026/08/22/breaking-news/tropical-storm-moke-strengthens-slightly-will-bring-heavy-rain-to-big-island/",
+      "url": "https://www.cbsnews.com/news/tropical-storm-moke-rain-hawaii-big-island/",
       "location": "Hawaii, USA",
       "season_or_time_context": "Central Pacific hurricane season",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-23T14:10:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-24T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-08-24T00:20:00Z",
+          "note": "Moke now sits 310 miles south of Hilo, holding 200-250 miles south of the Big Island through Monday before weakening Wednesday; rain totals revised down, but flood risk persists on ground still saturated from Lala."
+        },
         {
           "date": "2026-08-23T14:10:00Z",
           "note": "Moke's track has firmed up passing about 200 miles south of the Big Island, with weakening forecast to begin Sunday; NOAA now warns over a foot of rain is possible."
@@ -79,16 +83,20 @@
       "pattern": "chokepoint leverage priced as permanent risk premium",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran's demands for reopening the strait remain unchanged (blockade lift, sanctions removal, US troop withdrawal), but Tehran now says it is close to a separate deal with Oman on a managed transit route around its territorial waters.",
+      "why_now": "Iran and Oman say they've reached an agreement in principle on a transit route map \u2014 ships entering near the Iranian coast, exiting along Oman's \u2014 while the US insists on total freedom of navigation with no Iranian toll or approval, a gap neither side has bridged.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.nbcnews.com/world/iran/iran-says-deal-strait-hormuz-close-will-not-open-waterway-rcna591476",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-hormuz-transit-route-deal-reached-oman",
       "location": "Strait of Hormuz",
       "season_or_time_context": "ongoing regional tension",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-23T14:10:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-24T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-08-24T00:20:00Z",
+          "note": "Iran and Oman say they've reached an agreement in principle on a shipping-map framework for transit, still being finalized; the US wants unconditional navigation with no Iranian toll or approval, and Tehran insists it's negotiating only with Muscat, not Washington."
+        },
         {
           "date": "2026-08-23T14:10:00Z",
           "note": "Iran's FM says Tehran is close to an agreement with Oman on a transit route through its own waters \u2014 a workaround, not a reopening of the strait itself."
@@ -105,29 +113,33 @@
       "stream": "headlines",
       "category": "Politics & World",
       "observer": "Why Today?",
-      "title": "Hormuz standoff continues without a war powers vote",
-      "observation": "Military posturing around a global chokepoint continues to escalate without the formal authorization processes that traditionally precede armed conflict \u2014 a gap between operational reality and legislative record.",
-      "question": "Can a conflict be underway in practice before it exists on paper?",
-      "hidden_question": "Does the absence of a formal vote reflect restraint, or an erosion of the process itself?",
-      "pattern": "operational escalation outpacing formal authorization",
+      "title": "Congress keeps voting against the Iran war \u2014 and the war keeps going",
+      "observation": "The House has twice passed symbolic resolutions to end US involvement in the Iran conflict; the Senate's one attempt at a binding version failed narrowly. Congress keeps registering its objection without ever gaining the power to act on it.",
+      "question": "What does losing a vote to end a war actually cost the people who voted to end it?",
+      "hidden_question": "Is a non-binding rebuke a real check on executive power, or a way for legislators to be on the record without being responsible for the outcome?",
+      "pattern": "symbolic legislative rebuke coexisting with unchanged policy",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Continued naval buildup near the strait this week has not been accompanied by any congressional war powers vote or debate.",
+      "why_now": "The Senate voted 47-49 against a binding war-powers resolution in July, after the House twice passed non-binding versions (June and July) with a handful of Republican defections each time \u2014 Congress's clearest stance yet on the war, without changing it.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.reuters.com/world/middle-east/",
+      "url": "https://www.nbcnews.com/politics/congress/house-votes-end-iran-war-senate-republicans-let-trump-continue-war-rcna588874",
       "location": "Strait of Hormuz / Washington, DC",
       "season_or_time_context": "ongoing regional tension",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-23T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-24T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-24T00:20:00Z",
+          "note": "Correction: Congress has voted on the Iran war three times \u2014 House passed non-binding resolutions twice, the Senate's binding version failed 47-49. The standoff isn't a missing vote; it's votes that don't bind."
+        },
         {
           "date": "2026-08-23T00:20:00Z",
           "note": "US naval presence near the strait continues to build without any war powers resolution introduced in Congress."
         }
       ],
-      "source_date": "2026-08-22"
+      "source_date": "2026-07-23"
     },
     {
       "id": "indonesia-flores-earthquake-recovery",
@@ -169,16 +181,20 @@
       "pattern": "infrastructure failure exposing underlying social fragility",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "NIPSCO now estimates full restoration for Gary by Tuesday, Aug 25 \u2014 two weeks after the storm \u2014 with 63,500 customers still dark as of Aug 20 and Indiana paying $5,000 grants to affected families.",
+      "why_now": "ComEd sent mutual-aid crews across the state line Saturday to join NIPSCO's 600+ linemen in Gary, where NIPSCO now attaches 95% confidence to its Tuesday, Aug 25 restoration target.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://nwitimes.com/news/local/lake/gary/article_d9557458-2f00-4fac-ba13-a75076028b1b.html",
+      "url": "https://abc7chicago.com/post/chicago-area-storm-recovery-comed-sending-crews-illinois-assist-nipsco-nw-indiana-power-restoration/19719373/",
       "location": "Gary, Indiana, USA",
       "season_or_time_context": "summer storm season",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-23T14:10:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-24T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-08-24T00:20:00Z",
+          "note": "ComEd dispatched 60+ crew members Saturday to join NIPSCO's 600+ linemen restoring Gary; Tuesday's 11:59pm target now carries 95% confidence, per NIPSCO."
+        },
         {
           "date": "2026-08-23T14:10:00Z",
           "note": "NIPSCO now targets Tuesday for full Gary restoration; crews are rebuilding 335 damaged poles and 27 substation outages, not just clearing lines. State is paying $5,000 grants to affected families."
@@ -188,7 +204,7 @@
           "note": "NIPSCO crews still restoring power in Gary days after the storm; local reports of gunfire during the extended outage."
         }
       ],
-      "source_date": "2026-08-20"
+      "source_date": "2026-08-22"
     },
     {
       "id": "omis-zadar-arson-terrorism-question",
@@ -265,22 +281,26 @@
       "pattern": "institutional continuity undercut by a change in who's speaking",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Warsh delivers his first keynote as Fed chair Friday, Aug 28, three weeks ahead of the September FOMC meeting, with rate-cut odds and the credibility of this week's Treasury buyback both already in question.",
+      "why_now": "The symposium runs Aug 27-29 under the theme \"Financial Innovation: Implications for Payments and Policy\"; Warsh has told reporters his remarks will address long-term structural questions rather than near-term rate guidance, even as inflation sits at 3.4% and consensus expects a deliberately neutral speech.",
       "status": "captured",
       "editorial_potential": "high",
       "url": "https://www.techtimes.com/articles/325228/20260821/jackson-hole-2026-what-watch-when-warsh-steps-podium-friday.htm",
       "location": "Jackson Hole, Wyoming, USA",
       "season_or_time_context": "Federal Reserve annual symposium",
       "first_seen": "2026-08-23T14:10:00Z",
-      "last_seen": "2026-08-23T14:10:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-24T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-24T00:20:00Z",
+          "note": "Symposium dates confirmed Aug 27-29, themed on payments and financial innovation; Warsh has pre-signaled a structural, not near-term-guidance, speech, with consensus expecting neutral language despite 3.4% inflation."
+        },
         {
           "date": "2026-08-23T14:10:00Z",
           "note": "Kevin Warsh, who succeeded Powell as Fed chair in May, delivers his first Jackson Hole keynote Aug 28; markets are still calibrating how to read his language ahead of the September FOMC meeting."
         }
       ],
-      "source_date": "2026-08-21"
+      "source_date": "2026-08-22"
     }
   ]
 }

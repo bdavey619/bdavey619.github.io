@@ -1,6 +1,6 @@
 {
   "week": "2026-08-23",
-  "last_updated": "2026-08-23T14:10:00Z",
+  "last_updated": "2026-08-24T00:20:00Z",
   "recognitions": [
     {
       "id": "fire-season-relocates",
@@ -13,7 +13,7 @@
           "text": "Croatia's chief state prosecutor Ivan Turudić now says terrorism hasn't been excluded but motive still needs to be established — and officials have separated the confessed Zadar-area arson spree from the more destructive Omiš fire, treating them as two unconnected cases rather than one coordinated campaign.",
           "url": "https://europeantimes.news/2026/08/croatia-probes-coordinated-zadar-fires/",
           "date": "2026-08-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Emergency Response",
@@ -24,10 +24,10 @@
         },
         {
           "domain": "Tourism",
-          "text": "A fire out of Lokva Rogoznica covered the roughly 6km to Omis on Croatia's Dalmatian coast in hours, reaching the Borak neighbourhood above the town centre at about 1:45am. Around 1,200 residents and tourists were evacuated by land and by sea, with harbour authority vessels lifting people from stretches the road could not reach and some going into the water off boats. One woman died and about 40 were injured, ten in intensive care. Croatia's fire chief called it among the worst in the country's history.",
-          "url": "https://www.euronews.com/my-europe/2026/08/14/at-least-people-in-10-in-intensive-care-and-thousands-flee-intense-wildfire-in-croatia",
-          "date": "2026-08-14",
-          "is_new": false
+          "text": "Omiš's damage assessment has since come in: a preliminary €110 million estimate across 120 fully or partly damaged structures, with the city now expecting the final count to top 140. Ten days after the fire itself, the number still moving isn't the flame front — it's the appraisal.",
+          "url": "https://english.news.cn/20260815/ee1058918d794198ad168103325d505a/c.html",
+          "date": "2026-08-15",
+          "is_new": true
         },
         {
           "domain": "Wildfire",
@@ -46,9 +46,9 @@
       "evidence": [
         {
           "domain": "Utilities",
-          "text": "Moke's track has firmed up passing roughly 200 miles south of the Big Island, with weakening now forecast to begin Sunday — but NOAA's rain warning went up, not down, to over a foot on ground still saturated from Lala. The storm is resolving as a track question and staying open as a flood one.",
-          "url": "https://www.staradvertiser.com/2026/08/22/breaking-news/tropical-storm-moke-strengthens-slightly-will-bring-heavy-rain-to-big-island/",
-          "date": "2026-08-22",
+          "text": "Moke's own track question has now resolved to a near-miss — 200-250 miles south of the islands, weakening to a remnant low by Wednesday — and even the rain totals came down with it, to a few inches instead of a foot. What hasn't resolved is the ground: still saturated from Lala, so the flood risk survives a forecast that otherwise cleared.",
+          "url": "https://www.cbsnews.com/news/tropical-storm-moke-rain-hawaii-big-island/",
+          "date": "2026-08-23",
           "is_new": true
         },
         {
@@ -60,9 +60,9 @@
         },
         {
           "domain": "Storm Recovery",
-          "text": "NIPSCO now targets Tuesday for full Gary restoration — two weeks after the storm, with crews rebuilding 335 damaged poles and 27 substation outages rather than just clearing lines. The state is now paying $5,000 grants to affected families, a recovery-stage instrument with no acute-emergency equivalent.",
-          "url": "https://nwitimes.com/news/local/lake/gary/article_d9557458-2f00-4fac-ba13-a75076028b1b.html",
-          "date": "2026-08-20",
+          "text": "Thirteen days into Gary's outage, the recovery effort itself had to import capacity: ComEd sent crews across the state line to reinforce NIPSCO's 600+ linemen, and NIPSCO now attaches 95% confidence to finishing by Tuesday. No storm this size crossed a state line to get fixed in a day.",
+          "url": "https://abc7chicago.com/post/chicago-area-storm-recovery-comed-sending-crews-illinois-assist-nipsco-nw-indiana-power-restoration/19719373/",
+          "date": "2026-08-22",
           "is_new": true
         }
       ]
@@ -82,9 +82,9 @@
         },
         {
           "domain": "Energy",
-          "text": "Iran's core demands for reopening Hormuz haven't moved, but Tehran now says it's close to a separate deal with Oman on a managed transit route around its own waters. Nobody is negotiating a reopening any more - they're building a permanent detour around the closure instead.",
-          "url": "https://www.nbcnews.com/world/iran/iran-says-deal-strait-hormuz-close-will-not-open-waterway-rcna591476",
-          "date": "2026-08-21",
+          "text": "Iran and Oman now say they've reached agreement in principle on the detour itself - a shipping map routing vessels near Iran's coast and out along Oman's. The US still wants unconditional passage with no Iranian toll; Tehran says it's negotiating with Muscat, not Washington, at all. The permanent workaround is closer than the actual reopening ever was.",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-hormuz-transit-route-deal-reached-oman",
+          "date": "2026-08-23",
           "is_new": true
         },
         {
@@ -107,7 +107,7 @@
           "text": "The claim is now fully overtaken by the fact: Trump's 50% tariffs on $20B of Canadian goods took effect Saturday, and Carney has confirmed dollar-for-dollar retaliation on steel, dairy and electronics for Sept 8, calling Canada 'at war' with the US. What was a pending deal three cycles ago is now a live trade war with a start date.",
           "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates",
           "date": "2026-08-23",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Foreign Policy",
