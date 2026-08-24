@@ -1,6 +1,6 @@
 {
   "week": "2026-08-23",
-  "last_updated": "2026-08-24T00:20:00Z",
+  "last_updated": "2026-08-24T14:20:00Z",
   "recognitions": [
     {
       "id": "fire-season-relocates",
@@ -27,7 +27,7 @@
           "text": "Omiš's damage assessment has since come in: a preliminary €110 million estimate across 120 fully or partly damaged structures, with the city now expecting the final count to top 140. Ten days after the fire itself, the number still moving isn't the flame front — it's the appraisal.",
           "url": "https://english.news.cn/20260815/ee1058918d794198ad168103325d505a/c.html",
           "date": "2026-08-15",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Wildfire",
@@ -46,8 +46,8 @@
       "evidence": [
         {
           "domain": "Utilities",
-          "text": "Moke's own track question has now resolved to a near-miss — 200-250 miles south of the islands, weakening to a remnant low by Wednesday — and even the rain totals came down with it, to a few inches instead of a foot. What hasn't resolved is the ground: still saturated from Lala, so the flood risk survives a forecast that otherwise cleared.",
-          "url": "https://www.cbsnews.com/news/tropical-storm-moke-rain-hawaii-big-island/",
+          "text": "Moke's own track question resolved to a near-miss days ago, but NWS still has a Flood Watch active over the Big Island today - the storm's wind and rain forecast cleared before the ground it's falling on did. Saturation from Lala, not Moke's own strength, is now the operative hazard.",
+          "url": "https://www.cnn.com/2026/08/23/weather/tropical-storm-moke-dumping-heavy-rain-on-hawaiis-big-island-climate",
           "date": "2026-08-23",
           "is_new": true
         },
@@ -60,9 +60,9 @@
         },
         {
           "domain": "Storm Recovery",
-          "text": "Thirteen days into Gary's outage, the recovery effort itself had to import capacity: ComEd sent crews across the state line to reinforce NIPSCO's 600+ linemen, and NIPSCO now attaches 95% confidence to finishing by Tuesday. No storm this size crossed a state line to get fixed in a day.",
-          "url": "https://abc7chicago.com/post/chicago-area-storm-recovery-comed-sending-crews-illinois-assist-nipsco-nw-indiana-power-restoration/19719373/",
-          "date": "2026-08-22",
+          "text": "Two weeks into Gary's outage, the recovery finally escalated past utility crews: the governor deployed the National Guard Sunday just to clear routes so NIPSCO could work. No warning system flagged this as a two-week, multi-agency event on day one - it accreted there gradually, restoration deadline by missed deadline.",
+          "url": "https://www.npr.org/2026/08/23/nx-s1-5942292/thousands-in-northwest-indiana-still-without-power-nearly-two-weeks-after-storm",
+          "date": "2026-08-23",
           "is_new": true
         }
       ]
@@ -82,9 +82,9 @@
         },
         {
           "domain": "Energy",
-          "text": "Iran and Oman now say they've reached agreement in principle on the detour itself - a shipping map routing vessels near Iran's coast and out along Oman's. The US still wants unconditional passage with no Iranian toll; Tehran says it's negotiating with Muscat, not Washington, at all. The permanent workaround is closer than the actual reopening ever was.",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-hormuz-transit-route-deal-reached-oman",
-          "date": "2026-08-23",
+          "text": "The two tracks stopped waiting on each other this week: Washington is finalizing new economic sanctions on Iran even as Tehran finalizes its own transit workaround with Oman. Neither side is treating the other's process as a precondition for its own - confirmation that both now expect this to be the permanent shape of things, not an interruption headed toward resolution.",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-24-2026",
+          "date": "2026-08-24",
           "is_new": true
         },
         {
@@ -104,10 +104,10 @@
       "evidence": [
         {
           "domain": "Trade Policy",
-          "text": "The claim is now fully overtaken by the fact: Trump's 50% tariffs on $20B of Canadian goods took effect Saturday, and Carney has confirmed dollar-for-dollar retaliation on steel, dairy and electronics for Sept 8, calling Canada 'at war' with the US. What was a pending deal three cycles ago is now a live trade war with a start date.",
-          "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates",
-          "date": "2026-08-23",
-          "is_new": false
+          "text": "Carney's account of the collapse adds a wrinkle: Canada says it had offered to drop its remaining steel, aluminum and auto tariffs if the US lowered its own, and blames Washington's 'last-minute changes' for scuttling it. The US has now said only that it will 'respond to Canadian retaliation' - a claim about who reneged that, like the others, nobody outside either government can verify before the next one lands.",
+          "url": "https://www.nbcnews.com/business/economy/trump-canada-tariffs-carney-rcna593510",
+          "date": "2026-08-24",
+          "is_new": true
         },
         {
           "domain": "Foreign Policy",
