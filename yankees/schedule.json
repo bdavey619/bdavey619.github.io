@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-08",
   "division_name": "AL East",
-  "generated_at": "2026-08-23T11:24:18.791344+00:00",
+  "generated_at": "2026-08-24T11:32:59.947150+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -192,19 +192,17 @@
       "gamePk": 823509,
       "status": "final",
       "result": "L",
-      "score": "3\u20134"
+      "score": "3\u20134",
+      "archive_url": "archive.html?date=2026-08-23"
     },
     {
       "date": "2026-08-23",
       "opponent": "TOR",
       "home": true,
       "gamePk": 823507,
-      "status": "scheduled",
-      "time_local": "1:35 PM ET",
-      "probable": {
-        "team": "Carlos Rod\u00f3n",
-        "opp": "Jos\u00e9 Soriano"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "8\u20133"
     },
     {
       "date": "2026-08-25",
@@ -212,7 +210,11 @@
       "home": true,
       "gamePk": 823505,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Will Warren",
+        "opp": "Ethan Pecko"
+      }
     },
     {
       "date": "2026-08-26",
@@ -220,7 +222,10 @@
       "home": true,
       "gamePk": 823506,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "opp": "Peter Lambert"
+      }
     },
     {
       "date": "2026-08-27",
@@ -228,7 +233,11 @@
       "home": true,
       "gamePk": 823503,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Gerrit Cole",
+        "opp": "Hayden Wesneski"
+      }
     },
     {
       "date": "2026-08-28",
@@ -272,8 +281,8 @@
     }
   ],
   "summary": {
-    "month_record": "11\u20138",
-    "current_streak": "L1",
+    "month_record": "12\u20138",
+    "current_streak": "W1",
     "last_10": "6\u20134"
   }
 }
