@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-08",
   "division_name": "AL West",
-  "generated_at": "2026-08-23T13:13:10.976857+00:00",
+  "generated_at": "2026-08-24T13:32:12.408099+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -201,19 +201,17 @@
       "gamePk": 824151,
       "status": "final",
       "result": "W",
-      "score": "4\u20133"
+      "score": "4\u20133",
+      "archive_url": "archive.html?date=2026-08-23"
     },
     {
       "date": "2026-08-23",
       "opponent": "HOU",
       "home": false,
       "gamePk": 824150,
-      "status": "scheduled",
-      "time_local": "11:10 AM PT",
-      "probable": {
-        "team": "Brady Basso",
-        "opp": "Cristian Javier"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "7\u20136"
     },
     {
       "date": "2026-08-24",
@@ -221,7 +219,11 @@
       "home": true,
       "gamePk": 824964,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Jeffrey Springs",
+        "opp": "Zebby Matthews"
+      }
     },
     {
       "date": "2026-08-25",
@@ -229,7 +231,11 @@
       "home": true,
       "gamePk": 824962,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Gage Jump",
+        "opp": "Taj Bradley"
+      }
     },
     {
       "date": "2026-08-26",
@@ -237,7 +243,11 @@
       "home": true,
       "gamePk": 824963,
       "status": "scheduled",
-      "time_local": "6:05 PM PT"
+      "time_local": "6:05 PM PT",
+      "probable": {
+        "team": "J.T. Ginn",
+        "opp": "Connor Prielipp"
+      }
     },
     {
       "date": "2026-08-28",
@@ -273,8 +283,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u201315",
-    "current_streak": "W1",
-    "last_10": "3\u20137"
+    "month_record": "6\u201315",
+    "current_streak": "W2",
+    "last_10": "4\u20136"
   }
 }
