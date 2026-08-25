@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-23",
-  "cycle_start": "2026-08-24T00:20:00Z",
-  "last_updated": "2026-08-24T14:20:00Z",
+  "cycle_start": "2026-08-24T14:20:00Z",
+  "last_updated": "2026-08-25T00:20:00Z",
   "storylines": [
     {
       "id": "moke-tropical-storm-hawaii",
@@ -165,22 +165,26 @@
       "pattern": "remoteness as a second disaster layered on the first",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Continued reporting this week on the recovery toll and rebuilding pace on Flores island following the earthquake.",
+      "why_now": "BNPB now puts the toll at 100 dead and 1,603 injured, with over 180,000 still displaced \u2014 the deadliest earthquake to hit Indonesia since 2022, and the number is still climbing nine days after the quake itself.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.reuters.com/world/asia-pacific/",
+      "url": "https://www.prokerala.com/news/articles/a1804178.html",
       "location": "Flores, Indonesia",
       "season_or_time_context": "post-disaster recovery",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-23T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-25T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-25T00:20:00Z",
+          "note": "BNPB's toll rose to 100 dead, 1,603 injured, 180,000+ displaced as of Aug 24 \u2014 nine days after the quake, still Indonesia's deadliest since 2022, and still not final."
+        },
         {
           "date": "2026-08-23T00:20:00Z",
           "note": "Recovery and rebuilding efforts on Flores continuing this week, with aid logistics slowed by the island's remote terrain."
         }
       ],
-      "source_date": "2026-08-21"
+      "source_date": "2026-08-24"
     },
     {
       "id": "indiana-storm-outage-gunfire",
@@ -193,16 +197,20 @@
       "pattern": "infrastructure failure exposing underlying social fragility",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Governor Braun deployed the Indiana National Guard Sunday to help clear the way for crews, after Gary's mayor called NIPSCO's pace \"unacceptable\"; about 7,000 Gary customers remained dark Monday morning, down sharply but still short of the Tuesday target.",
+      "why_now": "A NIPSCO crew vehicle was struck by gunfire, forcing restoration work to pause before resuming \u2014 the exact collision of storm recovery and disorder the storyline named, happening again just as NIPSCO's Tuesday, 11:59pm deadline arrives.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.npr.org/2026/08/23/nx-s1-5942292/thousands-in-northwest-indiana-still-without-power-nearly-two-weeks-after-storm",
+      "url": "https://www.nbcchicago.com/news/local/power-restoration-resumes-in-gary-after-nipsco-crew-vehicle-struck-by-gunfire/3975885/",
       "location": "Gary, Indiana, USA",
       "season_or_time_context": "summer storm season",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-24T14:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-25T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-08-25T00:20:00Z",
+          "note": "A NIPSCO crew vehicle working in Gary was struck by gunfire, pausing restoration before it resumed \u2014 happening the same day as NIPSCO's 11:59pm Tuesday restoration deadline."
+        },
         {
           "date": "2026-08-24T14:20:00Z",
           "note": "Braun deployed the National Guard Sunday to help clear routes for crews; Mayor Melton called the pace \"unacceptable.\" About 7,000 Gary customers remained without power Monday morning, down from tens of thousands."
@@ -349,6 +357,121 @@
         }
       ],
       "source_date": "2026-08-22"
+    },
+    {
+      "id": "congo-m23-ceasefire-verification",
+      "stream": "headlines",
+      "category": "Politics & World",
+      "observer": "Why Today?",
+      "title": "Congo tests whether a peace agreement is real",
+      "observation": "Nine months after a US-brokered framework, the first ceasefire verification mission has deployed to eastern Congo \u2014 pairing Congolese army and M23 officers with regional and international observers to check whether a signed truce holds up on the ground.",
+      "question": "How long does it take a peace agreement to become an actual peace, and who gets to decide when it has?",
+      "hidden_question": "Is verification a technical formality, or the point where a peace deal actually gets tested?",
+      "pattern": "the gap between a signed agreement and a verified one",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "UN helicopters deployed the first EJVM+ verification mission to Minembwe on Aug 24, pairing three Congolese army officers with three from M23 alongside African Union, Qatari and US observers, days after DRC and M23 emerged from five days of talks in Switzerland with a peace roadmap.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.france24.com/en/africa/20260824-ceasefire-verification-mission-deploys-eastern-dr-congo",
+      "location": "Eastern Democratic Republic of Congo",
+      "season_or_time_context": "post-ceasefire verification phase",
+      "first_seen": "2026-08-25T00:20:00Z",
+      "last_seen": "2026-08-25T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-25T00:20:00Z",
+          "note": "First EJVM+ ceasefire verification mission deployed to Minembwe, pairing Congolese army and M23 officers with AU/Qatari/US observers, days after DRC and M23 agreed a peace roadmap in Switzerland."
+        }
+      ],
+      "source_date": "2026-08-24"
+    },
+    {
+      "id": "hungry-ghost-festival-taboos",
+      "stream": "human_rituals",
+      "observer": "Why Today?",
+      "title": "A month where a society changes its behavior for the dead",
+      "observation": "Throughout Ghost Month, many Chinese, Taiwanese and diaspora communities avoid travel, major decisions, and celebrations \u2014 a lunar calendar month reorganized around the belief that the dead are walking among the living.",
+      "question": "What does it cost a society to build a month of restraint around something it can't prove?",
+      "hidden_question": "Is the taboo really about the ghosts, or about the discipline of collectively pausing?",
+      "pattern": "collective behavior organized around an unverifiable belief",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Ghost Day, the 15th and most significant day of the lunar Ghost Month, falls Aug 27; in Taiwan especially, many people avoid travel and major life decisions for the entire month, and Hakka communities mark it with large ritual feasts.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://ohsnapletseat.com/2026/08/22/hungry-ghost-festival-taiwan/",
+      "location": "China, Taiwan, and Chinese diaspora communities",
+      "season_or_time_context": "Ghost Month, lunar 7th month",
+      "source_evergreen": true,
+      "first_seen": "2026-08-25T00:20:00Z",
+      "last_seen": "2026-08-25T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-25T00:20:00Z",
+          "note": "Ghost Month is underway, with Ghost Day (the 15th day) falling Aug 27; Taiwan communities especially avoid travel and major decisions for the full month."
+        }
+      ],
+      "source_date": "2026-08-22"
+    },
+    {
+      "id": "scotus-mail-voting-stay",
+      "stream": "headlines",
+      "category": "Politics & World",
+      "observer": "Why Today?",
+      "title": "A ruling that settles nothing, on purpose",
+      "observation": "The Supreme Court paused a lower-court block on Trump's mail-voting order on procedural grounds, while liberal justices explicitly noted the ruling doesn't touch whether the order itself is lawful \u2014 leaving the substantive question open ahead of the midterms.",
+      "question": "What does it mean for the nation's highest court to rule without ruling on the thing everyone is actually asking?",
+      "hidden_question": "Is a procedural stay judicial restraint, or a way of avoiding a decision the court isn't ready to make?",
+      "pattern": "a ruling that resolves the process while leaving the substance undecided",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "The Court's stay lets a 23-state-plus-DC challenge proceed on \"too early\" procedural grounds; Sotomayor and Kagan wrote the decision doesn't address the order's lawfulness, and Jackson dissented sharply, calling the government's stay request \"empty, strategic, and bad-faith.\"",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.npr.org/2026/08/24/nx-s1-5909592/trump-mail-voting-order-supreme-court",
+      "location": "Washington, DC",
+      "season_or_time_context": "ahead of November 2026 midterms",
+      "first_seen": "2026-08-25T00:20:00Z",
+      "last_seen": "2026-08-25T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-25T00:20:00Z",
+          "note": "SCOTUS stayed a lower-court block on Trump's mail-voting order on procedural grounds only; Sotomayor/Kagan noted the lawfulness question remains open, and Jackson dissented, calling the stay bid \"bad-faith.\""
+        }
+      ],
+      "source_date": "2026-08-24"
+    },
+    {
+      "id": "roman-space-telescope-launch",
+      "stream": "curiosities",
+      "observer": "Why Today?",
+      "title": "A telescope built to find what we don't have a name for yet",
+      "observation": "NASA's Roman Space Telescope, cleared for an Aug 30 liftoff, carries a mirror the size of Hubble's but surveys roughly a hundred times more sky per shot \u2014 built for breadth rather than depth, to catch what narrower instruments would miss entirely.",
+      "question": "What do you build when the thing you're looking for doesn't have a name yet?",
+      "hidden_question": "Is breadth or depth the better strategy for finding something genuinely unexpected?",
+      "pattern": "wide-survey instrument built to catch what narrow ones would miss",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Roman was enclosed in its SpaceX Falcon Heavy fairing Aug 24 ahead of an Aug 30 liftoff from Kennedy Space Center; mission scientists say its wide field could turn up around 100,000 new worlds, more than every prior planet-hunting telescope combined.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://science.nasa.gov/blogs/roman/2026/08/24/nasas-roman-telescope-enclosed-in-spacex-falcon-heavy-rocket-fairing/",
+      "location": "Kennedy Space Center, Florida, USA",
+      "season_or_time_context": "pre-launch, targeting Aug 30",
+      "first_seen": "2026-08-25T00:20:00Z",
+      "last_seen": "2026-08-25T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-25T00:20:00Z",
+          "note": "Roman Space Telescope enclosed in its Falcon Heavy fairing Aug 24, on track for an Aug 30 launch; its wide-field design could find ~100,000 new worlds, more than all prior planet-hunting telescopes combined."
+        }
+      ],
+      "source_date": "2026-08-24"
     }
   ]
 }
