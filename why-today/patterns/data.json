@@ -1,6 +1,6 @@
 {
   "week": "2026-08-23",
-  "last_updated": "2026-08-25T00:20:00Z",
+  "last_updated": "2026-08-25T14:30:00Z",
   "recognitions": [
     {
       "id": "fire-season-relocates",
@@ -27,7 +27,7 @@
           "text": "Croatia's government has now approved an initial €20 million emergency aid package for Omiš, with more promised once the full damage is established; power is fully restored after 280 poles were rebuilt, but the recovery phase itself has widened to slope instability, temporary housing, and a still-open ignition investigation. Ten days on, the fire is the easy part to close.",
           "url": "https://www.croatiaweek.com/croatia-20-million-aid-package-omis-wildfire/",
           "date": "2026-08-22",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Wildfire",
@@ -56,14 +56,14 @@
           "text": "Indonesia's tsunami warning resolved in one morning; the death toll it handed off to has instead climbed for nine straight days, now to 100 dead, 1,603 injured and 180,000+ displaced. The alert was a same-day instrument measuring a wave. Nothing measures the count on the same timescale.",
           "url": "https://www.prokerala.com/news/articles/a1804178.html",
           "date": "2026-08-24",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Storm Recovery",
           "text": "Gary's recovery didn't just stall, it got shot at: a NIPSCO crew vehicle was struck by gunfire, pausing restoration on the very day of the Tuesday deadline. Two weeks in, the thing still undermining the fix is the same thing the storyline named on day one.",
           "url": "https://www.nbcchicago.com/news/local/power-restoration-resumes-in-gary-after-nipsco-crew-vehicle-struck-by-gunfire/3975885/",
           "date": "2026-08-24",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -136,21 +136,21 @@
           "text": "DRC and the Rwanda-backed M23 signed a ceasefire framework in Doha in November 2025. It took until Aug 24 - nine months - for the first verification mission to actually deploy: UN helicopters carrying three Congolese army officers paired with three from M23, plus African Union, Qatari and US observers, checking whether the fighting has really stopped in Minembwe and Kalehe. Signing took an afternoon. Confirming it took three-quarters of a year.",
           "url": "https://www.france24.com/en/africa/20260824-ceasefire-verification-mission-deploys-eastern-dr-congo",
           "date": "2026-08-24",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Judicial",
           "text": "The Supreme Court stayed a lower-court block on Trump's mail-voting order - and its own majority said the stay doesn't address whether the order is lawful at all. Justice Jackson dissented, calling the government's stay request 'empty, strategic, and bad-faith.' The side that won, won a procedural question. The question everyone was actually asking is still sitting there, five months before the midterms.",
           "url": "https://www.npr.org/2026/08/24/nx-s1-5909592/trump-mail-voting-order-supreme-court",
           "date": "2026-08-24",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy Shipping",
           "text": "Iran and Oman describe their Hormuz transit-route framework as an 'agreement in principle' that is 'still being finalized' - their own words, not a headline's gloss. Washington isn't a party to it. A market repricing tanker premiums on this news is pricing a framework that both sides have already said isn't done.",
           "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-24-2026",
           "date": "2026-08-24",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
