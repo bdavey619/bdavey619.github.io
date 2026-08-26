@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-25T12:47:39.110725+00:00",
+  "generated_at": "2026-08-26T12:52:44.697447+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -212,19 +212,17 @@
       "gamePk": 823183,
       "status": "final",
       "result": "W",
-      "score": "5\u20130"
+      "score": "5\u20130",
+      "archive_url": "archive.html?date=2026-08-25"
     },
     {
       "date": "2026-08-25",
       "opponent": "CIN",
       "home": true,
       "gamePk": 823181,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "team": "Adrian Houser",
-        "opp": "Brady Singer"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "3\u20131"
     },
     {
       "date": "2026-08-26",
@@ -280,8 +278,8 @@
     }
   ],
   "summary": {
-    "month_record": "6\u201315",
-    "current_streak": "W1",
-    "last_10": "3\u20137"
+    "month_record": "7\u201315",
+    "current_streak": "W2",
+    "last_10": "4\u20136"
   }
 }
