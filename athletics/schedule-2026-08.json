@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-08",
   "division_name": "AL West",
-  "generated_at": "2026-08-25T13:30:10.316919+00:00",
+  "generated_at": "2026-08-26T13:36:23.566394+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -221,19 +221,17 @@
       "gamePk": 824964,
       "status": "final",
       "result": "L",
-      "score": "6\u20139"
+      "score": "6\u20139",
+      "archive_url": "archive.html?date=2026-08-25"
     },
     {
       "date": "2026-08-25",
       "opponent": "MIN",
       "home": true,
       "gamePk": 824962,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Gage Jump",
-        "opp": "Taj Bradley"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "4\u20132"
     },
     {
       "date": "2026-08-26",
@@ -281,8 +279,8 @@
     }
   ],
   "summary": {
-    "month_record": "6\u201316",
-    "current_streak": "L1",
-    "last_10": "3\u20137"
+    "month_record": "7\u201316",
+    "current_streak": "W1",
+    "last_10": "4\u20136"
   }
 }
