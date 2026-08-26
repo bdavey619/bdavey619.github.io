@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-23",
-  "cycle_start": "2026-08-25T14:30:00Z",
-  "last_updated": "2026-08-26T00:20:00Z",
+  "cycle_start": "2026-08-26T00:20:00Z",
+  "last_updated": "2026-08-26T14:30:00Z",
   "storylines": [
     {
       "id": "moke-tropical-storm-hawaii",
@@ -136,8 +136,8 @@
       "pattern": "symbolic legislative rebuke coexisting with unchanged policy",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The Senate voted 47-49 against a binding war-powers resolution in July, after the House twice passed non-binding versions (June and July) with a handful of Republican defections each time \u2014 Congress's clearest stance yet on the war, without changing it.",
-      "status": "captured",
+      "why_now": "No new congressional action since the July 23 votes; going dormant rather than re-bumping the same stalemate a third time. Worth re-activating if a new resolution is introduced or if casualty trends (18 US troop deaths since February, ~500 injuries) force another vote.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.nbcnews.com/politics/congress/house-votes-end-iran-war-senate-republicans-let-trump-continue-war-rcna588874",
       "location": "Strait of Hormuz / Washington, DC",
@@ -201,16 +201,20 @@
       "pattern": "infrastructure failure exposing underlying social fragility",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "With hours left before NIPSCO's 11:59pm Tuesday deadline, about 3,000 customers remained dark, down from 7,000 Monday; Mayor Melton said he won't call it finished until every customer is back, and NIPSCO itself has warned the deadline won't cover every last property.",
+      "why_now": "NIPSCO reached ~99% restoration across northwest Indiana by 5pm Tuesday, hours ahead of its own deadline, with nearly all of Gary back \u2014 but the utility's own caveat still stands: some individual properties with localized damage will take longer than the headline number suggests.",
       "status": "captured",
       "editorial_potential": "high",
       "url": "https://www.cbsnews.com/chicago/news/nipsco-indiana-power-deadline-mayor-eddie-melton/",
       "location": "Gary, Indiana, USA",
       "season_or_time_context": "summer storm season",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-26T00:20:00Z",
-      "appearances": 6,
+      "last_seen": "2026-08-26T14:30:00Z",
+      "appearances": 7,
       "history": [
+        {
+          "date": "2026-08-26T14:30:00Z",
+          "note": "NIPSCO hit ~99% restoration across NW Indiana by 5pm Tuesday, ahead of its deadline, with nearly all of Gary back on \u2014 two weeks after the derecho, and with the utility still cautioning some individual properties will take longer."
+        },
         {
           "date": "2026-08-26T00:20:00Z",
           "note": "Down to ~3,000 customers dark as the Tuesday deadline nears, from 7,000 Monday; NIPSCO itself cautions the deadline won't cover every last property, and Melton says the job isn't done until everyone's back."
@@ -226,10 +230,6 @@
         {
           "date": "2026-08-24T00:20:00Z",
           "note": "ComEd dispatched 60+ crew members Saturday to join NIPSCO's 600+ linemen restoring Gary; Tuesday's 11:59pm target now carries 95% confidence, per NIPSCO."
-        },
-        {
-          "date": "2026-08-23T14:10:00Z",
-          "note": "NIPSCO now targets Tuesday for full Gary restoration; crews are rebuilding 335 damaged poles and 27 substation outages, not just clearing lines. State is paying $5,000 grants to affected families."
         }
       ],
       "source_date": "2026-08-25"
@@ -313,16 +313,20 @@
       "pattern": "institutional continuity undercut by a change in who's speaking",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Markets are already trading around the symposium before it starts: Nasdaq futures slid Monday on a mix of Iran-sanctions news and Canada tariff fallout, with Warsh's Friday speech landing in the same week as Nvidia earnings and fresh economic data.",
+      "why_now": "Bond and dollar markets are described as \"on edge\" heading into the symposium (which opens Thursday), with Treasury Secretary Bessent's bond-buyback intervention adding its own pressure on top of what Warsh says Friday around 10am ET \u2014 two policy voices now shaping the same trade.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.benzinga.com/markets/equities/26/08/61375782/stock-market-today-sp-500-nasdaq-100-futures-slip-ahead-of-data-heavy-week-nvidia-earnings-and-jacks",
+      "url": "https://www.cnbc.com/2026/08/26/jackson-hole-warsh-bessent-bonds-treasury-dollar.html",
       "location": "Jackson Hole, Wyoming, USA",
       "season_or_time_context": "Federal Reserve annual symposium",
       "first_seen": "2026-08-23T14:10:00Z",
-      "last_seen": "2026-08-24T14:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-08-26T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-08-26T14:30:00Z",
+          "note": "Bond and dollar markets now described as \"on edge\" ahead of Thursday's opening, with Bessent's Treasury intervention piling pressure onto Warsh's Friday ~10am ET keynote \u2014 two policy actors, one trade."
+        },
         {
           "date": "2026-08-24T14:20:00Z",
           "note": "Nasdaq slid Monday (-0.55%) partly on Iran-sanctions and Canada-tariff news ahead of the symposium; Warsh's Friday speech now shares a data-heavy week with Nvidia earnings, adding more variables traders have to weigh at once."
@@ -336,7 +340,7 @@
           "note": "Kevin Warsh, who succeeded Powell as Fed chair in May, delivers his first Jackson Hole keynote Aug 28; markets are still calibrating how to read his language ahead of the September FOMC meeting."
         }
       ],
-      "source_date": "2026-08-22"
+      "source_date": "2026-08-26"
     },
     {
       "id": "nvidia-earnings-ai-bellwether",
@@ -539,6 +543,35 @@
         {
           "date": "2026-08-26T00:20:00Z",
           "note": "Kocharyan detained on corruption charges a day after Pashinyan announced Armenia's EU membership bid; predecessor Sargsyan also charged in the same case, and Kocharyan's bloc calls it politically motivated."
+        }
+      ],
+      "source_date": "2026-08-25"
+    },
+    {
+      "id": "japan-south-korea-takaichi-lee-tensions",
+      "stream": "headlines",
+      "category": "Politics & World",
+      "observer": "Why Today?",
+      "title": "Japan and South Korea's leaders get along while their countries drift apart",
+      "observation": "A year into PM Takaichi's term, her personal rapport with South Korea's President Lee has held up far better than anyone expected \u2014 but analysts warn her rightward domestic agenda and renewed flashpoints are quietly eroding the diplomatic momentum underneath that friendship.",
+      "question": "How much does two leaders getting along personally matter when the structures beneath them are pulling apart?",
+      "hidden_question": "Is warm top-level diplomacy a genuine bulwark against drift, or just a lagging indicator that hasn't caught up to it yet?",
+      "pattern": "personal rapport at the top masking structural drift underneath",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Marking Takaichi's first year, South Korea's Institute for National Security Strategy warns her conservative agenda, renewed Yasukuni Shrine visits, and the Dokdo/Takeshima dispute risk unwinding the \"shuttle diplomacy\" gains built on her surprisingly cordial relationship with President Lee Jae-myung.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.koreaherald.com/article/10850191",
+      "location": "Tokyo, Japan / Seoul, South Korea",
+      "season_or_time_context": "one year into Takaichi's premiership",
+      "first_seen": "2026-08-26T14:30:00Z",
+      "last_seen": "2026-08-26T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-26T14:30:00Z",
+          "note": "A South Korean security institute warns Takaichi's rightward agenda and renewed Yasukuni/Dokdo flashpoints could erode the surprisingly warm Takaichi-Lee rapport that has carried Japan-Korea diplomacy through her first year."
         }
       ],
       "source_date": "2026-08-25"

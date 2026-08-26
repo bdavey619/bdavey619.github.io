@@ -1,6 +1,6 @@
 {
   "week": "2026-08-23",
-  "last_updated": "2026-08-26T00:20:00Z",
+  "last_updated": "2026-08-26T14:30:00Z",
   "recognitions": [
     {
       "id": "fire-season-relocates",
@@ -49,7 +49,7 @@
           "text": "Moke has now fully dissipated - the storm itself is gone, its circulation opened into a trough. That's the fast instrument closing the file. Nothing closes the file on what Lala's saturated ground still owes the Big Island, or on how many named systems it will take before that debt is actually paid down.",
           "url": "https://www.staradvertiser.com/2026/08/24/hawaii-news/hawaii-island-gets-a-break-as-moke-weakens-to-tropical-depression/",
           "date": "2026-08-25",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Disaster Response",
@@ -60,7 +60,7 @@
         },
         {
           "domain": "Storm Recovery",
-          "text": "Gary is down to roughly 3,000 customers dark as its deadline arrives, from tens of thousands two weeks ago - real progress, on paper. But NIPSCO itself has already warned the deadline won't cover every property, and the mayor won't call it finished until it actually is. The recovery clock still doesn't share the alert's precision.",
+          "text": "NIPSCO hit ~99% restoration by its own deadline - genuinely fast, as these things go. But the company's own footnote is the point: some individual properties will take longer, with no instrument tracking which ones or for how long. A 99% headline and a 0% headline look identical to whoever's still in the dark.",
           "url": "https://www.cbsnews.com/chicago/news/nipsco-indiana-power-deadline-mayor-eddie-melton/",
           "date": "2026-08-25",
           "is_new": true
