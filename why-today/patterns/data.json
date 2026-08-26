@@ -1,6 +1,6 @@
 {
   "week": "2026-08-23",
-  "last_updated": "2026-08-25T14:30:00Z",
+  "last_updated": "2026-08-26T00:20:00Z",
   "recognitions": [
     {
       "id": "fire-season-relocates",
@@ -46,10 +46,10 @@
       "evidence": [
         {
           "domain": "Utilities",
-          "text": "Moke's own track question resolved to a near-miss days ago, but NWS still has a Flood Watch active over the Big Island today - the storm's wind and rain forecast cleared before the ground it's falling on did. Saturation from Lala, not Moke's own strength, is now the operative hazard.",
-          "url": "https://www.cnn.com/2026/08/23/weather/tropical-storm-moke-dumping-heavy-rain-on-hawaiis-big-island-climate",
-          "date": "2026-08-23",
-          "is_new": false
+          "text": "Moke has now fully dissipated - the storm itself is gone, its circulation opened into a trough. That's the fast instrument closing the file. Nothing closes the file on what Lala's saturated ground still owes the Big Island, or on how many named systems it will take before that debt is actually paid down.",
+          "url": "https://www.staradvertiser.com/2026/08/24/hawaii-news/hawaii-island-gets-a-break-as-moke-weakens-to-tropical-depression/",
+          "date": "2026-08-25",
+          "is_new": true
         },
         {
           "domain": "Disaster Response",
@@ -60,10 +60,10 @@
         },
         {
           "domain": "Storm Recovery",
-          "text": "Gary's recovery didn't just stall, it got shot at: a NIPSCO crew vehicle was struck by gunfire, pausing restoration on the very day of the Tuesday deadline. Two weeks in, the thing still undermining the fix is the same thing the storyline named on day one.",
-          "url": "https://www.nbcchicago.com/news/local/power-restoration-resumes-in-gary-after-nipsco-crew-vehicle-struck-by-gunfire/3975885/",
-          "date": "2026-08-24",
-          "is_new": false
+          "text": "Gary is down to roughly 3,000 customers dark as its deadline arrives, from tens of thousands two weeks ago - real progress, on paper. But NIPSCO itself has already warned the deadline won't cover every property, and the mayor won't call it finished until it actually is. The recovery clock still doesn't share the alert's precision.",
+          "url": "https://www.cbsnews.com/chicago/news/nipsco-indiana-power-deadline-mayor-eddie-melton/",
+          "date": "2026-08-25",
+          "is_new": true
         }
       ]
     },

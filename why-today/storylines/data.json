@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-23",
-  "cycle_start": "2026-08-25T00:20:00Z",
-  "last_updated": "2026-08-25T14:30:00Z",
+  "cycle_start": "2026-08-25T14:30:00Z",
+  "last_updated": "2026-08-26T00:20:00Z",
   "storylines": [
     {
       "id": "moke-tropical-storm-hawaii",
@@ -17,13 +17,17 @@
       "why_now": "Storm track updates place Hawaii in the warning cone this week, the first significant tropical threat to the islands since recent wildfire recovery efforts began.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnn.com/2026/08/23/weather/tropical-storm-moke-dumping-heavy-rain-on-hawaiis-big-island-climate",
+      "url": "https://www.staradvertiser.com/2026/08/24/hawaii-news/hawaii-island-gets-a-break-as-moke-weakens-to-tropical-depression/",
       "location": "Hawaii, USA",
       "season_or_time_context": "Central Pacific hurricane season",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-24T14:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-26T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-08-26T00:20:00Z",
+          "note": "Moke has fully dissipated, its circulation opening into a trough southwest of Hawaii; the Big Island's rain forecast never reached the 15in worst case, and forecasters are calling it a break after Lala's earlier hit."
+        },
         {
           "date": "2026-08-24T14:20:00Z",
           "note": "NWS has a Flood Watch active through Monday afternoon; Big Island rain now running 5-10in with pockets to 15in on saturated ground from Lala. Moke is forecast to weaken to a post-tropical system by midweek."
@@ -41,7 +45,7 @@
           "note": "Tropical Storm Moke tracking toward Hawaii; National Weather Service Honolulu issuing advisories and watches for the islands."
         }
       ],
-      "source_date": "2026-08-22"
+      "source_date": "2026-08-24"
     },
     {
       "id": "canada-us-trade-war-retaliation",
@@ -197,16 +201,20 @@
       "pattern": "infrastructure failure exposing underlying social fragility",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "A NIPSCO crew vehicle was struck by gunfire, forcing restoration work to pause before resuming \u2014 the exact collision of storm recovery and disorder the storyline named, happening again just as NIPSCO's Tuesday, 11:59pm deadline arrives.",
+      "why_now": "With hours left before NIPSCO's 11:59pm Tuesday deadline, about 3,000 customers remained dark, down from 7,000 Monday; Mayor Melton said he won't call it finished until every customer is back, and NIPSCO itself has warned the deadline won't cover every last property.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.nbcchicago.com/news/local/power-restoration-resumes-in-gary-after-nipsco-crew-vehicle-struck-by-gunfire/3975885/",
+      "url": "https://www.cbsnews.com/chicago/news/nipsco-indiana-power-deadline-mayor-eddie-melton/",
       "location": "Gary, Indiana, USA",
       "season_or_time_context": "summer storm season",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-25T00:20:00Z",
-      "appearances": 5,
+      "last_seen": "2026-08-26T00:20:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-08-26T00:20:00Z",
+          "note": "Down to ~3,000 customers dark as the Tuesday deadline nears, from 7,000 Monday; NIPSCO itself cautions the deadline won't cover every last property, and Melton says the job isn't done until everyone's back."
+        },
         {
           "date": "2026-08-25T00:20:00Z",
           "note": "A NIPSCO crew vehicle working in Gary was struck by gunfire, pausing restoration before it resumed \u2014 happening the same day as NIPSCO's 11:59pm Tuesday restoration deadline."
@@ -222,13 +230,9 @@
         {
           "date": "2026-08-23T14:10:00Z",
           "note": "NIPSCO now targets Tuesday for full Gary restoration; crews are rebuilding 335 damaged poles and 27 substation outages, not just clearing lines. State is paying $5,000 grants to affected families."
-        },
-        {
-          "date": "2026-08-23T00:20:00Z",
-          "note": "NIPSCO crews still restoring power in Gary days after the storm; local reports of gunfire during the extended outage."
         }
       ],
-      "source_date": "2026-08-22"
+      "source_date": "2026-08-25"
     },
     {
       "id": "omis-zadar-arson-terrorism-question",
@@ -345,22 +349,26 @@
       "pattern": "single company as proxy for an entire industry's narrative",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Nvidia reports Q2 FY27 earnings Wednesday, Aug 26, after the close; consensus sits near $28.5B in some estimates but as high as $93-95B in others, and as the dominant AI-GPU supplier its guidance functions as a bellwether for the entire sector, landing in the same week as the Fed's Jackson Hole symposium.",
+      "why_now": "Wall Street now has a firm number to clear: $92.2B revenue and $2.09 EPS, +97.4% YoY, reporting after the close Wednesday. Analysts' own base case is that Nvidia beats it anyway and the stock still wobbles \u2014 options pricing implies a ~6% swing either way, on gross margin and memory-cost pressure.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/history-says-happen-nvidia-stock-155700687.html",
+      "url": "https://finance.yahoo.com/news/nvidia-earnings-ai-stocks-slide-134200676.html",
       "location": "United States",
       "season_or_time_context": "Q2 FY27 earnings season",
       "first_seen": "2026-08-24T14:20:00Z",
-      "last_seen": "2026-08-24T14:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-26T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-26T00:20:00Z",
+          "note": "Consensus firmed to $92.2B revenue / $2.09 EPS (+97.4% YoY); analysts' base case is Nvidia beats it and the stock wobbles anyway, with options pricing a ~6% move on gross-margin and memory-cost concerns."
+        },
         {
           "date": "2026-08-24T14:20:00Z",
           "note": "Nvidia reports Q2 FY27 earnings Wednesday, Aug 26, with estimates ranging widely; as the dominant AI-GPU supplier, its guidance is being read as a referendum on the entire AI buildout."
         }
       ],
-      "source_date": "2026-08-22"
+      "source_date": "2026-08-25"
     },
     {
       "id": "congo-m23-ceasefire-verification",
@@ -505,6 +513,35 @@
         }
       ],
       "source_date": "2026-08-24"
+    },
+    {
+      "id": "armenia-kocharyan-detention-eu-bid",
+      "stream": "headlines",
+      "category": "Politics & World",
+      "observer": "Why Today?",
+      "title": "Armenia jails its most prominent opposition leader the day after declaring for Europe",
+      "observation": "Armenian prosecutors detained former president and current opposition-bloc leader Robert Kocharyan on corruption charges one day after PM Pashinyan announced Armenia's EU membership bid \u2014 raising the question of whether the case is accountability or a rival cleared from the board at a pivotal moment.",
+      "question": "How do you tell an anti-corruption prosecution from a political purge when both can look identical from the outside?",
+      "hidden_question": "Does the timing itself become evidence, even when the underlying charges might be entirely legitimate?",
+      "pattern": "a legal crackdown landing at the exact moment it most benefits the government's freedom of maneuver",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Prosecutors detained Kocharyan, 71 \u2014 president from 1998-2008 and leader of parliament's second-largest opposition bloc \u2014 on abuse-of-authority, bribery and money-laundering charges, a day after Pashinyan set out Armenia's EU membership bid; predecessor Serzh Sargsyan faces charges in the same case, and Kocharyan's bloc calls it a \"cynical manifestation of a regime that has lost its legitimacy.\"",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://brusselssignal.eu/2026/08/armenia-detains-former-president-kocharyan-a-day-after-pashinyan-sets-out-eu-bid/",
+      "location": "Yerevan, Armenia",
+      "season_or_time_context": "ahead of Armenia's EU accession push",
+      "first_seen": "2026-08-26T00:20:00Z",
+      "last_seen": "2026-08-26T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-26T00:20:00Z",
+          "note": "Kocharyan detained on corruption charges a day after Pashinyan announced Armenia's EU membership bid; predecessor Sargsyan also charged in the same case, and Kocharyan's bloc calls it politically motivated."
+        }
+      ],
+      "source_date": "2026-08-25"
     }
   ]
 }
