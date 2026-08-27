@@ -1,6 +1,6 @@
 {
   "week": "2026-08-23",
-  "last_updated": "2026-08-26T14:30:00Z",
+  "last_updated": "2026-08-27T00:20:00Z",
   "recognitions": [
     {
       "id": "fire-season-relocates",
@@ -31,10 +31,10 @@
         },
         {
           "domain": "Wildfire",
-          "text": "EFFIS counted 568,415 hectares burned across the EU to Aug 13 from 1,647 separate fires - roughly 2.3 times the 20-year average for the date, but well below the 775,748 hectares burned by the same point in 2025. The season is extraordinary against its own history and unexceptional against last year, which is its own kind of finding.",
+          "text": "EFFIS now counts 626,818 hectares burned across the EU to Aug 25 from 1,797 fires - up from 568,415 twelve days earlier, and still below 2025's 983,367 for the same week. Spain alone accounts for 38% of the EU total. Third-worst year in over a decade and still climbing, which is not the same story as the record everyone keeps almost-declaring.",
           "url": "https://joint-research-centre.ec.europa.eu/projects-and-activities/natural-and-man-made-hazards/forest-fires/current-wildfire-situation-europe_en",
-          "date": "2026-08-17",
-          "is_new": false
+          "date": "2026-08-25",
+          "is_new": true
         }
       ]
     },
@@ -63,35 +63,6 @@
           "text": "NIPSCO hit ~99% restoration by its own deadline - genuinely fast, as these things go. But the company's own footnote is the point: some individual properties will take longer, with no instrument tracking which ones or for how long. A 99% headline and a 0% headline look identical to whoever's still in the dark.",
           "url": "https://www.cbsnews.com/chicago/news/nipsco-indiana-power-deadline-mayor-eddie-melton/",
           "date": "2026-08-25",
-          "is_new": true
-        }
-      ]
-    },
-    {
-      "id": "priced-as-permanent",
-      "title": "Three markets stopped pricing these disruptions as interruptions and started pricing them as the baseline",
-      "explanation": "An interruption and a permanent condition carry the same headline and completely different prices. Monday was the day three separate systems switched from the first to the second within hours of each other: an energy market that had spent 60 days pricing a deal, a bond market repricing the cost of borrowing for thirty years, and a set of infrastructure owners committing capital on the assumption that the water and the weather are not coming back. None of them is waiting for a return to normal any more.",
-      "momentum": "building",
-      "evidence": [
-        {
-          "domain": "Sovereign Debt",
-          "text": "The 30-year Treasury yield set a 19-year high two sessions running, then pulled back 9 basis points Wednesday the moment Treasury unexpectedly announced it would at least double its long-dated debt buybacks. The relief lasted about a day: by Thursday's close it was already unwound, and Friday it kept climbing - the 10-year near 4.7%, the 30-year near 5.25%, both still rising, stocks falling on the same move. Two full sessions after the announcement, the market has had two separate chances to treat the intervention as durable and passed on both. That is confirmation, not ambiguity: the deficit and inflation story is what's being priced, not the buyback.",
-          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
-          "date": "2026-08-21",
-          "is_new": false
-        },
-        {
-          "domain": "Energy",
-          "text": "The two tracks stopped waiting on each other this week: Washington is finalizing new economic sanctions on Iran even as Tehran finalizes its own transit workaround with Oman. Neither side is treating the other's process as a precondition for its own - confirmation that both now expect this to be the permanent shape of things, not an interruption headed toward resolution.",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-24-2026",
-          "date": "2026-08-24",
-          "is_new": false
-        },
-        {
-          "domain": "Infrastructure",
-          "text": "The capital commitments give it away. Hungary is building a bed sill into the Danube - 145,000 cubic metres of rock, plus two 260-foot barges that may be sunk at the cooling pumps - to raise a river permanently rather than move a nuclear plant. Hawaiian Electric is planning a rebuild measured in months. On the Rhine, freight is being restructured onto road and rail while Kaub sits at a single-digit gauge reading with no meaningful rain in the catchments. Nobody spends like this on something they expect to end.",
-          "url": "https://eutoday.net/rhine-record-6cm-kaub-freight-shifts/",
-          "date": "2026-08-16",
           "is_new": false
         }
       ]
@@ -133,24 +104,24 @@
       "evidence": [
         {
           "domain": "Peacekeeping",
-          "text": "DRC and the Rwanda-backed M23 signed a ceasefire framework in Doha in November 2025. It took until Aug 24 - nine months - for the first verification mission to actually deploy: UN helicopters carrying three Congolese army officers paired with three from M23, plus African Union, Qatari and US observers, checking whether the fighting has really stopped in Minembwe and Kalehe. Signing took an afternoon. Confirming it took three-quarters of a year.",
-          "url": "https://www.france24.com/en/africa/20260824-ceasefire-verification-mission-deploys-eastern-dr-congo",
+          "text": "The verification mission didn't settle anything by deploying - it just moved the argument onto the ground. It's now stopping at Uvira and Kalehe, both recent flashpoints, and even the mediators concede both sides keep trading violation accusations that 'often cannot be independently verified.' The mission exists to answer the exact question it can't yet answer.",
+          "url": "https://www.africanews.com/2026/08/24/mission-to-verify-drc-m23-ceasefire-gets-underway-in-south-kivu/",
           "date": "2026-08-24",
-          "is_new": false
+          "is_new": true
         },
         {
           "domain": "Judicial",
-          "text": "The Supreme Court stayed a lower-court block on Trump's mail-voting order - and its own majority said the stay doesn't address whether the order is lawful at all. Justice Jackson dissented, calling the government's stay request 'empty, strategic, and bad-faith.' The side that won, won a procedural question. The question everyone was actually asking is still sitting there, five months before the midterms.",
-          "url": "https://www.npr.org/2026/08/24/nx-s1-5909592/trump-mail-voting-order-supreme-court",
-          "date": "2026-08-24",
-          "is_new": false
+          "text": "The 'resolution' changed nothing on the ground: a separate nationwide ruling from a Boston federal judge still blocks the Postal Service from following Trump's order, so the Supreme Court's procedural win may not alter a single actual midterm mail-ballot rule. Jackson said her colleagues showed 'a lack of situational awareness' injecting chaos into the cycle for a victory that doesn't yet do anything.",
+          "url": "https://www.pbs.org/newshour/politics/nothing-changes-yet-with-the-supreme-courts-order-on-mail-voting-but-it-could-open-door-to-chaos",
+          "date": "2026-08-25",
+          "is_new": true
         },
         {
           "domain": "Energy Shipping",
-          "text": "Iran and Oman describe their Hormuz transit-route framework as an 'agreement in principle' that is 'still being finalized' - their own words, not a headline's gloss. Washington isn't a party to it. A market repricing tanker premiums on this news is pricing a framework that both sides have already said isn't done.",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-24-2026",
-          "date": "2026-08-24",
-          "is_new": false
+          "text": "Washington is now holding off on new Iran sanctions specifically to let the Oman transit deal finalize - and Iran's own Revolutionary Guards say the US is the one obstructing that same deal. Both governments are publicly waiting on an agreement that, by their own account, the other is blocking.",
+          "url": "https://www.cnbc.com/2026/08/26/us-iran-war-trump-hormuz.html",
+          "date": "2026-08-26",
+          "is_new": true
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-23",
-  "cycle_start": "2026-08-26T00:20:00Z",
-  "last_updated": "2026-08-26T14:30:00Z",
+  "cycle_start": "2026-08-26T14:30:00Z",
+  "last_updated": "2026-08-27T00:20:00Z",
   "storylines": [
     {
       "id": "moke-tropical-storm-hawaii",
@@ -59,16 +59,20 @@
       "pattern": "escalation as bargaining posture between interdependent economies",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Trump administration says it will \"respond to Canadian retaliation,\" a day after Carney said Canada had offered to drop its remaining steel, aluminum and auto tariffs if the US lowered its own \u2014 an offer Washington's \"last-minute changes\" scuttled, by Carney's account.",
+      "why_now": "Ottawa's retaliation now has hard specifics: tariffs of 15-50% on more than 700 US goods worth roughly $20B, taking effect Sept 8 \u2014 a concrete mirror of the US's own 50% duties on Canadian dairy, alcohol, and building materials that took effect Aug 22.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.nbcnews.com/business/economy/trump-canada-tariffs-carney-rcna593510",
+      "url": "https://www.cnbc.com/2026/08/25/canada-trump-tariffs-trade-carney-leblanc.html",
       "location": "Canada / United States",
       "season_or_time_context": "ongoing trade dispute",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-24T14:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-08-27T00:20:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-08-27T00:20:00Z",
+          "note": "Canada's retaliation is now concrete: 15-50% tariffs on 700+ US goods worth ~$20B, effective Sept 8, mirroring the US's own 50% duties on Canadian goods that took effect Aug 22."
+        },
         {
           "date": "2026-08-24T14:20:00Z",
           "note": "Carney says Canada had offered to drop its remaining steel/aluminum/auto tariffs if the US lowered its own, blaming Washington's \"last-minute changes\" for the collapse; the US says it will \"respond to Canadian retaliation.\""
@@ -82,7 +86,7 @@
           "note": "Canada's government signaling new retaliatory measures against US tariffs; talks between Ottawa and Washington remain stalled."
         }
       ],
-      "source_date": "2026-08-23"
+      "source_date": "2026-08-25"
     },
     {
       "id": "hormuz-iran-new-demands",
@@ -95,16 +99,20 @@
       "pattern": "chokepoint leverage priced as permanent risk premium",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Trump administration is expected to announce new economic sanctions on Iran this week, even as Iran and Oman work through their transit-route framework \u2014 pressure and workaround advancing on separate, uncoordinated tracks.",
+      "why_now": "The two tracks are no longer uncoordinated: the US is holding off on new secondary sanctions while Iran and Oman finalize a temporary shipping corridor and mine-clearing plan \u2014 and Iran's Revolutionary Guards now accuse Washington of obstructing that same agreement it's ostensibly waiting on.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-24-2026",
+      "url": "https://www.cnbc.com/2026/08/26/us-iran-war-trump-hormuz.html",
       "location": "Strait of Hormuz",
       "season_or_time_context": "ongoing regional tension",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-24T14:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-27T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-08-27T00:20:00Z",
+          "note": "The US is now holding off on new secondary sanctions while the Iran-Oman temporary shipping corridor/mine-clearing plan is finalized; Iran's Revolutionary Guards accuse the US of obstructing the same deal it's waiting on."
+        },
         {
           "date": "2026-08-24T14:20:00Z",
           "note": "The Trump administration is expected to detail new economic sanctions on Iran this week \u2014 Nasdaq already slid Monday partly on the news, even as the Iran-Oman transit talks continue on their own track."
@@ -122,7 +130,7 @@
           "note": "Iran issued new demands tied to Strait of Hormuz shipping this week, pushing oil futures and tanker insurance premiums higher."
         }
       ],
-      "source_date": "2026-08-21"
+      "source_date": "2026-08-26"
     },
     {
       "id": "hormuz-war-no-vote",
@@ -353,16 +361,20 @@
       "pattern": "single company as proxy for an entire industry's narrative",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Wall Street now has a firm number to clear: $92.2B revenue and $2.09 EPS, +97.4% YoY, reporting after the close Wednesday. Analysts' own base case is that Nvidia beats it anyway and the stock still wobbles \u2014 options pricing implies a ~6% swing either way, on gross margin and memory-cost pressure.",
+      "why_now": "The analysts' own prediction landed exactly: Nvidia beat both revenue ($96.22B vs. $92.17B expected) and EPS ($2.22 vs. $2.10), and the stock still fell in after-hours trading \u2014 from about $209.91 to as low as $206.36. A clean beat wasn't enough; the market wanted the story confirmed, not just the numbers.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://finance.yahoo.com/news/nvidia-earnings-ai-stocks-slide-134200676.html",
+      "url": "https://www.shacknews.com/article/150497/nvidia-nvda-q2-2027-earnings-results",
       "location": "United States",
       "season_or_time_context": "Q2 FY27 earnings season",
       "first_seen": "2026-08-24T14:20:00Z",
-      "last_seen": "2026-08-26T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-27T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-08-27T00:20:00Z",
+          "note": "Results are in: Nvidia beat both revenue ($96.22B vs $92.17B est.) and EPS ($2.22 vs $2.10 est.), and the stock still fell after hours (~$209.91 to ~$206.36) - the predicted pattern played out exactly as analysts expected."
+        },
         {
           "date": "2026-08-26T00:20:00Z",
           "note": "Consensus firmed to $92.2B revenue / $2.09 EPS (+97.4% YoY); analysts' base case is Nvidia beats it and the stock wobbles anyway, with options pricing a ~6% move on gross-margin and memory-cost concerns."
@@ -386,16 +398,20 @@
       "pattern": "the gap between a signed agreement and a verified one",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "UN helicopters deployed the first EJVM+ verification mission to Minembwe on Aug 24, pairing three Congolese army officers with three from M23 alongside African Union, Qatari and US observers, days after DRC and M23 emerged from five days of talks in Switzerland with a peace roadmap.",
+      "why_now": "The mission will also visit Uvira, where M23 withdrew in January, and Kalehe, where fighting has continued in recent weeks \u2014 and even Swiss mediators concede both sides keep accusing each other of violations that \"often cannot be independently verified,\" which is the entire reason a verification mission exists.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.france24.com/en/africa/20260824-ceasefire-verification-mission-deploys-eastern-dr-congo",
+      "url": "https://www.africanews.com/2026/08/24/mission-to-verify-drc-m23-ceasefire-gets-underway-in-south-kivu/",
       "location": "Eastern Democratic Republic of Congo",
       "season_or_time_context": "post-ceasefire verification phase",
       "first_seen": "2026-08-25T00:20:00Z",
-      "last_seen": "2026-08-25T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-27T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-27T00:20:00Z",
+          "note": "The mission is also stopping at Uvira and Kalehe, both recent flashpoints; despite the deployment, both sides keep trading violation accusations that often can't be independently confirmed - the fragility the mission exists to fix."
+        },
         {
           "date": "2026-08-25T00:20:00Z",
           "note": "First EJVM+ ceasefire verification mission deployed to Minembwe, pairing Congolese army and M23 officers with AU/Qatari/US observers, days after DRC and M23 agreed a peace roadmap in Switzerland."
@@ -414,17 +430,21 @@
       "pattern": "collective behavior organized around an unverifiable belief",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Ghost Day, the 15th and most significant day of the lunar Ghost Month, falls Aug 27; in Taiwan especially, many people avoid travel and major life decisions for the entire month, and Hakka communities mark it with large ritual feasts.",
+      "why_now": "Ghost Day itself falls today, Aug 27 \u2014 Taiwan's port city of Keelung marks it with p\u01d4 d\u00f9 offering tables and lantern releases that run for the entire month, one of the most visible folk observances anywhere in the Ghost Month calendar.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://ohsnapletseat.com/2026/08/22/hungry-ghost-festival-taiwan/",
+      "url": "https://ltl-taiwan.com/ghost-month-zhong-yuan-festival/",
       "location": "China, Taiwan, and Chinese diaspora communities",
       "season_or_time_context": "Ghost Month, lunar 7th month",
       "source_evergreen": true,
       "first_seen": "2026-08-25T00:20:00Z",
-      "last_seen": "2026-08-25T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-27T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-27T00:20:00Z",
+          "note": "Ghost Day has arrived; Keelung's p\u01d4 d\u00f9 offering tables and month-long lantern releases are among the most visible observances anywhere in the Ghost Month calendar."
+        },
         {
           "date": "2026-08-25T00:20:00Z",
           "note": "Ghost Month is underway, with Ghost Day (the 15th day) falling Aug 27; Taiwan communities especially avoid travel and major decisions for the full month."
@@ -444,16 +464,20 @@
       "pattern": "a ruling that resolves the process while leaving the substance undecided",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Court's stay lets a 23-state-plus-DC challenge proceed on \"too early\" procedural grounds; Sotomayor and Kagan wrote the decision doesn't address the order's lawfulness, and Jackson dissented sharply, calling the government's stay request \"empty, strategic, and bad-faith.\"",
+      "why_now": "Even with the Court's win, nothing actually changes yet: a separate nationwide ruling from a Boston federal judge still blocks the Postal Service from following Trump's order, meaning this procedural victory may not alter a single midterm mail-ballot procedure. Jackson accused her colleagues of \"a lack of situational awareness\" for injecting chaos into the election cycle.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.npr.org/2026/08/24/nx-s1-5909592/trump-mail-voting-order-supreme-court",
+      "url": "https://www.pbs.org/newshour/politics/nothing-changes-yet-with-the-supreme-courts-order-on-mail-voting-but-it-could-open-door-to-chaos",
       "location": "Washington, DC",
       "season_or_time_context": "ahead of November 2026 midterms",
       "first_seen": "2026-08-25T00:20:00Z",
-      "last_seen": "2026-08-25T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-27T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-27T00:20:00Z",
+          "note": "A separate nationwide ruling still blocks USPS from following Trump's order, so the SCOTUS win may change zero actual midterm procedures; Jackson said colleagues showed \"a lack of situational awareness\" injecting chaos into the cycle."
+        },
         {
           "date": "2026-08-25T00:20:00Z",
           "note": "SCOTUS stayed a lower-court block on Trump's mail-voting order on procedural grounds only; Sotomayor/Kagan noted the lawfulness question remains open, and Jackson dissented, calling the stay bid \"bad-faith.\""
@@ -472,22 +496,26 @@
       "pattern": "wide-survey instrument built to catch what narrow ones would miss",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Roman was enclosed in its SpaceX Falcon Heavy fairing Aug 24 ahead of an Aug 30 liftoff from Kennedy Space Center; mission scientists say its wide field could turn up around 100,000 new worlds, more than every prior planet-hunting telescope combined.",
+      "why_now": "Roman moved to the SpaceX hangar at Launch Complex 39A on Aug 25 ahead of mating to its Falcon Heavy, with liftoff now pinned to 7:26am EDT Sunday, Aug 30 (backup: 7:22am Monday) \u2014 the countdown has stopped being an estimate and become a schedule.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://science.nasa.gov/blogs/roman/2026/08/24/nasas-roman-telescope-enclosed-in-spacex-falcon-heavy-rocket-fairing/",
+      "url": "https://science.nasa.gov/blogs/roman/2026/08/25/nasas-nancy-grace-roman-space-telescope-arrives-at-hangar/",
       "location": "Kennedy Space Center, Florida, USA",
       "season_or_time_context": "pre-launch, targeting Aug 30",
       "first_seen": "2026-08-25T00:20:00Z",
-      "last_seen": "2026-08-25T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-27T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-27T00:20:00Z",
+          "note": "Roman arrived at the SpaceX hangar at Pad 39A Aug 25 for rocket mating; launch time is now set at 7:26am EDT Sunday Aug 30, with a Monday backup if needed."
+        },
         {
           "date": "2026-08-25T00:20:00Z",
           "note": "Roman Space Telescope enclosed in its Falcon Heavy fairing Aug 24, on track for an Aug 30 launch; its wide-field design could find ~100,000 new worlds, more than all prior planet-hunting telescopes combined."
         }
       ],
-      "source_date": "2026-08-24"
+      "source_date": "2026-08-25"
     },
     {
       "id": "brazil-debate-frontrunners-skip",
@@ -501,16 +529,20 @@
       "pattern": "leading candidates opting out of the format meant to let voters compare them",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Band TV's first debate of Brazil's October presidential race went ahead Aug 23 without Lula or Fl\u00e1vio Bolsonaro; Novo's Romeu Zema then pulled out live, on the day, citing Lula's absence, leaving only three lower-polling candidates on stage.",
+      "why_now": "Neither frontrunner just stayed home: Lula counter-programmed with a live TV Record interview at the exact hour of the debate, while Bolsonaro posted an attack video the same night \u2014 both running their own show instead of sharing the one built for voters to compare them, as fresh polling shows the race essentially tied (43-40 Quaest, narrowing from a 5-point lead).",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.riotimesonline.com/brazils-first-presidential-debate-held-with-empty-lecterns/",
+      "url": "https://www.breitbart.com/latin-america/2026/08/24/poll-brazils-lula-da-silva-flavio-bolsonaro-technically-tied-presidential-race/",
       "location": "S\u00e3o Paulo, Brazil",
       "season_or_time_context": "ahead of October 2026 presidential election",
       "first_seen": "2026-08-25T14:30:00Z",
-      "last_seen": "2026-08-25T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-27T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-27T00:20:00Z",
+          "note": "Lula ran a competing live TV interview at the exact hour of the debate; Bolsonaro posted a same-night attack video instead of attending. Fresh polling shows the race essentially tied, Lula's lead narrowing from 5 points to 3."
+        },
         {
           "date": "2026-08-25T14:30:00Z",
           "note": "Brazil's first presidential debate (Aug 23) went ahead without Lula or Fl\u00e1vio Bolsonaro; Novo's Zema then withdrew live, citing Lula's absence, leaving three lower-polling candidates to debate each other."
@@ -530,16 +562,20 @@
       "pattern": "a legal crackdown landing at the exact moment it most benefits the government's freedom of maneuver",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Prosecutors detained Kocharyan, 71 \u2014 president from 1998-2008 and leader of parliament's second-largest opposition bloc \u2014 on abuse-of-authority, bribery and money-laundering charges, a day after Pashinyan set out Armenia's EU membership bid; predecessor Serzh Sargsyan faces charges in the same case, and Kocharyan's bloc calls it a \"cynical manifestation of a regime that has lost its legitimacy.\"",
+      "why_now": "The detention came less than 24 hours after Pashinyan clashed with Kocharyan's son Levon in a fiery parliament exchange \u2014 and Kocharyan, 71, was rushed to hospital after his health deteriorated in custody, adding a personal, immediate trigger to the EU-timing question already surrounding the case.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://brusselssignal.eu/2026/08/armenia-detains-former-president-kocharyan-a-day-after-pashinyan-sets-out-eu-bid/",
+      "url": "https://mirrorspectator.com/2026/08/25/kocharyan-arrested-after-heated-parliament-exchange/",
       "location": "Yerevan, Armenia",
       "season_or_time_context": "ahead of Armenia's EU accession push",
       "first_seen": "2026-08-26T00:20:00Z",
-      "last_seen": "2026-08-26T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-27T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-27T00:20:00Z",
+          "note": "New detail: the detention followed a heated parliament clash between Pashinyan and Kocharyan's son Levon less than a day earlier, and Kocharyan was hospitalized after his health deteriorated in custody."
+        },
         {
           "date": "2026-08-26T00:20:00Z",
           "note": "Kocharyan detained on corruption charges a day after Pashinyan announced Armenia's EU membership bid; predecessor Sargsyan also charged in the same case, and Kocharyan's bloc calls it politically motivated."

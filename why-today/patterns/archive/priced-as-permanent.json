@@ -1,0 +1,31 @@
+{
+  "id": "priced-as-permanent",
+  "title": "Three markets stopped pricing these disruptions as interruptions and started pricing them as the baseline",
+  "explanation": "An interruption and a permanent condition carry the same headline and completely different prices. Monday was the day three separate systems switched from the first to the second within hours of each other: an energy market that had spent 60 days pricing a deal, a bond market repricing the cost of borrowing for thirty years, and a set of infrastructure owners committing capital on the assumption that the water and the weather are not coming back. None of them is waiting for a return to normal any more.",
+  "momentum": "building",
+  "evidence": [
+    {
+      "domain": "Sovereign Debt",
+      "text": "The 30-year Treasury yield set a 19-year high two sessions running, then pulled back 9 basis points Wednesday the moment Treasury unexpectedly announced it would at least double its long-dated debt buybacks. The relief lasted about a day: by Thursday's close it was already unwound, and Friday it kept climbing - the 10-year near 4.7%, the 30-year near 5.25%, both still rising, stocks falling on the same move. Two full sessions after the announcement, the market has had two separate chances to treat the intervention as durable and passed on both. That is confirmation, not ambiguity: the deficit and inflation story is what's being priced, not the buyback.",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "date": "2026-08-21",
+      "is_new": false
+    },
+    {
+      "domain": "Energy",
+      "text": "The two tracks stopped waiting on each other this week: Washington is finalizing new economic sanctions on Iran even as Tehran finalizes its own transit workaround with Oman. Neither side is treating the other's process as a precondition for its own - confirmation that both now expect this to be the permanent shape of things, not an interruption headed toward resolution.",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-24-2026",
+      "date": "2026-08-24",
+      "is_new": false
+    },
+    {
+      "domain": "Infrastructure",
+      "text": "The capital commitments give it away. Hungary is building a bed sill into the Danube - 145,000 cubic metres of rock, plus two 260-foot barges that may be sunk at the cooling pumps - to raise a river permanently rather than move a nuclear plant. Hawaiian Electric is planning a rebuild measured in months. On the Rhine, freight is being restructured onto road and rail while Kaub sits at a single-digit gauge reading with no meaningful rain in the catchments. Nobody spends like this on something they expect to end.",
+      "url": "https://eutoday.net/rhine-record-6cm-kaub-freight-shifts/",
+      "date": "2026-08-16",
+      "is_new": false
+    }
+  ],
+  "retired": "2026-08-27T00:20:00Z",
+  "retired_reason": "Infrastructure evidence (Aug 16) crossed 11 days old with no fresher Danube/Rhine reporting found across three consecutive audit checks (Aug 25, 26, 27) - the underlying river situation is real but structurally slow-moving (next meaningful rain unlikely before October), so it stopped producing new developments to refresh against. The other two evidence items (Sovereign Debt, Energy) remained live, but the recognition as constituted couldn't sustain a 3-item evidence set without one going stale."
+}
