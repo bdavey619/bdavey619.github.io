@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-08",
   "division_name": "AL West",
-  "generated_at": "2026-08-26T13:36:23.566394+00:00",
+  "generated_at": "2026-08-27T22:31:48.854259+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -231,19 +231,17 @@
       "gamePk": 824962,
       "status": "final",
       "result": "W",
-      "score": "4\u20132"
+      "score": "4\u20132",
+      "archive_url": "archive.html?date=2026-08-26"
     },
     {
       "date": "2026-08-26",
       "opponent": "MIN",
       "home": true,
       "gamePk": 824963,
-      "status": "scheduled",
-      "time_local": "6:05 PM PT",
-      "probable": {
-        "team": "J.T. Ginn",
-        "opp": "Connor Prielipp"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "7\u20134"
     },
     {
       "date": "2026-08-28",
@@ -251,7 +249,10 @@
       "home": true,
       "gamePk": 824960,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "opp": "Brandon Young"
+      }
     },
     {
       "date": "2026-08-29",
@@ -259,7 +260,10 @@
       "home": true,
       "gamePk": 824961,
       "status": "scheduled",
-      "time_local": "7:05 PM PT"
+      "time_local": "7:05 PM PT",
+      "probable": {
+        "opp": "Shane Baz"
+      }
     },
     {
       "date": "2026-08-30",
@@ -267,7 +271,10 @@
       "home": true,
       "gamePk": 824959,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "opp": "Chris Bassitt"
+      }
     },
     {
       "date": "2026-08-31",
@@ -279,8 +286,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u201316",
-    "current_streak": "W1",
+    "month_record": "8\u201316",
+    "current_streak": "W2",
     "last_10": "4\u20136"
   }
 }
