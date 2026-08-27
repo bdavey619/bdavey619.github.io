@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-23",
-  "cycle_start": "2026-08-26T14:30:00Z",
-  "last_updated": "2026-08-27T00:20:00Z",
+  "cycle_start": "2026-08-27T00:20:00Z",
+  "last_updated": "2026-08-27T14:30:00Z",
   "storylines": [
     {
       "id": "moke-tropical-storm-hawaii",
@@ -177,16 +177,20 @@
       "pattern": "remoteness as a second disaster layered on the first",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "BNPB now puts the toll at 100 dead and 1,603 injured, with over 180,000 still displaced \u2014 the deadliest earthquake to hit Indonesia since 2022, and the number is still climbing nine days after the quake itself.",
+      "why_now": "President Prabowo personally visited earthquake-affected residents in Nagekeo on Aug 26 \u2014 Vice President Gibran had already toured East Nusa Tenggara on Aug 20 \u2014 as the government's own recovery timeline stretches into its second week with the top leadership only now making it to the ground.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.prokerala.com/news/articles/a1804178.html",
+      "url": "https://www.dfat.gov.au/news/media/Pages/indonesia-earthquakes-recovery-and-reconstruction-assistance",
       "location": "Flores, Indonesia",
       "season_or_time_context": "post-disaster recovery",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-25T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-27T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-08-27T14:30:00Z",
+          "note": "President Prabowo visited quake-affected residents in Nagekeo on Aug 26, following VP Gibran's Aug 20 tour of East Nusa Tenggara - the country's top leadership only reaching the ground nearly two weeks after the quake."
+        },
         {
           "date": "2026-08-25T00:20:00Z",
           "note": "BNPB's toll rose to 100 dead, 1,603 injured, 180,000+ displaced as of Aug 24 \u2014 nine days after the quake, still Indonesia's deadliest since 2022, and still not final."
@@ -321,16 +325,20 @@
       "pattern": "institutional continuity undercut by a change in who's speaking",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Bond and dollar markets are described as \"on edge\" heading into the symposium (which opens Thursday), with Treasury Secretary Bessent's bond-buyback intervention adding its own pressure on top of what Warsh says Friday around 10am ET \u2014 two policy voices now shaping the same trade.",
+      "why_now": "The symposium opened Thursday with Bank of America publicly labeling it a \"key risk event\" for markets, coming right on the heels of the Treasury's own bond-market intervention \u2014 the informal opening dinner has barely started and analysts are already treating tomorrow's keynote as the week's central event.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/08/26/jackson-hole-warsh-bessent-bonds-treasury-dollar.html",
+      "url": "https://www.axios.com/2026/08/27/jackson-hole-federal-reserve",
       "location": "Jackson Hole, Wyoming, USA",
       "season_or_time_context": "Federal Reserve annual symposium",
       "first_seen": "2026-08-23T14:10:00Z",
-      "last_seen": "2026-08-26T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-27T14:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-08-27T14:30:00Z",
+          "note": "Symposium opened Thursday; Bank of America has labeled it a \"key risk event\" for markets following the Treasury's bond intervention, with roughly 120 officials from 70+ countries attending ahead of Warsh's Friday keynote."
+        },
         {
           "date": "2026-08-26T14:30:00Z",
           "note": "Bond and dollar markets now described as \"on edge\" ahead of Thursday's opening, with Bessent's Treasury intervention piling pressure onto Warsh's Friday ~10am ET keynote \u2014 two policy actors, one trade."
@@ -562,16 +570,20 @@
       "pattern": "a legal crackdown landing at the exact moment it most benefits the government's freedom of maneuver",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The detention came less than 24 hours after Pashinyan clashed with Kocharyan's son Levon in a fiery parliament exchange \u2014 and Kocharyan, 71, was rushed to hospital after his health deteriorated in custody, adding a personal, immediate trigger to the EU-timing question already surrounding the case.",
+      "why_now": "Armenia's Anti-Corruption Court has now formally ordered two months of pretrial detention for Kocharyan, with son Sedrak also remanded; the court finished its examination without Kocharyan present after he was hospitalized a second time during the proceedings. He denies all wrongdoing.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://mirrorspectator.com/2026/08/25/kocharyan-arrested-after-heated-parliament-exchange/",
+      "url": "https://news.am/en/news/1057937",
       "location": "Yerevan, Armenia",
       "season_or_time_context": "ahead of Armenia's EU accession push",
       "first_seen": "2026-08-26T00:20:00Z",
-      "last_seen": "2026-08-27T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-27T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-08-27T14:30:00Z",
+          "note": "Court formally ordered two months' pretrial detention for Kocharyan and remanded son Sedrak; proceedings finished without Kocharyan present after a second hospitalization mid-hearing. He denies wrongdoing."
+        },
         {
           "date": "2026-08-27T00:20:00Z",
           "note": "New detail: the detention followed a heated parliament clash between Pashinyan and Kocharyan's son Levon less than a day earlier, and Kocharyan was hospitalized after his health deteriorated in custody."
@@ -595,22 +607,55 @@
       "pattern": "personal rapport at the top masking structural drift underneath",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Marking Takaichi's first year, South Korea's Institute for National Security Strategy warns her conservative agenda, renewed Yasukuni Shrine visits, and the Dokdo/Takeshima dispute risk unwinding the \"shuttle diplomacy\" gains built on her surprisingly cordial relationship with President Lee Jae-myung.",
+      "why_now": "South Korea's Foreign Ministry has now gone on record, saying it \"cannot but deplore\" senior Japanese officials' Yasukuni-related acts as \"anachronistic and historically oblivious\" \u2014 moving the friction from an analyst's warning to an actual government-to-government rebuke, even as shuttle diplomacy between Takaichi and Lee continues underneath it.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.koreaherald.com/article/10850191",
+      "url": "https://asianews.network/japans-rightward-shift-tests-ties-with-south-korea-as-pm-sanae-takaichi-marks-first-year/",
       "location": "Tokyo, Japan / Seoul, South Korea",
       "season_or_time_context": "one year into Takaichi's premiership",
       "first_seen": "2026-08-26T14:30:00Z",
-      "last_seen": "2026-08-26T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-27T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-27T14:30:00Z",
+          "note": "South Korea's Foreign Ministry publicly \"deplored\" senior Japanese officials' Yasukuni-related acts as \"anachronistic and historically oblivious\" - a real government rebuke, not just an analyst's warning, even as shuttle diplomacy continues."
+        },
         {
           "date": "2026-08-26T14:30:00Z",
           "note": "A South Korean security institute warns Takaichi's rightward agenda and renewed Yasukuni/Dokdo flashpoints could erode the surprisingly warm Takaichi-Lee rapport that has carried Japan-Korea diplomacy through her first year."
         }
       ],
-      "source_date": "2026-08-25"
+      "source_date": "2026-08-26"
+    },
+    {
+      "id": "zimbabwe-kariba-ferry-disaster-charge",
+      "stream": "headlines",
+      "category": "Politics & World",
+      "observer": "Why Today?",
+      "title": "Zimbabwe charges one official for its deadliest-ever disaster",
+      "observation": "An overloaded ferry capsized on Lake Kariba and killed 97 people \u2014 Zimbabwe's worst recorded accident \u2014 and police have charged a single district infrastructure coordinator with culpable homicide, though the vessel's overloading looks like a routine, unaddressed practice.",
+      "question": "What does it mean to answer a systemic failure with one person's arrest?",
+      "hidden_question": "Is a single official's charge accountability, or a way to close the case before anyone asks who else let an overloaded ferry keep running?",
+      "pattern": "individual criminal charge substituting for systemic accountability",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "RIDA district coordinator Ignatius Chiome, 49, was arrested and charged with culpable homicide over the Aug 11 capsizing of the ferry Mbuya Nehanda, which was carrying far more than its authorized 90 passengers when it sank en route from Kariba to Chalala, killing 97 in the deadliest maritime disaster in Zimbabwe's history.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.africanews.com/2026/08/27/district-official-charged-with-homicide-over-ferry-disaster-that-killed-97-people/",
+      "location": "Lake Kariba, Zimbabwe",
+      "season_or_time_context": "post-disaster accountability phase",
+      "first_seen": "2026-08-27T14:30:00Z",
+      "last_seen": "2026-08-27T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-27T14:30:00Z",
+          "note": "RIDA district coordinator Ignatius Chiome charged with culpable homicide and remanded in custody over the Aug 11 Lake Kariba ferry capsizing that killed 97 - Zimbabwe's deadliest recorded accident."
+        }
+      ],
+      "source_date": "2026-08-27"
     }
   ]
 }

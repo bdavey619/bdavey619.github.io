@@ -1,16 +1,16 @@
 {
   "week": "2026-08-23",
-  "last_updated": "2026-08-27T00:20:00Z",
+  "last_updated": "2026-08-27T14:30:00Z",
   "recognitions": [
     {
       "id": "fire-season-relocates",
-      "title": "The European fire season doesn't end when a fire is contained — it relocates to the next front",
+      "title": "The European fire season doesn't end when a fire is contained \u2014 it relocates to the next front",
       "explanation": "Athens was controlled on August 3. Since then the intensification has moved through France and Iberia, central England, the Croatian Adriatic, and this week a Belgian fire advancing on the German border - four geographies outside the Mediterranean pattern this was named in. The conditions never lifted; only the available fuel changes. And the newest variable is not weather at all: some of these ignitions were set deliberately, which means the system now propagates through intent as well as through drought.",
       "momentum": "acute",
       "evidence": [
         {
           "domain": "Law Enforcement",
-          "text": "Croatia's chief state prosecutor Ivan Turudić now says terrorism hasn't been excluded but motive still needs to be established — and officials have separated the confessed Zadar-area arson spree from the more destructive Omiš fire, treating them as two unconnected cases rather than one coordinated campaign.",
+          "text": "Croatia's chief state prosecutor Ivan Turudi\u0107 now says terrorism hasn't been excluded but motive still needs to be established \u2014 and officials have separated the confessed Zadar-area arson spree from the more destructive Omi\u0161 fire, treating them as two unconnected cases rather than one coordinated campaign.",
           "url": "https://europeantimes.news/2026/08/croatia-probes-coordinated-zadar-fires/",
           "date": "2026-08-20",
           "is_new": false
@@ -24,7 +24,7 @@
         },
         {
           "domain": "Tourism",
-          "text": "Croatia's government has now approved an initial €20 million emergency aid package for Omiš, with more promised once the full damage is established; power is fully restored after 280 poles were rebuilt, but the recovery phase itself has widened to slope instability, temporary housing, and a still-open ignition investigation. Ten days on, the fire is the easy part to close.",
+          "text": "Croatia's government has now approved an initial \u20ac20 million emergency aid package for Omi\u0161, with more promised once the full damage is established; power is fully restored after 280 poles were rebuilt, but the recovery phase itself has widened to slope instability, temporary housing, and a still-open ignition investigation. Ten days on, the fire is the easy part to close.",
           "url": "https://www.croatiaweek.com/croatia-20-million-aid-package-omis-wildfire/",
           "date": "2026-08-22",
           "is_new": false
@@ -34,7 +34,7 @@
           "text": "EFFIS now counts 626,818 hectares burned across the EU to Aug 25 from 1,797 fires - up from 568,415 twelve days earlier, and still below 2025's 983,367 for the same week. Spain alone accounts for 38% of the EU total. Third-worst year in over a decade and still climbing, which is not the same story as the record everyone keeps almost-declaring.",
           "url": "https://joint-research-centre.ec.europa.eu/projects-and-activities/natural-and-man-made-hazards/forest-fires/current-wildfire-situation-europe_en",
           "date": "2026-08-25",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -53,10 +53,10 @@
         },
         {
           "domain": "Disaster Response",
-          "text": "Indonesia's tsunami warning resolved in one morning; the death toll it handed off to has instead climbed for nine straight days, now to 100 dead, 1,603 injured and 180,000+ displaced. The alert was a same-day instrument measuring a wave. Nothing measures the count on the same timescale.",
-          "url": "https://www.prokerala.com/news/articles/a1804178.html",
-          "date": "2026-08-24",
-          "is_new": false
+          "text": "The tsunami warning resolved in one morning, nine days ago. The country's top leadership only just caught up to the ground: VP Gibran toured East Nusa Tenggara on Aug 20, President Prabowo reached Nagekeo on Aug 26. The instrument that measures political attention arriving runs even slower than the one counting the dead.",
+          "url": "https://www.dfat.gov.au/news/media/Pages/indonesia-earthquakes-recovery-and-reconstruction-assistance",
+          "date": "2026-08-26",
+          "is_new": true
         },
         {
           "domain": "Storm Recovery",
@@ -99,7 +99,7 @@
     {
       "id": "resolved-in-form-not-in-fact",
       "title": "Three things that looked like resolutions this week all deferred the real question to later",
-      "explanation": "A ceasefire, a court ruling, and a shipping framework all landed this week wearing the shape of a resolution — and in each case, the people closest to it said out loud that the actual question is still open. A peace roadmap got its first verification mission, not a verified peace. A Supreme Court stay resolved a procedural fight while its own justices noted the underlying legality is untouched. A transit deal is 'in principle' and 'still being finalized.' Each is a real step. None of them is the thing a headline would make it sound like.",
+      "explanation": "A ceasefire, a court ruling, and a shipping framework all landed this week wearing the shape of a resolution \u2014 and in each case, the people closest to it said out loud that the actual question is still open. A peace roadmap got its first verification mission, not a verified peace. A Supreme Court stay resolved a procedural fight while its own justices noted the underlying legality is untouched. A transit deal is 'in principle' and 'still being finalized.' Each is a real step. None of them is the thing a headline would make it sound like.",
       "momentum": "building",
       "evidence": [
         {
@@ -107,21 +107,21 @@
           "text": "The verification mission didn't settle anything by deploying - it just moved the argument onto the ground. It's now stopping at Uvira and Kalehe, both recent flashpoints, and even the mediators concede both sides keep trading violation accusations that 'often cannot be independently verified.' The mission exists to answer the exact question it can't yet answer.",
           "url": "https://www.africanews.com/2026/08/24/mission-to-verify-drc-m23-ceasefire-gets-underway-in-south-kivu/",
           "date": "2026-08-24",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Judicial",
           "text": "The 'resolution' changed nothing on the ground: a separate nationwide ruling from a Boston federal judge still blocks the Postal Service from following Trump's order, so the Supreme Court's procedural win may not alter a single actual midterm mail-ballot rule. Jackson said her colleagues showed 'a lack of situational awareness' injecting chaos into the cycle for a victory that doesn't yet do anything.",
           "url": "https://www.pbs.org/newshour/politics/nothing-changes-yet-with-the-supreme-courts-order-on-mail-voting-but-it-could-open-door-to-chaos",
           "date": "2026-08-25",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy Shipping",
           "text": "Washington is now holding off on new Iran sanctions specifically to let the Oman transit deal finalize - and Iran's own Revolutionary Guards say the US is the one obstructing that same deal. Both governments are publicly waiting on an agreement that, by their own account, the other is blocking.",
           "url": "https://www.cnbc.com/2026/08/26/us-iran-war-trump-hormuz.html",
           "date": "2026-08-26",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
