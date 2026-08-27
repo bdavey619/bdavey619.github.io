@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-26T12:52:44.697447+00:00",
+  "generated_at": "2026-08-27T21:53:08.107134+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -222,19 +222,17 @@
       "gamePk": 823181,
       "status": "final",
       "result": "W",
-      "score": "3\u20131"
+      "score": "3\u20131",
+      "archive_url": "archive.html?date=2026-08-26"
     },
     {
       "date": "2026-08-26",
       "opponent": "CIN",
       "home": true,
       "gamePk": 823180,
-      "status": "scheduled",
-      "time_local": "12:45 PM PT",
-      "probable": {
-        "team": "Landen Roupp",
-        "opp": "Nick Lodolo"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "9\u201310"
     },
     {
       "date": "2026-08-27",
@@ -242,7 +240,11 @@
       "home": true,
       "gamePk": 823179,
       "status": "scheduled",
-      "time_local": "6:45 PM PT"
+      "time_local": "6:45 PM PT",
+      "probable": {
+        "team": "Landen Roupp",
+        "opp": "Jose Cabrera"
+      }
     },
     {
       "date": "2026-08-28",
@@ -250,7 +252,10 @@
       "home": true,
       "gamePk": 823178,
       "status": "scheduled",
-      "time_local": "7:15 PM PT"
+      "time_local": "7:15 PM PT",
+      "probable": {
+        "team": "Blade Tidwell"
+      }
     },
     {
       "date": "2026-08-29",
@@ -258,7 +263,10 @@
       "home": true,
       "gamePk": 823176,
       "status": "scheduled",
-      "time_local": "7:05 PM PT"
+      "time_local": "7:05 PM PT",
+      "probable": {
+        "opp": "Merrill Kelly"
+      }
     },
     {
       "date": "2026-08-29",
@@ -266,7 +274,10 @@
       "home": true,
       "gamePk": 823177,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "opp": "Merrill Kelly"
+      }
     },
     {
       "date": "2026-08-31",
@@ -278,8 +289,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u201315",
-    "current_streak": "W2",
-    "last_10": "4\u20136"
+    "month_record": "7\u201316",
+    "current_streak": "L1",
+    "last_10": "3\u20137"
   }
 }
