@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-08",
   "division_name": "AL East",
-  "generated_at": "2026-08-26T11:33:44.452616+00:00",
+  "generated_at": "2026-08-27T20:56:17.678040+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -212,18 +212,17 @@
       "gamePk": 823505,
       "status": "final",
       "result": "L",
-      "score": "7\u20139"
+      "score": "7\u20139",
+      "archive_url": "archive.html?date=2026-08-26"
     },
     {
       "date": "2026-08-26",
       "opponent": "HOU",
       "home": true,
       "gamePk": 823506,
-      "status": "scheduled",
-      "time_local": "7:05 PM ET",
-      "probable": {
-        "opp": "Peter Lambert"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "9\u20133"
     },
     {
       "date": "2026-08-27",
@@ -245,6 +244,7 @@
       "status": "scheduled",
       "time_local": "7:15 PM ET",
       "probable": {
+        "team": "Cam Schlittler",
         "opp": "Patrick Sandoval"
       }
     },
@@ -262,7 +262,10 @@
       "home": true,
       "gamePk": 823539,
       "status": "scheduled",
-      "time_local": "1:05 PM ET"
+      "time_local": "1:05 PM ET",
+      "probable": {
+        "opp": "Jake Bennett"
+      }
     },
     {
       "date": "2026-08-30",
@@ -270,7 +273,11 @@
       "home": true,
       "gamePk": 823502,
       "status": "scheduled",
-      "time_local": "1:35 PM ET"
+      "time_local": "1:35 PM ET",
+      "probable": {
+        "team": "Will Warren",
+        "opp": "Ranger Suarez"
+      }
     },
     {
       "date": "2026-08-31",
@@ -282,8 +289,8 @@
     }
   ],
   "summary": {
-    "month_record": "12\u20139",
-    "current_streak": "L1",
-    "last_10": "6\u20134"
+    "month_record": "13\u20139",
+    "current_streak": "W1",
+    "last_10": "7\u20133"
   }
 }
