@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-27T21:53:08.107134+00:00",
+  "generated_at": "2026-08-28T21:46:22.973754+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -239,12 +239,10 @@
       "opponent": "ARI",
       "home": true,
       "gamePk": 823179,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "team": "Landen Roupp",
-        "opp": "Jose Cabrera"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "6\u20131",
+      "archive_url": "archive.html?date=2026-08-27"
     },
     {
       "date": "2026-08-28",
@@ -254,7 +252,8 @@
       "status": "scheduled",
       "time_local": "7:15 PM PT",
       "probable": {
-        "team": "Blade Tidwell"
+        "team": "Blade Tidwell",
+        "opp": "Kohl Drake"
       }
     },
     {
@@ -263,10 +262,7 @@
       "home": true,
       "gamePk": 823176,
       "status": "scheduled",
-      "time_local": "7:05 PM PT",
-      "probable": {
-        "opp": "Merrill Kelly"
-      }
+      "time_local": "7:05 PM PT"
     },
     {
       "date": "2026-08-29",
@@ -274,10 +270,7 @@
       "home": true,
       "gamePk": 823177,
       "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "opp": "Merrill Kelly"
-      }
+      "time_local": "1:05 PM PT"
     },
     {
       "date": "2026-08-31",
@@ -289,8 +282,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u201316",
-    "current_streak": "L1",
-    "last_10": "3\u20137"
+    "month_record": "8\u201316",
+    "current_streak": "W1",
+    "last_10": "4\u20136"
   }
 }
