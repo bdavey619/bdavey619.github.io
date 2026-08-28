@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-27T20:37:44.737894+00:00",
+  "generated_at": "2026-08-28T21:12:11.460854+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -242,7 +242,8 @@
       "gamePk": 823255,
       "status": "final",
       "result": "W",
-      "score": "3\u20130"
+      "score": "3\u20130",
+      "archive_url": "archive.html?date=2026-08-27"
     },
     {
       "date": "2026-08-28",
@@ -286,7 +287,10 @@
       "home": false,
       "gamePk": 824473,
       "status": "scheduled",
-      "time_local": "3:40 PM PT"
+      "time_local": "3:40 PM PT",
+      "probable": {
+        "opp": "Brady Singer"
+      }
     }
   ],
   "summary": {
