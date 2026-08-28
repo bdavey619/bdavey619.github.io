@@ -1,6 +1,6 @@
 {
   "week": "2026-08-23",
-  "last_updated": "2026-08-27T14:30:00Z",
+  "last_updated": "2026-08-28T00:20:00Z",
   "recognitions": [
     {
       "id": "fire-season-relocates",
@@ -56,7 +56,7 @@
           "text": "The tsunami warning resolved in one morning, nine days ago. The country's top leadership only just caught up to the ground: VP Gibran toured East Nusa Tenggara on Aug 20, President Prabowo reached Nagekeo on Aug 26. The instrument that measures political attention arriving runs even slower than the one counting the dead.",
           "url": "https://www.dfat.gov.au/news/media/Pages/indonesia-earthquakes-recovery-and-reconstruction-assistance",
           "date": "2026-08-26",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Storm Recovery",

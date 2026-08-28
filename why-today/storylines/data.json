@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-23",
-  "cycle_start": "2026-08-27T00:20:00Z",
-  "last_updated": "2026-08-27T14:30:00Z",
+  "cycle_start": "2026-08-27T14:30:00Z",
+  "last_updated": "2026-08-28T00:20:00Z",
   "storylines": [
     {
       "id": "moke-tropical-storm-hawaii",
@@ -14,8 +14,8 @@
       "pattern": "single-hazard infrastructure meeting a mismatched threat",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Storm track updates place Hawaii in the warning cone this week, the first significant tropical threat to the islands since recent wildfire recovery efforts began.",
-      "status": "captured",
+      "why_now": "Moke fully dissipated Aug 26 without the feared worst-case rainfall; going dormant rather than re-bumping a storm that no longer exists. Worth reactivating only if a new system threatens the islands.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.staradvertiser.com/2026/08/24/hawaii-news/hawaii-island-gets-a-break-as-moke-weakens-to-tropical-depression/",
       "location": "Hawaii, USA",
@@ -213,16 +213,20 @@
       "pattern": "infrastructure failure exposing underlying social fragility",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "NIPSCO reached ~99% restoration across northwest Indiana by 5pm Tuesday, hours ahead of its own deadline, with nearly all of Gary back \u2014 but the utility's own caveat still stands: some individual properties with localized damage will take longer than the headline number suggests.",
+      "why_now": "NIPSCO now calls restoration \"substantially complete\" \u2014 just over 100 customers still dark out of more than 370,000 originally affected \u2014 and the accountability thread has moved to court: a Porter County resident has sued NIPSCO, alleging the utility failed to maintain trees and vegetation near its lines before the storm.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cbsnews.com/chicago/news/nipsco-indiana-power-deadline-mayor-eddie-melton/",
+      "url": "https://www.nbcnews.com/news/us-news/gary-indiana-nears-full-power-restoration-2-weeks-violent-storms-rcna594456",
       "location": "Gary, Indiana, USA",
       "season_or_time_context": "summer storm season",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-26T14:30:00Z",
-      "appearances": 7,
+      "last_seen": "2026-08-28T00:20:00Z",
+      "appearances": 8,
       "history": [
+        {
+          "date": "2026-08-28T00:20:00Z",
+          "note": "NIPSCO calls restoration \"substantially complete\" with just over 100 customers still out of 370,000+ originally affected; a Porter County resident has sued NIPSCO, alleging it failed to maintain vegetation near its lines."
+        },
         {
           "date": "2026-08-26T14:30:00Z",
           "note": "NIPSCO hit ~99% restoration across NW Indiana by 5pm Tuesday, ahead of its deadline, with nearly all of Gary back on \u2014 two weeks after the derecho, and with the utility still cautioning some individual properties will take longer."
@@ -238,10 +242,6 @@
         {
           "date": "2026-08-24T14:20:00Z",
           "note": "Braun deployed the National Guard Sunday to help clear routes for crews; Mayor Melton called the pace \"unacceptable.\" About 7,000 Gary customers remained without power Monday morning, down from tens of thousands."
-        },
-        {
-          "date": "2026-08-24T00:20:00Z",
-          "note": "ComEd dispatched 60+ crew members Saturday to join NIPSCO's 600+ linemen restoring Gary; Tuesday's 11:59pm target now carries 95% confidence, per NIPSCO."
         }
       ],
       "source_date": "2026-08-25"
@@ -325,16 +325,20 @@
       "pattern": "institutional continuity undercut by a change in who's speaking",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The symposium opened Thursday with Bank of America publicly labeling it a \"key risk event\" for markets, coming right on the heels of the Treasury's own bond-market intervention \u2014 the informal opening dinner has barely started and analysts are already treating tomorrow's keynote as the week's central event.",
+      "why_now": "Warsh speaks at 10am ET today with a number hanging over the room that his predecessor never had to answer for at Jackson Hole: inflation has now run above the Fed's 2% target for more than five consecutive years, a run of persistence any policy statement will have to reckon with.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.axios.com/2026/08/27/jackson-hole-federal-reserve",
+      "url": "https://www.npr.org/2026/08/27/nx-s1-5945044/federal-reserve-kevin-warsh-jackson-hole-wyoming-bond-markets",
       "location": "Jackson Hole, Wyoming, USA",
       "season_or_time_context": "Federal Reserve annual symposium",
       "first_seen": "2026-08-23T14:10:00Z",
-      "last_seen": "2026-08-27T14:30:00Z",
-      "appearances": 5,
+      "last_seen": "2026-08-28T00:20:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-08-28T00:20:00Z",
+          "note": "Ahead of today's 10am ET speech: inflation has run above the Fed's 2% target for more than five consecutive years, a persistence gap Warsh's debut keynote can't avoid addressing."
+        },
         {
           "date": "2026-08-27T14:30:00Z",
           "note": "Symposium opened Thursday; Bank of America has labeled it a \"key risk event\" for markets following the Treasury's bond intervention, with roughly 120 officials from 70+ countries attending ahead of Warsh's Friday keynote."
@@ -350,10 +354,6 @@
         {
           "date": "2026-08-24T00:20:00Z",
           "note": "Symposium dates confirmed Aug 27-29, themed on payments and financial innovation; Warsh has pre-signaled a structural, not near-term-guidance, speech, with consensus expecting neutral language despite 3.4% inflation."
-        },
-        {
-          "date": "2026-08-23T14:10:00Z",
-          "note": "Kevin Warsh, who succeeded Powell as Fed chair in May, delivers his first Jackson Hole keynote Aug 28; markets are still calibrating how to read his language ahead of the September FOMC meeting."
         }
       ],
       "source_date": "2026-08-26"
@@ -570,16 +570,20 @@
       "pattern": "a legal crackdown landing at the exact moment it most benefits the government's freedom of maneuver",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Armenia's Anti-Corruption Court has now formally ordered two months of pretrial detention for Kocharyan, with son Sedrak also remanded; the court finished its examination without Kocharyan present after he was hospitalized a second time during the proceedings. He denies all wrongdoing.",
+      "why_now": "The geopolitical stakes are sharper than \"a rival\": Kocharyan's Armenia Alliance is the country's main pro-Moscow bloc, opposing EU/NATO membership and backing the Eurasian Economic Union \u2014 and Russia's foreign ministry has now publicly objected to Pashinyan's EU bid as contrary to Armenians' \"long-term interests,\" putting Moscow on record against the same pivot Kocharyan's detention clears the path for.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://news.am/en/news/1057937",
+      "url": "https://news.am/en/news/1057726",
       "location": "Yerevan, Armenia",
       "season_or_time_context": "ahead of Armenia's EU accession push",
       "first_seen": "2026-08-26T00:20:00Z",
-      "last_seen": "2026-08-27T14:30:00Z",
-      "appearances": 3,
+      "last_seen": "2026-08-28T00:20:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-08-28T00:20:00Z",
+          "note": "New context: Kocharyan's Armenia Alliance is Armenia's main pro-Moscow bloc, opposing EU/NATO and backing the Eurasian Economic Union; Russia's MFA has now publicly objected to the EU bid his detention clears the path for."
+        },
         {
           "date": "2026-08-27T14:30:00Z",
           "note": "Court formally ordered two months' pretrial detention for Kocharyan and remanded son Sedrak; proceedings finished without Kocharyan present after a second hospitalization mid-hearing. He denies wrongdoing."
@@ -656,6 +660,35 @@
         }
       ],
       "source_date": "2026-08-27"
+    },
+    {
+      "id": "nigeria-niger-state-mass-kidnapping",
+      "stream": "headlines",
+      "category": "Politics & World",
+      "observer": "Why Today?",
+      "title": "Nigeria orders a manhunt for a kidnapping whose scale nobody can confirm",
+      "observation": "Coordinated attacks on four Niger State villages during Friday prayers killed more than 40 people and abducted an unknown number of residents \u2014 the confirmed toll and the number a local community leader claims are separated by an order of magnitude.",
+      "question": "How does a government respond to a crime it cannot yet size?",
+      "hidden_question": "Does an official casualty count represent what happened, or only what's been confirmed so far?",
+      "pattern": "verification gap opening up around a mass-casualty crime",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Attackers simultaneously hit mosques in Dekara, Gidan Zana, Sabon Gida and Masaka last Friday, killing 40+; a local youth leader says as many as 500 may have been abducted, unverified by authorities. President Tinubu ordered a manhunt after the kidnappers posted a proof-of-life video of captives in a forest.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.africanews.com/2026/08/26/nigeria-orders-manhunt-after-deadly-mass-kidnapping/",
+      "location": "Niger State, Nigeria",
+      "season_or_time_context": "ongoing security crisis",
+      "first_seen": "2026-08-28T00:20:00Z",
+      "last_seen": "2026-08-28T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-28T00:20:00Z",
+          "note": "Coordinated Friday-prayer attacks on four Niger State villages killed 40+; a local leader claims up to 500 abducted, unverified. Tinubu ordered a manhunt after captors posted a proof-of-life video."
+        }
+      ],
+      "source_date": "2026-08-26"
     }
   ]
 }
