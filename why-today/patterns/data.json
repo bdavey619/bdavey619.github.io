@@ -1,6 +1,6 @@
 {
   "week": "2026-08-23",
-  "last_updated": "2026-08-28T00:20:00Z",
+  "last_updated": "2026-08-28T14:30:00Z",
   "recognitions": [
     {
       "id": "fire-season-relocates",
@@ -118,10 +118,10 @@
         },
         {
           "domain": "Energy Shipping",
-          "text": "Washington is now holding off on new Iran sanctions specifically to let the Oman transit deal finalize - and Iran's own Revolutionary Guards say the US is the one obstructing that same deal. Both governments are publicly waiting on an agreement that, by their own account, the other is blocking.",
-          "url": "https://www.cnbc.com/2026/08/26/us-iran-war-trump-hormuz.html",
+          "text": "Iran and Oman have now reached a revenue-sharing toll deal and are discussing a 'permanent' corridor - real, announced progress. But the strait stays closed until the US honors its own June interim peace deal, which has since lapsed unfulfilled. The resolution keeps advancing one negotiated condition ahead of the one that's actually missing.",
+          "url": "https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know",
           "date": "2026-08-26",
-          "is_new": false
+          "is_new": true
         }
       ]
     }

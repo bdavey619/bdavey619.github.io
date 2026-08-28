@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-23",
-  "cycle_start": "2026-08-27T14:30:00Z",
-  "last_updated": "2026-08-28T00:20:00Z",
+  "cycle_start": "2026-08-28T00:20:00Z",
+  "last_updated": "2026-08-28T14:30:00Z",
   "storylines": [
     {
       "id": "moke-tropical-storm-hawaii",
@@ -99,16 +99,20 @@
       "pattern": "chokepoint leverage priced as permanent risk premium",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The two tracks are no longer uncoordinated: the US is holding off on new secondary sanctions while Iran and Oman finalize a temporary shipping corridor and mine-clearing plan \u2014 and Iran's Revolutionary Guards now accuse Washington of obstructing that same agreement it's ostensibly waiting on.",
+      "why_now": "Iran's deputy FM says the temporary route through Iranian waters is agreed, with a revenue-sharing toll deal reached and talk now turning to a permanent corridor \u2014 but the strait won't actually reopen until the US fulfills its commitments under the interim June peace deal, which has since lapsed. The leverage isn't resolving; it's just relocating to a different unmet condition.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/08/26/us-iran-war-trump-hormuz.html",
+      "url": "https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know",
       "location": "Strait of Hormuz",
       "season_or_time_context": "ongoing regional tension",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-27T00:20:00Z",
-      "appearances": 5,
+      "last_seen": "2026-08-28T14:30:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-08-28T14:30:00Z",
+          "note": "Iran and Oman reached a revenue-sharing toll deal, discussing a permanent corridor \u2014 but the strait stays closed until the US honors the June interim peace deal, which has since lapsed."
+        },
         {
           "date": "2026-08-27T00:20:00Z",
           "note": "The US is now holding off on new secondary sanctions while the Iran-Oman temporary shipping corridor/mine-clearing plan is finalized; Iran's Revolutionary Guards accuse the US of obstructing the same deal it's waiting on."
@@ -124,10 +128,6 @@
         {
           "date": "2026-08-23T14:10:00Z",
           "note": "Iran's FM says Tehran is close to an agreement with Oman on a transit route through its own waters \u2014 a workaround, not a reopening of the strait itself."
-        },
-        {
-          "date": "2026-08-23T00:20:00Z",
-          "note": "Iran issued new demands tied to Strait of Hormuz shipping this week, pushing oil futures and tanker insurance premiums higher."
         }
       ],
       "source_date": "2026-08-26"
@@ -289,8 +289,8 @@
       "pattern": "crisis infrastructure outliving its original crisis",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The same vaccine the FDA rebuffed on an accelerated-approval bid in 2024 has since hit its Phase 3 endpoints and won Breakthrough Therapy status; Moderna's stock surged on the trial result, a reversal of fortune for a program regulators once turned away.",
-      "status": "captured",
+      "why_now": "Nothing has moved past the Aug 19 trial announcement across two consecutive checks; Moderna and Merck still say only that a regulatory filing is coming \"within months,\" with no firmer date. Going dormant rather than re-bumping on the same link a third time; worth reactivating when a filing is actually submitted.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://fortune.com/article/moderna-merck-mrna-vaccine-promise-deadly-skin-cancer-melanoma-stocks-08-19-2026/",
       "location": "United States / Europe",
@@ -325,16 +325,20 @@
       "pattern": "institutional continuity undercut by a change in who's speaking",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Warsh speaks at 10am ET today with a number hanging over the room that his predecessor never had to answer for at Jackson Hole: inflation has now run above the Fed's 2% target for more than five consecutive years, a run of persistence any policy statement will have to reckon with.",
+      "why_now": "Warsh delivered the speech and answered the dictionary question by refusing to write one: he avoided both forward guidance and a stated reaction function, calling this summer's better-than-expected inflation prints not evidence of real improvement, and warning that a Fed leaning on market prices while markets lean on the Fed creates a \"hall of mirrors\" that breeds policy errors.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.npr.org/2026/08/27/nx-s1-5945044/federal-reserve-kevin-warsh-jackson-hole-wyoming-bond-markets",
+      "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
       "location": "Jackson Hole, Wyoming, USA",
       "season_or_time_context": "Federal Reserve annual symposium",
       "first_seen": "2026-08-23T14:10:00Z",
-      "last_seen": "2026-08-28T00:20:00Z",
-      "appearances": 6,
+      "last_seen": "2026-08-28T14:30:00Z",
+      "appearances": 7,
       "history": [
+        {
+          "date": "2026-08-28T14:30:00Z",
+          "note": "Warsh's actual keynote refused forward guidance and a reaction function on principle, calling this summer's better inflation prints unconvincing and warning that Fed-market mutual reliance creates a \"hall of mirrors\" that breeds policy errors."
+        },
         {
           "date": "2026-08-28T00:20:00Z",
           "note": "Ahead of today's 10am ET speech: inflation has run above the Fed's 2% target for more than five consecutive years, a persistence gap Warsh's debut keynote can't avoid addressing."
@@ -350,13 +354,9 @@
         {
           "date": "2026-08-24T14:20:00Z",
           "note": "Nasdaq slid Monday (-0.55%) partly on Iran-sanctions and Canada-tariff news ahead of the symposium; Warsh's Friday speech now shares a data-heavy week with Nvidia earnings, adding more variables traders have to weigh at once."
-        },
-        {
-          "date": "2026-08-24T00:20:00Z",
-          "note": "Symposium dates confirmed Aug 27-29, themed on payments and financial innovation; Warsh has pre-signaled a structural, not near-term-guidance, speech, with consensus expecting neutral language despite 3.4% inflation."
         }
       ],
-      "source_date": "2026-08-26"
+      "source_date": "2026-08-28"
     },
     {
       "id": "nvidia-earnings-ai-bellwether",
@@ -369,16 +369,20 @@
       "pattern": "single company as proxy for an entire industry's narrative",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The analysts' own prediction landed exactly: Nvidia beat both revenue ($96.22B vs. $92.17B expected) and EPS ($2.22 vs. $2.10), and the stock still fell in after-hours trading \u2014 from about $209.91 to as low as $206.36. A clean beat wasn't enough; the market wanted the story confirmed, not just the numbers.",
+      "why_now": "The after-hours dip didn't hold: Nvidia reversed into a 7-8% surge Thursday as investors digested Jensen Huang's call commentary, its strongest post-earnings day since May 2024 and the first quarter in a year the stock has gained after reporting, following four straight quarters of dropping post-earnings despite beating estimates. The initial reaction wasn't the market's real verdict \u2014 it took a full extra trading day to render one.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.shacknews.com/article/150497/nvidia-nvda-q2-2027-earnings-results",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-bounce-shows-wall-streets-ai-obsession-is-far-from-over-4878000",
       "location": "United States",
       "season_or_time_context": "Q2 FY27 earnings season",
       "first_seen": "2026-08-24T14:20:00Z",
-      "last_seen": "2026-08-27T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-08-28T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-08-28T14:30:00Z",
+          "note": "Correction: the after-hours dip reversed into a 7-8% Thursday surge, Nvidia's strongest post-earnings day since May 2024 and its first earnings-day gain in a year after four straight quarters of beat-but-drop. The overnight reaction wasn't the market's final word."
+        },
         {
           "date": "2026-08-27T00:20:00Z",
           "note": "Results are in: Nvidia beat both revenue ($96.22B vs $92.17B est.) and EPS ($2.22 vs $2.10 est.), and the stock still fell after hours (~$209.91 to ~$206.36) - the predicted pattern played out exactly as analysts expected."
@@ -392,7 +396,7 @@
           "note": "Nvidia reports Q2 FY27 earnings Wednesday, Aug 26, with estimates ranging widely; as the dominant AI-GPU supplier, its guidance is being read as a referendum on the entire AI buildout."
         }
       ],
-      "source_date": "2026-08-25"
+      "source_date": "2026-08-27"
     },
     {
       "id": "congo-m23-ceasefire-verification",
@@ -689,6 +693,62 @@
         }
       ],
       "source_date": "2026-08-26"
+    },
+    {
+      "id": "greenland-petermann-glacier-calving",
+      "stream": "natural_world",
+      "observer": "Why Today?",
+      "title": "A piece of Greenland the size of Manhattan just broke off \u2014 and it's not the last piece",
+      "observation": "Petermann Glacier shed a 76-square-kilometer ice island on Aug 4, its largest floating-ice loss since 2012, and satellite-tracked rifts show two more sections \u2014 each bigger than this one \u2014 already fracturing behind it.",
+      "question": "What changes when a record-setting event turns out to be the first of a predictable sequence rather than a one-off?",
+      "hidden_question": "Does a single dramatic calving measure the change, or does the fact that scientists can already forecast the next two?",
+      "pattern": "a rare climate event revealed as the leading edge of a forecastable sequence",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Sentinel-1 satellite imagery caught the ice tongue deteriorating Aug 3, a day before the Manhattan-sized slab detached; NASA and outside glaciologists now project two more sections \u2014 roughly 94 and 84 square kilometers, both larger than the piece that just broke off \u2014 will follow as long-developing rifts continue cutting through what's left of the floating tongue.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260826055503.htm",
+      "location": "Petermann Glacier, Greenland",
+      "season_or_time_context": "ongoing Arctic melt season",
+      "first_seen": "2026-08-28T14:30:00Z",
+      "last_seen": "2026-08-28T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-28T14:30:00Z",
+          "note": "Petermann Glacier's Aug 4 calving (76 sq km, largest since 2012) is being read by scientists as the first of three: two larger sections (94 and 84 sq km) are already fracturing along known rifts."
+        }
+      ],
+      "source_date": "2026-08-26"
+    },
+    {
+      "id": "poland-tallest-virgin-mary-statue",
+      "stream": "places",
+      "observer": "Why Today?",
+      "title": "A billionaire just built Europe's tallest religious monument in a village of a few hundred people",
+      "observation": "A Polish businessman privately funded and built a 182-foot Virgin Mary statue \u2014 taller than Rio's Christ the Redeemer \u2014 in the small village of Konotopie, now open to visitors who can climb into its crown-shaped base.",
+      "question": "What is a landmark for when one person's money built it instead of a state or a religious institution's campaign?",
+      "hidden_question": "Does a privately funded record-setting monument serve a public the same way a nationally or institutionally funded one does?",
+      "pattern": "private capital building the kind of landmark states and churches used to build",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "The $26M Our Lady of Mercy statue, funded by Roman and Gra\u017cyna Karkosik, was consecrated Aug 15 over the Feast of the Assumption and is now Europe's tallest Virgin Mary statue and the world's second-tallest religious monument \u2014 locals in a village of a few hundred people hope it becomes a tourist draw.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.smithsonianmag.com/smart-news/a-towering-182-feet-tall-statue-in-rural-poland-now-tallest-virgin-mary-in-europe-locals-hope-it-will-become-tourist-destination-180989364/",
+      "location": "Konotopie, Poland",
+      "season_or_time_context": "post-Feast of the Assumption dedication",
+      "first_seen": "2026-08-28T14:30:00Z",
+      "last_seen": "2026-08-28T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-28T14:30:00Z",
+          "note": "Consecrated Aug 15, the privately funded 182-foot statue is now Europe's tallest Virgin Mary and the world's second-tallest religious monument; the village hopes it becomes a tourist destination."
+        }
+      ],
+      "source_date": "2026-08-15"
     }
   ]
 }
