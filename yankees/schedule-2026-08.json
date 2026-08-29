@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-08",
   "division_name": "AL East",
-  "generated_at": "2026-08-28T21:19:40.645403+00:00",
+  "generated_at": "2026-08-29T15:32:51.542201+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -239,12 +239,10 @@
       "opponent": "BOS",
       "home": true,
       "gamePk": 823504,
-      "status": "scheduled",
-      "time_local": "7:15 PM ET",
-      "probable": {
-        "team": "Cam Schlittler",
-        "opp": "Patrick Sandoval"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "1\u20130",
+      "archive_url": "archive.html?date=2026-08-28"
     },
     {
       "date": "2026-08-29",
@@ -252,7 +250,10 @@
       "home": true,
       "gamePk": 823501,
       "status": "scheduled",
-      "time_local": "7:15 PM ET"
+      "time_local": "7:15 PM ET",
+      "probable": {
+        "team": "Max Fried"
+      }
     },
     {
       "date": "2026-08-29",
@@ -262,6 +263,7 @@
       "status": "scheduled",
       "time_local": "1:05 PM ET",
       "probable": {
+        "team": "Carlos Rod\u00f3n",
         "opp": "Jake Bennett"
       }
     },
@@ -287,8 +289,8 @@
     }
   ],
   "summary": {
-    "month_record": "13\u201310",
-    "current_streak": "L1",
+    "month_record": "14\u201310",
+    "current_streak": "W1",
     "last_10": "7\u20133"
   }
 }
