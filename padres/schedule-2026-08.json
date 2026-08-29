@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-28T21:12:11.460854+00:00",
+  "generated_at": "2026-08-29T15:08:59.313701+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -250,12 +250,10 @@
       "opponent": "TB",
       "home": false,
       "gamePk": 822935,
-      "status": "scheduled",
-      "time_local": "4:10 PM PT",
-      "probable": {
-        "team": "Casey Mize",
-        "opp": "Shane McClanahan"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "4\u20139",
+      "archive_url": "archive.html?date=2026-08-28"
     },
     {
       "date": "2026-08-29",
@@ -294,8 +292,8 @@
     }
   ],
   "summary": {
-    "month_record": "16\u20138",
-    "current_streak": "W1",
-    "last_10": "6\u20134"
+    "month_record": "16\u20139",
+    "current_streak": "L1",
+    "last_10": "5\u20135"
   }
 }
