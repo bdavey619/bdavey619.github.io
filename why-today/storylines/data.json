@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-23",
-  "cycle_start": "2026-08-28T00:20:00Z",
-  "last_updated": "2026-08-28T14:30:00Z",
+  "cycle_start": "2026-08-28T14:30:00Z",
+  "last_updated": "2026-08-29T00:20:00Z",
   "storylines": [
     {
       "id": "moke-tropical-storm-hawaii",
@@ -325,16 +325,20 @@
       "pattern": "institutional continuity undercut by a change in who's speaking",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Warsh delivered the speech and answered the dictionary question by refusing to write one: he avoided both forward guidance and a stated reaction function, calling this summer's better-than-expected inflation prints not evidence of real improvement, and warning that a Fed leaning on market prices while markets lean on the Fed creates a \"hall of mirrors\" that breeds policy errors.",
+      "why_now": "The market answered the dictionary question for itself: despite Warsh's refusal to give forward guidance, traders read his tone as hawkish, pushing September rate-hike odds from 35% to 57% overnight. The 10-year yield rose 4bp to 4.72%, the 2-year jumped 6bp, and stocks closed the week lower \u2014 the first real data point on how this Fed chair's words get translated into price.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-28-dow-sp-500-nasdaq-dip-fed-warsh-jackson-hole-speech-081514091.html",
       "location": "Jackson Hole, Wyoming, USA",
       "season_or_time_context": "Federal Reserve annual symposium",
       "first_seen": "2026-08-23T14:10:00Z",
-      "last_seen": "2026-08-28T14:30:00Z",
-      "appearances": 7,
+      "last_seen": "2026-08-29T00:20:00Z",
+      "appearances": 8,
       "history": [
+        {
+          "date": "2026-08-29T00:20:00Z",
+          "note": "The dictionary got its first translation: despite no forward guidance, traders read Warsh as hawkish, pushing September hike odds from 35% to 57%; the 10-year rose 4bp to 4.72%, and stocks closed the week lower."
+        },
         {
           "date": "2026-08-28T14:30:00Z",
           "note": "Warsh's actual keynote refused forward guidance and a reaction function on principle, calling this summer's better inflation prints unconvincing and warning that Fed-market mutual reliance creates a \"hall of mirrors\" that breeds policy errors."
@@ -350,10 +354,6 @@
         {
           "date": "2026-08-26T14:30:00Z",
           "note": "Bond and dollar markets now described as \"on edge\" ahead of Thursday's opening, with Bessent's Treasury intervention piling pressure onto Warsh's Friday ~10am ET keynote \u2014 two policy actors, one trade."
-        },
-        {
-          "date": "2026-08-24T14:20:00Z",
-          "note": "Nasdaq slid Monday (-0.55%) partly on Iran-sanctions and Canada-tariff news ahead of the symposium; Warsh's Friday speech now shares a data-heavy week with Nvidia earnings, adding more variables traders have to weigh at once."
         }
       ],
       "source_date": "2026-08-28"
@@ -508,16 +508,20 @@
       "pattern": "wide-survey instrument built to catch what narrow ones would miss",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Roman moved to the SpaceX hangar at Launch Complex 39A on Aug 25 ahead of mating to its Falcon Heavy, with liftoff now pinned to 7:26am EDT Sunday, Aug 30 (backup: 7:22am Monday) \u2014 the countdown has stopped being an estimate and become a schedule.",
+      "why_now": "NASA and SpaceX completed the Launch Readiness Review Friday and declared Roman formally \"go for launch\" \u2014 liftoff remains set for 7:26am EDT Sunday, Aug 30, after which the observatory begins a roughly 30-day cruise to the Sun-Earth L2 point, 930,000 miles out.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://science.nasa.gov/blogs/roman/2026/08/25/nasas-nancy-grace-roman-space-telescope-arrives-at-hangar/",
+      "url": "https://science.nasa.gov/blogs/roman/2026/08/28/nasas-roman-space-telescope-go-for-launch/",
       "location": "Kennedy Space Center, Florida, USA",
       "season_or_time_context": "pre-launch, targeting Aug 30",
       "first_seen": "2026-08-25T00:20:00Z",
-      "last_seen": "2026-08-27T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-29T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-08-29T00:20:00Z",
+          "note": "NASA/SpaceX completed the Launch Readiness Review Friday and declared Roman \"go for launch\" Sunday 7:26am EDT; the mission then cruises about 30 days to the Sun-Earth L2 point, 930,000 miles out."
+        },
         {
           "date": "2026-08-27T00:20:00Z",
           "note": "Roman arrived at the SpaceX hangar at Pad 39A Aug 25 for rocket mating; launch time is now set at 7:26am EDT Sunday Aug 30, with a Monday backup if needed."
@@ -527,7 +531,7 @@
           "note": "Roman Space Telescope enclosed in its Falcon Heavy fairing Aug 24, on track for an Aug 30 launch; its wide-field design could find ~100,000 new worlds, more than all prior planet-hunting telescopes combined."
         }
       ],
-      "source_date": "2026-08-25"
+      "source_date": "2026-08-28"
     },
     {
       "id": "brazil-debate-frontrunners-skip",
@@ -749,6 +753,34 @@
         }
       ],
       "source_date": "2026-08-15"
+    },
+    {
+      "id": "yayoi-kusama-death-legacy",
+      "stream": "curiosities",
+      "observer": "Why Today?",
+      "title": "The artist who lived beside a psychiatric hospital by choice, and made herself into infinity",
+      "observation": "Yayoi Kusama, who voluntarily lived in a Tokyo psychiatric facility for decades while running an active studio next door, died Aug 14 at 97 \u2014 leaving behind a foundation vowing to continue a practice she called self-obliteration.",
+      "question": "What survives an artist whose work was inseparable from the act of still, actively making it?",
+      "hidden_question": "Is a posthumous retrospective a continuation of an artist's vision, or the moment it stops being hers to control?",
+      "pattern": "a singular, ongoing creative practice becoming an institution's inheritance",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Confirmed by her studio and widely covered only in the past few days: she died Aug 14 of multi-organ failure, and the Stedelijk Museum has now converted its planned retrospective into a posthumous tribute \u2014 one of several major institutions (Hirshhorn, M+, NGV) that had already built entire exhibitions around her work while she was alive.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.npr.org/2026/08/26/1102916697/yayoi-kusama-high-priestess-of-polka-dots-has-died",
+      "location": "Tokyo, Japan",
+      "season_or_time_context": "obituary coverage ongoing",
+      "first_seen": "2026-08-29T00:20:00Z",
+      "last_seen": "2026-08-29T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-29T00:20:00Z",
+          "note": "Kusama died Aug 14 at 97 of multi-organ failure; the Stedelijk Museum has converted its planned retrospective into a posthumous tribute, and her studio has vowed to continue her mission."
+        }
+      ],
+      "source_date": "2026-08-26"
     }
   ]
 }

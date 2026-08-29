@@ -1,0 +1,38 @@
+{
+  "id": "fire-season-relocates",
+  "title": "The European fire season doesn't end when a fire is contained — it relocates to the next front",
+  "explanation": "Athens was controlled on August 3. Since then the intensification has moved through France and Iberia, central England, the Croatian Adriatic, and this week a Belgian fire advancing on the German border - four geographies outside the Mediterranean pattern this was named in. The conditions never lifted; only the available fuel changes. And the newest variable is not weather at all: some of these ignitions were set deliberately, which means the system now propagates through intent as well as through drought.",
+  "momentum": "acute",
+  "evidence": [
+    {
+      "domain": "Law Enforcement",
+      "text": "Croatia's chief state prosecutor Ivan Turudić now says terrorism hasn't been excluded but motive still needs to be established — and officials have separated the confessed Zadar-area arson spree from the more destructive Omiš fire, treating them as two unconnected cases rather than one coordinated campaign.",
+      "url": "https://europeantimes.news/2026/08/croatia-probes-coordinated-zadar-fires/",
+      "date": "2026-08-20",
+      "is_new": false
+    },
+    {
+      "domain": "Emergency Response",
+      "text": "Belgium's High Fens fire more than doubled in 24 hours to about 3,000 hectares - the largest wildfire in the country's recorded history, still not fully extinguished a week on because it burns in peat. What's now surfaced is why Belgium was so unready for it: a Belgian Wildfire Network report published in March - five months before this fire - described the country's governance as 'fragmented' and its specialist expertise as 'limited,' with responsibility scattered across agencies at national and regional level, and warned that longer droughts and forest degradation were creating exactly the conditions for a fire it couldn't control. The report wasn't a forecast in hindsight; it was on file before the match was struck.",
+      "url": "https://brusselsmorning.com/belgium-wildfire-response-2026/101765/",
+      "date": "2026-08-19",
+      "is_new": false
+    },
+    {
+      "domain": "Tourism",
+      "text": "Croatia's government has now approved an initial €20 million emergency aid package for Omiš, with more promised once the full damage is established; power is fully restored after 280 poles were rebuilt, but the recovery phase itself has widened to slope instability, temporary housing, and a still-open ignition investigation. Ten days on, the fire is the easy part to close.",
+      "url": "https://www.croatiaweek.com/croatia-20-million-aid-package-omis-wildfire/",
+      "date": "2026-08-22",
+      "is_new": false
+    },
+    {
+      "domain": "Wildfire",
+      "text": "EFFIS now counts 626,818 hectares burned across the EU to Aug 25 from 1,797 fires - up from 568,415 twelve days earlier, and still below 2025's 983,367 for the same week. Spain alone accounts for 38% of the EU total. Third-worst year in over a decade and still climbing, which is not the same story as the record everyone keeps almost-declaring.",
+      "url": "https://joint-research-centre.ec.europa.eu/projects-and-activities/natural-and-man-made-hazards/forest-fires/current-wildfire-situation-europe_en",
+      "date": "2026-08-25",
+      "is_new": false
+    }
+  ],
+  "retired": "2026-08-29T00:20:00Z",
+  "retired_reason": "Law Enforcement (Croatia arson/terrorism) and Emergency Response (Belgium High Fens) evidence hit 9 and 10 days old respectively with no fresher reporting found across three consecutive audit checks (Aug 27, 28, 29) - both underlying storylines have gone quiet (Croatia's terrorism-charge decision is still pending with prosecutors, Belgium's fire is contained but no new developments have surfaced since Aug 17-19). Momentum was already 'acute,' implying resolution rather than indefinite persistence."
+}
