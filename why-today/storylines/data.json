@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-23",
-  "cycle_start": "2026-08-28T14:30:00Z",
-  "last_updated": "2026-08-29T00:20:00Z",
+  "cycle_start": "2026-08-29T00:20:00Z",
+  "last_updated": "2026-08-29T14:30:00Z",
   "storylines": [
     {
       "id": "moke-tropical-storm-hawaii",
@@ -59,16 +59,20 @@
       "pattern": "escalation as bargaining posture between interdependent economies",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Ottawa's retaliation now has hard specifics: tariffs of 15-50% on more than 700 US goods worth roughly $20B, taking effect Sept 8 \u2014 a concrete mirror of the US's own 50% duties on Canadian dairy, alcohol, and building materials that took effect Aug 22.",
+      "why_now": "Ottawa is now backstopping its own retaliation: alongside the Sept 8 tariffs on 700+ US goods, it announced a C$7.5B ($5.4B) support package for the workers and businesses its own countermeasures will hit hardest \u2014 retaliation with a built-in admission of its domestic cost.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/08/25/canada-trump-tariffs-trade-carney-leblanc.html",
+      "url": "https://www.theglobeandmail.com/politics/article-ottawa-announces-counter-tariffs-us-products-worker-business-support/",
       "location": "Canada / United States",
       "season_or_time_context": "ongoing trade dispute",
       "first_seen": "2026-08-23T00:20:00Z",
-      "last_seen": "2026-08-27T00:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-08-29T14:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-08-29T14:30:00Z",
+          "note": "Canada paired its Sept 8 retaliatory tariffs with a C$7.5B domestic support package for workers and businesses its own countermeasures will hit hardest."
+        },
         {
           "date": "2026-08-27T00:20:00Z",
           "note": "Canada's retaliation is now concrete: 15-50% tariffs on 700+ US goods worth ~$20B, effective Sept 8, mirroring the US's own 50% duties on Canadian goods that took effect Aug 22."
@@ -86,7 +90,7 @@
           "note": "Canada's government signaling new retaliatory measures against US tariffs; talks between Ottawa and Washington remain stalled."
         }
       ],
-      "source_date": "2026-08-25"
+      "source_date": "2026-08-26"
     },
     {
       "id": "hormuz-iran-new-demands",
@@ -410,16 +414,20 @@
       "pattern": "the gap between a signed agreement and a verified one",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The mission will also visit Uvira, where M23 withdrew in January, and Kalehe, where fighting has continued in recent weeks \u2014 and even Swiss mediators concede both sides keep accusing each other of violations that \"often cannot be independently verified,\" which is the entire reason a verification mission exists.",
+      "why_now": "The exact fragility the mission exists to fix just played out again: M23 accuses government drone strikes of hitting civilians near Minembwe, while the DRC accuses M23 of killing 300+ people in June-July \u2014 competing, irreconcilable claims that pushed the two sides to agree, in Aug 17-21 talks, on a standardized method for reporting violations, since neither side's own account can be trusted alone.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.africanews.com/2026/08/24/mission-to-verify-drc-m23-ceasefire-gets-underway-in-south-kivu/",
+      "url": "https://www.newtimes.co.rw/article/32557/news/africa/fresh-drone-strikes-kill-civilians-in-minembwe-says-afcm23",
       "location": "Eastern Democratic Republic of Congo",
       "season_or_time_context": "post-ceasefire verification phase",
       "first_seen": "2026-08-25T00:20:00Z",
-      "last_seen": "2026-08-27T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-29T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-08-29T14:30:00Z",
+          "note": "M23 accuses DRC drone strikes of hitting civilians near Minembwe; DRC accuses M23 of killing 300+ in June-July. Aug 17-21 talks produced a standardized violation-reporting mechanism - neither side's own account can stand alone."
+        },
         {
           "date": "2026-08-27T00:20:00Z",
           "note": "The mission is also stopping at Uvira and Kalehe, both recent flashpoints; despite the deployment, both sides keep trading violation accusations that often can't be independently confirmed - the fragility the mission exists to fix."
@@ -429,7 +437,7 @@
           "note": "First EJVM+ ceasefire verification mission deployed to Minembwe, pairing Congolese army and M23 officers with AU/Qatari/US observers, days after DRC and M23 agreed a peace roadmap in Switzerland."
         }
       ],
-      "source_date": "2026-08-24"
+      "source_date": "2026-08-22"
     },
     {
       "id": "hungry-ghost-festival-taboos",
@@ -476,16 +484,20 @@
       "pattern": "a ruling that resolves the process while leaving the substance undecided",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Even with the Court's win, nothing actually changes yet: a separate nationwide ruling from a Boston federal judge still blocks the Postal Service from following Trump's order, meaning this procedural victory may not alter a single midterm mail-ballot procedure. Jackson accused her colleagues of \"a lack of situational awareness\" for injecting chaos into the election cycle.",
+      "why_now": "The administration itself just confirmed the case isn't settled: it filed a notice of appeal Friday against the Boston judge's separate nationwide block, sending the fight to the 1st Circuit \u2014 the government appealing the very ruling that makes its Supreme Court win procedurally hollow.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.pbs.org/newshour/politics/nothing-changes-yet-with-the-supreme-courts-order-on-mail-voting-but-it-could-open-door-to-chaos",
+      "url": "https://abc7ny.com/post/judge-temporarily-blocks-president-donald-trump-mail-voting-executive-order/19752447/",
       "location": "Washington, DC",
       "season_or_time_context": "ahead of November 2026 midterms",
       "first_seen": "2026-08-25T00:20:00Z",
-      "last_seen": "2026-08-27T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-29T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-08-29T14:30:00Z",
+          "note": "The administration filed a notice of appeal Friday against the Boston judge's nationwide block, sending the case to the 1st Circuit - appealing the very ruling that keeps its SCOTUS win from changing anything yet."
+        },
         {
           "date": "2026-08-27T00:20:00Z",
           "note": "A separate nationwide ruling still blocks USPS from following Trump's order, so the SCOTUS win may change zero actual midterm procedures; Jackson said colleagues showed \"a lack of situational awareness\" injecting chaos into the cycle."
@@ -495,7 +507,7 @@
           "note": "SCOTUS stayed a lower-court block on Trump's mail-voting order on procedural grounds only; Sotomayor/Kagan noted the lawfulness question remains open, and Jackson dissented, calling the stay bid \"bad-faith.\""
         }
       ],
-      "source_date": "2026-08-24"
+      "source_date": "2026-08-28"
     },
     {
       "id": "roman-space-telescope-launch",
@@ -652,16 +664,20 @@
       "pattern": "individual criminal charge substituting for systemic accountability",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "RIDA district coordinator Ignatius Chiome, 49, was arrested and charged with culpable homicide over the Aug 11 capsizing of the ferry Mbuya Nehanda, which was carrying far more than its authorized 90 passengers when it sank en route from Kariba to Chalala, killing 97 in the deadliest maritime disaster in Zimbabwe's history.",
+      "why_now": "Prosecutors have signaled Chiome may not be the last: the investigation has widened to RIDA management, the ferry crew, and whoever was responsible for checking passenger counts, cargo weight, and safety equipment before departure \u2014 with officials saying further arrests could follow, complicating the single-scapegoat read.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.africanews.com/2026/08/27/district-official-charged-with-homicide-over-ferry-disaster-that-killed-97-people/",
+      "url": "https://www.newzimbabwe.com/lake-kariba-ferry-tragedy-rida-official-arrested-charged-with-culpable-homicide/",
       "location": "Lake Kariba, Zimbabwe",
       "season_or_time_context": "post-disaster accountability phase",
       "first_seen": "2026-08-27T14:30:00Z",
-      "last_seen": "2026-08-27T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-29T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-29T14:30:00Z",
+          "note": "Investigators have widened the probe to RIDA management, the ferry crew, and whoever checked passenger counts and safety gear before departure; prosecutors say further arrests could follow beyond Chiome."
+        },
         {
           "date": "2026-08-27T14:30:00Z",
           "note": "RIDA district coordinator Ignatius Chiome charged with culpable homicide and remanded in custody over the Aug 11 Lake Kariba ferry capsizing that killed 97 - Zimbabwe's deadliest recorded accident."
