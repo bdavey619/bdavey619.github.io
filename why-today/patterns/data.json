@@ -1,36 +1,7 @@
 {
-  "week": "2026-08-23",
-  "last_updated": "2026-08-29T14:30:00Z",
+  "week": "2026-08-30",
+  "last_updated": "2026-08-30T00:20:00Z",
   "recognitions": [
-    {
-      "id": "warning-clears-before-the-damage-does",
-      "title": "We have made the alert fast and left the recovery exactly as slow as it ever was",
-      "explanation": "Three disasters on three continents in one weekend, and all three have the same shape: the detection system did its job in hours and then handed off to nothing. A tsunami warning is issued and lifted the same morning; a flash flood emergency expires; a fire is contained overnight. Each of those is a measured, quantitative, minutes-to-hours system. What follows - the death toll, the grid, the intensive care unit, the people who will not go back into the house - has no equivalent instrument and no equivalent urgency. The alert clearing has become the moment coverage ends, which is roughly the moment the actual damage begins to be counted.",
-      "momentum": "accelerating",
-      "evidence": [
-        {
-          "domain": "Utilities",
-          "text": "Moke has now fully dissipated - the storm itself is gone, its circulation opened into a trough. That's the fast instrument closing the file. Nothing closes the file on what Lala's saturated ground still owes the Big Island, or on how many named systems it will take before that debt is actually paid down.",
-          "url": "https://www.staradvertiser.com/2026/08/24/hawaii-news/hawaii-island-gets-a-break-as-moke-weakens-to-tropical-depression/",
-          "date": "2026-08-25",
-          "is_new": false
-        },
-        {
-          "domain": "Disaster Response",
-          "text": "The tsunami warning resolved in one morning, nine days ago. The country's top leadership only just caught up to the ground: VP Gibran toured East Nusa Tenggara on Aug 20, President Prabowo reached Nagekeo on Aug 26. The instrument that measures political attention arriving runs even slower than the one counting the dead.",
-          "url": "https://www.dfat.gov.au/news/media/Pages/indonesia-earthquakes-recovery-and-reconstruction-assistance",
-          "date": "2026-08-26",
-          "is_new": false
-        },
-        {
-          "domain": "Storm Recovery",
-          "text": "NIPSCO hit ~99% restoration by its own deadline - genuinely fast, as these things go. But the company's own footnote is the point: some individual properties will take longer, with no instrument tracking which ones or for how long. A 99% headline and a 0% headline look identical to whoever's still in the dark.",
-          "url": "https://www.cbsnews.com/chicago/news/nipsco-indiana-power-deadline-mayor-eddie-melton/",
-          "date": "2026-08-25",
-          "is_new": false
-        }
-      ]
-    },
     {
       "id": "claims-outrun-confirmation",
       "title": "This week, three separate claims of having fixed something didn't survive a single news cycle",
@@ -49,7 +20,7 @@
           "text": "Bessent unveiled sweeping new Iran sanctions Monday - 'Operation Economic Outcast,' targeting ~60 entities - declaring an 'ECONOMIC D-DAY' and claiming Iran is 'collapsing.' Tehran's national security chief immediately vowed to 'retaliate in a seismic manner,' and China called the sanctions illegal - the claim of collapse met by an unbowed, escalating counter-claim within the same day.",
           "url": "https://www.npr.org/2026/08/25/nx-s1-5943570/trump-administration-unveils-new-iran-sanctions",
           "date": "2026-08-25",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Debt Management",
@@ -71,14 +42,14 @@
           "text": "The exact fragility the mission exists to fix played out again: M23 accuses DRC drone strikes of killing civilians near Minembwe, DRC accuses M23 of killing 300+ people in June-July, and the two sides only just agreed, in Aug 17-21 talks, on a standardized way to even report these competing claims.",
           "url": "https://www.newtimes.co.rw/article/32557/news/africa/fresh-drone-strikes-kill-civilians-in-minembwe-says-afcm23",
           "date": "2026-08-22",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Judicial",
           "text": "The administration just confirmed its own win is inconclusive: it filed a notice of appeal Friday against the Boston judge's separate nationwide block, sending the fight to the 1st Circuit - still fighting to make its Supreme Court victory actually change anything on the ground.",
           "url": "https://abc7ny.com/post/judge-temporarily-blocks-president-donald-trump-mail-voting-executive-order/19752447/",
           "date": "2026-08-28",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy Shipping",
