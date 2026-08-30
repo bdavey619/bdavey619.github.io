@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-08",
   "division_name": "AL East",
-  "generated_at": "2026-08-29T15:32:51.542201+00:00",
+  "generated_at": "2026-08-30T15:16:29.335752+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -249,23 +249,20 @@
       "opponent": "BOS",
       "home": true,
       "gamePk": 823501,
-      "status": "scheduled",
-      "time_local": "7:15 PM ET",
-      "probable": {
-        "team": "Max Fried"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "9\u20132",
+      "archive_url": "archive.html?date=2026-06-07"
     },
     {
       "date": "2026-08-29",
       "opponent": "BOS",
       "home": true,
       "gamePk": 823539,
-      "status": "scheduled",
-      "time_local": "1:05 PM ET",
-      "probable": {
-        "team": "Carlos Rod\u00f3n",
-        "opp": "Jake Bennett"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20136",
+      "archive_url": "archive.html?date=2026-06-07"
     },
     {
       "date": "2026-08-30",
@@ -285,12 +282,15 @@
       "home": false,
       "gamePk": 823982,
       "status": "scheduled",
-      "time_local": "9:38 PM ET"
+      "time_local": "9:38 PM ET",
+      "probable": {
+        "team": "Elmer Rodr\u00edguez"
+      }
     }
   ],
   "summary": {
-    "month_record": "14\u201310",
+    "month_record": "15\u201311",
     "current_streak": "W1",
-    "last_10": "7\u20133"
+    "last_10": "6\u20134"
   }
 }
