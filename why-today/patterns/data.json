@@ -1,6 +1,6 @@
 {
   "week": "2026-08-30",
-  "last_updated": "2026-08-30T00:20:00Z",
+  "last_updated": "2026-08-30T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -57,6 +57,13 @@
           "url": "https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know",
           "date": "2026-08-26",
           "is_new": false
+        },
+        {
+          "domain": "Geopolitical",
+          "text": "Pashinyan's pivot got its form - a referendum plan, a bid in motion - but not its resolution: Lavrov himself dismissed the sequencing as 'sitting on two chairs' over $6B+ in EAEU trade, and Armenia's own Security Council chief now hopes Russia won't raise Kocharyan's case at all, tacitly admitting it's already on Moscow's table.",
+          "url": "https://news.am/en/video/1058172",
+          "date": "2026-08-30",
+          "is_new": true
         }
       ]
     }
