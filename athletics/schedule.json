@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-08",
   "division_name": "AL West",
-  "generated_at": "2026-08-29T16:51:01.084979+00:00",
+  "generated_at": "2026-08-30T16:56:11.124264+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -259,12 +259,9 @@
       "opponent": "BAL",
       "home": true,
       "gamePk": 824961,
-      "status": "scheduled",
-      "time_local": "7:05 PM PT",
-      "probable": {
-        "team": "Jack Perkins",
-        "opp": "Shane Baz"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20135"
     },
     {
       "date": "2026-08-30",
@@ -274,6 +271,7 @@
       "status": "scheduled",
       "time_local": "1:05 PM PT",
       "probable": {
+        "team": "Jeffrey Springs",
         "opp": "Chris Bassitt"
       }
     },
@@ -287,8 +285,8 @@
     }
   ],
   "summary": {
-    "month_record": "8\u201317",
-    "current_streak": "L1",
+    "month_record": "8\u201318",
+    "current_streak": "L2",
     "last_10": "4\u20136"
   }
 }
