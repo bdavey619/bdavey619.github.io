@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-08",
   "division_name": "AL East",
-  "generated_at": "2026-08-30T15:16:29.335752+00:00",
+  "generated_at": "2026-08-31T17:57:14.189048+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -269,12 +269,10 @@
       "opponent": "BOS",
       "home": true,
       "gamePk": 823502,
-      "status": "scheduled",
-      "time_local": "1:35 PM ET",
-      "probable": {
-        "team": "Will Warren",
-        "opp": "Ranger Suarez"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "16\u20131",
+      "archive_url": "archive.html?date=2026-08-30"
     },
     {
       "date": "2026-08-31",
@@ -284,13 +282,14 @@
       "status": "scheduled",
       "time_local": "9:38 PM ET",
       "probable": {
-        "team": "Elmer Rodr\u00edguez"
+        "team": "Elmer Rodr\u00edguez",
+        "opp": "Walbert Ure\u00f1a"
       }
     }
   ],
   "summary": {
-    "month_record": "15\u201311",
-    "current_streak": "W1",
+    "month_record": "16\u201311",
+    "current_streak": "W2",
     "last_10": "6\u20134"
   }
 }
