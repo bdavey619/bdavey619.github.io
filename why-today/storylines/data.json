@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-30",
-  "cycle_start": "2026-08-30T00:20:00Z",
-  "last_updated": "2026-08-30T14:30:00Z",
+  "cycle_start": "2026-08-30T14:30:00Z",
+  "last_updated": "2026-08-31T00:20:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -14,16 +14,20 @@
       "pattern": "a disaster whose only warning sign is the disaster itself",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The barrier lake that formed from the collapse forced rescuers to briefly suspend operations Saturday over fears of a second flood, before resuming. Nepal's toll has climbed to 675 dead with ~2,500 still missing, including 90 Americans; Tibet's toll rose to 16 dead with 558 missing. Nepal's army has aerial-evacuated 2,500+ people so far, and the US has pledged $3.6M in emergency aid.",
+      "why_now": "The new lake the collapse left behind has started overflowing, not just threatening to. Nepal's toll has reached 800 dead with 2,498 missing, including 90 Americans and nearly 900 hydropower workers (361 rescued so far); Tibet has recovered 272 unidentified bodies on top of 16 confirmed dead. 7,514 people have been rescued total, and Israeli forensic experts are now joining India and China in the identification effort.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.nbcnews.com/world/asia/live-blog/live-updates-nepal-china-flood-rescue-teams-search-flood-survivors-rcna594833",
+      "url": "https://www.cbsnews.com/news/nepal-flash-flood-death-missing-americans-rescue/",
       "location": "Langtang, Nepal / Gyirong, Tibet",
       "season_or_time_context": "post-disaster search and rescue",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-08-30T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-08-31T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-08-31T00:20:00Z",
+          "note": "The new lake has started overflowing, not just threatening to. Nepal's toll: 800 dead, 2,498 missing (incl. 90 Americans, ~900 hydropower workers). Tibet: 272 unidentified bodies recovered plus 16 confirmed dead. 7,514 rescued total; Israeli forensic experts joining India/China."
+        },
         {
           "date": "2026-08-30T14:30:00Z",
           "note": "Rescue briefly suspended Saturday over fears of a second flood from the collapse's barrier lake. Nepal's toll: 675 dead, ~2,500 missing (incl. 90 Americans). Tibet: 16 dead, 558 missing. 2,500+ rescued by air; US pledges $3.6M in aid."
@@ -169,22 +173,54 @@
       "pattern": "chokepoint leverage priced as permanent risk premium",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran and Oman have reached a revenue-sharing toll deal on a temporary shipping corridor and are discussing a permanent one \u2014 but the strait won't actually reopen until the US fulfills its commitments under an interim June peace deal that has since lapsed. Meanwhile Washington's new sanctions campaign, dubbed \"Operation Economic Outcast,\" has drawn a threat from Tehran to retaliate \"in a seismic manner.\"",
+      "why_now": "Iran's own deputy FM put the reality plainly Saturday: \"The Strait of Hormuz remains closed, and any vessel passing through the strait does so in coordination with Iran,\" with detention or confiscation threatened for violators \u2014 a blunter statement than the shipping-corridor diplomacy suggests, confirmed by UKMTO data showing traffic still \"significantly reduced.\" Washington's new sanctions campaign now targets aviation, shipping, tech, gold and crypto at once.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know",
+      "url": "https://www.foxnews.com/live-news/iran-war-us-sanctions-trump-strait-hormuz-oman-oil-prices-08-29-2026",
       "location": "Strait of Hormuz",
       "season_or_time_context": "ongoing regional tension",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-08-30T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-31T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-31T00:20:00Z",
+          "note": "Iran's deputy FM: \"The Strait of Hormuz remains closed, and any vessel passing through does so in coordination with Iran,\" with detention/confiscation threatened for violators - UKMTO confirms traffic remains significantly reduced."
+        },
         {
           "date": "2026-08-30T00:20:00Z",
           "note": "Iran and Oman reached a revenue-sharing toll deal, discussing a permanent corridor \u2014 but the strait stays closed pending the US honoring its own lapsed June peace deal, as Washington's new sanctions draw threats of \"seismic\" Iranian retaliation."
         }
       ],
-      "source_date": "2026-08-26"
+      "source_date": "2026-08-29"
+    },
+    {
+      "id": "venezuela-us-oil-deal-legitimacy",
+      "stream": "markets",
+      "observer": "Why Today?",
+      "title": "The US just signed a 100-year oil deal with a president nobody elected",
+      "observation": "The US and Venezuela's acting president Delcy Rodr\u00edguez \u2014 installed after Washington removed Maduro in January \u2014 struck a deal granting a new joint venture 55% US-controlled ownership and 100-year rights to develop 65 billion barrels across 17 oil fields.",
+      "question": "Does a resource deal's scale change what it means that neither government asked its own people first?",
+      "hidden_question": "Is a 100-year contract a legitimate exercise of sovereignty, or a wager that whoever eventually contests it will no longer be in a position to matter?",
+      "pattern": "a resource deal signed by an unelected government, at a scale built to outlast any successor who might contest it",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Negotiated by Secretary of State Rubio and Defense Secretary Hegseth with acting president Rodr\u00edguez, who has never been elected and took power only after the US removed Maduro in January, the deal could draw $100B in investment and yield Venezuela $209B in taxes \u2014 but faces open legal and constitutional questions, since Venezuela's state has historically retained control over core oil-industry activities.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.npr.org/2026/08/29/nx-s1-5948696/trump-says-u-s-has-struck-a-deal-for-control-of-venezuelan-oil-reserves",
+      "location": "Caracas, Venezuela / Washington, DC",
+      "season_or_time_context": "newly announced deal",
+      "first_seen": "2026-08-31T00:20:00Z",
+      "last_seen": "2026-08-31T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-31T00:20:00Z",
+          "note": "Rubio and Hegseth negotiated a deal with unelected acting president Rodr\u00edguez granting the US 55% control and 100-year rights over 65B barrels across 17 fields - $100B in potential investment, but open legal questions over Venezuela's own oil-sovereignty laws."
+        }
+      ],
+      "source_date": "2026-08-29"
     }
   ]
 }

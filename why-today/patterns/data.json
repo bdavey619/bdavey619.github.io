@@ -1,6 +1,6 @@
 {
   "week": "2026-08-30",
-  "last_updated": "2026-08-30T14:30:00Z",
+  "last_updated": "2026-08-31T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -53,17 +53,17 @@
         },
         {
           "domain": "Energy Shipping",
-          "text": "Iran and Oman have now reached a revenue-sharing toll deal and are discussing a 'permanent' corridor - real, announced progress. But the strait stays closed until the US honors its own June interim peace deal, which has since lapsed unfulfilled. The resolution keeps advancing one negotiated condition ahead of the one that's actually missing.",
-          "url": "https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know",
-          "date": "2026-08-26",
-          "is_new": false
+          "text": "The shipping-corridor diplomacy is real, but Iran's own deputy FM undercut the 'resolution' framing directly: \"The Strait of Hormuz remains closed, and any vessel passing through does so in coordination with Iran,\" with detention or confiscation threatened for violators. UKMTO confirms traffic remains significantly reduced - the corridor talk describes a negotiation, not the waterway's actual status.",
+          "url": "https://www.foxnews.com/live-news/iran-war-us-sanctions-trump-strait-hormuz-oman-oil-prices-08-29-2026",
+          "date": "2026-08-29",
+          "is_new": true
         },
         {
           "domain": "Geopolitical",
           "text": "Pashinyan's pivot got its form - a referendum plan, a bid in motion - but not its resolution: Lavrov himself dismissed the sequencing as 'sitting on two chairs' over $6B+ in EAEU trade, and Armenia's own Security Council chief now hopes Russia won't raise Kocharyan's case at all, tacitly admitting it's already on Moscow's table.",
           "url": "https://news.am/en/video/1058172",
           "date": "2026-08-30",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
