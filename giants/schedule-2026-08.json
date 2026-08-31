@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-08",
   "division_name": "NL West",
-  "generated_at": "2026-08-30T16:12:02.377238+00:00",
+  "generated_at": "2026-08-31T18:52:48.551269+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -261,7 +261,8 @@
       "gamePk": 823176,
       "status": "final",
       "result": "W",
-      "score": "7\u20132"
+      "score": "7\u20132",
+      "archive_url": "archive.html?date=2026-08-30"
     },
     {
       "date": "2026-08-29",
@@ -270,7 +271,8 @@
       "gamePk": 823177,
       "status": "final",
       "result": "L",
-      "score": "1\u20137"
+      "score": "1\u20137",
+      "archive_url": "archive.html?date=2026-08-30"
     },
     {
       "date": "2026-08-31",
@@ -280,6 +282,7 @@
       "status": "scheduled",
       "time_local": "3:05 PM PT",
       "probable": {
+        "team": "Anthony Molina",
         "opp": "Bryce Elder"
       }
     }
