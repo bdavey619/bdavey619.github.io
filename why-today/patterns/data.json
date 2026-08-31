@@ -1,6 +1,6 @@
 {
   "week": "2026-08-30",
-  "last_updated": "2026-08-31T00:20:00Z",
+  "last_updated": "2026-08-31T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -9,11 +9,11 @@
       "momentum": "accelerating",
       "evidence": [
         {
-          "domain": "Trade Policy",
-          "text": "Carney's account of the collapse adds a wrinkle: Canada says it had offered to drop its remaining steel, aluminum and auto tariffs if the US lowered its own, and blames Washington's 'last-minute changes' for scuttling it. The US has now said only that it will 'respond to Canadian retaliation' - a claim about who reneged that, like the others, nobody outside either government can verify before the next one lands.",
-          "url": "https://www.nbcnews.com/business/economy/trump-canada-tariffs-carney-rcna593510",
-          "date": "2026-08-24",
-          "is_new": false
+          "domain": "Resource Diplomacy",
+          "text": "Trump announced US majority control of Venezuela's oil reserves; within days, acting president Rodriguez was publicly insisting Caracas retains control of the resources - the deal's two co-authors can't agree in public on what it actually says, let alone anyone trying to verify it from outside.",
+          "url": "https://www.latintimes.com/harvard-economist-calls-venezuela-oil-deal-shameful-rodriguez-trump-contradict-each-other-598852",
+          "date": "2026-08-31",
+          "is_new": true
         },
         {
           "domain": "Foreign Policy",
@@ -38,13 +38,6 @@
       "momentum": "building",
       "evidence": [
         {
-          "domain": "Peacekeeping",
-          "text": "The exact fragility the mission exists to fix played out again: M23 accuses DRC drone strikes of killing civilians near Minembwe, DRC accuses M23 of killing 300+ people in June-July, and the two sides only just agreed, in Aug 17-21 talks, on a standardized way to even report these competing claims.",
-          "url": "https://www.newtimes.co.rw/article/32557/news/africa/fresh-drone-strikes-kill-civilians-in-minembwe-says-afcm23",
-          "date": "2026-08-22",
-          "is_new": false
-        },
-        {
           "domain": "Judicial",
           "text": "The administration just confirmed its own win is inconclusive: it filed a notice of appeal Friday against the Boston judge's separate nationwide block, sending the fight to the 1st Circuit - still fighting to make its Supreme Court victory actually change anything on the ground.",
           "url": "https://abc7ny.com/post/judge-temporarily-blocks-president-donald-trump-mail-voting-executive-order/19752447/",
@@ -56,7 +49,7 @@
           "text": "The shipping-corridor diplomacy is real, but Iran's own deputy FM undercut the 'resolution' framing directly: \"The Strait of Hormuz remains closed, and any vessel passing through does so in coordination with Iran,\" with detention or confiscation threatened for violators. UKMTO confirms traffic remains significantly reduced - the corridor talk describes a negotiation, not the waterway's actual status.",
           "url": "https://www.foxnews.com/live-news/iran-war-us-sanctions-trump-strait-hormuz-oman-oil-prices-08-29-2026",
           "date": "2026-08-29",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Geopolitical",

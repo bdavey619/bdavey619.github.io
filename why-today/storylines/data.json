@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-30",
-  "cycle_start": "2026-08-30T14:30:00Z",
-  "last_updated": "2026-08-31T00:20:00Z",
+  "cycle_start": "2026-08-31T00:20:00Z",
+  "last_updated": "2026-08-31T14:30:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -116,8 +116,8 @@
       "pattern": "the gap between a signed agreement and a verified one",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The fragility the mission exists to fix keeps playing out in real time: M23 accuses government drone strikes of killing civilians near Minembwe, the DRC accuses M23 of killing 300+ people in June-July, and the two sides only just agreed, in Aug 17-21 talks, on a standardized way to even report these competing claims \u2014 neither side's account can stand alone.",
-      "status": "captured",
+      "why_now": "No reporting has moved past the Aug 22-24 mutual violation accusations across five consecutive checks; going dormant rather than re-bumping the same standoff a sixth time. Worth reactivating if the verification mission produces an actual finding or a new incident is reported.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.newtimes.co.rw/article/32557/news/africa/fresh-drone-strikes-kill-civilians-in-minembwe-says-afcm23",
       "location": "Eastern Democratic Republic of Congo",
@@ -205,22 +205,54 @@
       "pattern": "a resource deal signed by an unelected government, at a scale built to outlast any successor who might contest it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Negotiated by Secretary of State Rubio and Defense Secretary Hegseth with acting president Rodr\u00edguez, who has never been elected and took power only after the US removed Maduro in January, the deal could draw $100B in investment and yield Venezuela $209B in taxes \u2014 but faces open legal and constitutional questions, since Venezuela's state has historically retained control over core oil-industry activities.",
+      "why_now": "The deal's two authors are already contradicting each other on what it actually says: Rodr\u00edguez insists Caracas retains control of the resources, against Trump's own framing of US majority ownership. Harvard economist and former Venezuelan planning minister Ricardo Hausmann calls it \"shameful\" and unconstitutional, arguing Rodr\u00edguez's interim government has no authority to sign away long-term control \u2014 and Senate Democrats, including Chris Van Hollen, say it \"isn't a win.\"",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.npr.org/2026/08/29/nx-s1-5948696/trump-says-u-s-has-struck-a-deal-for-control-of-venezuelan-oil-reserves",
+      "url": "https://www.latintimes.com/harvard-economist-calls-venezuela-oil-deal-shameful-rodriguez-trump-contradict-each-other-598852",
       "location": "Caracas, Venezuela / Washington, DC",
       "season_or_time_context": "newly announced deal",
       "first_seen": "2026-08-31T00:20:00Z",
-      "last_seen": "2026-08-31T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-08-31T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-08-31T14:30:00Z",
+          "note": "Rodr\u00edguez and Trump are already contradicting each other on the deal's terms - she says Caracas retains control, he claims US majority ownership. Economist Ricardo Hausmann calls it \"shameful\" and unconstitutional; Senate Democrats say it \"isn't a win.\""
+        },
         {
           "date": "2026-08-31T00:20:00Z",
           "note": "Rubio and Hegseth negotiated a deal with unelected acting president Rodr\u00edguez granting the US 55% control and 100-year rights over 65B barrels across 17 fields - $100B in potential investment, but open legal questions over Venezuela's own oil-sovereignty laws."
         }
       ],
-      "source_date": "2026-08-29"
+      "source_date": "2026-08-31"
+    },
+    {
+      "id": "uzbekistan-boburtepa-flower-mural",
+      "stream": "places",
+      "observer": "Why Today?",
+      "title": "A 1,500-year-old flower painting survived by being buried under its own cover-up",
+      "observation": "Archaeologists uncovered a 4th-5th century mural of tulips and white flowers on a temple-like structure's wall at the Boburtepa site in southern Uzbekistan \u2014 preserved because a later generation sealed it beneath plain white lime plaster instead of destroying it.",
+      "question": "What survives better: a monument built to last, or one quietly hidden beneath something newer?",
+      "hidden_question": "Did the plaster erase the mural, or was covering it up the very thing that saved it?",
+      "pattern": "an artifact preserved by concealment rather than by intention",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Sanjar Abdurakhimov and colleagues at the Institute of Archaeology of Samarkand identified the mural on a temple-like structure's clay-layered wall and are still investigating what the building was actually used for; the tulip-and-vine decoration, painted in thin wavy red lines, had been sealed beneath a later coat of white lime plaster that shielded rather than replaced it.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://archaeology.org/news/2026/08/28/ancient-flower-mural-discovered-in-uzbekistan/",
+      "location": "Boburtepa, southern Uzbekistan",
+      "season_or_time_context": "recent archaeological find",
+      "first_seen": "2026-08-31T14:30:00Z",
+      "last_seen": "2026-08-31T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-08-31T14:30:00Z",
+          "note": "A 4th-5th century tulip-and-flower mural at Boburtepa, Uzbekistan was preserved by a later generation sealing it under white lime plaster rather than destroying it; researchers are still investigating the building's original function."
+        }
+      ],
+      "source_date": "2026-08-28"
     }
   ]
 }
