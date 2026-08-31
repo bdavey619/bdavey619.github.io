@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-08",
   "division_name": "AL West",
-  "generated_at": "2026-08-30T16:56:11.124264+00:00",
+  "generated_at": "2026-08-31T19:13:06.627665+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -261,19 +261,17 @@
       "gamePk": 824961,
       "status": "final",
       "result": "L",
-      "score": "3\u20135"
+      "score": "3\u20135",
+      "archive_url": "archive.html?date=2026-08-30"
     },
     {
       "date": "2026-08-30",
       "opponent": "BAL",
       "home": true,
       "gamePk": 824959,
-      "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "team": "Jeffrey Springs",
-        "opp": "Chris Bassitt"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "5\u20138"
     },
     {
       "date": "2026-08-31",
@@ -281,12 +279,16 @@
       "home": false,
       "gamePk": 822855,
       "status": "scheduled",
-      "time_local": "5:05 PM PT"
+      "time_local": "5:05 PM PT",
+      "probable": {
+        "team": "Gage Jump",
+        "opp": "Jacob deGrom"
+      }
     }
   ],
   "summary": {
-    "month_record": "8\u201318",
-    "current_streak": "L2",
+    "month_record": "8\u201319",
+    "current_streak": "L3",
     "last_10": "4\u20136"
   }
 }
