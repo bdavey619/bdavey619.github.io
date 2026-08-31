@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-08-30T14:54:31.547355+00:00",
+  "generated_at": "2026-08-31T17:39:52.325660+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -13,6 +13,7 @@
       "status": "scheduled",
       "time_local": "3:40 PM PT",
       "probable": {
+        "team": "Randy V\u00e1squez",
         "opp": "Nick Lodolo"
       }
     },
@@ -22,7 +23,11 @@
       "home": false,
       "gamePk": 824470,
       "status": "scheduled",
-      "time_local": "9:40 AM PT"
+      "time_local": "9:40 AM PT",
+      "probable": {
+        "team": "Casey Mize",
+        "opp": "Rhett Lowder"
+      }
     },
     {
       "date": "2026-09-04",
