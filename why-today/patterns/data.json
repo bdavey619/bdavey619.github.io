@@ -1,6 +1,6 @@
 {
   "week": "2026-08-30",
-  "last_updated": "2026-09-01T00:20:00Z",
+  "last_updated": "2026-09-01T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -13,7 +13,7 @@
           "text": "Trump announced US control of 65B barrels of Venezuelan oil - more than all of America's own proved reserves - while acting president Rodriguez insisted Caracas retains control. Now House Democrats are formally warning oil companies of legal risk under Congress's war powers, and experts note it's the US, not Venezuela, that picks who operates the fields.",
           "url": "https://www.ksat.com/news/politics/2026/08/31/the-latest-trump-says-venezuela-agreed-to-give-us-control-of-65-billion-barrels-of-oil-reserves/",
           "date": "2026-08-31",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Foreign Policy",
@@ -53,10 +53,10 @@
         },
         {
           "domain": "Geopolitical",
-          "text": "Pashinyan's pivot got its form - a referendum plan, a bid in motion - but not its resolution: Lavrov himself dismissed the sequencing as 'sitting on two chairs' over $6B+ in EAEU trade, and Armenia's own Security Council chief now hopes Russia won't raise Kocharyan's case at all, tacitly admitting it's already on Moscow's table.",
-          "url": "https://news.am/en/video/1058172",
-          "date": "2026-08-30",
-          "is_new": false
+          "text": "Pashinyan's pivot got its form - a referendum plan, a bid in motion - but not its resolution: the pressure has now moved from rhetoric to Armenia's actual export ledger, with Russia's MFA noting the reorientation toward the EU and separately restricting certain Armenian produce over 'quality' concerns - leverage that doesn't need a referendum to bite.",
+          "url": "https://news.am/en/news/1058188",
+          "date": "2026-08-28",
+          "is_new": true
         }
       ]
     }
