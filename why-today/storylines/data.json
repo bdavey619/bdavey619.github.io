@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-30",
-  "cycle_start": "2026-08-31T00:20:00Z",
-  "last_updated": "2026-08-31T14:30:00Z",
+  "cycle_start": "2026-08-31T14:30:00Z",
+  "last_updated": "2026-09-01T00:20:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -145,8 +145,8 @@
       "pattern": "escalation as bargaining posture between interdependent economies",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Ottawa is now backstopping its own retaliation: alongside the Sept 8 counter-tariffs on 700+ US goods worth roughly $20B, it announced a C$7.5B domestic support package for the workers and businesses its own countermeasures will hit hardest \u2014 retaliation with a built-in admission of its domestic cost.",
-      "status": "captured",
+      "why_now": "No reporting has moved past the Aug 26 support-package announcement across three consecutive checks; going dormant until the Sept 8 tariffs actually take effect or talks resume, rather than re-bumping the same standoff. Worth reactivating the moment either side moves.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.theglobeandmail.com/politics/article-ottawa-announces-counter-tariffs-us-products-worker-business-support/",
       "location": "Canada / United States",
@@ -205,16 +205,20 @@
       "pattern": "a resource deal signed by an unelected government, at a scale built to outlast any successor who might contest it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The deal's two authors are already contradicting each other on what it actually says: Rodr\u00edguez insists Caracas retains control of the resources, against Trump's own framing of US majority ownership. Harvard economist and former Venezuelan planning minister Ricardo Hausmann calls it \"shameful\" and unconstitutional, arguing Rodr\u00edguez's interim government has no authority to sign away long-term control \u2014 and Senate Democrats, including Chris Van Hollen, say it \"isn't a win.\"",
+      "why_now": "The scale keeps getting sharper: the 65B barrels under Washington's control alone surpasses all of America's own proved oil reserves (46B barrels). House Democrats are now formally warning oil companies of legal and financial risk under Congress's war powers and the UN Charter, and experts flag that the US \u2014 not Venezuela \u2014 gets to pick which companies operate the fields, while Vance and Bessent work to reassure allies rattled by the secrecy of how it was negotiated.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.latintimes.com/harvard-economist-calls-venezuela-oil-deal-shameful-rodriguez-trump-contradict-each-other-598852",
+      "url": "https://www.ksat.com/news/politics/2026/08/31/the-latest-trump-says-venezuela-agreed-to-give-us-control-of-65-billion-barrels-of-oil-reserves/",
       "location": "Caracas, Venezuela / Washington, DC",
       "season_or_time_context": "newly announced deal",
       "first_seen": "2026-08-31T00:20:00Z",
-      "last_seen": "2026-08-31T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-01T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-01T00:20:00Z",
+          "note": "The 65B barrels alone surpass all US proved reserves (46B). House Democrats formally warn oil companies of legal risk under Congress's war powers and the UN Charter; the US, not Venezuela, picks which companies operate the fields."
+        },
         {
           "date": "2026-08-31T14:30:00Z",
           "note": "Rodr\u00edguez and Trump are already contradicting each other on the deal's terms - she says Caracas retains control, he claims US majority ownership. Economist Ricardo Hausmann calls it \"shameful\" and unconstitutional; Senate Democrats say it \"isn't a win.\""
@@ -253,6 +257,34 @@
         }
       ],
       "source_date": "2026-08-28"
+    },
+    {
+      "id": "ibm-quantum-advantage-verified",
+      "stream": "curiosities",
+      "observer": "Why Today?",
+      "title": "A quantum computer did something classical computers can't - and proved it wasn't lying",
+      "observation": "IBM and University of Chicago researchers ran a quantum computation on 70 error-corrected \"logical\" qubits that finished in about 15 minutes and would take leading classical supercomputers an impractical amount of time to reproduce, while also providing statistical proof the result was actually correct.",
+      "question": "What changes when a machine can do something classical computers can't, and also prove it did it right?",
+      "hidden_question": "Is quantum advantage really about raw speed, or about being trustworthy enough that the speed is worth anything?",
+      "pattern": "a capability that only matters once verification catches up to it",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The team ran 2,415 logical two-qubit operations and 468 logical T-gates across 70 logical qubits, with a logical error rate 10x lower than the underlying physical qubits - satisfying quantum computing's two hardest-to-combine criteria at once: doing something classical methods genuinely can't, and trusting the answer it gives you.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260829035219.htm",
+      "location": "IBM / University of Chicago",
+      "season_or_time_context": "recent research milestone",
+      "first_seen": "2026-09-01T00:20:00Z",
+      "last_seen": "2026-09-01T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-01T00:20:00Z",
+          "note": "IBM/U Chicago ran 2,415 logical two-qubit ops and 468 logical T-gates on 70 logical qubits, finishing in ~15 minutes with a 10x lower error rate than physical qubits - a verified result classical methods can't practically reproduce."
+        }
+      ],
+      "source_date": "2026-08-29"
     }
   ]
 }

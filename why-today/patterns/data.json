@@ -1,6 +1,6 @@
 {
   "week": "2026-08-30",
-  "last_updated": "2026-08-31T14:30:00Z",
+  "last_updated": "2026-09-01T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -10,8 +10,8 @@
       "evidence": [
         {
           "domain": "Resource Diplomacy",
-          "text": "Trump announced US majority control of Venezuela's oil reserves; within days, acting president Rodriguez was publicly insisting Caracas retains control of the resources - the deal's two co-authors can't agree in public on what it actually says, let alone anyone trying to verify it from outside.",
-          "url": "https://www.latintimes.com/harvard-economist-calls-venezuela-oil-deal-shameful-rodriguez-trump-contradict-each-other-598852",
+          "text": "Trump announced US control of 65B barrels of Venezuelan oil - more than all of America's own proved reserves - while acting president Rodriguez insisted Caracas retains control. Now House Democrats are formally warning oil companies of legal risk under Congress's war powers, and experts note it's the US, not Venezuela, that picks who operates the fields.",
+          "url": "https://www.ksat.com/news/politics/2026/08/31/the-latest-trump-says-venezuela-agreed-to-give-us-control-of-65-billion-barrels-of-oil-reserves/",
           "date": "2026-08-31",
           "is_new": true
         },
