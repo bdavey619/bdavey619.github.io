@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-08",
   "division_name": "AL West",
-  "generated_at": "2026-08-31T19:13:06.627665+00:00",
+  "generated_at": "2026-09-01T16:51:59.233729+00:00",
   "games": [
     {
       "date": "2026-08-01",
@@ -271,24 +271,22 @@
       "gamePk": 824959,
       "status": "final",
       "result": "L",
-      "score": "5\u20138"
+      "score": "5\u20138",
+      "archive_url": "archive.html?date=2026-08-31"
     },
     {
       "date": "2026-08-31",
       "opponent": "TEX",
       "home": false,
       "gamePk": 822855,
-      "status": "scheduled",
-      "time_local": "5:05 PM PT",
-      "probable": {
-        "team": "Gage Jump",
-        "opp": "Jacob deGrom"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20138"
     }
   ],
   "summary": {
-    "month_record": "8\u201319",
-    "current_streak": "L3",
-    "last_10": "4\u20136"
+    "month_record": "8\u201320",
+    "current_streak": "",
+    "last_10": ""
   }
 }
