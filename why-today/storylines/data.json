@@ -1,29 +1,33 @@
 {
   "week_start": "2026-08-30",
-  "cycle_start": "2026-09-01T00:20:00Z",
-  "last_updated": "2026-09-01T14:30:00Z",
+  "cycle_start": "2026-09-01T14:30:00Z",
+  "last_updated": "2026-09-02T00:20:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
       "stream": "natural_world",
       "observer": "Why Today?",
-      "title": "A glacier collapsed with no earthquake to warn anyone it was coming",
-      "observation": "A glacial lake high in the Himalayas drained without warning on Aug 26, sending a 100km wall of water, ice and mud through Nepal and Tibet \u2014 killing 600+ in Nepal alone, with thousands still missing, including hundreds of foreign trekkers.",
-      "question": "What do you build a warning system for when the disaster itself generates the only signal that it's happening?",
-      "hidden_question": "Is a hazard 'unpredictable' because it truly can't be foreseen, or because nobody built the instrument that would have seen it coming?",
-      "pattern": "a disaster whose only warning sign is the disaster itself",
+      "title": "The warning existed in the satellite data. There was just nobody watching it in real time",
+      "observation": "A glacial lake high in the Himalayas drained on Aug 26, sending a 100km wall of water through Nepal and Tibet \u2014 a disaster now confirmed to have left precursor signs in satellite imagery days beforehand, with no monitoring system built to catch them.",
+      "question": "What is the difference between a hazard being unpredictable and a hazard nobody was watching for?",
+      "hidden_question": "If the data existed, was this a natural disaster or an infrastructure failure wearing one's face?",
+      "pattern": "a warning that existed in the data but not in any system built to notice it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The toll crossed 1,000 in Nepal alone, with missing now at 3,916 (583 foreign nationals from 38 countries, 639 tied to hydropower sites) - both figures rose sharply overnight rather than settling. Nepal and China again suspended rescue operations as a second upstream lake began overflowing; officials say flood risk continues until both lakes fully drain.",
+      "why_now": "A rapid hazard assessment found real \"pre-event indications\": satellite imagery from Aug 24 showed meltwater turning visibly brown, glacier movement accelerating, and a crack propagating into the bedrock slope in the days before the collapse \u2014 but no glacier-hazard early warning system existed in the area to catch and act on any of it. Nepal's toll has crossed 1,000, deadliest disaster since the 2015 earthquake.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/9/1/nepal-tibet-floods-live-rescue-efforts-under-way-death-toll-crosses-1000",
+      "url": "https://www.abc.net.au/news/2026-09-01/warning-signs-visible-before-glacier-collapse-in-nepal/107097636",
       "location": "Langtang, Nepal / Gyirong, Tibet",
       "season_or_time_context": "post-disaster search and rescue",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-01T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-02T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-02T00:20:00Z",
+          "note": "A hazard assessment found real pre-event warning signs: browning meltwater, accelerating glacier movement, and a propagating bedrock crack visible in satellite imagery days before the collapse - but no monitoring system existed to catch or act on any of it."
+        },
         {
           "date": "2026-09-01T14:30:00Z",
           "note": "Nepal's toll crossed 1,000 dead, missing jumped to 3,916 (583 foreign, 639 hydropower workers). Rescue suspended again as a second upstream lake began overflowing; officials say risk continues until both lakes fully drain."
@@ -178,23 +182,27 @@
       "id": "hormuz-iran-new-demands",
       "stream": "markets",
       "observer": "Why Today?",
-      "title": "Strait of Hormuz tensions raise new Iranian demands",
-      "observation": "A quarter of the world's seaborne oil passes through a chokepoint controlled by a single actor's threats \u2014 pricing in a shutdown that has never actually happened but is never fully dismissed either.",
-      "question": "How does a market price a threat that is credible but has never been carried out?",
-      "hidden_question": "Is the strait's value as leverage greater than its value as a functioning waterway?",
-      "pattern": "chokepoint leverage priced as permanent risk premium",
+      "title": "The shutdown that 'never happened' just started happening",
+      "observation": "A quarter of the world's seaborne oil passes through the Strait of Hormuz, a chokepoint whose threatened closure markets spent months pricing as leverage rather than reality \u2014 until this week, when Iran and the US resumed exchanging fire and tankers started getting hit.",
+      "question": "What happens to a risk premium once the risk it was pricing actually starts happening?",
+      "hidden_question": "Is the strait's value as leverage greater than its value as a functioning waterway \u2014 and does that math change once ships are actually getting struck?",
+      "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran's own deputy FM put the reality plainly Saturday: \"The Strait of Hormuz remains closed, and any vessel passing through the strait does so in coordination with Iran,\" with detention or confiscation threatened for violators \u2014 a blunter statement than the shipping-corridor diplomacy suggests, confirmed by UKMTO data showing traffic still \"significantly reduced.\" Washington's new sanctions campaign now targets aviation, shipping, tech, gold and crypto at once.",
+      "why_now": "The US and Iran exchanged fire this weekend for the first time in a month \u2014 the US struck Iranian rocket launchers on Larak Island, Iran fired intercepted missiles at US sites in Jordan, and two Saudi supertankers were struck by projectiles Monday night in the strait. The US hit back Tuesday; Trump warned Iran would be \"hit again at a much harder and higher level\" if it retaliates, and Iran's parliament speaker promised \"severe punishment.\"",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.foxnews.com/live-news/iran-war-us-sanctions-trump-strait-hormuz-oman-oil-prices-08-29-2026",
+      "url": "https://www.npr.org/2026/08/31/nx-s1-5949884/u-s-and-iran-exchange-fire-for-the-first-time-in-a-month",
       "location": "Strait of Hormuz",
-      "season_or_time_context": "ongoing regional tension",
+      "season_or_time_context": "active military escalation",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-08-31T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-02T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-02T00:20:00Z",
+          "note": "US and Iran exchanged fire for the first time in a month: US struck Larak Island, Iran fired on US sites in Jordan (intercepted), two Saudi tankers hit by projectiles Monday. US struck back Tuesday; both sides threaten harder retaliation."
+        },
         {
           "date": "2026-08-31T00:20:00Z",
           "note": "Iran's deputy FM: \"The Strait of Hormuz remains closed, and any vessel passing through does so in coordination with Iran,\" with detention/confiscation threatened for violators - UKMTO confirms traffic remains significantly reduced."
@@ -204,7 +212,7 @@
           "note": "Iran and Oman reached a revenue-sharing toll deal, discussing a permanent corridor \u2014 but the strait stays closed pending the US honoring its own lapsed June peace deal, as Washington's new sanctions draw threats of \"seismic\" Iranian retaliation."
         }
       ],
-      "source_date": "2026-08-29"
+      "source_date": "2026-09-01"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -217,16 +225,20 @@
       "pattern": "a resource deal signed by an unelected government, at a scale built to outlast any successor who might contest it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The scale keeps getting sharper: the 65B barrels under Washington's control alone surpasses all of America's own proved oil reserves (46B barrels). House Democrats are now formally warning oil companies of legal and financial risk under Congress's war powers and the UN Charter, and experts flag that the US \u2014 not Venezuela \u2014 gets to pick which companies operate the fields, while Vance and Bessent work to reassure allies rattled by the secrecy of how it was negotiated.",
+      "why_now": "The White House has now named the operator: North American Blue Energy Partners, owned by Venezuelan businessman Alejandro Betancourt - already the country's second-largest operator behind Chevron. The Pentagon's Office of Strategic Capital gets a 35% stake; the oil is heavy crude, years from delivery, so the deal won't touch pump prices anytime soon despite the scale of the claim.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.ksat.com/news/politics/2026/08/31/the-latest-trump-says-venezuela-agreed-to-give-us-control-of-65-billion-barrels-of-oil-reserves/",
+      "url": "https://www.nbcnews.com/politics/white-house/trump-administration-venezuela-oil-deal-nabep-alejandro-betancourt-rcna595459",
       "location": "Caracas, Venezuela / Washington, DC",
       "season_or_time_context": "newly announced deal",
       "first_seen": "2026-08-31T00:20:00Z",
-      "last_seen": "2026-09-01T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-02T00:20:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-02T00:20:00Z",
+          "note": "The White House named the operator: North American Blue Energy Partners, owned by Venezuelan businessman Alejandro Betancourt, already the country's second-largest operator behind Chevron. The Pentagon's Office of Strategic Capital gets a 35% stake."
+        },
         {
           "date": "2026-09-01T00:20:00Z",
           "note": "The 65B barrels alone surpass all US proved reserves (46B). House Democrats formally warn oil companies of legal risk under Congress's war powers and the UN Charter; the US, not Venezuela, picks which companies operate the fields."
@@ -240,7 +252,7 @@
           "note": "Rubio and Hegseth negotiated a deal with unelected acting president Rodr\u00edguez granting the US 55% control and 100-year rights over 65B barrels across 17 fields - $100B in potential investment, but open legal questions over Venezuela's own oil-sovereignty laws."
         }
       ],
-      "source_date": "2026-08-31"
+      "source_date": "2026-09-01"
     },
     {
       "id": "uzbekistan-boburtepa-flower-mural",

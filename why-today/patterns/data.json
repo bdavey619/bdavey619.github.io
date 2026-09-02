@@ -1,6 +1,6 @@
 {
   "week": "2026-08-30",
-  "last_updated": "2026-09-01T14:30:00Z",
+  "last_updated": "2026-09-02T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -46,17 +46,17 @@
         },
         {
           "domain": "Energy Shipping",
-          "text": "The shipping-corridor diplomacy is real, but Iran's own deputy FM undercut the 'resolution' framing directly: \"The Strait of Hormuz remains closed, and any vessel passing through does so in coordination with Iran,\" with detention or confiscation threatened for violators. UKMTO confirms traffic remains significantly reduced - the corridor talk describes a negotiation, not the waterway's actual status.",
-          "url": "https://www.foxnews.com/live-news/iran-war-us-sanctions-trump-strait-hormuz-oman-oil-prices-08-29-2026",
-          "date": "2026-08-29",
-          "is_new": false
+          "text": "The shipping-corridor diplomacy didn't survive contact with the weekend: the US and Iran exchanged fire for the first time in a month, two Saudi tankers were struck by projectiles in the strait, and both sides are now threatening harder retaliation - the negotiation track and the shooting track were never actually the same track.",
+          "url": "https://www.npr.org/2026/08/31/nx-s1-5949884/u-s-and-iran-exchange-fire-for-the-first-time-in-a-month",
+          "date": "2026-08-31",
+          "is_new": true
         },
         {
           "domain": "Geopolitical",
           "text": "Pashinyan's pivot got its form - a referendum plan, a bid in motion - but not its resolution: the pressure has now moved from rhetoric to Armenia's actual export ledger, with Russia's MFA noting the reorientation toward the EU and separately restricting certain Armenian produce over 'quality' concerns - leverage that doesn't need a referendum to bite.",
           "url": "https://news.am/en/news/1058188",
           "date": "2026-08-28",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
