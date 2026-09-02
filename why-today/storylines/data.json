@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-30",
-  "cycle_start": "2026-09-01T14:30:00Z",
-  "last_updated": "2026-09-02T00:20:00Z",
+  "cycle_start": "2026-09-02T00:20:00Z",
+  "last_updated": "2026-09-02T14:30:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -58,16 +58,20 @@
       "pattern": "wide-survey instrument built to catch what narrow ones would miss",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The rocket's performance was so precise that Roman will likely need fewer trajectory-correction burns than planned, meaning it could have leftover fuel to extend its five-year mission toward a full decade. Solar panels, sun shade, and antenna have all deployed on schedule, and NASA now expects first images in January 2027 after weeks of systems commissioning.",
+      "why_now": "The antenna and visor-like sunshade have now finished deploying, and Roman performed a 3.5-minute trajectory-correction burn Aug 31 en route to L2 - the mission is now fully in its three-month commissioning phase, with the Wide Field Instrument set to power on in a few weeks and first images still expected in early 2027.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.scientificamerican.com/article/whats-next-for-nasas-new-roman-space-telescope/",
+      "url": "https://science.nasa.gov/blogs/roman/2026/09/01/nasa-roman-space-telescopes-antenna-visor-deployed/",
       "location": "Kennedy Space Center, Florida, USA",
       "season_or_time_context": "post-launch, en route to L2",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-01T14:30:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-02T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-02T14:30:00Z",
+          "note": "Antenna and visor-like sunshade finished deploying; Roman performed a 3.5-minute trajectory-correction burn Aug 31. Now in its three-month commissioning phase, with the Wide Field Instrument set to power on in a few weeks."
+        },
         {
           "date": "2026-09-01T14:30:00Z",
           "note": "The launch was so precise Roman may need fewer correction burns than planned, potentially stretching its 5-year mission toward a decade on leftover fuel. Solar panels, sun shade and antenna all deployed on schedule; first images expected January 2027."
@@ -81,7 +85,7 @@
           "note": "Liftoff set for 7:26am EDT from Pad 39A; after launch, Roman begins a ~30-day cruise to the Sun-Earth L2 point, 930,000 miles out, to begin its wide-field survey mission."
         }
       ],
-      "source_date": "2026-08-30"
+      "source_date": "2026-09-01"
     },
     {
       "id": "armenia-kocharyan-detention-eu-bid",
@@ -95,16 +99,20 @@
       "pattern": "a legal crackdown landing at the exact moment it most benefits the government's freedom of maneuver",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The pressure has moved from rhetoric to Armenia's actual export ledger: a Russian MFA official says Yerevan is now reorienting exports toward the EU (though volumes remain minimal) while Moscow has separately restricted certain Armenian produce over \"quality\" concerns \u2014 the kind of leverage that doesn't need a referendum to bite.",
+      "why_now": "Putin put it to Pashinyan directly at the SCO summit in Bishkek \u2014 their first meeting since Armenia's June election \u2014 calling the EU push Armenia's \"legitimate right\" while warning it \"creates complications\" for its EAEU membership, and renewed his demand that Armenians get a referendum on the question. Putin said plainly: \"The sooner Armenia decides... the better\" \u2014 Moscow needs to know how to plan the relationship going forward.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://news.am/en/news/1058188",
+      "url": "https://meduza.io/en/news/2026/09/01/putin-meets-pashinyan-for-the-first-time-since-armenia-s-latest-election-and-asks-him-to-choose-soon-the-eu-or-the-eaeu",
       "location": "Yerevan, Armenia",
       "season_or_time_context": "ahead of Armenia's EU accession push",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-01T14:30:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-02T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-02T14:30:00Z",
+          "note": "Putin pressed Pashinyan directly at the SCO summit in Bishkek, their first meeting since June's election - calling the EU push \"legitimate\" but warning of EAEU \"complications,\" and renewing his demand for a referendum."
+        },
         {
           "date": "2026-09-01T14:30:00Z",
           "note": "Russia's MFA now says Armenia is reorienting exports toward the EU (volumes still minimal), while Moscow has separately restricted certain Armenian produce over \"quality\" concerns - pressure that doesn't need a referendum to bite."
@@ -118,7 +126,7 @@
           "note": "Pashinyan has added a referendum to the EU-accession process; Armenia's Security Council secretary says the prospect alone is enough to upset Moscow, as Russian commentary frames the pivot as an unaffordable trade."
         }
       ],
-      "source_date": "2026-08-28"
+      "source_date": "2026-09-01"
     },
     {
       "id": "congo-m23-ceasefire-verification",
@@ -189,16 +197,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The US and Iran exchanged fire this weekend for the first time in a month \u2014 the US struck Iranian rocket launchers on Larak Island, Iran fired intercepted missiles at US sites in Jordan, and two Saudi supertankers were struck by projectiles Monday night in the strait. The US hit back Tuesday; Trump warned Iran would be \"hit again at a much harder and higher level\" if it retaliates, and Iran's parliament speaker promised \"severe punishment.\"",
+      "why_now": "CENTCOM has now widened the target list - air defense sites, radar, maritime assets, mine-laying capability, communications sites - in response to the shipping attacks and threats to US troops. And yet Energy Secretary Chris Wright says 17 million barrels transited the strait Monday, the highest since the conflict began: the shooting war and the highest shipping volume in months are happening at the same time.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.npr.org/2026/08/31/nx-s1-5949884/u-s-and-iran-exchange-fire-for-the-first-time-in-a-month",
+      "url": "https://www.cnbc.com/2026/09/01/us-strikes-iran-after-new-hormuz-strait-shipping-attacks-centcom.html",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-02T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-02T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-02T14:30:00Z",
+          "note": "CENTCOM widened its strikes to air defense, radar, maritime assets, mine-laying capability and communications sites. Yet 17M barrels transited the strait Monday - the highest since the conflict began - the shooting war and peak shipping volume happening at once."
+        },
         {
           "date": "2026-09-02T00:20:00Z",
           "note": "US and Iran exchanged fire for the first time in a month: US struck Larak Island, Iran fired on US sites in Jordan (intercepted), two Saudi tankers hit by projectiles Monday. US struck back Tuesday; both sides threaten harder retaliation."
@@ -225,16 +237,20 @@
       "pattern": "a resource deal signed by an unelected government, at a scale built to outlast any successor who might contest it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The White House has now named the operator: North American Blue Energy Partners, owned by Venezuelan businessman Alejandro Betancourt - already the country's second-largest operator behind Chevron. The Pentagon's Office of Strategic Capital gets a 35% stake; the oil is heavy crude, years from delivery, so the deal won't touch pump prices anytime soon despite the scale of the claim.",
+      "why_now": "Venezuela's ruling-party-dominated National Assembly voted Tuesday to back the deal \u2014 some opposition lawmakers abstained, saying they couldn't approve terms they haven't been allowed to read. Energy Secretary Chris Wright travels to Venezuela Wednesday to sign the arrangement, and Chevron is separately set to announce expanded operations in the country.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.nbcnews.com/politics/white-house/trump-administration-venezuela-oil-deal-nabep-alejandro-betancourt-rcna595459",
+      "url": "https://www.investing.com/news/commodities-news/venezuelas-assembly-backs-oil-deal-announced-with-us-4884495",
       "location": "Caracas, Venezuela / Washington, DC",
       "season_or_time_context": "newly announced deal",
       "first_seen": "2026-08-31T00:20:00Z",
-      "last_seen": "2026-09-02T00:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-02T14:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-02T14:30:00Z",
+          "note": "Venezuela's National Assembly voted to back the deal Tuesday; some opposition lawmakers abstained, saying they couldn't approve terms they haven't been allowed to read. Wright signs the arrangement Wednesday; Chevron separately expands operations."
+        },
         {
           "date": "2026-09-02T00:20:00Z",
           "note": "The White House named the operator: North American Blue Energy Partners, owned by Venezuelan businessman Alejandro Betancourt, already the country's second-largest operator behind Chevron. The Pentagon's Office of Strategic Capital gets a 35% stake."
@@ -265,8 +281,8 @@
       "pattern": "an artifact preserved by concealment rather than by intention",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Sanjar Abdurakhimov and colleagues at the Institute of Archaeology of Samarkand identified the mural on a temple-like structure's clay-layered wall and are still investigating what the building was actually used for; the tulip-and-vine decoration, painted in thin wavy red lines, had been sealed beneath a later coat of white lime plaster that shielded rather than replaced it.",
-      "status": "captured",
+      "why_now": "No follow-up reporting has surfaced since the initial find; going dormant as a single-note discovery rather than re-bumping it without anything new. Worth reactivating if the excavation team publishes findings on the building's function.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://archaeology.org/news/2026/08/28/ancient-flower-mural-discovered-in-uzbekistan/",
       "location": "Boburtepa, southern Uzbekistan",
@@ -335,6 +351,34 @@
         {
           "date": "2026-09-01T14:30:00Z",
           "note": "A weekend mutiny at Base 101 near Niamey's airport spread toward the presidential palace before Russia's Africa Corps - Niger's replacement for the French/US forces it expelled in 2023 - suppressed it with ground and air support."
+        }
+      ],
+      "source_date": "2026-08-31"
+    },
+    {
+      "id": "africa-superplume-rift-discovery",
+      "stream": "natural_world",
+      "observer": "Why Today?",
+      "title": "The force splitting Africa in two was hiding a thousand miles underground",
+      "observation": "A new study shows the East African Rift's odd sideways motion is driven not by shallow tectonics but by a vast plume of hot mantle rock rising from deep inside the Earth \u2014 resolving a long-standing debate over what's pulling the continent apart.",
+      "question": "How do you locate the cause of something happening on the surface when the actual engine sits a thousand miles down?",
+      "hidden_question": "Does naming the deep cause change anything about the surface consequence, or just satisfy the need to know it?",
+      "pattern": "a surface phenomenon whose real cause sits well below where anyone was looking",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Researchers combined millimeter-precision GPS surface monitoring with seismic imaging of mantle-flow direction to show the rift's unusual rift-parallel motion is driven by northward-flowing mantle tied to the African Superplume \u2014 settling competing theories over whether shallow crustal forces or deep mantle upwelling dominate the process splitting the continent.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260831015210.htm",
+      "location": "East African Rift",
+      "season_or_time_context": "recent research finding",
+      "first_seen": "2026-09-02T14:30:00Z",
+      "last_seen": "2026-09-02T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-02T14:30:00Z",
+          "note": "GPS and seismic data show the rift's unusual sideways motion is driven by northward-flowing mantle tied to the African Superplume, not shallow tectonics - resolving a long-standing debate over what's actually splitting the continent."
         }
       ],
       "source_date": "2026-08-31"
