@@ -3,19 +3,16 @@
   "team_slug": "yankees",
   "month": "2026-09",
   "division_name": "AL East",
-  "generated_at": "2026-09-01T15:25:26.994192+00:00",
+  "generated_at": "2026-09-02T15:01:28.673613+00:00",
   "games": [
     {
       "date": "2026-09-01",
       "opponent": "LAA",
       "home": false,
       "gamePk": 823984,
-      "status": "scheduled",
-      "time_local": "9:38 PM ET",
-      "probable": {
-        "team": "Gerrit Cole",
-        "opp": "Grayson Rodriguez"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "7\u20133"
     },
     {
       "date": "2026-09-02",
@@ -35,7 +32,10 @@
       "home": false,
       "gamePk": 823256,
       "status": "scheduled",
-      "time_local": "9:40 PM ET"
+      "time_local": "9:40 PM ET",
+      "probable": {
+        "opp": "Walker Buehler"
+      }
     },
     {
       "date": "2026-09-05",
@@ -43,7 +43,10 @@
       "home": false,
       "gamePk": 823257,
       "status": "scheduled",
-      "time_local": "7:15 PM ET"
+      "time_local": "7:15 PM ET",
+      "probable": {
+        "opp": "Robbie Ray"
+      }
     },
     {
       "date": "2026-09-06",
@@ -51,7 +54,10 @@
       "home": false,
       "gamePk": 823253,
       "status": "scheduled",
-      "time_local": "4:10 PM ET"
+      "time_local": "4:10 PM ET",
+      "probable": {
+        "opp": "Michael King"
+      }
     },
     {
       "date": "2026-09-08",
@@ -207,8 +213,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20130",
-    "current_streak": "L1",
-    "last_10": "5\u20135"
+    "month_record": "1\u20130",
+    "current_streak": "W1",
+    "last_10": "6\u20134"
   }
 }
