@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-02T16:06:14.290921+00:00",
+  "generated_at": "2026-09-03T15:56:01.169979+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -12,19 +12,17 @@
       "gamePk": 823340,
       "status": "final",
       "result": "L",
-      "score": "12\u201313"
+      "score": "12\u201313",
+      "archive_url": "archive.html?date=2026-09-02"
     },
     {
       "date": "2026-09-02",
       "opponent": "PIT",
       "home": false,
       "gamePk": 823339,
-      "status": "scheduled",
-      "time_local": "3:40 PM PT",
-      "probable": {
-        "team": "Landen Roupp",
-        "opp": "Bubba Chandler"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20134"
     },
     {
       "date": "2026-09-03",
@@ -34,7 +32,8 @@
       "status": "scheduled",
       "time_local": "9:35 AM PT",
       "probable": {
-        "team": "Blade Tidwell"
+        "team": "Blade Tidwell",
+        "opp": "Lake Bachar"
       }
     },
     {
@@ -43,7 +42,10 @@
       "home": false,
       "gamePk": 823579,
       "status": "scheduled",
-      "time_local": "4:10 PM PT"
+      "time_local": "4:10 PM PT",
+      "probable": {
+        "opp": "Nolan McLean"
+      }
     },
     {
       "date": "2026-09-05",
@@ -51,7 +53,10 @@
       "home": false,
       "gamePk": 823577,
       "status": "scheduled",
-      "time_local": "1:10 PM PT"
+      "time_local": "1:10 PM PT",
+      "probable": {
+        "opp": "Zac Thornton"
+      }
     },
     {
       "date": "2026-09-06",
@@ -59,7 +64,10 @@
       "home": false,
       "gamePk": 823578,
       "status": "scheduled",
-      "time_local": "10:40 AM PT"
+      "time_local": "10:40 AM PT",
+      "probable": {
+        "opp": "Christian Scott"
+      }
     },
     {
       "date": "2026-09-07",
@@ -207,8 +215,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20131",
-    "current_streak": "L1",
-    "last_10": "5\u20135"
+    "month_record": "1\u20131",
+    "current_streak": "W1",
+    "last_10": "6\u20134"
   }
 }
