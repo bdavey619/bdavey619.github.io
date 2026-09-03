@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-09",
   "division_name": "AL West",
-  "generated_at": "2026-09-02T16:54:13.454478+00:00",
+  "generated_at": "2026-09-03T16:38:28.136979+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -19,12 +19,10 @@
       "opponent": "TEX",
       "home": false,
       "gamePk": 822851,
-      "status": "scheduled",
-      "time_local": "11:35 AM PT",
-      "probable": {
-        "team": "Jacob Lopez",
-        "opp": "Cody Bradford"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "9\u20132",
+      "archive_url": "archive.html?date=2026-09-02"
     },
     {
       "date": "2026-09-03",
@@ -34,7 +32,8 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
-        "team": "Jack Perkins"
+        "team": "Jack Perkins",
+        "opp": "Kade Anderson"
       }
     },
     {
@@ -43,7 +42,10 @@
       "home": false,
       "gamePk": 823093,
       "status": "scheduled",
-      "time_local": "7:10 PM PT"
+      "time_local": "7:10 PM PT",
+      "probable": {
+        "opp": "Logan Gilbert"
+      }
     },
     {
       "date": "2026-09-05",
@@ -51,7 +53,10 @@
       "home": false,
       "gamePk": 823094,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "opp": "George Kirby"
+      }
     },
     {
       "date": "2026-09-06",
@@ -61,7 +66,8 @@
       "status": "scheduled",
       "time_local": "1:10 PM PT",
       "probable": {
-        "team": "Gage Jump"
+        "team": "Gage Jump",
+        "opp": "Bryan Woo"
       }
     },
     {
@@ -210,8 +216,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20131",
-    "current_streak": "L5",
+    "month_record": "1\u20131",
+    "current_streak": "W1",
     "last_10": "4\u20136"
   }
 }
