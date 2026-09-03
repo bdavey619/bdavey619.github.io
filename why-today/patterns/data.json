@@ -1,6 +1,6 @@
 {
   "week": "2026-08-30",
-  "last_updated": "2026-09-03T00:20:00Z",
+  "last_updated": "2026-09-03T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -13,21 +13,21 @@
           "text": "Trump called it the \"biggest oil deal in history\"; days later, Venezuela's own National Assembly still had to vote on terms opposition lawmakers said they'd never been shown. The signing ceremony that followed - Chevron, ENI, GE Vernova all putting down real money - is the first evidence that actually stands independent of either government's telling.",
           "url": "https://www.freemalaysiatoday.com/category/highlight/2026/09/03/us-energy-secretary-oversees-signing-of-trump-s-biggest-oil-deal-in-venezuela",
           "date": "2026-09-03",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Foreign Policy",
           "text": "Trump proposed renaming the strait \"Trump Strait,\" claiming the US is freely \"bringing lots of boats out every day\" - the same day CENTCOM confirmed an active naval blockade that has redirected 86 commercial vessels, disabled three, and boarded two. \"Controlling\" and \"blockading\" are not the same claim, even when they're describing the identical ships.",
           "url": "https://abcnews.com/International/live-updates/iran-live-updates-centcom-targeted-iranian-forces-posed/?id=136080582",
           "date": "2026-09-03",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Debt Management",
           "text": "The buyback's relief is fully spent: the 10-year just closed a five-session rally above 4.81%, its highest since October 2023, before easing a hair to 4.79%. Rate-hike odds for this month have jumped to 66%, from 40% a week ago - whatever the intervention accomplished in late August, the market has now priced straight through it.",
           "url": "https://tradingeconomics.com/united-states/government-bond-yield",
           "date": "2026-09-02",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -39,10 +39,10 @@
       "evidence": [
         {
           "domain": "Judicial",
-          "text": "The administration just confirmed its own win is inconclusive: it filed a notice of appeal Friday against the Boston judge's separate nationwide block, sending the fight to the 1st Circuit - still fighting to make its Supreme Court victory actually change anything on the ground.",
-          "url": "https://abc7ny.com/post/judge-temporarily-blocks-president-donald-trump-mail-voting-executive-order/19752447/",
-          "date": "2026-08-28",
-          "is_new": false
+          "text": "Judge Talwani spelled out exactly what the Supreme Court's win didn't do: she rejected the government's \"cynical interpretation\" of the ruling directly, writing the justices had \"not endorsed the view that any challenge to the final rule is now too late.\" A procedural win got read by the government as a substantive one - a judge on record saying that reading is wrong.",
+          "url": "https://www.jdjournal.com/2026/09/01/trump-appeals-court-mail-voting-rule/",
+          "date": "2026-09-01",
+          "is_new": true
         },
         {
           "domain": "Energy Shipping",

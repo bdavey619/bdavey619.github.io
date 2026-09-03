@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-30",
-  "cycle_start": "2026-09-02T14:30:00Z",
-  "last_updated": "2026-09-03T00:20:00Z",
+  "cycle_start": "2026-09-03T00:20:00Z",
+  "last_updated": "2026-09-03T14:30:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -14,16 +14,20 @@
       "pattern": "a warning that existed in the data but not in any system built to notice it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Nepal's death toll has reached 1,114 as of Wednesday, with more than 21,000 security personnel now deployed. The government has begun shifting its posture from search-and-rescue to rehabilitation, even as the missing count holds steady at 3,916 - the acute phase ending before the accounting of who's actually gone is anywhere near complete.",
+      "why_now": "The government has pivoted to rehabilitation with ~12,000 rescued and 1,114 confirmed dead, but a cryosphere analyst is now warning the surrounding landscape itself remains unstable - fractured bedrock and recently disturbed slopes from the original collapse haven't settled, meaning the site of the \"recovery\" phase is still an active hazard.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://abc11.com/story/nepal-tibet-flood-death-toll-tops-1100-tens-thousands-search-missing/19779553/",
+      "url": "https://abcnews.com/International/nepal-tibet-flood-death-toll-tops-1100-tens/story?id=136136947",
       "location": "Langtang, Nepal / Gyirong, Tibet",
       "season_or_time_context": "post-disaster search and rescue",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-03T00:20:00Z",
-      "appearances": 6,
+      "last_seen": "2026-09-03T14:30:00Z",
+      "appearances": 7,
       "history": [
+        {
+          "date": "2026-09-03T14:30:00Z",
+          "note": "~12,000 rescued as the government pivots to rehabilitation, but a cryosphere analyst warns the surrounding landscape remains unstable - fractured bedrock and disturbed slopes from the collapse haven't settled, so the recovery site is still an active hazard."
+        },
         {
           "date": "2026-09-03T00:20:00Z",
           "note": "Nepal's toll reached 1,114 with 21,000+ personnel deployed; the government has begun shifting from search-and-rescue to rehabilitation even as the missing count holds steady at 3,916 - the acute phase ending before the accounting is complete."
@@ -39,10 +43,6 @@
         {
           "date": "2026-08-31T00:20:00Z",
           "note": "The new lake has started overflowing, not just threatening to. Nepal's toll: 800 dead, 2,498 missing (incl. 90 Americans, ~900 hydropower workers). Tibet: 272 unidentified bodies recovered plus 16 confirmed dead. 7,514 rescued total; Israeli forensic experts joining India/China."
-        },
-        {
-          "date": "2026-08-30T14:30:00Z",
-          "note": "Rescue briefly suspended Saturday over fears of a second flood from the collapse's barrier lake. Nepal's toll: 675 dead, ~2,500 missing (incl. 90 Americans). Tibet: 16 dead, 558 missing. 2,500+ rescued by air; US pledges $3.6M in aid."
         }
       ],
       "source_date": "2026-09-03"
@@ -313,22 +313,26 @@
       "pattern": "a capability that only matters once verification catches up to it",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The team ran 2,415 logical two-qubit operations and 468 logical T-gates across 70 logical qubits, with a logical error rate 10x lower than the underlying physical qubits - satisfying quantum computing's two hardest-to-combine criteria at once: doing something classical methods genuinely can't, and trusting the answer it gives you.",
+      "why_now": "IBM just followed the verification milestone with a hardware one: Nighthawk r2, its fastest quantum processor yet, released Sept 3 with a 120-qubit chip and an active dissipative qubit reset that cuts idle time between circuits, pushing throughput past 100,000 circuits per second - a 25x speedup over IBM's existing Heron fleet.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.sciencedaily.com/releases/2026/08/260829035219.htm",
+      "url": "https://thequantuminsider.com/2026/09/03/ibms-nighthawk-r2-quantum-processor-targets-a-25-fold-increase-in-circuit-speed/",
       "location": "IBM / University of Chicago",
       "season_or_time_context": "recent research milestone",
       "first_seen": "2026-09-01T00:20:00Z",
-      "last_seen": "2026-09-01T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-03T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-03T14:30:00Z",
+          "note": "IBM released Nighthawk r2, its fastest QPU yet: a 120-qubit chip with active dissipative qubit reset cutting idle time between circuits, pushing throughput past 100,000 circuits/sec - a 25x speedup over the existing Heron fleet."
+        },
         {
           "date": "2026-09-01T00:20:00Z",
           "note": "IBM/U Chicago ran 2,415 logical two-qubit ops and 468 logical T-gates on 70 logical qubits, finishing in ~15 minutes with a 10x lower error rate than physical qubits - a verified result classical methods can't practically reproduce."
         }
       ],
-      "source_date": "2026-08-29"
+      "source_date": "2026-09-03"
     },
     {
       "id": "niger-mutiny-russia-africa-corps",
@@ -342,8 +346,8 @@
       "pattern": "a government that asserted independence from one foreign power by becoming dependent on another",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The mutiny began Saturday at Base 101 near Niamey's airport, spread toward the presidential palace and state broadcaster, and ended only when Russia's Africa Corps \u2014 invited in after Niger expelled French and US forces following the 2023 coup \u2014 provided the ground and air support that suppressed it, according to Russia's own ambassador to Niger.",
-      "status": "captured",
+      "why_now": "No reporting has moved past the initial mutiny account across three consecutive checks - authorities still haven't disclosed charges against the detained soldiers, and Tchiani himself remains publicly silent. Going dormant rather than re-bumping the same account a fourth time; worth reactivating if charges are announced or Tchiani addresses it.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.aljazeera.com/news/2026/8/31/niger-mutiny-puts-russias-expanding-role-in-the-sahel-to-the-test",
       "location": "Niamey, Niger",
@@ -386,6 +390,34 @@
         }
       ],
       "source_date": "2026-08-31"
+    },
+    {
+      "id": "openai-astra-critical-cyber-threshold",
+      "stream": "curiosities",
+      "observer": "Why Today?",
+      "title": "The AI model found the vulnerability it wasn't even being tested for",
+      "observation": "OpenAI's newest model, Astra, became the first to cross the company's own \"Critical\" cybersecurity threshold \u2014 triggered when a model can independently find and exploit zero-day vulnerabilities in hardened real-world systems, which Astra did mid-benchmark without being specifically asked to.",
+      "question": "What does it mean when a system exceeds the goal it was actually given?",
+      "hidden_question": "Is a capability crossed as a byproduct more or less alarming than one crossed on purpose?",
+      "pattern": "a safety threshold crossed incidentally, as a byproduct of testing for something else",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Astra scored a perfect result on ExploitBench and discovered and chained two real zero-day vulnerabilities while being tested for something else. OpenAI has restricted the model's most powerful cyber capabilities to vetted defenders and reports it now declines 91.5% of cyber-jailbreak attempts, up from 59% for its predecessor.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/",
+      "location": "OpenAI",
+      "season_or_time_context": "newly disclosed capability",
+      "first_seen": "2026-09-03T14:30:00Z",
+      "last_seen": "2026-09-03T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-03T14:30:00Z",
+          "note": "Astra became the first OpenAI model to cross the \"Critical\" cyber threshold, scoring perfectly on ExploitBench and finding two real zero-days mid-test. Its cyber-jailbreak refusal rate is now 91.5%, up from 59% for its predecessor."
+        }
+      ],
+      "source_date": "2026-09-01"
     }
   ]
 }
