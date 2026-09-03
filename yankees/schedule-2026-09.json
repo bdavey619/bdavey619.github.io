@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-09",
   "division_name": "AL East",
-  "generated_at": "2026-09-02T15:01:28.673613+00:00",
+  "generated_at": "2026-09-03T14:55:33.823318+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -12,19 +12,17 @@
       "gamePk": 823984,
       "status": "final",
       "result": "W",
-      "score": "7\u20133"
+      "score": "7\u20133",
+      "archive_url": "archive.html?date=2026-09-02"
     },
     {
       "date": "2026-09-02",
       "opponent": "LAA",
       "home": false,
       "gamePk": 823983,
-      "status": "scheduled",
-      "time_local": "9:38 PM ET",
-      "probable": {
-        "team": "Cam Schlittler",
-        "opp": "Reid Detmers"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "6\u20133"
     },
     {
       "date": "2026-09-04",
@@ -34,6 +32,7 @@
       "status": "scheduled",
       "time_local": "9:40 PM ET",
       "probable": {
+        "team": "Max Fried",
         "opp": "Walker Buehler"
       }
     },
@@ -45,6 +44,7 @@
       "status": "scheduled",
       "time_local": "7:15 PM ET",
       "probable": {
+        "team": "Carlos Rod\u00f3n",
         "opp": "Robbie Ray"
       }
     },
@@ -213,8 +213,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20130",
-    "current_streak": "W1",
+    "month_record": "2\u20130",
+    "current_streak": "W2",
     "last_10": "6\u20134"
   }
 }
