@@ -1,6 +1,6 @@
 {
   "week": "2026-08-30",
-  "last_updated": "2026-09-02T14:30:00Z",
+  "last_updated": "2026-09-03T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -10,24 +10,24 @@
       "evidence": [
         {
           "domain": "Resource Diplomacy",
-          "text": "Venezuela's National Assembly voted to back the oil deal Tuesday - but opposition lawmakers abstained, saying they were asked to approve terms they haven't been allowed to read. A legislature ratifying a document it hasn't seen isn't confirmation; it's the same unverified claim wearing a vote's clothing.",
-          "url": "https://www.investing.com/news/commodities-news/venezuelas-assembly-backs-oil-deal-announced-with-us-4884495",
-          "date": "2026-09-01",
+          "text": "Trump called it the \"biggest oil deal in history\"; days later, Venezuela's own National Assembly still had to vote on terms opposition lawmakers said they'd never been shown. The signing ceremony that followed - Chevron, ENI, GE Vernova all putting down real money - is the first evidence that actually stands independent of either government's telling.",
+          "url": "https://www.freemalaysiatoday.com/category/highlight/2026/09/03/us-energy-secretary-oversees-signing-of-trump-s-biggest-oil-deal-in-venezuela",
+          "date": "2026-09-03",
           "is_new": true
         },
         {
           "domain": "Foreign Policy",
-          "text": "CENTCOM widened its strikes on Iran this week - air defense, radar, maritime assets, mine-laying capability - while Energy Secretary Wright simultaneously touted the highest Hormuz shipping volume since the conflict began. The claim of a war and the claim of business-as-usual traffic can't both be the whole story.",
-          "url": "https://www.cnbc.com/2026/09/01/us-strikes-iran-after-new-hormuz-strait-shipping-attacks-centcom.html",
-          "date": "2026-09-01",
+          "text": "Trump proposed renaming the strait \"Trump Strait,\" claiming the US is freely \"bringing lots of boats out every day\" - the same day CENTCOM confirmed an active naval blockade that has redirected 86 commercial vessels, disabled three, and boarded two. \"Controlling\" and \"blockading\" are not the same claim, even when they're describing the identical ships.",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-centcom-targeted-iranian-forces-posed/?id=136080582",
+          "date": "2026-09-03",
           "is_new": true
         },
         {
           "domain": "Debt Management",
-          "text": "The story turned again: yields eased from a 19-year high of 5.31% (Aug 17) to 5.19% by Aug 26, real if partial relief from the buyback. Then Friday's Jackson Hole reaction erased it - the 10-year jumped 4bp and rate-hike odds surged - the fix keeps almost working, then getting overrun by the next news cycle.",
-          "url": "https://www.axios.com/2026/08/26/treasury-bonds-borrowing-markets",
-          "date": "2026-08-26",
-          "is_new": false
+          "text": "The buyback's relief is fully spent: the 10-year just closed a five-session rally above 4.81%, its highest since October 2023, before easing a hair to 4.79%. Rate-hike odds for this month have jumped to 66%, from 40% a week ago - whatever the intervention accomplished in late August, the market has now priced straight through it.",
+          "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+          "date": "2026-09-02",
+          "is_new": true
         }
       ]
     },
@@ -56,7 +56,7 @@
           "text": "Pashinyan's pivot got its form - a referendum plan, a bid in motion - but not its resolution: Putin pressed him on it face to face at the SCO summit, calling the EU push 'legitimate' while warning of 'complications' and renewing his demand for a referendum. A direct meeting between the two leaders didn't settle anything - it just moved the same unresolved question onto a bigger stage.",
           "url": "https://meduza.io/en/news/2026/09/01/putin-meets-pashinyan-for-the-first-time-since-armenia-s-latest-election-and-asks-him-to-choose-soon-the-eu-or-the-eaeu",
           "date": "2026-09-01",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
