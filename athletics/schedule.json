@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-09",
   "division_name": "AL West",
-  "generated_at": "2026-09-03T16:38:28.136979+00:00",
+  "generated_at": "2026-09-04T16:33:55.956011+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -29,12 +29,9 @@
       "opponent": "SEA",
       "home": false,
       "gamePk": 823095,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Jack Perkins",
-        "opp": "Kade Anderson"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "7\u20134"
     },
     {
       "date": "2026-09-04",
@@ -44,6 +41,7 @@
       "status": "scheduled",
       "time_local": "7:10 PM PT",
       "probable": {
+        "team": "Kade Morris",
         "opp": "Logan Gilbert"
       }
     },
@@ -216,8 +214,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20131",
-    "current_streak": "W1",
+    "month_record": "2\u20131",
+    "current_streak": "W2",
     "last_10": "4\u20136"
   }
 }
