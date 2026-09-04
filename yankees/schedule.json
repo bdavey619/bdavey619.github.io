@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-09",
   "division_name": "AL East",
-  "generated_at": "2026-09-03T14:55:33.823318+00:00",
+  "generated_at": "2026-09-04T14:52:26.435967+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -22,7 +22,8 @@
       "gamePk": 823983,
       "status": "final",
       "result": "W",
-      "score": "6\u20133"
+      "score": "6\u20133",
+      "archive_url": "archive.html?date=2026-09-03"
     },
     {
       "date": "2026-09-04",
