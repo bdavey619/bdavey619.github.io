@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-03T15:56:01.169979+00:00",
+  "generated_at": "2026-09-04T15:53:56.416586+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -29,12 +29,10 @@
       "opponent": "PIT",
       "home": false,
       "gamePk": 823337,
-      "status": "scheduled",
-      "time_local": "9:35 AM PT",
-      "probable": {
-        "team": "Blade Tidwell",
-        "opp": "Lake Bachar"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20135",
+      "archive_url": "archive.html?date=2026-09-03"
     },
     {
       "date": "2026-09-04",
@@ -44,6 +42,7 @@
       "status": "scheduled",
       "time_local": "4:10 PM PT",
       "probable": {
+        "team": "Matt Wilkinson",
         "opp": "Nolan McLean"
       }
     },
@@ -55,6 +54,7 @@
       "status": "scheduled",
       "time_local": "1:10 PM PT",
       "probable": {
+        "team": "Anthony Molina",
         "opp": "Zac Thornton"
       }
     },
@@ -215,8 +215,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20131",
-    "current_streak": "W1",
-    "last_10": "6\u20134"
+    "month_record": "1\u20132",
+    "current_streak": "L1",
+    "last_10": "5\u20135"
   }
 }
