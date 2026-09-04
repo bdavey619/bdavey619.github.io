@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-30",
-  "cycle_start": "2026-09-03T14:30:00Z",
-  "last_updated": "2026-09-04T00:20:00Z",
+  "cycle_start": "2026-09-04T00:20:00Z",
+  "last_updated": "2026-09-04T14:30:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -58,16 +58,20 @@
       "pattern": "wide-survey instrument built to catch what narrow ones would miss",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The antenna and visor-like sunshade have now finished deploying, and Roman performed a 3.5-minute trajectory-correction burn Aug 31 en route to L2 - the mission is now fully in its three-month commissioning phase, with the Wide Field Instrument set to power on in a few weeks and first images still expected in early 2027.",
+      "why_now": "The commissioning sequence itself is now the story: Roman's Coronagraph Instrument is next to activate, ahead of the Wide Field Instrument powering on in about two weeks, with both then running weeks of calibration before the mission's real work starts - a schedule of one instrument at a time, not because anything went wrong, but because that's how you bring on a telescope built this wide.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://science.nasa.gov/blogs/roman/2026/09/01/nasa-roman-space-telescopes-antenna-visor-deployed/",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/nancy-grace-roman-space-telescope-next-steps-commissioning",
       "location": "Kennedy Space Center, Florida, USA",
       "season_or_time_context": "post-launch, en route to L2",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-02T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-04T14:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-04T14:30:00Z",
+          "note": "Next up in commissioning: the Coronagraph Instrument activates before the Wide Field Instrument powers on in about two weeks, each followed by weeks of calibration - a deliberate one-instrument-at-a-time sequence, not a delay."
+        },
         {
           "date": "2026-09-02T14:30:00Z",
           "note": "Antenna and visor-like sunshade finished deploying; Roman performed a 3.5-minute trajectory-correction burn Aug 31. Now in its three-month commissioning phase, with the Wide Field Instrument set to power on in a few weeks."
@@ -85,7 +89,7 @@
           "note": "Liftoff set for 7:26am EDT from Pad 39A; after launch, Roman begins a ~30-day cruise to the Sun-Earth L2 point, 930,000 miles out, to begin its wide-field survey mission."
         }
       ],
-      "source_date": "2026-09-01"
+      "source_date": "2026-09-02"
     },
     {
       "id": "armenia-kocharyan-detention-eu-bid",
@@ -204,13 +208,17 @@
       "why_now": "The price has stopped waiting for a resolution and started just tracking the war: Brent crude is back over $90/barrel, up more than 30% from pre-war levels, after climbing again this week on the return to open violence in the strait. The market isn't pricing a risk anymore - it's pricing an ongoing fact.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "url": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-04T00:20:00Z",
-      "appearances": 6,
+      "last_seen": "2026-09-04T14:30:00Z",
+      "appearances": 7,
       "history": [
+        {
+          "date": "2026-09-04T14:30:00Z",
+          "note": "PortWatch/IMF data puts strait traffic at ~90% below normal - 6 vessels vs. ~85 typical, per NBC's tracker. Opposite framing from Monday's \"highest volume since the war began\" - both true; the moving fleet is just much smaller."
+        },
         {
           "date": "2026-09-04T00:20:00Z",
           "note": "Brent crude is back over $90/barrel, up 30%+ from pre-war levels, climbing again this week on the return to open violence in the strait - the market has stopped pricing a risk and started pricing an ongoing fact."
@@ -226,13 +234,9 @@
         {
           "date": "2026-09-02T00:20:00Z",
           "note": "US and Iran exchanged fire for the first time in a month: US struck Larak Island, Iran fired on US sites in Jordan (intercepted), two Saudi tankers hit by projectiles Monday. US struck back Tuesday; both sides threaten harder retaliation."
-        },
-        {
-          "date": "2026-08-31T00:20:00Z",
-          "note": "Iran's deputy FM: \"The Strait of Hormuz remains closed, and any vessel passing through does so in coordination with Iran,\" with detention/confiscation threatened for violators - UKMTO confirms traffic remains significantly reduced."
         }
       ],
-      "source_date": "2026-09-02"
+      "source_date": "2026-09-04"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -320,13 +324,17 @@
       "why_now": "IBM just followed the verification milestone with a hardware one: Nighthawk r2, its fastest quantum processor yet, released Sept 3 with a 120-qubit chip and an active dissipative qubit reset that cuts idle time between circuits, pushing throughput past 100,000 circuits per second - a 25x speedup over IBM's existing Heron fleet.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://thequantuminsider.com/2026/09/03/ibms-nighthawk-r2-quantum-processor-targets-a-25-fold-increase-in-circuit-speed/",
+      "url": "https://nand-research.com/ibm-quantum-nighthawk-r2-arrives-on-the-ibm-quantum-platform/",
       "location": "IBM / University of Chicago",
       "season_or_time_context": "recent research milestone",
       "first_seen": "2026-09-01T00:20:00Z",
-      "last_seen": "2026-09-03T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-04T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-04T14:30:00Z",
+          "note": "Nighthawk r2 has already produced accurate estimates from circuits of 7,500+ gates, hitting an objective on IBM's 2026 roadmap ahead of schedule - and IBM's stock rose on the announcement, the market pricing the credibility, not just the chip."
+        },
         {
           "date": "2026-09-03T14:30:00Z",
           "note": "IBM released Nighthawk r2, its fastest QPU yet: a 120-qubit chip with active dissipative qubit reset cutting idle time between circuits, pushing throughput past 100,000 circuits/sec - a 25x speedup over the existing Heron fleet."
@@ -336,7 +344,7 @@
           "note": "IBM/U Chicago ran 2,415 logical two-qubit ops and 468 logical T-gates on 70 logical qubits, finishing in ~15 minutes with a 10x lower error rate than physical qubits - a verified result classical methods can't practically reproduce."
         }
       ],
-      "source_date": "2026-09-03"
+      "source_date": "2026-09-04"
     },
     {
       "id": "niger-mutiny-russia-africa-corps",
@@ -406,22 +414,82 @@
       "pattern": "a safety threshold crossed incidentally, as a byproduct of testing for something else",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Astra scored a perfect result on ExploitBench and discovered and chained two real zero-day vulnerabilities while being tested for something else. OpenAI has restricted the model's most powerful cyber capabilities to vetted defenders and reports it now declines 91.5% of cyber-jailbreak attempts, up from 59% for its predecessor.",
+      "why_now": "OpenAI didn't hold Astra back after naming the threshold - it began rolling the model out Sept 3, restricting only the cyber capabilities themselves to a small alpha of vetted critical-infrastructure defenders while everything else ships broadly. The company chose to disclose and ship in the same week, rather than choosing one or the other.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/",
+      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
       "location": "OpenAI",
       "season_or_time_context": "newly disclosed capability",
       "first_seen": "2026-09-03T14:30:00Z",
-      "last_seen": "2026-09-03T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-04T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-04T14:30:00Z",
+          "note": "OpenAI began rolling out Astra Sept 3, two days after naming its Critical cyber threshold - full cyber capability access stays limited to vetted critical-infrastructure defenders, but the model itself ships broadly rather than being held back."
+        },
         {
           "date": "2026-09-03T14:30:00Z",
           "note": "Astra became the first OpenAI model to cross the \"Critical\" cyber threshold, scoring perfectly on ExploitBench and finding two real zero-days mid-test. Its cyber-jailbreak refusal rate is now 91.5%, up from 59% for its predecessor."
         }
       ],
-      "source_date": "2026-09-01"
+      "source_date": "2026-09-03"
+    },
+    {
+      "id": "cayonu-malachite-workshop",
+      "stream": "places",
+      "observer": "Why Today?",
+      "title": "The same mining workshop stayed in business for 2,000 years",
+      "observation": "Archaeologists at \u00c7ay\u00f6n\u00fc Tepesi in southeastern T\u00fcrkiye uncovered a 5-square-meter Neolithic workshop, dated to 6900-6800 BCE, with raw and processed malachite, copper beads and a stone-paved work area \u2014 evidence a specialized mining trade at the site ran continuously for roughly two millennia.",
+      "question": "What does it take for a single trade, at a single site, to outlast every government and belief system around it for 2,000 years?",
+      "hidden_question": "Is a craft that stable evidence of a resilient technique, or of a place with no real alternative to offer the people who lived there?",
+      "pattern": "a specialized trade that persisted at one location for far longer than the societies built around it",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Turkey's Culture and Tourism Minister says earlier digs at \u00c7ay\u00f6n\u00fc already traced copper and malachite mining back to 9100 BCE - meaning this newly uncovered workshop isn't the start of the tradition, but a 2,000-year-later continuation of it, with dedicated, purpose-built production space rather than ad hoc extraction.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://allthatsinteresting.com/turkey-neolithic-mining-workshop",
+      "location": "\u00c7ay\u00f6n\u00fc Tepesi, southeastern T\u00fcrkiye",
+      "season_or_time_context": "recent archaeological find",
+      "first_seen": "2026-09-04T14:30:00Z",
+      "last_seen": "2026-09-04T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-04T14:30:00Z",
+          "note": "A 5-square-meter workshop with raw/processed malachite, copper beads and a stone-paved work area was uncovered at \u00c7ay\u00f6n\u00fc, dated 6900-6800 BCE - two millennia after the site's earliest known copper/malachite mining, around 9100 BCE."
+        }
+      ],
+      "source_date": "2026-09-02"
+    },
+    {
+      "id": "ganesh-chaturthi-eco-idol-tension",
+      "stream": "human_rituals",
+      "observer": "Why Today?",
+      "title": "The idol built to be worshipped is also built to dissolve",
+      "observation": "Ahead of Ganesh Chaturthi (Sept 14-25), Indian artisans are preparing clay idols as alternatives to Plaster of Paris versions now restricted in cities like Hyderabad \u2014 a ritual whose central object, designed for immersion, is colliding with what immersion does to rivers and lakes.",
+      "question": "What happens to a ritual when the object at its center turns out to be the thing polluting the water it's offered to?",
+      "hidden_question": "Is switching the idol's material preserving the tradition, or quietly replacing what the ritual actually was?",
+      "pattern": "a traditional practice re-engineering its own central object to survive contact with modern environmental limits",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Hyderabad's 2026 rules cap idol height at 16 feet, ban loudspeakers outside a 6-10pm window, and bar PoP idols from natural water bodies entirely - while artisans in Chittoor are already crafting eco-friendly clay idols ahead of the Sept 14 start, and NGOs are organizing collective immersion drives so households can keep the private farewell ritual while the actual dissolving happens somewhere engineered for it.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://thenewsmill.com/2026/09/chittoor-artisans-craft-eco-friendly-ganesh-idols-ahead-of-festival/",
+      "location": "India (Hyderabad, Chittoor, and nationwide)",
+      "season_or_time_context": "run-up to Ganesh Chaturthi, Sept 14-25",
+      "first_seen": "2026-09-04T14:30:00Z",
+      "last_seen": "2026-09-04T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-04T14:30:00Z",
+          "note": "Ahead of Sept 14's festival, Chittoor artisans are crafting eco-friendly clay idols as Hyderabad bans PoP idols from natural water bodies and caps idol height and loudspeaker hours - the ritual adapting its own object to survive its environmental cost."
+        }
+      ],
+      "source_date": "2026-09-03"
     }
   ]
 }

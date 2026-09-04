@@ -1,6 +1,6 @@
 {
   "week": "2026-08-30",
-  "last_updated": "2026-09-04T00:20:00Z",
+  "last_updated": "2026-09-04T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -9,16 +9,16 @@
       "momentum": "accelerating",
       "evidence": [
         {
+          "domain": "Foreign Policy",
+          "text": "The administration touted the strait's \"highest shipping volume since the conflict began\" on Sept 1 - independent PortWatch/IMF tracking now puts actual traffic at ~90% below normal, 6 vessels transiting versus roughly 85 typical. Both readings are technically true; only one describes what a tanker captain would recognize as normal.",
+          "url": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507",
+          "date": "2026-09-04",
+          "is_new": true
+        },
+        {
           "domain": "Resource Diplomacy",
           "text": "Trump called it the \"biggest oil deal in history\"; days later, Venezuela's own National Assembly still had to vote on terms opposition lawmakers said they'd never been shown. The signing ceremony that followed - Chevron, ENI, GE Vernova all putting down real money - is the first evidence that actually stands independent of either government's telling.",
           "url": "https://www.freemalaysiatoday.com/category/highlight/2026/09/03/us-energy-secretary-oversees-signing-of-trump-s-biggest-oil-deal-in-venezuela",
-          "date": "2026-09-03",
-          "is_new": false
-        },
-        {
-          "domain": "Foreign Policy",
-          "text": "Trump proposed renaming the strait \"Trump Strait,\" claiming the US is freely \"bringing lots of boats out every day\" - the same day CENTCOM confirmed an active naval blockade that has redirected 86 commercial vessels, disabled three, and boarded two. \"Controlling\" and \"blockading\" are not the same claim, even when they're describing the identical ships.",
-          "url": "https://abcnews.com/International/live-updates/iran-live-updates-centcom-targeted-iranian-forces-posed/?id=136080582",
           "date": "2026-09-03",
           "is_new": false
         },
@@ -42,7 +42,7 @@
           "text": "Two leaders left the same meeting with incompatible accounts of what it settled: Putin says Armenia's EU-accession law already means it's leaving the EAEU; Pashinyan says no partners have been notified and no real choice has even been made yet. A face-to-face summit didn't resolve the question - it produced two contradictory readings of itself.",
           "url": "https://news.am/en/news/1059022",
           "date": "2026-09-02",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Judicial",
