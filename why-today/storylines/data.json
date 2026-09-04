@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-30",
-  "cycle_start": "2026-09-03T00:20:00Z",
-  "last_updated": "2026-09-03T14:30:00Z",
+  "cycle_start": "2026-09-03T14:30:00Z",
+  "last_updated": "2026-09-04T00:20:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -99,16 +99,20 @@
       "pattern": "a legal crackdown landing at the exact moment it most benefits the government's freedom of maneuver",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Putin put it to Pashinyan directly at the SCO summit in Bishkek \u2014 their first meeting since Armenia's June election \u2014 calling the EU push Armenia's \"legitimate right\" while warning it \"creates complications\" for its EAEU membership, and renewed his demand that Armenians get a referendum on the question. Putin said plainly: \"The sooner Armenia decides... the better\" \u2014 Moscow needs to know how to plan the relationship going forward.",
+      "why_now": "Putin and Pashinyan came out of the same Bishkek meeting with directly conflicting readings of Armenia's own law: Putin says passing it to start EU accession already amounts to a declaration of leaving the EAEU; Pashinyan says Armenia hasn't notified partners of any withdrawal and hasn't even decided, since no real alternative to the EAEU exists yet. Two leaders, one shared meeting, two incompatible accounts of what just happened in it.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://meduza.io/en/news/2026/09/01/putin-meets-pashinyan-for-the-first-time-since-armenia-s-latest-election-and-asks-him-to-choose-soon-the-eu-or-the-eaeu",
+      "url": "https://news.am/en/news/1059022",
       "location": "Yerevan, Armenia",
       "season_or_time_context": "ahead of Armenia's EU accession push",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-02T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-04T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-04T00:20:00Z",
+          "note": "Putin and Pashinyan gave conflicting readings of the same Bishkek meeting: Putin says Armenia's EU-accession law already means EAEU withdrawal; Pashinyan says no partners were notified and no real alternative exists yet to actually choose."
+        },
         {
           "date": "2026-09-02T14:30:00Z",
           "note": "Putin pressed Pashinyan directly at the SCO summit in Bishkek, their first meeting since June's election - calling the EU push \"legitimate\" but warning of EAEU \"complications,\" and renewing his demand for a referendum."
@@ -126,7 +130,7 @@
           "note": "Pashinyan has added a referendum to the EU-accession process; Armenia's Security Council secretary says the prospect alone is enough to upset Moscow, as Russian commentary frames the pivot as an unaffordable trade."
         }
       ],
-      "source_date": "2026-09-01"
+      "source_date": "2026-09-02"
     },
     {
       "id": "congo-m23-ceasefire-verification",
@@ -197,16 +201,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The record shipping volume turns out to be a blockade metric, not a peacetime one: CENTCOM confirms the US Navy is actively enforcing a blockade, having redirected 86 commercial vessels, disabled 3, and boarded 2 as of Sept 2. Trump proposed renaming the waterway \"Trump Strait,\" claiming the US is \"controlling\" it and \"bringing lots of boats out every day\" - the same traffic figure read as free flow by one telling and controlled flow by the other.",
+      "why_now": "The price has stopped waiting for a resolution and started just tracking the war: Brent crude is back over $90/barrel, up more than 30% from pre-war levels, after climbing again this week on the return to open violence in the strait. The market isn't pricing a risk anymore - it's pricing an ongoing fact.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://abcnews.com/International/live-updates/iran-live-updates-centcom-targeted-iranian-forces-posed/?id=136080582",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-03T00:20:00Z",
-      "appearances": 5,
+      "last_seen": "2026-09-04T00:20:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-09-04T00:20:00Z",
+          "note": "Brent crude is back over $90/barrel, up 30%+ from pre-war levels, climbing again this week on the return to open violence in the strait - the market has stopped pricing a risk and started pricing an ongoing fact."
+        },
         {
           "date": "2026-09-03T00:20:00Z",
           "note": "CENTCOM confirms an active blockade: 86 vessels redirected, 3 disabled, 2 boarded as of Sept 2. Trump proposed renaming it \"Trump Strait,\" claiming free-flowing control - blockade by CENTCOM's own account, free flow by the President's."
@@ -222,13 +230,9 @@
         {
           "date": "2026-08-31T00:20:00Z",
           "note": "Iran's deputy FM: \"The Strait of Hormuz remains closed, and any vessel passing through does so in coordination with Iran,\" with detention/confiscation threatened for violators - UKMTO confirms traffic remains significantly reduced."
-        },
-        {
-          "date": "2026-08-30T00:20:00Z",
-          "note": "Iran and Oman reached a revenue-sharing toll deal, discussing a permanent corridor \u2014 but the strait stays closed pending the US honoring its own lapsed June peace deal, as Washington's new sanctions draw threats of \"seismic\" Iranian retaliation."
         }
       ],
-      "source_date": "2026-09-03"
+      "source_date": "2026-09-02"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -241,16 +245,20 @@
       "pattern": "a resource deal signed by an unelected government, at a scale built to outlast any successor who might contest it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "It's no longer just a promise on paper: Wright oversaw signings in Caracas Wednesday worth \"tens of billions\" from Chevron, ENI, GE Vernova, Primavera and Aspect Energy. Chevron alone put $7B behind two new Orinoco Belt fields and expects to more than double output within five years; ENI's CEO said it could start drilling new wells as soon as Thursday. The deal has gone from announcement to capital actually moving.",
+      "why_now": "Venezuela's own political opposition is now calling it \"a massive land grab\" and unconstitutional - the same secret negotiation, lack of competitive bidding, and unclear operating structure that let the deal move fast are now the exact grounds critics say a future government could use to argue it was invalid from the moment it was signed.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.freemalaysiatoday.com/category/highlight/2026/09/03/us-energy-secretary-oversees-signing-of-trump-s-biggest-oil-deal-in-venezuela",
+      "url": "https://www.npr.org/2026/09/03/nx-s1-5954176/critics-question-legality-of-venezuela-oil-deals",
       "location": "Caracas, Venezuela / Washington, DC",
       "season_or_time_context": "deal signed, implementation underway",
       "first_seen": "2026-08-31T00:20:00Z",
-      "last_seen": "2026-09-03T00:20:00Z",
-      "appearances": 6,
+      "last_seen": "2026-09-04T00:20:00Z",
+      "appearances": 7,
       "history": [
+        {
+          "date": "2026-09-04T00:20:00Z",
+          "note": "Venezuela's own opposition now calls it \"a massive land grab\" and unconstitutional - the same secrecy that let the deal move fast are the exact grounds critics say a future government could use to invalidate it."
+        },
         {
           "date": "2026-09-03T00:20:00Z",
           "note": "Wright oversaw signings in Caracas worth \"tens of billions\" from Chevron, ENI, GE Vernova and others. Chevron put $7B behind two Orinoco Belt fields, expecting to more than double output in five years; ENI could start new wells by Thursday."
@@ -266,10 +274,6 @@
         {
           "date": "2026-09-01T00:20:00Z",
           "note": "The 65B barrels alone surpass all US proved reserves (46B). House Democrats formally warn oil companies of legal risk under Congress's war powers and the UN Charter; the US, not Venezuela, picks which companies operate the fields."
-        },
-        {
-          "date": "2026-08-31T14:30:00Z",
-          "note": "Rodr\u00edguez and Trump are already contradicting each other on the deal's terms - she says Caracas retains control, he claims US majority ownership. Economist Ricardo Hausmann calls it \"shameful\" and unconstitutional; Senate Democrats say it \"isn't a win.\""
         }
       ],
       "source_date": "2026-09-03"

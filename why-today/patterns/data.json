@@ -1,6 +1,6 @@
 {
   "week": "2026-08-30",
-  "last_updated": "2026-09-03T14:30:00Z",
+  "last_updated": "2026-09-04T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -38,24 +38,24 @@
       "momentum": "building",
       "evidence": [
         {
+          "domain": "Geopolitical",
+          "text": "Two leaders left the same meeting with incompatible accounts of what it settled: Putin says Armenia's EU-accession law already means it's leaving the EAEU; Pashinyan says no partners have been notified and no real choice has even been made yet. A face-to-face summit didn't resolve the question - it produced two contradictory readings of itself.",
+          "url": "https://news.am/en/news/1059022",
+          "date": "2026-09-02",
+          "is_new": true
+        },
+        {
           "domain": "Judicial",
           "text": "Judge Talwani spelled out exactly what the Supreme Court's win didn't do: she rejected the government's \"cynical interpretation\" of the ruling directly, writing the justices had \"not endorsed the view that any challenge to the final rule is now too late.\" A procedural win got read by the government as a substantive one - a judge on record saying that reading is wrong.",
           "url": "https://www.jdjournal.com/2026/09/01/trump-appeals-court-mail-voting-rule/",
           "date": "2026-09-01",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy Shipping",
           "text": "The shipping-corridor diplomacy didn't survive contact with the weekend: the US and Iran exchanged fire for the first time in a month, two Saudi tankers were struck by projectiles in the strait, and both sides are now threatening harder retaliation - the negotiation track and the shooting track were never actually the same track.",
           "url": "https://www.npr.org/2026/08/31/nx-s1-5949884/u-s-and-iran-exchange-fire-for-the-first-time-in-a-month",
           "date": "2026-08-31",
-          "is_new": false
-        },
-        {
-          "domain": "Geopolitical",
-          "text": "Pashinyan's pivot got its form - a referendum plan, a bid in motion - but not its resolution: Putin pressed him on it face to face at the SCO summit, calling the EU push 'legitimate' while warning of 'complications' and renewing his demand for a referendum. A direct meeting between the two leaders didn't settle anything - it just moved the same unresolved question onto a bigger stage.",
-          "url": "https://meduza.io/en/news/2026/09/01/putin-meets-pashinyan-for-the-first-time-since-armenia-s-latest-election-and-asks-him-to-choose-soon-the-eu-or-the-eaeu",
-          "date": "2026-09-01",
           "is_new": false
         }
       ]
