@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-04T14:26:23.876434+00:00",
+  "generated_at": "2026-09-05T13:29:08.199947+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -29,12 +29,9 @@
       "opponent": "NYY",
       "home": true,
       "gamePk": 823256,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Walker Buehler",
-        "opp": "Max Fried"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "3\u20132"
     },
     {
       "date": "2026-09-05",
@@ -56,7 +53,8 @@
       "status": "scheduled",
       "time_local": "1:10 PM PT",
       "probable": {
-        "team": "Michael King"
+        "team": "Michael King",
+        "opp": "Gerrit Cole"
       }
     },
     {
@@ -213,8 +211,8 @@
     }
   ],
   "summary": {
-    "month_record": "0\u20132",
-    "current_streak": "L2",
+    "month_record": "1\u20132",
+    "current_streak": "W1",
     "last_10": "3\u20137"
   }
 }
