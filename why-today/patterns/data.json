@@ -1,6 +1,6 @@
 {
   "week": "2026-08-30",
-  "last_updated": "2026-09-04T14:30:00Z",
+  "last_updated": "2026-09-05T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -9,24 +9,24 @@
       "momentum": "accelerating",
       "evidence": [
         {
+          "domain": "Debt Management",
+          "text": "The 10-year hit a three-year high above 4.81% early this week on hawkish Fed comments - then a single dovish remark from Governor Waller, saying he'd hold rates absent an inflation surprise, sent it back down to 4.74-4.77% and cut September rate-hike odds from 63% to roughly 50%. The \"record high\" didn't survive the next Fed official who spoke.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-04/us-yield-swings-abate-before-jobs-data-after-volatile-week",
+          "date": "2026-09-04",
+          "is_new": true
+        },
+        {
           "domain": "Foreign Policy",
           "text": "The administration touted the strait's \"highest shipping volume since the conflict began\" on Sept 1 - independent PortWatch/IMF tracking now puts actual traffic at ~90% below normal, 6 vessels transiting versus roughly 85 typical. Both readings are technically true; only one describes what a tanker captain would recognize as normal.",
           "url": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507",
           "date": "2026-09-04",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Resource Diplomacy",
           "text": "Trump called it the \"biggest oil deal in history\"; days later, Venezuela's own National Assembly still had to vote on terms opposition lawmakers said they'd never been shown. The signing ceremony that followed - Chevron, ENI, GE Vernova all putting down real money - is the first evidence that actually stands independent of either government's telling.",
           "url": "https://www.freemalaysiatoday.com/category/highlight/2026/09/03/us-energy-secretary-oversees-signing-of-trump-s-biggest-oil-deal-in-venezuela",
           "date": "2026-09-03",
-          "is_new": false
-        },
-        {
-          "domain": "Debt Management",
-          "text": "The buyback's relief is fully spent: the 10-year just closed a five-session rally above 4.81%, its highest since October 2023, before easing a hair to 4.79%. Rate-hike odds for this month have jumped to 66%, from 40% a week ago - whatever the intervention accomplished in late August, the market has now priced straight through it.",
-          "url": "https://tradingeconomics.com/united-states/government-bond-yield",
-          "date": "2026-09-02",
           "is_new": false
         }
       ]
@@ -35,8 +35,15 @@
       "id": "resolved-in-form-not-in-fact",
       "title": "Three things that looked like resolutions this week all deferred the real question to later",
       "explanation": "A ceasefire, a court ruling, and a shipping framework all landed this week wearing the shape of a resolution \u2014 and in each case, the people closest to it said out loud that the actual question is still open. A peace roadmap got its first verification mission, not a verified peace. A Supreme Court stay resolved a procedural fight while its own justices noted the underlying legality is untouched. A transit deal is 'in principle' and 'still being finalized.' Each is a real step. None of them is the thing a headline would make it sound like.",
-      "momentum": "building",
+      "momentum": "accelerating",
       "evidence": [
+        {
+          "domain": "Energy Shipping",
+          "text": "The \"negotiation track\" produced a US strike on a wedding in Kuhestak on Sept 1 - 4-5 dead, dozens wounded, Iran vowing \"a heavy cost.\" A shipping-corridor dispute that both sides still call diplomacy now has a civilian funeral attached to it.",
+          "url": "https://www.aljazeera.com/news/2026/9/2/what-do-we-know-about-the-fatal-us-bombing-of-a-wedding-in-irans-sirik",
+          "date": "2026-09-02",
+          "is_new": true
+        },
         {
           "domain": "Geopolitical",
           "text": "Two leaders left the same meeting with incompatible accounts of what it settled: Putin says Armenia's EU-accession law already means it's leaving the EAEU; Pashinyan says no partners have been notified and no real choice has even been made yet. A face-to-face summit didn't resolve the question - it produced two contradictory readings of itself.",
@@ -49,13 +56,6 @@
           "text": "Judge Talwani spelled out exactly what the Supreme Court's win didn't do: she rejected the government's \"cynical interpretation\" of the ruling directly, writing the justices had \"not endorsed the view that any challenge to the final rule is now too late.\" A procedural win got read by the government as a substantive one - a judge on record saying that reading is wrong.",
           "url": "https://www.jdjournal.com/2026/09/01/trump-appeals-court-mail-voting-rule/",
           "date": "2026-09-01",
-          "is_new": false
-        },
-        {
-          "domain": "Energy Shipping",
-          "text": "The shipping-corridor diplomacy didn't survive contact with the weekend: the US and Iran exchanged fire for the first time in a month, two Saudi tankers were struck by projectiles in the strait, and both sides are now threatening harder retaliation - the negotiation track and the shooting track were never actually the same track.",
-          "url": "https://www.npr.org/2026/08/31/nx-s1-5949884/u-s-and-iran-exchange-fire-for-the-first-time-in-a-month",
-          "date": "2026-08-31",
           "is_new": false
         }
       ]

@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-30",
-  "cycle_start": "2026-09-04T00:20:00Z",
-  "last_updated": "2026-09-04T14:30:00Z",
+  "cycle_start": "2026-09-04T14:30:00Z",
+  "last_updated": "2026-09-05T00:20:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -208,13 +208,17 @@
       "why_now": "The price has stopped waiting for a resolution and started just tracking the war: Brent crude is back over $90/barrel, up more than 30% from pre-war levels, after climbing again this week on the return to open violence in the strait. The market isn't pricing a risk anymore - it's pricing an ongoing fact.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507",
+      "url": "https://www.aljazeera.com/news/2026/9/2/what-do-we-know-about-the-fatal-us-bombing-of-a-wedding-in-irans-sirik",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-04T14:30:00Z",
-      "appearances": 7,
+      "last_seen": "2026-09-05T00:20:00Z",
+      "appearances": 8,
       "history": [
+        {
+          "date": "2026-09-05T00:20:00Z",
+          "note": "A US strike hit a wedding celebration in Kuhestak, on the strait, Sept 1 - killing 4-5, wounding dozens. Iran's military vows to \"impose a heavy cost\" - a civilian toll now sitting alongside the shipping and pricing story."
+        },
         {
           "date": "2026-09-04T14:30:00Z",
           "note": "PortWatch/IMF data puts strait traffic at ~90% below normal - 6 vessels vs. ~85 typical, per NBC's tracker. Opposite framing from Monday's \"highest volume since the war began\" - both true; the moving fleet is just much smaller."
@@ -230,13 +234,9 @@
         {
           "date": "2026-09-02T14:30:00Z",
           "note": "CENTCOM widened its strikes to air defense, radar, maritime assets, mine-laying capability and communications sites. Yet 17M barrels transited the strait Monday - the highest since the conflict began - the shooting war and peak shipping volume happening at once."
-        },
-        {
-          "date": "2026-09-02T00:20:00Z",
-          "note": "US and Iran exchanged fire for the first time in a month: US struck Larak Island, Iran fired on US sites in Jordan (intercepted), two Saudi tankers hit by projectiles Monday. US struck back Tuesday; both sides threaten harder retaliation."
         }
       ],
-      "source_date": "2026-09-04"
+      "source_date": "2026-09-02"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -386,8 +386,8 @@
       "pattern": "a surface phenomenon whose real cause sits well below where anyone was looking",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Researchers combined millimeter-precision GPS surface monitoring with seismic imaging of mantle-flow direction to show the rift's unusual rift-parallel motion is driven by northward-flowing mantle tied to the African Superplume \u2014 settling competing theories over whether shallow crustal forces or deep mantle upwelling dominate the process splitting the continent.",
-      "status": "captured",
+      "why_now": "No reporting has moved past the original study across this and the prior check; going dormant as a single-note research finding rather than re-bumping it without a new development. Worth reactivating if a follow-up study or new field measurement builds on it.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.sciencedaily.com/releases/2026/08/260831015210.htm",
       "location": "East African Rift",
@@ -490,6 +490,35 @@
         }
       ],
       "source_date": "2026-09-03"
+    },
+    {
+      "id": "ny-climate-superfund-struck-down",
+      "stream": "headlines",
+      "category": "Politics & World",
+      "observer": "Why Today?",
+      "title": "A state tried to send fossil fuel companies a $75 billion bill. A federal judge just voided it",
+      "observation": "A federal judge struck down New York's Climate Change Superfund Act, which sought to collect roughly $75 billion from fossil fuel companies for past emissions, ruling the state law is preempted by federal law and reaches into territory that belongs to Washington, not Albany.",
+      "question": "Can any single state make a global industry pay for a global harm, or does the scale of the problem itself put the remedy out of a state's legal reach?",
+      "hidden_question": "Is this ruling about federalism, or is it about which level of government is actually willing to send the bill?",
+      "pattern": "a state-level remedy for a global-scale harm struck down for operating at the wrong scale of government",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Judge Sannes leaned on a 2021 Second Circuit precedent that already doomed a similar NYC lawsuit against oil companies, meaning an appeal goes back to the same court that wrote the rule against it. Gov. Hochul says the state is \"looking at options,\" but the court has already set a Sept 14 status-report deadline - the same court, the same reasoning, a second chance to answer it.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.fingerlakes1.com/2026/09/04/federal-judge-overturns-nys-climate-change-superfund-law/",
+      "location": "Albany, New York / Northern District of New York",
+      "season_or_time_context": "ruling issued, appeal window open",
+      "first_seen": "2026-09-05T00:20:00Z",
+      "last_seen": "2026-09-05T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-05T00:20:00Z",
+          "note": "Judge Sannes struck down NY's $75B Climate Superfund Act as preempted by federal law, citing a 2021 Second Circuit precedent that already doomed a similar NYC suit. Hochul says the state is weighing an appeal to that same circuit."
+        }
+      ],
+      "source_date": "2026-09-04"
     }
   ]
 }
