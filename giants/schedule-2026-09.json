@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-04T15:53:56.416586+00:00",
+  "generated_at": "2026-09-05T14:44:02.407638+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -39,12 +39,9 @@
       "opponent": "NYM",
       "home": false,
       "gamePk": 823579,
-      "status": "scheduled",
-      "time_local": "4:10 PM PT",
-      "probable": {
-        "team": "Matt Wilkinson",
-        "opp": "Nolan McLean"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "6\u201310"
     },
     {
       "date": "2026-09-05",
@@ -215,8 +212,8 @@
     }
   ],
   "summary": {
-    "month_record": "1\u20132",
-    "current_streak": "L1",
-    "last_10": "5\u20135"
+    "month_record": "1\u20133",
+    "current_streak": "L2",
+    "last_10": "4\u20136"
   }
 }
