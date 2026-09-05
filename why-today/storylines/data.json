@@ -1,7 +1,7 @@
 {
   "week_start": "2026-08-30",
-  "cycle_start": "2026-09-04T14:30:00Z",
-  "last_updated": "2026-09-05T00:20:00Z",
+  "cycle_start": "2026-09-05T00:20:00Z",
+  "last_updated": "2026-09-05T14:30:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -14,16 +14,20 @@
       "pattern": "a warning that existed in the data but not in any system built to notice it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The government has pivoted to rehabilitation with ~12,000 rescued and 1,114 confirmed dead, but a cryosphere analyst is now warning the surrounding landscape itself remains unstable - fractured bedrock and recently disturbed slopes from the original collapse haven't settled, meaning the site of the \"recovery\" phase is still an active hazard.",
+      "why_now": "The toll keeps climbing even as the government moves to rehabilitation - 1,287 dead, 5,083 still missing - and the rebuild itself has grown into relocation: 20,000 houses need replacing in different, safer locations, since rebuilding where they stood would just expose people to the same risk again.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://abcnews.com/International/nepal-tibet-flood-death-toll-tops-1100-tens/story?id=136136947",
+      "url": "https://ca.news.yahoo.com/nepal-must-rebuild-thousands-homes-060514597.html",
       "location": "Langtang, Nepal / Gyirong, Tibet",
       "season_or_time_context": "post-disaster search and rescue",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-03T14:30:00Z",
-      "appearances": 7,
+      "last_seen": "2026-09-05T14:30:00Z",
+      "appearances": 8,
       "history": [
+        {
+          "date": "2026-09-05T14:30:00Z",
+          "note": "Nepal's toll is now 1,287 dead, 5,083 missing (Tibet: 31 dead, 531 missing). Authorities say 20,000 houses must be rebuilt in safer locations, 7,500 already destroyed outright - the rehabilitation phase is now a resettlement, not a repair."
+        },
         {
           "date": "2026-09-03T14:30:00Z",
           "note": "~12,000 rescued as the government pivots to rehabilitation, but a cryosphere analyst warns the surrounding landscape remains unstable - fractured bedrock and disturbed slopes from the collapse haven't settled, so the recovery site is still an active hazard."
@@ -39,10 +43,6 @@
         {
           "date": "2026-09-01T14:30:00Z",
           "note": "Nepal's toll crossed 1,000 dead, missing jumped to 3,916 (583 foreign, 639 hydropower workers). Rescue suspended again as a second upstream lake began overflowing; officials say risk continues until both lakes fully drain."
-        },
-        {
-          "date": "2026-08-31T00:20:00Z",
-          "note": "The new lake has started overflowing, not just threatening to. Nepal's toll: 800 dead, 2,498 missing (incl. 90 Americans, ~900 hydropower workers). Tibet: 272 unidentified bodies recovered plus 16 confirmed dead. 7,514 rescued total; Israeli forensic experts joining India/China."
         }
       ],
       "source_date": "2026-09-03"
@@ -208,13 +208,17 @@
       "why_now": "The price has stopped waiting for a resolution and started just tracking the war: Brent crude is back over $90/barrel, up more than 30% from pre-war levels, after climbing again this week on the return to open violence in the strait. The market isn't pricing a risk anymore - it's pricing an ongoing fact.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/9/2/what-do-we-know-about-the-fatal-us-bombing-of-a-wedding-in-irans-sirik",
+      "url": "https://news.usni.org/2026/09/04/u-s-iran-trade-strikes-in-strait-of-hormuz-as-both-battle-on-social-media",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-05T00:20:00Z",
-      "appearances": 8,
+      "last_seen": "2026-09-05T14:30:00Z",
+      "appearances": 9,
       "history": [
+        {
+          "date": "2026-09-05T14:30:00Z",
+          "note": "USNI News: Iran hit at least 13 commercial vessels in August alone; the US struck two more unidentified ships this week. Analysts say actual crude flow is still \"likely much less\" than the volume Washington has been citing."
+        },
         {
           "date": "2026-09-05T00:20:00Z",
           "note": "A US strike hit a wedding celebration in Kuhestak, on the strait, Sept 1 - killing 4-5, wounding dozens. Iran's military vows to \"impose a heavy cost\" - a civilian toll now sitting alongside the shipping and pricing story."
@@ -230,13 +234,9 @@
         {
           "date": "2026-09-03T00:20:00Z",
           "note": "CENTCOM confirms an active blockade: 86 vessels redirected, 3 disabled, 2 boarded as of Sept 2. Trump proposed renaming it \"Trump Strait,\" claiming free-flowing control - blockade by CENTCOM's own account, free flow by the President's."
-        },
-        {
-          "date": "2026-09-02T14:30:00Z",
-          "note": "CENTCOM widened its strikes to air defense, radar, maritime assets, mine-laying capability and communications sites. Yet 17M barrels transited the strait Monday - the highest since the conflict began - the shooting war and peak shipping volume happening at once."
         }
       ],
-      "source_date": "2026-09-02"
+      "source_date": "2026-09-04"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -516,6 +516,34 @@
         {
           "date": "2026-09-05T00:20:00Z",
           "note": "Judge Sannes struck down NY's $75B Climate Superfund Act as preempted by federal law, citing a 2021 Second Circuit precedent that already doomed a similar NYC suit. Hochul says the state is weighing an appeal to that same circuit."
+        }
+      ],
+      "source_date": "2026-09-04"
+    },
+    {
+      "id": "un-equal-earth-map-vote",
+      "stream": "places",
+      "observer": "Why Today?",
+      "title": "The US cast the only 'no' vote against a map",
+      "observation": "The UN General Assembly voted 164-1 to endorse the Equal Earth projection over the Mercator map, which shrinks Africa to roughly Greenland's size despite being about 14 times larger \u2014 a non-binding resolution, introduced by Togo for the African Group, that the US alone opposed.",
+      "question": "What does a country's objection to a symbolic, non-binding map change tell you about what it thinks maps are actually for?",
+      "hidden_question": "Is correcting the map an act of real justice, or a costless gesture that changes nothing about how power and resources actually get distributed?",
+      "pattern": "a purely symbolic vote that both its backers and its lone opponent are treating as consequential",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "The resolution explicitly doesn't touch the Mercator projection's continued use for maritime and aerial navigation - so the fight isn't over the map's function. The US called it part of \"a much larger and more radical ideological project\"; six former Soviet-bloc states abstained rather than joined either side.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.aljazeera.com/news/2026/9/4/un-votes-to-adopt-new-world-map-that-reflects-africas-true-size",
+      "location": "United Nations, New York",
+      "season_or_time_context": "resolution adopted this week",
+      "first_seen": "2026-09-05T14:30:00Z",
+      "last_seen": "2026-09-05T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-05T14:30:00Z",
+          "note": "The UN adopted the \"Correct the Map\" resolution 164-1, promoting the Equal Earth projection over Mercator's centuries-old distortion of Africa's size. The US cast the sole no vote; six ex-Soviet-bloc states abstained rather than pick a side."
         }
       ],
       "source_date": "2026-09-04"

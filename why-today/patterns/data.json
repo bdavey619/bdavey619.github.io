@@ -1,6 +1,6 @@
 {
   "week": "2026-08-30",
-  "last_updated": "2026-09-05T00:20:00Z",
+  "last_updated": "2026-09-05T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -10,9 +10,9 @@
       "evidence": [
         {
           "domain": "Debt Management",
-          "text": "The 10-year hit a three-year high above 4.81% early this week on hawkish Fed comments - then a single dovish remark from Governor Waller, saying he'd hold rates absent an inflation surprise, sent it back down to 4.74-4.77% and cut September rate-hike odds from 63% to roughly 50%. The \"record high\" didn't survive the next Fed official who spoke.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-04/us-yield-swings-abate-before-jobs-data-after-volatile-week",
-          "date": "2026-09-04",
+          "text": "The 10-year has now reversed direction three times in five sessions: a Fed-comment-driven high above 4.81%, a dovish-remark dip to 4.74-4.77%, and Friday's bounce back to 4.79% on a stronger-than-forecast August jobs report (162K vs. 56K expected), pushing rate-hike odds back up to ~52%. No single reading has held for even a full trading day.",
+          "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+          "date": "2026-09-05",
           "is_new": true
         },
         {
@@ -42,7 +42,7 @@
           "text": "The \"negotiation track\" produced a US strike on a wedding in Kuhestak on Sept 1 - 4-5 dead, dozens wounded, Iran vowing \"a heavy cost.\" A shipping-corridor dispute that both sides still call diplomacy now has a civilian funeral attached to it.",
           "url": "https://www.aljazeera.com/news/2026/9/2/what-do-we-know-about-the-fatal-us-bombing-of-a-wedding-in-irans-sirik",
           "date": "2026-09-02",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Geopolitical",
