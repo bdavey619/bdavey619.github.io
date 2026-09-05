@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-09",
   "division_name": "AL East",
-  "generated_at": "2026-09-04T14:52:26.435967+00:00",
+  "generated_at": "2026-09-05T13:46:53.250251+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -30,12 +30,9 @@
       "opponent": "SD",
       "home": false,
       "gamePk": 823256,
-      "status": "scheduled",
-      "time_local": "9:40 PM ET",
-      "probable": {
-        "team": "Max Fried",
-        "opp": "Walker Buehler"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20133"
     },
     {
       "date": "2026-09-05",
@@ -57,6 +54,7 @@
       "status": "scheduled",
       "time_local": "4:10 PM ET",
       "probable": {
+        "team": "Gerrit Cole",
         "opp": "Michael King"
       }
     },
@@ -214,8 +212,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20130",
-    "current_streak": "W2",
+    "month_record": "2\u20131",
+    "current_streak": "L1",
     "last_10": "6\u20134"
   }
 }
