@@ -1,95 +1,63 @@
 {
-  "week_start": "2026-08-30",
-  "cycle_start": "2026-09-05T00:20:00Z",
-  "last_updated": "2026-09-05T14:30:00Z",
+  "week_start": "2026-09-06",
+  "cycle_start": "2026-09-05T14:30:00Z",
+  "last_updated": "2026-09-06T00:20:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
       "stream": "natural_world",
       "observer": "Why Today?",
       "title": "The warning existed in the satellite data. There was just nobody watching it in real time",
-      "observation": "A glacial lake high in the Himalayas drained on Aug 26, sending a 100km wall of water through Nepal and Tibet \u2014 a disaster now confirmed to have left precursor signs in satellite imagery days beforehand, with no monitoring system built to catch them.",
+      "observation": "A glacial lake high in the Himalayas drained on Aug 26, sending a 100km wall of water through Nepal and Tibet \u2014 now Nepal's deadliest disaster since the 2015 earthquake, with precursor signs confirmed in satellite imagery days before it happened.",
       "question": "What is the difference between a hazard being unpredictable and a hazard nobody was watching for?",
       "hidden_question": "If the data existed, was this a natural disaster or an infrastructure failure wearing one's face?",
       "pattern": "a warning that existed in the data but not in any system built to notice it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The toll keeps climbing even as the government moves to rehabilitation - 1,287 dead, 5,083 still missing - and the rebuild itself has grown into relocation: 20,000 houses need replacing in different, safer locations, since rebuilding where they stood would just expose people to the same risk again.",
+      "why_now": "Ten days on, the toll is still climbing even as the missing count finally starts to fall: 1,344 dead and roughly 4,900 still missing in Nepal alone, over 13,000 rescued. Two-thirds of the ~900 still-missing hydropower workers were at a single site, the Upper Trishuli-1 project.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://ca.news.yahoo.com/nepal-must-rebuild-thousands-homes-060514597.html",
+      "url": "https://www.tribuneindia.com/news/world/nepal-flash-floods-death-toll-surges-to-1344-as-rescue-efforts-continue-around-5000-still-missing/",
       "location": "Langtang, Nepal / Gyirong, Tibet",
       "season_or_time_context": "post-disaster search and rescue",
-      "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-05T14:30:00Z",
-      "appearances": 8,
+      "first_seen": "2026-09-06T00:20:00Z",
+      "last_seen": "2026-09-06T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-09-05T14:30:00Z",
-          "note": "Nepal's toll is now 1,287 dead, 5,083 missing (Tibet: 31 dead, 531 missing). Authorities say 20,000 houses must be rebuilt in safer locations, 7,500 already destroyed outright - the rehabilitation phase is now a resettlement, not a repair."
-        },
-        {
-          "date": "2026-09-03T14:30:00Z",
-          "note": "~12,000 rescued as the government pivots to rehabilitation, but a cryosphere analyst warns the surrounding landscape remains unstable - fractured bedrock and disturbed slopes from the collapse haven't settled, so the recovery site is still an active hazard."
-        },
-        {
-          "date": "2026-09-03T00:20:00Z",
-          "note": "Nepal's toll reached 1,114 with 21,000+ personnel deployed; the government has begun shifting from search-and-rescue to rehabilitation even as the missing count holds steady at 3,916 - the acute phase ending before the accounting is complete."
-        },
-        {
-          "date": "2026-09-02T00:20:00Z",
-          "note": "A hazard assessment found real pre-event warning signs: browning meltwater, accelerating glacier movement, and a propagating bedrock crack visible in satellite imagery days before the collapse - but no monitoring system existed to catch or act on any of it."
-        },
-        {
-          "date": "2026-09-01T14:30:00Z",
-          "note": "Nepal's toll crossed 1,000 dead, missing jumped to 3,916 (583 foreign, 639 hydropower workers). Rescue suspended again as a second upstream lake began overflowing; officials say risk continues until both lakes fully drain."
+          "date": "2026-09-06T00:20:00Z",
+          "note": "Ten days on: 1,344 dead, ~4,900 still missing in Nepal (down from 5,083), 13,000+ rescued - now officially Nepal's deadliest disaster since the 2015 earthquake. Two-thirds of missing hydropower workers were at one site, Upper Trishuli-1."
         }
       ],
-      "source_date": "2026-09-03"
+      "source_date": "2026-09-05"
     },
     {
       "id": "roman-space-telescope-launch",
       "stream": "curiosities",
       "observer": "Why Today?",
       "title": "A telescope built to find what we don't have a name for yet",
-      "observation": "NASA's Roman Space Telescope, cleared for launch after its final readiness review, carries a mirror the size of Hubble's but surveys roughly a hundred times more sky per shot \u2014 built for breadth rather than depth, to catch what narrower instruments would miss entirely.",
+      "observation": "NASA's Roman Space Telescope, launched Aug 30 with a mirror the size of Hubble's but surveying roughly a hundred times more sky per shot, is now deep in a deliberate one-instrument-at-a-time commissioning sequence on its way to the Sun-Earth L2 point.",
       "question": "What do you build when the thing you're looking for doesn't have a name yet?",
       "hidden_question": "Is breadth or depth the better strategy for finding something genuinely unexpected?",
       "pattern": "wide-survey instrument built to catch what narrow ones would miss",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The commissioning sequence itself is now the story: Roman's Coronagraph Instrument is next to activate, ahead of the Wide Field Instrument powering on in about two weeks, with both then running weeks of calibration before the mission's real work starts - a schedule of one instrument at a time, not because anything went wrong, but because that's how you bring on a telescope built this wide.",
+      "why_now": "The Coronagraph Instrument itself powered on Sept 1, an hour-long process NASA tracked live - now entering months of calibration before it can attempt its real test: directly imaging a planet by blocking out its star's light. First images from the full mission are still expected in early 2027.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/nancy-grace-roman-space-telescope-next-steps-commissioning",
+      "url": "https://science.nasa.gov/blogs/roman/2026/09/01/nasa-romans-planet-imager-has-powered-on/",
       "location": "Kennedy Space Center, Florida, USA",
       "season_or_time_context": "post-launch, en route to L2",
-      "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-04T14:30:00Z",
-      "appearances": 5,
+      "first_seen": "2026-09-06T00:20:00Z",
+      "last_seen": "2026-09-06T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-09-04T14:30:00Z",
-          "note": "Next up in commissioning: the Coronagraph Instrument activates before the Wide Field Instrument powers on in about two weeks, each followed by weeks of calibration - a deliberate one-instrument-at-a-time sequence, not a delay."
-        },
-        {
-          "date": "2026-09-02T14:30:00Z",
-          "note": "Antenna and visor-like sunshade finished deploying; Roman performed a 3.5-minute trajectory-correction burn Aug 31. Now in its three-month commissioning phase, with the Wide Field Instrument set to power on in a few weeks."
-        },
-        {
-          "date": "2026-09-01T14:30:00Z",
-          "note": "The launch was so precise Roman may need fewer correction burns than planned, potentially stretching its 5-year mission toward a decade on leftover fuel. Solar panels, sun shade and antenna all deployed on schedule; first images expected January 2027."
-        },
-        {
-          "date": "2026-08-30T14:30:00Z",
-          "note": "Liftoff succeeded at 7:26am EDT; both Falcon Heavy side boosters landed back at Kennedy Space Center, and Roman separated cleanly, now on its ~30-day cruise to the Sun-Earth L2 point."
-        },
-        {
-          "date": "2026-08-30T00:20:00Z",
-          "note": "Liftoff set for 7:26am EDT from Pad 39A; after launch, Roman begins a ~30-day cruise to the Sun-Earth L2 point, 930,000 miles out, to begin its wide-field survey mission."
+          "date": "2026-09-06T00:20:00Z",
+          "note": "The Coronagraph Instrument itself powered on Sept 1 - a planet-imager built to block starlight and see faint reflected light from orbiting planets - and now begins months of calibration ahead of first images expected in early 2027."
         }
       ],
-      "source_date": "2026-09-02"
+      "source_date": "2026-09-01"
     },
     {
       "id": "armenia-kocharyan-detention-eu-bid",
@@ -103,137 +71,47 @@
       "pattern": "a legal crackdown landing at the exact moment it most benefits the government's freedom of maneuver",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Putin and Pashinyan came out of the same Bishkek meeting with directly conflicting readings of Armenia's own law: Putin says passing it to start EU accession already amounts to a declaration of leaving the EAEU; Pashinyan says Armenia hasn't notified partners of any withdrawal and hasn't even decided, since no real alternative to the EAEU exists yet. Two leaders, one shared meeting, two incompatible accounts of what just happened in it.",
+      "why_now": "Kocharyan himself broke his silence from the Yerevan-Kentron penitentiary this week, warning \"this must come to an end, or everyone should start learning Turkish\" and accusing Armenians of losing their instinct for collective self-preservation - the detained man now making the same existential argument about the country that the government makes about him.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://news.am/en/news/1059022",
+      "url": "https://news.am/en/video/1058624",
       "location": "Yerevan, Armenia",
       "season_or_time_context": "ahead of Armenia's EU accession push",
-      "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-04T00:20:00Z",
-      "appearances": 5,
-      "history": [
-        {
-          "date": "2026-09-04T00:20:00Z",
-          "note": "Putin and Pashinyan gave conflicting readings of the same Bishkek meeting: Putin says Armenia's EU-accession law already means EAEU withdrawal; Pashinyan says no partners were notified and no real alternative exists yet to actually choose."
-        },
-        {
-          "date": "2026-09-02T14:30:00Z",
-          "note": "Putin pressed Pashinyan directly at the SCO summit in Bishkek, their first meeting since June's election - calling the EU push \"legitimate\" but warning of EAEU \"complications,\" and renewing his demand for a referendum."
-        },
-        {
-          "date": "2026-09-01T14:30:00Z",
-          "note": "Russia's MFA now says Armenia is reorienting exports toward the EU (volumes still minimal), while Moscow has separately restricted certain Armenian produce over \"quality\" concerns - pressure that doesn't need a referendum to bite."
-        },
-        {
-          "date": "2026-08-30T14:30:00Z",
-          "note": "Lavrov himself weighed in, calling Armenia's referendum-after-application plan \"sitting on two chairs\" given $6B+ in EAEU trade; Armenia's Security Council chief now hopes Russia won't raise Kocharyan's case at all."
-        },
-        {
-          "date": "2026-08-30T00:20:00Z",
-          "note": "Pashinyan has added a referendum to the EU-accession process; Armenia's Security Council secretary says the prospect alone is enough to upset Moscow, as Russian commentary frames the pivot as an unaffordable trade."
-        }
-      ],
-      "source_date": "2026-09-02"
-    },
-    {
-      "id": "congo-m23-ceasefire-verification",
-      "stream": "headlines",
-      "category": "Politics & World",
-      "observer": "Why Today?",
-      "title": "Congo tests whether a peace agreement is real",
-      "observation": "Nine months after a US-brokered framework, a ceasefire verification mission has deployed to eastern Congo \u2014 pairing Congolese army and M23 officers with regional and international observers to check whether a signed truce holds up on the ground.",
-      "question": "How long does it take a peace agreement to become an actual peace, and who gets to decide when it has?",
-      "hidden_question": "Is verification a technical formality, or the point where a peace deal actually gets tested?",
-      "pattern": "the gap between a signed agreement and a verified one",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "No reporting has moved past the Aug 22-24 mutual violation accusations across five consecutive checks; going dormant rather than re-bumping the same standoff a sixth time. Worth reactivating if the verification mission produces an actual finding or a new incident is reported.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.newtimes.co.rw/article/32557/news/africa/fresh-drone-strikes-kill-civilians-in-minembwe-says-afcm23",
-      "location": "Eastern Democratic Republic of Congo",
-      "season_or_time_context": "post-ceasefire verification phase",
-      "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-08-30T00:20:00Z",
+      "first_seen": "2026-09-06T00:20:00Z",
+      "last_seen": "2026-09-06T00:20:00Z",
       "appearances": 1,
       "history": [
         {
-          "date": "2026-08-30T00:20:00Z",
-          "note": "M23 accuses DRC drone strikes of killing civilians near Minembwe; DRC accuses M23 of killing 300+ in June-July. The two sides agreed in Aug 17-21 talks on a standardized way to even report these competing claims."
+          "date": "2026-09-06T00:20:00Z",
+          "note": "Kocharyan issued a message from prison warning \"this must come to an end, or everyone should start learning Turkish,\" accusing Armenians of losing their collective self-preservation instinct - his own voice entering the fight for the first time since detention."
         }
       ],
-      "source_date": "2026-08-22"
-    },
-    {
-      "id": "canada-us-trade-war-retaliation",
-      "stream": "headlines",
-      "category": "Politics & World",
-      "observer": "Why Today?",
-      "title": "Canada weighs retaliation in trade dispute with the US",
-      "observation": "A long-standing trade relationship between neighbors is being renegotiated through tariffs and countermeasures rather than talks \u2014 testing how much economic pain each side will absorb before returning to the table.",
-      "question": "When does retaliation become the negotiating strategy rather than a response to one?",
-      "hidden_question": "Can two deeply integrated economies actually decouple, or does retaliation just relocate the cost?",
-      "pattern": "escalation as bargaining posture between interdependent economies",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "No reporting has moved past the Aug 26 support-package announcement across three consecutive checks; going dormant until the Sept 8 tariffs actually take effect or talks resume, rather than re-bumping the same standoff. Worth reactivating the moment either side moves.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.theglobeandmail.com/politics/article-ottawa-announces-counter-tariffs-us-products-worker-business-support/",
-      "location": "Canada / United States",
-      "season_or_time_context": "ongoing trade dispute, ahead of Sept 8 tariffs",
-      "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-08-30T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-08-30T00:20:00Z",
-          "note": "Ottawa paired its Sept 8 retaliatory tariffs on 700+ US goods with a C$7.5B domestic support package for the workers and businesses its own countermeasures will hit hardest."
-        }
-      ],
-      "source_date": "2026-08-26"
+      "source_date": "2026-09-05"
     },
     {
       "id": "hormuz-iran-new-demands",
       "stream": "markets",
       "observer": "Why Today?",
       "title": "The shutdown that 'never happened' just started happening",
-      "observation": "A quarter of the world's seaborne oil passes through the Strait of Hormuz, a chokepoint whose threatened closure markets spent months pricing as leverage rather than reality \u2014 until this week, when Iran and the US resumed exchanging fire and tankers started getting hit.",
+      "observation": "A quarter of the world's seaborne oil passes through the Strait of Hormuz, a chokepoint whose threatened closure markets spent months pricing as leverage rather than reality \u2014 until Iran and the US resumed exchanging fire and tankers started getting hit.",
       "question": "What happens to a risk premium once the risk it was pricing actually starts happening?",
       "hidden_question": "Is the strait's value as leverage greater than its value as a functioning waterway \u2014 and does that math change once ships are actually getting struck?",
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The price has stopped waiting for a resolution and started just tracking the war: Brent crude is back over $90/barrel, up more than 30% from pre-war levels, after climbing again this week on the return to open violence in the strait. The market isn't pricing a risk anymore - it's pricing an ongoing fact.",
+      "why_now": "Iran hit at least 13 commercial vessels in August alone; the US struck two more unidentified ships this week. Treasury's own claims of 10-17M barrels/day moving through the strait are, per independent analysts, still likely well above the actual flow - the volume dispute hasn't been settled, just repeated louder.",
       "status": "captured",
       "editorial_potential": "high",
       "url": "https://news.usni.org/2026/09/04/u-s-iran-trade-strikes-in-strait-of-hormuz-as-both-battle-on-social-media",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
-      "first_seen": "2026-08-30T00:20:00Z",
-      "last_seen": "2026-09-05T14:30:00Z",
-      "appearances": 9,
+      "first_seen": "2026-09-06T00:20:00Z",
+      "last_seen": "2026-09-06T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-09-05T14:30:00Z",
-          "note": "USNI News: Iran hit at least 13 commercial vessels in August alone; the US struck two more unidentified ships this week. Analysts say actual crude flow is still \"likely much less\" than the volume Washington has been citing."
-        },
-        {
-          "date": "2026-09-05T00:20:00Z",
-          "note": "A US strike hit a wedding celebration in Kuhestak, on the strait, Sept 1 - killing 4-5, wounding dozens. Iran's military vows to \"impose a heavy cost\" - a civilian toll now sitting alongside the shipping and pricing story."
-        },
-        {
-          "date": "2026-09-04T14:30:00Z",
-          "note": "PortWatch/IMF data puts strait traffic at ~90% below normal - 6 vessels vs. ~85 typical, per NBC's tracker. Opposite framing from Monday's \"highest volume since the war began\" - both true; the moving fleet is just much smaller."
-        },
-        {
-          "date": "2026-09-04T00:20:00Z",
-          "note": "Brent crude is back over $90/barrel, up 30%+ from pre-war levels, climbing again this week on the return to open violence in the strait - the market has stopped pricing a risk and started pricing an ongoing fact."
-        },
-        {
-          "date": "2026-09-03T00:20:00Z",
-          "note": "CENTCOM confirms an active blockade: 86 vessels redirected, 3 disabled, 2 boarded as of Sept 2. Trump proposed renaming it \"Trump Strait,\" claiming free-flowing control - blockade by CENTCOM's own account, free flow by the President's."
+          "date": "2026-09-06T00:20:00Z",
+          "note": "Iran hit 13+ commercial vessels in August alone; the US struck two more unidentified ships this week. Analysts say actual crude flow remains well below the volume the administration has cited - the dispute over the real number is unresolved."
         }
       ],
       "source_date": "2026-09-04"
@@ -249,247 +127,50 @@
       "pattern": "a resource deal signed by an unelected government, at a scale built to outlast any successor who might contest it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Venezuela's own political opposition is now calling it \"a massive land grab\" and unconstitutional - the same secret negotiation, lack of competitive bidding, and unclear operating structure that let the deal move fast are now the exact grounds critics say a future government could use to argue it was invalid from the moment it was signed.",
+      "why_now": "Chevron - the only major US operator with a standing Venezuela presence - has now put a specific number on its own separate expansion: $7 billion aimed at more than doubling output to roughly 600,000 barrels a day, cementing the wider push to raise Venezuelan output regardless of how the underlying deal's legitimacy fight resolves.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.npr.org/2026/09/03/nx-s1-5954176/critics-question-legality-of-venezuela-oil-deals",
+      "url": "https://www.aljazeera.com/news/2026/9/3/uss-chevron-italys-eni-to-expand-oil-projects-in-venezuela",
       "location": "Caracas, Venezuela / Washington, DC",
       "season_or_time_context": "deal signed, implementation underway",
-      "first_seen": "2026-08-31T00:20:00Z",
-      "last_seen": "2026-09-04T00:20:00Z",
-      "appearances": 7,
+      "first_seen": "2026-09-06T00:20:00Z",
+      "last_seen": "2026-09-06T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-09-04T00:20:00Z",
-          "note": "Venezuela's own opposition now calls it \"a massive land grab\" and unconstitutional - the same secrecy that let the deal move fast are the exact grounds critics say a future government could use to invalidate it."
-        },
-        {
-          "date": "2026-09-03T00:20:00Z",
-          "note": "Wright oversaw signings in Caracas worth \"tens of billions\" from Chevron, ENI, GE Vernova and others. Chevron put $7B behind two Orinoco Belt fields, expecting to more than double output in five years; ENI could start new wells by Thursday."
-        },
-        {
-          "date": "2026-09-02T14:30:00Z",
-          "note": "Venezuela's National Assembly voted to back the deal Tuesday; some opposition lawmakers abstained, saying they couldn't approve terms they haven't been allowed to read. Wright signs the arrangement Wednesday; Chevron separately expands operations."
-        },
-        {
-          "date": "2026-09-02T00:20:00Z",
-          "note": "The White House named the operator: North American Blue Energy Partners, owned by Venezuelan businessman Alejandro Betancourt, already the country's second-largest operator behind Chevron. The Pentagon's Office of Strategic Capital gets a 35% stake."
-        },
-        {
-          "date": "2026-09-01T00:20:00Z",
-          "note": "The 65B barrels alone surpass all US proved reserves (46B). House Democrats formally warn oil companies of legal risk under Congress's war powers and the UN Charter; the US, not Venezuela, picks which companies operate the fields."
+          "date": "2026-09-06T00:20:00Z",
+          "note": "Chevron put a specific figure on its separate expansion: $7B aimed at more than doubling its Venezuela output to roughly 600,000 barrels a day - a concrete number now sitting alongside the still-unresolved fight over the larger deal's legitimacy."
         }
       ],
       "source_date": "2026-09-03"
-    },
-    {
-      "id": "uzbekistan-boburtepa-flower-mural",
-      "stream": "places",
-      "observer": "Why Today?",
-      "title": "A 1,500-year-old flower painting survived by being buried under its own cover-up",
-      "observation": "Archaeologists uncovered a 4th-5th century mural of tulips and white flowers on a temple-like structure's wall at the Boburtepa site in southern Uzbekistan \u2014 preserved because a later generation sealed it beneath plain white lime plaster instead of destroying it.",
-      "question": "What survives better: a monument built to last, or one quietly hidden beneath something newer?",
-      "hidden_question": "Did the plaster erase the mural, or was covering it up the very thing that saved it?",
-      "pattern": "an artifact preserved by concealment rather than by intention",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "No follow-up reporting has surfaced since the initial find; going dormant as a single-note discovery rather than re-bumping it without anything new. Worth reactivating if the excavation team publishes findings on the building's function.",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://archaeology.org/news/2026/08/28/ancient-flower-mural-discovered-in-uzbekistan/",
-      "location": "Boburtepa, southern Uzbekistan",
-      "season_or_time_context": "recent archaeological find",
-      "first_seen": "2026-08-31T14:30:00Z",
-      "last_seen": "2026-08-31T14:30:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-08-31T14:30:00Z",
-          "note": "A 4th-5th century tulip-and-flower mural at Boburtepa, Uzbekistan was preserved by a later generation sealing it under white lime plaster rather than destroying it; researchers are still investigating the building's original function."
-        }
-      ],
-      "source_date": "2026-08-28"
-    },
-    {
-      "id": "ibm-quantum-advantage-verified",
-      "stream": "curiosities",
-      "observer": "Why Today?",
-      "title": "A quantum computer did something classical computers can't - and proved it wasn't lying",
-      "observation": "IBM and University of Chicago researchers ran a quantum computation on 70 error-corrected \"logical\" qubits that finished in about 15 minutes and would take leading classical supercomputers an impractical amount of time to reproduce, while also providing statistical proof the result was actually correct.",
-      "question": "What changes when a machine can do something classical computers can't, and also prove it did it right?",
-      "hidden_question": "Is quantum advantage really about raw speed, or about being trustworthy enough that the speed is worth anything?",
-      "pattern": "a capability that only matters once verification catches up to it",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "IBM just followed the verification milestone with a hardware one: Nighthawk r2, its fastest quantum processor yet, released Sept 3 with a 120-qubit chip and an active dissipative qubit reset that cuts idle time between circuits, pushing throughput past 100,000 circuits per second - a 25x speedup over IBM's existing Heron fleet.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://nand-research.com/ibm-quantum-nighthawk-r2-arrives-on-the-ibm-quantum-platform/",
-      "location": "IBM / University of Chicago",
-      "season_or_time_context": "recent research milestone",
-      "first_seen": "2026-09-01T00:20:00Z",
-      "last_seen": "2026-09-04T14:30:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-09-04T14:30:00Z",
-          "note": "Nighthawk r2 has already produced accurate estimates from circuits of 7,500+ gates, hitting an objective on IBM's 2026 roadmap ahead of schedule - and IBM's stock rose on the announcement, the market pricing the credibility, not just the chip."
-        },
-        {
-          "date": "2026-09-03T14:30:00Z",
-          "note": "IBM released Nighthawk r2, its fastest QPU yet: a 120-qubit chip with active dissipative qubit reset cutting idle time between circuits, pushing throughput past 100,000 circuits/sec - a 25x speedup over the existing Heron fleet."
-        },
-        {
-          "date": "2026-09-01T00:20:00Z",
-          "note": "IBM/U Chicago ran 2,415 logical two-qubit ops and 468 logical T-gates on 70 logical qubits, finishing in ~15 minutes with a 10x lower error rate than physical qubits - a verified result classical methods can't practically reproduce."
-        }
-      ],
-      "source_date": "2026-09-04"
-    },
-    {
-      "id": "niger-mutiny-russia-africa-corps",
-      "stream": "headlines",
-      "category": "Politics & World",
-      "observer": "Why Today?",
-      "title": "The coup government that needed a foreign army to survive a coup",
-      "observation": "Niger's junta survived a 24-hour mutiny by its own soldiers over the weekend only after Russia's Africa Corps intervened with ground and air support \u2014 the same foreign partner Niger brought in to replace the Western militaries it expelled.",
-      "question": "What does it mean for a government's independence when the force protecting it from its own soldiers is a foreign one?",
-      "hidden_question": "Is inviting in a foreign paramilitary a sign of sovereignty reclaimed, or sovereignty just re-outsourced to a different patron?",
-      "pattern": "a government that asserted independence from one foreign power by becoming dependent on another",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "No reporting has moved past the initial mutiny account across three consecutive checks - authorities still haven't disclosed charges against the detained soldiers, and Tchiani himself remains publicly silent. Going dormant rather than re-bumping the same account a fourth time; worth reactivating if charges are announced or Tchiani addresses it.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/8/31/niger-mutiny-puts-russias-expanding-role-in-the-sahel-to-the-test",
-      "location": "Niamey, Niger",
-      "season_or_time_context": "post-mutiny, ongoing junta rule",
-      "first_seen": "2026-09-01T14:30:00Z",
-      "last_seen": "2026-09-01T14:30:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-09-01T14:30:00Z",
-          "note": "A weekend mutiny at Base 101 near Niamey's airport spread toward the presidential palace before Russia's Africa Corps - Niger's replacement for the French/US forces it expelled in 2023 - suppressed it with ground and air support."
-        }
-      ],
-      "source_date": "2026-08-31"
-    },
-    {
-      "id": "africa-superplume-rift-discovery",
-      "stream": "natural_world",
-      "observer": "Why Today?",
-      "title": "The force splitting Africa in two was hiding a thousand miles underground",
-      "observation": "A new study shows the East African Rift's odd sideways motion is driven not by shallow tectonics but by a vast plume of hot mantle rock rising from deep inside the Earth \u2014 resolving a long-standing debate over what's pulling the continent apart.",
-      "question": "How do you locate the cause of something happening on the surface when the actual engine sits a thousand miles down?",
-      "hidden_question": "Does naming the deep cause change anything about the surface consequence, or just satisfy the need to know it?",
-      "pattern": "a surface phenomenon whose real cause sits well below where anyone was looking",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "No reporting has moved past the original study across this and the prior check; going dormant as a single-note research finding rather than re-bumping it without a new development. Worth reactivating if a follow-up study or new field measurement builds on it.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.sciencedaily.com/releases/2026/08/260831015210.htm",
-      "location": "East African Rift",
-      "season_or_time_context": "recent research finding",
-      "first_seen": "2026-09-02T14:30:00Z",
-      "last_seen": "2026-09-02T14:30:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-09-02T14:30:00Z",
-          "note": "GPS and seismic data show the rift's unusual sideways motion is driven by northward-flowing mantle tied to the African Superplume, not shallow tectonics - resolving a long-standing debate over what's actually splitting the continent."
-        }
-      ],
-      "source_date": "2026-08-31"
-    },
-    {
-      "id": "openai-astra-critical-cyber-threshold",
-      "stream": "curiosities",
-      "observer": "Why Today?",
-      "title": "The AI model found the vulnerability it wasn't even being tested for",
-      "observation": "OpenAI's newest model, Astra, became the first to cross the company's own \"Critical\" cybersecurity threshold \u2014 triggered when a model can independently find and exploit zero-day vulnerabilities in hardened real-world systems, which Astra did mid-benchmark without being specifically asked to.",
-      "question": "What does it mean when a system exceeds the goal it was actually given?",
-      "hidden_question": "Is a capability crossed as a byproduct more or less alarming than one crossed on purpose?",
-      "pattern": "a safety threshold crossed incidentally, as a byproduct of testing for something else",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "OpenAI didn't hold Astra back after naming the threshold - it began rolling the model out Sept 3, restricting only the cyber capabilities themselves to a small alpha of vetted critical-infrastructure defenders while everything else ships broadly. The company chose to disclose and ship in the same week, rather than choosing one or the other.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
-      "location": "OpenAI",
-      "season_or_time_context": "newly disclosed capability",
-      "first_seen": "2026-09-03T14:30:00Z",
-      "last_seen": "2026-09-04T14:30:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-09-04T14:30:00Z",
-          "note": "OpenAI began rolling out Astra Sept 3, two days after naming its Critical cyber threshold - full cyber capability access stays limited to vetted critical-infrastructure defenders, but the model itself ships broadly rather than being held back."
-        },
-        {
-          "date": "2026-09-03T14:30:00Z",
-          "note": "Astra became the first OpenAI model to cross the \"Critical\" cyber threshold, scoring perfectly on ExploitBench and finding two real zero-days mid-test. Its cyber-jailbreak refusal rate is now 91.5%, up from 59% for its predecessor."
-        }
-      ],
-      "source_date": "2026-09-03"
-    },
-    {
-      "id": "cayonu-malachite-workshop",
-      "stream": "places",
-      "observer": "Why Today?",
-      "title": "The same mining workshop stayed in business for 2,000 years",
-      "observation": "Archaeologists at \u00c7ay\u00f6n\u00fc Tepesi in southeastern T\u00fcrkiye uncovered a 5-square-meter Neolithic workshop, dated to 6900-6800 BCE, with raw and processed malachite, copper beads and a stone-paved work area \u2014 evidence a specialized mining trade at the site ran continuously for roughly two millennia.",
-      "question": "What does it take for a single trade, at a single site, to outlast every government and belief system around it for 2,000 years?",
-      "hidden_question": "Is a craft that stable evidence of a resilient technique, or of a place with no real alternative to offer the people who lived there?",
-      "pattern": "a specialized trade that persisted at one location for far longer than the societies built around it",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "Turkey's Culture and Tourism Minister says earlier digs at \u00c7ay\u00f6n\u00fc already traced copper and malachite mining back to 9100 BCE - meaning this newly uncovered workshop isn't the start of the tradition, but a 2,000-year-later continuation of it, with dedicated, purpose-built production space rather than ad hoc extraction.",
-      "status": "captured",
-      "editorial_potential": "medium",
-      "url": "https://allthatsinteresting.com/turkey-neolithic-mining-workshop",
-      "location": "\u00c7ay\u00f6n\u00fc Tepesi, southeastern T\u00fcrkiye",
-      "season_or_time_context": "recent archaeological find",
-      "first_seen": "2026-09-04T14:30:00Z",
-      "last_seen": "2026-09-04T14:30:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-09-04T14:30:00Z",
-          "note": "A 5-square-meter workshop with raw/processed malachite, copper beads and a stone-paved work area was uncovered at \u00c7ay\u00f6n\u00fc, dated 6900-6800 BCE - two millennia after the site's earliest known copper/malachite mining, around 9100 BCE."
-        }
-      ],
-      "source_date": "2026-09-02"
     },
     {
       "id": "ganesh-chaturthi-eco-idol-tension",
       "stream": "human_rituals",
       "observer": "Why Today?",
       "title": "The idol built to be worshipped is also built to dissolve",
-      "observation": "Ahead of Ganesh Chaturthi (Sept 14-25), Indian artisans are preparing clay idols as alternatives to Plaster of Paris versions now restricted in cities like Hyderabad \u2014 a ritual whose central object, designed for immersion, is colliding with what immersion does to rivers and lakes.",
+      "observation": "Ahead of Ganesh Chaturthi (Sept 14-25), Indian artisans are preparing clay idols as alternatives to Plaster of Paris versions now restricted in several cities \u2014 a ritual whose central object, designed for immersion, is colliding with what immersion does to rivers and lakes.",
       "question": "What happens to a ritual when the object at its center turns out to be the thing polluting the water it's offered to?",
       "hidden_question": "Is switching the idol's material preserving the tradition, or quietly replacing what the ritual actually was?",
       "pattern": "a traditional practice re-engineering its own central object to survive contact with modern environmental limits",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Hyderabad's 2026 rules cap idol height at 16 feet, ban loudspeakers outside a 6-10pm window, and bar PoP idols from natural water bodies entirely - while artisans in Chittoor are already crafting eco-friendly clay idols ahead of the Sept 14 start, and NGOs are organizing collective immersion drives so households can keep the private farewell ritual while the actual dissolving happens somewhere engineered for it.",
+      "why_now": "Mumbai's civic body (BMC) says idols under 6 feet must now be immersed in artificial ponds rather than the sea, following a Bombay High Court directive - the same tension already visible in Hyderabad's rules has now reached India's largest Ganeshotsav city, via a court order rather than a voluntary civic choice.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://thenewsmill.com/2026/09/chittoor-artisans-craft-eco-friendly-ganesh-idols-ahead-of-festival/",
-      "location": "India (Hyderabad, Chittoor, and nationwide)",
+      "url": "https://www.freepressjournal.in/lifestyle/mumbais-ganesh-idols-under-6-feet-to-be-immersed-in-artificial-ponds-says-bmc-after-high-court-directive",
+      "location": "India (Mumbai, Hyderabad, and nationwide)",
       "season_or_time_context": "run-up to Ganesh Chaturthi, Sept 14-25",
-      "first_seen": "2026-09-04T14:30:00Z",
-      "last_seen": "2026-09-04T14:30:00Z",
+      "first_seen": "2026-09-06T00:20:00Z",
+      "last_seen": "2026-09-06T00:20:00Z",
       "appearances": 1,
       "history": [
         {
-          "date": "2026-09-04T14:30:00Z",
-          "note": "Ahead of Sept 14's festival, Chittoor artisans are crafting eco-friendly clay idols as Hyderabad bans PoP idols from natural water bodies and caps idol height and loudspeaker hours - the ritual adapting its own object to survive its environmental cost."
+          "date": "2026-09-06T00:20:00Z",
+          "note": "A Bombay High Court directive now requires Mumbai idols under 6 feet to immerse in artificial ponds, not the sea - the same eco-idol tension already active in Hyderabad has reached India's largest Ganeshotsav city, this time by court order."
         }
       ],
-      "source_date": "2026-09-03"
+      "source_date": "2026-09-05"
     },
     {
       "id": "ny-climate-superfund-struck-down",
@@ -503,50 +184,78 @@
       "pattern": "a state-level remedy for a global-scale harm struck down for operating at the wrong scale of government",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Judge Sannes leaned on a 2021 Second Circuit precedent that already doomed a similar NYC lawsuit against oil companies, meaning an appeal goes back to the same court that wrote the rule against it. Gov. Hochul says the state is \"looking at options,\" but the court has already set a Sept 14 status-report deadline - the same court, the same reasoning, a second chance to answer it.",
+      "why_now": "Judge Sannes leaned on a 2021 Second Circuit precedent that already doomed a similar NYC lawsuit against oil companies, meaning an appeal goes back to the same court that wrote the rule against it. Climate advocates are publicly urging Attorney General James to appeal; Hochul says the state is still \"looking at options,\" with a Sept 14 status-report deadline already on the court's calendar.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.fingerlakes1.com/2026/09/04/federal-judge-overturns-nys-climate-change-superfund-law/",
+      "url": "https://www.commondreams.org/news/ny-superfund-act",
       "location": "Albany, New York / Northern District of New York",
       "season_or_time_context": "ruling issued, appeal window open",
-      "first_seen": "2026-09-05T00:20:00Z",
-      "last_seen": "2026-09-05T00:20:00Z",
+      "first_seen": "2026-09-06T00:20:00Z",
+      "last_seen": "2026-09-06T00:20:00Z",
       "appearances": 1,
       "history": [
         {
-          "date": "2026-09-05T00:20:00Z",
-          "note": "Judge Sannes struck down NY's $75B Climate Superfund Act as preempted by federal law, citing a 2021 Second Circuit precedent that already doomed a similar NYC suit. Hochul says the state is weighing an appeal to that same circuit."
+          "date": "2026-09-06T00:20:00Z",
+          "note": "Climate advocates are publicly pressing AG Letitia James to appeal Judge Sannes' ruling, calling it \"far from the last word.\" Hochul still hasn't committed either way, with the court's Sept 14 status-report deadline now less than two weeks out."
         }
       ],
       "source_date": "2026-09-04"
     },
     {
-      "id": "un-equal-earth-map-vote",
+      "id": "serbia-roman-emperor-bath",
       "stream": "places",
       "observer": "Why Today?",
-      "title": "The US cast the only 'no' vote against a map",
-      "observation": "The UN General Assembly voted 164-1 to endorse the Equal Earth projection over the Mercator map, which shrinks Africa to roughly Greenland's size despite being about 14 times larger \u2014 a non-binding resolution, introduced by Togo for the African Group, that the US alone opposed.",
-      "question": "What does a country's objection to a symbolic, non-binding map change tell you about what it thinks maps are actually for?",
-      "hidden_question": "Is correcting the map an act of real justice, or a costless gesture that changes nothing about how power and resources actually get distributed?",
-      "pattern": "a purely symbolic vote that both its backers and its lone opponent are treating as consequential",
-      "transferability": "high",
+      "title": "The emperor built his bathhouse inside the one part of the palace made for war",
+      "observation": "Archaeologists uncovered a 1,700-year-old private bath complex \u2014 heated floors, three pools, a sauna, a domed ceiling with six windows \u2014 built inside a defensive tower at the fortified palace of Vrelo-\u0160arkamen in Serbia, once home to Roman emperor Maximinus Daza.",
+      "question": "What does it mean to build the palace's most comfortable room inside the one part of it designed for defense?",
+      "hidden_question": "Was hiding luxury inside a fortification a sign the emperor felt safe, or a sign he specifically didn't?",
+      "pattern": "opulence deliberately built inside the structure meant to withstand attack",
+      "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The resolution explicitly doesn't touch the Mercator projection's continued use for maritime and aerial navigation - so the fight isn't over the map's function. The US called it part of \"a much larger and more radical ideological project\"; six former Soviet-bloc states abstained rather than joined either side.",
+      "why_now": "Serbia's Institute of Archaeology says the design - a full bath suite at the base of a tower, with a well-preserved hypocaust heating system and furnace - has no known parallel elsewhere in the Roman Empire, meaning this wasn't a standard palace feature adapted to a tower, but a purpose-built combination nobody has documented before.",
       "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/9/4/un-votes-to-adopt-new-world-map-that-reflects-africas-true-size",
-      "location": "United Nations, New York",
-      "season_or_time_context": "resolution adopted this week",
-      "first_seen": "2026-09-05T14:30:00Z",
-      "last_seen": "2026-09-05T14:30:00Z",
+      "editorial_potential": "medium",
+      "url": "https://www.livescience.com/archaeology/romans/lavish-private-bath-used-by-roman-emperor-and-high-status-residents-discovered-at-imperial-palace-in-serbia",
+      "location": "Vrelo-\u0160arkamen, eastern Serbia",
+      "season_or_time_context": "recent archaeological find",
+      "first_seen": "2026-09-06T00:20:00Z",
+      "last_seen": "2026-09-06T00:20:00Z",
       "appearances": 1,
       "history": [
         {
-          "date": "2026-09-05T14:30:00Z",
-          "note": "The UN adopted the \"Correct the Map\" resolution 164-1, promoting the Equal Earth projection over Mercator's centuries-old distortion of Africa's size. The US cast the sole no vote; six ex-Soviet-bloc states abstained rather than pick a side."
+          "date": "2026-09-06T00:20:00Z",
+          "note": "A 1,700-year-old bath complex - heated floors, three pools, a sauna - was found built into a defensive tower at emperor Maximinus Daza's palace in Serbia. Archaeologists say the tower-bath combination has no known parallel elsewhere in the empire."
         }
       ],
       "source_date": "2026-09-04"
+    },
+    {
+      "id": "saturn-south-pole-decagon",
+      "stream": "curiosities",
+      "observer": "Why Today?",
+      "title": "Saturn grew a second hexagon, except it has ten sides",
+      "observation": "Hubble has confirmed a huge ten-sided atmospheric wave encircling Saturn's south pole \u2014 the first large, regular-sided jet pattern ever observed in the planet's southern hemisphere, and a feature Cassini's 13 years in orbit never showed any sign of.",
+      "question": "What does it mean for a stable, decades-old planetary feature to suddenly grow an entirely new counterpart?",
+      "hidden_question": "Is this evidence the hexagon's mechanism was always latent at both poles, or evidence something about Saturn's atmosphere has actually changed?",
+      "pattern": "a long-studied, presumed-stable phenomenon turning out to have an undiscovered twin",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Scientists had been checking Hubble images for a southern counterpart to the famous northern hexagon since 1990 and found nothing - Cassini's on-site data from 2004-2017 showed no hint of it either. Hubble data now trace the decagon's presence back to 2023, with ground-based observations in 2025 confirming it's not just present but still growing stronger.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
+      "location": "Saturn's south pole",
+      "season_or_time_context": "recent research finding",
+      "first_seen": "2026-09-06T00:20:00Z",
+      "last_seen": "2026-09-06T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-06T00:20:00Z",
+          "note": "Hubble confirms a ten-sided atmospheric wave circling Saturn's south pole, tracing back to 2023 and still strengthening - the first large regular-sided jet pattern ever seen there, after decades of searches and 13 years of Cassini data showed nothing."
+        }
+      ],
+      "source_date": "2026-09-03"
     }
   ]
 }
