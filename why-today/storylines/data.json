@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-06",
-  "cycle_start": "2026-09-05T14:30:00Z",
-  "last_updated": "2026-09-06T00:20:00Z",
+  "cycle_start": "2026-09-06T00:20:00Z",
+  "last_updated": "2026-09-06T14:30:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -14,22 +14,26 @@
       "pattern": "a warning that existed in the data but not in any system built to notice it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Ten days on, the toll is still climbing even as the missing count finally starts to fall: 1,344 dead and roughly 4,900 still missing in Nepal alone, over 13,000 rescued. Two-thirds of the ~900 still-missing hydropower workers were at a single site, the Upper Trishuli-1 project.",
+      "why_now": "The government now has a preliminary price on the disaster itself: NDRRMA estimates roughly Rs 387.5 billion (~$2.8B) in losses from the Bhotekoshi floods, with an initial Rs 8 billion needed just for the next four months of restoration - the accounting phase now running in parallel with a missing count still around 4,500.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.tribuneindia.com/news/world/nepal-flash-floods-death-toll-surges-to-1344-as-rescue-efforts-continue-around-5000-still-missing/",
+      "url": "https://english.nepalnews.com/s/nation/ndrrma-estimates-loss-of-approximately-rs-400-billion-in-bhote-koshi-floods/",
       "location": "Langtang, Nepal / Gyirong, Tibet",
       "season_or_time_context": "post-disaster search and rescue",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-06T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-06T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-06T14:30:00Z",
+          "note": "NDRRMA puts a preliminary number on the damage: ~Rs 387.5 billion (~$2.8B) in losses, with Rs 8 billion needed just for the next four months of restoration - the accounting phase now running alongside a missing count still near 4,500."
+        },
         {
           "date": "2026-09-06T00:20:00Z",
           "note": "Ten days on: 1,344 dead, ~4,900 still missing in Nepal (down from 5,083), 13,000+ rescued - now officially Nepal's deadliest disaster since the 2015 earthquake. Two-thirds of missing hydropower workers were at one site, Upper Trishuli-1."
         }
       ],
-      "source_date": "2026-09-05"
+      "source_date": "2026-09-03"
     },
     {
       "id": "roman-space-telescope-launch",
@@ -99,22 +103,26 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran hit at least 13 commercial vessels in August alone; the US struck two more unidentified ships this week. Treasury's own claims of 10-17M barrels/day moving through the strait are, per independent analysts, still likely well above the actual flow - the volume dispute hasn't been settled, just repeated louder.",
+      "why_now": "The US struck and sank three Iranian oil tankers Saturday; Iran's IRGC claims it hit three US-affiliated vessels and three more tankers in return. Iran's parliament speaker is now warning of a \"faster, heavier and more painful\" response - CENTCOM's own redirected-vessel count has climbed to 92, up from 86 four days ago.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://news.usni.org/2026/09/04/u-s-iran-trade-strikes-in-strait-of-hormuz-as-both-battle-on-social-media",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-06T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-06T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-06T14:30:00Z",
+          "note": "The US struck and sank three Iranian oil tankers Saturday; IRGC claims it hit three US-affiliated vessels and three tankers back. Iran's parliament speaker warns of a \"faster, heavier\" response - the exchange is escalating again, not cooling."
+        },
         {
           "date": "2026-09-06T00:20:00Z",
           "note": "Iran hit 13+ commercial vessels in August alone; the US struck two more unidentified ships this week. Analysts say actual crude flow remains well below the volume the administration has cited - the dispute over the real number is unresolved."
         }
       ],
-      "source_date": "2026-09-04"
+      "source_date": "2026-09-06"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
