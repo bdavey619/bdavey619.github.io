@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-09",
   "division_name": "AL West",
-  "generated_at": "2026-09-05T15:29:10.098419+00:00",
+  "generated_at": "2026-09-06T15:42:21.359218+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -41,19 +41,17 @@
       "gamePk": 823093,
       "status": "final",
       "result": "W",
-      "score": "7\u20136"
+      "score": "7\u20136",
+      "archive_url": "archive.html?date=2026-09-05"
     },
     {
       "date": "2026-09-05",
       "opponent": "SEA",
       "home": false,
       "gamePk": 823094,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Jeffrey Springs",
-        "opp": "George Kirby"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "6\u20132"
     },
     {
       "date": "2026-09-06",
@@ -73,7 +71,10 @@
       "home": true,
       "gamePk": 824958,
       "status": "scheduled",
-      "time_local": "7:05 PM PT"
+      "time_local": "7:05 PM PT",
+      "probable": {
+        "opp": "Dylan Cease"
+      }
     },
     {
       "date": "2026-09-08",
@@ -81,7 +82,10 @@
       "home": true,
       "gamePk": 824957,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "opp": "Jos\u00e9 Soriano"
+      }
     },
     {
       "date": "2026-09-09",
@@ -213,8 +217,8 @@
     }
   ],
   "summary": {
-    "month_record": "3\u20131",
-    "current_streak": "W3",
+    "month_record": "4\u20131",
+    "current_streak": "W4",
     "last_10": "5\u20135"
   }
 }
