@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-06",
-  "cycle_start": "2026-09-06T00:20:00Z",
-  "last_updated": "2026-09-06T14:30:00Z",
+  "cycle_start": "2026-09-06T14:30:00Z",
+  "last_updated": "2026-09-07T14:30:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -103,16 +103,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The US struck and sank three Iranian oil tankers Saturday; Iran's IRGC claims it hit three US-affiliated vessels and three more tankers in return. Iran's parliament speaker is now warning of a \"faster, heavier and more painful\" response - CENTCOM's own redirected-vessel count has climbed to 92, up from 86 four days ago.",
+      "why_now": "Iran fired a ballistic missile toward US warships patrolling near the strait this weekend - experts are calling it a \"calculated escalation,\" not an accident. That's a different category of weapon than the tanker strikes and boardings that came before it, aimed directly at US naval assets rather than commercial shipping.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade",
+      "url": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-06T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-07T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-07T14:30:00Z",
+          "note": "Iran fired a ballistic missile at US warships patrolling near the strait - experts call it a \"calculated escalation,\" a step up from tanker strikes to a weapon aimed directly at US naval assets rather than commercial shipping."
+        },
         {
           "date": "2026-09-06T14:30:00Z",
           "note": "The US struck and sank three Iranian oil tankers Saturday; IRGC claims it hit three US-affiliated vessels and three tankers back. Iran's parliament speaker warns of a \"faster, heavier\" response - the exchange is escalating again, not cooling."
@@ -123,6 +127,35 @@
         }
       ],
       "source_date": "2026-09-06"
+    },
+    {
+      "id": "congo-ebola-declared-over-resurfaces",
+      "stream": "headlines",
+      "category": "Politics & World",
+      "observer": "Why Today?",
+      "title": "The rebels declared the epidemic over in their territory. It just came back",
+      "observation": "M23 rebels declared DRC's Ebola outbreak finished in their eastern Congo territory in late June; in early September a new case surfaced in rebel-held Kayna, North Kivu, in a patient who had just traveled from adjacent government-held Butembo.",
+      "question": "What does it mean to declare an epidemic over in a place your own surveillance can't fully see into?",
+      "hidden_question": "Was the outbreak actually contained, or did the conflict just stop anyone from checking?",
+      "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "DRC's national count stood at 6,342 confirmed cases and 3,072 deaths as of Sept 3, with 913 cases and 614 deaths in North Kivu alone. M23 has now reimposed the same movement restrictions across the government/rebel boundary that it eased when it called the outbreak over - the authority that declared victory is now the one undoing it.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://ca.news.yahoo.com/rebel-held-eastern-congo-records-100016377.html",
+      "location": "Kayna, North Kivu, Democratic Republic of Congo",
+      "season_or_time_context": "active conflict, resurgent outbreak",
+      "first_seen": "2026-09-07T14:30:00Z",
+      "last_seen": "2026-09-07T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-07T14:30:00Z",
+          "note": "A new Ebola case surfaced in rebel-held Kayna, North Kivu, in a patient who'd traveled from government-held Butembo - months after M23 declared the outbreak over in its territory. M23 has reimposed movement restrictions it had eased."
+        }
+      ],
+      "source_date": "2026-09-04"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
