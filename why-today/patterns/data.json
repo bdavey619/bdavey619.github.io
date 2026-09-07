@@ -1,6 +1,6 @@
 {
   "week": "2026-09-06",
-  "last_updated": "2026-09-07T14:30:00Z",
+  "last_updated": "2026-09-07T14:35:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -10,9 +10,9 @@
       "evidence": [
         {
           "domain": "Foreign Policy",
-          "text": "Two days after the US sank three Iranian tankers, Iran fired a ballistic missile at US warships patrolling the strait - experts call it a \"calculated escalation.\" That's a different category of act than the tanker war both sides have been describing as contained shipping friction.",
-          "url": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed",
-          "date": "2026-09-06",
+          "text": "Iran is claiming a new maritime \"exclusion zone\" outside the strait to stop unauthorized vessels - the same week its own foreign ministry says a temporary safe-passage deal with Oman is nearly done. Asserting more control and negotiating guaranteed passage aren't the same claim, even landing in the same week.",
+          "url": "https://www.thenationalnews.com/news/mena/2026/09/07/live-iran-war-us-hormuz-restricted-zone/",
+          "date": "2026-09-07",
           "is_new": true
         },
         {
@@ -42,6 +42,13 @@
           "text": "M23 rebels declared DRC's Ebola outbreak over in their territory in late June. In early September a new case surfaced in rebel-held Kayna, in a patient who'd just traveled from government-held Butembo - the same conflict boundary that divides the outbreak also divided its accounting. M23 has now reimposed the movement controls it had eased.",
           "url": "https://ca.news.yahoo.com/rebel-held-eastern-congo-records-100016377.html",
           "date": "2026-09-04",
+          "is_new": false
+        },
+        {
+          "domain": "Environmental Law",
+          "text": "DOJ's own statement went further than the judge's actual ruling, calling NY's Climate Superfund Act \"unconstitutional\" rather than just preempted - while state Sen. Liz Krueger, the bill's co-sponsor, is publicly telling the AG \"we believe that we will win\" on appeal. Both sides are already arguing a case bigger than the one the judge decided.",
+          "url": "https://www.justice.gov/opa/pr/new-york-judge-blocks-state-new-yorks-unconstitutional-climate-superfund-act",
+          "date": "2026-09-07",
           "is_new": true
         },
         {
@@ -49,13 +56,6 @@
           "text": "The \"negotiation track\" produced a US strike on a wedding in Kuhestak on Sept 1 - 4-5 dead, dozens wounded, Iran vowing \"a heavy cost.\" A shipping-corridor dispute that both sides still call diplomacy now has a civilian funeral attached to it.",
           "url": "https://www.aljazeera.com/news/2026/9/2/what-do-we-know-about-the-fatal-us-bombing-of-a-wedding-in-irans-sirik",
           "date": "2026-09-02",
-          "is_new": false
-        },
-        {
-          "domain": "Environmental Law",
-          "text": "A judge voided NY's $75B Climate Superfund Act, and coverage treated it as case-closed - but climate advocates are publicly pressing the state to appeal, calling the ruling \"far from the last word,\" and the same court has already set a Sept 14 status-report deadline. The ruling resolved a hearing, not the question.",
-          "url": "https://www.commondreams.org/news/ny-superfund-act",
-          "date": "2026-09-04",
           "is_new": false
         },
         {

@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-06",
-  "cycle_start": "2026-09-06T14:30:00Z",
-  "last_updated": "2026-09-07T14:30:00Z",
+  "cycle_start": "2026-09-07T14:30:00Z",
+  "last_updated": "2026-09-07T14:35:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -14,16 +14,20 @@
       "pattern": "a warning that existed in the data but not in any system built to notice it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The government now has a preliminary price on the disaster itself: NDRRMA estimates roughly Rs 387.5 billion (~$2.8B) in losses from the Bhotekoshi floods, with an initial Rs 8 billion needed just for the next four months of restoration - the accounting phase now running in parallel with a missing count still around 4,500.",
+      "why_now": "Ten days after the collapse, rescuers pulled a third worker alive from a hydropower tunnel and found a 60-year-old woman alive in flood debris in Nuwakot, airlifting her to Kathmandu - proof the accounting phase and the rescue phase are still running at the same time, not in sequence.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://english.nepalnews.com/s/nation/ndrrma-estimates-loss-of-approximately-rs-400-billion-in-bhote-koshi-floods/",
+      "url": "https://www.cbsnews.com/news/nepal-floods-rescue-tunnel-man-woman/",
       "location": "Langtang, Nepal / Gyirong, Tibet",
       "season_or_time_context": "post-disaster search and rescue",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-06T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-07T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-07T14:30:00Z",
+          "note": "Ten days on, rescuers pulled a third worker alive from a hydropower tunnel and found a 60-year-old woman alive in flood debris in Nuwakot - survivors still emerging even as the disaster moves into its accounting phase."
+        },
         {
           "date": "2026-09-06T14:30:00Z",
           "note": "NDRRMA puts a preliminary number on the damage: ~Rs 387.5 billion (~$2.8B) in losses, with Rs 8 billion needed just for the next four months of restoration - the accounting phase now running alongside a missing count still near 4,500."
@@ -33,7 +37,7 @@
           "note": "Ten days on: 1,344 dead, ~4,900 still missing in Nepal (down from 5,083), 13,000+ rescued - now officially Nepal's deadliest disaster since the 2015 earthquake. Two-thirds of missing hydropower workers were at one site, Upper Trishuli-1."
         }
       ],
-      "source_date": "2026-09-03"
+      "source_date": "2026-09-05"
     },
     {
       "id": "roman-space-telescope-launch",
@@ -103,18 +107,22 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran fired a ballistic missile toward US warships patrolling near the strait this weekend - experts are calling it a \"calculated escalation,\" not an accident. That's a different category of weapon than the tanker strikes and boardings that came before it, aimed directly at US naval assets rather than commercial shipping.",
+      "why_now": "Iran is now claiming a maritime \"exclusion zone\" outside the strait where it will stop vessels transiting without its permission - even as its own foreign ministry says a deal with Oman for a temporary safe route is in its \"final stages.\" Brent hit a seven-week high near $97, and US gas prices set a Labor Day record. The claim to more control and the deal to guarantee safe passage are landing in the same week.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed",
+      "url": "https://www.thenationalnews.com/news/mena/2026/09/07/live-iran-war-us-hormuz-restricted-zone/",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-06T00:20:00Z",
       "last_seen": "2026-09-07T14:30:00Z",
-      "appearances": 3,
+      "appearances": 4,
       "history": [
         {
           "date": "2026-09-07T14:30:00Z",
+          "note": "Iran says it will declare an \"exclusion zone\" outside the strait to stop unauthorized vessels, even as a safe-passage deal with Oman nears completion. Brent hit a 7-week high near $97; US gas prices set a Labor Day record."
+        },
+        {
+          "date": "2026-09-06T14:30:00Z",
           "note": "Iran fired a ballistic missile at US warships patrolling near the strait - experts call it a \"calculated escalation,\" a step up from tanker strikes to a weapon aimed directly at US naval assets rather than commercial shipping."
         },
         {
@@ -126,7 +134,7 @@
           "note": "Iran hit 13+ commercial vessels in August alone; the US struck two more unidentified ships this week. Analysts say actual crude flow remains well below the volume the administration has cited - the dispute over the real number is unresolved."
         }
       ],
-      "source_date": "2026-09-06"
+      "source_date": "2026-09-07"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -225,22 +233,26 @@
       "pattern": "a state-level remedy for a global-scale harm struck down for operating at the wrong scale of government",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Judge Sannes leaned on a 2021 Second Circuit precedent that already doomed a similar NYC lawsuit against oil companies, meaning an appeal goes back to the same court that wrote the rule against it. Climate advocates are publicly urging Attorney General James to appeal; Hochul says the state is still \"looking at options,\" with a Sept 14 status-report deadline already on the court's calendar.",
+      "why_now": "DOJ's own statement went further than the judge's reasoning, calling the law \"unconstitutional\" outright rather than just preempted - while state Sen. Liz Krueger, who co-sponsored the original bill, is now publicly telling the AG \"we believe that we will win\" on appeal. Both sides are already arguing the case a level up from where the judge actually left it.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.commondreams.org/news/ny-superfund-act",
+      "url": "https://www.justice.gov/opa/pr/new-york-judge-blocks-state-new-yorks-unconstitutional-climate-superfund-act",
       "location": "Albany, New York / Northern District of New York",
       "season_or_time_context": "ruling issued, appeal window open",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-06T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-07T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-07T14:30:00Z",
+          "note": "DOJ's statement called the law \"unconstitutional,\" going further than the judge's narrower preemption ruling. State Sen. Liz Krueger, the bill's co-sponsor, is now telling the AG directly: \"we believe that we will win\" on appeal."
+        },
         {
           "date": "2026-09-06T00:20:00Z",
           "note": "Climate advocates are publicly pressing AG Letitia James to appeal Judge Sannes' ruling, calling it \"far from the last word.\" Hochul still hasn't committed either way, with the court's Sept 14 status-report deadline now less than two weeks out."
         }
       ],
-      "source_date": "2026-09-04"
+      "source_date": "2026-09-07"
     },
     {
       "id": "serbia-roman-emperor-bath",
