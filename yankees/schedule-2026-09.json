@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-09",
   "division_name": "AL East",
-  "generated_at": "2026-09-06T14:02:42.039734+00:00",
+  "generated_at": "2026-09-07T16:19:42.788353+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -42,19 +42,17 @@
       "gamePk": 823257,
       "status": "final",
       "result": "W",
-      "score": "5\u20131"
+      "score": "5\u20131",
+      "archive_url": "archive.html?date=2026-09-06"
     },
     {
       "date": "2026-09-06",
       "opponent": "SD",
       "home": false,
       "gamePk": 823253,
-      "status": "scheduled",
-      "time_local": "4:10 PM ET",
-      "probable": {
-        "team": "Gerrit Cole",
-        "opp": "Michael King"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20134"
     },
     {
       "date": "2026-09-08",
@@ -62,7 +60,11 @@
       "home": true,
       "gamePk": 823500,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Cam Schlittler",
+        "opp": "Gabriel Hughes"
+      }
     },
     {
       "date": "2026-09-09",
@@ -70,7 +72,11 @@
       "home": true,
       "gamePk": 823497,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Will Warren",
+        "opp": "Tomoyuki Sugano"
+      }
     },
     {
       "date": "2026-09-10",
@@ -78,7 +84,11 @@
       "home": true,
       "gamePk": 823499,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Max Fried",
+        "opp": "Ryan Feltner"
+      }
     },
     {
       "date": "2026-09-11",
@@ -213,8 +223,8 @@
     }
   ],
   "summary": {
-    "month_record": "3\u20131",
-    "current_streak": "W1",
+    "month_record": "3\u20132",
+    "current_streak": "L1",
     "last_10": "6\u20134"
   }
 }
