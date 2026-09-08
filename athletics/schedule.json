@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-09",
   "division_name": "AL West",
-  "generated_at": "2026-09-07T17:52:39.019431+00:00",
+  "generated_at": "2026-09-08T16:48:53.882916+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -61,19 +61,17 @@
       "gamePk": 823091,
       "status": "final",
       "result": "L",
-      "score": "0\u20132"
+      "score": "0\u20132",
+      "archive_url": "archive.html?date=2026-09-07"
     },
     {
       "date": "2026-09-07",
       "opponent": "TOR",
       "home": true,
       "gamePk": 824958,
-      "status": "scheduled",
-      "time_local": "7:05 PM PT",
-      "probable": {
-        "team": "Jacob Lopez",
-        "opp": "Dylan Cease"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "6\u20135"
     },
     {
       "date": "2026-09-08",
@@ -217,8 +215,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u20132",
-    "current_streak": "L1",
-    "last_10": "4\u20136"
+    "month_record": "5\u20132",
+    "current_streak": "W1",
+    "last_10": "5\u20135"
   }
 }
