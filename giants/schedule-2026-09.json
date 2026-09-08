@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-07T17:24:22.041859+00:00",
+  "generated_at": "2026-09-08T16:08:40.233643+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -68,12 +68,9 @@
       "opponent": "STL",
       "home": true,
       "gamePk": 823175,
-      "status": "scheduled",
-      "time_local": "5:10 PM PT",
-      "probable": {
-        "team": "Logan Webb",
-        "opp": "Michael McGreevy"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20134"
     },
     {
       "date": "2026-09-08",
@@ -220,8 +217,8 @@
     }
   ],
   "summary": {
-    "month_record": "2\u20134",
-    "current_streak": "L1",
-    "last_10": "4\u20136"
+    "month_record": "3\u20134",
+    "current_streak": "W1",
+    "last_10": "5\u20135"
   }
 }
