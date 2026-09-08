@@ -1,6 +1,6 @@
 {
   "week": "2026-09-06",
-  "last_updated": "2026-09-07T14:35:00Z",
+  "last_updated": "2026-09-08T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -10,9 +10,9 @@
       "evidence": [
         {
           "domain": "Foreign Policy",
-          "text": "Iran is claiming a new maritime \"exclusion zone\" outside the strait to stop unauthorized vessels - the same week its own foreign ministry says a temporary safe-passage deal with Oman is nearly done. Asserting more control and negotiating guaranteed passage aren't the same claim, even landing in the same week.",
-          "url": "https://www.thenationalnews.com/news/mena/2026/09/07/live-iran-war-us-hormuz-restricted-zone/",
-          "date": "2026-09-07",
+          "text": "Iran's parliament speaker declared \"the era of 'proportionate responses' is over\" - a deliberate break from the tit-for-tat framing both sides had used for months - the same week Tehran was also claiming a new \"exclusion zone\" and finalizing a safe-passage deal with Oman. Three different postures, all asserted at once.",
+          "url": "https://www.iranintl.com/en/liveblog/202609050975",
+          "date": "2026-09-05",
           "is_new": true
         },
         {
@@ -49,7 +49,7 @@
           "text": "DOJ's own statement went further than the judge's actual ruling, calling NY's Climate Superfund Act \"unconstitutional\" rather than just preempted - while state Sen. Liz Krueger, the bill's co-sponsor, is publicly telling the AG \"we believe that we will win\" on appeal. Both sides are already arguing a case bigger than the one the judge decided.",
           "url": "https://www.justice.gov/opa/pr/new-york-judge-blocks-state-new-yorks-unconstitutional-climate-superfund-act",
           "date": "2026-09-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy Shipping",

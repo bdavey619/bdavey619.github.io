@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-06",
-  "cycle_start": "2026-09-07T14:30:00Z",
-  "last_updated": "2026-09-07T14:35:00Z",
+  "cycle_start": "2026-09-07T14:35:00Z",
+  "last_updated": "2026-09-08T00:20:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -50,8 +50,8 @@
       "pattern": "wide-survey instrument built to catch what narrow ones would miss",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The Coronagraph Instrument itself powered on Sept 1, an hour-long process NASA tracked live - now entering months of calibration before it can attempt its real test: directly imaging a planet by blocking out its star's light. First images from the full mission are still expected in early 2027.",
-      "status": "captured",
+      "why_now": "No reporting has moved past the Sept 1 coronagraph power-on across three consecutive checks - the mission is now in a genuinely quiet calibration period, with the next real milestone (the Wide Field Instrument powering on) still roughly two weeks out. Going dormant rather than re-bumping the same fact a fourth time; worth reactivating when that instrument powers on.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://science.nasa.gov/blogs/roman/2026/09/01/nasa-romans-planet-imager-has-powered-on/",
       "location": "Kennedy Space Center, Florida, USA",
@@ -79,16 +79,20 @@
       "pattern": "a legal crackdown landing at the exact moment it most benefits the government's freedom of maneuver",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Kocharyan himself broke his silence from the Yerevan-Kentron penitentiary this week, warning \"this must come to an end, or everyone should start learning Turkish\" and accusing Armenians of losing their instinct for collective self-preservation - the detained man now making the same existential argument about the country that the government makes about him.",
+      "why_now": "Putin broke with his own usual practice and did not congratulate Pashinyan on his June election win - a quiet diplomatic snub - while Pashinyan now insists Armenia can pursue EU rapprochement and stay in the EAEU at the same time, a both-at-once framing Moscow has never accepted.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://news.am/en/video/1058624",
+      "url": "https://arka.am/en/news/politics/armenia-will-continue-its-course-toward-rapprochement-with-the-eu-and-participation-in-the-eaeu-pash/",
       "location": "Yerevan, Armenia",
       "season_or_time_context": "ahead of Armenia's EU accession push",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-06T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-08T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-08T00:20:00Z",
+          "note": "Putin broke his own usual practice and skipped congratulating Pashinyan on his June election win - a quiet snub - as Pashinyan now insists Armenia can pursue EU rapprochement while staying in the EAEU, a framing Moscow has never accepted."
+        },
         {
           "date": "2026-09-06T00:20:00Z",
           "note": "Kocharyan issued a message from prison warning \"this must come to an end, or everyone should start learning Turkish,\" accusing Armenians of losing their collective self-preservation instinct - his own voice entering the fight for the first time since detention."
@@ -107,16 +111,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran is now claiming a maritime \"exclusion zone\" outside the strait where it will stop vessels transiting without its permission - even as its own foreign ministry says a deal with Oman for a temporary safe route is in its \"final stages.\" Brent hit a seven-week high near $97, and US gas prices set a Labor Day record. The claim to more control and the deal to guarantee safe passage are landing in the same week.",
+      "why_now": "Iran's parliament speaker and chief negotiator declared \"the era of 'proportionate responses' is over\" - a deliberate break from the tit-for-tat framing both sides had used until now, even as Tehran accuses Canada of siding with Washington's push to reopen the strait by force.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.thenationalnews.com/news/mena/2026/09/07/live-iran-war-us-hormuz-restricted-zone/",
+      "url": "https://www.iranintl.com/en/liveblog/202609050975",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-07T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-08T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-08T00:20:00Z",
+          "note": "Iran's parliament speaker declared \"the era of 'proportionate responses' is over\" - a deliberate break from the tit-for-tat framing both sides had used, as Tehran separately accuses Canada of backing Washington's push to reopen the strait by force."
+        },
         {
           "date": "2026-09-07T14:30:00Z",
           "note": "Iran says it will declare an \"exclusion zone\" outside the strait to stop unauthorized vessels, even as a safe-passage deal with Oman nears completion. Brent hit a 7-week high near $97; US gas prices set a Labor Day record."
@@ -134,7 +142,7 @@
           "note": "Iran hit 13+ commercial vessels in August alone; the US struck two more unidentified ships this week. Analysts say actual crude flow remains well below the volume the administration has cited - the dispute over the real number is unresolved."
         }
       ],
-      "source_date": "2026-09-07"
+      "source_date": "2026-09-05"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -176,22 +184,26 @@
       "pattern": "a resource deal signed by an unelected government, at a scale built to outlast any successor who might contest it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Chevron - the only major US operator with a standing Venezuela presence - has now put a specific number on its own separate expansion: $7 billion aimed at more than doubling output to roughly 600,000 barrels a day, cementing the wider push to raise Venezuelan output regardless of how the underlying deal's legitimacy fight resolves.",
+      "why_now": "The criticism has spread across Venezuela's own political spectrum: opposition figure Henrique Capriles is now publicly calling out \"the opacity that has characterized the country's oil revenues,\" while Halliburton is reportedly nearing its own separate deal - meaning even critics of the process aren't positioned to stop more companies from joining it.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/9/3/uss-chevron-italys-eni-to-expand-oil-projects-in-venezuela",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5954177/venezuelan-opposition-slams-new-u-s-oil-deal-warning-it-delays-democracy",
       "location": "Caracas, Venezuela / Washington, DC",
       "season_or_time_context": "deal signed, implementation underway",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-06T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-08T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-08T00:20:00Z",
+          "note": "Opposition figure Henrique Capriles publicly criticized \"the opacity that has characterized the country's oil revenues,\" as Halliburton reportedly nears its own separate Venezuela deal - critics of the process aren't positioned to stop more firms joining it."
+        },
         {
           "date": "2026-09-06T00:20:00Z",
           "note": "Chevron put a specific figure on its separate expansion: $7B aimed at more than doubling its Venezuela output to roughly 600,000 barrels a day - a concrete number now sitting alongside the still-unresolved fight over the larger deal's legitimacy."
         }
       ],
-      "source_date": "2026-09-03"
+      "source_date": "2026-09-05"
     },
     {
       "id": "ganesh-chaturthi-eco-idol-tension",
@@ -204,22 +216,26 @@
       "pattern": "a traditional practice re-engineering its own central object to survive contact with modern environmental limits",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Mumbai's civic body (BMC) says idols under 6 feet must now be immersed in artificial ponds rather than the sea, following a Bombay High Court directive - the same tension already visible in Hyderabad's rules has now reached India's largest Ganeshotsav city, via a court order rather than a voluntary civic choice.",
+      "why_now": "Hyderabad's civic bodies are now supplying the alternative at scale, not just mandating it: GHMC, the state pollution board, and the metro development authority are together distributing nearly 475,000 free clay idols this week - answering the eco-idol tension with volume rather than restriction alone.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.freepressjournal.in/lifestyle/mumbais-ganesh-idols-under-6-feet-to-be-immersed-in-artificial-ponds-says-bmc-after-high-court-directive",
+      "url": "https://www.siasat.com/hyderabad-ghmc-to-distribute-3-10l-eco-friendly-ganesh-idols-3084094/",
       "location": "India (Mumbai, Hyderabad, and nationwide)",
       "season_or_time_context": "run-up to Ganesh Chaturthi, Sept 14-25",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-06T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-08T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-08T00:20:00Z",
+          "note": "Hyderabad's GHMC, TGPCB and HMDA are together distributing nearly 475,000 free clay idols this week - the eco-idol tension now being answered with government-supplied volume, not just court-ordered restriction."
+        },
         {
           "date": "2026-09-06T00:20:00Z",
           "note": "A Bombay High Court directive now requires Mumbai idols under 6 feet to immerse in artificial ponds, not the sea - the same eco-idol tension already active in Hyderabad has reached India's largest Ganeshotsav city, this time by court order."
         }
       ],
-      "source_date": "2026-09-05"
+      "source_date": "2026-09-07"
     },
     {
       "id": "ny-climate-superfund-struck-down",
@@ -309,6 +325,34 @@
         }
       ],
       "source_date": "2026-09-03"
+    },
+    {
+      "id": "canada-us-tariffs-take-effect",
+      "stream": "markets",
+      "observer": "Why Today?",
+      "title": "The tariffs everyone had two weeks to prepare for took effect anyway",
+      "observation": "Canada's dollar-for-dollar retaliatory tariffs on more than 700 US goods took effect at 12:01am today, matching the US's own 50% tariff on $27.6 billion of Canadian goods - the negotiated-deal window both sides had two weeks to use closed without one.",
+      "question": "What does advance notice actually buy two governments, if both sides let the deadline arrive anyway?",
+      "hidden_question": "Was the two-week gap real negotiating time, or just a formality both sides always expected to expire?",
+      "pattern": "a telegraphed deadline arriving exactly as threatened, despite weeks of visible opportunity to avoid it",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Ottawa paired the tariffs with a C$7.5B domestic support package for the workers and businesses its own countermeasures will hit hardest - hedging against the retaliation it chose to impose anyway, rather than treating support and escalation as alternatives to each other.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.canada.ca/en/department-finance/news/2026/08/canada-announces-targeted-countermeasures-and-substantive-support-for-workers-and-businesses-in-response-to-us-tariffs.html",
+      "location": "Canada / United States",
+      "season_or_time_context": "tariffs effective today",
+      "first_seen": "2026-09-08T00:20:00Z",
+      "last_seen": "2026-09-08T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-08T00:20:00Z",
+          "note": "Canada's retaliatory tariffs on 700+ US goods took effect at 12:01am, matching the US's 50% tariff on $27.6B of Canadian goods dollar-for-dollar - the two-week negotiation window both sides had closed without a deal."
+        }
+      ],
+      "source_date": "2026-09-08"
     }
   ]
 }
