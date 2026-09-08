@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-06",
-  "cycle_start": "2026-09-07T14:35:00Z",
-  "last_updated": "2026-09-08T00:20:00Z",
+  "cycle_start": "2026-09-08T00:20:00Z",
+  "last_updated": "2026-09-08T14:30:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -14,16 +14,20 @@
       "pattern": "a warning that existed in the data but not in any system built to notice it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Ten days after the collapse, rescuers pulled a third worker alive from a hydropower tunnel and found a 60-year-old woman alive in flood debris in Nuwakot, airlifting her to Kathmandu - proof the accounting phase and the rescue phase are still running at the same time, not in sequence.",
+      "why_now": "Official evening figures now put the toll at 1,358 dead and 5,326 missing - the missing count rising again rather than falling in a straight line, even as 21,146 security personnel remain mobilized and helicopters ran 112 flights in a single day. The accounting is not settling into a clean downward curve.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cbsnews.com/news/nepal-floods-rescue-tunnel-man-woman/",
+      "url": "https://english.nepalnews.com/s/main-left/nepal-news-evening-briefing-tuesday-september-08-2026/",
       "location": "Langtang, Nepal / Gyirong, Tibet",
       "season_or_time_context": "post-disaster search and rescue",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-07T14:30:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-08T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-08T14:30:00Z",
+          "note": "Official evening figures: 1,358 dead, 5,326 missing - the missing count rising again rather than falling in a straight line. 21,146 security personnel remain mobilized; helicopters ran 112 flights in a single day."
+        },
         {
           "date": "2026-09-07T14:30:00Z",
           "note": "Ten days on, rescuers pulled a third worker alive from a hydropower tunnel and found a 60-year-old woman alive in flood debris in Nuwakot - survivors still emerging even as the disaster moves into its accounting phase."
@@ -37,7 +41,7 @@
           "note": "Ten days on: 1,344 dead, ~4,900 still missing in Nepal (down from 5,083), 13,000+ rescued - now officially Nepal's deadliest disaster since the 2015 earthquake. Two-thirds of missing hydropower workers were at one site, Upper Trishuli-1."
         }
       ],
-      "source_date": "2026-09-05"
+      "source_date": "2026-09-08"
     },
     {
       "id": "roman-space-telescope-launch",
@@ -79,16 +83,20 @@
       "pattern": "a legal crackdown landing at the exact moment it most benefits the government's freedom of maneuver",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Putin broke with his own usual practice and did not congratulate Pashinyan on his June election win - a quiet diplomatic snub - while Pashinyan now insists Armenia can pursue EU rapprochement and stay in the EAEU at the same time, a both-at-once framing Moscow has never accepted.",
+      "why_now": "Kocharyan's own lawyer now says the case will be appealed to international courts - the ECHR or a UN body - internationalizing a fight that started as a domestic corruption case. His team frames this as a mandatory legal step, not an escalation, but it puts Armenia's judiciary itself in front of outside scrutiny.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://arka.am/en/news/politics/armenia-will-continue-its-course-toward-rapprochement-with-the-eu-and-participation-in-the-eaeu-pash/",
+      "url": "https://news.am/en/news/1060266",
       "location": "Yerevan, Armenia",
       "season_or_time_context": "ahead of Armenia's EU accession push",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-08T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-08T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-08T14:30:00Z",
+          "note": "Kocharyan's lawyer says the case will be appealed to international courts - the ECHR or a UN body - calling it a mandatory step rather than an escalation. Either way, it puts Armenia's judiciary in front of outside scrutiny."
+        },
         {
           "date": "2026-09-08T00:20:00Z",
           "note": "Putin broke his own usual practice and skipped congratulating Pashinyan on his June election win - a quiet snub - as Pashinyan now insists Armenia can pursue EU rapprochement while staying in the EAEU, a framing Moscow has never accepted."
@@ -98,7 +106,7 @@
           "note": "Kocharyan issued a message from prison warning \"this must come to an end, or everyone should start learning Turkish,\" accusing Armenians of losing their collective self-preservation instinct - his own voice entering the fight for the first time since detention."
         }
       ],
-      "source_date": "2026-09-05"
+      "source_date": "2026-09-08"
     },
     {
       "id": "hormuz-iran-new-demands",
@@ -111,16 +119,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran's parliament speaker and chief negotiator declared \"the era of 'proportionate responses' is over\" - a deliberate break from the tit-for-tat framing both sides had used until now, even as Tehran accuses Canada of siding with Washington's push to reopen the strait by force.",
+      "why_now": "Al Jazeera's own tracking now shows Hormuz traffic falling - at the same moment the US is insisting the waterway is \"fully open.\" That's not two sides disputing a number anymore; it's one side's own headline metric moving in the opposite direction from its official claim.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.iranintl.com/en/liveblog/202609050975",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/7/iran-war-live-tehran-to-announce-new-hormuz-shipping-route-in-coming-days",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-08T00:20:00Z",
-      "appearances": 5,
+      "last_seen": "2026-09-08T14:30:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-09-08T14:30:00Z",
+          "note": "Independent tracking now shows Hormuz traffic falling, at the same moment the US insists the waterway is \"fully open\" - not a dispute over a number anymore, but one side's own headline metric moving opposite its official claim."
+        },
         {
           "date": "2026-09-08T00:20:00Z",
           "note": "Iran's parliament speaker declared \"the era of 'proportionate responses' is over\" - a deliberate break from the tit-for-tat framing both sides had used, as Tehran separately accuses Canada of backing Washington's push to reopen the strait by force."
@@ -136,13 +148,9 @@
         {
           "date": "2026-09-06T14:30:00Z",
           "note": "The US struck and sank three Iranian oil tankers Saturday; IRGC claims it hit three US-affiliated vessels and three tankers back. Iran's parliament speaker warns of a \"faster, heavier\" response - the exchange is escalating again, not cooling."
-        },
-        {
-          "date": "2026-09-06T00:20:00Z",
-          "note": "Iran hit 13+ commercial vessels in August alone; the US struck two more unidentified ships this week. Analysts say actual crude flow remains well below the volume the administration has cited - the dispute over the real number is unresolved."
         }
       ],
-      "source_date": "2026-09-05"
+      "source_date": "2026-09-07"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -156,22 +164,26 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "DRC's national count stood at 6,342 confirmed cases and 3,072 deaths as of Sept 3, with 913 cases and 614 deaths in North Kivu alone. M23 has now reimposed the same movement restrictions across the government/rebel boundary that it eased when it called the outbreak over - the authority that declared victory is now the one undoing it.",
+      "why_now": "The national count has kept climbing since the Kayna case surfaced - 6,604 confirmed, 3,175 dead as of Sept 6, up from 6,342/3,072 three days earlier - with North Kivu alone now at 1,000 cases and 659 deaths. Health workers treating them have gone on strike multiple times over unpaid wages, a second breakdown layered on top of the surveillance gap that let the case through.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://ca.news.yahoo.com/rebel-held-eastern-congo-records-100016377.html",
+      "url": "https://www.nbcnews.com/world/africa/congo-ebola-outbreak-deaths-virus-spreads-unprecedented-speed-rcna595671",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-07T14:30:00Z",
-      "last_seen": "2026-09-07T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-08T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-08T14:30:00Z",
+          "note": "The national count keeps climbing: 6,604 confirmed, 3,175 dead as of Sept 6 (up from 6,342/3,072), North Kivu alone at 1,000 cases/659 deaths. Health workers treating them have struck multiple times over unpaid wages."
+        },
         {
           "date": "2026-09-07T14:30:00Z",
           "note": "A new Ebola case surfaced in rebel-held Kayna, North Kivu, in a patient who'd traveled from government-held Butembo - months after M23 declared the outbreak over in its territory. M23 has reimposed movement restrictions it had eased."
         }
       ],
-      "source_date": "2026-09-04"
+      "source_date": "2026-09-06"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -281,8 +293,8 @@
       "pattern": "opulence deliberately built inside the structure meant to withstand attack",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Serbia's Institute of Archaeology says the design - a full bath suite at the base of a tower, with a well-preserved hypocaust heating system and furnace - has no known parallel elsewhere in the Roman Empire, meaning this wasn't a standard palace feature adapted to a tower, but a purpose-built combination nobody has documented before.",
-      "status": "captured",
+      "why_now": "No follow-up reporting has surfaced since the initial find; going dormant as a single-note discovery rather than re-bumping it without anything new. Worth reactivating if the Institute of Archaeology publishes further findings on the site.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.livescience.com/archaeology/romans/lavish-private-bath-used-by-roman-emperor-and-high-status-residents-discovered-at-imperial-palace-in-serbia",
       "location": "Vrelo-\u0160arkamen, eastern Serbia",
@@ -309,8 +321,8 @@
       "pattern": "a long-studied, presumed-stable phenomenon turning out to have an undiscovered twin",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Scientists had been checking Hubble images for a southern counterpart to the famous northern hexagon since 1990 and found nothing - Cassini's on-site data from 2004-2017 showed no hint of it either. Hubble data now trace the decagon's presence back to 2023, with ground-based observations in 2025 confirming it's not just present but still growing stronger.",
-      "status": "captured",
+      "why_now": "No follow-up reporting has surfaced since Hubble's initial confirmation; going dormant as a single-note research finding rather than re-bumping it without anything new. Worth reactivating if a follow-up observation campaign or new modeling of the feature emerges.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
       "location": "Saturn's south pole",

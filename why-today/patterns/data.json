@@ -1,6 +1,6 @@
 {
   "week": "2026-09-06",
-  "last_updated": "2026-09-08T00:20:00Z",
+  "last_updated": "2026-09-08T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -10,9 +10,9 @@
       "evidence": [
         {
           "domain": "Foreign Policy",
-          "text": "Iran's parliament speaker declared \"the era of 'proportionate responses' is over\" - a deliberate break from the tit-for-tat framing both sides had used for months - the same week Tehran was also claiming a new \"exclusion zone\" and finalizing a safe-passage deal with Oman. Three different postures, all asserted at once.",
-          "url": "https://www.iranintl.com/en/liveblog/202609050975",
-          "date": "2026-09-05",
+          "text": "Independent tracking now shows Hormuz shipping traffic falling, at the exact moment the US is publicly insisting the waterway is \"fully open.\" This isn't two sides disputing a number anymore - it's one side's own headline metric moving in the opposite direction from its official claim.",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/7/iran-war-live-tehran-to-announce-new-hormuz-shipping-route-in-coming-days",
+          "date": "2026-09-07",
           "is_new": true
         },
         {
@@ -39,10 +39,10 @@
       "evidence": [
         {
           "domain": "Public Health",
-          "text": "M23 rebels declared DRC's Ebola outbreak over in their territory in late June. In early September a new case surfaced in rebel-held Kayna, in a patient who'd just traveled from government-held Butembo - the same conflict boundary that divides the outbreak also divided its accounting. M23 has now reimposed the movement controls it had eased.",
-          "url": "https://ca.news.yahoo.com/rebel-held-eastern-congo-records-100016377.html",
-          "date": "2026-09-04",
-          "is_new": false
+          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June; the national count has kept climbing since a new case surfaced there in September - 6,604 confirmed, 3,175 dead as of Sept 6, up from 6,342/3,072 three days earlier. Health workers treating the sick have now struck multiple times over unpaid wages, a second breakdown layered on the first.",
+          "url": "https://www.nbcnews.com/world/africa/congo-ebola-outbreak-deaths-virus-spreads-unprecedented-speed-rcna595671",
+          "date": "2026-09-06",
+          "is_new": true
         },
         {
           "domain": "Environmental Law",
