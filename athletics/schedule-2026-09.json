@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-09",
   "division_name": "AL West",
-  "generated_at": "2026-09-08T16:48:53.882916+00:00",
+  "generated_at": "2026-09-09T16:51:19.209539+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -71,19 +71,17 @@
       "gamePk": 824958,
       "status": "final",
       "result": "W",
-      "score": "6\u20135"
+      "score": "6\u20135",
+      "archive_url": "archive.html?date=2026-09-08"
     },
     {
       "date": "2026-09-08",
       "opponent": "TOR",
       "home": true,
       "gamePk": 824957,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Jack Perkins",
-        "opp": "Jos\u00e9 Soriano"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20134"
     },
     {
       "date": "2026-09-09",
@@ -91,7 +89,11 @@
       "home": true,
       "gamePk": 824956,
       "status": "scheduled",
-      "time_local": "12:05 PM PT"
+      "time_local": "12:05 PM PT",
+      "probable": {
+        "team": "Brady Basso",
+        "opp": "Braydon Fisher"
+      }
     },
     {
       "date": "2026-09-11",
@@ -99,7 +101,10 @@
       "home": true,
       "gamePk": 824954,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Jeffrey Springs"
+      }
     },
     {
       "date": "2026-09-12",
@@ -107,7 +112,10 @@
       "home": true,
       "gamePk": 824955,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "team": "Gage Jump"
+      }
     },
     {
       "date": "2026-09-13",
@@ -115,7 +123,10 @@
       "home": true,
       "gamePk": 824952,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "team": "Jacob Lopez"
+      }
     },
     {
       "date": "2026-09-15",
@@ -215,8 +226,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u20132",
-    "current_streak": "W1",
+    "month_record": "5\u20133",
+    "current_streak": "L1",
     "last_10": "5\u20135"
   }
 }
