@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-08T16:08:40.233643+00:00",
+  "generated_at": "2026-09-09T16:03:10.113462+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -70,19 +70,17 @@
       "gamePk": 823175,
       "status": "final",
       "result": "W",
-      "score": "5\u20134"
+      "score": "5\u20134",
+      "archive_url": "archive.html?date=2026-09-08"
     },
     {
       "date": "2026-09-08",
       "opponent": "STL",
       "home": true,
       "gamePk": 823174,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "team": "Landen Roupp",
-        "opp": "Quinn Mathews"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "2\u20131"
     },
     {
       "date": "2026-09-09",
@@ -92,7 +90,8 @@
       "status": "scheduled",
       "time_local": "12:45 PM PT",
       "probable": {
-        "team": "Blade Tidwell"
+        "team": "Blade Tidwell",
+        "opp": "Andre Pallante"
       }
     },
     {
@@ -217,8 +216,8 @@
     }
   ],
   "summary": {
-    "month_record": "3\u20134",
-    "current_streak": "W1",
-    "last_10": "5\u20135"
+    "month_record": "4\u20134",
+    "current_streak": "W2",
+    "last_10": "6\u20134"
   }
 }
