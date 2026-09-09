@@ -1,6 +1,6 @@
 {
   "week": "2026-09-06",
-  "last_updated": "2026-09-09T00:20:00Z",
+  "last_updated": "2026-09-09T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -10,10 +10,10 @@
       "evidence": [
         {
           "domain": "Foreign Policy",
-          "text": "Independent tracking now shows Hormuz shipping traffic falling, at the exact moment the US is publicly insisting the waterway is \"fully open.\" This isn't two sides disputing a number anymore - it's one side's own headline metric moving in the opposite direction from its official claim.",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/7/iran-war-live-tehran-to-announce-new-hormuz-shipping-route-in-coming-days",
-          "date": "2026-09-07",
-          "is_new": false
+          "text": "Iran's IRGC claimed it struck two named US destroyers; CENTCOM flatly denied it, saying \"all IRGC attempted attacks failed.\" Neither side has produced independent evidence - the war has moved past disputing a shipping number into two governments describing the same day as two different wars.",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-plans-new-restricted-zone/?id=136249116",
+          "date": "2026-09-09",
+          "is_new": true
         },
         {
           "domain": "Debt Management",
@@ -42,7 +42,7 @@
           "text": "M23 declared DRC's Ebola outbreak over in its territory in late June; as of Sept 7 the count reached 6,686 confirmed and 3,226 dead, officially making this the largest and deadliest Ebola outbreak in Congo's history - and it crossed that line while the conflict-surveillance gap that let the resurgence through was still open, not after it closed.",
           "url": "https://www.usnews.com/news/world/articles/2026-09-02/congos-ebola-outbreak-kills-more-than-3-000-government-figures-show",
           "date": "2026-09-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Environmental Law",
@@ -60,10 +60,10 @@
         },
         {
           "domain": "Geopolitical",
-          "text": "Putin and Pashinyan left their Bishkek meeting with incompatible accounts of what it settled - and now Kocharyan himself has broken his prison silence, warning \"this must come to an end, or everyone should start learning Turkish.\" The detained man is making the same existential argument as the government that jailed him, just about the opposite outcome.",
-          "url": "https://news.am/en/video/1058624",
-          "date": "2026-09-05",
-          "is_new": false
+          "text": "Kocharyan's own lawyer now says his case will be appealed to the ECHR or a UN body, calling it a mandatory legal step rather than an escalation. A domestic corruption case that looked settled by detention is instead expanding outward, putting Armenia's judiciary itself in front of international scrutiny.",
+          "url": "https://news.am/en/news/1060266",
+          "date": "2026-09-08",
+          "is_new": true
         }
       ]
     }

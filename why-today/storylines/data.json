@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-06",
-  "cycle_start": "2026-09-08T14:30:00Z",
-  "last_updated": "2026-09-09T00:20:00Z",
+  "cycle_start": "2026-09-09T00:20:00Z",
+  "last_updated": "2026-09-09T14:30:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -123,16 +123,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Al Jazeera's own tracking now shows Hormuz traffic falling - at the same moment the US is insisting the waterway is \"fully open.\" That's not two sides disputing a number anymore; it's one side's own headline metric moving in the opposite direction from its official claim.",
+      "why_now": "IRGC claimed it struck two named US destroyers, the USS Delbert D. Black and USS John Paul Jones; CENTCOM flatly denied it, saying \"all IRGC attempted attacks failed.\" Neither side has offered independent evidence - the war now runs on two irreconcilable official accounts of the same day, not just disputed shipping numbers.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/9/7/iran-war-live-tehran-to-announce-new-hormuz-shipping-route-in-coming-days",
+      "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-plans-new-restricted-zone/?id=136249116",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-08T14:30:00Z",
-      "appearances": 6,
+      "last_seen": "2026-09-09T14:30:00Z",
+      "appearances": 7,
       "history": [
+        {
+          "date": "2026-09-09T14:30:00Z",
+          "note": "IRGC claimed it struck two named US destroyers; CENTCOM flatly denied it, saying \"all IRGC attempted attacks failed.\" Neither side has offered independent evidence - two irreconcilable official accounts of the same day, not just disputed numbers."
+        },
         {
           "date": "2026-09-08T14:30:00Z",
           "note": "Independent tracking now shows Hormuz traffic falling, at the same moment the US insists the waterway is \"fully open\" - not a dispute over a number anymore, but one side's own headline metric moving opposite its official claim."
@@ -148,13 +152,9 @@
         {
           "date": "2026-09-06T14:30:00Z",
           "note": "Iran fired a ballistic missile at US warships patrolling near the strait - experts call it a \"calculated escalation,\" a step up from tanker strikes to a weapon aimed directly at US naval assets rather than commercial shipping."
-        },
-        {
-          "date": "2026-09-06T14:30:00Z",
-          "note": "The US struck and sank three Iranian oil tankers Saturday; IRGC claims it hit three US-affiliated vessels and three tankers back. Iran's parliament speaker warns of a \"faster, heavier\" response - the exchange is escalating again, not cooling."
         }
       ],
-      "source_date": "2026-09-07"
+      "source_date": "2026-09-09"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -168,16 +168,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "As of Sept 7 the count reached 6,686 confirmed and 3,226 dead, up 82 cases and 51 deaths in a single day - officially making this the largest and deadliest Ebola outbreak in Congo's history, surpassing the 2018-2020 epidemic. It crossed that threshold while the conflict boundary was still hiding cases from surveillance, not after the gap was closed.",
+      "why_now": "The outbreak is caused by the Bundibugyo species of Ebola, not the Zaire species that existing approved vaccines and treatments target - meaning the tools that ended past outbreaks don't directly apply here. It's the fastest-growing Ebola outbreak on record and now the second-largest, with 819 patients currently hospitalized in isolation.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.usnews.com/news/world/articles/2026-09-02/congos-ebola-outbreak-kills-more-than-3-000-government-figures-show",
+      "url": "https://www.nbcnews.com/data-graphics/ebola-outbreak-2026-cases-virus-tracking-maps-spread-congo-ugangda-us-rcna347102",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-07T14:30:00Z",
-      "last_seen": "2026-09-09T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-09T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-09T14:30:00Z",
+          "note": "The outbreak is caused by the Bundibugyo species, not the Zaire species that existing approved vaccines and treatments target - the standard tools don't directly apply. It's the fastest-growing Ebola outbreak on record, now the second-largest overall."
+        },
         {
           "date": "2026-09-09T00:20:00Z",
           "note": "As of Sept 7: 6,686 confirmed, 3,226 dead (up 82 cases/51 deaths in a day) - officially the largest and deadliest Ebola outbreak in Congo's history, surpassing 2018-2020, and it crossed that line while the conflict-surveillance gap was still open."
@@ -204,16 +208,20 @@
       "pattern": "a resource deal signed by an unelected government, at a scale built to outlast any successor who might contest it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The criticism has spread across Venezuela's own political spectrum: opposition figure Henrique Capriles is now publicly calling out \"the opacity that has characterized the country's oil revenues,\" while Halliburton is reportedly nearing its own separate deal - meaning even critics of the process aren't positioned to stop more companies from joining it.",
+      "why_now": "Mar\u00eda Corina Machado - who won Venezuela's 2023 election but was barred from taking office - has now added her voice, saying the country's oil reserves aren't the property of \"an illegitimate regime.\" Chevron's own timeline shows why the stakes are long: it's targeting 600,000 barrels a day only by 2031, up from ~280,000 today, a five-year bet on a government whose legitimacy is still being contested by the same opposition it needs to outlast.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.npr.org/2026/09/05/nx-s1-5954177/venezuelan-opposition-slams-new-u-s-oil-deal-warning-it-delays-democracy",
+      "url": "https://www.fool.com/investing/2026/09/09/chevron-wants-600000-barrels-a-day-from-venezuela/",
       "location": "Caracas, Venezuela / Washington, DC",
       "season_or_time_context": "deal signed, implementation underway",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-08T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-09T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-09T14:30:00Z",
+          "note": "Mar\u00eda Corina Machado - barred from office despite winning Venezuela's 2023 election - says the oil reserves aren't the property of \"an illegitimate regime.\" Chevron's own target of 600,000 bpd, up from ~280,000 today, isn't due until 2031."
+        },
         {
           "date": "2026-09-08T00:20:00Z",
           "note": "Opposition figure Henrique Capriles publicly criticized \"the opacity that has characterized the country's oil revenues,\" as Halliburton reportedly nears its own separate Venezuela deal - critics of the process aren't positioned to stop more firms joining it."
@@ -223,7 +231,7 @@
           "note": "Chevron put a specific figure on its separate expansion: $7B aimed at more than doubling its Venezuela output to roughly 600,000 barrels a day - a concrete number now sitting alongside the still-unresolved fight over the larger deal's legitimacy."
         }
       ],
-      "source_date": "2026-09-05"
+      "source_date": "2026-09-09"
     },
     {
       "id": "ganesh-chaturthi-eco-idol-tension",
