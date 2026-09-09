@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-06",
-  "cycle_start": "2026-09-08T00:20:00Z",
-  "last_updated": "2026-09-08T14:30:00Z",
+  "cycle_start": "2026-09-08T14:30:00Z",
+  "last_updated": "2026-09-09T00:20:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -14,16 +14,20 @@
       "pattern": "a warning that existed in the data but not in any system built to notice it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Official evening figures now put the toll at 1,358 dead and 5,326 missing - the missing count rising again rather than falling in a straight line, even as 21,146 security personnel remain mobilized and helicopters ran 112 flights in a single day. The accounting is not settling into a clean downward curve.",
+      "why_now": "A Mongabay investigation now confirms exactly what the story has been asking: Nepal's official sensor-and-SMS warning system arrived late, in Nepali only, with no location-specific guidance - while informal, community-based phone-call networks reached people faster and saved lives, including 900 children at one site. The failure wasn't a lack of data; it was which channel people actually trusted.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://english.nepalnews.com/s/main-left/nepal-news-evening-briefing-tuesday-september-08-2026/",
+      "url": "https://news.mongabay.com/2026/09/during-nepal-floods-decentralized-community-based-warning-saved-lives/",
       "location": "Langtang, Nepal / Gyirong, Tibet",
       "season_or_time_context": "post-disaster search and rescue",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-08T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-09T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-09T00:20:00Z",
+          "note": "A Mongabay investigation finds Nepal's official sensor-and-SMS warning system arrived late, in Nepali only, with no location-specific guidance - while informal community phone networks reached people faster, saving 900 children at one site alone."
+        },
         {
           "date": "2026-09-08T14:30:00Z",
           "note": "Official evening figures: 1,358 dead, 5,326 missing - the missing count rising again rather than falling in a straight line. 21,146 security personnel remain mobilized; helicopters ran 112 flights in a single day."
@@ -164,16 +168,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The national count has kept climbing since the Kayna case surfaced - 6,604 confirmed, 3,175 dead as of Sept 6, up from 6,342/3,072 three days earlier - with North Kivu alone now at 1,000 cases and 659 deaths. Health workers treating them have gone on strike multiple times over unpaid wages, a second breakdown layered on top of the surveillance gap that let the case through.",
+      "why_now": "As of Sept 7 the count reached 6,686 confirmed and 3,226 dead, up 82 cases and 51 deaths in a single day - officially making this the largest and deadliest Ebola outbreak in Congo's history, surpassing the 2018-2020 epidemic. It crossed that threshold while the conflict boundary was still hiding cases from surveillance, not after the gap was closed.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.nbcnews.com/world/africa/congo-ebola-outbreak-deaths-virus-spreads-unprecedented-speed-rcna595671",
+      "url": "https://www.usnews.com/news/world/articles/2026-09-02/congos-ebola-outbreak-kills-more-than-3-000-government-figures-show",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-07T14:30:00Z",
-      "last_seen": "2026-09-08T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-09T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-09T00:20:00Z",
+          "note": "As of Sept 7: 6,686 confirmed, 3,226 dead (up 82 cases/51 deaths in a day) - officially the largest and deadliest Ebola outbreak in Congo's history, surpassing 2018-2020, and it crossed that line while the conflict-surveillance gap was still open."
+        },
         {
           "date": "2026-09-08T14:30:00Z",
           "note": "The national count keeps climbing: 6,604 confirmed, 3,175 dead as of Sept 6 (up from 6,342/3,072), North Kivu alone at 1,000 cases/659 deaths. Health workers treating them have struck multiple times over unpaid wages."
@@ -183,7 +191,7 @@
           "note": "A new Ebola case surfaced in rebel-held Kayna, North Kivu, in a patient who'd traveled from government-held Butembo - months after M23 declared the outbreak over in its territory. M23 has reimposed movement restrictions it had eased."
         }
       ],
-      "source_date": "2026-09-06"
+      "source_date": "2026-09-07"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -365,6 +373,34 @@
         }
       ],
       "source_date": "2026-09-08"
+    },
+    {
+      "id": "quantum-gravity-equivalence-principle-observed",
+      "stream": "curiosities",
+      "observer": "Why Today?",
+      "title": "A rule from Einstein's world just showed up in the quantum one",
+      "observation": "Physicists split an ultracold atom's quantum wave in two, held one half in place while the other fell freely, then reunited them - directly measuring, for the first time, the exact phase effect Einstein's equivalence principle predicts for a freely falling quantum object.",
+      "question": "What does it mean for a rule built to describe planets and starlight to also govern how a single atom falls?",
+      "hidden_question": "Is this confirmation that gravity and quantum mechanics already share the same rulebook, or just proof we finally built an instrument sensitive enough to check?",
+      "pattern": "a century-old prediction from one physical theory confirmed directly inside the domain of a completely different one",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The team - including Nobel laureate Roger Penrose, Ben-Gurion University, and the universities of Ulm and Oxford - published in Science Advances on Sept 2. Earlier experiments used quantum particles to measure gravity's pull; this is the first direct measurement of the predicted quantum phase of a freely falling object itself.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260907201552.htm",
+      "location": "University of Oxford / Ben-Gurion University of the Negev / University of Ulm",
+      "season_or_time_context": "recent research finding",
+      "first_seen": "2026-09-09T00:20:00Z",
+      "last_seen": "2026-09-09T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-09T00:20:00Z",
+          "note": "Physicists split an ultracold atom's quantum wave, held one half still while the other fell freely, then reunited them - the first direct measurement of the quantum phase Einstein's equivalence principle predicts for a freely falling object."
+        }
+      ],
+      "source_date": "2026-09-07"
     }
   ]
 }
