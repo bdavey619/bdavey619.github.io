@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-06",
-  "cycle_start": "2026-09-09T14:30:00Z",
-  "last_updated": "2026-09-10T00:20:00Z",
+  "cycle_start": "2026-09-10T00:20:00Z",
+  "last_updated": "2026-09-10T14:30:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -123,16 +123,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran fired roughly 20 ballistic missiles at US and Jordanian bases overnight - a hangar housing American drones, a Marine Corps camp on the Gulf of Aqaba - in retaliation for the tanker strikes. Jordan says its air defenses intercepted 18; the other two landed in unpopulated areas. This is the strait war's most kinetic night yet, not de-escalation after the destroyer dispute.",
+      "why_now": "The IAEA board's referral - the first in 20 years, backed 23-3 with 8 abstentions - flags roughly 440.9kg of uranium enriched to 60% that inspectors haven't been able to verify since losing access to most Iranian sites in June 2025. It doesn't trigger sanctions itself (Russia and China can veto those at the Security Council), but it formally internationalizes a conflict that was still bilateral a week ago.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://time.com/article/2026/09/09/iran-us-base-jordan-oil-tankers-war-strikes/",
+      "url": "https://www.aljazeera.com/news/2026/9/9/iaea-board-resolves-to-report-iran-to-security-council-over-nuclear-program",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-10T00:20:00Z",
-      "appearances": 8,
+      "last_seen": "2026-09-10T14:30:00Z",
+      "appearances": 9,
       "history": [
+        {
+          "date": "2026-09-10T14:30:00Z",
+          "note": "IAEA's board voted 23-3-8 to refer Iran to the UN Security Council for nuclear non-compliance - the first such referral in 20 years - a day after the US sank five Iranian tankers, the strike that triggered Iran's missile retaliation."
+        },
         {
           "date": "2026-09-10T00:20:00Z",
           "note": "Iran fired ~20 ballistic missiles at US/Jordanian bases overnight - a drone hangar, a Marine Corps camp on the Gulf of Aqaba - retaliating for the tanker strikes. Jordan intercepted 18; two landed unpopulated. The war's most kinetic night yet."
@@ -148,10 +152,35 @@
         {
           "date": "2026-09-08T00:20:00Z",
           "note": "Iran's parliament speaker declared \"the era of 'proportionate responses' is over\" - a deliberate break from the tit-for-tat framing both sides had used, as Tehran separately accuses Canada of backing Washington's push to reopen the strait by force."
-        },
+        }
+      ],
+      "source_date": "2026-09-09"
+    },
+    {
+      "id": "kenya-nurses-strike-ends",
+      "stream": "headlines",
+      "category": "Politics & World",
+      "observer": "Why Today?",
+      "title": "The strike ended in a day. Counting what it cost took six weeks",
+      "observation": "Kenyan nurses returned to work Sept 9 after a 43-day strike over pay and an unimplemented 2017 labor deal - called off with a 45-day window to finalize terms, after officials linked the walkout to 83 maternal and 513 perinatal deaths.",
+      "question": "What does it cost a health system to let a labor dispute run long enough that the body count becomes its own statistic?",
+      "hidden_question": "Is a 45-day negotiating window a real deadline, or the same kind of deferred promise that let the 2017 agreement sit unimplemented for eight years?",
+      "pattern": "a resolved labor dispute whose casualty count keeps being tallied after the resolution",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "The Council of Governors ended the strike with a Ksh8,000 risk-allowance increase and Ksh5,000 more for uniforms - modest terms attached to the same 2017 collective bargaining agreement that an earlier six-month strike also produced, and that went unimplemented for eight years over what officials called budget constraints.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://abcnews.com/Health/wireStory/kenyas-nurses-end-week-strike-after-signing-deal-136304537",
+      "location": "Nairobi, Kenya",
+      "season_or_time_context": "strike resolved, 45-day negotiation window open",
+      "first_seen": "2026-09-10T14:30:00Z",
+      "last_seen": "2026-09-10T14:30:00Z",
+      "appearances": 1,
+      "history": [
         {
-          "date": "2026-09-07T14:30:00Z",
-          "note": "Iran says it will declare an \"exclusion zone\" outside the strait to stop unauthorized vessels, even as a safe-passage deal with Oman nears completion. Brent hit a 7-week high near $97; US gas prices set a Labor Day record."
+          "date": "2026-09-10T14:30:00Z",
+          "note": "Nurses returned to work Sept 9 after 43 days, ending a strike Kenya's human rights commission linked to 83 maternal and 513 perinatal deaths. The fix: modest allowance increases, plus 45 more days to implement a CBA unimplemented since 2017."
         }
       ],
       "source_date": "2026-09-09"
@@ -266,6 +295,34 @@
       "source_date": "2026-09-07"
     },
     {
+      "id": "rosh-hashanah-wartime-observance",
+      "stream": "human_rituals",
+      "observer": "Why Today?",
+      "title": "The army is packing 9.6 tons of honey for a holiday meal on an active front",
+      "observation": "Israel's High Holidays begin at sunset Sept 11 amid ongoing multi-front military operations: the IDF has prepared roughly 10,000 field-adapted Rosh Hashanah meal kits for deployed troops, while police plan a nationwide deployment under a holiday-specific terror-threat warning tied to Iran, Hezbollah and Hamas.",
+      "question": "What does it mean to observe a holiday built around renewal and sweetness by building the observance entirely around active defense?",
+      "hidden_question": "Does adapting a ritual to wartime conditions preserve what the ritual means, or does the adaptation itself quietly become the year's real observance?",
+      "pattern": "a ritual of renewal proceeding on schedule by wrapping itself around military and security infrastructure rather than pausing for it",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The IDF's Central Supply Center says the field kits include 12 tons of pomegranates, 9.6 tons of honey and 103 tons of fish for units that can't stand down for the holiday - a logistics operation built entirely around the fact that this year's observance and this year's front line are the same place.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.israelnationalnews.com/flashes/693164",
+      "location": "Israel",
+      "season_or_time_context": "Rosh Hashanah begins sunset Sept 11",
+      "first_seen": "2026-09-10T14:30:00Z",
+      "last_seen": "2026-09-10T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-10T14:30:00Z",
+          "note": "The IDF's Central Supply Center completed prep of ~10,000 field-adapted Rosh Hashanah meal kits (12 tons pomegranates, 9.6 tons honey, 103 tons fish) for deployed troops, as police separately plan a nationwide High Holidays deployment under a terror warning."
+        }
+      ],
+      "source_date": "2026-09-08"
+    },
+    {
       "id": "ny-climate-superfund-struck-down",
       "stream": "headlines",
       "category": "Politics & World",
@@ -277,8 +334,8 @@
       "pattern": "a state-level remedy for a global-scale harm struck down for operating at the wrong scale of government",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "DOJ's own statement went further than the judge's reasoning, calling the law \"unconstitutional\" outright rather than just preempted - while state Sen. Liz Krueger, who co-sponsored the original bill, is now publicly telling the AG \"we believe that we will win\" on appeal. Both sides are already arguing the case a level up from where the judge actually left it.",
-      "status": "captured",
+      "why_now": "No appeal has been filed as of Sept 10 - Hochul says the state is still \"looking\" at its options, and the AG's office has deferred comment back to the governor's. Going dormant rather than re-bumping an unchanged legal posture; worth reactivating when James actually files, or when the court's Sept 14 status-report deadline forces a decision.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.justice.gov/opa/pr/new-york-judge-blocks-state-new-yorks-unconstitutional-climate-superfund-act",
       "location": "Albany, New York / Northern District of New York",
