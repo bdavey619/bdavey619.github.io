@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-09T14:42:04.004537+00:00",
+  "generated_at": "2026-09-10T14:32:00.786242+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -71,19 +71,17 @@
       "gamePk": 823250,
       "status": "final",
       "result": "W",
-      "score": "5\u20134"
+      "score": "5\u20134",
+      "archive_url": "archive.html?date=2026-09-09"
     },
     {
       "date": "2026-09-09",
       "opponent": "WSH",
       "home": true,
       "gamePk": 823251,
-      "status": "scheduled",
-      "time_local": "1:10 PM PT",
-      "probable": {
-        "team": "Walker Buehler",
-        "opp": "Jackson Kent"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "9\u20132"
     },
     {
       "date": "2026-09-11",
@@ -91,7 +89,11 @@
       "home": false,
       "gamePk": 823173,
       "status": "scheduled",
-      "time_local": "7:15 PM PT"
+      "time_local": "7:15 PM PT",
+      "probable": {
+        "team": "Robbie Ray",
+        "opp": "Anthony Molina"
+      }
     },
     {
       "date": "2026-09-12",
@@ -99,7 +101,11 @@
       "home": false,
       "gamePk": 823170,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "team": "Michael King",
+        "opp": "Cesar Perdomo"
+      }
     },
     {
       "date": "2026-09-13",
@@ -107,7 +113,11 @@
       "home": false,
       "gamePk": 823171,
       "status": "scheduled",
-      "time_local": "4:20 PM PT"
+      "time_local": "4:20 PM PT",
+      "probable": {
+        "team": "Nick Pivetta",
+        "opp": "Logan Webb"
+      }
     },
     {
       "date": "2026-09-14",
@@ -215,8 +225,8 @@
     }
   ],
   "summary": {
-    "month_record": "4\u20133",
-    "current_streak": "W3",
-    "last_10": "5\u20135"
+    "month_record": "5\u20133",
+    "current_streak": "W4",
+    "last_10": "6\u20134"
   }
 }
