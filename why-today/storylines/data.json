@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-06",
-  "cycle_start": "2026-09-09T00:20:00Z",
-  "last_updated": "2026-09-09T14:30:00Z",
+  "cycle_start": "2026-09-09T14:30:00Z",
+  "last_updated": "2026-09-10T00:20:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -123,16 +123,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "IRGC claimed it struck two named US destroyers, the USS Delbert D. Black and USS John Paul Jones; CENTCOM flatly denied it, saying \"all IRGC attempted attacks failed.\" Neither side has offered independent evidence - the war now runs on two irreconcilable official accounts of the same day, not just disputed shipping numbers.",
+      "why_now": "Iran fired roughly 20 ballistic missiles at US and Jordanian bases overnight - a hangar housing American drones, a Marine Corps camp on the Gulf of Aqaba - in retaliation for the tanker strikes. Jordan says its air defenses intercepted 18; the other two landed in unpopulated areas. This is the strait war's most kinetic night yet, not de-escalation after the destroyer dispute.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-plans-new-restricted-zone/?id=136249116",
+      "url": "https://time.com/article/2026/09/09/iran-us-base-jordan-oil-tankers-war-strikes/",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-09T14:30:00Z",
-      "appearances": 7,
+      "last_seen": "2026-09-10T00:20:00Z",
+      "appearances": 8,
       "history": [
+        {
+          "date": "2026-09-10T00:20:00Z",
+          "note": "Iran fired ~20 ballistic missiles at US/Jordanian bases overnight - a drone hangar, a Marine Corps camp on the Gulf of Aqaba - retaliating for the tanker strikes. Jordan intercepted 18; two landed unpopulated. The war's most kinetic night yet."
+        },
         {
           "date": "2026-09-09T14:30:00Z",
           "note": "IRGC claimed it struck two named US destroyers; CENTCOM flatly denied it, saying \"all IRGC attempted attacks failed.\" Neither side has offered independent evidence - two irreconcilable official accounts of the same day, not just disputed numbers."
@@ -148,10 +152,6 @@
         {
           "date": "2026-09-07T14:30:00Z",
           "note": "Iran says it will declare an \"exclusion zone\" outside the strait to stop unauthorized vessels, even as a safe-passage deal with Oman nears completion. Brent hit a 7-week high near $97; US gas prices set a Labor Day record."
-        },
-        {
-          "date": "2026-09-06T14:30:00Z",
-          "note": "Iran fired a ballistic missile at US warships patrolling near the strait - experts call it a \"calculated escalation,\" a step up from tanker strikes to a weapon aimed directly at US naval assets rather than commercial shipping."
         }
       ],
       "source_date": "2026-09-09"
@@ -365,22 +365,26 @@
       "pattern": "a telegraphed deadline arriving exactly as threatened, despite weeks of visible opportunity to avoid it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Ottawa paired the tariffs with a C$7.5B domestic support package for the workers and businesses its own countermeasures will hit hardest - hedging against the retaliation it chose to impose anyway, rather than treating support and escalation as alternatives to each other.",
+      "why_now": "Trump answered Canada's tariffs by signing five proclamations banning imports of Canadian dairy, alcohol and larger motorcycles outright, effective Sept 29 - invoking Section 338 of the 1930 Tariff Act. A trade dispute that was still running on tariff rates a day earlier has moved to a different tool entirely: excluding entire product categories.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.canada.ca/en/department-finance/news/2026/08/canada-announces-targeted-countermeasures-and-substantive-support-for-workers-and-businesses-in-response-to-us-tariffs.html",
+      "url": "https://www.nbcnews.com/business/economy/trump-escalates-trade-war-canada-moving-ban-import-autos-dairy-alcohol-rcna596666",
       "location": "Canada / United States",
       "season_or_time_context": "tariffs effective today",
       "first_seen": "2026-09-08T00:20:00Z",
-      "last_seen": "2026-09-08T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-10T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-10T00:20:00Z",
+          "note": "Trump signed five proclamations banning Canadian dairy, alcohol and larger motorcycles outright, effective Sept 29, using Section 338 of the 1930 Tariff Act - moving from tariff rates to excluding entire product categories in direct response."
+        },
         {
           "date": "2026-09-08T00:20:00Z",
           "note": "Canada's retaliatory tariffs on 700+ US goods took effect at 12:01am, matching the US's 50% tariff on $27.6B of Canadian goods dollar-for-dollar - the two-week negotiation window both sides had closed without a deal."
         }
       ],
-      "source_date": "2026-09-08"
+      "source_date": "2026-09-09"
     },
     {
       "id": "quantum-gravity-equivalence-principle-observed",
@@ -409,6 +413,34 @@
         }
       ],
       "source_date": "2026-09-07"
+    },
+    {
+      "id": "devils-arrows-stone-source-identified",
+      "stream": "places",
+      "observer": "Why Today?",
+      "title": "They passed a closer quarry to haul stones from a harder one",
+      "observation": "A new geological study traces the Devil's Arrows, Britain's tallest surviving prehistoric stone row, to Brimham Rocks 18km away - overturning decades of assumption that the 25-tonne stones came from Plumpton Rocks, a source much closer to where the monument stands.",
+      "question": "What does it mean when the harder, more distant source was the one builders actually chose?",
+      "hidden_question": "Was the distance itself part of the monument's meaning, or just an engineering fact we're only now able to trace correctly?",
+      "pattern": "builders bypassing an easier, closer resource to deliberately obtain a harder, more distant one",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The Curtin University-led study, with the University of York, is the first to correctly identify the stones' geological source, published in the Proceedings of the Royal Society A. Erected around 2000 BCE, the monument's stones stand up to seven meters tall - and the builders passed a nearer quarry to reach the rugged terrain of Brimham Rocks instead.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260909005152.htm",
+      "location": "Boroughbridge, North Yorkshire, England",
+      "season_or_time_context": "recent research finding",
+      "first_seen": "2026-09-10T00:20:00Z",
+      "last_seen": "2026-09-10T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-10T00:20:00Z",
+          "note": "A geological study traces the Devil's Arrows' 25-tonne stones to Brimham Rocks, 18km away - overturning the long-held assumption that they came from the much closer Plumpton Rocks. The builders bypassed the nearer source for the harder one."
+        }
+      ],
+      "source_date": "2026-09-09"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "week": "2026-09-06",
-  "last_updated": "2026-09-09T14:30:00Z",
+  "last_updated": "2026-09-10T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -9,9 +9,16 @@
       "momentum": "accelerating",
       "evidence": [
         {
+          "domain": "Trade Policy",
+          "text": "Canada's retaliatory tariffs took effect as threatened at 12:01am Sept 8 - and instead of settling into a new equilibrium, Trump answered within two days by banning Canadian dairy, alcohol and motorcycles outright. A \"resolution\" by tariff rate lasted less than 48 hours before the tool itself changed.",
+          "url": "https://www.nbcnews.com/business/economy/trump-escalates-trade-war-canada-moving-ban-import-autos-dairy-alcohol-rcna596666",
+          "date": "2026-09-09",
+          "is_new": true
+        },
+        {
           "domain": "Foreign Policy",
-          "text": "Iran's IRGC claimed it struck two named US destroyers; CENTCOM flatly denied it, saying \"all IRGC attempted attacks failed.\" Neither side has produced independent evidence - the war has moved past disputing a shipping number into two governments describing the same day as two different wars.",
-          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-plans-new-restricted-zone/?id=136249116",
+          "text": "Two days after CENTCOM denied Iran's destroyer-strike claim, Iran fired roughly 20 ballistic missiles at US and Jordanian bases overnight - the strait war's most kinetic night yet. Whatever \"de-escalation\" the denial implied didn't survive the news cycle that followed it.",
+          "url": "https://time.com/article/2026/09/09/iran-us-base-jordan-oil-tankers-war-strikes/",
           "date": "2026-09-09",
           "is_new": true
         },
@@ -20,13 +27,6 @@
           "text": "The 10-year has now reversed direction three times in five sessions: a Fed-comment-driven high above 4.81%, a dovish-remark dip to 4.74-4.77%, and a bounce back to 4.79% on a stronger-than-forecast August jobs report, pushing rate-hike odds back up to ~52%. No single reading has held for even a full trading day.",
           "url": "https://tradingeconomics.com/united-states/government-bond-yield",
           "date": "2026-09-05",
-          "is_new": false
-        },
-        {
-          "domain": "Resource Diplomacy",
-          "text": "Trump called it the \"biggest oil deal in history\"; Chevron's own separate expansion - $7B aimed at doubling its Venezuela output to ~600,000 barrels a day - is the first evidence that actually stands independent of either government's telling, arriving as the underlying deal's legitimacy fight remains unresolved.",
-          "url": "https://www.aljazeera.com/news/2026/9/3/uss-chevron-italys-eni-to-expand-oil-projects-in-venezuela",
-          "date": "2026-09-03",
           "is_new": false
         }
       ]
@@ -63,7 +63,7 @@
           "text": "Kocharyan's own lawyer now says his case will be appealed to the ECHR or a UN body, calling it a mandatory legal step rather than an escalation. A domestic corruption case that looked settled by detention is instead expanding outward, putting Armenia's judiciary itself in front of international scrutiny.",
           "url": "https://news.am/en/news/1060266",
           "date": "2026-09-08",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
