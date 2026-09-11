@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-09",
   "division_name": "AL East",
-  "generated_at": "2026-09-10T14:55:46.643401+00:00",
+  "generated_at": "2026-09-11T14:55:55.546737+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -72,19 +72,17 @@
       "gamePk": 823497,
       "status": "final",
       "result": "W",
-      "score": "6\u20131"
+      "score": "6\u20131",
+      "archive_url": "archive.html?date=2026-09-10"
     },
     {
       "date": "2026-09-10",
       "opponent": "COL",
       "home": true,
       "gamePk": 823499,
-      "status": "scheduled",
-      "time_local": "7:05 PM ET",
-      "probable": {
-        "team": "Max Fried",
-        "opp": "Ryan Feltner"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "10\u20133"
     },
     {
       "date": "2026-09-11",
@@ -94,6 +92,7 @@
       "status": "scheduled",
       "time_local": "7:05 PM ET",
       "probable": {
+        "team": "Carlos Rod\u00f3n",
         "opp": "Nolan McLean"
       }
     },
@@ -105,6 +104,7 @@
       "status": "scheduled",
       "time_local": "1:35 PM ET",
       "probable": {
+        "team": "Gerrit Cole",
         "opp": "Zac Thornton"
       }
     },
@@ -116,6 +116,7 @@
       "status": "scheduled",
       "time_local": "1:35 PM ET",
       "probable": {
+        "team": "Cam Schlittler",
         "opp": "Christian Scott"
       }
     },
@@ -225,8 +226,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u20132",
-    "current_streak": "W2",
+    "month_record": "6\u20132",
+    "current_streak": "W3",
     "last_10": "7\u20133"
   }
 }
