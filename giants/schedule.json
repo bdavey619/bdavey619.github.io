@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-10T15:57:20.992394+00:00",
+  "generated_at": "2026-09-11T16:00:31.874208+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -90,7 +90,8 @@
       "gamePk": 823172,
       "status": "final",
       "result": "W",
-      "score": "7\u20136"
+      "score": "7\u20136",
+      "archive_url": "archive.html?date=2026-09-10"
     },
     {
       "date": "2026-09-11",
