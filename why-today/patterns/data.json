@@ -1,6 +1,6 @@
 {
   "week": "2026-09-06",
-  "last_updated": "2026-09-10T14:30:00Z",
+  "last_updated": "2026-09-11T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -24,8 +24,8 @@
         },
         {
           "domain": "Debt Management",
-          "text": "The 10-year hit a two-month high near 4.8% after a hot August jobs report (162K added vs. 53K expected) pushed Fed rate-hike odds for the Sept 15-16 meeting to 58% - and by Sept 10 it was still moving, at 4.84%, without settling on a single read either way.",
-          "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+          "text": "Wholesale inflation (PPI) accelerated to 5.4% YoY in August, well above July's 4.7% pace, pushing money-market odds of a Sept 15-16 rate hike to roughly 70% - up from 58% just a day earlier. The reading that was supposed to settle the debate keeps moving the goalposts instead.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-10/stock-market-today-dow-s-p-live-updates",
           "date": "2026-09-10",
           "is_new": true
         }
@@ -42,7 +42,7 @@
           "text": "Kenya's nurses ended a 43-day strike Sept 9 that officials linked to 83 maternal and 513 perinatal deaths - but the deal that ended it deferred the actual fix, giving counties 45 more days to implement the same 2017 CBA that went unimplemented for eight years after the last strike.",
           "url": "https://abcnews.com/Health/wireStory/kenyas-nurses-end-week-strike-after-signing-deal-136304537",
           "date": "2026-09-09",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Public Health",
@@ -53,9 +53,9 @@
         },
         {
           "domain": "Energy Shipping",
-          "text": "\"Just days away\" from a done deal is where Iran's Oman safe-passage talks sat for over a month - the same month the US sank five Iranian tankers and Iran fired ~20 missiles back at US and Jordanian bases. The framework repeatedly called nearly finished is now further from finished than when it started.",
-          "url": "https://www.nbcnews.com/world/iran/us-strikes-iranian-tankers-attempted-missile-attacks-navy-warship-rcna596699",
-          "date": "2026-09-09",
+          "text": "\"Just days away\" from a done deal is where Iran's Oman safe-passage talks sat for over a month - the same month oil topped $100 for the first time since May and Brent settled near $108. The framework repeatedly called nearly finished is now trading against a market pricing in no resolution at all.",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-10-dow-sp-500-nasdaq-083717303.html",
+          "date": "2026-09-10",
           "is_new": true
         },
         {
