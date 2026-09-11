@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-09",
   "division_name": "AL West",
-  "generated_at": "2026-09-10T16:38:38.094659+00:00",
+  "generated_at": "2026-09-11T16:43:08.304068+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -101,7 +101,8 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
-        "team": "Jeffrey Springs"
+        "team": "Jeffrey Springs",
+        "opp": "George Kirby"
       }
     },
     {
@@ -112,7 +113,8 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
-        "team": "Gage Jump"
+        "team": "Gage Jump",
+        "opp": "Bryan Woo"
       }
     },
     {
@@ -123,7 +125,8 @@
       "status": "scheduled",
       "time_local": "1:05 PM PT",
       "probable": {
-        "team": "Jacob Lopez"
+        "team": "Jacob Lopez",
+        "opp": "Bryce Miller"
       }
     },
     {
