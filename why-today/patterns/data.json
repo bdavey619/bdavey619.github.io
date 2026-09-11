@@ -1,6 +1,6 @@
 {
   "week": "2026-09-06",
-  "last_updated": "2026-09-11T00:20:00Z",
+  "last_updated": "2026-09-11T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -27,7 +27,7 @@
           "text": "Wholesale inflation (PPI) accelerated to 5.4% YoY in August, well above July's 4.7% pace, pushing money-market odds of a Sept 15-16 rate hike to roughly 70% - up from 58% just a day earlier. The reading that was supposed to settle the debate keeps moving the goalposts instead.",
           "url": "https://www.bloomberg.com/news/articles/2026-09-10/stock-market-today-dow-s-p-live-updates",
           "date": "2026-09-10",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -46,17 +46,17 @@
         },
         {
           "domain": "Public Health",
-          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June; as of Sept 7 the count reached 6,686 confirmed and 3,226 dead, officially making this the largest and deadliest Ebola outbreak in Congo's history - and it crossed that line while the conflict-surveillance gap that let the resurgence through was still open, not after it closed.",
-          "url": "https://www.usnews.com/news/world/articles/2026-09-02/congos-ebola-outbreak-kills-more-than-3-000-government-figures-show",
-          "date": "2026-09-07",
-          "is_new": false
+          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June; it has since become the deadliest outbreak in Congo's history and, as of Sept 11, has spread to a seventh province - the geographic footprint still outrunning containment months after the resolution was announced.",
+          "url": "https://www.ksat.com/health/2026/09/11/ebola-outbreak-in-eastern-congo-has-now-spread-to-the-countrys-seventh-province-officials-say/",
+          "date": "2026-09-11",
+          "is_new": true
         },
         {
           "domain": "Energy Shipping",
           "text": "\"Just days away\" from a done deal is where Iran's Oman safe-passage talks sat for over a month - the same month oil topped $100 for the first time since May and Brent settled near $108. The framework repeatedly called nearly finished is now trading against a market pricing in no resolution at all.",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-10-dow-sp-500-nasdaq-083717303.html",
           "date": "2026-09-10",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Environmental Law",

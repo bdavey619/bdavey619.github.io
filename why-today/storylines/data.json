@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-06",
-  "cycle_start": "2026-09-10T14:30:00Z",
-  "last_updated": "2026-09-11T00:20:00Z",
+  "cycle_start": "2026-09-11T00:20:00Z",
+  "last_updated": "2026-09-11T14:30:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -14,8 +14,8 @@
       "pattern": "a warning that existed in the data but not in any system built to notice it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "A Mongabay investigation now confirms exactly what the story has been asking: Nepal's official sensor-and-SMS warning system arrived late, in Nepali only, with no location-specific guidance - while informal, community-based phone-call networks reached people faster and saved lives, including 900 children at one site. The failure wasn't a lack of data; it was which channel people actually trusted.",
-      "status": "captured",
+      "why_now": "Two dedicated searches across two cycles have turned up only figures already logged, not a genuinely new development - the acute rescue phase has given way to a steady-state recovery that isn't generating fresh, cleanly-sourced reporting day to day. Going dormant rather than re-bumping; worth reactivating on a new casualty milestone or a findings report on the warning-system failure.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://news.mongabay.com/2026/09/during-nepal-floods-decentralized-community-based-warning-saved-lives/",
       "location": "Langtang, Nepal / Gyirong, Tibet",
@@ -225,16 +225,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The outbreak is caused by the Bundibugyo species of Ebola, not the Zaire species that existing approved vaccines and treatments target - meaning the tools that ended past outbreaks don't directly apply here. It's the fastest-growing Ebola outbreak on record and now the second-largest, with 819 patients currently hospitalized in isolation.",
+      "why_now": "The outbreak has now spread to a seventh Congolese province, officials say - still the world's fastest-growing Ebola outbreak on record, with more than 1,700 MSF staff working across Ituri, North Kivu, South Kivu, Haut-Uele and Tshopo. The geographic footprint is now outrunning the response as fast as the case count is.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.nbcnews.com/data-graphics/ebola-outbreak-2026-cases-virus-tracking-maps-spread-congo-ugangda-us-rcna347102",
+      "url": "https://www.ksat.com/health/2026/09/11/ebola-outbreak-in-eastern-congo-has-now-spread-to-the-countrys-seventh-province-officials-say/",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-07T14:30:00Z",
-      "last_seen": "2026-09-09T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-11T14:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-11T14:30:00Z",
+          "note": "The outbreak has now spread to a seventh Congolese province, officials say - still the world's fastest-growing Ebola outbreak on record, with 1,700+ MSF staff working across Ituri, North Kivu, South Kivu, Haut-Uele and Tshopo."
+        },
         {
           "date": "2026-09-09T14:30:00Z",
           "note": "The outbreak is caused by the Bundibugyo species, not the Zaire species that existing approved vaccines and treatments target - the standard tools don't directly apply. It's the fastest-growing Ebola outbreak on record, now the second-largest overall."
@@ -252,7 +256,7 @@
           "note": "A new Ebola case surfaced in rebel-held Kayna, North Kivu, in a patient who'd traveled from government-held Butembo - months after M23 declared the outbreak over in its territory. M23 has reimposed movement restrictions it had eased."
         }
       ],
-      "source_date": "2026-09-07"
+      "source_date": "2026-09-11"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -337,22 +341,26 @@
       "pattern": "a ritual of renewal proceeding on schedule by wrapping itself around military and security infrastructure rather than pausing for it",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The IDF's Central Supply Center says the field kits include 12 tons of pomegranates, 9.6 tons of honey and 103 tons of fish for units that can't stand down for the holiday - a logistics operation built entirely around the fact that this year's observance and this year's front line are the same place.",
+      "why_now": "Israel will close the Kerem Shalom crossing with Gaza on Sunday for the holiday - but aid will still be collected from the Gazan side, so the closure suspends the ritual's normal pause on labor without suspending the humanitarian pipeline it sits next to. The IDF also demolished a Hezbollah tunnel network in south Lebanon overnight, an operation large enough to register as an earthquake.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.israelnationalnews.com/flashes/693164",
+      "url": "https://www.timesofisrael.com/liveblog-september-11-2026/",
       "location": "Israel",
       "season_or_time_context": "Rosh Hashanah begins sunset Sept 11",
       "first_seen": "2026-09-10T14:30:00Z",
-      "last_seen": "2026-09-10T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-11T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-11T14:30:00Z",
+          "note": "Israel closes the Kerem Shalom crossing for the holiday Sunday, but aid keeps moving from Gaza's side. Overnight, the IDF separately demolished a Hezbollah tunnel network large enough to register as a quake."
+        },
         {
           "date": "2026-09-10T14:30:00Z",
           "note": "The IDF's Central Supply Center completed prep of ~10,000 field-adapted Rosh Hashanah meal kits (12 tons pomegranates, 9.6 tons honey, 103 tons fish) for deployed troops, as police separately plan a nationwide High Holidays deployment under a terror warning."
         }
       ],
-      "source_date": "2026-09-08"
+      "source_date": "2026-09-11"
     },
     {
       "id": "ny-climate-superfund-struck-down",
@@ -454,16 +462,20 @@
       "pattern": "a telegraphed deadline arriving exactly as threatened, despite weeks of visible opportunity to avoid it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Trump answered Canada's tariffs by signing five proclamations banning imports of Canadian dairy, alcohol and larger motorcycles outright, effective Sept 29 - invoking Section 338 of the 1930 Tariff Act. A trade dispute that was still running on tariff rates a day earlier has moved to a different tool entirely: excluding entire product categories.",
+      "why_now": "Carney called Trump's import-ban proclamations \"relatively modest\" compared to earlier US actions and signaled Canada will hold off on further retaliation for now - a deliberate step down after two straight escalations, even as he keeps insisting Washington \"start being serious\" about actually negotiating.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.nbcnews.com/business/economy/trump-escalates-trade-war-canada-moving-ban-import-autos-dairy-alcohol-rcna596666",
+      "url": "https://www.washingtonpost.com/world/2026/09/10/trump-canada-tariffs-ford-carney/88b4cccc-ad3d-11f1-b498-8697f35a6743_story.html",
       "location": "Canada / United States",
-      "season_or_time_context": "tariffs effective today",
+      "season_or_time_context": "tariffs effective, ban pending Sept 29",
       "first_seen": "2026-09-08T00:20:00Z",
-      "last_seen": "2026-09-10T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-11T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-11T14:30:00Z",
+          "note": "Carney called Trump's import-ban proclamations \"relatively modest\" and signaled Canada will hold off on further retaliation for now - a deliberate step down after two straight escalations, even while still pressing Washington to \"start being serious\" about negotiating."
+        },
         {
           "date": "2026-09-10T00:20:00Z",
           "note": "Trump signed five proclamations banning Canadian dairy, alcohol and larger motorcycles outright, effective Sept 29, using Section 338 of the 1930 Tariff Act - moving from tariff rates to excluding entire product categories in direct response."
@@ -473,7 +485,7 @@
           "note": "Canada's retaliatory tariffs on 700+ US goods took effect at 12:01am, matching the US's 50% tariff on $27.6B of Canadian goods dollar-for-dollar - the two-week negotiation window both sides had closed without a deal."
         }
       ],
-      "source_date": "2026-09-09"
+      "source_date": "2026-09-10"
     },
     {
       "id": "quantum-gravity-equivalence-principle-observed",
@@ -486,8 +498,8 @@
       "pattern": "a century-old prediction from one physical theory confirmed directly inside the domain of a completely different one",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The team - including Nobel laureate Roger Penrose, Ben-Gurion University, and the universities of Ulm and Oxford - published in Science Advances on Sept 2. Earlier experiments used quantum particles to measure gravity's pull; this is the first direct measurement of the predicted quantum phase of a freely falling object itself.",
-      "status": "captured",
+      "why_now": "No coverage beyond the original Sept 2 publication has surfaced across two dedicated checks - the finding is complete as reported, with the team's own next step (extending the technique to heavier objects like nanodiamonds) still underway rather than published. Going dormant rather than re-bumping; worth reactivating when that follow-up experiment reports results.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.sciencedaily.com/releases/2026/09/260907201552.htm",
       "location": "University of Oxford / Ben-Gurion University of the Negev / University of Ulm",
