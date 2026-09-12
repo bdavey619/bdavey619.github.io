@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-06",
-  "cycle_start": "2026-09-11T14:30:00Z",
-  "last_updated": "2026-09-12T00:20:00Z",
+  "cycle_start": "2026-09-12T00:20:00Z",
+  "last_updated": "2026-09-12T14:30:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -151,16 +151,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The risk premium markets spent months pricing as leverage is now showing up as realized cost: Brent near $108, a fourth straight day of US stock losses, and wholesale inflation at 5.4% - numbers now moving because ships are actually getting struck, not because a threat of it might happen.",
+      "why_now": "The strikes are diversifying past tankers and missiles: the IRGC says it hit a Saildrone Explorer-type unmanned surface vessel at the strait's entrance, while UKMTO separately reported four projectiles striking two vessels west of Khasab, Oman - a widening target set that now includes uncrewed monitoring assets, not just cargo ships.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-10-dow-sp-500-nasdaq-083717303.html",
+      "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-11T00:20:00Z",
-      "appearances": 10,
+      "last_seen": "2026-09-12T14:30:00Z",
+      "appearances": 11,
       "history": [
+        {
+          "date": "2026-09-12T14:30:00Z",
+          "note": "IRGC says it struck a Saildrone Explorer-type unmanned surface vessel at the strait's entrance; UKMTO separately reported four projectiles hitting two vessels west of Khasab, Oman - the target set widening to uncrewed monitoring assets, not just tankers."
+        },
         {
           "date": "2026-09-11T00:20:00Z",
           "note": "Brent settled near $108, oil's highest in nearly four months, after a ~7% single-session jump - as US stocks fell a fourth straight day and wholesale inflation hit 5.4% YoY, pushing Sept 15-16 rate-hike odds to ~70%."
@@ -176,13 +180,9 @@
         {
           "date": "2026-09-09T14:30:00Z",
           "note": "IRGC claimed it struck two named US destroyers; CENTCOM flatly denied it, saying \"all IRGC attempted attacks failed.\" Neither side has offered independent evidence - two irreconcilable official accounts of the same day, not just disputed numbers."
-        },
-        {
-          "date": "2026-09-08T14:30:00Z",
-          "note": "Independent tracking now shows Hormuz traffic falling, at the same moment the US insists the waterway is \"fully open\" - not a dispute over a number anymore, but one side's own headline metric moving opposite its official claim."
         }
       ],
-      "source_date": "2026-09-10"
+      "source_date": "2026-09-11"
     },
     {
       "id": "kenya-nurses-strike-ends",
@@ -586,22 +586,26 @@
       "pattern": "builders bypassing an easier, closer resource to deliberately obtain a harder, more distant one",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The Curtin University-led study, with the University of York, is the first to correctly identify the stones' geological source, published in the Proceedings of the Royal Society A. Erected around 2000 BCE, the monument's stones stand up to seven meters tall - and the builders passed a nearer quarry to reach the rugged terrain of Brimham Rocks instead.",
+      "why_now": "The same study confirms a missing fourth stone has been hiding in plain sight for 600 years: a stone cross in the nearby village of Aldborough is the monument's lost member, disguised rather than destroyed - proving a 19th-century local legend true and closing a gap that had stood unresolved since antiquarians first went looking for it.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260909005152.htm",
+      "url": "https://archaeology.org/news/2026/09/11/source-of-megalithic-monument-in-yorkshire-identified/",
       "location": "Boroughbridge, North Yorkshire, England",
       "season_or_time_context": "recent research finding",
       "first_seen": "2026-09-10T00:20:00Z",
-      "last_seen": "2026-09-10T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-12T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-12T14:30:00Z",
+          "note": "The same study confirms the monument's long-missing fourth stone was hiding in plain sight: a stone cross in nearby Aldborough village, disguised rather than destroyed - proving a 19th-century local legend true 600 years after it was repurposed."
+        },
         {
           "date": "2026-09-10T00:20:00Z",
           "note": "A geological study traces the Devil's Arrows' 25-tonne stones to Brimham Rocks, 18km away - overturning the long-held assumption that they came from the much closer Plumpton Rocks. The builders bypassed the nearer source for the harder one."
         }
       ],
-      "source_date": "2026-09-09"
+      "source_date": "2026-09-11"
     }
   ]
 }

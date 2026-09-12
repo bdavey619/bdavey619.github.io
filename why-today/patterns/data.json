@@ -1,6 +1,6 @@
 {
   "week": "2026-09-06",
-  "last_updated": "2026-09-12T00:20:00Z",
+  "last_updated": "2026-09-12T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -17,10 +17,10 @@
         },
         {
           "domain": "Foreign Policy",
-          "text": "Two days after CENTCOM denied Iran's destroyer-strike claim, Iran fired roughly 20 ballistic missiles at US and Jordanian bases overnight - the strait war's most kinetic night yet. Whatever \"de-escalation\" the denial implied didn't survive the news cycle that followed it.",
-          "url": "https://time.com/article/2026/09/09/iran-us-base-jordan-oil-tankers-war-strikes/",
-          "date": "2026-09-09",
-          "is_new": false
+          "text": "Day 196 of the conflict added another twist: the IRGC says it struck a Saildrone-type unmanned surface vessel at the strait's entrance, while UKMTO separately reported four projectiles hitting two vessels near Khasab, Oman - the target set still widening, not narrowing.",
+          "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
+          "date": "2026-09-11",
+          "is_new": true
         },
         {
           "domain": "Debt Management",
@@ -49,7 +49,7 @@
           "text": "María Corina Machado backs a long-term US role in Venezuelan oil but is now the one publicly asking who actually signed the 100-year deal, who finances it, and how Venezuelans benefit - the same basic questions a genuine resolution would already have answered.",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Machado-Backs-US-Oil-Partnership-but-Questions-Venezuela-Deal.html",
           "date": "2026-09-11",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Labor Policy",
