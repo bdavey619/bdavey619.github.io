@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-06",
-  "cycle_start": "2026-09-11T00:20:00Z",
-  "last_updated": "2026-09-11T14:30:00Z",
+  "cycle_start": "2026-09-11T14:30:00Z",
+  "last_updated": "2026-09-12T00:20:00Z",
   "storylines": [
     {
       "id": "nepal-tibet-glacial-flood",
@@ -46,6 +46,34 @@
         }
       ],
       "source_date": "2026-09-08"
+    },
+    {
+      "id": "anak-krakatau-missing-journalists",
+      "stream": "natural_world",
+      "observer": "Why Today?",
+      "title": "They went to document the eruption. The volcano may have taken them instead",
+      "observation": "Five Indonesian photojournalists and three crew members lost contact Sept 7 near Anak Krakatau while covering its eruption; four days on, searchers have found only a life jacket, with ongoing volcanic activity keeping rescue teams from approaching directly.",
+      "question": "What obligation does bearing witness carry, when the story itself is the thing that might kill you?",
+      "hidden_question": "Did the journalists take a risk the eruption made ordinary, or a risk the volcano made obvious that they went in anyway?",
+      "pattern": "a story's own subject becoming the reason its documentarians disappear",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The search has now expanded to nearby islands as crews sweep waters north of the volcano - four days in, with 11 vessels and 300+ personnel deployed, and no confirmed find beyond the recovered life jacket. PVMBG's recommended 3km exclusion zone means direct rescue and evacuation still isn't possible, only searching.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "http://www.thejakartapost.com/indonesia/2026/09/11/search-reaches-nearby-islands-as-eight-remain-missing-near-anak-krakatau",
+      "location": "Anak Krakatau, Sunda Strait, Indonesia",
+      "season_or_time_context": "active search operation, day 4-5",
+      "first_seen": "2026-09-12T00:20:00Z",
+      "last_seen": "2026-09-12T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-12T00:20:00Z",
+          "note": "Search for 5 journalists and 3 crew, missing since Sept 7 near Anak Krakatau, has expanded to nearby islands as 11+ vessels and 300+ personnel sweep north of the volcano. Only an unidentified life jacket has been recovered so far."
+        }
+      ],
+      "source_date": "2026-09-11"
     },
     {
       "id": "roman-space-telescope-launch",
@@ -269,16 +297,20 @@
       "pattern": "a resource deal signed by an unelected government, at a scale built to outlast any successor who might contest it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Mar\u00eda Corina Machado - who won Venezuela's 2023 election but was barred from taking office - has now added her voice, saying the country's oil reserves aren't the property of \"an illegitimate regime.\" Chevron's own timeline shows why the stakes are long: it's targeting 600,000 barrels a day only by 2031, up from ~280,000 today, a five-year bet on a government whose legitimacy is still being contested by the same opposition it needs to outlast.",
+      "why_now": "Chevron CEO Mike Wirth says the $7B expansion will be self-funded entirely from the profits of its Venezuelan joint ventures, not outside cash - while Machado, backing a long-term US oil role in principle, is now the one publicly asking who actually signed the deal, who finances it, what guarantees investors get, and how Venezuelans benefit.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.fool.com/investing/2026/09/09/chevron-wants-600000-barrels-a-day-from-venezuela/",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-11/chevron-s-venezuela-oil-sales-to-self-fund-expansion-ceo-says",
       "location": "Caracas, Venezuela / Washington, DC",
       "season_or_time_context": "deal signed, implementation underway",
       "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-09T14:30:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-12T00:20:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-12T00:20:00Z",
+          "note": "Chevron's CEO says its $7B expansion will be self-funded from Venezuelan JV profits, not outside cash. Machado, who backs a long-term US oil role, is now the one asking who signed the deal, who finances it, and how Venezuelans benefit."
+        },
         {
           "date": "2026-09-09T14:30:00Z",
           "note": "Mar\u00eda Corina Machado - barred from office despite winning Venezuela's 2023 election - says the oil reserves aren't the property of \"an illegitimate regime.\" Chevron's own target of 600,000 bpd, up from ~280,000 today, isn't due until 2031."
@@ -292,7 +324,7 @@
           "note": "Chevron put a specific figure on its separate expansion: $7B aimed at more than doubling its Venezuela output to roughly 600,000 barrels a day - a concrete number now sitting alongside the still-unresolved fight over the larger deal's legitimacy."
         }
       ],
-      "source_date": "2026-09-09"
+      "source_date": "2026-09-11"
     },
     {
       "id": "ganesh-chaturthi-eco-idol-tension",
@@ -514,6 +546,34 @@
         }
       ],
       "source_date": "2026-09-07"
+    },
+    {
+      "id": "hubble-webb-tno-survey-remember-past",
+      "stream": "curiosities",
+      "observer": "Why Today?",
+      "title": "The tiniest worlds past Neptune still wear their original colors",
+      "observation": "Hubble and Webb teamed up to study 27 newly discovered Trans-Neptunian Objects as small as 5-10km across - the faintest ever characterized - and found their surface colors match their much larger relatives, suggesting collisions haven't reshaped them as much as models predicted.",
+      "question": "What does it mean when something forms so far from everything else that even collisions can't change it?",
+      "hidden_question": "Are these objects untouched because nothing has happened to them, or because the solar system's violence simply never reached this far?",
+      "pattern": "tiny, distant objects preserving an original state that closer, more crowded neighbors long ago lost",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Published in two companion papers in The Astronomical Journal, the survey found fewer small TNOs than models predicted - and the ones that exist are so faint that one is described as equivalent to spotting fireflies on the Moon from Earth. Neither telescope could have done this alone: Hubble's visible-light sensitivity paired with Webb's infrared range made objects this small and dim detectable at all.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/",
+      "location": "Kuiper Belt, beyond Neptune",
+      "season_or_time_context": "recent research finding",
+      "first_seen": "2026-09-12T00:20:00Z",
+      "last_seen": "2026-09-12T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-12T00:20:00Z",
+          "note": "Hubble and Webb jointly characterized 27 newly discovered Trans-Neptunian Objects as small as 5-10km across, the faintest ever studied - finding their surface colors match much larger TNOs, suggesting collisions haven't reshaped them as models predicted."
+        }
+      ],
+      "source_date": "2026-09-09"
     },
     {
       "id": "devils-arrows-stone-source-identified",
