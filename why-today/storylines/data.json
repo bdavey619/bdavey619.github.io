@@ -1,145 +1,8 @@
 {
-  "week_start": "2026-09-06",
-  "cycle_start": "2026-09-12T00:20:00Z",
-  "last_updated": "2026-09-12T14:30:00Z",
+  "week_start": "2026-09-13",
+  "cycle_start": "2026-09-12T14:30:00Z",
+  "last_updated": "2026-09-13T00:20:00Z",
   "storylines": [
-    {
-      "id": "nepal-tibet-glacial-flood",
-      "stream": "natural_world",
-      "observer": "Why Today?",
-      "title": "The warning existed in the satellite data. There was just nobody watching it in real time",
-      "observation": "A glacial lake high in the Himalayas drained on Aug 26, sending a 100km wall of water through Nepal and Tibet \u2014 now Nepal's deadliest disaster since the 2015 earthquake, with precursor signs confirmed in satellite imagery days before it happened.",
-      "question": "What is the difference between a hazard being unpredictable and a hazard nobody was watching for?",
-      "hidden_question": "If the data existed, was this a natural disaster or an infrastructure failure wearing one's face?",
-      "pattern": "a warning that existed in the data but not in any system built to notice it",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "Two dedicated searches across two cycles have turned up only figures already logged, not a genuinely new development - the acute rescue phase has given way to a steady-state recovery that isn't generating fresh, cleanly-sourced reporting day to day. Going dormant rather than re-bumping; worth reactivating on a new casualty milestone or a findings report on the warning-system failure.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://news.mongabay.com/2026/09/during-nepal-floods-decentralized-community-based-warning-saved-lives/",
-      "location": "Langtang, Nepal / Gyirong, Tibet",
-      "season_or_time_context": "post-disaster search and rescue",
-      "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-09T00:20:00Z",
-      "appearances": 5,
-      "history": [
-        {
-          "date": "2026-09-09T00:20:00Z",
-          "note": "A Mongabay investigation finds Nepal's official sensor-and-SMS warning system arrived late, in Nepali only, with no location-specific guidance - while informal community phone networks reached people faster, saving 900 children at one site alone."
-        },
-        {
-          "date": "2026-09-08T14:30:00Z",
-          "note": "Official evening figures: 1,358 dead, 5,326 missing - the missing count rising again rather than falling in a straight line. 21,146 security personnel remain mobilized; helicopters ran 112 flights in a single day."
-        },
-        {
-          "date": "2026-09-07T14:30:00Z",
-          "note": "Ten days on, rescuers pulled a third worker alive from a hydropower tunnel and found a 60-year-old woman alive in flood debris in Nuwakot - survivors still emerging even as the disaster moves into its accounting phase."
-        },
-        {
-          "date": "2026-09-06T14:30:00Z",
-          "note": "NDRRMA puts a preliminary number on the damage: ~Rs 387.5 billion (~$2.8B) in losses, with Rs 8 billion needed just for the next four months of restoration - the accounting phase now running alongside a missing count still near 4,500."
-        },
-        {
-          "date": "2026-09-06T00:20:00Z",
-          "note": "Ten days on: 1,344 dead, ~4,900 still missing in Nepal (down from 5,083), 13,000+ rescued - now officially Nepal's deadliest disaster since the 2015 earthquake. Two-thirds of missing hydropower workers were at one site, Upper Trishuli-1."
-        }
-      ],
-      "source_date": "2026-09-08"
-    },
-    {
-      "id": "anak-krakatau-missing-journalists",
-      "stream": "natural_world",
-      "observer": "Why Today?",
-      "title": "They went to document the eruption. The volcano may have taken them instead",
-      "observation": "Five Indonesian photojournalists and three crew members lost contact Sept 7 near Anak Krakatau while covering its eruption; four days on, searchers have found only a life jacket, with ongoing volcanic activity keeping rescue teams from approaching directly.",
-      "question": "What obligation does bearing witness carry, when the story itself is the thing that might kill you?",
-      "hidden_question": "Did the journalists take a risk the eruption made ordinary, or a risk the volcano made obvious that they went in anyway?",
-      "pattern": "a story's own subject becoming the reason its documentarians disappear",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "The search has now expanded to nearby islands as crews sweep waters north of the volcano - four days in, with 11 vessels and 300+ personnel deployed, and no confirmed find beyond the recovered life jacket. PVMBG's recommended 3km exclusion zone means direct rescue and evacuation still isn't possible, only searching.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "http://www.thejakartapost.com/indonesia/2026/09/11/search-reaches-nearby-islands-as-eight-remain-missing-near-anak-krakatau",
-      "location": "Anak Krakatau, Sunda Strait, Indonesia",
-      "season_or_time_context": "active search operation, day 4-5",
-      "first_seen": "2026-09-12T00:20:00Z",
-      "last_seen": "2026-09-12T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-09-12T00:20:00Z",
-          "note": "Search for 5 journalists and 3 crew, missing since Sept 7 near Anak Krakatau, has expanded to nearby islands as 11+ vessels and 300+ personnel sweep north of the volcano. Only an unidentified life jacket has been recovered so far."
-        }
-      ],
-      "source_date": "2026-09-11"
-    },
-    {
-      "id": "roman-space-telescope-launch",
-      "stream": "curiosities",
-      "observer": "Why Today?",
-      "title": "A telescope built to find what we don't have a name for yet",
-      "observation": "NASA's Roman Space Telescope, launched Aug 30 with a mirror the size of Hubble's but surveying roughly a hundred times more sky per shot, is now deep in a deliberate one-instrument-at-a-time commissioning sequence on its way to the Sun-Earth L2 point.",
-      "question": "What do you build when the thing you're looking for doesn't have a name yet?",
-      "hidden_question": "Is breadth or depth the better strategy for finding something genuinely unexpected?",
-      "pattern": "wide-survey instrument built to catch what narrow ones would miss",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "No reporting has moved past the Sept 1 coronagraph power-on across three consecutive checks - the mission is now in a genuinely quiet calibration period, with the next real milestone (the Wide Field Instrument powering on) still roughly two weeks out. Going dormant rather than re-bumping the same fact a fourth time; worth reactivating when that instrument powers on.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://science.nasa.gov/blogs/roman/2026/09/01/nasa-romans-planet-imager-has-powered-on/",
-      "location": "Kennedy Space Center, Florida, USA",
-      "season_or_time_context": "post-launch, en route to L2",
-      "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-06T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-09-06T00:20:00Z",
-          "note": "The Coronagraph Instrument itself powered on Sept 1 - a planet-imager built to block starlight and see faint reflected light from orbiting planets - and now begins months of calibration ahead of first images expected in early 2027."
-        }
-      ],
-      "source_date": "2026-09-01"
-    },
-    {
-      "id": "armenia-kocharyan-detention-eu-bid",
-      "stream": "headlines",
-      "category": "Politics & World",
-      "observer": "Why Today?",
-      "title": "Armenia jails its most prominent opposition leader the day after declaring for Europe",
-      "observation": "Armenian prosecutors detained former president and opposition-bloc leader Robert Kocharyan on corruption charges one day after PM Pashinyan announced Armenia's EU membership bid \u2014 raising the question of whether the case is accountability or a rival cleared from the board at a pivotal moment.",
-      "question": "How do you tell an anti-corruption prosecution from a political purge when both can look identical from the outside?",
-      "hidden_question": "Does the timing itself become evidence, even when the underlying charges might be entirely legitimate?",
-      "pattern": "a legal crackdown landing at the exact moment it most benefits the government's freedom of maneuver",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "Two consecutive cycles of dedicated searches have surfaced nothing beyond the ECHR/UN appeal already logged - the story has settled into procedural waiting. Going dormant rather than re-bumping an unchanged posture; worth reactivating on an actual appeal filing or a ruling on Kocharyan's detention.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://news.am/en/news/1060266",
-      "location": "Yerevan, Armenia",
-      "season_or_time_context": "ahead of Armenia's EU accession push",
-      "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-08T14:30:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-09-08T14:30:00Z",
-          "note": "Kocharyan's lawyer says the case will be appealed to international courts - the ECHR or a UN body - calling it a mandatory step rather than an escalation. Either way, it puts Armenia's judiciary in front of outside scrutiny."
-        },
-        {
-          "date": "2026-09-08T00:20:00Z",
-          "note": "Putin broke his own usual practice and skipped congratulating Pashinyan on his June election win - a quiet snub - as Pashinyan now insists Armenia can pursue EU rapprochement while staying in the EAEU, a framing Moscow has never accepted."
-        },
-        {
-          "date": "2026-09-06T00:20:00Z",
-          "note": "Kocharyan issued a message from prison warning \"this must come to an end, or everyone should start learning Turkish,\" accusing Armenians of losing their collective self-preservation instinct - his own voice entering the fight for the first time since detention."
-        }
-      ],
-      "source_date": "2026-09-08"
-    },
     {
       "id": "hormuz-iran-new-demands",
       "stream": "markets",
@@ -157,89 +20,44 @@
       "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
-      "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-12T14:30:00Z",
-      "appearances": 11,
+      "first_seen": "2026-09-13T00:20:00Z",
+      "last_seen": "2026-09-13T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-09-12T14:30:00Z",
+          "date": "2026-09-13T00:20:00Z",
           "note": "IRGC says it struck a Saildrone Explorer-type unmanned surface vessel at the strait's entrance; UKMTO separately reported four projectiles hitting two vessels west of Khasab, Oman - the target set widening to uncrewed monitoring assets, not just tankers."
-        },
-        {
-          "date": "2026-09-11T00:20:00Z",
-          "note": "Brent settled near $108, oil's highest in nearly four months, after a ~7% single-session jump - as US stocks fell a fourth straight day and wholesale inflation hit 5.4% YoY, pushing Sept 15-16 rate-hike odds to ~70%."
-        },
-        {
-          "date": "2026-09-10T14:30:00Z",
-          "note": "IAEA's board voted 23-3-8 to refer Iran to the UN Security Council for nuclear non-compliance - the first such referral in 20 years - a day after the US sank five Iranian tankers, the strike that triggered Iran's missile retaliation."
-        },
-        {
-          "date": "2026-09-10T00:20:00Z",
-          "note": "Iran fired ~20 ballistic missiles at US/Jordanian bases overnight - a drone hangar, a Marine Corps camp on the Gulf of Aqaba - retaliating for the tanker strikes. Jordan intercepted 18; two landed unpopulated. The war's most kinetic night yet."
-        },
-        {
-          "date": "2026-09-09T14:30:00Z",
-          "note": "IRGC claimed it struck two named US destroyers; CENTCOM flatly denied it, saying \"all IRGC attempted attacks failed.\" Neither side has offered independent evidence - two irreconcilable official accounts of the same day, not just disputed numbers."
         }
       ],
       "source_date": "2026-09-11"
     },
     {
-      "id": "kenya-nurses-strike-ends",
-      "stream": "headlines",
-      "category": "Politics & World",
+      "id": "anak-krakatau-missing-journalists",
+      "stream": "natural_world",
       "observer": "Why Today?",
-      "title": "The strike ended in a day. Counting what it cost took six weeks",
-      "observation": "Kenyan nurses returned to work Sept 9 after a 43-day strike over pay and an unimplemented 2017 labor deal - called off with a 45-day window to finalize terms, after officials linked the walkout to 83 maternal and 513 perinatal deaths.",
-      "question": "What does it cost a health system to let a labor dispute run long enough that the body count becomes its own statistic?",
-      "hidden_question": "Is a 45-day negotiating window a real deadline, or the same kind of deferred promise that let the 2017 agreement sit unimplemented for eight years?",
-      "pattern": "a resolved labor dispute whose casualty count keeps being tallied after the resolution",
-      "transferability": "high",
+      "title": "They went to document the eruption. The volcano may have taken them instead",
+      "observation": "Five Indonesian photojournalists and three crew members lost contact Sept 7 near Anak Krakatau while covering its eruption; days on, searchers have found only a life jacket, with ongoing volcanic activity keeping rescue teams from approaching directly.",
+      "question": "What obligation does bearing witness carry, when the story itself is the thing that might kill you?",
+      "hidden_question": "Did the journalists take a risk the eruption made ordinary, or a risk the volcano made obvious that they went in anyway?",
+      "pattern": "a story's own subject becoming the reason its documentarians disappear",
+      "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The Council of Governors ended the strike with a Ksh8,000 risk-allowance increase and Ksh5,000 more for uniforms - modest terms attached to the same 2017 collective bargaining agreement that an earlier six-month strike also produced, and that went unimplemented for eight years over what officials called budget constraints.",
+      "why_now": "The search has expanded to nearby islands as crews sweep waters north of the volcano, with 11 vessels and 300+ personnel deployed and no confirmed find beyond the recovered life jacket. PVMBG's recommended 3km exclusion zone means direct rescue and evacuation still isn't possible, only searching.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://abcnews.com/Health/wireStory/kenyas-nurses-end-week-strike-after-signing-deal-136304537",
-      "location": "Nairobi, Kenya",
-      "season_or_time_context": "strike resolved, 45-day negotiation window open",
-      "first_seen": "2026-09-10T14:30:00Z",
-      "last_seen": "2026-09-10T14:30:00Z",
+      "url": "http://www.thejakartapost.com/indonesia/2026/09/11/search-reaches-nearby-islands-as-eight-remain-missing-near-anak-krakatau",
+      "location": "Anak Krakatau, Sunda Strait, Indonesia",
+      "season_or_time_context": "active search operation",
+      "first_seen": "2026-09-13T00:20:00Z",
+      "last_seen": "2026-09-13T00:20:00Z",
       "appearances": 1,
       "history": [
         {
-          "date": "2026-09-10T14:30:00Z",
-          "note": "Nurses returned to work Sept 9 after 43 days, ending a strike Kenya's human rights commission linked to 83 maternal and 513 perinatal deaths. The fix: modest allowance increases, plus 45 more days to implement a CBA unimplemented since 2017."
+          "date": "2026-09-13T00:20:00Z",
+          "note": "Search for 5 journalists and 3 crew, missing since Sept 7 near Anak Krakatau, has expanded to nearby islands as 11+ vessels and 300+ personnel sweep north of the volcano. Only an unidentified life jacket has been recovered so far."
         }
       ],
-      "source_date": "2026-09-09"
-    },
-    {
-      "id": "ecb-rate-hike-iran-war-inflation",
-      "stream": "markets",
-      "observer": "Why Today?",
-      "title": "A war fought in the Strait of Hormuz just moved interest rates in Frankfurt",
-      "observation": "The ECB raised its deposit rate a quarter point to 2.50% on Sept 10 - its second hike in three months - after finding Iran-war energy shocks drove roughly 90% of the eurozone's energy-inflation rise since January, with 2026 inflation now forecast at 3.0%.",
-      "question": "When a war's costs show up as a central bank's interest-rate decision, whose war is it actually being fought and paid for?",
-      "hidden_question": "Is a rate hike a neutral technical response to inflation data, or the clearest evidence yet of who ends up paying for someone else's war?",
-      "pattern": "a conflict's costs surfacing as a monetary-policy decision thousands of miles from the fighting",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "The ECB's own analysis is specific: energy-supply factors, not demand or policy stimulus, drove about 90% of the eurozone's energy-inflation increase between January and May - and it raised both its inflation forecast (3.0% for 2026) and its growth forecast together, an unusual pairing that reflects a shock arriving from outside the economy rather than from within it.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://www.euronews.com/business/2026/09/10/ecb-hikes-rates-to-25-as-energy-shock-pushes-eurozone-inflation-higher",
-      "location": "Frankfurt, Germany (governing council met in Berlin)",
-      "season_or_time_context": "second rate hike in three months",
-      "first_seen": "2026-09-11T00:20:00Z",
-      "last_seen": "2026-09-11T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-09-11T00:20:00Z",
-          "note": "The ECB raised its deposit rate to 2.50%, its second hike in three months, after its own analysis found energy-supply shocks - not demand - drove ~90% of the eurozone's energy-inflation rise since January, alongside a raised growth forecast."
-        }
-      ],
-      "source_date": "2026-09-10"
+      "source_date": "2026-09-11"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -253,38 +71,22 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The outbreak has now spread to a seventh Congolese province, officials say - still the world's fastest-growing Ebola outbreak on record, with more than 1,700 MSF staff working across Ituri, North Kivu, South Kivu, Haut-Uele and Tshopo. The geographic footprint is now outrunning the response as fast as the case count is.",
+      "why_now": "Africa's top health body has now warned the outbreak is \"rapidly spreading beyond its epicenter\" - cases have topped 7,000 confirmed with 3,349+ dead across 62 health zones in seven provinces. Ituri, the original epicenter, is finally cooling, but North Kivu and Haut-Uele are climbing sharply instead - the fire moving faster than it's being put out anywhere.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.ksat.com/health/2026/09/11/ebola-outbreak-in-eastern-congo-has-now-spread-to-the-countrys-seventh-province-officials-say/",
+      "url": "https://abcnews.com/Health/wireStory/africas-top-health-body-warns-congos-ebola-outbreak-136345198",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
-      "first_seen": "2026-09-07T14:30:00Z",
-      "last_seen": "2026-09-11T14:30:00Z",
-      "appearances": 5,
+      "first_seen": "2026-09-13T00:20:00Z",
+      "last_seen": "2026-09-13T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-09-11T14:30:00Z",
-          "note": "The outbreak has now spread to a seventh Congolese province, officials say - still the world's fastest-growing Ebola outbreak on record, with 1,700+ MSF staff working across Ituri, North Kivu, South Kivu, Haut-Uele and Tshopo."
-        },
-        {
-          "date": "2026-09-09T14:30:00Z",
-          "note": "The outbreak is caused by the Bundibugyo species, not the Zaire species that existing approved vaccines and treatments target - the standard tools don't directly apply. It's the fastest-growing Ebola outbreak on record, now the second-largest overall."
-        },
-        {
-          "date": "2026-09-09T00:20:00Z",
-          "note": "As of Sept 7: 6,686 confirmed, 3,226 dead (up 82 cases/51 deaths in a day) - officially the largest and deadliest Ebola outbreak in Congo's history, surpassing 2018-2020, and it crossed that line while the conflict-surveillance gap was still open."
-        },
-        {
-          "date": "2026-09-08T14:30:00Z",
-          "note": "The national count keeps climbing: 6,604 confirmed, 3,175 dead as of Sept 6 (up from 6,342/3,072), North Kivu alone at 1,000 cases/659 deaths. Health workers treating them have struck multiple times over unpaid wages."
-        },
-        {
-          "date": "2026-09-07T14:30:00Z",
-          "note": "A new Ebola case surfaced in rebel-held Kayna, North Kivu, in a patient who'd traveled from government-held Butembo - months after M23 declared the outbreak over in its territory. M23 has reimposed movement restrictions it had eased."
+          "date": "2026-09-13T00:20:00Z",
+          "note": "Africa's top health body warns the outbreak is \"rapidly spreading beyond its epicenter\" - 7,000+ confirmed cases, 3,349+ dead across 62 health zones in 7 provinces. Ituri is cooling, but North Kivu and Haut-Uele are climbing sharply instead."
         }
       ],
-      "source_date": "2026-09-11"
+      "source_date": "2026-09-12"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -303,28 +105,44 @@
       "url": "https://www.bloomberg.com/news/articles/2026-09-11/chevron-s-venezuela-oil-sales-to-self-fund-expansion-ceo-says",
       "location": "Caracas, Venezuela / Washington, DC",
       "season_or_time_context": "deal signed, implementation underway",
-      "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-12T00:20:00Z",
-      "appearances": 4,
+      "first_seen": "2026-09-13T00:20:00Z",
+      "last_seen": "2026-09-13T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-09-12T00:20:00Z",
-          "note": "Chevron's CEO says its $7B expansion will be self-funded from Venezuelan JV profits, not outside cash. Machado, who backs a long-term US oil role, is now the one asking who signed the deal, who finances it, and how Venezuelans benefit."
-        },
-        {
-          "date": "2026-09-09T14:30:00Z",
-          "note": "Mar\u00eda Corina Machado - barred from office despite winning Venezuela's 2023 election - says the oil reserves aren't the property of \"an illegitimate regime.\" Chevron's own target of 600,000 bpd, up from ~280,000 today, isn't due until 2031."
-        },
-        {
-          "date": "2026-09-08T00:20:00Z",
-          "note": "Opposition figure Henrique Capriles publicly criticized \"the opacity that has characterized the country's oil revenues,\" as Halliburton reportedly nears its own separate Venezuela deal - critics of the process aren't positioned to stop more firms joining it."
-        },
-        {
-          "date": "2026-09-06T00:20:00Z",
-          "note": "Chevron put a specific figure on its separate expansion: $7B aimed at more than doubling its Venezuela output to roughly 600,000 barrels a day - a concrete number now sitting alongside the still-unresolved fight over the larger deal's legitimacy."
+          "date": "2026-09-13T00:20:00Z",
+          "note": "Chevron's CEO says its $7B expansion will be self-funded from Venezuelan JV profits, not outside cash. Machado, who backs a long-term US oil role, is now asking who signed the deal, who finances it, and how Venezuelans benefit."
         }
       ],
       "source_date": "2026-09-11"
+    },
+    {
+      "id": "canada-us-tariffs-take-effect",
+      "stream": "markets",
+      "observer": "Why Today?",
+      "title": "The tariffs everyone had two weeks to prepare for took effect anyway",
+      "observation": "Canada's dollar-for-dollar retaliatory tariffs on more than 700 US goods took effect Sept 8, matching the US's own 50% tariff on $27.6 billion of Canadian goods - the negotiated-deal window both sides had two weeks to use closed without one.",
+      "question": "What does advance notice actually buy two governments, if both sides let the deadline arrive anyway?",
+      "hidden_question": "Was the two-week gap real negotiating time, or just a formality both sides always expected to expire?",
+      "pattern": "a telegraphed deadline arriving exactly as threatened, despite weeks of visible opportunity to avoid it",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Carney called Trump's import-ban proclamations \"relatively modest\" compared to earlier US actions and signaled Canada will hold off on further retaliation for now - a deliberate step down after two straight escalations, even as he keeps insisting Washington \"start being serious\" about actually negotiating.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.washingtonpost.com/world/2026/09/10/trump-canada-tariffs-ford-carney/88b4cccc-ad3d-11f1-b498-8697f35a6743_story.html",
+      "location": "Canada / United States",
+      "season_or_time_context": "tariffs effective, ban pending Sept 29",
+      "first_seen": "2026-09-13T00:20:00Z",
+      "last_seen": "2026-09-13T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-13T00:20:00Z",
+          "note": "Carney called Trump's import-ban proclamations \"relatively modest\" and signaled Canada will hold off on further retaliation for now - a deliberate step down after two straight escalations, even while pressing Washington to \"start being serious\" about negotiating."
+        }
+      ],
+      "source_date": "2026-09-10"
     },
     {
       "id": "ganesh-chaturthi-eco-idol-tension",
@@ -337,275 +155,107 @@
       "pattern": "a traditional practice re-engineering its own central object to survive contact with modern environmental limits",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Bengaluru has now joined Mumbai and Hyderabad with the sharpest enforcement yet: the Greater Bengaluru Authority banned production, sale and immersion of PoP, thermocol and chemical-paint idols outright, fast-tracking celebration permits within 24 hours while threatening violators with criminal action, not just fines.",
+      "why_now": "Bengaluru has joined Mumbai and Hyderabad with the sharpest enforcement yet: the Greater Bengaluru Authority banned production, sale and immersion of PoP, thermocol and chemical-paint idols outright, fast-tracking celebration permits within 24 hours while threatening violators with criminal action, not just fines - all landing just as the festival itself begins.",
       "status": "captured",
       "editorial_potential": "medium",
       "url": "https://www.oneindia.com/bengaluru/bengaluru-ganesh-chaturthi-2026-plaster-of-paris-idols-banned-permissions-to-be-issued-within-24-h-8200177.html",
       "location": "India (Mumbai, Hyderabad, Bengaluru, and nationwide)",
-      "season_or_time_context": "run-up to Ganesh Chaturthi, Sept 14-25",
-      "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-11T00:20:00Z",
-      "appearances": 3,
+      "season_or_time_context": "festival begins Sept 14",
+      "first_seen": "2026-09-13T00:20:00Z",
+      "last_seen": "2026-09-13T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-09-11T00:20:00Z",
-          "note": "Bengaluru's GBA banned production, sale and immersion of PoP, thermocol and chemical-paint idols outright - criminal action for violators, not just fines - while fast-tracking celebration permits within 24 hours. The sharpest enforcement yet, in a third major city."
-        },
-        {
-          "date": "2026-09-08T00:20:00Z",
-          "note": "Hyderabad's GHMC, TGPCB and HMDA are together distributing nearly 475,000 free clay idols this week - the eco-idol tension now being answered with government-supplied volume, not just court-ordered restriction."
-        },
-        {
-          "date": "2026-09-06T00:20:00Z",
-          "note": "A Bombay High Court directive now requires Mumbai idols under 6 feet to immerse in artificial ponds, not the sea - the same eco-idol tension already active in Hyderabad has reached India's largest Ganeshotsav city, this time by court order."
+          "date": "2026-09-13T00:20:00Z",
+          "note": "Bengaluru's GBA banned production, sale and immersion of PoP, thermocol and chemical-paint idols outright - criminal action for violators, not just fines - while fast-tracking celebration permits, the sharpest enforcement yet as the festival begins Sept 14."
         }
       ],
       "source_date": "2026-09-09"
     },
     {
-      "id": "rosh-hashanah-wartime-observance",
-      "stream": "human_rituals",
-      "observer": "Why Today?",
-      "title": "The army is packing 9.6 tons of honey for a holiday meal on an active front",
-      "observation": "Israel's High Holidays begin at sunset Sept 11 amid ongoing multi-front military operations: the IDF has prepared roughly 10,000 field-adapted Rosh Hashanah meal kits for deployed troops, while police plan a nationwide deployment under a holiday-specific terror-threat warning tied to Iran, Hezbollah and Hamas.",
-      "question": "What does it mean to observe a holiday built around renewal and sweetness by building the observance entirely around active defense?",
-      "hidden_question": "Does adapting a ritual to wartime conditions preserve what the ritual means, or does the adaptation itself quietly become the year's real observance?",
-      "pattern": "a ritual of renewal proceeding on schedule by wrapping itself around military and security infrastructure rather than pausing for it",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "Israel will close the Kerem Shalom crossing with Gaza on Sunday for the holiday - but aid will still be collected from the Gazan side, so the closure suspends the ritual's normal pause on labor without suspending the humanitarian pipeline it sits next to. The IDF also demolished a Hezbollah tunnel network in south Lebanon overnight, an operation large enough to register as an earthquake.",
-      "status": "captured",
-      "editorial_potential": "medium",
-      "url": "https://www.timesofisrael.com/liveblog-september-11-2026/",
-      "location": "Israel",
-      "season_or_time_context": "Rosh Hashanah begins sunset Sept 11",
-      "first_seen": "2026-09-10T14:30:00Z",
-      "last_seen": "2026-09-11T14:30:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-09-11T14:30:00Z",
-          "note": "Israel closes the Kerem Shalom crossing for the holiday Sunday, but aid keeps moving from Gaza's side. Overnight, the IDF separately demolished a Hezbollah tunnel network large enough to register as a quake."
-        },
-        {
-          "date": "2026-09-10T14:30:00Z",
-          "note": "The IDF's Central Supply Center completed prep of ~10,000 field-adapted Rosh Hashanah meal kits (12 tons pomegranates, 9.6 tons honey, 103 tons fish) for deployed troops, as police separately plan a nationwide High Holidays deployment under a terror warning."
-        }
-      ],
-      "source_date": "2026-09-11"
-    },
-    {
-      "id": "ny-climate-superfund-struck-down",
+      "id": "trump-loyalty-question-blocked",
       "stream": "headlines",
       "category": "Politics & World",
       "observer": "Why Today?",
-      "title": "A state tried to send fossil fuel companies a $75 billion bill. A federal judge just voided it",
-      "observation": "A federal judge struck down New York's Climate Change Superfund Act, which sought to collect roughly $75 billion from fossil fuel companies for past emissions, ruling the state law is preempted by federal law and reaches into territory that belongs to Washington, not Albany.",
-      "question": "Can any single state make a global industry pay for a global harm, or does the scale of the problem itself put the remedy out of a state's legal reach?",
-      "hidden_question": "Is this ruling about federalism, or is it about which level of government is actually willing to send the bill?",
-      "pattern": "a state-level remedy for a global-scale harm struck down for operating at the wrong scale of government",
+      "title": "A judge just ruled that 70,000 federal job postings broke the Constitution",
+      "observation": "A federal judge blocked the Trump administration's practice of asking civil-service applicants to write essays on how they'd advance the president's executive orders, ruling the OPM-mandated question likely violated First Amendment speech rights across more than 70,000 job postings government-wide.",
+      "question": "Where is the line between asking a civil servant to serve the president and asking them to swear loyalty to him personally?",
+      "hidden_question": "Did the merit-based hiring system survive this ruling intact, or just get one lucky reprieve before the next version of the same question?",
+      "pattern": "a test of personal political loyalty embedded inside a supposedly neutral government process",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "No appeal has been filed as of Sept 10 - Hochul says the state is still \"looking\" at its options, and the AG's office has deferred comment back to the governor's. Going dormant rather than re-bumping an unchanged legal posture; worth reactivating when James actually files, or when the court's Sept 14 status-report deadline forces a decision.",
-      "status": "dormant",
+      "why_now": "US District Judge George O'Toole, a Clinton appointee, sided with three federal-employee unions who argued the essay question unlawfully politicized nonpartisan hiring - Democracy Forward called it an attempt to assess support for the president disguised as a standard job application, present on over 70,000 postings before the ruling.",
+      "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.justice.gov/opa/pr/new-york-judge-blocks-state-new-yorks-unconstitutional-climate-superfund-act",
-      "location": "Albany, New York / Northern District of New York",
+      "url": "https://www.usnews.com/news/politics/articles/2026-09-11/us-judge-blocks-trump-administrations-loyalty-question-for-job-applicants",
+      "location": "Boston, Massachusetts (US District Court)",
       "season_or_time_context": "ruling issued, appeal window open",
-      "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-07T14:30:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-09-07T14:30:00Z",
-          "note": "DOJ's statement called the law \"unconstitutional,\" going further than the judge's narrower preemption ruling. State Sen. Liz Krueger, the bill's co-sponsor, is now telling the AG directly: \"we believe that we will win\" on appeal."
-        },
-        {
-          "date": "2026-09-06T00:20:00Z",
-          "note": "Climate advocates are publicly pressing AG Letitia James to appeal Judge Sannes' ruling, calling it \"far from the last word.\" Hochul still hasn't committed either way, with the court's Sept 14 status-report deadline now less than two weeks out."
-        }
-      ],
-      "source_date": "2026-09-07"
-    },
-    {
-      "id": "serbia-roman-emperor-bath",
-      "stream": "places",
-      "observer": "Why Today?",
-      "title": "The emperor built his bathhouse inside the one part of the palace made for war",
-      "observation": "Archaeologists uncovered a 1,700-year-old private bath complex \u2014 heated floors, three pools, a sauna, a domed ceiling with six windows \u2014 built inside a defensive tower at the fortified palace of Vrelo-\u0160arkamen in Serbia, once home to Roman emperor Maximinus Daza.",
-      "question": "What does it mean to build the palace's most comfortable room inside the one part of it designed for defense?",
-      "hidden_question": "Was hiding luxury inside a fortification a sign the emperor felt safe, or a sign he specifically didn't?",
-      "pattern": "opulence deliberately built inside the structure meant to withstand attack",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "No follow-up reporting has surfaced since the initial find; going dormant as a single-note discovery rather than re-bumping it without anything new. Worth reactivating if the Institute of Archaeology publishes further findings on the site.",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://www.livescience.com/archaeology/romans/lavish-private-bath-used-by-roman-emperor-and-high-status-residents-discovered-at-imperial-palace-in-serbia",
-      "location": "Vrelo-\u0160arkamen, eastern Serbia",
-      "season_or_time_context": "recent archaeological find",
-      "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-06T00:20:00Z",
+      "first_seen": "2026-09-13T00:20:00Z",
+      "last_seen": "2026-09-13T00:20:00Z",
       "appearances": 1,
       "history": [
         {
-          "date": "2026-09-06T00:20:00Z",
-          "note": "A 1,700-year-old bath complex - heated floors, three pools, a sauna - was found built into a defensive tower at emperor Maximinus Daza's palace in Serbia. Archaeologists say the tower-bath combination has no known parallel elsewhere in the empire."
-        }
-      ],
-      "source_date": "2026-09-04"
-    },
-    {
-      "id": "saturn-south-pole-decagon",
-      "stream": "curiosities",
-      "observer": "Why Today?",
-      "title": "Saturn grew a second hexagon, except it has ten sides",
-      "observation": "Hubble has confirmed a huge ten-sided atmospheric wave encircling Saturn's south pole \u2014 the first large, regular-sided jet pattern ever observed in the planet's southern hemisphere, and a feature Cassini's 13 years in orbit never showed any sign of.",
-      "question": "What does it mean for a stable, decades-old planetary feature to suddenly grow an entirely new counterpart?",
-      "hidden_question": "Is this evidence the hexagon's mechanism was always latent at both poles, or evidence something about Saturn's atmosphere has actually changed?",
-      "pattern": "a long-studied, presumed-stable phenomenon turning out to have an undiscovered twin",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "No follow-up reporting has surfaced since Hubble's initial confirmation; going dormant as a single-note research finding rather than re-bumping it without anything new. Worth reactivating if a follow-up observation campaign or new modeling of the feature emerges.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
-      "location": "Saturn's south pole",
-      "season_or_time_context": "recent research finding",
-      "first_seen": "2026-09-06T00:20:00Z",
-      "last_seen": "2026-09-06T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-09-06T00:20:00Z",
-          "note": "Hubble confirms a ten-sided atmospheric wave circling Saturn's south pole, tracing back to 2023 and still strengthening - the first large regular-sided jet pattern ever seen there, after decades of searches and 13 years of Cassini data showed nothing."
-        }
-      ],
-      "source_date": "2026-09-03"
-    },
-    {
-      "id": "canada-us-tariffs-take-effect",
-      "stream": "markets",
-      "observer": "Why Today?",
-      "title": "The tariffs everyone had two weeks to prepare for took effect anyway",
-      "observation": "Canada's dollar-for-dollar retaliatory tariffs on more than 700 US goods took effect at 12:01am today, matching the US's own 50% tariff on $27.6 billion of Canadian goods - the negotiated-deal window both sides had two weeks to use closed without one.",
-      "question": "What does advance notice actually buy two governments, if both sides let the deadline arrive anyway?",
-      "hidden_question": "Was the two-week gap real negotiating time, or just a formality both sides always expected to expire?",
-      "pattern": "a telegraphed deadline arriving exactly as threatened, despite weeks of visible opportunity to avoid it",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "Carney called Trump's import-ban proclamations \"relatively modest\" compared to earlier US actions and signaled Canada will hold off on further retaliation for now - a deliberate step down after two straight escalations, even as he keeps insisting Washington \"start being serious\" about actually negotiating.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://www.washingtonpost.com/world/2026/09/10/trump-canada-tariffs-ford-carney/88b4cccc-ad3d-11f1-b498-8697f35a6743_story.html",
-      "location": "Canada / United States",
-      "season_or_time_context": "tariffs effective, ban pending Sept 29",
-      "first_seen": "2026-09-08T00:20:00Z",
-      "last_seen": "2026-09-11T14:30:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-09-11T14:30:00Z",
-          "note": "Carney called Trump's import-ban proclamations \"relatively modest\" and signaled Canada will hold off on further retaliation for now - a deliberate step down after two straight escalations, even while still pressing Washington to \"start being serious\" about negotiating."
-        },
-        {
-          "date": "2026-09-10T00:20:00Z",
-          "note": "Trump signed five proclamations banning Canadian dairy, alcohol and larger motorcycles outright, effective Sept 29, using Section 338 of the 1930 Tariff Act - moving from tariff rates to excluding entire product categories in direct response."
-        },
-        {
-          "date": "2026-09-08T00:20:00Z",
-          "note": "Canada's retaliatory tariffs on 700+ US goods took effect at 12:01am, matching the US's 50% tariff on $27.6B of Canadian goods dollar-for-dollar - the two-week negotiation window both sides had closed without a deal."
-        }
-      ],
-      "source_date": "2026-09-10"
-    },
-    {
-      "id": "quantum-gravity-equivalence-principle-observed",
-      "stream": "curiosities",
-      "observer": "Why Today?",
-      "title": "A rule from Einstein's world just showed up in the quantum one",
-      "observation": "Physicists split an ultracold atom's quantum wave in two, held one half in place while the other fell freely, then reunited them - directly measuring, for the first time, the exact phase effect Einstein's equivalence principle predicts for a freely falling quantum object.",
-      "question": "What does it mean for a rule built to describe planets and starlight to also govern how a single atom falls?",
-      "hidden_question": "Is this confirmation that gravity and quantum mechanics already share the same rulebook, or just proof we finally built an instrument sensitive enough to check?",
-      "pattern": "a century-old prediction from one physical theory confirmed directly inside the domain of a completely different one",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "No coverage beyond the original Sept 2 publication has surfaced across two dedicated checks - the finding is complete as reported, with the team's own next step (extending the technique to heavier objects like nanodiamonds) still underway rather than published. Going dormant rather than re-bumping; worth reactivating when that follow-up experiment reports results.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260907201552.htm",
-      "location": "University of Oxford / Ben-Gurion University of the Negev / University of Ulm",
-      "season_or_time_context": "recent research finding",
-      "first_seen": "2026-09-09T00:20:00Z",
-      "last_seen": "2026-09-09T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-09-09T00:20:00Z",
-          "note": "Physicists split an ultracold atom's quantum wave, held one half still while the other fell freely, then reunited them - the first direct measurement of the quantum phase Einstein's equivalence principle predicts for a freely falling object."
-        }
-      ],
-      "source_date": "2026-09-07"
-    },
-    {
-      "id": "hubble-webb-tno-survey-remember-past",
-      "stream": "curiosities",
-      "observer": "Why Today?",
-      "title": "The tiniest worlds past Neptune still wear their original colors",
-      "observation": "Hubble and Webb teamed up to study 27 newly discovered Trans-Neptunian Objects as small as 5-10km across - the faintest ever characterized - and found their surface colors match their much larger relatives, suggesting collisions haven't reshaped them as much as models predicted.",
-      "question": "What does it mean when something forms so far from everything else that even collisions can't change it?",
-      "hidden_question": "Are these objects untouched because nothing has happened to them, or because the solar system's violence simply never reached this far?",
-      "pattern": "tiny, distant objects preserving an original state that closer, more crowded neighbors long ago lost",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "Published in two companion papers in The Astronomical Journal, the survey found fewer small TNOs than models predicted - and the ones that exist are so faint that one is described as equivalent to spotting fireflies on the Moon from Earth. Neither telescope could have done this alone: Hubble's visible-light sensitivity paired with Webb's infrared range made objects this small and dim detectable at all.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/",
-      "location": "Kuiper Belt, beyond Neptune",
-      "season_or_time_context": "recent research finding",
-      "first_seen": "2026-09-12T00:20:00Z",
-      "last_seen": "2026-09-12T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-09-12T00:20:00Z",
-          "note": "Hubble and Webb jointly characterized 27 newly discovered Trans-Neptunian Objects as small as 5-10km across, the faintest ever studied - finding their surface colors match much larger TNOs, suggesting collisions haven't reshaped them as models predicted."
-        }
-      ],
-      "source_date": "2026-09-09"
-    },
-    {
-      "id": "devils-arrows-stone-source-identified",
-      "stream": "places",
-      "observer": "Why Today?",
-      "title": "They passed a closer quarry to haul stones from a harder one",
-      "observation": "A new geological study traces the Devil's Arrows, Britain's tallest surviving prehistoric stone row, to Brimham Rocks 18km away - overturning decades of assumption that the 25-tonne stones came from Plumpton Rocks, a source much closer to where the monument stands.",
-      "question": "What does it mean when the harder, more distant source was the one builders actually chose?",
-      "hidden_question": "Was the distance itself part of the monument's meaning, or just an engineering fact we're only now able to trace correctly?",
-      "pattern": "builders bypassing an easier, closer resource to deliberately obtain a harder, more distant one",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "The same study confirms a missing fourth stone has been hiding in plain sight for 600 years: a stone cross in the nearby village of Aldborough is the monument's lost member, disguised rather than destroyed - proving a 19th-century local legend true and closing a gap that had stood unresolved since antiquarians first went looking for it.",
-      "status": "captured",
-      "editorial_potential": "medium",
-      "url": "https://archaeology.org/news/2026/09/11/source-of-megalithic-monument-in-yorkshire-identified/",
-      "location": "Boroughbridge, North Yorkshire, England",
-      "season_or_time_context": "recent research finding",
-      "first_seen": "2026-09-10T00:20:00Z",
-      "last_seen": "2026-09-12T14:30:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-09-12T14:30:00Z",
-          "note": "The same study confirms the monument's long-missing fourth stone was hiding in plain sight: a stone cross in nearby Aldborough village, disguised rather than destroyed - proving a 19th-century local legend true 600 years after it was repurposed."
-        },
-        {
-          "date": "2026-09-10T00:20:00Z",
-          "note": "A geological study traces the Devil's Arrows' 25-tonne stones to Brimham Rocks, 18km away - overturning the long-held assumption that they came from the much closer Plumpton Rocks. The builders bypassed the nearer source for the harder one."
+          "date": "2026-09-13T00:20:00Z",
+          "note": "Judge George O'Toole blocked OPM's civil-service \"loyalty question\" - an essay on advancing Trump's executive orders - present on 70,000+ federal job postings, ruling it likely violated First Amendment speech protections in nonpartisan hiring."
         }
       ],
       "source_date": "2026-09-11"
+    },
+    {
+      "id": "scythian-gold-necklace-bee-women",
+      "stream": "places",
+      "observer": "Why Today?",
+      "title": "A 2,300-year-old necklace may be hiding a Greek goddess in Scythian gold",
+      "observation": "A researcher's close analysis of a Scythian gold necklace from a noblewoman's grave in Ukraine's Oguz Kurgan finds its pendants aren't random figures but a myth: an Amazon-like woman surrounded by bee-bodied women, suggesting a link to the Greek cult of Artemis at Ephesus.",
+      "question": "What does it mean when a Scythian noblewoman's grave goods turn out to be telling a Greek story?",
+      "hidden_question": "Did the Black Sea steppe absorb Greek myth, or did Greek myth absorb something the steppe already believed?",
+      "pattern": "a decorative object hiding a specific myth in plain sight for millennia before anyone reads it correctly",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Researcher Mikhail Treister re-examined pendants long known to archaeologists and noticed their lower bodies taper into a ridge with no legs - an insect's abdomen, not a woman's - and proposes they depict bee-women attending an Amazon figure, the same imagery associated with the cult of Artemis at Ephesus. If correct, it ties a 4th-century-BC Scythian elite burial directly to Greek religious iconography.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.ancient-origins.net/news-history-archaeology/scythian-gold-necklace-00103168",
+      "location": "Oguz Kurgan, Kherson region, Ukraine",
+      "season_or_time_context": "recent research finding",
+      "first_seen": "2026-09-13T00:20:00Z",
+      "last_seen": "2026-09-13T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-13T00:20:00Z",
+          "note": "Researcher Mikhail Treister re-examined a Scythian noblewoman's gold necklace and found its pendants depict bee-bodied women around an Amazon-like figure - proposing a link to the Greek cult of Artemis at Ephesus, not a purely Scythian design."
+        }
+      ],
+      "source_date": "2026-09-12"
+    },
+    {
+      "id": "venus-never-had-moon-doomed",
+      "stream": "curiosities",
+      "observer": "Why Today?",
+      "title": "Venus never got to keep a moon long enough for anyone to see it",
+      "observation": "New modeling from UC Riverside's Stephen Kane finds that almost any moon Venus once had would have spiraled inward and been torn apart by the planet's own gravity within about a billion years - explaining why, unlike Earth and Mars, Venus has none today.",
+      "question": "What does it mean for a planet to be built in a way that guarantees it destroys its own moon?",
+      "hidden_question": "Is Venus's moonlessness bad luck, or an inevitable consequence of how the planet itself spins?",
+      "pattern": "an absence explained not by nothing happening, but by something happening and then being destroyed",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Kane's team ran simulations spanning 4.5 billion years, feeding in Venus's spin speed, a hypothetical moon's mass and orbital distance, and internal tidal friction - finding a moon survives only under a narrow combination: a fast-spinning early Venus paired with a moon no heavier than our own. Published in The Astrophysical Journal.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.universetoday.com/articles/venus-moon-would-have-been-doomed-from-the-start-says-new-paper",
+      "location": "University of California, Riverside",
+      "season_or_time_context": "recent research finding",
+      "first_seen": "2026-09-13T00:20:00Z",
+      "last_seen": "2026-09-13T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-13T00:20:00Z",
+          "note": "UC Riverside modeling finds any moon Venus once had would spiral inward and be torn apart by its gravity within about a billion years - a survivable moon needs a fast-spinning early Venus and a moon no heavier than ours."
+        }
+      ],
+      "source_date": "2026-09-12"
     }
   ]
 }

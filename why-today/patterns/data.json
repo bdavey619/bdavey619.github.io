@@ -1,6 +1,6 @@
 {
-  "week": "2026-09-06",
-  "last_updated": "2026-09-12T14:30:00Z",
+  "week": "2026-09-13",
+  "last_updated": "2026-09-13T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -20,7 +20,7 @@
           "text": "Day 196 of the conflict added another twist: the IRGC says it struck a Saildrone-type unmanned surface vessel at the strait's entrance, while UKMTO separately reported four projectiles hitting two vessels near Khasab, Oman - the target set still widening, not narrowing.",
           "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
           "date": "2026-09-11",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Debt Management",
