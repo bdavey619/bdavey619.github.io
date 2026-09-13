@@ -1,6 +1,6 @@
 {
   "week": "2026-09-13",
-  "last_updated": "2026-09-13T00:20:00Z",
+  "last_updated": "2026-09-13T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -60,10 +60,10 @@
         },
         {
           "domain": "Energy Shipping",
-          "text": "\"Just days away\" from a done deal is where Iran's Oman safe-passage talks sat for over a month - the same month oil topped $100 for the first time since May and Brent settled near $108. The framework repeatedly called nearly finished is now trading against a market pricing in no resolution at all.",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-10-dow-sp-500-nasdaq-083717303.html",
-          "date": "2026-09-10",
-          "is_new": false
+          "text": "Gulf Arab diplomats are set to meet Iran's foreign minister in Oman Monday specifically to manage the strait's traffic - but Bahrain says it won't attend, and the meeting comes a day after an Iranian vessel was struck near Qeshm, killing one crew member. A diplomatic fix convening while the thing it's meant to fix keeps happening.",
+          "url": "https://www.cnn.com/2026/09/13/middleeast/iran-hormuz-qeshm-attack-intl",
+          "date": "2026-09-13",
+          "is_new": true
         }
       ]
     }
