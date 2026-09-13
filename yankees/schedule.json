@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-09",
   "division_name": "AL East",
-  "generated_at": "2026-09-12T13:56:02.758286+00:00",
+  "generated_at": "2026-09-13T14:51:34.160726+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -92,19 +92,17 @@
       "gamePk": 823498,
       "status": "final",
       "result": "W",
-      "score": "6\u20134"
+      "score": "6\u20134",
+      "archive_url": "archive.html?date=2026-09-12"
     },
     {
       "date": "2026-09-12",
       "opponent": "NYM",
       "home": true,
       "gamePk": 823496,
-      "status": "scheduled",
-      "time_local": "1:35 PM ET",
-      "probable": {
-        "team": "Gerrit Cole",
-        "opp": "Zac Thornton"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u201312"
     },
     {
       "date": "2026-09-13",
@@ -224,8 +222,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u20132",
-    "current_streak": "W4",
+    "month_record": "7\u20133",
+    "current_streak": "L1",
     "last_10": "7\u20133"
   }
 }
