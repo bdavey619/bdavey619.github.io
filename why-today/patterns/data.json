@@ -1,6 +1,6 @@
 {
   "week": "2026-09-13",
-  "last_updated": "2026-09-14T00:20:00Z",
+  "last_updated": "2026-09-14T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -60,9 +60,9 @@
         },
         {
           "domain": "Energy Shipping",
-          "text": "The Monday meeting where Iran was set to formally unveil a temporary Hormuz shipping-lane deal with Gulf states didn't just fail to produce an agreement - it was postponed outright, Oman's FM says, \"in the interests of consensus,\" no details given. The forum built to fix this didn't survive to its own scheduled day.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-13/hormuz-meeting-with-iran-and-gulf-nations-postponed-oman-says",
-          "date": "2026-09-13",
+          "text": "The postponed Hormuz meeting wasn't even a negotiation to begin with - Gulf states were only ever going to be briefed on a Tehran-Muscat deal already finalized behind closed doors. And the delay wasn't Iran's or Oman's call: Saudi Arabia requested it, over an unrelated grievance about Houthi attacks on its own territory.",
+          "url": "https://www.aljazeera.com/news-analysis/2026/9/14/temporary-hormuz-solution-deferred-as-iran-arab-summit-falls-through",
+          "date": "2026-09-14",
           "is_new": true
         }
       ]

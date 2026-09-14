@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-13",
-  "cycle_start": "2026-09-13T14:30:00Z",
-  "last_updated": "2026-09-14T00:20:00Z",
+  "cycle_start": "2026-09-14T00:20:00Z",
+  "last_updated": "2026-09-14T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Monday meeting Gulf states and Iran had planned in Salalah - where Iran was set to formally unveil a temporary shipping-lane agreement - has been postponed, Oman's foreign minister says, \"in the interests of consensus,\" with no details on next steps. The one forum built to produce an actual fix didn't survive to the day it was scheduled.",
+      "why_now": "The postponement wasn't Iran's or Oman's call: Saudi Arabia requested the delay, frustrated by continued Houthi attacks on its own territory - a third country's unrelated grievance freezing the one forum on Hormuz. And the meeting was never a negotiation to begin with: Gulf states were only to be briefed on a Tehran-Muscat understanding already finalized, not party to it. Bahrain says it won't attend at all until diplomatic ties with Iran are restored.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-13/hormuz-meeting-with-iran-and-gulf-nations-postponed-oman-says",
+      "url": "https://www.aljazeera.com/news-analysis/2026/9/14/temporary-hormuz-solution-deferred-as-iran-arab-summit-falls-through",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-14T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-14T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-14T14:30:00Z",
+          "note": "Saudi Arabia, not Iran or Oman, requested the postponement - frustrated by Houthi attacks on its territory. The meeting was only meant to brief Gulf states on a Tehran-Muscat deal already finalized, not negotiate one."
+        },
         {
           "date": "2026-09-14T00:20:00Z",
           "note": "The Monday Gulf-states/Iran meeting in Salalah - to unveil a shipping-lane deal - was postponed, Oman's FM says, \"in the interests of consensus,\" no details given. The forum built to fix this didn't survive to its own scheduled day."
@@ -69,7 +73,7 @@
           "note": "Search for 5 journalists and 3 crew, missing since Sept 7 near Anak Krakatau, has expanded to nearby islands as 11+ vessels and 300+ personnel sweep north of the volcano. Only an unidentified life jacket has been recovered so far."
         }
       ],
-      "source_date": "2026-09-13"
+      "source_date": "2026-09-14"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -82,22 +86,26 @@
       "pattern": "a routine domestic ferry route turning fatal within the span of a single distress call",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Virgo Transport 8 set sail Saturday from Surabaya, East Java, bound for Banjarmasin on Borneo - a routine inter-island route - before rough seas up to 3m forced the captain's distress call. Indonesia's frequent ferry disasters keep tracing back to the same pattern: aging vessels, monsoon-season seas, and routes that don't pause for weather.",
+      "why_now": "Indonesia intensified the search Monday, deploying 17 ships and aircraft from the military, police and other agencies - up from the initial response - to the waters off Masalembo. The math hasn't moved much since Sunday: 108 rescued, six confirmed dead, 129 still unaccounted for, a ratio that hasn't meaningfully shifted despite the larger effort.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.npr.org/2026/09/13/g-s1-143114/about-130-missing-after-indonesian-passenger-ship-overturns",
+      "url": "https://www.npr.org/2026/09/14/nx-s1-5968417/indonesia-search-missing-ferry",
       "location": "Java Sea, en route Surabaya to Banjarmasin, Indonesia",
       "season_or_time_context": "active search and rescue",
       "first_seen": "2026-09-14T00:20:00Z",
-      "last_seen": "2026-09-14T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-14T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-14T14:30:00Z",
+          "note": "Indonesia intensified the search Monday, deploying 17 ships and aircraft to the waters off Masalembo - up from the initial response. The count hasn't moved much since Sunday: 108 rescued, six dead, 129 still unaccounted for despite the larger effort."
+        },
         {
           "date": "2026-09-14T00:20:00Z",
           "note": "The ferry Virgo Transport 8 capsized in the Java Sea Sept 13 en route Surabaya-Banjarmasin after the captain reported 3-meter waves and a listing ship. Six bodies recovered, 108 rescued, roughly 130 of the 243 aboard still missing."
         }
       ],
-      "source_date": "2026-09-13"
+      "source_date": "2026-09-14"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -111,22 +119,26 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Africa's top health body has now warned the outbreak is \"rapidly spreading beyond its epicenter\" - cases have topped 7,000 confirmed with 3,349+ dead across 62 health zones in seven provinces. Ituri, the original epicenter, is finally cooling, but North Kivu and Haut-Uele are climbing sharply instead - the fire moving faster than it's being put out anywhere.",
+      "why_now": "The two-day tally released Sept 12 is the sharpest jump yet: 258 new confirmed cases and 126 new deaths, pushing totals to 7,200 confirmed and 3,475 dead, with 923 now hospitalized in isolation - a single reporting window adding nearly 2% to the death toll on its own.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://abcnews.com/Health/wireStory/africas-top-health-body-warns-congos-ebola-outbreak-136345198",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-13T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-14T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-14T14:30:00Z",
+          "note": "The Sept 12 tally is the sharpest jump yet: 258 new confirmed cases and 126 new deaths in one reporting window, pushing totals to 7,200 confirmed and 3,475 dead, with 923 now hospitalized in isolation."
+        },
         {
           "date": "2026-09-13T00:20:00Z",
           "note": "Africa's top health body warns the outbreak is \"rapidly spreading beyond its epicenter\" - 7,000+ confirmed cases, 3,349+ dead across 62 health zones in 7 provinces. Ituri is cooling, but North Kivu and Haut-Uele are climbing sharply instead."
         }
       ],
-      "source_date": "2026-09-12"
+      "source_date": "2026-09-14"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
