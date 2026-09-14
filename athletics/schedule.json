@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-09",
   "division_name": "AL West",
-  "generated_at": "2026-09-13T16:35:21.096386+00:00",
+  "generated_at": "2026-09-14T18:09:27.167816+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -110,19 +110,17 @@
       "gamePk": 824955,
       "status": "final",
       "result": "L",
-      "score": "1\u201319"
+      "score": "1\u201319",
+      "archive_url": "archive.html?date=2026-09-13"
     },
     {
       "date": "2026-09-13",
       "opponent": "SEA",
       "home": true,
       "gamePk": 824952,
-      "status": "scheduled",
-      "time_local": "1:05 PM PT",
-      "probable": {
-        "team": "Jacob Lopez",
-        "opp": "Bryce Miller"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "8\u20137"
     },
     {
       "date": "2026-09-15",
@@ -132,6 +130,7 @@
       "status": "scheduled",
       "time_local": "3:40 PM PT",
       "probable": {
+        "team": "Jack Perkins",
         "opp": "Griffin Jax"
       }
     },
@@ -143,6 +142,7 @@
       "status": "scheduled",
       "time_local": "3:40 PM PT",
       "probable": {
+        "team": "Brady Basso",
         "opp": "Nick Martinez"
       }
     },
@@ -154,6 +154,7 @@
       "status": "scheduled",
       "time_local": "10:10 AM PT",
       "probable": {
+        "team": "Jeffrey Springs",
         "opp": "Drew Rasmussen"
       }
     },
@@ -231,8 +232,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u20134",
-    "current_streak": "L1",
+    "month_record": "8\u20134",
+    "current_streak": "W1",
     "last_10": "7\u20133"
   }
 }
