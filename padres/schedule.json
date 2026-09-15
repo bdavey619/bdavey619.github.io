@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-14T16:25:01.018190+00:00",
+  "generated_at": "2026-09-15T15:07:42.982849+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -111,19 +111,17 @@
       "gamePk": 823171,
       "status": "final",
       "result": "W",
-      "score": "6\u20134"
+      "score": "6\u20134",
+      "archive_url": "archive.html?date=2026-09-14"
     },
     {
       "date": "2026-09-14",
       "opponent": "COL",
       "home": false,
       "gamePk": 824308,
-      "status": "scheduled",
-      "time_local": "5:40 PM PT",
-      "probable": {
-        "team": "Casey Mize",
-        "opp": "Tomoyuki Sugano"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "8\u20137"
     },
     {
       "date": "2026-09-15",
@@ -133,7 +131,8 @@
       "status": "scheduled",
       "time_local": "5:40 PM PT",
       "probable": {
-        "team": "Walker Buehler"
+        "team": "Walker Buehler",
+        "opp": "Kyle Freeland"
       }
     },
     {
@@ -156,7 +155,8 @@
       "status": "scheduled",
       "time_local": "12:10 PM PT",
       "probable": {
-        "opp": "Gabriel Hughes"
+        "team": "Michael King",
+        "opp": "Tanner Gordon"
       }
     },
     {
@@ -233,8 +233,8 @@
     }
   ],
   "summary": {
-    "month_record": "8\u20133",
-    "current_streak": "W7",
-    "last_10": "8\u20132"
+    "month_record": "9\u20133",
+    "current_streak": "W8",
+    "last_10": "9\u20131"
   }
 }
