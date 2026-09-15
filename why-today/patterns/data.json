@@ -1,6 +1,6 @@
 {
   "week": "2026-09-13",
-  "last_updated": "2026-09-15T00:20:00Z",
+  "last_updated": "2026-09-15T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -17,10 +17,10 @@
         },
         {
           "domain": "Foreign Policy",
-          "text": "Day 196 of the conflict added another twist: the IRGC says it struck a Saildrone-type unmanned surface vessel at the strait's entrance, while UKMTO separately reported four projectiles hitting two vessels near Khasab, Oman - the target set still widening, not narrowing.",
-          "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
-          "date": "2026-09-11",
-          "is_new": false
+          "text": "Iranian media now describe fishing boats struck near Kargan and Larak Island, with fishermen missing - the war's toll widening past tankers and warships to a civilian fishing fleet working the same waters, even as diplomats insist a shipping-lane fix is close.",
+          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-15/live-updates-908607",
+          "date": "2026-09-15",
+          "is_new": true
         },
         {
           "domain": "Debt Management",

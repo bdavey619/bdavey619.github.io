@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-13",
-  "cycle_start": "2026-09-14T14:30:00Z",
-  "last_updated": "2026-09-15T00:20:00Z",
+  "cycle_start": "2026-09-15T00:20:00Z",
+  "last_updated": "2026-09-15T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The postponement wasn't Iran's or Oman's call: Saudi Arabia requested the delay, frustrated by continued Houthi attacks on its own territory - a third country's unrelated grievance freezing the one forum on Hormuz. And the meeting was never a negotiation to begin with: Gulf states were only to be briefed on a Tehran-Muscat understanding already finalized, not party to it. Bahrain says it won't attend at all until diplomatic ties with Iran are restored.",
+      "why_now": "Iranian media now describe fishing boats struck near Kargan and Larak Island in Hormozgan province, with some fishermen missing and search-and-rescue underway - the war's civilian toll widening beyond tankers and warships to the fishing fleet operating in the same waters.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news-analysis/2026/9/14/temporary-hormuz-solution-deferred-as-iran-arab-summit-falls-through",
+      "url": "http://www.jpost.com/middle-east/iran-news/2026-09-15/live-updates-908607",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-14T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-15T14:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-15T14:30:00Z",
+          "note": "Iranian media describe fishing boats struck near Kargan and Larak Island in Hormozgan province, with some fishermen missing and search-and-rescue underway - the war's toll widening beyond tankers and warships to the fishing fleet working the same waters."
+        },
         {
           "date": "2026-09-14T14:30:00Z",
           "note": "Saudi Arabia, not Iran or Oman, requested the postponement - frustrated by Houthi attacks on its territory. The meeting was only meant to brief Gulf states on a Tehran-Muscat deal already finalized, not negotiate one."
@@ -41,7 +45,7 @@
           "note": "IRGC says it struck a Saildrone Explorer-type unmanned surface vessel at the strait's entrance; UKMTO separately reported four projectiles hitting two vessels west of Khasab, Oman - the target set widening to uncrewed monitoring assets, not just tankers."
         }
       ],
-      "source_date": "2026-09-13"
+      "source_date": "2026-09-15"
     },
     {
       "id": "anak-krakatau-missing-journalists",
@@ -54,16 +58,20 @@
       "pattern": "a story's own subject becoming the reason its documentarians disappear",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Six days in, the search has shifted direction entirely: crews are now sweeping waters south of the volcano rather than north, with 15 vessels and a helicopter added to the 300-person effort. Widening the search area outward rather than narrowing in on a location is not the trajectory a rescue operation takes when it's closing in.",
+      "why_now": "Basarnas pushed past the standard seven-day search mandate into an eighth day, now covering 6,649 square nautical miles with 18 ships - while volcanic ash below 1,500m and coastal fog cutting visibility to about one nautical mile have hampered the very aircraft meant to widen the view. Regional leadership approved three more days of searching.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://en.antaranews.com/news/431163/search-for-journalists-focuses-on-waters-south-of-anak-krakatau",
+      "url": "https://world-today-journal.com/search-for-missing-journalists-near-anak-krakatau-what-we-know-after-one-week/",
       "location": "Anak Krakatau, Sunda Strait, Indonesia",
-      "season_or_time_context": "active search operation, day 6",
+      "season_or_time_context": "active search operation, day 8",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-13T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-15T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-15T14:30:00Z",
+          "note": "Basarnas pushed past the standard 7-day mandate into an 8th day, now covering 6,649 sq nautical miles with 18 ships - while ash below 1,500m and fog cutting visibility to ~1nm hamper the search. Regional leadership approved 3 more days."
+        },
         {
           "date": "2026-09-13T14:30:00Z",
           "note": "Six days in, the search shifted to waters south of the volcano rather than north, adding 15 vessels and a helicopter to the 300-person effort - widening the area rather than narrowing toward a location."
@@ -73,7 +81,7 @@
           "note": "Search for 5 journalists and 3 crew, missing since Sept 7 near Anak Krakatau, has expanded to nearby islands as 11+ vessels and 300+ personnel sweep north of the volcano. Only an unidentified life jacket has been recovered so far."
         }
       ],
-      "source_date": "2026-09-14"
+      "source_date": "2026-09-15"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -151,8 +159,8 @@
       "pattern": "a resource deal signed by an unelected government, at a scale built to outlast any successor who might contest it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Chevron CEO Mike Wirth says the $7B expansion will be self-funded entirely from the profits of its Venezuelan joint ventures, not outside cash - while Machado, backing a long-term US oil role in principle, is now the one publicly asking who actually signed the deal, who finances it, what guarantees investors get, and how Venezuelans benefit.",
-      "status": "captured",
+      "why_now": "Two dedicated searches this cycle and last found nothing beyond the Sept 11 material already logged - Machado's opacity questions and Chevron's self-funding plan. Going dormant rather than re-bumping a fact three days old; worth reactivating when Rodr\u00edguez's office or Machado responds directly to the outstanding questions about who signed, who finances, and who benefits.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.bloomberg.com/news/articles/2026-09-11/chevron-s-venezuela-oil-sales-to-self-fund-expansion-ceo-says",
       "location": "Caracas, Venezuela / Washington, DC",
@@ -244,22 +252,26 @@
       "pattern": "a test of personal political loyalty embedded inside a supposedly neutral government process",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "US District Judge George O'Toole, a Clinton appointee, sided with three federal-employee unions who argued the essay question unlawfully politicized nonpartisan hiring - Democracy Forward called it an attempt to assess support for the president disguised as a standard job application, present on over 70,000 postings before the ruling.",
+      "why_now": "OPM now has a concrete clock: the stay requires it to notify every department and agency head who used the question within seven days of the Sept 12 order. The administration's real decision point is next - appeal the ruling outright, or rewrite the essay prompt narrowly enough to survive the same constitutional standard.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.usnews.com/news/politics/articles/2026-09-11/us-judge-blocks-trump-administrations-loyalty-question-for-job-applicants",
+      "url": "https://federalnewsnetwork.com/litigation/2026/09/judge-bars-trump-administrations-loyalty-question-on-federal-job-applications/",
       "location": "Boston, Massachusetts (US District Court)",
       "season_or_time_context": "ruling issued, appeal window open",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-13T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-15T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-15T14:30:00Z",
+          "note": "OPM has a concrete clock: notify every agency head who used the question within 7 days of the Sept 12 order. The real decision is next - appeal outright, or rewrite the prompt narrowly enough to survive the same standard."
+        },
         {
           "date": "2026-09-13T00:20:00Z",
           "note": "Judge George O'Toole blocked OPM's civil-service \"loyalty question\" - an essay on advancing Trump's executive orders - present on 70,000+ federal job postings, ruling it likely violated First Amendment speech protections in nonpartisan hiring."
         }
       ],
-      "source_date": "2026-09-11"
+      "source_date": "2026-09-15"
     },
     {
       "id": "scotus-rejects-trump-mail-ballot-plan",
