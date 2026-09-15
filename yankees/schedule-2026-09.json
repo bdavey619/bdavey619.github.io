@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-09",
   "division_name": "AL East",
-  "generated_at": "2026-09-14T16:52:54.217479+00:00",
+  "generated_at": "2026-09-15T15:29:30.802108+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -119,12 +119,9 @@
       "opponent": "MIN",
       "home": false,
       "gamePk": 823656,
-      "status": "scheduled",
-      "time_local": "7:40 PM ET",
-      "probable": {
-        "team": "Will Warren",
-        "opp": "Dean Kremer"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "8\u20133"
     },
     {
       "date": "2026-09-15",
@@ -232,8 +229,8 @@
     }
   ],
   "summary": {
-    "month_record": "8\u20133",
-    "current_streak": "W1",
+    "month_record": "9\u20133",
+    "current_streak": "W2",
     "last_10": "7\u20133"
   }
 }
