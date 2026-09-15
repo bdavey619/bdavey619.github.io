@@ -1,6 +1,6 @@
 {
   "week": "2026-09-13",
-  "last_updated": "2026-09-14T14:30:00Z",
+  "last_updated": "2026-09-15T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -63,7 +63,7 @@
           "text": "The postponed Hormuz meeting wasn't even a negotiation to begin with - Gulf states were only ever going to be briefed on a Tehran-Muscat deal already finalized behind closed doors. And the delay wasn't Iran's or Oman's call: Saudi Arabia requested it, over an unrelated grievance about Houthi attacks on its own territory.",
           "url": "https://www.aljazeera.com/news-analysis/2026/9/14/temporary-hormuz-solution-deferred-as-iran-arab-summit-falls-through",
           "date": "2026-09-14",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
