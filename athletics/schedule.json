@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-09",
   "division_name": "AL West",
-  "generated_at": "2026-09-15T17:13:46.743953+00:00",
+  "generated_at": "2026-09-16T17:14:27.733070+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -128,12 +128,9 @@
       "opponent": "TB",
       "home": false,
       "gamePk": 822925,
-      "status": "scheduled",
-      "time_local": "3:40 PM PT",
-      "probable": {
-        "team": "Jack Perkins",
-        "opp": "Griffin Jax"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "1\u20132"
     },
     {
       "date": "2026-09-16",
@@ -233,8 +230,8 @@
     }
   ],
   "summary": {
-    "month_record": "8\u20134",
-    "current_streak": "W1",
-    "last_10": "7\u20133"
+    "month_record": "8\u20135",
+    "current_streak": "L1",
+    "last_10": "6\u20134"
   }
 }
