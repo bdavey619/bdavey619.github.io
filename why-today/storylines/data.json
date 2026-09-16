@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-13",
-  "cycle_start": "2026-09-15T14:30:00Z",
-  "last_updated": "2026-09-16T00:20:00Z",
+  "cycle_start": "2026-09-16T00:20:00Z",
+  "last_updated": "2026-09-16T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iranian media now describe fishing boats struck near Kargan and Larak Island in Hormozgan province, with some fishermen missing and search-and-rescue underway - the war's civilian toll widening beyond tankers and warships to the fishing fleet operating in the same waters.",
+      "why_now": "The House voted 220-204 for a third time to pass a war-powers resolution ending the Iran war, with seven Republicans breaking ranks - but it won't reach Trump's desk, and he'd almost certainly veto it anyway. Likely the last House vote on the war before midterms, where it's already shaping campaigns without ever actually stopping.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "http://www.jpost.com/middle-east/iran-news/2026-09-15/live-updates-908607",
+      "url": "https://www.usnews.com/news/politics/articles/2026-09-15/house-votes-for-a-third-time-to-end-the-iran-war-as-conflict-drags-on",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-15T14:30:00Z",
-      "appearances": 5,
+      "last_seen": "2026-09-16T14:30:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-09-16T14:30:00Z",
+          "note": "The House voted 220-204, a third time, for a war-powers resolution ending the Iran war, seven Republicans breaking ranks - but it won't reach Trump's desk, who'd veto it. Likely the last House vote before midterms."
+        },
         {
           "date": "2026-09-15T14:30:00Z",
           "note": "Iranian media describe fishing boats struck near Kargan and Larak Island in Hormozgan province, with some fishermen missing and search-and-rescue underway - the war's toll widening beyond tankers and warships to the fishing fleet working the same waters."
@@ -39,13 +43,9 @@
         {
           "date": "2026-09-13T14:30:00Z",
           "note": "An Iranian vessel was struck off Qeshm Sunday, killing one crew member and wounding four; Tehran blames a \"terrorist enemy\" without naming one. Gulf Arab diplomats meet Iran's FM in Oman Monday on strait traffic - Bahrain won't attend."
-        },
-        {
-          "date": "2026-09-13T00:20:00Z",
-          "note": "IRGC says it struck a Saildrone Explorer-type unmanned surface vessel at the strait's entrance; UKMTO separately reported four projectiles hitting two vessels west of Khasab, Oman - the target set widening to uncrewed monitoring assets, not just tankers."
         }
       ],
-      "source_date": "2026-09-15"
+      "source_date": "2026-09-16"
     },
     {
       "id": "anak-krakatau-missing-journalists",
@@ -58,16 +58,20 @@
       "pattern": "a story's own subject becoming the reason its documentarians disappear",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Basarnas pushed past the standard seven-day search mandate into an eighth day, now covering 6,649 square nautical miles with 18 ships - while volcanic ash below 1,500m and coastal fog cutting visibility to about one nautical mile have hampered the very aircraft meant to widen the view. Regional leadership approved three more days of searching.",
+      "why_now": "A tsunami-monitoring sensor near the volcano recorded something odd the exact afternoon the journalists vanished: the tide's normal peak came out flat, overlaid with unusual wave ripples, and a weaker version of the same pattern showed up at a second station - widespread, not just local to the eruption. Researchers can't draw a conclusion, though: the area's CCTV was down and satellite views were fogged in.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://world-today-journal.com/search-for-missing-journalists-near-anak-krakatau-what-we-know-after-one-week/",
+      "url": "https://en.tempo.co/read/2119709/anak-krakatau-anomaly-detected-on-day-journalists-vanished",
       "location": "Anak Krakatau, Sunda Strait, Indonesia",
-      "season_or_time_context": "active search operation, day 8",
+      "season_or_time_context": "active search operation, day 9",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-15T14:30:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-16T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-16T14:30:00Z",
+          "note": "A tsunami sensor recorded an odd sea-level pattern the exact afternoon the journalists vanished - the tide's peak flattened, unusual ripples, echoed weaker at a second station. Researchers can't confirm what it means: CCTV was down, satellite fogged in."
+        },
         {
           "date": "2026-09-15T14:30:00Z",
           "note": "Basarnas pushed past the standard 7-day mandate into an 8th day, now covering 6,649 sq nautical miles with 18 ships - while ash below 1,500m and fog cutting visibility to ~1nm hamper the search. Regional leadership approved 3 more days."
@@ -81,7 +85,7 @@
           "note": "Search for 5 journalists and 3 crew, missing since Sept 7 near Anak Krakatau, has expanded to nearby islands as 11+ vessels and 300+ personnel sweep north of the volcano. Only an unidentified life jacket has been recovered so far."
         }
       ],
-      "source_date": "2026-09-15"
+      "source_date": "2026-09-16"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -297,22 +301,26 @@
       "pattern": "a policy change technically defensible on the merits, blocked anyway because of when it arrived",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Justice Kavanaugh, a Trump appointee, concurred on narrow grounds: the rule might be legal, but applying it now would be \"arbitrary and capricious\" because state and local election officials don't have time left to implement it before the midterms. Alito and Thomas dissented - a split that turned on timing, not the underlying legal theory.",
+      "why_now": "Commentators are already calling the ruling \"cryptic\" and not the Court's last word: Kavanaugh's concurrence left the door open that the rule could still be lawful in a future election cycle, just not this one. The eight states that vote almost entirely by mail - including California, Oregon and Washington - were the ones facing the tightest timeline had the rule taken effect.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnn.com/2026/09/14/politics/supreme-court-rejects-trump-plan-to-limit-mail-in-voting-in-midterms",
+      "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/09/16/the-supreme-courts-cryptic-mail-ballot-decision-wont-be-its-last-word-on-voting-2/",
       "location": "Washington, DC (US Supreme Court)",
       "season_or_time_context": "ahead of 2026 midterm elections",
       "first_seen": "2026-09-15T00:20:00Z",
-      "last_seen": "2026-09-15T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-16T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-16T14:30:00Z",
+          "note": "Commentators call the ruling \"cryptic,\" not the Court's last word - Kavanaugh left the rule potentially lawful in a future cycle, just not this one. Eight all-mail states, including California and Washington, faced the tightest timeline had it taken effect."
+        },
         {
           "date": "2026-09-15T00:20:00Z",
           "note": "SCOTUS refused to let the Postal Service enforce new mail-ballot restrictions for the midterms. Trump appointee Kavanaugh concurred narrowly: the rule might be legal, but arrives too late for officials to implement fairly. Alito and Thomas dissented."
         }
       ],
-      "source_date": "2026-09-14"
+      "source_date": "2026-09-16"
     },
     {
       "id": "scythian-gold-necklace-bee-women",

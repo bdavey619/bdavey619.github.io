@@ -1,6 +1,6 @@
 {
   "week": "2026-09-13",
-  "last_updated": "2026-09-16T00:20:00Z",
+  "last_updated": "2026-09-16T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -17,10 +17,10 @@
         },
         {
           "domain": "Foreign Policy",
-          "text": "Iranian media now describe fishing boats struck near Kargan and Larak Island, with fishermen missing - the war's toll widening past tankers and warships to a civilian fishing fleet working the same waters, even as diplomats insist a shipping-lane fix is close.",
-          "url": "http://www.jpost.com/middle-east/iran-news/2026-09-15/live-updates-908607",
+          "text": "The House voted 220-204 for a third time to pass a war-powers resolution ending the Iran war - a real vote, a real majority, and it still changes nothing: the resolution won't reach Trump's desk, and he'd veto it if it did. Three votes, zero effect on the war itself.",
+          "url": "https://www.usnews.com/news/politics/articles/2026-09-15/house-votes-for-a-third-time-to-end-the-iran-war-as-conflict-drags-on",
           "date": "2026-09-15",
-          "is_new": false
+          "is_new": true
         },
         {
           "domain": "Debt Management",
@@ -42,7 +42,7 @@
           "text": "M23 declared DRC's Ebola outbreak over in its territory in late June; the Sept 13 count now stands at 7,258 confirmed and 3,510 dead - still climbing three months later, even as the pace eases and the province count edges down from seven to six.",
           "url": "https://www.globalsecurity.org/security/library/news/2026/09/sec-260915-azertac01.htm",
           "date": "2026-09-15",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Political Legitimacy",
