@@ -1,6 +1,6 @@
 {
   "week": "2026-09-13",
-  "last_updated": "2026-09-15T14:30:00Z",
+  "last_updated": "2026-09-16T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -20,7 +20,7 @@
           "text": "Iranian media now describe fishing boats struck near Kargan and Larak Island, with fishermen missing - the war's toll widening past tankers and warships to a civilian fishing fleet working the same waters, even as diplomats insist a shipping-lane fix is close.",
           "url": "http://www.jpost.com/middle-east/iran-news/2026-09-15/live-updates-908607",
           "date": "2026-09-15",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Debt Management",
@@ -39,10 +39,10 @@
       "evidence": [
         {
           "domain": "Public Health",
-          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June; it has since become the deadliest outbreak in Congo's history and, as of Sept 11, has spread to a seventh province - the geographic footprint still outrunning containment months after the resolution was announced.",
-          "url": "https://www.ksat.com/health/2026/09/11/ebola-outbreak-in-eastern-congo-has-now-spread-to-the-countrys-seventh-province-officials-say/",
-          "date": "2026-09-11",
-          "is_new": false
+          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June; the Sept 13 count now stands at 7,258 confirmed and 3,510 dead - still climbing three months later, even as the pace eases and the province count edges down from seven to six.",
+          "url": "https://www.globalsecurity.org/security/library/news/2026/09/sec-260915-azertac01.htm",
+          "date": "2026-09-15",
+          "is_new": true
         },
         {
           "domain": "Political Legitimacy",

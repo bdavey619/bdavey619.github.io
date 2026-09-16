@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-13",
-  "cycle_start": "2026-09-15T00:20:00Z",
-  "last_updated": "2026-09-15T14:30:00Z",
+  "cycle_start": "2026-09-15T14:30:00Z",
+  "last_updated": "2026-09-16T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -94,16 +94,20 @@
       "pattern": "a routine domestic ferry route turning fatal within the span of a single distress call",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Indonesia intensified the search Monday, deploying 17 ships and aircraft from the military, police and other agencies - up from the initial response - to the waters off Masalembo. The math hasn't moved much since Sunday: 108 rescued, six confirmed dead, 129 still unaccounted for, a ratio that hasn't meaningfully shifted despite the larger effort.",
+      "why_now": "A survivor, Ahmad Saudi, says the ferry was visibly overcrowded before it ever left port - passengers sleeping in hallways and common areas because the cabins were already full. The question of whether this was pure weather or a capacity problem waiting for a storm now has a witness attached to it.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.npr.org/2026/09/14/nx-s1-5968417/indonesia-search-missing-ferry",
+      "url": "https://www.travelandtourworld.com/news/article/97mcbtc0oyqp/",
       "location": "Java Sea, en route Surabaya to Banjarmasin, Indonesia",
       "season_or_time_context": "active search and rescue",
       "first_seen": "2026-09-14T00:20:00Z",
-      "last_seen": "2026-09-14T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-16T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-16T00:20:00Z",
+          "note": "Survivor Ahmad Saudi says the ferry was visibly overcrowded before it left port - passengers sleeping in hallways because cabins were already full. The question of weather versus capacity now has a witness attached to it."
+        },
         {
           "date": "2026-09-14T14:30:00Z",
           "note": "Indonesia intensified the search Monday, deploying 17 ships and aircraft to the waters off Masalembo - up from the initial response. The count hasn't moved much since Sunday: 108 rescued, six dead, 129 still unaccounted for despite the larger effort."
@@ -113,7 +117,7 @@
           "note": "The ferry Virgo Transport 8 capsized in the Java Sea Sept 13 en route Surabaya-Banjarmasin after the captain reported 3-meter waves and a listing ship. Six bodies recovered, 108 rescued, roughly 130 of the 243 aboard still missing."
         }
       ],
-      "source_date": "2026-09-14"
+      "source_date": "2026-09-15"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -127,16 +131,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The two-day tally released Sept 12 is the sharpest jump yet: 258 new confirmed cases and 126 new deaths, pushing totals to 7,200 confirmed and 3,475 dead, with 923 now hospitalized in isolation - a single reporting window adding nearly 2% to the death toll on its own.",
+      "why_now": "The Sept 13 count reached 7,258 confirmed and 3,510 dead, with 905 hospitalized - still climbing, but the pace has eased from the sharp Sept 12 jump. Officials now count six affected provinces rather than seven, the first sign the geographic spread may be narrowing even as the case count keeps rising.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616",
+      "url": "https://www.globalsecurity.org/security/library/news/2026/09/sec-260915-azertac01.htm",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-14T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-16T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-16T00:20:00Z",
+          "note": "The Sept 13 count reached 7,258 confirmed, 3,510 dead, 905 hospitalized - still climbing, but easing from Sept 12's sharp jump. Officials now count six affected provinces rather than seven, a first sign the spread may be narrowing."
+        },
         {
           "date": "2026-09-14T14:30:00Z",
           "note": "The Sept 12 tally is the sharpest jump yet: 258 new confirmed cases and 126 new deaths in one reporting window, pushing totals to 7,200 confirmed and 3,475 dead, with 923 now hospitalized in isolation."
@@ -146,7 +154,7 @@
           "note": "Africa's top health body warns the outbreak is \"rapidly spreading beyond its epicenter\" - 7,000+ confirmed cases, 3,349+ dead across 62 health zones in 7 provinces. Ituri is cooling, but North Kivu and Haut-Uele are climbing sharply instead."
         }
       ],
-      "source_date": "2026-09-14"
+      "source_date": "2026-09-15"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -219,16 +227,20 @@
       "pattern": "a traditional practice re-engineering its own central object to survive contact with modern environmental limits",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Mumbai heads into installation day with more than 3 lakh idols set to go up and a parallel fight over loudspeaker and DJ restrictions at pandals - the eco-idol tension is no longer the only rule the festival is negotiating with civic authorities this year, just the one that started it.",
+      "why_now": "Maharashtra pushed the eco-idol answer past distribution and into spectacle: more than 10,000 students simultaneously sculpted clay Ganeshas, earning a Guinness World Record CM Fadnavis publicly championed - even as Girgaon and Lalbaug mandals push back, requesting sea immersion even for small eco-friendly idols rather than the artificial ponds courts have mandated.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.deccanherald.com/india/maharashtra/mumbai-welcomes-lord-ganesha-amid-rains-and-music-debates-over-3-lakh-idols-to-be-installed-4145038",
+      "url": "https://www.msn.com/en-in/news/other/mumbai-fadnavis-urges-eco-friendly-ganeshotsav-praises-10000-students/ar-AA2bZ8L7",
       "location": "India (Mumbai, Hyderabad, Bengaluru, and nationwide)",
-      "season_or_time_context": "festival begins Sept 14",
+      "season_or_time_context": "festival underway, immersions begin Sept 15",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-13T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-16T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-16T00:20:00Z",
+          "note": "Maharashtra set a Guinness World Record with 10,000+ students simultaneously sculpting clay Ganeshas, praised by CM Fadnavis - even as Girgaon and Lalbaug mandals push to let small eco-friendly idols go to sea immersion, not just artificial ponds."
+        },
         {
           "date": "2026-09-13T14:30:00Z",
           "note": "Mumbai heads into installation day with 3+ lakh idols going up amid rain and a parallel fight over loudspeaker/DJ restrictions at pandals - the eco-idol rule isn't the only one the festival is negotiating this year."
@@ -238,7 +250,7 @@
           "note": "Bengaluru's GBA banned production, sale and immersion of PoP, thermocol and chemical-paint idols outright - criminal action for violators, not just fines - while fast-tracking celebration permits, the sharpest enforcement yet as the festival begins Sept 14."
         }
       ],
-      "source_date": "2026-09-13"
+      "source_date": "2026-09-15"
     },
     {
       "id": "trump-loyalty-question-blocked",
@@ -313,8 +325,8 @@
       "pattern": "a decorative object hiding a specific myth in plain sight for millennia before anyone reads it correctly",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Researcher Mikhail Treister re-examined pendants long known to archaeologists and noticed their lower bodies taper into a ridge with no legs - an insect's abdomen, not a woman's - and proposes they depict bee-women attending an Amazon figure, the same imagery associated with the cult of Artemis at Ephesus. If correct, it ties a 4th-century-BC Scythian elite burial directly to Greek religious iconography.",
-      "status": "captured",
+      "why_now": "No coverage beyond the original study has surfaced across two dedicated checks - later searches only turn up the same finding retold with added physical detail (bead counts, burial dating), not a new development. Going dormant rather than re-bumping; worth reactivating if Treister's hypothesis draws a published response from other Scythian-gold specialists.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.ancient-origins.net/news-history-archaeology/scythian-gold-necklace-00103168",
       "location": "Oguz Kurgan, Kherson region, Ukraine",
@@ -341,22 +353,54 @@
       "pattern": "an absence explained not by nothing happening, but by something happening and then being destroyed",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Kane's team ran simulations spanning 4.5 billion years, feeding in Venus's spin speed, a hypothetical moon's mass and orbital distance, and internal tidal friction - finding a moon survives only under a narrow combination: a fast-spinning early Venus paired with a moon no heavier than our own. Published in The Astrophysical Journal.",
+      "why_now": "UC Riverside's own writeup puts a number on the moon's lifespan: a moon half our Moon's mass would have survived roughly 1.7 billion years before Venus's slow 243-day rotation pulled it apart; twice that mass, and it would have lasted only ~30 million years. NASA's DAVINCI mission, launching to Venus by decade's end, could look for atmospheric traces the destroyed moon left behind.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.universetoday.com/articles/venus-moon-would-have-been-doomed-from-the-start-says-new-paper",
+      "url": "https://news.ucr.edu/articles/2026/09/14/venus-ate-its-moon",
       "location": "University of California, Riverside",
       "season_or_time_context": "recent research finding",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-13T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-16T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-16T00:20:00Z",
+          "note": "UC Riverside puts a number on it: a moon half our Moon's mass would survive ~1.7 billion years before Venus's rotation pulled it apart; twice that mass, only ~30 million years. NASA's DAVINCI mission could look for atmospheric traces."
+        },
         {
           "date": "2026-09-13T00:20:00Z",
           "note": "UC Riverside modeling finds any moon Venus once had would spiral inward and be torn apart by its gravity within about a billion years - a survivable moon needs a fast-spinning early Venus and a moon no heavier than ours."
         }
       ],
-      "source_date": "2026-09-12"
+      "source_date": "2026-09-14"
+    },
+    {
+      "id": "astana-ai-film-festival-largest",
+      "stream": "curiosities",
+      "observer": "Why Today?",
+      "title": "A film festival with a serious jury and no human directors",
+      "observation": "The Astana AI Film Festival drew 8,067 submissions from 125 countries, becoming the world's largest competition for AI-generated cinema - judged by a jury including 5x Oscar winner Ed Catmull, with $2 million split between competition prizes and new AI productions.",
+      "question": "What does it mean for an industry built on human craft to hand its most serious jury seats to judging work no human made?",
+      "hidden_question": "Is this festival legitimizing AI filmmaking as an art form, or borrowing the credibility of real cinema to launder something else entirely?",
+      "pattern": "a new medium adopting the exact institutional form - juries, prizes, prestige - of the medium it's displacing",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "The festival doubled its fund to $2M this year: $1M in competition prizes topped by a $450,000 grand prize, and a separate $1M invested directly into new AI productions rather than just prizes for finished work. Winners are announced Oct 1-3 - the submission scale itself is the story before a single frame is judged.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.aninews.in/news/entertainment/out-of-box/astana-ai-film-festival-becomes-world8217s-largest-ai-cinema-competition-with-over-8000-submissions20260914181450/",
+      "location": "Astana, Kazakhstan",
+      "season_or_time_context": "submissions closed, winners announced Oct 1-3",
+      "first_seen": "2026-09-16T00:20:00Z",
+      "last_seen": "2026-09-16T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-16T00:20:00Z",
+          "note": "The Astana AI Film Festival drew 8,067 submissions from 125 countries, becoming the world's largest AI-cinema competition - judged by a jury including 5x Oscar winner Ed Catmull, with $2M split between prizes and new AI productions."
+        }
+      ],
+      "source_date": "2026-09-14"
     }
   ]
 }
