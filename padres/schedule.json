@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-15T15:07:42.982849+00:00",
+  "generated_at": "2026-09-16T15:05:33.805992+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -121,19 +121,17 @@
       "gamePk": 824308,
       "status": "final",
       "result": "W",
-      "score": "8\u20137"
+      "score": "8\u20137",
+      "archive_url": "archive.html?date=2026-09-15"
     },
     {
       "date": "2026-09-15",
       "opponent": "COL",
       "home": false,
       "gamePk": 824307,
-      "status": "scheduled",
-      "time_local": "5:40 PM PT",
-      "probable": {
-        "team": "Walker Buehler",
-        "opp": "Kyle Freeland"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20139"
     },
     {
       "date": "2026-09-16",
@@ -233,8 +231,8 @@
     }
   ],
   "summary": {
-    "month_record": "9\u20133",
-    "current_streak": "W8",
-    "last_10": "9\u20131"
+    "month_record": "9\u20134",
+    "current_streak": "L1",
+    "last_10": "8\u20132"
   }
 }
