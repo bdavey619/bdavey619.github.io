@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-15T16:26:45.986781+00:00",
+  "generated_at": "2026-09-16T16:17:38.367991+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -130,19 +130,17 @@
       "gamePk": 823006,
       "status": "final",
       "result": "L",
-      "score": "1\u20132"
+      "score": "1\u20132",
+      "archive_url": "archive.html?date=2026-09-15"
     },
     {
       "date": "2026-09-15",
       "opponent": "STL",
       "home": false,
       "gamePk": 823007,
-      "status": "scheduled",
-      "time_local": "4:45 PM PT",
-      "probable": {
-        "team": "Blade Tidwell",
-        "opp": "Andre Pallante"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "10\u20133"
     },
     {
       "date": "2026-09-16",
@@ -152,6 +150,7 @@
       "status": "scheduled",
       "time_local": "10:15 AM PT",
       "probable": {
+        "team": "Anthony Molina",
         "opp": "Matthew Liberatore"
       }
     },
@@ -161,7 +160,10 @@
       "home": false,
       "gamePk": 823898,
       "status": "scheduled",
-      "time_local": "7:15 PM PT"
+      "time_local": "7:15 PM PT",
+      "probable": {
+        "team": "Cesar Perdomo"
+      }
     },
     {
       "date": "2026-09-19",
@@ -229,8 +231,8 @@
     }
   ],
   "summary": {
-    "month_record": "5\u20138",
-    "current_streak": "L4",
-    "last_10": "4\u20136"
+    "month_record": "6\u20138",
+    "current_streak": "W1",
+    "last_10": "5\u20135"
   }
 }
