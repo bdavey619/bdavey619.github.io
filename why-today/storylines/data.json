@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-13",
-  "cycle_start": "2026-09-16T00:20:00Z",
-  "last_updated": "2026-09-16T14:30:00Z",
+  "cycle_start": "2026-09-16T14:30:00Z",
+  "last_updated": "2026-09-17T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -98,16 +98,20 @@
       "pattern": "a routine domestic ferry route turning fatal within the span of a single distress call",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "A survivor, Ahmad Saudi, says the ferry was visibly overcrowded before it ever left port - passengers sleeping in hallways and common areas because the cabins were already full. The question of whether this was pure weather or a capacity problem waiting for a storm now has a witness attached to it.",
+      "why_now": "Four days on, the count hasn't moved at all since Sunday - 108 rescued, six dead, 129 missing, the exact same numbers - as persistent heavy seas keep restricting search operations and families grow more desperate. A frozen tally this many days in is its own kind of answer about how the search is going.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.travelandtourworld.com/news/article/97mcbtc0oyqp/",
+      "url": "https://www.timeslive.co.za/news/world/2026-09-16-families-desperate-for-news-as-129-still-missing-four-days-after-ship-capsized-in-indonesias-java-sea/",
       "location": "Java Sea, en route Surabaya to Banjarmasin, Indonesia",
       "season_or_time_context": "active search and rescue",
       "first_seen": "2026-09-14T00:20:00Z",
-      "last_seen": "2026-09-16T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-17T00:20:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-17T00:20:00Z",
+          "note": "Four days on, the count hasn't moved since Sunday - 108 rescued, six dead, 129 missing, unchanged - as persistent heavy seas keep restricting search operations and families grow more desperate. A frozen tally is its own kind of answer."
+        },
         {
           "date": "2026-09-16T00:20:00Z",
           "note": "Survivor Ahmad Saudi says the ferry was visibly overcrowded before it left port - passengers sleeping in hallways because cabins were already full. The question of weather versus capacity now has a witness attached to it."
@@ -121,7 +125,7 @@
           "note": "The ferry Virgo Transport 8 capsized in the Java Sea Sept 13 en route Surabaya-Banjarmasin after the captain reported 3-meter waves and a listing ship. Six bodies recovered, 108 rescued, roughly 130 of the 243 aboard still missing."
         }
       ],
-      "source_date": "2026-09-15"
+      "source_date": "2026-09-16"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -135,16 +139,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Sept 13 count reached 7,258 confirmed and 3,510 dead, with 905 hospitalized - still climbing, but the pace has eased from the sharp Sept 12 jump. Officials now count six affected provinces rather than seven, the first sign the geographic spread may be narrowing even as the case count keeps rising.",
+      "why_now": "WHO's Tedros calls it a story of \"many outbreaks in many places\": encouraging signs in Ituri, the original epicenter, even as North Kivu's weekly case count nearly doubles from about 100 to over 200. The same outbreak is simultaneously improving and worsening, depending entirely on which province you're standing in.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.globalsecurity.org/security/library/news/2026/09/sec-260915-azertac01.htm",
+      "url": "https://abcnews.com/Health/wireStory/sees-encouraging-signs-congo-ebola-fight-warns-cases-136495517",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-16T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-17T00:20:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-17T00:20:00Z",
+          "note": "WHO's Tedros calls it \"many outbreaks in many places\": encouraging signs in Ituri, the original epicenter, even as North Kivu's weekly cases nearly double from ~100 to 200+. The same outbreak is improving and worsening depending on the province."
+        },
         {
           "date": "2026-09-16T00:20:00Z",
           "note": "The Sept 13 count reached 7,258 confirmed, 3,510 dead, 905 hospitalized - still climbing, but easing from Sept 12's sharp jump. Officials now count six affected provinces rather than seven, a first sign the spread may be narrowing."
@@ -158,7 +166,7 @@
           "note": "Africa's top health body warns the outbreak is \"rapidly spreading beyond its epicenter\" - 7,000+ confirmed cases, 3,349+ dead across 62 health zones in 7 provinces. Ituri is cooling, but North Kivu and Haut-Uele are climbing sharply instead."
         }
       ],
-      "source_date": "2026-09-15"
+      "source_date": "2026-09-16"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -409,6 +417,34 @@
         }
       ],
       "source_date": "2026-09-14"
+    },
+    {
+      "id": "morocco-oldest-defensive-structure",
+      "stream": "places",
+      "observer": "Why Today?",
+      "title": "A ditch first noticed in the 1930s just rewrote North African history",
+      "observation": "A 3,500-year-old ditch and earthen rampart at Oued Beht, Morocco has been confirmed as the oldest known defensive system in North Africa outside the Nile Valley - resolving a mystery first noted in the 1930s and pushing back evidence of organized Maghreb societies by centuries.",
+      "question": "What does it mean for a feature sitting in plain sight since the 1930s to take a century to actually be understood?",
+      "hidden_question": "Is this a story about ancient builders, or about how long it takes modern science to catch up to what was already found?",
+      "pattern": "a decades-old, already-noticed feature only becoming meaningful once dating technology catches up to it",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The Oued Beht Archaeological Project's third field season finally dated the ditch and rampart to the early-to-mid second millennium BC - roughly 3,500 to 4,000 years old - proving the scale of organized labor and planning behind it. The site itself was occupied across five millennia, from the first Neolithic farmers through Bronze Age builders to medieval reoccupation.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://archaeologymag.com/2026/09/north-africas-oldest-defensive-system-morocco/",
+      "location": "Oued Beht, Morocco",
+      "season_or_time_context": "recent research finding",
+      "first_seen": "2026-09-17T00:20:00Z",
+      "last_seen": "2026-09-17T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-17T00:20:00Z",
+          "note": "The Oued Beht Archaeological Project dated a 3,500-4,000-year-old ditch and earthen rampart in Morocco as North Africa's oldest known defensive system outside the Nile Valley - resolving a mystery first noted in the 1930s."
+        }
+      ],
+      "source_date": "2026-09-16"
     }
   ]
 }

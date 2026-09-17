@@ -1,6 +1,6 @@
 {
   "week": "2026-09-13",
-  "last_updated": "2026-09-16T14:30:00Z",
+  "last_updated": "2026-09-17T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -20,7 +20,7 @@
           "text": "The House voted 220-204 for a third time to pass a war-powers resolution ending the Iran war - a real vote, a real majority, and it still changes nothing: the resolution won't reach Trump's desk, and he'd veto it if it did. Three votes, zero effect on the war itself.",
           "url": "https://www.usnews.com/news/politics/articles/2026-09-15/house-votes-for-a-third-time-to-end-the-iran-war-as-conflict-drags-on",
           "date": "2026-09-15",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Debt Management",
@@ -39,10 +39,10 @@
       "evidence": [
         {
           "domain": "Public Health",
-          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June; the Sept 13 count now stands at 7,258 confirmed and 3,510 dead - still climbing three months later, even as the pace eases and the province count edges down from seven to six.",
-          "url": "https://www.globalsecurity.org/security/library/news/2026/09/sec-260915-azertac01.htm",
-          "date": "2026-09-15",
-          "is_new": false
+          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June; WHO's Tedros now calls it \"many outbreaks in many places\" - encouraging signs in the original epicenter, Ituri, even as North Kivu's weekly cases nearly double. The same outbreak reads as resolved and unresolved depending on which province you ask.",
+          "url": "https://abcnews.com/Health/wireStory/sees-encouraging-signs-congo-ebola-fight-warns-cases-136495517",
+          "date": "2026-09-16",
+          "is_new": true
         },
         {
           "domain": "Political Legitimacy",
