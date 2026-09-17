@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-16T15:05:33.805992+00:00",
+  "generated_at": "2026-09-17T15:07:19.087797+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -131,19 +131,17 @@
       "gamePk": 824307,
       "status": "final",
       "result": "L",
-      "score": "3\u20139"
+      "score": "3\u20139",
+      "archive_url": "archive.html?date=2026-09-16"
     },
     {
       "date": "2026-09-16",
       "opponent": "COL",
       "home": false,
       "gamePk": 824306,
-      "status": "scheduled",
-      "time_local": "5:40 PM PT",
-      "probable": {
-        "team": "Robbie Ray",
-        "opp": "Mason Adams"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "9\u20133"
     },
     {
       "date": "2026-09-17",
@@ -163,7 +161,10 @@
       "home": true,
       "gamePk": 823252,
       "status": "scheduled",
-      "time_local": "6:40 PM PT"
+      "time_local": "6:40 PM PT",
+      "probable": {
+        "opp": "Tyler Phillips"
+      }
     },
     {
       "date": "2026-09-19",
@@ -171,7 +172,10 @@
       "home": true,
       "gamePk": 823249,
       "status": "scheduled",
-      "time_local": "5:40 PM PT"
+      "time_local": "5:40 PM PT",
+      "probable": {
+        "opp": "Eury P\u00e9rez"
+      }
     },
     {
       "date": "2026-09-20",
@@ -231,8 +235,8 @@
     }
   ],
   "summary": {
-    "month_record": "9\u20134",
-    "current_streak": "L1",
-    "last_10": "8\u20132"
+    "month_record": "10\u20134",
+    "current_streak": "W1",
+    "last_10": "9\u20131"
   }
 }
