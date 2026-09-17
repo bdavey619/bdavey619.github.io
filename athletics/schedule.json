@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-09",
   "division_name": "AL West",
-  "generated_at": "2026-09-16T17:14:27.733070+00:00",
+  "generated_at": "2026-09-17T17:13:29.643029+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -130,31 +130,25 @@
       "gamePk": 822925,
       "status": "final",
       "result": "L",
-      "score": "1\u20132"
+      "score": "1\u20132",
+      "archive_url": "archive.html?date=2026-09-16"
     },
     {
       "date": "2026-09-16",
       "opponent": "TB",
       "home": false,
       "gamePk": 822926,
-      "status": "scheduled",
-      "time_local": "3:40 PM PT",
-      "probable": {
-        "team": "Brady Basso",
-        "opp": "Nick Martinez"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "3\u20134"
     },
     {
       "date": "2026-09-17",
       "opponent": "TB",
       "home": false,
       "gamePk": 822924,
-      "status": "scheduled",
-      "time_local": "10:10 AM PT",
-      "probable": {
-        "team": "Jeffrey Springs",
-        "opp": "Drew Rasmussen"
-      }
+      "status": "live",
+      "time_local": "Live"
     },
     {
       "date": "2026-09-18",
@@ -162,7 +156,10 @@
       "home": false,
       "gamePk": 824383,
       "status": "scheduled",
-      "time_local": "4:10 PM PT"
+      "time_local": "4:10 PM PT",
+      "probable": {
+        "opp": "Daniel Espino"
+      }
     },
     {
       "date": "2026-09-19",
@@ -170,7 +167,11 @@
       "home": false,
       "gamePk": 824380,
       "status": "scheduled",
-      "time_local": "3:10 PM PT"
+      "time_local": "3:10 PM PT",
+      "probable": {
+        "team": "Jacob Lopez",
+        "opp": "Tanner Bibee"
+      }
     },
     {
       "date": "2026-09-20",
@@ -178,7 +179,11 @@
       "home": false,
       "gamePk": 824381,
       "status": "scheduled",
-      "time_local": "10:40 AM PT"
+      "time_local": "10:40 AM PT",
+      "probable": {
+        "team": "Jack Perkins",
+        "opp": "Gavin Williams"
+      }
     },
     {
       "date": "2026-09-22",
@@ -230,8 +235,8 @@
     }
   ],
   "summary": {
-    "month_record": "8\u20135",
-    "current_streak": "L1",
-    "last_10": "6\u20134"
+    "month_record": "8\u20136",
+    "current_streak": "L2",
+    "last_10": "5\u20135"
   }
 }
