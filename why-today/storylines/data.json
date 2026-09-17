@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-13",
-  "cycle_start": "2026-09-16T14:30:00Z",
-  "last_updated": "2026-09-17T00:20:00Z",
+  "cycle_start": "2026-09-17T00:20:00Z",
+  "last_updated": "2026-09-17T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The House voted 220-204 for a third time to pass a war-powers resolution ending the Iran war, with seven Republicans breaking ranks - but it won't reach Trump's desk, and he'd almost certainly veto it anyway. Likely the last House vote on the war before midterms, where it's already shaping campaigns without ever actually stopping.",
+      "why_now": "CENTCOM and Iran's IRGC are now disputing the facts of a single tanker strike directly: Iran says the El Gaia hit a sea mine, CENTCOM says Iran itself disabled it with a missile last month and struck it again by drone this weekend, calling the mine claim \"lies and intimidation.\" Even the cause of individual incidents is now contested in real time.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.usnews.com/news/politics/articles/2026-09-15/house-votes-for-a-third-time-to-end-the-iran-war-as-conflict-drags-on",
+      "url": "https://gcaptain.com/u-s-rejects-irans-mine-claim-as-hormuz-shipping-threat-remains-severe/",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-16T14:30:00Z",
-      "appearances": 6,
+      "last_seen": "2026-09-17T14:30:00Z",
+      "appearances": 7,
       "history": [
+        {
+          "date": "2026-09-17T14:30:00Z",
+          "note": "IRGC says the tanker El Gaia hit a Hormuz sea mine. CENTCOM calls that \"false,\" saying Iran itself struck the already-disabled ship again by drone off Oman; it's now under tow. 13 of 14 Indian crew rescued, one still missing."
+        },
         {
           "date": "2026-09-16T14:30:00Z",
           "note": "The House voted 220-204, a third time, for a war-powers resolution ending the Iran war, seven Republicans breaking ranks - but it won't reach Trump's desk, who'd veto it. Likely the last House vote before midterms."
@@ -39,13 +43,9 @@
         {
           "date": "2026-09-14T00:20:00Z",
           "note": "The Monday Gulf-states/Iran meeting in Salalah - to unveil a shipping-lane deal - was postponed, Oman's FM says, \"in the interests of consensus,\" no details given. The forum built to fix this didn't survive to its own scheduled day."
-        },
-        {
-          "date": "2026-09-13T14:30:00Z",
-          "note": "An Iranian vessel was struck off Qeshm Sunday, killing one crew member and wounding four; Tehran blames a \"terrorist enemy\" without naming one. Gulf Arab diplomats meet Iran's FM in Oman Monday on strait traffic - Bahrain won't attend."
         }
       ],
-      "source_date": "2026-09-16"
+      "source_date": "2026-09-17"
     },
     {
       "id": "anak-krakatau-missing-journalists",
@@ -58,16 +58,20 @@
       "pattern": "a story's own subject becoming the reason its documentarians disappear",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "A tsunami-monitoring sensor near the volcano recorded something odd the exact afternoon the journalists vanished: the tide's normal peak came out flat, overlaid with unusual wave ripples, and a weaker version of the same pattern showed up at a second station - widespread, not just local to the eruption. Researchers can't draw a conclusion, though: the area's CCTV was down and satellite views were fogged in.",
+      "why_now": "Day 10 of the search: coverage has expanded to 8,509 square nautical miles, up from 6,649, with no sign of the journalists, crew or their speedboat. SAR is now coordinating with Vessel Traffic Services and an electronic broadcast system to alert vessels transiting the strait, while Anak Krakatau itself has eased to Level III alert with no active eruption, though shallow volcanic activity continues.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://en.tempo.co/read/2119709/anak-krakatau-anomaly-detected-on-day-journalists-vanished",
+      "url": "https://en.tempo.co/read/2119775/how-day-10-search-for-missing-journalists-near-anak-krakatau-is-expanding",
       "location": "Anak Krakatau, Sunda Strait, Indonesia",
-      "season_or_time_context": "active search operation, day 9",
+      "season_or_time_context": "active search operation, day 10",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-16T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-17T14:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-17T14:30:00Z",
+          "note": "Day 10: coverage expanded to 8,509 sq nautical miles, no sign of journalists, crew or the speedboat. SAR now uses an electronic broadcast system with Vessel Traffic Services to alert ships. Anak Krakatau dropped to Level III, no eruption."
+        },
         {
           "date": "2026-09-16T14:30:00Z",
           "note": "A tsunami sensor recorded an odd sea-level pattern the exact afternoon the journalists vanished - the tide's peak flattened, unusual ripples, echoed weaker at a second station. Researchers can't confirm what it means: CCTV was down, satellite fogged in."
@@ -85,7 +89,7 @@
           "note": "Search for 5 journalists and 3 crew, missing since Sept 7 near Anak Krakatau, has expanded to nearby islands as 11+ vessels and 300+ personnel sweep north of the volcano. Only an unidentified life jacket has been recovered so far."
         }
       ],
-      "source_date": "2026-09-16"
+      "source_date": "2026-09-17"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -207,16 +211,20 @@
       "pattern": "a telegraphed deadline arriving exactly as threatened, despite weeks of visible opportunity to avoid it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "After weeks of escalation, Carney says he \"welcomes\" Trump's weekend comments that a deal could come \"fairly soon,\" telling Bloomberg he's ready to negotiate a \"mutually advantageous\" agreement that respects both countries' sovereignty - framing last month's talk collapse as useful for clarifying Canada's own red lines.",
+      "why_now": "Carney has shifted the framing entirely: at Canada's first Investment Summit, he said Canada can wait for the right conditions and emerge stronger and more independent, pitching $1 trillion in outside investment and deeper EU ties as the real strategy - not urgency to close a US deal.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-14/carney-says-us-trade-deal-possible-blow-up-helped-clarify-red-lines",
+      "url": "https://www.pbs.org/newshour/world/carney-says-canada-can-emerge-from-trumps-trade-war-with-a-stronger-and-independent-economy",
       "location": "Canada / United States",
       "season_or_time_context": "tariffs effective, ban pending Sept 29",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-15T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-17T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-17T14:30:00Z",
+          "note": "At Canada's Investment Summit, Carney says Canada can wait for the right conditions rather than rush a US deal, pivoting toward $1 trillion in outside investment and closer EU ties - patience, not urgency, is now the stated strategy."
+        },
         {
           "date": "2026-09-15T00:20:00Z",
           "note": "Carney says he \"welcomes\" Trump's comments that a deal could come \"fairly soon,\" telling Bloomberg he's ready to negotiate a \"mutually advantageous\" agreement - framing last month's talk collapse as useful for clarifying Canada's red lines."
@@ -226,7 +234,7 @@
           "note": "Carney called Trump's import-ban proclamations \"relatively modest\" and signaled Canada will hold off on further retaliation for now - a deliberate step down after two straight escalations, even while pressing Washington to \"start being serious\" about negotiating."
         }
       ],
-      "source_date": "2026-09-14"
+      "source_date": "2026-09-15"
     },
     {
       "id": "ganesh-chaturthi-eco-idol-tension",
