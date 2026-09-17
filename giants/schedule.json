@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-16T16:17:38.367991+00:00",
+  "generated_at": "2026-09-17T16:25:13.763602+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -147,12 +147,10 @@
       "opponent": "STL",
       "home": false,
       "gamePk": 823004,
-      "status": "scheduled",
-      "time_local": "10:15 AM PT",
-      "probable": {
-        "team": "Anthony Molina",
-        "opp": "Matthew Liberatore"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "6\u20135",
+      "archive_url": "archive.html?date=2026-09-16"
     },
     {
       "date": "2026-09-18",
@@ -162,7 +160,8 @@
       "status": "scheduled",
       "time_local": "7:15 PM PT",
       "probable": {
-        "team": "Cesar Perdomo"
+        "team": "Cesar Perdomo",
+        "opp": "Tyler Glasnow"
       }
     },
     {
@@ -171,7 +170,10 @@
       "home": false,
       "gamePk": 823899,
       "status": "scheduled",
-      "time_local": "6:10 PM PT"
+      "time_local": "6:10 PM PT",
+      "probable": {
+        "opp": "Tarik Skubal"
+      }
     },
     {
       "date": "2026-09-20",
@@ -231,8 +233,8 @@
     }
   ],
   "summary": {
-    "month_record": "6\u20138",
-    "current_streak": "W1",
+    "month_record": "7\u20138",
+    "current_streak": "W2",
     "last_10": "5\u20135"
   }
 }
