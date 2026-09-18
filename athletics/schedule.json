@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-09",
   "division_name": "AL West",
-  "generated_at": "2026-09-17T17:13:29.643029+00:00",
+  "generated_at": "2026-09-18T16:40:34.630649+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -140,15 +140,17 @@
       "gamePk": 822926,
       "status": "final",
       "result": "L",
-      "score": "3\u20134"
+      "score": "3\u20134",
+      "archive_url": "archive.html?date=2026-09-17"
     },
     {
       "date": "2026-09-17",
       "opponent": "TB",
       "home": false,
       "gamePk": 822924,
-      "status": "live",
-      "time_local": "Live"
+      "status": "final",
+      "result": "L",
+      "score": "1\u201310"
     },
     {
       "date": "2026-09-18",
@@ -158,6 +160,7 @@
       "status": "scheduled",
       "time_local": "4:10 PM PT",
       "probable": {
+        "team": "Mason Barnett",
         "opp": "Daniel Espino"
       }
     },
@@ -235,8 +238,8 @@
     }
   ],
   "summary": {
-    "month_record": "8\u20136",
-    "current_streak": "L2",
-    "last_10": "5\u20135"
+    "month_record": "8\u20137",
+    "current_streak": "L3",
+    "last_10": "4\u20136"
   }
 }
