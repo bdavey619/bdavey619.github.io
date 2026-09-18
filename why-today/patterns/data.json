@@ -1,6 +1,6 @@
 {
   "week": "2026-09-13",
-  "last_updated": "2026-09-18T00:20:00Z",
+  "last_updated": "2026-09-18T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -27,7 +27,7 @@
           "text": "The Fed hiked rates a quarter point Sept 16 - its first increase since 2023 - meant to signal control over inflation. Instead the 10-year Treasury yield jumped straight past 5%, its highest since 2007, as Chair Warsh flagged persistent inflation risk and one more hike this year.",
           "url": "https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html",
           "date": "2026-09-16",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
