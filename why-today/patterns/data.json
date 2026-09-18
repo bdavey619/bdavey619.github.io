@@ -1,11 +1,11 @@
 {
   "week": "2026-09-13",
-  "last_updated": "2026-09-17T14:30:00Z",
+  "last_updated": "2026-09-18T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
       "title": "This week, three separate claims of having fixed something didn't survive a single news cycle",
-      "explanation": "Across information warfare, foreign policy and debt management, the same pattern showed up: an announcement of control or resolution, followed within about a day by the other side, or the market, contradicting it. Iran claimed a sea mine sank a tanker in the Strait of Hormuz; the US called it a lie within the same cycle. A war-powers vote claimed to end a war it has no power to end. A bond-market intervention whose relief lasted less than 24 hours before yields fully round-tripped. The pattern isn't that these claims are false when made - it's that none of them are built to survive contact with the next news cycle.",
+      "explanation": "Across information warfare, foreign policy and debt management, the same pattern showed up: an announcement of control or resolution, followed within about a day by the other side, or the market, contradicting it. Iran claimed a sea mine sank a tanker in the Strait of Hormuz; the US called it a lie within the same cycle. A war-powers vote claimed to end a war it has no power to end. The Fed raised rates to signal it had inflation under control, and the bond market answered by pushing yields to an 18-year high. The pattern isn't that these claims are false when made - it's that none of them are built to survive contact with the next news cycle.",
       "momentum": "accelerating",
       "evidence": [
         {
@@ -13,7 +13,7 @@
           "text": "Iran's IRGC announced the tanker El Gaia hit a Hormuz sea mine - a claim of accident, not attack. Within the same news cycle, US CENTCOM called it \"false,\" saying Iran itself struck the already-disabled ship again by drone. The claim didn't survive contact with the next report.",
           "url": "https://gcaptain.com/u-s-rejects-irans-mine-claim-as-hormuz-shipping-threat-remains-severe/",
           "date": "2026-09-17",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Foreign Policy",
@@ -24,10 +24,10 @@
         },
         {
           "domain": "Debt Management",
-          "text": "Wholesale inflation (PPI) accelerated to 5.4% YoY in August, well above July's 4.7% pace, pushing money-market odds of a Sept 15-16 rate hike to roughly 70% - up from 58% just a day earlier. The reading that was supposed to settle the debate keeps moving the goalposts instead.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-10/stock-market-today-dow-s-p-live-updates",
-          "date": "2026-09-10",
-          "is_new": false
+          "text": "The Fed hiked rates a quarter point Sept 16 - its first increase since 2023 - meant to signal control over inflation. Instead the 10-year Treasury yield jumped straight past 5%, its highest since 2007, as Chair Warsh flagged persistent inflation risk and one more hike this year.",
+          "url": "https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html",
+          "date": "2026-09-16",
+          "is_new": true
         }
       ]
     },
@@ -39,8 +39,8 @@
       "evidence": [
         {
           "domain": "Public Health",
-          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June; WHO's Tedros now calls it \"many outbreaks in many places\" - encouraging signs in the original epicenter, Ituri, even as North Kivu's weekly cases nearly double. The same outbreak reads as resolved and unresolved depending on which province you ask.",
-          "url": "https://abcnews.com/Health/wireStory/sees-encouraging-signs-congo-ebola-fight-warns-cases-136495517",
+          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June. As of Sept 16, cases keep climbing nationally (7,404 confirmed, 3,577 dead) - Ituri cooling as promised, but North Kivu rising fast enough that its treatment facilities are nearing full capacity.",
+          "url": "https://dailynigerian.com/ebola-outbreak-in-dr-congo-records-7404-cases/",
           "date": "2026-09-16",
           "is_new": false
         },
@@ -56,7 +56,7 @@
           "text": "SCOTUS blocked Trump's mail-ballot restrictions for the midterms - a resolution in form. But Kavanaugh's concurrence conceded the rule might be legal, just too late to implement fairly this cycle, and commentators call the ruling \"cryptic,\" not the Court's last word on the underlying question.",
           "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/09/16/the-supreme-courts-cryptic-mail-ballot-decision-wont-be-its-last-word-on-voting-2/",
           "date": "2026-09-16",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy Shipping",

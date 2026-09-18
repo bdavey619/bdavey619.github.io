@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-13",
-  "cycle_start": "2026-09-17T00:20:00Z",
-  "last_updated": "2026-09-17T14:30:00Z",
+  "cycle_start": "2026-09-17T14:30:00Z",
+  "last_updated": "2026-09-18T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -143,16 +143,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "WHO's Tedros calls it a story of \"many outbreaks in many places\": encouraging signs in Ituri, the original epicenter, even as North Kivu's weekly case count nearly doubles from about 100 to over 200. The same outbreak is simultaneously improving and worsening, depending entirely on which province you're standing in.",
+      "why_now": "The outbreak is now visibly splitting in two directions at once: Ituri, the original epicenter, keeps cooling, while North Kivu's case count is rising fast enough that treatment facilities there are nearing full capacity - the same national tally masking two opposite local trajectories.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://abcnews.com/Health/wireStory/sees-encouraging-signs-congo-ebola-fight-warns-cases-136495517",
+      "url": "https://dailynigerian.com/ebola-outbreak-in-dr-congo-records-7404-cases/",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-17T00:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-18T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-18T00:20:00Z",
+          "note": "Sept 16 tally: 7,404 confirmed, 3,577 dead, 930 hospitalized - up 59 cases and 32 deaths in a day. Transmission keeps declining in Ituri but rising rapidly in North Kivu, where treatment facilities are approaching full capacity."
+        },
         {
           "date": "2026-09-17T00:20:00Z",
           "note": "WHO's Tedros calls it \"many outbreaks in many places\": encouraging signs in Ituri, the original epicenter, even as North Kivu's weekly cases nearly double from ~100 to 200+. The same outbreak is improving and worsening depending on the province."
@@ -453,6 +457,90 @@
         }
       ],
       "source_date": "2026-09-16"
+    },
+    {
+      "id": "fed-first-hike-since-2023",
+      "stream": "markets",
+      "observer": "Why Today?",
+      "title": "The Fed spent three years cutting. It just reversed course entirely",
+      "observation": "The Federal Reserve raised its benchmark rate a quarter point to 3.75%-4% - its first hike since 2023 - after August inflation data came in hotter than expected, sending the 10-year Treasury yield above 5% for the first time since 2007.",
+      "question": "What does it cost a central bank to admit, three years into cutting, that inflation was never actually beaten?",
+      "hidden_question": "Is this one hike a correction, or the first move in a cycle the Fed will need several more votes to finish?",
+      "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Fed Chair Kevin Warsh flagged persistent inflation risk in the announcement itself, and the Fed signaled at least one more hike is likely this year - meaning markets that spent days pricing a single correction now have to price a cycle instead.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html",
+      "location": "Washington, DC (Federal Reserve)",
+      "season_or_time_context": "rate decision just announced",
+      "first_seen": "2026-09-18T00:20:00Z",
+      "last_seen": "2026-09-18T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-18T00:20:00Z",
+          "note": "The Fed hiked a quarter point to 3.75%-4%, its first increase since 2023, after hot August inflation data. The 10-year Treasury yield jumped above 5% for the first time since 2007, and one more hike is likely this year."
+        }
+      ],
+      "source_date": "2026-09-16"
+    },
+    {
+      "id": "first-adult-trex-trackway",
+      "stream": "natural_world",
+      "observer": "Why Today?",
+      "title": "No one had ever found an adult T. rex's footprints. A teacher just did",
+      "observation": "An amateur fossil hunter volunteering on a dig found four connected footprints in North Dakota's Hell Creek Formation - the first known trackway ever attributed to a full-grown Tyrannosaurus rex, dated to about 66.5 million years ago, just before the asteroid impact.",
+      "question": "What does it say about a species this famous that no one had proof of how an adult of it actually walked until now?",
+      "hidden_question": "Is T. rex over-studied because we know so much, or under-studied in exactly the ways that matter, since basic facts like this were still missing?",
+      "pattern": "a scientifically exhaustive subject turning out to have a foundational gap only an amateur happened to fill",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The spacing between the four 3-foot-long footprints lets researchers estimate the animal was walking about 3.5 to 4.5 mph despite weighing more than seven tons - the first direct, physical evidence of adult T. rex locomotion, rather than inference from bone structure alone. Published this month in the Journal of Vertebrate Paleontology.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.sci.news/paleontology/adult-tyrannosaurus-rex-trackway-15056.html",
+      "location": "Hell Creek Formation, North Dakota",
+      "season_or_time_context": "recent research finding",
+      "first_seen": "2026-09-18T00:20:00Z",
+      "last_seen": "2026-09-18T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-18T00:20:00Z",
+          "note": "An amateur fossil hunter found four connected footprints in North Dakota - the first known trackway from a full-grown T. rex, ~66.5 million years old. Spacing puts its walking speed at 3.5-4.5 mph despite weighing more than seven tons."
+        }
+      ],
+      "source_date": "2026-09-17"
+    },
+    {
+      "id": "lucas-museum-narrative-art-opens",
+      "stream": "curiosities",
+      "observer": "Why Today?",
+      "title": "$1 billion, 16 years, and critics are calling it the Treacle Museum",
+      "observation": "George Lucas's Museum of Narrative Art opens to the public Sept 22 in LA - a $1 billion, 300,000-square-foot building housing 40,000+ works of illustration, comic and pop-culture art, built on the premise this material deserves fine art's institutional weight.",
+      "question": "Who gets to decide when popular art has earned the word 'art' without qualification?",
+      "hidden_question": "Is the museum elevating a genre critics have dismissed for decades, or spending a billion dollars to prove a point that taste can't actually be bought?",
+      "pattern": "a wealthy founder's institution testing whether prestige can be built rather than earned",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Advance reviews are sharply split ahead of the Sept 22 opening: LA Times critic Christopher Knight called it \"the Treacle Museum - a sentimental vanity gallery pumped up on soppy emotional steroids,\" while other critics flagged admission pricing up to $600 a year as \"tone-deaf\" for a billionaire-funded institution asking for more money at the door.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.artforum.com/news/lucas-museum-receives-mixed-reviews-ahead-of-opening-1234758846/",
+      "location": "Exposition Park, Los Angeles",
+      "season_or_time_context": "opens to the public Sept 22",
+      "first_seen": "2026-09-18T00:20:00Z",
+      "last_seen": "2026-09-18T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-18T00:20:00Z",
+          "note": "Ahead of its Sept 22 opening, critics split sharply: LA Times calls it \"the Treacle Museum - a sentimental vanity gallery,\" while others call its $600 annual membership pricing \"tone-deaf\" for a billionaire-funded museum. $1B, 16 years, three cities."
+        }
+      ],
+      "source_date": "2026-09-17"
     }
   ]
 }
