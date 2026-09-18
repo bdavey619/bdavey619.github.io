@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-17T15:07:19.087797+00:00",
+  "generated_at": "2026-09-18T14:34:25.391491+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -141,19 +141,17 @@
       "gamePk": 824306,
       "status": "final",
       "result": "W",
-      "score": "9\u20133"
+      "score": "9\u20133",
+      "archive_url": "archive.html?date=2026-09-17"
     },
     {
       "date": "2026-09-17",
       "opponent": "COL",
       "home": false,
       "gamePk": 824305,
-      "status": "scheduled",
-      "time_local": "12:10 PM PT",
-      "probable": {
-        "team": "Michael King",
-        "opp": "Tanner Gordon"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "9\u20132"
     },
     {
       "date": "2026-09-18",
@@ -163,6 +161,7 @@
       "status": "scheduled",
       "time_local": "6:40 PM PT",
       "probable": {
+        "team": "Nick Pivetta",
         "opp": "Tyler Phillips"
       }
     },
@@ -174,6 +173,7 @@
       "status": "scheduled",
       "time_local": "5:40 PM PT",
       "probable": {
+        "team": "Casey Mize",
         "opp": "Eury P\u00e9rez"
       }
     },
@@ -183,7 +183,10 @@
       "home": true,
       "gamePk": 823247,
       "status": "scheduled",
-      "time_local": "1:10 PM PT"
+      "time_local": "1:10 PM PT",
+      "probable": {
+        "team": "Walker Buehler"
+      }
     },
     {
       "date": "2026-09-22",
@@ -235,8 +238,8 @@
     }
   ],
   "summary": {
-    "month_record": "10\u20134",
-    "current_streak": "W1",
+    "month_record": "11\u20134",
+    "current_streak": "W2",
     "last_10": "9\u20131"
   }
 }
