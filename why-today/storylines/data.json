@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-13",
-  "cycle_start": "2026-09-18T00:20:00Z",
-  "last_updated": "2026-09-18T14:30:00Z",
+  "cycle_start": "2026-09-18T14:30:00Z",
+  "last_updated": "2026-09-19T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -147,16 +147,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The outbreak is now visibly splitting in two directions at once: Ituri, the original epicenter, keeps cooling, while North Kivu's case count is rising fast enough that treatment facilities there are nearing full capacity - the same national tally masking two opposite local trajectories.",
+      "why_now": "The UN reports more than 54% of confirmed cases are now among women - a direct result of who does the caregiving: attending the sick, fetching food and water, washing bodies for burial. The outbreak's spread traces the region's division of domestic labor as much as it traces geography.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://dailynigerian.com/ebola-outbreak-in-dr-congo-records-7404-cases/",
+      "url": "https://news.un.org/en/story/2026/09/1168368",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-18T00:20:00Z",
-      "appearances": 5,
+      "last_seen": "2026-09-19T00:20:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-09-19T00:20:00Z",
+          "note": "The UN reports over 54% of confirmed cases are among women, who do most of the caregiving - attending the sick, fetching food and water, washing bodies for burial - putting them at the greatest risk in the transmission chain."
+        },
         {
           "date": "2026-09-18T00:20:00Z",
           "note": "Sept 16 tally: 7,404 confirmed, 3,577 dead, 930 hospitalized - up 59 cases and 32 deaths in a day. Transmission keeps declining in Ituri but rising rapidly in North Kivu, where treatment facilities are approaching full capacity."
@@ -172,13 +176,9 @@
         {
           "date": "2026-09-14T14:30:00Z",
           "note": "The Sept 12 tally is the sharpest jump yet: 258 new confirmed cases and 126 new deaths in one reporting window, pushing totals to 7,200 confirmed and 3,475 dead, with 923 now hospitalized in isolation."
-        },
-        {
-          "date": "2026-09-13T00:20:00Z",
-          "note": "Africa's top health body warns the outbreak is \"rapidly spreading beyond its epicenter\" - 7,000+ confirmed cases, 3,349+ dead across 62 health zones in 7 provinces. Ituri is cooling, but North Kivu and Haut-Uele are climbing sharply instead."
         }
       ],
-      "source_date": "2026-09-16"
+      "source_date": "2026-09-19"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -485,22 +485,26 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Fed Chair Kevin Warsh flagged persistent inflation risk in the announcement itself, and the Fed signaled at least one more hike is likely this year - meaning markets that spent days pricing a single correction now have to price a cycle instead.",
+      "why_now": "The alarm didn't last: a day after the yield spike, Wall Street rebounded hard - the S&P 500 up 1.1% - as oil prices eased and Treasury yields pulled back from 5%. The market's first reaction and its second reaction told two different stories within 24 hours.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-18-134541673.html",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate decision just announced",
       "first_seen": "2026-09-18T00:20:00Z",
-      "last_seen": "2026-09-18T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-19T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-19T00:20:00Z",
+          "note": "A day after the yield spike, Wall Street rebounded hard - the S&P 500 up 1.1% - as easing oil prices and pulled-back yields eased inflation worry. The market's first and second reactions to the same hike told opposite stories."
+        },
         {
           "date": "2026-09-18T00:20:00Z",
           "note": "The Fed hiked a quarter point to 3.75%-4%, its first increase since 2023, after hot August inflation data. The 10-year Treasury yield jumped above 5% for the first time since 2007, and one more hike is likely this year."
         }
       ],
-      "source_date": "2026-09-16"
+      "source_date": "2026-09-18"
     },
     {
       "id": "first-adult-trex-trackway",
@@ -557,6 +561,35 @@
         }
       ],
       "source_date": "2026-09-17"
+    },
+    {
+      "id": "sudan-informal-gold-mine-collapse",
+      "stream": "headlines",
+      "category": "Politics & World",
+      "observer": "Why Today?",
+      "title": "No safety equipment, no rescue teams, and dozens still trapped underground",
+      "observation": "A series of adjoining shafts collapsed at the informal Al-Zaraa gold mine near El Nahud, Sudan, killing at least 80 people and injuring 50 more - residents digging with rudimentary tools, since no specialized rescue teams have reached the unregulated site.",
+      "question": "What does it cost a country at war to have no capacity left to regulate, or rescue from, its own informal industries?",
+      "hidden_question": "Is this collapse a mining accident, or a predictable consequence of a state too consumed by conflict to enforce basic safety anywhere?",
+      "pattern": "an informal economy's basic hazards going unaddressed until a war strips away what oversight existed",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The sandy terrain is actively working against rescue: loose soil keeps triggering further collapses as residents dig by hand, with no specialized equipment on site and an unknown number still trapped. Local sources blame the death toll on the mine's total lack of safety procedures or protective measures.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://allafrica.com/stories/202609180002.html",
+      "location": "Al-Zaraa gold mine, near El Nahud, West Kordofan, Sudan",
+      "season_or_time_context": "active rescue effort",
+      "first_seen": "2026-09-19T00:20:00Z",
+      "last_seen": "2026-09-19T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-19T00:20:00Z",
+          "note": "Adjoining shafts collapsed at the informal Al-Zaraa gold mine, killing at least 80 and injuring 50. No specialized rescue teams have reached the site - residents dig with rudimentary tools as loose, sandy soil keeps triggering further collapses."
+        }
+      ],
+      "source_date": "2026-09-18"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "week": "2026-09-13",
-  "last_updated": "2026-09-18T14:30:00Z",
+  "last_updated": "2026-09-19T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -24,9 +24,9 @@
         },
         {
           "domain": "Debt Management",
-          "text": "The Fed hiked rates a quarter point Sept 16 - its first increase since 2023 - meant to signal control over inflation. Instead the 10-year Treasury yield jumped straight past 5%, its highest since 2007, as Chair Warsh flagged persistent inflation risk and one more hike this year.",
-          "url": "https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html",
-          "date": "2026-09-16",
+          "text": "The Fed hiked rates a quarter point Sept 16 to signal control over inflation. Yields jumped straight past 5% instead - then a day later the market reversed again, rallying 1.1% as oil eased and yields pulled back. Two contradictions of the same claim within 48 hours.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-18-134541673.html",
+          "date": "2026-09-18",
           "is_new": false
         }
       ]
@@ -39,17 +39,17 @@
       "evidence": [
         {
           "domain": "Public Health",
-          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June. As of Sept 16, cases keep climbing nationally (7,404 confirmed, 3,577 dead) - Ituri cooling as promised, but North Kivu rising fast enough that its treatment facilities are nearing full capacity.",
-          "url": "https://dailynigerian.com/ebola-outbreak-in-dr-congo-records-7404-cases/",
-          "date": "2026-09-16",
+          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June. The UN now reports over 54% of confirmed cases are among women, who do most of the caregiving - attending the sick, fetching water, washing bodies - the outbreak tracing domestic labor as much as geography.",
+          "url": "https://news.un.org/en/story/2026/09/1168368",
+          "date": "2026-09-19",
           "is_new": false
         },
         {
-          "domain": "Political Legitimacy",
-          "text": "María Corina Machado backs a long-term US role in Venezuelan oil but is now the one publicly asking who actually signed the 100-year deal, who finances it, and how Venezuelans benefit - the same basic questions a genuine resolution would already have answered.",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Machado-Backs-US-Oil-Partnership-but-Questions-Venezuela-Deal.html",
-          "date": "2026-09-11",
-          "is_new": false
+          "domain": "Missing Persons",
+          "text": "Indonesia formally closed the 10-day search for the Anak Krakatau journalists - a resolution in bureaucratic form. But \"no wreckage, no survivors\" isn't an answer, and officials' own language - restartable only if a new lead surfaces - concedes the actual question was never resolved, just stopped asking.",
+          "url": "https://www.dailymaverick.co.za/article/2026-09-18-indonesia-calls-off-search-for-journalists-missing-while-covering-volcano-eruption/",
+          "date": "2026-09-18",
+          "is_new": true
         },
         {
           "domain": "Elections",
