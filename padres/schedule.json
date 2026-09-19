@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-18T14:34:25.391491+00:00",
+  "generated_at": "2026-09-19T13:57:20.615899+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -151,19 +151,17 @@
       "gamePk": 824305,
       "status": "final",
       "result": "W",
-      "score": "9\u20132"
+      "score": "9\u20132",
+      "archive_url": "archive.html?date=2026-09-18"
     },
     {
       "date": "2026-09-18",
       "opponent": "MIA",
       "home": true,
       "gamePk": 823252,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Nick Pivetta",
-        "opp": "Tyler Phillips"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "8\u20132"
     },
     {
       "date": "2026-09-19",
@@ -185,7 +183,8 @@
       "status": "scheduled",
       "time_local": "1:10 PM PT",
       "probable": {
-        "team": "Walker Buehler"
+        "team": "Walker Buehler",
+        "opp": "Sandy Alcantara"
       }
     },
     {
@@ -238,8 +237,8 @@
     }
   ],
   "summary": {
-    "month_record": "11\u20134",
-    "current_streak": "W2",
+    "month_record": "12\u20134",
+    "current_streak": "W3",
     "last_10": "9\u20131"
   }
 }
