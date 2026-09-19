@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-18T15:58:08.464461+00:00",
+  "generated_at": "2026-09-19T15:30:07.411046+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -157,12 +157,9 @@
       "opponent": "LAD",
       "home": false,
       "gamePk": 823898,
-      "status": "scheduled",
-      "time_local": "7:15 PM PT",
-      "probable": {
-        "team": "Cesar Perdomo",
-        "opp": "Tyler Glasnow"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20138"
     },
     {
       "date": "2026-09-19",
@@ -233,8 +230,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u20138",
-    "current_streak": "W2",
+    "month_record": "7\u20139",
+    "current_streak": "L1",
     "last_10": "5\u20135"
   }
 }
