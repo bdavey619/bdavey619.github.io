@@ -1,6 +1,6 @@
 {
   "week": "2026-09-13",
-  "last_updated": "2026-09-19T00:20:00Z",
+  "last_updated": "2026-09-19T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -49,13 +49,13 @@
           "text": "Indonesia formally closed the 10-day search for the Anak Krakatau journalists - a resolution in bureaucratic form. But \"no wreckage, no survivors\" isn't an answer, and officials' own language - restartable only if a new lead surfaces - concedes the actual question was never resolved, just stopped asking.",
           "url": "https://www.dailymaverick.co.za/article/2026-09-18-indonesia-calls-off-search-for-journalists-missing-while-covering-volcano-eruption/",
           "date": "2026-09-18",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Elections",
-          "text": "SCOTUS blocked Trump's mail-ballot restrictions for the midterms - a resolution in form. But Kavanaugh's concurrence conceded the rule might be legal, just too late to implement fairly this cycle, and commentators call the ruling \"cryptic,\" not the Court's last word on the underlying question.",
-          "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/09/16/the-supreme-courts-cryptic-mail-ballot-decision-wont-be-its-last-word-on-voting-2/",
-          "date": "2026-09-16",
+          "text": "SCOTUS blocked Trump's mail-ballot restrictions for the midterms - a resolution in form. Kavanaugh conceded the rule might be legal, just too late this cycle. Trump then publicly attacked his own three appointees by name for the loss - hardly the behavior of a settled question.",
+          "url": "https://www.cnbc.com/2026/09/15/trump-supreme-court-mail-ballots-election.html",
+          "date": "2026-09-15",
           "is_new": false
         },
         {

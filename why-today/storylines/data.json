@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-13",
-  "cycle_start": "2026-09-18T14:30:00Z",
-  "last_updated": "2026-09-19T00:20:00Z",
+  "cycle_start": "2026-09-19T00:20:00Z",
+  "last_updated": "2026-09-19T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -191,22 +191,26 @@
       "pattern": "a resource deal signed by an unelected government, at a scale built to outlast any successor who might contest it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Two dedicated searches this cycle and last found nothing beyond the Sept 11 material already logged - Machado's opacity questions and Chevron's self-funding plan. Going dormant rather than re-bumping a fact three days old; worth reactivating when Rodr\u00edguez's office or Machado responds directly to the outstanding questions about who signed, who finances, and who benefits.",
-      "status": "dormant",
+      "why_now": "Trump just removed Venezuela from the US drug-control \"failing\" list for the first time in 20+ years, crediting \"positive advances\" under Rodr\u00edguez's interim government - a political reward landing days after her government signed the oil deal, reactivating the legitimacy question with a concrete new data point.",
+      "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-11/chevron-s-venezuela-oil-sales-to-self-fund-expansion-ceo-says",
+      "url": "https://www.aa.com.tr/en/americas/trump-removes-venezuela-from-us-list-of-countries-failing-to-fight-drugs/4059440",
       "location": "Caracas, Venezuela / Washington, DC",
       "season_or_time_context": "deal signed, implementation underway",
       "first_seen": "2026-09-13T00:20:00Z",
-      "last_seen": "2026-09-13T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-19T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-19T14:30:00Z",
+          "note": "Trump removed Venezuela from the US drug-control \"failing\" list for the first time in 20+ years, crediting \"positive advances\" under Rodr\u00edguez - a political reward arriving days after her government signed the oil deal Machado is still questioning."
+        },
         {
           "date": "2026-09-13T00:20:00Z",
           "note": "Chevron's CEO says its $7B expansion will be self-funded from Venezuelan JV profits, not outside cash. Machado, who backs a long-term US oil role, is now asking who signed the deal, who finances it, and how Venezuelans benefit."
         }
       ],
-      "source_date": "2026-09-11"
+      "source_date": "2026-09-16"
     },
     {
       "id": "canada-us-tariffs-take-effect",
@@ -329,16 +333,20 @@
       "pattern": "a policy change technically defensible on the merits, blocked anyway because of when it arrived",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Commentators are already calling the ruling \"cryptic\" and not the Court's last word: Kavanaugh's concurrence left the door open that the rule could still be lawful in a future election cycle, just not this one. The eight states that vote almost entirely by mail - including California, Oregon and Washington - were the ones facing the tightest timeline had the rule taken effect.",
+      "why_now": "Trump himself blasted the outcome as a \"big loss for Republicans\" and publicly criticized his own three Supreme Court appointees for the ruling - the president treating a loyalty test he lost, in front of the justices he put there, the same way he treats every other one.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/09/16/the-supreme-courts-cryptic-mail-ballot-decision-wont-be-its-last-word-on-voting-2/",
+      "url": "https://www.cnbc.com/2026/09/15/trump-supreme-court-mail-ballots-election.html",
       "location": "Washington, DC (US Supreme Court)",
       "season_or_time_context": "ahead of 2026 midterm elections",
       "first_seen": "2026-09-15T00:20:00Z",
-      "last_seen": "2026-09-16T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-19T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-19T14:30:00Z",
+          "note": "Trump publicly blasted the ruling as a \"big loss for Republicans\" and criticized his own three Supreme Court appointees by name for siding against him - the loyalty test extending even to justices he put on the bench himself."
+        },
         {
           "date": "2026-09-16T14:30:00Z",
           "note": "Commentators call the ruling \"cryptic,\" not the Court's last word - Kavanaugh left the rule potentially lawful in a future cycle, just not this one. Eight all-mail states, including California and Washington, faced the tightest timeline had it taken effect."
@@ -348,7 +356,7 @@
           "note": "SCOTUS refused to let the Postal Service enforce new mail-ballot restrictions for the midterms. Trump appointee Kavanaugh concurred narrowly: the rule might be legal, but arrives too late for officials to implement fairly. Alito and Thomas dissented."
         }
       ],
-      "source_date": "2026-09-16"
+      "source_date": "2026-09-19"
     },
     {
       "id": "scythian-gold-necklace-bee-women",
@@ -457,22 +465,26 @@
       "pattern": "a decades-old, already-noticed feature only becoming meaningful once dating technology catches up to it",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The Oued Beht Archaeological Project's third field season finally dated the ditch and rampart to the early-to-mid second millennium BC - roughly 3,500 to 4,000 years old - proving the scale of organized labor and planning behind it. The site itself was occupied across five millennia, from the first Neolithic farmers through Bronze Age builders to medieval reoccupation.",
+      "why_now": "The finding, published in the journal Libyan Studies, reveals a previously undocumented Bronze Age phase at a site whose research had focused almost entirely on its earlier Neolithic occupation - the international team (Morocco's INSAP, Italy's CNR, Cambridge) had been looking at the wrong era all along.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://archaeologymag.com/2026/09/north-africas-oldest-defensive-system-morocco/",
+      "url": "https://phys.org/news/2026-09-history-rewritten-archaeological-site-morocco.html",
       "location": "Oued Beht, Morocco",
       "season_or_time_context": "recent research finding",
       "first_seen": "2026-09-17T00:20:00Z",
-      "last_seen": "2026-09-17T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-19T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-19T14:30:00Z",
+          "note": "Published in Libyan Studies: the ditch and rampart reveal a previously undocumented Bronze Age phase at a site whose research had focused almost entirely on its earlier Neolithic occupation - the international team had been looking at the wrong era."
+        },
         {
           "date": "2026-09-17T00:20:00Z",
           "note": "The Oued Beht Archaeological Project dated a 3,500-4,000-year-old ditch and earthen rampart in Morocco as North Africa's oldest known defensive system outside the Nile Valley - resolving a mystery first noted in the 1930s."
         }
       ],
-      "source_date": "2026-09-16"
+      "source_date": "2026-09-19"
     },
     {
       "id": "fed-first-hike-since-2023",
@@ -568,28 +580,32 @@
       "category": "Politics & World",
       "observer": "Why Today?",
       "title": "No safety equipment, no rescue teams, and dozens still trapped underground",
-      "observation": "A series of adjoining shafts collapsed at the informal Al-Zaraa gold mine near El Nahud, Sudan, killing at least 80 people and injuring 50 more - residents digging with rudimentary tools, since no specialized rescue teams have reached the unregulated site.",
+      "observation": "A series of adjoining shafts collapsed at the informal Al-Zaraa gold mine near El Nahud, Sudan, killing at least 82 people - residents digging with rudimentary tools, since no specialized rescue teams have reached the unregulated site.",
       "question": "What does it cost a country at war to have no capacity left to regulate, or rescue from, its own informal industries?",
       "hidden_question": "Is this collapse a mining accident, or a predictable consequence of a state too consumed by conflict to enforce basic safety anywhere?",
       "pattern": "an informal economy's basic hazards going unaddressed until a war strips away what oversight existed",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The sandy terrain is actively working against rescue: loose soil keeps triggering further collapses as residents dig by hand, with no specialized equipment on site and an unknown number still trapped. Local sources blame the death toll on the mine's total lack of safety procedures or protective measures.",
+      "why_now": "The scale of the equipment gap is now clear: rescuers have exactly one privately owned forklift for the entire operation, nothing capable of clearing dirt and stone at the 30-meter depths where dozens remain trapped - the death toll has climbed to 82 with the search barely equipped to continue.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://allafrica.com/stories/202609180002.html",
+      "url": "https://abcnews.com/Business/wireStory/sudan-gold-mine-collapse-kills-82-people-missing-136504843",
       "location": "Al-Zaraa gold mine, near El Nahud, West Kordofan, Sudan",
       "season_or_time_context": "active rescue effort",
       "first_seen": "2026-09-19T00:20:00Z",
-      "last_seen": "2026-09-19T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-19T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-19T14:30:00Z",
+          "note": "Death toll climbed to 82. Rescuers have exactly one privately owned forklift for the whole operation - nothing capable of clearing dirt and stone at the 30-meter depths where dozens remain trapped."
+        },
         {
           "date": "2026-09-19T00:20:00Z",
           "note": "Adjoining shafts collapsed at the informal Al-Zaraa gold mine, killing at least 80 and injuring 50. No specialized rescue teams have reached the site - residents dig with rudimentary tools as loose, sandy soil keeps triggering further collapses."
         }
       ],
-      "source_date": "2026-09-18"
+      "source_date": "2026-09-19"
     }
   ]
 }
