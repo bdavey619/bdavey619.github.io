@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-19T15:30:07.411046+00:00",
+  "generated_at": "2026-09-20T15:35:48.529814+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -159,18 +159,17 @@
       "gamePk": 823898,
       "status": "final",
       "result": "L",
-      "score": "2\u20138"
+      "score": "2\u20138",
+      "archive_url": "archive.html?date=2026-09-19"
     },
     {
       "date": "2026-09-19",
       "opponent": "LAD",
       "home": false,
       "gamePk": 823899,
-      "status": "scheduled",
-      "time_local": "6:10 PM PT",
-      "probable": {
-        "opp": "Tarik Skubal"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "4\u201310"
     },
     {
       "date": "2026-09-20",
@@ -178,7 +177,10 @@
       "home": false,
       "gamePk": 823896,
       "status": "scheduled",
-      "time_local": "1:10 PM PT"
+      "time_local": "1:10 PM PT",
+      "probable": {
+        "team": "Matt Wilkinson"
+      }
     },
     {
       "date": "2026-09-21",
@@ -230,8 +232,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u20139",
-    "current_streak": "L1",
-    "last_10": "5\u20135"
+    "month_record": "7\u201310",
+    "current_streak": "L2",
+    "last_10": "4\u20136"
   }
 }
