@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-19T13:57:20.615899+00:00",
+  "generated_at": "2026-09-20T14:17:34.533995+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -161,19 +161,17 @@
       "gamePk": 823252,
       "status": "final",
       "result": "W",
-      "score": "8\u20132"
+      "score": "8\u20132",
+      "archive_url": "archive.html?date=2026-09-19"
     },
     {
       "date": "2026-09-19",
       "opponent": "MIA",
       "home": true,
       "gamePk": 823249,
-      "status": "scheduled",
-      "time_local": "5:40 PM PT",
-      "probable": {
-        "team": "Casey Mize",
-        "opp": "Eury P\u00e9rez"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "7\u20136"
     },
     {
       "date": "2026-09-20",
@@ -237,8 +235,8 @@
     }
   ],
   "summary": {
-    "month_record": "12\u20134",
-    "current_streak": "W3",
+    "month_record": "13\u20134",
+    "current_streak": "W4",
     "last_10": "9\u20131"
   }
 }
