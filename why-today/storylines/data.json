@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-20",
-  "cycle_start": "2026-09-19T14:30:00Z",
-  "last_updated": "2026-09-20T00:20:00Z",
+  "cycle_start": "2026-09-20T00:20:00Z",
+  "last_updated": "2026-09-20T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,22 +14,26 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The IRGC struck and detained another tanker Thursday, the Togo-flagged Trend, for what it called an \"illegal\" attempt to pass through the strait outside Iran's preferred route - the same toll-and-control logic driving the blockade since February, still producing new incidents daily.",
+      "why_now": "Iran's navy escalated the language, not just the incidents: after striking the tanker Trend, the Guard warned any vessel transiting without authorization would face \"destruction\" - a blanket threat issued the same day hundreds of thousands rallied in Tehran, the largest show of government support since the war began in February.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://aa.com.tr/en/middle-east/iran-says-it-struck-togo-flagged-tanker-in-strait-of-hormuz/4060682",
+      "url": "https://www.manilatimes.net/2026/09/20/world/americas-emea/iran-strikes-oil-tanker-in-strait-of-hormuz/2428708",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-20T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-20T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-20T14:30:00Z",
+          "note": "Iran's navy warned any vessel transiting without authorization would face \"destruction,\" issued the same day hundreds of thousands rallied in Tehran, the largest show of government support since the war began in February."
+        },
         {
           "date": "2026-09-20T00:20:00Z",
           "note": "IRGC struck and detained the Togo-flagged tanker Trend after a fire broke out during what Iran called an \"illegal\" attempt to bypass its preferred transit route - the same toll-and-control blockade logic still producing new incidents almost daily."
         }
       ],
-      "source_date": "2026-09-18"
+      "source_date": "2026-09-20"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -42,16 +46,20 @@
       "pattern": "a routine domestic ferry route turning fatal within the span of a single distress call",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Improved weather Friday let divers into the wreck for the first time - the frozen tally finally moved, three more bodies recovered, and a salvage operation to raise the hull is now beginning. Better conditions are answering the question the last four days of stalled numbers couldn't.",
+      "why_now": "The wreck's exact position is now known: it drifted 453 meters from where it capsized, resting upside down at 29 meters, stern embedded in the seabed and the bow just 5-6 meters below the surface. An expert team has been brought in to right the hull before body recovery can resume.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.wsls.com/news/world/2026/09/18/indonesian-divers-recover-3-bodies-from-capsized-ferry-as-salvage-operation-begins/",
+      "url": "https://www.malaymail.com/news/world/2026/09/18/salvage-mission-begins-as-navy-battles-to-raise-capsized-java-sea-ferry/235702",
       "location": "Java Sea, en route Surabaya to Banjarmasin, Indonesia",
       "season_or_time_context": "salvage operation underway",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-20T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-20T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-20T14:30:00Z",
+          "note": "The wreck's exact position is now known: drifted 453 meters from where it capsized, resting upside down at 29 meters, stern embedded in the seabed. An expert team was brought in to right the hull before recovery can resume."
+        },
         {
           "date": "2026-09-20T00:20:00Z",
           "note": "Improved weather let divers enter the wreck for the first time, recovering three more bodies - death toll nine, 126 missing. A salvage operation to raise the hull is beginning, the first movement in four days of a frozen tally."
@@ -71,16 +79,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The UN reports more than 54% of confirmed cases are now among women - a direct result of who does the caregiving: attending the sick, fetching food and water, washing bodies for burial. The outbreak's spread traces the region's division of domestic labor as much as it traces geography.",
+      "why_now": "The Sept 17 tally reached 7,475 confirmed and 3,605 dead - a 48.2% fatality rate. North Kivu alone now accounts for 1,350 cases and 828 deaths, a province-level toll that keeps climbing even as the UN's gendered-caregiving pattern explains who within it keeps getting infected.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://news.un.org/en/story/2026/09/1168368",
+      "url": "https://sharjah24.ae/en/Articles/2026/09/19/Ebola-claims-3605-lives-in-DR-Congo",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-20T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-20T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-20T14:30:00Z",
+          "note": "Sept 17 tally: 7,475 confirmed, 3,605 dead - a 48.2% fatality rate. North Kivu alone now accounts for 1,350 cases and 828 deaths, a provincial toll still climbing even as Ituri, the original epicenter, keeps cooling."
+        },
         {
           "date": "2026-09-20T00:20:00Z",
           "note": "The UN reports over 54% of confirmed cases are among women, who do most of the caregiving - attending the sick, fetching water, washing bodies for burial - putting them at the greatest risk in the outbreak's own transmission chain."
@@ -240,22 +252,26 @@
       "pattern": "a wealthy founder's institution testing whether prestige can be built rather than earned",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Advance reviews are sharply split ahead of the Sept 22 opening: LA Times critic Christopher Knight called it \"the Treacle Museum - a sentimental vanity gallery pumped up on soppy emotional steroids,\" while other critics flagged admission pricing up to $600 a year as \"tone-deaf\" for a billionaire-funded institution asking for more money at the door.",
+      "why_now": "The collection itself makes the argument critics are contesting: Artemisia Gentileschi and Frida Kahlo hang alongside Norman Rockwell, Frank Frazetta and Robert Crumb, plus the complete Lucas Archives (1971-2012) - fine art and pop illustration given equal wall space, after two earlier versions of this museum collapsed in San Francisco and Chicago.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.artforum.com/news/lucas-museum-receives-mixed-reviews-ahead-of-opening-1234758846/",
+      "url": "https://news.artnet.com/art-world/lucas-museum-narrative-art-opens-2806326",
       "location": "Exposition Park, Los Angeles",
       "season_or_time_context": "opens to the public Sept 22",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-20T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-20T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-20T14:30:00Z",
+          "note": "The collection makes the argument literal: Artemisia Gentileschi and Frida Kahlo hang alongside Norman Rockwell and Robert Crumb, plus the complete Lucas Archives (1971-2012) - after two earlier versions of this museum already collapsed in San Francisco and Chicago."
+        },
         {
           "date": "2026-09-20T00:20:00Z",
           "note": "Ahead of its Sept 22 opening, critics split sharply: LA Times calls it \"the Treacle Museum - a sentimental vanity gallery,\" while others call its $600 annual membership pricing \"tone-deaf\" for a billionaire-funded museum. $1B, 16 years, three cities."
         }
       ],
-      "source_date": "2026-09-17"
+      "source_date": "2026-09-20"
     },
     {
       "id": "sudan-informal-gold-mine-collapse",
@@ -313,6 +329,34 @@
         }
       ],
       "source_date": "2026-09-16"
+    },
+    {
+      "id": "tilcayo-cat-new-species-bolivia",
+      "stream": "natural_world",
+      "observer": "Why Today?",
+      "title": "It lived as someone's pet for a year before anyone realized it wasn't a housecat",
+      "observation": "Researchers have named Leopardus tilcayo, the tilcayo cat, the first new living wild cat species described in more than a century - a small spotted feline native to Bolivia's Yungas cloud forest, formally confirmed by genetics and morphology after research that began in 2021.",
+      "question": "How does an entire undescribed species go unnoticed by science until it's living in someone's house?",
+      "hidden_question": "What does it say about how thoroughly we think we've cataloged large, visible animals, if a whole cat species was hiding in plain sight?",
+      "pattern": "a taxonomic gap in a well-studied group of animals, closed only by an accident of domestic proximity",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The species' first documented contact with science was almost incidental: a man found it as a kitten by the roadside and raised it for a year believing it was a domestic cat, before it ended up at a wildlife sanctuary where researchers eventually recognized it as something new - five years of genetic and morphological work followed before the formal naming this week.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.aljazeera.com/news/2026/9/18/new-tiger-cat-species-identified-in-bolivia-first-in-over-a-century",
+      "location": "Bolivian Yungas cloud forest",
+      "season_or_time_context": "recent research finding",
+      "first_seen": "2026-09-20T14:30:00Z",
+      "last_seen": "2026-09-20T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-20T14:30:00Z",
+          "note": "Leopardus tilcayo, the first new wild cat species named in a century, was confirmed this week - found as a roadside kitten, raised a year as a pet, before a sanctuary and five years of research named it new."
+        }
+      ],
+      "source_date": "2026-09-18"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "week": "2026-09-20",
-  "last_updated": "2026-09-20T00:20:00Z",
+  "last_updated": "2026-09-20T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -39,8 +39,8 @@
       "evidence": [
         {
           "domain": "Public Health",
-          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June. The UN now reports over 54% of confirmed cases are among women, who do most of the caregiving - attending the sick, fetching water, washing bodies - the outbreak tracing domestic labor as much as geography.",
-          "url": "https://news.un.org/en/story/2026/09/1168368",
+          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June. As of Sept 17, the national tally has reached 7,475 confirmed and 3,605 dead - a 48.2% fatality rate still climbing in North Kivu even as the original epicenter, Ituri, keeps cooling.",
+          "url": "https://sharjah24.ae/en/Articles/2026/09/19/Ebola-claims-3605-lives-in-DR-Congo",
           "date": "2026-09-19",
           "is_new": false
         },
@@ -64,6 +64,35 @@
           "url": "https://www.aljazeera.com/news-analysis/2026/9/14/temporary-hormuz-solution-deferred-as-iran-arab-summit-falls-through",
           "date": "2026-09-14",
           "is_new": false
+        }
+      ]
+    },
+    {
+      "id": "oversight-vacuum-predictable-disaster",
+      "title": "Three disasters this week all failed the exact same way: nothing was watching",
+      "explanation": "A mine, a ferry and an epidemic each broke down at precisely the point regulatory oversight exists to catch - not through a freak accident, but through the plain absence of an inspector, a capacity limit, or working surveillance. Different domains, different countries, same missing ingredient.",
+      "momentum": "building",
+      "evidence": [
+        {
+          "domain": "Public Health",
+          "text": "M23 rebels declared DRC's Ebola outbreak over in their territory in late June - only for a new case to surface in rebel-held Kayna in a patient who had just traveled from adjacent government-held Butembo, exactly the kind of cross-border case rebel surveillance couldn't have caught.",
+          "url": "https://news.un.org/en/story/2026/09/1168368",
+          "date": "2026-09-13",
+          "is_new": true
+        },
+        {
+          "domain": "Mining Safety",
+          "text": "An unregulated Sudanese gold mine killed at least 82 people when adjoining shafts collapsed - and the entire rescue operation has exactly one privately owned forklift, nothing able to clear the 30-meter depths where dozens remain trapped. No inspector, no rescue capacity, ever existed here.",
+          "url": "https://abcnews.com/Business/wireStory/sudan-gold-mine-collapse-kills-82-people-missing-136504843",
+          "date": "2026-09-19",
+          "is_new": true
+        },
+        {
+          "domain": "Maritime Safety",
+          "text": "A survivor of the capsized Java Sea ferry says it was visibly overcrowded before it ever left port - passengers sleeping in hallways because the cabins were already full. No capacity check stopped it from sailing anyway.",
+          "url": "https://www.npr.org/2026/09/14/nx-s1-5968417/indonesia-search-missing-ferry",
+          "date": "2026-09-16",
+          "is_new": true
         }
       ]
     }
