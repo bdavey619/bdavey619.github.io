@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-09",
   "division_name": "AL East",
-  "generated_at": "2026-09-20T14:37:33.366369+00:00",
+  "generated_at": "2026-09-21T16:54:32.476369+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -161,19 +161,17 @@
       "gamePk": 825029,
       "status": "final",
       "result": "L",
-      "score": "3\u20135"
+      "score": "3\u20135",
+      "archive_url": "archive.html?date=2026-09-20"
     },
     {
       "date": "2026-09-20",
       "opponent": "ARI",
       "home": false,
       "gamePk": 825028,
-      "status": "scheduled",
-      "time_local": "4:10 PM ET",
-      "probable": {
-        "team": "Will Warren",
-        "opp": "Corbin Burnes"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "4\u20138"
     },
     {
       "date": "2026-09-22",
@@ -181,7 +179,11 @@
       "home": true,
       "gamePk": 823494,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Max Fried",
+        "opp": "Drew Rasmussen"
+      }
     },
     {
       "date": "2026-09-22",
@@ -189,7 +191,11 @@
       "home": true,
       "gamePk": 823543,
       "status": "scheduled",
-      "time_local": "1:05 PM ET"
+      "time_local": "1:05 PM ET",
+      "probable": {
+        "team": "Carlos Rod\u00f3n",
+        "opp": "Nick Martinez"
+      }
     },
     {
       "date": "2026-09-23",
@@ -197,7 +203,10 @@
       "home": true,
       "gamePk": 823492,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Gerrit Cole"
+      }
     },
     {
       "date": "2026-09-24",
@@ -205,7 +214,10 @@
       "home": true,
       "gamePk": 823493,
       "status": "scheduled",
-      "time_local": "7:05 PM ET"
+      "time_local": "7:05 PM ET",
+      "probable": {
+        "team": "Cam Schlittler"
+      }
     },
     {
       "date": "2026-09-25",
@@ -233,8 +245,8 @@
     }
   ],
   "summary": {
-    "month_record": "11\u20135",
-    "current_streak": "L1",
-    "last_10": "7\u20133"
+    "month_record": "11\u20136",
+    "current_streak": "L2",
+    "last_10": "6\u20134"
   }
 }
