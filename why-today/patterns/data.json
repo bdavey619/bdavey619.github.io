@@ -1,6 +1,6 @@
 {
   "week": "2026-09-20",
-  "last_updated": "2026-09-20T14:30:00Z",
+  "last_updated": "2026-09-21T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -74,25 +74,25 @@
       "momentum": "building",
       "evidence": [
         {
+          "domain": "Mining Safety",
+          "text": "Sudan had two unrelated gold-mine collapses in a single week - 82 dead in West Kordofan with just one forklift for the whole rescue, then 10 more dead at the Awny mine near Egypt's border, survivors again digging themselves out. Same ungoverned gold rush, same missing inspector, twice.",
+          "url": "https://english.aawsat.com/arab-world/5320516-sudan-gold-mine-collapse-kills-10-injures-21",
+          "date": "2026-09-20",
+          "is_new": true
+        },
+        {
           "domain": "Public Health",
           "text": "M23 rebels declared DRC's Ebola outbreak over in their territory in late June - only for a new case to surface in rebel-held Kayna in a patient who had just traveled from adjacent government-held Butembo, exactly the kind of cross-border case rebel surveillance couldn't have caught.",
           "url": "https://news.un.org/en/story/2026/09/1168368",
           "date": "2026-09-13",
-          "is_new": true
-        },
-        {
-          "domain": "Mining Safety",
-          "text": "An unregulated Sudanese gold mine killed at least 82 people when adjoining shafts collapsed - and the entire rescue operation has exactly one privately owned forklift, nothing able to clear the 30-meter depths where dozens remain trapped. No inspector, no rescue capacity, ever existed here.",
-          "url": "https://abcnews.com/Business/wireStory/sudan-gold-mine-collapse-kills-82-people-missing-136504843",
-          "date": "2026-09-19",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Maritime Safety",
           "text": "A survivor of the capsized Java Sea ferry says it was visibly overcrowded before it ever left port - passengers sleeping in hallways because the cabins were already full. No capacity check stopped it from sailing anyway.",
           "url": "https://www.npr.org/2026/09/14/nx-s1-5968417/indonesia-search-missing-ferry",
           "date": "2026-09-16",
-          "is_new": true
+          "is_new": false
         }
       ]
     }

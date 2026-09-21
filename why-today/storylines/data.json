@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-20",
-  "cycle_start": "2026-09-20T00:20:00Z",
-  "last_updated": "2026-09-20T14:30:00Z",
+  "cycle_start": "2026-09-20T14:30:00Z",
+  "last_updated": "2026-09-21T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -139,8 +139,8 @@
       "pattern": "a telegraphed deadline arriving exactly as threatened, despite weeks of visible opportunity to avoid it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Carney has shifted the framing entirely: at Canada's first Investment Summit, he said Canada can wait for the right conditions and emerge stronger and more independent, pitching $1 trillion in outside investment and deeper EU ties as the real strategy - not urgency to close a US deal.",
-      "status": "captured",
+      "why_now": "Three dedicated checks across two cycles have found nothing past Carney's Investment Summit framing from Sept 15 - no new talks, no new escalation, no fresh statement from either government. Going dormant rather than re-bumping a fact that hasn't moved; worth reactivating when the Sept 29 import ban actually lands or talks resume.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.pbs.org/newshour/world/carney-says-canada-can-emerge-from-trumps-trade-war-with-a-stronger-and-independent-economy",
       "location": "Canada / United States",
@@ -252,16 +252,20 @@
       "pattern": "a wealthy founder's institution testing whether prestige can be built rather than earned",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The collection itself makes the argument critics are contesting: Artemisia Gentileschi and Frida Kahlo hang alongside Norman Rockwell, Frank Frazetta and Robert Crumb, plus the complete Lucas Archives (1971-2012) - fine art and pop illustration given equal wall space, after two earlier versions of this museum collapsed in San Francisco and Chicago.",
+      "why_now": "Whatever critics say about the collection, Hollywood answered with attendance: Spielberg, Guillermo del Toro and Greta Gerwig co-chaired the opening, with Justin Trudeau, Katy Perry, Ron Howard and Bryce Dallas Howard among the crowd - Hobson said Lucas himself worried A-listers wouldn't show. They did.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://news.artnet.com/art-world/lucas-museum-narrative-art-opens-2806326",
+      "url": "https://deadline.com/2026/09/lucas-museum-opening-hollywood-1237108680/",
       "location": "Exposition Park, Los Angeles",
       "season_or_time_context": "opens to the public Sept 22",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-20T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-21T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-21T00:20:00Z",
+          "note": "Whatever critics say about the collection, Hollywood answered with attendance: Spielberg, del Toro and Gerwig co-chaired the opening; Trudeau, Katy Perry, Ron Howard and Bryce Dallas Howard were in the crowd. Hobson said Lucas worried A-listers wouldn't show. They did."
+        },
         {
           "date": "2026-09-20T14:30:00Z",
           "note": "The collection makes the argument literal: Artemisia Gentileschi and Frida Kahlo hang alongside Norman Rockwell and Robert Crumb, plus the complete Lucas Archives (1971-2012) - after two earlier versions of this museum already collapsed in San Francisco and Chicago."
@@ -285,22 +289,26 @@
       "pattern": "an informal economy's basic hazards going unaddressed until a war strips away what oversight existed",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The scale of the equipment gap is now clear: rescuers have exactly one privately owned forklift for the entire operation, nothing capable of clearing dirt and stone at the 30-meter depths where dozens remain trapped - the death toll has climbed to 82 with the search barely equipped to continue.",
+      "why_now": "A second, unrelated mine collapsed this weekend - shafts at the Awny gold site near Sudan's border with Egypt, killing at least 10 and injuring 21, with survivors again doing the rescue themselves. Two unregulated collapses in one week isn't a coincidence; it's what an entire generation working the same ungoverned gold rush produces.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://abcnews.com/Business/wireStory/sudan-gold-mine-collapse-kills-82-people-missing-136504843",
-      "location": "Al-Zaraa gold mine, near El Nahud, West Kordofan, Sudan",
+      "url": "https://english.aawsat.com/arab-world/5320516-sudan-gold-mine-collapse-kills-10-injures-21",
+      "location": "Al-Zaraa gold mine, West Kordofan, and Awny mine, near the Egyptian border, Sudan",
       "season_or_time_context": "active rescue effort",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-20T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-21T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-21T00:20:00Z",
+          "note": "A second, unrelated mine collapsed this weekend at the Awny gold site near Sudan's border with Egypt - at least 10 dead, 21 injured, survivors again doing the rescue themselves. Two unregulated collapses in one week, not a coincidence."
+        },
         {
           "date": "2026-09-20T00:20:00Z",
           "note": "Death toll climbed to 82. Rescuers have exactly one privately owned forklift for the whole operation - nothing capable of clearing dirt and stone at the 30-meter depths where dozens remain trapped."
         }
       ],
-      "source_date": "2026-09-19"
+      "source_date": "2026-09-20"
     },
     {
       "id": "phoenicians-brought-wine-to-iberia",
