@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-20",
-  "cycle_start": "2026-09-20T14:30:00Z",
-  "last_updated": "2026-09-21T00:20:00Z",
+  "cycle_start": "2026-09-21T00:20:00Z",
+  "last_updated": "2026-09-21T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran's navy escalated the language, not just the incidents: after striking the tanker Trend, the Guard warned any vessel transiting without authorization would face \"destruction\" - a blanket threat issued the same day hundreds of thousands rallied in Tehran, the largest show of government support since the war began in February.",
+      "why_now": "A new, unidentified projectile struck another tanker entering the strait Monday, wounding two crew - no attacker claimed it yet. Iran's own IRGC spokesman raised the stakes further, warning a renewed US attack would make it change both \"the geography and the weapons\" of the conflict.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.manilatimes.net/2026/09/20/world/americas-emea/iran-strikes-oil-tanker-in-strait-of-hormuz/2428708",
+      "url": "https://www.news4jax.com/news/2026/09/21/a-projectile-strikes-a-tanker-as-it-sails-into-the-strait-of-hormuz-and-other-mideast-developments/",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-20T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-21T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-21T14:30:00Z",
+          "note": "An unidentified projectile struck another tanker entering the strait Monday, wounding two crew - no attacker has claimed it. IRGC's spokesman separately warned a renewed US attack would make Iran change both \"the geography and the weapons\" of the conflict."
+        },
         {
           "date": "2026-09-20T14:30:00Z",
           "note": "Iran's navy warned any vessel transiting without authorization would face \"destruction,\" issued the same day hundreds of thousands rallied in Tehran, the largest show of government support since the war began in February."
@@ -33,7 +37,7 @@
           "note": "IRGC struck and detained the Togo-flagged tanker Trend after a fire broke out during what Iran called an \"illegal\" attempt to bypass its preferred transit route - the same toll-and-control blockade logic still producing new incidents almost daily."
         }
       ],
-      "source_date": "2026-09-20"
+      "source_date": "2026-09-21"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -196,22 +200,26 @@
       "pattern": "a policy change technically defensible on the merits, blocked anyway because of when it arrived",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Trump himself blasted the outcome as a \"big loss for Republicans\" and publicly criticized his own three Supreme Court appointees for the ruling - the president treating a loyalty test he lost, in front of the justices he put there, the same way he treats every other one.",
+      "why_now": "The Court went further Monday, formally declining emergency review and ruling the administration was \"unlikely to succeed on the merits\" - not just a delay this time, but a substantive signal. The blocked rule would have required scannable barcoded envelopes and voter data uploaded to a USPS portal, an overhaul officials said couldn't happen in weeks.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/09/15/trump-supreme-court-mail-ballots-election.html",
+      "url": "https://www.naco.org/news/supreme-court-declines-emergency-review-usps-mail-ballot-rule-leaving-nationwide-block-place",
       "location": "Washington, DC (US Supreme Court)",
       "season_or_time_context": "ahead of 2026 midterm elections",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-20T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-21T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-21T14:30:00Z",
+          "note": "The Court went further Monday, formally declining emergency review and ruling the administration \"unlikely to succeed on the merits\" - a substantive signal, not just a delay. The rule required barcoded envelopes and voter data uploaded to a USPS portal."
+        },
         {
           "date": "2026-09-20T00:20:00Z",
           "note": "Trump publicly blasted the ruling as a \"big loss for Republicans\" and criticized his own three Supreme Court appointees by name for siding against him - the loyalty test extending even to justices he put on the bench himself."
         }
       ],
-      "source_date": "2026-09-19"
+      "source_date": "2026-09-21"
     },
     {
       "id": "fed-first-hike-since-2023",
@@ -224,22 +232,26 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The alarm didn't last: a day after the yield spike, Wall Street rebounded hard - the S&P 500 up 1.1% - as oil prices eased and Treasury yields pulled back from 5%. The market's first reaction and its second reaction told two different stories within 24 hours.",
+      "why_now": "The Fed's own dot plot shows this was never meant to be a one-off: 16 of 18 officials expect another hike this year, four expect two more. \"One correction\" was the market's first read; the Fed's own numbers describe a cycle, and yields are already testing 5% again as that sinks in.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-18-134541673.html",
+      "url": "https://www.thestreet.com/fed/fed-raises-rates-signals-another-hike-2026",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-20T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-21T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-21T14:30:00Z",
+          "note": "The Fed's own dot plot shows this wasn't a one-off: 16 of 18 officials expect another hike this year, four expect two more. The market's \"one correction\" read doesn't match the Fed's numbers, and yields are already testing 5% again."
+        },
         {
           "date": "2026-09-20T00:20:00Z",
           "note": "A day after the yield spike, Wall Street rebounded hard - the S&P 500 up 1.1% - as easing oil prices and pulled-back yields eased inflation worry. The market's first and second reactions to the same hike told opposite stories."
         }
       ],
-      "source_date": "2026-09-18"
+      "source_date": "2026-09-21"
     },
     {
       "id": "lucas-museum-narrative-art-opens",
@@ -365,6 +377,34 @@
         }
       ],
       "source_date": "2026-09-18"
+    },
+    {
+      "id": "trump-xi-summit-low-expectations",
+      "stream": "markets",
+      "observer": "Why Today?",
+      "title": "Wall Street is already pricing a summit that hasn't happened yet",
+      "observation": "Trump hosts Xi in Washington Sept 24 for their second summit of 2026, covering trade, rare earths, Taiwan and AI - described by officials briefed on it as \"a low-expectations summit focused largely on managing the stalemate rather than resolving it.\"",
+      "question": "What is a summit actually for, when both sides have already agreed in advance that nothing big will be settled?",
+      "hidden_question": "Is managing a stalemate a real diplomatic achievement, or just a more dignified way of describing an unresolved standoff?",
+      "pattern": "a high-visibility summit engineered in advance to produce small, market-friendly signals rather than any real resolution",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Markets are already trading the outcome before it happens: stocks rallied Monday on anticipation alone, as traders position for the one thing officials say is actually likely - a signal that tariffs and export controls won't escalate further. A $14 billion Taiwan arms package Xi is expected to press Trump on remains unresolved heading in.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.thenationalnews.com/news/us/2026/09/21/trump-set-for-washington-summit-with-xi-focused-on-trade-taiwan-and-ai/",
+      "location": "Washington, DC",
+      "season_or_time_context": "summit scheduled Sept 24",
+      "first_seen": "2026-09-21T14:30:00Z",
+      "last_seen": "2026-09-21T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-21T14:30:00Z",
+          "note": "Trump hosts Xi in DC Sept 24, their second 2026 summit - trade, Taiwan, AI on the agenda, but officials call it \"a low-expectations summit focused on managing the stalemate.\" Markets rallied Monday on anticipation alone."
+        }
+      ],
+      "source_date": "2026-09-21"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "week": "2026-09-20",
-  "last_updated": "2026-09-21T00:20:00Z",
+  "last_updated": "2026-09-21T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -10,10 +10,10 @@
       "evidence": [
         {
           "domain": "Information Warfare",
-          "text": "Iran's IRGC announced the tanker El Gaia hit a Hormuz sea mine - a claim of accident, not attack. Within the same news cycle, US CENTCOM called it \"false,\" saying Iran itself struck the already-disabled ship again by drone. The claim didn't survive contact with the next report.",
-          "url": "https://gcaptain.com/u-s-rejects-irans-mine-claim-as-hormuz-shipping-threat-remains-severe/",
-          "date": "2026-09-17",
-          "is_new": false
+          "text": "A new, unidentified projectile struck a tanker entering Hormuz Monday, wounding two crew - and no one has claimed responsibility. Weeks into this war, even the basic facts of a single strike - who fired, from where - still can't be pinned down within the same news cycle.",
+          "url": "https://www.news4jax.com/news/2026/09/21/a-projectile-strikes-a-tanker-as-it-sails-into-the-strait-of-hormuz-and-other-mideast-developments/",
+          "date": "2026-09-21",
+          "is_new": true
         },
         {
           "domain": "Foreign Policy",
@@ -24,9 +24,9 @@
         },
         {
           "domain": "Debt Management",
-          "text": "The Fed hiked rates a quarter point Sept 16 to signal control over inflation. Yields jumped straight past 5% instead - then a day later the market reversed again, rallying 1.1% as oil eased and yields pulled back. Two contradictions of the same claim within 48 hours.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-18-134541673.html",
-          "date": "2026-09-18",
+          "text": "Markets read the Fed's Sept 16 hike as \"one correction.\" The Fed's own dot plot says otherwise: 16 of 18 officials expect another hike this year, four expect two more - a hiking cycle, not a one-off, undercutting the market's own read within days.",
+          "url": "https://www.thestreet.com/fed/fed-raises-rates-signals-another-hike-2026",
+          "date": "2026-09-21",
           "is_new": false
         }
       ]
@@ -78,7 +78,7 @@
           "text": "Sudan had two unrelated gold-mine collapses in a single week - 82 dead in West Kordofan with just one forklift for the whole rescue, then 10 more dead at the Awny mine near Egypt's border, survivors again digging themselves out. Same ungoverned gold rush, same missing inspector, twice.",
           "url": "https://english.aawsat.com/arab-world/5320516-sudan-gold-mine-collapse-kills-10-injures-21",
           "date": "2026-09-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Public Health",
