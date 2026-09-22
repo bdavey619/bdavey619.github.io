@@ -1,6 +1,6 @@
 {
   "week": "2026-09-20",
-  "last_updated": "2026-09-21T14:30:00Z",
+  "last_updated": "2026-09-22T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -13,7 +13,7 @@
           "text": "A new, unidentified projectile struck a tanker entering Hormuz Monday, wounding two crew - and no one has claimed responsibility. Weeks into this war, even the basic facts of a single strike - who fired, from where - still can't be pinned down within the same news cycle.",
           "url": "https://www.news4jax.com/news/2026/09/21/a-projectile-strikes-a-tanker-as-it-sails-into-the-strait-of-hormuz-and-other-mideast-developments/",
           "date": "2026-09-21",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Foreign Policy",
@@ -53,10 +53,10 @@
         },
         {
           "domain": "Elections",
-          "text": "SCOTUS blocked Trump's mail-ballot restrictions for the midterms - a resolution in form. Kavanaugh conceded the rule might be legal, just too late this cycle. Trump then publicly attacked his own three appointees by name for the loss - hardly the behavior of a settled question.",
-          "url": "https://www.cnbc.com/2026/09/15/trump-supreme-court-mail-ballots-election.html",
-          "date": "2026-09-15",
-          "is_new": false
+          "text": "SCOTUS formally declined emergency review of the mail-ballot rule, ruling the administration \"unlikely to succeed on the merits\" - the most settled this fight has looked yet. But Kavanaugh's own concurrence left the rule potentially lawful in a future cycle: the form is final, the merits aren't.",
+          "url": "https://www.naco.org/news/supreme-court-declines-emergency-review-usps-mail-ballot-rule-leaving-nationwide-block-place",
+          "date": "2026-09-21",
+          "is_new": true
         },
         {
           "domain": "Energy Shipping",

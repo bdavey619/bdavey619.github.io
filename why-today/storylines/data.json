@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-20",
-  "cycle_start": "2026-09-21T00:20:00Z",
-  "last_updated": "2026-09-21T14:30:00Z",
+  "cycle_start": "2026-09-21T14:30:00Z",
+  "last_updated": "2026-09-22T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -115,8 +115,8 @@
       "pattern": "a resource deal signed by an unelected government, at a scale built to outlast any successor who might contest it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Trump just removed Venezuela from the US drug-control \"failing\" list for the first time in 20+ years, crediting \"positive advances\" under Rodr\u00edguez's interim government - a political reward landing days after her government signed the oil deal, reactivating the legitimacy question with a concrete new data point.",
-      "status": "captured",
+      "why_now": "Three dedicated checks across three cycles have found nothing past the drug-list removal itself - no further statement from Rodr\u00edguez, Machado, or Washington. Going dormant rather than re-bumping a fact that hasn't moved; worth reactivating when either side actually answers the outstanding questions about who signed, who finances, and who benefits.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.aa.com.tr/en/americas/trump-removes-venezuela-from-us-list-of-countries-failing-to-fight-drugs/4059440",
       "location": "Caracas, Venezuela / Washington, DC",
@@ -264,16 +264,20 @@
       "pattern": "a wealthy founder's institution testing whether prestige can be built rather than earned",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Whatever critics say about the collection, Hollywood answered with attendance: Spielberg, Guillermo del Toro and Greta Gerwig co-chaired the opening, with Justin Trudeau, Katy Perry, Ron Howard and Bryce Dallas Howard among the crowd - Hobson said Lucas himself worried A-listers wouldn't show. They did.",
+      "why_now": "The museum opened its doors to the public today, Sept 22, exactly as scheduled. Queen Latifah gave the critics an answer of her own at the opening: \"Paris has the Louvre, New York has the Met, and now LA has its artistic equal\" - the comparison Lucas spent $1B trying to earn, stated outright rather than argued for.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://deadline.com/2026/09/lucas-museum-opening-hollywood-1237108680/",
+      "url": "https://abcnews.com/GMA/Culture/everything-to-know-about-lucas-museum-narrative-art/story?id=136606024",
       "location": "Exposition Park, Los Angeles",
-      "season_or_time_context": "opens to the public Sept 22",
+      "season_or_time_context": "open to the public",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-21T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-22T00:20:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-22T00:20:00Z",
+          "note": "The museum opened to the public today. Queen Latifah answered critics at the opening: \"Paris has the Louvre, New York has the Met, and now LA has its artistic equal\" - the comparison Lucas spent $1B to earn, simply declared."
+        },
         {
           "date": "2026-09-21T00:20:00Z",
           "note": "Whatever critics say about the collection, Hollywood answered with attendance: Spielberg, del Toro and Gerwig co-chaired the opening; Trudeau, Katy Perry, Ron Howard and Bryce Dallas Howard were in the crowd. Hobson said Lucas worried A-listers wouldn't show. They did."
@@ -287,7 +291,7 @@
           "note": "Ahead of its Sept 22 opening, critics split sharply: LA Times calls it \"the Treacle Museum - a sentimental vanity gallery,\" while others call its $600 annual membership pricing \"tone-deaf\" for a billionaire-funded museum. $1B, 16 years, three cities."
         }
       ],
-      "source_date": "2026-09-20"
+      "source_date": "2026-09-22"
     },
     {
       "id": "sudan-informal-gold-mine-collapse",
@@ -333,22 +337,26 @@
       "pattern": "a later empire's legacy quietly absorbing an earlier trading network's actual achievement",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The seeds reveal the mechanism, not just the timeline: imported Mediterranean vines crossed early with wild Iberian grapevines, and by roughly 2,500 years ago that hybridization had already produced a distinct Iberian wine-grape lineage - domestication and local adaptation happening in the same few centuries, not in sequence.",
+      "why_now": "One living link survived the entire span the study traces: heb\u00e9n, a grape variety still grown in Spanish vineyards today, has never gone out of cultivation for at least 1,100 years - a lineage running back to roughly the year 929, grown continuously since long before anyone knew where it had really come from.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://archaeologymag.com/2026/09/phoenicians-brought-wine-to-spain/",
+      "url": "https://www.anthropology.net/p/ancient-dna-shows-a-spanish-grape",
       "location": "Iberian Peninsula (Spain) and Sardinia",
       "season_or_time_context": "recent research finding",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-20T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-22T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-22T00:20:00Z",
+          "note": "One living link survived the study's span: heb\u00e9n, a grape still grown in Spain today, has never gone out of cultivation for at least 1,100 years - its lineage traceable to roughly 929, long before anyone knew its real origin."
+        },
         {
           "date": "2026-09-20T00:20:00Z",
           "note": "Ancient DNA from 28 grape seeds across Spain and Sardinia shows Iberia's first cultivated vines arrived with Phoenician traders ~3,000 years ago, not Rome - hybridizing with wild local vines to form a distinct Iberian lineage within centuries."
         }
       ],
-      "source_date": "2026-09-16"
+      "source_date": "2026-09-21"
     },
     {
       "id": "tilcayo-cat-new-species-bolivia",
