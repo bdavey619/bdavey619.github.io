@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-21T17:57:20.471653+00:00",
+  "generated_at": "2026-09-22T16:26:32.245316+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -179,19 +179,17 @@
       "gamePk": 823896,
       "status": "final",
       "result": "L",
-      "score": "1\u20133"
+      "score": "1\u20133",
+      "archive_url": "archive.html?date=2026-09-21"
     },
     {
       "date": "2026-09-21",
       "opponent": "MIN",
       "home": true,
       "gamePk": 823169,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "team": "Blade Tidwell",
-        "opp": "Zebby Matthews"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "5\u20132"
     },
     {
       "date": "2026-09-22",
@@ -242,8 +240,8 @@
     }
   ],
   "summary": {
-    "month_record": "7\u201311",
-    "current_streak": "L3",
+    "month_record": "8\u201311",
+    "current_streak": "W1",
     "last_10": "3\u20137"
   }
 }
