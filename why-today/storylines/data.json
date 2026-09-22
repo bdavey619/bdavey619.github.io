@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-20",
-  "cycle_start": "2026-09-21T14:30:00Z",
-  "last_updated": "2026-09-22T00:20:00Z",
+  "cycle_start": "2026-09-22T00:20:00Z",
+  "last_updated": "2026-09-22T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "A new, unidentified projectile struck another tanker entering the strait Monday, wounding two crew - no attacker claimed it yet. Iran's own IRGC spokesman raised the stakes further, warning a renewed US attack would make it change both \"the geography and the weapons\" of the conflict.",
+      "why_now": "Even the workaround has a single point of failure: Saudi Aramco built Yanbu into its main Hormuz-bypass route during the war, moving oil overland instead - until a Sept 10 drone strike from Iraq shut the pipeline feeding it. Aramco is now quietly telling Asian refiners loadings may resume soon, informally, with no timeline given.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.news4jax.com/news/2026/09/21/a-projectile-strikes-a-tanker-as-it-sails-into-the-strait-of-hormuz-and-other-mideast-developments/",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-22/saudis-tell-asian-refiners-they-can-soon-pick-up-oil-from-yanbu",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-21T14:30:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-22T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-22T14:30:00Z",
+          "note": "Even the bypass has a single point of failure: a Sept 10 drone strike shut the pipeline feeding Aramco's Yanbu port, its main Hormuz workaround. Aramco now quietly tells Asian refiners loadings may resume soon - informally, no timeline given."
+        },
         {
           "date": "2026-09-21T14:30:00Z",
           "note": "An unidentified projectile struck another tanker entering the strait Monday, wounding two crew - no attacker has claimed it. IRGC's spokesman separately warned a renewed US attack would make Iran change both \"the geography and the weapons\" of the conflict."
@@ -37,7 +41,7 @@
           "note": "IRGC struck and detained the Togo-flagged tanker Trend after a fire broke out during what Iran called an \"illegal\" attempt to bypass its preferred transit route - the same toll-and-control blockade logic still producing new incidents almost daily."
         }
       ],
-      "source_date": "2026-09-21"
+      "source_date": "2026-09-22"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -171,8 +175,8 @@
       "pattern": "a traditional practice re-engineering its own central object to survive contact with modern environmental limits",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Girgaon and Lalbaug murtikars made their sea-immersion demand concrete: rather than just objecting to BMC's mandatory artificial-pond rule for idols under six feet, they've asked the city to designate specific beach stretches, assign immersion timings and station staff to supervise it - a proposal to regulate the old practice, not abandon it.",
-      "status": "captured",
+      "why_now": "Three dedicated checks across three cycles found nothing past the murtikars' regulatory proposal - no BMC response yet. Going dormant rather than re-bumping a static fact; the real resolution point is Anant Chaturdashi, Sept 25, when the festival's main immersion day will show whether the city actually granted, or ignored, the ask.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.msn.com/en-in/news/other/ganeshotsav-2026-girgaon-lalbaug-mandals-seek-sea-immersion-for-small-idols/ar-AA2c532Q",
       "location": "India (Mumbai, Hyderabad, Bengaluru, and nationwide)",
@@ -369,22 +373,26 @@
       "pattern": "a taxonomic gap in a well-studied group of animals, closed only by an accident of domestic proximity",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The species' first documented contact with science was almost incidental: a man found it as a kitten by the roadside and raised it for a year believing it was a domestic cat, before it ended up at a wildlife sanctuary where researchers eventually recognized it as something new - five years of genetic and morphological work followed before the formal naming this week.",
+      "why_now": "The tilcayo turns out to be one piece of a bigger correction: DNA from 38 cats across South America, including 8 museum specimens, shows what scientists called a single species, the tiger cat, is actually five genetically distinct ones - the whole group was miscounted, not just this one.",
       "status": "captured",
       "editorial_potential": "high",
       "url": "https://www.aljazeera.com/news/2026/9/18/new-tiger-cat-species-identified-in-bolivia-first-in-over-a-century",
       "location": "Bolivian Yungas cloud forest",
       "season_or_time_context": "recent research finding",
       "first_seen": "2026-09-20T14:30:00Z",
-      "last_seen": "2026-09-20T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-22T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-22T14:30:00Z",
+          "note": "The tilcayo is one piece of a bigger correction: DNA from 38 cats across South America, including 8 museum specimens, shows the single species once called \"tiger cat\" is actually five genetically distinct species - the whole group was miscounted."
+        },
         {
           "date": "2026-09-20T14:30:00Z",
           "note": "Leopardus tilcayo, the first new wild cat species named in a century, was confirmed this week - found as a roadside kitten, raised a year as a pet, before a sanctuary and five years of research named it new."
         }
       ],
-      "source_date": "2026-09-18"
+      "source_date": "2026-09-22"
     },
     {
       "id": "trump-xi-summit-low-expectations",
@@ -397,19 +405,51 @@
       "pattern": "a high-visibility summit engineered in advance to produce small, market-friendly signals rather than any real resolution",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Markets are already trading the outcome before it happens: stocks rallied Monday on anticipation alone, as traders position for the one thing officials say is actually likely - a signal that tariffs and export controls won't escalate further. A $14 billion Taiwan arms package Xi is expected to press Trump on remains unresolved heading in.",
+      "why_now": "This is Xi's first visit to Washington in a decade, and the guest list says as much about the stakes as the agenda: Bezos, Pichai, Altman, Tim Cook, Musk and Jensen Huang are all expected at the dinner. Analysts frame both leaders as entering convinced they hold a stronger hand than they actually do.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.thenationalnews.com/news/us/2026/09/21/trump-set-for-washington-summit-with-xi-focused-on-trade-taiwan-and-ai/",
+      "url": "https://www.cnbc.com/2026/09/22/cnbcs-the-china-connection-newsletter-watch-this-at-trump-xi-summit.html",
       "location": "Washington, DC",
       "season_or_time_context": "summit scheduled Sept 24",
       "first_seen": "2026-09-21T14:30:00Z",
-      "last_seen": "2026-09-21T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-22T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-22T14:30:00Z",
+          "note": "Xi's first Washington visit in a decade draws a guest list that says as much as the agenda: Bezos, Pichai, Altman, Cook, Musk and Huang are expected at dinner. Analysts say both leaders enter convinced they hold the stronger hand."
+        },
         {
           "date": "2026-09-21T14:30:00Z",
           "note": "Trump hosts Xi in DC Sept 24, their second 2026 summit - trade, Taiwan, AI on the agenda, but officials call it \"a low-expectations summit focused on managing the stalemate.\" Markets rallied Monday on anticipation alone."
+        }
+      ],
+      "source_date": "2026-09-22"
+    },
+    {
+      "id": "autumn-equinox-latest-since-2023",
+      "stream": "human_rituals",
+      "observer": "Why Today?",
+      "title": "The first day of fall keeps drifting later, and it's not an accident",
+      "observation": "The 2026 September equinox falls at 00:05 UTC Sept 23 (evening of Sept 22 in the US) - the latest calendar date for fall's astronomical start since 2023, part of a slow drift from how leap years reset the calendar.",
+      "question": "What does it mean to celebrate the changing of a season on a date that isn't fixed, but is quietly sliding around a leap-year cycle?",
+      "hidden_question": "Is the equinox a natural constant we mark, or a moving target our own calendar keeps failing to pin down?",
+      "pattern": "a seemingly fixed natural marker turning out to be a slow-moving artifact of how humans measure time",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The drift compounds: equinoxes and solstices are getting later each year for now, and in 2028 the pattern will set a new 232-year record for lateness before the leap-year cycle resets it. A moment that feels timeless is actually mid-swing in a centuries-long oscillation.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.theweathernetwork.com/en/news/weather/seasonal/autumnal-equinox-2026-first-day-of-fall-is-the-latest-since-2023",
+      "location": "Northern Hemisphere",
+      "season_or_time_context": "autumn equinox, Sept 22-23",
+      "first_seen": "2026-09-22T14:30:00Z",
+      "last_seen": "2026-09-22T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-22T14:30:00Z",
+          "note": "The 2026 autumn equinox falls at 00:05 UTC Sept 23 - the latest calendar date for fall's start since 2023, part of a slow leap-year drift. In 2028 the pattern sets a new 232-year record for lateness before resetting."
         }
       ],
       "source_date": "2026-09-21"

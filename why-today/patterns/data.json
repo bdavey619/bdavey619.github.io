@@ -1,6 +1,6 @@
 {
   "week": "2026-09-20",
-  "last_updated": "2026-09-22T00:20:00Z",
+  "last_updated": "2026-09-22T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -56,14 +56,14 @@
           "text": "SCOTUS formally declined emergency review of the mail-ballot rule, ruling the administration \"unlikely to succeed on the merits\" - the most settled this fight has looked yet. But Kavanaugh's own concurrence left the rule potentially lawful in a future cycle: the form is final, the merits aren't.",
           "url": "https://www.naco.org/news/supreme-court-declines-emergency-review-usps-mail-ballot-rule-leaving-nationwide-block-place",
           "date": "2026-09-21",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy Shipping",
-          "text": "The postponed Hormuz meeting wasn't even a negotiation to begin with - Gulf states were only ever going to be briefed on a Tehran-Muscat deal already finalized behind closed doors. And the delay wasn't Iran's or Oman's call: Saudi Arabia requested it, over an unrelated grievance about Houthi attacks on its own territory.",
-          "url": "https://www.aljazeera.com/news-analysis/2026/9/14/temporary-hormuz-solution-deferred-as-iran-arab-summit-falls-through",
-          "date": "2026-09-14",
-          "is_new": false
+          "text": "Saudi Aramco is quietly telling Asian refiners they'll soon be able to load oil again at Yanbu, its main Hormuz-bypass port shut since a Sept 10 drone strike - but the assurances are informal, from executives rather than official notice, and no one has given a timeline.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-22/saudis-tell-asian-refiners-they-can-soon-pick-up-oil-from-yanbu",
+          "date": "2026-09-22",
+          "is_new": true
         }
       ]
     },
