@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-22T15:04:37.593549+00:00",
+  "generated_at": "2026-09-23T15:07:46.615078+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -189,11 +189,9 @@
       "opponent": "LAD",
       "home": false,
       "gamePk": 823897,
-      "status": "scheduled",
-      "time_local": "7:10 PM PT",
-      "probable": {
-        "team": "Michael King"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20137"
     },
     {
       "date": "2026-09-23",
@@ -203,7 +201,8 @@
       "status": "scheduled",
       "time_local": "7:10 PM PT",
       "probable": {
-        "team": "Robbie Ray"
+        "team": "Robbie Ray",
+        "opp": "Yoshinobu Yamamoto"
       }
     },
     {
@@ -214,7 +213,8 @@
       "status": "scheduled",
       "time_local": "7:10 PM PT",
       "probable": {
-        "team": "Nick Pivetta"
+        "team": "Nick Pivetta",
+        "opp": "Tyler Glasnow"
       }
     },
     {
@@ -243,8 +243,8 @@
     }
   ],
   "summary": {
-    "month_record": "14\u20134",
-    "current_streak": "W5",
-    "last_10": "9\u20131"
+    "month_record": "14\u20135",
+    "current_streak": "L1",
+    "last_10": "8\u20132"
   }
 }
