@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-20",
-  "cycle_start": "2026-09-22T14:30:00Z",
-  "last_updated": "2026-09-23T00:20:00Z",
+  "cycle_start": "2026-09-23T00:20:00Z",
+  "last_updated": "2026-09-23T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran offered, through mediators, to reopen the strait within seven days if Washington eases military pressure and lifts its port blockade - a real proposal, delivered six days ago, still waiting on the US to show what a senior Iranian official called \"seriousness and commitment.\" Oil fell below $100 on the hope alone.",
+      "why_now": "Iranian and Omani negotiators have actually finalized a draft deal to reopen the strait, now awaiting Iran's Supreme Leader's approval - but the real sticking point survives the draft itself: Iran wants continued control over transit, not the fully open waterway it was before the war, which Washington has already ruled out accepting.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.usnews.com/news/world/articles/2026-09-22/iran-ready-to-reopen-strait-of-hormuz-if-us-eases-military-pressure-and-lifts-blockade-senior-official-says",
+      "url": "https://www.theglobeandmail.com/world/article-us-iran-strait-of-hormuz/",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-23T00:20:00Z",
-      "appearances": 5,
+      "last_seen": "2026-09-23T14:30:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-09-23T14:30:00Z",
+          "note": "Iranian and Omani negotiators finalized a draft deal to reopen the strait, awaiting the Supreme Leader's approval - but the same sticking point survives: Iran wants transit control, not the fully open waterway Washington insists on."
+        },
         {
           "date": "2026-09-23T00:20:00Z",
           "note": "Iran offered, via mediators, to reopen the strait in 7 days if the US eases pressure and lifts its blockade - a real proposal, delivered 6 days ago, still awaiting \"seriousness and commitment.\" Oil fell below $100 on the hope alone."
@@ -39,10 +43,6 @@
         {
           "date": "2026-09-20T14:30:00Z",
           "note": "Iran's navy warned any vessel transiting without authorization would face \"destruction,\" issued the same day hundreds of thousands rallied in Tehran, the largest show of government support since the war began in February."
-        },
-        {
-          "date": "2026-09-20T00:20:00Z",
-          "note": "IRGC struck and detained the Togo-flagged tanker Trend after a fire broke out during what Iran called an \"illegal\" attempt to bypass its preferred transit route - the same toll-and-control blockade logic still producing new incidents almost daily."
         }
       ],
       "source_date": "2026-09-23"
@@ -321,8 +321,8 @@
       "pattern": "an informal economy's basic hazards going unaddressed until a war strips away what oversight existed",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "A second, unrelated mine collapsed this weekend - shafts at the Awny gold site near Sudan's border with Egypt, killing at least 10 and injuring 21, with survivors again doing the rescue themselves. Two unregulated collapses in one week isn't a coincidence; it's what an entire generation working the same ungoverned gold rush produces.",
-      "status": "captured",
+      "why_now": "Two dedicated checks across two cycles have found nothing past the two collapses already logged - no updated rescue status, no fresh incident. Going dormant rather than re-bumping static facts; worth reactivating if either rescue operation concludes or another collapse hits the same ungoverned gold rush.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://english.aawsat.com/arab-world/5320516-sudan-gold-mine-collapse-kills-10-injures-21",
       "location": "Al-Zaraa gold mine, West Kordofan, and Awny mine, near the Egyptian border, Sudan",
@@ -417,19 +417,23 @@
       "pattern": "a high-visibility summit engineered in advance to produce small, market-friendly signals rather than any real resolution",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Xi and his wife Peng Liyuan landed at Andrews Air Force Base today, Sept 23, for what Beijing itself is calling a \"milestone of historic significance\" - Xi's first White House visit in 11 years. Thursday brings a Rose Garden guard-of-honor review before the actual meeting, pageantry sequenced ahead of substance.",
+      "why_now": "The stakes behind the pageantry are concrete: a trade truce from their May Beijing summit expires in November, and tariffs, rare earths and US auto-market access are all back on the table. Thursday's Rose Garden ceremony leads into a state dinner - but their last meeting already left experts calling it symbolism over substance.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://en.wikipedia.org/wiki/2026_state_visit_by_Xi_Jinping_to_the_United_States",
+      "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/trump-xi-summit-live-chinese-president-en-route-to-us",
       "location": "Washington, DC",
       "season_or_time_context": "Xi arrived Sept 23, summit Sept 24",
       "first_seen": "2026-09-21T14:30:00Z",
-      "last_seen": "2026-09-23T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-23T14:30:00Z",
+      "appearances": 4,
       "history": [
         {
+          "date": "2026-09-23T14:30:00Z",
+          "note": "The stakes are concrete: a trade truce from their May Beijing summit expires in November, tariffs and rare earths back on the table. A state dinner follows Thursday's ceremony - but their last meeting already drew charges of symbolism over substance."
+        },
+        {
           "date": "2026-09-23T00:20:00Z",
-          "note": "Xi and wife Peng Liyuan landed at Andrews Air Force Base, for what Beijing calls a \"milestone of historic significance\" - Xi's first White House visit in 11 years. Thursday's Rose Garden guard-of-honor review precedes the meeting - pageantry before substance."
+          "note": "Xi and wife Peng Liyuan landed at Andrews Air Force Base, for what Beijing calls a \"milestone of historic significance\" - Xi's first White House visit in 11 years, a guard-of-honor review preceding Thursday's meeting."
         },
         {
           "date": "2026-09-22T14:30:00Z",
@@ -469,6 +473,34 @@
         }
       ],
       "source_date": "2026-09-21"
+    },
+    {
+      "id": "etruscan-tomb-vulci-untouched",
+      "stream": "places",
+      "observer": "Why Today?",
+      "title": "A 2,600-year-old tomb sat untouched, waiting for someone to actually open it",
+      "observation": "Archaeologists opened the Tomb of the Stone Chamber at Vulci's Polledrara necropolis, a monumental late-7th-century BCE Etruscan burial holding Greek pottery from Attica and Corinth, chariot parts, gold and bronze sheets, and carved bone and ivory - fresh evidence of the site's wealthy elite.",
+      "question": "What does it mean for a culture's wealthiest evidence to survive intact for 2,600 years simply because no one got around to disturbing it?",
+      "hidden_question": "Is this tomb's preservation a matter of luck, or does undisturbed obscurity protect history better than fame does?",
+      "pattern": "an ancient site's most revealing evidence surviving precisely because it stayed unremarkable long enough to be ignored",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The grave goods mix cultures as much as materials: Greek pottery from Attica and Corinth alongside local Etruscan bucchero ware and weapons - the Etruscan elite advertising Mediterranean trade connections in death the same way they likely did in life, in a tomb that had simply never been touched since burial.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://archaeologymag.com/2026/09/etruscan-tomb-with-rare-treasures-at-vulci/",
+      "location": "Vulci, Lazio, Italy",
+      "season_or_time_context": "recent excavation finding",
+      "first_seen": "2026-09-23T14:30:00Z",
+      "last_seen": "2026-09-23T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-23T14:30:00Z",
+          "note": "Archaeologists opened the untouched Tomb of the Stone Chamber at Vulci - a late-7th-century BCE Etruscan burial with Greek pottery from Attica and Corinth, chariot parts, gold and bronze sheets, carved bone and ivory, evidence of the site's wealthy elite."
+        }
+      ],
+      "source_date": "2026-09-22"
     }
   ]
 }

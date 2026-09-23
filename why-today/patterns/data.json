@@ -1,11 +1,11 @@
 {
   "week": "2026-09-20",
-  "last_updated": "2026-09-23T00:20:00Z",
+  "last_updated": "2026-09-23T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
       "title": "This week, three separate claims of having fixed something didn't survive a single news cycle",
-      "explanation": "Across information warfare, foreign policy and debt management, the same pattern showed up: an announcement of control or resolution, followed within about a day by the other side, or the market, contradicting it. Iran claimed a sea mine sank a tanker in the Strait of Hormuz; the US called it a lie within the same cycle. A war-powers vote claimed to end a war it has no power to end. The Fed raised rates to signal it had inflation under control, and the bond market answered by pushing yields to an 18-year high. The pattern isn't that these claims are false when made - it's that none of them are built to survive contact with the next news cycle.",
+      "explanation": "Across information warfare, energy diplomacy and debt management, the same pattern showed up: an announcement of control or resolution, followed within about a day by the other side, or the market, contradicting it. Iran claimed a sea mine sank a tanker in the Strait of Hormuz; the US called it a lie within the same cycle. A \"finalized\" draft deal to reopen Hormuz still contains the one unresolved question it was supposed to settle. The Fed raised rates to signal it had inflation under control, and the bond market answered by pushing yields to an 18-year high. The pattern isn't that these claims are false when made - it's that none of them are built to survive contact with the next news cycle.",
       "momentum": "accelerating",
       "evidence": [
         {
@@ -16,11 +16,11 @@
           "is_new": false
         },
         {
-          "domain": "Foreign Policy",
-          "text": "The House voted 220-204 for a third time to pass a war-powers resolution ending the Iran war - a real vote, a real majority, and it still changes nothing: the resolution won't reach Trump's desk, and he'd veto it if it did. Three votes, zero effect on the war itself.",
-          "url": "https://www.usnews.com/news/politics/articles/2026-09-15/house-votes-for-a-third-time-to-end-the-iran-war-as-conflict-drags-on",
-          "date": "2026-09-15",
-          "is_new": false
+          "domain": "Energy Diplomacy",
+          "text": "Iranian and Omani negotiators announced a \"finalized\" draft deal to reopen the Strait of Hormuz - but the finalized draft still contains the one thing that was never resolved: Iran wants continued control over transit, exactly what Washington has already ruled out granting.",
+          "url": "https://www.theglobeandmail.com/world/article-us-iran-strait-of-hormuz/",
+          "date": "2026-09-23",
+          "is_new": true
         },
         {
           "domain": "Debt Management",
@@ -85,7 +85,7 @@
           "text": "DRC's Ebola outbreak, spreading through a conflict zone where surveillance is patchiest, has become the second-largest on record (7,672 confirmed, 3,699 dead as of Sept 20) - not because it's uniquely severe, but because nothing in the region was watching closely enough to catch it early.",
           "url": "https://news.un.org/en/story/2026/09/1168338",
           "date": "2026-09-22",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Maritime Safety",
