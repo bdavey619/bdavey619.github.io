@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-22T16:26:32.245316+00:00",
+  "generated_at": "2026-09-23T16:16:27.604628+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -189,19 +189,17 @@
       "gamePk": 823169,
       "status": "final",
       "result": "W",
-      "score": "5\u20132"
+      "score": "5\u20132",
+      "archive_url": "archive.html?date=2026-09-22"
     },
     {
       "date": "2026-09-22",
       "opponent": "MIN",
       "home": true,
       "gamePk": 823166,
-      "status": "scheduled",
-      "time_local": "6:45 PM PT",
-      "probable": {
-        "team": "Anthony Molina",
-        "opp": "Taj Bradley"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20133"
     },
     {
       "date": "2026-09-23",
@@ -211,7 +209,8 @@
       "status": "scheduled",
       "time_local": "12:45 PM PT",
       "probable": {
-        "team": "Cesar Perdomo"
+        "team": "Cesar Perdomo",
+        "opp": "Connor Prielipp"
       }
     },
     {
@@ -240,8 +239,8 @@
     }
   ],
   "summary": {
-    "month_record": "8\u201311",
-    "current_streak": "W1",
+    "month_record": "8\u201312",
+    "current_streak": "L1",
     "last_10": "3\u20137"
   }
 }
