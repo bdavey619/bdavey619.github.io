@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-20",
-  "cycle_start": "2026-09-22T00:20:00Z",
-  "last_updated": "2026-09-22T14:30:00Z",
+  "cycle_start": "2026-09-22T14:30:00Z",
+  "last_updated": "2026-09-23T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Even the workaround has a single point of failure: Saudi Aramco built Yanbu into its main Hormuz-bypass route during the war, moving oil overland instead - until a Sept 10 drone strike from Iraq shut the pipeline feeding it. Aramco is now quietly telling Asian refiners loadings may resume soon, informally, with no timeline given.",
+      "why_now": "Iran offered, through mediators, to reopen the strait within seven days if Washington eases military pressure and lifts its port blockade - a real proposal, delivered six days ago, still waiting on the US to show what a senior Iranian official called \"seriousness and commitment.\" Oil fell below $100 on the hope alone.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-22/saudis-tell-asian-refiners-they-can-soon-pick-up-oil-from-yanbu",
+      "url": "https://www.usnews.com/news/world/articles/2026-09-22/iran-ready-to-reopen-strait-of-hormuz-if-us-eases-military-pressure-and-lifts-blockade-senior-official-says",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-22T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-23T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-23T00:20:00Z",
+          "note": "Iran offered, via mediators, to reopen the strait in 7 days if the US eases pressure and lifts its blockade - a real proposal, delivered 6 days ago, still awaiting \"seriousness and commitment.\" Oil fell below $100 on the hope alone."
+        },
         {
           "date": "2026-09-22T14:30:00Z",
           "note": "Even the bypass has a single point of failure: a Sept 10 drone strike shut the pipeline feeding Aramco's Yanbu port, its main Hormuz workaround. Aramco now quietly tells Asian refiners loadings may resume soon - informally, no timeline given."
@@ -41,29 +45,33 @@
           "note": "IRGC struck and detained the Togo-flagged tanker Trend after a fire broke out during what Iran called an \"illegal\" attempt to bypass its preferred transit route - the same toll-and-control blockade logic still producing new incidents almost daily."
         }
       ],
-      "source_date": "2026-09-22"
+      "source_date": "2026-09-23"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
       "stream": "natural_world",
       "observer": "Why Today?",
       "title": "The captain's last message said the ship was tilting. Then it went silent",
-      "observation": "The ferry Virgo Transport 8, carrying 243 people from Surabaya to Banjarmasin, capsized in the Java Sea Sept 13 after its captain reported 3-meter waves and a listing ship - the last message before contact was lost. Nine dead so far, 126 still missing.",
+      "observation": "The ferry Virgo Transport 8, carrying 243 people from Surabaya to Banjarmasin, capsized in the Java Sea Sept 13 after its captain reported 3-meter waves and a listing ship - the last message before contact was lost. 18 dead so far, 117 still missing.",
       "question": "How does a ship go from reporting rough seas to disappearing entirely in the time it takes to send one distress message?",
       "hidden_question": "Was this an unavoidable act of weather, or a vessel that shouldn't have been at sea, or at that capacity, when the forecast turned?",
       "pattern": "a routine domestic ferry route turning fatal within the span of a single distress call",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The wreck's exact position is now known: it drifted 453 meters from where it capsized, resting upside down at 29 meters, stern embedded in the seabed and the bow just 5-6 meters below the surface. An expert team has been brought in to right the hull before body recovery can resume.",
+      "why_now": "The righting operation is yielding bodies again: the death toll jumped from 9 to 18 as divers recovered victims from inside the hull, with 117 still unaccounted for. Nine of the dead have been identified and returned to families; the other nine remain in the identification process.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.malaymail.com/news/world/2026/09/18/salvage-mission-begins-as-navy-battles-to-raise-capsized-java-sea-ferry/235702",
+      "url": "https://en.tempo.co/read/2120092/km-virgo-transport-8-death-toll-rises-to-18-117-still-missing",
       "location": "Java Sea, en route Surabaya to Banjarmasin, Indonesia",
       "season_or_time_context": "salvage operation underway",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-20T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-23T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-23T00:20:00Z",
+          "note": "The righting operation is yielding bodies again: death toll jumped from 9 to 18 as divers recovered victims from the hull, 117 still unaccounted for. Nine of the dead are identified and returned to families, nine still in identification."
+        },
         {
           "date": "2026-09-20T14:30:00Z",
           "note": "The wreck's exact position is now known: drifted 453 meters from where it capsized, resting upside down at 29 meters, stern embedded in the seabed. An expert team was brought in to right the hull before recovery can resume."
@@ -73,7 +81,7 @@
           "note": "Improved weather let divers enter the wreck for the first time, recovering three more bodies - death toll nine, 126 missing. A salvage operation to raise the hull is beginning, the first movement in four days of a frozen tally."
         }
       ],
-      "source_date": "2026-09-18"
+      "source_date": "2026-09-22"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -87,16 +95,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Sept 17 tally reached 7,475 confirmed and 3,605 dead - a 48.2% fatality rate. North Kivu alone now accounts for 1,350 cases and 828 deaths, a province-level toll that keeps climbing even as the UN's gendered-caregiving pattern explains who within it keeps getting infected.",
+      "why_now": "The Sept 20 tally reached 7,672 confirmed and 3,699 dead, with 1,879 recovered - a pace outrunning every previous Ebola outbreak except one: officials now call this the second-largest on record, a superlative the outbreak has earned mid-course rather than in hindsight.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://sharjah24.ae/en/Articles/2026/09/19/Ebola-claims-3605-lives-in-DR-Congo",
+      "url": "https://news.un.org/en/story/2026/09/1168338",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-20T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-23T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-23T00:20:00Z",
+          "note": "Sept 20 tally: 7,672 confirmed, 3,699 dead, 1,879 recovered. The outbreak is now spreading faster than every previous Ebola outbreak except one - officials call it the second-largest on record, a superlative earned mid-course, not in hindsight."
+        },
         {
           "date": "2026-09-20T14:30:00Z",
           "note": "Sept 17 tally: 7,475 confirmed, 3,605 dead - a 48.2% fatality rate. North Kivu alone now accounts for 1,350 cases and 828 deaths, a provincial toll still climbing even as Ituri, the original epicenter, keeps cooling."
@@ -106,7 +118,7 @@
           "note": "The UN reports over 54% of confirmed cases are among women, who do most of the caregiving - attending the sick, fetching water, washing bodies for burial - putting them at the greatest risk in the outbreak's own transmission chain."
         }
       ],
-      "source_date": "2026-09-19"
+      "source_date": "2026-09-22"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -405,16 +417,20 @@
       "pattern": "a high-visibility summit engineered in advance to produce small, market-friendly signals rather than any real resolution",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "This is Xi's first visit to Washington in a decade, and the guest list says as much about the stakes as the agenda: Bezos, Pichai, Altman, Tim Cook, Musk and Jensen Huang are all expected at the dinner. Analysts frame both leaders as entering convinced they hold a stronger hand than they actually do.",
+      "why_now": "Xi and his wife Peng Liyuan landed at Andrews Air Force Base today, Sept 23, for what Beijing itself is calling a \"milestone of historic significance\" - Xi's first White House visit in 11 years. Thursday brings a Rose Garden guard-of-honor review before the actual meeting, pageantry sequenced ahead of substance.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/09/22/cnbcs-the-china-connection-newsletter-watch-this-at-trump-xi-summit.html",
+      "url": "https://en.wikipedia.org/wiki/2026_state_visit_by_Xi_Jinping_to_the_United_States",
       "location": "Washington, DC",
-      "season_or_time_context": "summit scheduled Sept 24",
+      "season_or_time_context": "Xi arrived Sept 23, summit Sept 24",
       "first_seen": "2026-09-21T14:30:00Z",
-      "last_seen": "2026-09-22T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-23T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-23T00:20:00Z",
+          "note": "Xi and wife Peng Liyuan landed at Andrews Air Force Base, for what Beijing calls a \"milestone of historic significance\" - Xi's first White House visit in 11 years. Thursday's Rose Garden guard-of-honor review precedes the meeting - pageantry before substance."
+        },
         {
           "date": "2026-09-22T14:30:00Z",
           "note": "Xi's first Washington visit in a decade draws a guest list that says as much as the agenda: Bezos, Pichai, Altman, Cook, Musk and Huang are expected at dinner. Analysts say both leaders enter convinced they hold the stronger hand."
@@ -424,7 +440,7 @@
           "note": "Trump hosts Xi in DC Sept 24, their second 2026 summit - trade, Taiwan, AI on the agenda, but officials call it \"a low-expectations summit focused on managing the stalemate.\" Markets rallied Monday on anticipation alone."
         }
       ],
-      "source_date": "2026-09-22"
+      "source_date": "2026-09-23"
     },
     {
       "id": "autumn-equinox-latest-since-2023",

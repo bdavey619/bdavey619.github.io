@@ -1,6 +1,6 @@
 {
   "week": "2026-09-20",
-  "last_updated": "2026-09-22T14:30:00Z",
+  "last_updated": "2026-09-23T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -39,9 +39,9 @@
       "evidence": [
         {
           "domain": "Public Health",
-          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June. As of Sept 17, the national tally has reached 7,475 confirmed and 3,605 dead - a 48.2% fatality rate still climbing in North Kivu even as the original epicenter, Ituri, keeps cooling.",
-          "url": "https://sharjah24.ae/en/Articles/2026/09/19/Ebola-claims-3605-lives-in-DR-Congo",
-          "date": "2026-09-19",
+          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June. As of Sept 20, the tally has reached 7,672 confirmed and 3,699 dead, officially the second-largest Ebola outbreak on record - a resolution in name only, since the outbreak never actually stopped growing.",
+          "url": "https://news.un.org/en/story/2026/09/1168338",
+          "date": "2026-09-22",
           "is_new": false
         },
         {
@@ -63,7 +63,7 @@
           "text": "Saudi Aramco is quietly telling Asian refiners they'll soon be able to load oil again at Yanbu, its main Hormuz-bypass port shut since a Sept 10 drone strike - but the assurances are informal, from executives rather than official notice, and no one has given a timeline.",
           "url": "https://www.bloomberg.com/news/articles/2026-09-22/saudis-tell-asian-refiners-they-can-soon-pick-up-oil-from-yanbu",
           "date": "2026-09-22",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -82,16 +82,16 @@
         },
         {
           "domain": "Public Health",
-          "text": "M23 rebels declared DRC's Ebola outbreak over in their territory in late June - only for a new case to surface in rebel-held Kayna in a patient who had just traveled from adjacent government-held Butembo, exactly the kind of cross-border case rebel surveillance couldn't have caught.",
-          "url": "https://news.un.org/en/story/2026/09/1168368",
-          "date": "2026-09-13",
-          "is_new": false
+          "text": "DRC's Ebola outbreak, spreading through a conflict zone where surveillance is patchiest, has become the second-largest on record (7,672 confirmed, 3,699 dead as of Sept 20) - not because it's uniquely severe, but because nothing in the region was watching closely enough to catch it early.",
+          "url": "https://news.un.org/en/story/2026/09/1168338",
+          "date": "2026-09-22",
+          "is_new": true
         },
         {
           "domain": "Maritime Safety",
-          "text": "A survivor of the capsized Java Sea ferry says it was visibly overcrowded before it ever left port - passengers sleeping in hallways because the cabins were already full. No capacity check stopped it from sailing anyway.",
-          "url": "https://www.npr.org/2026/09/14/nx-s1-5968417/indonesia-search-missing-ferry",
-          "date": "2026-09-16",
+          "text": "A survivor of the capsized Java Sea ferry says it was visibly overcrowded before it ever left port - passengers sleeping in hallways because the cabins were already full. No capacity check stopped it from sailing; ten days on, divers are still pulling bodies from the hull.",
+          "url": "https://en.tempo.co/read/2120092/km-virgo-transport-8-death-toll-rises-to-18-117-still-missing",
+          "date": "2026-09-22",
           "is_new": false
         }
       ]
