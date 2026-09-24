@@ -1,6 +1,6 @@
 {
   "week": "2026-09-20",
-  "last_updated": "2026-09-24T00:20:00Z",
+  "last_updated": "2026-09-24T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -24,9 +24,9 @@
         },
         {
           "domain": "Debt Management",
-          "text": "The Fed's \"one correction\" framing didn't survive the week: the 10-year Treasury yield spiked to 5.104% Wednesday, its highest since 2007, as stronger data and hawkish Fed commentary confirmed exactly what the dot plot had already warned - a hiking cycle, not a one-off.",
-          "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
-          "date": "2026-09-23",
+          "text": "NY Fed president Williams called another hike by year-end \"reasonable\" Thursday - but wouldn't commit to October specifically. Traders priced 69% odds of one anyway within hours, moving faster than the official willing to confirm it.",
+          "url": "https://www.cnbc.com/2026/09/24/feds-williams-another-rate-hike-by-year-end.html",
+          "date": "2026-09-24",
           "is_new": true
         }
       ]
@@ -49,7 +49,7 @@
           "text": "Trump and Xi's Thursday summit wears every trapping of resolution - honor guard, state dinner, the first Beijing-Washington state visit since 2015. But officials briefed on it call it \"managing the stalemate rather than resolving it\" - the form of resolution, none of the substance.",
           "url": "https://www.nbcnews.com/world/asia/trump-xi-summit-meet-white-house-tensions-taiwan-trade-ai-rcna598073",
           "date": "2026-09-24",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Elections",
@@ -85,14 +85,14 @@
           "text": "DRC's Ebola outbreak has reached 7,773 confirmed and 3,759 dead as of Sept 21 - but the first sign oversight is catching up where it exists: infections fell 26% in Ituri and 15% in Haut-Uélé over three weeks, while North Kivu, patchiest for surveillance, rose 73% over the same span.",
           "url": "https://news.un.org/en/story/2026/09/1168407",
           "date": "2026-09-23",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Maritime Safety",
-          "text": "A survivor of the capsized Java Sea ferry says it was visibly overcrowded before it ever left port - passengers sleeping in hallways because the cabins were already full. No capacity check stopped it from sailing; ten days on, divers are still pulling bodies from the hull.",
-          "url": "https://en.tempo.co/read/2120092/km-virgo-transport-8-death-toll-rises-to-18-117-still-missing",
-          "date": "2026-09-22",
-          "is_new": false
+          "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing. Eleven days on, the toll has climbed to 26 dead and 109 missing - two bodies have now washed up 253 km away, still being matched back to a ship that never should have left port that full.",
+          "url": "https://www.japantimes.co.jp/news/2026/09/23/asia-pacific/indonesia-ferry-toll-rises/",
+          "date": "2026-09-23",
+          "is_new": true
         }
       ]
     }

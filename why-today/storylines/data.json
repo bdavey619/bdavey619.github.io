@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-20",
-  "cycle_start": "2026-09-23T14:30:00Z",
-  "last_updated": "2026-09-24T00:20:00Z",
+  "cycle_start": "2026-09-24T00:20:00Z",
+  "last_updated": "2026-09-24T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -58,16 +58,20 @@
       "pattern": "a routine domestic ferry route turning fatal within the span of a single distress call",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The righting operation is yielding bodies again: the death toll jumped from 9 to 18 as divers recovered victims from inside the hull, with 117 still unaccounted for. Nine of the dead have been identified and returned to families; the other nine remain in the identification process.",
+      "why_now": "The toll jumped again, to 26 dead and 109 still missing: divers recovered 14 bodies from inside the hull over the past three days, while two more bodies washed ashore in Central Kalimantan, 253 km from where the ferry went down.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://en.tempo.co/read/2120092/km-virgo-transport-8-death-toll-rises-to-18-117-still-missing",
+      "url": "https://www.japantimes.co.jp/news/2026/09/23/asia-pacific/indonesia-ferry-toll-rises/",
       "location": "Java Sea, en route Surabaya to Banjarmasin, Indonesia",
       "season_or_time_context": "salvage operation underway",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-23T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-24T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-24T14:30:00Z",
+          "note": "Death toll rose again, to 26, with 109 still missing and 108 rescued survivors. Divers recovered 14 bodies from inside the hull over three days; two more washed ashore in Central Kalimantan, 253 km from where the ferry went down."
+        },
         {
           "date": "2026-09-23T00:20:00Z",
           "note": "The righting operation is yielding bodies again: death toll jumped from 9 to 18 as divers recovered victims from the hull, 117 still unaccounted for. Nine of the dead are identified and returned to families, nine still in identification."
@@ -81,7 +85,7 @@
           "note": "Improved weather let divers enter the wreck for the first time, recovering three more bodies - death toll nine, 126 missing. A salvage operation to raise the hull is beginning, the first movement in four days of a frozen tally."
         }
       ],
-      "source_date": "2026-09-22"
+      "source_date": "2026-09-23"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -252,16 +256,20 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The 10-year Treasury yield spiked to 5.104% Wednesday, the highest since July 2007 and the biggest one-day move in 18 months - stronger-than-expected economic data, hawkish Fed commentary, weak auction demand and oil above $100 all pointing the same direction the dot plot already warned of.",
+      "why_now": "New York Fed president John Williams said Thursday another hike by year-end is \"reasonable,\" not a commitment to October specifically - traders now price 69% odds of one next month anyway, with Brent above $105 adding to the same pressure.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
+      "url": "https://www.cnbc.com/2026/09/24/feds-williams-another-rate-hike-by-year-end.html",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-24T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-24T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-24T14:30:00Z",
+          "note": "NY Fed president John Williams called another hike by year-end \"reasonable,\" though he wouldn't commit to October specifically. Traders price 69% odds of one anyway; Brent crude above $105 is adding to the same inflation pressure."
+        },
         {
           "date": "2026-09-24T00:20:00Z",
           "note": "The 10-year Treasury yield spiked to 5.104% Wednesday - highest since July 2007, biggest one-day move in 18 months - driven by stronger-than-expected economic data, hawkish Fed commentary, weak auction demand, and oil holding above $100."
@@ -275,7 +283,7 @@
           "note": "A day after the yield spike, Wall Street rebounded hard - the S&P 500 up 1.1% - as easing oil prices and pulled-back yields eased inflation worry. The market's first and second reactions to the same hike told opposite stories."
         }
       ],
-      "source_date": "2026-09-23"
+      "source_date": "2026-09-24"
     },
     {
       "id": "lucas-museum-narrative-art-opens",
@@ -288,16 +296,20 @@
       "pattern": "a wealthy founder's institution testing whether prestige can be built rather than earned",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The museum opened its doors to the public today, Sept 22, exactly as scheduled. Queen Latifah gave the critics an answer of her own at the opening: \"Paris has the Louvre, New York has the Met, and now LA has its artistic equal\" - the comparison Lucas spent $1B trying to earn, stated outright rather than argued for.",
+      "why_now": "Critics' quotes have sharpened past \"Treacle Museum\": the building itself is now \"a contradiction-filled landmark,\" a \"gleaming spacecraft,\" a \"floating amoeba\" - and the $25-to-$600 tiered admission is drawing direct comparisons to peer museums like the Getty and the Broad, which are free.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://abcnews.com/GMA/Culture/everything-to-know-about-lucas-museum-narrative-art/story?id=136606024",
+      "url": "https://www.artforum.com/news/lucas-museum-draws-criticism-over-admission-prices-1234756718/",
       "location": "Exposition Park, Los Angeles",
       "season_or_time_context": "open to the public",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-22T00:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-24T14:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-24T14:30:00Z",
+          "note": "Critics sharpened past \"Treacle Museum\": the building is now \"a contradiction-filled landmark,\" a \"gleaming spacecraft,\" a \"floating amoeba.\" The $25-$600 tiered admission draws direct comparisons to the Getty and the Broad, both free."
+        },
         {
           "date": "2026-09-22T00:20:00Z",
           "note": "The museum opened to the public today. Queen Latifah answered critics at the opening: \"Paris has the Louvre, New York has the Met, and now LA has its artistic equal\" - the comparison Lucas spent $1B to earn, simply declared."
@@ -315,7 +327,7 @@
           "note": "Ahead of its Sept 22 opening, critics split sharply: LA Times calls it \"the Treacle Museum - a sentimental vanity gallery,\" while others call its $600 annual membership pricing \"tone-deaf\" for a billionaire-funded museum. $1B, 16 years, three cities."
         }
       ],
-      "source_date": "2026-09-22"
+      "source_date": "2026-09-23"
     },
     {
       "id": "sudan-informal-gold-mine-collapse",
@@ -361,8 +373,8 @@
       "pattern": "a later empire's legacy quietly absorbing an earlier trading network's actual achievement",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "One living link survived the entire span the study traces: heb\u00e9n, a grape variety still grown in Spanish vineyards today, has never gone out of cultivation for at least 1,100 years - a lineage running back to roughly the year 929, grown continuously since long before anyone knew where it had really come from.",
-      "status": "captured",
+      "why_now": "A dedicated check found nothing past the original study - no new excavation, no follow-up finding, just continued syndication of the same Current Biology paper. Going dormant rather than re-bumping a static research fact; worth reactivating if the team publishes further analysis of the seed collection.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.anthropology.net/p/ancient-dna-shows-a-spanish-grape",
       "location": "Iberian Peninsula (Spain) and Sardinia",
@@ -425,16 +437,20 @@
       "pattern": "a high-visibility summit engineered in advance to produce small, market-friendly signals rather than any real resolution",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Trump and Xi are now actually meeting at the White House, the summit's centerpiece moment - but tensions over Taiwan, trade and AI remain unresolved hours in, with no deal yet announced despite Thursday's ceremonial buildup.",
+      "why_now": "Ahead of the leaders' own sit-down, Bessent and He Lifeng announced the trade truce - due to expire in November - is extended to Jan 10, with a larger package possibly still to come. A concrete deliverable arrived before the \"low-expectations\" summit even formally started.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.nbcnews.com/world/asia/trump-xi-summit-meet-white-house-tensions-taiwan-trade-ai-rcna598073",
+      "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
       "location": "Washington, DC",
       "season_or_time_context": "Xi arrived Sept 23, summit Sept 24",
       "first_seen": "2026-09-21T14:30:00Z",
-      "last_seen": "2026-09-24T00:20:00Z",
-      "appearances": 5,
+      "last_seen": "2026-09-24T14:30:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-09-24T14:30:00Z",
+          "note": "Bessent and He Lifeng announced the trade truce, due to expire in November, is extended to Jan 10 - a larger deal possibly still coming. A concrete result landed before the summit even started."
+        },
         {
           "date": "2026-09-24T00:20:00Z",
           "note": "Trump and Xi are now actually meeting at the White House, the summit's centerpiece moment - but tensions over Taiwan, trade and AI remain unresolved hours in, with no deal yet announced despite Thursday's ceremonial buildup."
@@ -450,10 +466,6 @@
         {
           "date": "2026-09-22T14:30:00Z",
           "note": "Xi's first Washington visit in a decade draws a guest list that says as much as the agenda: Bezos, Pichai, Altman, Cook, Musk and Huang are expected at dinner. Analysts say both leaders enter convinced they hold the stronger hand."
-        },
-        {
-          "date": "2026-09-21T14:30:00Z",
-          "note": "Trump hosts Xi in DC Sept 24, their second 2026 summit - trade, Taiwan, AI on the agenda, but officials call it \"a low-expectations summit focused on managing the stalemate.\" Markets rallied Monday on anticipation alone."
         }
       ],
       "source_date": "2026-09-24"
@@ -519,23 +531,27 @@
       "stream": "headlines",
       "category": "Politics & World",
       "observer": "Why Today?",
-      "title": "The takeover had no gunfire, and that's exactly what makes it alarming",
+      "title": "The takeover was peaceful. The war that followed wasn't",
       "observation": "Tigray forces seized the airports at Mekelle, Axum and Shire from Ethiopia's federal police overnight without a shot fired, prompting Ethiopian Airlines to suspend flights to the region - days after the TPLF and six other armed groups declared an alliance to overthrow the government.",
       "question": "What does a peaceful takeover of a government's own infrastructure say about how much control that government actually had to begin with?",
       "hidden_question": "Is this the opening move of a second Tigray war, or a calculated show of force meant to extract concessions without firing one?",
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The takeover came days after the TPLF and six other armed groups across Ethiopia announced a new alliance explicitly aimed at overthrowing PM Abiy's government - turning a fragile peace since the 2022 truce into the most direct challenge yet to federal authority in the north.",
+      "why_now": "The answer arrived within a day: Tigrayan leaders now say a new war has begun. A strike on Alamata killed 14 and wounded 22 Tuesday, with the mayor accusing federal forces of targeting schools - the fragile truce since 2022 didn't survive the week the airports fell.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.washingtonpost.com/world/2026/09/23/ethiopia-airlines-tigray-mekelle-tpfl/72e97c08-b729-11f1-94cb-d3d8f22a8c8b_story.html",
-      "location": "Mekelle, Tigray Region, Ethiopia",
+      "url": "https://www.npr.org/2026/09/24/nx-s1-5978861/conflict-ethiopia-tigray",
+      "location": "Mekelle and Alamata, Tigray Region, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-09-24T00:20:00Z",
-      "last_seen": "2026-09-24T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-24T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-24T14:30:00Z",
+          "note": "Tigrayan leaders say a new war with the federal government has begun. A strike on Alamata Tuesday killed 14, wounded 22, the mayor accusing federal forces of targeting schools - the fragile truce didn't survive the week the airports fell."
+        },
         {
           "date": "2026-09-24T00:20:00Z",
           "note": "Tigray forces took control of Mekelle, Axum and Shire airports from federal police overnight, without gunfire; Ethiopian Airlines suspended flights to all three. The move follows a new TPLF-led alliance's declared aim to overthrow PM Abiy's government."
