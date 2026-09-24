@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-20",
-  "cycle_start": "2026-09-23T00:20:00Z",
-  "last_updated": "2026-09-23T14:30:00Z",
+  "cycle_start": "2026-09-23T14:30:00Z",
+  "last_updated": "2026-09-24T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -95,16 +95,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Sept 20 tally reached 7,672 confirmed and 3,699 dead, with 1,879 recovered - a pace outrunning every previous Ebola outbreak except one: officials now call this the second-largest on record, a superlative the outbreak has earned mid-course rather than in hindsight.",
+      "why_now": "The Sept 21 tally reached 7,773 confirmed and 3,759 dead - but the first genuinely encouraging sign since the outbreak began: infections are falling 26% in Ituri and 15% in Haut-U\u00e9l\u00e9 over three weeks, even as North Kivu's case count rose 73% over the same span.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://news.un.org/en/story/2026/09/1168338",
+      "url": "https://news.un.org/en/story/2026/09/1168407",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-23T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-24T00:20:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-24T00:20:00Z",
+          "note": "DRC's Sept 21 tally: 7,773 confirmed, 3,759 dead - 40 new cases since the prior count. First genuine good news: infections fell 26% in Ituri and 15% in Haut-U\u00e9l\u00e9 over 21 days, but North Kivu rose 73%."
+        },
         {
           "date": "2026-09-23T00:20:00Z",
           "note": "Sept 20 tally: 7,672 confirmed, 3,699 dead, 1,879 recovered. The outbreak is now spreading faster than every previous Ebola outbreak except one - officials call it the second-largest on record, a superlative earned mid-course, not in hindsight."
@@ -118,7 +122,7 @@
           "note": "The UN reports over 54% of confirmed cases are among women, who do most of the caregiving - attending the sick, fetching water, washing bodies for burial - putting them at the greatest risk in the outbreak's own transmission chain."
         }
       ],
-      "source_date": "2026-09-22"
+      "source_date": "2026-09-23"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -216,8 +220,8 @@
       "pattern": "a policy change technically defensible on the merits, blocked anyway because of when it arrived",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Court went further Monday, formally declining emergency review and ruling the administration was \"unlikely to succeed on the merits\" - not just a delay this time, but a substantive signal. The blocked rule would have required scannable barcoded envelopes and voter data uploaded to a USPS portal, an overhaul officials said couldn't happen in weeks.",
-      "status": "captured",
+      "why_now": "Two dedicated checks across two cycles have found nothing past the Court's formal denial - no new litigation, no fresh statement from either side. Going dormant rather than re-bumping a static fact; worth reactivating if a state moves to implement, or further litigates, the blocked rule.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.naco.org/news/supreme-court-declines-emergency-review-usps-mail-ballot-rule-leaving-nationwide-block-place",
       "location": "Washington, DC (US Supreme Court)",
@@ -248,16 +252,20 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Fed's own dot plot shows this was never meant to be a one-off: 16 of 18 officials expect another hike this year, four expect two more. \"One correction\" was the market's first read; the Fed's own numbers describe a cycle, and yields are already testing 5% again as that sinks in.",
+      "why_now": "The 10-year Treasury yield spiked to 5.104% Wednesday, the highest since July 2007 and the biggest one-day move in 18 months - stronger-than-expected economic data, hawkish Fed commentary, weak auction demand and oil above $100 all pointing the same direction the dot plot already warned of.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.thestreet.com/fed/fed-raises-rates-signals-another-hike-2026",
+      "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-21T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-24T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-24T00:20:00Z",
+          "note": "The 10-year Treasury yield spiked to 5.104% Wednesday - highest since July 2007, biggest one-day move in 18 months - driven by stronger-than-expected economic data, hawkish Fed commentary, weak auction demand, and oil holding above $100."
+        },
         {
           "date": "2026-09-21T14:30:00Z",
           "note": "The Fed's own dot plot shows this wasn't a one-off: 16 of 18 officials expect another hike this year, four expect two more. The market's \"one correction\" read doesn't match the Fed's numbers, and yields are already testing 5% again."
@@ -267,7 +275,7 @@
           "note": "A day after the yield spike, Wall Street rebounded hard - the S&P 500 up 1.1% - as easing oil prices and pulled-back yields eased inflation worry. The market's first and second reactions to the same hike told opposite stories."
         }
       ],
-      "source_date": "2026-09-21"
+      "source_date": "2026-09-23"
     },
     {
       "id": "lucas-museum-narrative-art-opens",
@@ -417,16 +425,20 @@
       "pattern": "a high-visibility summit engineered in advance to produce small, market-friendly signals rather than any real resolution",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The stakes behind the pageantry are concrete: a trade truce from their May Beijing summit expires in November, and tariffs, rare earths and US auto-market access are all back on the table. Thursday's Rose Garden ceremony leads into a state dinner - but their last meeting already left experts calling it symbolism over substance.",
+      "why_now": "Trump and Xi are now actually meeting at the White House, the summit's centerpiece moment - but tensions over Taiwan, trade and AI remain unresolved hours in, with no deal yet announced despite Thursday's ceremonial buildup.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/trump-xi-summit-live-chinese-president-en-route-to-us",
+      "url": "https://www.nbcnews.com/world/asia/trump-xi-summit-meet-white-house-tensions-taiwan-trade-ai-rcna598073",
       "location": "Washington, DC",
       "season_or_time_context": "Xi arrived Sept 23, summit Sept 24",
       "first_seen": "2026-09-21T14:30:00Z",
-      "last_seen": "2026-09-23T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-24T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-24T00:20:00Z",
+          "note": "Trump and Xi are now actually meeting at the White House, the summit's centerpiece moment - but tensions over Taiwan, trade and AI remain unresolved hours in, with no deal yet announced despite Thursday's ceremonial buildup."
+        },
         {
           "date": "2026-09-23T14:30:00Z",
           "note": "The stakes are concrete: a trade truce from their May Beijing summit expires in November, tariffs and rare earths back on the table. A state dinner follows Thursday's ceremony - but their last meeting already drew charges of symbolism over substance."
@@ -444,7 +456,7 @@
           "note": "Trump hosts Xi in DC Sept 24, their second 2026 summit - trade, Taiwan, AI on the agenda, but officials call it \"a low-expectations summit focused on managing the stalemate.\" Markets rallied Monday on anticipation alone."
         }
       ],
-      "source_date": "2026-09-23"
+      "source_date": "2026-09-24"
     },
     {
       "id": "autumn-equinox-latest-since-2023",
@@ -501,6 +513,93 @@
         }
       ],
       "source_date": "2026-09-22"
+    },
+    {
+      "id": "ethiopia-tigray-forces-seize-airports",
+      "stream": "headlines",
+      "category": "Politics & World",
+      "observer": "Why Today?",
+      "title": "The takeover had no gunfire, and that's exactly what makes it alarming",
+      "observation": "Tigray forces seized the airports at Mekelle, Axum and Shire from Ethiopia's federal police overnight without a shot fired, prompting Ethiopian Airlines to suspend flights to the region - days after the TPLF and six other armed groups declared an alliance to overthrow the government.",
+      "question": "What does a peaceful takeover of a government's own infrastructure say about how much control that government actually had to begin with?",
+      "hidden_question": "Is this the opening move of a second Tigray war, or a calculated show of force meant to extract concessions without firing one?",
+      "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "The takeover came days after the TPLF and six other armed groups across Ethiopia announced a new alliance explicitly aimed at overthrowing PM Abiy's government - turning a fragile peace since the 2022 truce into the most direct challenge yet to federal authority in the north.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.washingtonpost.com/world/2026/09/23/ethiopia-airlines-tigray-mekelle-tpfl/72e97c08-b729-11f1-94cb-d3d8f22a8c8b_story.html",
+      "location": "Mekelle, Tigray Region, Ethiopia",
+      "season_or_time_context": "active escalation",
+      "first_seen": "2026-09-24T00:20:00Z",
+      "last_seen": "2026-09-24T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-24T00:20:00Z",
+          "note": "Tigray forces took control of Mekelle, Axum and Shire airports from federal police overnight, without gunfire; Ethiopian Airlines suspended flights to all three. The move follows a new TPLF-led alliance's declared aim to overthrow PM Abiy's government."
+        }
+      ],
+      "source_date": "2026-09-23"
+    },
+    {
+      "id": "alibaba-zhenwu-v900-ai-chip",
+      "stream": "headlines",
+      "category": "Business & Technology",
+      "observer": "Why Today?",
+      "title": "China just showed its answer to Nvidia's absence, two days before Xi sat down with Trump",
+      "observation": "Alibaba unveiled the Zhenwu V900, its most powerful AI chip yet, at its Apsara Conference in Hangzhou - a domestic accelerator built because US export controls cut off Nvidia access, arriving two days before Xi's state visit put AI on the table with Trump.",
+      "question": "How much leverage does a controlled resource retain once the country it's being withheld from builds a working substitute?",
+      "hidden_question": "Is China racing to catch up on AI hardware, or demonstrating - right before trade talks - that the leverage of withholding advanced chips is already expiring?",
+      "pattern": "an export restriction accelerating exactly the domestic capability it was meant to prevent",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "The timing wasn't incidental: Alibaba's CEO unveiled a chip supporting 500,000-unit superclusters and a 10-trillion-parameter model roadmap just as Xi arrived in Washington for a summit where AI and export controls are explicit agenda items - a card played before the negotiation, not after.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
+      "location": "Hangzhou, China",
+      "season_or_time_context": "announced ahead of Trump-Xi summit",
+      "first_seen": "2026-09-24T00:20:00Z",
+      "last_seen": "2026-09-24T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-24T00:20:00Z",
+          "note": "Alibaba's CEO unveiled the Zhenwu V900, three times the performance of its prior chip, supporting 500,000-chip superclusters - built because US export controls cut off Nvidia access, timed two days before Xi's AI-agenda summit with Trump."
+        }
+      ],
+      "source_date": "2026-09-22"
+    },
+    {
+      "id": "harvest-moon-three-names-one-week",
+      "stream": "human_rituals",
+      "observer": "Why Today?",
+      "title": "Three cultures are celebrating the same full moon this week under three different names",
+      "observation": "Mid-Autumn Festival (China, Sept 25), Chuseok (Korea, Sept 24-26) and Tsukimi (Japan, Sept 25-28) all mark the same autumn full moon within days of each other this year - independently evolved harvest rituals converging on one lunar calendar.",
+      "question": "What does it mean that three cultures, without coordinating, built nearly identical rituals around the exact same moon?",
+      "hidden_question": "Is the convergence evidence of shared cultural origin, or just proof that a full moon after harvest is an obvious thing for any farming society to notice?",
+      "pattern": "geographically separate societies independently arriving at the same seasonal ritual, tied to the same astronomical event",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "All three fall within a five-day window this year because each is pinned to the lunar calendar's 8th month - a rare enough overlap that this week offers a genuine side-by-side of how differently three neighboring cultures dress the identical underlying observance.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://en.wikipedia.org/wiki/Mid-Autumn_Festival",
+      "source_evergreen": true,
+      "location": "China, Korea, Japan",
+      "season_or_time_context": "Sept 24-28, lunar 8th month full moon",
+      "first_seen": "2026-09-24T00:20:00Z",
+      "last_seen": "2026-09-24T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-24T00:20:00Z",
+          "note": "Mid-Autumn Festival (China, Sept 25), Chuseok (Korea, Sept 24-26), and Tsukimi (Japan, Sept 25-28) all fall within the same five-day window this year, three independently-evolved harvest rituals pinned to the identical lunar full moon."
+        }
+      ],
+      "source_date": "2026-09-24"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "week": "2026-09-20",
-  "last_updated": "2026-09-23T14:30:00Z",
+  "last_updated": "2026-09-24T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -20,14 +20,14 @@
           "text": "Iranian and Omani negotiators announced a \"finalized\" draft deal to reopen the Strait of Hormuz - but the finalized draft still contains the one thing that was never resolved: Iran wants continued control over transit, exactly what Washington has already ruled out granting.",
           "url": "https://www.theglobeandmail.com/world/article-us-iran-strait-of-hormuz/",
           "date": "2026-09-23",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Debt Management",
-          "text": "Markets read the Fed's Sept 16 hike as \"one correction.\" The Fed's own dot plot says otherwise: 16 of 18 officials expect another hike this year, four expect two more - a hiking cycle, not a one-off, undercutting the market's own read within days.",
-          "url": "https://www.thestreet.com/fed/fed-raises-rates-signals-another-hike-2026",
-          "date": "2026-09-21",
-          "is_new": false
+          "text": "The Fed's \"one correction\" framing didn't survive the week: the 10-year Treasury yield spiked to 5.104% Wednesday, its highest since 2007, as stronger data and hawkish Fed commentary confirmed exactly what the dot plot had already warned - a hiking cycle, not a one-off.",
+          "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
+          "date": "2026-09-23",
+          "is_new": true
         }
       ]
     },
@@ -45,11 +45,11 @@
           "is_new": false
         },
         {
-          "domain": "Missing Persons",
-          "text": "Indonesia formally closed the 10-day search for the Anak Krakatau journalists - a resolution in bureaucratic form. But \"no wreckage, no survivors\" isn't an answer, and officials' own language - restartable only if a new lead surfaces - concedes the actual question was never resolved, just stopped asking.",
-          "url": "https://www.dailymaverick.co.za/article/2026-09-18-indonesia-calls-off-search-for-journalists-missing-while-covering-volcano-eruption/",
-          "date": "2026-09-18",
-          "is_new": false
+          "domain": "Foreign Policy",
+          "text": "Trump and Xi's Thursday summit wears every trapping of resolution - honor guard, state dinner, the first Beijing-Washington state visit since 2015. But officials briefed on it call it \"managing the stalemate rather than resolving it\" - the form of resolution, none of the substance.",
+          "url": "https://www.nbcnews.com/world/asia/trump-xi-summit-meet-white-house-tensions-taiwan-trade-ai-rcna598073",
+          "date": "2026-09-24",
+          "is_new": true
         },
         {
           "domain": "Elections",
@@ -82,10 +82,10 @@
         },
         {
           "domain": "Public Health",
-          "text": "DRC's Ebola outbreak, spreading through a conflict zone where surveillance is patchiest, has become the second-largest on record (7,672 confirmed, 3,699 dead as of Sept 20) - not because it's uniquely severe, but because nothing in the region was watching closely enough to catch it early.",
-          "url": "https://news.un.org/en/story/2026/09/1168338",
-          "date": "2026-09-22",
-          "is_new": false
+          "text": "DRC's Ebola outbreak has reached 7,773 confirmed and 3,759 dead as of Sept 21 - but the first sign oversight is catching up where it exists: infections fell 26% in Ituri and 15% in Haut-Uélé over three weeks, while North Kivu, patchiest for surveillance, rose 73% over the same span.",
+          "url": "https://news.un.org/en/story/2026/09/1168407",
+          "date": "2026-09-23",
+          "is_new": true
         },
         {
           "domain": "Maritime Safety",
