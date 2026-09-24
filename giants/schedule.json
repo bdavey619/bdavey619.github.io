@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-23T16:16:27.604628+00:00",
+  "generated_at": "2026-09-24T16:38:36.095496+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -199,19 +199,17 @@
       "gamePk": 823166,
       "status": "final",
       "result": "L",
-      "score": "2\u20133"
+      "score": "2\u20133",
+      "archive_url": "archive.html?date=2026-09-23"
     },
     {
       "date": "2026-09-23",
       "opponent": "MIN",
       "home": true,
       "gamePk": 823168,
-      "status": "scheduled",
-      "time_local": "12:45 PM PT",
-      "probable": {
-        "team": "Cesar Perdomo",
-        "opp": "Connor Prielipp"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u20134"
     },
     {
       "date": "2026-09-25",
@@ -219,7 +217,10 @@
       "home": true,
       "gamePk": 823167,
       "status": "scheduled",
-      "time_local": "7:15 PM PT"
+      "time_local": "7:15 PM PT",
+      "probable": {
+        "team": "Yunior Marte"
+      }
     },
     {
       "date": "2026-09-26",
@@ -227,7 +228,10 @@
       "home": true,
       "gamePk": 823165,
       "status": "scheduled",
-      "time_local": "1:05 PM PT"
+      "time_local": "1:05 PM PT",
+      "probable": {
+        "team": "Matt Wilkinson"
+      }
     },
     {
       "date": "2026-09-27",
@@ -239,8 +243,8 @@
     }
   ],
   "summary": {
-    "month_record": "8\u201312",
-    "current_streak": "L1",
+    "month_record": "8\u201313",
+    "current_streak": "L2",
     "last_10": "3\u20137"
   }
 }
