@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-24T16:38:36.095496+00:00",
+  "generated_at": "2026-09-25T16:44:00.781094+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -209,7 +209,8 @@
       "gamePk": 823168,
       "status": "final",
       "result": "L",
-      "score": "2\u20134"
+      "score": "2\u20134",
+      "archive_url": "archive.html?date=2026-09-24"
     },
     {
       "date": "2026-09-25",
@@ -219,7 +220,8 @@
       "status": "scheduled",
       "time_local": "7:15 PM PT",
       "probable": {
-        "team": "Yunior Marte"
+        "team": "Yunior Marte",
+        "opp": "Tarik Skubal"
       }
     },
     {
@@ -230,7 +232,8 @@
       "status": "scheduled",
       "time_local": "1:05 PM PT",
       "probable": {
-        "team": "Matt Wilkinson"
+        "team": "Matt Wilkinson",
+        "opp": "Blake Snell"
       }
     },
     {
