@@ -1,6 +1,6 @@
 {
   "week": "2026-09-20",
-  "last_updated": "2026-09-24T14:30:00Z",
+  "last_updated": "2026-09-25T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -24,8 +24,8 @@
         },
         {
           "domain": "Debt Management",
-          "text": "NY Fed president Williams called another hike by year-end \"reasonable\" Thursday - but wouldn't commit to October specifically. Traders priced 69% odds of one anyway within hours, moving faster than the official willing to confirm it.",
-          "url": "https://www.cnbc.com/2026/09/24/feds-williams-another-rate-hike-by-year-end.html",
+          "text": "The bond market answered the Fed's hedged language with numbers, not words: the 30-year yield hit 5.501% Thursday, its highest since 2004, and the 10-year surged to 5.223% intraday - both moving faster than any single Fed official would confirm was coming.",
+          "url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
           "date": "2026-09-24",
           "is_new": true
         }
@@ -71,7 +71,7 @@
       "id": "oversight-vacuum-predictable-disaster",
       "title": "Three disasters this week all failed the exact same way: nothing was watching",
       "explanation": "A mine, a ferry and an epidemic each broke down at precisely the point regulatory oversight exists to catch - not through a freak accident, but through the plain absence of an inspector, a capacity limit, or working surveillance. Different domains, different countries, same missing ingredient.",
-      "momentum": "building",
+      "momentum": "accelerating",
       "evidence": [
         {
           "domain": "Mining Safety",
@@ -92,7 +92,7 @@
           "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing. Eleven days on, the toll has climbed to 26 dead and 109 missing - two bodies have now washed up 253 km away, still being matched back to a ship that never should have left port that full.",
           "url": "https://www.japantimes.co.jp/news/2026/09/23/asia-pacific/indonesia-ferry-toll-rises/",
           "date": "2026-09-23",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
