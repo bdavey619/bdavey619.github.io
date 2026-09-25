@@ -1,6 +1,6 @@
 {
   "week": "2026-09-20",
-  "last_updated": "2026-09-25T00:20:00Z",
+  "last_updated": "2026-09-25T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -27,6 +27,13 @@
           "text": "The bond market answered the Fed's hedged language with numbers, not words: the 30-year yield hit 5.501% Thursday, its highest since 2004, and the 10-year surged to 5.223% intraday - both moving faster than any single Fed official would confirm was coming.",
           "url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
           "date": "2026-09-24",
+          "is_new": false
+        },
+        {
+          "domain": "Civil Conflict",
+          "text": "Ethiopia's federal government and Tigrayan forces each say the other struck first as fighting spread into Afar and Amhara. Exactly like the unclaimed Hormuz strike, the basic fact of who started this war stays disputed days into it.",
+          "url": "https://www.npr.org/2026/09/24/nx-s1-5978861/conflict-ethiopia-tigray",
+          "date": "2026-09-24",
           "is_new": true
         }
       ]
@@ -46,10 +53,10 @@
         },
         {
           "domain": "Foreign Policy",
-          "text": "Trump and Xi's Thursday summit wears every trapping of resolution - honor guard, state dinner, the first Beijing-Washington state visit since 2015. But officials briefed on it call it \"managing the stalemate rather than resolving it\" - the form of resolution, none of the substance.",
-          "url": "https://www.nbcnews.com/world/asia/trump-xi-summit-meet-white-house-tensions-taiwan-trade-ai-rcna598073",
-          "date": "2026-09-24",
-          "is_new": false
+          "text": "The Trump-Xi summit's own verdict confirmed the prediction: \"big on pomp but small on substance.\" The leaders didn't even converge on rhetoric about AI - Trump calls extinction risk a \"hoax,\" Xi wants it \"under human control.\" The pageantry landed; the stalemate didn't move.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-25/trump-xi-summit-goes-big-on-pomp-but-small-on-substance",
+          "date": "2026-09-25",
+          "is_new": true
         },
         {
           "domain": "Elections",

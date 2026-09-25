@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-20",
-  "cycle_start": "2026-09-24T14:30:00Z",
-  "last_updated": "2026-09-25T00:20:00Z",
+  "cycle_start": "2026-09-25T00:20:00Z",
+  "last_updated": "2026-09-25T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -284,16 +284,20 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The bond selloff deepened again Thursday: the 30-year yield hit 5.501%, its highest since 2004, while the 10-year surged intraday to 5.223% - both new multi-decade highs, as traders keep pricing in hikes faster than any single Fed official will confirm.",
+      "why_now": "The data now backs the bond market's bet: S&P Global's flash composite PMI jumped to 58.4 in September, the strongest US business growth in over five years - complicating the Fed's next call just as officials keep leaning toward another hike.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
+      "url": "https://www.techtimes.com/articles/327930/20260923/us-growth-hits-five-year-high-pmi-584-complicates-feds-next-rate-call.htm",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-25T00:20:00Z",
-      "appearances": 5,
+      "last_seen": "2026-09-25T14:30:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-09-25T14:30:00Z",
+          "note": "The data now backs the bond market's bet: S&P Global's flash composite PMI jumped to 58.4 in September, the strongest US business growth in over five years - complicating the Fed's next call as officials keep leaning toward another hike."
+        },
         {
           "date": "2026-09-25T00:20:00Z",
           "note": "The bond selloff deepened again: the 30-year yield hit 5.501%, highest since 2004, while the 10-year surged intraday to 5.223% - both new multi-decade highs, traders pricing in hikes faster than any single Fed official will confirm."
@@ -309,13 +313,9 @@
         {
           "date": "2026-09-21T14:30:00Z",
           "note": "The Fed's own dot plot shows this wasn't a one-off: 16 of 18 officials expect another hike this year, four expect two more. The market's \"one correction\" read doesn't match the Fed's numbers, and yields are already testing 5% again."
-        },
-        {
-          "date": "2026-09-20T00:20:00Z",
-          "note": "A day after the yield spike, Wall Street rebounded hard - the S&P 500 up 1.1% - as easing oil prices and pulled-back yields eased inflation worry. The market's first and second reactions to the same hike told opposite stories."
         }
       ],
-      "source_date": "2026-09-24"
+      "source_date": "2026-09-23"
     },
     {
       "id": "lucas-museum-narrative-art-opens",
@@ -462,23 +462,27 @@
       "id": "trump-xi-summit-low-expectations",
       "stream": "markets",
       "observer": "Why Today?",
-      "title": "They struck a cordial tone. The disagreement they were managing showed up anyway",
+      "title": "The low bar got cleared. Nothing had to be resolved to call it a success",
       "observation": "Trump hosts Xi in Washington Sept 24 for their second summit of 2026, covering trade, rare earths, Taiwan and AI - described by officials briefed on it as \"a low-expectations summit focused largely on managing the stalemate rather than resolving it.\"",
       "question": "What is a summit actually for, when both sides have already agreed in advance that nothing big will be settled?",
       "hidden_question": "Is managing a stalemate a real diplomatic achievement, or just a more dignified way of describing an unresolved standoff?",
       "pattern": "a high-visibility summit engineered in advance to produce small, market-friendly signals rather than any real resolution",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The actual meeting struck a cordial tone, per reporters in the room - but Xi used it to press Trump directly on opposing Taiwan's independence, per Chinese state media, the exact tension the \"managing, not resolving\" framing was built to paper over, surfacing anyway.",
+      "why_now": "The verdict landed fast: \"big on pomp but small on substance.\" On AI specifically, the two leaders didn't even converge on rhetoric - Trump calls extinction-risk warnings a \"hoax,\" Xi says any advanced system must stay \"under human control.\" The stalemate held; only the choreography changed.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.npr.org/2026/09/24/g-s1-144806/trump-xi-summit",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-25/trump-xi-summit-goes-big-on-pomp-but-small-on-substance",
       "location": "Washington, DC",
       "season_or_time_context": "Xi arrived Sept 23, summit Sept 24",
       "first_seen": "2026-09-21T14:30:00Z",
-      "last_seen": "2026-09-25T00:20:00Z",
-      "appearances": 7,
+      "last_seen": "2026-09-25T14:30:00Z",
+      "appearances": 8,
       "history": [
+        {
+          "date": "2026-09-25T14:30:00Z",
+          "note": "Verdict: \"big on pomp, small on substance.\" On AI, the leaders didn't converge on rhetoric - Trump calls extinction-risk warnings a \"hoax,\" Xi says any advanced system must stay \"under human control.\" The stalemate held; only the choreography changed."
+        },
         {
           "date": "2026-09-25T00:20:00Z",
           "note": "The meeting itself struck a cordial tone - but Xi used it to press Trump directly on opposing Taiwan's independence, per Chinese state media. The exact tension \"managing, not resolving\" was meant to paper over surfaced anyway, on camera."
@@ -494,13 +498,9 @@
         {
           "date": "2026-09-23T14:30:00Z",
           "note": "The stakes are concrete: a trade truce from their May Beijing summit expires in November, tariffs and rare earths back on the table. A state dinner follows Thursday's ceremony - but their last meeting already drew charges of symbolism over substance."
-        },
-        {
-          "date": "2026-09-23T00:20:00Z",
-          "note": "Xi and wife Peng Liyuan landed at Andrews Air Force Base, for what Beijing calls a \"milestone of historic significance\" - Xi's first White House visit in 11 years, a guard-of-honor review preceding Thursday's meeting."
         }
       ],
-      "source_date": "2026-09-24"
+      "source_date": "2026-09-25"
     },
     {
       "id": "autumn-equinox-latest-since-2023",
@@ -541,22 +541,26 @@
       "pattern": "an ancient site's most revealing evidence surviving precisely because it stayed unremarkable long enough to be ignored",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The grave goods mix cultures as much as materials: Greek pottery from Attica and Corinth alongside local Etruscan bucchero ware and weapons - the Etruscan elite advertising Mediterranean trade connections in death the same way they likely did in life, in a tomb that had simply never been touched since burial.",
+      "why_now": "The dig is part of Ritorno a Vulci, an international project pairing the \u00c9cole fran\u00e7aise de Rome, Sapienza University and the British Museum - and it's already yielded a rarity even for Vulci: a woman's shoe and a complete banquet set, intact since burial.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://archaeologymag.com/2026/09/etruscan-tomb-with-rare-treasures-at-vulci/",
+      "url": "https://www.cbsnews.com/news/italy-vulci-tomb-opened-etruscan-roman-greek-artifacts-montalto-di-castro/",
       "location": "Vulci, Lazio, Italy",
       "season_or_time_context": "recent excavation finding",
       "first_seen": "2026-09-23T14:30:00Z",
-      "last_seen": "2026-09-23T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-25T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-25T14:30:00Z",
+          "note": "The dig is part of Ritorno a Vulci, pairing the \u00c9cole fran\u00e7aise de Rome, Sapienza University and the British Museum - and it's yielded a rarity even for Vulci: a woman's shoe and a complete banquet set, intact since burial."
+        },
         {
           "date": "2026-09-23T14:30:00Z",
           "note": "Archaeologists opened the untouched Tomb of the Stone Chamber at Vulci - a late-7th-century BCE Etruscan burial with Greek pottery from Attica and Corinth, chariot parts, gold and bronze sheets, carved bone and ivory, evidence of the site's wealthy elite."
         }
       ],
-      "source_date": "2026-09-22"
+      "source_date": "2026-09-23"
     },
     {
       "id": "ethiopia-tigray-forces-seize-airports",
@@ -570,16 +574,20 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The fighting has already outgrown Tigray: it's spread into neighboring Afar and Amhara, where the Ethiopian army says it killed 272 Tigrayan fighters, and flights to the holy town of Lalibela were suspended as combat neared - each side blaming the other for striking first.",
+      "why_now": "Internet and phone networks in Tigray went dark Friday, NetBlocks confirming a telecoms blackout - a communications lockdown descending on the region just as fears grow for the UNESCO-listed rock-hewn churches at Lalibela, now within range of the fighting.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/9/24/ethiopian-army-says-272-tigrayan-fighters-killed-as-conflict-escalates",
+      "url": "https://www.usnews.com/news/world/articles/2026-09-25/internet-and-phone-network-disrupted-in-ethiopias-war-hit-tigray-region",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-09-24T00:20:00Z",
-      "last_seen": "2026-09-25T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-25T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-25T14:30:00Z",
+          "note": "Internet and phone networks in Tigray went dark Friday, NetBlocks confirming a telecoms blackout - a communications lockdown just as fears grow for the UNESCO-listed rock-hewn churches at Lalibela, now within range of the fighting."
+        },
         {
           "date": "2026-09-25T00:20:00Z",
           "note": "The fighting spread beyond Tigray into Afar and Amhara; the Ethiopian army says it killed 272 Tigrayan fighters there. Flights to the holy town of Lalibela were suspended as combat neared - each side blaming the other for striking first."
@@ -593,7 +601,7 @@
           "note": "Tigray forces took control of Mekelle, Axum and Shire airports from federal police overnight, without gunfire; Ethiopian Airlines suspended flights to all three. The move follows a new TPLF-led alliance's declared aim to overthrow PM Abiy's government."
         }
       ],
-      "source_date": "2026-09-24"
+      "source_date": "2026-09-25"
     },
     {
       "id": "alibaba-zhenwu-v900-ai-chip",
