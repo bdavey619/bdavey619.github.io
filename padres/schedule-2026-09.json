@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-25T15:22:29.869366+00:00",
+  "generated_at": "2026-09-26T14:36:19.994690+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -211,18 +211,17 @@
       "gamePk": 823895,
       "status": "final",
       "result": "W",
-      "score": "4\u20132"
+      "score": "4\u20132",
+      "archive_url": "archive.html?date=2026-09-25"
     },
     {
       "date": "2026-09-25",
       "opponent": "ARI",
       "home": true,
       "gamePk": 823248,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "opp": "Brandon Pfaadt"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "4\u201311"
     },
     {
       "date": "2026-09-26",
@@ -232,7 +231,7 @@
       "status": "scheduled",
       "time_local": "5:40 PM PT",
       "probable": {
-        "opp": "Corbin Burnes"
+        "team": "Walker Buehler"
       }
     },
     {
@@ -248,8 +247,8 @@
     }
   ],
   "summary": {
-    "month_record": "16\u20135",
-    "current_streak": "W2",
-    "last_10": "8\u20132"
+    "month_record": "16\u20136",
+    "current_streak": "L1",
+    "last_10": "7\u20133"
   }
 }
