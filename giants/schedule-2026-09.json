@@ -3,7 +3,7 @@
   "team_slug": "giants",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-25T16:44:00.781094+00:00",
+  "generated_at": "2026-09-26T15:56:42.341683+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -217,12 +217,9 @@
       "opponent": "LAD",
       "home": true,
       "gamePk": 823167,
-      "status": "scheduled",
-      "time_local": "7:15 PM PT",
-      "probable": {
-        "team": "Yunior Marte",
-        "opp": "Tarik Skubal"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20132"
     },
     {
       "date": "2026-09-26",
@@ -246,8 +243,8 @@
     }
   ],
   "summary": {
-    "month_record": "8\u201313",
-    "current_streak": "L2",
+    "month_record": "8\u201314",
+    "current_streak": "L3",
     "last_10": "3\u20137"
   }
 }
