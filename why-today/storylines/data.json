@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-20",
-  "cycle_start": "2026-09-25T00:20:00Z",
-  "last_updated": "2026-09-25T14:30:00Z",
+  "cycle_start": "2026-09-25T14:30:00Z",
+  "last_updated": "2026-09-26T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran's military called Trump's \"annihilate\" threat a sign of \"strategic desperation\" and warned of strikes \"more crushing\" than earlier in the war - even as Iranian officials prepare to meet Gulf states in Oman to discuss safe passage through the strait.",
+      "why_now": "Iran's foreign minister says Tehran has offered Washington, via Qatar, a concrete seven-day plan to reopen the strait - talks in New York described as \"increasingly positive.\" But Iran is explicit the offer excludes its nuclear program: no flexibility there, deal or not.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/09/23/us-iran-war-trump-hormuz.html",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-09-25/us-iran-explore-phased-deal-to-reopen-strait-of-hormuz",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-25T00:20:00Z",
-      "appearances": 7,
+      "last_seen": "2026-09-26T00:20:00Z",
+      "appearances": 8,
       "history": [
+        {
+          "date": "2026-09-26T00:20:00Z",
+          "note": "Iran's FM says Tehran offered Washington, via Qatar, a concrete seven-day plan to reopen the strait - talks in New York now \"increasingly positive.\" But Iran is explicit the offer excludes its nuclear program: no flexibility there, deal or not."
+        },
         {
           "date": "2026-09-25T00:20:00Z",
           "note": "Iran's military called Trump's threat to \"annihilate\" it a sign of \"strategic desperation,\" warning of strikes \"more crushing\" than earlier in the war - while separately preparing to meet Gulf states in Oman to discuss safe passage through the strait."
@@ -39,13 +43,9 @@
         {
           "date": "2026-09-22T14:30:00Z",
           "note": "Even the bypass has a single point of failure: a Sept 10 drone strike shut the pipeline feeding Aramco's Yanbu port, its main Hormuz workaround. Aramco now quietly tells Asian refiners loadings may resume soon - informally, no timeline given."
-        },
-        {
-          "date": "2026-09-21T14:30:00Z",
-          "note": "An unidentified projectile struck another tanker entering the strait Monday, wounding two crew - no attacker has claimed it. IRGC's spokesman separately warned a renewed US attack would make Iran change both \"the geography and the weapons\" of the conflict."
         }
       ],
-      "source_date": "2026-09-23"
+      "source_date": "2026-09-25"
     },
     {
       "id": "benin-coral-reef-found-alive",
@@ -80,22 +80,26 @@
       "stream": "natural_world",
       "observer": "Why Today?",
       "title": "The captain's last message said the ship was tilting. Then it went silent",
-      "observation": "The ferry Virgo Transport 8, carrying 243 people from Surabaya to Banjarmasin, capsized in the Java Sea Sept 13 after its captain reported 3-meter waves and a listing ship - the last message before contact was lost. 18 dead so far, 117 still missing.",
+      "observation": "The ferry Virgo Transport 8, carrying 243 people from Surabaya to Banjarmasin, capsized in the Java Sea Sept 13 after its captain reported 3-meter waves and a listing ship - the last message before contact was lost. 52 dead so far, 83 still missing.",
       "question": "How does a ship go from reporting rough seas to disappearing entirely in the time it takes to send one distress message?",
       "hidden_question": "Was this an unavoidable act of weather, or a vessel that shouldn't have been at sea, or at that capacity, when the forecast turned?",
       "pattern": "a routine domestic ferry route turning fatal within the span of a single distress call",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The toll jumped again, to 26 dead and 109 still missing: divers recovered 14 bodies from inside the hull over the past three days, while two more bodies washed ashore in Central Kalimantan, 253 km from where the ferry went down.",
+      "why_now": "The toll jumped sharply again: divers recovered a total of 52 bodies in a dayslong operation, up from 26, with 83 people still unaccounted for and 108 confirmed rescued - twelve days since the ferry went down.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.japantimes.co.jp/news/2026/09/23/asia-pacific/indonesia-ferry-toll-rises/",
+      "url": "https://abcnews.com/International/wireStory/divers-recover-total-52-bodies-capsized-ferry-indonesia-136745410",
       "location": "Java Sea, en route Surabaya to Banjarmasin, Indonesia",
       "season_or_time_context": "salvage operation underway",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-24T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-26T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-26T00:20:00Z",
+          "note": "The toll jumped sharply again: divers recovered a total of 52 bodies in a dayslong operation, up from 26, with 83 people still unaccounted for and 108 confirmed rescued - twelve days since the ferry went down."
+        },
         {
           "date": "2026-09-24T14:30:00Z",
           "note": "Death toll rose again, to 26, with 109 still missing and 108 rescued survivors. Divers recovered 14 bodies from inside the hull over three days; two more washed ashore in Central Kalimantan, 253 km from where the ferry went down."
@@ -113,7 +117,7 @@
           "note": "Improved weather let divers enter the wreck for the first time, recovering three more bodies - death toll nine, 126 missing. A salvage operation to raise the hull is beginning, the first movement in four days of a frozen tally."
         }
       ],
-      "source_date": "2026-09-23"
+      "source_date": "2026-09-25"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -127,16 +131,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Sept 21 tally reached 7,773 confirmed and 3,759 dead - but the first genuinely encouraging sign since the outbreak began: infections are falling 26% in Ituri and 15% in Haut-U\u00e9l\u00e9 over three weeks, even as North Kivu's case count rose 73% over the same span.",
+      "why_now": "The outbreak spread to two new health zones, WHO confirmed - even as the tally hit 7,890 confirmed and 3,799 dead. Africa CDC's own chief now says contact tracing is falling far short: most new cases are among people entirely unknown to health authorities before they're diagnosed.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://news.un.org/en/story/2026/09/1168407",
+      "url": "https://www.aljazeera.com/news/2026/9/25/dr-congos-ebola-outbreak-spreads-to-two-new-health-zones-who-says",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-24T00:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-26T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-26T00:20:00Z",
+          "note": "The outbreak spread to two new health zones, WHO confirmed, as the tally hit 7,890 confirmed/3,799 dead. Africa CDC's chief says contact tracing is falling far short: most new cases are among people unknown to health authorities before diagnosis."
+        },
         {
           "date": "2026-09-24T00:20:00Z",
           "note": "DRC's Sept 21 tally: 7,773 confirmed, 3,759 dead - 40 new cases since the prior count. First genuine good news: infections fell 26% in Ituri and 15% in Haut-U\u00e9l\u00e9 over 21 days, but North Kivu rose 73%."
@@ -154,7 +162,7 @@
           "note": "The UN reports over 54% of confirmed cases are among women, who do most of the caregiving - attending the sick, fetching water, washing bodies for burial - putting them at the greatest risk in the outbreak's own transmission chain."
         }
       ],
-      "source_date": "2026-09-23"
+      "source_date": "2026-09-25"
     },
     {
       "id": "venezuela-us-oil-deal-legitimacy",
@@ -284,16 +292,20 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The data now backs the bond market's bet: S&P Global's flash composite PMI jumped to 58.4 in September, the strongest US business growth in over five years - complicating the Fed's next call just as officials keep leaning toward another hike.",
+      "why_now": "Yields closed the week barely moved from Thursday's multi-decade highs (10yr 5.163%, 30yr 5.488%) - a plateau, not a retreat. Fed Governor Barr's hawkish comments were named as a driver, and futures now price 64% odds of an October hike.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.techtimes.com/articles/327930/20260923/us-growth-hits-five-year-high-pmi-584-complicates-feds-next-rate-call.htm",
+      "url": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-09-20T00:20:00Z",
-      "last_seen": "2026-09-25T14:30:00Z",
-      "appearances": 6,
+      "last_seen": "2026-09-26T00:20:00Z",
+      "appearances": 7,
       "history": [
+        {
+          "date": "2026-09-26T00:20:00Z",
+          "note": "Yields closed the week barely off Thursday's multi-decade highs (10yr 5.163%, 30yr 5.488%) - a plateau, not a retreat. Fed Governor Barr's hawkish comments were named as a driver; futures now price 64% odds of an October hike."
+        },
         {
           "date": "2026-09-25T14:30:00Z",
           "note": "The data now backs the bond market's bet: S&P Global's flash composite PMI jumped to 58.4 in September, the strongest US business growth in over five years - complicating the Fed's next call as officials keep leaning toward another hike."
@@ -309,13 +321,9 @@
         {
           "date": "2026-09-24T00:20:00Z",
           "note": "The 10-year Treasury yield spiked to 5.104% Wednesday - highest since July 2007, biggest one-day move in 18 months - driven by stronger-than-expected economic data, hawkish Fed commentary, weak auction demand, and oil holding above $100."
-        },
-        {
-          "date": "2026-09-21T14:30:00Z",
-          "note": "The Fed's own dot plot shows this wasn't a one-off: 16 of 18 officials expect another hike this year, four expect two more. The market's \"one correction\" read doesn't match the Fed's numbers, and yields are already testing 5% again."
         }
       ],
-      "source_date": "2026-09-23"
+      "source_date": "2026-09-25"
     },
     {
       "id": "lucas-museum-narrative-art-opens",
@@ -615,8 +623,8 @@
       "pattern": "an export restriction accelerating exactly the domestic capability it was meant to prevent",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The timing wasn't incidental: Alibaba's CEO unveiled a chip supporting 500,000-unit superclusters and a 10-trillion-parameter model roadmap just as Xi arrived in Washington for a summit where AI and export controls are explicit agenda items - a card played before the negotiation, not after.",
-      "status": "captured",
+      "why_now": "A dedicated check found only recap of the original Sept 22 announcement - no new deployment, customer, or regulatory news since. Going dormant rather than re-bumping a static fact; worth reactivating if mass production news lands ahead of the 1Q27 timeline.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
       "location": "Hangzhou, China",
@@ -664,6 +672,34 @@
         }
       ],
       "source_date": "2026-09-25"
+    },
+    {
+      "id": "imelda-cajipe-endaya-national-artist",
+      "stream": "curiosities",
+      "observer": "Why Today?",
+      "title": "It took 54 years for this honor to go to a woman for the first time",
+      "observation": "Filipina artist Imelda Cajipe Endaya, 77, was named to the Order of National Artists of the Philippines for Visual Arts - the first woman to receive the honor in its 54-year history, for social realist work on gender, labor and Philippine identity.",
+      "question": "What does it take for a category to go unclaimed by any woman for over half a century?",
+      "hidden_question": "Is this recognition arriving because her work only recently caught up to the honor, or because the honor took this long to notice work that was always there?",
+      "pattern": "an institution's most prestigious category finally extending to a group it had structurally excluded for decades",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Endaya co-founded Kasibulan in 1987, a collective promoting women artists, and has been decorated since 1990 - the work and its recognition by peers predate this honor by nearly four decades. The gap was the award catching up, not the art arriving late.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.artnews.com/art-news/news/imelda-cajipe-endaya-wins-top-philippine-art-award-1234799420/",
+      "location": "Philippines",
+      "season_or_time_context": "named Sept 1, announced this week",
+      "first_seen": "2026-09-26T00:20:00Z",
+      "last_seen": "2026-09-26T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-26T00:20:00Z",
+          "note": "Imelda Cajipe Endaya, 77, became the first woman named to the Order of National Artists of the Philippines for Visual Arts in its 54-year history - honored for social realist work on gender, labor and Philippine identity."
+        }
+      ],
+      "source_date": "2026-09-24"
     }
   ]
 }
