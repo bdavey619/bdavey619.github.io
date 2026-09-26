@@ -1,6 +1,6 @@
 {
   "week": "2026-09-20",
-  "last_updated": "2026-09-26T00:20:00Z",
+  "last_updated": "2026-09-26T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -17,17 +17,17 @@
         },
         {
           "domain": "Energy Diplomacy",
-          "text": "Iranian and Omani negotiators announced a \"finalized\" draft deal to reopen the Strait of Hormuz - but the finalized draft still contains the one thing that was never resolved: Iran wants continued control over transit, exactly what Washington has already ruled out granting.",
-          "url": "https://www.theglobeandmail.com/world/article-us-iran-strait-of-hormuz/",
-          "date": "2026-09-23",
-          "is_new": false
+          "text": "Iran's president reversed his own government's red line, offering UN nuclear inspectors as part of the Hormuz reopening plan - the exact concession that was supposed to unlock \"increasingly positive\" talks. Trump rejected it anyway, within the same news cycle.",
+          "url": "https://www.cbsnews.com/news/iran-president-masoud-pezeshkian-proposal-trump-strait-of-hormuz-war/",
+          "date": "2026-09-26",
+          "is_new": true
         },
         {
           "domain": "Debt Management",
           "text": "Yields closed the week barely off Thursday's multi-decade highs - a plateau, not the retreat markets wanted. Fed Governor Barr's hawkish comments got named as a driver, and futures now price 64% odds of an October hike the market keeps hoping to talk itself out of.",
           "url": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html",
           "date": "2026-09-25",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Civil Conflict",
@@ -59,11 +59,11 @@
           "is_new": false
         },
         {
-          "domain": "Elections",
-          "text": "SCOTUS formally declined emergency review of the mail-ballot rule, ruling the administration \"unlikely to succeed on the merits\" - the most settled this fight has looked yet. But Kavanaugh's own concurrence left the rule potentially lawful in a future cycle: the form is final, the merits aren't.",
-          "url": "https://www.naco.org/news/supreme-court-declines-emergency-review-usps-mail-ballot-rule-leaving-nationwide-block-place",
-          "date": "2026-09-21",
-          "is_new": false
+          "domain": "Economic Policy",
+          "text": "Milei's government points to austerity as vindicated - but its own H1 2026 data shows the poverty rate jumped to 32.3%, reversing the prior decline. The numbers used to claim credit are the same numbers now undercutting the claim.",
+          "url": "https://www.washingtonpost.com/business/2026/09/24/argentina-president-javier-milei-economy-inflation-indec-austerity/1ea526d0-b85d-11f1-94cb-d3d8f22a8c8b_story.html",
+          "date": "2026-09-24",
+          "is_new": true
         },
         {
           "domain": "Energy Shipping",
@@ -92,13 +92,13 @@
           "text": "DRC's Ebola outbreak just spread to two new health zones - and Africa CDC's own chief says why: contact tracing is falling far short, with most new cases surfacing among people entirely unknown to health authorities before they're diagnosed.",
           "url": "https://www.aljazeera.com/news/2026/9/25/dr-congos-ebola-outbreak-spreads-to-two-new-health-zones-who-says",
           "date": "2026-09-25",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Maritime Safety",
-          "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing. Twelve days on, divers have recovered 52 bodies total - double the count from two days earlier - with 83 people still unaccounted for from a ship that never should have left port that full.",
-          "url": "https://abcnews.com/International/wireStory/divers-recover-total-52-bodies-capsized-ferry-indonesia-136745410",
-          "date": "2026-09-25",
+          "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing. Fourteen days on, Indonesia's search agency has given up on piecemeal diving and now wants to raise the entire wreck - the only way left to recover the 83 still unaccounted for.",
+          "url": "https://www.bernama.com/en/world/news.php?id=2612043",
+          "date": "2026-09-26",
           "is_new": true
         }
       ]
