@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-09",
   "division_name": "AL East",
-  "generated_at": "2026-09-25T15:45:49.553311+00:00",
+  "generated_at": "2026-09-26T14:56:14.029101+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -211,30 +211,26 @@
       "gamePk": 823493,
       "status": "final",
       "result": "W",
-      "score": "6\u20134"
+      "score": "6\u20134",
+      "archive_url": "archive.html?date=2026-09-25"
     },
     {
       "date": "2026-09-25",
       "opponent": "BAL",
       "home": true,
       "gamePk": 823489,
-      "status": "scheduled",
-      "time_local": "4:10 PM ET",
-      "probable": {
-        "team": "Brendan Beck",
-        "opp": "Brandon Young"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "6\u20133"
     },
     {
       "date": "2026-09-25",
       "opponent": "BAL",
       "home": true,
       "gamePk": 823491,
-      "status": "scheduled",
-      "time_local": "4:05 PM ET",
-      "probable": {
-        "opp": "Trevor Rogers"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u201310"
     },
     {
       "date": "2026-09-27",
@@ -244,13 +240,14 @@
       "status": "scheduled",
       "time_local": "3:20 PM ET",
       "probable": {
+        "team": "Elmer Rodr\u00edguez",
         "opp": "Shane Baz"
       }
     }
   ],
   "summary": {
-    "month_record": "14\u20137",
-    "current_streak": "W2",
-    "last_10": "6\u20134"
+    "month_record": "15\u20138",
+    "current_streak": "W1",
+    "last_10": "5\u20135"
   }
 }
