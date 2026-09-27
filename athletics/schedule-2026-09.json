@@ -3,7 +3,7 @@
   "team_slug": "athletics",
   "month": "2026-09",
   "division_name": "AL West",
-  "generated_at": "2026-09-26T16:41:20.594030+00:00",
+  "generated_at": "2026-09-27T17:13:21.087340+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -219,19 +219,17 @@
       "gamePk": 824947,
       "status": "final",
       "result": "W",
-      "score": "6\u20135"
+      "score": "6\u20135",
+      "archive_url": "archive.html?date=2026-09-26"
     },
     {
       "date": "2026-09-26",
       "opponent": "HOU",
       "home": true,
       "gamePk": 824949,
-      "status": "scheduled",
-      "time_local": "6:40 PM PT",
-      "probable": {
-        "team": "Jack Perkins",
-        "opp": "Hayden Wesneski"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "2\u201313"
     },
     {
       "date": "2026-09-27",
@@ -239,12 +237,16 @@
       "home": true,
       "gamePk": 824948,
       "status": "scheduled",
-      "time_local": "12:05 PM PT"
+      "time_local": "12:05 PM PT",
+      "probable": {
+        "team": "Seth Johnson",
+        "opp": "Peter Lambert"
+      }
     }
   ],
   "summary": {
-    "month_record": "11\u201311",
-    "current_streak": "W1",
+    "month_record": "11\u201312",
+    "current_streak": "L1",
     "last_10": "3\u20137"
   }
 }
