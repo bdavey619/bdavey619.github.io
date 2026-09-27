@@ -1,6 +1,6 @@
 {
-  "week": "2026-09-20",
-  "last_updated": "2026-09-26T14:30:00Z",
+  "week": "2026-09-27",
+  "last_updated": "2026-09-27T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -20,21 +20,21 @@
           "text": "Iran's president reversed his own government's red line, offering UN nuclear inspectors as part of the Hormuz reopening plan - the exact concession that was supposed to unlock \"increasingly positive\" talks. Trump rejected it anyway, within the same news cycle.",
           "url": "https://www.cbsnews.com/news/iran-president-masoud-pezeshkian-proposal-trump-strait-of-hormuz-war/",
           "date": "2026-09-26",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Debt Management",
-          "text": "Yields closed the week barely off Thursday's multi-decade highs - a plateau, not the retreat markets wanted. Fed Governor Barr's hawkish comments got named as a driver, and futures now price 64% odds of an October hike the market keeps hoping to talk itself out of.",
-          "url": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html",
-          "date": "2026-09-25",
-          "is_new": false
+          "text": "Yields gave back their steepest overnight gains Friday, easing to 5.17% - a retreat that looks less reassuring next to the same day's data: University of Michigan's survey confirmed inflation expectations jumped sharply, the exact case for the hike markets were relieved about.",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+          "date": "2026-09-26",
+          "is_new": true
         },
         {
           "domain": "Civil Conflict",
-          "text": "Ethiopia's federal government and Tigrayan forces each say the other struck first as fighting spread into Afar and Amhara. Exactly like the unclaimed Hormuz strike, the basic fact of who started this war stays disputed days into it.",
-          "url": "https://www.npr.org/2026/09/24/nx-s1-5978861/conflict-ethiopia-tigray",
-          "date": "2026-09-24",
-          "is_new": false
+          "text": "Ethiopia's federal government and Tigrayan forces still each blame the other for striking first, even as the war's roster clarified: a seven-group Alliance for Survival. Naming who's fighting was settled faster than the basic fact of who started it.",
+          "url": "https://www.aljazeera.com/news/2026/9/26/is-ethiopia-on-the-verge-of-another-civil-war-as-fighting-erupts-in-tigray",
+          "date": "2026-09-26",
+          "is_new": true
         }
       ]
     },
@@ -63,7 +63,7 @@
           "text": "Milei's government points to austerity as vindicated - but its own H1 2026 data shows the poverty rate jumped to 32.3%, reversing the prior decline. The numbers used to claim credit are the same numbers now undercutting the claim.",
           "url": "https://www.washingtonpost.com/business/2026/09/24/argentina-president-javier-milei-economy-inflation-indec-austerity/1ea526d0-b85d-11f1-94cb-d3d8f22a8c8b_story.html",
           "date": "2026-09-24",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy Shipping",
@@ -96,8 +96,8 @@
         },
         {
           "domain": "Maritime Safety",
-          "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing. Fourteen days on, Indonesia's search agency has given up on piecemeal diving and now wants to raise the entire wreck - the only way left to recover the 83 still unaccounted for.",
-          "url": "https://www.bernama.com/en/world/news.php?id=2612043",
+          "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing. The death toll jumped again to 64 as the search entered its 15th day - up from 52 just a day earlier, and still climbing.",
+          "url": "https://www.jamaicaobserver.com/2026/09/26/death-toll-indonesia-ferry-sinking-jumps-64/",
           "date": "2026-09-26",
           "is_new": true
         }
