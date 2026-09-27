@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-27",
-  "cycle_start": "2026-09-26T14:30:00Z",
-  "last_updated": "2026-09-27T00:20:00Z",
+  "cycle_start": "2026-09-27T00:20:00Z",
+  "last_updated": "2026-09-27T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran's president reversed his own red line, telling CBS Tehran would allow UN nuclear inspectors as part of the seven-day plan - the concession \"increasingly positive\" talks were supposedly missing. Trump rejected the offer anyway, per the Wall Street Journal.",
+      "why_now": "Trump says Iran \"outsmarted themselves\" by making the nuclear-inspector offer, rejecting it outright - while Iran's Revolutionary Guards Navy says the strait stays closed and its army warns it's \"fully prepared\" if the US attacks. Oman is still offering to mediate.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cbsnews.com/news/iran-president-masoud-pezeshkian-proposal-trump-strait-of-hormuz-war/",
+      "url": "https://www.foxnews.com/live-news/iran-war-strait-hormuz-trump-talks-oil-gas-prices-midterms-09-26-26",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-27T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-27T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-27T14:30:00Z",
+          "note": "Trump says Iran \"outsmarted themselves\" by making the nuclear-inspector offer, rejecting it outright - while Iran's Revolutionary Guards Navy says the strait stays closed and its army warns it's \"fully prepared\" if the US attacks. Oman is still offering to mediate."
+        },
         {
           "date": "2026-09-27T00:20:00Z",
           "note": "Iran's president reversed his own red line, telling CBS Tehran would allow UN nuclear inspectors as part of the seven-day plan - the concession \"increasingly positive\" talks were supposedly missing. Trump rejected the offer anyway, per the Wall Street Journal."
@@ -36,28 +40,32 @@
       "stream": "natural_world",
       "observer": "Why Today?",
       "title": "The captain's last message said the ship was tilting. Then it went silent",
-      "observation": "The ferry Virgo Transport 8, carrying 243 people from Surabaya to Banjarmasin, capsized in the Java Sea Sept 13 after its captain reported 3-meter waves and a listing ship - the last message before contact was lost. 64 dead so far, dozens still missing.",
+      "observation": "The ferry Virgo Transport 8, carrying 243 people from Surabaya to Banjarmasin, capsized in the Java Sea Sept 13 after its captain reported 3-meter waves and a listing ship - the last message before contact was lost. 64 dead, 108 rescued, 71 still missing.",
       "question": "How does a ship go from reporting rough seas to disappearing entirely in the time it takes to send one distress message?",
       "hidden_question": "Was this an unavoidable act of weather, or a vessel that shouldn't have been at sea, or at that capacity, when the forecast turned?",
       "pattern": "a routine domestic ferry route turning fatal within the span of a single distress call",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The toll jumped again, to 64 dead, as the extended search entered its 15th day - a sharp rise from 52 just a day earlier, as Basarnas keeps pushing to raise the wreck entirely rather than rely on piecemeal diving.",
+      "why_now": "The exact count is now clear: 64 dead, 108 rescued, 71 still missing out of 243 aboard. Four bodies came from inside the submerged hull, seven more washed ashore - and the search has been extended seven more days, reviewed every three.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.jamaicaobserver.com/2026/09/26/death-toll-indonesia-ferry-sinking-jumps-64/",
+      "url": "https://abcnews.com/International/wireStory/death-toll-indonesias-capsized-java-sea-ferry-rises-136792835",
       "location": "Java Sea, en route Surabaya to Banjarmasin, Indonesia",
       "season_or_time_context": "salvage operation underway",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-27T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-27T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-27T14:30:00Z",
+          "note": "The exact count is now clear: 64 dead, 108 rescued, 71 still missing out of 243 aboard. Four bodies came from inside the submerged hull, seven more washed ashore - the search has been extended seven more days, reviewed every three."
+        },
         {
           "date": "2026-09-27T00:20:00Z",
           "note": "The toll jumped again, to 64 dead, as the extended search entered its 15th day - a sharp rise from 52 just a day earlier, as Basarnas keeps pushing to raise the wreck entirely rather than rely on piecemeal diving."
         }
       ],
-      "source_date": "2026-09-26"
+      "source_date": "2026-09-27"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -184,22 +192,26 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The coalition now has a name: the Ethiopian People's Forces Alliance for Survival, formed Sept 20, grouping the TPLF with the Amhara Fano Movement, the Oromo Liberation Army and the Ogaden National Liberation Front - former enemies, united by a common target.",
+      "why_now": "The federal army now says it's exercising \"restraint\" - even while reporting it killed 272 Tigrayan fighters and wounded 260 more in a single North Wollo counter-offensive, and government forces reportedly close in on Alamata. The TPLF calls it a full-scale offensive with drones and mechanized units.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/9/26/is-ethiopia-on-the-verge-of-another-civil-war-as-fighting-erupts-in-tigray",
+      "url": "https://www.aljazeera.com/news/2026/9/27/ethiopias-army-promises-restraint-amid-fears-of-new-civil-war",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-27T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-27T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-27T14:30:00Z",
+          "note": "The federal army says it's exercising \"restraint\" - while reporting it killed 272 Tigrayan fighters and wounded 260 more in one North Wollo counter-offensive, with government forces reportedly closing in on Alamata. TPLF calls it a full-scale drone-and-armor offensive."
+        },
         {
           "date": "2026-09-27T00:20:00Z",
           "note": "The coalition now has a name: the Ethiopian People's Forces Alliance for Survival, formed Sept 20, grouping the TPLF with the Amhara Fano Movement, the Oromo Liberation Army and the Ogaden National Liberation Front - former enemies, united by a common target."
         }
       ],
-      "source_date": "2026-09-26"
+      "source_date": "2026-09-27"
     },
     {
       "id": "argentina-poverty-rate-rises-milei",
@@ -212,22 +224,26 @@
       "pattern": "a government's signature economic program producing a reversal in the exact metric it was supposed to fix",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The reversal cuts deepest where it's hardest to defend: child poverty hit 44.5%, and extreme poverty (indigence) rose from 6.3% to 7.5% - the harshest end of the distribution moving the most, even as the government continues servicing debt on schedule.",
+      "why_now": "Income actually rose 11.5% - the poverty basket rose almost 20%, explaining the gap. Unemployment hit 7.9%, the highest since 2021. Economy Minister Caputo acknowledged the number but called it \"far below\" earlier levels; UCA estimates poverty could reach 35% by year-end.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.washingtonpost.com/business/2026/09/24/argentina-president-javier-milei-economy-inflation-indec-austerity/1ea526d0-b85d-11f1-94cb-d3d8f22a8c8b_story.html",
+      "url": "https://abcnews.com/Business/wireStory/argentinas-poverty-rate-rises-30-president-milei-reversing-136736443",
       "location": "Argentina",
       "season_or_time_context": "first-half 2026 data released this week",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-27T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-27T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-27T14:30:00Z",
+          "note": "Income actually rose 11.5% - the poverty basket rose almost 20%, explaining the gap. Unemployment hit 7.9%, highest since 2021. Caputo acknowledged the number but called it \"far below\" earlier levels; UCA estimates poverty could reach 35% by year-end."
+        },
         {
           "date": "2026-09-27T00:20:00Z",
           "note": "Argentina's poverty rate jumped to 32.3% in H1 2026, up from 28.2% - reversing Milei's austerity-program narrative. Child poverty hit 44.5%; indigence rose from 6.3% to 7.5%, the harshest end of the distribution moving most."
         }
       ],
-      "source_date": "2026-09-24"
+      "source_date": "2026-09-25"
     },
     {
       "id": "scotty-trex-rib-healing-blood-vessels",
