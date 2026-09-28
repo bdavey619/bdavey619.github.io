@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-27",
-  "cycle_start": "2026-09-27T00:20:00Z",
-  "last_updated": "2026-09-27T14:30:00Z",
+  "cycle_start": "2026-09-27T14:30:00Z",
+  "last_updated": "2026-09-28T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Trump says Iran \"outsmarted themselves\" by making the nuclear-inspector offer, rejecting it outright - while Iran's Revolutionary Guards Navy says the strait stays closed and its army warns it's \"fully prepared\" if the US attacks. Oman is still offering to mediate.",
+      "why_now": "Hours after Trump's rejection, explosions hit near Qeshm Island - Iranian media report antiship missiles and drones fired at vessels transiting against Tehran's wishes. Parliament speaker Ghalibaf says the strait stays shut until all seven of Iran's conditions are met.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.foxnews.com/live-news/iran-war-strait-hormuz-trump-talks-oil-gas-prices-midterms-09-26-26",
+      "url": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-27T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-28T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-28T00:20:00Z",
+          "note": "Hours after Trump's rejection, explosions hit near Qeshm Island - Iranian media report antiship missiles and drones fired at vessels transiting against Tehran's wishes. Parliament speaker Ghalibaf says the strait stays shut until all seven conditions are met."
+        },
         {
           "date": "2026-09-27T14:30:00Z",
           "note": "Trump says Iran \"outsmarted themselves\" by making the nuclear-inspector offer, rejecting it outright - while Iran's Revolutionary Guards Navy says the strait stays closed and its army warns it's \"fully prepared\" if the US attacks. Oman is still offering to mediate."
@@ -33,7 +37,7 @@
           "note": "Iran's president reversed his own red line, telling CBS Tehran would allow UN nuclear inspectors as part of the seven-day plan - the concession \"increasingly positive\" talks were supposedly missing. Trump rejected the offer anyway, per the Wall Street Journal."
         }
       ],
-      "source_date": "2026-09-26"
+      "source_date": "2026-09-27"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -79,22 +83,26 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The outbreak spread to two new health zones, WHO confirmed - even as the tally hit 7,890 confirmed and 3,799 dead. Africa CDC's own chief now says contact tracing is falling far short: most new cases are among people entirely unknown to health authorities before they're diagnosed.",
+      "why_now": "The two new health zones now have names: Bulu, in South Ubangi on the Central African Republic border, and Dungu, in Haut-U\u00e9l\u00e9 on the South Sudan border - the outbreak now spans 63 health zones across seven provinces, reaching two international frontiers.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/9/25/dr-congos-ebola-outbreak-spreads-to-two-new-health-zones-who-says",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-27T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-28T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-28T00:20:00Z",
+          "note": "The two new health zones now have names: Bulu (South Ubangi, on the Central African Republic border) and Dungu (Haut-U\u00e9l\u00e9, on the South Sudan border) - the outbreak now spans 63 health zones across seven provinces, reaching two international frontiers."
+        },
         {
           "date": "2026-09-27T00:20:00Z",
           "note": "The outbreak spread to two new health zones, WHO confirmed, as the tally hit 7,890 confirmed/3,799 dead. Africa CDC's chief says contact tracing is falling far short: most new cases are among people unknown to health authorities before diagnosis."
         }
       ],
-      "source_date": "2026-09-25"
+      "source_date": "2026-09-27"
     },
     {
       "id": "fed-first-hike-since-2023",
@@ -107,22 +115,26 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The 10-year gave back its steepest overnight gains Friday, easing to 5.17% - but the University of Michigan's consumer sentiment survey confirmed inflation expectations jumped sharply in September, the exact data the Fed's hawks keep pointing to.",
+      "why_now": "The next test arrives fast: the FOMC meets Oct 27-28, its decision landing alongside a fresh Summary of Economic Projections - the market's next chance to find out whether September's hike was the whole story or the first entry in a longer one.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-27T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-09-28T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-09-28T00:20:00Z",
+          "note": "The next test arrives fast: the FOMC meets Oct 27-28, its decision landing alongside a fresh Summary of Economic Projections - the market's next chance to find out whether September's hike was the whole story or the first of a longer one."
+        },
         {
           "date": "2026-09-27T00:20:00Z",
           "note": "The 10-year gave back its steepest overnight gains Friday, easing to 5.17% - but the University of Michigan's consumer sentiment survey confirmed inflation expectations jumped sharply in September, the exact data the Fed's hawks keep citing."
         }
       ],
-      "source_date": "2026-09-26"
+      "source_date": "2026-09-28"
     },
     {
       "id": "lucas-museum-narrative-art-opens",
@@ -192,16 +204,20 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The federal army now says it's exercising \"restraint\" - even while reporting it killed 272 Tigrayan fighters and wounded 260 more in a single North Wollo counter-offensive, and government forces reportedly close in on Alamata. The TPLF calls it a full-scale offensive with drones and mechanized units.",
+      "why_now": "Ethiopia's army chief has widened the blame beyond the battlefield, accusing Egypt and Sudan of backing the alliance seeking to oust Abiy - a foreign-conspiracy framing offered without public evidence, escalating a civil war into a regional-destabilization claim.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/9/27/ethiopias-army-promises-restraint-amid-fears-of-new-civil-war",
+      "url": "https://www.euronews.com/2026/09/27/ethiopias-army-chief-accuses-egypt-and-sudan-of-backing-armed-alliance-seeking-to-oust-abi",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-27T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-28T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-28T00:20:00Z",
+          "note": "Ethiopia's army chief widened the blame beyond the battlefield, accusing Egypt and Sudan of backing the alliance seeking to oust Abiy - a foreign-conspiracy framing offered without public evidence, escalating a civil war into a regional-destabilization claim."
+        },
         {
           "date": "2026-09-27T14:30:00Z",
           "note": "The federal army says it's exercising \"restraint\" - while reporting it killed 272 Tigrayan fighters and wounded 260 more in one North Wollo counter-offensive, with government forces reportedly closing in on Alamata. TPLF calls it a full-scale drone-and-armor offensive."
@@ -243,7 +259,7 @@
           "note": "Argentina's poverty rate jumped to 32.3% in H1 2026, up from 28.2% - reversing Milei's austerity-program narrative. Child poverty hit 44.5%; indigence rose from 6.3% to 7.5%, the harshest end of the distribution moving most."
         }
       ],
-      "source_date": "2026-09-25"
+      "source_date": "2026-09-24"
     },
     {
       "id": "scotty-trex-rib-healing-blood-vessels",
@@ -298,6 +314,34 @@
         {
           "date": "2026-09-27T00:20:00Z",
           "note": "Pitru Paksha begins today, running through Sarva Pitru Amavasya on Oct 10 - each family's shraddha date individually set by their own ancestor's lunar death-date, making the shared fortnight actually thousands of parallel private observances."
+        }
+      ],
+      "source_date": "2026-09-27"
+    },
+    {
+      "id": "nfl-first-regular-season-game-rio",
+      "stream": "curiosities",
+      "observer": "Why Today?",
+      "title": "The NFL's first regular-season game in South America came down to a 56-yard kick",
+      "observation": "The Ravens beat the Cowboys 34-31 at Rio de Janeiro's Maracan\u00e3 Stadium, the first-ever NFL regular season game played in South America - decided by a 56-yard Tyler Loop field goal with seconds left, after Dallas had erased a 17-13 halftime deficit.",
+      "question": "What does a league gain by exporting its most routine product - a single Week 3 game - to a continent that has never hosted one?",
+      "hidden_question": "Is international expansion building genuine new fandom, or just renting a stadium abroad for a game that would have meant the same thing in Baltimore?",
+      "pattern": "an institution testing a new market with its most ordinary output, dressed as a landmark event",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The game needed a decider to justify the occasion, and got one: a 27-yard completion late in the fourth quarter set up Loop's game-winning kick, turning what could have been a forgettable Week 3 matchup into the finish the league's first South American outing needed.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.espn.com/nfl/story/_/id/50034932/best-plays-moments-touchdowns-more",
+      "location": "Maracan\u00e3 Stadium, Rio de Janeiro, Brazil",
+      "season_or_time_context": "NFL Week 3, played Sept 27",
+      "first_seen": "2026-09-28T00:20:00Z",
+      "last_seen": "2026-09-28T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-28T00:20:00Z",
+          "note": "The Ravens beat the Cowboys 34-31 at Rio's Maracan\u00e3 Stadium, the NFL's first-ever regular season game in South America - decided by a 56-yard Tyler Loop field goal after Dallas erased a 17-13 halftime deficit."
         }
       ],
       "source_date": "2026-09-27"

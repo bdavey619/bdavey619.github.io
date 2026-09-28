@@ -1,6 +1,6 @@
 {
   "week": "2026-09-27",
-  "last_updated": "2026-09-27T14:30:00Z",
+  "last_updated": "2026-09-28T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -10,10 +10,10 @@
       "evidence": [
         {
           "domain": "Information Warfare",
-          "text": "A new, unidentified projectile struck a tanker entering Hormuz Monday, wounding two crew - and no one has claimed responsibility. Weeks into this war, even the basic facts of a single strike - who fired, from where - still can't be pinned down within the same news cycle.",
-          "url": "https://www.news4jax.com/news/2026/09/21/a-projectile-strikes-a-tanker-as-it-sails-into-the-strait-of-hormuz-and-other-mideast-developments/",
-          "date": "2026-09-21",
-          "is_new": false
+          "text": "Hours after Trump rejected Iran's reopening offer, explosions hit near Qeshm Island - antiship missiles and drones fired at transiting vessels, per Iranian media. No one has claimed the strikes. Weeks in, who fired still can't be pinned down within the same cycle.",
+          "url": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal",
+          "date": "2026-09-27",
+          "is_new": true
         },
         {
           "domain": "Energy Diplomacy",
@@ -31,8 +31,8 @@
         },
         {
           "domain": "Civil Conflict",
-          "text": "Ethiopia's army says it's exercising \"restraint\" - the same day it reports killing 272 Tigrayan fighters and wounding 260 more in a single counter-offensive. The word and the body count arrived in the same statement, unreconciled.",
-          "url": "https://www.aljazeera.com/news/2026/9/27/ethiopias-army-promises-restraint-amid-fears-of-new-civil-war",
+          "text": "Ethiopia's army chief widened his own \"restraint\" claim into an accusation that Egypt and Sudan are backing the alliance seeking to oust Abiy - offered without public evidence, turning a domestic conflict into a regional-conspiracy claim overnight.",
+          "url": "https://www.euronews.com/2026/09/27/ethiopias-army-chief-accuses-egypt-and-sudan-of-backing-armed-alliance-seeking-to-oust-abi",
           "date": "2026-09-27",
           "is_new": true
         }
