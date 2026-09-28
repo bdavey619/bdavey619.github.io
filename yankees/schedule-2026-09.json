@@ -3,7 +3,7 @@
   "team_slug": "yankees",
   "month": "2026-09",
   "division_name": "AL East",
-  "generated_at": "2026-09-27T15:33:38.192162+00:00",
+  "generated_at": "2026-09-28T18:32:29.542595+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -239,16 +239,14 @@
       "opponent": "BAL",
       "home": true,
       "gamePk": 823490,
-      "status": "scheduled",
-      "time_local": "1:05 PM ET",
-      "probable": {
-        "team": "Elmer Rodr\u00edguez",
-        "opp": "Shane Baz"
-      }
+      "status": "final",
+      "result": "L",
+      "score": "0\u20130",
+      "archive_url": "archive.html?date=2026-09-27"
     }
   ],
   "summary": {
-    "month_record": "15\u20138",
+    "month_record": "15\u20139",
     "current_streak": "W1",
     "last_10": "5\u20135"
   }
