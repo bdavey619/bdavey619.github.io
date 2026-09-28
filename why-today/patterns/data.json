@@ -1,6 +1,6 @@
 {
   "week": "2026-09-27",
-  "last_updated": "2026-09-28T00:20:00Z",
+  "last_updated": "2026-09-28T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -13,28 +13,28 @@
           "text": "Hours after Trump rejected Iran's reopening offer, explosions hit near Qeshm Island - antiship missiles and drones fired at transiting vessels, per Iranian media. No one has claimed the strikes. Weeks in, who fired still can't be pinned down within the same cycle.",
           "url": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal",
           "date": "2026-09-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy Diplomacy",
-          "text": "Iran's president reversed his own government's red line, offering UN nuclear inspectors as part of the Hormuz reopening plan - the exact concession that was supposed to unlock \"increasingly positive\" talks. Trump rejected it anyway, within the same news cycle.",
-          "url": "https://www.cbsnews.com/news/iran-president-masoud-pezeshkian-proposal-trump-strait-of-hormuz-war/",
-          "date": "2026-09-26",
-          "is_new": false
+          "text": "Iran's FM says Tehran is \"fully prepared\" for war to resume, even a \"doomsday war\" - in the same interview where he says the seven-day offer Trump just rejected \"still stands.\" Total readiness and an open door, claimed in the same breath.",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions",
+          "date": "2026-09-28",
+          "is_new": true
         },
         {
           "domain": "Debt Management",
-          "text": "Yields gave back their steepest overnight gains Friday, easing to 5.17% - a retreat that looks less reassuring next to the same day's data: University of Michigan's survey confirmed inflation expectations jumped sharply, the exact case for the hike markets were relieved about.",
-          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
-          "date": "2026-09-26",
-          "is_new": false
+          "text": "Consumer sentiment just confirmed the Fed's own worry: the Michigan index fell to a four-month low as year-ahead inflation expectations jumped to 4.6%, up from 3.4% before the Iran conflict - undercutting any read that September's hike had settled anything.",
+          "url": "https://finance.yahoo.com/economy/articles/university-michigan-consumer-sentiment-index-182153704.html",
+          "date": "2026-09-28",
+          "is_new": true
         },
         {
           "domain": "Civil Conflict",
           "text": "Ethiopia's army chief widened his own \"restraint\" claim into an accusation that Egypt and Sudan are backing the alliance seeking to oust Abiy - offered without public evidence, turning a domestic conflict into a regional-conspiracy claim overnight.",
           "url": "https://www.euronews.com/2026/09/27/ethiopias-army-chief-accuses-egypt-and-sudan-of-backing-armed-alliance-seeking-to-oust-abi",
           "date": "2026-09-27",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -63,7 +63,7 @@
           "text": "Milei's minister calls the poverty jump \"far below\" past levels rather than a failure - a form of vindication holding up only next to a worse past, not the promised future. Independent estimates now put year-end poverty at 35%, still climbing.",
           "url": "https://abcnews.com/Business/wireStory/argentinas-poverty-rate-rises-30-president-milei-reversing-136736443",
           "date": "2026-09-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy Shipping",
@@ -96,9 +96,9 @@
         },
         {
           "domain": "Maritime Safety",
-          "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing. The final accounting is now clear: 64 dead, 108 rescued, 71 still missing out of 243 aboard - and the search has been extended another seven days.",
-          "url": "https://abcnews.com/International/wireStory/death-toll-indonesias-capsized-java-sea-ferry-rises-136792835",
-          "date": "2026-09-27",
+          "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing. Sixteen days on, divers are braving leaking fuel and unstable debris to reach cabins still unsearched - the toll now 66, with 69 still unaccounted for.",
+          "url": "https://www.usnews.com/news/world/articles/2026-09-28/indonesia-ferry-death-toll-hits-66-as-search-enters-16th-day",
+          "date": "2026-09-28",
           "is_new": true
         }
       ]
