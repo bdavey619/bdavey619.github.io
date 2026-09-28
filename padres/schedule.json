@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-27T15:12:51.547861+00:00",
+  "generated_at": "2026-09-28T18:12:32.050432+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -231,24 +231,22 @@
       "gamePk": 823245,
       "status": "final",
       "result": "W",
-      "score": "10\u20137"
+      "score": "10\u20137",
+      "archive_url": "archive.html?date=2026-09-27"
     },
     {
       "date": "2026-09-27",
       "opponent": "ARI",
       "home": true,
       "gamePk": 823246,
-      "status": "scheduled",
-      "time_local": "12:10 PM PT",
-      "probable": {
-        "team": "Randy V\u00e1squez",
-        "opp": "Michael Soroka"
-      }
+      "status": "final",
+      "result": "W",
+      "score": "9\u20134"
     }
   ],
   "summary": {
-    "month_record": "17\u20136",
-    "current_streak": "W1",
+    "month_record": "18\u20136",
+    "current_streak": "W2",
     "last_10": "8\u20132"
   }
 }
