@@ -1,6 +1,6 @@
 {
   "week": "2026-09-27",
-  "last_updated": "2026-09-29T00:20:00Z",
+  "last_updated": "2026-09-29T15:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -17,24 +17,24 @@
         },
         {
           "domain": "Energy Diplomacy",
-          "text": "Trump rejected Iran's Hormuz plan outright - then told Axios he still expects talks to resume within days. The rejection and the reassurance that diplomacy continues were announced almost in the same breath, undercutting the finality of either.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-27/trump-says-he-expects-renewed-iran-talks-this-week-axios-says",
-          "date": "2026-09-27",
-          "is_new": true
-        },
-        {
-          "domain": "Debt Management",
-          "text": "Yields hit a fresh 19-year high Monday (10yr 5.27%, 30yr 5.55%) - the same day Fed Governor Cook said AI investment and oil prices would keep pushing inflation up, effectively confirming the market's read before the Fed had to say it outright.",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html",
+          "text": "Iran is touting its own Hormuz attacks as proof of leverage - even as oil shipments rebound to 12.8 million barrels a day, the highest since the war began. The \"shutdown\" both sides invoke as ongoing is undercut by the tankers that keep sailing through it.",
+          "url": "https://www.aljazeera.com/news/2026/9/28/iran-touts-hormuz-attacks-as-oil-flows-increase-despite-tensions",
           "date": "2026-09-28",
           "is_new": true
         },
         {
+          "domain": "Debt Management",
+          "text": "The 30-year briefly hit 5.613% Tuesday, its highest since 2002 - and traders now price 72% odds of an October hike, up from 64% two days earlier. The market keeps repricing faster than any Fed official has been willing to confirm.",
+          "url": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html",
+          "date": "2026-09-29",
+          "is_new": true
+        },
+        {
           "domain": "Civil Conflict",
-          "text": "Ethiopia's army chief widened his own \"restraint\" claim into an accusation that Egypt and Sudan are backing the alliance seeking to oust Abiy - offered without public evidence, turning a domestic conflict into a regional-conspiracy claim overnight.",
-          "url": "https://www.euronews.com/2026/09/27/ethiopias-army-chief-accuses-egypt-and-sudan-of-backing-armed-alliance-seeking-to-oust-abi",
-          "date": "2026-09-27",
-          "is_new": false
+          "text": "Federal forces and an allied Tigray Peace Force claim to have captured Alamata, a potential opening toward Mekelle - the first federal advance claimed since the war restarted, unverifiable independently and impossible to square with the TPLF's own claims of control.",
+          "url": "https://www.aljazeera.com/news/2026/9/29/fighting-in-ethiopia-intensifies-whats-the-latest",
+          "date": "2026-09-29",
+          "is_new": true
         }
       ]
     },
@@ -92,14 +92,14 @@
           "text": "DRC's Ebola outbreak topped 8,000 confirmed cases, and the constraint has moved from tracing to bodies: officials say the country is running out of health workers to contain a disease with no approved vaccine or treatment - the oversight vacuum is now a staffing one.",
           "url": "https://abcnews.com/International/wireStory/congo-ebola-outbreak-tops-8000-confirmed-cases-disease-136816027",
           "date": "2026-09-28",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Maritime Safety",
-          "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing. Sixteen days on, divers are braving leaking fuel and unstable debris to reach cabins still unsearched - the toll now 66, with 69 still unaccounted for.",
-          "url": "https://www.usnews.com/news/world/articles/2026-09-28/indonesia-ferry-death-toll-hits-66-as-search-enters-16th-day",
+          "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing. Five more bodies came out of the wreck on day 16 - the toll now 71, with 64 still unaccounted for, sixteen days after a ship carrying 243 people went down.",
+          "url": "https://en.antaranews.com/news/433316/five-more-bodies-recovered-from-virgo-transport-8-ferry-wreck",
           "date": "2026-09-28",
-          "is_new": false
+          "is_new": true
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-27",
-  "cycle_start": "2026-09-28T14:30:00Z",
-  "last_updated": "2026-09-29T00:20:00Z",
+  "cycle_start": "2026-09-29T00:20:00Z",
+  "last_updated": "2026-09-29T15:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Trump rejected Iran's plan but told Axios he still expects talks to resume this week - \"they want to make a deal, but it is not the deal that I want to make.\" Indirect talks could restart as early as Monday, the rejection and the re-engagement announced almost together.",
+      "why_now": "Iran is touting its own attacks as leverage even as oil actually keeps moving: shipments rebounded to 12.8 million barrels a day in September, the highest since the war began - the \"shutdown\" narrative both sides still invoke, undercut by the tankers still sailing.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-27/trump-says-he-expects-renewed-iran-talks-this-week-axios-says",
+      "url": "https://www.aljazeera.com/news/2026/9/28/iran-touts-hormuz-attacks-as-oil-flows-increase-despite-tensions",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-29T00:20:00Z",
-      "appearances": 5,
+      "last_seen": "2026-09-29T15:30:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-09-29T15:30:00Z",
+          "note": "Iran is touting its own attacks as leverage even as oil keeps moving: shipments rebounded to 12.8 million barrels a day in September, the highest since the war began - the \"shutdown\" narrative both sides invoke, undercut by the tankers still sailing."
+        },
         {
           "date": "2026-09-29T00:20:00Z",
           "note": "Trump rejected Iran's plan but told Axios he still expects talks to resume this week - \"they want to make a deal, but it is not the deal that I want to make.\" Indirect talks could restart as early as Monday."
@@ -39,35 +43,35 @@
         {
           "date": "2026-09-27T14:30:00Z",
           "note": "Trump says Iran \"outsmarted themselves\" by making the nuclear-inspector offer, rejecting it outright - while Iran's Revolutionary Guards Navy says the strait stays closed and its army warns it's \"fully prepared\" if the US attacks. Oman is still offering to mediate."
-        },
-        {
-          "date": "2026-09-27T00:20:00Z",
-          "note": "Iran's president reversed his own red line, telling CBS Tehran would allow UN nuclear inspectors as part of the seven-day plan - the concession \"increasingly positive\" talks were supposedly missing. Trump rejected the offer anyway, per the Wall Street Journal."
         }
       ],
-      "source_date": "2026-09-27"
+      "source_date": "2026-09-28"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
       "stream": "natural_world",
       "observer": "Why Today?",
       "title": "The captain's last message said the ship was tilting. Then it went silent",
-      "observation": "The ferry Virgo Transport 8, carrying 243 people from Surabaya to Banjarmasin, capsized in the Java Sea Sept 13 after its captain reported 3-meter waves and a listing ship - the last message before contact was lost. 66 dead, 108 rescued, 69 still missing.",
+      "observation": "The ferry Virgo Transport 8, carrying 243 people from Surabaya to Banjarmasin, capsized in the Java Sea Sept 13 after its captain reported 3-meter waves and a listing ship - the last message before contact was lost. 71 dead, 108 rescued, 64 still missing.",
       "question": "How does a ship go from reporting rough seas to disappearing entirely in the time it takes to send one distress message?",
       "hidden_question": "Was this an unavoidable act of weather, or a vessel that shouldn't have been at sea, or at that capacity, when the forecast turned?",
       "pattern": "a routine domestic ferry route turning fatal within the span of a single distress call",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Sixteen days in, divers are braving leaking fuel and unstable debris to reach cabins still unsearched - the toll now 66, with 69 unaccounted for. Indonesia's ferries connect 17,000 islands cheaper than flying; this is not the country's first such accident.",
+      "why_now": "Five more bodies came out of the wreck on the 16th day - four to the naval ship, one by helicopter, all to Banjarmasin for identification. The toll is now 71, with 64 still unaccounted for out of the 243 aboard.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.usnews.com/news/world/articles/2026-09-28/indonesia-ferry-death-toll-hits-66-as-search-enters-16th-day",
+      "url": "https://en.antaranews.com/news/433316/five-more-bodies-recovered-from-virgo-transport-8-ferry-wreck",
       "location": "Java Sea, en route Surabaya to Banjarmasin, Indonesia",
       "season_or_time_context": "salvage operation underway",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-28T14:30:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-29T15:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-29T15:30:00Z",
+          "note": "Five more bodies came out of the wreck on the 16th day - four to the naval ship, one by helicopter, all to Banjarmasin for identification. The toll is now 71, with 64 still unaccounted for out of the 243 aboard."
+        },
         {
           "date": "2026-09-28T14:30:00Z",
           "note": "Sixteen days in, divers are braving leaking fuel and unstable debris to reach cabins still unsearched - the toll now 66, with 69 unaccounted for. Indonesia's ferries connect 17,000 islands cheaper than flying; this isn't the country's first such accident."
@@ -81,7 +85,7 @@
           "note": "The toll jumped again, to 64 dead, as the extended search entered its 15th day - a sharp rise from 52 just a day earlier, as Basarnas keeps pushing to raise the wreck entirely rather than rely on piecemeal diving."
         }
       ],
-      "source_date": "2026-09-28"
+      "source_date": "2026-09-29"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -131,16 +135,20 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The 10-year hit a fresh 19-year high of 5.27% Monday, the 30-year climbed to 5.55% - and Fed Governor Lisa Cook said she expects AI investment and higher oil prices to keep pushing inflation up in the months ahead, naming the war as a direct policy input.",
+      "why_now": "The 30-year briefly touched 5.613% Tuesday, its highest since 2002, before easing to 5.609% - and traders now price 72% odds of an October hike, up from 64% two days ago, moving faster than the Fed itself has confirmed anything.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html",
+      "url": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-29T00:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-29T15:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-29T15:30:00Z",
+          "note": "The 30-year briefly touched 5.613% Tuesday, its highest since 2002, before easing to 5.609% - traders now price 72% odds of an October hike, up from 64% two days ago, moving faster than the Fed itself has confirmed anything."
+        },
         {
           "date": "2026-09-29T00:20:00Z",
           "note": "The 10-year hit a fresh 19-year high of 5.27% Monday, the 30-year climbed to 5.55% - and Fed Governor Lisa Cook said she expects AI investment and higher oil prices to keep pushing inflation up, naming the war as a direct policy input."
@@ -236,16 +244,20 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The strategic aim is now clear: Tigray forces took Erebti and are advancing toward Afdeera in Afar, targeting the supply corridor from Djibouti that carries nearly all of Ethiopia's trade and fuel - with the federal army withdrawing deeper into the region and 150,000 people feared displaced.",
+      "why_now": "The momentum just swung: federal forces and an allied Tigray Peace Force claim to have captured Alamata, 120km south of Mekelle - a foothold that could open the road toward Tigray's own capital, the first federal advance claimed since the war restarted.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.euronews.com/2026/09/28/tigray-rebels-push-into-afar-as-ethiopia-blames-neighbours",
+      "url": "https://www.aljazeera.com/news/2026/9/29/fighting-in-ethiopia-intensifies-whats-the-latest",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-28T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-29T15:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-29T15:30:00Z",
+          "note": "The momentum just swung: federal forces and an allied Tigray Peace Force claim to have captured Alamata, 120km south of Mekelle - a foothold that could open the road toward Tigray's capital, the first federal advance claimed since the war restarted."
+        },
         {
           "date": "2026-09-28T14:30:00Z",
           "note": "Tigray forces took Erebti and are advancing toward Afdeera in Afar, targeting the supply corridor from Djibouti that carries nearly all of Ethiopia's trade and fuel - the army withdrawing deeper into the region, 150,000 feared displaced."
@@ -263,7 +275,7 @@
           "note": "The coalition now has a name: the Ethiopian People's Forces Alliance for Survival, formed Sept 20, grouping the TPLF with the Amhara Fano Movement, the Oromo Liberation Army and the Ogaden National Liberation Front - former enemies, united by a common target."
         }
       ],
-      "source_date": "2026-09-28"
+      "source_date": "2026-09-29"
     },
     {
       "id": "argentina-poverty-rate-rises-milei",
@@ -308,8 +320,8 @@
       "pattern": "a body's ordinary repair process becoming extraordinary evidence purely because decay was interrupted at the right instant",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The clue sat undetected until 2020, when an undergraduate researcher first spotted hints of blood vessels using micro-CT scanning - it took neutron imaging at Oak Ridge National Laboratory, non-destructive and precise, to finally build a full 3D picture of the healing rib without damaging the fossil.",
-      "status": "captured",
+      "why_now": "A dedicated check found only recap of the original ScienceDaily/ORNL report - no new imaging, no follow-up study. Going dormant rather than re-bumping a static research fact; worth reactivating if the team publishes further analysis of the specimen.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
       "location": "Oak Ridge National Laboratory / originally excavated in Saskatchewan, Canada",
@@ -336,8 +348,8 @@
       "pattern": "a culture setting aside dedicated calendar time for an obligation that has no deadline or enforcement except tradition itself",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The timing is individually precise, not just collectively observed: each family's specific shraddha date is set by the lunar tithi of their own ancestor's death, meaning the fortnight is actually thousands of separate, personally-scheduled observances happening in parallel under one shared name.",
-      "status": "captured",
+      "why_now": "The observance itself continues through Oct 10, but there's no daily news to bump - it's a structural ritual, not a developing story. Going dormant rather than re-bumping a static observation; worth reactivating at Sarva Pitru Amavasya, the fortnight's actual conclusion.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://daanyam.in/festivals/2026/pitru-paksha-2026",
       "source_evergreen": true,
@@ -409,6 +421,35 @@
         }
       ],
       "source_date": "2026-09-27"
+    },
+    {
+      "id": "spacex-starship-reaches-orbit-first-time",
+      "stream": "headlines",
+      "category": "Business & Technology",
+      "observer": "Why Today?",
+      "title": "It lost an engine on the way up and still made orbit",
+      "observation": "SpaceX's Starship reached Earth orbit for the first time on its 14th test flight, deploying 26 Starlink satellites despite an engine shutting down early during ascent - a milestone toward routine commercial use and full reusability of the largest rocket ever built.",
+      "question": "How much does a single engine failure matter once the vehicle reaches its goal anyway?",
+      "hidden_question": "Is tolerating visible failure mid-flight a sign of a genuinely robust design, or of a testing philosophy that's normalized problems a more conservative program wouldn't accept?",
+      "pattern": "a program's iterate-in-public approach turning a partial failure into a milestone rather than an embarrassment",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "SpaceX cut the flight short anyway, bringing the upper stage back after 1.5 hours instead of the planned nine - success on the headline goal, orbit, paired with a quieter admission that the full mission plan still didn't go as designed.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.aljazeera.com/news/2026/9/28/spacexs-showpiece-starship-rocket-reaches-orbit-for-first-time",
+      "location": "Starbase, Texas",
+      "season_or_time_context": "14th test flight, Sept 28",
+      "first_seen": "2026-09-29T15:30:00Z",
+      "last_seen": "2026-09-29T15:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-29T15:30:00Z",
+          "note": "Starship reached Earth orbit for the first time on its 14th test flight, deploying 26 Starlink satellites despite an early engine shutdown - then SpaceX cut the mission short anyway, returning the upper stage after 1.5 hours instead of nine."
+        }
+      ],
+      "source_date": "2026-09-28"
     }
   ]
 }
