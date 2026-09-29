@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-27",
-  "cycle_start": "2026-09-28T00:20:00Z",
-  "last_updated": "2026-09-28T14:30:00Z",
+  "cycle_start": "2026-09-28T14:30:00Z",
+  "last_updated": "2026-09-29T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran's FM Araghchi told NBC Tehran is \"fully prepared for the war to be resumed,\" even a \"doomsday war\" if aggression continues - but says the seven-day offer Trump rejected \"still stands.\" Full readiness and an open door, stated in the same breath.",
+      "why_now": "Trump rejected Iran's plan but told Axios he still expects talks to resume this week - \"they want to make a deal, but it is not the deal that I want to make.\" Indirect talks could restart as early as Monday, the rejection and the re-engagement announced almost together.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-27/trump-says-he-expects-renewed-iran-talks-this-week-axios-says",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-28T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-09-29T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-09-29T00:20:00Z",
+          "note": "Trump rejected Iran's plan but told Axios he still expects talks to resume this week - \"they want to make a deal, but it is not the deal that I want to make.\" Indirect talks could restart as early as Monday."
+        },
         {
           "date": "2026-09-28T14:30:00Z",
           "note": "Iran's FM Araghchi told NBC Tehran is \"fully prepared for the war to be resumed,\" even a \"doomsday war\" if aggression continues - but says the seven-day offer Trump rejected \"still stands.\" Full readiness and an open door, in the same breath."
@@ -41,7 +45,7 @@
           "note": "Iran's president reversed his own red line, telling CBS Tehran would allow UN nuclear inspectors as part of the seven-day plan - the concession \"increasingly positive\" talks were supposedly missing. Trump rejected the offer anyway, per the Wall Street Journal."
         }
       ],
-      "source_date": "2026-09-28"
+      "source_date": "2026-09-27"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -91,16 +95,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The two new health zones now have names: Bulu, in South Ubangi on the Central African Republic border, and Dungu, in Haut-U\u00e9l\u00e9 on the South Sudan border - the outbreak now spans 63 health zones across seven provinces, reaching two international frontiers.",
+      "why_now": "The outbreak topped 8,000 confirmed cases (8,067, 3,901 dead) - and the constraint has shifted from tracing to staffing: Congo is running out of health workers to contain a disease with no approved vaccine or treatment, officials say.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618",
+      "url": "https://abcnews.com/International/wireStory/congo-ebola-outbreak-tops-8000-confirmed-cases-disease-136816027",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-28T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-09-29T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-09-29T00:20:00Z",
+          "note": "The outbreak topped 8,000 confirmed cases (8,067, 3,901 dead) - and the constraint has shifted from tracing to staffing: Congo is running out of health workers to contain a disease with no approved vaccine or treatment."
+        },
         {
           "date": "2026-09-28T00:20:00Z",
           "note": "The two new health zones now have names: Bulu (South Ubangi, on the Central African Republic border) and Dungu (Haut-U\u00e9l\u00e9, on the South Sudan border) - the outbreak now spans 63 health zones across seven provinces, reaching two international frontiers."
@@ -110,7 +118,7 @@
           "note": "The outbreak spread to two new health zones, WHO confirmed, as the tally hit 7,890 confirmed/3,799 dead. Africa CDC's chief says contact tracing is falling far short: most new cases are among people unknown to health authorities before diagnosis."
         }
       ],
-      "source_date": "2026-09-27"
+      "source_date": "2026-09-28"
     },
     {
       "id": "fed-first-hike-since-2023",
@@ -123,16 +131,20 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Consumer sentiment just confirmed the Fed's worry: the University of Michigan index fell to a four-month low of 48.1, while year-ahead inflation expectations jumped to 4.6% - up from 3.4% before the Iran conflict began, the sharpest such jump the survey has recorded.",
+      "why_now": "The 10-year hit a fresh 19-year high of 5.27% Monday, the 30-year climbed to 5.55% - and Fed Governor Lisa Cook said she expects AI investment and higher oil prices to keep pushing inflation up in the months ahead, naming the war as a direct policy input.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://finance.yahoo.com/economy/articles/university-michigan-consumer-sentiment-index-182153704.html",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-28T14:30:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-29T00:20:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-29T00:20:00Z",
+          "note": "The 10-year hit a fresh 19-year high of 5.27% Monday, the 30-year climbed to 5.55% - and Fed Governor Lisa Cook said she expects AI investment and higher oil prices to keep pushing inflation up, naming the war as a direct policy input."
+        },
         {
           "date": "2026-09-28T14:30:00Z",
           "note": "Consumer sentiment just confirmed the Fed's worry: the University of Michigan index fell to a four-month low of 48.1, while year-ahead inflation expectations jumped to 4.6% - up from 3.4% before the Iran conflict began."
@@ -146,7 +158,7 @@
           "note": "The 10-year gave back its steepest overnight gains Friday, easing to 5.17% - but the University of Michigan's consumer sentiment survey confirmed inflation expectations jumped sharply in September, the exact data the Fed's hawks keep citing."
         }
       ],
-      "source_date": "2026-09-28"
+      "source_date": "2026-09-29"
     },
     {
       "id": "lucas-museum-narrative-art-opens",
@@ -366,6 +378,34 @@
         {
           "date": "2026-09-28T00:20:00Z",
           "note": "The Ravens beat the Cowboys 34-31 at Rio's Maracan\u00e3 Stadium, the NFL's first-ever regular season game in South America - decided by a 56-yard Tyler Loop field goal after Dallas erased a 17-13 halftime deficit."
+        }
+      ],
+      "source_date": "2026-09-27"
+    },
+    {
+      "id": "gen-z-catholic-conversions-france",
+      "stream": "human_rituals",
+      "observer": "Why Today?",
+      "title": "The generation raised with the least religion is the one converting the fastest",
+      "observation": "France's adult Catholic baptisms hit 13,234 in 2026, more than triple 2019's 4,263 - 82% of new converts under 40, Gen Z alone 34% of that cohort - a surge coinciding with Pope Leo XIV's high-turnout visit to a famously secular country.",
+      "question": "What does it mean for the least religiously-raised generation on record to be the one now converting fastest?",
+      "hidden_question": "Is this a genuine return to faith, or a search for community and stability that religion happens to currently be supplying better than its secular alternatives?",
+      "pattern": "a generation raised to expect secularism as the default instead producing its sharpest reversal",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "The turnout numbers dwarf the last papal visit: 800,000 lined the Champs-\u00c9lys\u00e9es, 150,000 attended an open-air Mass in Lourdes, and 80,000 young people packed the Stade de France for a prayer vigil - visible, youth-heavy religious enthusiasm in a country that built its modern identity on secularism.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.washingtonpost.com/world/2026/09/27/rise-young-catholic-converts-points-spiritual-longing-us-europe/",
+      "location": "France",
+      "season_or_time_context": "coincides with Pope Leo XIV's Sept 25-28 France visit",
+      "first_seen": "2026-09-29T00:20:00Z",
+      "last_seen": "2026-09-29T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-29T00:20:00Z",
+          "note": "France's adult Catholic baptisms hit 13,234 in 2026, more than triple 2019's 4,263 - 82% of converts under 40, Gen Z alone 34% of that cohort, coinciding with Pope Leo XIV's visit drawing 800,000 to the Champs-\u00c9lys\u00e9es."
         }
       ],
       "source_date": "2026-09-27"

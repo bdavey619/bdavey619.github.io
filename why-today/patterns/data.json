@@ -1,6 +1,6 @@
 {
   "week": "2026-09-27",
-  "last_updated": "2026-09-28T14:30:00Z",
+  "last_updated": "2026-09-29T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -17,15 +17,15 @@
         },
         {
           "domain": "Energy Diplomacy",
-          "text": "Iran's FM says Tehran is \"fully prepared\" for war to resume, even a \"doomsday war\" - in the same interview where he says the seven-day offer Trump just rejected \"still stands.\" Total readiness and an open door, claimed in the same breath.",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions",
-          "date": "2026-09-28",
+          "text": "Trump rejected Iran's Hormuz plan outright - then told Axios he still expects talks to resume within days. The rejection and the reassurance that diplomacy continues were announced almost in the same breath, undercutting the finality of either.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-27/trump-says-he-expects-renewed-iran-talks-this-week-axios-says",
+          "date": "2026-09-27",
           "is_new": true
         },
         {
           "domain": "Debt Management",
-          "text": "Consumer sentiment just confirmed the Fed's own worry: the Michigan index fell to a four-month low as year-ahead inflation expectations jumped to 4.6%, up from 3.4% before the Iran conflict - undercutting any read that September's hike had settled anything.",
-          "url": "https://finance.yahoo.com/economy/articles/university-michigan-consumer-sentiment-index-182153704.html",
+          "text": "Yields hit a fresh 19-year high Monday (10yr 5.27%, 30yr 5.55%) - the same day Fed Governor Cook said AI investment and oil prices would keep pushing inflation up, effectively confirming the market's read before the Fed had to say it outright.",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html",
           "date": "2026-09-28",
           "is_new": true
         },
@@ -89,17 +89,17 @@
         },
         {
           "domain": "Public Health",
-          "text": "DRC's Ebola outbreak just spread to two new health zones - and Africa CDC's own chief says why: contact tracing is falling far short, with most new cases surfacing among people entirely unknown to health authorities before they're diagnosed.",
-          "url": "https://www.aljazeera.com/news/2026/9/25/dr-congos-ebola-outbreak-spreads-to-two-new-health-zones-who-says",
-          "date": "2026-09-25",
-          "is_new": false
+          "text": "DRC's Ebola outbreak topped 8,000 confirmed cases, and the constraint has moved from tracing to bodies: officials say the country is running out of health workers to contain a disease with no approved vaccine or treatment - the oversight vacuum is now a staffing one.",
+          "url": "https://abcnews.com/International/wireStory/congo-ebola-outbreak-tops-8000-confirmed-cases-disease-136816027",
+          "date": "2026-09-28",
+          "is_new": true
         },
         {
           "domain": "Maritime Safety",
           "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing. Sixteen days on, divers are braving leaking fuel and unstable debris to reach cabins still unsearched - the toll now 66, with 69 still unaccounted for.",
           "url": "https://www.usnews.com/news/world/articles/2026-09-28/indonesia-ferry-death-toll-hits-66-as-search-enters-16th-day",
           "date": "2026-09-28",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
