@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-27",
-  "cycle_start": "2026-09-29T15:30:00Z",
-  "last_updated": "2026-09-30T00:20:00Z",
+  "cycle_start": "2026-09-30T00:20:00Z",
+  "last_updated": "2026-09-30T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Traffic is quietly nearing prewar levels: only 55 transits were recorded Sept 16-23, 94% below the roughly 910 a week before the war, yet crude exports have rebounded to near-normal volumes via direct Saudi terminal loads - Iran's blacklist of 81 vessels hasn't deterred a single one.",
+      "why_now": "Iran says it has received a US counterproposal to its own seven-day ceasefire-and-reopening plan, and Araghchi presented it to President Pezeshkian at Wednesday's cabinet meeting - both sides reportedly agree on the steps needed, just not the order to take them in.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.washingtontimes.com/news/2026/sep/29/hormuz-traffic-nears-prewar-levels-iran-war-simmers/",
+      "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-it-received-us-response-to-latest-proposal/",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-30T00:20:00Z",
-      "appearances": 7,
+      "last_seen": "2026-09-30T14:30:00Z",
+      "appearances": 8,
       "history": [
+        {
+          "date": "2026-09-30T14:30:00Z",
+          "note": "Iran says it has received a US counterproposal to its seven-day ceasefire-and-reopening plan, and Araghchi presented it to President Pezeshkian at Wednesday's cabinet meeting - both sides reportedly agree on the steps needed, just not the order to take them in."
+        },
         {
           "date": "2026-09-30T00:20:00Z",
           "note": "Traffic is quietly nearing prewar levels: only 55 transits Sept 16-23, 94% below the roughly 910 a week before the war - yet exports have rebounded near-normal via direct Saudi terminal loads. Iran's 81-vessel blacklist hasn't deterred a single ship."
@@ -39,13 +43,9 @@
         {
           "date": "2026-09-28T14:30:00Z",
           "note": "Iran's FM Araghchi told NBC Tehran is \"fully prepared for the war to be resumed,\" even a \"doomsday war\" if aggression continues - but says the seven-day offer Trump rejected \"still stands.\" Full readiness and an open door, in the same breath."
-        },
-        {
-          "date": "2026-09-28T00:20:00Z",
-          "note": "Hours after Trump's rejection, explosions hit near Qeshm Island - Iranian media report antiship missiles and drones fired at vessels transiting against Tehran's wishes. Parliament speaker Ghalibaf says the strait stays shut until all seven conditions are met."
         }
       ],
-      "source_date": "2026-09-29"
+      "source_date": "2026-09-30"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -139,16 +139,20 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The 30-year briefly touched 5.613% Tuesday, its highest since 2002, before easing to 5.609% - and traders now price 72% odds of an October hike, up from 64% two days ago, moving faster than the Fed itself has confirmed anything.",
+      "why_now": "The bet the market spent all week building just partly unwound: October hike odds fell to 47.1% from 70% within 48 hours, after a dovish speech from NY Fed's John Williams and a cooler-than-forecast PCE reading of 3%, against 3.3% expected.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html",
+      "url": "https://finance.yahoo.com/economy/policy/articles/odds-fed-rate-hike-fall-083935313.html",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-29T15:30:00Z",
-      "appearances": 5,
+      "last_seen": "2026-09-30T14:30:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-09-30T14:30:00Z",
+          "note": "The bet the market spent all week building just partly unwound: October hike odds fell to 47.1% from 70% within 48 hours, after a dovish NY Fed speech from John Williams and a cooler-than-forecast PCE reading of 3%, against 3.3% expected."
+        },
         {
           "date": "2026-09-29T15:30:00Z",
           "note": "The 30-year briefly touched 5.613% Tuesday, its highest since 2002, before easing to 5.609% - traders now price 72% odds of an October hike, up from 64% two days ago, moving faster than the Fed itself has confirmed anything."
@@ -164,13 +168,9 @@
         {
           "date": "2026-09-28T00:20:00Z",
           "note": "The next test arrives fast: the FOMC meets Oct 27-28, its decision landing alongside a fresh Summary of Economic Projections - the market's next chance to find out whether September's hike was the whole story or the first of a longer one."
-        },
-        {
-          "date": "2026-09-27T00:20:00Z",
-          "note": "The 10-year gave back its steepest overnight gains Friday, easing to 5.17% - but the University of Michigan's consumer sentiment survey confirmed inflation expectations jumped sharply in September, the exact data the Fed's hawks keep citing."
         }
       ],
-      "source_date": "2026-09-29"
+      "source_date": "2026-09-30"
     },
     {
       "id": "lucas-museum-narrative-art-opens",
@@ -248,16 +248,20 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The momentum just swung: federal forces and an allied Tigray Peace Force claim to have captured Alamata, 120km south of Mekelle - a foothold that could open the road toward Tigray's own capital, the first federal advance claimed since the war restarted.",
+      "why_now": "MSF says war-wounded patients at Korem and Alamata hospitals jumped from about 180 to over 420 in three days, while more than 300 reached Suhul Hospital in Shire - over 720 wounded total, with Alamata Hospital's own outreach services now suspended for security.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/9/29/fighting-in-ethiopia-intensifies-whats-the-latest",
+      "url": "https://eastleighvoice.co.ke/ethiopia/406225/more-than-720-wounded-as-renewed-fighting-in-ethiopias-tigray-overwhelms-hospitals-msf-says",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-29T15:30:00Z",
-      "appearances": 5,
+      "last_seen": "2026-09-30T14:30:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-09-30T14:30:00Z",
+          "note": "MSF says war-wounded patients at Korem and Alamata hospitals jumped from about 180 to over 420 in three days, while more than 300 reached Suhul Hospital in Shire - over 720 wounded total, with Alamata Hospital's own outreach services now suspended."
+        },
         {
           "date": "2026-09-29T15:30:00Z",
           "note": "The momentum just swung: federal forces and an allied Tigray Peace Force claim to have captured Alamata, 120km south of Mekelle - a foothold that could open the road toward Tigray's capital, the first federal advance claimed since the war restarted."
@@ -273,10 +277,6 @@
         {
           "date": "2026-09-27T14:30:00Z",
           "note": "The federal army says it's exercising \"restraint\" - while reporting it killed 272 Tigrayan fighters and wounded 260 more in one North Wollo counter-offensive, with government forces reportedly closing in on Alamata. TPLF calls it a full-scale drone-and-armor offensive."
-        },
-        {
-          "date": "2026-09-27T00:20:00Z",
-          "note": "The coalition now has a name: the Ethiopian People's Forces Alliance for Survival, formed Sept 20, grouping the TPLF with the Amhara Fano Movement, the Oromo Liberation Army and the Ogaden National Liberation Front - former enemies, united by a common target."
         }
       ],
       "source_date": "2026-09-29"

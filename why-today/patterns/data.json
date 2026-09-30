@@ -1,6 +1,6 @@
 {
   "week": "2026-09-27",
-  "last_updated": "2026-09-30T00:20:00Z",
+  "last_updated": "2026-09-30T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -20,14 +20,14 @@
           "text": "Traffic through Hormuz is quietly nearing prewar levels - just 55 transits in a week, 94% below the prewar rate, yet crude exports have rebounded near-normal via direct Saudi terminal loads. Iran's 81-vessel blacklist hasn't deterred a single ship from sailing anyway.",
           "url": "https://www.washingtontimes.com/news/2026/sep/29/hormuz-traffic-nears-prewar-levels-iran-war-simmers/",
           "date": "2026-09-29",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Debt Management",
-          "text": "The 30-year briefly hit 5.613% Tuesday, its highest since 2002 - and traders now price 72% odds of an October hike, up from 64% two days earlier. The market keeps repricing faster than any Fed official has been willing to confirm.",
-          "url": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html",
-          "date": "2026-09-29",
-          "is_new": false
+          "text": "The market's own confident bet just partly unwound: October hike odds fell to 47.1% from 70% within 48 hours, after a dovish NY Fed speech and a cooler-than-forecast PCE reading. Tuesday's conviction became Wednesday's reversal.",
+          "url": "https://finance.yahoo.com/economy/policy/articles/odds-fed-rate-hike-fall-083935313.html",
+          "date": "2026-09-30",
+          "is_new": true
         },
         {
           "domain": "Civil Conflict",
@@ -46,10 +46,10 @@
       "evidence": [
         {
           "domain": "Public Health",
-          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June. As of Sept 20, the tally has reached 7,672 confirmed and 3,699 dead, officially the second-largest Ebola outbreak on record - a resolution in name only, since the outbreak never actually stopped growing.",
-          "url": "https://news.un.org/en/story/2026/09/1168338",
-          "date": "2026-09-22",
-          "is_new": false
+          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June. The tally has since topped 8,000 confirmed and 3,901 dead, the fastest-growing outbreak on record - a resolution in name only, since it never actually stopped growing after the declaration.",
+          "url": "https://www.cidrap.umn.edu/ebola/dr-congo-ebola-outbreak-tops-8000-cases-48-death-rate",
+          "date": "2026-09-29",
+          "is_new": true
         },
         {
           "domain": "Foreign Policy",
@@ -67,10 +67,10 @@
         },
         {
           "domain": "Energy Shipping",
-          "text": "Saudi Aramco is quietly telling Asian refiners they'll soon be able to load oil again at Yanbu, its main Hormuz-bypass port shut since a Sept 10 drone strike - but the assurances are informal, from executives rather than official notice, and no one has given a timeline.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-22/saudis-tell-asian-refiners-they-can-soon-pick-up-oil-from-yanbu",
-          "date": "2026-09-22",
-          "is_new": false
+          "text": "Yanbu loadings have technically resumed - satellite imagery shows about 10 million barrels moving - but at roughly 2 million bpd, a third of the pre-attack rate. Aramco says full recovery to 5.5 million bpd could still take another month.",
+          "url": "https://www.marinelink.com/news/yanbu-oil-loadings-resume-pipeline-543342",
+          "date": "2026-09-29",
+          "is_new": true
         }
       ]
     },
@@ -85,7 +85,7 @@
           "text": "The report on a Philippines building collapse that killed 30 workers in May is out: unapproved alterations added two extra floors and a rooftop pool, overstressing columns never designed for that load - changes no inspector caught before it came down.",
           "url": "https://www.manilatimes.net/2026/09/29/regions/report-says-construction-blunders-led-to-building-collapse/2434295",
           "date": "2026-09-29",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Public Health",
