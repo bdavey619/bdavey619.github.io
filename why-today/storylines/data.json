@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-27",
-  "cycle_start": "2026-09-29T00:20:00Z",
-  "last_updated": "2026-09-29T15:30:00Z",
+  "cycle_start": "2026-09-29T15:30:00Z",
+  "last_updated": "2026-09-30T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran is touting its own attacks as leverage even as oil actually keeps moving: shipments rebounded to 12.8 million barrels a day in September, the highest since the war began - the \"shutdown\" narrative both sides still invoke, undercut by the tankers still sailing.",
+      "why_now": "Traffic is quietly nearing prewar levels: only 55 transits were recorded Sept 16-23, 94% below the roughly 910 a week before the war, yet crude exports have rebounded to near-normal volumes via direct Saudi terminal loads - Iran's blacklist of 81 vessels hasn't deterred a single one.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/9/28/iran-touts-hormuz-attacks-as-oil-flows-increase-despite-tensions",
+      "url": "https://www.washingtontimes.com/news/2026/sep/29/hormuz-traffic-nears-prewar-levels-iran-war-simmers/",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-29T15:30:00Z",
-      "appearances": 6,
+      "last_seen": "2026-09-30T00:20:00Z",
+      "appearances": 7,
       "history": [
+        {
+          "date": "2026-09-30T00:20:00Z",
+          "note": "Traffic is quietly nearing prewar levels: only 55 transits Sept 16-23, 94% below the roughly 910 a week before the war - yet exports have rebounded near-normal via direct Saudi terminal loads. Iran's 81-vessel blacklist hasn't deterred a single ship."
+        },
         {
           "date": "2026-09-29T15:30:00Z",
           "note": "Iran is touting its own attacks as leverage even as oil keeps moving: shipments rebounded to 12.8 million barrels a day in September, the highest since the war began - the \"shutdown\" narrative both sides invoke, undercut by the tankers still sailing."
@@ -39,13 +43,9 @@
         {
           "date": "2026-09-28T00:20:00Z",
           "note": "Hours after Trump's rejection, explosions hit near Qeshm Island - Iranian media report antiship missiles and drones fired at vessels transiting against Tehran's wishes. Parliament speaker Ghalibaf says the strait stays shut until all seven conditions are met."
-        },
-        {
-          "date": "2026-09-27T14:30:00Z",
-          "note": "Trump says Iran \"outsmarted themselves\" by making the nuclear-inspector offer, rejecting it outright - while Iran's Revolutionary Guards Navy says the strait stays closed and its army warns it's \"fully prepared\" if the US attacks. Oman is still offering to mediate."
         }
       ],
-      "source_date": "2026-09-28"
+      "source_date": "2026-09-29"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -99,16 +99,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The outbreak topped 8,000 confirmed cases (8,067, 3,901 dead) - and the constraint has shifted from tracing to staffing: Congo is running out of health workers to contain a disease with no approved vaccine or treatment, officials say.",
+      "why_now": "The trend just split by province: cases fell 26% in Ituri and 15% in Haut-Uele over 21 days - while North Kivu rose 73% over the same window. The response is working exactly where it's staffed, and failing exactly where it isn't.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://abcnews.com/International/wireStory/congo-ebola-outbreak-tops-8000-confirmed-cases-disease-136816027",
+      "url": "https://www.cidrap.umn.edu/ebola/dr-congo-ebola-outbreak-tops-8000-cases-48-death-rate",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-29T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-09-30T00:20:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-09-30T00:20:00Z",
+          "note": "The trend just split by province: cases fell 26% in Ituri and 15% in Haut-Uele over 21 days, while North Kivu rose 73% over the same window - working exactly where the response is staffed, failing exactly where it isn't."
+        },
         {
           "date": "2026-09-29T00:20:00Z",
           "note": "The outbreak topped 8,000 confirmed cases (8,067, 3,901 dead) - and the constraint has shifted from tracing to staffing: Congo is running out of health workers to contain a disease with no approved vaccine or treatment."
@@ -122,7 +126,7 @@
           "note": "The outbreak spread to two new health zones, WHO confirmed, as the tally hit 7,890 confirmed/3,799 dead. Africa CDC's chief says contact tracing is falling far short: most new cases are among people unknown to health authorities before diagnosis."
         }
       ],
-      "source_date": "2026-09-28"
+      "source_date": "2026-09-29"
     },
     {
       "id": "fed-first-hike-since-2023",
@@ -211,8 +215,8 @@
       "pattern": "an ancient site's most revealing evidence surviving precisely because it stayed unremarkable long enough to be ignored",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "This season's dig has closed: collapsed roofs and chamber walls had protected the burial deposits in their original positions, letting archaeologists recover them intact. Excavations resume in 2027, with study and publication of this year's finds to follow before then.",
-      "status": "captured",
+      "why_now": "This season's dig has closed and excavations don't resume until 2027 - there is no further on-site news to bump. Going dormant rather than re-bumping a closed season; worth reactivating when study and publication of this year's finds are released.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://archaeology.org/news/2026/09/25/artifacts-in-etruscan-tomb-reflect-mediterranean-trade/",
       "location": "Vulci, Lazio, Italy",
@@ -288,8 +292,8 @@
       "pattern": "a government's signature economic program producing a reversal in the exact metric it was supposed to fix",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Income actually rose 11.5% - the poverty basket rose almost 20%, explaining the gap. Unemployment hit 7.9%, the highest since 2021. Economy Minister Caputo acknowledged the number but called it \"far below\" earlier levels; UCA estimates poverty could reach 35% by year-end.",
-      "status": "captured",
+      "why_now": "A dedicated check found no reporting past Caputo's \"far below\" framing - the data cycle that produced this story has run its course until the next official release. Going dormant rather than re-bumping a stale link; worth reactivating when new INDEC or election-season figures land.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://abcnews.com/Business/wireStory/argentinas-poverty-rate-rises-30-president-milei-reversing-136736443",
       "location": "Argentina",
@@ -377,8 +381,8 @@
       "pattern": "an institution testing a new market with its most ordinary output, dressed as a landmark event",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The game needed a decider to justify the occasion, and got one: a 27-yard completion late in the fourth quarter set up Loop's game-winning kick, turning what could have been a forgettable Week 3 matchup into the finish the league's first South American outing needed.",
-      "status": "captured",
+      "why_now": "The game itself is over and there's no follow-on story - the league has moved to Week 4. Going dormant rather than re-bumping a concluded one-off event; worth reactivating if the NFL's international-expansion plans produce a fresh development.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.espn.com/nfl/story/_/id/50034932/best-plays-moments-touchdowns-more",
       "location": "Maracan\u00e3 Stadium, Rio de Janeiro, Brazil",
@@ -447,6 +451,91 @@
         {
           "date": "2026-09-29T15:30:00Z",
           "note": "Starship reached Earth orbit for the first time on its 14th test flight, deploying 26 Starlink satellites despite an early engine shutdown - then SpaceX cut the mission short anyway, returning the upper stage after 1.5 hours instead of nine."
+        }
+      ],
+      "source_date": "2026-09-28"
+    },
+    {
+      "id": "angeles-city-collapse-investigation-report",
+      "stream": "places",
+      "observer": "Why Today?",
+      "title": "The collapse killed 30 people in May. The report on why took four months",
+      "observation": "A nine-story Angeles City, Philippines building collapsed in May 2026, killing 30 workers sleeping inside. This week's government investigation found the cause: unapproved changes added two extra floors and a rooftop pool, overstressing columns never designed for that load.",
+      "question": "How long should it take a government to explain why a building it inspected still collapsed?",
+      "hidden_question": "Was the four-month investigation due diligence, or a bureaucracy needing time to decide how much blame it could afford to assign?",
+      "pattern": "a structural failure explained only after enough time has passed that the explanation cannot help anyone it killed",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "The fact-finding task force's final report: overstressed columns and piles caused the collapse, worsened by two extra floors and a rooftop pool added after approval - changes no inspector caught before the building came down.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.manilatimes.net/2026/09/29/regions/report-says-construction-blunders-led-to-building-collapse/2434295",
+      "location": "Angeles City, Pampanga, Philippines",
+      "season_or_time_context": "investigation report released four months after the May 2026 collapse",
+      "first_seen": "2026-09-30T00:20:00Z",
+      "last_seen": "2026-09-30T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-30T00:20:00Z",
+          "note": "The fact-finding task force's final report: overstressed columns and piles caused the collapse, worsened by two extra floors and a rooftop pool added after approval - changes no inspector caught before the building came down."
+        }
+      ],
+      "source_date": "2026-09-29"
+    },
+    {
+      "id": "bolivia-diesel-hike-transport-strike",
+      "stream": "headlines",
+      "category": "Politics & World",
+      "observer": "Why Today?",
+      "title": "The IMF loan came with one condition. Bolivia's truckers just found out what it costs",
+      "observation": "Bolivia raised diesel prices 83% on Sept 19 - from Bs9.80 to Bs17.95 a liter - to satisfy an IMF loan condition ending fuel subsidies. Transport unions answered with a 24-hour nationwide strike Sept 28; bus fares have jumped up to 125%.",
+      "question": "Who ends up paying the price when a loan's condition and a country's cost of living collide?",
+      "hidden_question": "Is this the start of a manageable adjustment, or the opening act of the kind of unrest that has toppled Bolivian governments before?",
+      "pattern": "an externally-imposed economic condition landing first on the population least able to absorb it",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "The strike split the transport sector - Santa Cruz federations called theirs off, La Paz ruled out a Monday strike - but Evo Morales has given the government until Oct 3 to repeal the decree, with protests planned from Oct 13.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.latintimes.com/bolivia-imf-loan-deal-triggers-83-diesel-hike-transport-union-calls-nationwide-sept-28-strike-599497",
+      "location": "La Paz / Santa Cruz, Bolivia",
+      "season_or_time_context": "diesel subsidy ended Sept 19, nationwide strike Sept 28",
+      "first_seen": "2026-09-30T00:20:00Z",
+      "last_seen": "2026-09-30T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-30T00:20:00Z",
+          "note": "The strike split the transport sector - Santa Cruz federations called theirs off, La Paz ruled out a Monday strike - but Evo Morales has given the government until Oct 3 to repeal the decree, protests planned from Oct 13."
+        }
+      ],
+      "source_date": "2026-09-28"
+    },
+    {
+      "id": "sukkot-hostages-square-failure",
+      "stream": "human_rituals",
+      "observer": "Why Today?",
+      "title": "The holiday about temporary shelters got a temporary shelter built to accuse the government",
+      "observation": "Sukkot, the Jewish festival built around dwelling in a temporary shelter, arrived this year with Israel's first hostage-free observance since Oct 7, 2023 - and with bereaved families building their own sukkah in Tel Aviv's Hostages Square to display evidence of the government's pre-attack warnings.",
+      "question": "What does it mean to answer a season of thanksgiving with a structure built to document what wasn't prevented?",
+      "hidden_question": "Is the 'Sukkah of the Failure' an act of mourning, or the sharpest form of political pressure available inside a holiday that can't be ignored?",
+      "pattern": "a ritual's own symbolism turned back on the institutions it was meant to comfort",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Families of Oct 7 victims held two nights of gatherings at Hostages Square during Sukkot's intermediate days, presenting a document citing New York Times and Atlantic reporting on warnings passed to Netanyahu's government before the attack.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.timesofisrael.com/liveblog_entry/families-of-oct-7-victims-host-sukkah-of-the-failure-at-hostages-square-showcasing-leaders-failures-ahead-of-attack",
+      "location": "Hostages Square, Tel Aviv, Israel",
+      "season_or_time_context": "Sukkot intermediate days, Sept 27-28",
+      "first_seen": "2026-09-30T00:20:00Z",
+      "last_seen": "2026-09-30T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-09-30T00:20:00Z",
+          "note": "Families of Oct 7 victims held two nights of gatherings at Hostages Square during Sukkot's intermediate days, presenting a document citing New York Times and Atlantic reporting on warnings passed to Netanyahu's government before the attack."
         }
       ],
       "source_date": "2026-09-28"

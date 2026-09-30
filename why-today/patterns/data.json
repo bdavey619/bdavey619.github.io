@@ -1,6 +1,6 @@
 {
   "week": "2026-09-27",
-  "last_updated": "2026-09-29T15:30:00Z",
+  "last_updated": "2026-09-30T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -17,9 +17,9 @@
         },
         {
           "domain": "Energy Diplomacy",
-          "text": "Iran is touting its own Hormuz attacks as proof of leverage - even as oil shipments rebound to 12.8 million barrels a day, the highest since the war began. The \"shutdown\" both sides invoke as ongoing is undercut by the tankers that keep sailing through it.",
-          "url": "https://www.aljazeera.com/news/2026/9/28/iran-touts-hormuz-attacks-as-oil-flows-increase-despite-tensions",
-          "date": "2026-09-28",
+          "text": "Traffic through Hormuz is quietly nearing prewar levels - just 55 transits in a week, 94% below the prewar rate, yet crude exports have rebounded near-normal via direct Saudi terminal loads. Iran's 81-vessel blacklist hasn't deterred a single ship from sailing anyway.",
+          "url": "https://www.washingtontimes.com/news/2026/sep/29/hormuz-traffic-nears-prewar-levels-iran-war-simmers/",
+          "date": "2026-09-29",
           "is_new": true
         },
         {
@@ -27,14 +27,14 @@
           "text": "The 30-year briefly hit 5.613% Tuesday, its highest since 2002 - and traders now price 72% odds of an October hike, up from 64% two days earlier. The market keeps repricing faster than any Fed official has been willing to confirm.",
           "url": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html",
           "date": "2026-09-29",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Civil Conflict",
           "text": "Federal forces and an allied Tigray Peace Force claim to have captured Alamata, a potential opening toward Mekelle - the first federal advance claimed since the war restarted, unverifiable independently and impossible to square with the TPLF's own claims of control.",
           "url": "https://www.aljazeera.com/news/2026/9/29/fighting-in-ethiopia-intensifies-whats-the-latest",
           "date": "2026-09-29",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -81,11 +81,11 @@
       "momentum": "accelerating",
       "evidence": [
         {
-          "domain": "Mining Safety",
-          "text": "Sudan had two unrelated gold-mine collapses in a single week - 82 dead in West Kordofan with just one forklift for the whole rescue, then 10 more dead at the Awny mine near Egypt's border, survivors again digging themselves out. Same ungoverned gold rush, same missing inspector, twice.",
-          "url": "https://english.aawsat.com/arab-world/5320516-sudan-gold-mine-collapse-kills-10-injures-21",
-          "date": "2026-09-20",
-          "is_new": false
+          "domain": "Construction Safety",
+          "text": "The report on a Philippines building collapse that killed 30 workers in May is out: unapproved alterations added two extra floors and a rooftop pool, overstressing columns never designed for that load - changes no inspector caught before it came down.",
+          "url": "https://www.manilatimes.net/2026/09/29/regions/report-says-construction-blunders-led-to-building-collapse/2434295",
+          "date": "2026-09-29",
+          "is_new": true
         },
         {
           "domain": "Public Health",
@@ -99,7 +99,7 @@
           "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing. Five more bodies came out of the wreck on day 16 - the toll now 71, with 64 still unaccounted for, sixteen days after a ship carrying 243 people went down.",
           "url": "https://en.antaranews.com/news/433316/five-more-bodies-recovered-from-virgo-transport-8-ferry-wreck",
           "date": "2026-09-28",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
