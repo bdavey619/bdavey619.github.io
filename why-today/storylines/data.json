@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-27",
-  "cycle_start": "2026-09-30T14:30:00Z",
-  "last_updated": "2026-10-01T00:20:00Z",
+  "cycle_start": "2026-10-01T00:20:00Z",
+  "last_updated": "2026-10-01T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran says it has received a US counterproposal to its own seven-day ceasefire-and-reopening plan, and Araghchi presented it to President Pezeshkian at Wednesday's cabinet meeting - both sides reportedly agree on the steps needed, just not the order to take them in.",
+      "why_now": "Trump says the US now has \"virtually total control of the Hormuz Strait\" and the war will end \"very soon, one way or the other\" - a claim sitting awkwardly next to the actual transit count, still running at roughly 6% of its prewar weekly rate.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-it-received-us-response-to-latest-proposal/",
+      "url": "https://gulfnews.com/world/mena/trump-says-us-war-on-iran-will-end-very-soon-as-irgc-calls-it-a-failure-1.500692927",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-30T14:30:00Z",
-      "appearances": 8,
+      "last_seen": "2026-10-01T14:30:00Z",
+      "appearances": 9,
       "history": [
+        {
+          "date": "2026-10-01T14:30:00Z",
+          "note": "Trump says the US now has \"virtually total control of the Hormuz Strait\" and the war will end \"very soon, one way or the other\" - sitting awkwardly next to the actual transit count, still running at roughly 6% of its prewar weekly rate."
+        },
         {
           "date": "2026-09-30T14:30:00Z",
           "note": "Iran says it has received a US counterproposal to its seven-day ceasefire-and-reopening plan, and Araghchi presented it to President Pezeshkian at Wednesday's cabinet meeting - both sides reportedly agree on the steps needed, just not the order to take them in."
@@ -39,10 +43,6 @@
         {
           "date": "2026-09-29T00:20:00Z",
           "note": "Trump rejected Iran's plan but told Axios he still expects talks to resume this week - \"they want to make a deal, but it is not the deal that I want to make.\" Indirect talks could restart as early as Monday."
-        },
-        {
-          "date": "2026-09-28T14:30:00Z",
-          "note": "Iran's FM Araghchi told NBC Tehran is \"fully prepared for the war to be resumed,\" even a \"doomsday war\" if aggression continues - but says the seven-day offer Trump rejected \"still stands.\" Full readiness and an open door, in the same breath."
         }
       ],
       "source_date": "2026-09-30"
@@ -103,16 +103,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The trend just split by province: cases fell 26% in Ituri and 15% in Haut-Uele over 21 days - while North Kivu rose 73% over the same window. The response is working exactly where it's staffed, and failing exactly where it isn't.",
+      "why_now": "WHO says 50 health workers have now died since the outbreak began in May - the people the staffing shortage was supposed to be about are the ones it's killing. The outbreak is on pace to surpass the 2014-16 regional epidemic's 11,000 total deaths.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cidrap.umn.edu/ebola/dr-congo-ebola-outbreak-tops-8000-cases-48-death-rate",
+      "url": "https://www.arkansasonline.com/news/2026/sep/29/congos-outbreak-numbers-top-8000/",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-30T00:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-10-01T14:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-10-01T14:30:00Z",
+          "note": "WHO says 50 health workers have now died since the outbreak began in May - the people the staffing shortage was supposed to be about are the ones it's killing. The outbreak is on pace to surpass the 2014-16 regional epidemic's 11,000 deaths."
+        },
         {
           "date": "2026-09-30T00:20:00Z",
           "note": "The trend just split by province: cases fell 26% in Ituri and 15% in Haut-Uele over 21 days, while North Kivu rose 73% over the same window - working exactly where the response is staffed, failing exactly where it isn't."
@@ -143,16 +147,20 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The bet the market spent all week building just partly unwound: October hike odds fell to 47.1% from 70% within 48 hours, after a dovish speech from NY Fed's John Williams and a cooler-than-forecast PCE reading of 3%, against 3.3% expected.",
+      "why_now": "Yields hit a fresh multi-decade high - 10-year 5.33%, highest since 2002, 30-year 5.67%, highest since 2002 - even as October hike odds kept falling, now 37-40% versus over 70% a week ago. The bond market and the rate bet are no longer pointing the same direction.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://finance.yahoo.com/economy/policy/articles/odds-fed-rate-hike-fall-083935313.html",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-01-2026",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-30T14:30:00Z",
-      "appearances": 6,
+      "last_seen": "2026-10-01T14:30:00Z",
+      "appearances": 7,
       "history": [
+        {
+          "date": "2026-10-01T14:30:00Z",
+          "note": "Yields hit a fresh multi-decade high - 10-year 5.33%, 30-year 5.67%, both the highest since 2002 - even as October hike odds kept falling, now 37-40% versus over 70% a week ago. The bond market and the rate bet no longer point the same direction."
+        },
         {
           "date": "2026-09-30T14:30:00Z",
           "note": "The bet the market spent all week building just partly unwound: October hike odds fell to 47.1% from 70% within 48 hours, after a dovish NY Fed speech from John Williams and a cooler-than-forecast PCE reading of 3%, against 3.3% expected."
@@ -168,13 +176,9 @@
         {
           "date": "2026-09-28T14:30:00Z",
           "note": "Consumer sentiment just confirmed the Fed's worry: the University of Michigan index fell to a four-month low of 48.1, while year-ahead inflation expectations jumped to 4.6% - up from 3.4% before the Iran conflict began."
-        },
-        {
-          "date": "2026-09-28T00:20:00Z",
-          "note": "The next test arrives fast: the FOMC meets Oct 27-28, its decision landing alongside a fresh Summary of Economic Projections - the market's next chance to find out whether September's hike was the whole story or the first of a longer one."
         }
       ],
-      "source_date": "2026-09-30"
+      "source_date": "2026-10-01"
     },
     {
       "id": "lucas-museum-narrative-art-opens",
@@ -413,22 +417,26 @@
       "pattern": "a generation raised to expect secularism as the default instead producing its sharpest reversal",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The turnout numbers dwarf the last papal visit: 800,000 lined the Champs-\u00c9lys\u00e9es, 150,000 attended an open-air Mass in Lourdes, and 80,000 young people packed the Stade de France for a prayer vigil - visible, youth-heavy religious enthusiasm in a country that built its modern identity on secularism.",
+      "why_now": "Meeting the new converts in Paris, Leo called the surge a \"paradox\" that \"contradicts every defeatist attitude\" about the Church's future - while on the ground, the actual recruiting runs through TikTok-savvy priests and candlelight Masses that end with a QR code.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.washingtonpost.com/world/2026/09/27/rise-young-catholic-converts-points-spiritual-longing-us-europe/",
+      "url": "https://www.ncronline.org/vatican/vatican-news/french-catholics-believe-theyre-having-moment-pope-leo-seems-agree",
       "location": "France",
       "season_or_time_context": "coincides with Pope Leo XIV's Sept 25-28 France visit",
       "first_seen": "2026-09-29T00:20:00Z",
-      "last_seen": "2026-09-29T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-01T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-01T14:30:00Z",
+          "note": "Meeting the new converts in Paris, Leo called the surge a \"paradox\" that \"contradicts every defeatist attitude\" - while the actual recruiting runs through TikTok-savvy priests and candlelight Masses that end with a QR code."
+        },
         {
           "date": "2026-09-29T00:20:00Z",
           "note": "France's adult Catholic baptisms hit 13,234 in 2026, more than triple 2019's 4,263 - 82% of converts under 40, Gen Z alone 34% of that cohort, coinciding with Pope Leo XIV's visit drawing 800,000 to the Champs-\u00c9lys\u00e9es."
         }
       ],
-      "source_date": "2026-09-27"
+      "source_date": "2026-09-29"
     },
     {
       "id": "spacex-starship-reaches-orbit-first-time",
@@ -568,6 +576,35 @@
         {
           "date": "2026-10-01T00:20:00Z",
           "note": "The fossil - a complete, exceptionally preserved 3-year-old juvenile - was described Sept 29 in Nature Communications, named for paleontologists Mark Norell and Rinchen Barsbold, both of whom died in 2025, placing it in a different lineage than Microraptor itself."
+        }
+      ],
+      "source_date": "2026-09-30"
+    },
+    {
+      "id": "trump-executive-order-mosquitoes-ticks",
+      "stream": "curiosities",
+      "category": "Business & Technology",
+      "observer": "Why Today?",
+      "title": "The federal government just declared war on mosquitoes - with a deadline and a scoreboard",
+      "observation": "Trump signed an executive order targeting disease-carrying pests in Washington, D.C., directing agencies to cut Asian tiger and Egyptian mosquito populations 90% and ticks 50% by 2028, using non-chemical methods and HHS-run prize competitions for the best new techniques.",
+      "question": "What does it mean to run pest control the way you'd run a federal program - with agencies, deadlines and a percentage target?",
+      "hidden_question": "Is a numeric, dated mandate actually the right tool against an insect population, or a bureaucratic habit applied to a problem that doesn't respect calendars?",
+      "pattern": "a government applying its standard tools of deadlines and quotas to a problem that has never previously been managed that way",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The order was signed Sept 30 and directs Interior, Agriculture, EPA, HHS and GSA to jointly build the campaign - explicitly prioritizing non-chemical, technology-enabled methods over pesticides, a notable constraint for an administration otherwise skeptical of environmental regulation.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/09/eliminating-disease-carrying-pests-and-restoring-enjoyment-of-the-great-outdoors/",
+      "location": "Washington, DC",
+      "season_or_time_context": "executive order signed Sept 30, 2026, target year 2028",
+      "first_seen": "2026-10-01T14:30:00Z",
+      "last_seen": "2026-10-01T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-01T14:30:00Z",
+          "note": "The order was signed Sept 30 and directs Interior, Agriculture, EPA, HHS and GSA to jointly build the campaign - prioritizing non-chemical, technology-enabled methods over pesticides, a notable constraint for this administration."
         }
       ],
       "source_date": "2026-09-30"

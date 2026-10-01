@@ -1,6 +1,6 @@
 {
   "week": "2026-09-27",
-  "last_updated": "2026-10-01T00:20:00Z",
+  "last_updated": "2026-10-01T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -17,10 +17,10 @@
         },
         {
           "domain": "Energy Diplomacy",
-          "text": "Traffic through Hormuz is quietly nearing prewar levels - just 55 transits in a week, 94% below the prewar rate, yet crude exports have rebounded near-normal via direct Saudi terminal loads. Iran's 81-vessel blacklist hasn't deterred a single ship from sailing anyway.",
-          "url": "https://www.washingtontimes.com/news/2026/sep/29/hormuz-traffic-nears-prewar-levels-iran-war-simmers/",
-          "date": "2026-09-29",
-          "is_new": false
+          "text": "Trump says the US now has \"virtually total control of the Hormuz Strait\" - a claim sitting next to a transit count still running at roughly 6% of its prewar weekly rate, even as crude exports have found workarounds back to near-normal volumes.",
+          "url": "https://gulfnews.com/world/mena/trump-says-us-war-on-iran-will-end-very-soon-as-irgc-calls-it-a-failure-1.500692927",
+          "date": "2026-09-30",
+          "is_new": true
         },
         {
           "domain": "Debt Management",
@@ -46,10 +46,10 @@
       "evidence": [
         {
           "domain": "Public Health",
-          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June. The tally has since topped 8,000 confirmed and 3,901 dead, the fastest-growing outbreak on record - a resolution in name only, since it never actually stopped growing after the declaration.",
-          "url": "https://www.cidrap.umn.edu/ebola/dr-congo-ebola-outbreak-tops-8000-cases-48-death-rate",
+          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June. Fifty health workers have since died fighting it, and the outbreak is on pace to surpass the 2014-16 regional epidemic's 11,000 deaths - a resolution in name only.",
+          "url": "https://www.arkansasonline.com/news/2026/sep/29/congos-outbreak-numbers-top-8000/",
           "date": "2026-09-29",
-          "is_new": false
+          "is_new": true
         },
         {
           "domain": "Foreign Policy",
@@ -99,7 +99,7 @@
           "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing - and three weeks later, the only accountability is a single captain, Arief Yunianto, named a suspect and detained. The system that let it sail overloaded faces no charge at all.",
           "url": "https://news.detik.com/berita/d-8686756/nakhoda-km-virgo-ditetapkan-jadi-tersangka-langsung-ditahan",
           "date": "2026-09-30",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
