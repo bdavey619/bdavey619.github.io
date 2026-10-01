@@ -3,7 +3,7 @@
   "team_slug": "padres",
   "month": "2026-09",
   "division_name": "NL West",
-  "generated_at": "2026-09-30T16:27:08.635506+00:00",
+  "generated_at": "2026-10-01T17:04:28.685662+00:00",
   "games": [
     {
       "date": "2026-09-01",
@@ -247,7 +247,7 @@
   ],
   "summary": {
     "month_record": "18\u20136",
-    "current_streak": "W2",
-    "last_10": "8\u20132"
+    "current_streak": "",
+    "last_10": ""
   }
 }
