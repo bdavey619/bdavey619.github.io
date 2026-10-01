@@ -1,6 +1,6 @@
 {
   "week": "2026-09-27",
-  "last_updated": "2026-09-30T14:30:00Z",
+  "last_updated": "2026-10-01T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -27,7 +27,7 @@
           "text": "The market's own confident bet just partly unwound: October hike odds fell to 47.1% from 70% within 48 hours, after a dovish NY Fed speech and a cooler-than-forecast PCE reading. Tuesday's conviction became Wednesday's reversal.",
           "url": "https://finance.yahoo.com/economy/policy/articles/odds-fed-rate-hike-fall-083935313.html",
           "date": "2026-09-30",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Civil Conflict",
@@ -49,7 +49,7 @@
           "text": "M23 declared DRC's Ebola outbreak over in its territory in late June. The tally has since topped 8,000 confirmed and 3,901 dead, the fastest-growing outbreak on record - a resolution in name only, since it never actually stopped growing after the declaration.",
           "url": "https://www.cidrap.umn.edu/ebola/dr-congo-ebola-outbreak-tops-8000-cases-48-death-rate",
           "date": "2026-09-29",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Foreign Policy",
@@ -70,7 +70,7 @@
           "text": "Yanbu loadings have technically resumed - satellite imagery shows about 10 million barrels moving - but at roughly 2 million bpd, a third of the pre-attack rate. Aramco says full recovery to 5.5 million bpd could still take another month.",
           "url": "https://www.marinelink.com/news/yanbu-oil-loadings-resume-pipeline-543342",
           "date": "2026-09-29",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -96,10 +96,10 @@
         },
         {
           "domain": "Maritime Safety",
-          "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing. Five more bodies came out of the wreck on day 16 - the toll now 71, with 64 still unaccounted for, sixteen days after a ship carrying 243 people went down.",
-          "url": "https://en.antaranews.com/news/433316/five-more-bodies-recovered-from-virgo-transport-8-ferry-wreck",
-          "date": "2026-09-28",
-          "is_new": false
+          "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing - and three weeks later, the only accountability is a single captain, Arief Yunianto, named a suspect and detained. The system that let it sail overloaded faces no charge at all.",
+          "url": "https://news.detik.com/berita/d-8686756/nakhoda-km-virgo-ditetapkan-jadi-tersangka-langsung-ditahan",
+          "date": "2026-09-30",
+          "is_new": true
         }
       ]
     }
