@@ -1,6 +1,6 @@
 {
   "week": "2026-09-27",
-  "last_updated": "2026-10-02T00:20:00Z",
+  "last_updated": "2026-10-02T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -13,7 +13,7 @@
           "text": "Three more tankers - all Liberia-flagged - were struck by unknown projectiles transiting the strait, one catching fire. It happened a day after Trump claimed \"virtually total control.\" No one has claimed these strikes either.",
           "url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
           "date": "2026-09-29",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy Diplomacy",
@@ -56,7 +56,7 @@
           "text": "The summit did produce a real $30B tariff-reduction deal and new AI-safety talks - but Trump is simultaneously slowing aircraft-part exports to China for negotiating leverage. The deal is real; so is the squeeze sitting right next to it.",
           "url": "https://kfgo.com/2026/10/01/exclusive-us-slows-aircraft-part-exports-to-china-as-trump-seeks-leverage-in-trade-negotiations-sources-say/",
           "date": "2026-10-01",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Economic Policy",
@@ -89,10 +89,10 @@
         },
         {
           "domain": "Public Health",
-          "text": "DRC's Ebola outbreak topped 8,000 confirmed cases, and the constraint has moved from tracing to bodies: officials say the country is running out of health workers to contain a disease with no approved vaccine or treatment - the oversight vacuum is now a staffing one.",
-          "url": "https://abcnews.com/International/wireStory/congo-ebola-outbreak-tops-8000-confirmed-cases-disease-136816027",
-          "date": "2026-09-28",
-          "is_new": false
+          "text": "Deaths topped 4,000, and in Bunia - the outbreak's epicenter - the surveillance workers who trace exposure went on strike over unpaid wages and were dispersed by officials. The containment staff themselves are now the vacuum.",
+          "url": "https://www.inquirer.com/news/nation-world/ebola-virus-containment-congo-20261002.html",
+          "date": "2026-10-02",
+          "is_new": true
         },
         {
           "domain": "Maritime Safety",

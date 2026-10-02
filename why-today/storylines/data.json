@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-27",
-  "cycle_start": "2026-10-01T14:30:00Z",
-  "last_updated": "2026-10-02T00:20:00Z",
+  "cycle_start": "2026-10-02T00:20:00Z",
+  "last_updated": "2026-10-02T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -103,16 +103,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "WHO says 50 health workers have now died since the outbreak began in May - the people the staffing shortage was supposed to be about are the ones it's killing. The outbreak is on pace to surpass the 2014-16 regional epidemic's 11,000 total deaths.",
+      "why_now": "Deaths topped 4,000 - and in Bunia, the outbreak's epicenter, health workers protested for unpaid wages and were dispersed by officials. The people tracing exposure are now on strike over pay, in the fastest-growing Ebola outbreak on record.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.arkansasonline.com/news/2026/sep/29/congos-outbreak-numbers-top-8000/",
+      "url": "https://www.inquirer.com/news/nation-world/ebola-virus-containment-congo-20261002.html",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-01T14:30:00Z",
-      "appearances": 5,
+      "last_seen": "2026-10-02T14:30:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-10-02T14:30:00Z",
+          "note": "Deaths topped 4,000 - and in Bunia, the outbreak's epicenter, health workers protested for unpaid wages and were dispersed by officials. The people tracing exposure are now on strike over pay, in the fastest-growing Ebola outbreak on record."
+        },
         {
           "date": "2026-10-01T14:30:00Z",
           "note": "WHO says 50 health workers have now died since the outbreak began in May - the people the staffing shortage was supposed to be about are the ones it's killing. The outbreak is on pace to surpass the 2014-16 regional epidemic's 11,000 deaths."
@@ -128,13 +132,9 @@
         {
           "date": "2026-09-28T00:20:00Z",
           "note": "The two new health zones now have names: Bulu (South Ubangi, on the Central African Republic border) and Dungu (Haut-U\u00e9l\u00e9, on the South Sudan border) - the outbreak now spans 63 health zones across seven provinces, reaching two international frontiers."
-        },
-        {
-          "date": "2026-09-27T00:20:00Z",
-          "note": "The outbreak spread to two new health zones, WHO confirmed, as the tally hit 7,890 confirmed/3,799 dead. Africa CDC's chief says contact tracing is falling far short: most new cases are among people unknown to health authorities before diagnosis."
         }
       ],
-      "source_date": "2026-09-29"
+      "source_date": "2026-10-02"
     },
     {
       "id": "fed-first-hike-since-2023",
@@ -147,16 +147,20 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Yields hit a fresh multi-decade high - 10-year 5.33%, highest since 2002, 30-year 5.67%, highest since 2002 - even as October hike odds kept falling, now 37-40% versus over 70% a week ago. The bond market and the rate bet are no longer pointing the same direction.",
+      "why_now": "September payrolls landed far short - 29,000 jobs added against 80,000+ expected - and October hike odds collapsed to 16-28%, down from 64% a week ago. The jobs report did in one morning what days of Fed speeches couldn't.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-01-2026",
+      "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-01T14:30:00Z",
-      "appearances": 7,
+      "last_seen": "2026-10-02T14:30:00Z",
+      "appearances": 8,
       "history": [
+        {
+          "date": "2026-10-02T14:30:00Z",
+          "note": "September payrolls landed far short - 29,000 jobs added against 80,000+ expected - and October hike odds collapsed to 16-28%, down from 64% a week ago. The jobs report did in one morning what days of Fed speeches couldn't."
+        },
         {
           "date": "2026-10-01T14:30:00Z",
           "note": "Yields hit a fresh multi-decade high - 10-year 5.33%, 30-year 5.67%, both the highest since 2002 - even as October hike odds kept falling, now 37-40% versus over 70% a week ago. The bond market and the rate bet no longer point the same direction."
@@ -172,13 +176,9 @@
         {
           "date": "2026-09-29T00:20:00Z",
           "note": "The 10-year hit a fresh 19-year high of 5.27% Monday, the 30-year climbed to 5.55% - and Fed Governor Lisa Cook said she expects AI investment and higher oil prices to keep pushing inflation up, naming the war as a direct policy input."
-        },
-        {
-          "date": "2026-09-28T14:30:00Z",
-          "note": "Consumer sentiment just confirmed the Fed's worry: the University of Michigan index fell to a four-month low of 48.1, while year-ahead inflation expectations jumped to 4.6% - up from 3.4% before the Iran conflict began."
         }
       ],
-      "source_date": "2026-10-01"
+      "source_date": "2026-10-02"
     },
     {
       "id": "lucas-museum-narrative-art-opens",
@@ -256,16 +256,20 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Blasts were heard in Addis Ababa itself as federal forces pushed to within 40km of Mekelle - electricity and internet in the region have been cut, TPLF leaders have left the city, and thousands of civilians are fleeing.",
+      "why_now": "Pro-government forces retook the Afar towns of Abala, Erebti and Megale, while Tigray forces still hold the Mekelle, Axum and Shire airports they seized first. Separately, 45 Israeli tourists were rescued by helicopter from Lalibela amid the fighting.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/10/1/blasts-heard-in-addis-ababa-as-ethiopia-conflict-widens-in-the-north",
+      "url": "https://www.jpost.com/israel-news/article-910248",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-02T00:20:00Z",
-      "appearances": 8,
+      "last_seen": "2026-10-02T14:30:00Z",
+      "appearances": 9,
       "history": [
+        {
+          "date": "2026-10-02T14:30:00Z",
+          "note": "Pro-government forces retook the Afar towns of Abala, Erebti and Megale, while Tigray forces still hold the Mekelle, Axum and Shire airports they seized first. Separately, 45 Israeli tourists were rescued by helicopter from Lalibela amid the fighting."
+        },
         {
           "date": "2026-10-02T00:20:00Z",
           "note": "Blasts were heard in Addis Ababa itself as federal forces pushed to within 40km of Mekelle - electricity and internet in the region have been cut, TPLF leaders have left the city, and thousands of civilians are fleeing."
@@ -281,13 +285,9 @@
         {
           "date": "2026-09-29T15:30:00Z",
           "note": "The momentum just swung: federal forces and an allied Tigray Peace Force claim to have captured Alamata, 120km south of Mekelle - a foothold that could open the road toward Tigray's capital, the first federal advance claimed since the war restarted."
-        },
-        {
-          "date": "2026-09-28T14:30:00Z",
-          "note": "Tigray forces took Erebti and are advancing toward Afdeera in Afar, targeting the supply corridor from Djibouti that carries nearly all of Ethiopia's trade and fuel - the army withdrawing deeper into the region, 150,000 feared displaced."
         }
       ],
-      "source_date": "2026-10-01"
+      "source_date": "2026-10-02"
     },
     {
       "id": "argentina-poverty-rate-rises-milei",
@@ -478,8 +478,8 @@
       "pattern": "a structural failure explained only after enough time has passed that the explanation cannot help anyone it killed",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The fact-finding task force's final report: overstressed columns and piles caused the collapse, worsened by two extra floors and a rooftop pool added after approval - changes no inspector caught before the building came down.",
-      "status": "captured",
+      "why_now": "A follow-up search surfaced a P11.4 million DOLE fine as if new, but it traced back to a June order, already resolved and under appeal months before this report. No genuinely new development since the investigation report. Going dormant; worth reactivating if criminal charges are actually filed.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.manilatimes.net/2026/09/29/regions/report-says-construction-blunders-led-to-building-collapse/2434295",
       "location": "Angeles City, Pampanga, Philippines",
@@ -507,22 +507,26 @@
       "pattern": "an externally-imposed economic condition landing first on the population least able to absorb it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The strike split the transport sector - Santa Cruz federations called theirs off, La Paz ruled out a Monday strike - but Evo Morales has given the government until Oct 3 to repeal the decree, with protests planned from Oct 13.",
+      "why_now": "Bolivia's IMF board vote on the $1.9 billion program - the deal whose condition triggered the diesel hike in the first place - lands today, a day before Morales's own Oct 3 deadline for the government to repeal the decree.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.latintimes.com/bolivia-imf-loan-deal-triggers-83-diesel-hike-transport-union-calls-nationwide-sept-28-strike-599497",
+      "url": "https://www.riotimesonline.com/bolivia-imf-board-vote-october-2-2026-expats-savers/",
       "location": "La Paz / Santa Cruz, Bolivia",
       "season_or_time_context": "diesel subsidy ended Sept 19, nationwide strike Sept 28",
       "first_seen": "2026-09-30T00:20:00Z",
-      "last_seen": "2026-09-30T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-02T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-02T14:30:00Z",
+          "note": "Bolivia's IMF board vote on the $1.9 billion program - the deal whose condition triggered the diesel hike in the first place - lands today, a day before Morales's own Oct 3 deadline for the government to repeal the decree."
+        },
         {
           "date": "2026-09-30T00:20:00Z",
           "note": "The strike split the transport sector - Santa Cruz federations called theirs off, La Paz ruled out a Monday strike - but Evo Morales has given the government until Oct 3 to repeal the decree, protests planned from Oct 13."
         }
       ],
-      "source_date": "2026-09-28"
+      "source_date": "2026-10-02"
     },
     {
       "id": "sukkot-hostages-square-failure",
@@ -535,8 +539,8 @@
       "pattern": "a ritual's own symbolism turned back on the institutions it was meant to comfort",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Families of Oct 7 victims held two nights of gatherings at Hostages Square during Sukkot's intermediate days, presenting a document citing New York Times and Atlantic reporting on warnings passed to Netanyahu's government before the attack.",
-      "status": "captured",
+      "why_now": "A dedicated check found no further development on the Sukkah of the Failure protest itself - the gatherings concluded and coverage since has moved to unrelated holiday news. Going dormant; worth reactivating if the families' accountability push produces an official response.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.timesofisrael.com/liveblog_entry/families-of-oct-7-victims-host-sukkah-of-the-failure-at-hostages-square-showcasing-leaders-failures-ahead-of-attack",
       "location": "Hostages Square, Tel Aviv, Israel",
@@ -608,6 +612,34 @@
         }
       ],
       "source_date": "2026-09-30"
+    },
+    {
+      "id": "anak-krakatau-new-islands-emerge",
+      "stream": "places",
+      "observer": "Why Today?",
+      "title": "The volcano that created Krakatoa's child just grew two more",
+      "observation": "A 25-hour eruption at Indonesia's Anak Krakatau produced two new island-like mounds offshore - one 760m northwest, one 495m southeast - the first new land to emerge in the Krakatoa caldera in nearly a century, detected via ESA's Sentinel satellites.",
+      "question": "How permanent is land created by the same violence that could erode it away again within years?",
+      "hidden_question": "Is this the start of a new island, or a repeat of the mounds that rose and vanished between 1927 and 1930 before Anak Krakatau itself endured?",
+      "pattern": "a landscape rebuilding itself through the same volcanic violence that destroys it",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Anak Krakatau itself gained 32.8 hectares from pyroclastic deposits and lava during the same eruption - but history isn't encouraging: similar mounds rose and eroded away repeatedly between 1927 and 1930 before the main island actually endured.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/10/02/new-islands-appear-after-indonesia-s-anak-krakatau-volcano-erupts",
+      "location": "Sunda Strait, Indonesia",
+      "season_or_time_context": "eruption early September 2026, islands reported Oct 2",
+      "first_seen": "2026-10-02T14:30:00Z",
+      "last_seen": "2026-10-02T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-02T14:30:00Z",
+          "note": "Anak Krakatau gained 32.8 hectares from pyroclastic deposits and lava during the same 25-hour eruption that produced two offshore mounds - but similar landmasses rose and eroded away repeatedly between 1927 and 1930 before the main island endured."
+        }
+      ],
+      "source_date": "2026-10-02"
     }
   ]
 }
