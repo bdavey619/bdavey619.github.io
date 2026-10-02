@@ -1,6 +1,6 @@
 {
   "week": "2026-09-27",
-  "last_updated": "2026-10-01T14:30:00Z",
+  "last_updated": "2026-10-02T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -10,17 +10,17 @@
       "evidence": [
         {
           "domain": "Information Warfare",
-          "text": "Hours after Trump rejected Iran's reopening offer, explosions hit near Qeshm Island - antiship missiles and drones fired at transiting vessels, per Iranian media. No one has claimed the strikes. Weeks in, who fired still can't be pinned down within the same cycle.",
-          "url": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal",
-          "date": "2026-09-27",
-          "is_new": false
+          "text": "Three more tankers - all Liberia-flagged - were struck by unknown projectiles transiting the strait, one catching fire. It happened a day after Trump claimed \"virtually total control.\" No one has claimed these strikes either.",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
+          "date": "2026-09-29",
+          "is_new": true
         },
         {
           "domain": "Energy Diplomacy",
           "text": "Trump says the US now has \"virtually total control of the Hormuz Strait\" - a claim sitting next to a transit count still running at roughly 6% of its prewar weekly rate, even as crude exports have found workarounds back to near-normal volumes.",
           "url": "https://gulfnews.com/world/mena/trump-says-us-war-on-iran-will-end-very-soon-as-irgc-calls-it-a-failure-1.500692927",
           "date": "2026-09-30",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Debt Management",
@@ -41,7 +41,7 @@
     {
       "id": "resolved-in-form-not-in-fact",
       "title": "Three things that looked like resolutions this week all deferred the real question to later",
-      "explanation": "A ceasefire, a court ruling, and a shipping framework all landed this week wearing the shape of a resolution \u2014 and in each case, the people closest to it said out loud that the actual question is still open. A peace roadmap got its first verification mission, not a verified peace. A Supreme Court stay resolved a procedural fight while its own justices noted the underlying legality is untouched. A transit deal is 'in principle' and 'still being finalized.' Each is a real step. None of them is the thing a headline would make it sound like.",
+      "explanation": "A ceasefire, a court ruling, and a shipping framework all landed this week wearing the shape of a resolution — and in each case, the people closest to it said out loud that the actual question is still open. A peace roadmap got its first verification mission, not a verified peace. A Supreme Court stay resolved a procedural fight while its own justices noted the underlying legality is untouched. A transit deal is 'in principle' and 'still being finalized.' Each is a real step. None of them is the thing a headline would make it sound like.",
       "momentum": "accelerating",
       "evidence": [
         {
@@ -49,14 +49,14 @@
           "text": "M23 declared DRC's Ebola outbreak over in its territory in late June. Fifty health workers have since died fighting it, and the outbreak is on pace to surpass the 2014-16 regional epidemic's 11,000 deaths - a resolution in name only.",
           "url": "https://www.arkansasonline.com/news/2026/sep/29/congos-outbreak-numbers-top-8000/",
           "date": "2026-09-29",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Foreign Policy",
-          "text": "The Trump-Xi summit's own verdict confirmed the prediction: \"big on pomp but small on substance.\" The leaders didn't even converge on rhetoric about AI - Trump calls extinction risk a \"hoax,\" Xi wants it \"under human control.\" The pageantry landed; the stalemate didn't move.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-25/trump-xi-summit-goes-big-on-pomp-but-small-on-substance",
-          "date": "2026-09-25",
-          "is_new": false
+          "text": "The summit did produce a real $30B tariff-reduction deal and new AI-safety talks - but Trump is simultaneously slowing aircraft-part exports to China for negotiating leverage. The deal is real; so is the squeeze sitting right next to it.",
+          "url": "https://kfgo.com/2026/10/01/exclusive-us-slows-aircraft-part-exports-to-china-as-trump-seeks-leverage-in-trade-negotiations-sources-say/",
+          "date": "2026-10-01",
+          "is_new": true
         },
         {
           "domain": "Economic Policy",

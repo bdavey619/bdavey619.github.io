@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-27",
-  "cycle_start": "2026-10-01T00:20:00Z",
-  "last_updated": "2026-10-01T14:30:00Z",
+  "cycle_start": "2026-10-01T14:30:00Z",
+  "last_updated": "2026-10-02T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Trump says the US now has \"virtually total control of the Hormuz Strait\" and the war will end \"very soon, one way or the other\" - a claim sitting awkwardly next to the actual transit count, still running at roughly 6% of its prewar weekly rate.",
+      "why_now": "Three more tankers, all Liberia-flagged, were struck by unknown projectiles while transiting - one caught fire, crew safe. It happened a day after Trump claimed \"virtually total control\" of the strait; no one has claimed the strikes.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://gulfnews.com/world/mena/trump-says-us-war-on-iran-will-end-very-soon-as-irgc-calls-it-a-failure-1.500692927",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-01T14:30:00Z",
-      "appearances": 9,
+      "last_seen": "2026-10-02T00:20:00Z",
+      "appearances": 10,
       "history": [
+        {
+          "date": "2026-10-02T00:20:00Z",
+          "note": "Three more tankers, all Liberia-flagged, were struck by unknown projectiles while transiting - one caught fire, crew safe. It happened a day after Trump claimed \"virtually total control\" of the strait; no one has claimed the strikes."
+        },
         {
           "date": "2026-10-01T14:30:00Z",
           "note": "Trump says the US now has \"virtually total control of the Hormuz Strait\" and the war will end \"very soon, one way or the other\" - sitting awkwardly next to the actual transit count, still running at roughly 6% of its prewar weekly rate."
@@ -39,13 +43,9 @@
         {
           "date": "2026-09-29T15:30:00Z",
           "note": "Iran is touting its own attacks as leverage even as oil keeps moving: shipments rebounded to 12.8 million barrels a day in September, the highest since the war began - the \"shutdown\" narrative both sides invoke, undercut by the tankers still sailing."
-        },
-        {
-          "date": "2026-09-29T00:20:00Z",
-          "note": "Trump rejected Iran's plan but told Axios he still expects talks to resume this week - \"they want to make a deal, but it is not the deal that I want to make.\" Indirect talks could restart as early as Monday."
         }
       ],
-      "source_date": "2026-09-30"
+      "source_date": "2026-09-29"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -256,16 +256,20 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Unverified sources now say federal forces have pushed 150km into Tigray, retaking Mekoni, Wajena and Adi Gudom - just 39km from Mekelle - with at least 52 civilians reported dead in fighting around Alamata. Access restrictions mean none of it can be independently confirmed.",
+      "why_now": "Blasts were heard in Addis Ababa itself as federal forces pushed to within 40km of Mekelle - electricity and internet in the region have been cut, TPLF leaders have left the city, and thousands of civilians are fleeing.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://allafrica.com/stories/202609300324.html",
+      "url": "https://www.aljazeera.com/news/2026/10/1/blasts-heard-in-addis-ababa-as-ethiopia-conflict-widens-in-the-north",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-01T00:20:00Z",
-      "appearances": 7,
+      "last_seen": "2026-10-02T00:20:00Z",
+      "appearances": 8,
       "history": [
+        {
+          "date": "2026-10-02T00:20:00Z",
+          "note": "Blasts were heard in Addis Ababa itself as federal forces pushed to within 40km of Mekelle - electricity and internet in the region have been cut, TPLF leaders have left the city, and thousands of civilians are fleeing."
+        },
         {
           "date": "2026-10-01T00:20:00Z",
           "note": "Unverified sources say federal forces have pushed 150km into Tigray, retaking Mekoni, Wajena and Adi Gudom - just 39km from Mekelle - with at least 52 civilians reported dead around Alamata. Access restrictions mean none of it can be independently confirmed."
@@ -281,13 +285,9 @@
         {
           "date": "2026-09-28T14:30:00Z",
           "note": "Tigray forces took Erebti and are advancing toward Afdeera in Afar, targeting the supply corridor from Djibouti that carries nearly all of Ethiopia's trade and fuel - the army withdrawing deeper into the region, 150,000 feared displaced."
-        },
-        {
-          "date": "2026-09-28T00:20:00Z",
-          "note": "Ethiopia's army chief widened the blame beyond the battlefield, accusing Egypt and Sudan of backing the alliance seeking to oust Abiy - a foreign-conspiracy framing offered without public evidence, escalating a civil war into a regional-destabilization claim."
         }
       ],
-      "source_date": "2026-09-30"
+      "source_date": "2026-10-01"
     },
     {
       "id": "argentina-poverty-rate-rises-milei",
@@ -450,8 +450,8 @@
       "pattern": "a program's iterate-in-public approach turning a partial failure into a milestone rather than an embarrassment",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "SpaceX cut the flight short anyway, bringing the upper stage back after 1.5 hours instead of the planned nine - success on the headline goal, orbit, paired with a quieter admission that the full mission plan still didn't go as designed.",
-      "status": "captured",
+      "why_now": "A dedicated check found only recap and forward-looking plans (Artemis test flights, 2027 AI-compute satellites) - no new development on the orbital flight itself. Going dormant; worth reactivating at the next Starship test or NASA milestone.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.aljazeera.com/news/2026/9/28/spacexs-showpiece-starship-rocket-reaches-orbit-for-first-time",
       "location": "Starbase, Texas",
