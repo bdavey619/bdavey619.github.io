@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-27",
-  "cycle_start": "2026-10-02T14:30:00Z",
-  "last_updated": "2026-10-03T00:20:00Z",
+  "cycle_start": "2026-10-03T00:20:00Z",
+  "last_updated": "2026-10-03T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -103,16 +103,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The outbreak crossed its own border: a care worker who tested positive was repatriated to the Netherlands Oct 1 - the exposure risk is no longer contained to the provinces fighting it, even as WHO flags the virus spreading into still more health zones.",
+      "why_now": "Soldiers searching for weapons burned down a displacement camp's Ebola transit center in Kigonze, outside Bunia, forcing 19,000 people to flee - destroying the containment infrastructure while hunting for something unrelated to the outbreak entirely.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cbsnews.com/news/ebola-deaths-congo-4000-fastest-growing-outbreak-history/",
+      "url": "https://news.un.org/en/story/2026/10/1168499",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-03T00:20:00Z",
-      "appearances": 7,
+      "last_seen": "2026-10-03T14:30:00Z",
+      "appearances": 8,
       "history": [
+        {
+          "date": "2026-10-03T14:30:00Z",
+          "note": "Soldiers searching for weapons burned down a displacement camp's Ebola transit center in Kigonze, outside Bunia, forcing 19,000 people to flee - destroying the containment infrastructure while hunting for something unrelated to the outbreak entirely."
+        },
         {
           "date": "2026-10-03T00:20:00Z",
           "note": "The outbreak crossed its own border: a care worker who tested positive was repatriated to the Netherlands Oct 1 - the exposure risk is no longer contained to the provinces fighting it, even as WHO flags the virus spreading into still more health zones."
@@ -128,10 +132,6 @@
         {
           "date": "2026-09-30T00:20:00Z",
           "note": "The trend just split by province: cases fell 26% in Ituri and 15% in Haut-Uele over 21 days, while North Kivu rose 73% over the same window - working exactly where the response is staffed, failing exactly where it isn't."
-        },
-        {
-          "date": "2026-09-29T00:20:00Z",
-          "note": "The outbreak topped 8,000 confirmed cases (8,067, 3,901 dead) - and the constraint has shifted from tracing to staffing: Congo is running out of health workers to contain a disease with no approved vaccine or treatment."
         }
       ],
       "source_date": "2026-10-02"
@@ -256,16 +256,20 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Mekelle's banks and shops have closed as federal forces near the city and diplomatic ties with Eritrea collapse entirely - analysts now warn the conflict could widen well beyond Tigray's borders rather than resolve at its gates.",
+      "why_now": "Federal forces have retaken Alula Aba Nega Airport, the first of the three airfields rebels seized to fall back into government hands - and TPLF fighters are reportedly abandoning Mekelle itself, though no federal troops have yet been confirmed inside the city.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://moderndiplomacy.eu/2026/10/02/fears-of-wider-ethiopia-conflict-grow-as-forces-near-tigray-capital/",
+      "url": "https://aljazeera.com/news/2026/10/3/rebels-pulling-back-as-addis-ababas-forces-advance-reports-say",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-03T00:20:00Z",
-      "appearances": 10,
+      "last_seen": "2026-10-03T14:30:00Z",
+      "appearances": 11,
       "history": [
+        {
+          "date": "2026-10-03T14:30:00Z",
+          "note": "Federal forces have retaken Alula Aba Nega Airport, the first of the three airfields rebels seized to fall back into government hands - and TPLF fighters are reportedly abandoning Mekelle itself, though no federal troops have yet been confirmed inside the city."
+        },
         {
           "date": "2026-10-03T00:20:00Z",
           "note": "Mekelle's banks and shops have closed as federal forces near the city and diplomatic ties with Eritrea collapse entirely - analysts now warn the conflict could widen well beyond Tigray's borders rather than resolve at its gates."
@@ -281,13 +285,9 @@
         {
           "date": "2026-10-01T00:20:00Z",
           "note": "Unverified sources say federal forces have pushed 150km into Tigray, retaking Mekoni, Wajena and Adi Gudom - just 39km from Mekelle - with at least 52 civilians reported dead around Alamata. Access restrictions mean none of it can be independently confirmed."
-        },
-        {
-          "date": "2026-09-30T14:30:00Z",
-          "note": "MSF says war-wounded patients at Korem and Alamata hospitals jumped from about 180 to over 420 in three days, while more than 300 reached Suhul Hospital in Shire - over 720 wounded total, with Alamata Hospital's own outreach services now suspended."
         }
       ],
-      "source_date": "2026-10-02"
+      "source_date": "2026-10-03"
     },
     {
       "id": "argentina-poverty-rate-rises-milei",
@@ -571,22 +571,26 @@
       "pattern": "a single evolutionary solution appearing independently in separate lineages facing the same engineering problem",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The fossil - a complete, exceptionally preserved 3-year-old juvenile - was described Sept 29 in Nature Communications, named for paleontologists Mark Norell and Rinchen Barsbold, both of whom died in 2025. Its anatomy places it in a different microraptorine lineage than Microraptor itself.",
+      "why_now": "The deeper analysis: about 30% of the anatomical changes on Norellraptor's family tree also appear in the lineage leading to birds - but acquired in a different sequence, arguing against a shared blueprint and for separate evolutionary pressures reaching the same answer.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.natureworldnews.com/articles/73403/20260930/complete-four-winged-dinosaur-china-adds-evidence-that-flight-anatomy-evolved-more-once.htm",
+      "url": "https://greekreporter.com/2026/10/02/new-four-winged-dinosaur-suggests-flight-evolved-independently-birds/",
       "location": "Jiufotang Formation, Liaoning, China (Early Cretaceous)",
       "season_or_time_context": "described Sept 29, 2026",
       "first_seen": "2026-10-01T00:20:00Z",
-      "last_seen": "2026-10-01T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-03T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-03T14:30:00Z",
+          "note": "The deeper analysis: about 30% of the anatomical changes on Norellraptor's family tree also appear in the lineage leading to birds - but acquired in a different sequence, arguing against a shared blueprint and for separate evolutionary pressures reaching the same answer."
+        },
         {
           "date": "2026-10-01T00:20:00Z",
           "note": "The fossil - a complete, exceptionally preserved 3-year-old juvenile - was described Sept 29 in Nature Communications, named for paleontologists Mark Norell and Rinchen Barsbold, both of whom died in 2025, placing it in a different lineage than Microraptor itself."
         }
       ],
-      "source_date": "2026-09-30"
+      "source_date": "2026-10-02"
     },
     {
       "id": "trump-executive-order-mosquitoes-ticks",
