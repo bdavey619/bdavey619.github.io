@@ -1,6 +1,6 @@
 {
   "week": "2026-09-27",
-  "last_updated": "2026-10-02T14:30:00Z",
+  "last_updated": "2026-10-03T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -31,10 +31,10 @@
         },
         {
           "domain": "Civil Conflict",
-          "text": "Federal forces and an allied Tigray Peace Force claim to have captured Alamata, a potential opening toward Mekelle - the first federal advance claimed since the war restarted, unverifiable independently and impossible to square with the TPLF's own claims of control.",
-          "url": "https://www.aljazeera.com/news/2026/9/29/fighting-in-ethiopia-intensifies-whats-the-latest",
-          "date": "2026-09-29",
-          "is_new": false
+          "text": "Mekelle's banks and shops have closed as federal forces near the city and diplomatic ties with Eritrea collapse entirely - a claim of imminent victory sitting next to analysts' warnings the war could widen rather than end at the capital's gates.",
+          "url": "https://moderndiplomacy.eu/2026/10/02/fears-of-wider-ethiopia-conflict-grow-as-forces-near-tigray-capital/",
+          "date": "2026-10-02",
+          "is_new": true
         }
       ]
     },
@@ -92,14 +92,14 @@
           "text": "Deaths topped 4,000, and in Bunia - the outbreak's epicenter - the surveillance workers who trace exposure went on strike over unpaid wages and were dispersed by officials. The containment staff themselves are now the vacuum.",
           "url": "https://www.inquirer.com/news/nation-world/ebola-virus-containment-congo-20261002.html",
           "date": "2026-10-02",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Maritime Safety",
-          "text": "No capacity check stopped the visibly overcrowded Java Sea ferry from sailing - and three weeks later, the only accountability is a single captain, Arief Yunianto, named a suspect and detained. The system that let it sail overloaded faces no charge at all.",
-          "url": "https://news.detik.com/berita/d-8686756/nakhoda-km-virgo-ditetapkan-jadi-tersangka-langsung-ditahan",
-          "date": "2026-09-30",
-          "is_new": false
+          "text": "The toll has held at 78 dead, 57 missing through day 19, despite a task force expanded to 1,042 personnel - a capacity surge that arrived only after the capacity to prevent the sinking never existed at all.",
+          "url": "https://en.antaranews.com/news/433652/indonesia-deploys-1000-rescuers-as-search-for-ferry-victims-continues",
+          "date": "2026-10-01",
+          "is_new": true
         }
       ]
     }

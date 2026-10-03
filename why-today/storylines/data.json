@@ -1,7 +1,7 @@
 {
   "week_start": "2026-09-27",
-  "cycle_start": "2026-10-02T00:20:00Z",
-  "last_updated": "2026-10-02T14:30:00Z",
+  "cycle_start": "2026-10-02T14:30:00Z",
+  "last_updated": "2026-10-03T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Three more tankers, all Liberia-flagged, were struck by unknown projectiles while transiting - one caught fire, crew safe. It happened a day after Trump claimed \"virtually total control\" of the strait; no one has claimed the strikes.",
+      "why_now": "September's LNG traffic through Hormuz hit its highest monthly level since the war began - 19 cargoes, versus roughly 86 a month before the war. Even the best month on record is still 80% below what \"normal\" used to mean here.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
+      "url": "https://www.business-standard.com/amp/world-news/september-lng-shipments-via-hormuz-hit-highest-since-start-of-us-iran-war-126100200384_1.html",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-02T00:20:00Z",
-      "appearances": 10,
+      "last_seen": "2026-10-03T00:20:00Z",
+      "appearances": 11,
       "history": [
+        {
+          "date": "2026-10-03T00:20:00Z",
+          "note": "September's LNG traffic through Hormuz hit its highest monthly level since the war began - 19 cargoes, versus roughly 86 a month before the war. Even the best month on record is still 80% below what \"normal\" used to mean here."
+        },
         {
           "date": "2026-10-02T00:20:00Z",
           "note": "Three more tankers, all Liberia-flagged, were struck by unknown projectiles while transiting - one caught fire, crew safe. It happened a day after Trump claimed \"virtually total control\" of the strait; no one has claimed the strikes."
@@ -39,35 +43,35 @@
         {
           "date": "2026-09-30T00:20:00Z",
           "note": "Traffic is quietly nearing prewar levels: only 55 transits Sept 16-23, 94% below the roughly 910 a week before the war - yet exports have rebounded near-normal via direct Saudi terminal loads. Iran's 81-vessel blacklist hasn't deterred a single ship."
-        },
-        {
-          "date": "2026-09-29T15:30:00Z",
-          "note": "Iran is touting its own attacks as leverage even as oil keeps moving: shipments rebounded to 12.8 million barrels a day in September, the highest since the war began - the \"shutdown\" narrative both sides invoke, undercut by the tankers still sailing."
         }
       ],
-      "source_date": "2026-09-29"
+      "source_date": "2026-10-02"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
       "stream": "natural_world",
       "observer": "Why Today?",
       "title": "The captain's last message said the ship was tilting. Then it went silent",
-      "observation": "The ferry Virgo Transport 8, carrying 243 people from Surabaya to Banjarmasin, capsized in the Java Sea Sept 13 after its captain reported 3-meter waves and a listing ship - the last message before contact was lost. 71 dead, 108 rescued, 64 still missing.",
+      "observation": "The ferry Virgo Transport 8, carrying 243 people from Surabaya to Banjarmasin, capsized in the Java Sea Sept 13 after its captain reported 3-meter waves and a listing ship - the last message before contact was lost. 78 dead, 108 rescued, 57 still missing.",
       "question": "How does a ship go from reporting rough seas to disappearing entirely in the time it takes to send one distress message?",
       "hidden_question": "Was this an unavoidable act of weather, or a vessel that shouldn't have been at sea, or at that capacity, when the forecast turned?",
       "pattern": "a routine domestic ferry route turning fatal within the span of a single distress call",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Police have named the captain, Arief Yunianto, a suspect and detained him - charged under the Shipping Law with criminal negligence, facing up to 10 years. Three weeks after the sinking, the question has shifted from what happened to who answers for it.",
+      "why_now": "The toll has held at 78 dead, 57 missing through day 19 - no new bodies found despite a task force expanded to 1,042 personnel across air, sea and land. Three weeks in, the search itself may be approaching its practical limit.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://news.detik.com/berita/d-8686756/nakhoda-km-virgo-ditetapkan-jadi-tersangka-langsung-ditahan",
+      "url": "https://en.antaranews.com/news/433652/indonesia-deploys-1000-rescuers-as-search-for-ferry-victims-continues",
       "location": "Java Sea, en route Surabaya to Banjarmasin, Indonesia",
       "season_or_time_context": "salvage operation underway",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-01T00:20:00Z",
-      "appearances": 5,
+      "last_seen": "2026-10-03T00:20:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-10-03T00:20:00Z",
+          "note": "The toll has held at 78 dead, 57 missing through day 19 - no new bodies found despite a task force expanded to 1,042 personnel across air, sea and land. Three weeks in, the search itself may be approaching its practical limit."
+        },
         {
           "date": "2026-10-01T00:20:00Z",
           "note": "Police have named the captain, Arief Yunianto, a suspect and detained him - charged with criminal negligence under the Shipping Law, facing up to 10 years. The question has shifted from what happened to who answers for it."
@@ -83,13 +87,9 @@
         {
           "date": "2026-09-27T14:30:00Z",
           "note": "The exact count is now clear: 64 dead, 108 rescued, 71 still missing out of 243 aboard. Four bodies came from inside the submerged hull, seven more washed ashore - the search has been extended seven more days, reviewed every three."
-        },
-        {
-          "date": "2026-09-27T00:20:00Z",
-          "note": "The toll jumped again, to 64 dead, as the extended search entered its 15th day - a sharp rise from 52 just a day earlier, as Basarnas keeps pushing to raise the wreck entirely rather than rely on piecemeal diving."
         }
       ],
-      "source_date": "2026-09-30"
+      "source_date": "2026-10-01"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -103,16 +103,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Deaths topped 4,000 - and in Bunia, the outbreak's epicenter, health workers protested for unpaid wages and were dispersed by officials. The people tracing exposure are now on strike over pay, in the fastest-growing Ebola outbreak on record.",
+      "why_now": "The outbreak crossed its own border: a care worker who tested positive was repatriated to the Netherlands Oct 1 - the exposure risk is no longer contained to the provinces fighting it, even as WHO flags the virus spreading into still more health zones.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.inquirer.com/news/nation-world/ebola-virus-containment-congo-20261002.html",
+      "url": "https://www.cbsnews.com/news/ebola-deaths-congo-4000-fastest-growing-outbreak-history/",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-02T14:30:00Z",
-      "appearances": 6,
+      "last_seen": "2026-10-03T00:20:00Z",
+      "appearances": 7,
       "history": [
+        {
+          "date": "2026-10-03T00:20:00Z",
+          "note": "The outbreak crossed its own border: a care worker who tested positive was repatriated to the Netherlands Oct 1 - the exposure risk is no longer contained to the provinces fighting it, even as WHO flags the virus spreading into still more health zones."
+        },
         {
           "date": "2026-10-02T14:30:00Z",
           "note": "Deaths topped 4,000 - and in Bunia, the outbreak's epicenter, health workers protested for unpaid wages and were dispersed by officials. The people tracing exposure are now on strike over pay, in the fastest-growing Ebola outbreak on record."
@@ -128,10 +132,6 @@
         {
           "date": "2026-09-29T00:20:00Z",
           "note": "The outbreak topped 8,000 confirmed cases (8,067, 3,901 dead) - and the constraint has shifted from tracing to staffing: Congo is running out of health workers to contain a disease with no approved vaccine or treatment."
-        },
-        {
-          "date": "2026-09-28T00:20:00Z",
-          "note": "The two new health zones now have names: Bulu (South Ubangi, on the Central African Republic border) and Dungu (Haut-U\u00e9l\u00e9, on the South Sudan border) - the outbreak now spans 63 health zones across seven provinces, reaching two international frontiers."
         }
       ],
       "source_date": "2026-10-02"
@@ -256,16 +256,20 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Pro-government forces retook the Afar towns of Abala, Erebti and Megale, while Tigray forces still hold the Mekelle, Axum and Shire airports they seized first. Separately, 45 Israeli tourists were rescued by helicopter from Lalibela amid the fighting.",
+      "why_now": "Mekelle's banks and shops have closed as federal forces near the city and diplomatic ties with Eritrea collapse entirely - analysts now warn the conflict could widen well beyond Tigray's borders rather than resolve at its gates.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.jpost.com/israel-news/article-910248",
+      "url": "https://moderndiplomacy.eu/2026/10/02/fears-of-wider-ethiopia-conflict-grow-as-forces-near-tigray-capital/",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-02T14:30:00Z",
-      "appearances": 9,
+      "last_seen": "2026-10-03T00:20:00Z",
+      "appearances": 10,
       "history": [
+        {
+          "date": "2026-10-03T00:20:00Z",
+          "note": "Mekelle's banks and shops have closed as federal forces near the city and diplomatic ties with Eritrea collapse entirely - analysts now warn the conflict could widen well beyond Tigray's borders rather than resolve at its gates."
+        },
         {
           "date": "2026-10-02T14:30:00Z",
           "note": "Pro-government forces retook the Afar towns of Abala, Erebti and Megale, while Tigray forces still hold the Mekelle, Axum and Shire airports they seized first. Separately, 45 Israeli tourists were rescued by helicopter from Lalibela amid the fighting."
@@ -281,10 +285,6 @@
         {
           "date": "2026-09-30T14:30:00Z",
           "note": "MSF says war-wounded patients at Korem and Alamata hospitals jumped from about 180 to over 420 in three days, while more than 300 reached Suhul Hospital in Shire - over 720 wounded total, with Alamata Hospital's own outreach services now suspended."
-        },
-        {
-          "date": "2026-09-29T15:30:00Z",
-          "note": "The momentum just swung: federal forces and an allied Tigray Peace Force claim to have captured Alamata, 120km south of Mekelle - a foothold that could open the road toward Tigray's capital, the first federal advance claimed since the war restarted."
         }
       ],
       "source_date": "2026-10-02"
@@ -507,16 +507,20 @@
       "pattern": "an externally-imposed economic condition landing first on the population least able to absorb it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Bolivia's IMF board vote on the $1.9 billion program - the deal whose condition triggered the diesel hike in the first place - lands today, a day before Morales's own Oct 3 deadline for the government to repeal the decree.",
+      "why_now": "Morales's deadline arrived today and the government held firm - Hydrocarbons Minister Blanco says the decree stays. Mining cooperatives have now joined the fight too, demanding the minister's exit, as organizers plan a march on La Paz.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.riotimesonline.com/bolivia-imf-board-vote-october-2-2026-expats-savers/",
+      "url": "https://www.riotimesonline.com/bolivia-mining-cooperatives-mobilize-against-diesel-decree-2026/",
       "location": "La Paz / Santa Cruz, Bolivia",
       "season_or_time_context": "diesel subsidy ended Sept 19, nationwide strike Sept 28",
       "first_seen": "2026-09-30T00:20:00Z",
-      "last_seen": "2026-10-02T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-10-03T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-10-03T00:20:00Z",
+          "note": "Morales's deadline arrived today and the government held firm - Hydrocarbons Minister Blanco says the decree stays. Mining cooperatives have now joined the fight too, demanding the minister's exit, as organizers plan a march on La Paz."
+        },
         {
           "date": "2026-10-02T14:30:00Z",
           "note": "Bolivia's IMF board vote on the $1.9 billion program - the deal whose condition triggered the diesel hike in the first place - lands today, a day before Morales's own Oct 3 deadline for the government to repeal the decree."
