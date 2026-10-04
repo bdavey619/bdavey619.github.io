@@ -1,6 +1,6 @@
 {
   "week": "2026-10-04",
-  "last_updated": "2026-10-04T00:20:00Z",
+  "last_updated": "2026-10-04T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -17,10 +17,10 @@
         },
         {
           "domain": "Energy Diplomacy",
-          "text": "Trump says the US now has \"virtually total control of the Hormuz Strait\" - a claim sitting next to a transit count still running at roughly 6% of its prewar weekly rate, even as crude exports have found workarounds back to near-normal volumes.",
-          "url": "https://gulfnews.com/world/mena/trump-says-us-war-on-iran-will-end-very-soon-as-irgc-calls-it-a-failure-1.500692927",
-          "date": "2026-09-30",
-          "is_new": false
+          "text": "Iran says the strait is \"under control of the Islamic Republic - we will not back down\" - while IMF PortWatch recorded a single transit on Sept 27 against an 85-a-day prewar baseline. Control over an empty waterway is a strange thing to insist on.",
+          "url": "https://news.cgtn.com/news/2026-10-04/Iran-s-IRGC-hits-7-violating-tankers-in-Strait-of-Hormuz-in-5-days-1QXsqlhSvlK/p.html",
+          "date": "2026-10-04",
+          "is_new": true
         },
         {
           "domain": "Debt Management",
@@ -31,9 +31,9 @@
         },
         {
           "domain": "Civil Conflict",
-          "text": "Government sources say federal forces have entered Mekelle itself in multiple locations as TPLF leadership retreats - but as with every claim in this war, independent confirmation still lags the announcement by at least a news cycle.",
-          "url": "https://swedenherald.com/article/ethiopian-government-forces-enter-tigray-capital-mekelle-source-says",
-          "date": "2026-10-03",
+          "text": "Federal forces say they've seized Mekelle outright - but TPLF's leader is already signaling the guerrilla campaign that reclaimed the city once before, in 2021. A claim of final control, made by the side that has made and lost this exact claim already.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ethiopian-government-troops-seize-tigrays-capital-mekelle",
+          "date": "2026-10-04",
           "is_new": true
         }
       ]
@@ -89,17 +89,17 @@
         },
         {
           "domain": "Public Health",
-          "text": "Soldiers searching for weapons burned down a displacement camp's Ebola transit center outside Bunia, forcing 19,000 people to flee - the containment infrastructure destroyed by an operation that had nothing to do with containing the outbreak at all.",
-          "url": "https://news.un.org/en/story/2026/10/1168499",
-          "date": "2026-10-02",
-          "is_new": false
+          "text": "This is now officially the largest, deadliest Ebola outbreak in Congo's history - surpassing 2018-2020 - five months after rebels in its own territory first declared it over. The record it just broke was itself a failure of oversight.",
+          "url": "https://www.newsy-today.com/dr-congo-ebola-outbreak-caused-4018-deaths-from-8300-cases/",
+          "date": "2026-10-03",
+          "is_new": true
         },
         {
           "domain": "Maritime Safety",
           "text": "The toll ticked up again to 80 dead, 55 missing - three weeks after a capacity surge of 1,042 rescuers arrived for a wreck that never had the capacity check to prevent it from sinking overloaded in the first place.",
           "url": "https://www.archyworldys.com/indonesian-ferry-disaster-captain-arrested-after-78-die/",
           "date": "2026-10-02",
-          "is_new": true
+          "is_new": false
         }
       ]
     }

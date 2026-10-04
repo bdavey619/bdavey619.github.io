@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-04",
-  "cycle_start": "2026-10-03T14:30:00Z",
-  "last_updated": "2026-10-04T00:20:00Z",
+  "cycle_start": "2026-10-04T00:20:00Z",
+  "last_updated": "2026-10-04T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,22 +14,26 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "September's LNG traffic through Hormuz hit its highest monthly level since the war began - 19 cargoes, versus roughly 86 a month before the war. Even the best month on record is still 80% below what \"normal\" used to mean here.",
+      "why_now": "Iran's IRGC says it has hit seven \"violating\" tankers in the strait in just five days, while IMF PortWatch recorded a single transit on Sept 27 against an 85-a-day prewar baseline. Tehran: \"under control of the Islamic Republic - we will not back down.\"",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.business-standard.com/amp/world-news/september-lng-shipments-via-hormuz-hit-highest-since-start-of-us-iran-war-126100200384_1.html",
+      "url": "https://news.cgtn.com/news/2026-10-04/Iran-s-IRGC-hits-7-violating-tankers-in-Strait-of-Hormuz-in-5-days-1QXsqlhSvlK/p.html",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-04T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-04T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-04T14:30:00Z",
+          "note": "Iran's IRGC says it has hit seven \"violating\" tankers in the strait in just five days, while IMF PortWatch recorded a single transit on Sept 27 against an 85-a-day prewar baseline. Tehran: \"under control of the Islamic Republic - we will not back down.\""
+        },
         {
           "date": "2026-10-04T00:20:00Z",
           "note": "September's LNG traffic through Hormuz hit its highest monthly level since the war began - 19 cargoes, versus roughly 86 a month before the war. Even the best month on record is still 80% below what \"normal\" used to mean here."
         }
       ],
-      "source_date": "2026-10-02"
+      "source_date": "2026-10-04"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -71,22 +75,26 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Health Minister Kamba says the infection is now concentrating in a limited number of health areas rather than spreading evenly - a possible first sign of containment, even as the death toll keeps climbing past 4,000 in the fastest-growing outbreak on record.",
+      "why_now": "This is now officially the largest and deadliest Ebola outbreak in Congo's history, surpassing the 2018-2020 epidemic - a superlative reached five months after the rebels who first declared it over in their territory.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://english.ratopati.com/story/82073/ebola-infections-in-congo-decline-in-some-areas-death-toll-passes-4000",
+      "url": "https://www.newsy-today.com/dr-congo-ebola-outbreak-caused-4018-deaths-from-8300-cases/",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-04T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-04T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-04T14:30:00Z",
+          "note": "This is now officially the largest and deadliest Ebola outbreak in Congo's history, surpassing the 2018-2020 epidemic - a superlative reached five months after the rebels who first declared it over in their territory."
+        },
         {
           "date": "2026-10-04T00:20:00Z",
           "note": "Health Minister Kamba says the infection is now concentrating in a limited number of health areas rather than spreading evenly - a possible first sign of containment, even as the death toll keeps climbing past 4,000 in the fastest-growing outbreak on record."
         }
       ],
-      "source_date": "2026-10-02"
+      "source_date": "2026-10-03"
     },
     {
       "id": "fed-first-hike-since-2023",
@@ -99,22 +107,26 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The 10-year dipped to 5.16% on the jobs miss, then rebounded to retest 5.30% by midday - volatile, but still near its 2002 high. December hike odds remain at 90%, essentially unmoved by the same data that gutted October's.",
+      "why_now": "The 10-year hit 5.34% Thursday, its highest in 24 years - the bond market still climbing even as October hike odds collapsed on the jobs miss. FOMC minutes due Wednesday are the next test of whether the two signals ever reconcile.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://parameter.io/september-jobs-data-misses-expectations-cooling-fed-rate-hike-pressure-while-treasury-yields-surge/",
+      "url": "https://finance.yahoo.com/markets/articles/global-bond-selloff-pushes-u-132245325.html",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-04T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-04T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-04T14:30:00Z",
+          "note": "The 10-year hit 5.34% Thursday, its highest in 24 years - the bond market still climbing even as October hike odds collapsed on the jobs miss. FOMC minutes due Wednesday are the next test of whether the two signals ever reconcile."
+        },
         {
           "date": "2026-10-04T00:20:00Z",
           "note": "The 10-year dipped to 5.16% on the jobs miss, then rebounded to retest 5.30% by midday - volatile, but still near its 2002 high. December hike odds remain at 90%, essentially unmoved by the same data that gutted October's."
         }
       ],
-      "source_date": "2026-10-03"
+      "source_date": "2026-10-02"
     },
     {
       "id": "ethiopia-tigray-forces-seize-airports",
@@ -128,22 +140,26 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Government forces have reportedly entered Mekelle itself in multiple locations as TPLF fighters and leadership retreat - though as with every claim in this war, independent confirmation lags the announcement.",
+      "why_now": "Mekelle has fallen: federal troops are patrolling the city and communications were restored after more than a week dark, but shops stay shuttered on looting fears - and TPLF's leader is already hinting at the guerrilla campaign that reclaimed the city after it fell in 2020.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://swedenherald.com/article/ethiopian-government-forces-enter-tigray-capital-mekelle-source-says",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ethiopian-government-troops-seize-tigrays-capital-mekelle",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-04T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-04T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-04T14:30:00Z",
+          "note": "Mekelle has fallen: federal troops are patrolling the city and communications were restored after more than a week dark, but shops stay shuttered on looting fears - and TPLF's leader is already hinting at the guerrilla campaign that reclaimed the city after it fell in 2020."
+        },
         {
           "date": "2026-10-04T00:20:00Z",
           "note": "Government forces have reportedly entered Mekelle itself in multiple locations as TPLF fighters and leadership retreat - though as with every claim in this war, independent confirmation lags the announcement."
         }
       ],
-      "source_date": "2026-10-03"
+      "source_date": "2026-10-04"
     },
     {
       "id": "bolivia-diesel-hike-transport-strike",
@@ -157,16 +173,20 @@
       "pattern": "an externally-imposed economic condition landing first on the population least able to absorb it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Morales's deadline arrived today and the government held firm - Hydrocarbons Minister Blanco says the decree stays. Mining cooperatives have now joined the fight too, demanding the minister's exit, as organizers plan a march on La Paz.",
+      "why_now": "Congress extended the state of emergency another 90 days, and when the government offered fuel relief measures as a concession, farmers and Morales supporters marched in Cochabamba Friday to reject them outright - the offer itself becoming the next thing protested.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.riotimesonline.com/bolivia-mining-cooperatives-mobilize-against-diesel-decree-2026/",
+      "url": "https://thereport.live/business/bolivia-farmers-protest-diesel-price-hike-despite-government-concession/41591",
       "location": "La Paz / Santa Cruz, Bolivia",
       "season_or_time_context": "diesel subsidy ended Sept 19, nationwide strike Sept 28",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-04T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-04T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-04T14:30:00Z",
+          "note": "Congress extended the state of emergency another 90 days, and when the government offered fuel relief measures as a concession, farmers and Morales supporters marched in Cochabamba Friday to reject them outright - the offer itself becoming the next thing protested."
+        },
         {
           "date": "2026-10-04T00:20:00Z",
           "note": "Morales's deadline arrived today and the government held firm - Hydrocarbons Minister Blanco says the decree stays. Mining cooperatives have now joined the fight too, demanding the minister's exit, as organizers plan a march on La Paz."
