@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-09-27",
-  "cycle_start": "2026-10-03T00:20:00Z",
-  "last_updated": "2026-10-03T14:30:00Z",
+  "week_start": "2026-10-04",
+  "cycle_start": "2026-10-03T14:30:00Z",
+  "last_updated": "2026-10-04T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -20,29 +20,13 @@
       "url": "https://www.business-standard.com/amp/world-news/september-lng-shipments-via-hormuz-hit-highest-since-start-of-us-iran-war-126100200384_1.html",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
-      "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-03T00:20:00Z",
-      "appearances": 11,
+      "first_seen": "2026-10-04T00:20:00Z",
+      "last_seen": "2026-10-04T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-10-03T00:20:00Z",
+          "date": "2026-10-04T00:20:00Z",
           "note": "September's LNG traffic through Hormuz hit its highest monthly level since the war began - 19 cargoes, versus roughly 86 a month before the war. Even the best month on record is still 80% below what \"normal\" used to mean here."
-        },
-        {
-          "date": "2026-10-02T00:20:00Z",
-          "note": "Three more tankers, all Liberia-flagged, were struck by unknown projectiles while transiting - one caught fire, crew safe. It happened a day after Trump claimed \"virtually total control\" of the strait; no one has claimed the strikes."
-        },
-        {
-          "date": "2026-10-01T14:30:00Z",
-          "note": "Trump says the US now has \"virtually total control of the Hormuz Strait\" and the war will end \"very soon, one way or the other\" - sitting awkwardly next to the actual transit count, still running at roughly 6% of its prewar weekly rate."
-        },
-        {
-          "date": "2026-09-30T14:30:00Z",
-          "note": "Iran says it has received a US counterproposal to its seven-day ceasefire-and-reopening plan, and Araghchi presented it to President Pezeshkian at Wednesday's cabinet meeting - both sides reportedly agree on the steps needed, just not the order to take them in."
-        },
-        {
-          "date": "2026-09-30T00:20:00Z",
-          "note": "Traffic is quietly nearing prewar levels: only 55 transits Sept 16-23, 94% below the roughly 910 a week before the war - yet exports have rebounded near-normal via direct Saudi terminal loads. Iran's 81-vessel blacklist hasn't deterred a single ship."
         }
       ],
       "source_date": "2026-10-02"
@@ -52,44 +36,28 @@
       "stream": "natural_world",
       "observer": "Why Today?",
       "title": "The captain's last message said the ship was tilting. Then it went silent",
-      "observation": "The ferry Virgo Transport 8, carrying 243 people from Surabaya to Banjarmasin, capsized in the Java Sea Sept 13 after its captain reported 3-meter waves and a listing ship - the last message before contact was lost. 78 dead, 108 rescued, 57 still missing.",
+      "observation": "The ferry Virgo Transport 8, carrying 243 people from Surabaya to Banjarmasin, capsized in the Java Sea Sept 13 after its captain reported 3-meter waves and a listing ship - the last message before contact was lost. 80 dead, 108 rescued, 55 still missing.",
       "question": "How does a ship go from reporting rough seas to disappearing entirely in the time it takes to send one distress message?",
       "hidden_question": "Was this an unavoidable act of weather, or a vessel that shouldn't have been at sea, or at that capacity, when the forecast turned?",
       "pattern": "a routine domestic ferry route turning fatal within the span of a single distress call",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The toll has held at 78 dead, 57 missing through day 19 - no new bodies found despite a task force expanded to 1,042 personnel across air, sea and land. Three weeks in, the search itself may be approaching its practical limit.",
+      "why_now": "The toll ticked up again to 80 dead, 55 missing, as the 1,042-person task force - 11 vessels, three helicopters, 63 divers, 42 ambulances - keeps working a wreck three weeks on from the sinking.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://en.antaranews.com/news/433652/indonesia-deploys-1000-rescuers-as-search-for-ferry-victims-continues",
+      "url": "https://www.archyworldys.com/indonesian-ferry-disaster-captain-arrested-after-78-die/",
       "location": "Java Sea, en route Surabaya to Banjarmasin, Indonesia",
       "season_or_time_context": "salvage operation underway",
-      "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-03T00:20:00Z",
-      "appearances": 6,
+      "first_seen": "2026-10-04T00:20:00Z",
+      "last_seen": "2026-10-04T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-10-03T00:20:00Z",
-          "note": "The toll has held at 78 dead, 57 missing through day 19 - no new bodies found despite a task force expanded to 1,042 personnel across air, sea and land. Three weeks in, the search itself may be approaching its practical limit."
-        },
-        {
-          "date": "2026-10-01T00:20:00Z",
-          "note": "Police have named the captain, Arief Yunianto, a suspect and detained him - charged with criminal negligence under the Shipping Law, facing up to 10 years. The question has shifted from what happened to who answers for it."
-        },
-        {
-          "date": "2026-09-29T15:30:00Z",
-          "note": "Five more bodies came out of the wreck on the 16th day - four to the naval ship, one by helicopter, all to Banjarmasin for identification. The toll is now 71, with 64 still unaccounted for out of the 243 aboard."
-        },
-        {
-          "date": "2026-09-28T14:30:00Z",
-          "note": "Sixteen days in, divers are braving leaking fuel and unstable debris to reach cabins still unsearched - the toll now 66, with 69 unaccounted for. Indonesia's ferries connect 17,000 islands cheaper than flying; this isn't the country's first such accident."
-        },
-        {
-          "date": "2026-09-27T14:30:00Z",
-          "note": "The exact count is now clear: 64 dead, 108 rescued, 71 still missing out of 243 aboard. Four bodies came from inside the submerged hull, seven more washed ashore - the search has been extended seven more days, reviewed every three."
+          "date": "2026-10-04T00:20:00Z",
+          "note": "The toll ticked up again to 80 dead, 55 missing, as the 1,042-person task force - 11 vessels, three helicopters, 63 divers, 42 ambulances - keeps working a wreck three weeks on from the sinking."
         }
       ],
-      "source_date": "2026-10-01"
+      "source_date": "2026-10-02"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -103,35 +71,19 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Soldiers searching for weapons burned down a displacement camp's Ebola transit center in Kigonze, outside Bunia, forcing 19,000 people to flee - destroying the containment infrastructure while hunting for something unrelated to the outbreak entirely.",
+      "why_now": "Health Minister Kamba says the infection is now concentrating in a limited number of health areas rather than spreading evenly - a possible first sign of containment, even as the death toll keeps climbing past 4,000 in the fastest-growing outbreak on record.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://news.un.org/en/story/2026/10/1168499",
+      "url": "https://english.ratopati.com/story/82073/ebola-infections-in-congo-decline-in-some-areas-death-toll-passes-4000",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
-      "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-03T14:30:00Z",
-      "appearances": 8,
+      "first_seen": "2026-10-04T00:20:00Z",
+      "last_seen": "2026-10-04T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-10-03T14:30:00Z",
-          "note": "Soldiers searching for weapons burned down a displacement camp's Ebola transit center in Kigonze, outside Bunia, forcing 19,000 people to flee - destroying the containment infrastructure while hunting for something unrelated to the outbreak entirely."
-        },
-        {
-          "date": "2026-10-03T00:20:00Z",
-          "note": "The outbreak crossed its own border: a care worker who tested positive was repatriated to the Netherlands Oct 1 - the exposure risk is no longer contained to the provinces fighting it, even as WHO flags the virus spreading into still more health zones."
-        },
-        {
-          "date": "2026-10-02T14:30:00Z",
-          "note": "Deaths topped 4,000 - and in Bunia, the outbreak's epicenter, health workers protested for unpaid wages and were dispersed by officials. The people tracing exposure are now on strike over pay, in the fastest-growing Ebola outbreak on record."
-        },
-        {
-          "date": "2026-10-01T14:30:00Z",
-          "note": "WHO says 50 health workers have now died since the outbreak began in May - the people the staffing shortage was supposed to be about are the ones it's killing. The outbreak is on pace to surpass the 2014-16 regional epidemic's 11,000 deaths."
-        },
-        {
-          "date": "2026-09-30T00:20:00Z",
-          "note": "The trend just split by province: cases fell 26% in Ituri and 15% in Haut-Uele over 21 days, while North Kivu rose 73% over the same window - working exactly where the response is staffed, failing exactly where it isn't."
+          "date": "2026-10-04T00:20:00Z",
+          "note": "Health Minister Kamba says the infection is now concentrating in a limited number of health areas rather than spreading evenly - a possible first sign of containment, even as the death toll keeps climbing past 4,000 in the fastest-growing outbreak on record."
         }
       ],
       "source_date": "2026-10-02"
@@ -147,102 +99,22 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "September payrolls landed far short - 29,000 jobs added against 80,000+ expected - and October hike odds collapsed to 16-28%, down from 64% a week ago. The jobs report did in one morning what days of Fed speeches couldn't.",
+      "why_now": "The 10-year dipped to 5.16% on the jobs miss, then rebounded to retest 5.30% by midday - volatile, but still near its 2002 high. December hike odds remain at 90%, essentially unmoved by the same data that gutted October's.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+      "url": "https://parameter.io/september-jobs-data-misses-expectations-cooling-fed-rate-hike-pressure-while-treasury-yields-surge/",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
-      "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-02T14:30:00Z",
-      "appearances": 8,
+      "first_seen": "2026-10-04T00:20:00Z",
+      "last_seen": "2026-10-04T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-10-02T14:30:00Z",
-          "note": "September payrolls landed far short - 29,000 jobs added against 80,000+ expected - and October hike odds collapsed to 16-28%, down from 64% a week ago. The jobs report did in one morning what days of Fed speeches couldn't."
-        },
-        {
-          "date": "2026-10-01T14:30:00Z",
-          "note": "Yields hit a fresh multi-decade high - 10-year 5.33%, 30-year 5.67%, both the highest since 2002 - even as October hike odds kept falling, now 37-40% versus over 70% a week ago. The bond market and the rate bet no longer point the same direction."
-        },
-        {
-          "date": "2026-09-30T14:30:00Z",
-          "note": "The bet the market spent all week building just partly unwound: October hike odds fell to 47.1% from 70% within 48 hours, after a dovish NY Fed speech from John Williams and a cooler-than-forecast PCE reading of 3%, against 3.3% expected."
-        },
-        {
-          "date": "2026-09-29T15:30:00Z",
-          "note": "The 30-year briefly touched 5.613% Tuesday, its highest since 2002, before easing to 5.609% - traders now price 72% odds of an October hike, up from 64% two days ago, moving faster than the Fed itself has confirmed anything."
-        },
-        {
-          "date": "2026-09-29T00:20:00Z",
-          "note": "The 10-year hit a fresh 19-year high of 5.27% Monday, the 30-year climbed to 5.55% - and Fed Governor Lisa Cook said she expects AI investment and higher oil prices to keep pushing inflation up, naming the war as a direct policy input."
+          "date": "2026-10-04T00:20:00Z",
+          "note": "The 10-year dipped to 5.16% on the jobs miss, then rebounded to retest 5.30% by midday - volatile, but still near its 2002 high. December hike odds remain at 90%, essentially unmoved by the same data that gutted October's."
         }
       ],
-      "source_date": "2026-10-02"
-    },
-    {
-      "id": "lucas-museum-narrative-art-opens",
-      "stream": "curiosities",
-      "observer": "Why Today?",
-      "title": "$1 billion, 16 years, and critics are calling it the Treacle Museum",
-      "observation": "George Lucas's Museum of Narrative Art opened to the public Sept 22 in LA - a $1 billion, 300,000-square-foot building housing 40,000+ works of illustration, comic and pop-culture art, built on the premise this material deserves fine art's institutional weight.",
-      "question": "Who gets to decide when popular art has earned the word 'art' without qualification?",
-      "hidden_question": "Is the museum elevating a genre critics have dismissed for decades, or spending a billion dollars to prove a point that taste can't actually be bought?",
-      "pattern": "a wealthy founder's institution testing whether prestige can be built rather than earned",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "A dedicated check found only recap of opening-week reviews (critics split between 'lacks any kind of narrative' and the LA Times' 'defiant... a win for the people's art') - no dated development past what's already on this card. Going dormant; worth reactivating with attendance numbers once reported.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.forbes.com/sites/kalaichik/2026/09/25/manga-and-more-honored-as-the-peoples-art-at-the-lucas-museum/",
-      "location": "Exposition Park, Los Angeles",
-      "season_or_time_context": "open to the public",
-      "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-28T14:30:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-09-28T14:30:00Z",
-          "note": "The museum's widest case yet for legitimacy: manga and anime, a genre most fine-art museums won't collect, are honored as core inaugural programming - not a novelty wing, but part of the same argument the whole building is built to make."
-        },
-        {
-          "date": "2026-09-27T00:20:00Z",
-          "note": "Co-founder Mellody Hobson pushes back on the vanity-project framing with a number: sci-fi and Star Wars material makes up only about 7% of the collection, against 1,300 works spanning the full history of narrative art across 30-plus galleries."
-        }
-      ],
-      "source_date": "2026-09-25"
-    },
-    {
-      "id": "etruscan-tomb-vulci-untouched",
-      "stream": "places",
-      "observer": "Why Today?",
-      "title": "A 2,600-year-old tomb sat untouched, waiting for someone to actually open it",
-      "observation": "Archaeologists opened the Tomb of the Stone Chamber at Vulci's Polledrara necropolis, a monumental late-7th-century BCE Etruscan burial holding Greek pottery from Attica and Corinth, chariot parts, gold and bronze sheets, and carved bone and ivory - fresh evidence of the site's wealthy elite.",
-      "question": "What does it mean for a culture's wealthiest evidence to survive intact for 2,600 years simply because no one got around to disturbing it?",
-      "hidden_question": "Is this tomb's preservation a matter of luck, or does undisturbed obscurity protect history better than fame does?",
-      "pattern": "an ancient site's most revealing evidence surviving precisely because it stayed unremarkable long enough to be ignored",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "This season's dig has closed and excavations don't resume until 2027 - there is no further on-site news to bump. Going dormant rather than re-bumping a closed season; worth reactivating when study and publication of this year's finds are released.",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://archaeology.org/news/2026/09/25/artifacts-in-etruscan-tomb-reflect-mediterranean-trade/",
-      "location": "Vulci, Lazio, Italy",
-      "season_or_time_context": "recent excavation finding",
-      "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-28T14:30:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-09-28T14:30:00Z",
-          "note": "This season's dig has closed: collapsed roofs and chamber walls had protected the burial deposits in their original positions, letting archaeologists recover them intact. Excavations resume in 2027, study and publication of this year's finds to follow."
-        },
-        {
-          "date": "2026-09-27T00:20:00Z",
-          "note": "The dig is part of Ritorno a Vulci, pairing the \u00c9cole fran\u00e7aise de Rome, Sapienza University and the British Museum - and it's yielded a rarity even for Vulci: a woman's shoe and a complete banquet set, intact since burial."
-        }
-      ],
-      "source_date": "2026-09-25"
+      "source_date": "2026-10-03"
     },
     {
       "id": "ethiopia-tigray-forces-seize-airports",
@@ -256,244 +128,22 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Federal forces have retaken Alula Aba Nega Airport, the first of the three airfields rebels seized to fall back into government hands - and TPLF fighters are reportedly abandoning Mekelle itself, though no federal troops have yet been confirmed inside the city.",
+      "why_now": "Government forces have reportedly entered Mekelle itself in multiple locations as TPLF fighters and leadership retreat - though as with every claim in this war, independent confirmation lags the announcement.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://aljazeera.com/news/2026/10/3/rebels-pulling-back-as-addis-ababas-forces-advance-reports-say",
+      "url": "https://swedenherald.com/article/ethiopian-government-forces-enter-tigray-capital-mekelle-source-says",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
-      "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-10-03T14:30:00Z",
-      "appearances": 11,
+      "first_seen": "2026-10-04T00:20:00Z",
+      "last_seen": "2026-10-04T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-10-03T14:30:00Z",
-          "note": "Federal forces have retaken Alula Aba Nega Airport, the first of the three airfields rebels seized to fall back into government hands - and TPLF fighters are reportedly abandoning Mekelle itself, though no federal troops have yet been confirmed inside the city."
-        },
-        {
-          "date": "2026-10-03T00:20:00Z",
-          "note": "Mekelle's banks and shops have closed as federal forces near the city and diplomatic ties with Eritrea collapse entirely - analysts now warn the conflict could widen well beyond Tigray's borders rather than resolve at its gates."
-        },
-        {
-          "date": "2026-10-02T14:30:00Z",
-          "note": "Pro-government forces retook the Afar towns of Abala, Erebti and Megale, while Tigray forces still hold the Mekelle, Axum and Shire airports they seized first. Separately, 45 Israeli tourists were rescued by helicopter from Lalibela amid the fighting."
-        },
-        {
-          "date": "2026-10-02T00:20:00Z",
-          "note": "Blasts were heard in Addis Ababa itself as federal forces pushed to within 40km of Mekelle - electricity and internet in the region have been cut, TPLF leaders have left the city, and thousands of civilians are fleeing."
-        },
-        {
-          "date": "2026-10-01T00:20:00Z",
-          "note": "Unverified sources say federal forces have pushed 150km into Tigray, retaking Mekoni, Wajena and Adi Gudom - just 39km from Mekelle - with at least 52 civilians reported dead around Alamata. Access restrictions mean none of it can be independently confirmed."
+          "date": "2026-10-04T00:20:00Z",
+          "note": "Government forces have reportedly entered Mekelle itself in multiple locations as TPLF fighters and leadership retreat - though as with every claim in this war, independent confirmation lags the announcement."
         }
       ],
       "source_date": "2026-10-03"
-    },
-    {
-      "id": "argentina-poverty-rate-rises-milei",
-      "stream": "markets",
-      "observer": "Why Today?",
-      "title": "Austerity was supposed to bring the numbers down. One of them just went up four points",
-      "observation": "Argentina's poverty rate jumped to 32.3% in the first half of 2026, INDEC's official data showed - up four points from 28.2% the prior half, reversing a decline Milei's government had pointed to as vindication of its austerity program.",
-      "question": "What does it mean for an austerity program's own headline metric to move backward while the program is still being credited with working?",
-      "hidden_question": "Is this a temporary setback on the way to the promised recovery, or evidence the recovery was never going to reach the people counted in this statistic?",
-      "pattern": "a government's signature economic program producing a reversal in the exact metric it was supposed to fix",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "A dedicated check found no reporting past Caputo's \"far below\" framing - the data cycle that produced this story has run its course until the next official release. Going dormant rather than re-bumping a stale link; worth reactivating when new INDEC or election-season figures land.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://abcnews.com/Business/wireStory/argentinas-poverty-rate-rises-30-president-milei-reversing-136736443",
-      "location": "Argentina",
-      "season_or_time_context": "first-half 2026 data released this week",
-      "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-27T14:30:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-09-27T14:30:00Z",
-          "note": "Income actually rose 11.5% - the poverty basket rose almost 20%, explaining the gap. Unemployment hit 7.9%, highest since 2021. Caputo acknowledged the number but called it \"far below\" earlier levels; UCA estimates poverty could reach 35% by year-end."
-        },
-        {
-          "date": "2026-09-27T00:20:00Z",
-          "note": "Argentina's poverty rate jumped to 32.3% in H1 2026, up from 28.2% - reversing Milei's austerity-program narrative. Child poverty hit 44.5%; indigence rose from 6.3% to 7.5%, the harshest end of the distribution moving most."
-        }
-      ],
-      "source_date": "2026-09-24"
-    },
-    {
-      "id": "scotty-trex-rib-healing-blood-vessels",
-      "stream": "natural_world",
-      "observer": "Why Today?",
-      "title": "The largest T. rex ever found died with an injury still healing inside it",
-      "observation": "Neutron imaging of a broken rib from Scotty, the world's largest known T. rex skeleton, revealed a fossilized network of mineralized blood vessels - preserved mid-healing 66 million years ago, the most extensive such network ever found in a dinosaur fossil.",
-      "question": "What does it mean to find direct physical evidence of an animal's body actively repairing itself, frozen at the exact moment death interrupted the process?",
-      "hidden_question": "Is this a story about one dinosaur's injury, or about how much biological detail can survive 66 million years if the conditions happen to be right?",
-      "pattern": "a body's ordinary repair process becoming extraordinary evidence purely because decay was interrupted at the right instant",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "A dedicated check found only recap of the original ScienceDaily/ORNL report - no new imaging, no follow-up study. Going dormant rather than re-bumping a static research fact; worth reactivating if the team publishes further analysis of the specimen.",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
-      "location": "Oak Ridge National Laboratory / originally excavated in Saskatchewan, Canada",
-      "season_or_time_context": "recent research finding",
-      "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-27T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-09-27T00:20:00Z",
-          "note": "Neutron imaging of Scotty the T. rex's broken rib revealed a fossilized network of mineralized blood vessels, preserved mid-healing 66 million years ago - the most extensive such network ever found in a dinosaur fossil, built without damaging it."
-        }
-      ],
-      "source_date": "2026-09-22"
-    },
-    {
-      "id": "pitru-paksha-2026-begins",
-      "stream": "human_rituals",
-      "observer": "Why Today?",
-      "title": "For 16 days, an entire calendar is set aside just for the dead",
-      "observation": "Pitru Paksha, the Hindu fortnight dedicated to honoring ancestors, begins Sept 27 and runs through Sarva Pitru Amavasya on Oct 10 - a period when families perform shraddha and tarpan rites timed to the lunar date of each ancestor's death.",
-      "question": "What does it mean to build a fixed period into the calendar specifically for obligations to people who are no longer alive to ask for them?",
-      "hidden_question": "Is this ritual serving the ancestors, or serving the living by giving grief and obligation a scheduled, bounded place to go?",
-      "pattern": "a culture setting aside dedicated calendar time for an obligation that has no deadline or enforcement except tradition itself",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "The observance itself continues through Oct 10, but there's no daily news to bump - it's a structural ritual, not a developing story. Going dormant rather than re-bumping a static observation; worth reactivating at Sarva Pitru Amavasya, the fortnight's actual conclusion.",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://daanyam.in/festivals/2026/pitru-paksha-2026",
-      "source_evergreen": true,
-      "location": "India and Hindu communities worldwide",
-      "season_or_time_context": "Sept 27 - Oct 10, 2026",
-      "first_seen": "2026-09-27T00:20:00Z",
-      "last_seen": "2026-09-27T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-09-27T00:20:00Z",
-          "note": "Pitru Paksha begins today, running through Sarva Pitru Amavasya on Oct 10 - each family's shraddha date individually set by their own ancestor's lunar death-date, making the shared fortnight actually thousands of parallel private observances."
-        }
-      ],
-      "source_date": "2026-09-27"
-    },
-    {
-      "id": "nfl-first-regular-season-game-rio",
-      "stream": "curiosities",
-      "observer": "Why Today?",
-      "title": "The NFL's first regular-season game in South America came down to a 56-yard kick",
-      "observation": "The Ravens beat the Cowboys 34-31 at Rio de Janeiro's Maracan\u00e3 Stadium, the first-ever NFL regular season game played in South America - decided by a 56-yard Tyler Loop field goal with seconds left, after Dallas had erased a 17-13 halftime deficit.",
-      "question": "What does a league gain by exporting its most routine product - a single Week 3 game - to a continent that has never hosted one?",
-      "hidden_question": "Is international expansion building genuine new fandom, or just renting a stadium abroad for a game that would have meant the same thing in Baltimore?",
-      "pattern": "an institution testing a new market with its most ordinary output, dressed as a landmark event",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "The game itself is over and there's no follow-on story - the league has moved to Week 4. Going dormant rather than re-bumping a concluded one-off event; worth reactivating if the NFL's international-expansion plans produce a fresh development.",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://www.espn.com/nfl/story/_/id/50034932/best-plays-moments-touchdowns-more",
-      "location": "Maracan\u00e3 Stadium, Rio de Janeiro, Brazil",
-      "season_or_time_context": "NFL Week 3, played Sept 27",
-      "first_seen": "2026-09-28T00:20:00Z",
-      "last_seen": "2026-09-28T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-09-28T00:20:00Z",
-          "note": "The Ravens beat the Cowboys 34-31 at Rio's Maracan\u00e3 Stadium, the NFL's first-ever regular season game in South America - decided by a 56-yard Tyler Loop field goal after Dallas erased a 17-13 halftime deficit."
-        }
-      ],
-      "source_date": "2026-09-27"
-    },
-    {
-      "id": "gen-z-catholic-conversions-france",
-      "stream": "human_rituals",
-      "observer": "Why Today?",
-      "title": "The generation raised with the least religion is the one converting the fastest",
-      "observation": "France's adult Catholic baptisms hit 13,234 in 2026, more than triple 2019's 4,263 - 82% of new converts under 40, Gen Z alone 34% of that cohort - a surge coinciding with Pope Leo XIV's high-turnout visit to a famously secular country.",
-      "question": "What does it mean for the least religiously-raised generation on record to be the one now converting fastest?",
-      "hidden_question": "Is this a genuine return to faith, or a search for community and stability that religion happens to currently be supplying better than its secular alternatives?",
-      "pattern": "a generation raised to expect secularism as the default instead producing its sharpest reversal",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "Meeting the new converts in Paris, Leo called the surge a \"paradox\" that \"contradicts every defeatist attitude\" about the Church's future - while on the ground, the actual recruiting runs through TikTok-savvy priests and candlelight Masses that end with a QR code.",
-      "status": "captured",
-      "editorial_potential": "high",
-      "url": "https://www.ncronline.org/vatican/vatican-news/french-catholics-believe-theyre-having-moment-pope-leo-seems-agree",
-      "location": "France",
-      "season_or_time_context": "coincides with Pope Leo XIV's Sept 25-28 France visit",
-      "first_seen": "2026-09-29T00:20:00Z",
-      "last_seen": "2026-10-01T14:30:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-10-01T14:30:00Z",
-          "note": "Meeting the new converts in Paris, Leo called the surge a \"paradox\" that \"contradicts every defeatist attitude\" - while the actual recruiting runs through TikTok-savvy priests and candlelight Masses that end with a QR code."
-        },
-        {
-          "date": "2026-09-29T00:20:00Z",
-          "note": "France's adult Catholic baptisms hit 13,234 in 2026, more than triple 2019's 4,263 - 82% of converts under 40, Gen Z alone 34% of that cohort, coinciding with Pope Leo XIV's visit drawing 800,000 to the Champs-\u00c9lys\u00e9es."
-        }
-      ],
-      "source_date": "2026-09-29"
-    },
-    {
-      "id": "spacex-starship-reaches-orbit-first-time",
-      "stream": "headlines",
-      "category": "Business & Technology",
-      "observer": "Why Today?",
-      "title": "It lost an engine on the way up and still made orbit",
-      "observation": "SpaceX's Starship reached Earth orbit for the first time on its 14th test flight, deploying 26 Starlink satellites despite an engine shutting down early during ascent - a milestone toward routine commercial use and full reusability of the largest rocket ever built.",
-      "question": "How much does a single engine failure matter once the vehicle reaches its goal anyway?",
-      "hidden_question": "Is tolerating visible failure mid-flight a sign of a genuinely robust design, or of a testing philosophy that's normalized problems a more conservative program wouldn't accept?",
-      "pattern": "a program's iterate-in-public approach turning a partial failure into a milestone rather than an embarrassment",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "A dedicated check found only recap and forward-looking plans (Artemis test flights, 2027 AI-compute satellites) - no new development on the orbital flight itself. Going dormant; worth reactivating at the next Starship test or NASA milestone.",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://www.aljazeera.com/news/2026/9/28/spacexs-showpiece-starship-rocket-reaches-orbit-for-first-time",
-      "location": "Starbase, Texas",
-      "season_or_time_context": "14th test flight, Sept 28",
-      "first_seen": "2026-09-29T15:30:00Z",
-      "last_seen": "2026-09-29T15:30:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-09-29T15:30:00Z",
-          "note": "Starship reached Earth orbit for the first time on its 14th test flight, deploying 26 Starlink satellites despite an early engine shutdown - then SpaceX cut the mission short anyway, returning the upper stage after 1.5 hours instead of nine."
-        }
-      ],
-      "source_date": "2026-09-28"
-    },
-    {
-      "id": "angeles-city-collapse-investigation-report",
-      "stream": "places",
-      "observer": "Why Today?",
-      "title": "The collapse killed 30 people in May. The report on why took four months",
-      "observation": "A nine-story Angeles City, Philippines building collapsed in May 2026, killing 30 workers sleeping inside. This week's government investigation found the cause: unapproved changes added two extra floors and a rooftop pool, overstressing columns never designed for that load.",
-      "question": "How long should it take a government to explain why a building it inspected still collapsed?",
-      "hidden_question": "Was the four-month investigation due diligence, or a bureaucracy needing time to decide how much blame it could afford to assign?",
-      "pattern": "a structural failure explained only after enough time has passed that the explanation cannot help anyone it killed",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "A follow-up search surfaced a P11.4 million DOLE fine as if new, but it traced back to a June order, already resolved and under appeal months before this report. No genuinely new development since the investigation report. Going dormant; worth reactivating if criminal charges are actually filed.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.manilatimes.net/2026/09/29/regions/report-says-construction-blunders-led-to-building-collapse/2434295",
-      "location": "Angeles City, Pampanga, Philippines",
-      "season_or_time_context": "investigation report released four months after the May 2026 collapse",
-      "first_seen": "2026-09-30T00:20:00Z",
-      "last_seen": "2026-09-30T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-09-30T00:20:00Z",
-          "note": "The fact-finding task force's final report: overstressed columns and piles caused the collapse, worsened by two extra floors and a rooftop pool added after approval - changes no inspector caught before the building came down."
-        }
-      ],
-      "source_date": "2026-09-29"
     },
     {
       "id": "bolivia-diesel-hike-transport-strike",
@@ -513,52 +163,16 @@
       "url": "https://www.riotimesonline.com/bolivia-mining-cooperatives-mobilize-against-diesel-decree-2026/",
       "location": "La Paz / Santa Cruz, Bolivia",
       "season_or_time_context": "diesel subsidy ended Sept 19, nationwide strike Sept 28",
-      "first_seen": "2026-09-30T00:20:00Z",
-      "last_seen": "2026-10-03T00:20:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-10-03T00:20:00Z",
-          "note": "Morales's deadline arrived today and the government held firm - Hydrocarbons Minister Blanco says the decree stays. Mining cooperatives have now joined the fight too, demanding the minister's exit, as organizers plan a march on La Paz."
-        },
-        {
-          "date": "2026-10-02T14:30:00Z",
-          "note": "Bolivia's IMF board vote on the $1.9 billion program - the deal whose condition triggered the diesel hike in the first place - lands today, a day before Morales's own Oct 3 deadline for the government to repeal the decree."
-        },
-        {
-          "date": "2026-09-30T00:20:00Z",
-          "note": "The strike split the transport sector - Santa Cruz federations called theirs off, La Paz ruled out a Monday strike - but Evo Morales has given the government until Oct 3 to repeal the decree, protests planned from Oct 13."
-        }
-      ],
-      "source_date": "2026-10-02"
-    },
-    {
-      "id": "sukkot-hostages-square-failure",
-      "stream": "human_rituals",
-      "observer": "Why Today?",
-      "title": "The holiday about temporary shelters got a temporary shelter built to accuse the government",
-      "observation": "Sukkot, the Jewish festival built around dwelling in a temporary shelter, arrived this year with Israel's first hostage-free observance since Oct 7, 2023 - and with bereaved families building their own sukkah in Tel Aviv's Hostages Square to display evidence of the government's pre-attack warnings.",
-      "question": "What does it mean to answer a season of thanksgiving with a structure built to document what wasn't prevented?",
-      "hidden_question": "Is the 'Sukkah of the Failure' an act of mourning, or the sharpest form of political pressure available inside a holiday that can't be ignored?",
-      "pattern": "a ritual's own symbolism turned back on the institutions it was meant to comfort",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "A dedicated check found no further development on the Sukkah of the Failure protest itself - the gatherings concluded and coverage since has moved to unrelated holiday news. Going dormant; worth reactivating if the families' accountability push produces an official response.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.timesofisrael.com/liveblog_entry/families-of-oct-7-victims-host-sukkah-of-the-failure-at-hostages-square-showcasing-leaders-failures-ahead-of-attack",
-      "location": "Hostages Square, Tel Aviv, Israel",
-      "season_or_time_context": "Sukkot intermediate days, Sept 27-28",
-      "first_seen": "2026-09-30T00:20:00Z",
-      "last_seen": "2026-09-30T00:20:00Z",
+      "first_seen": "2026-10-04T00:20:00Z",
+      "last_seen": "2026-10-04T00:20:00Z",
       "appearances": 1,
       "history": [
         {
-          "date": "2026-09-30T00:20:00Z",
-          "note": "Families of Oct 7 victims held two nights of gatherings at Hostages Square during Sukkot's intermediate days, presenting a document citing New York Times and Atlantic reporting on warnings passed to Netanyahu's government before the attack."
+          "date": "2026-10-04T00:20:00Z",
+          "note": "Morales's deadline arrived today and the government held firm - Hydrocarbons Minister Blanco says the decree stays. Mining cooperatives have now joined the fight too, demanding the minister's exit, as organizers plan a march on La Paz."
         }
       ],
-      "source_date": "2026-09-28"
+      "source_date": "2026-10-02"
     },
     {
       "id": "norellraptor-four-winged-dinosaur-china",
@@ -577,17 +191,13 @@
       "url": "https://greekreporter.com/2026/10/02/new-four-winged-dinosaur-suggests-flight-evolved-independently-birds/",
       "location": "Jiufotang Formation, Liaoning, China (Early Cretaceous)",
       "season_or_time_context": "described Sept 29, 2026",
-      "first_seen": "2026-10-01T00:20:00Z",
-      "last_seen": "2026-10-03T14:30:00Z",
-      "appearances": 2,
+      "first_seen": "2026-10-04T00:20:00Z",
+      "last_seen": "2026-10-04T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-10-03T14:30:00Z",
+          "date": "2026-10-04T00:20:00Z",
           "note": "The deeper analysis: about 30% of the anatomical changes on Norellraptor's family tree also appear in the lineage leading to birds - but acquired in a different sequence, arguing against a shared blueprint and for separate evolutionary pressures reaching the same answer."
-        },
-        {
-          "date": "2026-10-01T00:20:00Z",
-          "note": "The fossil - a complete, exceptionally preserved 3-year-old juvenile - was described Sept 29 in Nature Communications, named for paleontologists Mark Norell and Rinchen Barsbold, both of whom died in 2025, placing it in a different lineage than Microraptor itself."
         }
       ],
       "source_date": "2026-10-02"
@@ -604,22 +214,22 @@
       "pattern": "a government applying its standard tools of deadlines and quotas to a problem that has never previously been managed that way",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The order was signed Sept 30 and directs Interior, Agriculture, EPA, HHS and GSA to jointly build the campaign - explicitly prioritizing non-chemical, technology-enabled methods over pesticides, a notable constraint for an administration otherwise skeptical of environmental regulation.",
+      "why_now": "A DC councilmember calls the order 'timely' - but the district's own health department has exactly one official assigned to mosquito remediation. The federal 90%-by-2028 target now depends on coordinating with a team that is, at most, one person.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/09/eliminating-disease-carrying-pests-and-restoring-enjoyment-of-the-great-outdoors/",
+      "url": "https://dc.citycast.fm/news/trump-dc-mosquitoes-executive-order",
       "location": "Washington, DC",
       "season_or_time_context": "executive order signed Sept 30, 2026, target year 2028",
-      "first_seen": "2026-10-01T14:30:00Z",
-      "last_seen": "2026-10-01T14:30:00Z",
+      "first_seen": "2026-10-04T00:20:00Z",
+      "last_seen": "2026-10-04T00:20:00Z",
       "appearances": 1,
       "history": [
         {
-          "date": "2026-10-01T14:30:00Z",
-          "note": "The order was signed Sept 30 and directs Interior, Agriculture, EPA, HHS and GSA to jointly build the campaign - prioritizing non-chemical, technology-enabled methods over pesticides, a notable constraint for this administration."
+          "date": "2026-10-04T00:20:00Z",
+          "note": "A DC councilmember calls the order 'timely' - but the district's own health department has exactly one official assigned to mosquito remediation. The federal 90%-by-2028 target now depends on coordinating with a team that is, at most, one person."
         }
       ],
-      "source_date": "2026-09-30"
+      "source_date": "2026-10-01"
     },
     {
       "id": "anak-krakatau-new-islands-emerge",
@@ -638,13 +248,13 @@
       "url": "https://www.freemalaysiatoday.com/category/world/2026/10/02/new-islands-appear-after-indonesia-s-anak-krakatau-volcano-erupts",
       "location": "Sunda Strait, Indonesia",
       "season_or_time_context": "eruption early September 2026, islands reported Oct 2",
-      "first_seen": "2026-10-02T14:30:00Z",
-      "last_seen": "2026-10-02T14:30:00Z",
+      "first_seen": "2026-10-04T00:20:00Z",
+      "last_seen": "2026-10-04T00:20:00Z",
       "appearances": 1,
       "history": [
         {
-          "date": "2026-10-02T14:30:00Z",
-          "note": "Anak Krakatau gained 32.8 hectares from pyroclastic deposits and lava during the same 25-hour eruption that produced two offshore mounds - but similar landmasses rose and eroded away repeatedly between 1927 and 1930 before the main island endured."
+          "date": "2026-10-04T00:20:00Z",
+          "note": "Anak Krakatau itself gained 32.8 hectares from pyroclastic deposits and lava during the same eruption - but history isn't encouraging: similar mounds rose and eroded away repeatedly between 1927 and 1930 before the main island actually endured."
         }
       ],
       "source_date": "2026-10-02"

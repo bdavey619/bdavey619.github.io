@@ -1,6 +1,6 @@
 {
-  "week": "2026-09-27",
-  "last_updated": "2026-10-03T14:30:00Z",
+  "week": "2026-10-04",
+  "last_updated": "2026-10-04T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -31,8 +31,8 @@
         },
         {
           "domain": "Civil Conflict",
-          "text": "Federal forces retook Alula Aba Nega Airport and TPLF fighters are reportedly abandoning Mekelle entirely - a federal claim of victory that still can't be verified, since no troops have actually been confirmed inside the city itself.",
-          "url": "https://aljazeera.com/news/2026/10/3/rebels-pulling-back-as-addis-ababas-forces-advance-reports-say",
+          "text": "Government sources say federal forces have entered Mekelle itself in multiple locations as TPLF leadership retreats - but as with every claim in this war, independent confirmation still lags the announcement by at least a news cycle.",
+          "url": "https://swedenherald.com/article/ethiopian-government-forces-enter-tigray-capital-mekelle-source-says",
           "date": "2026-10-03",
           "is_new": true
         }
@@ -92,14 +92,14 @@
           "text": "Soldiers searching for weapons burned down a displacement camp's Ebola transit center outside Bunia, forcing 19,000 people to flee - the containment infrastructure destroyed by an operation that had nothing to do with containing the outbreak at all.",
           "url": "https://news.un.org/en/story/2026/10/1168499",
           "date": "2026-10-02",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Maritime Safety",
-          "text": "The toll has held at 78 dead, 57 missing through day 19, despite a task force expanded to 1,042 personnel - a capacity surge that arrived only after the capacity to prevent the sinking never existed at all.",
-          "url": "https://en.antaranews.com/news/433652/indonesia-deploys-1000-rescuers-as-search-for-ferry-victims-continues",
-          "date": "2026-10-01",
-          "is_new": false
+          "text": "The toll ticked up again to 80 dead, 55 missing - three weeks after a capacity surge of 1,042 rescuers arrived for a wreck that never had the capacity check to prevent it from sinking overloaded in the first place.",
+          "url": "https://www.archyworldys.com/indonesian-ferry-disaster-captain-arrested-after-78-die/",
+          "date": "2026-10-02",
+          "is_new": true
         }
       ]
     }
