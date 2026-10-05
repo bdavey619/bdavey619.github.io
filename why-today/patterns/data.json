@@ -1,6 +1,6 @@
 {
   "week": "2026-10-04",
-  "last_updated": "2026-10-04T14:30:00Z",
+  "last_updated": "2026-10-05T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -20,7 +20,7 @@
           "text": "Iran says the strait is \"under control of the Islamic Republic - we will not back down\" - while IMF PortWatch recorded a single transit on Sept 27 against an 85-a-day prewar baseline. Control over an empty waterway is a strange thing to insist on.",
           "url": "https://news.cgtn.com/news/2026-10-04/Iran-s-IRGC-hits-7-violating-tankers-in-Strait-of-Hormuz-in-5-days-1QXsqlhSvlK/p.html",
           "date": "2026-10-04",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Debt Management",
@@ -34,7 +34,7 @@
           "text": "Federal forces say they've seized Mekelle outright - but TPLF's leader is already signaling the guerrilla campaign that reclaimed the city once before, in 2021. A claim of final control, made by the side that has made and lost this exact claim already.",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ethiopian-government-troops-seize-tigrays-capital-mekelle",
           "date": "2026-10-04",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -60,10 +60,10 @@
         },
         {
           "domain": "Economic Policy",
-          "text": "Milei's minister calls the poverty jump \"far below\" past levels rather than a failure - a form of vindication holding up only next to a worse past, not the promised future. Independent estimates now put year-end poverty at 35%, still climbing.",
-          "url": "https://abcnews.com/Business/wireStory/argentinas-poverty-rate-rises-30-president-milei-reversing-136736443",
-          "date": "2026-09-27",
-          "is_new": false
+          "text": "Milei's minister still calls the poverty jump \"far below\" past levels - but disapproval among lower-income voters has surged to nearly 70%, up from 57% a year ago. The spin held for a news cycle; the voters it was aimed at didn't buy it.",
+          "url": "https://www.latintimes.com/argentinas-poverty-rate-surged-323-mileis-gains-are-unraveling-what-this-means-mileis-599574",
+          "date": "2026-10-04",
+          "is_new": true
         },
         {
           "domain": "Energy Shipping",
@@ -92,7 +92,7 @@
           "text": "This is now officially the largest, deadliest Ebola outbreak in Congo's history - surpassing 2018-2020 - five months after rebels in its own territory first declared it over. The record it just broke was itself a failure of oversight.",
           "url": "https://www.newsy-today.com/dr-congo-ebola-outbreak-caused-4018-deaths-from-8300-cases/",
           "date": "2026-10-03",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Maritime Safety",

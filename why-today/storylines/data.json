@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-04",
-  "cycle_start": "2026-10-04T00:20:00Z",
-  "last_updated": "2026-10-04T14:30:00Z",
+  "cycle_start": "2026-10-04T14:30:00Z",
+  "last_updated": "2026-10-05T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Iran's IRGC says it has hit seven \"violating\" tankers in the strait in just five days, while IMF PortWatch recorded a single transit on Sept 27 against an 85-a-day prewar baseline. Tehran: \"under control of the Islamic Republic - we will not back down.\"",
+      "why_now": "Defense Secretary Hegseth calls the US blockade of the strait \"ironclad\" and says Trump has \"all the options he needs\" if Iran keeps \"playing games\" - even as Iran's FM again claims its own seven-day reopening plan still stands.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://news.cgtn.com/news/2026-10-04/Iran-s-IRGC-hits-7-violating-tankers-in-Strait-of-Hormuz-in-5-days-1QXsqlhSvlK/p.html",
+      "url": "https://foxnews.com/live-news/us-iran-war-hormuz-strait-peace-talks-donald-trump-october-4",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-04T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-10-05T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-10-05T00:20:00Z",
+          "note": "Defense Secretary Hegseth calls the US blockade of the strait \"ironclad\" and says Trump has \"all the options he needs\" if Iran keeps \"playing games\" - even as Iran's FM again claims its own seven-day reopening plan still stands."
+        },
         {
           "date": "2026-10-04T14:30:00Z",
           "note": "Iran's IRGC says it has hit seven \"violating\" tankers in the strait in just five days, while IMF PortWatch recorded a single transit on Sept 27 against an 85-a-day prewar baseline. Tehran: \"under control of the Islamic Republic - we will not back down.\""
@@ -140,16 +144,20 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Mekelle has fallen: federal troops are patrolling the city and communications were restored after more than a week dark, but shops stay shuttered on looting fears - and TPLF's leader is already hinting at the guerrilla campaign that reclaimed the city after it fell in 2020.",
+      "why_now": "While Ethiopia claims Mekelle, its three accused backers - Egypt, Eritrea and Sudan - are meeting without it: a mini-summit in Alamein brought together Sisi, Eritrea's Afwerki, Somalia's Mohamud and Sudan's al-Burhan, with Sisi urging 'dialogue, not confrontation' as fears grow the war could cross borders.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ethiopian-government-troops-seize-tigrays-capital-mekelle",
+      "url": "https://www.france24.com/en/africa/20261004-ethiopian-federal-forces-control-tigray-capital-as-regional-rivals-meet-in-egypt",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-04T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-10-05T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-10-05T00:20:00Z",
+          "note": "While Ethiopia claims Mekelle, its three accused backers - Egypt, Eritrea and Sudan - are meeting without it: a mini-summit in Alamein brought together Sisi, Eritrea's Afwerki, Somalia's Mohamud and Sudan's al-Burhan, with Sisi urging 'dialogue, not confrontation' as fears grow the war could cross borders."
+        },
         {
           "date": "2026-10-04T14:30:00Z",
           "note": "Mekelle has fallen: federal troops are patrolling the city and communications were restored after more than a week dark, but shops stay shuttered on looting fears - and TPLF's leader is already hinting at the guerrilla campaign that reclaimed the city after it fell in 2020."
@@ -173,16 +181,20 @@
       "pattern": "an externally-imposed economic condition landing first on the population least able to absorb it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Congress extended the state of emergency another 90 days, and when the government offered fuel relief measures as a concession, farmers and Morales supporters marched in Cochabamba Friday to reject them outright - the offer itself becoming the next thing protested.",
+      "why_now": "The fuel shortage has spread past Santa Cruz - kilometer-long queues now stretch in Cochabamba, Sucre and Riberalta, drivers lining up from 2am for gas that hasn't arrived. Those who can afford it buy imported Argentine petrol at 2.6 times the regulated price.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://thereport.live/business/bolivia-farmers-protest-diesel-price-hike-despite-government-concession/41591",
+      "url": "https://www.riotimesonline.com/bolivia-santa-cruz-fuel-shortage-import-alternative-2026",
       "location": "La Paz / Santa Cruz, Bolivia",
       "season_or_time_context": "diesel subsidy ended Sept 19, nationwide strike Sept 28",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-04T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-10-05T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-10-05T00:20:00Z",
+          "note": "The fuel shortage has spread past Santa Cruz - kilometer-long queues now stretch in Cochabamba, Sucre and Riberalta, drivers lining up from 2am for gas that hasn't arrived. Those who can afford it buy imported Argentine petrol at 2.6 times the regulated price."
+        },
         {
           "date": "2026-10-04T14:30:00Z",
           "note": "Congress extended the state of emergency another 90 days, and when the government offered fuel relief measures as a concession, farmers and Morales supporters marched in Cochabamba Friday to reject them outright - the offer itself becoming the next thing protested."
@@ -192,7 +204,7 @@
           "note": "Morales's deadline arrived today and the government held firm - Hydrocarbons Minister Blanco says the decree stays. Mining cooperatives have now joined the fight too, demanding the minister's exit, as organizers plan a march on La Paz."
         }
       ],
-      "source_date": "2026-10-02"
+      "source_date": "2026-10-03"
     },
     {
       "id": "norellraptor-four-winged-dinosaur-china",
@@ -275,6 +287,34 @@
         {
           "date": "2026-10-04T00:20:00Z",
           "note": "Anak Krakatau itself gained 32.8 hectares from pyroclastic deposits and lava during the same eruption - but history isn't encouraging: similar mounds rose and eroded away repeatedly between 1927 and 1930 before the main island actually endured."
+        }
+      ],
+      "source_date": "2026-10-02"
+    },
+    {
+      "id": "uganda-tree-climbing-lions-conservation-deal",
+      "stream": "natural_world",
+      "observer": "Why Today?",
+      "title": "Only two female lions are left where 400 once lived. Uganda just signed a 10-year plan to fix that",
+      "observation": "Uganda's Wildlife Authority and the Wildlife Conservation Society signed a 10-year, $14 million deal to co-manage part of Queen Elizabeth National Park, home to tree-climbing lions whose population fell from 400 in the 1970s to 39 today - just two of them female.",
+      "question": "What does it take to reverse a 90% population collapse that took five decades to happen?",
+      "hidden_question": "Is splitting day-to-day management from law enforcement a genuine fix, or an admission the state alone couldn't protect what it owns?",
+      "pattern": "a government outsourcing day-to-day stewardship of a resource it couldn't protect alone, while keeping enforcement power for itself",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The Ishasha sector itself is down to two female lions. WCS takes over biodiversity management, community engagement and tourism development there; UWA keeps law enforcement. The first five years of the plan focus purely on rebuilding the ecological conditions lions need to recover at all.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://news.mongabay.com/short-article/2026/10/uganda-and-ngo-to-co-manage-sector-of-national-park-home-to-tree-climbing-lions/",
+      "location": "Ishasha sector, Queen Elizabeth National Park, Uganda",
+      "season_or_time_context": "10-year partnership announced Oct 2, 2026",
+      "first_seen": "2026-10-05T00:20:00Z",
+      "last_seen": "2026-10-05T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-05T00:20:00Z",
+          "note": "The Ishasha sector is down to two female lions. WCS takes over biodiversity management, community engagement and tourism there; UWA keeps law enforcement. The first five years focus purely on rebuilding the ecological conditions lions need to recover at all."
         }
       ],
       "source_date": "2026-10-02"
