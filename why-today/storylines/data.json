@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-04",
-  "cycle_start": "2026-10-04T14:30:00Z",
-  "last_updated": "2026-10-05T00:20:00Z",
+  "cycle_start": "2026-10-05T00:20:00Z",
+  "last_updated": "2026-10-05T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Defense Secretary Hegseth calls the US blockade of the strait \"ironclad\" and says Trump has \"all the options he needs\" if Iran keeps \"playing games\" - even as Iran's FM again claims its own seven-day reopening plan still stands.",
+      "why_now": "A tanker heading inbound through the strait turned back today after Iran's Revolutionary Guards hailed it and threatened to target it if it kept going - no shot fired, no strike, just the threat alone rerouting a ship.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://foxnews.com/live-news/us-iran-war-hormuz-strait-peace-talks-donald-trump-october-4",
+      "url": "https://cbsnews.com/live-updates/iran-war-trump-us-oil-prices-yemen-red-sea-houthis-bab-el-mandeb",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-05T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-10-05T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-10-05T14:30:00Z",
+          "note": "A tanker heading inbound through the strait turned back today after Iran's Revolutionary Guards hailed it and threatened to target it if it kept going - no shot fired, no strike, just the threat alone rerouting a ship."
+        },
         {
           "date": "2026-10-05T00:20:00Z",
           "note": "Defense Secretary Hegseth calls the US blockade of the strait \"ironclad\" and says Trump has \"all the options he needs\" if Iran keeps \"playing games\" - even as Iran's FM again claims its own seven-day reopening plan still stands."
@@ -37,7 +41,7 @@
           "note": "September's LNG traffic through Hormuz hit its highest monthly level since the war began - 19 cargoes, versus roughly 86 a month before the war. Even the best month on record is still 80% below what \"normal\" used to mean here."
         }
       ],
-      "source_date": "2026-10-04"
+      "source_date": "2026-10-05"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -50,22 +54,26 @@
       "pattern": "a routine domestic ferry route turning fatal within the span of a single distress call",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The toll ticked up again to 80 dead, 55 missing, as the 1,042-person task force - 11 vessels, three helicopters, 63 divers, 42 ambulances - keeps working a wreck three weeks on from the sinking.",
+      "why_now": "The ferry's operator, PT Virgo Karya Shipping, says the wreck itself will be raised this month - a salvage operation that's been under discussion with insurers since the sinking, running in parallel with the still-active search for the missing.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.archyworldys.com/indonesian-ferry-disaster-captain-arrested-after-78-die/",
+      "url": "https://en.antaranews.com/amp/news/434040/sunken-virgo-transport-8-to-undergo-salvage-operation-in-october",
       "location": "Java Sea, en route Surabaya to Banjarmasin, Indonesia",
       "season_or_time_context": "salvage operation underway",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-04T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-05T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-05T14:30:00Z",
+          "note": "The ferry's operator, PT Virgo Karya Shipping, says the wreck itself will be raised this month - a salvage operation that's been under discussion with insurers since the sinking, running in parallel with the still-active search for the missing."
+        },
         {
           "date": "2026-10-04T00:20:00Z",
           "note": "The toll ticked up again to 80 dead, 55 missing, as the 1,042-person task force - 11 vessels, three helicopters, 63 divers, 42 ambulances - keeps working a wreck three weeks on from the sinking."
         }
       ],
-      "source_date": "2026-10-02"
+      "source_date": "2026-10-04"
     },
     {
       "id": "congo-ebola-declared-over-resurfaces",
@@ -111,16 +119,20 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The 10-year hit 5.34% Thursday, its highest in 24 years - the bond market still climbing even as October hike odds collapsed on the jobs miss. FOMC minutes due Wednesday are the next test of whether the two signals ever reconcile.",
+      "why_now": "Oil dropped below $90 a barrel today, easing some inflation pressure even as the 10-year ticked up again to 5.30% - the energy and rates stories pulling in opposite directions ahead of Wednesday's FOMC minutes.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://finance.yahoo.com/markets/articles/global-bond-selloff-pushes-u-132245325.html",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-04/asian-stocks-to-rise-as-hike-bets-ease-oil-climbs-markets-wrap",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-04T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-10-05T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-10-05T14:30:00Z",
+          "note": "Oil dropped below $90 a barrel today, easing some inflation pressure even as the 10-year ticked up again to 5.30% - the energy and rates stories pulling in opposite directions ahead of Wednesday's FOMC minutes."
+        },
         {
           "date": "2026-10-04T14:30:00Z",
           "note": "The 10-year hit 5.34% Thursday, its highest in 24 years - the bond market still climbing even as October hike odds collapsed on the jobs miss. FOMC minutes due Wednesday are the next test of whether the two signals ever reconcile."
@@ -130,7 +142,7 @@
           "note": "The 10-year dipped to 5.16% on the jobs miss, then rebounded to retest 5.30% by midday - volatile, but still near its 2002 high. December hike odds remain at 90%, essentially unmoved by the same data that gutted October's."
         }
       ],
-      "source_date": "2026-10-02"
+      "source_date": "2026-10-05"
     },
     {
       "id": "ethiopia-tigray-forces-seize-airports",
@@ -144,16 +156,20 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "While Ethiopia claims Mekelle, its three accused backers - Egypt, Eritrea and Sudan - are meeting without it: a mini-summit in Alamein brought together Sisi, Eritrea's Afwerki, Somalia's Mohamud and Sudan's al-Burhan, with Sisi urging 'dialogue, not confrontation' as fears grow the war could cross borders.",
+      "why_now": "TPLF says its withdrawal from Mekelle was tactical, not defeat - fighters relocated \"to reduce risks to civilians,\" not surrendered. Mobile service has resumed in parts of the city, but residents describe the same dread that preceded the 2020-22 war.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.france24.com/en/africa/20261004-ethiopian-federal-forces-control-tigray-capital-as-regional-rivals-meet-in-egypt",
+      "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-forces-retake-mekelle-amid-renewed-tigray-fighting",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-05T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-10-05T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-10-05T14:30:00Z",
+          "note": "TPLF says its withdrawal from Mekelle was tactical, not defeat - fighters relocated \"to reduce risks to civilians,\" not surrendered. Mobile service has resumed in parts of the city, but residents describe the same dread that preceded the 2020-22 war."
+        },
         {
           "date": "2026-10-05T00:20:00Z",
           "note": "While Ethiopia claims Mekelle, its three accused backers - Egypt, Eritrea and Sudan - are meeting without it: a mini-summit in Alamein brought together Sisi, Eritrea's Afwerki, Somalia's Mohamud and Sudan's al-Burhan, with Sisi urging 'dialogue, not confrontation' as fears grow the war could cross borders."
@@ -167,7 +183,7 @@
           "note": "Government forces have reportedly entered Mekelle itself in multiple locations as TPLF fighters and leadership retreat - though as with every claim in this war, independent confirmation lags the announcement."
         }
       ],
-      "source_date": "2026-10-04"
+      "source_date": "2026-10-05"
     },
     {
       "id": "bolivia-diesel-hike-transport-strike",

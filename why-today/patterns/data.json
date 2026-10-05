@@ -1,6 +1,6 @@
 {
   "week": "2026-10-04",
-  "last_updated": "2026-10-05T00:20:00Z",
+  "last_updated": "2026-10-05T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -31,10 +31,10 @@
         },
         {
           "domain": "Civil Conflict",
-          "text": "Federal forces say they've seized Mekelle outright - but TPLF's leader is already signaling the guerrilla campaign that reclaimed the city once before, in 2021. A claim of final control, made by the side that has made and lost this exact claim already.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ethiopian-government-troops-seize-tigrays-capital-mekelle",
-          "date": "2026-10-04",
-          "is_new": false
+          "text": "Federal forces say they've seized Mekelle outright - but TPLF says its own withdrawal was tactical, not defeat, fighters relocated \"to reduce risks to civilians.\" Same event, two claims, and neither one survives contact with the other.",
+          "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-forces-retake-mekelle-amid-renewed-tigray-fighting",
+          "date": "2026-10-05",
+          "is_new": true
         }
       ]
     },
@@ -63,7 +63,7 @@
           "text": "Milei's minister still calls the poverty jump \"far below\" past levels - but disapproval among lower-income voters has surged to nearly 70%, up from 57% a year ago. The spin held for a news cycle; the voters it was aimed at didn't buy it.",
           "url": "https://www.latintimes.com/argentinas-poverty-rate-surged-323-mileis-gains-are-unraveling-what-this-means-mileis-599574",
           "date": "2026-10-04",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy Shipping",
