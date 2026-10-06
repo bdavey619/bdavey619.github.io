@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-04",
-  "cycle_start": "2026-10-05T14:30:00Z",
-  "last_updated": "2026-10-06T00:20:00Z",
+  "cycle_start": "2026-10-06T00:20:00Z",
+  "last_updated": "2026-10-06T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "A third tanker in two days was hit near the strait, and Pezeshkian ruled out US talks entirely: \"every time we come to the negotiating table, war is immediately imposed on us... we have been attacked three times so far following talks.\"",
+      "why_now": "A third carrier strike group and roughly 9,000 more troops are headed to the region - by late November, three carriers and two amphibious groups will surround Iran, handing Trump a wider menu of options if he resumes strikes after the midterms.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.iranintl.com/en/202610050957",
+      "url": "https://www.aljazeera.com/news/2026/10/2/new-aircraft-carrier-10000-us-troops-is-the-iran-war-about-to-escalate",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-06T00:20:00Z",
-      "appearances": 5,
+      "last_seen": "2026-10-06T14:30:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-10-06T14:30:00Z",
+          "note": "A third carrier strike group and roughly 9,000 more troops are headed to the region - by late November, three carriers and two amphibious groups will surround Iran, handing Trump a wider menu of options if he resumes strikes after the midterms."
+        },
         {
           "date": "2026-10-06T00:20:00Z",
           "note": "A third tanker in two days was hit near the strait, and Pezeshkian ruled out US talks entirely: \"every time we come to the negotiating table, war is immediately imposed on us... we have been attacked three times so far following talks.\""
@@ -39,13 +43,9 @@
         {
           "date": "2026-10-04T14:30:00Z",
           "note": "Iran's IRGC says it has hit seven \"violating\" tankers in the strait in just five days, while IMF PortWatch recorded a single transit on Sept 27 against an 85-a-day prewar baseline. Tehran: \"under control of the Islamic Republic - we will not back down.\""
-        },
-        {
-          "date": "2026-10-04T00:20:00Z",
-          "note": "September's LNG traffic through Hormuz hit its highest monthly level since the war began - 19 cargoes, versus roughly 86 a month before the war. Even the best month on record is still 80% below what \"normal\" used to mean here."
         }
       ],
-      "source_date": "2026-10-05"
+      "source_date": "2026-10-02"
     },
     {
       "id": "indonesia-ferry-capsizes-java-sea",
@@ -91,16 +91,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The toll has climbed again to 4,114 dead among 8,544 confirmed cases - updated figures as of Oct 5, still the fastest-growing Ebola outbreak on record, with no sign the growth curve has bent.",
+      "why_now": "The speed comparison is stark: this outbreak passed 1,000 cases within 40 days of response activation. The 2018 DRC outbreak took 235 days to hit the same mark - nearly six times slower than what's happening now.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://en.apa.az/africa/ebola-outbreak-kills-4114-people-in-dr-congo-528202",
+      "url": "https://www.natureworldnews.com/articles/73448/20261006/ebola-outbreak-caused-bat-linked-virus-no-approved-vaccine-passes-4000-deaths-congo.htm",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-06T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-10-06T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-10-06T14:30:00Z",
+          "note": "The speed comparison is stark: this outbreak passed 1,000 cases within 40 days of response activation. The 2018 DRC outbreak took 235 days to hit the same mark - nearly six times slower than what's happening now."
+        },
         {
           "date": "2026-10-06T00:20:00Z",
           "note": "The toll has climbed again to 4,114 dead among 8,544 confirmed cases - updated figures as of Oct 5, still the fastest-growing Ebola outbreak on record, with no sign the growth curve has bent."
@@ -114,7 +118,7 @@
           "note": "Health Minister Kamba says the infection is now concentrating in a limited number of health areas rather than spreading evenly - a possible first sign of containment, even as the death toll keeps climbing past 4,000 in the fastest-growing outbreak on record."
         }
       ],
-      "source_date": "2026-10-05"
+      "source_date": "2026-10-06"
     },
     {
       "id": "fed-first-hike-since-2023",
@@ -127,16 +131,20 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Yields climbed back above 5.30% on fresh inflation fears after an ISM survey showed services activity slowing even as input prices surged - a stagflation signal landing a day before Wednesday's FOMC minutes, with October hold odds now at 76%.",
+      "why_now": "The slide has been remarkably fast: October hike odds were a near coin-flip on Sept 29 (50.9/49.1) and have collapsed to 21.6% today, a week later - all on the same jobs and inflation data the Fed hadn't fully absorbed yet.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://fxstreet.com/news/us-treasury-yields-scale-multi-year-highs-as-inflation-fears-return-202610052231",
+      "url": "https://financefeeds.com/gold-price-4172-fed-hike-odds-21-6-percent",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-06T00:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-10-06T14:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-10-06T14:30:00Z",
+          "note": "The slide has been remarkably fast: October hike odds were a near coin-flip on Sept 29 (50.9/49.1) and have collapsed to 21.6% today, a week later - all on the same jobs and inflation data the Fed hadn't fully absorbed yet."
+        },
         {
           "date": "2026-10-06T00:20:00Z",
           "note": "Yields climbed back above 5.30% on fresh inflation fears after an ISM survey showed services activity slowing even as input prices surged - a stagflation signal landing a day before Wednesday's FOMC minutes, with October hold odds now at 76%."
@@ -154,7 +162,7 @@
           "note": "The 10-year dipped to 5.16% on the jobs miss, then rebounded to retest 5.30% by midday - volatile, but still near its 2002 high. December hike odds remain at 90%, essentially unmoved by the same data that gutted October's."
         }
       ],
-      "source_date": "2026-10-05"
+      "source_date": "2026-10-06"
     },
     {
       "id": "ethiopia-tigray-forces-seize-airports",
@@ -168,16 +176,20 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "TPLF says its withdrawal from Mekelle was tactical, not defeat - fighters relocated \"to reduce risks to civilians,\" not surrendered. Mobile service has resumed in parts of the city, but residents describe the same dread that preceded the 2020-22 war.",
+      "why_now": "Mekelle fell, but the war didn't stop there: air strikes and artillery rocked Tigray overnight into Monday, and at least 17 people have been killed as fighting continues beyond the capital federal forces just claimed.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-forces-retake-mekelle-amid-renewed-tigray-fighting",
+      "url": "https://www.timeslive.co.za/news/africa/2026-10-05-at-least-17-killed-as-ethiopia-tigray-conflict-reignites/",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-05T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-10-06T14:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-10-06T14:30:00Z",
+          "note": "Mekelle fell, but the war didn't stop there: air strikes and artillery rocked Tigray overnight into Monday, and at least 17 people have been killed as fighting continues beyond the capital federal forces just claimed."
+        },
         {
           "date": "2026-10-05T14:30:00Z",
           "note": "TPLF says its withdrawal from Mekelle was tactical, not defeat - fighters relocated \"to reduce risks to civilians,\" not surrendered. Mobile service has resumed in parts of the city, but residents describe the same dread that preceded the 2020-22 war."
@@ -209,16 +221,20 @@
       "pattern": "an externally-imposed economic condition landing first on the population least able to absorb it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The fight has pivoted from pumps to fares: Santa Cruz unions called off their 48-hour strike after YPFB rushed more fuel to all nine departments, but over 1,800 vehicle plates have been blocked and 24 confiscated enforcing the emergency rules.",
+      "why_now": "Fares have already jumped nearly 200% in several regions, and officials are now blocking repeat fuel buyers under the emergency rules - the shortage persists even as YPFB keeps shipping extra supply to stations.",
       "status": "captured",
       "editorial_potential": "high",
       "url": "https://www.riotimesonline.com/bolivia-fuel-shortage-plates-blocked-2026/",
       "location": "La Paz / Santa Cruz, Bolivia",
       "season_or_time_context": "diesel subsidy ended Sept 19, nationwide strike Sept 28",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-06T00:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-10-06T14:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-10-06T14:30:00Z",
+          "note": "Fares have already jumped nearly 200% in several regions, and officials are now blocking repeat fuel buyers under the emergency rules - the shortage persists even as YPFB keeps shipping extra supply to stations."
+        },
         {
           "date": "2026-10-06T00:20:00Z",
           "note": "The fight has pivoted from pumps to fares: Santa Cruz unions called off their 48-hour strike after YPFB rushed more fuel to all nine departments, but over 1,800 vehicle plates have been blocked and 24 confiscated enforcing the emergency rules."
@@ -236,7 +252,7 @@
           "note": "Morales's deadline arrived today and the government held firm - Hydrocarbons Minister Blanco says the decree stays. Mining cooperatives have now joined the fight too, demanding the minister's exit, as organizers plan a march on La Paz."
         }
       ],
-      "source_date": "2026-10-04"
+      "source_date": "2026-10-05"
     },
     {
       "id": "norellraptor-four-winged-dinosaur-china",
@@ -334,16 +350,20 @@
       "pattern": "a government outsourcing day-to-day stewardship of a resource it couldn't protect alone, while keeping enforcement power for itself",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The Ishasha sector itself is down to two female lions. WCS takes over biodiversity management, community engagement and tourism development there; UWA keeps law enforcement. The first five years of the plan focus purely on rebuilding the ecological conditions lions need to recover at all.",
+      "why_now": "The count is even starker than first reported: fewer than five lions remain in Ishasha at all. WCS's first move is recruiting \"lion guardians\" from surrounding towns and funding livestock enclosures and boreholes to cut the herder-lion conflict that's been killing them.",
       "status": "captured",
       "editorial_potential": "medium",
       "url": "https://news.mongabay.com/short-article/2026/10/uganda-and-ngo-to-co-manage-sector-of-national-park-home-to-tree-climbing-lions/",
       "location": "Ishasha sector, Queen Elizabeth National Park, Uganda",
       "season_or_time_context": "10-year partnership announced Oct 2, 2026",
       "first_seen": "2026-10-05T00:20:00Z",
-      "last_seen": "2026-10-05T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-06T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-06T14:30:00Z",
+          "note": "The count is even starker than first reported: fewer than five lions remain in Ishasha at all. WCS's first move is recruiting \"lion guardians\" from surrounding towns and funding livestock enclosures and boreholes to cut the herder-lion conflict that's been killing them."
+        },
         {
           "date": "2026-10-05T00:20:00Z",
           "note": "The Ishasha sector is down to two female lions. WCS takes over biodiversity management, community engagement and tourism there; UWA keeps law enforcement. The first five years focus purely on rebuilding the ecological conditions lions need to recover at all."
@@ -376,6 +396,34 @@
         {
           "date": "2026-10-06T00:20:00Z",
           "note": "Justice Alito recused himself from the case shortly before argument. The court chose this as the very first case of its new term - a deliberate signal about how seriously it's treating the federal preemption question before anything else this session."
+        }
+      ],
+      "source_date": "2026-10-05"
+    },
+    {
+      "id": "norway-svinesund-neolithic-gallery-grave",
+      "stream": "places",
+      "observer": "Why Today?",
+      "title": "A grave built from car-sized stone slabs sat waiting under a Norwegian plateau for 4,000 years",
+      "observation": "A rescue excavation ahead of industrial construction on Norway's Svinesund Plateau uncovered a Neolithic gallery grave built from stone slabs weighing hundreds of kilograms each - dated to roughly 4,000 years ago, when early farmers first moved into the region.",
+      "question": "What does it mean that a grave built to outlast everything was almost paved over by the same kind of development it originally predates?",
+      "hidden_question": "Is the rescue excavation honoring the site, or is 'rescue archaeology' just the industry's way of making peace with destroying most of what it finds?",
+      "pattern": "an ancient structure surviving millennia only to be found at the exact moment modern development was about to erase it",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The grave held only one arrowhead, no daggers, plus an amber bead, a pottery fragment, and traces of charcoal - archaeologists are now testing whether that charcoal is ordinary burning or burned bone, which would mean the site combined a regular burial with a cremation.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://archaeology.org/news/2026/10/05/4000-year-old-gallery-grave-excavated-in-norway/",
+      "location": "Svinesund Plateau, southeastern Norway",
+      "season_or_time_context": "rescue excavation reported Oct 5, 2026",
+      "first_seen": "2026-10-06T14:30:00Z",
+      "last_seen": "2026-10-06T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-06T14:30:00Z",
+          "note": "The grave held one arrowhead, no daggers, plus an amber bead, pottery and charcoal traces - archaeologists are testing whether the charcoal is ordinary burning or burned bone, which would mean a regular burial combined with a cremation."
         }
       ],
       "source_date": "2026-10-05"

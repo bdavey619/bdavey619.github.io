@@ -1,6 +1,6 @@
 {
   "week": "2026-10-04",
-  "last_updated": "2026-10-06T00:20:00Z",
+  "last_updated": "2026-10-06T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -13,7 +13,7 @@
           "text": "A third tanker in two days was hit near the strait - still unclaimed, still unexplained - while Pezeshkian used it to rule out US talks entirely: \"every time we come to the table, war is immediately imposed on us.\"",
           "url": "https://www.iranintl.com/en/202610050957",
           "date": "2026-10-05",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Energy Diplomacy",
@@ -24,10 +24,10 @@
         },
         {
           "domain": "Debt Management",
-          "text": "The market's own confident bet just partly unwound: October hike odds fell to 47.1% from 70% within 48 hours, after a dovish NY Fed speech and a cooler-than-forecast PCE reading. Tuesday's conviction became Wednesday's reversal.",
-          "url": "https://finance.yahoo.com/economy/policy/articles/odds-fed-rate-hike-fall-083935313.html",
-          "date": "2026-09-30",
-          "is_new": false
+          "text": "The market's own conviction didn't survive a week: October hike odds were a near coin-flip on Sept 29 (50.9/49.1) and have collapsed to 21.6% today - on data the Fed itself hadn't even finished digesting when it signaled more tightening.",
+          "url": "https://financefeeds.com/gold-price-4172-fed-hike-odds-21-6-percent",
+          "date": "2026-10-06",
+          "is_new": true
         },
         {
           "domain": "Civil Conflict",
@@ -46,10 +46,10 @@
       "evidence": [
         {
           "domain": "Public Health",
-          "text": "M23 declared DRC's Ebola outbreak over in its territory in late June. Fifty health workers have since died fighting it, and the outbreak is on pace to surpass the 2014-16 regional epidemic's 11,000 deaths - a resolution in name only.",
-          "url": "https://www.arkansasonline.com/news/2026/sep/29/congos-outbreak-numbers-top-8000/",
-          "date": "2026-09-29",
-          "is_new": false
+          "text": "M23 declared the outbreak over in its territory in June. It instead became the fastest-growing Ebola outbreak on record - hitting 1,000 cases in 40 days, versus 235 days for the 2018 DRC outbreak. A declaration, overtaken by reality at six times the speed.",
+          "url": "https://www.natureworldnews.com/articles/73448/20261006/ebola-outbreak-caused-bat-linked-virus-no-approved-vaccine-passes-4000-deaths-congo.htm",
+          "date": "2026-10-06",
+          "is_new": true
         },
         {
           "domain": "Foreign Policy",
@@ -70,7 +70,7 @@
           "text": "Yanbu's loadings genuinely recovered - 11 tankers simultaneously by midweek - before an unidentified projectile reportedly struck the port again Thursday. Saudi authorities haven't confirmed damage, but the 'resolution' just got un-resolved in real time.",
           "url": "https://maritime-executive.com/article/explosion-and-fire-reported-at-yanbu",
           "date": "2026-10-01",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
