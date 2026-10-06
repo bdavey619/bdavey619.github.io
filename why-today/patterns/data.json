@@ -1,6 +1,6 @@
 {
   "week": "2026-10-04",
-  "last_updated": "2026-10-05T14:30:00Z",
+  "last_updated": "2026-10-06T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -10,10 +10,10 @@
       "evidence": [
         {
           "domain": "Information Warfare",
-          "text": "Three more tankers - all Liberia-flagged - were struck by unknown projectiles transiting the strait, one catching fire. It happened a day after Trump claimed \"virtually total control.\" No one has claimed these strikes either.",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
-          "date": "2026-09-29",
-          "is_new": false
+          "text": "A third tanker in two days was hit near the strait - still unclaimed, still unexplained - while Pezeshkian used it to rule out US talks entirely: \"every time we come to the table, war is immediately imposed on us.\"",
+          "url": "https://www.iranintl.com/en/202610050957",
+          "date": "2026-10-05",
+          "is_new": true
         },
         {
           "domain": "Energy Diplomacy",
@@ -34,7 +34,7 @@
           "text": "Federal forces say they've seized Mekelle outright - but TPLF says its own withdrawal was tactical, not defeat, fighters relocated \"to reduce risks to civilians.\" Same event, two claims, and neither one survives contact with the other.",
           "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-forces-retake-mekelle-amid-renewed-tigray-fighting",
           "date": "2026-10-05",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -67,10 +67,10 @@
         },
         {
           "domain": "Energy Shipping",
-          "text": "Yanbu loadings have technically resumed - satellite imagery shows about 10 million barrels moving - but at roughly 2 million bpd, a third of the pre-attack rate. Aramco says full recovery to 5.5 million bpd could still take another month.",
-          "url": "https://www.marinelink.com/news/yanbu-oil-loadings-resume-pipeline-543342",
-          "date": "2026-09-29",
-          "is_new": false
+          "text": "Yanbu's loadings genuinely recovered - 11 tankers simultaneously by midweek - before an unidentified projectile reportedly struck the port again Thursday. Saudi authorities haven't confirmed damage, but the 'resolution' just got un-resolved in real time.",
+          "url": "https://maritime-executive.com/article/explosion-and-fire-reported-at-yanbu",
+          "date": "2026-10-01",
+          "is_new": true
         }
       ]
     },

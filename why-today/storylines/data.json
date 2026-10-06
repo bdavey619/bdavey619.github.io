@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-04",
-  "cycle_start": "2026-10-05T00:20:00Z",
-  "last_updated": "2026-10-05T14:30:00Z",
+  "cycle_start": "2026-10-05T14:30:00Z",
+  "last_updated": "2026-10-06T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,16 +14,20 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "A tanker heading inbound through the strait turned back today after Iran's Revolutionary Guards hailed it and threatened to target it if it kept going - no shot fired, no strike, just the threat alone rerouting a ship.",
+      "why_now": "A third tanker in two days was hit near the strait, and Pezeshkian ruled out US talks entirely: \"every time we come to the negotiating table, war is immediately imposed on us... we have been attacked three times so far following talks.\"",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://cbsnews.com/live-updates/iran-war-trump-us-oil-prices-yemen-red-sea-houthis-bab-el-mandeb",
+      "url": "https://www.iranintl.com/en/202610050957",
       "location": "Strait of Hormuz",
       "season_or_time_context": "active military escalation",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-05T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-10-06T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-10-06T00:20:00Z",
+          "note": "A third tanker in two days was hit near the strait, and Pezeshkian ruled out US talks entirely: \"every time we come to the negotiating table, war is immediately imposed on us... we have been attacked three times so far following talks.\""
+        },
         {
           "date": "2026-10-05T14:30:00Z",
           "note": "A tanker heading inbound through the strait turned back today after Iran's Revolutionary Guards hailed it and threatened to target it if it kept going - no shot fired, no strike, just the threat alone rerouting a ship."
@@ -87,16 +91,20 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "This is now officially the largest and deadliest Ebola outbreak in Congo's history, surpassing the 2018-2020 epidemic - a superlative reached five months after the rebels who first declared it over in their territory.",
+      "why_now": "The toll has climbed again to 4,114 dead among 8,544 confirmed cases - updated figures as of Oct 5, still the fastest-growing Ebola outbreak on record, with no sign the growth curve has bent.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.newsy-today.com/dr-congo-ebola-outbreak-caused-4018-deaths-from-8300-cases/",
+      "url": "https://en.apa.az/africa/ebola-outbreak-kills-4114-people-in-dr-congo-528202",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
       "season_or_time_context": "active conflict, resurgent outbreak",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-04T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-10-06T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-10-06T00:20:00Z",
+          "note": "The toll has climbed again to 4,114 dead among 8,544 confirmed cases - updated figures as of Oct 5, still the fastest-growing Ebola outbreak on record, with no sign the growth curve has bent."
+        },
         {
           "date": "2026-10-04T14:30:00Z",
           "note": "This is now officially the largest and deadliest Ebola outbreak in Congo's history, surpassing the 2018-2020 epidemic - a superlative reached five months after the rebels who first declared it over in their territory."
@@ -106,7 +114,7 @@
           "note": "Health Minister Kamba says the infection is now concentrating in a limited number of health areas rather than spreading evenly - a possible first sign of containment, even as the death toll keeps climbing past 4,000 in the fastest-growing outbreak on record."
         }
       ],
-      "source_date": "2026-10-03"
+      "source_date": "2026-10-05"
     },
     {
       "id": "fed-first-hike-since-2023",
@@ -119,16 +127,20 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Oil dropped below $90 a barrel today, easing some inflation pressure even as the 10-year ticked up again to 5.30% - the energy and rates stories pulling in opposite directions ahead of Wednesday's FOMC minutes.",
+      "why_now": "Yields climbed back above 5.30% on fresh inflation fears after an ISM survey showed services activity slowing even as input prices surged - a stagflation signal landing a day before Wednesday's FOMC minutes, with October hold odds now at 76%.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-04/asian-stocks-to-rise-as-hike-bets-ease-oil-climbs-markets-wrap",
+      "url": "https://fxstreet.com/news/us-treasury-yields-scale-multi-year-highs-as-inflation-fears-return-202610052231",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-05T14:30:00Z",
-      "appearances": 3,
+      "last_seen": "2026-10-06T00:20:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-10-06T00:20:00Z",
+          "note": "Yields climbed back above 5.30% on fresh inflation fears after an ISM survey showed services activity slowing even as input prices surged - a stagflation signal landing a day before Wednesday's FOMC minutes, with October hold odds now at 76%."
+        },
         {
           "date": "2026-10-05T14:30:00Z",
           "note": "Oil dropped below $90 a barrel today, easing some inflation pressure even as the 10-year ticked up again to 5.30% - the energy and rates stories pulling in opposite directions ahead of Wednesday's FOMC minutes."
@@ -197,16 +209,20 @@
       "pattern": "an externally-imposed economic condition landing first on the population least able to absorb it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The fuel shortage has spread past Santa Cruz - kilometer-long queues now stretch in Cochabamba, Sucre and Riberalta, drivers lining up from 2am for gas that hasn't arrived. Those who can afford it buy imported Argentine petrol at 2.6 times the regulated price.",
+      "why_now": "The fight has pivoted from pumps to fares: Santa Cruz unions called off their 48-hour strike after YPFB rushed more fuel to all nine departments, but over 1,800 vehicle plates have been blocked and 24 confiscated enforcing the emergency rules.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.riotimesonline.com/bolivia-santa-cruz-fuel-shortage-import-alternative-2026",
+      "url": "https://www.riotimesonline.com/bolivia-fuel-shortage-plates-blocked-2026/",
       "location": "La Paz / Santa Cruz, Bolivia",
       "season_or_time_context": "diesel subsidy ended Sept 19, nationwide strike Sept 28",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-05T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-10-06T00:20:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-10-06T00:20:00Z",
+          "note": "The fight has pivoted from pumps to fares: Santa Cruz unions called off their 48-hour strike after YPFB rushed more fuel to all nine departments, but over 1,800 vehicle plates have been blocked and 24 confiscated enforcing the emergency rules."
+        },
         {
           "date": "2026-10-05T00:20:00Z",
           "note": "The fuel shortage has spread past Santa Cruz - kilometer-long queues now stretch in Cochabamba, Sucre and Riberalta, drivers lining up from 2am for gas that hasn't arrived. Those who can afford it buy imported Argentine petrol at 2.6 times the regulated price."
@@ -220,7 +236,7 @@
           "note": "Morales's deadline arrived today and the government held firm - Hydrocarbons Minister Blanco says the decree stays. Mining cooperatives have now joined the fight too, demanding the minister's exit, as organizers plan a march on La Paz."
         }
       ],
-      "source_date": "2026-10-03"
+      "source_date": "2026-10-04"
     },
     {
       "id": "norellraptor-four-winged-dinosaur-china",
@@ -233,8 +249,8 @@
       "pattern": "a single evolutionary solution appearing independently in separate lineages facing the same engineering problem",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The deeper analysis: about 30% of the anatomical changes on Norellraptor's family tree also appear in the lineage leading to birds - but acquired in a different sequence, arguing against a shared blueprint and for separate evolutionary pressures reaching the same answer.",
-      "status": "captured",
+      "why_now": "A dedicated follow-up check found only recap of the original Sept 29 Nature Communications study - no new fossils, no further analysis. Going dormant rather than re-bumping a static research fact; worth reactivating if the team publishes additional work on the specimen.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://greekreporter.com/2026/10/02/new-four-winged-dinosaur-suggests-flight-evolved-independently-birds/",
       "location": "Jiufotang Formation, Liaoning, China (Early Cretaceous)",
@@ -262,8 +278,8 @@
       "pattern": "a government applying its standard tools of deadlines and quotas to a problem that has never previously been managed that way",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "A DC councilmember calls the order 'timely' - but the district's own health department has exactly one official assigned to mosquito remediation. The federal 90%-by-2028 target now depends on coordinating with a team that is, at most, one person.",
-      "status": "captured",
+      "why_now": "A dedicated check found only recap of the Sept 30 signing and the DC staffing-gap angle already on this card - no new development in the week since. Going dormant; worth reactivating once the 60-day implementation plan or the first prize competition is announced.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://dc.citycast.fm/news/trump-dc-mosquitoes-executive-order",
       "location": "Washington, DC",
@@ -290,8 +306,8 @@
       "pattern": "a landscape rebuilding itself through the same volcanic violence that destroys it",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Anak Krakatau itself gained 32.8 hectares from pyroclastic deposits and lava during the same eruption - but history isn't encouraging: similar mounds rose and eroded away repeatedly between 1927 and 1930 before the main island actually endured.",
-      "status": "captured",
+      "why_now": "A dedicated check found the same Sept 23 satellite detection and 32.8-hectare expansion figures already on this card - the volcano remains on alert but nothing new has emerged. Going dormant; worth reactivating on a fresh eruption or confirmed island permanence.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.freemalaysiatoday.com/category/world/2026/10/02/new-islands-appear-after-indonesia-s-anak-krakatau-volcano-erupts",
       "location": "Sunda Strait, Indonesia",
@@ -334,6 +350,35 @@
         }
       ],
       "source_date": "2026-10-02"
+    },
+    {
+      "id": "scotus-boulder-county-climate-case",
+      "stream": "headlines",
+      "category": "Politics & World",
+      "observer": "Why Today?",
+      "title": "A Colorado county is suing oil companies for the climate. The Supreme Court just agreed to listen",
+      "observation": "The Supreme Court opened its new term Oct 5 with Suncor Energy v. Boulder County - the first case asking whether a county can sue oil companies under state law for climate damages, or whether federal law preempts claims over harm that crosses every border.",
+      "question": "Can a single county's lawsuit meaningfully assign blame for a problem caused by a global industry over a century?",
+      "hidden_question": "Is this case actually about climate change, or about whether any state court can touch an industry whose harm is inherently global?",
+      "pattern": "a local legal claim testing whether a global harm can be assigned local liability",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Justice Alito recused himself from the case shortly before argument - a notable last-minute development. The court chose this as the very first case of its new term, a deliberate signal about how seriously it's treating the preemption question before anything else this session.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.scotusblog.com/2026/08/the-october-argument-session/",
+      "location": "Washington, DC / Boulder County, Colorado",
+      "season_or_time_context": "oral arguments heard Oct 5, 2026, opening day of the court's new term",
+      "first_seen": "2026-10-06T00:20:00Z",
+      "last_seen": "2026-10-06T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-06T00:20:00Z",
+          "note": "Justice Alito recused himself from the case shortly before argument. The court chose this as the very first case of its new term - a deliberate signal about how seriously it's treating the federal preemption question before anything else this session."
+        }
+      ],
+      "source_date": "2026-10-05"
     }
   ]
 }
