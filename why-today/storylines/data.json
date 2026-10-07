@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-04",
-  "cycle_start": "2026-10-06T00:20:00Z",
-  "last_updated": "2026-10-06T14:30:00Z",
+  "cycle_start": "2026-10-06T14:30:00Z",
+  "last_updated": "2026-10-07T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -134,13 +134,17 @@
       "why_now": "The slide has been remarkably fast: October hike odds were a near coin-flip on Sept 29 (50.9/49.1) and have collapsed to 21.6% today, a week later - all on the same jobs and inflation data the Fed hadn't fully absorbed yet.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://financefeeds.com/gold-price-4172-fed-hike-odds-21-6-percent",
+      "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-06T14:30:00Z",
-      "appearances": 5,
+      "last_seen": "2026-10-07T00:20:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-10-07T00:20:00Z",
+          "note": "The September FOMC minutes are due today at 2pm ET - the first look at how close the vote actually was, and how the committee is weighing the October 27-28 meeting after October hike odds collapsed to near-zero."
+        },
         {
           "date": "2026-10-06T14:30:00Z",
           "note": "The slide has been remarkably fast: October hike odds were a near coin-flip on Sept 29 (50.9/49.1) and have collapsed to 21.6% today, a week later - all on the same jobs and inflation data the Fed hadn't fully absorbed yet."
@@ -156,13 +160,9 @@
         {
           "date": "2026-10-04T14:30:00Z",
           "note": "The 10-year hit 5.34% Thursday, its highest in 24 years - the bond market still climbing even as October hike odds collapsed on the jobs miss. FOMC minutes due Wednesday are the next test of whether the two signals ever reconcile."
-        },
-        {
-          "date": "2026-10-04T00:20:00Z",
-          "note": "The 10-year dipped to 5.16% on the jobs miss, then rebounded to retest 5.30% by midday - volatile, but still near its 2002 high. December hike odds remain at 90%, essentially unmoved by the same data that gutted October's."
         }
       ],
-      "source_date": "2026-10-06"
+      "source_date": "2026-10-07"
     },
     {
       "id": "ethiopia-tigray-forces-seize-airports",
@@ -224,13 +224,17 @@
       "why_now": "Fares have already jumped nearly 200% in several regions, and officials are now blocking repeat fuel buyers under the emergency rules - the shortage persists even as YPFB keeps shipping extra supply to stations.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.riotimesonline.com/bolivia-fuel-shortage-plates-blocked-2026/",
+      "url": "https://www.latintimes.com/bolivias-diesel-crisis-just-got-deadline-october-10-democracy-day-599142",
       "location": "La Paz / Santa Cruz, Bolivia",
       "season_or_time_context": "diesel subsidy ended Sept 19, nationwide strike Sept 28",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-06T14:30:00Z",
-      "appearances": 5,
+      "last_seen": "2026-10-07T00:20:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-10-07T00:20:00Z",
+          "note": "Santa Cruz's civic leaders set a new deadline for the government to act on fuel and tax demands: October 10, Bolivia's own Dia de la Democracia - choosing the date its return to civilian rule is celebrated to frame a dispute that's nominally about diesel."
+        },
         {
           "date": "2026-10-06T14:30:00Z",
           "note": "Fares have already jumped nearly 200% in several regions, and officials are now blocking repeat fuel buyers under the emergency rules - the shortage persists even as YPFB keeps shipping extra supply to stations."
@@ -246,13 +250,9 @@
         {
           "date": "2026-10-04T14:30:00Z",
           "note": "Congress extended the state of emergency another 90 days, and when the government offered fuel relief measures as a concession, farmers and Morales supporters marched in Cochabamba Friday to reject them outright - the offer itself becoming the next thing protested."
-        },
-        {
-          "date": "2026-10-04T00:20:00Z",
-          "note": "Morales's deadline arrived today and the government held firm - Hydrocarbons Minister Blanco says the decree stays. Mining cooperatives have now joined the fight too, demanding the minister's exit, as organizers plan a march on La Paz."
         }
       ],
-      "source_date": "2026-10-05"
+      "source_date": "2026-10-06"
     },
     {
       "id": "norellraptor-four-winged-dinosaur-china",

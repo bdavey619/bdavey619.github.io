@@ -1,6 +1,6 @@
 {
   "week": "2026-10-04",
-  "last_updated": "2026-10-06T14:30:00Z",
+  "last_updated": "2026-10-07T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -27,7 +27,7 @@
           "text": "The market's own conviction didn't survive a week: October hike odds were a near coin-flip on Sept 29 (50.9/49.1) and have collapsed to 21.6% today - on data the Fed itself hadn't even finished digesting when it signaled more tightening.",
           "url": "https://financefeeds.com/gold-price-4172-fed-hike-odds-21-6-percent",
           "date": "2026-10-06",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Civil Conflict",
@@ -49,7 +49,7 @@
           "text": "M23 declared the outbreak over in its territory in June. It instead became the fastest-growing Ebola outbreak on record - hitting 1,000 cases in 40 days, versus 235 days for the 2018 DRC outbreak. A declaration, overtaken by reality at six times the speed.",
           "url": "https://www.natureworldnews.com/articles/73448/20261006/ebola-outbreak-caused-bat-linked-virus-no-approved-vaccine-passes-4000-deaths-congo.htm",
           "date": "2026-10-06",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Foreign Policy",
