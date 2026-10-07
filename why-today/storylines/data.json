@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-04",
-  "cycle_start": "2026-10-06T14:30:00Z",
-  "last_updated": "2026-10-07T00:20:00Z",
+  "cycle_start": "2026-10-07T00:20:00Z",
+  "last_updated": "2026-10-07T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -58,8 +58,8 @@
       "pattern": "a routine domestic ferry route turning fatal within the span of a single distress call",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The ferry's operator, PT Virgo Karya Shipping, says the wreck itself will be raised this month - a salvage operation that's been under discussion with insurers since the sinking, running in parallel with the still-active search for the missing.",
-      "status": "captured",
+      "why_now": "Two dedicated search passes today and last cycle found no clean October update - every query kept surfacing contaminated or conflicting September snapshots (death tolls ranging from 6 to 82 depending on which day's cache turned up) rather than a genuine new development beyond the operator's 'raised this month' salvage plan already on this card. Going dormant rather than force a bump with a mismatched fact or let it age past the 3-day prune silently; worth reactivating the moment the salvage operation itself is confirmed underway.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://en.antaranews.com/amp/news/434040/sunken-virgo-transport-8-to-undergo-salvage-operation-in-october",
       "location": "Java Sea, en route Surabaya to Banjarmasin, Indonesia",
