@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-04",
-  "cycle_start": "2026-10-07T00:20:00Z",
-  "last_updated": "2026-10-07T14:30:00Z",
+  "cycle_start": "2026-10-07T14:30:00Z",
+  "last_updated": "2026-10-08T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -386,13 +386,17 @@
       "why_now": "Justice Alito recused himself from the case shortly before argument - a notable last-minute development. The court chose this as the very first case of its new term, a deliberate signal about how seriously it's treating the preemption question before anything else this session.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.scotusblog.com/2026/08/the-october-argument-session/",
+      "url": "https://www.newsfromthestates.com/node/430814",
       "location": "Washington, DC / Boulder County, Colorado",
       "season_or_time_context": "oral arguments heard Oct 5, 2026, opening day of the court's new term",
       "first_seen": "2026-10-06T00:20:00Z",
-      "last_seen": "2026-10-06T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-08T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-08T00:20:00Z",
+          "note": "Coverage of the argument itself: the conservative majority sounded broadly sympathetic to the oil companies' warning that letting counties sue in state court would be a \"recipe for chaos,\" the justices added a second jurisdictional question mid-briefing, and with Alito off the bench, commentators flagged a real chance of a 4-4 deadlock."
+        },
         {
           "date": "2026-10-06T00:20:00Z",
           "note": "Justice Alito recused himself from the case shortly before argument. The court chose this as the very first case of its new term - a deliberate signal about how seriously it's treating the federal preemption question before anything else this session."
@@ -427,6 +431,34 @@
         }
       ],
       "source_date": "2026-10-05"
+    },
+    {
+      "id": "mars-margin-unit-three-water-systems",
+      "stream": "natural_world",
+      "observer": "Why Today?",
+      "title": "Mars's ancient shoreline wasn't one lake. It was three water systems stacked on top of each other",
+      "observation": "A new study of Perseverance's 'Margin Unit' at Jezero Crater found three water-chemistry signatures layered in the same rocks - carbonate from groundwater, silica from a lake, and sulfate-fluorite veins from a hot hydrothermal event - where scientists expected one lakeshore deposit.",
+      "question": "What does it mean when a site picked for one expected story turns out to hold a record of several unrelated water systems taking turns?",
+      "hidden_question": "Did Mars actually have a richer, more varied water history than a single drying lake - or does complexity keep turning up simply because this is the most closely studied square mile on the planet?",
+      "pattern": "a site chosen for one expected story turning out to hold several unrelated, overlapping ones",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The hydrothermal phase is the most astrobiologically interesting of the three: heated groundwater systems like it are exactly the kind of environment that supports microbial life on Earth, and Jezero sits inside one of Mars's largest carbonate exposures - meaning the finding could reshape how scientists read the cached Perseverance samples once they're returned to Earth.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars",
+      "location": "Jezero Crater, Mars",
+      "season_or_time_context": "study published Sept 21, 2026",
+      "first_seen": "2026-10-08T00:20:00Z",
+      "last_seen": "2026-10-08T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-08T00:20:00Z",
+          "note": "Lead author Candice Bedford: \"Mars constantly throws surprises at you.\" The rover's SuperCam reviewed 185 bedrock targets across the Margin Unit to piece together the three-phase water history, including a 25cm hydrothermal mineral vein."
+        }
+      ],
+      "source_date": "2026-09-21"
     }
   ]
 }
