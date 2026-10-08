@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-04",
-  "cycle_start": "2026-10-07T14:30:00Z",
-  "last_updated": "2026-10-08T00:20:00Z",
+  "cycle_start": "2026-10-08T00:20:00Z",
+  "last_updated": "2026-10-08T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -179,13 +179,17 @@
       "why_now": "Mekelle fell, but the war didn't stop there: air strikes and artillery rocked Tigray overnight into Monday, and at least 17 people have been killed as fighting continues beyond the capital federal forces just claimed.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.timeslive.co.za/news/africa/2026-10-05-at-least-17-killed-as-ethiopia-tigray-conflict-reignites/",
+      "url": "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/october-6-2026",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-06T14:30:00Z",
-      "appearances": 5,
+      "last_seen": "2026-10-08T14:30:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-10-08T14:30:00Z",
+          "note": "Taking Mekelle wasn't the end point: federal forces and the Tigray Peace Force pushed north from the captured capital and stepped up airstrikes on other TPLF-held population centers, per a security review covering Oct 2-6 - the campaign widening rather than winding down."
+        },
         {
           "date": "2026-10-06T14:30:00Z",
           "note": "Mekelle fell, but the war didn't stop there: air strikes and artillery rocked Tigray overnight into Monday, and at least 17 people have been killed as fighting continues beyond the capital federal forces just claimed."
@@ -201,13 +205,9 @@
         {
           "date": "2026-10-04T14:30:00Z",
           "note": "Mekelle has fallen: federal troops are patrolling the city and communications were restored after more than a week dark, but shops stay shuttered on looting fears - and TPLF's leader is already hinting at the guerrilla campaign that reclaimed the city after it fell in 2020."
-        },
-        {
-          "date": "2026-10-04T00:20:00Z",
-          "note": "Government forces have reportedly entered Mekelle itself in multiple locations as TPLF fighters and leadership retreat - though as with every claim in this war, independent confirmation lags the announcement."
         }
       ],
-      "source_date": "2026-10-05"
+      "source_date": "2026-10-06"
     },
     {
       "id": "bolivia-diesel-hike-transport-strike",

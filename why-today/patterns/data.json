@@ -1,6 +1,6 @@
 {
   "week": "2026-10-04",
-  "last_updated": "2026-10-08T00:20:00Z",
+  "last_updated": "2026-10-08T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -70,35 +70,6 @@
           "text": "Yanbu's loadings genuinely recovered - 11 tankers simultaneously by midweek - before an unidentified projectile reportedly struck the port again Thursday. Saudi authorities haven't confirmed damage, but the 'resolution' just got un-resolved in real time.",
           "url": "https://maritime-executive.com/article/explosion-and-fire-reported-at-yanbu",
           "date": "2026-10-01",
-          "is_new": false
-        }
-      ]
-    },
-    {
-      "id": "oversight-vacuum-predictable-disaster",
-      "title": "Three disasters this week all failed the exact same way: nothing was watching",
-      "explanation": "A mine, a ferry and an epidemic each broke down at precisely the point regulatory oversight exists to catch - not through a freak accident, but through the plain absence of an inspector, a capacity limit, or working surveillance. Different domains, different countries, same missing ingredient.",
-      "momentum": "accelerating",
-      "evidence": [
-        {
-          "domain": "Construction Safety",
-          "text": "The report on a Philippines building collapse that killed 30 workers in May is out: unapproved alterations added two extra floors and a rooftop pool, overstressing columns never designed for that load - changes no inspector caught before it came down.",
-          "url": "https://www.manilatimes.net/2026/09/29/regions/report-says-construction-blunders-led-to-building-collapse/2434295",
-          "date": "2026-09-29",
-          "is_new": false
-        },
-        {
-          "domain": "Public Health",
-          "text": "This is now officially the largest, deadliest Ebola outbreak in Congo's history - surpassing 2018-2020 - five months after rebels in its own territory first declared it over. The record it just broke was itself a failure of oversight.",
-          "url": "https://www.newsy-today.com/dr-congo-ebola-outbreak-caused-4018-deaths-from-8300-cases/",
-          "date": "2026-10-03",
-          "is_new": false
-        },
-        {
-          "domain": "Maritime Safety",
-          "text": "The toll ticked up again to 80 dead, 55 missing - three weeks after a capacity surge of 1,042 rescuers arrived for a wreck that never had the capacity check to prevent it from sinking overloaded in the first place.",
-          "url": "https://www.archyworldys.com/indonesian-ferry-disaster-captain-arrested-after-78-die/",
-          "date": "2026-10-02",
           "is_new": false
         }
       ]
