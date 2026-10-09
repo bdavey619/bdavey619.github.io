@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-04",
-  "cycle_start": "2026-10-08T00:20:00Z",
-  "last_updated": "2026-10-08T14:30:00Z",
+  "cycle_start": "2026-10-08T14:30:00Z",
+  "last_updated": "2026-10-09T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -14,8 +14,8 @@
       "pattern": "a priced-in threat crossing over into the event it was pricing",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "A third carrier strike group and roughly 9,000 more troops are headed to the region - by late November, three carriers and two amphibious groups will surround Iran, handing Trump a wider menu of options if he resumes strikes after the midterms.",
-      "status": "captured",
+      "why_now": "Three cycles running of dedicated searches have failed to surface anything dated past Oct 6 that isn't a repeat of an already-captured fact or contaminated with incidents from April-August. The conflict is almost certainly still live - this is a sourcing gap, not a resolution - but bumping on unverifiable material would break the rule that the link has to support the newest sentence. Going dormant at the 3-day edge; reactivating the moment a clean, freshly-dated development surfaces.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.aljazeera.com/news/2026/10/2/new-aircraft-carrier-10000-us-troops-is-the-iran-war-about-to-escalate",
       "location": "Strait of Hormuz",
@@ -91,8 +91,8 @@
       "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The speed comparison is stark: this outbreak passed 1,000 cases within 40 days of response activation. The 2018 DRC outbreak took 235 days to hit the same mark - nearly six times slower than what's happening now.",
-      "status": "captured",
+      "why_now": "Repeated searches this cycle and last keep surfacing WHO/ECDC snapshots from August-September that are lower than the Oct 5 figures already on this card - a sign the outbreak's own reporting lags real time, not that it's slowing. No clean, dated-after-Oct-6 figure found despite several attempts. Going dormant rather than force a stale or inconsistent number; this is one of the most newsworthy ongoing stories in the cabinet and should be reactivated as soon as a verifiably fresher count turns up.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.natureworldnews.com/articles/73448/20261006/ebola-outbreak-caused-bat-linked-virus-no-approved-vaccine-passes-4000-deaths-congo.htm",
       "location": "Kayna, North Kivu, Democratic Republic of Congo",
@@ -224,13 +224,17 @@
       "why_now": "Fares have already jumped nearly 200% in several regions, and officials are now blocking repeat fuel buyers under the emergency rules - the shortage persists even as YPFB keeps shipping extra supply to stations.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.latintimes.com/bolivias-diesel-crisis-just-got-deadline-october-10-democracy-day-599142",
+      "url": "https://www.latintimes.com/inside-bolivias-plan-gun-free-oas-police-two-deadlines-close-599129",
       "location": "La Paz / Santa Cruz, Bolivia",
       "season_or_time_context": "diesel subsidy ended Sept 19, nationwide strike Sept 28",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-07T00:20:00Z",
-      "appearances": 6,
+      "last_seen": "2026-10-09T00:20:00Z",
+      "appearances": 7,
       "history": [
+        {
+          "date": "2026-10-09T00:20:00Z",
+          "note": "The dispute now risks merging with a second front: Evo Morales has called for his own supporters to begin protests Oct 13, three days after Santa Cruz's deadline - and Santa Cruz's own demands turn out not to include Paz's resignation, just fuel imports, tax cuts and more revenue control for the regions."
+        },
         {
           "date": "2026-10-07T00:20:00Z",
           "note": "Santa Cruz's civic leaders set a new deadline for the government to act on fuel and tax demands: October 10, Bolivia's own Dia de la Democracia - choosing the date its return to civilian rule is celebrated to frame a dispute that's nominally about diesel."
@@ -246,13 +250,9 @@
         {
           "date": "2026-10-05T00:20:00Z",
           "note": "The fuel shortage has spread past Santa Cruz - kilometer-long queues now stretch in Cochabamba, Sucre and Riberalta, drivers lining up from 2am for gas that hasn't arrived. Those who can afford it buy imported Argentine petrol at 2.6 times the regulated price."
-        },
-        {
-          "date": "2026-10-04T14:30:00Z",
-          "note": "Congress extended the state of emergency another 90 days, and when the government offered fuel relief measures as a concession, farmers and Morales supporters marched in Cochabamba Friday to reject them outright - the offer itself becoming the next thing protested."
         }
       ],
-      "source_date": "2026-10-06"
+      "source_date": "2026-10-07"
     },
     {
       "id": "norellraptor-four-winged-dinosaur-china",
@@ -350,8 +350,8 @@
       "pattern": "a government outsourcing day-to-day stewardship of a resource it couldn't protect alone, while keeping enforcement power for itself",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The count is even starker than first reported: fewer than five lions remain in Ishasha at all. WCS's first move is recruiting \"lion guardians\" from surrounding towns and funding livestock enclosures and boreholes to cut the herder-lion conflict that's been killing them.",
-      "status": "captured",
+      "why_now": "The 10-year WCS/UWA deal was a one-time announcement, not an unfolding event - a dedicated search found no October follow-up, only unrelated older poisoning incidents from 2025 and earlier. Going dormant; this is a slower-moving conservation story that won't generate daily news, worth reactivating on the first implementation update (lion guardians recruited, enclosures built, or a fresh population count).",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://news.mongabay.com/short-article/2026/10/uganda-and-ngo-to-co-manage-sector-of-national-park-home-to-tree-climbing-lions/",
       "location": "Ishasha sector, Queen Elizabeth National Park, Uganda",
@@ -415,8 +415,8 @@
       "pattern": "an ancient structure surviving millennia only to be found at the exact moment modern development was about to erase it",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The grave held only one arrowhead, no daggers, plus an amber bead, a pottery fragment, and traces of charcoal - archaeologists are now testing whether that charcoal is ordinary burning or burned bone, which would mean the site combined a regular burial with a cremation.",
-      "status": "captured",
+      "why_now": "Confirmed again this cycle: the only follow-up is laboratory radiocarbon dating of the charcoal/possible burnt bone, and that result isn't in yet. Nothing new to report until the lab work returns. Going dormant rather than re-bump an unchanged fact; reactivating the moment the dating results - or word on whether the site combined burial and cremation - are published.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://archaeology.org/news/2026/10/05/4000-year-old-gallery-grave-excavated-in-norway/",
       "location": "Svinesund Plateau, southeastern Norway",
@@ -459,6 +459,62 @@
         }
       ],
       "source_date": "2026-09-21"
+    },
+    {
+      "id": "russia-plague-lab-worker-death-mystery",
+      "stream": "curiosities",
+      "observer": "Why Today?",
+      "title": "She said she broke a vial of live bacteria. The governor says that's not what happened",
+      "observation": "A 28-year-old researcher at Russia's Irkutsk Anti-Plague Institute died after telling hospital staff she'd broken a vial of live bacteria at work. The regional governor calls it 'pneumonia of unknown origin'; a neighboring governor said on social media she died of plague.",
+      "question": "What does it mean when the official explanation and an official's own social-media account of the same death don't match?",
+      "hidden_question": "Is the calm official line protecting public health, or protecting the institute from the consequences of what actually happened inside it?",
+      "pattern": "an institution's official account diverging from an insider's own report of what happened to them",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Nearly 200 people have been placed under medical observation and the hospital that treated her is under quarantine, taking no new admissions or discharges - a scale of precaution that sits oddly next to the official line that nothing dangerous occurred.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.itv.com/news/2026-10-06/russian-lab-worker-dies-after-being-exposed-to-pneumonic-plague-in-siberia",
+      "location": "Irkutsk / Shelekhov, Siberia, Russia",
+      "season_or_time_context": "death occurred early October 2026, reported Oct 5-6",
+      "first_seen": "2026-10-09T00:20:00Z",
+      "last_seen": "2026-10-09T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-09T00:20:00Z",
+          "note": "Two of the lab worker's contacts tested positive - for a common cold virus and COVID-19, not plague - while WHO says the public health risk \"appears to be low.\" The gap between the quarantine's scale and that reassurance is the story."
+        }
+      ],
+      "source_date": "2026-10-06"
+    },
+    {
+      "id": "catalonia-floods-barcelona-record-rainfall",
+      "stream": "places",
+      "observer": "Why Today?",
+      "title": "Barcelona just had its wettest day in decades. Nobody agrees on how many",
+      "observation": "Flash flooding killed two people and left one missing across Catalonia Oct 4, as Barcelona logged its heaviest single-day rainfall in competing accounts of 20 or 143 years - over 1,500 emergency calls and a red alert for a possible 'mini-hurricane.'",
+      "question": "What does it mean that a city can't agree on how unprecedented its own worst day was?",
+      "hidden_question": "Does the record genuinely vary by which instrument or station measured it, or is 'worst in X years' just a number officials reach for without checking which one is true?",
+      "pattern": "a single extreme event generating multiple incompatible claims about its own historical significance",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "A man died when a wall collapsed on him in Tordera; a second body was found in a flooded garage in Montornes del Valles; a third person remains missing, swept away by a stream - three different, specific ways the same storm killed, within a few miles of each other.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.euronews.com/2026/10/05/floods-leave-streets-and-roads-submerged-across-catalonia",
+      "location": "Barcelona and Catalonia, Spain",
+      "season_or_time_context": "flash flooding Oct 4, 2026",
+      "first_seen": "2026-10-09T00:20:00Z",
+      "last_seen": "2026-10-09T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-09T00:20:00Z",
+          "note": "A man died when a wall collapsed on him in Tordera; a second body was found in a flooded garage in Montornes del Valles; a third person remains missing, swept away by a stream - three different, specific ways the same storm killed."
+        }
+      ],
+      "source_date": "2026-10-05"
     }
   ]
 }
