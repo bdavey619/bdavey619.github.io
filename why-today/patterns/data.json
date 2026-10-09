@@ -1,6 +1,6 @@
 {
   "week": "2026-10-04",
-  "last_updated": "2026-10-09T00:20:00Z",
+  "last_updated": "2026-10-09T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -67,10 +67,10 @@
         },
         {
           "domain": "Energy Shipping",
-          "text": "Yanbu's loadings genuinely recovered - 11 tankers simultaneously by midweek - before an unidentified projectile reportedly struck the port again Thursday. Saudi authorities haven't confirmed damage, but the 'resolution' just got un-resolved in real time.",
-          "url": "https://maritime-executive.com/article/explosion-and-fire-reported-at-yanbu",
-          "date": "2026-10-01",
-          "is_new": false
+          "text": "Yanbu's loadings recovered after the Oct 1 strike - but the 'resolution' pattern just repeated elsewhere: the Houthis claimed a fresh strike on an Aramco facility, this time in Riyadh itself, and the Saudi-led coalition called the claim outright 'misleading.' Same dispute, new location.",
+          "url": "https://aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies",
+          "date": "2026-10-04",
+          "is_new": true
         }
       ]
     }

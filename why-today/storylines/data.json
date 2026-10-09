@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-04",
-  "cycle_start": "2026-10-08T14:30:00Z",
-  "last_updated": "2026-10-09T00:20:00Z",
+  "cycle_start": "2026-10-09T00:20:00Z",
+  "last_updated": "2026-10-09T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -134,13 +134,17 @@
       "why_now": "The slide has been remarkably fast: October hike odds were a near coin-flip on Sept 29 (50.9/49.1) and have collapsed to 21.6% today, a week later - all on the same jobs and inflation data the Fed hadn't fully absorbed yet.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "url": "https://www.roic.ai/news/fed-minutes-reveal-all-19-officials-backed-september-rate-hike-but-october-pause-gains-steam-10-07-2026",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
       "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-07T00:20:00Z",
-      "appearances": 6,
+      "last_seen": "2026-10-09T14:30:00Z",
+      "appearances": 7,
       "history": [
+        {
+          "date": "2026-10-09T14:30:00Z",
+          "note": "The minutes are out: all participants backed the hike, but for different reasons - some targeting demand-driven inflation, others worried about energy and AI-driven price shocks. Most want one more hike before year-end, but stopped short of signaling October specifically; odds now favor a hold."
+        },
         {
           "date": "2026-10-07T00:20:00Z",
           "note": "The September FOMC minutes are due today at 2pm ET - the first look at how close the vote actually was, and how the committee is weighing the October 27-28 meeting after October hike odds collapsed to near-zero."
@@ -156,10 +160,6 @@
         {
           "date": "2026-10-05T14:30:00Z",
           "note": "Oil dropped below $90 a barrel today, easing some inflation pressure even as the 10-year ticked up again to 5.30% - the energy and rates stories pulling in opposite directions ahead of Wednesday's FOMC minutes."
-        },
-        {
-          "date": "2026-10-04T14:30:00Z",
-          "note": "The 10-year hit 5.34% Thursday, its highest in 24 years - the bond market still climbing even as October hike odds collapsed on the jobs miss. FOMC minutes due Wednesday are the next test of whether the two signals ever reconcile."
         }
       ],
       "source_date": "2026-10-07"
@@ -474,19 +474,23 @@
       "why_now": "Nearly 200 people have been placed under medical observation and the hospital that treated her is under quarantine, taking no new admissions or discharges - a scale of precaution that sits oddly next to the official line that nothing dangerous occurred.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.itv.com/news/2026-10-06/russian-lab-worker-dies-after-being-exposed-to-pneumonic-plague-in-siberia",
+      "url": "https://kyivindependent.com/plague-death-triggers-quarantine-mask-mandates-in-russias-irkutsk-region-in-siberia/",
       "location": "Irkutsk / Shelekhov, Siberia, Russia",
       "season_or_time_context": "death occurred early October 2026, reported Oct 5-6",
       "first_seen": "2026-10-09T00:20:00Z",
-      "last_seen": "2026-10-09T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-09T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-09T14:30:00Z",
+          "note": "The dead researcher has a name now: Darya Shipilova, 28. She allegedly broke a test tube of the pneumonic plague pathogen while collecting samples a week before her death - a claim authorities dispute. Three Irkutsk hospitals and a children's hospital are now under three-week quarantine; masks became mandatory at the nearby aluminum plant Oct 3."
+        },
         {
           "date": "2026-10-09T00:20:00Z",
           "note": "Two of the lab worker's contacts tested positive - for a common cold virus and COVID-19, not plague - while WHO says the public health risk \"appears to be low.\" The gap between the quarantine's scale and that reassurance is the story."
         }
       ],
-      "source_date": "2026-10-06"
+      "source_date": "2026-10-05"
     },
     {
       "id": "catalonia-floods-barcelona-record-rainfall",
