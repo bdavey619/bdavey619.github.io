@@ -1,6 +1,6 @@
 {
   "week": "2026-10-04",
-  "last_updated": "2026-10-09T14:30:00Z",
+  "last_updated": "2026-10-10T00:20:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -52,11 +52,11 @@
           "is_new": false
         },
         {
-          "domain": "Foreign Policy",
-          "text": "The summit did produce a real $30B tariff-reduction deal and new AI-safety talks - but Trump is simultaneously slowing aircraft-part exports to China for negotiating leverage. The deal is real; so is the squeeze sitting right next to it.",
-          "url": "https://kfgo.com/2026/10/01/exclusive-us-slows-aircraft-part-exports-to-china-as-trump-seeks-leverage-in-trade-negotiations-sources-say/",
-          "date": "2026-10-01",
-          "is_new": false
+          "domain": "Judicial",
+          "text": "The Supreme Court's first argument of its new term looked like the system working through a hard question - but with Alito recused, legal commentators flagged a real chance of a 4-4 deadlock, which would resolve nothing and leave the preemption question exactly where it started.",
+          "url": "https://www.newsfromthestates.com/node/430814",
+          "date": "2026-10-08",
+          "is_new": true
         },
         {
           "domain": "Economic Policy",
@@ -70,7 +70,7 @@
           "text": "Yanbu's loadings recovered after the Oct 1 strike - but the 'resolution' pattern just repeated elsewhere: the Houthis claimed a fresh strike on an Aramco facility, this time in Riyadh itself, and the Saudi-led coalition called the claim outright 'misleading.' Same dispute, new location.",
           "url": "https://aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies",
           "date": "2026-10-04",
-          "is_new": true
+          "is_new": false
         }
       ]
     }

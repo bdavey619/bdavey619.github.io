@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-04",
-  "cycle_start": "2026-10-09T00:20:00Z",
-  "last_updated": "2026-10-09T14:30:00Z",
+  "cycle_start": "2026-10-09T14:30:00Z",
+  "last_updated": "2026-10-10T00:20:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -519,6 +519,35 @@
         }
       ],
       "source_date": "2026-10-05"
+    },
+    {
+      "id": "mahalaya-devi-paksha-begins-2026",
+      "stream": "human_rituals",
+      "observer": "Why Today?",
+      "title": "Today is both a funeral and a welcome. Bengal has run them back to back for a century",
+      "observation": "Mahalaya, today, is the final day of Pitru Paksha - the fortnight Hindus spend honoring dead ancestors through water-and-sesame offerings - and the same day Bengal marks Devi Paksha's start, when the goddess Durga is invited to descend to earth ahead of Durga Puja.",
+      "question": "What does it mean for a culture to schedule its grief and its celebration on the exact same calendar day, rather than keeping them apart?",
+      "hidden_question": "Is pairing ancestor rites with a goddess's arrival a deliberate statement that endings and beginnings are the same event - or just a scheduling accident that tradition later made meaningful?",
+      "pattern": "a single calendar day doing double duty as both a closing ritual and an opening one",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Millions of Bengalis still wake before dawn today for the same 90-minute AIR radio broadcast - Birendra Krishna Bhadra's 1931 recitation of the Mahishasura Mardini - that's aired almost unbroken for nearly a century, missed only once, in 1976, when a replacement narrator was so unpopular the original was restored the next year.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://en.wikipedia.org/wiki/Mahisasuramardini_(radio_programme)",
+      "location": "West Bengal, India, and the Bengali diaspora worldwide",
+      "season_or_time_context": "Mahalaya observed Oct 10, 2026; Durga Puja follows in the week ahead",
+      "first_seen": "2026-10-10T00:20:00Z",
+      "last_seen": "2026-10-10T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-10T00:20:00Z",
+          "note": "The broadcast has only gone missing once in nearly a century: in 1976, All India Radio tried replacing reciter Birendra Krishna Bhadra with film star Uttam Kumar. Listeners rejected it so completely that the original recitation was reinstated the following year."
+        }
+      ],
+      "source_date": "2026-10-10",
+      "source_evergreen": true
     }
   ]
 }
