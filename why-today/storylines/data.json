@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-04",
-  "cycle_start": "2026-10-09T14:30:00Z",
-  "last_updated": "2026-10-10T00:20:00Z",
+  "cycle_start": "2026-10-10T00:20:00Z",
+  "last_updated": "2026-10-10T14:30:00Z",
   "storylines": [
     {
       "id": "hormuz-iran-new-demands",
@@ -386,13 +386,17 @@
       "why_now": "Justice Alito recused himself from the case shortly before argument - a notable last-minute development. The court chose this as the very first case of its new term, a deliberate signal about how seriously it's treating the preemption question before anything else this session.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.newsfromthestates.com/node/430814",
+      "url": "https://www.coloradopolitics.com/2026/10/05/oil-companies-argue-buyers-burned-fuel-but-boulder-says-they-hid-risks/",
       "location": "Washington, DC / Boulder County, Colorado",
       "season_or_time_context": "oral arguments heard Oct 5, 2026, opening day of the court's new term",
       "first_seen": "2026-10-06T00:20:00Z",
-      "last_seen": "2026-10-08T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-10-10T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-10-10T14:30:00Z",
+          "note": "A fuller read of the argument complicates the \"sympathetic to oil companies\" read: justices reportedly voiced doubts about both sides' broad positions, not just Boulder's - and the 4-4 deadlock risk cuts the other way too, since a tie would leave Colorado's ruling (and Boulder's lawsuit) standing by default."
+        },
         {
           "date": "2026-10-08T00:20:00Z",
           "note": "Coverage of the argument itself: the conservative majority sounded broadly sympathetic to the oil companies' warning that letting counties sue in state court would be a \"recipe for chaos,\" the justices added a second jurisdictional question mid-briefing, and with Alito off the bench, commentators flagged a real chance of a 4-4 deadlock."
@@ -443,8 +447,8 @@
       "pattern": "a site chosen for one expected story turning out to hold several unrelated, overlapping ones",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The hydrothermal phase is the most astrobiologically interesting of the three: heated groundwater systems like it are exactly the kind of environment that supports microbial life on Earth, and Jezero sits inside one of Mars's largest carbonate exposures - meaning the finding could reshape how scientists read the cached Perseverance samples once they're returned to Earth.",
-      "status": "captured",
+      "why_now": "This was a discrete peer-reviewed finding, not an unfolding event - a dedicated check for Perseverance/Jezero follow-up found nothing newer than the original Sept 21 study, just older anniversary and sample-caching coverage. Going dormant rather than re-bump an unchanged fact; worth reactivating if the team publishes further analysis or NASA issues a follow-up release.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars",
       "location": "Jezero Crater, Mars",

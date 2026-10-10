@@ -1,6 +1,6 @@
 {
   "week": "2026-10-04",
-  "last_updated": "2026-10-10T00:20:00Z",
+  "last_updated": "2026-10-10T14:30:00Z",
   "recognitions": [
     {
       "id": "claims-outrun-confirmation",
@@ -56,7 +56,7 @@
           "text": "The Supreme Court's first argument of its new term looked like the system working through a hard question - but with Alito recused, legal commentators flagged a real chance of a 4-4 deadlock, which would resolve nothing and leave the preemption question exactly where it started.",
           "url": "https://www.newsfromthestates.com/node/430814",
           "date": "2026-10-08",
-          "is_new": true
+          "is_new": false
         },
         {
           "domain": "Economic Policy",
