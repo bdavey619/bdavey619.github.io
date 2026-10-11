@@ -1,125 +1,8 @@
 {
-  "week_start": "2026-10-04",
-  "cycle_start": "2026-10-10T00:20:00Z",
-  "last_updated": "2026-10-10T14:30:00Z",
+  "week_start": "2026-10-11",
+  "cycle_start": "2026-10-10T14:30:00Z",
+  "last_updated": "2026-10-11T00:20:00Z",
   "storylines": [
-    {
-      "id": "hormuz-iran-new-demands",
-      "stream": "markets",
-      "observer": "Why Today?",
-      "title": "The shutdown that 'never happened' just started happening",
-      "observation": "A quarter of the world's seaborne oil passes through the Strait of Hormuz, a chokepoint whose threatened closure markets spent months pricing as leverage rather than reality \u2014 until Iran and the US resumed exchanging fire and tankers started getting hit.",
-      "question": "What happens to a risk premium once the risk it was pricing actually starts happening?",
-      "hidden_question": "Is the strait's value as leverage greater than its value as a functioning waterway \u2014 and does that math change once ships are actually getting struck?",
-      "pattern": "a priced-in threat crossing over into the event it was pricing",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "Three cycles running of dedicated searches have failed to surface anything dated past Oct 6 that isn't a repeat of an already-captured fact or contaminated with incidents from April-August. The conflict is almost certainly still live - this is a sourcing gap, not a resolution - but bumping on unverifiable material would break the rule that the link has to support the newest sentence. Going dormant at the 3-day edge; reactivating the moment a clean, freshly-dated development surfaces.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.aljazeera.com/news/2026/10/2/new-aircraft-carrier-10000-us-troops-is-the-iran-war-about-to-escalate",
-      "location": "Strait of Hormuz",
-      "season_or_time_context": "active military escalation",
-      "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-06T14:30:00Z",
-      "appearances": 6,
-      "history": [
-        {
-          "date": "2026-10-06T14:30:00Z",
-          "note": "A third carrier strike group and roughly 9,000 more troops are headed to the region - by late November, three carriers and two amphibious groups will surround Iran, handing Trump a wider menu of options if he resumes strikes after the midterms."
-        },
-        {
-          "date": "2026-10-06T00:20:00Z",
-          "note": "A third tanker in two days was hit near the strait, and Pezeshkian ruled out US talks entirely: \"every time we come to the negotiating table, war is immediately imposed on us... we have been attacked three times so far following talks.\""
-        },
-        {
-          "date": "2026-10-05T14:30:00Z",
-          "note": "A tanker heading inbound through the strait turned back today after Iran's Revolutionary Guards hailed it and threatened to target it if it kept going - no shot fired, no strike, just the threat alone rerouting a ship."
-        },
-        {
-          "date": "2026-10-05T00:20:00Z",
-          "note": "Defense Secretary Hegseth calls the US blockade of the strait \"ironclad\" and says Trump has \"all the options he needs\" if Iran keeps \"playing games\" - even as Iran's FM again claims its own seven-day reopening plan still stands."
-        },
-        {
-          "date": "2026-10-04T14:30:00Z",
-          "note": "Iran's IRGC says it has hit seven \"violating\" tankers in the strait in just five days, while IMF PortWatch recorded a single transit on Sept 27 against an 85-a-day prewar baseline. Tehran: \"under control of the Islamic Republic - we will not back down.\""
-        }
-      ],
-      "source_date": "2026-10-02"
-    },
-    {
-      "id": "indonesia-ferry-capsizes-java-sea",
-      "stream": "natural_world",
-      "observer": "Why Today?",
-      "title": "The captain's last message said the ship was tilting. Then it went silent",
-      "observation": "The ferry Virgo Transport 8, carrying 243 people from Surabaya to Banjarmasin, capsized in the Java Sea Sept 13 after its captain reported 3-meter waves and a listing ship - the last message before contact was lost. 80 dead, 108 rescued, 55 still missing.",
-      "question": "How does a ship go from reporting rough seas to disappearing entirely in the time it takes to send one distress message?",
-      "hidden_question": "Was this an unavoidable act of weather, or a vessel that shouldn't have been at sea, or at that capacity, when the forecast turned?",
-      "pattern": "a routine domestic ferry route turning fatal within the span of a single distress call",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "Two dedicated search passes today and last cycle found no clean October update - every query kept surfacing contaminated or conflicting September snapshots (death tolls ranging from 6 to 82 depending on which day's cache turned up) rather than a genuine new development beyond the operator's 'raised this month' salvage plan already on this card. Going dormant rather than force a bump with a mismatched fact or let it age past the 3-day prune silently; worth reactivating the moment the salvage operation itself is confirmed underway.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://en.antaranews.com/amp/news/434040/sunken-virgo-transport-8-to-undergo-salvage-operation-in-october",
-      "location": "Java Sea, en route Surabaya to Banjarmasin, Indonesia",
-      "season_or_time_context": "salvage operation underway",
-      "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-05T14:30:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-10-05T14:30:00Z",
-          "note": "The ferry's operator, PT Virgo Karya Shipping, says the wreck itself will be raised this month - a salvage operation that's been under discussion with insurers since the sinking, running in parallel with the still-active search for the missing."
-        },
-        {
-          "date": "2026-10-04T00:20:00Z",
-          "note": "The toll ticked up again to 80 dead, 55 missing, as the 1,042-person task force - 11 vessels, three helicopters, 63 divers, 42 ambulances - keeps working a wreck three weeks on from the sinking."
-        }
-      ],
-      "source_date": "2026-10-04"
-    },
-    {
-      "id": "congo-ebola-declared-over-resurfaces",
-      "stream": "headlines",
-      "category": "Politics & World",
-      "observer": "Why Today?",
-      "title": "The rebels declared the epidemic over in their territory. It just came back",
-      "observation": "M23 rebels declared DRC's Ebola outbreak finished in their eastern Congo territory in late June; in early September a new case surfaced in rebel-held Kayna, North Kivu, in a patient who had just traveled from adjacent government-held Butembo.",
-      "question": "What does it mean to declare an epidemic over in a place your own surveillance can't fully see into?",
-      "hidden_question": "Was the outbreak actually contained, or did the conflict just stop anyone from checking?",
-      "pattern": "a declared resolution disproven by exactly the kind of case its own blind spot couldn't catch",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "Repeated searches this cycle and last keep surfacing WHO/ECDC snapshots from August-September that are lower than the Oct 5 figures already on this card - a sign the outbreak's own reporting lags real time, not that it's slowing. No clean, dated-after-Oct-6 figure found despite several attempts. Going dormant rather than force a stale or inconsistent number; this is one of the most newsworthy ongoing stories in the cabinet and should be reactivated as soon as a verifiably fresher count turns up.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.natureworldnews.com/articles/73448/20261006/ebola-outbreak-caused-bat-linked-virus-no-approved-vaccine-passes-4000-deaths-congo.htm",
-      "location": "Kayna, North Kivu, Democratic Republic of Congo",
-      "season_or_time_context": "active conflict, resurgent outbreak",
-      "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-06T14:30:00Z",
-      "appearances": 4,
-      "history": [
-        {
-          "date": "2026-10-06T14:30:00Z",
-          "note": "The speed comparison is stark: this outbreak passed 1,000 cases within 40 days of response activation. The 2018 DRC outbreak took 235 days to hit the same mark - nearly six times slower than what's happening now."
-        },
-        {
-          "date": "2026-10-06T00:20:00Z",
-          "note": "The toll has climbed again to 4,114 dead among 8,544 confirmed cases - updated figures as of Oct 5, still the fastest-growing Ebola outbreak on record, with no sign the growth curve has bent."
-        },
-        {
-          "date": "2026-10-04T14:30:00Z",
-          "note": "This is now officially the largest and deadliest Ebola outbreak in Congo's history, surpassing the 2018-2020 epidemic - a superlative reached five months after the rebels who first declared it over in their territory."
-        },
-        {
-          "date": "2026-10-04T00:20:00Z",
-          "note": "Health Minister Kamba says the infection is now concentrating in a limited number of health areas rather than spreading evenly - a possible first sign of containment, even as the death toll keeps climbing past 4,000 in the fastest-growing outbreak on record."
-        }
-      ],
-      "source_date": "2026-10-06"
-    },
     {
       "id": "fed-first-hike-since-2023",
       "stream": "markets",
@@ -137,32 +20,16 @@
       "url": "https://www.roic.ai/news/fed-minutes-reveal-all-19-officials-backed-september-rate-hike-but-october-pause-gains-steam-10-07-2026",
       "location": "Washington, DC (Federal Reserve)",
       "season_or_time_context": "rate cycle underway",
-      "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-09T14:30:00Z",
-      "appearances": 7,
+      "source_date": "2026-10-07",
+      "first_seen": "2026-10-11T00:20:00Z",
+      "last_seen": "2026-10-11T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-10-09T14:30:00Z",
+          "date": "2026-10-11T00:20:00Z",
           "note": "The minutes are out: all participants backed the hike, but for different reasons - some targeting demand-driven inflation, others worried about energy and AI-driven price shocks. Most want one more hike before year-end, but stopped short of signaling October specifically; odds now favor a hold."
-        },
-        {
-          "date": "2026-10-07T00:20:00Z",
-          "note": "The September FOMC minutes are due today at 2pm ET - the first look at how close the vote actually was, and how the committee is weighing the October 27-28 meeting after October hike odds collapsed to near-zero."
-        },
-        {
-          "date": "2026-10-06T14:30:00Z",
-          "note": "The slide has been remarkably fast: October hike odds were a near coin-flip on Sept 29 (50.9/49.1) and have collapsed to 21.6% today, a week later - all on the same jobs and inflation data the Fed hadn't fully absorbed yet."
-        },
-        {
-          "date": "2026-10-06T00:20:00Z",
-          "note": "Yields climbed back above 5.30% on fresh inflation fears after an ISM survey showed services activity slowing even as input prices surged - a stagflation signal landing a day before Wednesday's FOMC minutes, with October hold odds now at 76%."
-        },
-        {
-          "date": "2026-10-05T14:30:00Z",
-          "note": "Oil dropped below $90 a barrel today, easing some inflation pressure even as the 10-year ticked up again to 5.30% - the energy and rates stories pulling in opposite directions ahead of Wednesday's FOMC minutes."
         }
-      ],
-      "source_date": "2026-10-07"
+      ]
     },
     {
       "id": "ethiopia-tigray-forces-seize-airports",
@@ -182,32 +49,16 @@
       "url": "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/october-6-2026",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
       "season_or_time_context": "active escalation",
-      "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-08T14:30:00Z",
-      "appearances": 6,
+      "source_date": "2026-10-06",
+      "first_seen": "2026-10-11T00:20:00Z",
+      "last_seen": "2026-10-11T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-10-08T14:30:00Z",
+          "date": "2026-10-11T00:20:00Z",
           "note": "Taking Mekelle wasn't the end point: federal forces and the Tigray Peace Force pushed north from the captured capital and stepped up airstrikes on other TPLF-held population centers, per a security review covering Oct 2-6 - the campaign widening rather than winding down."
-        },
-        {
-          "date": "2026-10-06T14:30:00Z",
-          "note": "Mekelle fell, but the war didn't stop there: air strikes and artillery rocked Tigray overnight into Monday, and at least 17 people have been killed as fighting continues beyond the capital federal forces just claimed."
-        },
-        {
-          "date": "2026-10-05T14:30:00Z",
-          "note": "TPLF says its withdrawal from Mekelle was tactical, not defeat - fighters relocated \"to reduce risks to civilians,\" not surrendered. Mobile service has resumed in parts of the city, but residents describe the same dread that preceded the 2020-22 war."
-        },
-        {
-          "date": "2026-10-05T00:20:00Z",
-          "note": "While Ethiopia claims Mekelle, its three accused backers - Egypt, Eritrea and Sudan - are meeting without it: a mini-summit in Alamein brought together Sisi, Eritrea's Afwerki, Somalia's Mohamud and Sudan's al-Burhan, with Sisi urging 'dialogue, not confrontation' as fears grow the war could cross borders."
-        },
-        {
-          "date": "2026-10-04T14:30:00Z",
-          "note": "Mekelle has fallen: federal troops are patrolling the city and communications were restored after more than a week dark, but shops stay shuttered on looting fears - and TPLF's leader is already hinting at the guerrilla campaign that reclaimed the city after it fell in 2020."
         }
-      ],
-      "source_date": "2026-10-06"
+      ]
     },
     {
       "id": "bolivia-diesel-hike-transport-strike",
@@ -227,149 +78,16 @@
       "url": "https://www.latintimes.com/inside-bolivias-plan-gun-free-oas-police-two-deadlines-close-599129",
       "location": "La Paz / Santa Cruz, Bolivia",
       "season_or_time_context": "diesel subsidy ended Sept 19, nationwide strike Sept 28",
-      "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-09T00:20:00Z",
-      "appearances": 7,
+      "source_date": "2026-10-07",
+      "first_seen": "2026-10-11T00:20:00Z",
+      "last_seen": "2026-10-11T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-10-09T00:20:00Z",
+          "date": "2026-10-11T00:20:00Z",
           "note": "The dispute now risks merging with a second front: Evo Morales has called for his own supporters to begin protests Oct 13, three days after Santa Cruz's deadline - and Santa Cruz's own demands turn out not to include Paz's resignation, just fuel imports, tax cuts and more revenue control for the regions."
-        },
-        {
-          "date": "2026-10-07T00:20:00Z",
-          "note": "Santa Cruz's civic leaders set a new deadline for the government to act on fuel and tax demands: October 10, Bolivia's own Dia de la Democracia - choosing the date its return to civilian rule is celebrated to frame a dispute that's nominally about diesel."
-        },
-        {
-          "date": "2026-10-06T14:30:00Z",
-          "note": "Fares have already jumped nearly 200% in several regions, and officials are now blocking repeat fuel buyers under the emergency rules - the shortage persists even as YPFB keeps shipping extra supply to stations."
-        },
-        {
-          "date": "2026-10-06T00:20:00Z",
-          "note": "The fight has pivoted from pumps to fares: Santa Cruz unions called off their 48-hour strike after YPFB rushed more fuel to all nine departments, but over 1,800 vehicle plates have been blocked and 24 confiscated enforcing the emergency rules."
-        },
-        {
-          "date": "2026-10-05T00:20:00Z",
-          "note": "The fuel shortage has spread past Santa Cruz - kilometer-long queues now stretch in Cochabamba, Sucre and Riberalta, drivers lining up from 2am for gas that hasn't arrived. Those who can afford it buy imported Argentine petrol at 2.6 times the regulated price."
         }
-      ],
-      "source_date": "2026-10-07"
-    },
-    {
-      "id": "norellraptor-four-winged-dinosaur-china",
-      "stream": "natural_world",
-      "observer": "Why Today?",
-      "title": "This feathered dinosaur grew four wings. It's proof flight was invented twice",
-      "observation": "Norellraptor barsboldi, a crow-sized, four-winged feathered dinosaur described Sept 29 from a complete 57cm skeleton in northeastern China, belongs to a different group than its famous four-winged cousin Microraptor - evidence dinosaurs evolved flight-ready wings independently, more than once.",
-      "question": "What does it mean for a single solution - four feathered wings - to be invented twice by unrelated animals facing the same problem?",
-      "hidden_question": "Is four-winged flight a steppingstone every flying lineage tends to pass through, or a one-off experiment the fossil record just happened to preserve twice?",
-      "pattern": "a single evolutionary solution appearing independently in separate lineages facing the same engineering problem",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "A dedicated follow-up check found only recap of the original Sept 29 Nature Communications study - no new fossils, no further analysis. Going dormant rather than re-bumping a static research fact; worth reactivating if the team publishes additional work on the specimen.",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://greekreporter.com/2026/10/02/new-four-winged-dinosaur-suggests-flight-evolved-independently-birds/",
-      "location": "Jiufotang Formation, Liaoning, China (Early Cretaceous)",
-      "season_or_time_context": "described Sept 29, 2026",
-      "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-04T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-10-04T00:20:00Z",
-          "note": "The deeper analysis: about 30% of the anatomical changes on Norellraptor's family tree also appear in the lineage leading to birds - but acquired in a different sequence, arguing against a shared blueprint and for separate evolutionary pressures reaching the same answer."
-        }
-      ],
-      "source_date": "2026-10-02"
-    },
-    {
-      "id": "trump-executive-order-mosquitoes-ticks",
-      "stream": "curiosities",
-      "category": "Business & Technology",
-      "observer": "Why Today?",
-      "title": "The federal government just declared war on mosquitoes - with a deadline and a scoreboard",
-      "observation": "Trump signed an executive order targeting disease-carrying pests in Washington, D.C., directing agencies to cut Asian tiger and Egyptian mosquito populations 90% and ticks 50% by 2028, using non-chemical methods and HHS-run prize competitions for the best new techniques.",
-      "question": "What does it mean to run pest control the way you'd run a federal program - with agencies, deadlines and a percentage target?",
-      "hidden_question": "Is a numeric, dated mandate actually the right tool against an insect population, or a bureaucratic habit applied to a problem that doesn't respect calendars?",
-      "pattern": "a government applying its standard tools of deadlines and quotas to a problem that has never previously been managed that way",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "A dedicated check found only recap of the Sept 30 signing and the DC staffing-gap angle already on this card - no new development in the week since. Going dormant; worth reactivating once the 60-day implementation plan or the first prize competition is announced.",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://dc.citycast.fm/news/trump-dc-mosquitoes-executive-order",
-      "location": "Washington, DC",
-      "season_or_time_context": "executive order signed Sept 30, 2026, target year 2028",
-      "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-04T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-10-04T00:20:00Z",
-          "note": "A DC councilmember calls the order 'timely' - but the district's own health department has exactly one official assigned to mosquito remediation. The federal 90%-by-2028 target now depends on coordinating with a team that is, at most, one person."
-        }
-      ],
-      "source_date": "2026-10-01"
-    },
-    {
-      "id": "anak-krakatau-new-islands-emerge",
-      "stream": "places",
-      "observer": "Why Today?",
-      "title": "The volcano that created Krakatoa's child just grew two more",
-      "observation": "A 25-hour eruption at Indonesia's Anak Krakatau produced two new island-like mounds offshore - one 760m northwest, one 495m southeast - the first new land to emerge in the Krakatoa caldera in nearly a century, detected via ESA's Sentinel satellites.",
-      "question": "How permanent is land created by the same violence that could erode it away again within years?",
-      "hidden_question": "Is this the start of a new island, or a repeat of the mounds that rose and vanished between 1927 and 1930 before Anak Krakatau itself endured?",
-      "pattern": "a landscape rebuilding itself through the same volcanic violence that destroys it",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "A dedicated check found the same Sept 23 satellite detection and 32.8-hectare expansion figures already on this card - the volcano remains on alert but nothing new has emerged. Going dormant; worth reactivating on a fresh eruption or confirmed island permanence.",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://www.freemalaysiatoday.com/category/world/2026/10/02/new-islands-appear-after-indonesia-s-anak-krakatau-volcano-erupts",
-      "location": "Sunda Strait, Indonesia",
-      "season_or_time_context": "eruption early September 2026, islands reported Oct 2",
-      "first_seen": "2026-10-04T00:20:00Z",
-      "last_seen": "2026-10-04T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-10-04T00:20:00Z",
-          "note": "Anak Krakatau itself gained 32.8 hectares from pyroclastic deposits and lava during the same eruption - but history isn't encouraging: similar mounds rose and eroded away repeatedly between 1927 and 1930 before the main island actually endured."
-        }
-      ],
-      "source_date": "2026-10-02"
-    },
-    {
-      "id": "uganda-tree-climbing-lions-conservation-deal",
-      "stream": "natural_world",
-      "observer": "Why Today?",
-      "title": "Only two female lions are left where 400 once lived. Uganda just signed a 10-year plan to fix that",
-      "observation": "Uganda's Wildlife Authority and the Wildlife Conservation Society signed a 10-year, $14 million deal to co-manage part of Queen Elizabeth National Park, home to tree-climbing lions whose population fell from 400 in the 1970s to 39 today - just two of them female.",
-      "question": "What does it take to reverse a 90% population collapse that took five decades to happen?",
-      "hidden_question": "Is splitting day-to-day management from law enforcement a genuine fix, or an admission the state alone couldn't protect what it owns?",
-      "pattern": "a government outsourcing day-to-day stewardship of a resource it couldn't protect alone, while keeping enforcement power for itself",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "The 10-year WCS/UWA deal was a one-time announcement, not an unfolding event - a dedicated search found no October follow-up, only unrelated older poisoning incidents from 2025 and earlier. Going dormant; this is a slower-moving conservation story that won't generate daily news, worth reactivating on the first implementation update (lion guardians recruited, enclosures built, or a fresh population count).",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://news.mongabay.com/short-article/2026/10/uganda-and-ngo-to-co-manage-sector-of-national-park-home-to-tree-climbing-lions/",
-      "location": "Ishasha sector, Queen Elizabeth National Park, Uganda",
-      "season_or_time_context": "10-year partnership announced Oct 2, 2026",
-      "first_seen": "2026-10-05T00:20:00Z",
-      "last_seen": "2026-10-06T14:30:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-10-06T14:30:00Z",
-          "note": "The count is even starker than first reported: fewer than five lions remain in Ishasha at all. WCS's first move is recruiting \"lion guardians\" from surrounding towns and funding livestock enclosures and boreholes to cut the herder-lion conflict that's been killing them."
-        },
-        {
-          "date": "2026-10-05T00:20:00Z",
-          "note": "The Ishasha sector is down to two female lions. WCS takes over biodiversity management, community engagement and tourism there; UWA keeps law enforcement. The first five years focus purely on rebuilding the ecological conditions lions need to recover at all."
-        }
-      ],
-      "source_date": "2026-10-02"
+      ]
     },
     {
       "id": "scotus-boulder-county-climate-case",
@@ -389,80 +107,16 @@
       "url": "https://www.coloradopolitics.com/2026/10/05/oil-companies-argue-buyers-burned-fuel-but-boulder-says-they-hid-risks/",
       "location": "Washington, DC / Boulder County, Colorado",
       "season_or_time_context": "oral arguments heard Oct 5, 2026, opening day of the court's new term",
-      "first_seen": "2026-10-06T00:20:00Z",
-      "last_seen": "2026-10-10T14:30:00Z",
-      "appearances": 3,
+      "source_date": "2026-10-05",
+      "first_seen": "2026-10-11T00:20:00Z",
+      "last_seen": "2026-10-11T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-10-10T14:30:00Z",
+          "date": "2026-10-11T00:20:00Z",
           "note": "A fuller read of the argument complicates the \"sympathetic to oil companies\" read: justices reportedly voiced doubts about both sides' broad positions, not just Boulder's - and the 4-4 deadlock risk cuts the other way too, since a tie would leave Colorado's ruling (and Boulder's lawsuit) standing by default."
-        },
-        {
-          "date": "2026-10-08T00:20:00Z",
-          "note": "Coverage of the argument itself: the conservative majority sounded broadly sympathetic to the oil companies' warning that letting counties sue in state court would be a \"recipe for chaos,\" the justices added a second jurisdictional question mid-briefing, and with Alito off the bench, commentators flagged a real chance of a 4-4 deadlock."
-        },
-        {
-          "date": "2026-10-06T00:20:00Z",
-          "note": "Justice Alito recused himself from the case shortly before argument. The court chose this as the very first case of its new term - a deliberate signal about how seriously it's treating the federal preemption question before anything else this session."
         }
-      ],
-      "source_date": "2026-10-05"
-    },
-    {
-      "id": "norway-svinesund-neolithic-gallery-grave",
-      "stream": "places",
-      "observer": "Why Today?",
-      "title": "A grave built from car-sized stone slabs sat waiting under a Norwegian plateau for 4,000 years",
-      "observation": "A rescue excavation ahead of industrial construction on Norway's Svinesund Plateau uncovered a Neolithic gallery grave built from stone slabs weighing hundreds of kilograms each - dated to roughly 4,000 years ago, when early farmers first moved into the region.",
-      "question": "What does it mean that a grave built to outlast everything was almost paved over by the same kind of development it originally predates?",
-      "hidden_question": "Is the rescue excavation honoring the site, or is 'rescue archaeology' just the industry's way of making peace with destroying most of what it finds?",
-      "pattern": "an ancient structure surviving millennia only to be found at the exact moment modern development was about to erase it",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "Confirmed again this cycle: the only follow-up is laboratory radiocarbon dating of the charcoal/possible burnt bone, and that result isn't in yet. Nothing new to report until the lab work returns. Going dormant rather than re-bump an unchanged fact; reactivating the moment the dating results - or word on whether the site combined burial and cremation - are published.",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://archaeology.org/news/2026/10/05/4000-year-old-gallery-grave-excavated-in-norway/",
-      "location": "Svinesund Plateau, southeastern Norway",
-      "season_or_time_context": "rescue excavation reported Oct 5, 2026",
-      "first_seen": "2026-10-06T14:30:00Z",
-      "last_seen": "2026-10-06T14:30:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-10-06T14:30:00Z",
-          "note": "The grave held one arrowhead, no daggers, plus an amber bead, pottery and charcoal traces - archaeologists are testing whether the charcoal is ordinary burning or burned bone, which would mean a regular burial combined with a cremation."
-        }
-      ],
-      "source_date": "2026-10-05"
-    },
-    {
-      "id": "mars-margin-unit-three-water-systems",
-      "stream": "natural_world",
-      "observer": "Why Today?",
-      "title": "Mars's ancient shoreline wasn't one lake. It was three water systems stacked on top of each other",
-      "observation": "A new study of Perseverance's 'Margin Unit' at Jezero Crater found three water-chemistry signatures layered in the same rocks - carbonate from groundwater, silica from a lake, and sulfate-fluorite veins from a hot hydrothermal event - where scientists expected one lakeshore deposit.",
-      "question": "What does it mean when a site picked for one expected story turns out to hold a record of several unrelated water systems taking turns?",
-      "hidden_question": "Did Mars actually have a richer, more varied water history than a single drying lake - or does complexity keep turning up simply because this is the most closely studied square mile on the planet?",
-      "pattern": "a site chosen for one expected story turning out to hold several unrelated, overlapping ones",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "This was a discrete peer-reviewed finding, not an unfolding event - a dedicated check for Perseverance/Jezero follow-up found nothing newer than the original Sept 21 study, just older anniversary and sample-caching coverage. Going dormant rather than re-bump an unchanged fact; worth reactivating if the team publishes further analysis or NASA issues a follow-up release.",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars",
-      "location": "Jezero Crater, Mars",
-      "season_or_time_context": "study published Sept 21, 2026",
-      "first_seen": "2026-10-08T00:20:00Z",
-      "last_seen": "2026-10-08T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-10-08T00:20:00Z",
-          "note": "Lead author Candice Bedford: \"Mars constantly throws surprises at you.\" The rover's SuperCam reviewed 185 bedrock targets across the Margin Unit to piece together the three-phase water history, including a 25cm hydrothermal mineral vein."
-        }
-      ],
-      "source_date": "2026-09-21"
+      ]
     },
     {
       "id": "russia-plague-lab-worker-death-mystery",
@@ -478,80 +132,47 @@
       "why_now": "Nearly 200 people have been placed under medical observation and the hospital that treated her is under quarantine, taking no new admissions or discharges - a scale of precaution that sits oddly next to the official line that nothing dangerous occurred.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://kyivindependent.com/plague-death-triggers-quarantine-mask-mandates-in-russias-irkutsk-region-in-siberia/",
+      "url": "https://greekcitytimes.com/2026/10/06/asian-countries-tighten-russia-borders-suspected-plague/",
       "location": "Irkutsk / Shelekhov, Siberia, Russia",
       "season_or_time_context": "death occurred early October 2026, reported Oct 5-6",
-      "first_seen": "2026-10-09T00:20:00Z",
-      "last_seen": "2026-10-09T14:30:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-10-09T14:30:00Z",
-          "note": "The dead researcher has a name now: Darya Shipilova, 28. She allegedly broke a test tube of the pneumonic plague pathogen while collecting samples a week before her death - a claim authorities dispute. Three Irkutsk hospitals and a children's hospital are now under three-week quarantine; masks became mandatory at the nearby aluminum plant Oct 3."
-        },
-        {
-          "date": "2026-10-09T00:20:00Z",
-          "note": "Two of the lab worker's contacts tested positive - for a common cold virus and COVID-19, not plague - while WHO says the public health risk \"appears to be low.\" The gap between the quarantine's scale and that reassurance is the story."
-        }
-      ],
-      "source_date": "2026-10-05"
-    },
-    {
-      "id": "catalonia-floods-barcelona-record-rainfall",
-      "stream": "places",
-      "observer": "Why Today?",
-      "title": "Barcelona just had its wettest day in decades. Nobody agrees on how many",
-      "observation": "Flash flooding killed two people and left one missing across Catalonia Oct 4, as Barcelona logged its heaviest single-day rainfall in competing accounts of 20 or 143 years - over 1,500 emergency calls and a red alert for a possible 'mini-hurricane.'",
-      "question": "What does it mean that a city can't agree on how unprecedented its own worst day was?",
-      "hidden_question": "Does the record genuinely vary by which instrument or station measured it, or is 'worst in X years' just a number officials reach for without checking which one is true?",
-      "pattern": "a single extreme event generating multiple incompatible claims about its own historical significance",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "A man died when a wall collapsed on him in Tordera; a second body was found in a flooded garage in Montornes del Valles; a third person remains missing, swept away by a stream - three different, specific ways the same storm killed, within a few miles of each other.",
-      "status": "captured",
-      "editorial_potential": "medium",
-      "url": "https://www.euronews.com/2026/10/05/floods-leave-streets-and-roads-submerged-across-catalonia",
-      "location": "Barcelona and Catalonia, Spain",
-      "season_or_time_context": "flash flooding Oct 4, 2026",
-      "first_seen": "2026-10-09T00:20:00Z",
-      "last_seen": "2026-10-09T00:20:00Z",
+      "source_date": "2026-10-06",
+      "first_seen": "2026-10-11T00:20:00Z",
+      "last_seen": "2026-10-11T00:20:00Z",
       "appearances": 1,
       "history": [
         {
-          "date": "2026-10-09T00:20:00Z",
-          "note": "A man died when a wall collapsed on him in Tordera; a second body was found in a flooded garage in Montornes del Valles; a third person remains missing, swept away by a stream - three different, specific ways the same storm killed."
+          "date": "2026-10-11T00:20:00Z",
+          "note": "WHO says Russian authorities told it no plague case has been recorded in Irkutsk, and all 187 monitored contacts remain symptom-free - yet Kazakhstan and Kyrgyzstan tightened border health checks anyway, treating the official all-clear as a precaution rather than a settled fact."
         }
-      ],
-      "source_date": "2026-10-05"
+      ]
     },
     {
-      "id": "mahalaya-devi-paksha-begins-2026",
+      "id": "navratri-ghatasthapana-begins-2026",
       "stream": "human_rituals",
       "observer": "Why Today?",
-      "title": "Today is both a funeral and a welcome. Bengal has run them back to back for a century",
-      "observation": "Mahalaya, today, is the final day of Pitru Paksha - the fortnight Hindus spend honoring dead ancestors through water-and-sesame offerings - and the same day Bengal marks Devi Paksha's start, when the goddess Durga is invited to descend to earth ahead of Durga Puja.",
-      "question": "What does it mean for a culture to schedule its grief and its celebration on the exact same calendar day, rather than keeping them apart?",
-      "hidden_question": "Is pairing ancestor rites with a goddess's arrival a deliberate statement that endings and beginnings are the same event - or just a scheduling accident that tradition later made meaningful?",
-      "pattern": "a single calendar day doing double duty as both a closing ritual and an opening one",
+      "title": "Nine nights, nine faces of one goddess. Today the pot that holds her gets planted with grain",
+      "observation": "Shardiya Navratri begins today with Ghatasthapana: a sacred kalash installed as Durga's vessel, often packed with soil, coins and grain with barley seeds sown beneath it, opening nine nights devoted to nine successive forms of the goddess - the first being Shailaputri.",
+      "question": "What does it mean to represent one deity's power as nine distinct, separately-named forms rather than one continuous figure?",
+      "hidden_question": "Does splitting the goddess into nine stages make an otherwise overwhelming concept graspable, or does the division itself quietly change what's actually being worshipped?",
+      "pattern": "a single extended devotion broken into discrete, individually-named stages rather than treated as one continuous observance",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Millions of Bengalis still wake before dawn today for the same 90-minute AIR radio broadcast - Birendra Krishna Bhadra's 1931 recitation of the Mahishasura Mardini - that's aired almost unbroken for nearly a century, missed only once, in 1976, when a replacement narrator was so unpopular the original was restored the next year.",
+      "why_now": "The barley seeds sown beneath today's kalash are a living clock, not just a symbol - they'll have visibly sprouted by the ninth night, turning the festival's end into something that can be checked against what actually grew, not just declared.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://en.wikipedia.org/wiki/Mahisasuramardini_(radio_programme)",
-      "location": "West Bengal, India, and the Bengali diaspora worldwide",
-      "season_or_time_context": "Mahalaya observed Oct 10, 2026; Durga Puja follows in the week ahead",
-      "first_seen": "2026-10-10T00:20:00Z",
-      "last_seen": "2026-10-10T00:20:00Z",
+      "url": "https://www.newsbytesapp.com/news/india/sharad-navratri-2026-begins-october-11-with-ghatasthapana-ritual/tldr",
+      "location": "India and the Hindu diaspora worldwide",
+      "season_or_time_context": "Navratri begins Oct 11, 2026, runs nine nights to Dussehra Oct 20",
+      "first_seen": "2026-10-11T00:20:00Z",
+      "last_seen": "2026-10-11T00:20:00Z",
       "appearances": 1,
       "history": [
         {
-          "date": "2026-10-10T00:20:00Z",
-          "note": "The broadcast has only gone missing once in nearly a century: in 1976, All India Radio tried replacing reciter Birendra Krishna Bhadra with film star Uttam Kumar. Listeners rejected it so completely that the original recitation was reinstated the following year."
+          "date": "2026-10-11T00:20:00Z",
+          "note": "Day one belongs to Shailaputri, the mountain's daughter - first of Durga's nine forms, associated in several traditions with the Muladhara (root) chakra, the base the other eight days are said to build on."
         }
       ],
-      "source_date": "2026-10-10",
-      "source_evergreen": true
+      "source_date": "2026-10-11"
     }
   ]
 }
