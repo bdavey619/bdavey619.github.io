@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-11",
-  "cycle_start": "2026-10-11T14:30:00Z",
-  "last_updated": "2026-10-12T00:20:00Z",
+  "cycle_start": "2026-10-12T00:20:00Z",
+  "last_updated": "2026-10-12T14:30:00Z",
   "storylines": [
     {
       "id": "fed-first-hike-since-2023",
@@ -168,19 +168,23 @@
       "why_now": "The barley seeds sown beneath today's kalash are a living clock, not just a symbol - they'll have visibly sprouted by the ninth night, turning the festival's end into something that can be checked against what actually grew, not just declared.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.newsbytesapp.com/news/india/sharad-navratri-2026-begins-october-11-with-ghatasthapana-ritual/tldr",
+      "url": "https://hindutone.com/festivals/navratri-2026-day-2-maa-brahmacharini-mantra-colour-puja-vidhi/",
       "location": "India and the Hindu diaspora worldwide",
       "season_or_time_context": "Navratri begins Oct 11, 2026, runs nine nights to Dussehra Oct 20",
       "first_seen": "2026-10-11T00:20:00Z",
-      "last_seen": "2026-10-11T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-12T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-12T14:30:00Z",
+          "note": "Day two belongs to Brahmacharini - not a married goddess but an ascetic one, the unmarried Parvati mid-penance, shown barefoot with a prayer rosary and a water pot instead of any of the weapons or finery the later forms carry. The same day is also Chandra Darshana, the first sighting of the new moon."
+        },
         {
           "date": "2026-10-11T00:20:00Z",
           "note": "Day one belongs to Shailaputri, the mountain's daughter - first of Durga's nine forms, associated in several traditions with the Muladhara (root) chakra, the base the other eight days are said to build on."
         }
       ],
-      "source_date": "2026-10-11"
+      "source_date": "2026-10-12"
     }
   ]
 }
