@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-11",
-  "cycle_start": "2026-10-11T00:20:00Z",
-  "last_updated": "2026-10-11T14:30:00Z",
+  "cycle_start": "2026-10-11T14:30:00Z",
+  "last_updated": "2026-10-12T00:20:00Z",
   "storylines": [
     {
       "id": "fed-first-hike-since-2023",
@@ -109,9 +109,13 @@
       "season_or_time_context": "oral arguments heard Oct 5, 2026, opening day of the court's new term",
       "source_date": "2026-10-05",
       "first_seen": "2026-10-11T00:20:00Z",
-      "last_seen": "2026-10-11T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-12T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-12T00:20:00Z",
+          "note": "Suncor's lawyer gave the argument's starkest framing: if Boulder's claims proceed, some 90,000 U.S. municipalities could effectively set national and international energy policy through local jury verdicts - the scale critics say the case was always really about."
+        },
         {
           "date": "2026-10-11T00:20:00Z",
           "note": "A fuller read of the argument complicates the \"sympathetic to oil companies\" read: justices reportedly voiced doubts about both sides' broad positions, not just Boulder's - and the 4-4 deadlock risk cuts the other way too, since a tie would leave Colorado's ruling (and Boulder's lawsuit) standing by default."
@@ -132,14 +136,18 @@
       "why_now": "Nearly 200 people have been placed under medical observation and the hospital that treated her is under quarantine, taking no new admissions or discharges - a scale of precaution that sits oddly next to the official line that nothing dangerous occurred.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://greekcitytimes.com/2026/10/06/asian-countries-tighten-russia-borders-suspected-plague/",
+      "url": "https://kyivindependent.com/russia-lifts-quarantine-in-irkutsk-region-where-lab-worker-allegedly-died-of-plague/",
       "location": "Irkutsk / Shelekhov, Siberia, Russia",
       "season_or_time_context": "death occurred early October 2026, reported Oct 5-6",
-      "source_date": "2026-10-06",
+      "source_date": "2026-10-08",
       "first_seen": "2026-10-11T00:20:00Z",
-      "last_seen": "2026-10-11T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-12T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-12T00:20:00Z",
+          "note": "The case is officially closed: Gov. Kobzev lifted the quarantine Oct 8, saying nearly 5,000 tests found no dangerous microorganisms and all contacts are healthy. He added a new detail - she'd been vaccinated - but the thing the quarantine was actually about, whether she died of plague, is still exactly as unconfirmed as it was on day one."
+        },
         {
           "date": "2026-10-11T00:20:00Z",
           "note": "WHO says Russian authorities told it no plague case has been recorded in Irkutsk, and all 187 monitored contacts remain symptom-free - yet Kazakhstan and Kyrgyzstan tightened border health checks anyway, treating the official all-clear as a precaution rather than a settled fact."
