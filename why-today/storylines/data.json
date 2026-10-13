@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-11",
-  "cycle_start": "2026-10-12T14:30:00Z",
-  "last_updated": "2026-10-13T00:20:00Z",
+  "cycle_start": "2026-10-13T00:20:00Z",
+  "last_updated": "2026-10-13T14:30:00Z",
   "storylines": [
     {
       "id": "fed-first-hike-since-2023",
@@ -14,8 +14,8 @@
       "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The slide has been remarkably fast: October hike odds were a near coin-flip on Sept 29 (50.9/49.1) and have collapsed to 21.6% today, a week later - all on the same jobs and inflation data the Fed hadn't fully absorbed yet.",
-      "status": "captured",
+      "why_now": "Three cycles running of dedicated searches have failed to surface anything dated past Oct 7 that isn't a repeat of already-captured minutes coverage or contaminated with other FOMC cycles (2016, 2017, 2022, last July's meeting). Going dormant at the 3-day edge rather than force a stale bump; reactivating on the next clean, dated Fed development - a Powell speech, new jobs/inflation data, or movement toward the Oct 27-28 meeting.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.roic.ai/news/fed-minutes-reveal-all-19-officials-backed-september-rate-hike-but-october-pause-gains-steam-10-07-2026",
       "location": "Washington, DC (Federal Reserve)",
@@ -43,8 +43,8 @@
       "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Mekelle fell, but the war didn't stop there: air strikes and artillery rocked Tigray overnight into Monday, and at least 17 people have been killed as fighting continues beyond the capital federal forces just claimed.",
-      "status": "captured",
+      "why_now": "Repeated searches this cycle and the last two keep surfacing the same Oct 2-6 window already captured, or contaminated material from the 2020-2022 war and unverifiable claims (an 'Oct 24 AU peace talks' lead and an 'Amhara Fano disrupting supply lines' lead both traced to other years when checked). The war is almost certainly still active - this is a sourcing gap, not a resolution - going dormant rather than bump on unverifiable material; reactivating the moment a clean, freshly-dated development surfaces.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/october-6-2026",
       "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
@@ -72,8 +72,8 @@
       "pattern": "an externally-imposed economic condition landing first on the population least able to absorb it",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Fares have already jumped nearly 200% in several regions, and officials are now blocking repeat fuel buyers under the emergency rules - the shortage persists even as YPFB keeps shipping extra supply to stations.",
-      "status": "captured",
+      "why_now": "No report found of what actually happened on Evo Morales's announced Oct 13 protest start, despite searching specifically for it, nor any outcome from Santa Cruz's Oct 10 deadline across three cycles now. Going dormant rather than re-bump the same Oct 11 fact as if it were new; reactivating as soon as either deadline's actual outcome is reported.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.latintimes.com/inside-bolivias-plan-gun-free-oas-police-two-deadlines-close-599129",
       "location": "La Paz / Santa Cruz, Bolivia",
@@ -168,13 +168,17 @@
       "why_now": "The barley seeds sown beneath today's kalash are a living clock, not just a symbol - they'll have visibly sprouted by the ninth night, turning the festival's end into something that can be checked against what actually grew, not just declared.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://hindutone.com/festivals/navratri-2026-day-2-maa-brahmacharini-mantra-colour-puja-vidhi/",
+      "url": "https://hindutone.com/festivals/navratri-2026-day-3-maa-chandraghanta-mantra-colour-puja-vidhi/",
       "location": "India and the Hindu diaspora worldwide",
       "season_or_time_context": "Navratri begins Oct 11, 2026, runs nine nights to Dussehra Oct 20",
       "first_seen": "2026-10-11T00:20:00Z",
-      "last_seen": "2026-10-12T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-10-13T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-10-13T14:30:00Z",
+          "note": "Day three belongs to Chandraghanta - named for the bell-shaped half-moon on her forehead, riding a tiger (or in some traditions a lion), and associated with courage rather than any of the gentler virtues the earlier forms carry. Milk or kheer is the customary offering."
+        },
         {
           "date": "2026-10-12T14:30:00Z",
           "note": "Day two belongs to Brahmacharini - not a married goddess but an ascetic one, the unmarried Parvati mid-penance, shown barefoot with a prayer rosary and a water pot instead of any of the weapons or finery the later forms carry. The same day is also Chandra Darshana, the first sighting of the new moon."
@@ -184,7 +188,36 @@
           "note": "Day one belongs to Shailaputri, the mountain's daughter - first of Durga's nine forms, associated in several traditions with the Muladhara (root) chakra, the base the other eight days are said to build on."
         }
       ],
-      "source_date": "2026-10-12"
+      "source_date": "2026-10-13"
+    },
+    {
+      "id": "france-student-protests-schools-blockaded",
+      "stream": "headlines",
+      "category": "Politics & World",
+      "observer": "Why Today?",
+      "title": "The government's fix is scheduled for \"end of October.\" Students are striking again today",
+      "observation": "Since mid-September, French students have blockaded or closed up to 1,800 high schools and dozens of university sites over teacher shortages, overcrowded classrooms and crumbling buildings. PM Lecornu's Oct 4 letter deferred actual decisions to \"fin octobre\" - month's end.",
+      "question": "What does it mean when a government's answer to an active protest arrives scheduled for after the protest's own momentum is supposed to have passed?",
+      "hidden_question": "Is 'end of October' a genuine timeline for complex fixes, or a deadline picked because it's likely to outlast the news cycle the protests created?",
+      "pattern": "an official response that defers the substance of an answer past the span of attention the problem is currently getting",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Organizers and the government can't even agree on how big the movement is: unions put one march's turnout at 450,000, the Interior Ministry at 256,000 - and neither side is backing down on a fresh joint strike with public-sector workers called for today.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.sortiraparis.com/en/news/in-paris/articles/353708-october-13-strike-high-school-students-college-students-and-teachers-urged-to-demonstrate-in-large-numbers",
+      "location": "France (nationwide, concentrated in Paris region)",
+      "season_or_time_context": "protests began mid-September 2026, ongoing, joint strike called for Oct 13",
+      "first_seen": "2026-10-13T14:30:00Z",
+      "last_seen": "2026-10-13T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-13T14:30:00Z",
+          "note": "Lecornu's own letter set the terms: \"before the end of October 2026, the first decisions will be presented with their financing and timetable.\" A government promising a timetable for a timetable, while students blockade schools in the meantime."
+        }
+      ],
+      "source_date": "2026-10-13"
     }
   ]
 }
