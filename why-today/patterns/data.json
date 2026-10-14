@@ -1,6 +1,6 @@
 {
   "week": "2026-10-11",
-  "last_updated": "2026-10-13T14:30:00Z",
+  "last_updated": "2026-10-14T00:20:00Z",
   "recognitions": [
     {
       "id": "resolved-in-form-not-in-fact",
@@ -34,7 +34,7 @@
           "text": "France's PM answered a month of school blockades with a letter naming five priority fixes - then set the deadline for actual decisions at 'fin octobre,' the end of the month. Students didn't wait to see if that held: organizers called a fresh joint strike with public-sector workers for today.",
           "url": "https://www.sortiraparis.com/en/news/in-paris/articles/353708-october-13-strike-high-school-students-college-students-and-teachers-urged-to-demonstrate-in-large-numbers",
           "date": "2026-10-13",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
