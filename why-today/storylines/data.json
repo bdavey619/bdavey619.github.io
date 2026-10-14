@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-11",
-  "cycle_start": "2026-10-13T14:30:00Z",
-  "last_updated": "2026-10-14T00:20:00Z",
+  "cycle_start": "2026-10-14T00:20:00Z",
+  "last_updated": "2026-10-14T14:30:00Z",
   "storylines": [
     {
       "id": "fed-first-hike-since-2023",
@@ -101,8 +101,8 @@
       "pattern": "a local legal claim testing whether a global harm can be assigned local liability",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Justice Alito recused himself from the case shortly before argument - a notable last-minute development. The court chose this as the very first case of its new term, a deliberate signal about how seriously it's treating the preemption question before anything else this session.",
-      "status": "captured",
+      "why_now": "A second cycle in a row of dedicated searches turns up nothing past the Oct 5 argument coverage already captured - no opinion has been issued, and the court gives no public timeline for one. Going dormant rather than re-bump the same argument-day material as if it were new; reactivating the moment a ruling or genuinely new filing surfaces.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.coloradopolitics.com/2026/10/05/oil-companies-argue-buyers-burned-fuel-but-boulder-says-they-hid-risks/",
       "location": "Washington, DC / Boulder County, Colorado",
@@ -133,8 +133,8 @@
       "pattern": "an institution's official account diverging from an insider's own report of what happened to them",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Nearly 200 people have been placed under medical observation and the hospital that treated her is under quarantine, taking no new admissions or discharges - a scale of precaution that sits oddly next to the official line that nothing dangerous occurred.",
-      "status": "captured",
+      "why_now": "A second cycle in a row of searches surfaces only material that predates what's already on the card (the U.S. embassy's health alert and CDC statement both trace to Oct 6-7) or repeats the same Oct 8 all-clear. Going dormant rather than force a stale bump; reactivating the moment the cause of death is confirmed either way or a new development breaks.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://kyivindependent.com/russia-lifts-quarantine-in-irkutsk-region-where-lab-worker-allegedly-died-of-plague/",
       "location": "Irkutsk / Shelekhov, Siberia, Russia",
@@ -222,6 +222,35 @@
         }
       ],
       "source_date": "2026-10-13"
+    },
+    {
+      "id": "nobel-literature-anne-carson-2026",
+      "stream": "curiosities",
+      "category": "Arts & Culture",
+      "observer": "Why Today?",
+      "title": "The Nobel committee picked a poet who turns classical Greek into something unclassifiable",
+      "observation": "The Swedish Academy awarded the 2026 Nobel Prize in Literature to Canadian poet and classicist Anne Carson, 76, for a body of work it called 'bold and inventive' - verse-essays and translations that fuse ancient Greek myth with contemporary form.",
+      "question": "What does a committee signal about the state of literature when it rewards work that resists the usual categories - novel, poem, essay - rather than excelling within one of them?",
+      "hidden_question": "Is Carson's prize a recognition that genre-blending has become literature's most vital mode, or a one-off nod to a singular career that doesn't predict anything about the field?",
+      "pattern": "an institution's highest honor going to work defined by its refusal to fit the categories the institution itself uses",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "She was reached by phone in Iceland, where she said she'd gone 'to listen to the wind' - an answer so in keeping with her own famously spare, oblique style that it reads like one more line of her own work.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.nobelprize.org/prizes/literature/2026/press-release/",
+      "location": "Stockholm, Sweden / Iceland",
+      "season_or_time_context": "announced Oct 8, 2026; ceremony Dec 10 in Stockholm",
+      "source_date": "2026-10-08",
+      "first_seen": "2026-10-14T14:30:00Z",
+      "last_seen": "2026-10-14T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-14T14:30:00Z",
+          "note": "The Swedish Academy named Carson sole laureate for a 'bold and inventive' body of work spanning poetry, essay and translation - classics scholarship repurposed as contemporary literary form rather than kept separate from it."
+        }
+      ]
     }
   ]
 }
