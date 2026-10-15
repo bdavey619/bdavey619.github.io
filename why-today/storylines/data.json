@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-11",
-  "cycle_start": "2026-10-14T00:20:00Z",
-  "last_updated": "2026-10-14T14:30:00Z",
+  "cycle_start": "2026-10-14T14:30:00Z",
+  "last_updated": "2026-10-15T00:20:00Z",
   "storylines": [
     {
       "id": "fed-first-hike-since-2023",
@@ -168,13 +168,17 @@
       "why_now": "The barley seeds sown beneath today's kalash are a living clock, not just a symbol - they'll have visibly sprouted by the ninth night, turning the festival's end into something that can be checked against what actually grew, not just declared.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://hindutone.com/festivals/navratri-2026-day-4-maa-kushmanda-mantra-colour-puja-vidhi/",
+      "url": "https://hindutone.com/festivals/navratri-2026-day-5-maa-skandamata-mantra-colour-puja-vidhi/",
       "location": "India and the Hindu diaspora worldwide",
       "season_or_time_context": "Navratri begins Oct 11, 2026, runs nine nights to Dussehra Oct 20",
       "first_seen": "2026-10-11T00:20:00Z",
-      "last_seen": "2026-10-14T00:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-10-15T00:20:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-10-15T00:20:00Z",
+          "note": "Day five belongs to Skandamata - mother of the war-god Skanda, shown four-armed on a lion with the infant on her lap. The same day is Lalita Panchami, kept with a day's fast in Gujarat and Maharashtra. Yellow is the day's colour; banana the customary offering."
+        },
         {
           "date": "2026-10-14T00:20:00Z",
           "note": "Day four belongs to Kushmanda - credited in tradition with creating the universe with just her smile, and said to reside inside the sun itself, providing it the energy to shine. Royal blue is the day's colour; malpua the customary offering."
@@ -192,7 +196,7 @@
           "note": "Day one belongs to Shailaputri, the mountain's daughter - first of Durga's nine forms, associated in several traditions with the Muladhara (root) chakra, the base the other eight days are said to build on."
         }
       ],
-      "source_date": "2026-10-14"
+      "source_date": "2026-10-15"
     },
     {
       "id": "france-student-protests-schools-blockaded",
