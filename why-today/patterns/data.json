@@ -1,6 +1,6 @@
 {
   "week": "2026-10-11",
-  "last_updated": "2026-10-15T00:20:00Z",
+  "last_updated": "2026-10-15T14:30:00Z",
   "recognitions": [
     {
       "id": "resolved-in-form-not-in-fact",
@@ -31,8 +31,8 @@
         },
         {
           "domain": "Education Policy",
-          "text": "France's PM answered a month of school blockades with a letter naming five priority fixes - then set the deadline for actual decisions at 'fin octobre,' the end of the month. Students didn't wait to see if that held: organizers called a fresh joint strike with public-sector workers for today.",
-          "url": "https://www.sortiraparis.com/en/news/in-paris/articles/353708-october-13-strike-high-school-students-college-students-and-teachers-urged-to-demonstrate-in-large-numbers",
+          "text": "France's PM answered a month of school blockades with a letter deferring real decisions to 'fin octobre.' The Oct 13 strike that followed didn't resolve anything either - it just produced two numbers that can't both be right: the government counted 161,500 marchers, organizers say 480,000.",
+          "url": "https://www.france24.com/fr/france/20261013-en-direct-france-manifestations-lyceens-acte-v-mouvement",
           "date": "2026-10-13",
           "is_new": false
         }

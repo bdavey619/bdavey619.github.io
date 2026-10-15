@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-11",
-  "cycle_start": "2026-10-14T14:30:00Z",
-  "last_updated": "2026-10-15T00:20:00Z",
+  "cycle_start": "2026-10-15T00:20:00Z",
+  "last_updated": "2026-10-15T14:30:00Z",
   "storylines": [
     {
       "id": "fed-first-hike-since-2023",
@@ -213,13 +213,17 @@
       "why_now": "Organizers and the government can't even agree on how big the movement is: unions put one march's turnout at 450,000, the Interior Ministry at 256,000 - and neither side is backing down on a fresh joint strike with public-sector workers called for today.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.sortiraparis.com/en/news/in-paris/articles/353708-october-13-strike-high-school-students-college-students-and-teachers-urged-to-demonstrate-in-large-numbers",
+      "url": "https://www.france24.com/fr/france/20261013-en-direct-france-manifestations-lyceens-acte-v-mouvement",
       "location": "France (nationwide, concentrated in Paris region)",
       "season_or_time_context": "protests began mid-September 2026, ongoing, joint strike called for Oct 13",
       "first_seen": "2026-10-13T14:30:00Z",
-      "last_seen": "2026-10-13T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-15T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-15T14:30:00Z",
+          "note": "The Oct 13 numbers are in, and the gap between them is almost as big as the protest itself: the Interior Ministry counted about 161,500 marchers nationwide, organizers say 480,000. 214 high schools were shut; 20 education staff were hurt that day alone, 147 since the movement began."
+        },
         {
           "date": "2026-10-13T14:30:00Z",
           "note": "Lecornu's own letter set the terms: \"before the end of October 2026, the first decisions will be presented with their financing and timetable.\" A government promising a timetable for a timetable, while students blockade schools in the meantime."
