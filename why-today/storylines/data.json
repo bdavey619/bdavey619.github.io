@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-18",
-  "cycle_start": "2026-10-17T00:20:00Z",
-  "last_updated": "2026-10-18T00:20:00Z",
+  "cycle_start": "2026-10-18T00:20:00Z",
+  "last_updated": "2026-10-18T14:30:00Z",
   "storylines": [
     {
       "id": "navratri-ghatasthapana-begins-2026",
@@ -79,14 +79,18 @@
       "why_now": "The same day Trump called Pillay someone he'd 'never heard of' and said he should have won 8 Nobel Peace Prizes instead, his administration imposed sanctions on the International Criminal Court - the institution Pillay herself once served as a judge.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.axios.com/2026/10/10/trump-nobel-peace-prize-reaction",
+      "url": "https://www.timesofisrael.com/pillay-decries-us-sanctions-on-icc-where-she-is-confident-netanyahu-will-one-day-stand-trial/",
       "location": "Oslo, Norway / Washington, DC",
       "season_or_time_context": "prize announced Oct 9, 2026; ceremony Dec 10 in Oslo",
-      "source_date": "2026-10-10",
+      "source_date": "2026-10-14",
       "first_seen": "2026-10-18T00:20:00Z",
-      "last_seen": "2026-10-18T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-18T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-18T14:30:00Z",
+          "note": "Pillay escalated in an Oct 14 interview: she called the ICC sanctions 'illegal,' predicted Netanyahu will stand trial, and called Israel's 'Goebbels applauding from hell' jab and Netanyahu's 'bigot' label 'hurtful and insulting' - a prize reaction now a three-way fight."
+        },
         {
           "date": "2026-10-18T00:20:00Z",
           "note": "Trump posted that he knew 'nothing about this woman' and that she 'very obviously, hates Israel'; at a rally he added 'congratulations anyway.' Pillay, told of this, called him a 'mysterious figure' - the same day the US sanctioned the ICC, where she once sat as a judge."
