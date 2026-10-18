@@ -1,262 +1,95 @@
 {
-  "week_start": "2026-10-11",
-  "cycle_start": "2026-10-16T00:20:00Z",
-  "last_updated": "2026-10-17T00:20:00Z",
+  "week_start": "2026-10-18",
+  "cycle_start": "2026-10-17T00:20:00Z",
+  "last_updated": "2026-10-18T00:20:00Z",
   "storylines": [
-    {
-      "id": "fed-first-hike-since-2023",
-      "stream": "markets",
-      "observer": "Why Today?",
-      "title": "The Fed spent three years cutting. It just reversed course entirely",
-      "observation": "The Federal Reserve raised its benchmark rate a quarter point to 3.75%-4% - its first hike since 2023 - after August inflation data came in hotter than expected, sending the 10-year Treasury yield above 5% for the first time since 2007.",
-      "question": "What does it cost a central bank to admit, three years into cutting, that inflation was never actually beaten?",
-      "hidden_question": "Is this one hike a correction, or the first move in a cycle the Fed will need several more votes to finish?",
-      "pattern": "a policy reversal arriving only after the data made the prior stance impossible to maintain",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "Three cycles running of dedicated searches have failed to surface anything dated past Oct 7 that isn't a repeat of already-captured minutes coverage or contaminated with other FOMC cycles (2016, 2017, 2022, last July's meeting). Going dormant at the 3-day edge rather than force a stale bump; reactivating on the next clean, dated Fed development - a Powell speech, new jobs/inflation data, or movement toward the Oct 27-28 meeting.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.roic.ai/news/fed-minutes-reveal-all-19-officials-backed-september-rate-hike-but-october-pause-gains-steam-10-07-2026",
-      "location": "Washington, DC (Federal Reserve)",
-      "season_or_time_context": "rate cycle underway",
-      "source_date": "2026-10-07",
-      "first_seen": "2026-10-11T00:20:00Z",
-      "last_seen": "2026-10-11T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-10-11T00:20:00Z",
-          "note": "The minutes are out: all participants backed the hike, but for different reasons - some targeting demand-driven inflation, others worried about energy and AI-driven price shocks. Most want one more hike before year-end, but stopped short of signaling October specifically; odds now favor a hold."
-        }
-      ]
-    },
-    {
-      "id": "ethiopia-tigray-forces-seize-airports",
-      "stream": "headlines",
-      "category": "Politics & World",
-      "observer": "Why Today?",
-      "title": "The takeover was peaceful. The war that followed wasn't",
-      "observation": "Tigray forces seized the airports at Mekelle, Axum and Shire from Ethiopia's federal police overnight without a shot fired, prompting Ethiopian Airlines to suspend flights to the region - days after the TPLF and six other armed groups declared an alliance to overthrow the government.",
-      "question": "What does a peaceful takeover of a government's own infrastructure say about how much control that government actually had to begin with?",
-      "hidden_question": "Is this the opening move of a second Tigray war, or a calculated show of force meant to extract concessions without firing one?",
-      "pattern": "an armed faction demonstrating control not through violence but through the quiet capture of the infrastructure a government relies on to reach its own territory",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "Repeated searches this cycle and the last two keep surfacing the same Oct 2-6 window already captured, or contaminated material from the 2020-2022 war and unverifiable claims (an 'Oct 24 AU peace talks' lead and an 'Amhara Fano disrupting supply lines' lead both traced to other years when checked). The war is almost certainly still active - this is a sourcing gap, not a resolution - going dormant rather than bump on unverifiable material; reactivating the moment a clean, freshly-dated development surfaces.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/october-6-2026",
-      "location": "Mekelle, Alamata, Afar and Amhara, Ethiopia",
-      "season_or_time_context": "active escalation",
-      "source_date": "2026-10-06",
-      "first_seen": "2026-10-11T00:20:00Z",
-      "last_seen": "2026-10-11T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-10-11T00:20:00Z",
-          "note": "Taking Mekelle wasn't the end point: federal forces and the Tigray Peace Force pushed north from the captured capital and stepped up airstrikes on other TPLF-held population centers, per a security review covering Oct 2-6 - the campaign widening rather than winding down."
-        }
-      ]
-    },
-    {
-      "id": "bolivia-diesel-hike-transport-strike",
-      "stream": "headlines",
-      "category": "Politics & World",
-      "observer": "Why Today?",
-      "title": "The IMF loan came with one condition. Bolivia's truckers just found out what it costs",
-      "observation": "Bolivia raised diesel prices 83% on Sept 19 - from Bs9.80 to Bs17.95 a liter - to satisfy an IMF loan condition ending fuel subsidies. Transport unions answered with a 24-hour nationwide strike Sept 28; bus fares have jumped up to 125%.",
-      "question": "Who ends up paying the price when a loan's condition and a country's cost of living collide?",
-      "hidden_question": "Is this the start of a manageable adjustment, or the opening act of the kind of unrest that has toppled Bolivian governments before?",
-      "pattern": "an externally-imposed economic condition landing first on the population least able to absorb it",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "No report found of what actually happened on Evo Morales's announced Oct 13 protest start, despite searching specifically for it, nor any outcome from Santa Cruz's Oct 10 deadline across three cycles now. Going dormant rather than re-bump the same Oct 11 fact as if it were new; reactivating as soon as either deadline's actual outcome is reported.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.latintimes.com/inside-bolivias-plan-gun-free-oas-police-two-deadlines-close-599129",
-      "location": "La Paz / Santa Cruz, Bolivia",
-      "season_or_time_context": "diesel subsidy ended Sept 19, nationwide strike Sept 28",
-      "source_date": "2026-10-07",
-      "first_seen": "2026-10-11T00:20:00Z",
-      "last_seen": "2026-10-11T00:20:00Z",
-      "appearances": 1,
-      "history": [
-        {
-          "date": "2026-10-11T00:20:00Z",
-          "note": "The dispute now risks merging with a second front: Evo Morales has called for his own supporters to begin protests Oct 13, three days after Santa Cruz's deadline - and Santa Cruz's own demands turn out not to include Paz's resignation, just fuel imports, tax cuts and more revenue control for the regions."
-        }
-      ]
-    },
-    {
-      "id": "scotus-boulder-county-climate-case",
-      "stream": "headlines",
-      "category": "Politics & World",
-      "observer": "Why Today?",
-      "title": "A Colorado county is suing oil companies for the climate. The Supreme Court just agreed to listen",
-      "observation": "The Supreme Court opened its new term Oct 5 with Suncor Energy v. Boulder County - the first case asking whether a county can sue oil companies under state law for climate damages, or whether federal law preempts claims over harm that crosses every border.",
-      "question": "Can a single county's lawsuit meaningfully assign blame for a problem caused by a global industry over a century?",
-      "hidden_question": "Is this case actually about climate change, or about whether any state court can touch an industry whose harm is inherently global?",
-      "pattern": "a local legal claim testing whether a global harm can be assigned local liability",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "A second cycle in a row of dedicated searches turns up nothing past the Oct 5 argument coverage already captured - no opinion has been issued, and the court gives no public timeline for one. Going dormant rather than re-bump the same argument-day material as if it were new; reactivating the moment a ruling or genuinely new filing surfaces.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.coloradopolitics.com/2026/10/05/oil-companies-argue-buyers-burned-fuel-but-boulder-says-they-hid-risks/",
-      "location": "Washington, DC / Boulder County, Colorado",
-      "season_or_time_context": "oral arguments heard Oct 5, 2026, opening day of the court's new term",
-      "source_date": "2026-10-05",
-      "first_seen": "2026-10-11T00:20:00Z",
-      "last_seen": "2026-10-12T00:20:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-10-12T00:20:00Z",
-          "note": "Suncor's lawyer gave the argument's starkest framing: if Boulder's claims proceed, some 90,000 U.S. municipalities could effectively set national and international energy policy through local jury verdicts - the scale critics say the case was always really about."
-        },
-        {
-          "date": "2026-10-11T00:20:00Z",
-          "note": "A fuller read of the argument complicates the \"sympathetic to oil companies\" read: justices reportedly voiced doubts about both sides' broad positions, not just Boulder's - and the 4-4 deadlock risk cuts the other way too, since a tie would leave Colorado's ruling (and Boulder's lawsuit) standing by default."
-        }
-      ]
-    },
-    {
-      "id": "russia-plague-lab-worker-death-mystery",
-      "stream": "curiosities",
-      "observer": "Why Today?",
-      "title": "She said she broke a vial of live bacteria. The governor says that's not what happened",
-      "observation": "A 28-year-old researcher at Russia's Irkutsk Anti-Plague Institute died after telling hospital staff she'd broken a vial of live bacteria at work. The regional governor calls it 'pneumonia of unknown origin'; a neighboring governor said on social media she died of plague.",
-      "question": "What does it mean when the official explanation and an official's own social-media account of the same death don't match?",
-      "hidden_question": "Is the calm official line protecting public health, or protecting the institute from the consequences of what actually happened inside it?",
-      "pattern": "an institution's official account diverging from an insider's own report of what happened to them",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "A second cycle in a row of searches surfaces only material that predates what's already on the card (the U.S. embassy's health alert and CDC statement both trace to Oct 6-7) or repeats the same Oct 8 all-clear. Going dormant rather than force a stale bump; reactivating the moment the cause of death is confirmed either way or a new development breaks.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://kyivindependent.com/russia-lifts-quarantine-in-irkutsk-region-where-lab-worker-allegedly-died-of-plague/",
-      "location": "Irkutsk / Shelekhov, Siberia, Russia",
-      "season_or_time_context": "death occurred early October 2026, reported Oct 5-6",
-      "source_date": "2026-10-08",
-      "first_seen": "2026-10-11T00:20:00Z",
-      "last_seen": "2026-10-12T00:20:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-10-12T00:20:00Z",
-          "note": "The case is officially closed: Gov. Kobzev lifted the quarantine Oct 8, saying nearly 5,000 tests found no dangerous microorganisms and all contacts are healthy. He added a new detail - she'd been vaccinated - but the thing the quarantine was actually about, whether she died of plague, is still exactly as unconfirmed as it was on day one."
-        },
-        {
-          "date": "2026-10-11T00:20:00Z",
-          "note": "WHO says Russian authorities told it no plague case has been recorded in Irkutsk, and all 187 monitored contacts remain symptom-free - yet Kazakhstan and Kyrgyzstan tightened border health checks anyway, treating the official all-clear as a precaution rather than a settled fact."
-        }
-      ]
-    },
     {
       "id": "navratri-ghatasthapana-begins-2026",
       "stream": "human_rituals",
       "observer": "Why Today?",
       "title": "Nine nights, nine faces of one goddess. Today the pot that holds her gets planted with grain",
-      "observation": "Shardiya Navratri begins today with Ghatasthapana: a sacred kalash installed as Durga's vessel, often packed with soil, coins and grain with barley seeds sown beneath it, opening nine nights devoted to nine successive forms of the goddess - the first being Shailaputri.",
+      "observation": "Shardiya Navratri began Oct 11 with Ghatasthapana: a sacred kalash installed as Durga's vessel, packed with soil, coins and grain with barley seeds sown beneath it, opening nine nights devoted to nine successive forms of the goddess.",
       "question": "What does it mean to represent one deity's power as nine distinct, separately-named forms rather than one continuous figure?",
       "hidden_question": "Does splitting the goddess into nine stages make an otherwise overwhelming concept graspable, or does the division itself quietly change what's actually being worshipped?",
       "pattern": "a single extended devotion broken into discrete, individually-named stages rather than treated as one continuous observance",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The barley seeds sown beneath today's kalash are a living clock, not just a symbol - they'll have visibly sprouted by the ninth night, turning the festival's end into something that can be checked against what actually grew, not just declared.",
+      "why_now": "Day eight (Mahagauri / Maha Ashtami) falls today by the day-count most sources use, with the festival closing in two nights at Dussehra - the barley seeds sown on day one should be visibly sprouted by then.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://hindutone.com/festivals/navratri-2026-day-7-maa-kalaratri-mantra-colour-puja-vidhi/",
+      "url": "https://hindutone.com/festivals/navratri/navratri-2026-day-8-maa-mahagauri-mantra-colour-puja-vidhi/",
       "location": "India and the Hindu diaspora worldwide",
-      "season_or_time_context": "Navratri begins Oct 11, 2026, runs nine nights to Dussehra Oct 20",
-      "first_seen": "2026-10-11T00:20:00Z",
-      "last_seen": "2026-10-17T00:20:00Z",
-      "appearances": 7,
+      "season_or_time_context": "Navratri began Oct 11, 2026, runs nine nights to Dussehra Oct 20",
+      "source_date": "2026-10-18",
+      "first_seen": "2026-10-18T00:20:00Z",
+      "last_seen": "2026-10-18T00:20:00Z",
+      "appearances": 1,
       "history": [
         {
-          "date": "2026-10-17T00:20:00Z",
-          "note": "Day seven belongs to Kalaratri - the fiercest form, dark and unadorned, invoked against fear and negative energy rather than for any gentler blessing. Grey is the day's colour; jaggery the customary offering."
-        },
-        {
-          "date": "2026-10-16T00:20:00Z",
-          "note": "Day six belongs to Katyayani - the warrior form born to defeat the buffalo-demon Mahishasura, and also the form devotees pray to for a good marriage. The same day is Skanda Sashti, honoring Murugan. Green is the day's colour; honey the customary offering."
-        },
-        {
-          "date": "2026-10-15T00:20:00Z",
-          "note": "Day five belongs to Skandamata - mother of the war-god Skanda, shown four-armed on a lion with the infant on her lap. The same day is Lalita Panchami, kept with a day's fast in Gujarat and Maharashtra. Yellow is the day's colour; banana the customary offering."
-        },
-        {
-          "date": "2026-10-14T00:20:00Z",
-          "note": "Day four belongs to Kushmanda - credited in tradition with creating the universe with just her smile, and said to reside inside the sun itself, providing it the energy to shine. Royal blue is the day's colour; malpua the customary offering."
-        },
-        {
-          "date": "2026-10-13T14:30:00Z",
-          "note": "Day three belongs to Chandraghanta - named for the bell-shaped half-moon on her forehead, riding a tiger (or in some traditions a lion), and associated with courage rather than any of the gentler virtues the earlier forms carry. Milk or kheer is the customary offering."
+          "date": "2026-10-18T00:20:00Z",
+          "note": "Day eight belongs to Mahagauri - depicted radiant and fair-skinned after penance purified her, worshipped for purity and the dissolving of past wrongs. Purple is a common colour for the day; coconut the customary offering."
         }
-      ],
-      "source_date": "2026-10-17"
+      ]
     },
     {
       "id": "france-student-protests-schools-blockaded",
       "stream": "headlines",
       "category": "Politics & World",
       "observer": "Why Today?",
-      "title": "The government's fix is scheduled for \"end of October.\" Students are striking again today",
-      "observation": "Since mid-September, French students have blockaded or closed up to 1,800 high schools and dozens of university sites over teacher shortages, overcrowded classrooms and crumbling buildings. PM Lecornu's Oct 4 letter deferred actual decisions to \"fin octobre\" - month's end.",
-      "question": "What does it mean when a government's answer to an active protest arrives scheduled for after the protest's own momentum is supposed to have passed?",
-      "hidden_question": "Is 'end of October' a genuine timeline for complex fixes, or a deadline picked because it's likely to outlast the news cycle the protests created?",
+      "title": "Each march is bigger than the last. The government's answer is still \"end of October\"",
+      "observation": "Since mid-September, French students have blockaded or closed high schools and university sites over teacher shortages, overcrowded classrooms and crumbling buildings. PM Lecornu's Oct 4 letter deferred actual decisions to \"fin octobre\" - month's end.",
+      "question": "What does it mean when a protest's turnout keeps growing precisely because the official response keeps being deferred?",
+      "hidden_question": "Is the government waiting out a movement that's actually accelerating, or has it simply lost the ability to read how big this has become?",
       "pattern": "an official response that defers the substance of an answer past the span of attention the problem is currently getting",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Organizers and the government can't even agree on how big the movement is: unions put one march's turnout at 450,000, the Interior Ministry at 256,000 - and neither side is backing down on a fresh joint strike with public-sector workers called for today.",
+      "why_now": "Oct 17's 'convergence des luttes' - students joined by gilets jaunes, nurses and retirees - drew the movement's largest turnout yet: 800,000 by organizers' count, 550,000 by the Interior Ministry's, both well above the already-disputed Oct 13 figures (480k/161.5k). The gap between the two counts has grown alongside the protest itself.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.france24.com/fr/france/20261013-en-direct-france-manifestations-lyceens-acte-v-mouvement",
+      "url": "https://www.europe1.fr/societe/en-direct-mobilisation-du-17-octobre-800000-participants-selon-les-organisateurs-550000-selon-laurent-nunez-1156250",
       "location": "France (nationwide, concentrated in Paris region)",
-      "season_or_time_context": "protests began mid-September 2026, ongoing, joint strike called for Oct 13",
+      "season_or_time_context": "protests began mid-September 2026, ongoing; Oct 17 'convergence des luttes' drew allied groups beyond students",
+      "source_date": "2026-10-17",
       "first_seen": "2026-10-13T14:30:00Z",
-      "last_seen": "2026-10-15T14:30:00Z",
-      "appearances": 2,
+      "last_seen": "2026-10-18T00:20:00Z",
+      "appearances": 3,
       "history": [
         {
-          "date": "2026-10-15T14:30:00Z",
-          "note": "The Oct 13 numbers are in, and the gap between them is almost as big as the protest itself: the Interior Ministry counted about 161,500 marchers nationwide, organizers say 480,000. 214 high schools were shut; 20 education staff were hurt that day alone, 147 since the movement began."
+          "date": "2026-10-18T00:20:00Z",
+          "note": "Oct 17's broadened 'convergence des luttes' march - students plus gilets jaunes, nurses, retirees - drew 800,000 (organizers) to 550,000 (Interior Ministry), the movement's biggest and most disputed count yet."
         },
         {
-          "date": "2026-10-13T14:30:00Z",
-          "note": "Lecornu's own letter set the terms: \"before the end of October 2026, the first decisions will be presented with their financing and timetable.\" A government promising a timetable for a timetable, while students blockade schools in the meantime."
+          "date": "2026-10-15T14:30:00Z",
+          "note": "The Oct 13 numbers: Interior Ministry counted about 161,500 marchers nationwide, organizers say 480,000. 214 high schools were shut; 20 education staff were hurt that day alone, 147 since the movement began."
         }
-      ],
-      "source_date": "2026-10-13"
+      ]
     },
     {
-      "id": "nobel-literature-anne-carson-2026",
+      "id": "nobel-peace-navi-pillay-2026",
       "stream": "curiosities",
       "category": "Arts & Culture",
       "observer": "Why Today?",
-      "title": "The Nobel committee picked a poet who turns classical Greek into something unclassifiable",
-      "observation": "The Swedish Academy awarded the 2026 Nobel Prize in Literature to Canadian poet and classicist Anne Carson, 76, for a body of work it called 'bold and inventive' - verse-essays and translations that fuse ancient Greek myth with contemporary form.",
-      "question": "What does a committee signal about the state of literature when it rewards work that resists the usual categories - novel, poem, essay - rather than excelling within one of them?",
-      "hidden_question": "Is Carson's prize a recognition that genre-blending has become literature's most vital mode, or a one-off nod to a singular career that doesn't predict anything about the field?",
-      "pattern": "an institution's highest honor going to work defined by its refusal to fit the categories the institution itself uses",
+      "title": "He said he deserved 8 Nobel Peace Prizes. The committee gave this year's to someone he'd never heard of",
+      "observation": "The 2026 Nobel Peace Prize went Oct 9 to Navi Pillay, the 85-year-old South African jurist and former UN human rights chief, honoring decades of institution-building in international law. Trump, who had expected to win, called the choice 'disgraceful.'",
+      "question": "What does it mean when a prize for peace becomes, for the loudest non-winner, evidence of a personal snub rather than a judgment about the work itself?",
+      "hidden_question": "Is Trump's reaction really about this prize, or about what it means that an institution he can't control gets to decide who counts as having built peace?",
+      "pattern": "an institutional honor read by its most prominent non-recipient as a personal verdict rather than a judgment about the work",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "A dedicated re-check turns up nothing past the Oct 8 announcement already captured - no further Carson coverage, no ceremony prep news yet (that's not until Dec 10). Going dormant rather than re-bump the announcement-day material; reactivating as the ceremony approaches or if further reporting on her or the prize surfaces.",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://www.nobelprize.org/prizes/literature/2026/press-release/",
-      "location": "Stockholm, Sweden / Iceland",
-      "season_or_time_context": "announced Oct 8, 2026; ceremony Dec 10 in Stockholm",
-      "source_date": "2026-10-08",
-      "first_seen": "2026-10-14T14:30:00Z",
-      "last_seen": "2026-10-14T14:30:00Z",
+      "why_now": "The same day Trump called Pillay someone he'd 'never heard of' and said he should have won 8 Nobel Peace Prizes instead, his administration imposed sanctions on the International Criminal Court - the institution Pillay herself once served as a judge.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.axios.com/2026/10/10/trump-nobel-peace-prize-reaction",
+      "location": "Oslo, Norway / Washington, DC",
+      "season_or_time_context": "prize announced Oct 9, 2026; ceremony Dec 10 in Oslo",
+      "source_date": "2026-10-10",
+      "first_seen": "2026-10-18T00:20:00Z",
+      "last_seen": "2026-10-18T00:20:00Z",
       "appearances": 1,
       "history": [
         {
-          "date": "2026-10-14T14:30:00Z",
-          "note": "The Swedish Academy named Carson sole laureate for a 'bold and inventive' body of work spanning poetry, essay and translation - classics scholarship repurposed as contemporary literary form rather than kept separate from it."
+          "date": "2026-10-18T00:20:00Z",
+          "note": "Trump posted that he knew 'nothing about this woman' and that she 'very obviously, hates Israel'; at a rally he added 'congratulations anyway.' Pillay, told of this, called him a 'mysterious figure' - the same day the US sanctioned the ICC, where she once sat as a judge."
         }
       ]
     }
