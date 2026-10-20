@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-18",
-  "cycle_start": "2026-10-19T00:20:00Z",
-  "last_updated": "2026-10-20T00:20:00Z",
+  "cycle_start": "2026-10-20T00:20:00Z",
+  "last_updated": "2026-10-20T14:30:00Z",
   "storylines": [
     {
       "id": "navratri-ghatasthapana-begins-2026",
@@ -51,8 +51,8 @@
       "pattern": "an official response that defers the substance of an answer past the span of attention the problem is currently getting",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Oct 17's 'convergence des luttes' - students joined by gilets jaunes, nurses and retirees - drew the movement's largest turnout yet: 800,000 by organizers' count, 550,000 by the Interior Ministry's, both well above the already-disputed Oct 13 figures (480k/161.5k). The gap between the two counts has grown alongside the protest itself.",
-      "status": "captured",
+      "why_now": "Dedicated searches this cycle and last turn up nothing past the Oct 17 'convergence des luttes' numbers already captured - no new march, strike call, or government response found. Going dormant rather than re-bump the same figures as if new; reactivating the moment a fresh development - a new march, the government's 'fin octobre' announcement, or an outcome - surfaces.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.europe1.fr/societe/en-direct-mobilisation-du-17-octobre-800000-participants-selon-les-organisateurs-550000-selon-laurent-nunez-1156250",
       "location": "France (nationwide, concentrated in Paris region)",
@@ -84,8 +84,8 @@
       "pattern": "an institutional honor read by its most prominent non-recipient as a personal verdict rather than a judgment about the work",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The same day Trump called Pillay someone he'd 'never heard of' and said he should have won 8 Nobel Peace Prizes instead, his administration imposed sanctions on the International Criminal Court - the institution Pillay herself once served as a judge.",
-      "status": "captured",
+      "why_now": "Dedicated searches this cycle and last turn up nothing past the Oct 14 interview already captured - the sanctions/Pillay/Trump exchange appears to have run its course for now. Going dormant rather than re-bump the same material; reactivating if Trump, Pillay, the ICC, or Norway add anything new, or as the Dec 10 ceremony approaches.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.timesofisrael.com/pillay-decries-us-sanctions-on-icc-where-she-is-confident-netanyahu-will-one-day-stand-trial/",
       "location": "Oslo, Norway / Washington, DC",
@@ -102,6 +102,35 @@
         {
           "date": "2026-10-18T00:20:00Z",
           "note": "Trump posted that he knew 'nothing about this woman' and that she 'very obviously, hates Israel'; at a rally he added 'congratulations anyway.' Pillay, told of this, called him a 'mysterious figure' - the same day the US sanctioned the ICC, where she once sat as a judge."
+        }
+      ]
+    },
+    {
+      "id": "brewers-nlcs-sweep-2026",
+      "stream": "curiosities",
+      "category": "Sports",
+      "observer": "Why Today?",
+      "title": "They trailed in every game of the series. They swept it anyway",
+      "observation": "The Milwaukee Brewers swept the two-time defending champion Dodgers in the NLCS, clinching their first pennant since 1982 with a Game 4 comeback win - becoming the first team ever to sweep a best-of-seven series it trailed in every single game.",
+      "question": "What does it mean to win every game of a series without ever actually being ahead until the moment that mattered?",
+      "hidden_question": "Does a result like this reveal something real about a team's character, or is it just the kind of statistical oddity that looks meaningful only in hindsight?",
+      "pattern": "a decisive, clean-looking outcome (a sweep) built entirely out of narrow, trailing comebacks rather than sustained dominance",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Milwaukee is also the first club to sweep a postseason series immediately after being swept by that same opponent the previous year - and the Dodgers, chasing an unprecedented three-peat, managed a 4-0 lead through Ohtani's first homer of the postseason before losing anyway.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.espn.com/mlb/story/_/id/50193819",
+      "location": "Milwaukee, Wisconsin / Los Angeles, California",
+      "season_or_time_context": "NLCS Game 4 played Oct 15, 2026; World Series begins Oct 23",
+      "source_date": "2026-10-15",
+      "first_seen": "2026-10-20T14:30:00Z",
+      "last_seen": "2026-10-20T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-20T14:30:00Z",
+          "note": "Garrett Mitchell's go-ahead sixth-inning homer completed the sweep in Game 4, after the Dodgers had taken a 4-0 lead on Shohei Ohtani's first postseason homer of the year - Milwaukee's first pennant since 1982, when it was still an American League team."
         }
       ]
     }
