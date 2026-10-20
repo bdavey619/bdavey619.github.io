@@ -1,30 +1,34 @@
 {
   "week_start": "2026-10-18",
-  "cycle_start": "2026-10-18T14:30:00Z",
-  "last_updated": "2026-10-19T00:20:00Z",
+  "cycle_start": "2026-10-19T00:20:00Z",
+  "last_updated": "2026-10-20T00:20:00Z",
   "storylines": [
     {
       "id": "navratri-ghatasthapana-begins-2026",
       "stream": "human_rituals",
       "observer": "Why Today?",
-      "title": "Nine nights, nine faces of one goddess. Today the pot that holds her gets planted with grain",
+      "title": "Nine nights built to this one evening, when the effigy finally burns",
       "observation": "Shardiya Navratri began Oct 11 with Ghatasthapana: a sacred kalash installed as Durga's vessel, packed with soil, coins and grain with barley seeds sown beneath it, opening nine nights devoted to nine successive forms of the goddess.",
       "question": "What does it mean to represent one deity's power as nine distinct, separately-named forms rather than one continuous figure?",
       "hidden_question": "Does splitting the goddess into nine stages make an otherwise overwhelming concept graspable, or does the division itself quietly change what's actually being worshipped?",
       "pattern": "a single extended devotion broken into discrete, individually-named stages rather than treated as one continuous observance",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Day eight (Mahagauri / Maha Ashtami) falls today by the day-count most sources use, with the festival closing in two nights at Dussehra - the barley seeds sown on day one should be visibly sprouted by then.",
+      "why_now": "Tonight the nine nights resolve into a single public act: effigies of Ravana, Kumbhakarna and Meghnada burned after sunset, at the Vijay Muhurat - the moment the devotional stages of the past nine days give way to one shared, visible ending.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://hindutone.com/festivals/navratri/navratri-2026-day-9-maa-siddhidatri-mantra-colour-puja-vidhi/",
+      "url": "https://hindutone.com/festivals/ravan-dahan-2026/",
       "location": "India and the Hindu diaspora worldwide",
       "season_or_time_context": "Navratri began Oct 11, 2026, runs nine nights to Dussehra Oct 20",
-      "source_date": "2026-10-19",
+      "source_date": "2026-10-20",
       "first_seen": "2026-10-18T00:20:00Z",
-      "last_seen": "2026-10-19T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-10-20T00:20:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-10-20T00:20:00Z",
+          "note": "Dussehra / Vijayadashami: the festival closes tonight with Ravan Dahan - burning effigies of Ravana, Kumbhakarna and Meghnada - marking Rama's victory and giving the nine separately-named nights a single, visible end."
+        },
         {
           "date": "2026-10-19T00:20:00Z",
           "note": "Day nine belongs to Siddhidatri - the final form, said to grant all eight siddhis and already fully accomplished rather than seeking anything further. Many families mark the day with Kanya Pujan, honoring young girls as living embodiments of the goddess."
