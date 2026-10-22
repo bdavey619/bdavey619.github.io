@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-18",
-  "cycle_start": "2026-10-20T00:20:00Z",
-  "last_updated": "2026-10-20T14:30:00Z",
+  "cycle_start": "2026-10-20T14:30:00Z",
+  "last_updated": "2026-10-22T00:20:00Z",
   "storylines": [
     {
       "id": "navratri-ghatasthapana-begins-2026",
@@ -14,8 +14,8 @@
       "pattern": "a single extended devotion broken into discrete, individually-named stages rather than treated as one continuous observance",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Tonight the nine nights resolve into a single public act: effigies of Ravana, Kumbhakarna and Meghnada burned after sunset, at the Vijay Muhurat - the moment the devotional stages of the past nine days give way to one shared, visible ending.",
-      "status": "captured",
+      "why_now": "The festival concluded at Dussehra (Oct 20); there is no further daily content to report. Going dormant rather than let it prune silently - this is a natural, planned ending, not a sourcing gap. Archived for reference; a comparable storyline would reactivate for next year's Navratri.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://hindutone.com/festivals/ravan-dahan-2026/",
       "location": "India and the Hindu diaspora worldwide",
@@ -117,17 +117,21 @@
       "pattern": "a decisive, clean-looking outcome (a sweep) built entirely out of narrow, trailing comebacks rather than sustained dominance",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Milwaukee is also the first club to sweep a postseason series immediately after being swept by that same opponent the previous year - and the Dodgers, chasing an unprecedented three-peat, managed a 4-0 lead through Ohtani's first homer of the postseason before losing anyway.",
+      "why_now": "The opponent is set: Tampa Bay beat Cleveland in six games, meaning the 2026 World Series - starting tomorrow in Milwaukee - matches two franchises that have never won a title, the first such pairing since 1980. One team's pennant came by trailing-and-sweeping; the other's by grinding out a six-game series.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.espn.com/mlb/story/_/id/50193819",
+      "url": "https://www.cbssports.com/mlb/news/2026-mlb-playoff-bracket-schedule-scores-results-how-to-watch/",
       "location": "Milwaukee, Wisconsin / Los Angeles, California",
       "season_or_time_context": "NLCS Game 4 played Oct 15, 2026; World Series begins Oct 23",
-      "source_date": "2026-10-15",
+      "source_date": "2026-10-20",
       "first_seen": "2026-10-20T14:30:00Z",
-      "last_seen": "2026-10-20T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-22T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-22T00:20:00Z",
+          "note": "The opponent is set: Tampa Bay beat Cleveland in six games to take the AL pennant. Game 1 is Friday in Milwaukee - the first World Series since 1980 to pair two franchises each still chasing its first championship."
+        },
         {
           "date": "2026-10-20T14:30:00Z",
           "note": "Garrett Mitchell's go-ahead sixth-inning homer completed the sweep in Game 4, after the Dodgers had taken a 4-0 lead on Shohei Ohtani's first postseason homer of the year - Milwaukee's first pennant since 1982, when it was still an American League team."

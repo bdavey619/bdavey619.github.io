@@ -1,0 +1,40 @@
+{
+  "id": "resolved-in-form-not-in-fact",
+  "title": "Three things that looked like resolutions this week all deferred the real question to later",
+  "explanation": "A ceasefire, a court ruling, and a shipping framework all landed this week wearing the shape of a resolution — and in each case, the people closest to it said out loud that the actual question is still open. A peace roadmap got its first verification mission, not a verified peace. A Supreme Court stay resolved a procedural fight while its own justices noted the underlying legality is untouched. A transit deal is 'in principle' and 'still being finalized.' Each is a real step. None of them is the thing a headline would make it sound like.",
+  "momentum": "accelerating",
+  "evidence": [
+    {
+      "domain": "Public Health",
+      "text": "Russia lifted its quarantine Oct 8, with the governor saying nearly 5,000 tests found no dangerous microorganisms and declaring the matter resolved - but the one question the quarantine was actually about, whether the lab worker died of plague, is exactly as unconfirmed as it was on day one.",
+      "url": "https://kyivindependent.com/russia-lifts-quarantine-in-irkutsk-region-where-lab-worker-allegedly-died-of-plague/",
+      "date": "2026-10-08",
+      "is_new": false
+    },
+    {
+      "domain": "International Relations",
+      "text": "The Nobel committee's pick was meant to honor institution-building, not settle anything - but Trump read it as a personal verdict, calling it 'disgraceful' and sanctioning the ICC within hours. Pillay escalated right back, calling the sanctions 'illegal' and predicting Netanyahu will stand trial - an honor that resolved nothing and opened a three-way fight instead.",
+      "url": "https://www.timesofisrael.com/pillay-decries-us-sanctions-on-icc-where-she-is-confident-netanyahu-will-one-day-stand-trial/",
+      "date": "2026-10-14",
+      "is_new": false
+    },
+    {
+      "domain": "Economic Policy",
+      "text": "Santa Cruz's civic leaders insist their demands don't include President Paz's resignation - just fuel imports and tax cuts. But their own Oct 10 deadline passed with no government response, and Evo Morales called his own supporters to protest starting today - a 'narrow' dispute now splitting into two fronts.",
+      "url": "https://www.latintimes.com/inside-bolivias-plan-gun-free-oas-police-two-deadlines-close-599129",
+      "date": "2026-10-07",
+      "is_new": false
+    },
+    {
+      "domain": "Education Policy",
+      "text": "France's PM answered a month of school blockades with a letter deferring real decisions to 'fin octobre.' Each march since has only grown: Oct 17's broadened 'convergence des luttes' drew 800,000 (organizers) to 550,000 (Interior Ministry) - the dispute escalating rather than resolving.",
+      "url": "https://www.europe1.fr/societe/en-direct-mobilisation-du-17-octobre-800000-participants-selon-les-organisateurs-550000-selon-laurent-nunez-1156250",
+      "date": "2026-10-17",
+      "is_new": false
+    }
+  ],
+  "retired": {
+    "date": "2026-10-22",
+    "reason": "Two of its four evidence items (Public Health/plague, Economic Policy/bolivia) are now 14-15 days old, well past the 10-day threshold, fed by storylines archived at the Oct 18 weekly rollover with no prospect of a fresh development. The recognition's own title frames these as events of 'this week,' which is no longer accurate for Oct 7-8 material three weeks later. The two live items (International Relations/Pillay, Education Policy/France) aren't enough on their own to meet the 3-4 item minimum, and no third fresh cross-domain item has emerged despite repeated searches across several cycles. Retiring now rather than continuing to carry two dead items under a 'this week' framing."
+  }
+}
