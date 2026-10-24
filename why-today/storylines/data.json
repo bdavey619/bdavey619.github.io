@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-18",
-  "cycle_start": "2026-10-22T00:20:00Z",
-  "last_updated": "2026-10-23T14:30:00Z",
+  "cycle_start": "2026-10-23T14:30:00Z",
+  "last_updated": "2026-10-24T14:30:00Z",
   "storylines": [
     {
       "id": "navratri-ghatasthapana-begins-2026",
@@ -120,14 +120,18 @@
       "why_now": "The opponent is set: Tampa Bay beat Cleveland in six games, meaning the 2026 World Series - starting tomorrow in Milwaukee - matches two franchises that have never won a title, the first such pairing since 1980. One team's pennant came by trailing-and-sweeping; the other's by grinding out a six-game series.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.si.com/betting/rays-vs-brewers-game-1-opening-odds-for-2026-world-series-milwaukee-set-as-home-favorite",
+      "url": "https://www.cnn.com/2026/10/24/sport/live-news/world-series-game-1",
       "location": "Milwaukee, Wisconsin / Los Angeles, California",
       "season_or_time_context": "NLCS Game 4 played Oct 15, 2026; World Series begins Oct 23",
-      "source_date": "2026-10-23",
+      "source_date": "2026-10-24",
       "first_seen": "2026-10-20T14:30:00Z",
-      "last_seen": "2026-10-23T14:30:00Z",
-      "appearances": 3,
+      "last_seen": "2026-10-24T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-10-24T14:30:00Z",
+          "note": "Game 1: Brewers 3, Rays 2. Milwaukee scored twice in the first on balls that clanked off Tampa Bay gloves, then survived a bases-loaded ninth when a reversed replay call turned a potential double play into a run-scoring groundout before Trevor Megill closed it out anyway."
+        },
         {
           "date": "2026-10-23T14:30:00Z",
           "note": "Game 1 is tonight in Milwaukee. Tampa Bay's two scheduled starters, Drew Rasmussen and Freddy Peralta, both made their MLB debuts with the Brewers - the team they're now trying to beat for a title neither franchise has ever won."
