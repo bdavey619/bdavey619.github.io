@@ -1,132 +1,30 @@
 {
-  "week_start": "2026-10-18",
-  "cycle_start": "2026-10-23T14:30:00Z",
-  "last_updated": "2026-10-24T14:30:00Z",
+  "week_start": "2026-10-25",
+  "cycle_start": "2026-10-24T14:30:00Z",
+  "last_updated": "2026-10-25T00:20:00Z",
   "storylines": [
-    {
-      "id": "navratri-ghatasthapana-begins-2026",
-      "stream": "human_rituals",
-      "observer": "Why Today?",
-      "title": "Nine nights built to this one evening, when the effigy finally burns",
-      "observation": "Shardiya Navratri began Oct 11 with Ghatasthapana: a sacred kalash installed as Durga's vessel, packed with soil, coins and grain with barley seeds sown beneath it, opening nine nights devoted to nine successive forms of the goddess.",
-      "question": "What does it mean to represent one deity's power as nine distinct, separately-named forms rather than one continuous figure?",
-      "hidden_question": "Does splitting the goddess into nine stages make an otherwise overwhelming concept graspable, or does the division itself quietly change what's actually being worshipped?",
-      "pattern": "a single extended devotion broken into discrete, individually-named stages rather than treated as one continuous observance",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "The festival concluded at Dussehra (Oct 20); there is no further daily content to report. Going dormant rather than let it prune silently - this is a natural, planned ending, not a sourcing gap. Archived for reference; a comparable storyline would reactivate for next year's Navratri.",
-      "status": "dormant",
-      "editorial_potential": "medium",
-      "url": "https://hindutone.com/festivals/ravan-dahan-2026/",
-      "location": "India and the Hindu diaspora worldwide",
-      "season_or_time_context": "Navratri began Oct 11, 2026, runs nine nights to Dussehra Oct 20",
-      "source_date": "2026-10-20",
-      "first_seen": "2026-10-18T00:20:00Z",
-      "last_seen": "2026-10-20T00:20:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-10-20T00:20:00Z",
-          "note": "Dussehra / Vijayadashami: the festival closes tonight with Ravan Dahan - burning effigies of Ravana, Kumbhakarna and Meghnada - marking Rama's victory and giving the nine separately-named nights a single, visible end."
-        },
-        {
-          "date": "2026-10-19T00:20:00Z",
-          "note": "Day nine belongs to Siddhidatri - the final form, said to grant all eight siddhis and already fully accomplished rather than seeking anything further. Many families mark the day with Kanya Pujan, honoring young girls as living embodiments of the goddess."
-        },
-        {
-          "date": "2026-10-18T00:20:00Z",
-          "note": "Day eight belongs to Mahagauri - depicted radiant and fair-skinned after penance purified her, worshipped for purity and the dissolving of past wrongs. Purple is a common colour for the day; coconut the customary offering."
-        }
-      ]
-    },
-    {
-      "id": "france-student-protests-schools-blockaded",
-      "stream": "headlines",
-      "category": "Politics & World",
-      "observer": "Why Today?",
-      "title": "Each march is bigger than the last. The government's answer is still \"end of October\"",
-      "observation": "Since mid-September, French students have blockaded or closed high schools and university sites over teacher shortages, overcrowded classrooms and crumbling buildings. PM Lecornu's Oct 4 letter deferred actual decisions to \"fin octobre\" - month's end.",
-      "question": "What does it mean when a protest's turnout keeps growing precisely because the official response keeps being deferred?",
-      "hidden_question": "Is the government waiting out a movement that's actually accelerating, or has it simply lost the ability to read how big this has become?",
-      "pattern": "an official response that defers the substance of an answer past the span of attention the problem is currently getting",
-      "transferability": "high",
-      "cluster_id": "",
-      "why_now": "Dedicated searches this cycle and last turn up nothing past the Oct 17 'convergence des luttes' numbers already captured - no new march, strike call, or government response found. Going dormant rather than re-bump the same figures as if new; reactivating the moment a fresh development - a new march, the government's 'fin octobre' announcement, or an outcome - surfaces.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.europe1.fr/societe/en-direct-mobilisation-du-17-octobre-800000-participants-selon-les-organisateurs-550000-selon-laurent-nunez-1156250",
-      "location": "France (nationwide, concentrated in Paris region)",
-      "season_or_time_context": "protests began mid-September 2026, ongoing; Oct 17 'convergence des luttes' drew allied groups beyond students",
-      "source_date": "2026-10-17",
-      "first_seen": "2026-10-13T14:30:00Z",
-      "last_seen": "2026-10-18T00:20:00Z",
-      "appearances": 3,
-      "history": [
-        {
-          "date": "2026-10-18T00:20:00Z",
-          "note": "Oct 17's broadened 'convergence des luttes' march - students plus gilets jaunes, nurses, retirees - drew 800,000 (organizers) to 550,000 (Interior Ministry), the movement's biggest and most disputed count yet."
-        },
-        {
-          "date": "2026-10-15T14:30:00Z",
-          "note": "The Oct 13 numbers: Interior Ministry counted about 161,500 marchers nationwide, organizers say 480,000. 214 high schools were shut; 20 education staff were hurt that day alone, 147 since the movement began."
-        }
-      ]
-    },
-    {
-      "id": "nobel-peace-navi-pillay-2026",
-      "stream": "curiosities",
-      "category": "Arts & Culture",
-      "observer": "Why Today?",
-      "title": "He said he deserved 8 Nobel Peace Prizes. The committee gave this year's to someone he'd never heard of",
-      "observation": "The 2026 Nobel Peace Prize went Oct 9 to Navi Pillay, the 85-year-old South African jurist and former UN human rights chief, honoring decades of institution-building in international law. Trump, who had expected to win, called the choice 'disgraceful.'",
-      "question": "What does it mean when a prize for peace becomes, for the loudest non-winner, evidence of a personal snub rather than a judgment about the work itself?",
-      "hidden_question": "Is Trump's reaction really about this prize, or about what it means that an institution he can't control gets to decide who counts as having built peace?",
-      "pattern": "an institutional honor read by its most prominent non-recipient as a personal verdict rather than a judgment about the work",
-      "transferability": "medium",
-      "cluster_id": "",
-      "why_now": "Dedicated searches this cycle and last turn up nothing past the Oct 14 interview already captured - the sanctions/Pillay/Trump exchange appears to have run its course for now. Going dormant rather than re-bump the same material; reactivating if Trump, Pillay, the ICC, or Norway add anything new, or as the Dec 10 ceremony approaches.",
-      "status": "dormant",
-      "editorial_potential": "high",
-      "url": "https://www.timesofisrael.com/pillay-decries-us-sanctions-on-icc-where-she-is-confident-netanyahu-will-one-day-stand-trial/",
-      "location": "Oslo, Norway / Washington, DC",
-      "season_or_time_context": "prize announced Oct 9, 2026; ceremony Dec 10 in Oslo",
-      "source_date": "2026-10-14",
-      "first_seen": "2026-10-18T00:20:00Z",
-      "last_seen": "2026-10-18T14:30:00Z",
-      "appearances": 2,
-      "history": [
-        {
-          "date": "2026-10-18T14:30:00Z",
-          "note": "Pillay escalated in an Oct 14 interview: she called the ICC sanctions 'illegal,' predicted Netanyahu will stand trial, and called Israel's 'Goebbels applauding from hell' jab and Netanyahu's 'bigot' label 'hurtful and insulting' - a prize reaction now a three-way fight."
-        },
-        {
-          "date": "2026-10-18T00:20:00Z",
-          "note": "Trump posted that he knew 'nothing about this woman' and that she 'very obviously, hates Israel'; at a rally he added 'congratulations anyway.' Pillay, told of this, called him a 'mysterious figure' - the same day the US sanctioned the ICC, where she once sat as a judge."
-        }
-      ]
-    },
     {
       "id": "brewers-nlcs-sweep-2026",
       "stream": "curiosities",
       "category": "Sports",
       "observer": "Why Today?",
       "title": "They trailed in every game of the series. They swept it anyway",
-      "observation": "The Milwaukee Brewers swept the two-time defending champion Dodgers in the NLCS, clinching their first pennant since 1982 with a Game 4 comeback win - becoming the first team ever to sweep a best-of-seven series it trailed in every single game.",
+      "observation": "The Milwaukee Brewers swept the two-time defending champion Dodgers in the NLCS for their first pennant since 1982, then took Game 1 of the World Series 3-2 over Tampa Bay - a franchise that has never won a title facing one that hasn't either.",
       "question": "What does it mean to win every game of a series without ever actually being ahead until the moment that mattered?",
       "hidden_question": "Does a result like this reveal something real about a team's character, or is it just the kind of statistical oddity that looks meaningful only in hindsight?",
-      "pattern": "a decisive, clean-looking outcome (a sweep) built entirely out of narrow, trailing comebacks rather than sustained dominance",
+      "pattern": "a decisive, clean-looking outcome built out of narrow, late comebacks rather than sustained dominance",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The opponent is set: Tampa Bay beat Cleveland in six games, meaning the 2026 World Series - starting tomorrow in Milwaukee - matches two franchises that have never won a title, the first such pairing since 1980. One team's pennant came by trailing-and-sweeping; the other's by grinding out a six-game series.",
+      "why_now": "Game 1 came down to a bases-loaded ninth: a reversed replay call turned a potential double play into a run-scoring groundout, and Milwaukee closed it out anyway - the same pattern as the NLCS sweep, winning the moments that mattered rather than the whole game.",
       "status": "captured",
       "editorial_potential": "medium",
       "url": "https://www.cnn.com/2026/10/24/sport/live-news/world-series-game-1",
-      "location": "Milwaukee, Wisconsin / Los Angeles, California",
-      "season_or_time_context": "NLCS Game 4 played Oct 15, 2026; World Series begins Oct 23",
+      "location": "Milwaukee, Wisconsin / Tampa Bay, Florida",
+      "season_or_time_context": "World Series Game 1 played Oct 23, 2026; Game 2 Oct 24",
       "source_date": "2026-10-24",
       "first_seen": "2026-10-20T14:30:00Z",
-      "last_seen": "2026-10-24T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-10-25T00:20:00Z",
+      "appearances": 5,
       "history": [
         {
           "date": "2026-10-24T14:30:00Z",
@@ -135,14 +33,6 @@
         {
           "date": "2026-10-23T14:30:00Z",
           "note": "Game 1 is tonight in Milwaukee. Tampa Bay's two scheduled starters, Drew Rasmussen and Freddy Peralta, both made their MLB debuts with the Brewers - the team they're now trying to beat for a title neither franchise has ever won."
-        },
-        {
-          "date": "2026-10-22T00:20:00Z",
-          "note": "The opponent is set: Tampa Bay beat Cleveland in six games to take the AL pennant. Game 1 is Friday in Milwaukee - the first World Series since 1980 to pair two franchises each still chasing its first championship."
-        },
-        {
-          "date": "2026-10-20T14:30:00Z",
-          "note": "Garrett Mitchell's go-ahead sixth-inning homer completed the sweep in Game 4, after the Dodgers had taken a 4-0 lead on Shohei Ohtani's first postseason homer of the year - Milwaukee's first pennant since 1982, when it was still an American League team."
         }
       ]
     }
