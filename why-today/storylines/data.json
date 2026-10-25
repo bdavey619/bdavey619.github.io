@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-25",
-  "cycle_start": "2026-10-24T14:30:00Z",
-  "last_updated": "2026-10-25T00:20:00Z",
+  "cycle_start": "2026-10-25T00:20:00Z",
+  "last_updated": "2026-10-25T14:30:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -15,17 +15,21 @@
       "pattern": "a decisive, clean-looking outcome built out of narrow, late comebacks rather than sustained dominance",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Game 1 came down to a bases-loaded ninth: a reversed replay call turned a potential double play into a run-scoring groundout, and Milwaukee closed it out anyway - the same pattern as the NLCS sweep, winning the moments that mattered rather than the whole game.",
+      "why_now": "Game 2 made the pattern impossible to miss: down 4-0 in the first inning, Milwaukee tied it on a Sal Frelick homer in the sixth, took the lead in the seventh, and closed it out 5-4 - a second straight win manufactured entirely in the back half of the game, now a 2-0 series lead.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.cnn.com/2026/10/24/sport/live-news/world-series-game-1",
+      "url": "https://www.cnn.com/2026/10/25/sport/live-news/world-series-game-2",
       "location": "Milwaukee, Wisconsin / Tampa Bay, Florida",
       "season_or_time_context": "World Series Game 1 played Oct 23, 2026; Game 2 Oct 24",
-      "source_date": "2026-10-24",
+      "source_date": "2026-10-25",
       "first_seen": "2026-10-20T14:30:00Z",
-      "last_seen": "2026-10-25T00:20:00Z",
-      "appearances": 5,
+      "last_seen": "2026-10-25T14:30:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-10-25T14:30:00Z",
+          "note": "Game 2: Brewers 5, Rays 4. Tampa Bay scored four in the top of the first; Milwaukee tied it on Sal Frelick's sixth-inning homer, took the lead in the seventh on a Cooper Pratt RBI, and closed it out - a 2-0 series lead built from another come-from-behind win."
+        },
         {
           "date": "2026-10-24T14:30:00Z",
           "note": "Game 1: Brewers 3, Rays 2. Milwaukee scored twice in the first on balls that clanked off Tampa Bay gloves, then survived a bases-loaded ninth when a reversed replay call turned a potential double play into a run-scoring groundout before Trevor Megill closed it out anyway."
