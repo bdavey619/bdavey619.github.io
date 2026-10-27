@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-25",
-  "cycle_start": "2026-10-25T14:30:00Z",
-  "last_updated": "2026-10-27T00:20:00Z",
+  "cycle_start": "2026-10-27T00:20:00Z",
+  "last_updated": "2026-10-27T14:30:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -66,6 +66,35 @@
         {
           "date": "2026-10-27T00:20:00Z",
           "note": "Ethiopia and Eritrea cut diplomatic ties Oct 1 after Eritrean soldiers were reported entering the Tigray towns of Adigrat and Idaga Hamus; the UN chief called for an immediate end to fighting across Tigray, Afar and Amhara on Oct 9-10, with no ceasefire talks announced since."
+        }
+      ]
+    },
+    {
+      "id": "france-liceens-cost-of-living-protests-2026",
+      "stream": "headlines",
+      "category": "World",
+      "observer": "Why Today?",
+      "title": "A high-school protest over classroom conditions became a nationwide movement about everything else",
+      "observation": "What began in mid-September as a lyceens' protest over classroom conditions and the Parcoursup college-admissions platform has grown into weekly nationwide marches over the cost of living, drawing hundreds of thousands and clashes with police in multiple cities.",
+      "question": "At what point does a protest about one specific grievance become a vessel for every other grievance a country is carrying?",
+      "hidden_question": "Is the scale of a protest movement a measure of the original grievance, or of how much unrelated frustration it happened to be standing near?",
+      "pattern": "a narrow, specific grievance absorbing a much larger, diffuse one until the original complaint becomes almost incidental",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "The Oct 17 march drew an Interior Ministry count of 550,000 nationwide (organizers claimed 800,000); a second wave on Oct 24 brought tens of thousands back out in Paris, Toulouse, Lyon and Clermont-Ferrand, with police using tear gas in Lyon and Clermont-Ferrand to block protesters from city centers.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.adn.com/nation-world/2026/10/24/thousands-march-in-france-over-schools-and-living-costs-as-police-use-tear-gas/",
+      "location": "France (Paris, Toulouse, Lyon, Clermont-Ferrand)",
+      "season_or_time_context": "Movement began mid-September 2026; weekly Saturday marches since, including Oct 17 and Oct 24",
+      "source_date": "2026-10-24",
+      "first_seen": "2026-10-27T14:30:00Z",
+      "last_seen": "2026-10-27T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-27T14:30:00Z",
+          "note": "Oct 24: a second consecutive Saturday of nationwide marches over school conditions and living costs, with tens of thousands out in Paris, Toulouse, Lyon and Clermont-Ferrand and police using tear gas in two cities - a week after the Oct 17 march drew an official count of 550,000."
         }
       ]
     }
