@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-25",
-  "cycle_start": "2026-10-25T00:20:00Z",
-  "last_updated": "2026-10-25T14:30:00Z",
+  "cycle_start": "2026-10-25T14:30:00Z",
+  "last_updated": "2026-10-27T00:20:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -37,6 +37,35 @@
         {
           "date": "2026-10-23T14:30:00Z",
           "note": "Game 1 is tonight in Milwaukee. Tampa Bay's two scheduled starters, Drew Rasmussen and Freddy Peralta, both made their MLB debuts with the Brewers - the team they're now trying to beat for a title neither franchise has ever won."
+        }
+      ]
+    },
+    {
+      "id": "ethiopia-eritrea-tigray-rupture-2026",
+      "stream": "headlines",
+      "category": "World",
+      "observer": "Why Today?",
+      "title": "Two countries that made peace in 2018 are undoing it in real time",
+      "observation": "Ethiopia and Eritrea severed diplomatic ties on October 1 after the Tigray People's Liberation Front launched a major offensive against federal forces, reviving a conflict both sides had declared over in 2022 and raising fears of a second border war between the two countries.",
+      "question": "How much of a peace holds once the leaders who made it decide it no longer serves them?",
+      "hidden_question": "Is the 2018-2022 Ethiopia-Eritrea rapprochement better understood as a genuine resolution, or as a pause that lasted exactly as long as both governments found it convenient?",
+      "pattern": "a negotiated peace between old enemies unraveling once the domestic politics that made it convenient change",
+      "transferability": "high",
+      "cluster_id": "",
+      "why_now": "Eritrean soldiers were reported entering the Ethiopian towns of Adigrat and Idaga Hamus in early October, days after Addis Ababa expelled Eritrea's diplomats and the UN Secretary-General called for an immediate end to fighting in Tigray, Afar and Amhara - with no ceasefire talks announced since.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.ksat.com/news/world/2026/10/08/eritrean-forces-seen-entering-towns-in-ethiopias-tigray-region-after-crossing-border/",
+      "location": "Tigray, Ethiopia / Eritrea",
+      "season_or_time_context": "Diplomatic ties severed Oct 1, 2026; fighting resumed late September after a ceasefire that had held since 2022",
+      "source_date": "2026-10-08",
+      "first_seen": "2026-10-27T00:20:00Z",
+      "last_seen": "2026-10-27T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-27T00:20:00Z",
+          "note": "Ethiopia and Eritrea cut diplomatic ties Oct 1 after Eritrean soldiers were reported entering the Tigray towns of Adigrat and Idaga Hamus; the UN chief called for an immediate end to fighting across Tigray, Afar and Amhara on Oct 9-10, with no ceasefire talks announced since."
         }
       ]
     }
