@@ -1,31 +1,35 @@
 {
   "week_start": "2026-10-25",
-  "cycle_start": "2026-10-27T14:30:00Z",
-  "last_updated": "2026-10-28T00:20:00Z",
+  "cycle_start": "2026-10-28T00:20:00Z",
+  "last_updated": "2026-10-28T14:30:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
       "stream": "curiosities",
       "category": "Sports",
       "observer": "Why Today?",
-      "title": "They trailed in every game of the series. They swept it anyway",
-      "observation": "The Milwaukee Brewers swept the two-time defending champion Dodgers in the NLCS for their first pennant since 1982, then won three straight to open the World Series over Tampa Bay - a franchise that has never won a title facing one that hasn't either.",
+      "title": "They trailed in every game of the series. Then the series stopped letting them win that way",
+      "observation": "The Milwaukee Brewers swept the two-time defending champion Dodgers in the NLCS for their first pennant since 1982, then took a 3-0 World Series lead over Tampa Bay before the Rays avoided the sweep - a title neither franchise has ever won.",
       "question": "What does it mean to win every game of a series without ever actually being ahead until the moment that mattered?",
       "hidden_question": "Does a result like this reveal something real about a team's character, or is it just the kind of statistical oddity that looks meaningful only in hindsight?",
       "pattern": "a decisive, clean-looking outcome built out of narrow, late comebacks rather than sustained dominance",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Game 3 broke the pattern of narrow comebacks: an eight-run fifth inning, a World Series record, blew the game open in a 10-1 rout that put Milwaukee one win from its first title - the Brewers' first laugher of a series built until now entirely on last-minute escapes.",
+      "why_now": "Game 4 ended the comeback pattern the other way: up 3-2 in the 12th on a Cooper Pratt homer, Milwaukee let Tampa Bay walk it off 4-3 behind Ben Williamson, the Rays' first win of the series and only the third team ever to escape a World Series Game 4 trailing 3-0.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.cnn.com/2026/10/26/sport/live-news/world-series-game-3",
+      "url": "https://www.espn.com/mlb/story/_/id/50304403/rays-steal-game-4-extras-stay-alive-world-series",
       "location": "Milwaukee, Wisconsin / Tampa Bay, Florida",
       "season_or_time_context": "World Series Game 1 played Oct 23, 2026; Game 2 Oct 24",
-      "source_date": "2026-10-26",
+      "source_date": "2026-10-27",
       "first_seen": "2026-10-20T14:30:00Z",
-      "last_seen": "2026-10-28T00:20:00Z",
-      "appearances": 7,
+      "last_seen": "2026-10-28T14:30:00Z",
+      "appearances": 8,
       "history": [
+        {
+          "date": "2026-10-28T14:30:00Z",
+          "note": "Game 4: Rays 4, Brewers 3 (12 innings). Cooper Pratt's homer put Milwaukee ahead in the top of the 12th; Tampa Bay answered with two in the bottom, Ben Williamson's hit walking it off. Series now 3-1; Milwaukee can still clinch in Game 5."
+        },
         {
           "date": "2026-10-28T00:20:00Z",
           "note": "Game 3: Brewers 10, Rays 1. An eight-run fifth inning - a World Series record, built on seven straight hits - ended any suspense; Milwaukee takes a 3-0 series lead and can clinch the title with a win in Game 4."
@@ -99,6 +103,35 @@
         {
           "date": "2026-10-27T14:30:00Z",
           "note": "Oct 24: a second consecutive Saturday of nationwide marches over school conditions and living costs, with tens of thousands out in Paris, Toulouse, Lyon and Clermont-Ferrand and police using tear gas in two cities - a week after the Oct 17 march drew an official count of 550,000."
+        }
+      ]
+    },
+    {
+      "id": "brazil-lula-reelection-2026",
+      "stream": "headlines",
+      "category": "World",
+      "observer": "Why Today?",
+      "title": "A president trailing in the polls just won anyway - and the loser won't accept it",
+      "observation": "Lula da Silva won a fourth term as Brazil's president on October 25, narrowly defeating Flavio Bolsonaro, son of the former president, in the tightest runoff in the country's recent history, after trailing him in most pre-election polls.",
+      "question": "What does it mean when the polls and the outcome disagree - does it say something about the polls, or about what happens once people actually vote?",
+      "hidden_question": "Is a come-from-behind election win evidence that late deciders broke one way, or a sign that pre-election polling has become less reliable at measuring this kind of race?",
+      "pattern": "a result that defies its own pre-vote polling, raising the question of what the polling missed rather than just who won",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Brazil's electoral court recorded Lula at 51.79% to Flavio Bolsonaro's 48.21% - a gap of about 4.4 million votes - even though most polls had shown Bolsonaro narrowly ahead going into Sunday's vote. Bolsonaro says he won't accept the result and plans to challenge it in court.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
+      "location": "Brazil",
+      "season_or_time_context": "Runoff held Oct 25, 2026; new term begins Jan 5, 2027",
+      "source_date": "2026-10-25",
+      "first_seen": "2026-10-28T14:30:00Z",
+      "last_seen": "2026-10-28T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-28T14:30:00Z",
+          "note": "Lula won the Oct 25 runoff, 51.79% to 48.21%, despite trailing Flavio Bolsonaro in most pre-election polls and losing the first round to him outright. Bolsonaro says he will challenge the result in court rather than concede."
         }
       ]
     }
