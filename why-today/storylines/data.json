@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-25",
-  "cycle_start": "2026-10-28T00:20:00Z",
-  "last_updated": "2026-10-28T14:30:00Z",
+  "cycle_start": "2026-10-28T14:30:00Z",
+  "last_updated": "2026-10-29T00:20:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -60,8 +60,8 @@
       "pattern": "a negotiated peace between old enemies unraveling once the domestic politics that made it convenient change",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Eritrean soldiers were reported entering the Ethiopian towns of Adigrat and Idaga Hamus in early October, days after Addis Ababa expelled Eritrea's diplomats and the UN Secretary-General called for an immediate end to fighting in Tigray, Afar and Amhara - with no ceasefire talks announced since.",
-      "status": "captured",
+      "why_now": "Dormant: the conflict itself hasn't resolved, but four straight search passes across AP, Reuters, BBC, UN and Addis Standard turned up nothing newer than the Oct 8 report of Eritrean troops entering Tigray towns. Rather than keep re-dating the same fact, holding this until a genuinely new, dateable development surfaces.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.ksat.com/news/world/2026/10/08/eritrean-forces-seen-entering-towns-in-ethiopias-tigray-region-after-crossing-border/",
       "location": "Tigray, Ethiopia / Eritrea",
