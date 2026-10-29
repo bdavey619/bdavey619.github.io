@@ -1,31 +1,35 @@
 {
   "week_start": "2026-10-25",
-  "cycle_start": "2026-10-28T14:30:00Z",
-  "last_updated": "2026-10-29T00:20:00Z",
+  "cycle_start": "2026-10-29T00:20:00Z",
+  "last_updated": "2026-10-29T14:30:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
       "stream": "curiosities",
       "category": "Sports",
       "observer": "Why Today?",
-      "title": "They trailed in every game of the series. Then the series stopped letting them win that way",
-      "observation": "The Milwaukee Brewers swept the two-time defending champion Dodgers in the NLCS for their first pennant since 1982, then took a 3-0 World Series lead over Tampa Bay before the Rays avoided the sweep - a title neither franchise has ever won.",
+      "title": "They trailed in every game of the series. They won it anyway.",
+      "observation": "The Milwaukee Brewers swept the two-time defending champion Dodgers in the NLCS for their first pennant since 1982, then beat Tampa Bay in five games for the first World Series title in franchise history - a 57-year wait that outlasted a blown 3-0 lead.",
       "question": "What does it mean to win every game of a series without ever actually being ahead until the moment that mattered?",
       "hidden_question": "Does a result like this reveal something real about a team's character, or is it just the kind of statistical oddity that looks meaningful only in hindsight?",
       "pattern": "a decisive, clean-looking outcome built out of narrow, late comebacks rather than sustained dominance",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Game 4 ended the comeback pattern the other way: up 3-2 in the 12th on a Cooper Pratt homer, Milwaukee let Tampa Bay walk it off 4-3 behind Ben Williamson, the Rays' first win of the series and only the third team ever to escape a World Series Game 4 trailing 3-0.",
+      "why_now": "Game 5 ended it: a 4-1 win at Tropicana Field, Jacob Misiorowski the winning pitcher, Trevor Megill closing with a 6-out save, and catcher William Contreras named Series MVP after hitting .381. The title the Brewers almost let slip in Game 4 is theirs.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.espn.com/mlb/story/_/id/50304403/rays-steal-game-4-extras-stay-alive-world-series",
+      "url": "https://www.cnn.com/2026/10/28/sport/live-news/game-5-world-series",
       "location": "Milwaukee, Wisconsin / Tampa Bay, Florida",
       "season_or_time_context": "World Series Game 1 played Oct 23, 2026; Game 2 Oct 24",
-      "source_date": "2026-10-27",
+      "source_date": "2026-10-28",
       "first_seen": "2026-10-20T14:30:00Z",
-      "last_seen": "2026-10-28T14:30:00Z",
-      "appearances": 8,
+      "last_seen": "2026-10-29T14:30:00Z",
+      "appearances": 9,
       "history": [
+        {
+          "date": "2026-10-29T14:30:00Z",
+          "note": "Game 5: Brewers 4, Rays 1. Milwaukee closed out the series 4-1 at Tropicana Field for its first World Series title ever. William Contreras was named Series MVP; Trevor Megill recorded a 6-out save to finish it."
+        },
         {
           "date": "2026-10-28T14:30:00Z",
           "note": "Game 4: Rays 4, Brewers 3 (12 innings). Cooper Pratt's homer put Milwaukee ahead in the top of the 12th; Tampa Bay answered with two in the bottom, Ben Williamson's hit walking it off. Series now 3-1; Milwaukee can still clinch in Game 5."
@@ -41,10 +45,6 @@
         {
           "date": "2026-10-24T14:30:00Z",
           "note": "Game 1: Brewers 3, Rays 2. Milwaukee scored twice in the first on balls that clanked off Tampa Bay gloves, then survived a bases-loaded ninth when a reversed replay call turned a potential double play into a run-scoring groundout before Trevor Megill closed it out anyway."
-        },
-        {
-          "date": "2026-10-23T14:30:00Z",
-          "note": "Game 1 is tonight in Milwaukee. Tampa Bay's two scheduled starters, Drew Rasmussen and Freddy Peralta, both made their MLB debuts with the Brewers - the team they're now trying to beat for a title neither franchise has ever won."
         }
       ]
     },
@@ -118,17 +118,21 @@
       "pattern": "a result that defies its own pre-vote polling, raising the question of what the polling missed rather than just who won",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Brazil's electoral court recorded Lula at 51.79% to Flavio Bolsonaro's 48.21% - a gap of about 4.4 million votes - even though most polls had shown Bolsonaro narrowly ahead going into Sunday's vote. Bolsonaro says he won't accept the result and plans to challenge it in court.",
+      "why_now": "The TSE formally confirmed Lula's win days after the vote, rejecting the premise that the extended voting hours a Supreme Court justice ordered had tainted the count. Flavio Bolsonaro announced he'd seek to annul the election on election night, then dropped that bid by Monday, pivoting instead toward a narrower abuse-of-power claim targeting the Lula-Alckmin ticket.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
+      "url": "https://fpabramo.org.br/tse-confirma-vitoria-de-lula-flavio-bolsonaro-desiste-de-pedir-anulacao-da-eleicao/",
       "location": "Brazil",
       "season_or_time_context": "Runoff held Oct 25, 2026; new term begins Jan 5, 2027",
-      "source_date": "2026-10-25",
+      "source_date": "2026-10-26",
       "first_seen": "2026-10-28T14:30:00Z",
-      "last_seen": "2026-10-28T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-29T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-29T14:30:00Z",
+          "note": "The TSE confirmed Lula's win. Flavio Bolsonaro announced election night he'd seek to annul the result, then dropped that bid by Monday - his campaign is pivoting to a narrower abuse-of-power claim instead, which allies reportedly see as a longer shot."
+        },
         {
           "date": "2026-10-28T14:30:00Z",
           "note": "Lula won the Oct 25 runoff, 51.79% to 48.21%, despite trailing Flavio Bolsonaro in most pre-election polls and losing the first round to him outright. Bolsonaro says he will challenge the result in court rather than concede."
