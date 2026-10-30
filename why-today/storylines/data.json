@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-25",
-  "cycle_start": "2026-10-29T00:20:00Z",
-  "last_updated": "2026-10-29T14:30:00Z",
+  "cycle_start": "2026-10-29T14:30:00Z",
+  "last_updated": "2026-10-30T00:20:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -89,17 +89,21 @@
       "pattern": "a narrow, specific grievance absorbing a much larger, diffuse one until the original complaint becomes almost incidental",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Oct 17 march drew an Interior Ministry count of 550,000 nationwide (organizers claimed 800,000); a second wave on Oct 24 brought tens of thousands back out in Paris, Toulouse, Lyon and Clermont-Ferrand, with police using tear gas in Lyon and Clermont-Ferrand to block protesters from city centers.",
+      "why_now": "Student organizers have called for a third straight Saturday of action on Oct 31, with the gilets jaunes separately floating an 'acte III' the same day and an intersyndicale strike call already set for Nov 5 - lycee students are on Toussaint break through Nov 2 but are being urged to keep showing up anyway.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.adn.com/nation-world/2026/10/24/thousands-march-in-france-over-schools-and-living-costs-as-police-use-tear-gas/",
+      "url": "https://www.dhnet.be/dernieres-depeches/2026/10/26/manifestations-des-lyceens-en-france-des-organisations-lyceennes-appellent-a-poursuivre-la-mobilisation-en-france-BN3HBJMJQFCG5IXFM5AZCKYQXU/",
       "location": "France (Paris, Toulouse, Lyon, Clermont-Ferrand)",
-      "season_or_time_context": "Movement began mid-September 2026; weekly Saturday marches since, including Oct 17 and Oct 24",
-      "source_date": "2026-10-24",
+      "season_or_time_context": "Movement began mid-September 2026; weekly Saturday marches since, including Oct 17 and Oct 24; next action Oct 31, strike call Nov 5",
+      "source_date": "2026-10-26",
       "first_seen": "2026-10-27T14:30:00Z",
-      "last_seen": "2026-10-27T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-10-30T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-10-30T00:20:00Z",
+          "note": "Organizers called for another Saturday march on Oct 31 (gilets jaunes floated their own 'acte III' the same day) plus an intersyndicale strike on Nov 5 - the movement is outlasting the lycees' own Toussaint break, which runs through Nov 2."
+        },
         {
           "date": "2026-10-27T14:30:00Z",
           "note": "Oct 24: a second consecutive Saturday of nationwide marches over school conditions and living costs, with tens of thousands out in Paris, Toulouse, Lyon and Clermont-Ferrand and police using tear gas in two cities - a week after the Oct 17 march drew an official count of 550,000."
