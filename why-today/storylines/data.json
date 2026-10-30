@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-25",
-  "cycle_start": "2026-10-29T14:30:00Z",
-  "last_updated": "2026-10-30T00:20:00Z",
+  "cycle_start": "2026-10-30T00:20:00Z",
+  "last_updated": "2026-10-30T14:30:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -140,6 +140,35 @@
         {
           "date": "2026-10-28T14:30:00Z",
           "note": "Lula won the Oct 25 runoff, 51.79% to 48.21%, despite trailing Flavio Bolsonaro in most pre-election polls and losing the first round to him outright. Bolsonaro says he will challenge the result in court rather than concede."
+        }
+      ]
+    },
+    {
+      "id": "fed-rate-hold-warsh-dissent-2026",
+      "stream": "markets",
+      "category": "Markets",
+      "observer": "Why Today?",
+      "title": "A new Fed chair's first contested vote",
+      "observation": "The Federal Reserve held its benchmark rate at 3.75%-4% on October 28, Kevin Warsh's first contested decision as chair, with two policymakers dissenting in favor of a hike against a backdrop of inflation still running above target.",
+      "question": "What does it mean for a new institution's leadership when its very first contested decision reveals the committee split rather than unified?",
+      "hidden_question": "Is a split vote evidence of a healthily independent committee working through genuine uncertainty, or an early sign that this Fed chair hasn't yet built the consensus his predecessor had?",
+      "pattern": "a new leader's early decisions get read for what they reveal about authority and consensus, not just the substance of the choice itself",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Governors Lisa Cook and Hammack dissented in favor of a quarter-point hike - a jump from September's unanimous vote - while Warsh declined to signal his own leanings and named December as the next real decision point, with inflation still above the Fed's 2% target.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://admiralmarkets.com/analytics/traders-blog/warsh-press-conference-october-2026",
+      "location": "Washington, D.C.",
+      "season_or_time_context": "FOMC meeting concluded Oct 28, 2026; next decision Dec 9, 2026",
+      "source_date": "2026-10-28",
+      "first_seen": "2026-10-30T14:30:00Z",
+      "last_seen": "2026-10-30T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-30T14:30:00Z",
+          "note": "The Fed held rates at 3.75%-4% on Oct 28. Governors Cook and Hammack dissented in favor of a hike - up from a unanimous September vote - while new chair Kevin Warsh declined to signal his own view and pointed to December as the next decision point."
         }
       ]
     }
