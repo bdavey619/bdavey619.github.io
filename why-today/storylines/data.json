@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-25",
-  "cycle_start": "2026-10-30T00:20:00Z",
-  "last_updated": "2026-10-30T14:30:00Z",
+  "cycle_start": "2026-10-30T14:30:00Z",
+  "last_updated": "2026-10-31T00:20:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -169,6 +169,36 @@
         {
           "date": "2026-10-30T14:30:00Z",
           "note": "The Fed held rates at 3.75%-4% on Oct 28. Governors Cook and Hammack dissented in favor of a hike - up from a unanimous September vote - while new chair Kevin Warsh declined to signal his own view and pointed to December as the next decision point."
+        }
+      ]
+    },
+    {
+      "id": "halloween-spending-record-2026",
+      "stream": "human_rituals",
+      "category": "Culture",
+      "observer": "Why Today?",
+      "title": "Halloween spending keeps hitting records, even as everything about it gets more expensive",
+      "observation": "Americans are expected to spend a record $13.5 billion on Halloween this year - costumes, decorations and candy all individually topping $4 billion - even as candy prices have risen three times faster than inflation since 2021 and most shoppers blame tariffs.",
+      "question": "Why does a holiday with no functional purpose, that costs more every year, keep getting more popular rather than less?",
+      "hidden_question": "Is rising Halloween spending evidence that ritual spending is one of the last discretionary categories people protect even under inflation pressure, or just evidence that retailers have gotten better at making the holiday feel mandatory?",
+      "pattern": "a discretionary ritual expense that keeps setting records even as its underlying costs rise faster than overall inflation - spending as a measure of what people refuse to cut",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The National Retail Federation's annual survey (7,889 consumers, Sept 1-9) found 74% of Americans plan to celebrate, up from 73% last year and 68% in 2019 - even as 79% expect tariffs specifically to push prices higher, and pumpkin spending alone is projected to fall about 7%.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://nrf.com/media-center/press-releases/nrf-halloween-survey-shows-consumer-spending-expected-to-reach-13-5-billion",
+      "location": "United States",
+      "season_or_time_context": "Halloween is Oct 31, 2026; NRF survey fielded Sept 1-9, 2026",
+      "source_date": "2026-09-22",
+      "source_evergreen": true,
+      "first_seen": "2026-10-31T00:20:00Z",
+      "last_seen": "2026-10-31T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-10-31T00:20:00Z",
+          "note": "NRF's annual survey projects a record $13.5 billion in US Halloween spending this year, with 74% of Americans planning to celebrate - even as candy prices have outpaced inflation threefold since 2021 and most shoppers expect tariffs to push costs higher still."
         }
       ]
     }
