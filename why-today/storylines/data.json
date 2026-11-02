@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-31",
-  "cycle_start": "2026-11-01T14:30:00Z",
-  "last_updated": "2026-11-02T00:20:00Z",
+  "cycle_start": "2026-11-02T00:20:00Z",
+  "last_updated": "2026-11-02T14:30:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -89,17 +89,21 @@
       "pattern": "a narrow, specific grievance absorbing a much larger, diffuse one until the original complaint becomes almost incidental",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Student organizers have called for a third straight Saturday of action on Oct 31, with the gilets jaunes separately floating an 'acte III' the same day and an intersyndicale strike call already set for Nov 5 - lycee students are on Toussaint break through Nov 2 but are being urged to keep showing up anyway.",
+      "why_now": "The Interior Ministry's final Oct 31 count: 320,000 marched nationwide, down 22% from Oct 24 and 42% from Oct 17's peak, with 779 arrests and 116 officers injured - a third straight weekend of decline even as organizers keep calling the next one, with a national strike set for Nov 5.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.dhnet.be/dernieres-depeches/2026/10/26/manifestations-des-lyceens-en-france-des-organisations-lyceennes-appellent-a-poursuivre-la-mobilisation-en-france-BN3HBJMJQFCG5IXFM5AZCKYQXU/",
+      "url": "https://www.franceinfo.fr/economie/greve/direct-mobilisation-sociale-la-jeunesse-ne-lache-pas-declare-la-porte-parole-de-l-union-etudiante-au-lendemain-des-manifestations-du-31-octobre_8262449.html",
       "location": "France (Paris, Toulouse, Lyon, Clermont-Ferrand)",
       "season_or_time_context": "Movement began mid-September 2026; weekly Saturday marches since, including Oct 17 and Oct 24; next action Oct 31, strike call Nov 5",
-      "source_date": "2026-10-26",
+      "source_date": "2026-11-01",
       "first_seen": "2026-10-27T14:30:00Z",
-      "last_seen": "2026-10-30T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-11-02T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-11-02T14:30:00Z",
+          "note": "Oct 31's final tally: 320,000 marched nationwide, down 22% from Oct 24 and 42% from Oct 17 - a third straight weekend of declining turnout, with 779 arrests and 116 officers injured. Mostly calm; a national strike is still set for Nov 5."
+        },
         {
           "date": "2026-10-30T00:20:00Z",
           "note": "Organizers called for another Saturday march on Oct 31 (gilets jaunes floated their own 'acte III' the same day) plus an intersyndicale strike on Nov 5 - the movement is outlasting the lycees' own Toussaint break, which runs through Nov 2."
