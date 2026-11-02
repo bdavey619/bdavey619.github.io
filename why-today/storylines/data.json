@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-31",
-  "cycle_start": "2026-10-31T14:30:00Z",
-  "last_updated": "2026-11-01T14:30:00Z",
+  "cycle_start": "2026-11-01T14:30:00Z",
+  "last_updated": "2026-11-02T00:20:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -15,17 +15,21 @@
       "pattern": "a decisive, clean-looking outcome built out of narrow, late comebacks rather than sustained dominance",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Dormant: the story has a clean ending - Game 5 won the title, 4-1 over Tampa Bay, and nothing has developed since (no parade date, no offseason news yet). Captured rather than deleted so the full arc stays on record; would reactivate for a parade or a genuinely new offseason angle.",
-      "status": "dormant",
+      "why_now": "Milwaukee held its championship parade Friday morning, Oct 30 - down Wisconsin Avenue starting at 10 a.m., ending at Henry Maier Festival Park for a rally, with the grounds opened free to fans. The city last did this in 1982, for a team that had lost.",
+      "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.cnn.com/2026/10/28/sport/live-news/game-5-world-series",
+      "url": "https://okcfox.com/news/nation-world/brewers-announce-world-series-parade-celebration-details",
       "location": "Milwaukee, Wisconsin / Tampa Bay, Florida",
       "season_or_time_context": "World Series Game 1 played Oct 23, 2026; Game 2 Oct 24",
-      "source_date": "2026-10-28",
+      "source_date": "2026-10-29",
       "first_seen": "2026-10-20T14:30:00Z",
-      "last_seen": "2026-10-29T14:30:00Z",
-      "appearances": 9,
+      "last_seen": "2026-11-02T00:20:00Z",
+      "appearances": 10,
       "history": [
+        {
+          "date": "2026-11-02T00:20:00Z",
+          "note": "Milwaukee held its championship parade Friday, Oct 30: down Wisconsin Avenue at 10 a.m., ending at Henry Maier Festival Park for a free rally. The same city gave the 1982 team a parade after a Game 7 loss - this time there was a title to go with it."
+        },
         {
           "date": "2026-10-29T14:30:00Z",
           "note": "Game 5: Brewers 4, Rays 1. Milwaukee closed out the series 4-1 at Tropicana Field for its first World Series title ever. William Contreras was named Series MVP; Trevor Megill recorded a 6-out save to finish it."
@@ -41,10 +45,6 @@
         {
           "date": "2026-10-25T14:30:00Z",
           "note": "Game 2: Brewers 5, Rays 4. Tampa Bay scored four in the top of the first; Milwaukee tied it on Sal Frelick's sixth-inning homer, took the lead in the seventh on a Cooper Pratt RBI, and closed it out - a 2-0 series lead built from another come-from-behind win."
-        },
-        {
-          "date": "2026-10-24T14:30:00Z",
-          "note": "Game 1: Brewers 3, Rays 2. Milwaukee scored twice in the first on balls that clanked off Tampa Bay gloves, then survived a bases-loaded ninth when a reversed replay call turned a potential double play into a run-scoring groundout before Trevor Megill closed it out anyway."
         }
       ]
     },
@@ -199,6 +199,36 @@
         {
           "date": "2026-10-31T00:20:00Z",
           "note": "NRF's annual survey projects a record $13.5 billion in US Halloween spending this year, with 74% of Americans planning to celebrate - even as candy prices have outpaced inflation threefold since 2021 and most shoppers expect tariffs to push costs higher still."
+        }
+      ]
+    },
+    {
+      "id": "dia-de-muertos-cdmx-2026",
+      "stream": "human_rituals",
+      "category": "Culture",
+      "observer": "Why Today?",
+      "title": "A 32-meter Catrina and a parade for the dead, scheduled to the minute",
+      "observation": "Mexico City's Dia de Muertos season runs Oct 29-Nov 2, anchored by a 32-meter Catrina in the Zocalo and an Oct 31 parade of thousands along Paseo de la Reforma, with downtown building facades lit for the occasion - nearly all of it free.",
+      "question": "What does it mean for a ritual of remembrance to be planned with the precision of a civic event - down to the exact height of the centerpiece and the exact route of the march?",
+      "hidden_question": "Does scheduling grief this precisely make the ritual more meaningful by giving it shared structure, or does it turn mourning into spectacle once a city plans it like a parade route?",
+      "pattern": "a ritual built around loss and remembrance staged with the same civic choreography as a parade or festival - logistics applied to grief",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "This year's Ofrenda Monumental in the Zocalo runs Oct 29 through Nov 2 (today), the main parade drew a large crowd along Paseo de la Reforma on Oct 31, and the city projects roughly 5,000 separate Dia de Muertos activities this season, from Xochimilco canal tours to a smaller edition in Tlahuac's San Andres Mixquic.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.record.com.mx/historia/dia-de-muertos-2026-en-cdmx-fechas-del-desfile-megaofrenda-y-catrina-gigante-2026102021271789267",
+      "location": "Mexico City, Mexico",
+      "season_or_time_context": "Dia de Muertos observed Nov 1-2; CDMX's official season runs Oct 29-Nov 2, 2026",
+      "source_date": "2026-10-20",
+      "source_evergreen": true,
+      "first_seen": "2026-11-02T00:20:00Z",
+      "last_seen": "2026-11-02T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-11-02T00:20:00Z",
+          "note": "Mexico City's Dia de Muertos season (Oct 29-Nov 2) centers on a 32-meter Catrina in the Zocalo and an Oct 31 parade of thousands down Paseo de la Reforma, part of roughly 5,000 events the city is running this season, almost all free to attend."
         }
       ]
     }
