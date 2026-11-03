@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-31",
-  "cycle_start": "2026-11-02T14:30:00Z",
-  "last_updated": "2026-11-03T00:20:00Z",
+  "cycle_start": "2026-11-03T00:20:00Z",
+  "last_updated": "2026-11-03T14:30:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -89,17 +89,21 @@
       "pattern": "a narrow, specific grievance absorbing a much larger, diffuse one until the original complaint becomes almost incidental",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Interior Ministry's final Oct 31 count: 320,000 marched nationwide, down 22% from Oct 24 and 42% from Oct 17's peak, with 779 arrests and 116 officers injured - a third straight weekend of decline even as organizers keep calling the next one, with a national strike set for Nov 5.",
+      "why_now": "Weekend street marches are giving way to a different kind of action: a five-union general strike on Nov 5 now pulls in SNCF rail workers (striking the day before the new TGV M's inaugural run) and, for the first time, private-school staff - a widening of the movement's base even as Saturday turnout keeps shrinking.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.franceinfo.fr/economie/greve/direct-mobilisation-sociale-la-jeunesse-ne-lache-pas-declare-la-porte-parole-de-l-union-etudiante-au-lendemain-des-manifestations-du-31-octobre_8262449.html",
+      "url": "https://www.enseignement-prive.info/articles/greve-du-5-novembre-dans-le-prive-independant-pourquoi-les-personnels-se-mobilisent-ils",
       "location": "France (Paris, Toulouse, Lyon, Clermont-Ferrand)",
-      "season_or_time_context": "Movement began mid-September 2026; weekly Saturday marches since, including Oct 17 and Oct 24; next action Oct 31, strike call Nov 5",
-      "source_date": "2026-11-01",
+      "season_or_time_context": "Movement began mid-September 2026; weekly Saturday marches since, including Oct 17, Oct 24 and Oct 31; general strike Nov 5",
+      "source_date": "2026-10-29",
       "first_seen": "2026-10-27T14:30:00Z",
-      "last_seen": "2026-11-02T14:30:00Z",
-      "appearances": 3,
+      "last_seen": "2026-11-03T14:30:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-11-03T14:30:00Z",
+          "note": "Ahead of Thursday's five-union general strike, SNCF rail unions confirmed they're joining (a day before the new TGV M's inaugural run) and private-school staff are walking out for the first time - the fight is shifting from weekend marches to a broader work stoppage."
+        },
         {
           "date": "2026-11-02T14:30:00Z",
           "note": "Oct 31's final tally: 320,000 marched nationwide, down 22% from Oct 24 and 42% from Oct 17 - a third straight weekend of declining turnout, with 779 arrests and 116 officers injured. Mostly calm; a national strike is still set for Nov 5."
@@ -188,8 +192,8 @@
       "pattern": "a discretionary ritual expense that keeps setting records even as its underlying costs rise faster than overall inflation - spending as a measure of what people refuse to cut",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The National Retail Federation's annual survey (7,889 consumers, Sept 1-9) found 74% of Americans plan to celebrate, up from 73% last year and 68% in 2019 - even as 79% expect tariffs specifically to push prices higher, and pumpkin spending alone is projected to fall about 7%.",
-      "status": "captured",
+      "why_now": "Dormant: Halloween has passed and the season's story is complete - a record year, now closed. Holding until next year's NRF survey or a genuinely new angle (post-season retail data, candy-industry followup) surfaces.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://nrf.com/media-center/press-releases/nrf-halloween-survey-shows-consumer-spending-expected-to-reach-13-5-billion",
       "location": "United States",
@@ -218,8 +222,8 @@
       "pattern": "a ritual built around loss and remembrance staged with the same civic choreography as a parade or festival - logistics applied to grief",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "This year's Ofrenda Monumental in the Zocalo runs Oct 29 through Nov 2 (today), the main parade drew a large crowd along Paseo de la Reforma on Oct 31, and the city projects roughly 5,000 separate Dia de Muertos activities this season, from Xochimilco canal tours to a smaller edition in Tlahuac's San Andres Mixquic.",
-      "status": "captured",
+      "why_now": "Dormant: the official season ended Nov 2 and the observance itself (Nov 1-2) has passed - a complete, closed arc for this year. Holding until next year's season or a genuinely new angle surfaces.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.record.com.mx/historia/dia-de-muertos-2026-en-cdmx-fechas-del-desfile-megaofrenda-y-catrina-gigante-2026102021271789267",
       "location": "Mexico City, Mexico",
