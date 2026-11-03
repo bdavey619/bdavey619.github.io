@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-31",
-  "cycle_start": "2026-11-02T00:20:00Z",
-  "last_updated": "2026-11-02T14:30:00Z",
+  "cycle_start": "2026-11-02T14:30:00Z",
+  "last_updated": "2026-11-03T00:20:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -159,8 +159,8 @@
       "pattern": "a new leader's early decisions get read for what they reveal about authority and consensus, not just the substance of the choice itself",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Governors Lisa Cook and Hammack dissented in favor of a quarter-point hike - a jump from September's unanimous vote - while Warsh declined to signal his own leanings and named December as the next real decision point, with inflation still above the Fed's 2% target.",
-      "status": "captured",
+      "why_now": "Dormant: the next real decision point is the Dec 9 FOMC meeting, and nothing dated has surfaced since the Oct 28 decision despite a search for Warsh's post-meeting remarks - everything found was recycled August Jackson Hole coverage. Holding until a genuinely new, dated development (a speech, a leak, Dec 9 itself) lands.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://admiralmarkets.com/analytics/traders-blog/warsh-press-conference-october-2026",
       "location": "Washington, D.C.",
