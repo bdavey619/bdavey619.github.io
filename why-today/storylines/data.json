@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-31",
-  "cycle_start": "2026-11-03T00:20:00Z",
-  "last_updated": "2026-11-03T14:30:00Z",
+  "cycle_start": "2026-11-03T14:30:00Z",
+  "last_updated": "2026-11-04T00:20:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -237,6 +237,36 @@
         {
           "date": "2026-11-02T00:20:00Z",
           "note": "Mexico City's Dia de Muertos season (Oct 29-Nov 2) centers on a 32-meter Catrina in the Zocalo and an Oct 31 parade of thousands down Paseo de la Reforma, part of roughly 5,000 events the city is running this season, almost all free to attend."
+        }
+      ]
+    },
+    {
+      "id": "cop31-antalya-2026",
+      "stream": "natural_world",
+      "category": "Climate",
+      "observer": "Why Today?",
+      "title": "The country that gave up hosting a climate summit, then volunteered to run it anyway",
+      "observation": "COP31 opens Nov 9 in Antalya, Turkey, but Australia - which withdrew its hosting bid in a deal with Turkey - will lead the actual negotiations as 'President of Negotiations,' while the UN's climate chief has already lowered expectations for the summit.",
+      "question": "What does it mean to run the talks at a summit you turned down the chance to host?",
+      "hidden_question": "Is splitting the hosting country from the negotiating leadership a sign of healthy burden-sharing in climate diplomacy, or evidence that nobody wanted full ownership of a summit expected to produce little?",
+      "pattern": "an institution's ceremonial host and its substantive leader are different parties, which raises the question of who actually owns the outcome",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Australia gave up its COP31 hosting bid in exchange for leading negotiations as 'President of Negotiations,' with a Pacific Pre-COP already held Oct 5-8 in Fiji and a leaders' event in Tuvalu; the summit itself runs Nov 9-20 in Antalya, and the UN's own climate chief has pre-emptively lowered expectations, saying not to expect 'big-ticket' negotiated outcomes this year.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://pm.gov.au/media/pre-cop-leaders-event-fiji-and-tuvalu",
+      "location": "Antalya, Turkey / Nadi, Fiji / Tuvalu",
+      "season_or_time_context": "Pacific Pre-COP held Oct 5-8, 2026; COP31 runs Nov 9-20, 2026 in Antalya",
+      "source_date": "2026-10-05",
+      "source_evergreen": true,
+      "first_seen": "2026-11-04T00:20:00Z",
+      "last_seen": "2026-11-04T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-11-04T00:20:00Z",
+          "note": "Australia gave up hosting COP31 in a deal that put Turkey in Antalya as host but Australia in charge of negotiations; the Pacific Pre-COP ran Oct 5-8 in Fiji and Tuvalu, and the main summit opens Nov 9 with expectations already lowered."
         }
       ]
     }
