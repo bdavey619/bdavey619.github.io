@@ -1,7 +1,7 @@
 {
   "week_start": "2026-10-31",
-  "cycle_start": "2026-11-04T00:20:00Z",
-  "last_updated": "2026-11-04T14:30:00Z",
+  "cycle_start": "2026-11-04T14:30:00Z",
+  "last_updated": "2026-11-05T14:30:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -60,17 +60,21 @@
       "pattern": "a negotiated peace between old enemies unraveling once the domestic politics that made it convenient change",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Dormant: the conflict itself hasn't resolved, but four straight search passes across AP, Reuters, BBC, UN and Addis Standard turned up nothing newer than the Oct 8 report of Eritrean troops entering Tigray towns. Rather than keep re-dating the same fact, holding this until a genuinely new, dateable development surfaces.",
-      "status": "dormant",
+      "why_now": "The TPLF's offensive collapsed: federal forces retook Mekelle and the rest of Tigray's strongholds, and on Oct 16 Addis Ababa installed a new interim administration - a mayor for Mekelle, a chief administrator, separate heads for security and economic recovery - with a six-month mandate to hold elections. The Western Tigray border dispute, and the Eritrea rupture itself, were both deferred rather than resolved.",
+      "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.ksat.com/news/world/2026/10/08/eritrean-forces-seen-entering-towns-in-ethiopias-tigray-region-after-crossing-border/",
+      "url": "https://www.africanews.com/2026/10/16/ethiopia-appoints-interim-tigray-government-after-tplf-ouster/",
       "location": "Tigray, Ethiopia / Eritrea",
-      "season_or_time_context": "Diplomatic ties severed Oct 1, 2026; fighting resumed late September after a ceasefire that had held since 2022",
-      "source_date": "2026-10-08",
+      "season_or_time_context": "Diplomatic ties severed Oct 1, 2026; fighting resumed late September; interim Tigray government installed Oct 16 with a 6-month election mandate",
+      "source_date": "2026-10-16",
       "first_seen": "2026-10-27T00:20:00Z",
-      "last_seen": "2026-10-27T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-11-05T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-11-05T14:30:00Z",
+          "note": "The TPLF lost Mekelle and its other strongholds; on Oct 16 Addis Ababa named an interim Tigray administration (a new mayor, chief administrator and security/economic recovery heads) with a 6-month mandate to organize elections. The Western Tigray dispute and the Eritrea rupture remain unresolved."
+        },
         {
           "date": "2026-10-27T00:20:00Z",
           "note": "Ethiopia and Eritrea cut diplomatic ties Oct 1 after Eritrean soldiers were reported entering the Tigray towns of Adigrat and Idaga Hamus; the UN chief called for an immediate end to fighting across Tigray, Afar and Amhara on Oct 9-10, with no ceasefire talks announced since."
@@ -89,17 +93,21 @@
       "pattern": "a narrow, specific grievance absorbing a much larger, diffuse one until the original complaint becomes almost incidental",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Weekend street marches are giving way to a different kind of action: a five-union general strike on Nov 5 now pulls in SNCF rail workers (striking the day before the new TGV M's inaugural run) and, for the first time, private-school staff - a widening of the movement's base even as Saturday turnout keeps shrinking.",
+      "why_now": "The Nov 5 general strike drew an Interior Ministry early-afternoon count of about 270,000 marchers in 180 demonstrations outside Paris, with black-bloc clashes in Lyon and incidents in Nantes; only about 81 of France's 3,700 lycees were confirmed blocked (student unions claimed over 1,000), and rail disruption was patchy rather than a full shutdown - a strike that widened the movement's base without necessarily widening its crowds.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.enseignement-prive.info/articles/greve-du-5-novembre-dans-le-prive-independant-pourquoi-les-personnels-se-mobilisent-ils",
+      "url": "https://fr.headtopics.com/news/greve-nationale-du-5-novembre-2026-270-000-manifestants-89578335",
       "location": "France (Paris, Toulouse, Lyon, Clermont-Ferrand)",
-      "season_or_time_context": "Movement began mid-September 2026; weekly Saturday marches since, including Oct 17, Oct 24 and Oct 31; general strike Nov 5",
-      "source_date": "2026-10-29",
+      "season_or_time_context": "Movement began mid-September 2026; weekly Saturday marches since, including Oct 17, Oct 24 and Oct 31; general strike held Nov 5",
+      "source_date": "2026-11-05",
       "first_seen": "2026-10-27T14:30:00Z",
-      "last_seen": "2026-11-03T14:30:00Z",
-      "appearances": 4,
+      "last_seen": "2026-11-05T14:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-11-05T14:30:00Z",
+          "note": "Nov 5 general strike: roughly 270,000 marched in 180 demonstrations outside Paris per an early-afternoon Interior Ministry count, with black-bloc clashes in Lyon and incidents in Nantes. Only 81 of 3,700 lycees were confirmed blocked (unions claimed 1,000+); rail disruption was patchy, not a full shutdown."
+        },
         {
           "date": "2026-11-03T14:30:00Z",
           "note": "Ahead of Thursday's five-union general strike, SNCF rail unions confirmed they're joining (a day before the new TGV M's inaugural run) and private-school staff are walking out for the first time - the fight is shifting from weekend marches to a broader work stoppage."
