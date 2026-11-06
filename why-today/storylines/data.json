@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-06",
-  "cycle_start": "2026-11-05T14:30:00Z",
-  "last_updated": "2026-11-06T00:20:00Z",
+  "cycle_start": "2026-11-06T00:20:00Z",
+  "last_updated": "2026-11-06T14:30:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -304,6 +304,35 @@
         {
           "date": "2026-11-04T14:30:00Z",
           "note": "New York's Kathy Hochul (~60-40 over Blakeman), Connecticut's Ned Lamont and New Jersey's Cory Booker all won reelection comfortably on Nov 3 - a quiet, status-quo night, unlike 2025's competitive Virginia/New Jersey governor races and NYC's Mamdani upset."
+        }
+      ]
+    },
+    {
+      "id": "rubin-2026-ed138-dwarf-planet-2026",
+      "stream": "natural_world",
+      "category": "Science",
+      "observer": "Why Today?",
+      "title": "A new telescope's first month of data turned up a world ten years of looking had missed",
+      "observation": "The Vera C. Rubin Observatory's new Simonyi Survey Telescope found 2026 ED138, a trans-Neptunian object 46 AU from the sun and possibly 600-1,500 km wide, hiding in archival images dating back to 2016 - a potential sixth dwarf planet nobody had flagged until now.",
+      "question": "What does it mean that a new instrument's first months of data turned up something a decade of sky surveys had already photographed and missed?",
+      "hidden_question": "Is this a story about how much of the solar system remains unmapped, or about how much depends on which telescope happens to be pointed at the right patch of sky at the right time?",
+      "pattern": "a new tool reveals, in its very first pass, something that was already there in old data all along - visible only in hindsight",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Rubin Observatory announced Oct 27 that researcher Matthew Holman, running a custom search code through Rubin's Simonyi telescope data, spotted 2026 ED138 - then traced it back through archival images to 2016, giving a 10-year orbit. At 46 AU and an estimated 600-1,500 km across, it's a dwarf-planet candidate pending an albedo measurement, which would make it the sixth if confirmed.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.natureworldnews.com/articles/73703/20261102/new-dwarf-planet-candidate-beyond-pluto-may-bigger-ceres-after-decade-hidden-among-milky-way.htm",
+      "location": "Cerro Pachon, Chile (Vera C. Rubin Observatory)",
+      "season_or_time_context": "Observations taken Mar 4-Jul 11, 2026, plus archival images back to 2016; announced Oct 27, 2026",
+      "source_date": "2026-11-02",
+      "first_seen": "2026-11-06T14:30:00Z",
+      "last_seen": "2026-11-06T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-11-06T14:30:00Z",
+          "note": "Rubin Observatory announced Oct 27 that 2026 ED138, a trans-Neptunian object ~46 AU out and 600-1,500 km across, was found in its first months of survey data and traced back through archival images to 2016 - a dwarf-planet candidate pending confirmation."
         }
       ]
     }
