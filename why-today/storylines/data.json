@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-06",
-  "cycle_start": "2026-11-06T14:30:00Z",
-  "last_updated": "2026-11-07T00:20:00Z",
+  "cycle_start": "2026-11-07T00:20:00Z",
+  "last_updated": "2026-11-07T14:30:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -60,17 +60,21 @@
       "pattern": "a negotiated peace between old enemies unraveling once the domestic politics that made it convenient change",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The TPLF's offensive collapsed: federal forces retook Mekelle and the rest of Tigray's strongholds, and on Oct 16 Addis Ababa installed a new interim administration - a mayor for Mekelle, a chief administrator, separate heads for security and economic recovery - with a six-month mandate to hold elections. The Western Tigray border dispute, and the Eritrea rupture itself, were both deferred rather than resolved.",
-      "status": "captured",
+      "why_now": "Dormant: multiple search passes across several cycles, including this one, have turned up nothing dated past the Oct 16 interim-government announcement - only recycled 2020-2022 Tigray-war coverage and an unrelated Feb 2026 atrocity-accusation story. Holding until a genuinely new, dated development (ceasefire talks, a Western Tigray move) surfaces.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.africanews.com/2026/10/16/ethiopia-appoints-interim-tigray-government-after-tplf-ouster/",
       "location": "Tigray, Ethiopia / Eritrea",
       "season_or_time_context": "Diplomatic ties severed Oct 1, 2026; fighting resumed late September; interim Tigray government installed Oct 16 with a 6-month election mandate",
       "source_date": "2026-10-16",
       "first_seen": "2026-10-27T00:20:00Z",
-      "last_seen": "2026-11-05T14:30:00Z",
+      "last_seen": "2026-11-07T14:30:00Z",
       "appearances": 2,
       "history": [
+        {
+          "date": "2026-11-07T14:30:00Z",
+          "note": "No dated development has surfaced since Oct 16 despite repeated search passes; results keep surfacing recycled 2020-2022 Tigray-war material. Going dormant rather than being bumped on a stale source."
+        },
         {
           "date": "2026-11-05T14:30:00Z",
           "note": "The TPLF lost Mekelle and its other strongholds; on Oct 16 Addis Ababa named an interim Tigray administration (a new mayor, chief administrator and security/economic recovery heads) with a 6-month mandate to organize elections. The Western Tigray dispute and the Eritrea rupture remain unresolved."
@@ -370,6 +374,35 @@
         {
           "date": "2026-11-07T00:20:00Z",
           "note": "Diwali's main night falls Nov 8 within its five-day arc (Dhanteras Nov 6 to Bhai Dooj Nov 10); diaspora cities mark it on different terms - NYC's Times Square celebration already ran Oct 24, and personal fireworks stay tightly restricted even as temples hold pujas this weekend."
+        }
+      ]
+    },
+    {
+      "id": "mount-fuji-early-snowcap-2026",
+      "stream": "natural_world",
+      "category": "Climate",
+      "observer": "Why Today?",
+      "title": "The same mountain's snowcap went from latest in 130 years to early - with the ruler changed in between",
+      "observation": "Mount Fuji's first snowcap of the season arrived Oct 30, 2026 - seven days earlier than usual under Japan's newly adjusted observation method - a sharp reversal from 2024's latest snowcap in 130 years of record-keeping and 2025's 21-days-late arrival.",
+      "question": "What does it mean when a years-long warming trend reverses in the very same year the method used to measure it changes?",
+      "hidden_question": "Is Mount Fuji's early snowcap this year real evidence the warming trend eased, or mostly an artifact of switching to a new way of declaring 'first snow'?",
+      "pattern": "a reversed trend that arrives at the exact moment the measurement method itself changed, leaving real signal and methodological artifact tangled together",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The Japan Meteorological Agency recorded Mt. Fuji's first snowcap on Oct 30 under a new checking system that reports it roughly seven days earlier than the prior method would have - a reversal after 2024 produced the latest snowcap in 130 years of observation (Nov 7) and 2025 came in 21 days later than average (Oct 23).",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/30/japans-mt-fuji-sees-first-snowcap-of-season-seven-days-earlier-based-on-new-system-for-checking",
+      "location": "Mount Fuji, Japan",
+      "season_or_time_context": "First snowcap observed Oct 30, 2026; compares to Nov 7, 2024 (latest on record since 1894) and Oct 23, 2025",
+      "source_date": "2026-10-30",
+      "first_seen": "2026-11-07T14:30:00Z",
+      "last_seen": "2026-11-07T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-11-07T14:30:00Z",
+          "note": "Mt. Fuji's first snowcap arrived Oct 30 under a newly adjusted observation system, about seven days earlier than the old method would show - a reversal after 2024's snowcap was the latest in 130 years of records and 2025's came 21 days late."
         }
       ]
     }
