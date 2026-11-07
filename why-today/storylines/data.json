@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-06",
-  "cycle_start": "2026-11-06T00:20:00Z",
-  "last_updated": "2026-11-06T14:30:00Z",
+  "cycle_start": "2026-11-06T14:30:00Z",
+  "last_updated": "2026-11-07T00:20:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -260,18 +260,21 @@
       "pattern": "an institution's ceremonial host and its substantive leader are different parties, which raises the question of who actually owns the outcome",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Australia gave up its COP31 hosting bid in exchange for leading negotiations as 'President of Negotiations,' with a Pacific Pre-COP already held Oct 5-8 in Fiji and a leaders' event in Tuvalu; the summit itself runs Nov 9-20 in Antalya, and the UN's own climate chief has pre-emptively lowered expectations, saying not to expect 'big-ticket' negotiated outcomes this year.",
+      "why_now": "Ahead of the Nov 9 opening, Turkish police detained two trade unionists in Antalya on Nov 3 under NATO-summit-style security measures; organizers now expect close to 100,000 foreign visitors from 196 countries, with the city's hotel capacity under strain and roughly $1.5-2 billion in projected economic activity.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://pm.gov.au/media/pre-cop-leaders-event-fiji-and-tuvalu",
+      "url": "https://www.evrensel.net/haber/6007767/cop31-oncesi-antalyada-sendikacilara-operasyon-2-kisi-gozaltina-alindi",
       "location": "Antalya, Turkey / Nadi, Fiji / Tuvalu",
       "season_or_time_context": "Pacific Pre-COP held Oct 5-8, 2026; COP31 runs Nov 9-20, 2026 in Antalya",
-      "source_date": "2026-10-05",
-      "source_evergreen": true,
+      "source_date": "2026-11-03",
       "first_seen": "2026-11-04T00:20:00Z",
-      "last_seen": "2026-11-04T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-11-07T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-11-07T00:20:00Z",
+          "note": "Ahead of the Nov 9 opening, Turkish police detained two trade unionists in Antalya on Nov 3 under NATO-summit-style security measures; organizers now expect close to 100,000 foreign visitors from 196 countries, straining hotel capacity and projecting $1.5-2 billion in economic activity for the city."
+        },
         {
           "date": "2026-11-04T00:20:00Z",
           "note": "Australia gave up hosting COP31 in a deal that put Turkey in Antalya as host but Australia in charge of negotiations; the Pacific Pre-COP ran Oct 5-8 in Fiji and Tuvalu, and the main summit opens Nov 9 with expectations already lowered."
@@ -290,17 +293,21 @@
       "pattern": "an election with high pre-vote attention but a fully predictable outcome - the drama front-loaded into the buildup rather than the result",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Hochul beat Blakeman roughly 60-40 in New York, Lamont won reelection in Connecticut, and Booker won back his New Jersey Senate seat - comfortable wins with no competitive statewide race in the region, a contrast with 2025's closely-fought Virginia and New Jersey governor races and the Mamdani upset in New York City.",
-      "status": "captured",
+      "why_now": "Dormant: election night results are the whole story this card tells, and the arc is complete - Hochul, Lamont and Booker's wins are settled with no recount or contested count underway. A search for certification or recount follow-up turned up nothing dated past Nov 4. Holding until a genuinely new angle surfaces.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.nbcnewyork.com/elections/live-results-2026-ny-nj-ct-midterm-elections/6563336/",
       "location": "New York / New Jersey / Connecticut",
       "season_or_time_context": "Election held Nov 3, 2026; contrasts with Nov 2025's Virginia, New Jersey and NYC results",
       "source_date": "2026-11-03",
       "first_seen": "2026-11-04T14:30:00Z",
-      "last_seen": "2026-11-04T14:30:00Z",
+      "last_seen": "2026-11-07T00:20:00Z",
       "appearances": 1,
       "history": [
+        {
+          "date": "2026-11-07T00:20:00Z",
+          "note": "No recount or certification dispute emerged; a search for follow-up turned up nothing dated past Nov 4. The election-night result is the complete story here, so the card goes dormant rather than being bumped with nothing new."
+        },
         {
           "date": "2026-11-04T14:30:00Z",
           "note": "New York's Kathy Hochul (~60-40 over Blakeman), Connecticut's Ned Lamont and New Jersey's Cory Booker all won reelection comfortably on Nov 3 - a quiet, status-quo night, unlike 2025's competitive Virginia/New Jersey governor races and NYC's Mamdani upset."
@@ -333,6 +340,36 @@
         {
           "date": "2026-11-06T14:30:00Z",
           "note": "Rubin Observatory announced Oct 27 that 2026 ED138, a trans-Neptunian object ~46 AU out and 600-1,500 km across, was found in its first months of survey data and traced back through archival images to 2016 - a dwarf-planet candidate pending confirmation."
+        }
+      ]
+    },
+    {
+      "id": "diwali-2026",
+      "stream": "human_rituals",
+      "category": "Culture",
+      "observer": "Why Today?",
+      "title": "The same festival, the same five days, a different set of rules in every city that marks it",
+      "observation": "Diwali's fixed five-day arc - Dhanteras on Nov 6 through Lakshmi Puja on Nov 8 to Bhai Dooj on Nov 10 - is set by the lunar calendar, but how it's marked varies by city, from unrestricted fireworks to tight bans.",
+      "question": "What does it mean for a ritual fixed by astronomy to look completely different depending on which country's laws and customs it lands in?",
+      "hidden_question": "Is Diwali's adaptability across diaspora communities a sign of a tradition's resilience, or evidence that a ritual's practice simply bends to whatever restrictions its host city imposes?",
+      "pattern": "a globally observed ritual whose core timing is fixed by astronomy but whose practice is reshaped city by city by local law and custom",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Diwali's main night, Lakshmi Puja, falls on Nov 8, 2026, within the five-day arc running Dhanteras (Nov 6) to Bhai Dooj (Nov 10); diaspora communities mark it on wildly different terms - Times Square held its public celebration weeks early on Oct 24, while New York City still tightly restricts personal fireworks even as temples across the metro area hold their own pujas this weekend.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://dekhopanchang.com/en/festivals/diwali",
+      "location": "Global; New York, NY (diaspora example)",
+      "season_or_time_context": "Dhanteras Nov 6, Lakshmi Puja (main night) Nov 8, Bhai Dooj Nov 10, 2026",
+      "source_date": "2026-11-01",
+      "source_evergreen": true,
+      "first_seen": "2026-11-07T00:20:00Z",
+      "last_seen": "2026-11-07T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-11-07T00:20:00Z",
+          "note": "Diwali's main night falls Nov 8 within its five-day arc (Dhanteras Nov 6 to Bhai Dooj Nov 10); diaspora cities mark it on different terms - NYC's Times Square celebration already ran Oct 24, and personal fireworks stay tightly restricted even as temples hold pujas this weekend."
         }
       ]
     }
