@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-06",
-  "cycle_start": "2026-11-07T00:20:00Z",
-  "last_updated": "2026-11-07T14:30:00Z",
+  "cycle_start": "2026-11-07T14:30:00Z",
+  "last_updated": "2026-11-08T00:20:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -97,17 +97,21 @@
       "pattern": "a narrow, specific grievance absorbing a much larger, diffuse one until the original complaint becomes almost incidental",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Nov 5 general strike drew an Interior Ministry early-afternoon count of about 270,000 marchers in 180 demonstrations outside Paris, with black-bloc clashes in Lyon and incidents in Nantes; only about 81 of France's 3,700 lycees were confirmed blocked (student unions claimed over 1,000), and rail disruption was patchy rather than a full shutdown - a strike that widened the movement's base without necessarily widening its crowds.",
+      "why_now": "Organizers called a continued 'Acte IV' push for Nov 6-7 - a strike Nov 6 followed by nationwide marches Saturday, Nov 7 - extending the movement a second week past the Nov 5 general strike; turnout figures for the weekend aren't yet confirmed.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://fr.headtopics.com/news/greve-nationale-du-5-novembre-2026-270-000-manifestants-89578335",
+      "url": "https://www.sortiraparis.com/en/news/in-paris/articles/356694-yellow-vests-act-iv-on-november-6-and-7-strike-and-demonstration-what-s-planned-in-paris",
       "location": "France (Paris, Toulouse, Lyon, Clermont-Ferrand)",
       "season_or_time_context": "Movement began mid-September 2026; weekly Saturday marches since, including Oct 17, Oct 24 and Oct 31; general strike held Nov 5",
-      "source_date": "2026-11-05",
+      "source_date": "2026-11-02",
       "first_seen": "2026-10-27T14:30:00Z",
-      "last_seen": "2026-11-05T14:30:00Z",
-      "appearances": 5,
+      "last_seen": "2026-11-08T00:20:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-11-08T00:20:00Z",
+          "note": "Organizers called a continued 'Acte IV' push for Nov 6-7 - a strike Nov 6 followed by nationwide marches Saturday, Nov 7 - extending the movement a second week past the Nov 5 general strike. Turnout figures for the weekend haven't been reported yet."
+        },
         {
           "date": "2026-11-05T14:30:00Z",
           "note": "Nov 5 general strike: roughly 270,000 marched in 180 demonstrations outside Paris per an early-afternoon Interior Ministry count, with black-bloc clashes in Lyon and incidents in Nantes. Only 81 of 3,700 lycees were confirmed blocked (unions claimed 1,000+); rail disruption was patchy, not a full shutdown."
@@ -123,10 +127,6 @@
         {
           "date": "2026-10-30T00:20:00Z",
           "note": "Organizers called for another Saturday march on Oct 31 (gilets jaunes floated their own 'acte III' the same day) plus an intersyndicale strike on Nov 5 - the movement is outlasting the lycees' own Toussaint break, which runs through Nov 2."
-        },
-        {
-          "date": "2026-10-27T14:30:00Z",
-          "note": "Oct 24: a second consecutive Saturday of nationwide marches over school conditions and living costs, with tens of thousands out in Paris, Toulouse, Lyon and Clermont-Ferrand and police using tear gas in two cities - a week after the Oct 17 march drew an official count of 550,000."
         }
       ]
     },
