@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-06",
-  "cycle_start": "2026-11-10T00:20:00Z",
-  "last_updated": "2026-11-11T00:20:00Z",
+  "cycle_start": "2026-11-11T00:20:00Z",
+  "last_updated": "2026-11-11T14:30:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -264,17 +264,21 @@
       "pattern": "an institution's ceremonial host and its substantive leader are different parties, which raises the question of who actually owns the outcome",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The Antalya Leaders' Summit opens today, Nov 11, with Erdogan leading the opening session (12:15-13:30 local) alongside remarks from UN chief Guterres and Australia's PM Albanese, followed by a gala dinner hosted by Erdogan and the first lady - the day Australia's negotiating role and Turkey's hosting role are both on display at once.",
+      "why_now": "Leaders were told to 'get serious' about the climate crisis as the summit opened; Turkey's Kurum says an 'Antalya Declaration' is being drafted but won't be paper that 'gathers dust on shelves,' while Australia's Bowen is pushing a narrower, implementation-focused outcome - and the EU says it's arriving 'empty-handed.' Low ambition, acknowledged out loud.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://unfccc.int/node/662632",
+      "url": "https://www.khaleejtimes.com/world/cop31-opens-leaders-pressure-tackle-climate-crisis",
       "location": "Antalya, Turkey / Nadi, Fiji / Tuvalu",
       "season_or_time_context": "Pacific Pre-COP held Oct 5-8, 2026; COP31 runs Nov 9-20, 2026 in Antalya",
-      "source_date": "2026-11-09",
+      "source_date": "2026-11-11",
       "first_seen": "2026-11-04T00:20:00Z",
-      "last_seen": "2026-11-11T00:20:00Z",
-      "appearances": 4,
+      "last_seen": "2026-11-11T14:30:00Z",
+      "appearances": 5,
       "history": [
+        {
+          "date": "2026-11-11T14:30:00Z",
+          "note": "Leaders were told to 'get serious' about the climate crisis as the summit opened. Turkey's Kurum says an 'Antalya Declaration' is being drafted but won't gather dust on shelves; Australia's Bowen wants a narrower outcome; the EU says it's arriving empty-handed."
+        },
         {
           "date": "2026-11-11T00:20:00Z",
           "note": "The Antalya Leaders' Summit opens today, Nov 11: Erdogan leads the opening session (12:15-13:30 local) with remarks from UN chief Guterres and Australia's PM Albanese, followed by a gala dinner hosted by Erdogan and the first lady."
@@ -291,8 +295,7 @@
           "date": "2026-11-04T00:20:00Z",
           "note": "Australia gave up hosting COP31 in a deal that put Turkey in Antalya as host but Australia in charge of negotiations; the Pacific Pre-COP ran Oct 5-8 in Fiji and Tuvalu, and the main summit opens Nov 9 with expectations already lowered."
         }
-      ],
-      "source_evergreen": true
+      ]
     },
     {
       "id": "nov3-2026-incumbents-hold-2026",
@@ -439,17 +442,21 @@
       "pattern": "a technical problem gets solved completely while the human question behind it - why this code, what it meant - stays exactly as open as before",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Cardiff University and Amgueddfa Cymru announced Nov 4 that a CT scan of the lock's internals let researchers match notches to letters and determine the combination 'ANCE' - tested on the physical lock, which opened undamaged. The lock came from the Ann Francis, a Spanish-bound ship wrecked off Wales in a December 1583 storm; a metal detectorist recovered pieces of its hoard between 1996 and 2017. What the word meant to the lock's owner, or what it protected, remains unknown.",
+      "why_now": "More detail on the find: the Ann Francis was sailing home to Norfolk from Spain when it wrecked on Margam Beach near Port Talbot in a December 1583 storm; the lock and coin hoard are now on public display in the 'Tides of Treasure' exhibit at the National Waterfront Museum, Swansea. What the cracked code meant to its owner is still unknown.",
       "status": "captured",
       "editorial_potential": "medium",
-      "url": "https://www.cardiff.ac.uk/news/view/3118948-ct-scans-help-unlock-400-year-old-mystery",
+      "url": "https://www.livescience.com/archaeology/cryptic-padlock-from-a-400-year-old-shipwreck-finally-opened-but-it-leaves-a-mystery",
       "location": "Cardiff, Wales (shipwreck off the Welsh coast)",
       "season_or_time_context": "Ship wrecked Dec 1583; hoard recovered 1996-2017; code cracked and announced Nov 4, 2026",
       "source_date": "2026-11-04",
       "first_seen": "2026-11-09T00:20:00Z",
-      "last_seen": "2026-11-09T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-11-11T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-11-11T14:30:00Z",
+          "note": "Additional detail: the Ann Francis was sailing home to Norfolk from Spain when it wrecked on Margam Beach near Port Talbot; the lock and hoard are now on public display in the 'Tides of Treasure' exhibit at Swansea's National Waterfront Museum."
+        },
         {
           "date": "2026-11-09T00:20:00Z",
           "note": "Cardiff University and National Museum Wales announced Nov 4 that a CT scan let them crack a 1583 shipwreck lock's combination - 'ANCE' - confirmed by opening the physical lock undamaged. What the code meant to its owner, or what it protected, remains unknown."
