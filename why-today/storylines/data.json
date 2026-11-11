@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-06",
-  "cycle_start": "2026-11-09T00:20:00Z",
-  "last_updated": "2026-11-10T00:20:00Z",
+  "cycle_start": "2026-11-10T00:20:00Z",
+  "last_updated": "2026-11-11T00:20:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -264,7 +264,7 @@
       "pattern": "an institution's ceremonial host and its substantive leader are different parties, which raises the question of who actually owns the outcome",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "COP31 opened today, Nov 9, in Antalya; the UNFCCC's own event page confirms the Leaders' Summit for Nov 11-12, to be opened by President Erdogan - settling earlier conflicting reports over whether that segment would be held in Antalya or Istanbul.",
+      "why_now": "The Antalya Leaders' Summit opens today, Nov 11, with Erdogan leading the opening session (12:15-13:30 local) alongside remarks from UN chief Guterres and Australia's PM Albanese, followed by a gala dinner hosted by Erdogan and the first lady - the day Australia's negotiating role and Turkey's hosting role are both on display at once.",
       "status": "captured",
       "editorial_potential": "medium",
       "url": "https://unfccc.int/node/662632",
@@ -272,9 +272,13 @@
       "season_or_time_context": "Pacific Pre-COP held Oct 5-8, 2026; COP31 runs Nov 9-20, 2026 in Antalya",
       "source_date": "2026-11-09",
       "first_seen": "2026-11-04T00:20:00Z",
-      "last_seen": "2026-11-09T00:20:00Z",
-      "appearances": 3,
+      "last_seen": "2026-11-11T00:20:00Z",
+      "appearances": 4,
       "history": [
+        {
+          "date": "2026-11-11T00:20:00Z",
+          "note": "The Antalya Leaders' Summit opens today, Nov 11: Erdogan leads the opening session (12:15-13:30 local) with remarks from UN chief Guterres and Australia's PM Albanese, followed by a gala dinner hosted by Erdogan and the first lady."
+        },
         {
           "date": "2026-11-09T00:20:00Z",
           "note": "COP31 opened today, Nov 9, in Antalya. The UNFCCC's own event page confirms the Leaders' Summit for Nov 11-12, opened by President Erdogan - settling earlier conflicting reports over whether that segment would be in Antalya or Istanbul."
