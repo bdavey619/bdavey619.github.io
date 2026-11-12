@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-12",
-  "cycle_start": "2026-11-11T14:30:00Z",
-  "last_updated": "2026-11-12T00:20:00Z",
+  "cycle_start": "2026-11-12T00:20:00Z",
+  "last_updated": "2026-11-12T14:30:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -97,17 +97,21 @@
       "pattern": "a narrow, specific grievance absorbing a much larger, diffuse one until the original complaint becomes almost incidental",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "The Interior Ministry's official Nov 7 tally: 146,000 marched nationwide (46,000 in Paris) across 141 actions - a sharp drop from the 575,000 counted on Nov 5 - with incidents in several big cities contained by police.",
-      "status": "captured",
+      "why_now": "Dormant: no dated development has surfaced since the Nov 7 bilan despite repeated search passes; the next known action point is a coordinated end-of-November protest with partners in six other European countries, not yet dated. Today's Assembly debate is on the 2027 social-security budget bill, a separate story. Holding until a dated development lands.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.interieur.gouv.fr/actualites/actualites-du-ministere/bilan-de-mobilisation-du-7-novembre-2026-des-corteges-emailles-de-nombreux-incidents-dans-grandes",
       "location": "France (Paris, Toulouse, Lyon, Clermont-Ferrand)",
       "season_or_time_context": "Movement began mid-September 2026; weekly Saturday marches since, including Oct 17, Oct 24 and Oct 31; general strike held Nov 5",
       "source_date": "2026-11-07",
       "first_seen": "2026-10-27T14:30:00Z",
-      "last_seen": "2026-11-10T00:20:00Z",
+      "last_seen": "2026-11-12T14:30:00Z",
       "appearances": 7,
       "history": [
+        {
+          "date": "2026-11-12T14:30:00Z",
+          "note": "No dated development since the Nov 7 bilan despite repeated searches; organizers are reportedly coordinating a cross-European action for end of November, not yet dated. Going dormant rather than restating the Nov 7 tally."
+        },
         {
           "date": "2026-11-10T00:20:00Z",
           "note": "The Interior Ministry's official Nov 7 bilan: 146,000 marched nationwide (46,000 in Paris) across 141 actions - down sharply from the 575,000 counted on Nov 5 - with incidents in several big cities, contained by police."
@@ -123,10 +127,6 @@
         {
           "date": "2026-11-03T14:30:00Z",
           "note": "Ahead of Thursday's five-union general strike, SNCF rail unions confirmed they're joining (a day before the new TGV M's inaugural run) and private-school staff are walking out for the first time - the fight is shifting from weekend marches to a broader work stoppage."
-        },
-        {
-          "date": "2026-11-02T14:30:00Z",
-          "note": "Oct 31's final tally: 320,000 marched nationwide, down 22% from Oct 24 and 42% from Oct 17 - a third straight weekend of declining turnout, with 779 arrests and 116 officers injured. Mostly calm; a national strike is still set for Nov 5."
         }
       ]
     },
@@ -475,17 +475,21 @@
       "pattern": "a market move runs counter to what a committee's most vocal members pushed for, which raises the question of who actually reads the underlying data correctly",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The 10-year yield fell for roughly two weeks straight, from 5.07% on Oct 23 to about 4.86-4.90% by Nov 6 (FRED/YCharts data), spanning the Fed's Oct 28 hold - a decision where governors Cook and Hammack dissented in favor of a hike. The decline suggests markets are pricing in a cooler path than the dissenters argued for, even with inflation still above target.",
-      "status": "captured",
+      "why_now": "Dormant: the card tells a complete, closed story - the two-week yield decline through Nov 6 - and a search for a more current reading found nothing dated past that. Holding until a fresh yield move or Fed-adjacent development justifies an update.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://fred.stlouisfed.org/series/DGS10",
       "location": "U.S. Treasury market",
       "season_or_time_context": "Yield measured Oct 23-Nov 6, 2026; spans the Fed's Oct 28 rate decision",
       "source_date": "2026-11-06",
       "first_seen": "2026-11-10T00:20:00Z",
-      "last_seen": "2026-11-10T00:20:00Z",
+      "last_seen": "2026-11-12T14:30:00Z",
       "appearances": 1,
       "history": [
+        {
+          "date": "2026-11-12T14:30:00Z",
+          "note": "No fresher yield data found; the story is the complete two-week decline through Nov 6. Going dormant rather than restating the same figures."
+        },
         {
           "date": "2026-11-10T00:20:00Z",
           "note": "The 10-year Treasury yield slid from 5.07% (Oct 23) to about 4.86-4.90% (Nov 6), a two-week decline spanning the Fed's Oct 28 hold, where two governors dissented in favor of a hike - the market moving the opposite way from the dissenters."
