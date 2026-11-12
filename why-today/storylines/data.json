@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-11-06",
-  "cycle_start": "2026-11-11T00:20:00Z",
-  "last_updated": "2026-11-11T14:30:00Z",
+  "week_start": "2026-11-12",
+  "cycle_start": "2026-11-11T14:30:00Z",
+  "last_updated": "2026-11-12T00:20:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -264,7 +264,7 @@
       "pattern": "an institution's ceremonial host and its substantive leader are different parties, which raises the question of who actually owns the outcome",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Leaders were told to 'get serious' about the climate crisis as the summit opened; Turkey's Kurum says an 'Antalya Declaration' is being drafted but won't be paper that 'gathers dust on shelves,' while Australia's Bowen is pushing a narrower, implementation-focused outcome - and the EU says it's arriving 'empty-handed.' Low ambition, acknowledged out loud.",
+      "why_now": "On Nov 9 the EU and 77 OACPS countries - 104 nations, about 2 billion people, over half the UN's membership - issued a joint declaration naming six shared priorities (adaptation, climate finance, clean electrification, data/science capacity, food-system resilience and ocean governance) ahead of the summit, a bloc-building move distinct from Turkey's own draft Antalya Declaration.",
       "status": "captured",
       "editorial_potential": "medium",
       "url": "https://www.khaleejtimes.com/world/cop31-opens-leaders-pressure-tackle-climate-crisis",
@@ -272,9 +272,13 @@
       "season_or_time_context": "Pacific Pre-COP held Oct 5-8, 2026; COP31 runs Nov 9-20, 2026 in Antalya",
       "source_date": "2026-11-11",
       "first_seen": "2026-11-04T00:20:00Z",
-      "last_seen": "2026-11-11T14:30:00Z",
-      "appearances": 5,
+      "last_seen": "2026-11-12T00:20:00Z",
+      "appearances": 6,
       "history": [
+        {
+          "date": "2026-11-12T00:20:00Z",
+          "note": "On Nov 9 the EU and 77 OACPS countries - 104 nations, about 2 billion people - issued a joint declaration naming six shared climate priorities ahead of the summit, a separate bloc-building move from Turkey's own draft Antalya Declaration."
+        },
         {
           "date": "2026-11-11T14:30:00Z",
           "note": "Leaders were told to 'get serious' about the climate crisis as the summit opened. Turkey's Kurum says an 'Antalya Declaration' is being drafted but won't gather dust on shelves; Australia's Bowen wants a narrower outcome; the EU says it's arriving empty-handed."
@@ -290,10 +294,6 @@
         {
           "date": "2026-11-07T00:20:00Z",
           "note": "Ahead of the Nov 9 opening, Turkish police detained two trade unionists in Antalya on Nov 3 under NATO-summit-style security measures; organizers now expect close to 100,000 foreign visitors from 196 countries, straining hotel capacity and projecting $1.5-2 billion in economic activity for the city."
-        },
-        {
-          "date": "2026-11-04T00:20:00Z",
-          "note": "Australia gave up hosting COP31 in a deal that put Turkey in Antalya as host but Australia in charge of negotiations; the Pacific Pre-COP ran Oct 5-8 in Fiji and Tuvalu, and the main summit opens Nov 9 with expectations already lowered."
         }
       ]
     },
@@ -489,6 +489,35 @@
         {
           "date": "2026-11-10T00:20:00Z",
           "note": "The 10-year Treasury yield slid from 5.07% (Oct 23) to about 4.86-4.90% (Nov 6), a two-week decline spanning the Fed's Oct 28 hold, where two governors dissented in favor of a hike - the market moving the opposite way from the dissenters."
+        }
+      ]
+    },
+    {
+      "id": "nfl-madrid-bernabeu-2026",
+      "stream": "places",
+      "category": "Sports",
+      "observer": "Why Today?",
+      "title": "An American football game was played inside the most famous soccer stadium in the world",
+      "observation": "The Bengals beat the Falcons 34-17 at Real Madrid's Bernabeu Stadium on Nov 8 - the NFL's second regular-season game in Madrid and Cincinnati's first ever in Spain - with roughly 80,000 fans filling a stadium built for an entirely different sport.",
+      "question": "What does it mean for a century-old American sport to go looking for new fans inside the most famous stadium of a completely different one?",
+      "hidden_question": "Is the NFL's international expansion into stadiums like the Bernabeu building real new fandom, or just renting attention from a crowd that came for the building, not the game?",
+      "pattern": "an institution borrows another institution's cathedral to stage itself, testing whether the audience that shows up for the building also stays for the sport",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The Bengals beat the Falcons 34-17 on Nov 8 at the Bernabeu, Real Madrid's home ground - only the second NFL regular-season game played in Madrid (after the 2025 Dolphins-Commanders game) and the first-ever NFL game in Spain for Cincinnati. Joe Burrow threw three touchdowns and ran for a fourth in front of a crowd organizers expected to reach about 80,000, the latest step in the league's push to grow its European audience.",
+      "status": "captured",
+      "editorial_potential": "medium",
+      "url": "https://local12.com/sports/bengals/bengals-beat-falcons-34-17-in-madrid-behind-chases-155-yards-higgins-two-tds",
+      "location": "Madrid, Spain (Santiago Bernabeu Stadium)",
+      "season_or_time_context": "NFL Week 9 game played Nov 8, 2026; Madrid's second NFL regular-season game after the 2025 Dolphins-Commanders game",
+      "source_date": "2026-11-08",
+      "first_seen": "2026-11-12T00:20:00Z",
+      "last_seen": "2026-11-12T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-11-12T00:20:00Z",
+          "note": "The Bengals beat the Falcons 34-17 at Real Madrid's Bernabeu on Nov 8, the NFL's second regular-season game in Madrid and Cincinnati's first in Spain - Joe Burrow threw three touchdowns and ran for a fourth before a crowd of about 80,000."
         }
       ]
     }
