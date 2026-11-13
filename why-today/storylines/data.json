@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-12",
-  "cycle_start": "2026-11-12T00:20:00Z",
-  "last_updated": "2026-11-12T14:30:00Z",
+  "cycle_start": "2026-11-12T14:30:00Z",
+  "last_updated": "2026-11-13T14:30:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -97,17 +97,21 @@
       "pattern": "a narrow, specific grievance absorbing a much larger, diffuse one until the original complaint becomes almost incidental",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "Dormant: no dated development has surfaced since the Nov 7 bilan despite repeated search passes; the next known action point is a coordinated end-of-November protest with partners in six other European countries, not yet dated. Today's Assembly debate is on the 2027 social-security budget bill, a separate story. Holding until a dated development lands.",
-      "status": "dormant",
+      "why_now": "PM Lecornu convened a 'conference sociale' with unions and employers on Nov 9, answering the Nov 5 mobilization with an early 1.6% SMIC increase to 1,502 euros net/month starting Dec 1 - the government's first concrete concession, though unions reacted with anger and expectation rather than satisfaction, and another student/teacher protest day followed.",
+      "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.interieur.gouv.fr/actualites/actualites-du-ministere/bilan-de-mobilisation-du-7-novembre-2026-des-corteges-emailles-de-nombreux-incidents-dans-grandes",
+      "url": "https://www.info.gouv.fr/actualite/conference-sociale-hausse-du-smic-de-1-6",
       "location": "France (Paris, Toulouse, Lyon, Clermont-Ferrand)",
       "season_or_time_context": "Movement began mid-September 2026; weekly Saturday marches since, including Oct 17, Oct 24 and Oct 31; general strike held Nov 5",
-      "source_date": "2026-11-07",
+      "source_date": "2026-11-09",
       "first_seen": "2026-10-27T14:30:00Z",
-      "last_seen": "2026-11-12T14:30:00Z",
-      "appearances": 7,
+      "last_seen": "2026-11-13T14:30:00Z",
+      "appearances": 8,
       "history": [
+        {
+          "date": "2026-11-13T14:30:00Z",
+          "note": "PM Lecornu convened a 'conference sociale' with unions and employers on Nov 9, announcing an early 1.6% SMIC increase to 1,502 euros net/month from Dec 1 - the government's first concrete response to the movement. Unions reacted with anger and expectation, not satisfaction."
+        },
         {
           "date": "2026-11-12T14:30:00Z",
           "note": "No dated development since the Nov 7 bilan despite repeated searches; organizers are reportedly coordinating a cross-European action for end of November, not yet dated. Going dormant rather than restating the Nov 7 tally."
@@ -123,10 +127,6 @@
         {
           "date": "2026-11-05T14:30:00Z",
           "note": "Nov 5 general strike: roughly 270,000 marched in 180 demonstrations outside Paris per an early-afternoon Interior Ministry count, with black-bloc clashes in Lyon and incidents in Nantes. Only 81 of 3,700 lycees were confirmed blocked (unions claimed 1,000+); rail disruption was patchy, not a full shutdown."
-        },
-        {
-          "date": "2026-11-03T14:30:00Z",
-          "note": "Ahead of Thursday's five-union general strike, SNCF rail unions confirmed they're joining (a day before the new TGV M's inaugural run) and private-school staff are walking out for the first time - the fight is shifting from weekend marches to a broader work stoppage."
         }
       ]
     },
@@ -264,17 +264,21 @@
       "pattern": "an institution's ceremonial host and its substantive leader are different parties, which raises the question of who actually owns the outcome",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "On Nov 9 the EU and 77 OACPS countries - 104 nations, about 2 billion people, over half the UN's membership - issued a joint declaration naming six shared priorities (adaptation, climate finance, clean electrification, data/science capacity, food-system resilience and ocean governance) ahead of the summit, a bloc-building move distinct from Turkey's own draft Antalya Declaration.",
-      "status": "captured",
+      "why_now": "Dormant: the Leaders' Summit segment concluded Nov 12 with no declaration text published yet; negotiations continue through the summit's close on Nov 20, when a cover decision (and possibly a fossil-fuel roadmap, deferred from COP30) is the expected real outcome. Holding until that text or another dated development lands.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.khaleejtimes.com/world/cop31-opens-leaders-pressure-tackle-climate-crisis",
       "location": "Antalya, Turkey / Nadi, Fiji / Tuvalu",
       "season_or_time_context": "Pacific Pre-COP held Oct 5-8, 2026; COP31 runs Nov 9-20, 2026 in Antalya",
       "source_date": "2026-11-11",
       "first_seen": "2026-11-04T00:20:00Z",
-      "last_seen": "2026-11-12T00:20:00Z",
+      "last_seen": "2026-11-13T14:30:00Z",
       "appearances": 6,
       "history": [
+        {
+          "date": "2026-11-13T14:30:00Z",
+          "note": "The Leaders' Summit concluded Nov 12 with no declaration text published yet; negotiations continue through the Nov 20 close, when a cover decision is the expected real outcome. Going dormant rather than restating the same facts."
+        },
         {
           "date": "2026-11-12T00:20:00Z",
           "note": "On Nov 9 the EU and 77 OACPS countries - 104 nations, about 2 billion people - issued a joint declaration naming six shared climate priorities ahead of the summit, a separate bloc-building move from Turkey's own draft Antalya Declaration."
@@ -290,10 +294,6 @@
         {
           "date": "2026-11-09T00:20:00Z",
           "note": "COP31 opened today, Nov 9, in Antalya. The UNFCCC's own event page confirms the Leaders' Summit for Nov 11-12, opened by President Erdogan - settling earlier conflicting reports over whether that segment would be in Antalya or Istanbul."
-        },
-        {
-          "date": "2026-11-07T00:20:00Z",
-          "note": "Ahead of the Nov 9 opening, Turkish police detained two trade unionists in Antalya on Nov 3 under NATO-summit-style security measures; organizers now expect close to 100,000 foreign visitors from 196 countries, straining hotel capacity and projecting $1.5-2 billion in economic activity for the city."
         }
       ]
     },
@@ -508,20 +508,53 @@
       "pattern": "an institution borrows another institution's cathedral to stage itself, testing whether the audience that shows up for the building also stays for the sport",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The Bengals beat the Falcons 34-17 on Nov 8 at the Bernabeu, Real Madrid's home ground - only the second NFL regular-season game played in Madrid (after the 2025 Dolphins-Commanders game) and the first-ever NFL game in Spain for Cincinnati. Joe Burrow threw three touchdowns and ran for a fourth in front of a crowd organizers expected to reach about 80,000, the latest step in the league's push to grow its European audience.",
-      "status": "captured",
+      "why_now": "Dormant: the story is the single fact of the game itself - a complete, closed arc. Holding until a genuinely new angle (attendance/viewership figures, league plans for more Madrid games) surfaces.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://local12.com/sports/bengals/bengals-beat-falcons-34-17-in-madrid-behind-chases-155-yards-higgins-two-tds",
       "location": "Madrid, Spain (Santiago Bernabeu Stadium)",
       "season_or_time_context": "NFL Week 9 game played Nov 8, 2026; Madrid's second NFL regular-season game after the 2025 Dolphins-Commanders game",
       "source_date": "2026-11-08",
       "first_seen": "2026-11-12T00:20:00Z",
-      "last_seen": "2026-11-12T00:20:00Z",
+      "last_seen": "2026-11-13T14:30:00Z",
       "appearances": 1,
       "history": [
         {
+          "date": "2026-11-13T14:30:00Z",
+          "note": "No further development to report - the game is a complete, closed story. Going dormant rather than restating the same facts."
+        },
+        {
           "date": "2026-11-12T00:20:00Z",
           "note": "The Bengals beat the Falcons 34-17 at Real Madrid's Bernabeu on Nov 8, the NFL's second regular-season game in Madrid and Cincinnati's first in Spain - Joe Burrow threw three touchdowns and ran for a fourth before a crowd of about 80,000."
+        }
+      ]
+    },
+    {
+      "id": "russia-ukraine-abu-dhabi-talks-2026",
+      "stream": "headlines",
+      "category": "World",
+      "observer": "Why Today?",
+      "title": "The first Russia-Ukraine talks in nine months happened without Ukraine's president, Russia's president, or Europe in the room",
+      "observation": "US-brokered talks between Russia and Ukraine resumed in Abu Dhabi on Nov 10-11 - the first such round in nine months - led by deputy negotiators rather than Zelensky or Putin, focused on postwar security guarantees, with gaps on territory and Ukraine's security framework still wide.",
+      "question": "What does it mean for peace talks to make their first real move in nine months while the two heads of state who'd actually have to sign anything stay away?",
+      "hidden_question": "Is holding talks at the deputy level a sign of serious, careful groundwork before a leader-level breakthrough, or a way to generate the appearance of progress without either side risking a visible failure?",
+      "pattern": "a diplomatic process restarts at a level below the principals who would need to agree to anything, which lets both sides test progress without either leader bearing the cost of a public collapse",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Trilateral US-brokered talks opened Nov 10 in Abu Dhabi - the first Russia-Ukraine round since February - with Ukraine's Rustem Umerov and Russia's Vladimir Medinsky as chief negotiators; neither Zelensky, Putin, nor Rubio attended. US envoy Jared Kushner said recent contacts had 'narrowed the gaps,' and Rubio called the session 'very productive' without details. The agenda centers on postwar security guarantees; Russia is resisting European involvement, and both sides remain far apart on territorial terms. Talks continued into Nov 11; no outcome has been reported.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://www.dailysabah.com/world/europe/russia-ukraine-resume-us-mediated-peace-talks-after-9-months/amp",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "season_or_time_context": "Talks held Nov 10-11, 2026; first round since February 2026",
+      "source_date": "2026-11-10",
+      "first_seen": "2026-11-13T14:30:00Z",
+      "last_seen": "2026-11-13T14:30:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-11-13T14:30:00Z",
+          "note": "US-brokered Russia-Ukraine talks opened Nov 10 in Abu Dhabi, the first round since February, led by deputy negotiators (Umerov, Medinsky) rather than Zelensky or Putin. Focused on postwar security guarantees; Russia resists European involvement; no outcome reported yet."
         }
       ]
     }
