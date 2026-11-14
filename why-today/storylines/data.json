@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-12",
-  "cycle_start": "2026-11-12T14:30:00Z",
-  "last_updated": "2026-11-13T14:30:00Z",
+  "cycle_start": "2026-11-13T14:30:00Z",
+  "last_updated": "2026-11-14T00:20:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -97,17 +97,21 @@
       "pattern": "a narrow, specific grievance absorbing a much larger, diffuse one until the original complaint becomes almost incidental",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "PM Lecornu convened a 'conference sociale' with unions and employers on Nov 9, answering the Nov 5 mobilization with an early 1.6% SMIC increase to 1,502 euros net/month starting Dec 1 - the government's first concrete concession, though unions reacted with anger and expectation rather than satisfaction, and another student/teacher protest day followed.",
+      "why_now": "A youth-and-teacher intersyndicale held another action day Nov 10 (Education Ministry put teacher strike participation at 1.6%); the next dated flashpoint is a broader intersyndicale strike call for Nov 17 over wages, not the vaguer 'end of November' cross-European date floated earlier. The SMIC increase announced Nov 9 hasn't visibly cooled the movement.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.info.gouv.fr/actualite/conference-sociale-hausse-du-smic-de-1-6",
+      "url": "https://fr.euronews.com/2026/11/10/on-ne-se-bat-pas-que-pour-nous-les-lyceens-de-nouveau-dans-la-rue-pour-accentuer-la-pressi",
       "location": "France (Paris, Toulouse, Lyon, Clermont-Ferrand)",
       "season_or_time_context": "Movement began mid-September 2026; weekly Saturday marches since, including Oct 17, Oct 24 and Oct 31; general strike held Nov 5",
-      "source_date": "2026-11-09",
+      "source_date": "2026-11-10",
       "first_seen": "2026-10-27T14:30:00Z",
-      "last_seen": "2026-11-13T14:30:00Z",
-      "appearances": 8,
+      "last_seen": "2026-11-14T00:20:00Z",
+      "appearances": 9,
       "history": [
+        {
+          "date": "2026-11-14T00:20:00Z",
+          "note": "A youth/teacher intersyndicale held another action day Nov 10 (1.6% of teachers on strike per the Education Ministry); the next dated flashpoint is a broader intersyndicale strike called for Nov 17 over wages."
+        },
         {
           "date": "2026-11-13T14:30:00Z",
           "note": "PM Lecornu convened a 'conference sociale' with unions and employers on Nov 9, announcing an early 1.6% SMIC increase to 1,502 euros net/month from Dec 1 - the government's first concrete response to the movement. Unions reacted with anger and expectation, not satisfaction."
@@ -123,10 +127,6 @@
         {
           "date": "2026-11-08T00:20:00Z",
           "note": "Organizers called a continued 'Acte IV' push for Nov 6-7 - a strike Nov 6 followed by nationwide marches Saturday, Nov 7 - extending the movement a second week past the Nov 5 general strike. Turnout figures for the weekend haven't been reported yet."
-        },
-        {
-          "date": "2026-11-05T14:30:00Z",
-          "note": "Nov 5 general strike: roughly 270,000 marched in 180 demonstrations outside Paris per an early-afternoon Interior Ministry count, with black-bloc clashes in Lyon and incidents in Nantes. Only 81 of 3,700 lycees were confirmed blocked (unions claimed 1,000+); rail disruption was patchy, not a full shutdown."
         }
       ]
     },
@@ -442,17 +442,21 @@
       "pattern": "a technical problem gets solved completely while the human question behind it - why this code, what it meant - stays exactly as open as before",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "More detail on the find: the Ann Francis was sailing home to Norfolk from Spain when it wrecked on Margam Beach near Port Talbot in a December 1583 storm; the lock and coin hoard are now on public display in the 'Tides of Treasure' exhibit at the National Waterfront Museum, Swansea. What the cracked code meant to its owner is still unknown.",
-      "status": "captured",
+      "why_now": "Dormant: the discovery and its exhibit placement are now fully reported; a further search found nothing new. Holding until a genuinely new angle (further research on the code's meaning, additional hoard items) surfaces.",
+      "status": "dormant",
       "editorial_potential": "medium",
       "url": "https://www.livescience.com/archaeology/cryptic-padlock-from-a-400-year-old-shipwreck-finally-opened-but-it-leaves-a-mystery",
       "location": "Cardiff, Wales (shipwreck off the Welsh coast)",
       "season_or_time_context": "Ship wrecked Dec 1583; hoard recovered 1996-2017; code cracked and announced Nov 4, 2026",
       "source_date": "2026-11-04",
       "first_seen": "2026-11-09T00:20:00Z",
-      "last_seen": "2026-11-11T14:30:00Z",
+      "last_seen": "2026-11-14T00:20:00Z",
       "appearances": 2,
       "history": [
+        {
+          "date": "2026-11-14T00:20:00Z",
+          "note": "No further development to report - the discovery and its exhibit placement are fully covered. Going dormant rather than restating the same facts."
+        },
         {
           "date": "2026-11-11T14:30:00Z",
           "note": "Additional detail: the Ann Francis was sailing home to Norfolk from Spain when it wrecked on Margam Beach near Port Talbot; the lock and hoard are now on public display in the 'Tides of Treasure' exhibit at Swansea's National Waterfront Museum."
@@ -541,17 +545,21 @@
       "pattern": "a diplomatic process restarts at a level below the principals who would need to agree to anything, which lets both sides test progress without either leader bearing the cost of a public collapse",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "Trilateral US-brokered talks opened Nov 10 in Abu Dhabi - the first Russia-Ukraine round since February - with Ukraine's Rustem Umerov and Russia's Vladimir Medinsky as chief negotiators; neither Zelensky, Putin, nor Rubio attended. US envoy Jared Kushner said recent contacts had 'narrowed the gaps,' and Rubio called the session 'very productive' without details. The agenda centers on postwar security guarantees; Russia is resisting European involvement, and both sides remain far apart on territorial terms. Talks continued into Nov 11; no outcome has been reported.",
+      "why_now": "The talks concluded Nov 11 with a prisoner-exchange agreement as the only concrete result - no breakthrough on territory or a ceasefire. Russia's delegation declined to meet European and NATO officials who were also in Abu Dhabi; US envoys now head to Moscow to meet Putin directly. Russia's negotiator cited partial 'mutual understanding'; US mediators pointed to a lack of trust between the sides.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://www.dailysabah.com/world/europe/russia-ukraine-resume-us-mediated-peace-talks-after-9-months/amp",
+      "url": "https://www.dailysabah.com/world/europe/us-envoys-head-for-moscow-as-trilateral-talks-on-ukraine-war-end/amp",
       "location": "Abu Dhabi, United Arab Emirates",
       "season_or_time_context": "Talks held Nov 10-11, 2026; first round since February 2026",
-      "source_date": "2026-11-10",
+      "source_date": "2026-11-11",
       "first_seen": "2026-11-13T14:30:00Z",
-      "last_seen": "2026-11-13T14:30:00Z",
-      "appearances": 1,
+      "last_seen": "2026-11-14T00:20:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-11-14T00:20:00Z",
+          "note": "Talks concluded Nov 11 with a prisoner-exchange agreement as the only concrete result - no breakthrough on territory. Russia declined to meet European/NATO officials also present in Abu Dhabi; US envoys now head to Moscow to meet Putin directly."
+        },
         {
           "date": "2026-11-13T14:30:00Z",
           "note": "US-brokered Russia-Ukraine talks opened Nov 10 in Abu Dhabi, the first round since February, led by deputy negotiators (Umerov, Medinsky) rather than Zelensky or Putin. Focused on postwar security guarantees; Russia resists European involvement; no outcome reported yet."
