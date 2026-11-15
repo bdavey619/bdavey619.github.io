@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-12",
-  "cycle_start": "2026-11-13T14:30:00Z",
-  "last_updated": "2026-11-14T00:20:00Z",
+  "cycle_start": "2026-11-14T00:20:00Z",
+  "last_updated": "2026-11-15T00:20:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -97,17 +97,21 @@
       "pattern": "a narrow, specific grievance absorbing a much larger, diffuse one until the original complaint becomes almost incidental",
       "transferability": "high",
       "cluster_id": "",
-      "why_now": "A youth-and-teacher intersyndicale held another action day Nov 10 (Education Ministry put teacher strike participation at 1.6%); the next dated flashpoint is a broader intersyndicale strike call for Nov 17 over wages, not the vaguer 'end of November' cross-European date floated earlier. The SMIC increase announced Nov 9 hasn't visibly cooled the movement.",
+      "why_now": "The Nov 17 strike's lineup is now clearer: CGT, UNSA, FSU, Solidaires, CFE-CGC and FAFP in the public sector (CFDT and FO have not joined), striking over the frozen point d'indice after rejecting the Nov 9 pay offer as insufficient.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://fr.euronews.com/2026/11/10/on-ne-se-bat-pas-que-pour-nous-les-lyceens-de-nouveau-dans-la-rue-pour-accentuer-la-pressi",
+      "url": "https://www.connexionfrance.com/news/strikes-and-protests-in-france-in-november-2026/827359",
       "location": "France (Paris, Toulouse, Lyon, Clermont-Ferrand)",
       "season_or_time_context": "Movement began mid-September 2026; weekly Saturday marches since, including Oct 17, Oct 24 and Oct 31; general strike held Nov 5",
-      "source_date": "2026-11-10",
+      "source_date": "2026-11-11",
       "first_seen": "2026-10-27T14:30:00Z",
-      "last_seen": "2026-11-14T00:20:00Z",
-      "appearances": 9,
+      "last_seen": "2026-11-15T00:20:00Z",
+      "appearances": 10,
       "history": [
+        {
+          "date": "2026-11-15T00:20:00Z",
+          "note": "The Nov 17 strike's union lineup: CGT, UNSA, FSU, Solidaires, CFE-CGC and FAFP in the public sector - CFDT and FO have not joined - striking over the frozen point d'indice after rejecting the Nov 9 SMIC offer as insufficient."
+        },
         {
           "date": "2026-11-14T00:20:00Z",
           "note": "A youth/teacher intersyndicale held another action day Nov 10 (1.6% of teachers on strike per the Education Ministry); the next dated flashpoint is a broader intersyndicale strike called for Nov 17 over wages."
@@ -123,10 +127,6 @@
         {
           "date": "2026-11-10T00:20:00Z",
           "note": "The Interior Ministry's official Nov 7 bilan: 146,000 marched nationwide (46,000 in Paris) across 141 actions - down sharply from the 575,000 counted on Nov 5 - with incidents in several big cities, contained by police."
-        },
-        {
-          "date": "2026-11-08T00:20:00Z",
-          "note": "Organizers called a continued 'Acte IV' push for Nov 6-7 - a strike Nov 6 followed by nationwide marches Saturday, Nov 7 - extending the movement a second week past the Nov 5 general strike. Turnout figures for the weekend haven't been reported yet."
         }
       ]
     },
@@ -563,6 +563,35 @@
         {
           "date": "2026-11-13T14:30:00Z",
           "note": "US-brokered Russia-Ukraine talks opened Nov 10 in Abu Dhabi, the first round since February, led by deputy negotiators (Umerov, Medinsky) rather than Zelensky or Putin. Focused on postwar security guarantees; Russia resists European involvement; no outcome reported yet."
+        }
+      ]
+    },
+    {
+      "id": "pope-leo-south-america-tour-2026",
+      "stream": "human_rituals",
+      "category": "Religion",
+      "observer": "Why Today?",
+      "title": "A pope's first big trip abroad retraces the one diocese he used to run",
+      "observation": "Pope Leo XIV's first South America trip (Nov 6-17) made history at each stop: the first papal visit to Uruguay since 1988 and to Argentina since 1987, then on to Peru, where he served as Bishop of Chiclayo for eight years before his 2025 election.",
+      "question": "What does it mean for a new leader's first major trip abroad to retrace the exact local post he held right before the promotion?",
+      "hidden_question": "Is revisiting a former diocese as pope an act of humility and continuity, or does the office's global spotlight inevitably turn a homecoming into something else?",
+      "pattern": "a leader's first major trip in a new role revisits the specific local post held right before taking it, testing whether the old relationship survives the new title",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "The Peru leg (Nov 11-17) is underway now - Lima, Chiclayo (his former diocese), Cusco and Pucallpa - with a farewell Mass expected around Nov 16 before he returns to Rome, closing out the three-country tour.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://andina.pe/ingles/noticia-welcome-home-pope-leo-xiv-is-now-in-his-beloved-peru-1099552.aspx",
+      "location": "Montevideo & Paysandu, Uruguay / Buenos Aires & Cordoba, Argentina / Lima & Chiclayo, Peru",
+      "season_or_time_context": "Tour runs Nov 6-17, 2026: Uruguay Nov 6-8, Argentina Nov 8-11, Peru Nov 11-17",
+      "source_date": "2026-11-11",
+      "first_seen": "2026-11-15T00:20:00Z",
+      "last_seen": "2026-11-15T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-11-15T00:20:00Z",
+          "note": "Uruguay (first papal visit since 1988): ~40,000 at a Paysandu Mass, a vigil at Montevideo's Centenario Stadium. Argentina (first since 1987): millions in Buenos Aires streets; the pope told Milei the economy must serve people, not the reverse. Now in Peru, his former diocese."
         }
       ]
     }
