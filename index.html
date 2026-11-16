@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Brett Davey</title>
   <meta name="description" content="I build small things that change what you notice. Projects about attention, hidden patterns, and seeing a place for what it is.">
-  <meta name="theme-color" content="#dbe3e8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#fbfcfc" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0d2a31" media="(prefers-color-scheme: dark)">
   <meta property="og:title" content="Brett Davey">
   <meta property="og:description" content="I build small things that change what you notice. Projects about attention, hidden patterns, and seeing a place for what it is.">
@@ -20,159 +20,116 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <script>
-    /* Runs before first paint so a stored choice never flashes the wrong theme.
-       With no stored choice we leave the page unstamped and let the CSS
-       prefers-color-scheme block decide, which also means the page follows
-       live OS changes for free. Local time is only consulted when the OS
-       reports no preference at all. */
-    (function () {
-      try {
-        var d = document.documentElement,
-            c = localStorage.getItem('theme-choice');
-        if (c === 'light' || c === 'dark') { d.setAttribute('data-theme', c); return; }
-        if (window.matchMedia('(prefers-color-scheme: no-preference)').matches) {
-          var h = new Date().getHours();
-          d.setAttribute('data-theme', (h < 7 || h >= 19) ? 'dark' : 'light');
-        }
-      } catch (e) {}
-    })();
+    /* Honor a theme chosen elsewhere on the site; otherwise follow the OS. */
+    try { var c = localStorage.getItem('theme-choice'); if (c === 'light' || c === 'dark') document.documentElement.setAttribute('data-theme', c); } catch (e) {}
   </script>
-  <link rel="stylesheet" href="css/style.css">
+  <style>
+    :root {
+      --bg: #fbfcfc;
+      --text: #2b3439;
+      --strong: #16232c;
+      --muted: #6b7a82;
+      --link: #0b6e7a;
+      --rule: #e6ebee;
+    }
+    [data-theme="dark"] {
+      --bg: #0d2a31; --text: #cfdcdf; --strong: #eef4f5; --muted: #8ea8ad; --link: #6fc7d1; --rule: #1d4753;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: #0d2a31; --text: #cfdcdf; --strong: #eef4f5; --muted: #8ea8ad; --link: #6fc7d1; --rule: #1d4753;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 18px/1.75 -apple-system, BlinkMacSystemFont, "Segoe UI", "Open Sans", Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 640px; margin: 0 auto; padding: 0 20px; }
+
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 28px 0 14px; border-bottom: 1px solid var(--rule);
+    }
+    .name { font-weight: 700; font-size: 19px; color: var(--strong); text-decoration: none; }
+    .icons { display: flex; gap: 18px; }
+    .icons a { color: var(--strong); display: flex; }
+    .icons a:hover { color: var(--link); }
+    .icons svg { width: 20px; height: 20px; fill: currentColor; }
+
+    main { padding: 36px 0 8px; }
+    h1, h2 { color: var(--strong); line-height: 1.3; }
+    h1 { font-size: 24px; margin: 0 0 12px; }
+    h2 { font-size: 19px; margin: 44px 0 4px; }
+    p { margin: 0 0 18px; }
+    .sub { color: var(--muted); font-size: 16px; margin: 0 0 14px; }
+
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+    ul { list-style: none; padding: 0; margin: 0; }
+    li { margin: 0 0 16px; }
+    li a { font-weight: 600; }
+    .status { color: var(--muted); font-size: 14px; white-space: nowrap; }
+    .status::before { content: "· "; }
+    li p { margin: 0; }
+
+    footer {
+      text-align: center; color: var(--muted); font-size: 15px;
+      padding: 40px 0 48px;
+    }
+  </style>
 </head>
 <body>
-  <div class="container container--home">
+  <div class="wrap">
     <header>
-      <nav>
-        <div class="site-title">
-          <a href="/" class="site-name">Brett Davey</a>
-          <div class="site-status">Building in San Diego 🌊☀️</div>
-        </div>
-        <div class="nav-actions">
-          <button class="theme-toggle" aria-label="Toggle dark mode">☽</button>
-        </div>
+      <a href="/" class="name">Brett Davey</a>
+      <nav class="icons" aria-label="Contact">
+        <a href="https://linkedin.com/in/bretttdavey" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.3-.03-3-1.83-3-1.83 0-2.12 1.43-2.12 2.9V21H9z"/></svg></a>
+        <a href="https://github.com/bdavey619" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+        <a href="mailto:bdavey619@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5h20v14H2zm2 2v.4l8 5.3 8-5.3V7zm16 2.8-8 5.3-8-5.3V17h16z"/></svg></a>
       </nav>
     </header>
 
     <main>
-      <div class="lede">
-        <h1>I build small things that <span class="hit">change what you notice.</span></h1>
-      </div>
+      <h1>I build small things that change what you notice.</h1>
+      <p>Based in San Diego. Projects about attention, hidden patterns, and seeing a place for what it is.</p>
 
-      <a class="hero-project" href="/seasonal-basket/">
-        <span class="shot"><picture><source media="(max-width: 620px)" srcset="/assets/projects/seasonal-sm.jpg" width="800" height="600"><img src="/assets/projects/seasonal.jpg" alt="" width="1280" height="427" fetchpriority="high" decoding="async"></picture></span>
-        <span class="meta">
-          <span class="title-row">
-            <h2>Seasonal</h2>
-            <span class="status status--live">Live · August edition</span>
-          </span>
-          <p>Keep the meal. Change the season. Your cooking stays exactly as it is, and starts to taste like the month.</p>
-          <span class="go">View →</span>
-        </span>
-      </a>
+      <h2>Still running</h2>
+      <p class="sub">What I use, and still add to.</p>
+      <ul>
+        <li><a href="/seasonal-basket/">Seasonal</a> <span class="status">Live · August edition</span>
+          <p>Keep the meal. Change the season. Your cooking stays exactly as it is, and starts to taste like the month.</p></li>
+        <li><a href="/why-today/">Why Today</a> <span class="status">Live · 11 editions</span>
+          <p>A day's news, turned into the question it quietly raises.</p></li>
+        <li><a href="/mustwatch/">Must Watch</a> <span class="status">Live · weekly</span>
+          <p>Twenty games tonight. One is worth your evening — here's which, and why.</p></li>
+        <li><a href="/padres/">Morning Brief</a> <span class="status">Live · daily</span>
+          <p>Yesterday's game, and what it sets up tonight.</p></li>
+        <li><a href="/the-local-season/">The Local Season</a> <span class="status">Building · 2 cities</span>
+          <p>Not the best month to visit. The month a city is most itself.</p></li>
+      </ul>
 
-      <section class="group">
-        <div class="ghead">
-          <h2>Still running</h2>
-          <p>What I use, and still add to.</p>
-        </div>
-
-        <a class="feat" href="/why-today/" data-reveal>
-          <span class="shot"><picture><source media="(max-width: 620px)" srcset="/assets/projects/why-today-sm.jpg" width="800" height="600"><img src="/assets/projects/why-today.jpg" alt="" width="1280" height="427" loading="lazy" decoding="async"></picture></span>
-          <span class="meta">
-            <span class="title-row">
-              <h3>Why Today</h3>
-              <span class="status status--live">Live · 11 editions</span>
-            </span>
-            <p>A day's news, turned into the question it quietly raises.</p>
-            <span class="go">View →</span>
-          </span>
-        </a>
-
-        <div class="rest">
-          <a class="card" href="/mustwatch/" data-reveal>
-            <span class="shot"><picture><source media="(max-width: 620px)" srcset="/assets/projects/must-watch-sm.jpg" width="800" height="600"><img src="/assets/projects/must-watch.jpg" alt="" width="1280" height="427" loading="lazy" decoding="async"></picture></span>
-            <span class="title-row">
-              <h3>Must Watch</h3>
-              <span class="status status--live">Live · weekly</span>
-            </span>
-            <p>Twenty games tonight. One is worth your evening — here's which, and why.</p>
-          </a>
-          <a class="card" href="/padres/" data-reveal>
-            <span class="shot"><picture><source media="(max-width: 620px)" srcset="/assets/projects/morning-brief-sm.jpg" width="800" height="600"><img src="/assets/projects/morning-brief.jpg" alt="" width="1280" height="427" loading="lazy" decoding="async"></picture></span>
-            <span class="title-row">
-              <h3>Morning Brief</h3>
-              <span class="status status--live">Live · daily</span>
-            </span>
-            <p>Yesterday's game, and what it sets up tonight.</p>
-          </a>
-          <a class="card" href="/the-local-season/" data-reveal>
-            <span class="shot"><picture><source media="(max-width: 620px)" srcset="/assets/projects/local-season-sm.jpg" width="800" height="600"><img src="/assets/projects/local-season.jpg" alt="" width="1280" height="427" loading="lazy" decoding="async"></picture></span>
-            <span class="title-row">
-              <h3>The Local Season</h3>
-              <span class="status status--building">Building · 2 cities</span>
-            </span>
-            <p>Not the best month to visit. The month a city is most itself.</p>
-          </a>
-        </div>
-      </section>
-
-      <section class="group">
-        <div class="ghead">
-          <h2>Point in time</h2>
-          <p>Built for a moment. Finished, and still worth reading.</p>
-        </div>
-
-        <a class="feat" href="/world-cup-guide/" data-reveal>
-          <span class="shot"><picture><source media="(max-width: 620px)" srcset="/assets/projects/world-cup-guide-sm.jpg" width="800" height="600"><img src="/assets/projects/world-cup-guide.jpg" alt="" width="1280" height="427" loading="lazy" decoding="async"></picture></span>
-          <span class="meta">
-            <span class="title-row">
-              <h3>World Cup Guide</h3>
-              <span class="status status--complete">Complete · 2026 tournament</span>
-            </span>
-            <p>Know what's at stake before kickoff, not just who's playing. All 48 teams, and how each one got here.</p>
-            <span class="go">View →</span>
-          </span>
-        </a>
-
-        <div class="rest">
-          <a class="card" href="/debt-cycle-explainer/" data-reveal>
-            <span class="shot"><picture><source media="(max-width: 620px)" srcset="/assets/projects/debt-cycle-sm.jpg" width="800" height="600"><img src="/assets/projects/debt-cycle.jpg" alt="" width="1280" height="427" loading="lazy" decoding="async"></picture></span>
-            <span class="title-row">
-              <h3>Debt Cycle Explainer</h3>
-              <span class="status status--complete">Complete · Feb 2026</span>
-            </span>
-            <p>The slow arithmetic behind a sudden currency crisis.</p>
-          </a>
-          <a class="card" href="/operation-epic-fury/" data-reveal>
-            <span class="shot"><picture><source media="(max-width: 620px)" srcset="/assets/projects/epic-fury-sm.jpg" width="800" height="600"><img src="/assets/projects/epic-fury.jpg" alt="" width="1280" height="427" loading="lazy" decoding="async"></picture></span>
-            <span class="title-row">
-              <h3>Operation Epic Fury</h3>
-              <span class="status status--complete">Complete · Feb 2026</span>
-            </span>
-            <p>How a conflict escalates — the shape of a spiral, drawn while it was happening.</p>
-          </a>
-          <a class="card" href="/dockside-market/" data-reveal>
-            <span class="shot"><picture><source media="(max-width: 620px)" srcset="/assets/projects/dockside-sm.jpg" width="800" height="600"><img src="/assets/projects/dockside.jpg" alt="" width="1280" height="427" loading="lazy" decoding="async"></picture></span>
-            <span class="title-row">
-              <h3>Dockside Market</h3>
-              <span class="status status--retired">Retired · Feb 2026</span>
-            </span>
-            <p>The price of fish, and what it gives away about the water.</p>
-          </a>
-        </div>
-      </section>
+      <h2>Point in time</h2>
+      <p class="sub">Built for a moment. Finished, and still worth reading.</p>
+      <ul>
+        <li><a href="/world-cup-guide/">World Cup Guide</a> <span class="status">Complete · 2026</span>
+          <p>Know what's at stake before kickoff, not just who's playing. All 48 teams, and how each one got here.</p></li>
+        <li><a href="/debt-cycle-explainer/">Debt Cycle Explainer</a> <span class="status">Feb 2026</span>
+          <p>The slow arithmetic behind a sudden currency crisis.</p></li>
+        <li><a href="/operation-epic-fury/">Operation Epic Fury</a> <span class="status">Feb 2026</span>
+          <p>How a conflict escalates — the shape of a spiral, drawn while it was happening.</p></li>
+        <li><a href="/dockside-market/">Dockside Market</a> <span class="status">Retired · Feb 2026</span>
+          <p>The price of fish, and what it gives away about the water.</p></li>
+      </ul>
     </main>
 
-    <footer>
-      <div class="footer-row">
-        <p class="contact-links">
-          <a href="mailto:bdavey619@gmail.com">Email</a>
-          <a href="https://github.com/bdavey619" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://linkedin.com/in/bretttdavey" target="_blank" rel="noopener">LinkedIn</a>
-        </p>
-      </div>
-    </footer>
+    <footer>Building in San Diego 🌊☀️</footer>
   </div>
-  <script src="js/main.js"></script>
 </body>
 </html>
