@@ -20,17 +20,13 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <script>
-    /* Honor a theme chosen elsewhere on the site; otherwise follow the OS. */
+    /* Before first paint: apply a stored theme choice so it never flashes.
+       With no choice, CSS follows the OS. */
     try { var c = localStorage.getItem('theme-choice'); if (c === 'light' || c === 'dark') document.documentElement.setAttribute('data-theme', c); } catch (e) {}
   </script>
   <style>
     :root {
-      --bg: #fbfcfc;
-      --text: #2b3439;
-      --strong: #16232c;
-      --muted: #6b7a82;
-      --link: #0b6e7a;
-      --rule: #e6ebee;
+      --bg: #fbfcfc; --text: #2b3439; --strong: #16232c; --muted: #6b7a82; --link: #0b6e7a; --rule: #e6ebee;
     }
     [data-theme="dark"] {
       --bg: #0d2a31; --text: #cfdcdf; --strong: #eef4f5; --muted: #8ea8ad; --link: #6fc7d1; --rule: #1d4753;
@@ -44,92 +40,104 @@
     * { box-sizing: border-box; }
     html { -webkit-text-size-adjust: 100%; }
     body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font: 18px/1.75 -apple-system, BlinkMacSystemFont, "Segoe UI", "Open Sans", Helvetica, Arial, sans-serif;
+      margin: 0; background: var(--bg); color: var(--text);
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "Open Sans", Helvetica, Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
     }
-    .wrap { max-width: 640px; margin: 0 auto; padding: 0 20px; }
+    .wrap { max-width: 600px; margin: 0 auto; padding: 0 20px; min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; }
 
     header {
       display: flex; align-items: center; justify-content: space-between;
-      padding: 28px 0 14px; border-bottom: 1px solid var(--rule);
+      padding: 18px 0 10px; border-bottom: 1px solid var(--rule);
     }
-    .name { font-weight: 700; font-size: 19px; color: var(--strong); text-decoration: none; }
-    .icons { display: flex; gap: 18px; }
-    .icons a { color: var(--strong); display: flex; }
-    .icons a:hover { color: var(--link); }
-    .icons svg { width: 20px; height: 20px; fill: currentColor; }
+    .name { display: block; font-weight: 700; font-size: 18px; line-height: 1.3; color: var(--strong); text-decoration: none; }
+    .status-line { font-size: 14px; color: var(--muted); }
+    .theme-toggle {
+      background: none; border: 0; padding: 6px; cursor: pointer;
+      font-size: 20px; line-height: 1; color: var(--strong);
+    }
 
-    main { padding: 36px 0 8px; }
-    h1, h2 { color: var(--strong); line-height: 1.3; }
-    h1 { font-size: 24px; margin: 0 0 12px; }
-    h2 { font-size: 19px; margin: 44px 0 4px; }
-    p { margin: 0 0 18px; }
-    .sub { color: var(--muted); font-size: 16px; margin: 0 0 14px; }
+    main { flex: 1; padding: 20px 0 0; }
+    h1 { color: var(--strong); font-size: 22px; line-height: 1.3; margin: 0 0 4px; }
+    h2 {
+      color: var(--muted); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em;
+      margin: 20px 0 4px;
+    }
 
     a { color: var(--link); text-decoration: none; }
     a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
     ul { list-style: none; padding: 0; margin: 0; }
-    li { margin: 0 0 16px; }
+    li { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 4px 0; }
     li a { font-weight: 600; }
-    .status { color: var(--muted); font-size: 14px; white-space: nowrap; }
-    .status::before { content: "· "; }
-    li p { margin: 0; }
+    li span { color: var(--muted); font-size: 14px; white-space: nowrap; }
 
-    footer {
-      text-align: center; color: var(--muted); font-size: 15px;
-      padding: 40px 0 48px;
-    }
+    footer { display: flex; justify-content: center; gap: 28px; padding: 20px 0 24px; }
+    footer a { color: var(--muted); display: flex; }
+    footer a:hover { color: var(--link); }
+    footer svg { width: 20px; height: 20px; fill: currentColor; }
   </style>
 </head>
 <body>
   <div class="wrap">
     <header>
-      <a href="/" class="name">Brett Davey</a>
-      <nav class="icons" aria-label="Contact">
-        <a href="https://linkedin.com/in/bretttdavey" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.3-.03-3-1.83-3-1.83 0-2.12 1.43-2.12 2.9V21H9z"/></svg></a>
-        <a href="https://github.com/bdavey619" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
-        <a href="mailto:bdavey619@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5h20v14H2zm2 2v.4l8 5.3 8-5.3V7zm16 2.8-8 5.3-8-5.3V17h16z"/></svg></a>
-      </nav>
+      <div>
+        <a href="/" class="name">Brett Davey</a>
+        <div class="status-line">Building in San Diego 🌊☀️</div>
+      </div>
+      <button class="theme-toggle" aria-label="Toggle dark mode">☽</button>
     </header>
 
     <main>
       <h1>I build small things that change what you notice.</h1>
-      <p>Based in San Diego. Projects about attention, hidden patterns, and seeing a place for what it is.</p>
 
       <h2>Still running</h2>
-      <p class="sub">What I use, and still add to.</p>
       <ul>
-        <li><a href="/seasonal-basket/">Seasonal</a> <span class="status">Live · August edition</span>
-          <p>Keep the meal. Change the season. Your cooking stays exactly as it is, and starts to taste like the month.</p></li>
-        <li><a href="/why-today/">Why Today</a> <span class="status">Live · 11 editions</span>
-          <p>A day's news, turned into the question it quietly raises.</p></li>
-        <li><a href="/mustwatch/">Must Watch</a> <span class="status">Live · weekly</span>
-          <p>Twenty games tonight. One is worth your evening — here's which, and why.</p></li>
-        <li><a href="/padres/">Morning Brief</a> <span class="status">Live · daily</span>
-          <p>Yesterday's game, and what it sets up tonight.</p></li>
-        <li><a href="/the-local-season/">The Local Season</a> <span class="status">Building · 2 cities</span>
-          <p>Not the best month to visit. The month a city is most itself.</p></li>
+        <li><a href="/seasonal-basket/" title="Keep the meal. Change the season.">Seasonal</a> <span>Live · August edition</span></li>
+        <li><a href="/why-today/" title="A day's news, turned into the question it quietly raises.">Why Today</a> <span>Live · 11 editions</span></li>
+        <li><a href="/mustwatch/" title="Twenty games tonight. One is worth your evening — here's which, and why.">Must Watch</a> <span>Live · weekly</span></li>
+        <li><a href="/padres/" title="Yesterday's game, and what it sets up tonight.">Morning Brief</a> <span>Live · daily</span></li>
+        <li><a href="/the-local-season/" title="Not the best month to visit. The month a city is most itself.">The Local Season</a> <span>Building · 2 cities</span></li>
       </ul>
 
       <h2>Point in time</h2>
-      <p class="sub">Built for a moment. Finished, and still worth reading.</p>
       <ul>
-        <li><a href="/world-cup-guide/">World Cup Guide</a> <span class="status">Complete · 2026</span>
-          <p>Know what's at stake before kickoff, not just who's playing. All 48 teams, and how each one got here.</p></li>
-        <li><a href="/debt-cycle-explainer/">Debt Cycle Explainer</a> <span class="status">Feb 2026</span>
-          <p>The slow arithmetic behind a sudden currency crisis.</p></li>
-        <li><a href="/operation-epic-fury/">Operation Epic Fury</a> <span class="status">Feb 2026</span>
-          <p>How a conflict escalates — the shape of a spiral, drawn while it was happening.</p></li>
-        <li><a href="/dockside-market/">Dockside Market</a> <span class="status">Retired · Feb 2026</span>
-          <p>The price of fish, and what it gives away about the water.</p></li>
+        <li><a href="/world-cup-guide/" title="Know what's at stake before kickoff, not just who's playing.">World Cup Guide</a> <span>2026 tournament</span></li>
+        <li><a href="/debt-cycle-explainer/" title="The slow arithmetic behind a sudden currency crisis.">Debt Cycle Explainer</a> <span>Feb 2026</span></li>
+        <li><a href="/operation-epic-fury/" title="How a conflict escalates — the shape of a spiral, drawn while it was happening.">Operation Epic Fury</a> <span>Feb 2026</span></li>
+        <li><a href="/dockside-market/" title="The price of fish, and what it gives away about the water.">Dockside Market</a> <span>Retired · Feb 2026</span></li>
       </ul>
     </main>
 
-    <footer>Building in San Diego 🌊☀️</footer>
+    <footer>
+      <a href="https://linkedin.com/in/bretttdavey" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.3-.03-3-1.83-3-1.83 0-2.12 1.43-2.12 2.9V21H9z"/></svg></a>
+      <a href="https://github.com/bdavey619" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+      <a href="mailto:bdavey619@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5h20v14H2zm2 2v.4l8 5.3 8-5.3V7zm16 2.8-8 5.3-8-5.3V17h16z"/></svg></a>
+    </footer>
   </div>
+  <script>
+    (function () {
+      var root = document.documentElement, btn = document.querySelector('.theme-toggle'),
+          os = window.matchMedia('(prefers-color-scheme: dark)'),
+          colors = { light: '#fbfcfc', dark: '#0d2a31' };
+      function current() { return root.getAttribute('data-theme') || (os.matches ? 'dark' : 'light'); }
+      function paint() {
+        var dark = current() === 'dark', set = root.getAttribute('data-theme');
+        btn.textContent = dark ? '☀' : '☽';
+        btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+        document.querySelectorAll('meta[name="theme-color"]').forEach(function (m) {
+          m.content = colors[set || ((m.media || '').indexOf('dark') > -1 ? 'dark' : 'light')];
+        });
+      }
+      btn.addEventListener('click', function () {
+        var next = current() === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme-choice', next); } catch (e) {}
+        paint();
+      });
+      if (os.addEventListener) os.addEventListener('change', function () { if (!root.hasAttribute('data-theme')) paint(); });
+      paint();
+    })();
+  </script>
 </body>
 </html>
