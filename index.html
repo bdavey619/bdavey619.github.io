@@ -22,18 +22,23 @@
   <script>
     /* Before first paint: apply a stored theme choice so it never flashes.
        With no choice, CSS follows the OS. */
-    try { var c = localStorage.getItem('theme-choice'); if (c === 'light' || c === 'dark') document.documentElement.setAttribute('data-theme', c); } catch (e) {}
+    /* Phones default to dark; a tap on the toggle still overrides it. */
+    try {
+      var c = localStorage.getItem('theme-choice');
+      if (c !== 'light' && c !== 'dark' && window.matchMedia('(max-width: 640px)').matches) c = 'dark';
+      if (c === 'light' || c === 'dark') document.documentElement.setAttribute('data-theme', c);
+    } catch (e) {}
   </script>
   <style>
     :root {
-      --bg: #fbfcfc; --text: #2b3439; --strong: #16232c; --muted: #6b7a82; --link: #0b6e7a; --rule: #e6ebee;
+      --bg: #fbfcfc; --text: #2b3439; --strong: #16232c; --muted: #6b7a82; --link: #0b6e7a; --accent: #0b5d68; --rule: #e6ebee;
     }
     [data-theme="dark"] {
-      --bg: #0d2a31; --text: #cfdcdf; --strong: #eef4f5; --muted: #8ea8ad; --link: #6fc7d1; --rule: #1d4753;
+      --bg: #0d2a31; --text: #cfdcdf; --strong: #eef4f5; --muted: #8ea8ad; --link: #6fc7d1; --accent: #6fc7d1; --rule: #1d4753;
     }
     @media (prefers-color-scheme: dark) {
       :root:not([data-theme="light"]) {
-        --bg: #0d2a31; --text: #cfdcdf; --strong: #eef4f5; --muted: #8ea8ad; --link: #6fc7d1; --rule: #1d4753;
+        --bg: #0d2a31; --text: #cfdcdf; --strong: #eef4f5; --muted: #8ea8ad; --link: #6fc7d1; --accent: #6fc7d1; --rule: #1d4753;
       }
     }
 
@@ -59,6 +64,7 @@
 
     main { flex: 1; padding: 20px 0 0; }
     h1 { color: var(--strong); font-size: 22px; line-height: 1.3; margin: 0 0 4px; }
+    h1 .hit { color: var(--accent); }
     h2 {
       color: var(--muted); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em;
       margin: 20px 0 4px;
@@ -89,7 +95,7 @@
     </header>
 
     <main>
-      <h1>I build small things that change what you notice.</h1>
+      <h1>I build small things that <span class="hit">change what you notice.</span></h1>
 
       <h2>Still running</h2>
       <ul>
