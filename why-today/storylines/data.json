@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-12",
-  "cycle_start": "2026-11-14T00:20:00Z",
-  "last_updated": "2026-11-15T00:20:00Z",
+  "cycle_start": "2026-11-15T00:20:00Z",
+  "last_updated": "2026-11-16T14:30:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -545,17 +545,21 @@
       "pattern": "a diplomatic process restarts at a level below the principals who would need to agree to anything, which lets both sides test progress without either leader bearing the cost of a public collapse",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The talks concluded Nov 11 with a prisoner-exchange agreement as the only concrete result - no breakthrough on territory or a ceasefire. Russia's delegation declined to meet European and NATO officials who were also in Abu Dhabi; US envoys now head to Moscow to meet Putin directly. Russia's negotiator cited partial 'mutual understanding'; US mediators pointed to a lack of trust between the sides.",
-      "status": "captured",
+      "why_now": "Dormant: the planned Nov 12 Moscow meeting (Putin/Witkoff/Kushner) and the Nov 12 Dublin debrief with Zelensky were both confirmed as scheduled, but four cycles of searching have found no independently verifiable readout of either - only recycled 'no breakthrough' language matching the Dec 2025/Jan/Sept 2026 rounds, plus a few outlets (Newsweek, Kyiv Post) with specific but unconfirmable claims (a reaffirmed prisoner swap, a 'permanent peace' demand) that two blocked domains (kremlin.ru, azat.tv) couldn't verify. Holding until a cleanly sourced outcome surfaces rather than reporting an unverified one.",
+      "status": "dormant",
       "editorial_potential": "high",
       "url": "https://www.dailysabah.com/world/europe/us-envoys-head-for-moscow-as-trilateral-talks-on-ukraine-war-end/amp",
       "location": "Abu Dhabi, United Arab Emirates",
       "season_or_time_context": "Talks held Nov 10-11, 2026; first round since February 2026",
       "source_date": "2026-11-11",
       "first_seen": "2026-11-13T14:30:00Z",
-      "last_seen": "2026-11-14T00:20:00Z",
-      "appearances": 2,
+      "last_seen": "2026-11-16T14:30:00Z",
+      "appearances": 3,
       "history": [
+        {
+          "date": "2026-11-16T14:30:00Z",
+          "note": "Still unable to independently confirm the outcome of the Nov 12 Moscow meeting or Dublin debrief after four search passes; going dormant rather than reporting an unverified readout."
+        },
         {
           "date": "2026-11-14T00:20:00Z",
           "note": "Talks concluded Nov 11 with a prisoner-exchange agreement as the only concrete result - no breakthrough on territory. Russia declined to meet European/NATO officials also present in Abu Dhabi; US envoys now head to Moscow to meet Putin directly."
@@ -578,17 +582,21 @@
       "pattern": "a leader's first major trip in a new role revisits the specific local post held right before taking it, testing whether the old relationship survives the new title",
       "transferability": "medium",
       "cluster_id": "",
-      "why_now": "The Peru leg (Nov 11-17) is underway now - Lima, Chiclayo (his former diocese), Cusco and Pucallpa - with a farewell Mass expected around Nov 16 before he returns to Rome, closing out the three-country tour.",
+      "why_now": "Argentina's closing Mass at the Basilica of Lujan on Nov 11 drew an estimated 2-3 million, the largest crowd of the whole tour. Today (Nov 16) he says a final Mass at Lima's Las Palmas Air Base - pre-event estimates ran 1.2-2 million - before a farewell ceremony at Callao and the flight back to Rome.",
       "status": "captured",
       "editorial_potential": "high",
-      "url": "https://andina.pe/ingles/noticia-welcome-home-pope-leo-xiv-is-now-in-his-beloved-peru-1099552.aspx",
+      "url": "https://batimes.com.ar/news/amp/argentina/over-three-million-attend-pope-leos-final-mass-in-lujan.phtml",
       "location": "Montevideo & Paysandu, Uruguay / Buenos Aires & Cordoba, Argentina / Lima & Chiclayo, Peru",
       "season_or_time_context": "Tour runs Nov 6-17, 2026: Uruguay Nov 6-8, Argentina Nov 8-11, Peru Nov 11-17",
       "source_date": "2026-11-11",
       "first_seen": "2026-11-15T00:20:00Z",
-      "last_seen": "2026-11-15T00:20:00Z",
-      "appearances": 1,
+      "last_seen": "2026-11-16T14:30:00Z",
+      "appearances": 2,
       "history": [
+        {
+          "date": "2026-11-16T14:30:00Z",
+          "note": "Argentina's closing Mass at the Basilica of Lujan (Nov 11) drew an estimated 2-3 million, the tour's largest crowd. Today's Las Palmas Mass in Lima (pre-event estimate: 1.2-2 million) closes out the trip before the pope returns to Rome."
+        },
         {
           "date": "2026-11-15T00:20:00Z",
           "note": "Uruguay (first papal visit since 1988): ~40,000 at a Paysandu Mass, a vigil at Montevideo's Centenario Stadium. Argentina (first since 1987): millions in Buenos Aires streets; the pope told Milei the economy must serve people, not the reverse. Now in Peru, his former diocese."
