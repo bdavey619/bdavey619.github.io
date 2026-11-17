@@ -4,12 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Feedback</title>
+  <script>
+    /* Before first paint: apply a stored theme choice so it never flashes.
+       With no choice, CSS follows the OS. */
+    /* Phones default to dark; a tap on the toggle still overrides it. */
+    try {
+      var c = localStorage.getItem('theme-choice');
+      if (c !== 'light' && c !== 'dark' && window.matchMedia('(max-width: 640px)').matches) c = 'dark';
+      if (c === 'light' || c === 'dark') document.documentElement.setAttribute('data-theme', c);
+    } catch (e) {}
+  </script>
   <style>
+    :root { --bg: #fbfcfc; --strong: #16232c; --text: #2b3439; --muted: #6b7a82; --link: #0b6e7a; --rule: #e6ebee; }
+    [data-theme="dark"] { --bg: #0d2a31; --strong: #eef4f5; --text: #cfdcdf; --muted: #8ea8ad; --link: #6fc7d1; --rule: #1d4753; }
+    @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #0d2a31; --strong: #eef4f5; --text: #cfdcdf; --muted: #8ea8ad; --link: #6fc7d1; --rule: #1d4753; } }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
-      background: #faf8f3;
-      color: #1a1613;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Open Sans", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--strong);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -25,20 +38,19 @@
       font-size: 10px;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      color: #8a8278;
+      color: var(--muted);
       font-weight: 600;
       margin-bottom: 16px;
     }
     .message {
-      font-family: Georgia, 'Times New Roman', serif;
-      font-size: 28px;
+      font-size: 24px;
       font-weight: 700;
       line-height: 1.2;
       margin-bottom: 8px;
     }
     .sub {
       font-size: 13px;
-      color: #8a8278;
+      color: var(--muted);
       margin-bottom: 28px;
     }
     .back-link {
@@ -47,11 +59,11 @@
       text-transform: uppercase;
       font-weight: 600;
       text-decoration: none;
-      color: #5a534c;
-      border-bottom: 1px solid #d8d2c4;
+      color: var(--text);
+      border-bottom: 1px solid var(--rule);
       padding-bottom: 1px;
     }
-    .back-link:hover { color: #1a1613; border-color: #1a1613; }
+    .back-link:hover { color: var(--strong); border-color: var(--strong); }
   </style>
 </head>
 <body>
