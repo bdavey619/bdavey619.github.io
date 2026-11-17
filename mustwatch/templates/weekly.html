@@ -4,32 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Must Watch This Week</title>
+  <meta name="theme-color" content="#fbfcfc" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d2a31" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <script>
+    /* Before first paint: apply a stored theme choice so it never flashes.
+       With no choice, CSS follows the OS. */
+    /* Phones default to dark; a tap on the toggle still overrides it. */
+    try {
+      var c = localStorage.getItem('theme-choice');
+      if (c !== 'light' && c !== 'dark' && window.matchMedia('(max-width: 640px)').matches) c = 'dark';
+      if (c === 'light' || c === 'dark') document.documentElement.setAttribute('data-theme', c);
+    } catch (e) {}
+  </script>
   <style>
+    :root {
+      --bg: #fbfcfc; --surface: #f1f4f6; --strong: #16232c; --text: #2b3439; --muted: #6b7a82;
+      --rule: #e1e7ea; --rule-strong: #c9d3d8; --link: #0b6e7a;
+    }
+    [data-theme="dark"] {
+      --bg: #0d2a31; --surface: #12363f; --strong: #eef4f5; --text: #cfdcdf; --muted: #8ea8ad;
+      --rule: #1d4753; --rule-strong: #2a5a66; --link: #6fc7d1;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: #0d2a31; --surface: #12363f; --strong: #eef4f5; --text: #cfdcdf; --muted: #8ea8ad;
+        --rule: #1d4753; --rule-strong: #2a5a66; --link: #6fc7d1;
+      }
+    }
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
-      background: #fafaf8;
-      color: #1a1a1a;
+      background: var(--bg);
+      color: var(--strong);
       line-height: 1.5;
     }
 
     .page {
-      max-width: 680px;
-      margin: 48px auto;
-      padding: 0 24px 64px;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0 20px 24px;
     }
 
     /* ---- Header ---- */
 
     .header {
-      border-bottom: 2px solid #1a1a1a;
+      border-bottom: 0;
       padding-bottom: 14px;
       margin-bottom: 28px;
     }
 
     .header-title {
-      font-size: 26px;
+      font-size: 24px;
       font-weight: 700;
       letter-spacing: -0.02em;
       line-height: 1.15;
@@ -37,7 +64,7 @@
 
     .header-week {
       font-size: 12px;
-      color: #777;
+      color: var(--muted);
       margin-top: 5px;
       letter-spacing: 0.06em;
       text-transform: uppercase;
@@ -46,12 +73,12 @@
     /* ---- Event card ---- */
 
     .event {
-      border-top: 1px solid #e2e2e0;
+      border-top: 1px solid var(--rule);
       padding: 24px 0 20px;
     }
 
     .event:last-of-type {
-      border-bottom: 1px solid #e2e2e0;
+      border-bottom: 1px solid var(--rule);
     }
 
     .event-top {
@@ -65,7 +92,7 @@
       font-weight: 700;
       letter-spacing: -0.04em;
       line-height: 1;
-      color: #1a1a1a;
+      color: var(--strong);
       min-width: 44px;
       padding-top: 2px;
     }
@@ -83,7 +110,7 @@
 
     .event-detail {
       font-size: 12px;
-      color: #777;
+      color: var(--muted);
       margin-top: 4px;
       display: flex;
       align-items: center;
@@ -96,21 +123,21 @@
       font-weight: 700;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      border: 1px solid #bbb;
-      color: #666;
+      border: 1px solid var(--rule-strong);
+      color: var(--muted);
       padding: 2px 5px;
       border-radius: 2px;
       white-space: nowrap;
     }
 
     .detail-sep {
-      color: #ccc;
+      color: var(--rule-strong);
     }
 
     .score-badge {
       font-size: 14px;
       font-weight: 700;
-      color: #1a1a1a;
+      color: var(--strong);
       white-space: nowrap;
       padding-top: 3px;
       font-variant-numeric: tabular-nums;
@@ -130,8 +157,8 @@
       font-weight: 600;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      color: #888;
-      border: 1px solid #d0d0d0;
+      color: var(--muted);
+      border: 1px solid var(--rule-strong);
       padding: 2px 6px;
       border-radius: 2px;
     }
@@ -141,7 +168,7 @@
     .explanation {
       font-size: 15px;
       line-height: 1.7;
-      color: #2a2a2a;
+      color: var(--text);
       margin-top: 16px;
     }
 
@@ -150,17 +177,17 @@
     .breakdown {
       display: flex;
       margin-top: 14px;
-      border: 1px solid #e8e8e6;
+      border: 1px solid var(--rule);
       border-radius: 4px;
       overflow: hidden;
-      background: #f5f5f3;
+      background: var(--surface);
     }
 
     .breakdown-item {
       flex: 1;
       text-align: center;
       padding: 9px 4px;
-      border-right: 1px solid #e8e8e6;
+      border-right: 1px solid var(--rule);
     }
 
     .breakdown-item:last-child {
@@ -172,7 +199,7 @@
       font-size: 9px;
       letter-spacing: 0.04em;
       text-transform: uppercase;
-      color: #aaa;
+      color: var(--muted);
       margin-bottom: 3px;
     }
 
@@ -180,14 +207,14 @@
       display: block;
       font-size: 13px;
       font-weight: 600;
-      color: #2a2a2a;
+      color: var(--text);
       font-family: 'Courier New', Courier, monospace;
     }
 
     .breakdown-max {
       display: block;
       font-size: 9px;
-      color: #c0c0be;
+      color: var(--rule-strong);
       font-family: 'Courier New', Courier, monospace;
     }
 
@@ -196,9 +223,9 @@
     .footer {
       margin-top: 44px;
       padding-top: 14px;
-      border-top: 1px solid #e2e2e0;
+      border-top: 1px solid var(--rule);
       font-size: 11px;
-      color: #aaa;
+      color: var(--muted);
       letter-spacing: 0.03em;
     }
 
@@ -206,7 +233,7 @@
 
     .diag-section {
       margin-top: 44px;
-      border-top: 1px dashed #d8d8d6;
+      border-top: 1px dashed var(--rule);
       padding-top: 14px;
     }
 
@@ -214,7 +241,7 @@
       font-size: 11px;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      color: #bbb;
+      color: var(--rule-strong);
       cursor: pointer;
       user-select: none;
       list-style: none;
@@ -223,7 +250,7 @@
     .diag-summary::-webkit-details-marker { display: none; }
     .diag-summary::before { content: "▶  "; font-size: 9px; }
     details[open] .diag-summary::before { content: "▼  "; }
-    .diag-summary:hover { color: #888; }
+    .diag-summary:hover { color: var(--muted); }
 
     .diag-body { margin-top: 14px; }
 
@@ -237,18 +264,18 @@
       font-size: 10px;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      border: 1px solid #d0d0ce;
+      border: 1px solid var(--rule-strong);
       background: none;
-      color: #888;
+      color: var(--muted);
       padding: 3px 10px;
       border-radius: 2px;
       cursor: pointer;
     }
 
     .diag-filter-btn.active {
-      background: #333;
-      color: #fff;
-      border-color: #333;
+      background: var(--text);
+      color: var(--bg);
+      border-color: var(--text);
     }
 
     .diag-tbl-wrap { overflow-x: auto; }
@@ -265,20 +292,20 @@
       font-size: 9px;
       letter-spacing: 0.04em;
       text-transform: uppercase;
-      color: #c0c0be;
+      color: var(--rule-strong);
       padding: 4px 10px 4px 0;
-      border-bottom: 1px solid #e8e8e6;
+      border-bottom: 1px solid var(--rule);
       white-space: nowrap;
     }
 
     .diag-tbl td {
       padding: 5px 10px 5px 0;
-      border-bottom: 1px solid #f0f0ee;
+      border-bottom: 1px solid var(--surface);
       vertical-align: middle;
     }
 
-    .diag-above td { color: #333; }
-    .diag-below td { color: #aaa; }
+    .diag-above td { color: var(--text); }
+    .diag-below td { color: var(--muted); }
 
     .diag-rk { font-weight: 600; white-space: nowrap; min-width: 28px; }
 
@@ -286,7 +313,7 @@
       font-size: 9px;
       letter-spacing: 0.04em;
       text-transform: uppercase;
-      color: #bbb;
+      color: var(--rule-strong);
       white-space: nowrap;
     }
 
@@ -311,8 +338,8 @@
     .diag-flag {
       font-size: 9px;
       letter-spacing: 0.03em;
-      border: 1px solid #e0e0de;
-      color: #999;
+      border: 1px solid var(--rule);
+      color: var(--muted);
       padding: 1px 4px;
       border-radius: 2px;
       margin-right: 3px;
@@ -322,7 +349,7 @@
 
     .diag-pitchers {
       font-size: 10px;
-      color: #888;
+      color: var(--muted);
       white-space: nowrap;
     }
 
@@ -330,7 +357,7 @@
       font-size: 9px;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      color: #ccc;
+      color: var(--rule-strong);
       text-align: center;
       padding: 6px 0;
     }
@@ -339,7 +366,7 @@
       font-size: 9px;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      color: #c0c0be;
+      color: var(--rule-strong);
       margin-bottom: 8px;
       margin-top: 20px;
     }
@@ -352,7 +379,7 @@
       gap: 10px;
       font-size: 11px;
       padding: 5px 0;
-      border-bottom: 1px solid #f0f0ee;
+      border-bottom: 1px solid var(--surface);
     }
 
     .diag-leader-spt {
@@ -360,23 +387,23 @@
       font-size: 9px;
       letter-spacing: 0.04em;
       text-transform: uppercase;
-      color: #bbb;
+      color: var(--rule-strong);
       min-width: 28px;
     }
 
     .diag-leader-game {
       flex: 1;
       font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
-      color: #555;
+      color: var(--text);
     }
 
     .diag-leader-score {
       font-family: 'Courier New', Courier, monospace;
-      color: #555;
+      color: var(--text);
     }
 
     .diag-in  { font-size: 10px; color: #6a9a6a; }
-    .diag-out { font-size: 10px; color: #bbb; }
+    .diag-out { font-size: 10px; color: var(--rule-strong); }
 
     .diag-mlb { margin-top: 4px; }
 
@@ -386,22 +413,22 @@
       font-size: 11px;
       font-family: 'Courier New', Courier, monospace;
       padding: 4px 0;
-      border-bottom: 1px solid #f0f0ee;
-      color: #666;
+      border-bottom: 1px solid var(--surface);
+      color: var(--muted);
     }
 
     .diag-mlb-lbl {
       font-size: 9px;
       letter-spacing: 0.03em;
       text-transform: uppercase;
-      color: #c0c0be;
+      color: var(--rule-strong);
       min-width: 130px;
       flex-shrink: 0;
     }
 
     .diag-mlb-note {
       font-size: 11px;
-      color: #c0c0be;
+      color: var(--rule-strong);
       font-family: 'Courier New', Courier, monospace;
       padding: 4px 0;
     }
@@ -410,7 +437,7 @@
 
     .review-section {
       margin-top: 20px;
-      border-top: 1px dashed #d8d8d6;
+      border-top: 1px dashed var(--rule);
       padding-top: 14px;
     }
 
@@ -418,7 +445,7 @@
       font-size: 11px;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      color: #bbb;
+      color: var(--rule-strong);
       cursor: pointer;
       user-select: none;
       list-style: none;
@@ -427,13 +454,13 @@
     .review-summary::-webkit-details-marker { display: none; }
     .review-summary::before { content: "▶  "; font-size: 9px; }
     details[open] .review-summary::before { content: "▼  "; }
-    .review-summary:hover { color: #888; }
+    .review-summary:hover { color: var(--muted); }
 
     .review-body {
       margin-top: 14px;
       font-size: 11px;
       font-family: 'Courier New', Courier, monospace;
-      color: #666;
+      color: var(--muted);
     }
 
     .review-header {
@@ -460,7 +487,7 @@
     .review-summary-text {
       font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
       font-size: 12px;
-      color: #444;
+      color: var(--text);
       line-height: 1.5;
     }
 
@@ -468,24 +495,42 @@
       font-size: 9px;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      color: #c0c0be;
+      color: var(--rule-strong);
       margin: 12px 0 4px;
     }
 
     .review-note {
       font-size: 11px;
-      color: #666;
+      color: var(--muted);
       padding: 4px 0;
-      border-bottom: 1px solid #f0f0ee;
+      border-bottom: 1px solid var(--surface);
       line-height: 1.5;
     }
 
     .review-note-ok   { color: #5a8a5a; }
     .review-note-warn { color: #8a5a30; }
+  
+    /* ---- Site header / footer (matches bdavey.co) ---- */
+    .site-header { display: flex; align-items: center; justify-content: space-between; padding: 18px 0 10px; border-bottom: 1px solid var(--rule); margin-bottom: 24px; }
+    .site-name { display: block; font-weight: 700; font-size: 18px; line-height: 1.3; color: var(--strong); text-decoration: none; }
+    .site-status { font-size: 14px; color: var(--muted); }
+    .theme-toggle { background: none; border: 0; padding: 6px; cursor: pointer; font-size: 20px; line-height: 1; color: var(--strong); }
+    .site-footer { display: flex; justify-content: center; gap: 28px; padding: 24px 0 8px; }
+    .site-footer a { color: var(--muted); display: flex; }
+    .site-footer a:hover { color: var(--link); }
+    .site-footer svg { width: 20px; height: 20px; fill: currentColor; }
   </style>
 </head>
 <body>
   <div class="page">
+
+    <header class="site-header">
+      <div>
+        <a href="/" class="site-name">Brett Davey</a>
+        <div class="site-status">Building in San Diego 🌊☀️</div>
+      </div>
+      <button class="theme-toggle" aria-label="Toggle dark mode">☽</button>
+    </header>
 
     <header class="header">
       <div class="header-title">Must Watch This Week</div>
@@ -504,6 +549,12 @@
 
     {{review_html}}
 
+    <footer class="site-footer">
+      <a href="https://linkedin.com/in/bretttdavey" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.3-.03-3-1.83-3-1.83 0-2.12 1.43-2.12 2.9V21H9z"/></svg></a>
+      <a href="https://github.com/bdavey619" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+      <a href="mailto:bdavey619@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5h20v14H2zm2 2v.4l8 5.3 8-5.3V7zm16 2.8-8 5.3-8-5.3V17h16z"/></svg></a>
+    </footer>
   </div>
+  <script src="/js/main.js"></script>
 </body>
 </html>

@@ -10,29 +10,21 @@
   <meta property="og:image:height" content="1260">
   <meta property="og:image:alt" content="Brett Davey — I build small things that change what you notice.">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="theme-color" content="#dbe3e8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#fbfcfc" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0d2a31" media="(prefers-color-scheme: dark)">
   <link rel="canonical" href="https://bdavey.co/">
   <meta http-equiv="refresh" content="0; url=/">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <script>
-    /* Runs before first paint so a stored choice never flashes the wrong theme.
-       With no stored choice we leave the page unstamped and let the CSS
-       prefers-color-scheme block decide, which also means the page follows
-       live OS changes for free. Local time is only consulted when the OS
-       reports no preference at all. */
-    (function () {
-      try {
-        var d = document.documentElement,
-            c = localStorage.getItem('theme-choice');
-        if (c === 'light' || c === 'dark') { d.setAttribute('data-theme', c); return; }
-        if (window.matchMedia('(prefers-color-scheme: no-preference)').matches) {
-          var h = new Date().getHours();
-          d.setAttribute('data-theme', (h < 7 || h >= 19) ? 'dark' : 'light');
-        }
-      } catch (e) {}
-    })();
+    /* Before first paint: apply a stored theme choice so it never flashes.
+       With no choice, CSS follows the OS. */
+    /* Phones default to dark; a tap on the toggle still overrides it. */
+    try {
+      var c = localStorage.getItem('theme-choice');
+      if (c !== 'light' && c !== 'dark' && window.matchMedia('(max-width: 640px)').matches) c = 'dark';
+      if (c === 'light' || c === 'dark') document.documentElement.setAttribute('data-theme', c);
+    } catch (e) {}
   </script>
   <link rel="stylesheet" href="../css/style.css">
 </head>

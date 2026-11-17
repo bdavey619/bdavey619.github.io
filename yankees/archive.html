@@ -4,26 +4,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yankees Morning Brief — Archive</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <meta name="theme-color" content="#fbfcfc" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0d2a31" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <script>
+    /* Before first paint: apply a stored theme choice so it never flashes.
+       With no choice, CSS follows the OS. */
+    /* Phones default to dark; a tap on the toggle still overrides it. */
+    try {
+      var c = localStorage.getItem('theme-choice');
+      if (c !== 'light' && c !== 'dark' && window.matchMedia('(max-width: 640px)').matches) c = 'dark';
+      if (c === 'light' || c === 'dark') document.documentElement.setAttribute('data-theme', c);
+    } catch (e) {}
+  </script>
   <link rel="stylesheet" href="styles.css" />
   <style>
     .back-link {
-      font-family: 'Inter', sans-serif;
+      font-family: var(--sans);
       font-size: 0.8rem;
       font-weight: 500;
-      color: #5a534c;
+      color: var(--ink-soft);
       text-decoration: none;
       letter-spacing: 0.03em;
     }
-    .back-link:hover { color: #1a1613; }
+    .back-link:hover { color: var(--ink); }
 
     /* Archive list */
     .archive-table {
       width: 100%;
       border-collapse: collapse;
-      font-family: 'Inter', sans-serif;
+      font-family: var(--sans);
       font-size: 0.875rem;
       margin-top: 0.5rem;
     }
@@ -33,39 +43,47 @@
       font-weight: 600;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      color: #8a8278;
-      border-bottom: 1px solid #d8d2c4;
+      color: var(--ink-faint);
+      border-bottom: 1px solid var(--rule-soft);
       padding: 0 8px 8px 0;
     }
     .archive-row {
       cursor: pointer;
-      border-bottom: 1px solid #e8e2da;
+      border-bottom: 1px solid var(--rule-soft);
     }
-    .archive-row:hover { background: #f0ece4; }
+    .archive-row:hover { background: var(--hover); }
     .archive-row td {
       padding: 10px 8px 10px 0;
       vertical-align: top;
     }
-    .archive-col-date { white-space: nowrap; color: #5a534c; min-width: 120px; }
-    .archive-col-result { white-space: nowrap; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; min-width: 60px; }
-    .archive-col-opp { white-space: nowrap; color: #8a8278; min-width: 40px; }
-    .archive-col-subhead { color: #1a1613; line-height: 1.4; }
+    .archive-col-date { white-space: nowrap; color: var(--ink-soft); min-width: 120px; }
+    .archive-col-result { white-space: nowrap; font-family: var(--mono); font-size: 0.8rem; min-width: 60px; }
+    .archive-col-opp { white-space: nowrap; color: var(--ink-faint); min-width: 40px; }
+    .archive-col-subhead { color: var(--ink); line-height: 1.4; }
     .result-win  { color: #2a7a3b; font-weight: 600; }
     .result-loss { color: #b03030; font-weight: 600; }
-    .archive-empty, .archive-error { color: #8a8278; font-style: italic; padding: 1rem 0; }
+    .archive-empty, .archive-error { color: var(--ink-faint); font-style: italic; padding: 1rem 0; }
     .archive-subtitle {
-      font-family: 'Inter', sans-serif;
+      font-family: var(--sans);
       font-size: 0.8rem;
       font-weight: 500;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      color: #8a8278;
+      color: var(--ink-faint);
       margin: 0 0 1.25rem;
     }
   </style>
 </head>
 <body>
   <main id="brief">
+    <header class="site-header">
+      <div>
+        <a href="/" class="site-name">Brett Davey</a>
+        <div class="site-status">Building in San Diego 🌊☀️</div>
+      </div>
+      <button class="theme-toggle" aria-label="Toggle dark mode">☽</button>
+    </header>
+
     <!-- Masthead -->
     <header class="masthead">
       <div class="masthead-meta">
@@ -125,6 +143,11 @@
         <span id="generated-at">—</span>
       </footer>
     </div>
+    <footer class="site-footer">
+      <a href="https://linkedin.com/in/bretttdavey" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.3-.03-3-1.83-3-1.83 0-2.12 1.43-2.12 2.9V21H9z"/></svg></a>
+      <a href="https://github.com/bdavey619" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+      <a href="mailto:bdavey619@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5h20v14H2zm2 2v.4l8 5.3 8-5.3V7zm16 2.8-8 5.3-8-5.3V17h16z"/></svg></a>
+    </footer>
   </main>
 
   <div id="error" class="error" hidden>
@@ -142,5 +165,6 @@
     };
   </script>
   <script src="../js/archive.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>
