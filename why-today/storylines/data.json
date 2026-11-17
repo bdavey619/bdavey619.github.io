@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-12",
-  "cycle_start": "2026-11-15T00:20:00Z",
-  "last_updated": "2026-11-16T14:30:00Z",
+  "cycle_start": "2026-11-16T14:30:00Z",
+  "last_updated": "2026-11-17T00:20:00Z",
   "storylines": [
     {
       "id": "brewers-nlcs-sweep-2026",
@@ -600,6 +600,35 @@
         {
           "date": "2026-11-15T00:20:00Z",
           "note": "Uruguay (first papal visit since 1988): ~40,000 at a Paysandu Mass, a vigil at Montevideo's Centenario Stadium. Argentina (first since 1987): millions in Buenos Aires streets; the pope told Milei the economy must serve people, not the reverse. Now in Peru, his former diocese."
+        }
+      ]
+    },
+    {
+      "id": "caltech-astra-robot-space-assembly-2026",
+      "stream": "natural_world",
+      "category": "Science",
+      "observer": "Why Today?",
+      "title": "A robot built something in space, with three humans quietly steering it from the ground",
+      "observation": "Caltech's ASTRA robot is being called the first to autonomously assemble a structure in space, building a section of an antenna truss in orbit over six months - though three team members on the ground sent it commands and checked progress via photos throughout.",
+      "question": "What does it mean to call construction 'autonomous' when a human team on the ground is still sending every command?",
+      "hidden_question": "Is this a genuine first in space robotics, or a demonstration whose 'autonomous' framing says more about how an achievement gets marketed than about how it was actually done?",
+      "pattern": "a breakthrough billed as fully autonomous turns out, on closer look, to still depend on a human team steering it from a distance - the claim and the mechanism don't quite match",
+      "transferability": "medium",
+      "cluster_id": "",
+      "why_now": "Announced Nov 9 after about six months in orbit (launched March 30 on a SpaceX Transporter-16 mission from Vandenberg); the robot finished a third truss bay but not the full antenna, so the structure itself is still unfinished.",
+      "status": "captured",
+      "editorial_potential": "high",
+      "url": "https://sciencedaily.com/releases/2026/11/261108233043.htm",
+      "location": "Low Earth orbit (Caltech ASTRA payload)",
+      "season_or_time_context": "Launched March 30, 2026 on SpaceX Transporter-16; assembly milestone announced Nov 9, 2026",
+      "source_date": "2026-11-09",
+      "first_seen": "2026-11-17T00:20:00Z",
+      "last_seen": "2026-11-17T00:20:00Z",
+      "appearances": 1,
+      "history": [
+        {
+          "date": "2026-11-17T00:20:00Z",
+          "note": "Caltech's ASTRA robot assembled a third truss bay of an antenna structure in orbit over six months; lead researcher Sergio Pellegrino called it the first autonomously constructed space structure, though ground crew sent commands throughout."
         }
       ]
     }
