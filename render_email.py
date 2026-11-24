@@ -409,7 +409,12 @@ def main():
 
     brief = load_brief(team_dir)
     lg = brief["last_game"]
-    is_postponed = lg.get("status") == "postponed"
+    lg_status    = lg.get("status")
+    is_postponed = lg_status == "postponed"
+    # Anything that is neither played nor postponed has no score, result or
+    # box score. build_brief emits {"status": "off_day"} once nothing Final
+    # falls in its 14-day lookback, which in practice means the offseason.
+    is_no_game   = lg_status not in ("final", "postponed")
 
     # Game identity \u2014 diverges for postponed games
     if is_postponed:
@@ -425,6 +430,20 @@ def main():
             "Game not played.</td></tr>"
         )
         pitcher = {}
+    elif is_no_game:
+        has_next      = bool(brief.get("next_game"))
+        home_away     = ""
+        score_display = "\u2014"
+        vs_line       = ""
+        result_label  = "NO RECENT GAMES" if has_next else "OFFSEASON"
+        result_color  = "#8a8278"
+        key_hitters_rows = (
+            '<tr><td colspan="2" style="padding:10px 0;'
+            "font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;"
+            'font-size:13px;font-style:italic;color:#8a8278;">'
+            "No game to report.</td></tr>"
+        )
+        pitcher = {}
     else:
         team_score    = lg["score"]["team"]
         opp_score     = lg["score"]["opp"]
@@ -438,7 +457,7 @@ def main():
         pitcher       = lg.get("key_pitcher") or {}
 
     # Next game teaser
-    ng = brief.get("next_game", {})
+    ng = brief.get("next_game") or {}
     ng_home_away = "vs" if ng.get("home") else "@"
     ng_prob = ng.get("probable") or {}
     next_probables = f"{ng_prob.get('team', 'TBD')} vs {ng_prob.get('opp', 'TBD')}" if ng_prob else "TBD"
@@ -454,6 +473,18 @@ def main():
     else:
         next_insight_row = ""
         next_insight_pb = "20px"
+
+    # Join only the parts we have, so a missing field cannot leave a stray
+    # separator and the offseason collapses to one clean phrase.
+    if ng:
+        next_up_line = " &middot; ".join(part for part in (
+            next_day_label(ng.get("date", "")),
+            f"{ng_home_away} {ng.get('opponent', '')}".strip(),
+            ng.get("time_local", ""),
+            next_probables,
+        ) if part)
+    else:
+        next_up_line = "No games scheduled"
 
     # State of Play — prefer AI narrative when available, fall back to deterministic insight
     narrative = brief.get("narrative", {})
@@ -480,6 +511,14 @@ def main():
         game_note_text = (
             f"Postponed due to {reason.lower()}." if reason else "Game was postponed."
         )
+    elif is_no_game:
+        season = brief.get("season", "")
+        context_line_with_date = f"{season} season".strip()
+        game_note_text = (
+            "No completed games in the past two weeks."
+            if ng
+            else "The season has ended. Daily briefs resume when games do."
+        )
     else:
         existing_context = lg.get("context_line", "")
         context_line_with_date = (
@@ -502,9 +541,9 @@ def main():
         "vs_line":              vs_line,
         "context_line":         context_line_with_date,
         "game_note":            game_note_text,
-        "highlights_link":      "" if is_postponed else build_highlights_link(lg.get("highlights_url"), cfg.accent_color),
-        "game_driver_block":    "" if is_postponed else _build_game_driver_block(lg.get("game_driver"), clutch_name),
-        "clutch_block":         "" if is_postponed else _build_clutch_block(lg.get("clutch_player")),
+        "highlights_link":      "" if (is_postponed or is_no_game) else build_highlights_link(lg.get("highlights_url"), cfg.accent_color),
+        "game_driver_block":    "" if (is_postponed or is_no_game) else _build_game_driver_block(lg.get("game_driver"), clutch_name),
+        "clutch_block":         "" if (is_postponed or is_no_game) else _build_clutch_block(lg.get("clutch_player")),
         "key_hitters_rows":  key_hitters_rows,
         "pitcher_name":      pitcher.get("name", ""),
         "pitcher_line":      pitcher.get("line", ""),
@@ -512,10 +551,7 @@ def main():
         "insight_detail":      insight_detail,
         "team_snapshot_block": team_snapshot_block,
         "what_to_watch_block": _build_what_to_watch_block(what_to_watch_text),
-        "next_day_label":    next_day_label(ng.get("date", "")),
-        "next_opponent":     f"{ng_home_away} {ng.get('opponent', '')}",
-        "next_time":         ng.get("time_local", ""),
-        "next_probables":    next_probables,
+        "next_up_line":      next_up_line,
         "next_insight_row":  next_insight_row,
         "next_insight_pb":   next_insight_pb,
         "site_url":          cfg.site_url,
