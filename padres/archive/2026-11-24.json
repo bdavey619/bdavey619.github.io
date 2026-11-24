@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-11-24T17:17:48+00:00",
+  "season": 2026,
+  "team": {
+    "record": "91-71",
+    "streak": "W2",
+    "run_diff": "+41",
+    "last10": "8-2",
+    "division_rank": 2,
+    "games_back": "9.0",
+    "avg": ".244",
+    "ops": ".717",
+    "era": "3.99"
+  },
+  "last_game": {
+    "status": "off_day",
+    "clutch_player": null,
+    "game_driver": null
+  },
+  "next_game": null,
+  "standings": [
+    {
+      "team": "Dodgers",
+      "w": 100,
+      "l": 62,
+      "gb": "-",
+      "last10": "8-2"
+    },
+    {
+      "team": "Padres",
+      "w": 91,
+      "l": 71,
+      "gb": "9.0",
+      "last10": "8-2"
+    },
+    {
+      "team": "D-backs",
+      "w": 86,
+      "l": 76,
+      "gb": "14.0",
+      "last10": "6-4"
+    },
+    {
+      "team": "Giants",
+      "w": 65,
+      "l": 97,
+      "gb": "35.0",
+      "last10": "2-8"
+    },
+    {
+      "team": "Rockies",
+      "w": 58,
+      "l": 104,
+      "gb": "42.0",
+      "last10": "2-8"
+    }
+  ],
+  "hot_players": {
+    "hitters": [],
+    "pitchers": []
+  },
+  "insight": {
+    "headline": "Balanced ball. Padres are 8-2 in the last ten.",
+    "detail": "Both sides have contributed: .244 average, .717 OPS at the plate, 3.99 ERA from the staff.",
+    "why": "ERA at 3.99 \u00b7 OPS at .717 \u00b7 8\u20132 in the last ten"
+  },
+  "story_hook": "",
+  "story_threads_debug": [
+    "both sides clicking"
+  ],
+  "game_story": null,
+  "narrative": {
+    "top_frame": "I don't have game data to work from. The LAST GAME section is empty. No result, no pitcher, no hitters, no offense line.",
+    "what_this_means": "To write today's Padres Morning Brief, I need:\n- Final score and opponent\n- Starting pitcher and their line (IP, H, R, ER, BB, SO)\n- Key hitters and their box lines\n- Bullpen usage (if relevant)\n- Any Game Driver or Turning Point signals",
+    "what_to_watch": "Please provide the box score and game context, and I'll deliver the brief.",
+    "story_state": {
+      "trend": "surging",
+      "driver": "balanced",
+      "confidence": "high",
+      "pressure": "low",
+      "record_w": 91,
+      "record_l": 71,
+      "streak": "W2",
+      "last10_w": 8,
+      "era": 3.99,
+      "ops": 0.717,
+      "gb": 9.0,
+      "division_rank": 2,
+      "last_result": "",
+      "date": "",
+      "game_emotion_level": "normal",
+      "drama_sequence": null
+    },
+    "story_delta": {
+      "has_prev": true,
+      "trend_changed": false,
+      "trend_direction": "unchanged",
+      "conf_changed": false,
+      "pressure_changed": false,
+      "driver_changed": false,
+      "signals": [
+        "narrative unchanged \u2014 same trend, driver, and pressure as yesterday"
+      ]
+    }
+  }
+}
