@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T15:18:23+00:00",
+  "generated_at": "2026-11-25T21:56:41+00:00",
   "season": 2026,
   "team": {
     "record": "64-98",
@@ -68,39 +68,5 @@
   "story_threads_debug": [
     "inconsistency"
   ],
-  "game_story": null,
-  "narrative": {
-    "top_frame": "I cannot write this brief. The context provided contains no game data.",
-    "what_this_means": "Missing required information:\n- LAST GAME result, pitchers, hitters, and outcome (all marked N/A or blank)\n- GAME DRIVER: not detected\n- TURNING POINT: not detected\n- GAME STORY SIGNALS: not available\n- NEXT GAME: N/A",
-    "what_to_watch": "What I need to proceed:\n1. Final score and opponent\n2. Starting pitchers and their lines\n3. Key offensive contributors (hitters, RBI)\n4. At least one moment that decided the game (Game Driver or Turning Point)\n5. Next opponent and date/probable starters",
-    "story_state": {
-      "trend": "slipping",
-      "driver": "balanced",
-      "confidence": "low",
-      "pressure": "low",
-      "record_w": 64,
-      "record_l": 98,
-      "streak": "L2",
-      "last10_w": 3,
-      "era": 5.51,
-      "ops": 0.719,
-      "gb": 17.0,
-      "division_rank": 4,
-      "last_result": "",
-      "date": "",
-      "game_emotion_level": "normal",
-      "drama_sequence": null
-    },
-    "story_delta": {
-      "has_prev": true,
-      "trend_changed": false,
-      "trend_direction": "unchanged",
-      "conf_changed": false,
-      "pressure_changed": false,
-      "driver_changed": false,
-      "signals": [
-        "division gap: fell back 1.0 game(s) (17.0 back)"
-      ]
-    }
-  }
+  "game_story": null
 }
