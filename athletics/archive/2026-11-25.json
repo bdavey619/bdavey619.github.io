@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-11-25T15:18:23+00:00",
+  "season": 2026,
+  "team": {
+    "record": "64-98",
+    "streak": "L2",
+    "run_diff": "-238",
+    "last10": "3-7",
+    "division_rank": 4,
+    "games_back": "17.0",
+    "avg": ".245",
+    "ops": ".719",
+    "era": "5.51"
+  },
+  "last_game": {
+    "status": "off_day",
+    "clutch_player": null,
+    "game_driver": null
+  },
+  "next_game": null,
+  "standings": [
+    {
+      "team": "Astros",
+      "w": 81,
+      "l": 81,
+      "gb": "-",
+      "last10": "5-5"
+    },
+    {
+      "team": "Rangers",
+      "w": 80,
+      "l": 82,
+      "gb": "1.0",
+      "last10": "4-6"
+    },
+    {
+      "team": "Mariners",
+      "w": 76,
+      "l": 86,
+      "gb": "5.0",
+      "last10": "6-4"
+    },
+    {
+      "team": "Athletics",
+      "w": 64,
+      "l": 98,
+      "gb": "17.0",
+      "last10": "3-7"
+    },
+    {
+      "team": "Angels",
+      "w": 62,
+      "l": 100,
+      "gb": "19.0",
+      "last10": "4-6"
+    }
+  ],
+  "hot_players": {
+    "hitters": [],
+    "pitchers": []
+  },
+  "insight": {
+    "headline": "A 3-7 stretch over the last ten is a real concern.",
+    "detail": "The Athletics are batting .245 (.719 OPS). Good enough to compete. But a 5.51 ERA has cost them. The pitching is the problem.",
+    "why": "rotation a concern (5.51 ERA) \u00b7 OPS at .719 \u00b7 3\u20137 in the last ten"
+  },
+  "story_hook": "",
+  "story_threads_debug": [
+    "inconsistency"
+  ],
+  "game_story": null,
+  "narrative": {
+    "top_frame": "I cannot write this brief. The context provided contains no game data.",
+    "what_this_means": "Missing required information:\n- LAST GAME result, pitchers, hitters, and outcome (all marked N/A or blank)\n- GAME DRIVER: not detected\n- TURNING POINT: not detected\n- GAME STORY SIGNALS: not available\n- NEXT GAME: N/A",
+    "what_to_watch": "What I need to proceed:\n1. Final score and opponent\n2. Starting pitchers and their lines\n3. Key offensive contributors (hitters, RBI)\n4. At least one moment that decided the game (Game Driver or Turning Point)\n5. Next opponent and date/probable starters",
+    "story_state": {
+      "trend": "slipping",
+      "driver": "balanced",
+      "confidence": "low",
+      "pressure": "low",
+      "record_w": 64,
+      "record_l": 98,
+      "streak": "L2",
+      "last10_w": 3,
+      "era": 5.51,
+      "ops": 0.719,
+      "gb": 17.0,
+      "division_rank": 4,
+      "last_result": "",
+      "date": "",
+      "game_emotion_level": "normal",
+      "drama_sequence": null
+    },
+    "story_delta": {
+      "has_prev": true,
+      "trend_changed": false,
+      "trend_direction": "unchanged",
+      "conf_changed": false,
+      "pressure_changed": false,
+      "driver_changed": false,
+      "signals": [
+        "division gap: fell back 1.0 game(s) (17.0 back)"
+      ]
+    }
+  }
+}
