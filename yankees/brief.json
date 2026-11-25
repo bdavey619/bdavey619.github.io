@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T15:17:15+00:00",
+  "generated_at": "2026-11-25T20:23:42+00:00",
   "season": 2026,
   "team": {
     "record": "93-68",
@@ -69,39 +69,5 @@
     "division pressure",
     "inconsistency"
   ],
-  "game_story": null,
-  "narrative": {
-    "top_frame": "I don't have specific box score data for yesterday's game. The LAST GAME section shows \"Result: ? ?\u2013? vs ? \u00b7\" with no final score, pitcher names, hitter stats, or offensive totals recorded.",
-    "what_this_means": "Without knowing:\n- The final score\n- Which starter pitched and their line\n- Who the Game Driver or Turning Point performer was\n- Offensive stats (hits, runs, strikeouts, LOB)\n- The opponent",
-    "what_to_watch": "I cannot write an accurate Yankees Morning Brief.",
-    "story_state": {
-      "trend": "fragile",
-      "driver": "balanced",
-      "confidence": "low",
-      "pressure": "building",
-      "record_w": 93,
-      "record_l": 68,
-      "streak": "W1",
-      "last10_w": 5,
-      "era": 3.23,
-      "ops": 0.72,
-      "gb": 4.5,
-      "division_rank": 2,
-      "last_result": "",
-      "date": "",
-      "game_emotion_level": "normal",
-      "drama_sequence": null
-    },
-    "story_delta": {
-      "has_prev": true,
-      "trend_changed": false,
-      "trend_direction": "unchanged",
-      "conf_changed": false,
-      "pressure_changed": false,
-      "driver_changed": false,
-      "signals": [
-        "narrative unchanged \u2014 same trend, driver, and pressure as yesterday"
-      ]
-    }
-  }
+  "game_story": null
 }
