@@ -1,52 +1,34 @@
 {
-  "generated_at": "2026-09-27T16:32:42+00:00",
+  "generated_at": "2026-11-25T15:17:43+00:00",
   "season": 2026,
   "team": {
-    "record": "65-96",
-    "streak": "L4",
-    "run_diff": "-87",
-    "last10": "3-7",
+    "record": "65-97",
+    "streak": "L5",
+    "run_diff": "-91",
+    "last10": "2-8",
     "division_rank": 4,
-    "games_back": "34.0",
-    "avg": ".246",
-    "ops": ".708",
-    "era": "4.34"
+    "games_back": "35.0",
+    "avg": ".245",
+    "ops": ".706",
+    "era": "4.33"
   },
   "last_game": {
-    "status": "postponed",
-    "gamePk": 823164,
-    "date": "2026-09-27",
-    "opponent": "LAD",
-    "home": true,
-    "venue": "Oracle Park",
-    "postponed_reason": "",
-    "makeup_date": null,
+    "status": "off_day",
     "clutch_player": null,
     "game_driver": null
   },
-  "next_game": {
-    "gamePk": 823164,
-    "date": "2026-09-27",
-    "opponent": "LAD",
-    "home": true,
-    "time_local": "12:05 PM PT",
-    "probable": {
-      "team": "Carson Seymour",
-      "opp": "Jack Dreyer",
-      "opp_era": "3.16"
-    }
-  },
+  "next_game": null,
   "standings": [
     {
       "team": "Dodgers",
-      "w": 99,
+      "w": 100,
       "l": 62,
       "gb": "-",
-      "last10": "7-3"
+      "last10": "8-2"
     },
     {
       "team": "Padres",
-      "w": 90,
+      "w": 91,
       "l": 71,
       "gb": "9.0",
       "last10": "8-2"
@@ -54,22 +36,22 @@
     {
       "team": "D-backs",
       "w": 86,
-      "l": 75,
-      "gb": "13.0",
+      "l": 76,
+      "gb": "14.0",
       "last10": "6-4"
     },
     {
       "team": "Giants",
       "w": 65,
-      "l": 96,
-      "gb": "34.0",
-      "last10": "3-7"
+      "l": 97,
+      "gb": "35.0",
+      "last10": "2-8"
     },
     {
       "team": "Rockies",
       "w": 58,
-      "l": 103,
-      "gb": "41.0",
+      "l": 104,
+      "gb": "42.0",
       "last10": "2-8"
     }
   ],
@@ -78,9 +60,9 @@
     "pitchers": []
   },
   "insight": {
-    "headline": "A 3-7 stretch over the last ten is a real concern.",
-    "detail": "The Giants are batting .246 (.708 OPS). Good enough to compete. But a 4.34 ERA has cost them. The pitching is the problem.",
-    "why": "rotation a concern (4.34 ERA) \u00b7 OPS at .708 \u00b7 3\u20137 in the last ten"
+    "headline": "A 2-8 stretch over the last ten is a real concern.",
+    "detail": "The Giants are batting .245 (.706 OPS). Good enough to compete. But a 4.33 ERA has cost them. The pitching is the problem.",
+    "why": "rotation a concern (4.33 ERA) \u00b7 OPS at .706 \u00b7 2\u20138 in the last ten"
   },
   "story_hook": "",
   "story_threads_debug": [
@@ -88,24 +70,24 @@
   ],
   "game_story": null,
   "narrative": {
-    "top_frame": "No game last night. Postponed.",
-    "what_this_means": "",
-    "what_to_watch": "Makeup date TBD. Next up: vs LAD on Sunday, September 27.",
+    "top_frame": "I need context to write this brief, but the data provided is incomplete:",
+    "what_this_means": "Missing critical information:\n- No LAST GAME result (score, outcome unspecified with \"? ?\u2013?\")\n- No key pitcher or key hitters identified\n- No GAME DRIVER detected\n- No TURNING POINT detected\n- GAME STORY SIGNALS: \"not available\"\n- NEXT GAME context shows all values as \"N/A\"",
+    "what_to_watch": "What I can confirm from TEAM CONTEXT:\n- Record: 65-97, Streak: L5, Last 10: 2-8\n- 35 games back in division (Rank 4)\n- Trend: slipping; Driver: balanced; Confidence: low\n- Story thread: inconsistency",
     "story_state": {
       "trend": "slipping",
       "driver": "balanced",
       "confidence": "low",
       "pressure": "low",
       "record_w": 65,
-      "record_l": 96,
-      "streak": "L4",
-      "last10_w": 3,
-      "era": 4.34,
-      "ops": 0.708,
-      "gb": 34.0,
+      "record_l": 97,
+      "streak": "L5",
+      "last10_w": 2,
+      "era": 4.33,
+      "ops": 0.706,
+      "gb": 35.0,
       "division_rank": 4,
       "last_result": "",
-      "date": "2026-09-27",
+      "date": "",
       "game_emotion_level": "normal",
       "drama_sequence": null
     },
@@ -117,7 +99,7 @@
       "pressure_changed": false,
       "driver_changed": false,
       "signals": [
-        "division gap: fell back 1.0 game(s) (34.0 back)"
+        "division gap: fell back 1.0 game(s) (35.0 back)"
       ]
     }
   }
