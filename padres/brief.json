@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T17:17:48+00:00",
+  "generated_at": "2026-11-25T19:59:34+00:00",
   "season": 2026,
   "team": {
     "record": "91-71",
@@ -68,39 +68,5 @@
   "story_threads_debug": [
     "both sides clicking"
   ],
-  "game_story": null,
-  "narrative": {
-    "top_frame": "I don't have game data to work from. The LAST GAME section is empty. No result, no pitcher, no hitters, no offense line.",
-    "what_this_means": "To write today's Padres Morning Brief, I need:\n- Final score and opponent\n- Starting pitcher and their line (IP, H, R, ER, BB, SO)\n- Key hitters and their box lines\n- Bullpen usage (if relevant)\n- Any Game Driver or Turning Point signals",
-    "what_to_watch": "Please provide the box score and game context, and I'll deliver the brief.",
-    "story_state": {
-      "trend": "surging",
-      "driver": "balanced",
-      "confidence": "high",
-      "pressure": "low",
-      "record_w": 91,
-      "record_l": 71,
-      "streak": "W2",
-      "last10_w": 8,
-      "era": 3.99,
-      "ops": 0.717,
-      "gb": 9.0,
-      "division_rank": 2,
-      "last_result": "",
-      "date": "",
-      "game_emotion_level": "normal",
-      "drama_sequence": null
-    },
-    "story_delta": {
-      "has_prev": true,
-      "trend_changed": false,
-      "trend_direction": "unchanged",
-      "conf_changed": false,
-      "pressure_changed": false,
-      "driver_changed": false,
-      "signals": [
-        "narrative unchanged \u2014 same trend, driver, and pressure as yesterday"
-      ]
-    }
-  }
+  "game_story": null
 }
