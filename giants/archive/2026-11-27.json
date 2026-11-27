@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-11-27T20:29:11+00:00",
+  "season": 2026,
+  "team": {
+    "record": "65-97",
+    "streak": "L5",
+    "run_diff": "-91",
+    "last10": "2-8",
+    "division_rank": 4,
+    "games_back": "35.0",
+    "avg": ".245",
+    "ops": ".706",
+    "era": "4.33"
+  },
+  "last_game": {
+    "status": "off_day",
+    "clutch_player": null,
+    "game_driver": null
+  },
+  "next_game": null,
+  "standings": [
+    {
+      "team": "Dodgers",
+      "w": 100,
+      "l": 62,
+      "gb": "-",
+      "last10": "8-2"
+    },
+    {
+      "team": "Padres",
+      "w": 91,
+      "l": 71,
+      "gb": "9.0",
+      "last10": "8-2"
+    },
+    {
+      "team": "D-backs",
+      "w": 86,
+      "l": 76,
+      "gb": "14.0",
+      "last10": "6-4"
+    },
+    {
+      "team": "Giants",
+      "w": 65,
+      "l": 97,
+      "gb": "35.0",
+      "last10": "2-8"
+    },
+    {
+      "team": "Rockies",
+      "w": 58,
+      "l": 104,
+      "gb": "42.0",
+      "last10": "2-8"
+    }
+  ],
+  "hot_players": {
+    "hitters": [],
+    "pitchers": []
+  },
+  "insight": {
+    "headline": "A 2-8 stretch over the last ten is a real concern.",
+    "detail": "The Giants are batting .245 (.706 OPS). Good enough to compete. But a 4.33 ERA has cost them. The pitching is the problem.",
+    "why": "rotation a concern (4.33 ERA) \u00b7 OPS at .706 \u00b7 2\u20138 in the last ten"
+  },
+  "story_hook": "",
+  "story_threads_debug": [
+    "inconsistency"
+  ],
+  "game_story": null
+}
