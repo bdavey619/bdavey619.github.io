@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-11-27T19:50:19+00:00",
+  "season": 2026,
+  "team": {
+    "record": "93-68",
+    "streak": "W1",
+    "run_diff": "+138",
+    "last10": "5-5",
+    "division_rank": 2,
+    "games_back": "4.5",
+    "avg": ".235",
+    "ops": ".720",
+    "era": "3.23"
+  },
+  "last_game": {
+    "status": "off_day",
+    "clutch_player": null,
+    "game_driver": null
+  },
+  "next_game": null,
+  "standings": [
+    {
+      "team": "Rays",
+      "w": 98,
+      "l": 64,
+      "gb": "-",
+      "last10": "5-5"
+    },
+    {
+      "team": "Yankees",
+      "w": 93,
+      "l": 68,
+      "gb": "4.5",
+      "last10": "5-5"
+    },
+    {
+      "team": "Red Sox",
+      "w": 87,
+      "l": 75,
+      "gb": "11.0",
+      "last10": "5-5"
+    },
+    {
+      "team": "Orioles",
+      "w": 79,
+      "l": 82,
+      "gb": "18.5",
+      "last10": "6-4"
+    },
+    {
+      "team": "Blue Jays",
+      "w": 79,
+      "l": 83,
+      "gb": "19.0",
+      "last10": "4-6"
+    }
+  ],
+  "hot_players": {
+    "hitters": [],
+    "pitchers": []
+  },
+  "insight": {
+    "headline": "A 3.23 ERA should be winning more games.",
+    "detail": "Staff ERA is 3.23. That's held up. But New York is just 5-5 in the last ten. A .720 OPS hasn't turned good pitching into wins.",
+    "why": "staff carrying (3.23 ERA) \u00b7 OPS at .720 \u00b7 5\u20135 in the last ten"
+  },
+  "story_hook": "",
+  "story_threads_debug": [
+    "division pressure",
+    "inconsistency"
+  ],
+  "game_story": null
+}
